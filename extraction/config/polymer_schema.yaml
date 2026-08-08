@@ -1,0 +1,166 @@
+schema_version: "1.0"
+
+# 来源：docs/17类性质完整对照.md 的 17 类、97 个公开条目。
+# 格式：normalized_name: [PoLyInfo代码, property_category]
+property_vocabulary:
+  density: [P1110, physical_property]
+  specific_volume: [P1110, physical_property]
+  refractive_index: [P2110, optical_property]
+  stress_optical_coefficient: [P2120, optical_property]
+  crystallization_kinetics: [P3150, thermal_property]
+  crystallization_temperature: [P3140, thermal_property]
+  glass_transition_temperature: [P3110, thermal_property]
+  heat_of_crystallization: [P3140, thermal_property]
+  heat_of_fusion: [P3130, thermal_property]
+  thermal_decomposition_temperature: [P3170, thermal_property]
+  lc_phase_transition_temperature: [P3160, thermal_property]
+  linear_expansion_coefficient: [P3180, thermal_property]
+  melting_temperature: [P3120, thermal_property]
+  specific_heat_capacity_cp: [P3210, thermal_property]
+  specific_heat_capacity_cv: [P3210, thermal_property]
+  thermal_conductivity: [P3190, thermal_property]
+  thermal_diffusivity: [P3190, thermal_property]
+  volume_expansion_coefficient: [P3180, thermal_property]
+  dielectric_breakdown_voltage: [P4110, electrical_property]
+  dielectric_constant_dc: [P4110, electrical_property]
+  dielectric_dispersion: [P4120, electrical_property]
+  electric_conductivity: [P4130, electrical_property]
+  surface_resistivity: [P4130, electrical_property]
+  volume_resistivity: [P4130, electrical_property]
+  cohesive_energy_density: [P5110, physicochemical_property]
+  gas_diffusion_coefficient_d: [P5140, physicochemical_property]
+  gas_permeability_coefficient_p: [P5140, physicochemical_property]
+  gas_solubility_coefficient_s: [P5140, physicochemical_property]
+  hansen_parameter_delta_d: [P5110, physicochemical_property]
+  hansen_parameter_delta_h: [P5110, physicochemical_property]
+  hansen_parameter_delta_p: [P5110, physicochemical_property]
+  interfacial_tension: [P5160, physicochemical_property]
+  solubility_parameter: [P5110, physicochemical_property]
+  surface_tension: [P5150, physicochemical_property]
+  water_absorption: [P5120, physicochemical_property]
+  water_vapor_transmission: [P5130, physicochemical_property]
+  diffusion_coefficient: [P6140, dilute_solution_property]
+  good_solvent: [P6170, dilute_solution_property]
+  intrinsic_viscosity: [P6120, dilute_solution_property]
+  non_solvent: [TERM-solvn, dilute_solution_property]
+  poor_solvent: [P6170, dilute_solution_property]
+  radius_of_gyration: [P6110, dilute_solution_property]
+  second_virial_coefficient: [P6150, dilute_solution_property]
+  sedimentation_coefficient: [P6130, dilute_solution_property]
+  solvent: [TERM-solvn, dilute_solution_property]
+  theta_solvent_theta_temperature: [P6160, dilute_solution_property]
+  melt_viscosity: [P7110, rheological_property]
+  dynamic_viscosity: [P7120, rheological_property]
+  dynamic_tensile_properties: [P8130, tensile_property]
+  elongation_at_break: [P8110, tensile_property]
+  elongation_at_yield: [P8110, tensile_property]
+  fiber_tensile_elongation_at_break: [P8110, tensile_property]
+  fiber_tensile_modulus: [P8110, tensile_property]
+  fiber_tensile_stress_at_break: [P8110, tensile_property]
+  tensile_modulus: [P8110, tensile_property]
+  tensile_stress_at_break: [P8110, tensile_property]
+  tensile_stress_at_yield: [P8110, tensile_property]
+  dynamic_shear_properties: [P8130, shear_property]
+  shear_modulus: [P8140, shear_property]
+  shear_stress_at_break: [P8140, shear_property]
+  shear_stress_at_yield: [P8140, shear_property]
+  dynamic_flexural_properties: [P8130, flexural_property]
+  flexural_modulus: [P8160, flexural_property]
+  flexural_stress_at_break: [P8160, flexural_property]
+  flexural_stress_at_yield: [P8160, flexural_property]
+  compressive_modulus: [P8180, compression_characteristic]
+  compressive_stress_at_break: [P8180, compression_characteristic]
+  compressive_stress_at_yield: [P8180, compression_characteristic]
+  dynamic_compressive_properties: [P8180, compression_characteristic]
+  compressive_creep_rupture_strength: [P8210, creep_characteristic]
+  compressive_creep_rupture_time: [P8210, creep_characteristic]
+  compressive_creep_strain: [P8210, creep_characteristic]
+  flexural_creep_rupture_strength: [P8210, creep_characteristic]
+  flexural_creep_rupture_time: [P8210, creep_characteristic]
+  flexural_creep_strain: [P8210, creep_characteristic]
+  tensile_creep_compliance: [P8210, creep_characteristic]
+  tensile_creep_modulus: [P8210, creep_characteristic]
+  tensile_creep_recovery: [P8210, creep_characteristic]
+  tensile_creep_rupture_strength: [P8210, creep_characteristic]
+  tensile_creep_rupture_time: [P8210, creep_characteristic]
+  tensile_creep_strain: [P8210, creep_characteristic]
+  brittleness_temperature: [P8540, heat_characteristic]
+  deflection_temperature_under_load: [P8530, heat_characteristic]
+  softening_temperature: [P8510, heat_characteristic]
+  vicat_softening_temperature: [P8520, heat_characteristic]
+  charpy_impact: [P8560, impact_strength]
+  izod_impact: [P8550, impact_strength]
+  rockwell_hardness: [P8570, hardness]
+  shore_hardness: [P8580, hardness]
+  oxygen_index: [P8630, heat_resistance_and_combustion]
+  ul_flammability_code_rating: [P8610, heat_resistance_and_combustion]
+  ul_temperature_index: [P8620, heat_resistance_and_combustion]
+  bulk_modulus: [P9160, other_property]
+  compressibility: [P9160, other_property]
+  g_value: [P9110, other_property]
+  pvt_relation: [P9150, other_property]
+  radiation_resistance: [P9120, other_property]
+
+# Stage 5 表征方法规范名与常见原文写法。
+characterization_methods:
+  FTIR:
+    aliases: [FTIR, Fourier transform infrared spectroscopy, infrared spectroscopy, infrared absorption, IR spectra]
+  NMR:
+    aliases: [NMR, nuclear magnetic resonance, 1H NMR, 13C NMR]
+  GPC:
+    aliases: [GPC, gel permeation chromatography, size exclusion chromatography]
+  DSC:
+    aliases: [DSC, differential scanning calorimetry]
+  DMA:
+    aliases: [DMA, dynamic mechanical analysis]
+  dilatometry:
+    aliases: [dilatometry, dilatometric, dila-tometric, dilatometrically, dilatometer, dilatometer measurement]
+  TGA:
+    aliases: [TGA, thermogravimetric analysis, thermal degradation]
+  XRD:
+    aliases: [XRD, X-ray diffraction, X-ray diffractions]
+  SEM:
+    aliases: [SEM, scanning electron microscopy]
+  TEM:
+    aliases: [TEM, transmission electron microscopy]
+  AFM:
+    aliases: [AFM, atomic force microscopy]
+  Raman:
+    aliases: [Raman, Raman spectroscopy]
+  SAXS:
+    aliases: [SAXS, small-angle X-ray scattering]
+  UV-Vis:
+    aliases: [UV-Vis, ultraviolet-visible spectroscopy]
+  viscometry:
+    aliases: [viscometry, viscosity measurement, viscosity measurements, intrinsic viscosity measurement, Ubbelohde viscometer, Ubbelohde-type viscometer, '[\eta]', '[\eta_{\text{max}}]']
+  turbidimetry:
+    aliases: [turbidimetry, turbidiometric titration, '[\Phi]', '[\Phi_{\text{max}}]']
+  swelling:
+    aliases: [swelling, swelling measurement, swelling measurements, equilibrium swelling, '[Q]', '[Q_{\text{max}}]']
+
+# Stage 5 Option B 专用数值性质；DSC/TGA/GPC 的宏观性质仍由 Stage 4 输出。
+stage5_property_vocabulary:
+  ftir_peak_wavenumber:
+    category: composition_structure
+    methods: [FTIR]
+  nmr_chemical_shift:
+    category: composition_structure
+    methods: [NMR]
+  raman_peak_wavenumber:
+    category: composition_structure
+    methods: [Raman]
+  xrd_diffraction_peak_2theta:
+    category: morphology
+    methods: [XRD]
+  xrd_crystallinity:
+    category: morphology
+    methods: [XRD]
+  morphology_domain_size:
+    category: morphology
+    methods: [SEM, TEM, AFM]
+  morphology_particle_size:
+    category: morphology
+    methods: [SEM, TEM, AFM]
+  saxs_scattering_peak:
+    category: morphology
+    methods: [SAXS]

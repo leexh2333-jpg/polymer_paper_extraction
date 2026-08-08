@@ -1,0 +1,1508 @@
+{
+  "schema_version": "1.0",
+  "document_id": "reference_no_0042480",
+  "paper": {
+    "ref_no": "reference_no_0042480",
+    "pdf_filename": "44a62407-fba7-4167-980c-767c6701c47c_origin.pdf",
+    "source_pdf_path": "mineru/reference_no_0042480/44a62407-fba7-4167-980c-767c6701c47c_origin.pdf",
+    "organized_pdf_path": "organized/reference_no_0042480/origin.pdf",
+    "doi": null,
+    "title": null,
+    "authors": null,
+    "journal": null,
+    "year": null,
+    "metadata_status": "failed",
+    "metadata_extraction": {
+      "method": "llm",
+      "provider": null,
+      "model": null,
+      "prompt_file": "prompts/meta_extract.md",
+      "prompt_sha256": "98252486e4f9cdfd1b42ea02b7e01440d6be99c99d18720dc71c95aa1643fcd4",
+      "source_pages": [
+        0,
+        1
+      ],
+      "status": "failed",
+      "error_type": "MetaExtractorUnavailable"
+    }
+  },
+  "source_files": {
+    "markdown": "reference_no_0042480.md",
+    "content_v1": "content.json",
+    "content_v2": "content_v2.json",
+    "pdf": "origin.pdf"
+  },
+  "ocr": {
+    "engine": "mineru",
+    "batch_id": "122ff743-eb66-4583-986f-6c8015953309",
+    "model_version": "vlm",
+    "ocr_enabled": false,
+    "language": null,
+    "page_ranges": null,
+    "enable_formula": true,
+    "enable_table": true,
+    "extra_formats": [],
+    "status": "done",
+    "manifest_file": "batch_122ff743-eb66-4583-986f-6c8015953309_manifest.json",
+    "status_file": "batch_122ff743-eb66-4583-986f-6c8015953309_status.json"
+  },
+  "elements": [
+    {
+      "block_id": "P_0_0",
+      "page_id": 0,
+      "block_index": 0,
+      "element_type": "text",
+      "bbox": [
+        113,
+        85,
+        300,
+        100
+      ],
+      "alignment_status": "matched",
+      "text": "ORIGINAL PAPER",
+      "section": null
+    },
+    {
+      "block_id": "P_0_1",
+      "page_id": 0,
+      "block_index": 1,
+      "element_type": "title",
+      "bbox": [
+        109,
+        133,
+        820,
+        181
+      ],
+      "alignment_status": "matched",
+      "text": "Study on synthesis of novel soluble aromatic polyamides with pendant cyano groups",
+      "title_level": 1,
+      "section": "DocumentTitle"
+    },
+    {
+      "block_id": "P_0_2",
+      "page_id": 0,
+      "block_index": 2,
+      "element_type": "text",
+      "bbox": [
+        109,
+        204,
+        521,
+        223
+      ],
+      "alignment_status": "matched",
+      "text": "Yikai Yu • Mingzhong Cai • Yuejun Zhang",
+      "section": "Study on synthesis of novel soluble aromatic polyamides with pendant cyano groups"
+    },
+    {
+      "block_id": "P_0_3",
+      "page_id": 0,
+      "block_index": 3,
+      "element_type": "text",
+      "bbox": [
+        109,
+        303,
+        760,
+        319
+      ],
+      "alignment_status": "matched",
+      "text": "Received: 22 December 2008 / Revised: 7 October 2009 / Accepted: 21 October 2009",
+      "section": "Study on synthesis of novel soluble aromatic polyamides with pendant cyano groups"
+    },
+    {
+      "block_id": "P_0_4",
+      "page_id": 0,
+      "block_index": 4,
+      "element_type": "text",
+      "bbox": [
+        109,
+        318,
+        378,
+        331
+      ],
+      "alignment_status": "matched",
+      "text": "Published online: 29 October 2009",
+      "section": "Study on synthesis of novel soluble aromatic polyamides with pendant cyano groups"
+    },
+    {
+      "block_id": "P_0_5",
+      "page_id": 0,
+      "block_index": 5,
+      "element_type": "text",
+      "bbox": [
+        109,
+        331,
+        300,
+        349
+      ],
+      "alignment_status": "matched",
+      "text": "\\- Springer-Verlag 2009",
+      "section": "Study on synthesis of novel soluble aromatic polyamides with pendant cyano groups"
+    },
+    {
+      "block_id": "P_0_6",
+      "page_id": 0,
+      "block_index": 6,
+      "element_type": "text",
+      "bbox": [
+        107,
+        378,
+        888,
+        632
+      ],
+      "alignment_status": "matched",
+      "text": "Abstract A series of novel soluble aromatic polyamides with pendant cyano groups were synthesized by low temperature polycondensation of aromatic diamines with a new monomer 2,6-bis(4-chloroformylphenoxy)benzonitrile (ClPOBN) in the presence of N,N-dimethylacetamide (DMAC) as the solvent and tertiary amines as the absorbent of HCl. The properties and structures of obtained polymers were characterized by means of FTIR, TG, and elemental analysis. Structures of prepared polymers are as expected. TG studies show that the polymers had excellent thermal stability as measured by 5% weight loss temperatures in nitrogen (409– 438 \u0003C).They are soluble in aprotic polar organic solvents such as N-methyl pyrrolidone (NMP), dimethyl sulphoxide (DMSO) and N,N-dimethylformamides (DMF) and are swelled in common solvents, such as ${ \\mathrm { C H C l } } _ { 3 } ,$ethylene dichloride (DCE), $\\mathrm { C H } _ { 2 } \\mathrm { C l } _ { 2 } .$, tetrahydrofuran (THF), etc. Their thin films which cast from DMF had tensile strength of 79–93 MPa, Young’s moduli of 1.7–2.6 GP, elongation at break of 9–15%, indicating they are strong in mechanical properties.",
+      "merged_source_block_ids": [
+        "P_0_6",
+        "V2_0_6_1",
+        "V2_0_6_3"
+      ],
+      "section": "Study on synthesis of novel soluble aromatic polyamides with pendant cyano groups"
+    },
+    {
+      "block_id": "P_0_7",
+      "page_id": 0,
+      "block_index": 7,
+      "element_type": "text",
+      "bbox": [
+        107,
+        647,
+        856,
+        702
+      ],
+      "alignment_status": "matched",
+      "text": "Keywords Aromatic diamines - 2,6-bis(4-chloroformylphenoxy)benzonitrile Low temperature polycondensation - Soluble aromatic polyamides with pendant cyano groups",
+      "section": "Study on synthesis of novel soluble aromatic polyamides with pendant cyano groups"
+    },
+    {
+      "block_id": "F_0_9",
+      "page_id": 0,
+      "block_index": 9,
+      "element_type": "footnote",
+      "bbox": [
+        107,
+        794,
+        847,
+        854
+      ],
+      "alignment_status": "matched",
+      "text": "Y. Yu (&) - Y. Zhang School of Chemical Engineering, Nanjing University of Science and Technology, 210094 Nanjing, People’s Republic of China e-mail: yuyikai1980@163.com",
+      "section": "Study on synthesis of novel soluble aromatic polyamides with pendant cyano groups"
+    },
+    {
+      "block_id": "F_0_10",
+      "page_id": 0,
+      "block_index": 10,
+      "element_type": "footnote",
+      "bbox": [
+        107,
+        864,
+        835,
+        911
+      ],
+      "alignment_status": "matched",
+      "text": "Y. Yu - M. Ca College of Chemistry and Chemical Engineering, Jiangxi Normal University, 330022 Nanchang, People’s Republic of China",
+      "section": "Study on synthesis of novel soluble aromatic polyamides with pendant cyano groups"
+    },
+    {
+      "block_id": "P_1_12",
+      "page_id": 1,
+      "block_index": 12,
+      "element_type": "title",
+      "bbox": [
+        109,
+        84,
+        243,
+        100
+      ],
+      "alignment_status": "matched",
+      "text": "Introduction",
+      "title_level": 2,
+      "section": "Introduction"
+    },
+    {
+      "block_id": "P_1_13",
+      "page_id": 1,
+      "block_index": 13,
+      "element_type": "text",
+      "bbox": [
+        107,
+        118,
+        888,
+        518
+      ],
+      "alignment_status": "matched",
+      "text": "Wholly aromatic polyamides (PAs) have been noted for their high thermal and chemical resistance as well as their high strengh and high modulus as fibers. Kevlar [poly(p-phenyleneterephthalamide)] and Nomex [poly(m-phenyleneisophthalamide)] are commercially marketed as high performance polymers, usually in fiber form. Rigid rod-like aromatic polymers are usually difficult to process because of their high softening or melting temperatures and their insoluble nature in most organic solvents. Current or previous attempts at the solublization and processing of rigid-chain polymers have been made through synthetic modification by the addition of flexible linkages $( \\mathrm { e . g . , - O - , - C H _ { 2 ^ { - } } , }$, and $- S O _ { 2 } { - } )$, molecular asymmetry, or side groups to the backbone(e.g., $\\mathrm { \\mathrm { - C B r } } _ { 3 } , \\mathrm { \\mathrm { - C F } } _ { 3 } .$, and $\\mathrm { - C _ { 6 } H } _ { 5 } )$[1–8]. As known, one pendant nitrile group on aromatic ring in polymer appears to promote the solubility of the polymer [9] and its adhension to many substrates [10, 11], possibly through polar interaction with other functional groups [12, 13]; and it also serves as a potential site for polymer cross-linking [14]. However, it appears that wholly aromatic soluble polyamides with pendant cyano groups have not been reported in detail in open literature. In this article, a new monomer 2,6-bis(4-chloroformylphenoxy)benzonitrile (ClPOBN) was first designed, and then a series of novel soluble aromatic polyamides with pendant cyano groups were synthesized by low temperature polycondensation of aromatic diamines with the new monomer 2,6- bis(4-chloroformylphenoxy)benzonitrile (ClPOBN) in the presence of N,N-dimethylacetamide (DMAC) as the solvent and tertiary amines as the absorbent of HCl. Different techniques were used to characterize the polymers.",
+      "merged_source_block_ids": [
+        "P_1_13",
+        "V2_1_1_1",
+        "V2_1_1_3",
+        "V2_1_1_5",
+        "V2_1_1_7"
+      ],
+      "section": "Introduction"
+    },
+    {
+      "block_id": "P_1_14",
+      "page_id": 1,
+      "block_index": 14,
+      "element_type": "title",
+      "bbox": [
+        109,
+        551,
+        252,
+        570
+      ],
+      "alignment_status": "matched",
+      "text": "Experimental",
+      "title_level": 2,
+      "section": "Experimental"
+    },
+    {
+      "block_id": "P_1_15",
+      "page_id": 1,
+      "block_index": 15,
+      "element_type": "title",
+      "bbox": [
+        109,
+        585,
+        205,
+        603
+      ],
+      "alignment_status": "matched",
+      "text": "Materials",
+      "title_level": 2,
+      "section": "Materials"
+    },
+    {
+      "block_id": "P_1_16",
+      "page_id": 1,
+      "block_index": 16,
+      "element_type": "text",
+      "bbox": [
+        107,
+        621,
+        888,
+        732
+      ],
+      "alignment_status": "matched",
+      "text": "p-Hydroxybenzoic acid (Shanghai Wulian Chemical Factory, China), 2,6-difluorobenzonitrile (Aldrich), N-methyl pyrrolidone (NMP, Aldrich), dimethyl sulphoxide (DMSO, Aldrich), N,N-dimethylacetamide (DMAC, Tianjin Damao Chemical Reagent Factory, China) and N,N-dimethylformamide (DMF, The First Chemical Reagent Factory of Tianjin, China) were used as received. The other fractions were collected and stored over sieves.",
+      "section": "Materials"
+    },
+    {
+      "block_id": "P_1_17",
+      "page_id": 1,
+      "block_index": 17,
+      "element_type": "text",
+      "bbox": [
+        107,
+        747,
+        790,
+        783
+      ],
+      "alignment_status": "matched",
+      "text": "Synthesis of new monomer: 2,6-bis(4-chloroformylphenoxy)benzonitrile (ClPOBN)",
+      "section": "Materials"
+    },
+    {
+      "block_id": "P_1_18",
+      "page_id": 1,
+      "block_index": 18,
+      "element_type": "text",
+      "bbox": [
+        107,
+        801,
+        888,
+        911
+      ],
+      "alignment_status": "matched",
+      "text": "To a 250-mL round-bottomed flask equipped with a mechanical stirrer, a thermometer, and nitrogen inlet and out tubes, and a Dean-Stark trap, 72 mmol of p-hydroxybenzoic acid, 144 mmol of KOH, 70 mL of dimethyl sulphoxide (DMSO), and 55 mL of toluene were added. The reaction mixture was heated to $1 4 0 { - } 1 5 0 ~ ^ { \\circ } \\mathrm { C }$until no further water was azeotropically distilled from the reaction mixture, and then temperature was raised to $1 7 0 ~ ^ { \\circ } \\mathrm { C }$to remove toluene. After being cooled to $4 0 ~ ^ { \\circ } \\mathrm { C } .$",
+      "merged_source_block_ids": [
+        "P_1_18",
+        "V2_1_6_1",
+        "V2_1_6_3",
+        "V2_1_6_5"
+      ],
+      "section": "Materials"
+    },
+    {
+      "block_id": "I_2_22",
+      "page_id": 2,
+      "block_index": 22,
+      "element_type": "image",
+      "bbox": [
+        118,
+        84,
+        879,
+        250
+      ],
+      "alignment_status": "matched",
+      "image_kind": "image",
+      "caption": "Scheme 1 Synthesis of 2,6-bis(4-chloroformylphenoxy)benzonitrile (ClPOBN)",
+      "image_path": "organized/reference_no_0042480/images/eb24765b19fbaebfda0452e81f2d5bd9d94bd0d966db5d0b0237aa74a2443133.jpg"
+    },
+    {
+      "block_id": "P_2_23",
+      "page_id": 2,
+      "block_index": 23,
+      "element_type": "text",
+      "bbox": [
+        107,
+        289,
+        888,
+        412
+      ],
+      "alignment_status": "matched",
+      "text": "30 mmol of 2,6-difluorobenzonitrile was added and the reaction mixture was heated to $1 8 5 \\mathrm { - } 1 9 5 ~ ^ { \\circ } \\mathrm { C }$and stirred at this temperature for 8 h. After cooling to room temperature, the reaction mixture was dissolved in water and hydrochloric acid was added, and then the product was precipitated. The solid product was washed with water and recrystallized from the mixture of ethyl alcohol and water thrice to give 2,6-bis(4-carboxyphenoxy)benzonitrile (CPOBN). Yield 85%; purity 96%; m.p. $3 1 1 - 3 1 2 \\ ^ { \\circ } \\mathrm { C } .$",
+      "merged_source_block_ids": [
+        "P_2_23",
+        "V2_2_1_1",
+        "V2_2_1_3"
+      ],
+      "section": "Materials"
+    },
+    {
+      "block_id": "P_2_24",
+      "page_id": 2,
+      "block_index": 24,
+      "element_type": "text",
+      "bbox": [
+        107,
+        414,
+        886,
+        468
+      ],
+      "alignment_status": "matched",
+      "text": "The reaction of 2,6-bis(4-carboxyphenoxy)benzonitrile (CPOBN) with sulfur oxychloride yielded 2,6-bis(4-chloroformylphenoxy)benzonitrile (ClPOBN). The product was recrystallized from anhydrous hexane. Yield 96%; purity 97%; m.p. 140–142 \u0003C.",
+      "section": "Materials"
+    },
+    {
+      "block_id": "P_2_25",
+      "page_id": 2,
+      "block_index": 25,
+      "element_type": "text",
+      "bbox": [
+        109,
+        468,
+        886,
+        504
+      ],
+      "alignment_status": "matched",
+      "text": "2,6-Bis(4-chloroformylphenoxy)benzonitrile (ClPOBN) was synthesized as shown in Scheme 1.",
+      "section": "Materials"
+    },
+    {
+      "block_id": "P_2_26",
+      "page_id": 2,
+      "block_index": 26,
+      "element_type": "title",
+      "bbox": [
+        109,
+        518,
+        287,
+        536
+      ],
+      "alignment_status": "matched",
+      "text": "Polymer synthesis",
+      "title_level": 2,
+      "section": "Polymer synthesis"
+    },
+    {
+      "block_id": "P_2_27",
+      "page_id": 2,
+      "block_index": 27,
+      "element_type": "text",
+      "bbox": [
+        107,
+        552,
+        888,
+        732
+      ],
+      "alignment_status": "matched",
+      "text": "To a 100-mL round-bottomed flask equipped with a mechanical stirrer, a thermometer, nitrogen inlet and out tubes. 0.01 mol diamines, 15 mL of N,Ndimethylacetamide (DMAC), and 1 mL tertiary amide as the absorbent of HCl were added. Into the resulting suspension were added 5 mL DMAC and 0.01 mol 2,6- bis(4-chloroformylphenoxy)benzonitrile (ClPOBN). The reaction mixture was stirred at $0 ~ ^ { \\circ } \\mathrm { C }$for 1 h and warmed to room temperature for 2–3 h. Then the mixture of 0.74 g $\\mathrm { C a ( O H ) } _ { 2 }$and 5 mL DMAC were added to neutralize HCl. After the reaction is over, the products were precipitated from water, and washed with water, and were dried at $1 0 0 ~ ^ { \\circ } \\mathrm { C }$under vacuum overnight to give the novel aromatic soluble polyamides with pendant cyano groups.",
+      "merged_source_block_ids": [
+        "P_2_27",
+        "V2_2_5_1",
+        "V2_2_5_3",
+        "V2_2_5_5"
+      ],
+      "section": "Polymer synthesis"
+    },
+    {
+      "block_id": "P_2_28",
+      "page_id": 2,
+      "block_index": 28,
+      "element_type": "text",
+      "bbox": [
+        107,
+        732,
+        886,
+        788
+      ],
+      "alignment_status": "matched",
+      "text": "The novel soluble aromatic polyamides with pendant cyano groups were synthesized by polycondensation of 2,6-bis(4-chloroformylphenoxy)benzonitrile (ClPOBN) and different aromatic diamines as shown in Scheme 2.",
+      "section": "Polymer synthesis"
+    },
+    {
+      "block_id": "P_2_29",
+      "page_id": 2,
+      "block_index": 29,
+      "element_type": "title",
+      "bbox": [
+        109,
+        800,
+        268,
+        818
+      ],
+      "alignment_status": "matched",
+      "text": "Characterization",
+      "title_level": 2,
+      "section": "Characterization"
+    },
+    {
+      "block_id": "P_2_30",
+      "page_id": 2,
+      "block_index": 30,
+      "element_type": "text",
+      "bbox": [
+        107,
+        836,
+        888,
+        909
+      ],
+      "alignment_status": "matched",
+      "text": "Elemental analysis was performed with Perkin-Elmer Model 2400 CHN analyzer. The inherent viscosities $( \\eta _ { \\mathrm { i n h } } )$of polymers were measured in a 0.1 wt% NMP solution at $3 0 ~ ^ { \\circ } \\mathrm { C }$. The FT-IR spectra of the polymers in KBr pellets (2%) were recorded using a Nicolet FT-IR (510P) spectrophotometer. $\\mathrm { ^ { 1 } H }$NMR spectra of the monomers was recorded with a Bruker PC-A400 (400 MHz). Thermogravimetric analysis (TGA) was carried out on a Perkin-Elmer 7 Series thermal analysis system with an increasing rate of $1 0 \\mathrm { \\Omega } ^ { \\circ } \\mathrm { C } / \\mathrm { m i n } , \\mathrm { N } _ { 2 }$atmosphere at the flow rate of 40 mL/min, scanning scope ranging from 50 to $7 5 0 ~ ^ { \\circ } \\mathrm { C }$, and sample weight of 5.0–7.0 mg. The mechanical properties of thin films(cast from 10% DMF solution onto glass plates, and followed by thermally backing with the following conditions: $8 0 ~ ^ { \\circ } \\mathrm { C } / 3$h, $1 2 0 ~ ^ { \\circ } \\mathrm { C } / 2$h, $1 5 0 ~ ^ { \\circ } \\mathrm { C } / 2$h and $1 8 0 ~ ^ { \\circ } \\mathrm { C } / 2$h were evaluated at room temperature on an Instro 1121 instrument at a strain rate of 10 mm $\\operatorname* { m i n } ^ { - 1 }$",
+      "merged_source_block_ids": [
+        "P_2_30",
+        "V2_2_8_1",
+        "V2_2_8_3",
+        "V2_2_8_5",
+        "V2_2_8_7",
+        "V2_2_8_9",
+        "V2_2_8_11",
+        "V2_2_8_13",
+        "V2_2_8_15",
+        "V2_2_8_17",
+        "V2_2_8_19"
+      ],
+      "section": "Characterization"
+    },
+    {
+      "block_id": "I_3_34",
+      "page_id": 3,
+      "block_index": 34,
+      "element_type": "image",
+      "bbox": [
+        113,
+        84,
+        879,
+        475
+      ],
+      "alignment_status": "matched",
+      "image_kind": "image",
+      "caption": "Scheme 2 Synthesis of novel soluble aromatic polyamides with pendant cyano groups",
+      "image_path": "organized/reference_no_0042480/images/d88eb9b3dc073bc3a991e1e2f5f73ad173d6b043527f26cd57a4756c40397db0.jpg"
+    },
+    {
+      "block_id": "P_3_35",
+      "page_id": 3,
+      "block_index": 35,
+      "element_type": "text",
+      "bbox": [
+        107,
+        522,
+        888,
+        666
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "Characterization"
+    },
+    {
+      "block_id": "P_3_36",
+      "page_id": 3,
+      "block_index": 36,
+      "element_type": "title",
+      "bbox": [
+        109,
+        702,
+        339,
+        719
+      ],
+      "alignment_status": "matched",
+      "text": "Results and discussion",
+      "title_level": 2,
+      "section": "Results and discussion"
+    },
+    {
+      "block_id": "P_3_37",
+      "page_id": 3,
+      "block_index": 37,
+      "element_type": "title",
+      "bbox": [
+        109,
+        738,
+        346,
+        755
+      ],
+      "alignment_status": "matched",
+      "text": "New monomer synthesis",
+      "title_level": 2,
+      "section": "New monomer synthesis"
+    },
+    {
+      "block_id": "P_3_38",
+      "page_id": 3,
+      "block_index": 38,
+      "element_type": "text",
+      "bbox": [
+        107,
+        773,
+        888,
+        900
+      ],
+      "alignment_status": "matched",
+      "text": "2,6-Bis(4-chloroformylphenoxy)benzonitrile (ClPOBN) was synthesized as shown in Scheme 1. 2,6-Bis(4-carboxyphenoxy)benzonitrile (CPOBN) was first synthesized by the condensation of 2,6-difluorobenzonitrile with p-hydroxybenzoic acid in the presence of KOH and DMSO, and toluene was used for the azeotropic removal of water. Then 2,6-bis (4-chloroformylphenoxy)benzonitrile (ClPOBN) was yielded by the reaction of 2,6-bis(4-carboxyphenoxy)benzonitrile (CPOBN) with sulfur oxychloride, and a little DMF was added to improve the rate of production. The chemical structures of CPOBN and ClPOBN were confirmed by FT-IR, <sup>1</sup>H NMR, and elemental analysis. The results were listed as follows:",
+      "section": "New monomer synthesis"
+    },
+    {
+      "block_id": "P_4_42",
+      "page_id": 4,
+      "block_index": 42,
+      "element_type": "text",
+      "bbox": [
+        107,
+        82,
+        886,
+        121
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "New monomer synthesis"
+    },
+    {
+      "block_id": "P_4_43",
+      "page_id": 4,
+      "block_index": 43,
+      "element_type": "title",
+      "bbox": [
+        109,
+        136,
+        195,
+        154
+      ],
+      "alignment_status": "matched",
+      "text": "CPOBN",
+      "title_level": 2,
+      "section": "CPOBN"
+    },
+    {
+      "block_id": "P_4_44",
+      "page_id": 4,
+      "block_index": 44,
+      "element_type": "text",
+      "bbox": [
+        107,
+        174,
+        886,
+        246
+      ],
+      "alignment_status": "matched",
+      "text": "IR(KBr): 3429 (OH), 2235 (CN), 1695 (C=O), 1605, 1578, 1506 (C=C); 1245 (–O–). <sup>1</sup>H NMR (DMSO-d6), d: 8.07–8.09 (4H, H ); 7.02–7.04 (4H, H ); 7.21–7.22 (2H, H ); 7.31 (1H, $\\mathrm { H } _ { 4 } )$. Elemental analysis calculated for ${ \\mathrm { C } } _ { 2 1 } { \\mathrm { H } } _ { 1 3 } { \\mathrm { N O } } _ { 6 } ;$C, 67.2; H, 3.47; O, 25.6. Found: C, 67.3; H, 3.54; O, 25.7.",
+      "merged_source_block_ids": [
+        "P_4_44",
+        "V2_4_2_1",
+        "V2_4_2_3"
+      ],
+      "section": "CPOBN"
+    },
+    {
+      "block_id": "I_4_45",
+      "page_id": 4,
+      "block_index": 45,
+      "element_type": "image",
+      "bbox": [
+        232,
+        265,
+        758,
+        364
+      ],
+      "alignment_status": "matched",
+      "image_kind": "image",
+      "caption": null,
+      "image_path": "organized/reference_no_0042480/images/7cc593250feebc0e08ac50c9a19e40537c48609c6c5f5b8c47417f04228c72bd.jpg"
+    },
+    {
+      "block_id": "P_4_46",
+      "page_id": 4,
+      "block_index": 46,
+      "element_type": "title",
+      "bbox": [
+        109,
+        378,
+        202,
+        394
+      ],
+      "alignment_status": "matched",
+      "text": "ClPOBN",
+      "title_level": 2,
+      "section": "ClPOBN"
+    },
+    {
+      "block_id": "P_4_47",
+      "page_id": 4,
+      "block_index": 47,
+      "element_type": "text",
+      "bbox": [
+        107,
+        412,
+        886,
+        486
+      ],
+      "alignment_status": "matched",
+      "text": "IR(KBr): 2232 (CN), 1774 (C=O), 1602, 1574, 1497 (C=C); 1245(–O–). <sup>1</sup>H NMR $ { \\left( \\mathrm { C D C l } _ { 3 } \\right) }$, d: 8.10–8.13 (4H, $\\mathrm { H } _ { 1 } )$; 7.06–7.09 (4H, H ); 7.23–7.25 (2H, H ); 7.34 (1H, $\\mathrm { H } _ { 4 } )$. Elemental analysis calculated for $\\mathrm { C } _ { 2 1 } \\mathrm { H } _ { 1 1 } \\mathrm { N C l } _ { 2 } \\mathrm { O } _ { 4 } ; \\mathrm { C } ,$61.65; H, 2.70; O, 15.53; Cl, 17.23. Found: C, 61.59; H, 2.67; O, 15.46; Cl, 17.36.",
+      "merged_source_block_ids": [
+        "P_4_47",
+        "V2_4_5_1",
+        "V2_4_5_3",
+        "V2_4_5_5",
+        "V2_4_5_7"
+      ],
+      "section": "ClPOBN"
+    },
+    {
+      "block_id": "I_4_48",
+      "page_id": 4,
+      "block_index": 48,
+      "element_type": "image",
+      "bbox": [
+        239,
+        498,
+        756,
+        602
+      ],
+      "alignment_status": "matched",
+      "image_kind": "image",
+      "caption": null,
+      "image_path": "organized/reference_no_0042480/images/794eeab400fadd04e5b0b1e7251ab34fd23a15ef33003ac6d47e2c7cdfe92179.jpg"
+    },
+    {
+      "block_id": "P_4_49",
+      "page_id": 4,
+      "block_index": 49,
+      "element_type": "text",
+      "bbox": [
+        109,
+        620,
+        886,
+        656
+      ],
+      "alignment_status": "matched",
+      "text": "The above-mentioned results showed that the structure of the new monomer (ClPOBN) was as expected.",
+      "section": "ClPOBN"
+    },
+    {
+      "block_id": "P_4_50",
+      "page_id": 4,
+      "block_index": 50,
+      "element_type": "text",
+      "bbox": [
+        109,
+        674,
+        822,
+        693
+      ],
+      "alignment_status": "matched",
+      "text": "Synthesis of novel soluble aromatic polyamides with pendant cyano groups",
+      "section": "ClPOBN"
+    },
+    {
+      "block_id": "P_4_51",
+      "page_id": 4,
+      "block_index": 51,
+      "element_type": "text",
+      "bbox": [
+        107,
+        708,
+        888,
+        819
+      ],
+      "alignment_status": "matched",
+      "text": "Synthesis of all the novel polyamides were carried out in the same manner reaction of 2,6-bis(4-chloroformylphenoxy)benzonitrile with different diamines. The reaction proceeded as low temperature polycondensation, with elimination of hydrogen chloride. The inherent viscosities $( \\eta _ { \\mathrm { i n h } } )$of obtained polymers were affected by different conditions. Thus, we try to explore the effect of different conditions on the inherent viscosities $( \\eta _ { \\mathrm { i n h } } )$of polymer IV as one example, which are listed as follows:",
+      "merged_source_block_ids": [
+        "P_4_51",
+        "V2_4_9_1",
+        "V2_4_9_3"
+      ],
+      "section": "ClPOBN"
+    },
+    {
+      "block_id": "P_4_52",
+      "page_id": 4,
+      "block_index": 52,
+      "element_type": "text",
+      "bbox": [
+        109,
+        834,
+        872,
+        854
+      ],
+      "alignment_status": "matched",
+      "text": "Effect of initial reaction temperature on inherent viscosities $( \\eta _ { i n h } )$ofpolymer IV",
+      "merged_source_block_ids": [
+        "P_4_52",
+        "V2_4_10_1"
+      ],
+      "section": "ClPOBN"
+    },
+    {
+      "block_id": "P_4_53",
+      "page_id": 4,
+      "block_index": 53,
+      "element_type": "text",
+      "bbox": [
+        107,
+        870,
+        886,
+        908
+      ],
+      "alignment_status": "matched",
+      "text": "Figure 1 shows the effect of initial reaction temperature on inherent viscosities $( \\eta _ { \\mathrm { i n h } } )$of polymer IV. The $\\eta _ { \\mathrm { i n h } }$value of polymer IV increases with increase of the initial reaction temperature when it is below $- 5 ~ ^ { \\circ } \\mathrm { C }$The $\\eta _ { \\mathrm { i n h } }$value reaches highest when the initial reaction temperature is -5 to $5 ~ ^ { \\circ } \\mathrm { C }$. However, The $\\eta _ { \\mathrm { i n h } }$value of polymer IV decreases with the increase of the initial reaction temperature when it is over $5 ~ ^ { \\circ } \\mathrm { C }$This may be attributed to the reasons: (1) if the initial reaction temperature is too low $\\mathrm { ( < - 5 ~ ^ { \\circ } C ) }$, the rate of polycondensation becomes slow and the terminal group of acyl chloride has much time to touch with water (in solvent), which result in the decrease of the $\\eta _ { \\mathrm { i n h } }$value, (2) if the initial reaction temperature is too high $( > 5 ~ ^ { \\circ } \\mathrm { C } )$, the polycondensation is too vigorous to be controlled, the macromolecular chain can not grow stably, which in turn results in the decrease of the $\\eta _ { \\mathrm { i n h } }$value too. Therefore. the suitable initial reaction temperature should be $- 5$to $5 ~ ^ { \\circ } \\mathrm { C }$",
+      "merged_source_block_ids": [
+        "P_4_53",
+        "V2_4_11_1",
+        "V2_4_11_3",
+        "V2_4_11_5",
+        "V2_4_11_7",
+        "V2_4_11_9",
+        "V2_4_11_11",
+        "V2_4_11_13",
+        "V2_4_11_15",
+        "V2_4_11_17",
+        "V2_4_11_19",
+        "V2_4_11_21",
+        "V2_4_11_23",
+        "V2_4_11_25"
+      ],
+      "section": "ClPOBN"
+    },
+    {
+      "block_id": "I_5_57",
+      "page_id": 5,
+      "block_index": 57,
+      "element_type": "image",
+      "bbox": [
+        239,
+        82,
+        760,
+        345
+      ],
+      "alignment_status": "matched",
+      "image_kind": "chart",
+      "caption": "Fig. 1 Effect of initial reaction temperature on inherent viscosities $( \\eta _ { \\mathrm { i n h } } )$ of polymer IV. Molar concentration: 0.5 mol/L, tertiary: 2-methyl pyridine",
+      "image_path": "organized/reference_no_0042480/images/c2c0e4097cdfdfc21f811de45648798ef729a9750f3dbccc3ee2742fa1100d5e.jpg"
+    },
+    {
+      "block_id": "P_5_58",
+      "page_id": 5,
+      "block_index": 58,
+      "element_type": "text",
+      "bbox": [
+        107,
+        423,
+        888,
+        603
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "ClPOBN"
+    },
+    {
+      "block_id": "P_5_59",
+      "page_id": 5,
+      "block_index": 59,
+      "element_type": "title",
+      "bbox": [
+        109,
+        621,
+        722,
+        639
+      ],
+      "alignment_status": "matched",
+      "text": "Effect of ClPOBN concentration on the $\\eta _ { i n h }$value ofpolymer IV",
+      "merged_source_block_ids": [
+        "P_5_59",
+        "V2_5_2_1"
+      ],
+      "title_level": 2,
+      "section": "Effect of ClPOBN concentration on the $\\eta _ { i n h }$value ofpolymer IV"
+    },
+    {
+      "block_id": "P_5_60",
+      "page_id": 5,
+      "block_index": 60,
+      "element_type": "text",
+      "bbox": [
+        107,
+        657,
+        888,
+        891
+      ],
+      "alignment_status": "matched",
+      "text": "Figure 2 shows the effect of ClPOBN concentration on the $\\eta _ { \\mathrm { i n h } }$value of polymer IV. From Fig. 2, the $\\eta _ { \\mathrm { i n h } }$value of polymer IV increases with the increase of ClPOBN concentration when the concentration is below 0.45 mol/L. The $\\eta _ { \\mathrm { i n h } }$value reaches highest when the concentration is 0.45–0.55 mol/L. However, if the ClPOBN concentration is above 0.55 mol/L, the $\\eta _ { \\mathrm { i n h } }$value of polymer IV decreases with the increase of the concentration. This may be attributed to the reasons: (1) if the ClPOBN concentration is too low (\\0.45 mol/L), the collision frequency of monomers (ClPOBN and diamines) in the polymerization solution become low, which results in the low $\\eta _ { \\mathrm { i n h } }$value of obtained polymer in turn, (2) in the case of high ClPOBN concentration ([0.55 mol/L), the polycondensation solution would become viscous quickly, which prevents the macromolecular chain from growing and also results in low $\\eta _ { \\mathrm { i n h } }$value of polymer IV. Thus, the suitable ClPOBN concentration should be limited to 0.45–0.55 mol/L.",
+      "merged_source_block_ids": [
+        "P_5_60",
+        "V2_5_3_1",
+        "V2_5_3_3",
+        "V2_5_3_5",
+        "V2_5_3_7",
+        "V2_5_3_9",
+        "V2_5_3_11"
+      ],
+      "section": "Effect of ClPOBN concentration on the $\\eta _ { i n h }$value ofpolymer IV"
+    },
+    {
+      "block_id": "I_6_64",
+      "page_id": 6,
+      "block_index": 64,
+      "element_type": "image",
+      "bbox": [
+        239,
+        82,
+        760,
+        343
+      ],
+      "alignment_status": "matched",
+      "image_kind": "chart",
+      "caption": "Fig. 2 Effect of ClPOBN concentration on the $\\eta _ { \\mathrm { i n h } }$ value of polymer IV. Initial temperature: $0 ~ ^ { \\circ } \\mathrm { C } ,$ tertiary: 2-methyl pyridine",
+      "image_path": "organized/reference_no_0042480/images/7d5b589bf646c03832ac5727b17a76f54d7c3f765857d62d236298a8752de0b3.jpg"
+    },
+    {
+      "block_id": "P_6_65",
+      "page_id": 6,
+      "block_index": 65,
+      "element_type": "title",
+      "bbox": [
+        109,
+        423,
+        692,
+        441
+      ],
+      "alignment_status": "matched",
+      "text": "Effect of tertiary amine types on the $\\eta _ { i n h }$value ofpolymer IV",
+      "merged_source_block_ids": [
+        "P_6_65",
+        "V2_6_1_1"
+      ],
+      "title_level": 2,
+      "section": "Effect of tertiary amine types on the $\\eta _ { i n h }$value ofpolymer IV"
+    },
+    {
+      "block_id": "P_6_66",
+      "page_id": 6,
+      "block_index": 66,
+      "element_type": "text",
+      "bbox": [
+        107,
+        459,
+        888,
+        783
+      ],
+      "alignment_status": "matched",
+      "text": "A series of novel soluble aromatic polyamides with pendant cyano groups were synthesized by low temperature polycondensation of aromatic diamines with a new monomer 2,6-bis(4-chloroformylphenoxy)benzonitrile (ClPOBN), with elimination of hydrogen chloride. Thus, in this study, different tertiary amines (pyridine, 2-methyl pyridine, 2,6-dimethyl pyridine, tributylamine, and triethylamine) were used to absorb the HCl formed during the polycondensation, which would be favorable to get high molecular weight polymers; moreover, the complex of tertiary amines/HCl appeared to act as a solvent for the obtained polyamide/HCl complex formed during the reaction, maintaining the polymer in solution or a reactive gel state. The effect of different tertiary amines on the $\\eta _ { \\mathrm { i n h } }$value of polymer IV were studied, the results showed that the $\\eta _ { \\mathrm { i n h } }$value of polymer IV was highest when tertiary amine was 2-methyl pyridine as the absorbent of HCl, because the basicity of N atom in -methyl pyridine was stronger than that in pyridine tributylamine, and triethylamine due to the electron donor effect (?I effect) of ortho-methyl group. However, when there were two ortho-methyl groups (?I effect) in 2,6-dimethyl pyridine, the high steric restriction prevented the N atom from accepting HCl, the $\\eta _ { \\mathrm { i n h } }$value of obtained polymer IV under this condition was also lower than that in the case of 2-methyl pyridine. Thus, 2-methyl pyridine used as the absorbent of HCl was suitable.",
+      "merged_source_block_ids": [
+        "P_6_66",
+        "V2_6_2_1",
+        "V2_6_2_3",
+        "V2_6_2_5"
+      ],
+      "section": "Effect of tertiary amine types on the $\\eta _ { i n h }$value ofpolymer IV"
+    },
+    {
+      "block_id": "P_6_67",
+      "page_id": 6,
+      "block_index": 67,
+      "element_type": "title",
+      "bbox": [
+        109,
+        800,
+        722,
+        819
+      ],
+      "alignment_status": "matched",
+      "text": "The structure analysis and inherent viscosities $( \\eta _ { \\mathrm { i n h } } )$of polymers",
+      "merged_source_block_ids": [
+        "P_6_67",
+        "V2_6_3_1"
+      ],
+      "title_level": 2,
+      "section": "The structure analysis and inherent viscosities $( \\eta _ { \\mathrm { i n h } } )$of polymers"
+    },
+    {
+      "block_id": "P_6_68",
+      "page_id": 6,
+      "block_index": 68,
+      "element_type": "text",
+      "bbox": [
+        107,
+        834,
+        886,
+        870
+      ],
+      "alignment_status": "matched",
+      "text": "The chemical structures of the prepared polyamides were confirmed by FT-IR and elemental analysis. The results are shown in Table 1.",
+      "section": "The structure analysis and inherent viscosities $( \\eta _ { \\mathrm { i n h } } )$of polymers"
+    },
+    {
+      "block_id": "P_6_69",
+      "page_id": 6,
+      "block_index": 69,
+      "element_type": "text",
+      "bbox": [
+        109,
+        872,
+        888,
+        908
+      ],
+      "alignment_status": "matched",
+      "text": "The samples of polymers I-IV were dried at $1 0 0 ~ ^ { \\circ } \\mathrm { C }$for 24 h under vacuum, extracted with boiling propanone for 10 h, and were dried at $1 0 0 ~ ^ { \\circ } \\mathrm { C }$for 24 h under vacuum again before they were characterized by the elemental analysis. The elemental analysis values, i.e., C, H, and N content of polymers I–IV (Table 1) are in close agreement with theoretical values confirming the proposed structure.",
+      "merged_source_block_ids": [
+        "P_6_69",
+        "V2_6_5_1",
+        "V2_6_5_3"
+      ],
+      "section": "The structure analysis and inherent viscosities $( \\eta _ { \\mathrm { i n h } } )$of polymers"
+    },
+    {
+      "block_id": "T_7_73",
+      "page_id": 7,
+      "block_index": 73,
+      "element_type": "table",
+      "bbox": [
+        109,
+        103,
+        883,
+        310
+      ],
+      "alignment_status": "matched",
+      "caption": "Table 1 The structure analysis and inherent viscosities $( \\eta _ { \\mathrm { i n h } } )$ of polymers",
+      "table_body": "<table><tr><td rowspan=\"2\">Polymer</td><td colspan=\"3\">Elemental analysis; found (calculated), %</td><td rowspan=\"2\">IR, cm-1</td><td rowspan=\"2\">ηinh, dL g-1</td></tr><tr><td>C</td><td>H</td><td>N</td></tr><tr><td>I</td><td>72.45 (72.48)</td><td>3.83 (3.80)</td><td>9.42 (9.40)</td><td>3395 (N-H); 2231 (CN); 1245 (C-N); 1657 (C=O); 1242 (Ar-O-Ar)</td><td>0.75</td></tr><tr><td>II</td><td>73.45 (73.47)</td><td>3.95 (3.90)</td><td>7.81 (7.79)</td><td>3396 (N-H); 2232 (CN); 1247 (C-N); 1653 (C=O,); 1241 (Ar-O-Ar)</td><td>0.70</td></tr><tr><td>III</td><td>75.58 (76.0)</td><td>4.32 (4.28)</td><td>7.83 (7.82)</td><td>3394 (N-H); 2233 (CN); 1244 (C-N); 1655 (C=O); 1241 (Ar-O-Ar)</td><td>0.66</td></tr><tr><td>IV</td><td>67.41 (67.46)</td><td>3.61 (3.58)</td><td>7.18 (7.16)</td><td>3398 (N-H); 2231 (CN); 1246 (C-N); 1656 (C=O); 1242 (Ar-O-Ar)</td><td>0.64</td></tr></table>",
+      "image_path": "organized/reference_no_0042480/images/09c13af087d4de09115fd51c13e606d6ecbc7ad1bbee17c11624710e5f1c98db.jpg"
+    },
+    {
+      "block_id": "P_7_74",
+      "page_id": 7,
+      "block_index": 74,
+      "element_type": "text",
+      "bbox": [
+        107,
+        334,
+        888,
+        388
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "The structure analysis and inherent viscosities $( \\eta _ { \\mathrm { i n h } } )$of polymers"
+    },
+    {
+      "block_id": "P_7_75",
+      "page_id": 7,
+      "block_index": 75,
+      "element_type": "text",
+      "bbox": [
+        107,
+        390,
+        888,
+        498
+      ],
+      "alignment_status": "matched",
+      "text": "The FT-IR spectra of polymers (Table 1) show that all the spectra have the stretching vibration for the C=O group $( 1 , 6 5 3 { - } 1 , 6 5 7 \\ \\mathrm { c m } ^ { - 1 } )$and the N–H group $( 3 , 3 9 4 - 3 , 3 9 8 ~ \\mathrm { c m } ^ { - 1 } )$in the acylamide linkage, the stretching vibration for CN group $( 2 , 2 3 1 - 2 , 2 3 3 ~ \\mathrm { c m } ^ { - 1 } )$, the stretching vibration for $\\mathrm { C - N } ( 1 , 2 4 4 - 1 , 2 4 7 ~ \\mathrm { c m } ^ { - 1 } )$, and the stretching vibration for the ether group asymmetrical vibration of Ar–O–Ar (1,241– $1 { , } 2 4 2 \\ \\mathrm { c m } ^ { - 1 } )$, indicating that the prepared polyamides have the proposed structures.",
+      "merged_source_block_ids": [
+        "P_7_75",
+        "V2_7_2_1",
+        "V2_7_2_3",
+        "V2_7_2_5",
+        "V2_7_2_7",
+        "V2_7_2_9"
+      ],
+      "section": "The structure analysis and inherent viscosities $( \\eta _ { \\mathrm { i n h } } )$of polymers"
+    },
+    {
+      "block_id": "P_7_76",
+      "page_id": 7,
+      "block_index": 76,
+      "element_type": "text",
+      "bbox": [
+        107,
+        496,
+        888,
+        570
+      ],
+      "alignment_status": "matched",
+      "text": "Inherent viscosities of the polymers are also given in Table 1. Inherent viscosities $( \\eta _ { \\mathrm { i n h } } ) ~ ( 0 . 6 4 \\mathrm { - } 0 . 7 5 ~ \\mathrm { d L / g } )$reveal that high molecular weight polymers have been obtained in the given reaction medium. Thus, the polycondensation route is appropriate.",
+      "merged_source_block_ids": [
+        "P_7_76",
+        "V2_7_3_1"
+      ],
+      "section": "The structure analysis and inherent viscosities $( \\eta _ { \\mathrm { i n h } } )$of polymers"
+    },
+    {
+      "block_id": "P_7_77",
+      "page_id": 7,
+      "block_index": 77,
+      "element_type": "title",
+      "bbox": [
+        109,
+        585,
+        366,
+        605
+      ],
+      "alignment_status": "matched",
+      "text": "The solubility of polymers",
+      "title_level": 2,
+      "section": "The solubility of polymers"
+    },
+    {
+      "block_id": "P_7_78",
+      "page_id": 7,
+      "block_index": 78,
+      "element_type": "text",
+      "bbox": [
+        107,
+        621,
+        888,
+        786
+      ],
+      "alignment_status": "matched",
+      "text": "The solubility behavior of the polymers prepared in this study was determined for powdery samples in excess solvents at room temperature for 24 h. The results showed that all the polymers were soluble in aprotic polar organic solvents such as N-methyl pyrrolidone (NMP), dimethyl sulphoxide (DMSO), and N,N-dimethylformamides (DMF) and were swelled in common solvents, such as ${ \\mathrm { C H C l } } _ { 3 } ,$, ethylene dichloride (DCE), $\\mathrm { C H } _ { 2 } \\mathrm { C l } _ { 2 }$, tetrahydrofuran (THF), etc. The good solubility of polymers might be attributed to flexible units (meta-phenylene units, etc.), ether linkage, and cyano pendant groups. In addition, the good solubility of polymers indicates they have much potential for solvent processing and application.",
+      "merged_source_block_ids": [
+        "P_7_78",
+        "V2_7_5_1",
+        "V2_7_5_3"
+      ],
+      "section": "The solubility of polymers"
+    },
+    {
+      "block_id": "P_7_79",
+      "page_id": 7,
+      "block_index": 79,
+      "element_type": "title",
+      "bbox": [
+        109,
+        801,
+        603,
+        821
+      ],
+      "alignment_status": "matched",
+      "text": "The mechanical and thermal properties of polymers",
+      "title_level": 2,
+      "section": "The mechanical and thermal properties of polymers"
+    },
+    {
+      "block_id": "P_7_80",
+      "page_id": 7,
+      "block_index": 80,
+      "element_type": "text",
+      "bbox": [
+        107,
+        837,
+        888,
+        909
+      ],
+      "alignment_status": "matched",
+      "text": "The prepared polymers were dissolved in DMF with a solid of 10% to give a homogeneous polymer solution that could be used to produce PAs films by casting the solution followed by thermally backing with the condition of $8 0 ~ ^ { \\circ } \\mathrm { C } / 3$h, $1 2 0 ~ ^ { \\circ } \\mathrm { C } /$2 h, $1 5 0 ~ ^ { \\circ } \\mathrm { C } / 2$h, and $1 8 0 ~ ^ { \\circ } \\mathrm { C } / 2$h in vacuo. The mechanical properties of the thin films of polymers which cast from DMF are summarized in Table 2. The thin films have tensile strength of 79–93 MPa, Young’s moduli of 1.7–2.6 GP, elongation at break of 9–15%, indicating that they are strong in mechanical properties.",
+      "merged_source_block_ids": [
+        "P_7_80",
+        "V2_7_7_1",
+        "V2_7_7_3",
+        "V2_7_7_5",
+        "V2_7_7_7"
+      ],
+      "section": "The mechanical and thermal properties of polymers"
+    },
+    {
+      "block_id": "T_8_84",
+      "page_id": 8,
+      "block_index": 84,
+      "element_type": "table",
+      "bbox": [
+        109,
+        105,
+        883,
+        250
+      ],
+      "alignment_status": "matched",
+      "caption": "Table 2 The mechanical and thermal properties of polymers",
+      "table_body": "<table><tr><td rowspan=\"2\">Polymer</td><td colspan=\"3\">Mechanical properties</td><td rowspan=\"2\"> $T_{\\text{d}}$  (°C)</td></tr><tr><td>Tensile strength (MPa)</td><td>Tensile modulus (GPa)</td><td>Elongation at break (%)</td></tr><tr><td>I</td><td>93</td><td>2.6</td><td>10</td><td>435</td></tr><tr><td>II</td><td>90</td><td>2.4</td><td>15</td><td>438</td></tr><tr><td>III</td><td>87</td><td>2.0</td><td>12</td><td>409</td></tr><tr><td>IV</td><td>79</td><td>1.7</td><td>9</td><td>416</td></tr></table>",
+      "image_path": "organized/reference_no_0042480/images/d2347049b648bbc841c2d002538c5e015025862d29226cf5b35aa125a5f97ca2.jpg"
+    },
+    {
+      "block_id": "P_8_85",
+      "page_id": 8,
+      "block_index": 85,
+      "element_type": "text",
+      "bbox": [
+        107,
+        268,
+        886,
+        322
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "The mechanical and thermal properties of polymers"
+    },
+    {
+      "block_id": "P_8_86",
+      "page_id": 8,
+      "block_index": 86,
+      "element_type": "text",
+      "bbox": [
+        107,
+        322,
+        886,
+        394
+      ],
+      "alignment_status": "matched",
+      "text": "The thermal stabilities of the polymers were investigated by TGA in $\\Nu _ { 2 }$. The thermal decomposition temperatures $\\mathrm { ( } T _ { \\mathrm { d } } \\mathrm { s ) }$(Table 2) at 5% weight loss of polymers I–IV are $4 3 5 ^ { \\circ } \\mathrm { C } , 4 3 8 ^ { \\circ } \\mathrm { C } , 4 0 9 ^ { \\circ } \\mathrm { C } .$, and $4 1 6 ~ ^ { \\circ } \\mathrm { C }$, indicating that the novel polyamides have good thermal stabilities used as novel polymer materials.",
+      "merged_source_block_ids": [
+        "P_8_86",
+        "V2_8_2_1",
+        "V2_8_2_3",
+        "V2_8_2_5",
+        "V2_8_2_7"
+      ],
+      "section": "The mechanical and thermal properties of polymers"
+    },
+    {
+      "block_id": "P_8_87",
+      "page_id": 8,
+      "block_index": 87,
+      "element_type": "title",
+      "bbox": [
+        109,
+        421,
+        236,
+        439
+      ],
+      "alignment_status": "matched",
+      "text": "Conclusions",
+      "title_level": 2,
+      "section": "Conclusions"
+    },
+    {
+      "block_id": "P_8_88",
+      "page_id": 8,
+      "block_index": 88,
+      "element_type": "text",
+      "bbox": [
+        109,
+        457,
+        804,
+        475
+      ],
+      "alignment_status": "matched",
+      "text": "The conclusions that can be drawn from the present study are as follows:",
+      "section": "Conclusions"
+    },
+    {
+      "block_id": "P_8_89",
+      "page_id": 8,
+      "block_index": 89,
+      "element_type": "text",
+      "bbox": [
+        109,
+        484,
+        888,
+        591
+      ],
+      "alignment_status": "matched",
+      "text": "(1) A new monomer 2,6-bis(4-chloroformylphenoxy)benzonitrile (ClPOBN) was first prepared. Then a series of high molecular weight novel polyamides with pendant cyano groups were synthesized by low temperature polycondensation of aromatic diamines with 2,6-bis(4-chloroformylphenoxy)benzonitrile (ClPOBN), when the initial reaction temperature was -5 to $5 ~ ^ { \\circ } \\mathrm { C } ,$, ClPOBN concentration was limited to 0.45–0.55 mol/L, and 2-methyl pyridine was used as the absorbent of HCl.",
+      "merged_source_block_ids": [
+        "P_8_89",
+        "V2_8_5_1"
+      ],
+      "section": "Conclusions"
+    },
+    {
+      "block_id": "P_8_90",
+      "page_id": 8,
+      "block_index": 90,
+      "element_type": "text",
+      "bbox": [
+        109,
+        593,
+        888,
+        663
+      ],
+      "alignment_status": "matched",
+      "text": "(2) All the obtained aromatic polyamides were soluble in aprotic polar organic solvents such as NMP, DMSO, and DMF, and were swelled in some common solvents, such as ${ \\mathrm { C H C l } } _ { 3 } ,$, DCE, $\\mathrm { C H } _ { 2 } \\mathrm { C l } _ { 2 }$, THF, etc. the good solubility of polymers indicates they have much potential for solvent processing and application.",
+      "merged_source_block_ids": [
+        "P_8_90",
+        "V2_8_6_1",
+        "V2_8_6_3"
+      ],
+      "section": "Conclusions"
+    },
+    {
+      "block_id": "P_8_91",
+      "page_id": 8,
+      "block_index": 91,
+      "element_type": "text",
+      "bbox": [
+        109,
+        663,
+        886,
+        717
+      ],
+      "alignment_status": "matched",
+      "text": "(3) The thin films of obtained polyamides have tensile strength of 79–93 MPa, Young’s moduli of 1.7–2.6 GP, elongation at break of 9–15%, indicating that they are strong in mechanical properties.",
+      "section": "Conclusions"
+    },
+    {
+      "block_id": "P_8_92",
+      "page_id": 8,
+      "block_index": 92,
+      "element_type": "text",
+      "bbox": [
+        109,
+        717,
+        888,
+        789
+      ],
+      "alignment_status": "matched",
+      "text": "(4) Properties and structures of obtained polymers were characterized by means of FTIR, TG, and elemental analysis. Structures of prepared polymers are as expected. TG studies showed that the polymers had excellent thermal stability as measured by 5% weight loss temperatures in nitrogen (409–438\u0003).",
+      "section": "Conclusions"
+    },
+    {
+      "block_id": "P_8_93",
+      "page_id": 8,
+      "block_index": 93,
+      "element_type": "title",
+      "bbox": [
+        111,
+        803,
+        225,
+        819
+      ],
+      "alignment_status": "matched",
+      "text": "References",
+      "title_level": 2,
+      "section": "References"
+    },
+    {
+      "block_id": "R_8_94",
+      "page_id": 8,
+      "block_index": 94,
+      "element_type": "references",
+      "bbox": [
+        123,
+        837,
+        886,
+        866
+      ],
+      "alignment_status": "matched",
+      "text": "1. Zulfidar S, Ishaq M, Ahmad Z et al (2008) Synthesis, static and dynamic light scattering studies of soluble aromatic ol amide. Pol m Adv Technol 19:1250–1255",
+      "section": "References"
+    },
+    {
+      "block_id": "R_8_95",
+      "page_id": 8,
+      "block_index": 95,
+      "element_type": "references",
+      "bbox": [
+        123,
+        867,
+        883,
+        894
+      ],
+      "alignment_status": "matched",
+      "text": "2. Sheng SR, Liu Z, Liu XL et al (2008) Synthesis and properties of novel soluble polychloro substi tuted aromatic polyamides. J Appl Polym Sci 110:1112–1117",
+      "section": "References"
+    },
+    {
+      "block_id": "R_9_99",
+      "page_id": 9,
+      "block_index": 99,
+      "element_type": "references",
+      "bbox": [
+        123,
+        84,
+        883,
+        126
+      ],
+      "alignment_status": "matched",
+      "text": "3. Su YY, Yang CP (2006) Synthesis and properties of fluorinated aromatic poly(amide-imide)s based on 4,4<sup>0</sup>-bis(4-amino-2-trifluoromethylphenoxy)benzophenone and various bis(trimellitimide)s. J Appl Pol m Sci 102:3641–3653",
+      "section": "References"
+    },
+    {
+      "block_id": "R_9_100",
+      "page_id": 9,
+      "block_index": 100,
+      "element_type": "references",
+      "bbox": [
+        123,
+        127,
+        883,
+        169
+      ],
+      "alignment_status": "matched",
+      "text": "4. Calderon V, Schwarz G, Garcia F et al (2006) Synthesis and characterization of new aromatic polyamides bearing crown ethers and acyclic ethylene oxide units in the pendant structure. III Benzo-18-crown-6 systems and their open-chain counterparts. J Polym Sci A 44:6252–6269",
+      "section": "References"
+    },
+    {
+      "block_id": "R_9_101",
+      "page_id": 9,
+      "block_index": 101,
+      "element_type": "references",
+      "bbox": [
+        123,
+        169,
+        883,
+        196
+      ],
+      "alignment_status": "matched",
+      "text": "5. Hsiao SH, Chang YM, Chen HW et al (2006) Novel aromatic polyamides and polyimides functionalized with 4-tert-butylphenylamine groups. J Polym Sci A 44:4579–4592",
+      "section": "References"
+    },
+    {
+      "block_id": "R_9_102",
+      "page_id": 9,
+      "block_index": 102,
+      "element_type": "references",
+      "bbox": [
+        123,
+        198,
+        883,
+        226
+      ],
+      "alignment_status": "matched",
+      "text": "6. Miao Y, Wu G, Zhou L et al (2008) Synthesis and characterization of dendronized aromatic polyamides with bromomethyl groups in the periphery. J Appl Polym Sci 109:397–405",
+      "section": "References"
+    },
+    {
+      "block_id": "R_9_103",
+      "page_id": 9,
+      "block_index": 103,
+      "element_type": "references",
+      "bbox": [
+        123,
+        226,
+        883,
+        268
+      ],
+      "alignment_status": "matched",
+      "text": "7. Su YY, Yang CP (2006) Synthesis and properties of fluorinated aromatic poly(amide-imide)s based on 4,4<sup>0</sup>-bis(4-amino-2-trifluroromethylphenoxy)benzophenone and various bis(trimeditimide)s. J Appl Sci 102:3641–3653",
+      "section": "References"
+    },
+    {
+      "block_id": "R_9_104",
+      "page_id": 9,
+      "block_index": 104,
+      "element_type": "references",
+      "bbox": [
+        123,
+        268,
+        883,
+        297
+      ],
+      "alignment_status": "matched",
+      "text": "8. Ubale VP, Patil AS, Maldar NN (2007) Polyhydrazides based on 2,5-bis(4-carboxymethylenephenyl)-3, 4-diphenyl thiophene. Eur Polym J 43:1038–1045",
+      "section": "References"
+    },
+    {
+      "block_id": "R_9_105",
+      "page_id": 9,
+      "block_index": 105,
+      "element_type": "references",
+      "bbox": [
+        120,
+        298,
+        883,
+        325
+      ],
+      "alignment_status": "matched",
+      "text": "9. Xu Q, Yu YK, Cai MZ et al (2003) Synthesis and characterization of aromatic polycyano ether ether ketone ketone. Petrochem Technol 32:999–1002",
+      "section": "References"
+    },
+    {
+      "block_id": "R_9_106",
+      "page_id": 9,
+      "block_index": 106,
+      "element_type": "references",
+      "bbox": [
+        116,
+        325,
+        883,
+        354
+      ],
+      "alignment_status": "matched",
+      "text": "10. Li C, Tang A, Zou Y (2005) Preparation and dielectric properties of polyarylene ether nitriles/TiO nanocomposites film. Mater Lett 59:59–62",
+      "section": "References"
+    },
+    {
+      "block_id": "R_9_107",
+      "page_id": 9,
+      "block_index": 107,
+      "element_type": "references",
+      "bbox": [
+        116,
+        355,
+        883,
+        382
+      ],
+      "alignment_status": "matched",
+      "text": "11. Matsuo S, Murakami T, Bando T et al (1987) Polycyanoaryl ether, method for preparing the same and uses thereof. EP 243000",
+      "section": "References"
+    },
+    {
+      "block_id": "R_9_108",
+      "page_id": 9,
+      "block_index": 108,
+      "element_type": "references",
+      "bbox": [
+        116,
+        382,
+        883,
+        411
+      ],
+      "alignment_status": "matched",
+      "text": "12. Zhang Y, Sun X, Niu Y et al (2006) Synthesis and characterization of a new poly (aryl ether ketone) containing zinc phthalocyanine. Synth Metals 156:893–897",
+      "section": "References"
+    },
+    {
+      "block_id": "R_9_109",
+      "page_id": 9,
+      "block_index": 109,
+      "element_type": "references",
+      "bbox": [
+        116,
+        411,
+        883,
+        439
+      ],
+      "alignment_status": "matched",
+      "text": "13. Liu Z, Wang J, Yan Q et al (2006) Hydrophilic modification of poly(phthalazinone ether nitrile ketone)s containing heterocycle moiety. Acta Polym Sin 7:931–936",
+      "section": "References"
+    },
+    {
+      "block_id": "R_9_110",
+      "page_id": 9,
+      "block_index": 110,
+      "element_type": "references",
+      "bbox": [
+        116,
+        439,
+        883,
+        468
+      ],
+      "alignment_status": "matched",
+      "text": "14. Cao GP, Chen WJ, Liu XB (2008) Synthesis and thermal properties of thermosetting resin based on cyano functionalized benzoxazine. Polym Degrad Stab 93:739–744",
+      "section": "References"
+    }
+  ],
+  "warnings": [
+    {
+      "code": "metadata_extraction_failed",
+      "message": "未配置统一 LLM 元数据提取器；document JSON 已继续生成"
+    }
+  ]
+}

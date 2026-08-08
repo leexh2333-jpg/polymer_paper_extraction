@@ -1,0 +1,3008 @@
+{
+  "schema_version": "1.0",
+  "document_id": "reference_no_0038527",
+  "paper": {
+    "ref_no": "reference_no_0038527",
+    "pdf_filename": "014c9558-9df6-4af4-8528-b5233ea3c0c0_origin.pdf",
+    "source_pdf_path": "mineru/reference_no_0038527/014c9558-9df6-4af4-8528-b5233ea3c0c0_origin.pdf",
+    "organized_pdf_path": "organized/reference_no_0038527/origin.pdf",
+    "doi": null,
+    "title": null,
+    "authors": null,
+    "journal": null,
+    "year": null,
+    "metadata_status": "failed",
+    "metadata_extraction": {
+      "method": "llm",
+      "provider": null,
+      "model": null,
+      "prompt_file": "prompts/meta_extract.md",
+      "prompt_sha256": "98252486e4f9cdfd1b42ea02b7e01440d6be99c99d18720dc71c95aa1643fcd4",
+      "source_pages": [
+        0,
+        1
+      ],
+      "status": "failed",
+      "error_type": "MetaExtractorUnavailable"
+    }
+  },
+  "source_files": {
+    "markdown": "reference_no_0038527.md",
+    "content_v1": "content.json",
+    "content_v2": "content_v2.json",
+    "pdf": "origin.pdf"
+  },
+  "ocr": {
+    "engine": "mineru",
+    "batch_id": "122ff743-eb66-4583-986f-6c8015953309",
+    "model_version": "vlm",
+    "ocr_enabled": false,
+    "language": null,
+    "page_ranges": null,
+    "enable_formula": true,
+    "enable_table": true,
+    "extra_formats": [],
+    "status": "done",
+    "manifest_file": "batch_122ff743-eb66-4583-986f-6c8015953309_manifest.json",
+    "status_file": "batch_122ff743-eb66-4583-986f-6c8015953309_status.json"
+  },
+  "elements": [
+    {
+      "block_id": "P_0_0",
+      "page_id": 0,
+      "block_index": 0,
+      "element_type": "title",
+      "bbox": [
+        149,
+        62,
+        804,
+        123
+      ],
+      "alignment_status": "matched",
+      "text": "Synthesis, Properties, and Tunable Supramolecular Architecture of Regioregular Poly(3-alkylthiophene)s with Alternating Alkyl and Semifluoroalkyl Substituents",
+      "title_level": 1,
+      "section": "DocumentTitle"
+    },
+    {
+      "block_id": "P_0_1",
+      "page_id": 0,
+      "block_index": 1,
+      "element_type": "text",
+      "bbox": [
+        147,
+        136,
+        760,
+        169
+      ],
+      "alignment_status": "matched",
+      "text": "Bing Wang,<sup>†</sup> Shannon Watt,<sup>†</sup> Michael Hong,<sup>†</sup> Benoit Domercq,<sup>‡</sup> Ranbel Sun, Bernard Kippelen,<sup>‡</sup> and David M. Collard\\*<sup>,†</sup>",
+      "section": "Synthesis, Properties, and Tunable Supramolecular Architecture of Regioregular Poly(3-alkylthiophene)s with Alternating Alkyl and Semifluoroalkyl Substituents"
+    },
+    {
+      "block_id": "P_0_2",
+      "page_id": 0,
+      "block_index": 2,
+      "element_type": "text",
+      "bbox": [
+        147,
+        174,
+        837,
+        215
+      ],
+      "alignment_status": "matched",
+      "text": "School of Chemistry and Biochemistry, Georgia Institute of Technology, Atlanta, Georgia 30332-0400, and School of Electrical and Computer Engineering, Georgia Institute of Technology, Atlanta, Georgia 30332-0250",
+      "section": "Synthesis, Properties, and Tunable Supramolecular Architecture of Regioregular Poly(3-alkylthiophene)s with Alternating Alkyl and Semifluoroalkyl Substituents"
+    },
+    {
+      "block_id": "P_0_3",
+      "page_id": 0,
+      "block_index": 3,
+      "element_type": "text",
+      "bbox": [
+        149,
+        220,
+        648,
+        236
+      ],
+      "alignment_status": "matched",
+      "text": "ReceiVed October 30, 2007; ReVised Manuscript ReceiVed March 7, 2008",
+      "section": "Synthesis, Properties, and Tunable Supramolecular Architecture of Regioregular Poly(3-alkylthiophene)s with Alternating Alkyl and Semifluoroalkyl Substituents"
+    },
+    {
+      "block_id": "P_0_4",
+      "page_id": 0,
+      "block_index": 4,
+      "element_type": "text",
+      "bbox": [
+        149,
+        264,
+        850,
+        407
+      ],
+      "alignment_status": "matched",
+      "text": "ABSTRACT: A series of regioregular poly(3-alkylthiophene)s, Rg(Th-m,n/p) (m ) 5, 8, 11; n ) 4; p ) 4, 8, 12), with alternating alkyl and semifluoroalkyl substituents has been synthesized by the GRIM polymerization method. Compared with their regiorandom analogues, Rn(Th-m,n/p), the regioregular analogues exhibit a red shift in electronic transitions in both solution and the solid state as well as considerably higher melting and crystallization temperatures. Increasing the length of alkyl side chains decreases the melting and crystallization transitions significantly. X-ray diffraction indicates that Rg(Th-m,n/p) polymers form highly ordered bilayer lamellar structures based on the assembly of the amphiphilic Janus-type structure. This supramolecular architecture can be tuned readily by varying the lengths of alkyl (p) and alkylene (m) fragments, affording interlayer distances of 40.1 Å for Rg(Th-5,4/4) and 57.8 Å for Rg(Th-11,4/8). Charge mobility was measured in organic field-effect transistors fabricated using Rg(Th-5,4/12) as the semiconductor layer. Hole mobilities of up to 1.45 10<sup>-2</sup> cm<sup>2</sup>/(V s) were measured in FET devices after thermal annealing of the organic semiconductor.",
+      "section": "Synthesis, Properties, and Tunable Supramolecular Architecture of Regioregular Poly(3-alkylthiophene)s with Alternating Alkyl and Semifluoroalkyl Substituents"
+    },
+    {
+      "block_id": "P_0_5",
+      "page_id": 0,
+      "block_index": 5,
+      "element_type": "title",
+      "bbox": [
+        67,
+        415,
+        164,
+        429
+      ],
+      "alignment_status": "matched",
+      "text": "Introduction",
+      "title_level": 2,
+      "section": "Introduction"
+    },
+    {
+      "block_id": "P_0_6",
+      "page_id": 0,
+      "block_index": 6,
+      "element_type": "text",
+      "bbox": [
+        67,
+        432,
+        483,
+        558
+      ],
+      "alignment_status": "matched",
+      "text": "Poly(3-alkylthiophene)s (PATs)<sup>1,2</sup> are a versatile family of conjugated polymers<sup>3,4</sup> which may find extensive application as electronic and optical materials in field-effect transistors (FETs),<sup>5</sup> light-emitting diodes (LEDs),<sup>6</sup> organic photovoltaic cells and modules,<sup>7,8</sup> nonlinear optical devices,<sup>9,10</sup> and sensors.<sup>11</sup> A variety of functional side chains (e.g., hydrophilic oligo(ethylene oxide)s,<sup>12,13</sup> ionic,<sup>14</sup> and mesogenic<sup>15,16</sup> groups) have been attached to the 3-position of the thiophene unit to impart new properties to polythiophenes.",
+      "section": "Introduction"
+    },
+    {
+      "block_id": "P_0_7",
+      "page_id": 0,
+      "block_index": 7,
+      "element_type": "text",
+      "bbox": [
+        66,
+        559,
+        485,
+        874
+      ],
+      "alignment_status": "matched",
+      "text": "The semiconducting properties of PATs are a function of their solid-state macromolecular architecture. Close packing of the regularly arrayed alkyl side chains of regioregular head-to-tail PATs, and various analogues,<sup>17–19</sup> gives rise to highly ordered lamellar structures, which is in contrast to the disordered solid phase formed by the corresponding regiorandom polymers. The planarity of the backbone of regioregular PATs leads to extensive delocalization along the polymer chain and close packing of the chains in an ordered assembly.<sup>20,21</sup> Strong interchain interactions provide regioregular PATs with optimal properties of importance in defining the performance of these semiconducting materials in a variety of devices. Increasing the percentage of head-to-tail coupling between repeat units in PATs results in higher conductivity of p-doped materials,<sup>22,23</sup> red shifts of both absorptions and emissions,<sup>24</sup> improved luminescence efficiency,<sup>25</sup> and higher field-effect charge mobility.<sup>26,27</sup> In addition, drop-casting a film of regioregular PATs results in assembly of the conjugated polymer backbones perpendicular to the substrate, an orientation that provides for the greatest charge mobility in FETs.<sup>28</sup> However, the origin of this preferred orientation is poorly understood.<sup>5</sup> Spin-coating regioregular PATs,<sup>28</sup> or adsorption onto graphite from solution,<sup>29</sup> results in orientation of the polymer backbone parallel to the substrate.",
+      "section": "Introduction"
+    },
+    {
+      "block_id": "P_0_8",
+      "page_id": 0,
+      "block_index": 8,
+      "element_type": "text",
+      "bbox": [
+        514,
+        415,
+        932,
+        536
+      ],
+      "alignment_status": "matched",
+      "text": "Amphiphilic heteroarene monomers have been prepared by substitution of the ring with a combination of hydrophobic alkyl groups and oligo(ethylene oxide) chains or charged (cationic,<sup>30</sup> anionic<sup>31</sup>) side chains. However, introduction of bulky substituents leads to a decrease in conjugation of the backbone owing to steric interactions between side chains on adjacent repeat units. The use of polar side chains leads to materials that are difficult to process and display properties that are sensitive to moisture.<sup>32</sup>",
+      "section": "Introduction"
+    },
+    {
+      "block_id": "P_0_9",
+      "page_id": 0,
+      "block_index": 9,
+      "element_type": "text",
+      "bbox": [
+        514,
+        536,
+        932,
+        670
+      ],
+      "alignment_status": "matched",
+      "text": "Semifluoroalkyl chains are intriguing amphiphilic units in that the hydrocarbon and fluorocarbon segments have a propensity to self-aggregate, both moieties are hydrophobic, and they are of a similar size: The van der Waals radius of fluorine (1.35 Å) is 12.5% larger than that of hydrogen (1.20 Å).<sup>33</sup> Semifluoroalkyl groups have been used as side chains on a wide variety of polymers,<sup>34–43</sup> giving rise to unique properties as a consequence of their hydrophobicity, rigidity, thermal stability, chemical and oxidative resistance, and self-organization of the fluorinated chains.",
+      "section": "Introduction"
+    },
+    {
+      "block_id": "P_0_10",
+      "page_id": 0,
+      "block_index": 10,
+      "element_type": "text",
+      "bbox": [
+        514,
+        670,
+        932,
+        713
+      ],
+      "alignment_status": "matched",
+      "text": "We have undertaken a detailed study of the synthesis and properties of 3-semifluoroalkyl- and 3-perfluoroalkyl-substituted polythiophenes (Figure 1).<sup>44–50</sup> The introduction of fluorocarbon side chains has led to conjugated PATs with unprecedented solubility in supercritical carbon dioxide (Figure 1A: perfluoroalkyl-substituted),<sup>48</sup> liquid crystalline properties (Figure 1B: semifluoroalkyl-substituted),<sup>46</sup> strong fluorescence in solution and from the solid state (Figure 1C: alternating alkyl/perfluoroalkyl-substituted),<sup>49,50</sup> and highly ordered lamellar bilayertype structures (Figure 1D: alternating alkyl/semifluoroalkylsubstituted).<sup>45</sup>",
+      "section": "Introduction"
+    },
+    {
+      "block_id": "I_0_11",
+      "page_id": 0,
+      "block_index": 11,
+      "element_type": "image",
+      "bbox": [
+        558,
+        721,
+        887,
+        860
+      ],
+      "alignment_status": "matched",
+      "image_kind": "image",
+      "caption": "Figure 1. 3-Semifluoroalkyl- and 3-perfluoroalkyl-substituted polythiophenes: A, perfluoroalkyl-substituted (ref 48); B, semifluoroalkylsubstituted (ref 46); C, alternating alkyl/perfluoroalkyl-substituted (refs 49, 50); and D, alternating alkyl/semifluoroalkyl-substituted polythiophenes, Rg(Th-m,n/p) (ref 45 and this work).",
+      "image_path": "organized/reference_no_0038527/images/830022367f8075ded68ed4c788156175918b4c529dbd97e036c5f0eb9ac879cc.jpg"
+    },
+    {
+      "block_id": "F_0_14",
+      "page_id": 0,
+      "block_index": 14,
+      "element_type": "footnote",
+      "bbox": [
+        84,
+        895,
+        366,
+        908
+      ],
+      "alignment_status": "matched",
+      "text": "\\* To whom correspondence should be addressed.",
+      "section": "Introduction"
+    },
+    {
+      "block_id": "F_0_15",
+      "page_id": 0,
+      "block_index": 15,
+      "element_type": "footnote",
+      "bbox": [
+        86,
+        906,
+        322,
+        919
+      ],
+      "alignment_status": "matched",
+      "text": "<sup>†</sup> School of Chemistry and Biochemistry.",
+      "section": "Introduction"
+    },
+    {
+      "block_id": "F_0_16",
+      "page_id": 0,
+      "block_index": 16,
+      "element_type": "footnote",
+      "bbox": [
+        84,
+        916,
+        366,
+        929
+      ],
+      "alignment_status": "matched",
+      "text": "<sup>‡</sup> School of Electrical and Computer Engineering.",
+      "section": "Introduction"
+    },
+    {
+      "block_id": "I_1_18",
+      "page_id": 1,
+      "block_index": 18,
+      "element_type": "image",
+      "bbox": [
+        166,
+        49,
+        828,
+        381
+      ],
+      "alignment_status": "matched",
+      "image_kind": "image",
+      "caption": "Figure 2. Synthesis of bithiophene monomers, 7(m,n/p).",
+      "image_path": "organized/reference_no_0038527/images/5cf1c378cc26bc3aebc56320034d54bc37dd9435b4f588f21b5015bd5cd8ff34.jpg"
+    },
+    {
+      "block_id": "P_1_19",
+      "page_id": 1,
+      "block_index": 19,
+      "element_type": "text",
+      "bbox": [
+        66,
+        418,
+        483,
+        527
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "Introduction"
+    },
+    {
+      "block_id": "P_1_20",
+      "page_id": 1,
+      "block_index": 20,
+      "element_type": "text",
+      "bbox": [
+        66,
+        526,
+        485,
+        851
+      ],
+      "alignment_status": "matched",
+      "text": "We have previously reported on the assembly of a single homologue of the strictly alternating alkyl/semifluoroalkyl series, Rg(Th-m,n/p) (Figure $\\mathrm { 1 D ) . } ^ { 4 5 }$In this paper we expand on the previous work to explore the effect of the length of the hydrocarbon and fluorocarbon segments by variation of chain lengths m, n, and p. While earlier reported oligothiophenes and polythiophenes bearing fluoroalkyl side chains were restricted to cases in which the methylene spacer $\\left( - ( \\mathrm { C H } _ { 2 } ) _ { m } - \\right)$length, m, is limited to $0 ^ { - 3 , ^ { 4 0 - 4 3 , 5 1 } }$we have separated the fluorocarbon fragment from the thiophene ring by hydrocarbon spacers where $m > 3$This spacer serves to insulate the polymer backbone from the electron-withdrawing fluorinated unit and provides an amphiphilic structure which drives the self-organization of neighboring semifluoroalkyl chains. Upon adopting the preferred all-anti backbone conformation, the regioregular polymers with alternating substituents, Rg(Th-m,n/p), possess a Janus-type amphiphilic structure<sup>52</sup> in which the two long edges of the planar polymeric “ribbon-like” structure have distinctly different characteristics (i.e., hydrocarbon and fluorocarbon). This provides us with the opportunity to use amphiphilicity and the variation of molecular structure to attain further control over interchain interactions and the supramolecular architecture of PATs. In particular, we explore the way in which these polymers assemble and orient as a result of their amphiphilic structure.",
+      "merged_source_block_ids": [
+        "P_1_20",
+        "V2_1_2_1",
+        "V2_1_2_3",
+        "V2_1_2_5",
+        "V2_1_2_7"
+      ],
+      "section": "Introduction"
+    },
+    {
+      "block_id": "P_1_21",
+      "page_id": 1,
+      "block_index": 21,
+      "element_type": "title",
+      "bbox": [
+        67,
+        862,
+        235,
+        877
+      ],
+      "alignment_status": "matched",
+      "text": "Results and Discussion",
+      "title_level": 2,
+      "section": "Results and Discussion"
+    },
+    {
+      "block_id": "P_1_22",
+      "page_id": 1,
+      "block_index": 22,
+      "element_type": "text",
+      "bbox": [
+        67,
+        879,
+        485,
+        965
+      ],
+      "alignment_status": "matched",
+      "text": "Synthesis of Bithiophene Monomers. The synthetic approach to prepare polythiophenes with alternating alkyl and semifluoroalkyl side chains along the backbone relies on the regioregular polymerization of $3 { , } 4 ^ { \\prime } { - }$disubstituted-2,2′-bithiophene monomers. The synthetic route to bithiophene monomers bearing appropriate side chains is illustrated in Figure 2. 3-(ω-",
+      "merged_source_block_ids": [
+        "P_1_22",
+        "V2_1_4_1"
+      ],
+      "section": "Results and Discussion"
+    },
+    {
+      "block_id": "P_1_23",
+      "page_id": 1,
+      "block_index": 23,
+      "element_type": "text",
+      "bbox": [
+        512,
+        418,
+        933,
+        609
+      ],
+      "alignment_status": "matched",
+      "text": "Alkenyl)thiophenes 1 were prepared by Kumada coupling of ω-alkenylmagnesium bromides and 3-bromothiophene in the presence of catalytic $\\mathrm { N i ( d p p p ) C l _ { 2 } } . ^ { 4 7 }$The free radical addition reaction of perfluoroalkyl iodides to 1 was performed using a modification of a procedure for regiospecific addition to terminal alkenes.<sup>47</sup> A relatively large amount of AIBN (30 mol % added in two portions) was used to initiate the radical chain reaction. This provided significantly higher conversions $( \\mathrm { t o } > 8 5 \\%$within 2 days) than attempts with smaller amounts of initiator. The reductive deiodination of 2 with sodium borohydride in dry DMSO gave almost quantitative yields of 3-(semifluoroalkyl)- thiophenes, 3. Conversion of 3 to 2-bromo-3-(semifluoroalkyl)- thiophenes, 4, was achieved by treatment with 1 equiv of N-bromosuccinimide (NBS) in DMF at low temperature.",
+      "merged_source_block_ids": [
+        "P_1_23",
+        "V2_1_5_1",
+        "V2_1_5_3"
+      ],
+      "section": "Results and Discussion"
+    },
+    {
+      "block_id": "P_1_24",
+      "page_id": 1,
+      "block_index": 24,
+      "element_type": "text",
+      "bbox": [
+        512,
+        607,
+        933,
+        934
+      ],
+      "alignment_status": "matched",
+      "text": "In an earlier study,<sup>45</sup> we used Negishi coupling (i.e., reaction of an R-thienylzinc reagent with a bromothiophene) to construct the bithiophene core of 6. We have since found Suzuki crosscoupling (i.e., reaction of a thienylboronate reagent with a bromothiophene) to be a more reliable and regiospecific method for the preparation of the required 3,4′-disubstituted bithiophene monomers. Boronate esters 5 were prepared via a one-pot approach starting with the lithiation of 3-alkylthiophenes with lithium 2,2,6,6-tetramethylpiperidin-1-ide (LiTMP) at -40 °C, followed by addition of B(OMe) . Acid-catalyzed hydrolysis followed by esterification with neopentyl glycol (HOCH - $\\mathrm { C } ( \\mathrm { C H } _ { 3 } ) _ { 2 } \\mathrm { C H } _ { 2 } \\mathrm { O H } )$gave the cyclic boronate ester in high yield. The use of a bulky base, $\\dot { \\mathrm { L i T M P } } , ^ { 5 3 }$plays a key role in this transformation; the lithiation takes place exclusively at the less sterically crowded 5-position of 3-alkylthiophenes. The <sup>1</sup>H NMR spectrum of the crude cyclic boronate ester shows peaks for the desired 3,5-substituted thiophene 5: two doublets at 7.13 and 7.38 ppm with coupling constants (J) of 1.1 Hz. In contrast, lithium diisopropylamide (LDA) gave selectivities of less than 95% under the same reaction conditions with the <sup>1</sup>H NMR spectrum showing the presence of 5% of the 2,3-substituted byproduct with doublets at 6.97 and 7.40 ppm (J ) 4.7 Hz). The 3-alkyl-5-boronate esters 5 are stable to column chromatography on silica gel.",
+      "merged_source_block_ids": [
+        "P_1_24",
+        "V2_1_6_1",
+        "V2_1_6_3"
+      ],
+      "section": "Results and Discussion"
+    },
+    {
+      "block_id": "P_1_25",
+      "page_id": 1,
+      "block_index": 25,
+      "element_type": "text",
+      "bbox": [
+        514,
+        934,
+        933,
+        964
+      ],
+      "alignment_status": "matched",
+      "text": "The Suzuki coupling of bromides 4 and boronate esters 5 in the presence of $\\mathrm { \\hat { P } d } ( \\mathrm { \\bar { P P h } } _ { 3 } ) _ { 4 }$and sodium carbonate in DME",
+      "merged_source_block_ids": [
+        "P_1_25",
+        "V2_1_7_1"
+      ],
+      "section": "Results and Discussion"
+    },
+    {
+      "block_id": "P_2_29",
+      "page_id": 2,
+      "block_index": 29,
+      "element_type": "text",
+      "bbox": [
+        81,
+        51,
+        332,
+        63
+      ],
+      "alignment_status": "matched",
+      "text": "Regioregular cross-coupling polymerization",
+      "section": "Results and Discussion"
+    },
+    {
+      "block_id": "I_2_30",
+      "page_id": 2,
+      "block_index": 30,
+      "element_type": "image",
+      "bbox": [
+        79,
+        75,
+        471,
+        201
+      ],
+      "alignment_status": "matched",
+      "image_kind": "image",
+      "caption": null,
+      "image_path": "organized/reference_no_0038527/images/f9c71cbea6ec30896adc347fca64e1a1758257f92b07bb7ae9d08432764ef2bb.jpg"
+    },
+    {
+      "block_id": "P_2_31",
+      "page_id": 2,
+      "block_index": 31,
+      "element_type": "text",
+      "bbox": [
+        83,
+        215,
+        305,
+        229
+      ],
+      "alignment_status": "matched",
+      "text": "Regiorandom oxidative polymerization",
+      "section": "Results and Discussion"
+    },
+    {
+      "block_id": "I_2_32",
+      "page_id": 2,
+      "block_index": 32,
+      "element_type": "image",
+      "bbox": [
+        96,
+        234,
+        470,
+        310
+      ],
+      "alignment_status": "matched",
+      "image_kind": "image",
+      "caption": "Figure 3. Regioregular and regiorandom polymerizations.",
+      "image_path": "organized/reference_no_0038527/images/d1da2ed234e36df977d44bce8980be033a8102e19a4c7e826871500fd6cfb07b.jpg"
+    },
+    {
+      "block_id": "P_2_33",
+      "page_id": 2,
+      "block_index": 33,
+      "element_type": "text",
+      "bbox": [
+        67,
+        339,
+        483,
+        450
+      ],
+      "alignment_status": "matched",
+      "text": "afforded 4′-alkyl-3-semifluoroalkyl-2,2′-bithiophenes, 6, in good yields. The bromination of 6 with 2 equiv of NBS in a mixture of DMF and $\\mathrm { C H C l } _ { 3 } \\mathrm { a t } - 1 5 ^ { \\circ } \\mathrm { C }$provided 4′-alkyl-5,5′-dibromo-3-semifluoroalkyl-2,2′-bithiophenes, 7. It is critical to control the amount of NBS and the reaction temperature to avoid formation of tribrominated bithiophenes which are difficult to separate from the desired dibrominated product. Both 6 and 7 can be used as monomers for polymerizations.",
+      "merged_source_block_ids": [
+        "P_2_33",
+        "V2_2_4_1"
+      ],
+      "section": "Results and Discussion"
+    },
+    {
+      "block_id": "P_2_34",
+      "page_id": 2,
+      "block_index": 34,
+      "element_type": "text",
+      "bbox": [
+        66,
+        452,
+        485,
+        964
+      ],
+      "alignment_status": "matched",
+      "text": "Polymerizations. The most common methods for generation of PATs include transition-metal-catalyzed coupling polymerization<sup>54–63</sup> and oxidative polymerization.<sup>25,64–69</sup> While the latter approach provides “regiorandom” polymers with all three of the possible diad orientations between neighboring 3-alkylthiophenes along the polymer main chain (i.e., head-to-tail, ht; head-to-head, hh; and tail-to-tail, tt), the former can be performed to provide regioregular (ht) PATs. The McCullough method (regioselective generation of 5-bromo-4-alkyl-2-thienylmagensium and the Ni-catalyzed cross-coupling polymerization)<sup>21</sup> affords PATs with almost exclusively regioregular head-to-tail coupling. A variation of this route relies on the Ni(dppp)Cl -catalyzed Grignard metathesis (GRIM) polymerization of the Grignard reagent derived from treatment of 2,5- dibromo-3-alkylthiophenes with alkylmagnesium bromide.<sup>70–72</sup> Similarly, the regioselective metal-halogen exchange at the 5-position of 2,5-dibromo-3-alkylthiophenes with “Rieke zinc” affords a monomer which undergoes Ni-catalyzed coupling to afford regioregular PATs.<sup>73,74</sup> These regioselective crosscoupling reactions have also been used to polymerize a variety of substituted 2,2′-bithiophenes.<sup>45,49,50,75</sup> We chose the GRIM method<sup>70,72</sup> to polymerize the 3,4′-disubstituted 5,5′-dibromo-2,2′-bithiophenes, 7, and thereby prepare a series of regioregular polythiophenes, Rg(Th-m,n/p), with alternating 3-alkylthiophene and 3-(semifluoroalkyl)thiophene subunits along the backbone (Figure 3). Dibromo monomers 7 underwent a bromine-metal exchange reaction with methylmagnesium chloride in refluxing THF. By quenching an aliquot of the reaction mixture with methanol, it was established that the bromine-metal exchange takes place exclusively at the less sterically crowded 5-position of the bithiophenes. The <sup>1</sup>H NMR spectra of the crude products obtained upon quenching the intermediate Grignard reagents showed the formation of 5′- bromo-3-(semifluoroalkyl)-4′-alkyl-2,2′-bithiophene (two doublets at 6.88 and 7.16 ppm with $J \\stackrel { \\cdot } { = } 5 . 4$Hz for coupling between the protons on C4 and C5 and a singlet at 6.96 ppm for the proton on $C 3 ^ { \\prime } ) . ^ { 4 5 }$We did not observe peaks that would be expected for the 5-bromo-3-(semifluoroalkyl)-4′-alkyl substituted analogue arising from metalation at the 5′-position (i.e., a pair of doublets with J ) 1 Hz for long-range coupling between the protons on ${ \\mathrm { C } } 3 ^ { \\prime }$and C5′). Thus, the regioselectivity of the bromine-magnesium exchange of the 3,4′-dialkyl-5,5′-dibromo-2,2′-bithiophenes 7 is substantially higher than that of 3-alkyl-2,5-dibromothiophenes, which affords an 85:15 ratio of metalation at the 5- and 2-positions.<sup>71</sup>",
+      "merged_source_block_ids": [
+        "P_2_34",
+        "V2_2_5_1",
+        "V2_2_5_3",
+        "V2_2_5_5"
+      ],
+      "section": "Results and Discussion"
+    },
+    {
+      "block_id": "P_2_35",
+      "page_id": 2,
+      "block_index": 35,
+      "element_type": "text",
+      "bbox": [
+        514,
+        51,
+        932,
+        146
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "Results and Discussion"
+    },
+    {
+      "block_id": "P_2_36",
+      "page_id": 2,
+      "block_index": 36,
+      "element_type": "text",
+      "bbox": [
+        514,
+        146,
+        932,
+        243
+      ],
+      "alignment_status": "matched",
+      "text": "The bithienomagnesium intermediates were readily polymerized upon treatment with a catalytic amount of Ni(dppp)Cl<sub>2</sub> in THF. In addition to exploring the variation of chain lengths m, n, and p on the properties of the regioregular alternating polymers, we also prepared the regiorandom analogue, Rn(Th-5,4/8), by the oxidative polymerization<sup>64,76,77</sup> of $\\mathbf { 6 } ( m = 5 , n =$$4 , p = 8 )$in chloroform with ferric chloride.",
+      "merged_source_block_ids": [
+        "P_2_36",
+        "V2_2_7_1",
+        "V2_2_7_2"
+      ],
+      "section": "Results and Discussion"
+    },
+    {
+      "block_id": "P_2_37",
+      "page_id": 2,
+      "block_index": 37,
+      "element_type": "text",
+      "bbox": [
+        514,
+        242,
+        933,
+        404
+      ],
+      "alignment_status": "matched",
+      "text": "The reaction mixtures from the cross-coupling and oxidative polymerizations were poured into a large volume of methanol to precipitate crude polymer. The crude polymers were purified and fractionated by sequential extraction with methanol, acetone, hexane, and chloroform in a Soxhlet extractor. The portion of the polymers extracted into chloroform were isolated as deep red or purple solids which are soluble in THF, chloroform, and toluene. These materials were characterized in this study by NMR, UV-vis, and FT-IR spectroscopies, mass spectrometry, elemental analysis, gel permeation chromatography (GPC), differential scanning calorimetry (DSC), and X-ray diffraction (XRD).",
+      "section": "Results and Discussion"
+    },
+    {
+      "block_id": "P_2_38",
+      "page_id": 2,
+      "block_index": 38,
+      "element_type": "text",
+      "bbox": [
+        514,
+        404,
+        933,
+        555
+      ],
+      "alignment_status": "matched",
+      "text": "In most cases the GRIM cross-coupling polymerization of semifluoroalkyl:alkyl substituted bithiophenes (7) afforded soluble polymers. However, it is clear that the combination of semifluoroalkyl and alkyl chain lengths (m, n, and p) limits the tractability of this class of materials. Notably, attempts to prepare Rg(Th-5,4/1) (with a short alkyl side chain, i.e., methyl) and Rg(Th-5,8/8) and Rg(Th-5,8/12) (with long heptadecafluorooctyl segments, i.e., $m = 8 )$were hindered by the insolubility of the resulting polymers. The only materials that we characterized with a fluoroalkyl segment longer than n ) 4 were the (Th-3,6/9) homologues.",
+      "merged_source_block_ids": [
+        "P_2_38",
+        "V2_2_9_1"
+      ],
+      "section": "Results and Discussion"
+    },
+    {
+      "block_id": "P_2_39",
+      "page_id": 2,
+      "block_index": 39,
+      "element_type": "text",
+      "bbox": [
+        514,
+        554,
+        933,
+        879
+      ],
+      "alignment_status": "matched",
+      "text": "Gel permeation chromatography (GPC) showed the chloroformsoluble regioregular polymers have number-average molecular weights $( M _ { \\mathrm { n } } )$ranging from 19 800 to 47 900 (relative to polystyrene calibration standards), corresponding to degrees of polymerization (x) of 39-74 bithiophene repeating units $( \\mathrm { i . e . , }$$7 8 - 1 4 8$thiophene units) (Table 1). In general, the CHCl extracts of the polymers with longer alkyl side chains had higher degrees of polymerization than those with shorter alkyl side chains. For example, for the series Rg(Th-5,4/p) the degree of polymerization of the CHCl<sub>3</sub> fraction increased from $x = 3 9$to 52 to 69 for the butyl, octyl, and dodecyl homologues $( p = 4 ,$8, 12), respectively. This increase in degree of polymerization correlates with the increased solubility of the longer homologues in common organic solvents during extraction. In addition to the greater solubility of longer polymer chains in the extraction, it is also likely that the shorter homologues precipitate at earlier stages of the polymerization, thereby limiting the molecular weight attained. As expected, the fractions of the polymers extracted into hexane have a lower degree of polymerization (x) than those extracted into chloroform. For example, the hexane extract of Rg(Th-5,4/12) has a degree of polymerization of 14, compared to 69 for the chloroform extract. The regiorandom polymer prepared by oxidative polymerization, Rn(Th-5,4/8), had an $M _ { \\mathfrak { n } }$of 33 500 (x ) 59).",
+      "merged_source_block_ids": [
+        "P_2_39",
+        "V2_2_10_1",
+        "V2_2_10_3",
+        "V2_2_10_4",
+        "V2_2_10_6",
+        "V2_2_10_8",
+        "V2_2_10_10"
+      ],
+      "section": "Results and Discussion"
+    },
+    {
+      "block_id": "P_2_40",
+      "page_id": 2,
+      "block_index": 40,
+      "element_type": "text",
+      "bbox": [
+        514,
+        879,
+        933,
+        965
+      ],
+      "alignment_status": "matched",
+      "text": "Regioregularity. The regiochemistry of every other thiophenethiophene linkage in our polymers is set by the substitution pattern of the 3,4′-disubstituted 2,2′-bithiophene monomers. As with homopolymers prepared from 3-alkylthiophenes, the regioselectivity of the polymerization process can be determined by <sup>1</sup>H NMR spectroscopy. Selected regions of the <sup>1</sup>H NMR spectra of Rg(Th-5,4/8) and Rn(Th-5,4/8) are shown in Figure 4. The signals at 2.79 and 2.55 ppm are assigned to the protons of the R-methylene units of the side chains in ht and hh diads, respectively. The ratio of the integrals of these peaks indicates a high percentage (98%) of the ht diad in Rg(Th-5,4/8) prepared by the GRIM polymerization method, whereas the regioselectivity is only 76% for Rn(Th-5,4/8) derived from the FeCl - mediated oxidative polymerization (referred to as “regiorandom” material). In the aromatic region, Rg(Th-5,4/8) displays two sharp singlets with the same intensity at 6.94 and 6.96 ppm, corresponding to the protons on the two $\\beta \\mathrm { . }$substituted thiophene rings of the repeat unit. In contrast, the signals in the aromatic region of the spectrum of Rn(Th-5,4/8) are broader and more complex, indicating the presence of other types of linkages (hh, tt). The ht content of the other Rg(Th-m,n/p) polymers were consistently in the range of 94-98%. The regioselectivity of the polymerization reaction also governs the sequence of the side chains in the resulting polymers. Thus, a high degree of head-to-tail coupling in Rg(Th-m,n/p) also provides the alternating sequence of alkyl and semifluoroalkyl substituents along the polythiophene backbone.",
+      "merged_source_block_ids": [
+        "P_2_40",
+        "V2_2_11_1"
+      ],
+      "section": "Results and Discussion"
+    },
+    {
+      "block_id": "T_3_44",
+      "page_id": 3,
+      "block_index": 44,
+      "element_type": "table",
+      "bbox": [
+        71,
+        63,
+        928,
+        273
+      ],
+      "alignment_status": "matched",
+      "caption": "Table 1. Physical Properties of Rg(Th-m,n/p) and Rn(Th-5,4/8)",
+      "table_body": "<table><tr><td>polymer</td><td> $M_{n}^{a,b}$  (g/mol)</td><td> $M_{w}^{a,c}$  (g/mol)</td><td> $PDI^{a,d}$ </td><td> $X^{a,e}$ </td><td> $\\lambda_{max}^{f}$  (nm)</td><td> $T_{m}^{g}$  (°C)</td><td> $T_{c}^{h}$  (°C)</td></tr><tr><td>Rg(Th-5,4/4)</td><td>19 800</td><td>42 300</td><td>2.2</td><td>39</td><td>449</td><td>249</td><td>216</td></tr><tr><td>Rg(Th-5,4/8)</td><td>29 200</td><td>68 900</td><td>2.4</td><td>52</td><td>450</td><td>206</td><td>182</td></tr><tr><td>Rg(Th-5,4/9)</td><td>16 600</td><td>24 900</td><td>1.5</td><td>29</td><td>444</td><td>195</td><td>173</td></tr><tr><td> $Rg(Th-5,4/9)^{i}$ </td><td>7 730</td><td>12 600</td><td>1.6</td><td>13</td><td>439</td><td>150</td><td>133</td></tr><tr><td>Rg(Th-5,4/12)</td><td>42 900</td><td>98 000</td><td>2.3</td><td>69</td><td>449</td><td>197</td><td>169</td></tr><tr><td> $Rg(Th-5,4/12)^{i}$ </td><td>8 400</td><td>12 800</td><td>1.5</td><td>14</td><td>448</td><td>142</td><td>131</td></tr><tr><td>Rg(Th-8,4/8)</td><td>23 400</td><td>39 200</td><td>1.7</td><td>39</td><td>450</td><td>193</td><td>168</td></tr><tr><td>Rg(Th-11,4/8)</td><td>47 900</td><td>97 000</td><td>2.0</td><td>74</td><td>450</td><td>207</td><td>174</td></tr><tr><td>Rn(Th-5,4/8)</td><td>33 500</td><td>68 400</td><td>2.0</td><td>59</td><td>441</td><td> $134^j$ </td><td> $112^j$ </td></tr><tr><td>Rn(Th-5,4/9)</td><td>16 800</td><td>30 800</td><td>1.8</td><td>29</td><td>428</td><td>k</td><td>k</td></tr><tr><td>Rn(Th-3,6/9)</td><td>22 000</td><td>50 500</td><td>2.3</td><td>34</td><td>432</td><td>k</td><td>k</td></tr><tr><td>Rg(Th-3,6/9) (hexane-soluble)</td><td>8 670</td><td>16 300</td><td>1.9</td><td>13</td><td>431</td><td>144</td><td>146</td></tr><tr><td>Rg(Th-3,6/9) (CHCl3-soluble)</td><td>l</td><td>l</td><td></td><td></td><td>432</td><td>177</td><td> $170^m$ </td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td><td> $198^m$ </td><td>186</td></tr><tr><td>Rn(Th-9,0)</td><td>17 600</td><td>95 100</td><td>5.4</td><td>84</td><td>435</td><td>134</td><td>69</td></tr><tr><td>Rg(Th-9,0)</td><td>12 100</td><td>27 400</td><td>2.3</td><td>58</td><td>448</td><td>186</td><td>149</td></tr></table>",
+      "image_path": "organized/reference_no_0038527/images/ad2b4a83c929d81f1dfba6fe4fe53628d401275c80287678cbd2953eef371e95.jpg"
+    },
+    {
+      "block_id": "I_3_45",
+      "page_id": 3,
+      "block_index": 45,
+      "element_type": "image",
+      "bbox": [
+        88,
+        340,
+        463,
+        514
+      ],
+      "alignment_status": "matched",
+      "image_kind": "chart",
+      "caption": "Figure 4. <sup>1</sup>H NMR spectra of Rn(Th-5,4/8) and Rg(Th-5,4/8) in CDCl<sub>3</sub>.",
+      "image_path": "organized/reference_no_0038527/images/1d34113e3ecea53f33cb3b9fa55223a18088c95a9881ec12a8e14e5402cd565c.jpg"
+    },
+    {
+      "block_id": "P_3_46",
+      "page_id": 3,
+      "block_index": 46,
+      "element_type": "text",
+      "bbox": [
+        66,
+        563,
+        485,
+        851
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "Results and Discussion"
+    },
+    {
+      "block_id": "P_3_47",
+      "page_id": 3,
+      "block_index": 47,
+      "element_type": "text",
+      "bbox": [
+        66,
+        853,
+        483,
+        964
+      ],
+      "alignment_status": "matched",
+      "text": "The difference in structure between regioregular Rg(Th-5,4/ 8) and regiorandom Rn(Th-5,4/8) is also evident in their $^ { 1 3 } \\mathrm { C }$NMR spectra (Figure 5). In the region of 125-145 ppm, the regioregular analogue Rg(Th-5,4/8) reveals four pairs of sharp, closely spaced peaks which are assigned to the eight carbon atoms of the two dissimilarly substituted thiophene rings of the repeat unit. In contrast, the spectrum of the regiorandom analogue, Rn(Th-5,4/8), shows these peaks in addition to many others arising from the presence of a considerable content of hh and ttlinkages.",
+      "merged_source_block_ids": [
+        "P_3_47",
+        "V2_3_3_1"
+      ],
+      "section": "Results and Discussion"
+    },
+    {
+      "block_id": "I_3_48",
+      "page_id": 3,
+      "block_index": 48,
+      "element_type": "image",
+      "bbox": [
+        526,
+        342,
+        921,
+        514
+      ],
+      "alignment_status": "matched",
+      "image_kind": "chart",
+      "caption": "Figure $5 , ~ ^ { 1 3 } \\mathrm { C }$ NMR spectra of Rn(Th-5,4/8) and Rg(Th-5,4/8) in CDCl<sub>3</sub>.",
+      "image_path": "organized/reference_no_0038527/images/c431a6dbe91b71b85e18f4e2bb7e43f4939825709fc1288b5dc4efaf7e43438a.jpg"
+    },
+    {
+      "block_id": "P_3_49",
+      "page_id": 3,
+      "block_index": 49,
+      "element_type": "text",
+      "bbox": [
+        514,
+        554,
+        930,
+        582
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "Results and Discussion"
+    },
+    {
+      "block_id": "P_3_50",
+      "page_id": 3,
+      "block_index": 50,
+      "element_type": "text",
+      "bbox": [
+        514,
+        581,
+        932,
+        637
+      ],
+      "alignment_status": "matched",
+      "text": "The $^ { 1 3 } \\mathrm { C }$signals for the difluoromethylene units in the fluoroalkyl segment of the side chains appear at 110-125 ppm as an overlapping set of complex multiplets arising from strong $1 \\mathrm { - } , 2 \\mathrm { - }$, and 3-bond couplings between $\\mathrm { \\hat { 1 3 } C }$and $^ { 1 9 } \\mathrm { \\overline { { F } } }$nuclei.",
+      "merged_source_block_ids": [
+        "P_3_50",
+        "V2_3_6_1",
+        "V2_3_6_3",
+        "V2_3_6_5",
+        "V2_3_6_7"
+      ],
+      "section": "Results and Discussion"
+    },
+    {
+      "block_id": "P_3_51",
+      "page_id": 3,
+      "block_index": 51,
+      "element_type": "text",
+      "bbox": [
+        514,
+        639,
+        933,
+        965
+      ],
+      "alignment_status": "matched",
+      "text": "Electronic Spectra. The UV-vis spectra of Rg(Th-m,n/p) and Rn(Th-5,4/8) were recorded in chloroform solution and as thin films (Table 1, Figure 6). In solution, the regioregular polymer Rg(Th-5,4/8) exhibits an absorption maximum $( \\bar { \\lambda } _ { \\operatorname* { m a x } } )$at 450 nm that is slightly red-shifted compared to the regiorandom analogue, Rn(Th-5,4/8) $( \\lambda _ { \\operatorname* { m a x } } = 4 \\bar { 4 } 1$nm) (Figure 6a). This red shift has previously been observed in simple alkylsubstituted regioregular $\\mathrm { P A } \\dot { \\mathrm { T s } } ^ { 1 8 }$and can be attributed to better electron delocalization arising from a more planar polymer backbone with a higher percentage of the head-to-tail linkages. Head-to-head linkages cause twisting along the backbone by virtue of intramolecular interactions between side chains on adjacent repeat units, thereby disrupting planarity and shifting electronic absorptions to higher energy. In the solid state (Figure 6b), the red shift is more significant, with maxima at 524 nm for Rg(Th-5,4/8) and at 497 nm for the regiorandom analogue. In addition to intramolecular interactions between side chains, the absorption of the solid-state material is influenced by intermolecular side-chain packing and the propensity for the planar PAT backbones to π-stack. Rg(Th-5,4/8) shows a strong shoulder at 602 nm which can be ascribed to the π-stacked structure. This shoulder is absent for the regiorandom analogue. As with the alkyl-substituted PATs, the UV-vis spectroscopic data for the regioregular alternating alkyl:semifluoroalkyl polymers provide strong evidence for the formation of a highly ordered solid phase as a result of the regioregular amphiphilic structure.",
+      "merged_source_block_ids": [
+        "P_3_51",
+        "V2_3_7_1",
+        "V2_3_7_3",
+        "V2_3_7_5"
+      ],
+      "section": "Results and Discussion"
+    },
+    {
+      "block_id": "I_4_55",
+      "page_id": 4,
+      "block_index": 55,
+      "element_type": "image",
+      "bbox": [
+        113,
+        54,
+        436,
+        256
+      ],
+      "alignment_status": "matched",
+      "image_kind": "chart",
+      "caption": null,
+      "image_path": "organized/reference_no_0038527/images/dbe9e24d0a937acf443b521099e82c01f674fc28e70d022394cec4d916d4a47a.jpg"
+    },
+    {
+      "block_id": "I_4_56",
+      "page_id": 4,
+      "block_index": 56,
+      "element_type": "image",
+      "bbox": [
+        113,
+        268,
+        436,
+        473
+      ],
+      "alignment_status": "matched",
+      "image_kind": "chart",
+      "caption": "Figure 6. UV-vis spectra of $\\mathbf { R g } ( \\mathbf { T h } . 5 , 4 / 8 )$ and Rn(Th-5,4/8): (a) chloroform solution and (b) thin film.",
+      "image_path": "organized/reference_no_0038527/images/d80500ca919720b91aaa4af0302876d7e7ec93a384994d6786a2dd64df176740.jpg"
+    },
+    {
+      "block_id": "I_4_57",
+      "page_id": 4,
+      "block_index": 57,
+      "element_type": "image",
+      "bbox": [
+        106,
+        518,
+        441,
+        758
+      ],
+      "alignment_status": "matched",
+      "image_kind": "chart",
+      "caption": "Figure 7. DSC thermograms of Rn(Th-5,4/8) and Rg(Th-m,n/p).",
+      "image_path": "organized/reference_no_0038527/images/2b71aadcd4c4ac3170c32d542b457cdaf5ba98207f16ee4cdcb5f3692c76e791.jpg"
+    },
+    {
+      "block_id": "P_4_58",
+      "page_id": 4,
+      "block_index": 58,
+      "element_type": "text",
+      "bbox": [
+        67,
+        796,
+        483,
+        837
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "Results and Discussion"
+    },
+    {
+      "block_id": "P_4_59",
+      "page_id": 4,
+      "block_index": 59,
+      "element_type": "text",
+      "bbox": [
+        67,
+        841,
+        483,
+        964
+      ],
+      "alignment_status": "matched",
+      "text": "Thermal Transitions. Thermal transitions of regiorandom and regioregular alternating alkyl:semifluoroalkyl polymers were determined by differential scanning calorimetry (DSC) (Table 1). Representative thermograms for the series Rg(Th-5,4/p) are shown in Figure 7. A single endothermic peak on heating and a single exothermic peak on cooling were observed, which can be assigned to melting and crystallization temperatures, respectively. Thermal cycling up to $2 5 0 { - } 2 7 0 ^ { \\circ } \\mathrm { C }$led to no noticeable decomposition.",
+      "merged_source_block_ids": [
+        "P_4_59",
+        "V2_4_4_1"
+      ],
+      "section": "Results and Discussion"
+    },
+    {
+      "block_id": "P_4_60",
+      "page_id": 4,
+      "block_index": 60,
+      "element_type": "text",
+      "bbox": [
+        514,
+        51,
+        932,
+        240
+      ],
+      "alignment_status": "matched",
+      "text": "The thermal transition temperatures are dependent on the identity of the pendant semifluoroalkyl chains (i.e., segment lengths m and n) and alkyl chains $( \\mathrm { i } . \\mathrm { e } . , \\ p )$, the degree of polymerization, and the regioregularity of the polymer. As expected, polymers with a higher degree of polymerization have higher melting and crystallization temperatures and a larger degree of supercooling from the liquid phase. For instance, the chloroform-soluble portion of Rg(Th-5,4/12) (x ) 69) exhibits a melting point $( T _ { \\mathrm { m } } )$at $1 9 7 ~ ^ { \\circ } \\mathrm { C }$on heating and a crystallization temperature $( T _ { \\mathrm { c } } )$at 169 °C on cooling, corresponding to a degree of supercooling (∆T) of $2 8 ~ ^ { \\circ } \\mathrm { C }$. In comparison, the corresponding hexane-soluble portion with a lower degree of polymerization $( x = 1 4 )$shows significantly lower melting and crystallization temperatures $( T _ { \\mathrm { m } } \\bar { = } 1 4 2 \\ ^ { \\circ } \\mathrm { C } , T _ { \\mathrm { c } } = 1 3 1 \\ ^ { \\circ } \\mathrm { C } , \\Delta T = 1 1 \\ ^ { \\circ } \\mathrm { C } )$",
+      "merged_source_block_ids": [
+        "P_4_60",
+        "V2_4_5_1",
+        "V2_4_5_3",
+        "V2_4_5_5",
+        "V2_4_5_7",
+        "V2_4_5_9",
+        "V2_4_5_11",
+        "V2_4_5_13"
+      ],
+      "section": "Results and Discussion"
+    },
+    {
+      "block_id": "P_4_61",
+      "page_id": 4,
+      "block_index": 61,
+      "element_type": "text",
+      "bbox": [
+        514,
+        241,
+        932,
+        444
+      ],
+      "alignment_status": "matched",
+      "text": "The alternating regioregular alkyl:semifluoroalkyl polythiophenes studied have higher melting temperatures than similar regioregular poly(3-alkylthiophene) homopolymers. For example, Rg(Th-5,4/9) has a melting point of $1 9 5 ~ ^ { \\circ } \\mathrm { C } .$, whereas the isosteric alkyl analogue, the poly(3-nonylthiophene) homopolymer, has a melting point of ${ \\mathrm { ~ \\bar { 1 } 8 6 ~ } } ^ { \\circ } \\mathrm { C } .$The higher melting point may be ascribed, in part, to the rigidity of the fluoroalkyl chains. As with analogous poly(3-alkylthiophene)s, the regioregular Rg(Th-m,n/p) polymers possess higher melting and crystallization transitions than the regiorandom analogues. With comparable degrees of polymerization, the regiorandom polymer Rn(Th-5,4/8) shows very broad thermal transitions at significantly lower temperatures $( x = 5 9 , T _ { \\mathrm { m } } = 1 3 4 ^ { \\circ } \\mathrm { C } , T _ { \\mathrm { c } } = 1 1 \\bar { 2 } ^ { \\circ } \\mathrm { C } )$than the regioregular polymer Rg(Th-5,4/8) (x ) 52, T ) 206 $^ { \\circ } \\mathrm { C } , T _ { \\mathrm { c } } = \\bar { 1 8 } 2 ^ { \\circ } \\bar { \\mathrm { C } } )$",
+      "merged_source_block_ids": [
+        "P_4_61",
+        "V2_4_6_1",
+        "V2_4_6_3",
+        "V2_4_6_5",
+        "V2_4_6_7"
+      ],
+      "section": "Results and Discussion"
+    },
+    {
+      "block_id": "P_4_62",
+      "page_id": 4,
+      "block_index": 62,
+      "element_type": "text",
+      "bbox": [
+        514,
+        445,
+        933,
+        648
+      ],
+      "alignment_status": "matched",
+      "text": "Polymers with longer alkyl side chains (greater p) have lower melting and crystallization temperatures. The shortest homologue of Rg(Th-5,4/p), p ) 4 (i.e., butyl), has higher melting $( 2 4 9 ~ ^ { \\circ } \\mathrm { C } )$and crystallization $( 2 1 6 ~ ^ { \\circ } \\mathrm { C } )$temperatures than the corresponding octyl $( T _ { \\mathrm { m } } = 2 0 6 ~ ^ { \\circ } \\mathrm { C } , T _ { \\mathrm { c } } = 1 { \\bar { 8 } } 2 ~ ^ { \\circ } \\mathrm { C } )$and dodecyl $( T _ { \\mathrm { m } } = 1 9 7 \\ { } ^ { \\circ } \\mathrm { C } , \\ : T _ { \\mathrm { c } } = 1 6 9 \\ { } ^ { \\circ } \\mathrm { C } )$homologues (in spite of the fact that the sample of the butyl homologue has a lower degree of polymerization). While there is a clear decrease in melting point of the polymers as the alkyl chain length (p) increases, there is no such monotonic trend upon variation of the alkylene spacer length (m) (e.g., in the series Rg(Th-m,4/8)). The presence of distinct, sharp melting points of Rg(Th-m,n/p) is in accord with their highly ordered semicrystalline nature in the solid state, in contrast to the low degree of order of the regiorandom analogues.",
+      "merged_source_block_ids": [
+        "P_4_62",
+        "V2_4_7_1",
+        "V2_4_7_3",
+        "V2_4_7_5",
+        "V2_4_7_7"
+      ],
+      "section": "Results and Discussion"
+    },
+    {
+      "block_id": "P_4_63",
+      "page_id": 4,
+      "block_index": 63,
+      "element_type": "text",
+      "bbox": [
+        514,
+        651,
+        933,
+        759
+      ],
+      "alignment_status": "matched",
+      "text": "A Bilayer Lamellar Structure. The solid-state structure of Rg(Th-m,n/p) was characterized by X-ray diffraction. Polymer films with a thickness of ca. 100 µm were prepared by dropcasting and evaporating a THF or xylene solution of Rg(Thm,n/p) on a silicon substrate followed by annealing the resulting film at 150 °C for 3 h under $\\mathrm { N } _ { 2 } . \\mathrm { A }$representative diffractogram of Rg(Th-5,4/12) is shown in Figure 8, and calculated lattice constants for all homologues are compiled in Table 2.",
+      "merged_source_block_ids": [
+        "P_4_63",
+        "V2_4_8_1"
+      ],
+      "section": "Results and Discussion"
+    },
+    {
+      "block_id": "P_4_64",
+      "page_id": 4,
+      "block_index": 64,
+      "element_type": "text",
+      "bbox": [
+        514,
+        761,
+        933,
+        965
+      ],
+      "alignment_status": "matched",
+      "text": "The X-ray diffraction patterns exhibit several sharp low-angle reflections corresponding to a well-ordered lamellar structure with interlayer distances ranging from 40.1 Å for the shortest homologue Rg(Th-5,4/4) up to 57.8 Å for the longest homologue Rg(Th-11,4/8). These interlayer distances are approximately double the distances of the corresponding alkylsubstituted homopolymers. For instance, Rg(Th-5,4/9) has a spacing of 44.8 Å whereas regioregular poly(3-nonylthiophene) has a spacing of $2 2 . 4 \\mathrm { ~ \\AA . ^ { 4 5 } }$On the basis of this finding, we propose that the amphiphilic regioregular alternating copolymers self-assemble into a highly ordered bilayer lamellar structure in the solid state, as shown in Figure 9. Since the hydrocarbon and fluorocarbon chains are immiscible, the two types of chains segregate, leading to the formation of this bilayer assembly. In contrast, the diffractogram of the regiorandom polymer Rn(Th-",
+      "merged_source_block_ids": [
+        "P_4_64",
+        "V2_4_9_1"
+      ],
+      "section": "Results and Discussion"
+    },
+    {
+      "block_id": "I_5_68",
+      "page_id": 5,
+      "block_index": 68,
+      "element_type": "image",
+      "bbox": [
+        149,
+        53,
+        400,
+        240
+      ],
+      "alignment_status": "matched",
+      "image_kind": "chart",
+      "caption": "Figure 8. X-ray diffractogram of Rg(Th-5,4/12). Dotted line: unannealed, as-deposited film; solid line: after annealing at $1 5 0 ~ ^ { \\circ } \\mathrm { C }$ for 3 h.",
+      "image_path": "organized/reference_no_0038527/images/db8d6ebf20026d32ac23b32e6f8f96cef2dd735620b045830344766aa9dbd175.jpg"
+    },
+    {
+      "block_id": "T_5_69",
+      "page_id": 5,
+      "block_index": 69,
+      "element_type": "table",
+      "bbox": [
+        71,
+        314,
+        478,
+        420
+      ],
+      "alignment_status": "matched",
+      "caption": "Table 2. Interlayer Distances of Rg(Th-m,n/p) and Rn(Th-5,4/8)",
+      "table_body": "<table><tr><td rowspan=\"2\">polymer</td><td colspan=\"5\"> $2\\theta$  (deg)</td><td rowspan=\"2\"> $d (\\text{\\AA})^{a,b}$ </td></tr><tr><td>(100)</td><td>(200)</td><td>(300)</td><td>(400)</td><td>(600)</td></tr><tr><td>Rg(Th-5,4/4)</td><td></td><td>4.5</td><td>6.6</td><td>8.7</td><td></td><td>40.1</td></tr><tr><td>Rg(Th-5,4/8)</td><td></td><td>4.1</td><td>6.1</td><td>7.9</td><td>11.7</td><td>44.2</td></tr><tr><td>Rg(Th-5,4/12)</td><td>1.9</td><td>3.6</td><td>5.5</td><td>7.0</td><td>10.6</td><td>49.5</td></tr><tr><td>Rg(Th-8,4/8)</td><td></td><td>3.5</td><td></td><td>6.9</td><td>10.3</td><td>51.4</td></tr><tr><td>Rg(Th-11,4/8)</td><td></td><td></td><td></td><td>6.1</td><td></td><td>57.8</td></tr><tr><td>Rn(Th-5,4/8)</td><td>3.9</td><td>7.7</td><td>11.6</td><td></td><td></td><td>22.8</td></tr></table>",
+      "image_path": "organized/reference_no_0038527/images/65749c36072b7c6848b64c385575dace164ef2ea3ed932278accdeb6a0ff7e5f.jpg"
+    },
+    {
+      "block_id": "I_5_70",
+      "page_id": 5,
+      "block_index": 70,
+      "element_type": "image",
+      "bbox": [
+        93,
+        455,
+        453,
+        662
+      ],
+      "alignment_status": "matched",
+      "image_kind": "image",
+      "caption": "Figure 9. Highly ordered bilayer lamellar structure of Rg(Th-m,n/p).",
+      "image_path": "organized/reference_no_0038527/images/33dfee5115685998f7ac4c686b31fa0ed6e7dcb72ed84111fb085f77d5c8900d.jpg"
+    },
+    {
+      "block_id": "P_5_71",
+      "page_id": 5,
+      "block_index": 71,
+      "element_type": "text",
+      "bbox": [
+        67,
+        713,
+        483,
+        782
+      ],
+      "alignment_status": "matched",
+      "text": "5,4/8) exhibits only three reflections at low angles similar to those of analogous alkyl-substituted PATs. The appearance of fewer reflections, in combination with broader peaks and an interlayer distance of 22.8 Å, supports the formation of a less ordered monolayer lamellar structure in the solid state.",
+      "section": "Results and Discussion"
+    },
+    {
+      "block_id": "P_5_72",
+      "page_id": 5,
+      "block_index": 72,
+      "element_type": "text",
+      "bbox": [
+        67,
+        784,
+        483,
+        854
+      ],
+      "alignment_status": "matched",
+      "text": "Annealing has a strong influence on the structure of thin films deposited by drop-casting from solution. A film of Rg(Th-5,4/ 12) as cast from xylene/THF solution is largely amorphous (Figure 8). Only upon annealing at $1 5 0 ~ ^ { \\circ } \\mathrm { C }$for 3 h did the strong peaks appear in the diffractogram.",
+      "merged_source_block_ids": [
+        "P_5_72",
+        "V2_5_4_1"
+      ],
+      "section": "Results and Discussion"
+    },
+    {
+      "block_id": "P_5_73",
+      "page_id": 5,
+      "block_index": 73,
+      "element_type": "text",
+      "bbox": [
+        66,
+        855,
+        483,
+        965
+      ],
+      "alignment_status": "matched",
+      "text": "The supramolecular bilayer architecture of the regioregular Rg(Th-m,n/p) polymers is readily controlled by varying the length of side chains. Increasing the alkyl chain $( p )$from n-butyl to n-dodecyl (i.e., p from 4 to 12) results in an increase of the interlayer spacing from 40.1 to 49.5 Å, corresponding to a change of 1.2 Å per carbon atom. In comparison, increasing the alkylene length of the semifluoroalkyl chain (m) from pentylene to undecylene (i.e., m from 5 to 11) gives rise to a change of the interlayer distance from 44.2 to 57.8 Å, corresponding to 2.25 Å per carbon atom. This dramatic difference in the effects of changing the lengths of the alkyl side chain (p) and alkylene spacer in the semifluoroalkyl side chain (m) suggests that the two types of side chain, on each edge of the polymer chain, have distinctly different packing requirements. While the alkyl chains of PATs interdigitate with each other, the amphiphilicity of the semifluoroalkyl chains should limit the extent of interaction so as to avoid alkyl-fluoroalkyl contacts.",
+      "merged_source_block_ids": [
+        "P_5_73",
+        "V2_5_5_1"
+      ],
+      "section": "Results and Discussion"
+    },
+    {
+      "block_id": "P_5_74",
+      "page_id": 5,
+      "block_index": 74,
+      "element_type": "text",
+      "bbox": [
+        514,
+        49,
+        932,
+        186
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "Results and Discussion"
+    },
+    {
+      "block_id": "P_5_75",
+      "page_id": 5,
+      "block_index": 75,
+      "element_type": "text",
+      "bbox": [
+        514,
+        185,
+        932,
+        376
+      ],
+      "alignment_status": "matched",
+      "text": "The absence of a diffraction peak attributable to π-π stacking interactions (i.e., (001) at ca. 3.5-3.8 Å) indicates that the amphiphilic boardlike structure formed by the amphiphilic polymer chains are oriented such that the plane of the conjugated backbone is perpendicular to the substrate surface. While such an orientation is also formed by regioregular poly(3-alkylthiophenes), the origin of the preference for this orientation is poorly understood. For the alternating alkyl:semifluoroalkyl substituted polymers described here, we postulate that an additional driving force for the orientation of the polymer chain perpendicular to the substrate is the incompatability of the two types of side chain and the preference of any surface for one of the edges of the boardlike Janus-type all-anti conformation of polymer over the other.",
+      "section": "Results and Discussion"
+    },
+    {
+      "block_id": "P_5_76",
+      "page_id": 5,
+      "block_index": 76,
+      "element_type": "text",
+      "bbox": [
+        514,
+        378,
+        932,
+        500
+      ],
+      "alignment_status": "matched",
+      "text": "Organic Field-Effect Transistors. Field-effect transistors were fabricated by spin-casting a 50 nm thick film of Rg(Th-5,4/12) from a 2.5 mg/mL solution in chlorobenzene on devices consisting of Ti/Au (10/100 nm) source and drain electrodes patterned on $\\mathrm { S i O } _ { 2 }$(20 nm)/n-doped silicon/Ti (10 nm)/Au (100 nm) backside external gate contact. The $\\mathrm { S i O } _ { 2 }$dielectric was passivated with an octadecyltrichlorosilane (OTS) self-assembled monolayer (SAM) prior to the deposition of the organic semiconductor.",
+      "merged_source_block_ids": [
+        "P_5_76",
+        "V2_5_8_1",
+        "V2_5_8_3"
+      ],
+      "section": "Results and Discussion"
+    },
+    {
+      "block_id": "P_5_77",
+      "page_id": 5,
+      "block_index": 77,
+      "element_type": "text",
+      "bbox": [
+        514,
+        499,
+        932,
+        569
+      ],
+      "alignment_status": "matched",
+      "text": "For each individual device, current-voltage $( I _ { \\mathrm { D S } }$against $V _ { \\mathrm { D S } }$at multiple, discrete $V _ { \\mathrm { G S } }$values) and transfer characteristics (I against $V _ { \\mathrm { G S } }$at fixed $V _ { \\mathrm { D S } } )$were measured. Field-effect mobilities were calculated in the saturation regime by fitting the $| I _ { \\mathrm { D S } } | ^ { 1 / 2 }$against $V _ { \\mathrm { G S } }$data to the square law:",
+      "merged_source_block_ids": [
+        "P_5_77",
+        "V2_5_9_1",
+        "V2_5_9_3",
+        "V2_5_9_5",
+        "V2_5_9_7",
+        "V2_5_9_9",
+        "V2_5_9_11",
+        "V2_5_9_13"
+      ],
+      "section": "Results and Discussion"
+    },
+    {
+      "block_id": "E_5_78",
+      "page_id": 5,
+      "block_index": 78,
+      "element_type": "equation",
+      "bbox": [
+        636,
+        577,
+        813,
+        605
+      ],
+      "alignment_status": "matched",
+      "text": "$$\nI _ {\\mathrm{DS}} = \\mu C _ {\\mathrm{OX}} \\frac {W}{2 L} (V _ {\\mathrm{GS}} - V _ {\\mathrm{T}}) ^ {2}\\tag{1}\n$$",
+      "equation_kind": "display",
+      "section": "Results and Discussion"
+    },
+    {
+      "block_id": "P_5_79",
+      "page_id": 5,
+      "block_index": 79,
+      "element_type": "text",
+      "bbox": [
+        514,
+        613,
+        932,
+        964
+      ],
+      "alignment_status": "matched",
+      "text": "where $\\mu$is the field-effect mobility, $C _ { \\mathrm { O X } }$is the capacitance density of the gate dielectric [F/cm<sup>2</sup>], $V _ { \\mathrm { T } }$is the threshold voltage, and W (width) and L (length) are the dimensions of the semiconductor channel defined by the source and drain electrodes. Hole mobility values generally increased with channel length and ranged from a minimum of $9 . 8 \\times 1 0 ^ { - 4 } \\ \\mathrm { c m ^ { 2 } / ( V \\ s ) }$for the width 1000 µm, length 5 µm device to the maximum value of $2 . 9 \\times 1 0 ^ { - 3 } \\mathrm { c m ^ { 2 } / ( V \\ s ) }$for the width 500 µm, length 50 µm device. Current-voltage characteristics for a high-mobility device are shown in Figure 10a for values of $V _ { \\mathrm { D S } }$up to 60 V and values of $V _ { \\mathrm { G S } }$up to 60 V in 10 V steps. Transfer characteristics for this device are shown in Figure 10b. The linear fit to the $I _ { \\mathrm { D S } } ^ { } \\mathrm { } ^ { 1 / 2 }$against $V _ { \\mathrm { G S } }$yields a threshold voltage of ${ \\sim } 2 4 \\ \\mathrm { V } .$, and semilogarithmic plots of $I _ { \\mathrm { D S } }$against $V _ { \\mathrm { G S } }$yield an on/off current ratio >10<sup>3</sup>. Upon thermal annealing $( 1 5 \\mathrm { { 0 } ^ { \\circ } C }$for 2 h), charge mobilities, on/off current ratios, and threshold voltages increased up to $1 . 4 5 \\times 1 0 ^ { - 2 } \\mathrm { c m } ^ { 2 } / ( \\mathrm { V } \\ \\mathrm { s } ) , > 1 0 ^ { 4 }$, and 32 ${ \\mathrm { V } } ,$respectively, for the $5 0 0 \\mu \\mathrm { m } \\times 5 0$µm device. The increase in mobility upon thermal annealing of the polymer film is correlated with a large molecular structural reorganization whereby a predominantly amorphous film undergoes crystallization to form a highly ordered bilayer architecture, as shown by X-ray crystallography. These values are comparable to those recorded for poly(3-hexylthiophene) $( \\mu = 2 \\times \\bar { 1 } 0 ^ { - 2 } \\mathrm { c m } ^ { 2 } / ( \\mathrm { V } \\mathrm { s } )$on/off $\\mathrm { r a t i o } \\stackrel { \\cdot } { = } \\stackrel { \\cdot } { 1 } \\times 1 0 ^ { \\stackrel { \\cdot } { 1 } } ) , \\stackrel { 7 8 } { }$although it should be noted that mobility decreases dramatically for longer side-chain homologues (a decrease by 95% in comparing the butyl and octyl analogues).<sup>79</sup>",
+      "merged_source_block_ids": [
+        "P_5_79",
+        "V2_5_11_1",
+        "V2_5_11_3",
+        "V2_5_11_5",
+        "V2_5_11_7",
+        "V2_5_11_9",
+        "V2_5_11_11",
+        "V2_5_11_13",
+        "V2_5_11_15",
+        "V2_5_11_17",
+        "V2_5_11_19",
+        "V2_5_11_21",
+        "V2_5_11_23",
+        "V2_5_11_25",
+        "V2_5_11_27",
+        "V2_5_11_29",
+        "V2_5_11_31",
+        "V2_5_11_33",
+        "V2_5_11_35"
+      ],
+      "section": "Results and Discussion"
+    },
+    {
+      "block_id": "I_6_83",
+      "page_id": 6,
+      "block_index": 83,
+      "element_type": "image",
+      "bbox": [
+        127,
+        53,
+        385,
+        210
+      ],
+      "alignment_status": "matched",
+      "image_kind": "chart",
+      "caption": "(a)",
+      "image_path": "organized/reference_no_0038527/images/36c24f78bc1e4bc09e4d08ed281ee9623c160f5643337c0551e9dae9c2196747.jpg"
+    },
+    {
+      "block_id": "I_6_84",
+      "page_id": 6,
+      "block_index": 84,
+      "element_type": "image",
+      "bbox": [
+        125,
+        218,
+        427,
+        376
+      ],
+      "alignment_status": "matched",
+      "image_kind": "chart",
+      "caption": "(b) Figure 10. Electrical characteristics of field-effect transistors fabricated from Rg(Th-5,4/12) for devices with $W = 5 0 0$ µm, $L = 5 0$ µm, and with a 50 nm thick film of polymer on an OTS-treated 200 nm thick layer of $\\mathrm { S i O } _ { 2 }$ on an $\\mathrm { n ^ { + } { - } S i }$ substrate. (a) Output characteristics $( I _ { \\mathrm { D S } }$ vs $V _ { \\mathrm { D S } } )$ at several values of the gate voltage $( V _ { \\mathrm { G S } } )$ before annealing (dashed) and after annealing at $1 5 0 ~ ^ { \\circ } \\mathrm { C }$ for $^ \\textrm { \\scriptsize 2 b }$ (solid curves). (b) Transfer characteristics: $I _ { \\mathrm { D S } }$ (plotted on a logarithmic scale) and $| { \\cal I } _ { \\mathrm { D S } } | ^ { 1 / 2 }$ vs $V _ { \\mathrm { G S } }$ before annealing (filled symbols) and after annealing (open symbols) at $V _ { \\mathrm { D S } } = - 6 0 ^ { - } \\mathrm { V }$",
+      "image_path": "organized/reference_no_0038527/images/f02e9b46910540182c1f53f9542a01a2f6cde5c4e70ed287ff4d5612c16335d0.jpg"
+    },
+    {
+      "block_id": "P_6_85",
+      "page_id": 6,
+      "block_index": 85,
+      "element_type": "text",
+      "bbox": [
+        67,
+        508,
+        483,
+        537
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "Results and Discussion"
+    },
+    {
+      "block_id": "P_6_86",
+      "page_id": 6,
+      "block_index": 86,
+      "element_type": "title",
+      "bbox": [
+        69,
+        550,
+        159,
+        564
+      ],
+      "alignment_status": "matched",
+      "text": "Conclusions",
+      "title_level": 2,
+      "section": "Conclusions"
+    },
+    {
+      "block_id": "P_6_87",
+      "page_id": 6,
+      "block_index": 87,
+      "element_type": "text",
+      "bbox": [
+        67,
+        568,
+        485,
+        892
+      ],
+      "alignment_status": "matched",
+      "text": "A general synthetic approach to a series of regioregular poly(3-alkylthiophene)s Rg(Th-m,n/p) $( m = 5 , 8 , 1 1 ; n = 4 ; p$$= ~ 4$, 8, 12) has been developed by means of the GRIM polymerization of appropriately substituted bithiophene monomers. The head-to-tail regioregularity of the polymerization process affords materials with an alternating arrangement of alkyl and semifluoroalkyl chains along the polymer backbone. With the preferred anti conformation along the polythiophene backbone, this arrangement of side chains provides a Janustype amphiphilic structure with the two edges of the boardlike molecule possessing significantly different surface chemistry (alkyl vs fluoroalkyl). The regioregular Rg(Th-m,n/p) polymers assemble into a highly ordered bilayer lamellar structure due to the segregation of the hydrocarbon and fluorocarbon chains. The bilayer spacing can be readily tuned by 1.2 and 2.25 Å per carbon atom through variation of the lengths of alkyl chains $( p )$and alkylene spacers (m), respectively. Hole mobilities up to $1 . 4 5 ~ \\times ~ 1 0 ^ { - 2 } ~ \\mathrm { { \\bar { c } m ^ { 2 } / ( V ~ s ) } }$were measured in a field-effect transistor geometry using regioregular polymer Rg(Th-5,4/12) as the semiconducting layer. Thermal annealing significantly improves the device characteristics. Studies to control polymersubstrate interactions, and to explore the influence of supramolecular architecture on the performance of these materials in electronic devices, are currently underway.",
+      "merged_source_block_ids": [
+        "P_6_87",
+        "V2_6_4_1",
+        "V2_6_4_2",
+        "V2_6_4_4",
+        "V2_6_4_6"
+      ],
+      "section": "Conclusions"
+    },
+    {
+      "block_id": "P_6_88",
+      "page_id": 6,
+      "block_index": 88,
+      "element_type": "title",
+      "bbox": [
+        69,
+        905,
+        225,
+        919
+      ],
+      "alignment_status": "matched",
+      "text": "Experimental Section",
+      "title_level": 2,
+      "section": "Experimental Section"
+    },
+    {
+      "block_id": "P_6_89",
+      "page_id": 6,
+      "block_index": 89,
+      "element_type": "text",
+      "bbox": [
+        67,
+        923,
+        483,
+        964
+      ],
+      "alignment_status": "matched",
+      "text": "Materials and Methods. Reactions involving air- and/or moisturesensitive compounds were carried out under an atmosphere of argon or nitrogen using standard Schlenk techniques. Reagents were purchased from commercial sources and used without further purification unless stated otherwise. Diethyl ether, tetrahydrofuran (THF), and 1,2-dimethoxyethane (DME) were dried by distillation from sodium/benzophenone. Column chromatography was performed using silica gel (60 $\\mathring { \\mathrm { A } } , 2 3 0 \\times 4 0 0$mesh) obtained from Sorbent Technologies.",
+      "merged_source_block_ids": [
+        "P_6_89",
+        "V2_6_6_1"
+      ],
+      "section": "Experimental Section"
+    },
+    {
+      "block_id": "P_6_90",
+      "page_id": 6,
+      "block_index": 90,
+      "element_type": "text",
+      "bbox": [
+        514,
+        51,
+        932,
+        128
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "Experimental Section"
+    },
+    {
+      "block_id": "P_6_91",
+      "page_id": 6,
+      "block_index": 91,
+      "element_type": "text",
+      "bbox": [
+        514,
+        130,
+        932,
+        425
+      ],
+      "alignment_status": "matched",
+      "text": "NMR spectra were acquired on Varian Mercury 400 (<sup>1</sup>H, 400.0 MHz; ${ } ^ { 1 3 } \\mathrm { C } .$, 100.6 MHz) and Varian Mercury 300 (<sup>1</sup>H, 300.0 MHz; $^ { 1 3 } \\mathrm { C } ,$75.5 MHz) spectrometers. Chemical shifts are reported in ppm and referenced to the corresponding residual nuclei in deuterated solvents. Mass spectra were recorded with a VG-70SE mass spectrometer equipped with an L-250J data system analyzer. IR spectra were recorded with a Shimadzu FTIR-8400S spectrometer. $\\bar { \\mathrm { U V - v i s } }$spectra were measured on a Shimadzu UV-2401PC spectrometer with samples in chloroform solution and as a film. Gel permeation chromatography (GPC) analyses were performed with American Polymer Standards columns equipped with a Waters 510 pump and a UV detector, using THF as a mobile phase (1.0 mL/min) and poly(styrene)s as standards for calibration. Differential scanning calorimetry (DSC) was performed on a Mettler-Toledo DSC822e. X-ray diffraction studies were performed on a Scintag X-1 powder diffractometer equipped with a Cu KR radiation source and a Scintag Peltier cooled solid-state detector. Polymer films (ca. 100 µm) were prepared by casting and evaporating a solution (THF or xylene) of the polymer onto a silicon substrate. The resulting thin film was annealed under nitrogen at $1 5 0 ~ ^ { \\circ } \\mathrm { C }$for 3 h in a tube furnace. Elemental analysis was performed by Atlantic Microlab Inc. (Norcross, GA). Illustrative procedures are provided below to describe the multistep syntheses shown in Figures 2 and 3.",
+      "merged_source_block_ids": [
+        "P_6_91",
+        "V2_6_8_1",
+        "V2_6_8_3",
+        "V2_6_8_5",
+        "V2_6_8_7"
+      ],
+      "section": "Experimental Section"
+    },
+    {
+      "block_id": "P_6_92",
+      "page_id": 6,
+      "block_index": 92,
+      "element_type": "text",
+      "bbox": [
+        514,
+        425,
+        932,
+        528
+      ],
+      "alignment_status": "matched",
+      "text": "The syntheses of monomers and polymers where $m = 5 , 8 .$, 11; $n = 4 ;$; and $p = 4 , 8$, 12 (shown in Figure 2) are illustrated by the procedures described below. Characterization data of other homologues are provided in the Supporting Information. Bithiophene monomer $\\bar { 7 } ( m = 3 , n = 6 , \\bar { p = 9 } )$was prepared by a slightly different approac $\\mathrm { h } ; ^ { 4 5 }$Experimental procedures for this synthesis, and characterization data, are provided in the Supporting Information.",
+      "merged_source_block_ids": [
+        "P_6_92",
+        "V2_6_9_1",
+        "V2_6_9_3",
+        "V2_6_9_5",
+        "V2_6_9_7",
+        "V2_6_9_9"
+      ],
+      "section": "Experimental Section"
+    },
+    {
+      "block_id": "P_6_93",
+      "page_id": 6,
+      "block_index": 93,
+      "element_type": "text",
+      "bbox": [
+        514,
+        527,
+        932,
+        873
+      ],
+      "alignment_status": "matched",
+      "text": "3-(ω-Alkenyl)thiophenes, 1. 3-(7-Octenyl)thiophene, 1 $( m = 8 )$$\\mathbf { A }$solution of 8-bromo-1-octene (20.2 g, 106 mmol) in anhydrous Et O (100 mL) was added dropwise to magnesium turnings (3.82 $^ { \\mathrm { g , } }$157 mmol) in dry Et O under $\\mathrm { N } _ { 2 } .$After the Grignard reaction was initiated, the bromide was added at a rate that sustained gentle reflux. Upon completion of the addition, the reaction mixture was heated at reflux for an additional 2 h. The resulting Grignard reagent was transferred via cannular to an addition funnel and added dropwise to a mixture of 3-bromothiophene (15.8 g, 97.3 mmol) and Ni(dppp)Cl (1.05 g, 1.95 mmol, 2.0 mol %) in dry $\\mathrm { E t } _ { 2 } \\mathrm { O }$at 0 $^ \\circ \\mathrm { C } .$The mixture was allowed to warm to room temperature, and stirring was continued overnight. Iced water (50 mL) was slowly added, and aqueous HCl solution (2 M, 50 mL) was added to neutralize the aqueous phase. The mixture was extracted with petroleum ether $( 3 \\times 1 0 \\bar { 0 }$mL), and the combined organic layers were dried over $\\mathrm { M g } \\mathrm { S O } _ { 4 }$. The solvent was removed on a rotary evaporator, and the residue was subjected to column chromatography on silica gel with petroleum ether to afford 1 $( m = 8 )$as a colorless liquid (11.9 g, 63%). <sup>1</sup>H NMR (300 MHz, CDCl ): δ 1.27-1.43 (m, 6 H, (CH ) ), 1.61 (m, 2 H, C2-CH ), 2.03 (m, 2 H, C6-CH ), 2.61 (t, J ) 7.7 Hz, 2 H, C1-CH ), 4.89-5.01 (m, 2 H, ${ \\mathrm { = C H } } _ { 2 } )$, 5.78 (m, 1 H, CH)), 6.90 (dd, J ) 1.1, 2.8 Hz, 1 H, Th-H2), 6.93 (dd, J ) 1.4, 5.0 Hz, 1 H, Th-H4), 7.23 (dd, J ) 3.0, 4.9 Hz, 1 H, Th-H5). <sup>13</sup>C NMR (75.5 Hz, CDCl ): 143.0, 138.9, 128.1, 124.9, 119.6, 114.1, 33.9, 30.6, 30.3, 29.2, 29.0, 28.9. IR (neat): 3074, 2924, 2852, 1639, 1461, 993, 908, 769 cm<sup>-1</sup>. MS (EI): m/z $\\left( I _ { \\mathrm { r e l } } \\right)$194 (14, M<sup>+</sup>).",
+      "merged_source_block_ids": [
+        "P_6_93",
+        "V2_6_10_1",
+        "V2_6_10_2",
+        "V2_6_10_4",
+        "V2_6_10_6",
+        "V2_6_10_8",
+        "V2_6_10_10",
+        "V2_6_10_12",
+        "V2_6_10_14",
+        "V2_6_10_16",
+        "V2_6_10_18",
+        "V2_6_10_20"
+      ],
+      "section": "Experimental Section"
+    },
+    {
+      "block_id": "P_6_94",
+      "page_id": 6,
+      "block_index": 94,
+      "element_type": "text",
+      "bbox": [
+        514,
+        872,
+        932,
+        964
+      ],
+      "alignment_status": "matched",
+      "text": "3-(Iodo-semifluoroalkyl)thiophenes,2. 3-(9,9,10,10,11,11,12,12,12- Nonafluorododecyl-7-iodo)thiophene, $2 ( m = 8 , n = 4 ) .$. A mixture of 3-(7-octenyl)thiophene (6.10 g, 31.6 mmol), perfluorobutyl iodide (16.4 g, 47.4 mmol), and AIBN (1.00 g, 6.30 mmol, 20 mol %) was heated at $7 0 ~ ^ { \\circ } \\mathrm { C }$under N . The mixture was stirred at $7 0 ~ ^ { \\circ } \\mathrm { C }$for 1 day, and additional perfluorobutyl iodide (8.2 g, 23.7 mmol) and AIBN (0.50 g, 3.15 mmol, 10 mol %) were added, and heating was continued for another day. Unreacted perfluorobutyl iodide was removed by distillation under reduced pressure. The residue was subjected to column chromatography on silica gel with petroleum ether to give $2 \\ : ( m = 8 , n = 4 )$as a colorless liquid (9.78 g, 64%). <sup>1</sup>H NMR (300 MHz, $\\mathrm { C D C l _ { 3 } } \\mathrm { : } \\delta 1 . 3 8 ( \\mathrm { m } , 6 \\mathrm { H } , ( \\mathrm { C H } _ { 2 } ) _ { 3 } ) \\mathrm { , }$1.64 (m, 2 H, C2-CH<sub>2</sub>), 1.80 (m, 2 H, C6-CH<sub>2</sub>), 2.64 $( \\mathrm { t } , J = 7 . 5$Hz, 2 H, C1-CH<sub>2</sub>), 2.84 (m, 2 H, C8-CH<sub>2</sub>), 4.33 (m, 1 H, C7-CHI), 6.92 $( \\mathrm { d d } , J = 1 . 1 , 3 . 0 \\mathrm { H z } , 1$H, Th-H2), 6.95 (dd, J ) 1.3, 5.2 Hz, 1 H, Th-H4), 7.26 (dd, $J = 3 . 0 , 4 . 9$Hz, 1 H, Th-H5). <sup>13</sup>C NMR (75.5 Hz, CDCl ): δ 142.9, 128.2, 125.1, 119.9, 41.5, 40.2, 30.4, 30.2, 29.5, 29.0, 28.3, 20.7. IR (neat): 3107, 2929, 2856, 1215, 879, 771 $\\mathrm { c m } ^ { - 1 }$. MS (EI): m/z (I ) 540 (29, M<sup>+</sup>).",
+      "merged_source_block_ids": [
+        "P_6_94",
+        "V2_6_11_1",
+        "V2_6_11_3",
+        "V2_6_11_5",
+        "V2_6_11_7",
+        "V2_6_11_9",
+        "V2_6_11_11",
+        "V2_6_11_13",
+        "V2_6_11_15",
+        "V2_6_11_17"
+      ],
+      "section": "Experimental Section"
+    },
+    {
+      "block_id": "P_7_98",
+      "page_id": 7,
+      "block_index": 98,
+      "element_type": "text",
+      "bbox": [
+        66,
+        51,
+        483,
+        205
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "Experimental Section"
+    },
+    {
+      "block_id": "P_7_99",
+      "page_id": 7,
+      "block_index": 99,
+      "element_type": "text",
+      "bbox": [
+        67,
+        205,
+        483,
+        438
+      ],
+      "alignment_status": "matched",
+      "text": "3-(Semifluoroalkyl)thiophenes, 3. 3-(9,9,10,10,11,11,12,12,12- Nonafluorododecyl)thiophene, $3 ( m { = } 8 , n { = } 4 ) . 3 { \\scriptstyle - } ( 9 , 9 , 1 0 , 1 0 , 1 1 , 1 1 , 1 2 , 1 2 , 1 2 -$Nonafluorododecyl-7-iodo)thiophene, 2 (m ) 8, n ) 4) (5.10 g, 9.30 mmol), was added slowly to a slurry of $\\mathrm { N a B H _ { 4 } } ( 1 . 4 0 \\mathrm { g } , 3 7 . 0$mmol) in dry DMSO (50 mL) under argon. After the addition was complete, the reaction mixture was heated at $8 0 ~ ^ { \\circ } \\mathrm { C }$overnight. The reaction mixture was cooled to room temperature, and H O (60 mL) was added. The mixture was extracted with Et O $( 2 ~ \\times$100 mL), and the combined organic extracts were dried over $\\mathrm { M g S O _ { 4 } , }$filtered, and concentrated under reduced pressure. Flash column chromatography of the residue on silica gel with petroleum ether afforded $\\bar { 3 } ( \\hat { m } \\bar { = } 8 , n = 4 )$as a colorless oil $( 4 . 0 \\mathrm { g } , \\bar { 8 } 7 \\% )$. <sup>1</sup>H NMR (300 MHz, CDCl<sub>3</sub>): δ 1.33 (m, 10 H, $\\mathrm { ( C H } _ { 2 } ) _ { 5 } )$, 1.58 (m, 2 H, C2- CH<sub>2</sub>), 2.03 (m, 2 H, CH<sub>2</sub>CF<sub>2</sub>), 2.62 (t, J ) 7.5 Hz, 2 H, C1-CH<sub>2</sub>), 6.92 (m, 2 H, Th-H2, Th-H4), 7.23 (dd, $J = 2 . 8 ,$, 4.7 Hz, 1 H, Th-H5). <sup>13</sup>C NMR (75.5 Hz, CDCl ): δ 143.1, 128.2, 125.1, 119.8, 31.0, 30.8, 30.5, 30.2, 29.2, 29.1, 29.0, 20.0. IR (neat): 3104, 2927, 2857, 1216, 878, 771 cm<sup>-1</sup>. MS (EI): $m / z \\ ( I _ { \\mathrm { r e l } } )$414 (38, M<sup>+</sup>).",
+      "merged_source_block_ids": [
+        "P_7_99",
+        "V2_7_1_1",
+        "V2_7_1_3",
+        "V2_7_1_5",
+        "V2_7_1_7",
+        "V2_7_1_9",
+        "V2_7_1_11",
+        "V2_7_1_13",
+        "V2_7_1_15",
+        "V2_7_1_17",
+        "V2_7_1_19"
+      ],
+      "section": "Experimental Section"
+    },
+    {
+      "block_id": "P_7_100",
+      "page_id": 7,
+      "block_index": 100,
+      "element_type": "text",
+      "bbox": [
+        67,
+        436,
+        485,
+        719
+      ],
+      "alignment_status": "matched",
+      "text": "2-Bromo-3-(semifluoroalkyl)thiophenes, 4. $2 { \\cdot } B r o m o { - } 3 { \\cdot } ( 6 , 6 , 7 , -$7,8,8,9,9,9-nonafluorononyl)thiophene, 4 $\\cdot ( m = 5 , n = 4 ) . \\mathrm { A }$solution of N-bromosuccinimide (9.28 g, 52.1 mmol) in DMF (50 mL) was added dropwise to $3 \\substack { - ( 6 , 6 , 7 , 7 , 8 , 8 , 9 , 9 , 9 , 9 }$-nonafluorononyl)thiophene, $3 ( m = 5 , n = 4 )$(19.80 g, 53.2 mmol) in DMF (50 mL) at -10 $^ \\circ \\mathrm { C } .$. The reaction mixture was stirred $\\mathrm { a t } - 1 0 ~ ^ { \\circ } \\mathrm { C }$overnight in the dark. A saturated aqueous solution of $\\mathrm { N a } _ { 2 } \\mathrm { S O } _ { 3 }$(25 mL) was added to quench the reaction, and the mixture was extracted with Et O (3 $\\times \\quad 1 0 0$mL). The organic extracts were combined, dried over $\\mathrm { M g { S O _ { 4 } } , }$and concentrated on a rotary evaporator. The crude product was purified by column chromatography on silica gel with petroleum ether to give 4 $( m = 5 , n = 4 )$as a colorless liquid (20.0 g, 83%). <sup>1</sup>H NMR (300 MHz, CDCl ): δ 1.40 (m, 2 H, C3- CH ), 1.55-1.68 (m, 4 H, ${ \\mathrm { C } } 2 { \\mathrm { - } } { \\mathrm { C H } } _ { 2 } ,$C4-CH ), 2.06 (tt, $J = 8 . 3 ,$19.2 Hz, 2 H, CH CF ), 2.58 $( \\mathrm { t } , J = 7 . 5$Hz, 2 H, C1-CH ), 6.77 $( \\mathrm { d } , J = 5 . 7 \\ \\mathrm { H z } ,$1 H, Th-H4), 7.18 (d, J ) 5.7 Hz, 1 H, Th-H5). $^ { 1 3 } \\mathrm { C }$NMR (75.5 Hz, CDCl ): δ 141.3, 128.1, 125.4, 109.1 (thiophene), 30.7 (t, $J _ { \\mathrm { F , C } } = 2 2 . 4$Hz, CH<sub>2</sub>CF<sub>2</sub>), 29.4, 29.1, 28.6, 19.9. The CF and $\\mathrm { C F } _ { 3 }$resonances appear as a series of complex multiplets arising from short- and long-range ${ } ^ { 1 3 } \\mathrm { C } - { } ^ { 1 9 } \\mathrm { F }$couplings at $1 0 \\bar { 0 } { - } 1 3 0$ppm. IR (neat): 3107, 2945, 1231, 879 cm<sup>-1</sup>. MS (EI): m/z $\\left( I _ { \\mathrm { r e l } } \\right)$452 (45, M<sup>+</sup>).",
+      "merged_source_block_ids": [
+        "P_7_100",
+        "V2_7_2_1",
+        "V2_7_2_3",
+        "V2_7_2_5",
+        "V2_7_2_7",
+        "V2_7_2_9",
+        "V2_7_2_11",
+        "V2_7_2_13",
+        "V2_7_2_15",
+        "V2_7_2_17",
+        "V2_7_2_19",
+        "V2_7_2_21",
+        "V2_7_2_23",
+        "V2_7_2_25",
+        "V2_7_2_27",
+        "V2_7_2_29",
+        "V2_7_2_31",
+        "V2_7_2_33",
+        "V2_7_2_35",
+        "V2_7_2_37",
+        "V2_7_2_39"
+      ],
+      "section": "Experimental Section"
+    },
+    {
+      "block_id": "P_7_101",
+      "page_id": 7,
+      "block_index": 101,
+      "element_type": "text",
+      "bbox": [
+        67,
+        717,
+        485,
+        964
+      ],
+      "alignment_status": "matched",
+      "text": "4-Alkyl-2-(5,5-dimethyl-[1,3,2]dioxaborinan-2-yl)thiophenes, 5. 2- (5,5-Dimethyl-[1,3,2]dioxaborinan-2-yl)-4-octylthiophene, $5 \\quad ( p$$= 8 ) .$. A solution of n-BuLi in hexanes (5.0 mL of a 1.6 M solution, 8.0 mmol) was added dropwise to tetramethylpiperidine (1.13 g, 8.0 mmol) in anhydrous THF (20 mL) a $\\mathrm { t } - \\mathrm { i } 0 \\ \\mathrm { ^ \\circ C }$under argon. The reaction mixture was stirred $\\mathrm { a t } - 1 0 ~ ^ { \\circ } \\mathrm { C }$for an additional 30 min and was then cooled $\\mathrm { t o } - 7 8 { } ^ { \\circ } \\mathrm { C } .$A solution of 3-octylthiophene $( 1 . 6 2 \\ \\mathrm { g } , \\ 8 . 0$mmol) in anhydrous THF (20 mL) was added, and after stirring at $- 7 8 { } ^ { \\circ } \\mathrm { C }$for 1 h and a $\\mathrm { t } - 4 0 { } ^ { \\circ } \\mathrm { C }$for 2.5 h, the mixture was cooled again to $- 7 8 \\ ^ { \\circ } \\mathrm { C }$and trimethyl borate (2.49 g, 24.0 mmol) was added via syringe. The mixture was allowed to warm slowly to room temperature, and stirring was continued overnight. The solvent was removed under reduced pressure, and aqueous 2 M HCl (10 mL) was added to the residue. The mixture was extracted with $\\mathrm { E t } _ { 2 } \\mathrm { O } \\left( 3 \\times 3 0 \\right.$mL), and the combined organic layers were dried over $\\mathrm { M g } \\mathrm { S O } _ { 4 }$. Neopentyl glycol (1.04 g, 10.0 mmol) was added to the resulting solution which was then stirred at room temperature for 4 h. The solvent was removed on a rotary evaporator, and column chromatography of the residue on silica gel with ethyl acetate/petroleum ether (5/95 v/v) gave 5 $( p = 8 )$as a colorless liquid (1.40 g, 57%). <sup>1</sup>H NMR (300 MHz, CDCl ): δ 0.87 (t, J ) 6.7 Hz, 3 H, CH ), 1.01 (s, 6 H, 2 CH ), 1.22-1.30 (m, 10 H, 5 CH ), 1.61 (m, 2 H, CH ), 2.63 (t, J ) 7.7 Hz, 2 H, ThCH ), 3.74 (s, 4 H, 2 CH ), 7.14 (d, $J = 0 . 8$Hz, 1 H, Th-H), $7 . 4 0 ~ ( \\mathrm { d } , J = 0 . 8$Hz, 1 H, Th-H). $^ { 1 3 } \\mathrm { C }$NMR (75.5 Hz, CDCl ): δ 144.4, 136.9, 126.4, 72.3, 32.0, 31.8, 30.6, 30.0, 29.4, 29.3, 29.2, 22.6, 21.9 (C(CH ) ), 21.8 (C(CH ) ), 14.0 (the boron-substituted C2 carbon was not observed). IR (neat): 3096, 3045, 2926, 2854, 1435, 1281, $8 6 6 ~ \\mathrm { c m ^ { - 1 } }$. MS (EI): m/z $\\left( I _ { \\mathrm { r e l } } \\right)$308 (30, M<sup>+</sup>).",
+      "merged_source_block_ids": [
+        "P_7_101",
+        "V2_7_3_1",
+        "V2_7_3_2",
+        "V2_7_3_4",
+        "V2_7_3_6",
+        "V2_7_3_8",
+        "V2_7_3_10",
+        "V2_7_3_12",
+        "V2_7_3_14",
+        "V2_7_3_16",
+        "V2_7_3_18",
+        "V2_7_3_20",
+        "V2_7_3_22",
+        "V2_7_3_24",
+        "V2_7_3_26",
+        "V2_7_3_28",
+        "V2_7_3_30",
+        "V2_7_3_32"
+      ],
+      "section": "Experimental Section"
+    },
+    {
+      "block_id": "P_7_102",
+      "page_id": 7,
+      "block_index": 102,
+      "element_type": "text",
+      "bbox": [
+        514,
+        49,
+        932,
+        180
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "Experimental Section"
+    },
+    {
+      "block_id": "P_7_103",
+      "page_id": 7,
+      "block_index": 103,
+      "element_type": "text",
+      "bbox": [
+        514,
+        178,
+        932,
+        500
+      ],
+      "alignment_status": "matched",
+      "text": "4′-Alkyl-3-semifluoroalkyl-2,2′-bithiophenes, $6 . 3 – ( 6 , 6 , 7 , 7 , 8 , 8 , 9 , 9 , 9 .$Nonafluorononyl-4′-octyl-2,2′-bithiophene, $6 ~ ( m = 5 , n = 4 , p =$8). A mixture of 2-bromo-3-(6,6,7,7,8,8,9,9,9-nonafluorononyl)thiophene, 4 $( m = 5 , n = 4 ) ( 0 . 5 1 \\mathrm { ~ g } , 1 . 1 0$mmol), 2-(5,5-dimethyl-$^ { [ 1 , 3 , 2 }$]dioxaborinan-2-yl)-4-octylthiophene, $\\mathfrak { s } \\left( p = 8 \\right) \\left( 0 . 4 3 \\ \\mathrm { g } , 1 . 4 0 \\right.$mmol), $\\mathrm { N a } _ { 2 } \\mathrm { C O } _ { 3 } \\ ( 0 . 3 6 \\ \\mathrm { g } ,$3.40 mmol), and $\\mathrm { P d } ( \\mathrm { P P h } _ { 3 } ) _ { 4 }$(66 mg, 57 µmol) in degassed DME (10 mL) and water (5 mL) was stirred at $7 5 ~ ^ { \\circ } \\mathrm { C }$overnight under argon. H O (5 mL) was added, and the mixture was extracted with $\\mathrm { E t _ { 2 } O } \\left( 3 \\times 5 0 \\mathrm { m L } \\right)$. The organic extracts were combined, dried over $\\mathrm { M g { S O _ { 4 } } , }$and concentrated on a rotary evaporator. Column chromatography of the residue on silica gel with petroleum ether afforded 6 $( m = 5 , n = 4 , p = 8 )$as a colorless liquid (0.51 g, 79%). <sup>1</sup>H NMR (300 MHz, CDCl ): δ $0 . 9 2 \\ ( { \\mathrm t } , J =$6.8 Hz, 3 H, CH<sub>3</sub>), 1.31-1.59 (m, 12 H, 6 CH<sub>2</sub>), $1 . 6 2 \\mathrm { - } 1 . 7 5 ~ ( \\mathrm { m } , 6 $H, 3 CH ), 2.06 (m, 2 H, CH CF ), 2.63 (t, J ) 7.6 Hz, 2 H, ThCH<sub>2</sub>), $2 . 8 1 \\ : ( \\mathrm { t } , J = 7 . 7 \\ : \\mathrm { H z } , 2$H, ThCH<sub>2</sub>), 6.90 (d, $J = 1 . 4$Hz, 1 H, Th-H5′), 6.91 $( \\mathrm { d } , J = 5 . 2 \\mathrm { H z } ,$, 1 H, Th-H4), 6.96 $( \\mathrm { d } , J = 1 . 4$Hz, 1 H, Th-H3′), 7.16 (d, $J = 5 . 2$Hz, 1 H, Th-H5). $^ { 1 3 } \\mathrm { C }$NMR (75.5 Hz, CDCl ): δ 143.6, 138.6, 135.6, 131.3, 129.7, 127.5, 123.6, 120.0, 31.9, 30.7 (t, J ) 21.8 Hz, CH CF ), 30.5, 30.4, 30.3, 29.5, 29.4, 29.3, 28.8, 28.7, 22.7, 19.9, 14.0. The $\\mathrm { C F } _ { 2 }$and $\\mathrm { C F } _ { 3 }$resonances appear as a series of complex multiplets arising from short and long-range ${ } ^ { 1 3 } \\mathrm { C } - { } ^ { 1 9 } \\mathrm { F }$couplings at 100-130 ppm. IR (neat): 3101, 3065, 2928, 2856, 1464, 1234, 1134, 879, 719 cm<sup>-1</sup>. MS (EI): m/z $( I _ { \\mathrm { r e l } } )$566 (100, M<sup>+</sup>).",
+      "merged_source_block_ids": [
+        "P_7_103",
+        "V2_7_5_1",
+        "V2_7_5_3",
+        "V2_7_5_5",
+        "V2_7_5_7",
+        "V2_7_5_9",
+        "V2_7_5_11",
+        "V2_7_5_13",
+        "V2_7_5_15",
+        "V2_7_5_17",
+        "V2_7_5_19",
+        "V2_7_5_21",
+        "V2_7_5_23",
+        "V2_7_5_25",
+        "V2_7_5_27",
+        "V2_7_5_29",
+        "V2_7_5_31",
+        "V2_7_5_33",
+        "V2_7_5_35",
+        "V2_7_5_37",
+        "V2_7_5_39",
+        "V2_7_5_41",
+        "V2_7_5_43",
+        "V2_7_5_45"
+      ],
+      "section": "Experimental Section"
+    },
+    {
+      "block_id": "P_7_104",
+      "page_id": 7,
+      "block_index": 104,
+      "element_type": "text",
+      "bbox": [
+        514,
+        499,
+        932,
+        833
+      ],
+      "alignment_status": "matched",
+      "text": "4′-Alkyl-5,5′-dibromo-3-semifluoroalkyl-2,2′-bithiophenes, 7. 5,5′-Dibromo-3-(6,6,7,7,8,8,9,9,9-nonafluoronony $l ) { - } 4 ^ { \\prime } { - } o c t y l { - } 2 , 2 ^ { \\prime } { - }$bithiophene, 7 $( m \\ = \\ 5 , \\ n \\ = \\ 4 , \\ p \\ = \\ 8 )$A solution of Nbromosuccinimide (1.59 g, 8.90 mmol) in DMF (15 mL) was added dropwise to a solution of 3 $- ( 6 , 6 , 7 , 7 , 8 , 8 , 9 , 9 , 9 .$-nonafluorononyl)-4′- $\\mathrm { o c t y l } { - 2 , 2 ^ { \\prime } }$-bithiophene, $6 \\left( m = 5 , n = 4 , p = 8 \\right) ( 2 . 5 6 \\mathrm { g } , 4 . 5 1 \\mathrm { m m o l } )$in DMF (15 mL) $\\mathrm { a t } - 1 5 \\ ^ { \\circ } \\mathrm { C }$. The reaction mixture was stirred at $- 1 5 ~ ^ { \\circ } \\mathrm { C }$overnight in the dark. A saturated aqueous solution of $\\mathrm { N a } _ { 2 } \\mathrm { S O } _ { 3 } ( 2 0$mL) was added, and the mixture was extracted with $\\mathrm { E t _ { 2 } O } \\left( 3 \\times 5 0 \\mathrm { m L } \\right)$. The organic extracts were combined, dried over $\\mathrm { M g S O _ { 4 } , }$and concentrated on a rotary evaporator. The crude product was purified by column chromatography on silica gel with petroleum ether to give $7 ~ ( m = 5 , n = 4 , p = 8 )$as a colorless liquid (2.59 g, 80%). <sup>1</sup>H NMR (300 MHz, CDCl<sub>3</sub>): δ $0 . 8 8 ~ ( \\mathrm { t } , J =$6.6 Hz, 3 H, CH<sub>3</sub>), 1.22-1.48 (m, 12 H, 6 CH<sub>2</sub>), 1.50-1.68 (m, 6 H, 3 CH<sub>2</sub>), 2.04 (m, 2 H, CH<sub>2</sub>CF<sub>2</sub>), 2.53 (t, J ) 7.4 Hz, 2 H, ThCH<sub>2</sub>), 2.66 (t, J ) 7.4 Hz, 2 H, ThCH<sub>2</sub>), 6.72 (s, 1 H, Th-H4), 6.85 (s, 1 H, Th-H3′). $^ { 1 3 } \\mathrm { C }$NMR (75.5 Hz, CDCl<sub>3</sub>): δ 142.6, 139.8, 134.0, 132.3, 131.8, 127.4, 111.0, 109.3 (thiophene), 31.9, 31.0, $3 0 . 7 ~ ( \\mathrm { t } , J = 2 1 . 8 $Hz, CH CF ), 30.4, 30.2, 29.6, 29.5, 29.4, 29.3, 28.7, 22.7, 19.9, 14.1. The $\\mathrm { C F } _ { 2 }$and $\\mathrm { C F } _ { 3 }$resonances appear as a series of complex multiplets arising from short- and long-range ${ } ^ { 1 3 } \\mathrm { C } - { } ^ { 1 9 } \\mathrm { F }$couplings at 100-130 ppm. IR (neat): 2926, 2856, 1456, 1234, 1134, 879, 719 cm<sup>-1</sup>. MS (EI): m/z (I ) 724 (100, M<sup>+</sup>). Anal. Calcd for $\\mathrm { C } _ { 2 5 } \\mathrm { H } _ { 2 9 } \\mathrm { B r } _ { 2 } \\mathrm { F } _ { 9 } \\mathrm { S } _ { 2 } \\mathrm { : }$C 41.45, H 4.03, F 23.60. Found: C 41.58, H 4.01, F 23.76.",
+      "merged_source_block_ids": [
+        "P_7_104",
+        "V2_7_6_1",
+        "V2_7_6_3",
+        "V2_7_6_5",
+        "V2_7_6_7",
+        "V2_7_6_9",
+        "V2_7_6_11",
+        "V2_7_6_13",
+        "V2_7_6_15",
+        "V2_7_6_17",
+        "V2_7_6_19",
+        "V2_7_6_21",
+        "V2_7_6_23",
+        "V2_7_6_25",
+        "V2_7_6_27",
+        "V2_7_6_29",
+        "V2_7_6_31",
+        "V2_7_6_33",
+        "V2_7_6_35"
+      ],
+      "section": "Experimental Section"
+    },
+    {
+      "block_id": "P_7_105",
+      "page_id": 7,
+      "block_index": 105,
+      "element_type": "text",
+      "bbox": [
+        514,
+        833,
+        932,
+        964
+      ],
+      "alignment_status": "matched",
+      "text": "Regioregular Alternating Poly(4′-alkyl-3-semifluoroalkyl-2,2′-bithiophene)s, Rg(Th-m,n/p). Poly(3-(6,6,7,7,8,8,9,9,9-nonafluorononyl)-4′-octyl-2,2′-bithiophene), Rg(Th-5,4/8). A solution of MeMgCl (3.0 M solution in THF, 0.91 mL, 2.74 mmol) was added dropwise to a solution of 5,5′-dibromo-3-(6,6,7,7,8,8,9,9,9- nonafluorononyl)-4′-octyl-2,2′-bithiophene $7 \\ ( m = 5 , n = 4 , p =$8) (1.99 g, 2.75 mmol) in THF (15 mL) under argon. The solution was heated at reflux for 1 h, and Ni(dppp)Cl (7.4 mg, 14 µmol, 0.5 mol %) was added. The reaction mixture was heated at reflux for an additional 4 h, during which the solution turned deep red.",
+      "merged_source_block_ids": [
+        "P_7_105",
+        "V2_7_7_1"
+      ],
+      "section": "Experimental Section"
+    },
+    {
+      "block_id": "P_8_109",
+      "page_id": 8,
+      "block_index": 109,
+      "element_type": "text",
+      "bbox": [
+        66,
+        51,
+        483,
+        280
+      ],
+      "alignment_status": "matched",
+      "text": "The mixture was poured into MeOH (100 mL), and the precipitated purple solid was collected by filtration through a Soxhlet thimble. The crude material was subsequently extracted with MeOH, acetone, hexanes, and $\\mathrm { C H C l } _ { 3 }$in a Soxhlet extractor. The CHCl fraction was concentrated on a rotary evaporator. The residue was dissolved in a minimum amount of hot THF, and the solution was poured into MeOH (100 mL) to precipitate Rg(Th-5,4/8) as a purple solid (661 mg, 43%). <sup>1</sup>H NMR (300 MHz, CDCl ): δ 0.84 (m, 3 H, CH ), 1.2-1.8 (m, 18 H, 9 CH ), 2.06 (m, 2 H, CH CF ), 2.79 (m, 4 H, ThCH ), 6.95 (s, 1 H, Th-H), 6.96 (s, 1 H, Th-H). <sup>13</sup>C NMR (75.5 Hz, $\\mathrm { C D C l } _ { 3 } ) \\colon$δ 140.1, 139.1, 133.9, 133.5, 130.8, 130.5, 128.8, 128.4 (thiophene), 31.9, 30.7, 30.5, 30.2, 29.7, 29.6, 29.4, 29.3, 29.1, 28.9, 22.7, 20.0, 14.0. The CF and CF resonances appear as a series of complex multiplets arising from short- and long-range <sup>13</sup>C-<sup>19</sup>F couplings at 100-130 ppm. IR (neat): 3053, 2924, 2853, 1466, 1222, 1132, 879, 719 cm<sup>-1</sup>. UV-vis (THF): $\\lambda _ { \\operatorname* { m a x } } 4 5 0$nm. Anal. Calcd for (C H F S ) : C 53.18, H 5.18, F 30.28. Found: C 52.95, H 5.20, F 30.47.",
+      "merged_source_block_ids": [
+        "P_8_109",
+        "V2_8_0_1",
+        "V2_8_0_3",
+        "V2_8_0_5"
+      ],
+      "section": "Experimental Section"
+    },
+    {
+      "block_id": "P_8_110",
+      "page_id": 8,
+      "block_index": 110,
+      "element_type": "text",
+      "bbox": [
+        66,
+        280,
+        485,
+        575
+      ],
+      "alignment_status": "matched",
+      "text": "Regiorandom Poly(3-(6,6,7,7,8,8,9,9,9-nonafluorononyl)-4′- octyl-2,2′-bithiophene)s, Rn(Th-5,4/8). Anhydrous ferric chloride (0.53 g, 3.29 mmol) was added to a solution of $3 \\substack { - ( 6 , 6 , 7 , 7 , 8 , 8 , 9 , 9 , 9 - }$nonafluorononyl)-4′-octyl-2,2′-bithiophene, $\\ 6 \\ ( m = 5 , n = 4 , p =$8) (0.47 g, 0.82 mmol) in $\\mathrm { C H C l } _ { 3 }$(15 mL). After the reaction mixture was stirred at room temperature for 24 h, it was poured into MeOH (50 mL) to precipitate crude polymer as a deep red powder. The powder was collected by filtration through a Soxhlet extractor thimble and washed with methanol. The thimble was placed into a Soxhlet extractor, and the polymer was extracted sequentially with MeOH, acetone, and CHCl<sub>3</sub>. The CHCl<sub>3</sub> fraction was concentrated under vacuum to give the regiorandom polymer Rn(Th-5,4/8) as a deep red solid (180 mg, 38%). <sup>1</sup>H NMR (300 MHz, CDCl ): δ 0.86 (m, 3 H, CH<sub>3</sub>), 1.2-1.8 (m, 18 H, 9 CH<sub>2</sub>), 2.06 (m, 2 H, CH<sub>2</sub>CF<sub>2</sub>), 2.56 (s, br, 4 H, head-head, ThCH<sub>2</sub>), 2.80 (s,br, 4 H, head-tail, ThCH ), 6.95 (m, 2 H, Th-H). <sup>13</sup>C NMR (75.5 Hz, CDCl ): δ 143.0, 140.1, 139.6, 139.1, 139.0, 135.4, 133.9, 133.5, 131.0, 130.8, 130.4, 128.8, 128.4, 127.3, 126.4, 121.6, 121.0, 119.3, 118.2, 115.5 (thiophene), 31.9, 31.0, 30.7, 30.5, 30.4, 30.2, 29.6, 29.4, 29.3, 29.2, 29.1, 28.9, 22.7, 20.0, 14.1. The CF and CF resonances appear as a series of complex multiplets arising from short- and long-range $^ { 1 3 } \\mathrm { C } \\mathrm { - } ^ { 1 9 } \\mathrm { F }$couplings at 100-125 ppm. UV-vis (THF): $\\lambda _ { \\operatorname* { m a x } } = 4 4 1$nm.",
+      "merged_source_block_ids": [
+        "P_8_110",
+        "V2_8_1_1",
+        "V2_8_1_3",
+        "V2_8_1_5",
+        "V2_8_1_7",
+        "V2_8_1_9"
+      ],
+      "section": "Experimental Section"
+    },
+    {
+      "block_id": "P_8_111",
+      "page_id": 8,
+      "block_index": 111,
+      "element_type": "text",
+      "bbox": [
+        66,
+        575,
+        485,
+        818
+      ],
+      "alignment_status": "matched",
+      "text": "Device Fabrication and Testing. Field-effect transistors were fabricated as described previously.<sup>80</sup> Bottom contact geometry Ti/ Au (10/100 nm) source and drain electrodes were patterned on SiO / $\\mathrm { n ^ { + } { - } S i }$substrate using lift-off photolithography to define channels with 500 and 1000 µm widths and lengths ranging from 5 to 50 µm. The dielectric was passivated with an octadecyltrichlorosilane (OTS) self-assembled monolayer (SAM) prior to the deposition of the organic semiconductor. The substrates were oxygen-plasma treated for 2 min, and the OTS SAMs were formed by dipping the substrates in a 5 mM toluene solution of OTS for 30 min. A static aqueous contact angle of $1 1 2 ^ { \\circ }$was obtained for OTS-treated SiO<sub>2</sub> on n-doped Si, corresponding to a highly hydrophilic surface consisting of a densely packed monolayer of alkylsilane. Thin films of Rg(Th-5,4/12) were spin-coated (1000 rpm, 60 s) in a nitrogen glovebox $( \\mathrm { O } _ { 2 } , \\mathrm { ~ H } _ { 2 } \\mathrm { O } \\mathrm { ~ < ~ } 1$ppm). Spin-coating from a 2.5 mg/mL solution of polymer in dichlorobenzene provided 50 nm thick films. The devices were then transferred in an airtight vessel to a second glovebox filled with nitrogen $( \\mathrm { O } _ { 2 } , \\mathrm { H } _ { 2 } \\mathrm { O } < \\mathrm { 0 } . 1 $ppm) for electrical characterization.",
+      "merged_source_block_ids": [
+        "P_8_111",
+        "V2_8_2_1",
+        "V2_8_2_3",
+        "V2_8_2_5",
+        "V2_8_2_7"
+      ],
+      "section": "Experimental Section"
+    },
+    {
+      "block_id": "P_8_112",
+      "page_id": 8,
+      "block_index": 112,
+      "element_type": "text",
+      "bbox": [
+        66,
+        818,
+        483,
+        885
+      ],
+      "alignment_status": "matched",
+      "text": "Electrical connections were made with a microprobe station contained within the second glovebox. An Agilent E5272A medium-power source/monitor unit connected to the probe station was used to perform the electrical measurements. At no point after deposition of the organic layer were the devices exposed to air.",
+      "section": "Experimental Section"
+    },
+    {
+      "block_id": "P_8_113",
+      "page_id": 8,
+      "block_index": 113,
+      "element_type": "text",
+      "bbox": [
+        66,
+        893,
+        485,
+        964
+      ],
+      "alignment_status": "matched",
+      "text": "Acknowledgment. We thank the National Science Foundation for support of our program in fluoroalkyl-substituted conjugated polymers (Award DMR-0347832) and the NSF-STC Program under Agreement No. DMR-0120967. We also gratefully acknowledge the NSF for Research Experiences for Undergraduate programs through the STC that provided support to R.S. This work was performed in part at the Microelectronics Research Center at Georgia Institute of Technology, a member of the National Nanotechnology Infrastructure Network, which is supported by NSF (Grant No. ECS-03-35765).",
+      "section": "Experimental Section"
+    },
+    {
+      "block_id": "P_8_114",
+      "page_id": 8,
+      "block_index": 114,
+      "element_type": "text",
+      "bbox": [
+        514,
+        51,
+        933,
+        118
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "Experimental Section"
+    },
+    {
+      "block_id": "P_8_115",
+      "page_id": 8,
+      "block_index": 115,
+      "element_type": "text",
+      "bbox": [
+        514,
+        130,
+        933,
+        187
+      ],
+      "alignment_status": "matched",
+      "text": "Supporting Information Available: Characterization of 1-7 and Rg(m,n/p) and procedures for the preparation of Rg(3,6/9). This material is available free of charge via the Internet at http:// pubs.acs.org.",
+      "section": "Experimental Section"
+    },
+    {
+      "block_id": "P_8_116",
+      "page_id": 8,
+      "block_index": 116,
+      "element_type": "title",
+      "bbox": [
+        517,
+        199,
+        675,
+        214
+      ],
+      "alignment_status": "matched",
+      "text": "References and Notes",
+      "title_level": 2,
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_8_117",
+      "page_id": 8,
+      "block_index": 117,
+      "element_type": "references",
+      "bbox": [
+        522,
+        222,
+        765,
+        234
+      ],
+      "alignment_status": "matched",
+      "text": "(1) Roncali, J. Chem. ReV. 1992, 92, 711.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_8_118",
+      "page_id": 8,
+      "block_index": 118,
+      "element_type": "references",
+      "bbox": [
+        522,
+        233,
+        928,
+        245
+      ],
+      "alignment_status": "matched",
+      "text": "(2) Barbarella, G.; Melucci, M.; Sotgiu, G. AdV. Mater. 2005, 17, 1581.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_8_119",
+      "page_id": 8,
+      "block_index": 119,
+      "element_type": "references",
+      "bbox": [
+        522,
+        245,
+        930,
+        266
+      ],
+      "alignment_status": "matched",
+      "text": "(3) Handbook of Conducting Polymers; Skotheim, T. A., Ed.; Marcel Dekker: New York, 1991; Vol. 1, pp 297-350.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_8_120",
+      "page_id": 8,
+      "block_index": 120,
+      "element_type": "references",
+      "bbox": [
+        522,
+        266,
+        928,
+        288
+      ],
+      "alignment_status": "matched",
+      "text": "(4) Conjugated Polymers; Bredas, J. L., Silbey, R., Eds.; Kluwer: Dordrecht, 1991; pp 472-486.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_8_121",
+      "page_id": 8,
+      "block_index": 121,
+      "element_type": "references",
+      "bbox": [
+        524,
+        288,
+        857,
+        300
+      ],
+      "alignment_status": "matched",
+      "text": "(5) Katz, H. E.; Bao, Z. J. Phys. Chem. B 2000, 104, 671.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_8_122",
+      "page_id": 8,
+      "block_index": 122,
+      "element_type": "references",
+      "bbox": [
+        524,
+        298,
+        928,
+        321
+      ],
+      "alignment_status": "matched",
+      "text": "(6) Perepichka, I. F.; Perepichka, D. F.; Meng, H.; Wudl, F. AdV. Mater. 2005, 17, 2281.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_8_123",
+      "page_id": 8,
+      "block_index": 123,
+      "element_type": "references",
+      "bbox": [
+        522,
+        320,
+        930,
+        343
+      ],
+      "alignment_status": "matched",
+      "text": "(7) Li, G.; Shrotriya, V.; Huang, J.; Yao, Y.; Moriarty, T.; Emery, K.; Yang, Y. Nat. Mater. 2005, 4, 864.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_8_124",
+      "page_id": 8,
+      "block_index": 124,
+      "element_type": "references",
+      "bbox": [
+        524,
+        343,
+        930,
+        365
+      ],
+      "alignment_status": "matched",
+      "text": "(8) Yoo, S.; Potscavage, W. J.; Domercq, B.; Kim, J.; Holt, J.; Kippelen, B. Appl. Phys. Lett. 2006, 89, 233516.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_8_125",
+      "page_id": 8,
+      "block_index": 125,
+      "element_type": "references",
+      "bbox": [
+        522,
+        363,
+        930,
+        386
+      ],
+      "alignment_status": "matched",
+      "text": "(9) Van Keuren, E. D.; White, R. C. Nonlinear Opt., Quantum Opt. 2005, 33, 63.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_8_126",
+      "page_id": 8,
+      "block_index": 126,
+      "element_type": "references",
+      "bbox": [
+        517,
+        385,
+        930,
+        408
+      ],
+      "alignment_status": "matched",
+      "text": "(10) Kishida, H.; Hirota, K.; Wakabayashi, T.; Okamoto, H.; Kokubo, H.; Yamamoto, T. Appl. Phys. Lett. 2005, 87, 121902.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_8_127",
+      "page_id": 8,
+      "block_index": 127,
+      "element_type": "references",
+      "bbox": [
+        517,
+        408,
+        787,
+        418
+      ],
+      "alignment_status": "matched",
+      "text": "(11) Katz, H. E. J. Mater. Chem. 1997, 7, 369.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_8_128",
+      "page_id": 8,
+      "block_index": 128,
+      "element_type": "references",
+      "bbox": [
+        517,
+        417,
+        930,
+        450
+      ],
+      "alignment_status": "matched",
+      "text": "(12) Bjornholm, T.; Hassenkam, T.; Greve, D. R.; McCullough, R. D.; Jayaraman, M.; Savoy, S. M.; Jones, C. E.; McDevitt, J. T. AdV. Mater. 1999, 11, 1218.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_8_129",
+      "page_id": 8,
+      "block_index": 129,
+      "element_type": "references",
+      "bbox": [
+        517,
+        450,
+        930,
+        484
+      ],
+      "alignment_status": "matched",
+      "text": "(13) Reitzel, N.; Greve, D. R.; Kjaer, K. P.; Howes, B.; Jayaraman, M.; Savoy, S.; McCullough, R. D.; McDevitt, J. T.; Bjornholm, T. J. Am. Chem. Soc. 2000, 122, 5788.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_8_130",
+      "page_id": 8,
+      "block_index": 130,
+      "element_type": "references",
+      "bbox": [
+        517,
+        484,
+        930,
+        505
+      ],
+      "alignment_status": "matched",
+      "text": "(14) Stoakes, K. K.; Heuze, K.; McCullough, R. D. Macromolecules 2003, 36, 7114.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_8_131",
+      "page_id": 8,
+      "block_index": 131,
+      "element_type": "references",
+      "bbox": [
+        517,
+        505,
+        928,
+        527
+      ],
+      "alignment_status": "matched",
+      "text": "(15) Chen, S. H.; Conger, B. M.; Mastrangelo, J. C.; Kende, A. S.; Kim, D. U. Macromolecules 1998, 31, 8051.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_8_132",
+      "page_id": 8,
+      "block_index": 132,
+      "element_type": "references",
+      "bbox": [
+        517,
+        526,
+        916,
+        538
+      ],
+      "alignment_status": "matched",
+      "text": "(16) Kijima, M.; Akagi, K.; Shirakawa, H. Synth. Met. 1997, 84, 237.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_8_133",
+      "page_id": 8,
+      "block_index": 133,
+      "element_type": "references",
+      "bbox": [
+        517,
+        538,
+        930,
+        559
+      ],
+      "alignment_status": "matched",
+      "text": "(17) Ong, B. S.; Wu, Y.; Liu, P.; Gardner, S. J. Am. Chem. Soc. 2004, 126, 3378.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_8_134",
+      "page_id": 8,
+      "block_index": 134,
+      "element_type": "references",
+      "bbox": [
+        517,
+        559,
+        930,
+        602
+      ],
+      "alignment_status": "matched",
+      "text": "(18) McCulloch, I.; Heeney, M.; Bailey, C.; Genevicius, K.; MacDonald, I.; Shkunov, M.; Sparrowe, D.; Tierney, S.; Wagner, R.; Zhang, W.; Chabinyc, M. L.; Kline, R. J.; McGehee, M. D.; Toney, M. F. Nat. Mater. 2006, 5, 328.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_8_135",
+      "page_id": 8,
+      "block_index": 135,
+      "element_type": "references",
+      "bbox": [
+        517,
+        602,
+        930,
+        625
+      ],
+      "alignment_status": "matched",
+      "text": "(19) McCulloch, I.; Bailey, C.; Giles, M.; Heeney, M.; Love, I.; Shkunov, M.; Sparrowe, D.; Tierney, S. Chem. Mater. 2005, 17, 1381.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_8_136",
+      "page_id": 8,
+      "block_index": 136,
+      "element_type": "references",
+      "bbox": [
+        517,
+        625,
+        930,
+        646
+      ],
+      "alignment_status": "matched",
+      "text": "(20) Prosa, T. J.; Winokur, M. J.; McCullough, R. D. Macromolecules 1996, 29, 3654.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_8_137",
+      "page_id": 8,
+      "block_index": 137,
+      "element_type": "references",
+      "bbox": [
+        517,
+        646,
+        930,
+        667
+      ],
+      "alignment_status": "matched",
+      "text": "(21) McCullough, R. D.; Lowe, R. D.; Jayaraman, M.; Anderson, D. L. J. Org. Chem. 1993, 58, 904.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_8_138",
+      "page_id": 8,
+      "block_index": 138,
+      "element_type": "references",
+      "bbox": [
+        517,
+        667,
+        884,
+        680
+      ],
+      "alignment_status": "matched",
+      "text": "(22) Schopf, G.; Kossmehl, G. AdV. Polym. Sci. 1997, 129, 166.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_8_139",
+      "page_id": 8,
+      "block_index": 139,
+      "element_type": "references",
+      "bbox": [
+        517,
+        679,
+        825,
+        690
+      ],
+      "alignment_status": "matched",
+      "text": "(23) Janata, J.; Josowicz, M. Nat. Mater. 2003, 2, 19.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_8_140",
+      "page_id": 8,
+      "block_index": 140,
+      "element_type": "references",
+      "bbox": [
+        517,
+        690,
+        857,
+        702
+      ],
+      "alignment_status": "matched",
+      "text": "(24) Xu, B.; Holdcroft, S. Macromolecules 1993, 26, 4457.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_8_141",
+      "page_id": 8,
+      "block_index": 141,
+      "element_type": "references",
+      "bbox": [
+        517,
+        701,
+        930,
+        722
+      ],
+      "alignment_status": "matched",
+      "text": "(25) Chen, F.; Mehta, P. G.; Takiff, L.; McCullough, R. D. J. Mater. Chem. 1996, 6, 1763.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_8_142",
+      "page_id": 8,
+      "block_index": 142,
+      "element_type": "references",
+      "bbox": [
+        517,
+        722,
+        930,
+        744
+      ],
+      "alignment_status": "matched",
+      "text": "(26) Bao, Z.; Dodabalapur, A.; Lovinger, A. Appl. Phys. Lett. 1996, 69, 4108.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_8_143",
+      "page_id": 8,
+      "block_index": 143,
+      "element_type": "references",
+      "bbox": [
+        517,
+        744,
+        928,
+        766
+      ],
+      "alignment_status": "matched",
+      "text": "(27) Brown, A. R.; De Leeuw, D. M.; Havinga, E. E.; Pomp, A. Synth. Met. 1994, 68, 65.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_8_144",
+      "page_id": 8,
+      "block_index": 144,
+      "element_type": "references",
+      "bbox": [
+        517,
+        765,
+        930,
+        809
+      ],
+      "alignment_status": "matched",
+      "text": "(28) Sirringhaus, H.; Brown, P. J.; Friend, R. H.; Nielsen, M. M.; Bechgaard, K.; Langeveld-Voss, B. M. W.; Spiering, A. J. H.; Janssen, R. A. J.; Meijer, E. W.; Herwig, P.; de Leeuw, D. M. Nature (London) 1999, 401, 685.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_8_145",
+      "page_id": 8,
+      "block_index": 145,
+      "element_type": "references",
+      "bbox": [
+        517,
+        809,
+        930,
+        842
+      ],
+      "alignment_status": "matched",
+      "text": "(29) Mena-Osteritz, E.; Meyer, A.; Langeveld-Voss, B. M. W.; Janssen, R. A. J.; Meijer, E. W.; Bauerle, P. Angew. Chem., Int. Ed. 2000, 39, 2680.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_8_146",
+      "page_id": 8,
+      "block_index": 146,
+      "element_type": "references",
+      "bbox": [
+        517,
+        841,
+        828,
+        854
+      ],
+      "alignment_status": "matched",
+      "text": "(30) Zhou, P.; Blumstein, A. Polymer 1996, 37, 1477.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_8_147",
+      "page_id": 8,
+      "block_index": 147,
+      "element_type": "references",
+      "bbox": [
+        517,
+        853,
+        928,
+        874
+      ],
+      "alignment_status": "matched",
+      "text": "(31) Heuze, K.; McCullough, R. D. Polym. Prepr. (Am. Chem. Soc., DiV. Polym. Chem.) 1999, 40, 854.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_8_148",
+      "page_id": 8,
+      "block_index": 148,
+      "element_type": "references",
+      "bbox": [
+        517,
+        874,
+        882,
+        886
+      ],
+      "alignment_status": "matched",
+      "text": "(32) Stoakes, M. S.; Collard, D. M. Chem. Mater. 1994, 6, 850.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_8_149",
+      "page_id": 8,
+      "block_index": 149,
+      "element_type": "references",
+      "bbox": [
+        517,
+        885,
+        928,
+        906
+      ],
+      "alignment_status": "matched",
+      "text": "(33) Lide, D. R. CRC Handbook ofChemistry and Physics, 53rd ed.; CRC Press: Boca Raton, FL, 1972-1973; p 146.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_8_150",
+      "page_id": 8,
+      "block_index": 150,
+      "element_type": "references",
+      "bbox": [
+        517,
+        906,
+        930,
+        928
+      ],
+      "alignment_status": "matched",
+      "text": "(34) Johansson, G.; Percec, V.; Ungar, G.; Zhou, J. P. Macromolecules 1996, 29, 646.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_8_151",
+      "page_id": 8,
+      "block_index": 151,
+      "element_type": "references",
+      "bbox": [
+        517,
+        928,
+        928,
+        950
+      ],
+      "alignment_status": "matched",
+      "text": "(35) Hwang, H. S.; Heo, J. Y.; Jin, S. H.; Cho, D.; Chang, T.; Lim, K. T. Polymer 2003, 44, 5153.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_8_152",
+      "page_id": 8,
+      "block_index": 152,
+      "element_type": "references",
+      "bbox": [
+        517,
+        950,
+        860,
+        962
+      ],
+      "alignment_status": "matched",
+      "text": "(36) Wang, J.; Ober, C. K. Macromolecules 1997, 30, 7560.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_9_156",
+      "page_id": 9,
+      "block_index": 156,
+      "element_type": "references",
+      "bbox": [
+        69,
+        51,
+        482,
+        95
+      ],
+      "alignment_status": "matched",
+      "text": "(37) Tran, H. V.; Hung, R. J.; Chiba, T.; Yamada, S.; Mrozek, T.; Hsieh, Y. T.; Chambers, C. R.; Osborn, B. P.; Trinque, B. C.; Pinnow, M. J.; MacDonald, S. A.; Willson, C. G.; Sanders, D. P.; Connor, E. F.; Grubbs, R. H.; Conley, W. Macromolecules 2002, 35, 6539.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_9_157",
+      "page_id": 9,
+      "block_index": 157,
+      "element_type": "references",
+      "bbox": [
+        69,
+        95,
+        482,
+        117
+      ],
+      "alignment_status": "matched",
+      "text": "(38) Ren, Y.; Lodge, T. P.; Hillmyer, M. A. Macromolecules 2001, 34, 4780.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_9_158",
+      "page_id": 9,
+      "block_index": 158,
+      "element_type": "references",
+      "bbox": [
+        69,
+        116,
+        482,
+        149
+      ],
+      "alignment_status": "matched",
+      "text": "(39) Hayakawa, T.; Wang, J.; Xiang, M.; Li, X.; Ueda, M.; Ober, C. K.; Genzer, J.; Sivaniah, E.; Kramer, E. J.; Fisher, D. A. Macromolecules 2000, 33, 8012.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_9_159",
+      "page_id": 9,
+      "block_index": 159,
+      "element_type": "references",
+      "bbox": [
+        69,
+        149,
+        482,
+        172
+      ],
+      "alignment_status": "matched",
+      "text": "(40) Buechner, W.; Garreau, R.; Lemaire, M.; Roncali, J.; Garnier, F. J. Electroanal. Chem. Interfacial Electrochem. 1990, 277, 355.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_9_160",
+      "page_id": 9,
+      "block_index": 160,
+      "element_type": "references",
+      "bbox": [
+        69,
+        171,
+        480,
+        192
+      ],
+      "alignment_status": "matched",
+      "text": "(41) Buechner, W.; Garreau, R.; Roncali, J.; Lemaire, M. J. Fluorine Chem. 1992, 59, 301.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_9_161",
+      "page_id": 9,
+      "block_index": 161,
+      "element_type": "references",
+      "bbox": [
+        69,
+        192,
+        436,
+        205
+      ],
+      "alignment_status": "matched",
+      "text": "(42) Robitaille, L.; Leclerc, M. Macromolecules 1994, 27, 1847.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_9_162",
+      "page_id": 9,
+      "block_index": 162,
+      "element_type": "references",
+      "bbox": [
+        69,
+        205,
+        480,
+        224
+      ],
+      "alignment_status": "matched",
+      "text": "(43) Leclerc, M.; Robitaille, L.; Bergeron, J. Y.; Callender, C. L. Polym. Prepr. (Am. Chem. Soc., DiV. Polym. Chem.) 1994, 35, 305.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_9_163",
+      "page_id": 9,
+      "block_index": 163,
+      "element_type": "references",
+      "bbox": [
+        69,
+        224,
+        439,
+        237
+      ],
+      "alignment_status": "matched",
+      "text": "(44) Middlecoff, J. S.; Collard, D. M. Synth. Met. 1997, 84, 221.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_9_164",
+      "page_id": 9,
+      "block_index": 164,
+      "element_type": "references",
+      "bbox": [
+        69,
+        236,
+        480,
+        257
+      ],
+      "alignment_status": "matched",
+      "text": "(45) Hong, X.; Tyson, J. C.; Collard, D. M. Macromolecules 2000, 33, 3502.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_9_165",
+      "page_id": 9,
+      "block_index": 165,
+      "element_type": "references",
+      "bbox": [
+        69,
+        257,
+        431,
+        269
+      ],
+      "alignment_status": "matched",
+      "text": "(46) Hong, X.; Collard, D. M. Macromolecules 2000, 33, 6916.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_9_166",
+      "page_id": 9,
+      "block_index": 166,
+      "element_type": "references",
+      "bbox": [
+        69,
+        269,
+        480,
+        289
+      ],
+      "alignment_status": "matched",
+      "text": "(47) Hong, X. M.; Tyson, J. C.; Middlecoff, J. S.; Collard, D. M. Macromolecules 1999, 32, 4232.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_9_167",
+      "page_id": 9,
+      "block_index": 167,
+      "element_type": "references",
+      "bbox": [
+        69,
+        289,
+        480,
+        312
+      ],
+      "alignment_status": "matched",
+      "text": "(48) Li, L.; Counts, K. E.; Kurosawa, S.; Teja, A. S.; Collard, D. M. AdV. Mater. 2004, 16, 180.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_9_168",
+      "page_id": 9,
+      "block_index": 168,
+      "element_type": "references",
+      "bbox": [
+        69,
+        312,
+        405,
+        323
+      ],
+      "alignment_status": "matched",
+      "text": "(49) Li, L.; Collard, D. M. Macromolecules 2005, 38, 372.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_9_169",
+      "page_id": 9,
+      "block_index": 169,
+      "element_type": "references",
+      "bbox": [
+        69,
+        323,
+        412,
+        335
+      ],
+      "alignment_status": "matched",
+      "text": "(50) Li, L.; Collard, D. M. Macromolecules 2006, 39, 6092.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_9_170",
+      "page_id": 9,
+      "block_index": 170,
+      "element_type": "references",
+      "bbox": [
+        69,
+        334,
+        482,
+        356
+      ],
+      "alignment_status": "matched",
+      "text": "(51) Facchetti, A.; Yoon, M.; Stern, C. L.; Hutchison, G. R.; Ratner, M. A.; Marks, T. J. J. Am. Chem. Soc. 2004, 126, 13480.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_9_171",
+      "page_id": 9,
+      "block_index": 171,
+      "element_type": "references",
+      "bbox": [
+        69,
+        355,
+        480,
+        376
+      ],
+      "alignment_status": "matched",
+      "text": "(52) Heroguez, V.; Gnanou, Y.; Fontanille, M. Macromolecules 1997, 30, 4791.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_9_172",
+      "page_id": 9,
+      "block_index": 172,
+      "element_type": "references",
+      "bbox": [
+        69,
+        376,
+        388,
+        388
+      ],
+      "alignment_status": "matched",
+      "text": "(53) Guillerez, S.; Bidan, G. Synth. Met. 1998, 93, 123.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_9_173",
+      "page_id": 9,
+      "block_index": 173,
+      "element_type": "references",
+      "bbox": [
+        69,
+        388,
+        480,
+        411
+      ],
+      "alignment_status": "matched",
+      "text": "(54) Jen, K. Y.; Oboodi, R.; Elsenbaumer, R. L. Polym. Mater. Sci. Eng. (Am. Chem. Soc., DiV. Polym. Mater.) 1985, 53, 79.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_9_174",
+      "page_id": 9,
+      "block_index": 174,
+      "element_type": "references",
+      "bbox": [
+        69,
+        409,
+        480,
+        432
+      ],
+      "alignment_status": "matched",
+      "text": "(55) Yamamoto, T.; Sanechika, K.; Yamamoto, A. J. Polym. Sci., Polym. Lett. Ed. 1980, 18, 9.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_9_175",
+      "page_id": 9,
+      "block_index": 175,
+      "element_type": "references",
+      "bbox": [
+        69,
+        431,
+        480,
+        444
+      ],
+      "alignment_status": "matched",
+      "text": "(56) Elsenbaumer, R. L.; Jen, K. Y.; Oboodi, R. Synth. Met. 1986, 15, 169.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_9_176",
+      "page_id": 9,
+      "block_index": 176,
+      "element_type": "references",
+      "bbox": [
+        69,
+        443,
+        480,
+        464
+      ],
+      "alignment_status": "matched",
+      "text": "(57) Hotz, C. Z.; Kovacic, P.; Khoury, I. A. J. Polym. Sci., Polym. Chem. Ed. 1983, 21, 2617.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_9_177",
+      "page_id": 9,
+      "block_index": 177,
+      "element_type": "references",
+      "bbox": [
+        69,
+        464,
+        480,
+        486
+      ],
+      "alignment_status": "matched",
+      "text": "(58) Yamamoto, T.; Sanechika, K.; Yamamoto, A. Bull. Chem. Soc. Jpn. 1983, 56, 1497.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_9_178",
+      "page_id": 9,
+      "block_index": 178,
+      "element_type": "references",
+      "bbox": [
+        69,
+        486,
+        480,
+        508
+      ],
+      "alignment_status": "matched",
+      "text": "(59) Yamamoto, T.; Osakada, K.; Wakabayashi, T.; Yamamoto, A. Makromol. Chem., Rapid Commun. 1985, 6, 671.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_9_179",
+      "page_id": 9,
+      "block_index": 179,
+      "element_type": "references",
+      "bbox": [
+        69,
+        508,
+        480,
+        530
+      ],
+      "alignment_status": "matched",
+      "text": "(60) Yamamoto, T.; Maruyama, T.; Zhou, Z. H.; Miyazaki, Y.; Kanbara, T.; Sanechika, K. Synth. Met. 1991, 41, 345.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_9_180",
+      "page_id": 9,
+      "block_index": 180,
+      "element_type": "references",
+      "bbox": [
+        517,
+        52,
+        930,
+        85
+      ],
+      "alignment_status": "matched",
+      "text": "(61) Yamamoto, T.; Morita, A.; Miyazaki, Y.; Maruyama, T.; Wakayama, H.; Zhou, Z. H.; Nakamura, Y.; Kanbara, T.; Sasaki, S.; Kubota, K. Macromolecules 1992, 25, 1214.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_9_181",
+      "page_id": 9,
+      "block_index": 181,
+      "element_type": "references",
+      "bbox": [
+        517,
+        85,
+        930,
+        108
+      ],
+      "alignment_status": "matched",
+      "text": "(62) Tamoa, K.; Sumitani, K.; Kumada, M. J. Am. Chem. Soc. 1972, 94, 4376.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_9_182",
+      "page_id": 9,
+      "block_index": 182,
+      "element_type": "references",
+      "bbox": [
+        517,
+        108,
+        930,
+        130
+      ],
+      "alignment_status": "matched",
+      "text": "(63) Colon, I.; Kwiatkowski, G. T. J. Polym. Sci., Polym. Chem. Ed. 1990, 28, 367.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_9_183",
+      "page_id": 9,
+      "block_index": 183,
+      "element_type": "references",
+      "bbox": [
+        517,
+        130,
+        930,
+        153
+      ],
+      "alignment_status": "matched",
+      "text": "(64) Sugimoto, R.; Takeda, S.; Gu, H. B.; Yoshino, K. Chem. Express 1986, 1, 635.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_9_184",
+      "page_id": 9,
+      "block_index": 184,
+      "element_type": "references",
+      "bbox": [
+        517,
+        153,
+        930,
+        174
+      ],
+      "alignment_status": "matched",
+      "text": "(65) Yoshino, K.; Hayashi, S.; Sugimoto, R. Jpn. J. Appl. Phys. 1984, 23, L899.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_9_185",
+      "page_id": 9,
+      "block_index": 185,
+      "element_type": "references",
+      "bbox": [
+        517,
+        174,
+        930,
+        197
+      ],
+      "alignment_status": "matched",
+      "text": "(66) Osterholm, J.-E.; Laakso, J.; Nyholm, P.; Isotalo, H.; Stubb, H.; Inganaes, O.; Salaneck, W. R. Synth. Met. 1989, 28, C435.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_9_186",
+      "page_id": 9,
+      "block_index": 186,
+      "element_type": "references",
+      "bbox": [
+        517,
+        197,
+        930,
+        219
+      ],
+      "alignment_status": "matched",
+      "text": "(67) Leclerc, M.; Diaz, F. M.; Wegner, G. Makromol. Chem. 1989, 190, 3105.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_9_187",
+      "page_id": 9,
+      "block_index": 187,
+      "element_type": "references",
+      "bbox": [
+        517,
+        219,
+        930,
+        242
+      ],
+      "alignment_status": "matched",
+      "text": "(68) Abdou, M. S. A.; Lu, X.; Xie, Z. W.; Orfino, F.; Deen, M. J.; Holdcroft, S. Chem. Mater. 1995, 7, 631.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_9_188",
+      "page_id": 9,
+      "block_index": 188,
+      "element_type": "references",
+      "bbox": [
+        517,
+        242,
+        930,
+        264
+      ],
+      "alignment_status": "matched",
+      "text": "(69) Reynolds, J. R.; Ruiz, J. P.; Child, A. D.; Nayak, K.; Marynick, D. S. Macromolecules 1991, 24, 678.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_9_189",
+      "page_id": 9,
+      "block_index": 189,
+      "element_type": "references",
+      "bbox": [
+        517,
+        265,
+        928,
+        286
+      ],
+      "alignment_status": "matched",
+      "text": "(70) Loewe, R. S.; Khersonsky, S. M.; McCullough, R. D. AdV. Mater. 1999, 11, 250.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_9_190",
+      "page_id": 9,
+      "block_index": 190,
+      "element_type": "references",
+      "bbox": [
+        517,
+        287,
+        930,
+        309
+      ],
+      "alignment_status": "matched",
+      "text": "(71) Loewe, R. S.; Ewbank, P. C.; Liu, J.; Zhai, L.; McCullough, R. D. Macromolecules 2001, 34, 4324.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_9_191",
+      "page_id": 9,
+      "block_index": 191,
+      "element_type": "references",
+      "bbox": [
+        517,
+        309,
+        901,
+        321
+      ],
+      "alignment_status": "matched",
+      "text": "(72) McCullough, R. D.; Loewe, R. S. US Patent 6 166 172, 2000.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_9_192",
+      "page_id": 9,
+      "block_index": 192,
+      "element_type": "references",
+      "bbox": [
+        517,
+        319,
+        906,
+        330
+      ],
+      "alignment_status": "matched",
+      "text": "(73) Chen, T. A.; Rieke, R. D. J. Am. Chem. Soc. 1992, 114, 10087.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_9_193",
+      "page_id": 9,
+      "block_index": 193,
+      "element_type": "references",
+      "bbox": [
+        517,
+        330,
+        928,
+        343
+      ],
+      "alignment_status": "matched",
+      "text": "(74) Chen, T. A.; Wu, X.; Rieke, R. D. J. Am. Chem. Soc. 1995, 117, 233.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_9_194",
+      "page_id": 9,
+      "block_index": 194,
+      "element_type": "references",
+      "bbox": [
+        517,
+        343,
+        930,
+        376
+      ],
+      "alignment_status": "matched",
+      "text": "(75) Bjornholm, T.; Greve, D. R.; Reitzel, N.; Hassenkam, T.; Kjaer, K.; Howes, P. B.; Larsen, N. B.; Bogelund, J.; Jayaraman, M.; Ewbank, P. C.; McCullough, R. D. J. Am. Chem. Soc. 1998, 120, 7643.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_9_195",
+      "page_id": 9,
+      "block_index": 195,
+      "element_type": "references",
+      "bbox": [
+        517,
+        376,
+        930,
+        399
+      ],
+      "alignment_status": "matched",
+      "text": "(76) Amou, S.; Haba, O.; Shirato, K.; Hayakawa, T.; Ueda, M.; Takeuchi, K.; Asai, M. J. Polym. Sci., Part A: Polym. Chem. 1999, 37, 1943.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_9_196",
+      "page_id": 9,
+      "block_index": 196,
+      "element_type": "references",
+      "bbox": [
+        517,
+        399,
+        930,
+        432
+      ],
+      "alignment_status": "matched",
+      "text": "(77) Andersson, M. R.; Selse, D.; Berggren, M.; Jaervinen, T.; Hjertberg, T.; Inganaes, O.; Wennerstroem, O.; Oesterholm, J.-E. Macromolecules 1994, 27, 6503.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_9_197",
+      "page_id": 9,
+      "block_index": 197,
+      "element_type": "references",
+      "bbox": [
+        517,
+        432,
+        930,
+        466
+      ],
+      "alignment_status": "matched",
+      "text": "(78) Kline, R. J.; DeLongchamp, D. M.; Fischer, D. A.; Lin, E. K.; Richter, L. J.; Chabinyc, M. L.; Toney, M. F.; Heeney, M.; McCulloch, I. Macromolecules 2007, 40, 7960.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_9_198",
+      "page_id": 9,
+      "block_index": 198,
+      "element_type": "references",
+      "bbox": [
+        517,
+        466,
+        930,
+        489
+      ],
+      "alignment_status": "matched",
+      "text": "(79) Park, Y. D.; Kim, D. H.; Jang, Y.; Cho, J. H.; Hwang, M.; Lee, H. S.; Lim, J. A.; Cho, K. Org. Electron. 2006, 7, 514.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_9_199",
+      "page_id": 9,
+      "block_index": 199,
+      "element_type": "references",
+      "bbox": [
+        517,
+        487,
+        930,
+        510
+      ],
+      "alignment_status": "matched",
+      "text": "(80) Haddock, N. J.; Domercq, B.; Kippelen, B. Electron. Lett. 2005, 41, 444.",
+      "section": "References and Notes"
+    }
+  ],
+  "warnings": [
+    {
+      "code": "metadata_extraction_failed",
+      "message": "未配置统一 LLM 元数据提取器；document JSON 已继续生成"
+    }
+  ]
+}

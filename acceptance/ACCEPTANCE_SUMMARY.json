@@ -1,0 +1,107 @@
+{
+  "schema_version": "delivery-acceptance/1.0",
+  "delivery_date": "2026-08-07",
+  "fixed_20_result": {
+    "random_3": "3/3",
+    "random_7": "7/7",
+    "remaining_10": "10/10",
+    "total": "20/20"
+  },
+  "fresh_retry_random_3": {
+    "references": [
+      "reference_no_0038527",
+      "reference_no_0042480",
+      "reference_no_0043590"
+    ],
+    "stage_attempts": 21,
+    "succeeded": 21,
+    "failed": 0,
+    "cache_hits": 0,
+    "preview": "3/3",
+    "strict": "3/3"
+  },
+  "unit_tests_before_packaging": "416 passed",
+  "reports": [
+    {
+      "file": "random3_preview_verify_report.json",
+      "accepted": true,
+      "mode": "preview",
+      "expected_count": 3,
+      "selected_count": 3,
+      "passed_count": 3,
+      "failed_count": 0
+    },
+    {
+      "file": "random3_strict_verify_report.json",
+      "accepted": true,
+      "mode": "strict",
+      "expected_count": 3,
+      "selected_count": 3,
+      "passed_count": 3,
+      "failed_count": 0
+    },
+    {
+      "file": "random7_preview_verify_report.json",
+      "accepted": true,
+      "mode": "preview",
+      "expected_count": 7,
+      "selected_count": 7,
+      "passed_count": 7,
+      "failed_count": 0
+    },
+    {
+      "file": "random7_strict_verify_report.json",
+      "accepted": true,
+      "mode": "strict",
+      "expected_count": 7,
+      "selected_count": 7,
+      "passed_count": 7,
+      "failed_count": 0
+    },
+    {
+      "file": "remaining10_preview_verify_report.json",
+      "accepted": true,
+      "mode": "preview",
+      "expected_count": 10,
+      "selected_count": 10,
+      "passed_count": 10,
+      "failed_count": 0
+    },
+    {
+      "file": "remaining10_strict_verify_report.json",
+      "accepted": true,
+      "mode": "strict",
+      "expected_count": 10,
+      "selected_count": 10,
+      "passed_count": 10,
+      "failed_count": 0
+    },
+    {
+      "file": "retry_random3_preview_verify_report.json",
+      "accepted": true,
+      "mode": "preview",
+      "expected_count": 3,
+      "selected_count": 3,
+      "passed_count": 3,
+      "failed_count": 0
+    },
+    {
+      "file": "retry_random3_strict_verify_report.json",
+      "accepted": true,
+      "mode": "strict",
+      "expected_count": 3,
+      "selected_count": 3,
+      "passed_count": 3,
+      "failed_count": 0
+    }
+  ],
+  "note": "包内不含原始模型响应、运行日志或 SQLite 状态库。",
+  "delivery_package_verification": {
+    "date": "2026-08-07",
+    "structure": "20 standardized JSON + 20 original PDF",
+    "standardized_pipeline_dry_run": "20/20 selected",
+    "pdf_pipeline_dry_run": "20/20 selected",
+    "tests": "441 passed",
+    "external_api_calls": 0
+  }
+}

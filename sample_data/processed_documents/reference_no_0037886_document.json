@@ -1,0 +1,2667 @@
+{
+  "schema_version": "1.0",
+  "document_id": "reference_no_0037886",
+  "paper": {
+    "ref_no": "reference_no_0037886",
+    "pdf_filename": "35a6bbb1-1b56-4554-831f-617b74a7b31d_origin.pdf",
+    "source_pdf_path": "mineru/reference_no_0037886/35a6bbb1-1b56-4554-831f-617b74a7b31d_origin.pdf",
+    "organized_pdf_path": "organized/reference_no_0037886/origin.pdf",
+    "doi": null,
+    "title": null,
+    "authors": null,
+    "journal": null,
+    "year": null,
+    "metadata_status": "failed",
+    "metadata_extraction": {
+      "method": "llm",
+      "provider": null,
+      "model": null,
+      "prompt_file": "prompts/meta_extract.md",
+      "prompt_sha256": "98252486e4f9cdfd1b42ea02b7e01440d6be99c99d18720dc71c95aa1643fcd4",
+      "source_pages": [
+        0,
+        1
+      ],
+      "status": "failed",
+      "error_type": "MetaExtractorUnavailable"
+    }
+  },
+  "source_files": {
+    "markdown": "reference_no_0037886.md",
+    "content_v1": "content.json",
+    "content_v2": "content_v2.json",
+    "pdf": "origin.pdf"
+  },
+  "ocr": {
+    "engine": "mineru",
+    "batch_id": "122ff743-eb66-4583-986f-6c8015953309",
+    "model_version": "vlm",
+    "ocr_enabled": false,
+    "language": null,
+    "page_ranges": null,
+    "enable_formula": true,
+    "enable_table": true,
+    "extra_formats": [],
+    "status": "done",
+    "manifest_file": "batch_122ff743-eb66-4583-986f-6c8015953309_manifest.json",
+    "status_file": "batch_122ff743-eb66-4583-986f-6c8015953309_status.json"
+  },
+  "elements": [
+    {
+      "block_id": "P_0_0",
+      "page_id": 0,
+      "block_index": 0,
+      "element_type": "title",
+      "bbox": [
+        106,
+        98,
+        765,
+        152
+      ],
+      "alignment_status": "matched",
+      "text": "Relaxational Behavior of Poly(4-tetrahydropyranyl) Methacrylate",
+      "title_level": 1,
+      "section": "DocumentTitle"
+    },
+    {
+      "block_id": "P_0_1",
+      "page_id": 0,
+      "block_index": 1,
+      "element_type": "text",
+      "bbox": [
+        104,
+        176,
+        794,
+        208
+      ],
+      "alignment_status": "matched",
+      "text": "MARIA J. SANCHIS,<sup>1</sup> GUSTAVO DOMI<sup>´</sup>NGUEZ-ESPINOSA,<sup>1</sup> RICARDO DI<sup>´</sup>AZ-CALLEJA,<sup>1</sup> LUZ ALEGRI<sup>´</sup>A,<sup>2</sup> LIGIA GARGALLO,<sup>2</sup> DEODATO RADIC<sup>´</sup> <sup>2</sup>",
+      "section": "Relaxational Behavior of Poly(4-tetrahydropyranyl) Methacrylate"
+    },
+    {
+      "block_id": "P_0_2",
+      "page_id": 0,
+      "block_index": 2,
+      "element_type": "text",
+      "bbox": [
+        104,
+        215,
+        826,
+        244
+      ],
+      "alignment_status": "matched",
+      "text": "<sup>1</sup>Departamento de Termodina´mica Aplicada, E.T.S.I.I., Universidad Polite´cnica de Valencia, Camino de Vera s/n, 46071 Valencia, Spain",
+      "section": "Relaxational Behavior of Poly(4-tetrahydropyranyl) Methacrylate"
+    },
+    {
+      "block_id": "P_0_3",
+      "page_id": 0,
+      "block_index": 3,
+      "element_type": "text",
+      "bbox": [
+        104,
+        256,
+        734,
+        286
+      ],
+      "alignment_status": "matched",
+      "text": "<sup>2</sup>Departamento de Quı´mica Fı´sica, Facultad de Quı´mica, Pontificia Universidad Cato´lica de Chile, Casilla 306, Santiago 22, Chile",
+      "section": "Relaxational Behavior of Poly(4-tetrahydropyranyl) Methacrylate"
+    },
+    {
+      "block_id": "P_0_4",
+      "page_id": 0,
+      "block_index": 4,
+      "element_type": "text",
+      "bbox": [
+        104,
+        311,
+        577,
+        340
+      ],
+      "alignment_status": "matched",
+      "text": "Received 15 May 2006; revised 22 June 2006; accepted 4 August 2006 DOI: 10.1002/polb.20952",
+      "section": "Relaxational Behavior of Poly(4-tetrahydropyranyl) Methacrylate"
+    },
+    {
+      "block_id": "P_0_5",
+      "page_id": 0,
+      "block_index": 5,
+      "element_type": "text",
+      "bbox": [
+        104,
+        340,
+        575,
+        354
+      ],
+      "alignment_status": "matched",
+      "text": "Published online in Wiley InterScience (www.interscience.wiley.com).",
+      "section": "Relaxational Behavior of Poly(4-tetrahydropyranyl) Methacrylate"
+    },
+    {
+      "block_id": "P_0_6",
+      "page_id": 0,
+      "block_index": 6,
+      "element_type": "text",
+      "bbox": [
+        205,
+        415,
+        821,
+        595
+      ],
+      "alignment_status": "matched",
+      "text": "ABSTRACT: Complex permittivity ofpoly(4-tetrahydropyranyl methacrylate) (P4THPMA) was measured by dielectric spectroscopy. The spectra obtained show several relaxation processes labeled as d, c, b, and a in increasing order oftemperature. These processes have been characterized and assigned to specific molecular motions. Comparison of the dielectric activity obtained for P4THPMAwith those reported for poly(1,3-dioxan-5-yl-methacrylate) (PDMA) and poly(cyclohexyl methacrylate) (PCHMA) was performed. In fact, these three polymers have similar chemical structures with aliphatic rings in the ester residue. However, significant differences between the dielectric behavior of these polymers have been observed. In addition, complementary molecular mechanic (MM) calculations have been carried out. The energy barriers obtained by these calculations lead to energy barriers which are in relatively good agreement with those derived from the dielectric measurement by means Arrhenius plots. VC 2006 Wiley Periodicals, Inc. J Polym Sci Part B: Polym Phys 44: 3135–3147, 2006",
+      "section": "Relaxational Behavior of Poly(4-tetrahydropyranyl) Methacrylate"
+    },
+    {
+      "block_id": "P_0_7",
+      "page_id": 0,
+      "block_index": 7,
+      "element_type": "text",
+      "bbox": [
+        205,
+        595,
+        819,
+        625
+      ],
+      "alignment_status": "matched",
+      "text": "Keywords: dielectric relaxation processes; molecular mechanic calculations; poly(oxocyclohexyl methacrylate)s",
+      "section": "Relaxational Behavior of Poly(4-tetrahydropyranyl) Methacrylate"
+    },
+    {
+      "block_id": "P_0_8",
+      "page_id": 0,
+      "block_index": 8,
+      "element_type": "title",
+      "bbox": [
+        106,
+        650,
+        255,
+        667
+      ],
+      "alignment_status": "matched",
+      "text": "INTRODUCTION",
+      "title_level": 2,
+      "section": "INTRODUCTION"
+    },
+    {
+      "block_id": "P_0_9",
+      "page_id": 0,
+      "block_index": 9,
+      "element_type": "text",
+      "bbox": [
+        104,
+        681,
+        498,
+        835
+      ],
+      "alignment_status": "matched",
+      "text": "Although molecular mobility is severely restricted below the glass transition temperature, the dynamic glass transition (main transition or, conventionally a-relaxation) in polymers is usually accompanied by subglass secondary relaxations (b, c, d. . .-relaxations.). The glass transition at low temperatures is assumed to be caused by the cooperative motion of many particles, while the secondary relaxations have a more localized molecular origin. The number of these secondary relaxations usually depends on the nature of the side chain. Thus, polymers with side chains with a large number of degrees of freedom are susceptible to undergo several molecular motions, which are visualized as a large number of secondary relaxation processes. In particular, polymers with cyclohexyl side groups are characterized for displaying considerable dielectric and mechanical activity in the glassy state.<sup>1–9</sup> Therefore, this type of polymers is especially suitable to study the lateral chain dynamics above and below the glass transition temperature. It should be also interesting to study how the modifications in the side group of poly(cyclohexyl methacrylate) (PCHMA)<sup>2</sup> affects the dielectric response. In particular, the substitution of a carbon by oxygen in the cyclohexyl ring should affect the relaxational behavior of the resulting polymer. In an earlier work, the dielectric and mechanical relaxations of poly(1,3-dioxan-5-yl-methacrylate) (PDMA)<sup>10</sup> has been investigated and it has been found that this polymer shows a variety of absorptions due to the versatility of its structural moiety.",
+      "section": "INTRODUCTION"
+    },
+    {
+      "block_id": "P_0_10",
+      "page_id": 0,
+      "block_index": 10,
+      "element_type": "text",
+      "bbox": [
+        526,
+        651,
+        922,
+        910
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "INTRODUCTION"
+    },
+    {
+      "block_id": "F_0_11",
+      "page_id": 0,
+      "block_index": 11,
+      "element_type": "footnote",
+      "bbox": [
+        106,
+        859,
+        494,
+        886
+      ],
+      "alignment_status": "matched",
+      "text": "Correspondence to: R. Dı´az-Calleja (E-mail: rdiazc@ter. upv.es)",
+      "section": "INTRODUCTION"
+    },
+    {
+      "block_id": "F_0_12",
+      "page_id": 0,
+      "block_index": 12,
+      "element_type": "footnote",
+      "bbox": [
+        104,
+        887,
+        471,
+        909
+      ],
+      "alignment_status": "matched",
+      "text": "Journal ofPolymer Science: Part B: Polymer Physics, Vol. 44, 3135–3147 (2006) VC 2006 Wiley Periodicals, Inc.",
+      "section": "INTRODUCTION"
+    },
+    {
+      "block_id": "I_1_15",
+      "page_id": 1,
+      "block_index": 15,
+      "element_type": "image",
+      "bbox": [
+        207,
+        89,
+        819,
+        277
+      ],
+      "alignment_status": "matched",
+      "image_kind": "image",
+      "caption": "Figure 1. Schematic chemical structures of the PCHMA, P4THPMA, and PDMA.",
+      "image_path": "organized/reference_no_0037886/images/a30ab057bb450a8d16251d1c109ba6ea390e911417c768960257518c4cb5e9f8.jpg"
+    },
+    {
+      "block_id": "P_1_16",
+      "page_id": 1,
+      "block_index": 16,
+      "element_type": "text",
+      "bbox": [
+        102,
+        314,
+        498,
+        406
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "INTRODUCTION"
+    },
+    {
+      "block_id": "P_1_17",
+      "page_id": 1,
+      "block_index": 17,
+      "element_type": "text",
+      "bbox": [
+        102,
+        405,
+        498,
+        556
+      ],
+      "alignment_status": "matched",
+      "text": "The aim of the present work is to analyze the response of poly(4-tetrahydropyranyl) methacrylate (P4THPMA) to dynamic electric fields in both the glassy state and in the glass–rubber transition zone. To study the effect of structural modifications in the cyclohexyl ring at the end of the side chain, these results are compared with those reported for PDMA and PCHMA. A schematic representation of the repeating unit of P4THPMA, PDMA, and PCHMA is shown in Figure 1.",
+      "section": "INTRODUCTION"
+    },
+    {
+      "block_id": "P_1_18",
+      "page_id": 1,
+      "block_index": 18,
+      "element_type": "text",
+      "bbox": [
+        102,
+        556,
+        498,
+        724
+      ],
+      "alignment_status": "matched",
+      "text": "Molecular mechanics (MM) is a powerful tool for analyzing the molecular motions causing secondary relaxations.<sup>11,12</sup> For this reason, and to check the energy barriers associated with specific molecular motions that are responsible for the lower temperature relaxation processes, conformational calculations have been carried out. A comparison is made between the energy barrier values obtained by Arrhenius diagram (log s as a function of 1/T, where $\\omega _ { \\mathrm { m a x } } = 1 / \\tau$is the frequency of the maximum loss factor) and those obtained by MM.",
+      "merged_source_block_ids": [
+        "P_1_18",
+        "V2_1_3_1"
+      ],
+      "section": "INTRODUCTION"
+    },
+    {
+      "block_id": "P_1_19",
+      "page_id": 1,
+      "block_index": 19,
+      "element_type": "title",
+      "bbox": [
+        104,
+        763,
+        239,
+        781
+      ],
+      "alignment_status": "matched",
+      "text": "EXPERIMENTAL",
+      "title_level": 2,
+      "section": "EXPERIMENTAL"
+    },
+    {
+      "block_id": "P_1_20",
+      "page_id": 1,
+      "block_index": 20,
+      "element_type": "title",
+      "bbox": [
+        104,
+        795,
+        365,
+        811
+      ],
+      "alignment_status": "matched",
+      "text": "Monomer and Polymer Preparation",
+      "title_level": 2,
+      "section": "Monomer and Polymer Preparation"
+    },
+    {
+      "block_id": "P_1_21",
+      "page_id": 1,
+      "block_index": 21,
+      "element_type": "text",
+      "bbox": [
+        102,
+        818,
+        498,
+        911
+      ],
+      "alignment_status": "matched",
+      "text": "4-Tetrahydropyranyl methacrylate was prepared by reaction of methacryloyl chloride with 4-tetrahydropyranyl alcohol in toluene solutions and pyridine at reflux temperature for 30 h according to the technique described by Burtle and Turek.<sup>13</sup> Purification was achieved by distillation under vacuum. Monomer was polymerized in toluene solutions under vacuum in sealed tubes, in presence of $\\alpha , \\alpha ^ { \\prime } \\cdot$-azobisisobutyronitrile (AIBN) $5 \\times 1 0 ^ { - 4 }$to $1 0 ^ { - 2 } \\ \\mathrm { ~ ( w / w ) }$% as previously reported.<sup>14</sup> Polymer was fractionated by solubility in toluene/methanol as solvent–nonsolvent pair. Three fractions were obtained and the fraction of the middle was selected for the present study.",
+      "merged_source_block_ids": [
+        "P_1_21",
+        "V2_1_6_1",
+        "V2_1_6_3",
+        "V2_1_6_5"
+      ],
+      "section": "Monomer and Polymer Preparation"
+    },
+    {
+      "block_id": "P_1_22",
+      "page_id": 1,
+      "block_index": 22,
+      "element_type": "text",
+      "bbox": [
+        526,
+        314,
+        922,
+        436
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "Monomer and Polymer Preparation"
+    },
+    {
+      "block_id": "P_1_23",
+      "page_id": 1,
+      "block_index": 23,
+      "element_type": "text",
+      "bbox": [
+        526,
+        436,
+        922,
+        573
+      ],
+      "alignment_status": "matched",
+      "text": "The glass transition temperature $( T _ { \\mathrm { g } } )$of the pure polymer was measured with a Mettler 821 calorimetric system. Polymer sample was dried under reduced pressure in a vacuum oven prior to measurement. Dry nitrogen was used as purge gas and thermogram was measured in the range 308– 523 K at a scan rate of 20 $\\mathrm { K } \\mathrm { m i n } ^ { - 1 }$. The glass transition temperature obtained for the P4THPMA was 433 K.",
+      "merged_source_block_ids": [
+        "P_1_23",
+        "V2_1_8_1",
+        "V2_1_8_3"
+      ],
+      "section": "Monomer and Polymer Preparation"
+    },
+    {
+      "block_id": "P_1_24",
+      "page_id": 1,
+      "block_index": 24,
+      "element_type": "title",
+      "bbox": [
+        528,
+        595,
+        718,
+        613
+      ],
+      "alignment_status": "matched",
+      "text": "Dielectric Measurements",
+      "title_level": 2,
+      "section": "Dielectric Measurements"
+    },
+    {
+      "block_id": "P_1_25",
+      "page_id": 1,
+      "block_index": 25,
+      "element_type": "text",
+      "bbox": [
+        526,
+        619,
+        922,
+        773
+      ],
+      "alignment_status": "matched",
+      "text": "Dielectric measurements were carried out by means of a Novocontrol Broad Band Dielectric Spectrometer made up of an Alpha analyzer to carry out measurement from $1 0 ^ { - 1 } ~ \\mathrm { t o } ~ 1 0 ^ { 6 }$Hz and an Agilent 4991A RF analyzer to perform measurements from ${ 1 0 } ^ { 6 }$to ${ 1 0 } ^ { 8 }$Hz, both devices being coupled with a Quatro temperature controller. Isothermal measurements were carried out from 148 to 423 K in 5-K steps on a molded, disc-shaped (diameter of 20 and 10 mm, respectively) sample.",
+      "merged_source_block_ids": [
+        "P_1_25",
+        "V2_1_10_1",
+        "V2_1_10_3",
+        "V2_1_10_5"
+      ],
+      "section": "Dielectric Measurements"
+    },
+    {
+      "block_id": "P_1_26",
+      "page_id": 1,
+      "block_index": 26,
+      "element_type": "title",
+      "bbox": [
+        528,
+        795,
+        910,
+        811
+      ],
+      "alignment_status": "matched",
+      "text": "Simulation Methodology and Computational Details",
+      "title_level": 2,
+      "section": "Simulation Methodology and Computational Details"
+    },
+    {
+      "block_id": "P_1_27",
+      "page_id": 1,
+      "block_index": 27,
+      "element_type": "text",
+      "bbox": [
+        526,
+        818,
+        922,
+        910
+      ],
+      "alignment_status": "matched",
+      "text": "MM calculations were performed using the force field method developed by Allinger and coworkers.<sup>15–18</sup> Other procedures, for example, ab initio molecular orbital calculations should also be useful for the same purpose, but in the present study a force field method has been used. The PC-",
+      "section": "Simulation Methodology and Computational Details"
+    },
+    {
+      "block_id": "P_2_31",
+      "page_id": 2,
+      "block_index": 31,
+      "element_type": "text",
+      "bbox": [
+        104,
+        90,
+        496,
+        136
+      ],
+      "alignment_status": "matched",
+      "text": "MODEL software<sup>19</sup> was employed to carry out the calculations. It is based on an empirical force field, called MMX that is derived from MM2(P).<sup>20</sup>",
+      "section": "Simulation Methodology and Computational Details"
+    },
+    {
+      "block_id": "P_2_32",
+      "page_id": 2,
+      "block_index": 32,
+      "element_type": "text",
+      "bbox": [
+        104,
+        136,
+        496,
+        196
+      ],
+      "alignment_status": "matched",
+      "text": "The use of the model compounds is advisable to simplify the calculations and the corresponding interpretations of the obtained results in a way similar to those of other authors.<sup>1,21–28</sup>",
+      "section": "Simulation Methodology and Computational Details"
+    },
+    {
+      "block_id": "P_2_33",
+      "page_id": 2,
+      "block_index": 33,
+      "element_type": "text",
+      "bbox": [
+        104,
+        196,
+        496,
+        349
+      ],
+      "alignment_status": "matched",
+      "text": "This empirical force field includes intermolecular as well as intramolecular contributions. The nonbonded energy function expresses interactions between atoms that are not bonded to each other. It is split into a van der Waals steric component and an electrostatic component, dealing with interactions between charges and dipoles. A Buckingham potential was used for this purpose. Parameterization of MMX has been carried out, assuming an artificial dielectric constant of 1.5.",
+      "section": "Simulation Methodology and Computational Details"
+    },
+    {
+      "block_id": "P_2_34",
+      "page_id": 2,
+      "block_index": 34,
+      "element_type": "text",
+      "bbox": [
+        104,
+        348,
+        498,
+        500
+      ],
+      "alignment_status": "matched",
+      "text": "The intramolecular energy function is split into a connectivity term, the bond stretching function and flexibility terms, the angle bending and the torsional functions, as well as cross-terms describing the coupling of stretch–bend, bend–bend, and torsional–stretch interactions that are taken into account. The Wilson $( E _ { \\mathrm { O O P } } ,$our umbrella out-ofplane) term has also been included, but their contribution to the global energy was small in all cases.",
+      "merged_source_block_ids": [
+        "P_2_34",
+        "V2_2_3_1"
+      ],
+      "section": "Simulation Methodology and Computational Details"
+    },
+    {
+      "block_id": "P_2_35",
+      "page_id": 2,
+      "block_index": 35,
+      "element_type": "text",
+      "bbox": [
+        104,
+        500,
+        498,
+        698
+      ],
+      "alignment_status": "matched",
+      "text": "The first step in the calculations is to establish an initial geometry. Exploration of the conformational characteristics of representative skeletal fragments of the polymers is therefore a prerequisite to model, adequately, larger fragments. The calculations of the theoretical energy requirements for a bond rotation were carried out with model compounds of one unit for each polymer, which simulate part of the polymer chain. The minimization was performed using a combination of steepest descent and Newton-Raphson meth-$\\mathrm { 0 d s ^ { 2 9 } }$until the energy gradient falls below 0.0004 kJ mol-<sup>1</sup> A<sup>˚</sup> -<sup>1</sup> for each specific conformer.",
+      "merged_source_block_ids": [
+        "P_2_35",
+        "V2_2_4_1"
+      ],
+      "section": "Simulation Methodology and Computational Details"
+    },
+    {
+      "block_id": "P_2_36",
+      "page_id": 2,
+      "block_index": 36,
+      "element_type": "title",
+      "bbox": [
+        106,
+        734,
+        341,
+        750
+      ],
+      "alignment_status": "matched",
+      "text": "RESULTS AND DISCUSSION",
+      "title_level": 2,
+      "section": "RESULTS AND DISCUSSION"
+    },
+    {
+      "block_id": "P_2_37",
+      "page_id": 2,
+      "block_index": 37,
+      "element_type": "title",
+      "bbox": [
+        106,
+        765,
+        292,
+        781
+      ],
+      "alignment_status": "matched",
+      "text": "Dielectric Measurements",
+      "title_level": 2,
+      "section": "Dielectric Measurements"
+    },
+    {
+      "block_id": "P_2_38",
+      "page_id": 2,
+      "block_index": 38,
+      "element_type": "text",
+      "bbox": [
+        104,
+        787,
+        496,
+        911
+      ],
+      "alignment_status": "matched",
+      "text": "Figure 2 shows the loss permittivity of P4THPMA. This spectrum exhibits three prominent subglass absorptions, labeled as $\\delta , \\gamma ,$and b relaxations centered at ${ \\sim } 1 4 0 , \\sim 1 9 0$, and 260 K at 1 Hz, respectively, followed in the increasing order of temperatures by the glass–rubber process or a-relaxation located at 420 K at the same frequency. At high temperatures and low frequencies, important conductivity contributions appear since the loss permittivity tends to increase continuously.",
+      "merged_source_block_ids": [
+        "P_2_38",
+        "V2_2_7_1",
+        "V2_2_7_3"
+      ],
+      "section": "Dielectric Measurements"
+    },
+    {
+      "block_id": "I_2_39",
+      "page_id": 2,
+      "block_index": 39,
+      "element_type": "image",
+      "bbox": [
+        570,
+        102,
+        878,
+        449
+      ],
+      "alignment_status": "matched",
+      "image_kind": "chart",
+      "caption": null,
+      "image_path": "organized/reference_no_0037886/images/1d7e4e35f28e8cdc9db47d6a4a306381b6a49a89c96ff2207fb9a5764ce04798.jpg"
+    },
+    {
+      "block_id": "I_2_40",
+      "page_id": 2,
+      "block_index": 40,
+      "element_type": "image",
+      "bbox": [
+        572,
+        465,
+        877,
+        811
+      ],
+      "alignment_status": "matched",
+      "image_kind": "chart",
+      "caption": "Figure 2. Dependence of e@ with (a) temperature (at frequencies of $2 . 9 \\bar { 6 } \\times 1 0 ^ { 6 }$ , 1.32 10<sup>6</sup>, 5.85 10<sup>5</sup>, $1 . 1 6 \\times 1 0 ^ { 5 }$ $5 . 1 4 \\times 1 0 ^ { 4 } , 1 . 0 2 \\times 1 0 ^ { 4 } , 4 . 5 1 \\times 1 0 ^ { 3 } , 1 . 3 4 \\times 1 0 ^ { 3 } , 5 . 9 4 \\times 1 0 ^ { 2 }$ $1 . 1 7 \\times 1 0 ^ { 2 } \\mathrm { ~ ; ~ }$ , 5.52 10<sup>1</sup>, 1.03 10<sup>1</sup>, $4 . 5 8 \\times 1 0 ^ { 0 }$ $1 . 3 6 \\times 1 0 ^ { 0 } ,$ $4 . 0 2 \\times 1 0 ^ { - 1 }$ , and $1 . 1 9 \\times 1 0 ^ { - 1 } \\mathrm { H z } )$ and (b) frequency (at temperatures from 418 to 543, step 5K) for P4THPMA.",
+      "image_path": "organized/reference_no_0037886/images/34c8580f42ce10171ad71d4e88e84c9b19c0bfe93dccbb45534d3c7bf8c4c581.jpg"
+    },
+    {
+      "block_id": "I_3_44",
+      "page_id": 3,
+      "block_index": 44,
+      "element_type": "image",
+      "bbox": [
+        220,
+        90,
+        806,
+        438
+      ],
+      "alignment_status": "matched",
+      "image_kind": "chart",
+      "caption": "Figure 3. Dependence of log $f _ { \\mathrm { m a x } }$ with the inverse of temperature in the range of a $( \\triangle$ P4THPMA), $\\beta \\ \\mathrm { ( \\square \\ P 4 T H P M A ) }$ , c ( P4THPMA, PCHMA, PDMA), and $\\delta ~ ( \\diamondsuit$ P4THPMA) relaxations.",
+      "image_path": "organized/reference_no_0037886/images/38f0caf1037d6952c3827fd69e60eab63008c3ea6cfc02a5bc703d8baa595b4c.jpg"
+    },
+    {
+      "block_id": "P_3_45",
+      "page_id": 3,
+      "block_index": 45,
+      "element_type": "text",
+      "bbox": [
+        104,
+        510,
+        496,
+        541
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "Dielectric Measurements"
+    },
+    {
+      "block_id": "P_3_46",
+      "page_id": 3,
+      "block_index": 46,
+      "element_type": "text",
+      "bbox": [
+        104,
+        540,
+        498,
+        603
+      ],
+      "alignment_status": "matched",
+      "text": "Unfortunately, the d-relaxation falls just on the low temperature limit for measurements. This fact makes difficult the corresponding analysis, but an estimation of the activation energy of this relaxational process according to the Arrhenius plot (see Fig. 3) was carried out and the obtained value is 28 kJ mol-<sup>1</sup>. This value is close to that found for other polymers structurally related, for example, polycyclohexyl methacrylate<sup>1,2</sup> and polymethylcyclohexyl methacrylate<sup>6</sup> (25–35 kJ mol-<sup>1</sup>).",
+      "section": "Dielectric Measurements"
+    },
+    {
+      "block_id": "P_3_47",
+      "page_id": 3,
+      "block_index": 47,
+      "element_type": "text",
+      "bbox": [
+        526,
+        510,
+        922,
+        603
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "Dielectric Measurements"
+    },
+    {
+      "block_id": "T_3_48",
+      "page_id": 3,
+      "block_index": 48,
+      "element_type": "table",
+      "bbox": [
+        104,
+        643,
+        922,
+        904
+      ],
+      "alignment_status": "matched",
+      "caption": "Table 1. Fuoss-Kirkwood Parameters ofSubvitreous Zone and the Relaxation Strengths Evaluated as $\\begin{array} { r } { \\Delta \\varepsilon _ { i } \\ = \\ \\frac { 2 \\varepsilon _ { \\mathrm { m a x } , i } ^ { \\prime \\prime } } { m _ { i } } . } \\end{array}$",
+      "table_body": "<table><tr><td> $f$ (Hz)</td><td> $1/T_{\\text{max},\\beta}$ (K $^{-1}$ )</td><td> $m_{\\beta}$ </td><td> $\\Delta\\varepsilon_{\\beta}$ </td><td> $1/T_{\\text{max},\\gamma}$ (K $^{-1}$ )</td><td> $m_{\\gamma}$ </td><td> $\\Delta\\varepsilon_{\\gamma}$ </td></tr><tr><td>52.2</td><td> $0.0032 \\pm 6 \\times 10^{-6}$ </td><td> $0.156 \\pm 0.002$ </td><td> $0.2499 \\pm 0.0024$ </td><td> $0.0046 \\pm 6 \\times 10^{-6}$ </td><td> $0.407 \\pm 0.008$ </td><td> $0.0470 \\pm 0.0003$ </td></tr><tr><td>34.8</td><td> $0.0032 \\pm 5 \\times 10^{-6}$ </td><td> $0.151 \\pm 0.001$ </td><td> $0.2519 \\pm 0.0015$ </td><td> $0.0047 \\pm 5 \\times 10^{-6}$ </td><td> $0.402 \\pm 0.006$ </td><td> $0.0463 \\pm 0.0003$ </td></tr><tr><td>23.2</td><td> $0.0033 \\pm 3 \\times 10^{-6}$ </td><td> $0.158 \\pm 0.001$ </td><td> $0.2354 \\pm 0.0004$ </td><td> $0.0048 \\pm 3 \\times 10^{-6}$ </td><td> $0.394 \\pm 0.003$ </td><td> $0.0501 \\pm 0.0003$ </td></tr><tr><td>15.5</td><td> $0.0033 \\pm 3 \\times 10^{-6}$ </td><td> $0.160 \\pm 0.000$ </td><td> $0.2276 \\pm 0.0001$ </td><td> $0.0048 \\pm 3 \\times 10^{-6}$ </td><td> $0.382 \\pm 0.002$ </td><td> $0.0528 \\pm 0.0003$ </td></tr><tr><td>10.3</td><td> $0.0034 \\pm 5 \\times 10^{-6}$ </td><td> $0.158 \\pm 0.001$ </td><td> $0.2256 \\pm 0.0011$ </td><td> $0.0049 \\pm 6 \\times 10^{-6}$ </td><td> $0.369 \\pm 0.004$ </td><td> $0.0546 \\pm 0.0003$ </td></tr><tr><td>6.87</td><td> $0.0034 \\pm 4 \\times 10^{-6}$ </td><td> $0.156 \\pm 0.001$ </td><td> $0.2257 \\pm 0.0004$ </td><td> $0.0050 \\pm 5 \\times 10^{-6}$ </td><td> $0.372 \\pm 0.003$ </td><td> $0.0540 \\pm 0.0002$ </td></tr><tr><td>4.58</td><td> $0.0035 \\pm 6 \\times 10^{-6}$ </td><td> $0.154 \\pm 0.001$ </td><td> $0.2253 \\pm 0.0010$ </td><td> $0.0051 \\pm 6 \\times 10^{-6}$ </td><td> $0.369 \\pm 0.005$ </td><td> $0.0541 \\pm 0.0002$ </td></tr><tr><td>3.05</td><td> $0.0035 \\pm 6 \\times 10^{-6}$ </td><td> $0.152 \\pm 0.001$ </td><td> $0.2264 \\pm 0.0008$ </td><td> $0.0051 \\pm 6 \\times 10^{-6}$ </td><td> $0.367 \\pm 0.005$ </td><td> $0.0540 \\pm 0.0001$ </td></tr><tr><td>2.03</td><td> $0.0036 \\pm 7 \\times 10^{-6}$ </td><td> $0.153 \\pm 0.002$ </td><td> $0.2216 \\pm 0.0017$ </td><td> $0.0052 \\pm 8 \\times 10^{-6}$ </td><td> $0.365 \\pm 0.006$ </td><td> $0.0548 \\pm 0.0001$ </td></tr><tr><td>1.36</td><td> $0.0036 \\pm 7 \\times 10^{-6}$ </td><td> $0.155 \\pm 0.001$ </td><td> $0.2147 \\pm 0.0012$ </td><td> $0.0053 \\pm 8 \\times 10^{-6}$ </td><td> $0.345 \\pm 0.005$ </td><td> $0.0593 \\pm 0.0001$ </td></tr><tr><td>0.904</td><td> $0.0037 \\pm 8 \\times 10^{-6}$ </td><td> $0.153 \\pm 0.002$ </td><td> $0.2163 \\pm 0.0015$ </td><td> $0.0053 \\pm 8 \\times 10^{-6}$ </td><td> $0.347 \\pm 0.006$ </td><td> $0.0586 \\pm 0.0000$ </td></tr><tr><td>0.603</td><td> $0.0037 \\pm 6 \\times 10^{-6}$ </td><td> $0.151 \\pm 0.001$ </td><td> $0.2189 \\pm 0.0005$ </td><td> $0.0054 \\pm 6 \\times 10^{-6}$ </td><td> $0.348 \\pm 0.004$ </td><td> $0.0591 \\pm 0.0001$ </td></tr><tr><td>0.403</td><td> $0.0038 \\pm 6 \\times 10^{-6}$ </td><td> $0.146 \\pm 0.001$ </td><td> $0.2239 \\pm 0.0007$ </td><td> $0.0055 \\pm 6 \\times 10^{-6}$ </td><td> $0.351 \\pm 0.005$ </td><td> $0.0562 \\pm 0.0001$ </td></tr><tr><td>0.268</td><td> $0.0038 \\pm 5 \\times 10^{-6}$ </td><td> $0.149 \\pm 0.001$ </td><td> $0.2182 \\pm 0.0004$ </td><td> $0.0055 \\pm 5 \\times 10^{-6}$ </td><td> $0.347 \\pm 0.003$ </td><td> $0.0587 \\pm 0.0001$ </td></tr><tr><td>0.179</td><td> $0.0039 \\pm 1 \\times 10^{-5}$ </td><td> $0.147 \\pm 0.003$ </td><td> $0.2198 \\pm 0.0030$ </td><td> $0.0056 \\pm 1 \\times 10^{-5}$ </td><td> $0.349 \\pm 0.012$ </td><td> $0.0576 \\pm 0.0004$ </td></tr><tr><td>0.119</td><td> $0.0039 \\pm 1 \\times 10^{-5}$ </td><td> $0.142 \\pm 0.002$ </td><td> $0.2293 \\pm 0.0015$ </td><td> $0.0057 \\pm 9 \\times 10^{-6}$ </td><td> $0.350 \\pm 0.009$ </td><td> $0.0564 \\pm 0.0003$ </td></tr></table>",
+      "image_path": "organized/reference_no_0037886/images/4cb15ebadb3e405e94da0268c332432faa8e7f9e998c202cfd2c53003bc91fb4.jpg"
+    },
+    {
+      "block_id": "I_4_52",
+      "page_id": 4,
+      "block_index": 52,
+      "element_type": "image",
+      "bbox": [
+        210,
+        90,
+        821,
+        420
+      ],
+      "alignment_status": "matched",
+      "image_kind": "chart",
+      "caption": "Figure 4. Loss factor data (symbols) and their deconvolution in two FK function (lines) as function of temperature, at 10.3 Hz for P4THPMA.",
+      "image_path": "organized/reference_no_0037886/images/98937b3534245783465fd03f0c986a32fdfdc6e08c52f4efece56120e7215070.jpg"
+    },
+    {
+      "block_id": "P_4_53",
+      "page_id": 4,
+      "block_index": 53,
+      "element_type": "text",
+      "bbox": [
+        102,
+        487,
+        498,
+        710
+      ],
+      "alignment_status": "matched",
+      "text": "Increasing the temperature, a c-relaxation is observed. This process is partially overlapped with the next process, the b-relaxation. To analyze loss permittivity in the subglass zone in a more detailed way, it is convenient to fit the loss factor permittivity by means of usual empirical equations. A reliable model to represent the secondary relaxations in polymers is the symmetric Fuoss and Kirkwood equation (FK).<sup>30</sup> To split the two overlapped relaxations $( \\gamma$and $\\beta ) ,$addition of each one of these contributions to the relaxation spectrum have been assumed. According to this procedure, the following equation to represent the empirical data is proposed",
+      "merged_source_block_ids": [
+        "P_4_53",
+        "V2_4_1_1",
+        "V2_4_1_3"
+      ],
+      "section": "Dielectric Measurements"
+    },
+    {
+      "block_id": "E_4_54",
+      "page_id": 4,
+      "block_index": 54,
+      "element_type": "equation",
+      "bbox": [
+        151,
+        722,
+        434,
+        790
+      ],
+      "alignment_status": "matched",
+      "text": "$$\n\\begin{array}{l} \\varepsilon^ {\\prime \\prime} = \\sum_ {i = \\gamma , \\beta} \\varepsilon_ {\\max, i} ^ {\\prime \\prime} \\cdot \\sec h (m _ {i} \\cdot x) \\quad \\text { with } \\\\ \\mathbf {x} = \\frac {E _ {\\mathrm{a} , i}}{\\mathrm{R}} \\left(\\frac {1}{T} - \\frac {1}{T _ {\\max , i}}\\right) \\end{array}\\tag{1}\n$$",
+      "equation_kind": "display",
+      "section": "Dielectric Measurements"
+    },
+    {
+      "block_id": "P_4_55",
+      "page_id": 4,
+      "block_index": 55,
+      "element_type": "text",
+      "bbox": [
+        104,
+        803,
+        498,
+        910
+      ],
+      "alignment_status": "matched",
+      "text": "where $m _ { i }$is an empirical parameter lying in the interval $0 < m \\le 1 , T _ { \\mathrm { m a x } }$the temperature associated with the maximum of the isochrones at the frequency $f ,$and $E _ { \\mathrm { a } , i }$the activation energy of the relaxation processes. The parameter m is related to the relaxation time distribution in such a way that the higher $m _ { : }$, the narrower the distribution is, being $m = 1$for Debye type relaxation. The function was determined from a multiple nonlinear regression analysis of the experimental data, allowing the three characterizing peak parameters $( \\varepsilon _ { \\mathrm { m a x } , i } ^ { \\prime \\prime } , \\bar { m _ { i } } E _ { \\mathrm { a } , i } \\big / R , T _ { \\mathrm { m a x } , i } )$to vary. Table 1 compiles the fitting parameters obtained, the corresponding values of $m _ { i } ,$and the strength of the two relaxations obtained from the relationship,<sup>31</sup> $\\begin{array} { r } { \\varepsilon _ { \\mathrm { ~ } \\mathrm { ~ m a x } , i } ^ { \\prime \\prime } = \\frac { m _ { i } \\cdot \\Delta \\varepsilon _ { i } } { 2 } } \\end{array}$. The errors for each one of the fitting parameters show the quality of the fit. As an example, Figure 4 shows the c- and b-relaxations that result from the application of the multiple nonlinear regression analysis to the loss factor versus temperature at 10.3 Hz. The sum of the two calculated relaxations is very close to that in the experimental curve.",
+      "merged_source_block_ids": [
+        "P_4_55",
+        "V2_4_3_1",
+        "V2_4_3_3",
+        "V2_4_3_5",
+        "V2_4_3_7",
+        "V2_4_3_9",
+        "V2_4_3_11",
+        "V2_4_3_13",
+        "V2_4_3_15",
+        "V2_4_3_17"
+      ],
+      "section": "Dielectric Measurements"
+    },
+    {
+      "block_id": "P_4_56",
+      "page_id": 4,
+      "block_index": 56,
+      "element_type": "text",
+      "bbox": [
+        526,
+        487,
+        922,
+        728
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "Dielectric Measurements"
+    },
+    {
+      "block_id": "P_4_57",
+      "page_id": 4,
+      "block_index": 57,
+      "element_type": "text",
+      "bbox": [
+        526,
+        727,
+        922,
+        911
+      ],
+      "alignment_status": "matched",
+      "text": "The evolutions of the frequency of the maxima show a linear dependency with the inverse temperature according to the expectations (see Fig. 3). The activation energies calculated from the Arrhenius plot for each process were $6 8 . 2 \\pm 0 . 6 \\mathrm { k J } \\mathrm { m o l } ^ { - 1 }$for $\\beta -$relaxation and 48.0 6 0.3 kJ $\\mathrm { m o l ^ { - 1 } }$for c-relaxation. These values are very close to those found for polymers structurally related to P4THPMA such as $\\mathrm { P C H M A } , ^ { 2 }$PMCHMA,<sup>6</sup> poly(2chloro cyclohexyl methacrylate),<sup>9</sup> and PDMA<sup>10</sup> (70–82 and 41–50 kJ $\\mathrm { m o l ^ { - 1 } } )$. The $m _ { \\gamma }$and $m _ { \\beta }$parameters do not show a noticeable dependence on the frequency. The low values obtained for this parameter, in the case of the b-relaxation, seem to be an indication of the distributed character of the process.",
+      "merged_source_block_ids": [
+        "P_4_57",
+        "V2_4_5_1",
+        "V2_4_5_3",
+        "V2_4_5_5",
+        "V2_4_5_7",
+        "V2_4_5_9",
+        "V2_4_5_11",
+        "V2_4_5_13"
+      ],
+      "section": "Dielectric Measurements"
+    },
+    {
+      "block_id": "P_5_61",
+      "page_id": 5,
+      "block_index": 61,
+      "element_type": "text",
+      "bbox": [
+        104,
+        90,
+        498,
+        137
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "Dielectric Measurements"
+    },
+    {
+      "block_id": "P_5_62",
+      "page_id": 5,
+      "block_index": 62,
+      "element_type": "text",
+      "bbox": [
+        102,
+        136,
+        498,
+        334
+      ],
+      "alignment_status": "matched",
+      "text": "It is convenient to remember that the c-relaxation in polymers containing cyclohexyl groups was assigned to the change in the conformation chair-to inverse chair in the cyclohexyl group.<sup>1,2,6,9,10</sup> On the other hand, the b-relaxation in PMMA is attributed by several authors<sup>22,23</sup> to the partial rotation of the ester lateral group as a whole coupled with some type of motions of the main chain. By using 2D-NRM measurements, Spiess and coworkers 32 have concluded that for PMMA and PEMA, the unusual main chain mobility below $T _ { \\mathrm { g } }$is coupled to the b-relaxation process, which involves $1 8 0 ^ { \\circ }$flips of the carboxyl side groups.",
+      "merged_source_block_ids": [
+        "P_5_62",
+        "V2_5_1_1",
+        "V2_5_1_3"
+      ],
+      "section": "Dielectric Measurements"
+    },
+    {
+      "block_id": "P_5_63",
+      "page_id": 5,
+      "block_index": 63,
+      "element_type": "text",
+      "bbox": [
+        104,
+        333,
+        496,
+        425
+      ],
+      "alignment_status": "matched",
+      "text": "As usual, the relaxation strength ofthe subglass processes increases as the frequency decreases. The relaxation strength of c-relaxation in P4THPMA is close to the corresponding to PCHM $\\mathbf { A } ^ { 2 } \\left( \\Delta \\varepsilon _ { \\gamma } \\sim 0 . 0 5 \\right)$and significantly lower than that of the corresponding to $\\mathrm { P D M A } ^ { 1 0 } \\left( \\Delta \\varepsilon _ { \\gamma } \\sim 0 . 9 \\right)$",
+      "merged_source_block_ids": [
+        "P_5_63",
+        "V2_5_2_1",
+        "V2_5_2_3"
+      ],
+      "section": "Dielectric Measurements"
+    },
+    {
+      "block_id": "P_5_64",
+      "page_id": 5,
+      "block_index": 64,
+      "element_type": "text",
+      "bbox": [
+        104,
+        424,
+        498,
+        545
+      ],
+      "alignment_status": "matched",
+      "text": "As can be seen in Figure 2, at high temperatures and low frequencies, the a-relaxation is contaminated by conductivity contributions (combination ofionic conduction and interfacial polarization of electrodes), which are observed through the continuous increase of the loss permittivity. This phenomenon suggests that conductivity contributions are dominant over dipolar processes in this zone.",
+      "section": "Dielectric Measurements"
+    },
+    {
+      "block_id": "P_5_65",
+      "page_id": 5,
+      "block_index": 65,
+      "element_type": "text",
+      "bbox": [
+        104,
+        545,
+        498,
+        607
+      ],
+      "alignment_status": "matched",
+      "text": "In this case, owing to the asymmetric character of the relaxation associated with the glass transition temperature, the empirical Havriliak–Negami model (HN)<sup>33</sup> was used.",
+      "section": "Dielectric Measurements"
+    },
+    {
+      "block_id": "E_5_66",
+      "page_id": 5,
+      "block_index": 66,
+      "element_type": "equation",
+      "bbox": [
+        175,
+        616,
+        430,
+        648
+      ],
+      "alignment_status": "matched",
+      "text": "$$\n\\frac {\\varepsilon^ {*} (\\omega) - \\varepsilon_ {\\infty}}{\\varepsilon_ {0} - \\varepsilon_ {\\infty}} = [ 1 + (i \\omega \\tau_ {0}) ^ {\\mu} ] ^ {- \\nu}\\tag{2}\n$$",
+      "equation_kind": "display",
+      "section": "Dielectric Measurements"
+    },
+    {
+      "block_id": "P_5_67",
+      "page_id": 5,
+      "block_index": 67,
+      "element_type": "text",
+      "bbox": [
+        104,
+        656,
+        496,
+        732
+      ],
+      "alignment_status": "matched",
+      "text": "where $\\varepsilon _ { \\infty }$is the relaxed permittivity, $\\varepsilon _ { 0 }$is the unrelaxed permittivity, the parameters $\\mu$and $\\nu [ 0 < \\mu ,$$\\mu \\nu \\leq 1 ]$define the symmetrical and asymmetrical broadening of the loss peak, respectively, and $\\tau _ { 0 }$is the characteristic relaxation time.",
+      "merged_source_block_ids": [
+        "P_5_67",
+        "V2_5_6_1",
+        "V2_5_6_3",
+        "V2_5_6_5",
+        "V2_5_6_7",
+        "V2_5_6_8",
+        "V2_5_6_10"
+      ],
+      "section": "Dielectric Measurements"
+    },
+    {
+      "block_id": "P_5_68",
+      "page_id": 5,
+      "block_index": 68,
+      "element_type": "text",
+      "bbox": [
+        104,
+        731,
+        498,
+        787
+      ],
+      "alignment_status": "matched",
+      "text": "To take into account the conductive and other nondipolar contributions to the dielectric loss factor the term $\\begin{array} { r } { \\left( \\frac { A } { \\varepsilon _ { \\mathrm { v a c } } \\cdot \\omega } \\right) ^ { s } } \\end{array}$should be added to eq 2 to give",
+      "merged_source_block_ids": [
+        "P_5_68",
+        "V2_5_7_1"
+      ],
+      "section": "Dielectric Measurements"
+    },
+    {
+      "block_id": "E_5_69",
+      "page_id": 5,
+      "block_index": 69,
+      "element_type": "equation",
+      "bbox": [
+        102,
+        794,
+        452,
+        864
+      ],
+      "alignment_status": "matched",
+      "text": "$$\n\\begin{array}{r l} \\varepsilon^ {\\prime \\prime} (\\omega) = & \\mathrm{Im} \\bigg [ \\varepsilon_ {\\infty} + \\frac {(\\varepsilon_ {0} - \\varepsilon_ {\\infty})}{[ 1 + (i \\cdot \\omega \\cdot \\tau_ {0}) ^ {\\mu} ] ^ {v}} \\\\ & \\qquad + \\left(\\frac {A}{i \\cdot \\omega \\cdot \\varepsilon_ {\\mathrm{vac}}}\\right) ^ {s} \\bigg ] \\end{array}\\tag{3}\n$$",
+      "equation_kind": "display",
+      "section": "Dielectric Measurements"
+    },
+    {
+      "block_id": "P_5_70",
+      "page_id": 5,
+      "block_index": 70,
+      "element_type": "text",
+      "bbox": [
+        104,
+        876,
+        496,
+        909
+      ],
+      "alignment_status": "matched",
+      "text": "where A is a constant, $s \\leq 1$, and $\\varepsilon _ { \\mathrm { v a c } }$is the vacuum permittivity (8.854 pF m-<sup>1</sup>).",
+      "merged_source_block_ids": [
+        "P_5_70",
+        "V2_5_9_1",
+        "V2_5_9_3"
+      ],
+      "section": "Dielectric Measurements"
+    },
+    {
+      "block_id": "P_5_71",
+      "page_id": 5,
+      "block_index": 71,
+      "element_type": "text",
+      "bbox": [
+        526,
+        92,
+        922,
+        273
+      ],
+      "alignment_status": "matched",
+      "text": "The values of the HN parameters together with those corresponding to the conductivity contributions obtained at several temperatures are summarized in Table 2. The quality of the fit is shown in the error values of the fit parameters. The conductivity and HN parameters for P4THPMA are of the same order of magnitude as those obtained for other related polymers.<sup>2,6,10</sup> The values of the s parameter are considerably lower than the unit ( 0.75). This suggests that not only ionic conductivity is present in our samples, but also other phenomena such as electrode polarization.",
+      "section": "Dielectric Measurements"
+    },
+    {
+      "block_id": "P_5_72",
+      "page_id": 5,
+      "block_index": 72,
+      "element_type": "text",
+      "bbox": [
+        526,
+        273,
+        922,
+        441
+      ],
+      "alignment_status": "matched",
+      "text": "The values compiled in Table 2 indicate that, as usual, the relaxation strength of the a-process slightly decreases when the temperature increases. The values obtained for this parameter were higher than that corresponding to PCHMA<sup>2</sup> and poly(2-, 3-, and 4-methylcyclohexyl methacrylate)s (PMCHMA),<sup>6</sup> suggesting that the mean square dipole moment ofthe polymer under study is higher than that ofPCHMA and PMCHMA. The substitution of one carbon for one more polar group such as oxygen could be responsible of such an effect.",
+      "section": "Dielectric Measurements"
+    },
+    {
+      "block_id": "P_5_73",
+      "page_id": 5,
+      "block_index": 73,
+      "element_type": "text",
+      "bbox": [
+        526,
+        440,
+        922,
+        502
+      ],
+      "alignment_status": "matched",
+      "text": "The temperature dependence ofthe a-relaxation was analyzed in the context of the free volume theory by means of the Vogel–Fulcher Tamman– Hesse (VFTH) equation,<sup>34</sup>",
+      "section": "Dielectric Measurements"
+    },
+    {
+      "block_id": "E_5_74",
+      "page_id": 5,
+      "block_index": 74,
+      "element_type": "equation",
+      "bbox": [
+        626,
+        512,
+        824,
+        546
+      ],
+      "alignment_status": "matched",
+      "text": "$$\n\\ln f _ {\\max} = C - \\frac {M}{T - T _ {\\infty}}\\tag{4}\n$$",
+      "equation_kind": "display",
+      "section": "Dielectric Measurements"
+    },
+    {
+      "block_id": "P_5_75",
+      "page_id": 5,
+      "block_index": 75,
+      "element_type": "text",
+      "bbox": [
+        526,
+        558,
+        920,
+        619
+      ],
+      "alignment_status": "matched",
+      "text": "where C and M are constants. In this equation $T _ { \\infty }$is the Vogel temperature, and $f _ { \\mathrm { m a x } }$is the frequency at which $\\varepsilon ^ { \\prime \\prime }$passes through the maximum evaluated $\\mathrm { { a s ^ { 3 5 } } }$",
+      "merged_source_block_ids": [
+        "P_5_75",
+        "V2_5_14_1",
+        "V2_5_14_3",
+        "V2_5_14_5",
+        "V2_5_14_7"
+      ],
+      "section": "Dielectric Measurements"
+    },
+    {
+      "block_id": "E_5_76",
+      "page_id": 5,
+      "block_index": 76,
+      "element_type": "equation",
+      "bbox": [
+        621,
+        628,
+        826,
+        690
+      ],
+      "alignment_status": "matched",
+      "text": "$$\nf _ {\\max} = f _ {0} \\left[ \\frac {\\sin \\frac {\\pi \\mu}{2 (1 + v)}}{\\sin \\frac {\\pi \\mu v}{2 (1 + v)}} \\right] ^ {\\frac {1}{v}}\\tag{5}\n$$",
+      "equation_kind": "display",
+      "section": "Dielectric Measurements"
+    },
+    {
+      "block_id": "P_5_77",
+      "page_id": 5,
+      "block_index": 77,
+      "element_type": "text",
+      "bbox": [
+        528,
+        700,
+        920,
+        747
+      ],
+      "alignment_status": "matched",
+      "text": "The parameters obtained in our fit were C $= ( - 1 3 . 2 \\pm 0 . 2 ) , M = ( - 1 1 3 0 \\pm 4 0 ) \\mathrm { ~ K ~ }$, and $T _ { \\infty }$$= ( 3 4 2 . 0 \\pm 2 . 3 ) \\mathrm { K } .$",
+      "merged_source_block_ids": [
+        "P_5_77",
+        "V2_5_16_1",
+        "V2_5_16_3",
+        "V2_5_16_4"
+      ],
+      "section": "Dielectric Measurements"
+    },
+    {
+      "block_id": "P_5_78",
+      "page_id": 5,
+      "block_index": 78,
+      "element_type": "text",
+      "bbox": [
+        528,
+        747,
+        920,
+        779
+      ],
+      "alignment_status": "matched",
+      "text": "The comparison of VFTH equation with the Doolittle equation<sup>36</sup> yields",
+      "section": "Dielectric Measurements"
+    },
+    {
+      "block_id": "E_5_79",
+      "page_id": 5,
+      "block_index": 79,
+      "element_type": "equation",
+      "bbox": [
+        664,
+        789,
+        784,
+        821
+      ],
+      "alignment_status": "matched",
+      "text": "$$\n\\frac {\\phi}{B} = \\frac {T - T _ {\\infty}}{M}\\tag{6}\n$$",
+      "equation_kind": "display",
+      "section": "Dielectric Measurements"
+    },
+    {
+      "block_id": "P_5_80",
+      "page_id": 5,
+      "block_index": 80,
+      "element_type": "text",
+      "bbox": [
+        526,
+        833,
+        922,
+        910
+      ],
+      "alignment_status": "matched",
+      "text": "This equation relates the free volume in the Doolittle equation, with the values of M in eq 4. Then, from the values of M, the relative free volume at $T _ { \\mathrm { g } } , \\left( \\phi _ { \\mathrm { g } } / B \\right)$, can be obtained. The temperature dependence of the a-relaxation with the frequency is shown in Figure 3. The obtained value for the free volume is 3.1%. This value is lower than those reported for other related polymers, i.e., P2MCHMA ( 3.6%), P3MCHMA ( 4.0%), P4MCHMA ( 5.0%), and PDMA $( \\sim 4 . 4 \\% ) ^ { 6 , 1 0 }$and close to that obtained for PCHMA $( \\sim 3 \\% ) ^ { 2 }$but somewhat higher than that predicted by the free volume theory (2.5%).<sup>37</sup> These facts are probably due to the bulkiness of the side chain groups, which is higher for P2MCHMA, P3MCHMA, P4MCHMA, and PDMA in comparison with that ofPCHMA and P4THPMA.",
+      "merged_source_block_ids": [
+        "P_5_80",
+        "V2_5_19_1",
+        "V2_5_19_3",
+        "V2_5_19_5"
+      ],
+      "section": "Dielectric Measurements"
+    },
+    {
+      "block_id": "F_5_83",
+      "page_id": 5,
+      "block_index": 83,
+      "element_type": "footnote",
+      "bbox": [
+        557,
+        915,
+        922,
+        941
+      ],
+      "alignment_status": "matched",
+      "text": "Journal ofPolymer Science: Part B: Polymer Physics DOI 10.1002/polb",
+      "section": "Dielectric Measurements"
+    },
+    {
+      "block_id": "T_6_84",
+      "page_id": 6,
+      "block_index": 84,
+      "element_type": "table",
+      "bbox": [
+        178,
+        90,
+        442,
+        907
+      ],
+      "alignment_status": "matched",
+      "caption": "Table2.Havriliak-NegamiFitParametersfromthee@(x)atDifferentTemperaturesfora-Relaxation Journal of Polymer Science: Part B: Polymer Physics DOI 10.1002/polb",
+      "table_body": "<table><tr><td>T (K)</td><td>σ [S/cm]</td><td>s</td><td>τmax [s]</td><td>Δε</td><td>τ [s]</td><td>μ</td><td>ν</td></tr><tr><td>448</td><td>4.003 × 10-13± 1.2 × 10-14</td><td>0.750 ± 0.028</td><td>0.00144</td><td>3.273 ± 0.045</td><td>0.00856 ± 9.4 × 10-4</td><td>0.76 ± 0.05</td><td>0.2605 ± 0.027</td></tr><tr><td>453</td><td>7.58 × 10-13± 1.5 × 10-14</td><td>0.749 ± 0.017</td><td>5.1 × 10-4</td><td>3.239 ± 0.044</td><td>0.00342 ± 4.7 × 10-4</td><td>0.75 ± 0.04</td><td>0.259 ± 0.027</td></tr><tr><td>458</td><td>1.389 × 10-12± 2.3 × 10-14</td><td>0.7495 ± 0.012</td><td>2.03 × 10-4</td><td>3.238 ± 0.036</td><td>0.00118 ± 1.7 × 10-5</td><td>0.73 ± 0.03</td><td>0.280 ± 0.005</td></tr><tr><td>463</td><td>2.444 × 10-12± 1.8 × 10-14</td><td>0.748 ± 0.006</td><td>9.63 × 10-5</td><td>3.22 ± 0.024</td><td>4.389 × 10-4± 3.9 × 10-5</td><td>0.70 ± 0.01</td><td>0.292 ± 0.015</td></tr><tr><td>468</td><td>4.17 × 10-12± 8.6 × 10-14</td><td>0.747 ± 0.007</td><td>4.13 × 10-5</td><td>3.2 ± 0.048</td><td>1.98 × 10-4± 2 × 10-5</td><td>0.672 ± 0.027</td><td>0.317 ± 0.071</td></tr><tr><td>473</td><td>6.84 × 10-12± 9.3 × 10-14</td><td>0.749 ± 0.004</td><td>1.86 × 10-5</td><td>3.18 ± 0.071</td><td>8.54 × 10-5± 1 × 10-5</td><td>0.647 ± 0.020</td><td>0.342 ± 0.058</td></tr><tr><td>478</td><td>1.09 × 10-11± 1.6 × 10-13</td><td>0.749 ± 0.004</td><td>8.96 × 10-6</td><td>3.14 ± 0.034</td><td>3.92 × 10-5± 4.2 × 10-6</td><td>0.629 ± 0.018</td><td>0.365 ± 0.025</td></tr><tr><td>483</td><td>1.68 × 10-11± 2.5 × 10-13</td><td>0.748 ± 0.004</td><td>4.57 × 10-6</td><td>3.11 ± 0.047</td><td>1.88 × 10-5± 2.6 × 10-6</td><td>0.615 ± 0.019</td><td>0.391 ± 0.033</td></tr><tr><td>488</td><td>2.56 × 10-11± 4 × 10-13</td><td>0.747 ± 0.003</td><td>2.43 × 10-6</td><td>3.07 ± 0.066</td><td>9.3 × 10-6± 1.6 × 10-6</td><td>0.603 ± 0.02</td><td>0.418 ± 0.045</td></tr><tr><td>493</td><td>3.8 × 10-11± 6.2 × 10-13</td><td>0.745 ± 0.003</td><td>1.34 × 10-6</td><td>3.00 ± 0.091</td><td>4.5310-6± 1 × 10-6</td><td>0.591 ± 0.022</td><td>0.460 ± 0.065</td></tr><tr><td>498</td><td>5.56 × 10-11± 9.5 × 10-13</td><td>0.744 ± 0.003</td><td>7.72 × 10-7</td><td>2.93 ± 0.13</td><td>2.3110-6± 7 × 10-7</td><td>0.582 ± 0.024</td><td>0.505 ± 0.094</td></tr></table>",
+      "image_path": "organized/reference_no_0037886/images/5aedc6bbad95c285e18c978cca0661bd085f7c35dd5987492fcb57bf4701d9fb.jpg"
+    },
+    {
+      "block_id": "P_6_85",
+      "page_id": 6,
+      "block_index": 85,
+      "element_type": "text",
+      "bbox": [
+        526,
+        90,
+        922,
+        258
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "Dielectric Measurements"
+    },
+    {
+      "block_id": "P_6_86",
+      "page_id": 6,
+      "block_index": 86,
+      "element_type": "title",
+      "bbox": [
+        528,
+        289,
+        735,
+        305
+      ],
+      "alignment_status": "matched",
+      "text": "Molecular Mechanics Study",
+      "title_level": 2,
+      "section": "Molecular Mechanics Study"
+    },
+    {
+      "block_id": "P_6_87",
+      "page_id": 6,
+      "block_index": 87,
+      "element_type": "text",
+      "bbox": [
+        528,
+        311,
+        922,
+        494
+      ],
+      "alignment_status": "matched",
+      "text": "Molecular simulation techniques allow us to provide an explanation of the molecular origin of the observed secondary relaxations. In this way, we will now make a tentative interpretation ofthe molecular origin of the observed secondary relaxations. To elucidate the specific motions responsible of the observed secondary relaxations, we have calculated and compared the conformational energy barriers with the activation energies obtained from dielectric measurements. The optimized geometry of the one-unit model compound of P4THPMA calculated by force field MMX is represented in Figure 5.",
+      "section": "Molecular Mechanics Study"
+    },
+    {
+      "block_id": "P_6_88",
+      "page_id": 6,
+      "block_index": 88,
+      "element_type": "text",
+      "bbox": [
+        528,
+        493,
+        922,
+        678
+      ],
+      "alignment_status": "matched",
+      "text": "The activation energy obtained by dielectric measurements for d-process is 28 kJ mol-<sup>1</sup>. This value is close to that obtained for PCHMA.<sup>2</sup> Therefore, the molecular origin of both relaxation processes should be related. This relaxation is presented in cyclohexyl compounds at temperatures below the c-relaxation and, several authors<sup>1</sup> have related this relaxation to the motions of cyclohexyl group as a whole. To interpret the molecular motions responsible for d-transition, the calculations were confined to the rotation of the cyclohexyl ring around the O C bonds.",
+      "section": "Molecular Mechanics Study"
+    },
+    {
+      "block_id": "I_6_89",
+      "page_id": 6,
+      "block_index": 89,
+      "element_type": "image",
+      "bbox": [
+        531,
+        691,
+        915,
+        843
+      ],
+      "alignment_status": "matched",
+      "image_kind": "image",
+      "caption": "Figure 5. Optimized conformational geometry of the repeating unit of P4THPMA. [Color figure can be viewed in the online issue, which is available at www.interscience. wiley.com.]",
+      "image_path": "organized/reference_no_0037886/images/6e653e1679ea80eadd998f5171f9b12dfed85b441dbbafae0cf40a08129c62a8.jpg"
+    },
+    {
+      "block_id": "I_7_92",
+      "page_id": 7,
+      "block_index": 92,
+      "element_type": "image",
+      "bbox": [
+        210,
+        90,
+        816,
+        436
+      ],
+      "alignment_status": "matched",
+      "image_kind": "chart",
+      "caption": "Figure 6. Potential energy (kJ mol-<sup>1</sup>) profile for rotation ofO C bond for $( \\phi _ { 1 } ; - 1 8 0 ^ { \\circ }$ to 1808) for one-unit model compounds of( ) PCHMA, ( ) P4THPMA and ( ) PDMA.",
+      "image_path": "organized/reference_no_0037886/images/f6de9c25048e2110122736cd4ed4705c76be6e3fb6f0cda0a7f215b2dbaa1097.jpg"
+    },
+    {
+      "block_id": "P_7_93",
+      "page_id": 7,
+      "block_index": 93,
+      "element_type": "text",
+      "bbox": [
+        104,
+        500,
+        498,
+        637
+      ],
+      "alignment_status": "matched",
+      "text": "Figure 6 shows the potential energy profiles obtained for the rotation of the O C bond. In this calculation the specified dihedral angle $( \\phi _ { 1 } )$is constrained to certain desired values (in the range 1808 and 1808, step 58) and the remaining parts of the molecule are allowed to move freely to minimize the energy. An energy barrier of 31 kJ $\\mathrm { m o l ^ { - 1 } }$was obtained. This value is close to that evaluated from dielectric measurements $( { \\sim } 2 8 \\mathrm { k J } \\mathrm { m o l } ^ { - 1 } )$",
+      "merged_source_block_ids": [
+        "P_7_93",
+        "V2_7_1_1",
+        "V2_7_1_3",
+        "V2_7_1_5"
+      ],
+      "section": "Molecular Mechanics Study"
+    },
+    {
+      "block_id": "P_7_94",
+      "page_id": 7,
+      "block_index": 94,
+      "element_type": "text",
+      "bbox": [
+        102,
+        636,
+        500,
+        911
+      ],
+      "alignment_status": "matched",
+      "text": "The following relaxation observed moving to higher temperatures, is designated as the c-process. According to our study recently reported in related polymers,<sup>7</sup> we start assuming that the observed c-relaxation is mainly associated with the barrier hindering the chair-to-chair interconversion of the cyclohexyl group. It is known that the chair-to-chair interconversion is a complex process produced by successive conformational changes within the molecule. When an isolated cyclohexyl ring undergoes internal rotations, the chair-to-chair transition in the cyclohexyl ring follows the sequence given by chair ? half-chair ? boat ? half-chair ? chair. The half-chair form is not stable because the hydrogen atoms at the foot are eclipsed with those on the adjacent carbons, and because of this fact, there is some angular strain. These angular strains occur because the molecule is nearly planar and are destabilized by torsional strain. When the cyclohexyl ring is bounded to the polymer chain, the motion is something different to that before mentioned. In this case, the motion that produces the transition from one chair form to another fixes the oxycarbonyl group to the main chain and therefore this group remains nearly in the same position above and after the chair-to-chair transition.",
+      "section": "Molecular Mechanics Study"
+    },
+    {
+      "block_id": "P_7_95",
+      "page_id": 7,
+      "block_index": 95,
+      "element_type": "text",
+      "bbox": [
+        526,
+        498,
+        922,
+        635
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "Molecular Mechanics Study"
+    },
+    {
+      "block_id": "P_7_96",
+      "page_id": 7,
+      "block_index": 96,
+      "element_type": "text",
+      "bbox": [
+        526,
+        635,
+        922,
+        848
+      ],
+      "alignment_status": "matched",
+      "text": "Table 3 summarizes the energetic contributions, the energy barrier and shows a scheme of the chair-to-chair transition. The energy barrier was calculated as the difference between the energy of the less favorable conformation (the half-chair) and the more stable conformation (chair). The energy barrier obtained with a simple model compound of one unit (46.1 kJ $\\mathrm { m o l } ^ { - 1 } )$is close to that evaluated by dielectric measurements (48.0 kJ mol-<sup>1</sup>). Thus, the MM calculations strongly support the idea of an intramolecular barrier for the crelaxation associated with the chair-to-chair interconversion of the cyclohexyl ring at the end of the side chain.",
+      "merged_source_block_ids": [
+        "P_7_96",
+        "V2_7_4_1"
+      ],
+      "section": "Molecular Mechanics Study"
+    },
+    {
+      "block_id": "P_7_97",
+      "page_id": 7,
+      "block_index": 97,
+      "element_type": "text",
+      "bbox": [
+        526,
+        848,
+        922,
+        910
+      ],
+      "alignment_status": "matched",
+      "text": "To have a better understanding of the effect of the presence of the oxygen in the cyclohexyl ring, we have carried out a comparative analysis of the last two processes (d and c), for P4THPMA and the two structurally related polymers, PCHMA and PDMA (see Fig. 1). Figure 6 shows the minimum static conformational energy (in kJ $\\mathrm { m o l } ^ { - 1 } )$as a function of the torsional angle of the lateral unit $( \\phi _ { 1 } )$for the three polymers under study. Rotations show a specific energy profile, which depends on the local environment of each group. In all the cases, the shape of the obtained energy profiles is very similar, but the energy barriers are not the same. Their value is higher when the number of oxygen atoms in the cyclohexyl ring is lower: 34 (PCHMA), 31 (P4THPMA), and 27 (PDMA) kJ mol-<sup>1</sup>.",
+      "merged_source_block_ids": [
+        "P_7_97",
+        "V2_7_5_1",
+        "V2_7_5_3"
+      ],
+      "section": "Molecular Mechanics Study"
+    },
+    {
+      "block_id": "T_8_101",
+      "page_id": 8,
+      "block_index": 101,
+      "element_type": "table",
+      "bbox": [
+        104,
+        137,
+        920,
+        443
+      ],
+      "alignment_status": "matched",
+      "caption": "Table 3. Summary ofEnergy Contributions (kJ $\\mathbf { m o l } ^ { - 1 } )$ , Dipolar Moment (D), and Energy Barrier (kJ $\\mathbf { m o l } ^ { - 1 } )$ Calculated by MMX for the Chair-to-Chair Interconversion of P4THPMA [Color figure can be viewed in the online issue, which is available at www.interscience.wiley.com.] MMX (energy of optimized geometry); Str (Stretching contribution); Bnd (Bond contribution); OOP (out-of-plane contribution); StrBnd (Bond stretching-angle bending contribution); Tor (Torsion contribution); VDW (van der Waals contribution); DPDP (electrostatic contribution); HF (Heat ofFormation); SE (Strain Energy); l (dipole moment).",
+      "table_body": "<table><tr><td colspan=\"5\"><img src=\"images/874d977c1030c2f76c77d69eff583e193d95e86c24d786d3e4221b044dfdcf43.jpg\"/></td><td>Energy Barrier (kJ.mol-1)</td></tr><tr><td>MMX</td><td>33.348</td><td>53.517</td><td>79.462</td><td>34.514</td><td>46.114</td></tr><tr><td>Str</td><td>2.613</td><td>2.842</td><td>2.328</td><td>2.587</td><td></td></tr><tr><td>Bnd</td><td>13.322</td><td>14.057</td><td>41.976</td><td>13.046</td><td></td></tr><tr><td>OOP</td><td>0.004</td><td>0.000</td><td>0.000</td><td>0.000</td><td></td></tr><tr><td>StrBnd</td><td>1.170</td><td>1.279</td><td>1.509</td><td>1.154</td><td></td></tr><tr><td>Tor</td><td>7.102</td><td>19.169</td><td>21.686</td><td>5.952</td><td></td></tr><tr><td>VDW</td><td>20.235</td><td>26.852</td><td>22.505</td><td>22.317</td><td></td></tr><tr><td>DPDP</td><td>-11.056</td><td>-10.684</td><td>-10.366</td><td>-10.542</td><td></td></tr><tr><td>HF</td><td>-696.513</td><td>-676.324</td><td>-650.199</td><td>-695.343</td><td></td></tr><tr><td>SE</td><td>-25.080</td><td>-5.016</td><td>21.318</td><td>-23.826</td><td></td></tr><tr><td>μ</td><td>1.667</td><td>2.853</td><td>2.326</td><td>1.475</td><td></td></tr></table>",
+      "image_path": "organized/reference_no_0037886/images/66791ae3955e7b6b0c060dfc94d418a7352f31a198da4289faced4ba3cd9c135.jpg"
+    },
+    {
+      "block_id": "P_8_102",
+      "page_id": 8,
+      "block_index": 102,
+      "element_type": "text",
+      "bbox": [
+        102,
+        529,
+        498,
+        726
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "Molecular Mechanics Study"
+    },
+    {
+      "block_id": "P_8_103",
+      "page_id": 8,
+      "block_index": 103,
+      "element_type": "text",
+      "bbox": [
+        102,
+        726,
+        498,
+        910
+      ],
+      "alignment_status": "matched",
+      "text": "The activation energy of the c-relaxation obtained from the Arrhenius plot (Fig. 3) is scarcely affected by the oxygen substitution in the ring. In fact, the activation energy for the c-process of the dioxo-derivatives (PDMA, 43.8 kJ mol-<sup>1</sup>) is close to that obtained for the hydrocarbon ring (PCHMA, 43.1 kJ $\\mathrm { m o l } ^ { - 1 } )$and, somewhat smaller than that evaluated for the mono-oxo-derivative (P4THPMA, 48.0 kJ $\\mathrm { m o l } ^ { - 1 } )$The main effect observed in the c-process refers to the height of the peaks. In fact, PDMA shows a c-peak about 10 times higher than that ofPCHMA and P4THPMA.",
+      "merged_source_block_ids": [
+        "P_8_103",
+        "V2_8_2_1",
+        "V2_8_2_3"
+      ],
+      "section": "Molecular Mechanics Study"
+    },
+    {
+      "block_id": "P_8_104",
+      "page_id": 8,
+      "block_index": 104,
+      "element_type": "text",
+      "bbox": [
+        526,
+        530,
+        922,
+        911
+      ],
+      "alignment_status": "matched",
+      "text": "Table 4 summarizes the parameters used to explain the differences observed in the c-relaxation zone when one, two, or no carbon atoms of the cyclohexyl ring are substituted by oxygen atoms. The energy barriers derived by Force Field MMX (43 (PCHMA), 46 (P4THPMA), and 44 (PDMA) kJ $\\mathrm { m o l } ^ { - 1 } )$are close to those obtained from dielectric relaxations measurements (43.1, 48, and 43.8 kJ $\\mathrm { m o l ^ { - 1 } }$, respectively). On the other hand, an interpretation of the relaxation strength of the $\\gamma { \\mathrm { - p e a k } } ^ { 3 1 }$for the three polymers under study has been carried out in terms of strain energy (SE) values. SE is defined as the difference between the steric energy of the molecule and the steric energy if all the components of the molecule were in a strainfree environment. In PDMA, due to the small values of SE in the intermediate state (half-chair), in comparison with the other two polymers, a higher fraction of the cyclohexyl ring should be able to participate in the motion provoking the c-relaxation. In other words, the low height of the c-peak in P4THPMA and PCHMA in comparison with that of PDMA could be explained by the blocking of the motion of part of the rings due to the less stable intermediate state in chair-to-chair transition when one or no carbon in the cyclohexyl group is substituted by an oxygen atom.",
+      "merged_source_block_ids": [
+        "P_8_104",
+        "V2_8_3_1",
+        "V2_8_3_3",
+        "V2_8_3_5"
+      ],
+      "section": "Molecular Mechanics Study"
+    },
+    {
+      "block_id": "T_9_108",
+      "page_id": 9,
+      "block_index": 108,
+      "element_type": "table",
+      "bbox": [
+        104,
+        125,
+        920,
+        344
+      ],
+      "alignment_status": "matched",
+      "caption": "Table 4. Summary of the Conformational Energy (MMX) (kJ $\\mathrm { m o l ^ { - 1 } } )$ and Strain Energy (SE) derived from FF-Optimized geometries, Corresponding to Chair-to-Chair Interconversion ofPCHMA, P4THPMA, and PDMA",
+      "table_body": "<table><tr><td></td><td>Chair</td><td>Boat</td><td>Half-Chair</td><td>Chair</td><td>Energy Barrier (kJ mol-1)</td></tr><tr><td colspan=\"6\">P4THPMA</td></tr><tr><td>MMX (kJ mol-1)</td><td>33.348</td><td>53.517</td><td>79.633</td><td>34.514</td><td>46.114</td></tr><tr><td>SE (kJ mol-1)</td><td>-25.080</td><td>-5.016</td><td>21.318</td><td>-23.826</td><td></td></tr><tr><td>μ (D)</td><td>1.667</td><td>2.853</td><td>2.326</td><td>1.475</td><td></td></tr><tr><td colspan=\"6\">PDMA</td></tr><tr><td>MMX (kJ mol-1)</td><td>31.655</td><td>53.333</td><td>80.164</td><td>35.133</td><td>43.769</td></tr><tr><td>SE (kJ mol-1)</td><td>-46.816</td><td>-25.080</td><td>1.672</td><td>-43.054</td><td></td></tr><tr><td>μ (D)</td><td>1.495</td><td>1.489</td><td>2.387</td><td>3.272</td><td></td></tr><tr><td colspan=\"6\">PCHMA</td></tr><tr><td>MMX (kJ mol-1)</td><td>41.495</td><td>63.9085</td><td>84.3315</td><td>41.9925</td><td>43.03</td></tr><tr><td>SE (kJ mol-1)</td><td>-5.434</td><td>17.138</td><td>37.620</td><td>-5.016</td><td></td></tr><tr><td>μ (D)</td><td>1.762</td><td>1.749</td><td>1.752</td><td>1.754</td><td></td></tr></table>",
+      "image_path": "organized/reference_no_0037886/images/fae12b842c76ac2909332bf3425f931e97567f5626bd11e8683c3be9ce38cb04.jpg"
+    },
+    {
+      "block_id": "P_9_109",
+      "page_id": 9,
+      "block_index": 109,
+      "element_type": "text",
+      "bbox": [
+        104,
+        378,
+        496,
+        409
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "Molecular Mechanics Study"
+    },
+    {
+      "block_id": "P_9_110",
+      "page_id": 9,
+      "block_index": 110,
+      "element_type": "text",
+      "bbox": [
+        102,
+        407,
+        498,
+        561
+      ],
+      "alignment_status": "matched",
+      "text": "Another important issue is the change in polarity due to the chair-to-chair interconversion (see Table 4). When two oxygen atoms are present in the cyclohexyl group, this change is larger than in the case when only one or no oxygen atom is present. A possible explanation of this phenomenon could be given in terms of the Onsager–Fro¨hlich– Kirkwood (OFK) equation. The relaxation strength of the secondary relaxations could be expressed in terms ofthe OFK equation<sup>38</sup>",
+      "section": "Molecular Mechanics Study"
+    },
+    {
+      "block_id": "E_9_111",
+      "page_id": 9,
+      "block_index": 111,
+      "element_type": "equation",
+      "bbox": [
+        173,
+        573,
+        429,
+        609
+      ],
+      "alignment_status": "matched",
+      "text": "$$\n\\Delta \\varepsilon \\gamma = \\frac {\\varepsilon_ {0} (\\varepsilon_ {\\infty} + 2) ^ {2}}{(2 \\varepsilon_ {0} + \\varepsilon_ {\\infty})} \\frac {4 \\pi N _ {\\mathrm{p}} \\mu_ {0} ^ {2}}{9 \\cdot k _ {\\mathrm{B}} \\cdot T} \\cdot g _ {\\gamma}\\tag{7}\n$$",
+      "equation_kind": "display",
+      "section": "Molecular Mechanics Study"
+    },
+    {
+      "block_id": "P_9_112",
+      "page_id": 9,
+      "block_index": 112,
+      "element_type": "text",
+      "bbox": [
+        102,
+        621,
+        498,
+        835
+      ],
+      "alignment_status": "matched",
+      "text": "where $\\mu _ { 0 } ^ { 2 }$is the uncorrelated mean-square dipolar moment and $g _ { \\gamma }$is a factor that accounts for the intramolecular and intermolecular correlations. According to this equation, the relaxation strength $( \\varepsilon _ { 0 \\alpha } \\mathrm { ~ - ~ } \\varepsilon _ { \\infty } )$is related to the reorientation of $N _ { \\mathbf { p } }$dipoles per volume unit over all spatial orientations. On the other hand, the correlation factor takes into account intra- as well as intermolecular interactions between dipoles. The term $N _ { \\mathrm { p } } \\ \\mu _ { 0 } ^ { 2 } \\ g _ { \\gamma }$in eq 7 depends on the dipolar reorientation of N identical molecules per volume unit, in which each individual i has an instantaneous conformation $\\zeta _ { i }$associated with a dipole moment $\\mu _ { i } ( \\zeta )$, and can be expressed as",
+      "merged_source_block_ids": [
+        "P_9_112",
+        "V2_9_4_1",
+        "V2_9_4_3",
+        "V2_9_4_5",
+        "V2_9_4_7",
+        "V2_9_4_9",
+        "V2_9_4_11",
+        "V2_9_4_13"
+      ],
+      "section": "Molecular Mechanics Study"
+    },
+    {
+      "block_id": "E_9_113",
+      "page_id": 9,
+      "block_index": 113,
+      "element_type": "equation",
+      "bbox": [
+        198,
+        847,
+        400,
+        867
+      ],
+      "alignment_status": "matched",
+      "text": "$$\nN _ {\\mathrm{p}} \\mu_ {0} ^ {2} g _ {\\gamma} = N \\langle \\mu_ {i} (\\zeta) \\cdot M ^ {*} \\rangle\\tag{8}\n$$",
+      "equation_kind": "display",
+      "section": "Molecular Mechanics Study"
+    },
+    {
+      "block_id": "P_9_114",
+      "page_id": 9,
+      "block_index": 114,
+      "element_type": "text",
+      "bbox": [
+        104,
+        878,
+        500,
+        910
+      ],
+      "alignment_status": "matched",
+      "text": "where $M ^ { * }$is the statistical mechanical average of $M ,$with $\\mu _ { i } ( \\zeta )$fixed, and M is the moment of a spherical region large enough to be treated macroscopically that contains $\\mu _ { i } ( \\zeta ) \\langle \\mu _ { i } ( \\zeta ) M ^ { * } \\rangle$is the statistical mechanical average of $\\mu _ { i } ( \\zeta ) M ^ { * }$over all configurations of $\\mu _ { i } ( \\zeta )$. The total moment M of the region is $M = \\textstyle \\sum _ { i } \\mu _ { i }$. Following Smith and $\\mathrm { B o y d } ^ { 3 9 }$procedure, we can decompose the total dipolar moment into intra and intermolecular terms as $M = \\mu _ { i } \\textstyle \\sum _ { j } \\mu _ { j }$, where i is a selected molecule with dipole moment $\\mu _ { i } ( \\zeta )$, and the sum runs over all other molecules, j. Then",
+      "merged_source_block_ids": [
+        "P_9_114",
+        "V2_9_6_1",
+        "V2_9_6_3",
+        "V2_9_6_5",
+        "V2_9_6_7",
+        "V2_9_6_9",
+        "V2_9_6_11",
+        "V2_9_6_13",
+        "V2_9_6_15",
+        "V2_9_6_17",
+        "V2_9_6_19"
+      ],
+      "section": "Molecular Mechanics Study"
+    },
+    {
+      "block_id": "P_9_115",
+      "page_id": 9,
+      "block_index": 115,
+      "element_type": "text",
+      "bbox": [
+        526,
+        378,
+        922,
+        530
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "Molecular Mechanics Study"
+    },
+    {
+      "block_id": "E_9_116",
+      "page_id": 9,
+      "block_index": 116,
+      "element_type": "equation",
+      "bbox": [
+        575,
+        539,
+        873,
+        573
+      ],
+      "alignment_status": "matched",
+      "text": "$$\n\\langle \\mu_ {i} (\\zeta) M ^ {*} \\rangle = \\left\\langle \\mu_ {i} (\\zeta) ^ {2} \\right\\rangle + \\sum_ {j} \\left\\langle \\mu_ {i} (\\zeta) \\mu_ {j} ^ {*} \\right\\rangle\\tag{9}\n$$",
+      "equation_kind": "display",
+      "section": "Molecular Mechanics Study"
+    },
+    {
+      "block_id": "P_9_117",
+      "page_id": 9,
+      "block_index": 117,
+      "element_type": "text",
+      "bbox": [
+        526,
+        584,
+        920,
+        614
+      ],
+      "alignment_status": "matched",
+      "text": "where $\\mu _ { j } ^ { * }$is the statistical mechanical average of $\\mu _ { j }$with $\\mu _ { i } ( \\dot { \\zeta } )$fixed.",
+      "merged_source_block_ids": [
+        "P_9_117",
+        "V2_9_9_1",
+        "V2_9_9_3",
+        "V2_9_9_5"
+      ],
+      "section": "Molecular Mechanics Study"
+    },
+    {
+      "block_id": "P_9_118",
+      "page_id": 9,
+      "block_index": 118,
+      "element_type": "text",
+      "bbox": [
+        526,
+        614,
+        922,
+        691
+      ],
+      "alignment_status": "matched",
+      "text": "Assuming that only intramolecular correlations take place, the macroscopic region associated with M is not permanently polarized, and the average total moment of all molecules is zero. Smith and Boyd propose to write<sup>39</sup>",
+      "section": "Molecular Mechanics Study"
+    },
+    {
+      "block_id": "E_9_119",
+      "page_id": 9,
+      "block_index": 119,
+      "element_type": "equation",
+      "bbox": [
+        547,
+        702,
+        868,
+        731
+      ],
+      "alignment_status": "matched",
+      "text": "$$\nN _ {\\mathrm{p}} \\mu_ {0} ^ {2} g _ {\\gamma} = N \\Big [ \\Big \\langle \\mu_ {i} (\\zeta) ^ {2} \\Big \\rangle - \\langle \\mu_ {i} (\\zeta) \\rangle \\langle \\mu_ {i} (\\zeta) \\rangle \\Big ]\\tag{10}\n$$",
+      "equation_kind": "display",
+      "section": "Molecular Mechanics Study"
+    },
+    {
+      "block_id": "P_9_120",
+      "page_id": 9,
+      "block_index": 120,
+      "element_type": "text",
+      "bbox": [
+        526,
+        741,
+        922,
+        910
+      ],
+      "alignment_status": "matched",
+      "text": "We can evaluate the value of $\\langle \\mu _ { i } ( \\zeta ) \\rangle$and $\\langle \\mu _ { i } ( \\zeta ) ^ { 2 } \\rangle$as the sum of the weighted dipole moment corresponding to the three more stable conformations in the chair-to-chair transition (two chairs and one boat). In this way, eqs 7 and 10 furnish an estimation of the number of molecules per volume unit involved in the c-process. Table 5 summarizes the calculations of the number of entities per volume unit (N) involved in the c-relaxation process, as well as the dipolar moment $( \\langle \\mu \\rangle )$, and quadratic dipolar moment $( \\langle \\mu ^ { 2 } \\rangle )$for PCHMA, P4THPMA, and PDMA. Our calculation shows that the ratio of molecules involved with respect to PCHMA is near to unity for P4THPMA and 9 for PDMA. Thus, the number of dipolar entities that participate in the c-relaxation is about 10 times higher in the case of PDMA than for the other two polymers. This fact is in good agreement with the experimental data that show that the relaxation strength is larger for the PDMA than for the PCHMA and P4THPMA.",
+      "merged_source_block_ids": [
+        "P_9_120",
+        "V2_9_12_1",
+        "V2_9_12_3",
+        "V2_9_12_5",
+        "V2_9_12_7"
+      ],
+      "section": "Molecular Mechanics Study"
+    },
+    {
+      "block_id": "F_9_123",
+      "page_id": 9,
+      "block_index": 123,
+      "element_type": "footnote",
+      "bbox": [
+        557,
+        915,
+        922,
+        941
+      ],
+      "alignment_status": "matched",
+      "text": "Journal ofPolymer Science: Part B: Polymer Physics DOI 10.1002/polb",
+      "section": "Molecular Mechanics Study"
+    },
+    {
+      "block_id": "T_10_124",
+      "page_id": 10,
+      "block_index": 124,
+      "element_type": "table",
+      "bbox": [
+        104,
+        122,
+        494,
+        258
+      ],
+      "alignment_status": "matched",
+      "caption": "Table 5. Parameters Used for the Evaluation ofNumber ofEntities Involved in the c-Relaxation",
+      "table_body": "<table><tr><td></td><td>PCHMA</td><td>P4THPMA</td><td>PDMA</td></tr><tr><td> $\\varepsilon_{\\infty}$ </td><td>2.32</td><td>2.23</td><td>3.3</td></tr><tr><td> $\\varepsilon_0$ </td><td>2.39</td><td>2.28</td><td>4.20</td></tr><tr><td> $\\Delta\\varepsilon$ </td><td>0.07</td><td>0.05</td><td>0.90</td></tr><tr><td> $\\langle\\mu\\rangle(D)$ </td><td>1.04</td><td>0.88</td><td>0.75</td></tr><tr><td> $\\langle\\mu^2\\rangle(D^2)$ </td><td>1.82</td><td>1.44</td><td>1.13</td></tr><tr><td> $N(10^{-11})(m^{-3})$ </td><td>3.42</td><td>2.89</td><td>30.09</td></tr><tr><td> $N/N_{PCHMA}$ </td><td>1</td><td>0.85</td><td>9.03</td></tr></table>",
+      "image_path": "organized/reference_no_0037886/images/2374388a3997f8c893a00a822d6a4c2f93ade7392332cfc375063c5216cf7047.jpg"
+    },
+    {
+      "block_id": "P_10_125",
+      "page_id": 10,
+      "block_index": 125,
+      "element_type": "text",
+      "bbox": [
+        104,
+        287,
+        498,
+        439
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "Molecular Mechanics Study"
+    },
+    {
+      "block_id": "P_10_126",
+      "page_id": 10,
+      "block_index": 126,
+      "element_type": "text",
+      "bbox": [
+        104,
+        440,
+        498,
+        698
+      ],
+      "alignment_status": "matched",
+      "text": "It is remarkable that the main conclusion of the precedent analysis is based on the hypothesis than c-relaxation is mainly governed by intramolecular barriers. However, this is not the situation for the case of the $\\beta \\mathrm { - r e l a x a t i o n . }$. In fact it is well known, in light of the recent theories, that the b-relaxation can be due to the local motions in the main chain. In this case the b-relaxation can be considered as a precursor of the a-relaxation and is labeled a Johari–Goldstein (JG) relaxation.<sup>40,41</sup> When the $\\beta \\mathfrak { - }$relaxation is caused by partial rotation of the side chain as a whole, in combination with motions of the main chain, contributions to the barrier due to the main chain cannot be ruled out. Consequently, in this case the energy barriers opposed to the molecular motion, probably have inter- as well as intramolecular origin.<sup>41</sup>",
+      "merged_source_block_ids": [
+        "P_10_126",
+        "V2_10_2_1",
+        "V2_10_2_3"
+      ],
+      "section": "Molecular Mechanics Study"
+    },
+    {
+      "block_id": "P_10_127",
+      "page_id": 10,
+      "block_index": 127,
+      "element_type": "text",
+      "bbox": [
+        104,
+        696,
+        500,
+        911
+      ],
+      "alignment_status": "matched",
+      "text": "For the b-relaxation, the activation energy obtained from dielectric analysis is close to that corresponding to PMMA, but the well-defined $\\beta \\mathfrak { - }$peak in PMMA is strongly depressed in P4THPMA (as in PCHMA) probably due to the effect of the bulky cyclohexyl group. As mentioned above, the b-relaxation in PMMA is attributed by several authors to the partial rotation of the ester lateral group as a whole coupled with some type of motions of the main chain.<sup>22,23,32</sup> According to these explanations, and taking into account the proximity of the ester group to the main chain, we have analyzed the energetic requirements by MM calculations using a three-unit model. By this way, it is possible to avoid the effect of the backbone on the rotation of the ester side group. In this threeunit model compound, we take into account the interactions between different side groups and presumably we should obtain more realistic results. Thus, the energy requirements for overall rotation $( \\phi _ { 2 } \\ : \\mathrm { f r o m } - 1 8 0 ^ { \\circ } \\ : \\mathrm { t o } + 1 8 0 ^ { \\circ } )$of the side chain as a whole, for the model compound with three units was 58 kJ $\\mathrm { m o l ^ { - 1 } }$. Nevertheless, two successive rotations $( - 1 8 0$to 5408) of the same bond have neither the same profile nor the same energetic requirement. In this way, this relaxation should involve motions not only of the side chain ester group but also local motions of the main chain, as mentioned for poly(methacrylate)s.<sup>1</sup> The contribution of various motions to this relaxation could explain the low value obtained for the m parameter in the Fuoss and Kirkwood equation (FK).",
+      "merged_source_block_ids": [
+        "P_10_127",
+        "V2_10_3_1",
+        "V2_10_3_3",
+        "V2_10_3_5",
+        "V2_10_3_7"
+      ],
+      "section": "Molecular Mechanics Study"
+    },
+    {
+      "block_id": "P_10_128",
+      "page_id": 10,
+      "block_index": 128,
+      "element_type": "text",
+      "bbox": [
+        526,
+        90,
+        922,
+        364
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "Molecular Mechanics Study"
+    },
+    {
+      "block_id": "I_10_129",
+      "page_id": 10,
+      "block_index": 129,
+      "element_type": "image",
+      "bbox": [
+        540,
+        402,
+        917,
+        609
+      ],
+      "alignment_status": "matched",
+      "image_kind": "chart",
+      "caption": null,
+      "image_path": "organized/reference_no_0037886/images/f74024ecd2c752b7a18c06f505c4c82c95cd9183b2d72027140aaf9f376f9563.jpg"
+    },
+    {
+      "block_id": "I_10_130",
+      "page_id": 10,
+      "block_index": 130,
+      "element_type": "image",
+      "bbox": [
+        531,
+        618,
+        917,
+        832
+      ],
+      "alignment_status": "matched",
+      "image_kind": "chart",
+      "caption": "Figure 7. (a) Loss factor and (b) Electric loss modulus as a function of the temperature at a frequency of 1Hz for $\\mathrm { P C H M A } \\left( \\bullet \\right)$ , P4THPMA ( ) and PDMA ( ). Arrows show the calorimetric glass transition temperature $( T _ { \\mathrm { g } } ) _ { \\mathrm { : } }$ measured by DSC.",
+      "image_path": "organized/reference_no_0037886/images/4a300cbe6117a1ec50cf5634a801dc55bcf1005799d80abb1c8e46c7e5480499.jpg"
+    },
+    {
+      "block_id": "P_11_134",
+      "page_id": 11,
+      "block_index": 134,
+      "element_type": "title",
+      "bbox": [
+        104,
+        90,
+        242,
+        106
+      ],
+      "alignment_status": "matched",
+      "text": "CONCLUSIONS",
+      "title_level": 2,
+      "section": "CONCLUSIONS"
+    },
+    {
+      "block_id": "P_11_135",
+      "page_id": 11,
+      "block_index": 135,
+      "element_type": "text",
+      "bbox": [
+        104,
+        122,
+        496,
+        244
+      ],
+      "alignment_status": "matched",
+      "text": "At low temperatures a d-relaxation was found. This relaxation process is probably related to the rotation of the cyclohexyl ring around the $\\mathrm { O - C }$bond. Our MM results confirm that the energy barrier associated with that the d-relaxation is strongly dependent on chemical structure, specifically on the presence or absence of oxygen atoms in the cyclohexyl ring.",
+      "merged_source_block_ids": [
+        "P_11_135",
+        "V2_11_1_1"
+      ],
+      "section": "CONCLUSIONS"
+    },
+    {
+      "block_id": "P_11_136",
+      "page_id": 11,
+      "block_index": 136,
+      "element_type": "text",
+      "bbox": [
+        104,
+        243,
+        496,
+        395
+      ],
+      "alignment_status": "matched",
+      "text": "The c-relaxation that was associated with the chair-to inverse chair interconversion does not change significantly in energy barrier values when carbon were changed by oxygen atoms; however the height of this relaxation increases when the carbon in position 4 of the ring is substituted by an oxygen atom. Figure 7(a,b) shows the effect of the substitution of one or two carbons by oxygen atoms in the cyclohexyl ring on the loss permittivity and electric modulus (M00), respectively.",
+      "section": "CONCLUSIONS"
+    },
+    {
+      "block_id": "P_11_137",
+      "page_id": 11,
+      "block_index": 137,
+      "element_type": "text",
+      "bbox": [
+        104,
+        393,
+        498,
+        650
+      ],
+      "alignment_status": "matched",
+      "text": "Two procedures have been used to explain the low value of the height of the c-peak in P4THPMA and PCHMA in comparison with PDMA. The first one takes into account the strain energy (SE) values (kJ mol-<sup>1</sup>) of the intermediate in chair-to-chair transition (half-chair) in the three polymers PDMA (1.672) << P4THPMA (21.318) < PCHMA (37.620). According to this parameter, the number of relaxing species per volume unit should be larger in PDMA. The second takes into account the fact that the c-process is mainly intramolecular in origin. The OFK equation<sup>37</sup> together with the approach to the problem by Smith and $\\mathrm { B o y d } ^ { 3 9 , \\hat { 4 } 2 }$allow us to estimate the relative number of relaxing species per volume unit involved in the c-relaxation process which is larger in PDMA than in the case of the other two polymers.",
+      "merged_source_block_ids": [
+        "P_11_137",
+        "V2_11_3_1"
+      ],
+      "section": "CONCLUSIONS"
+    },
+    {
+      "block_id": "P_11_138",
+      "page_id": 11,
+      "block_index": 138,
+      "element_type": "text",
+      "bbox": [
+        104,
+        650,
+        498,
+        816
+      ],
+      "alignment_status": "matched",
+      "text": "On the other hand, it is noticeable that the $\\gamma -$relaxation of P4THPMA, at a given frequency, is located at nearly 20 K above than that of PDMA and at approximately the same temperature of PCHMA.<sup>2</sup> This behavior suggests that the frequency factor in Arrhenius equation, which represents the frequency of the formation of relaxing conformations susceptible to crossing the barrier energies, is lower for PCHMA and P4THPMA (ln $f _ { \\mathrm { { o } } } = 2 9 . 9 3 \\pm 0 . 5 4 )$than for PDMA (ln $f _ { \\mathrm { o } } = 3 0 . 7 2$6 0.05).",
+      "merged_source_block_ids": [
+        "P_11_138",
+        "V2_11_4_1",
+        "V2_11_4_3",
+        "V2_11_4_5"
+      ],
+      "section": "CONCLUSIONS"
+    },
+    {
+      "block_id": "P_11_139",
+      "page_id": 11,
+      "block_index": 139,
+      "element_type": "text",
+      "bbox": [
+        104,
+        816,
+        500,
+        909
+      ],
+      "alignment_status": "matched",
+      "text": "The b-relaxation is assigned to the rotation of the alkoxycarbonyl group coupled with short range motions of the main-chain. For P4THPMA the maximum is located nearly 40 K lower than for PDMA and PCHMA (see Fig. 7). In contrast to the two other polymers (PCHMA and PDMA), the $\\beta \\mathfrak { - }$relaxation of P4THPMA is enough separated from a-relaxation to be characterized in terms of an empirical equation. The broadening of the dielectric b-peak (low value of the $m _ { \\beta }$parameter in FK equation) in the temperature domain could be due to an overlapping of a variety of local environments, controlled each one of them, with their corresponding energy barrier.",
+      "merged_source_block_ids": [
+        "P_11_139",
+        "V2_11_5_1",
+        "V2_11_5_3"
+      ],
+      "section": "CONCLUSIONS"
+    },
+    {
+      "block_id": "P_11_140",
+      "page_id": 11,
+      "block_index": 140,
+      "element_type": "text",
+      "bbox": [
+        528,
+        90,
+        920,
+        212
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "CONCLUSIONS"
+    },
+    {
+      "block_id": "P_11_141",
+      "page_id": 11,
+      "block_index": 141,
+      "element_type": "text",
+      "bbox": [
+        526,
+        212,
+        922,
+        486
+      ],
+      "alignment_status": "matched",
+      "text": "The a-relaxation is also affected by the different nature of the rings located in the side groups. Specifically, in the case of P4THPMA, this process is located ca. 40 K and 45 K above that of PDMA and PCHMA, respectively. In all polymers analyzed, important conductive processes are present at high temperatures. Clarification of this fact could be obtained by using the electric modulus formalism $( M ^ { * } = 1 / \\mathrm { { g } ^ { * } ) }$(see [Fig. 7(b)]) Two processes at high temperature are observed for both PCHMA and P4THPMA. In both cases, these processes can be associated with the conductive effects and to the dipolar a-relaxation, respectively. At high temperature the curve corresponding to PDMA only shows a shoulder close to the maximum of the conductive peak. This suggests strong overlapping between the a-relaxation and the conductive processes for this polymer.",
+      "merged_source_block_ids": [
+        "P_11_141",
+        "V2_11_7_1"
+      ],
+      "section": "CONCLUSIONS"
+    },
+    {
+      "block_id": "P_11_142",
+      "page_id": 11,
+      "block_index": 142,
+      "element_type": "text",
+      "bbox": [
+        528,
+        500,
+        922,
+        599
+      ],
+      "alignment_status": "matched",
+      "text": "M.J. Sanchis, G. Domı´nguez–Espinosa, and R. Dı´az-Calleja gratefully acknowledge CICYT for grants MAT2005-05, 648-C02-02, and GR/MAT/0723/2004. L. Gargallo and D. Radic´ acknowledge FONDECYT (grants 1050962 and 1050956) for partial financial help. L. Alegrı´a and D. Radic´ thank FONDECYT for financial support through a Postdoctoral Fellow Project 3040056.",
+      "section": "CONCLUSIONS"
+    },
+    {
+      "block_id": "P_11_143",
+      "page_id": 11,
+      "block_index": 143,
+      "element_type": "title",
+      "bbox": [
+        531,
+        630,
+        745,
+        646
+      ],
+      "alignment_status": "matched",
+      "text": "REFERENCES AND NOTES",
+      "title_level": 2,
+      "section": "REFERENCES AND NOTES"
+    },
+    {
+      "block_id": "R_11_144",
+      "page_id": 11,
+      "block_index": 144,
+      "element_type": "references",
+      "bbox": [
+        538,
+        660,
+        920,
+        768
+      ],
+      "alignment_status": "matched",
+      "text": "1. (a) Heijboer, J. Mechanical Properties ofGlassy Polymers Containing Saturated Rings, Ph.D. Thesis, University of Leiden, 1972; (b) Heijboer, J. Kolloid Z 1956, 148, 36–47; (c) Heijboer, J.; Baas, J. M. A.; van de Graaf, B.; Hoefnagel, M. A. Polymer 1987, 28, 509–513; (d) Heijboer, J.; Baas, J. M. A.; van de Graaf, B.; Hoefnagel, M. A. Polymer 1992, 33, 1359– 1362.",
+      "section": "REFERENCES AND NOTES"
+    },
+    {
+      "block_id": "R_11_145",
+      "page_id": 11,
+      "block_index": 145,
+      "element_type": "references",
+      "bbox": [
+        538,
+        770,
+        919,
+        797
+      ],
+      "alignment_status": "matched",
+      "text": "2. Ribes-Greus, A.; Gomez-Ribelles, J. L.; Dı´az-Calleja, R. Polymer 1985, 26, 1849–1854.",
+      "section": "REFERENCES AND NOTES"
+    },
+    {
+      "block_id": "R_11_146",
+      "page_id": 11,
+      "block_index": 146,
+      "element_type": "references",
+      "bbox": [
+        540,
+        799,
+        920,
+        839
+      ],
+      "alignment_status": "matched",
+      "text": "3. (a) Dı´az-Calleja, R.; Gargallo, L.; Radic’, D. Polymer 1993, 34, 4247–4251;(b) Dı´az-Calleja, R.; Gargallo, L.; Radic´, D. Polymer 1992, 33, 1406–1410.",
+      "section": "REFERENCES AND NOTES"
+    },
+    {
+      "block_id": "R_11_147",
+      "page_id": 11,
+      "block_index": 147,
+      "element_type": "references",
+      "bbox": [
+        538,
+        839,
+        920,
+        867
+      ],
+      "alignment_status": "matched",
+      "text": "4. Dı´az-Calleja, R.; Saiz, E.; Riande, E.; Gargallo, L.; Radic´, D. Macromolecules 1993, 26, 3795–3802.",
+      "section": "REFERENCES AND NOTES"
+    },
+    {
+      "block_id": "R_11_148",
+      "page_id": 11,
+      "block_index": 148,
+      "element_type": "references",
+      "bbox": [
+        540,
+        868,
+        920,
+        940
+      ],
+      "alignment_status": "matched",
+      "text": "5. (a) Dı´az-Calleja, R.; Garcı´a-Bernabe´, A.; Sa´nchez-Martı´nez, E.; Hormaza´bal, A.; Gargallo, L.; Radic´, D. Polymer 2000, 41, 4811–4816; (b) Dı´az-Calleja, Journal ofPolymer Science: Part B: Polymer Physics DOI 10.1002/polb",
+      "section": "REFERENCES AND NOTES"
+    },
+    {
+      "block_id": "R_12_151",
+      "page_id": 12,
+      "block_index": 151,
+      "element_type": "references",
+      "bbox": [
+        134,
+        90,
+        496,
+        132
+      ],
+      "alignment_status": "matched",
+      "text": "R.; Garcı´a-Bernabe´, A.; Sa´nchez-Martı´nez, E.; Hormaza´bal, A.; Gargallo, L.; Radic´, D. Macromolecules 2001, 34, 6312–6317.",
+      "section": "REFERENCES AND NOTES"
+    },
+    {
+      "block_id": "R_12_152",
+      "page_id": 12,
+      "block_index": 152,
+      "element_type": "references",
+      "bbox": [
+        114,
+        132,
+        496,
+        174
+      ],
+      "alignment_status": "matched",
+      "text": "6. Domı´nguez-Espinosa, G.; Sanchis, M. J.; Dı´az-Calleja, R.; Pagueguy, C.; Gargallo, L.; Radic´, D. Polymer 2005, 46, 8028–8033.",
+      "section": "REFERENCES AND NOTES"
+    },
+    {
+      "block_id": "R_12_153",
+      "page_id": 12,
+      "block_index": 153,
+      "element_type": "references",
+      "bbox": [
+        114,
+        174,
+        496,
+        215
+      ],
+      "alignment_status": "matched",
+      "text": "7. Domı´nguez-Espinosa, G.; Sanchis, M. J.; Dı´az-Calleja, R.; Pagueguy, C.; Gargallo, L.; Radic´, D. Polymer 2005, 46, 11351–11358.",
+      "section": "REFERENCES AND NOTES"
+    },
+    {
+      "block_id": "R_12_154",
+      "page_id": 12,
+      "block_index": 154,
+      "element_type": "references",
+      "bbox": [
+        114,
+        215,
+        496,
+        270
+      ],
+      "alignment_status": "matched",
+      "text": "8. (a) Dı´az-Calleja, R.; Sanchis, M. J.; Alvarez, C.; Riande, E. J Appl Phys 1997, 80, 1047–1053; (b) Dı´az-Calleja, R.; Sanchos, M. J.; Alvarez, C.; Riande, E. J Appl Phys 1997, 81, 3685–3691.",
+      "section": "REFERENCES AND NOTES"
+    },
+    {
+      "block_id": "R_12_155",
+      "page_id": 12,
+      "block_index": 155,
+      "element_type": "references",
+      "bbox": [
+        114,
+        271,
+        496,
+        311
+      ],
+      "alignment_status": "matched",
+      "text": "9. Sanchis, M. J.; Dı´az-Calleja, R.; Hormaza´bal, A.; Gargallo, L.; Radic´, D. Macromolecules 1999, 32, 3457–3463.",
+      "section": "REFERENCES AND NOTES"
+    },
+    {
+      "block_id": "R_12_156",
+      "page_id": 12,
+      "block_index": 156,
+      "element_type": "references",
+      "bbox": [
+        107,
+        311,
+        494,
+        340
+      ],
+      "alignment_status": "matched",
+      "text": "10. Garcı´a, N.; Compan˜, V.; Dı´az-Calleja, R.; Guzma´n, J.; Riande, E. Polymer 2000, 41, 6603–6611.",
+      "section": "REFERENCES AND NOTES"
+    },
+    {
+      "block_id": "R_12_157",
+      "page_id": 12,
+      "block_index": 157,
+      "element_type": "references",
+      "bbox": [
+        107,
+        340,
+        494,
+        368
+      ],
+      "alignment_status": "matched",
+      "text": "11. Flory, P. J. Statistical Mechanics of Chain Molecules; Interscience: New York, 1969.",
+      "section": "REFERENCES AND NOTES"
+    },
+    {
+      "block_id": "R_12_158",
+      "page_id": 12,
+      "block_index": 158,
+      "element_type": "references",
+      "bbox": [
+        107,
+        368,
+        496,
+        395
+      ],
+      "alignment_status": "matched",
+      "text": "12. Mattice, W. L.; Suter, U. W. Conformational Theory of Large Molecules; Wiley: New York, 1994.",
+      "section": "REFERENCES AND NOTES"
+    },
+    {
+      "block_id": "R_12_159",
+      "page_id": 12,
+      "block_index": 159,
+      "element_type": "references",
+      "bbox": [
+        107,
+        395,
+        494,
+        422
+      ],
+      "alignment_status": "matched",
+      "text": "13. Burtle, J. G.; Turek, W. N. J Org Chem 1954, 19, 1567–1570.",
+      "section": "REFERENCES AND NOTES"
+    },
+    {
+      "block_id": "R_12_160",
+      "page_id": 12,
+      "block_index": 160,
+      "element_type": "references",
+      "bbox": [
+        107,
+        422,
+        494,
+        450
+      ],
+      "alignment_status": "matched",
+      "text": "14. Gargallo, L.; Mun˜ oz, M. I.; Radic´, D. Polym Bull 1983, 10, 264–270.",
+      "section": "REFERENCES AND NOTES"
+    },
+    {
+      "block_id": "R_12_161",
+      "page_id": 12,
+      "block_index": 161,
+      "element_type": "references",
+      "bbox": [
+        107,
+        450,
+        496,
+        491
+      ],
+      "alignment_status": "matched",
+      "text": "15. Phillip, T.; Cook, R. L.; Malloy, T. B.; Allinger, N. L.; Chang, S.; Yuh, Y. J Am Chem Soc 1981, 103, 2151– 2156.",
+      "section": "REFERENCES AND NOTES"
+    },
+    {
+      "block_id": "R_12_162",
+      "page_id": 12,
+      "block_index": 162,
+      "element_type": "references",
+      "bbox": [
+        107,
+        492,
+        496,
+        520
+      ],
+      "alignment_status": "matched",
+      "text": "16. Allinger, N. L.; Yuh, H. Quantum Chem Program Exchange 1981, 13, 395.",
+      "section": "REFERENCES AND NOTES"
+    },
+    {
+      "block_id": "R_12_163",
+      "page_id": 12,
+      "block_index": 163,
+      "element_type": "references",
+      "bbox": [
+        107,
+        520,
+        496,
+        547
+      ],
+      "alignment_status": "matched",
+      "text": "17. Allinger, N. L.; Zhou, X.; Bergsma, J. J Mol Struct (Theochem) 1994, 118, 69–83.",
+      "section": "REFERENCES AND NOTES"
+    },
+    {
+      "block_id": "R_12_164",
+      "page_id": 12,
+      "block_index": 164,
+      "element_type": "references",
+      "bbox": [
+        107,
+        547,
+        496,
+        589
+      ],
+      "alignment_status": "matched",
+      "text": "18. Burkert, U.; Allinger, N. L. ACS Monograph Series Number 177: Molecular Mechanics; ACS: Washington, DC, 1982.",
+      "section": "REFERENCES AND NOTES"
+    },
+    {
+      "block_id": "R_12_165",
+      "page_id": 12,
+      "block_index": 165,
+      "element_type": "references",
+      "bbox": [
+        107,
+        589,
+        494,
+        617
+      ],
+      "alignment_status": "matched",
+      "text": "19. Serena Software. PC-MODEL. Serena Software, Bloomington, IN.",
+      "section": "REFERENCES AND NOTES"
+    },
+    {
+      "block_id": "R_12_166",
+      "page_id": 12,
+      "block_index": 166,
+      "element_type": "references",
+      "bbox": [
+        107,
+        617,
+        494,
+        643
+      ],
+      "alignment_status": "matched",
+      "text": "20. Allinger, N. L.; Sprague, J. T. J Am Chem Soc 1973, 95, 3893–3907.",
+      "section": "REFERENCES AND NOTES"
+    },
+    {
+      "block_id": "R_12_167",
+      "page_id": 12,
+      "block_index": 167,
+      "element_type": "references",
+      "bbox": [
+        107,
+        643,
+        494,
+        672
+      ],
+      "alignment_status": "matched",
+      "text": "21. Cowie, J. M.; McEwen, I. J. Macromolecules 1981, 14, 1374–1377 (see also 1378–1381).",
+      "section": "REFERENCES AND NOTES"
+    },
+    {
+      "block_id": "R_12_168",
+      "page_id": 12,
+      "block_index": 168,
+      "element_type": "references",
+      "bbox": [
+        107,
+        672,
+        496,
+        713
+      ],
+      "alignment_status": "matched",
+      "text": "22. (a) Cowie, J. M.; Ferguson, R. Polym Commun 1984, 25, 66–68; (b) Cowie, J. M.; Ferguson, R. Polymer 1987, 28, 503–508.",
+      "section": "REFERENCES AND NOTES"
+    },
+    {
+      "block_id": "R_12_169",
+      "page_id": 12,
+      "block_index": 169,
+      "element_type": "references",
+      "bbox": [
+        107,
+        714,
+        494,
+        741
+      ],
+      "alignment_status": "matched",
+      "text": "23. Baas, J. M. A.; van de Graaf, B.; Heijboer, J. Polymer 1991, 32, 2141–2145.",
+      "section": "REFERENCES AND NOTES"
+    },
+    {
+      "block_id": "R_12_170",
+      "page_id": 12,
+      "block_index": 170,
+      "element_type": "references",
+      "bbox": [
+        531,
+        90,
+        919,
+        119
+      ],
+      "alignment_status": "matched",
+      "text": "24. Shimizu, K.; Yano, O.; Wada, Y. J Polym Sci 1975, 13, 1959–1974.",
+      "section": "REFERENCES AND NOTES"
+    },
+    {
+      "block_id": "R_12_171",
+      "page_id": 12,
+      "block_index": 171,
+      "element_type": "references",
+      "bbox": [
+        531,
+        119,
+        920,
+        146
+      ],
+      "alignment_status": "matched",
+      "text": "25. Esteve-Marcos, C.; Sanchis, M. J.; Dı´az-Calleja, R. Polymer 1997, 38, 3805–3810.",
+      "section": "REFERENCES AND NOTES"
+    },
+    {
+      "block_id": "R_12_172",
+      "page_id": 12,
+      "block_index": 172,
+      "element_type": "references",
+      "bbox": [
+        531,
+        146,
+        920,
+        174
+      ],
+      "alignment_status": "matched",
+      "text": "26. Sanchis, M. J.; Dı´az-Calleja, R.; Pelissou, O.; Gargallo, L.; Radic´, D. Polymer 2004, 45, 1845–1855.",
+      "section": "REFERENCES AND NOTES"
+    },
+    {
+      "block_id": "R_12_173",
+      "page_id": 12,
+      "block_index": 173,
+      "element_type": "references",
+      "bbox": [
+        531,
+        174,
+        920,
+        200
+      ],
+      "alignment_status": "matched",
+      "text": "27. De la Rosa, A.; Heux, L.; Cavaille’, J. Y.; Mazeau, K. Polymer 2002, 43, 5665–5677.",
+      "section": "REFERENCES AND NOTES"
+    },
+    {
+      "block_id": "R_12_174",
+      "page_id": 12,
+      "block_index": 174,
+      "element_type": "references",
+      "bbox": [
+        531,
+        202,
+        920,
+        229
+      ],
+      "alignment_status": "matched",
+      "text": "28. Sulhata, M. S.; Natajaran, U. Macromol Theory Simulat 2003, 12, 61–71.",
+      "section": "REFERENCES AND NOTES"
+    },
+    {
+      "block_id": "R_12_175",
+      "page_id": 12,
+      "block_index": 175,
+      "element_type": "references",
+      "bbox": [
+        531,
+        229,
+        920,
+        270
+      ],
+      "alignment_status": "matched",
+      "text": "29. Press, W. H.; Teukolsy, S. A.; Vetterling, W. T.; Flannery, B. P. Numerical Recipes in C, 2nd ed.; Cambridge University Press: New York, 1992.",
+      "section": "REFERENCES AND NOTES"
+    },
+    {
+      "block_id": "R_12_176",
+      "page_id": 12,
+      "block_index": 176,
+      "element_type": "references",
+      "bbox": [
+        531,
+        271,
+        920,
+        297
+      ],
+      "alignment_status": "matched",
+      "text": "30. Fuoss, R.; Kirkwood, J. E. J Am Chem Soc 1941, 63, 385–389.",
+      "section": "REFERENCES AND NOTES"
+    },
+    {
+      "block_id": "R_12_177",
+      "page_id": 12,
+      "block_index": 177,
+      "element_type": "references",
+      "bbox": [
+        531,
+        299,
+        920,
+        340
+      ],
+      "alignment_status": "matched",
+      "text": "31. McCrum, N. G.; Read, B. E.; Williams, W. Anelastic and Dielectric Effects in Polymeric Solids;Dover: New York, 1991; pp 118.",
+      "section": "REFERENCES AND NOTES"
+    },
+    {
+      "block_id": "R_12_178",
+      "page_id": 12,
+      "block_index": 178,
+      "element_type": "references",
+      "bbox": [
+        531,
+        340,
+        920,
+        381
+      ],
+      "alignment_status": "matched",
+      "text": "32. Kuebler, S. C.; Schaefer, D. J.; Boeffel, C.; Pawelzik, U.; Spiess, H. W. Macromolecules 1997, 30, 6597– 6609.",
+      "section": "REFERENCES AND NOTES"
+    },
+    {
+      "block_id": "R_12_179",
+      "page_id": 12,
+      "block_index": 179,
+      "element_type": "references",
+      "bbox": [
+        531,
+        381,
+        920,
+        422
+      ],
+      "alignment_status": "matched",
+      "text": "33. (a) Havriliak, S.; Negami, S. Polymer 1967, 8, 161– 210; (b) Havriliak, S.; Negami, S. J Polym Sci Part C: Polym Symp 1966, 14, 99–117.",
+      "section": "REFERENCES AND NOTES"
+    },
+    {
+      "block_id": "R_12_180",
+      "page_id": 12,
+      "block_index": 180,
+      "element_type": "references",
+      "bbox": [
+        531,
+        422,
+        920,
+        478
+      ],
+      "alignment_status": "matched",
+      "text": "34. (a) Vogel, H. Z Phys 1921, 22, 645–646; (b) Fulcher, G.S. J Am Ceram Soc 1925, 8, 339,340; (c) Tamman, G.; Hesse, W. Z Anorg Allg Chem 1926, 156, 245– 247.",
+      "section": "REFERENCES AND NOTES"
+    },
+    {
+      "block_id": "R_12_181",
+      "page_id": 12,
+      "block_index": 181,
+      "element_type": "references",
+      "bbox": [
+        531,
+        478,
+        890,
+        493
+      ],
+      "alignment_status": "matched",
+      "text": "35. Dı´az-Calleja, R. Macromolecules 2000, 33, 8924.",
+      "section": "REFERENCES AND NOTES"
+    },
+    {
+      "block_id": "R_12_182",
+      "page_id": 12,
+      "block_index": 182,
+      "element_type": "references",
+      "bbox": [
+        531,
+        492,
+        920,
+        532
+      ],
+      "alignment_status": "matched",
+      "text": "36. (a) Doolittle, A. K. J Appl Phys 1951, 22, 1471– 1975; (b) Doolittle, A. K. J Appl Phys 1952, 23, 236– 239.",
+      "section": "REFERENCES AND NOTES"
+    },
+    {
+      "block_id": "R_12_183",
+      "page_id": 12,
+      "block_index": 183,
+      "element_type": "references",
+      "bbox": [
+        531,
+        534,
+        920,
+        561
+      ],
+      "alignment_status": "matched",
+      "text": "37. Ferry, J. D. Viscoleastic Properties of Polymers; Wiley Interscience: New York, 1980.",
+      "section": "REFERENCES AND NOTES"
+    },
+    {
+      "block_id": "R_12_184",
+      "page_id": 12,
+      "block_index": 184,
+      "element_type": "references",
+      "bbox": [
+        531,
+        561,
+        920,
+        589
+      ],
+      "alignment_status": "matched",
+      "text": "38. Fro¨hlich, H. Theory of Dielectrics, 2nd ed.; Oxford University Press: Oxford, 1959.",
+      "section": "REFERENCES AND NOTES"
+    },
+    {
+      "block_id": "R_12_185",
+      "page_id": 12,
+      "block_index": 185,
+      "element_type": "references",
+      "bbox": [
+        531,
+        589,
+        920,
+        616
+      ],
+      "alignment_status": "matched",
+      "text": "39. Smith, G. D.; Boyd, R. H. Macromolecules 1991, 24, 2731–2739.",
+      "section": "REFERENCES AND NOTES"
+    },
+    {
+      "block_id": "R_12_186",
+      "page_id": 12,
+      "block_index": 186,
+      "element_type": "references",
+      "bbox": [
+        531,
+        617,
+        920,
+        686
+      ],
+      "alignment_status": "matched",
+      "text": "40. (a) Johari, G. P.; Goldstein, M. J Chem Phys 1970, 53, 2372; (b) Johari, G. P. In Relaxations in Complex Systems; Ngai, K. L.; Wright, G. B., Eds.; Naval Research Laboratory, US Government Printing House: Springfield, VA, 1984; pp 17.",
+      "section": "REFERENCES AND NOTES"
+    },
+    {
+      "block_id": "R_12_187",
+      "page_id": 12,
+      "block_index": 187,
+      "element_type": "references",
+      "bbox": [
+        531,
+        686,
+        920,
+        713
+      ],
+      "alignment_status": "matched",
+      "text": "41. Ngai, K. L.; Paluch, M. J Chem Phys 2004, 120, 857–873.",
+      "section": "REFERENCES AND NOTES"
+    },
+    {
+      "block_id": "R_12_188",
+      "page_id": 12,
+      "block_index": 188,
+      "element_type": "references",
+      "bbox": [
+        531,
+        714,
+        922,
+        741
+      ],
+      "alignment_status": "matched",
+      "text": "42. Riande, E.; Dı´az-Calleja, R. Electrical Properties of Polymers; Marcel Dekker: New York, 2004.",
+      "section": "REFERENCES AND NOTES"
+    }
+  ],
+  "warnings": [
+    {
+      "code": "metadata_extraction_failed",
+      "message": "未配置统一 LLM 元数据提取器；document JSON 已继续生成"
+    }
+  ]
+}

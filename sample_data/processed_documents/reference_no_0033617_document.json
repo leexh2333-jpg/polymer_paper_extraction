@@ -1,0 +1,1520 @@
+{
+  "schema_version": "1.0",
+  "document_id": "reference_no_0033617",
+  "paper": {
+    "ref_no": "reference_no_0033617",
+    "pdf_filename": "83da083f-aeaf-49bf-9c59-3353b1deec92_origin.pdf",
+    "source_pdf_path": "mineru_output/reference_no_0033617/83da083f-aeaf-49bf-9c59-3353b1deec92_origin.pdf",
+    "organized_pdf_path": "wenxian/reference_no_0033617/origin.pdf",
+    "doi": "10.1016/j.eurpolymj.2006.03.011",
+    "title": "Synthesis, characterization and electrochromic properties of copolymer of 3-{[4-(thien-3-yl-methoxy)phenoxy]methyl} thiophene with thiophene",
+    "authors": [
+      "Ayc¸a Erden",
+      "Elif Sahin",
+      "Mustafa Gu¨ llu¨",
+      "Levent Toppare"
+    ],
+    "journal": "European Polymer Journal",
+    "year": 2006,
+    "metadata_status": "complete",
+    "metadata_extraction": {
+      "method": "llm",
+      "provider": "volcengine",
+      "model": "doubao-seed-2-0-pro-260215",
+      "prompt_file": "prompts/meta_extract.md",
+      "prompt_sha256": "96d91fd20308fdaa013aaef055c4b873880414f84228b8c5983246b74d21271b",
+      "source_pages": [
+        0,
+        1
+      ],
+      "status": "success"
+    }
+  },
+  "source_files": {
+    "markdown": "reference_no_0033617.md",
+    "content_v1": "content.json",
+    "content_v2": "content_v2.json",
+    "pdf": "origin.pdf"
+  },
+  "ocr": {
+    "engine": "mineru",
+    "batch_id": "a2fa80d8-bb3d-43a9-a298-6438abdeb41a",
+    "model_version": "vlm",
+    "ocr_enabled": null,
+    "language": null,
+    "page_ranges": null,
+    "enable_formula": null,
+    "enable_table": null,
+    "extra_formats": null,
+    "status": "done",
+    "manifest_file": "batch_a2fa80d8-bb3d-43a9-a298-6438abdeb41a_manifest.json",
+    "status_file": "batch_a2fa80d8-bb3d-43a9-a298-6438abdeb41a_status.json"
+  },
+  "elements": [
+    {
+      "block_id": "P_0_0",
+      "page_id": 0,
+      "block_index": 0,
+      "element_type": "text",
+      "bbox": [
+        718,
+        142,
+        933,
+        157
+      ],
+      "alignment_status": "matched",
+      "text": "www.elsevier.com/locate/europolj",
+      "section": null
+    },
+    {
+      "block_id": "P_0_1",
+      "page_id": 0,
+      "block_index": 1,
+      "element_type": "title",
+      "bbox": [
+        97,
+        196,
+        902,
+        277
+      ],
+      "alignment_status": "matched",
+      "text": "Synthesis, characterization and electrochromic properties of copolymer of 3-{[4-(thien-3-yl-methoxy)phenoxy]methyl} thiophene with thiophene",
+      "title_level": 1,
+      "section": "DocumentTitle"
+    },
+    {
+      "block_id": "P_0_2",
+      "page_id": 0,
+      "block_index": 2,
+      "element_type": "text",
+      "bbox": [
+        158,
+        293,
+        845,
+        316
+      ],
+      "alignment_status": "matched",
+      "text": "Ayc¸a Erden <sup>a</sup>, Elif Sahin <sup>a,b</sup>, Mustafa Gu¨ llu¨ <sup>c</sup>, Levent Toppare <sup>a,\\*</sup>",
+      "section": "Synthesis, characterization and electrochromic properties of copolymer of 3-{[4-(thien-3-yl-methoxy)phenoxy]methyl} thiophene with thiophene"
+    },
+    {
+      "block_id": "P_0_3",
+      "page_id": 0,
+      "block_index": 3,
+      "element_type": "text",
+      "bbox": [
+        229,
+        324,
+        773,
+        367
+      ],
+      "alignment_status": "matched",
+      "text": "<sup>a</sup> Middle East Technical University, Department of Chemistry, 06531 Ankara, Turkey <sup>b</sup> Dicle University, Department of Chemistry, 21280 Diyarbakir, Turkey <sup>c</sup> Ankara University, Department of Chemistry, 06100 Ankara, Turkey",
+      "section": "Synthesis, characterization and electrochromic properties of copolymer of 3-{[4-(thien-3-yl-methoxy)phenoxy]methyl} thiophene with thiophene"
+    },
+    {
+      "block_id": "P_0_4",
+      "page_id": 0,
+      "block_index": 4,
+      "element_type": "text",
+      "bbox": [
+        200,
+        374,
+        805,
+        402
+      ],
+      "alignment_status": "matched",
+      "text": "Received 12 September 2005; received in revised form 6 March 2006; accepted 13 March 2006 Available online 24 April 2006",
+      "section": "Synthesis, characterization and electrochromic properties of copolymer of 3-{[4-(thien-3-yl-methoxy)phenoxy]methyl} thiophene with thiophene"
+    },
+    {
+      "block_id": "P_0_5",
+      "page_id": 0,
+      "block_index": 5,
+      "element_type": "title",
+      "bbox": [
+        71,
+        443,
+        137,
+        456
+      ],
+      "alignment_status": "matched",
+      "text": "Abstract",
+      "title_level": 2,
+      "section": "Abstract"
+    },
+    {
+      "block_id": "P_0_6",
+      "page_id": 0,
+      "block_index": 6,
+      "element_type": "text",
+      "bbox": [
+        69,
+        471,
+        935,
+        694
+      ],
+      "alignment_status": "matched",
+      "text": "(3-{[4-(Thien-3-yl-methoxy)phenoxy]methyl}thiophene) (TMPMT) was synthesized via the reaction of 3-bromomethylthiophene with hydroquinone and characterized by nuclear magnetic resonance (NMR) and Fourier transform infrared spectroscopy (FTIR). Electrochemical copolymerization of TMPMT with thiophene in acetonitrile/boron trifluoride diethyl etherate (AN/BFEE) solvent mixture was achieved using tetrabutylammonium tetrafluoroborate (TBAFB) as the supporting electrolyte. Resulting copolymer was characterized via cyclic voltammetry (CV), Fourier transform infrared spectroscopy (FTIR), scanning electron microscopy (SEM), four probe technique conductivity measurement and UV–Vis spectroscopy. Spectroelectrochemical analysis of the copolymer [P(TTMT-co-Th)] revealed that p–p<sup>\\*</sup> electronic transition occurs at 427 nm with a band gap value of 2.20 eV. Copolymer gives brown color at the fully reduced state whereas; at fully oxidized state the film has a gray-blue color. Kinetic studies were carried out at the maximum contrast wavelength upon measuring the percent transmittance, T% (7.6%) and switching time (2.0 s) to examine the switching ability of the copolymer. Dual type electrochromic device (ECD) of P(TMPMT-co-Th) and poly(3,4-ethylenedioxythiophene) (PEDOT) was constructed. Spectroelectrochemistry, switching ability, open circuit memory and stability of the device were examined by UV–Vis spectroscopy and cyclic voltammetry. The device switches between brown and blue at switching voltages of 0.0 V and 2.8 V with a short switching time of 1.4 s. - 2006 Elsevier Ltd. All rights reserved.",
+      "section": "Abstract"
+    },
+    {
+      "block_id": "P_0_7",
+      "page_id": 0,
+      "block_index": 7,
+      "element_type": "title",
+      "bbox": [
+        71,
+        752,
+        191,
+        768
+      ],
+      "alignment_status": "matched",
+      "text": "1. Introduction",
+      "title_level": 2,
+      "section": "1. Introduction"
+    },
+    {
+      "block_id": "P_0_8",
+      "page_id": 0,
+      "block_index": 8,
+      "element_type": "text",
+      "bbox": [
+        69,
+        783,
+        483,
+        818
+      ],
+      "alignment_status": "matched",
+      "text": "Conducting polymer is an organic polymer that possesses the electrical, electronic, magnetic and optical properties of a metal while retaining some of its mechanical properties. This conductivity is imparted due to the addition of dopants in relatively large quantities into the polymer matrix resulting in either a conductor or a semiconductor. The field of synthetic electroconductive materials has grown considerably in the last decade and this expansion concerns polymers to large extent. Interest in conducting polymers is largely due to the wide range of possible applications because of their facile synthesis, good environmental stability and long term stability of electrical conductivity. Conducting polymers have been extensively studied in the last decade and used for technological applications in electrochromic devices [1], batteries [2], biosensors [3], gas separation membranes [4], and enzyme immobilization matrices [5].",
+      "section": "1. Introduction"
+    },
+    {
+      "block_id": "P_0_9",
+      "page_id": 0,
+      "block_index": 9,
+      "element_type": "text",
+      "bbox": [
+        518,
+        750,
+        935,
+        882
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "1. Introduction"
+    },
+    {
+      "block_id": "F_0_15",
+      "page_id": 0,
+      "block_index": 15,
+      "element_type": "footnote",
+      "bbox": [
+        69,
+        839,
+        483,
+        867
+      ],
+      "alignment_status": "matched",
+      "text": "2 Corresponding author. Tel.: +90 3122103251; fax: +90 3122101280.",
+      "section": "1. Introduction"
+    },
+    {
+      "block_id": "F_0_16",
+      "page_id": 0,
+      "block_index": 16,
+      "element_type": "footnote",
+      "bbox": [
+        91,
+        867,
+        424,
+        882
+      ],
+      "alignment_status": "matched",
+      "text": "E-mail address: toppare@metu.edu.tr (L. Toppare).",
+      "section": "1. Introduction"
+    },
+    {
+      "block_id": "P_1_18",
+      "page_id": 1,
+      "block_index": 18,
+      "element_type": "text",
+      "bbox": [
+        60,
+        86,
+        477,
+        231
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "1. Introduction"
+    },
+    {
+      "block_id": "P_1_19",
+      "page_id": 1,
+      "block_index": 19,
+      "element_type": "text",
+      "bbox": [
+        60,
+        231,
+        477,
+        343
+      ],
+      "alignment_status": "matched",
+      "text": "An electrochromic material is the one that changes color in a persistent but reversible manner by an electrochemical reaction and the phenomenon is called electrochromism. Electrochromism is the reversible and visible change in transmittance and/ or reflectance that is associated with an electrochemically induced oxidation-reduction reaction [6].",
+      "section": "1. Introduction"
+    },
+    {
+      "block_id": "P_1_20",
+      "page_id": 1,
+      "block_index": 20,
+      "element_type": "text",
+      "bbox": [
+        60,
+        343,
+        477,
+        603
+      ],
+      "alignment_status": "matched",
+      "text": "Basically, an electrochromic device is a twoelectrode electrochemical cell in a sandwich configuration of thin layers. The arrangement of these layers depends on the operation mode, which can be reflective or transmissive [7,8]. Electrochromic devices are constructed with several components: transparent electrodes (typically ITO-glass, a glass plate coated with an indium-doped tin oxide film), two electrochromic materials and an electrolyte. A special characteristic about the electrochromic materials is that, under device operation, one is deposited on the working electrode and the other on the auxiliary electrode. For this reason, to construct an electrochromic device, one active electrochromic material must possess anodic coloration and the other must possess cathodic coloration [9].",
+      "section": "1. Introduction"
+    },
+    {
+      "block_id": "P_1_21",
+      "page_id": 1,
+      "block_index": 21,
+      "element_type": "title",
+      "bbox": [
+        62,
+        618,
+        194,
+        634
+      ],
+      "alignment_status": "matched",
+      "text": "2. Experimental",
+      "title_level": 2,
+      "section": "2. Experimental"
+    },
+    {
+      "block_id": "P_1_22",
+      "page_id": 1,
+      "block_index": 22,
+      "element_type": "title",
+      "bbox": [
+        62,
+        649,
+        180,
+        665
+      ],
+      "alignment_status": "matched",
+      "text": "2.1. Materials",
+      "title_level": 2,
+      "section": "2.1. Materials"
+    },
+    {
+      "block_id": "P_1_23",
+      "page_id": 1,
+      "block_index": 23,
+      "element_type": "text",
+      "bbox": [
+        60,
+        681,
+        477,
+        843
+      ],
+      "alignment_status": "matched",
+      "text": "3-Methylthiophene (Aldrich), N-bromosuccinimide (Fluka), benzoylperoxide, carbon tetrachloride (Aldrich), hydroquinone (Aldrich), sodium hydroxide (Merck), N,N-dimethylformamide (Aldrich) were used for the synthesis of monomer. Thiophene (Th) (Aldrich) was distilled before use. 3,4-Ethylenedioxythiophene (EDOT) (Aldrich), acetonitrile (AN) (Aldrich), tetrabutylammonium tetrafluoroborate (TBAFB) (Aldrich) were used without any purification.",
+      "section": "2.1. Materials"
+    },
+    {
+      "block_id": "P_1_24",
+      "page_id": 1,
+      "block_index": 24,
+      "element_type": "title",
+      "bbox": [
+        60,
+        859,
+        187,
+        876
+      ],
+      "alignment_status": "matched",
+      "text": "2.2. Equipment",
+      "title_level": 2,
+      "section": "2.2. Equipment"
+    },
+    {
+      "block_id": "P_1_25",
+      "page_id": 1,
+      "block_index": 25,
+      "element_type": "text",
+      "bbox": [
+        60,
+        890,
+        477,
+        925
+      ],
+      "alignment_status": "matched",
+      "text": "The cyclic voltammograms were recorded in AN/ TBAFB/BFEE solvent-electrolyte couple using a system consisting of a potentiostat (Wenking POS 2), an X–Y recorder and a cell containing Pt foil working and counter electrodes, and a $\\mathrm { \\mathbf { A } } \\mathrm { \\mathbf { g } } / \\mathrm { \\mathbf { A } } \\mathrm { \\mathbf { g } } ^ { + }$reference electrode. Measurements were carried out at room temperature under nitrogen atmosphere. Spectroelectrochemical and kinetic studies were performed on Solartron 1285 potentiostat/galvanostat and a HP8453A UV–Vis spectrophotometer. Colorimetry measurements were obtained by a Coloreye XTH Spectrophotometer (GretagMacbeth). Scanning electron microscopy (SEM) studies were performed by JEOL JSM-6400. The IR spectrum was recorded on a Nicolet 510 FTIR spectrometer, where samples were dispersed in KBr.",
+      "merged_source_block_ids": [
+        "P_1_25",
+        "V2_1_7_1"
+      ],
+      "section": "2.2. Equipment"
+    },
+    {
+      "block_id": "P_1_26",
+      "page_id": 1,
+      "block_index": 26,
+      "element_type": "text",
+      "bbox": [
+        509,
+        86,
+        928,
+        314
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "2.2. Equipment"
+    },
+    {
+      "block_id": "P_1_27",
+      "page_id": 1,
+      "block_index": 27,
+      "element_type": "title",
+      "bbox": [
+        509,
+        343,
+        865,
+        378
+      ],
+      "alignment_status": "matched",
+      "text": "2.3. Synthesis of 3- [4-(thien-3-yl-methoxy) phenoxy]methyl thiophene",
+      "title_level": 2,
+      "section": "2.3. Synthesis of 3- [4-(thien-3-yl-methoxy) phenoxy]methyl thiophene"
+    },
+    {
+      "block_id": "P_1_28",
+      "page_id": 1,
+      "block_index": 28,
+      "element_type": "text",
+      "bbox": [
+        509,
+        390,
+        930,
+        925
+      ],
+      "alignment_status": "matched",
+      "text": "3-Methylthiophene (5.009 g, 0.051 mol), Nbromosuccinimide (9.078 g, 0.05 mol) and benzoylperoxide (0.02 g, $8 . 2 6 \\times 1 0 ^ { - 5 }$mol) were dissolved in carbon tetrachloride (15 ml) and placed in a 100 ml round bottom flask. The mixture was shaken vigorously and heated. During the first ten minutes an additional 0.02 g of benzoyl peroxide were added. The flask and contents were shaken vigorously for the first hour, than allowed to reflux for additional 5 h. After cooling in an ice-bath, the succinimide was removed by filtration and washed with 50 ml of carbon tetrachloride. Carbon tetrachloride was later removed at reduced pressure. The remaining highly lachrymatory oil was distilled in vacuum and five grams of material was collected at 70– $1 0 0 ~ ^ { \\circ } \\mathrm { C }$[10]. This material is unstable and darkens slowly, hence; the consecutive experiment had to carried out quickly. In the mean time, hydroquinone (1.500 g, 0.0136 mol) and sodium hydroxide (0.816 g, 0.0272 mol) were dissolved in 30 ml N,Ndimethylformamide in a 250 ml two-neck round bottom flask carrying a drying tube and refluxed for 2 h. 5 gram of 3-bromomethylthiophene dissolved in 10 ml N,N-dimethylformamide was added to hydroquinone solution in 30 min. The liquid product was extracted by diethyl ether, organic phase is collected and dry diethyl ether was evaporated under vacuum (Scheme 1). Later, ethanol was added on to the solid product. The insoluble portion was collected by suction filtration. A beige solid product (3-{[4-(thien-3-yl-methoxy)phenoxy] methyl}thiophene) (m.p:148.1 \u0003C) was obtained in 55% yield.",
+      "merged_source_block_ids": [
+        "P_1_28",
+        "V2_1_10_1",
+        "V2_1_10_3"
+      ],
+      "section": "2.3. Synthesis of 3- [4-(thien-3-yl-methoxy) phenoxy]methyl thiophene"
+    },
+    {
+      "block_id": "I_2_31",
+      "page_id": 2,
+      "block_index": 31,
+      "element_type": "image",
+      "bbox": [
+        244,
+        84,
+        757,
+        464
+      ],
+      "alignment_status": "matched",
+      "image_kind": "image",
+      "caption": "Scheme 1. Synthesis route of 3-{[4-(thien-3-yl-methoxy)phenoxy]methyl}thiophene.",
+      "image_path": "wenxian/reference_no_0033617/images/fig1.jpg"
+    },
+    {
+      "block_id": "P_2_32",
+      "page_id": 2,
+      "block_index": 32,
+      "element_type": "title",
+      "bbox": [
+        68,
+        537,
+        441,
+        570
+      ],
+      "alignment_status": "matched",
+      "text": "2.4. Synthesis of copolymer by electrochemical copolymerization",
+      "title_level": 2,
+      "section": "2.4. Synthesis of copolymer by electrochemical copolymerization"
+    },
+    {
+      "block_id": "P_2_33",
+      "page_id": 2,
+      "block_index": 33,
+      "element_type": "text",
+      "bbox": [
+        68,
+        584,
+        485,
+        762
+      ],
+      "alignment_status": "matched",
+      "text": "For the synthesis of conducting copolymer of TMPMT, thiophene was used as the comonomer. Polymerizations were performed with 40 mg TMPMT, $1 . 2 \\times 1 0 ^ { - 3 } \\mathrm { M }$thiophene in 0.1 M TBAFB/AN/BFEE, in an UV–cell equipped with Pt working and counter electrodes and an $\\mathrm { \\mathbf { A g } / A g ^ { + } }$reference electrode. Constant potential electrolyses were run at 1.5 V for 60 min at room temperature under inert atmosphere. The free standing films were vigorously washed with AN to remove unreacted monomer.",
+      "merged_source_block_ids": [
+        "P_2_33",
+        "V2_2_2_1",
+        "V2_2_2_3"
+      ],
+      "section": "2.4. Synthesis of copolymer by electrochemical copolymerization"
+    },
+    {
+      "block_id": "P_2_34",
+      "page_id": 2,
+      "block_index": 34,
+      "element_type": "text",
+      "bbox": [
+        68,
+        762,
+        485,
+        925
+      ],
+      "alignment_status": "matched",
+      "text": "For the spectroelectrochemical studies, P(TMPMT-co-PTh) was synthesized in the presence of 40 mg TMPMT, $1 . 2 \\times \\mathrm { \\dot { 1 } 0 } ^ { - 3 } \\mathrm { M }$thiophene, 0.1 M TBAFB/ borontrifloride ethylether (BFEE) (8:2, v/v) in AN at 1.5 V, in a UV-cuvette equipped with ITO working and Pt counter electrodes with $\\mathbf { A } \\mathbf { g } /$${ \\bf A } { \\bf g } ^ { + }$reference electrode via constant potential electrolysis. The electrochromic measurements; spectroelectrochemistry, and switching studies of the polymer film deposited on ITO coated glass were carried out in same media in the absence of monomer and thiophene.",
+      "merged_source_block_ids": [
+        "P_2_34",
+        "V2_2_3_1",
+        "V2_2_3_3",
+        "V2_2_3_4"
+      ],
+      "section": "2.4. Synthesis of copolymer by electrochemical copolymerization"
+    },
+    {
+      "block_id": "P_2_35",
+      "page_id": 2,
+      "block_index": 35,
+      "element_type": "text",
+      "bbox": [
+        518,
+        537,
+        933,
+        570
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "2.4. Synthesis of copolymer by electrochemical copolymerization"
+    },
+    {
+      "block_id": "P_2_36",
+      "page_id": 2,
+      "block_index": 36,
+      "element_type": "title",
+      "bbox": [
+        520,
+        601,
+        930,
+        618
+      ],
+      "alignment_status": "matched",
+      "text": "2.5. Construction of electrochromic devices (ECDs)",
+      "title_level": 2,
+      "section": "2.5. Construction of electrochromic devices (ECDs)"
+    },
+    {
+      "block_id": "P_2_37",
+      "page_id": 2,
+      "block_index": 37,
+      "element_type": "text",
+      "bbox": [
+        518,
+        633,
+        937,
+        925
+      ],
+      "alignment_status": "matched",
+      "text": "In this study, P(TMPMT-co-Th) was potentiodynamically deposited on ITO in 0.1 M TBAFB/ AN:BFEE at 0.0 V and +1.5 V. 0.01 M solution of EDOT in 0.1 M $\\mathrm { T B A B F _ { 4 } / A N }$was used to deposit the PEDOT film onto ITO electrode at $+ 1 . 5 \\mathrm { V ~ v s . ~ A g / A g ^ { + } }$. In order to balance the number of redox sites for switching, hence, equalization of the redox charges of the two complimentary materials, chronocoulometry was utilized. The redox sites of these polymer films were matched by stepping the potentials between 0.0 V and +1.0 V for P(TMPMT-co-Th), -1.0 V and +1.5 V for PEDOT (vs. $\\mathbf { A g / A g } ^ { + } )$). ECDs were built by arranging two electrochromic polymer films (one oxidized, the other neutral) facing each other separated by a gel electrolyte. The spectroelectrochemical and kinetic studies of the devices were performed to characterize the electrochromic device.",
+      "merged_source_block_ids": [
+        "P_2_37",
+        "V2_2_6_1",
+        "V2_2_6_3",
+        "V2_2_6_5"
+      ],
+      "section": "2.5. Construction of electrochromic devices (ECDs)"
+    },
+    {
+      "block_id": "P_3_40",
+      "page_id": 3,
+      "block_index": 40,
+      "element_type": "title",
+      "bbox": [
+        60,
+        86,
+        262,
+        103
+      ],
+      "alignment_status": "matched",
+      "text": "3. Results and discussion",
+      "title_level": 2,
+      "section": "3. Results and discussion"
+    },
+    {
+      "block_id": "P_3_41",
+      "page_id": 3,
+      "block_index": 41,
+      "element_type": "title",
+      "bbox": [
+        60,
+        117,
+        240,
+        134
+      ],
+      "alignment_status": "matched",
+      "text": "3.1. <sup>1</sup>H NMR spectra",
+      "title_level": 2,
+      "section": "3.1. <sup>1</sup>H NMR spectra"
+    },
+    {
+      "block_id": "P_3_42",
+      "page_id": 3,
+      "block_index": 42,
+      "element_type": "text",
+      "bbox": [
+        60,
+        150,
+        477,
+        411
+      ],
+      "alignment_status": "matched",
+      "text": "The characteristic peaks of 3-{[4-(thien-3-ylmethoxy)phenoxy]methyl}thiophene are observed in the <sup>1</sup>H NMR spectrum (Fig. 1). Since the molecule is completely symmetric, hydrogens of the benzene ring resonate as a singlet at 6.8 ppm. Also, due to symmetry, methylenic protons resonate as a singlet at 4.9 ppm, highly shifted to downfield under the deshielding efect of oxygen atom and thiophene ring. Thiophene hydrogen was observed between 7.0 and 7.3 ppm. Hydrogen at 2-position of the thiophene ring, resonates as a doublet of doublet $( J _ { 2 . 5 } = 2 . 0 \\mathrm { H z } , J _ { 2 . 4 } = 1 . 0 \\mathrm { H z } )$at 7.2 ppm. Two doublets were observed for hydrogens at 4- and 5-positions of thiophene ring at 7.0 ppm $( J _ { 4 . 5 } = 4 . 5 \\ : \\mathrm { H z } ,$$J _ { 4 . 2 } = 1 . 0 \\ : \\mathrm { H z } )$and at 7.3 ppm $( J _ { 5 . 4 } = 4 . 5 \\ : \\mathrm { H z }$$J _ { 2 . 5 } = 2 . 0 \\ : \\mathrm { H z } )$, respectively.",
+      "merged_source_block_ids": [
+        "P_3_42",
+        "V2_3_2_1",
+        "V2_3_2_3",
+        "V2_3_2_4",
+        "V2_3_2_6",
+        "V2_3_2_7"
+      ],
+      "section": "3.1. <sup>1</sup>H NMR spectra"
+    },
+    {
+      "block_id": "P_3_43",
+      "page_id": 3,
+      "block_index": 43,
+      "element_type": "title",
+      "bbox": [
+        60,
+        424,
+        255,
+        440
+      ],
+      "alignment_status": "matched",
+      "text": "3.2. Cyclic voltammetry",
+      "title_level": 2,
+      "section": "3.2. Cyclic voltammetry"
+    },
+    {
+      "block_id": "P_3_44",
+      "page_id": 3,
+      "block_index": 44,
+      "element_type": "text",
+      "bbox": [
+        60,
+        456,
+        477,
+        539
+      ],
+      "alignment_status": "matched",
+      "text": "Cyclic voltammetry (CV) of TMPMT in acetonitrile (AN) showed an oxidation peak (+1.2 V) with decreasing current for consequent runs. This decrease in the peak intensity with continuous scan implies a loss of electroactivity. Upon addition of",
+      "section": "3.2. Cyclic voltammetry"
+    },
+    {
+      "block_id": "P_3_45",
+      "page_id": 3,
+      "block_index": 45,
+      "element_type": "text",
+      "bbox": [
+        509,
+        86,
+        928,
+        216
+      ],
+      "alignment_status": "matched",
+      "text": "BFEE, in addition to monomer peak, an oxidation peak at +0.8 V and a reduction peak at +0.4 V appeared. This redox behavior was completely different than that of pure thiophene, which gives an oxidation peak at +1.1 V, and a reduction peak at +0.7 V in the same medium (Fig. 2). This diferent behavior from pure PTh may serve as an indication for the copolymer formation.",
+      "section": "3.2. Cyclic voltammetry"
+    },
+    {
+      "block_id": "P_3_46",
+      "page_id": 3,
+      "block_index": 46,
+      "element_type": "title",
+      "bbox": [
+        512,
+        231,
+        659,
+        247
+      ],
+      "alignment_status": "matched",
+      "text": "3.3. FTIR spectra",
+      "title_level": 2,
+      "section": "3.3. FTIR spectra"
+    },
+    {
+      "block_id": "P_3_47",
+      "page_id": 3,
+      "block_index": 47,
+      "element_type": "text",
+      "bbox": [
+        509,
+        262,
+        928,
+        540
+      ],
+      "alignment_status": "matched",
+      "text": "Infrared (IR) spectrum of 3-{[4-(thien-3-yl-methoxy)phenoxy]methyl}thiophene gives the expected characteristic peaks. The strong peaks at $7 6 9 \\mathrm { c m } ^ { - 1 }$and the weak one at 3093 $\\mathrm { c m } ^ { - 1 }$correspond to the benzene ring hydrogens. The intense peak appeared at $8 1 2 \\mathrm { c m } ^ { - 1 }$is the vibration peak of two neighboring benzene hydrogens, shading the peaks due to the C– O–C symmetric and asymmetric stretching at around $1 2 3 1 \\mathrm { { c m } ^ { - 1 } }$and $1 1 0 9 \\mathrm { c m } ^ { - 1 }$. The strong peak at 1508 cm<sup>-1</sup> belongs to @C–H stretching of the aromatic thiophene ring. The C–H stretching peaks appeared at $2 9 0 9 \\mathrm { c m } ^ { - 1 }$and $2 8 6 3 \\mathrm { c m } ^ { - 1 }$. In the infrared spectrum of P(TMPMT-co-Th) 1697 $\\mathrm { c m } ^ { - 1 }$stands for the conjugation along the chain. C–O–C stretching peak still existed at $1 2 \\overline { { 1 } } 9 \\mathrm { c m } ^ { - 1 }$, but not as strong as in the monomer. The sharp peak at $7 7 2 \\mathrm { c m } ^ { - 1 }$indicated the presence of $\\mathrm { P F } _ { 6 } ^ { - }$, the dopant anion.",
+      "merged_source_block_ids": [
+        "P_3_47",
+        "V2_3_7_1",
+        "V2_3_7_3",
+        "V2_3_7_5",
+        "V2_3_7_7",
+        "V2_3_7_9",
+        "V2_3_7_11",
+        "V2_3_7_13",
+        "V2_3_7_15",
+        "V2_3_7_17",
+        "V2_3_7_19",
+        "V2_3_7_21"
+      ],
+      "section": "3.3. FTIR spectra"
+    },
+    {
+      "block_id": "I_3_48",
+      "page_id": 3,
+      "block_index": 48,
+      "element_type": "image",
+      "bbox": [
+        178,
+        570,
+        803,
+        902
+      ],
+      "alignment_status": "matched",
+      "image_kind": "chart",
+      "caption": "Fig. 1. <sup>1</sup>H NMR spectrum of 3-{[4-(thien-3-yl-methoxy)phenoxy]methyl}thiophene.",
+      "image_path": "wenxian/reference_no_0033617/images/fig1.jpg"
+    },
+    {
+      "block_id": "I_4_51",
+      "page_id": 4,
+      "block_index": 51,
+      "element_type": "image",
+      "bbox": [
+        674,
+        88,
+        845,
+        412
+      ],
+      "alignment_status": "matched",
+      "image_kind": "chart",
+      "caption": null,
+      "image_path": "wenxian/reference_no_0033617/images/fig2.jpg"
+    },
+    {
+      "block_id": "I_4_52",
+      "page_id": 4,
+      "block_index": 52,
+      "element_type": "image",
+      "bbox": [
+        163,
+        92,
+        468,
+        411
+      ],
+      "alignment_status": "matched",
+      "image_kind": "chart",
+      "caption": null,
+      "image_path": "wenxian/reference_no_0033617/images/fig3.jpg"
+    },
+    {
+      "block_id": "I_4_53",
+      "page_id": 4,
+      "block_index": 53,
+      "element_type": "image",
+      "bbox": [
+        483,
+        94,
+        665,
+        411
+      ],
+      "alignment_status": "matched",
+      "image_kind": "chart",
+      "caption": "Fig. 2. Cyclic voltammograms of (a) PMTMP in TFAFB/AN medium, (b) P(TMPMT-co-Th), and (c) PTh in TBAFB/BFEE/AN solution.",
+      "image_path": "wenxian/reference_no_0033617/images/fig2.jpg"
+    },
+    {
+      "block_id": "P_4_54",
+      "page_id": 4,
+      "block_index": 54,
+      "element_type": "title",
+      "bbox": [
+        69,
+        493,
+        281,
+        510
+      ],
+      "alignment_status": "matched",
+      "text": "3.4. Morphologies of films",
+      "title_level": 2,
+      "section": "3.4. Morphologies of films"
+    },
+    {
+      "block_id": "P_4_55",
+      "page_id": 4,
+      "block_index": 55,
+      "element_type": "text",
+      "bbox": [
+        68,
+        524,
+        485,
+        623
+      ],
+      "alignment_status": "matched",
+      "text": "SEM micrograph of solution side of P(TMPMTco-Th) film showed homogenous compact structures in granular form (Fig. 3(a)). The solution side of film was significantly diferent than that of pristine polythiophene (Fig. 3(b)) which might be considered as a further proof of copolymerization.",
+      "section": "3.4. Morphologies of films"
+    },
+    {
+      "block_id": "P_4_56",
+      "page_id": 4,
+      "block_index": 56,
+      "element_type": "title",
+      "bbox": [
+        69,
+        636,
+        209,
+        653
+      ],
+      "alignment_status": "matched",
+      "text": "3.5. Conductivity",
+      "title_level": 2,
+      "section": "3.5. Conductivity"
+    },
+    {
+      "block_id": "P_4_57",
+      "page_id": 4,
+      "block_index": 57,
+      "element_type": "text",
+      "bbox": [
+        69,
+        668,
+        485,
+        749
+      ],
+      "alignment_status": "matched",
+      "text": "For $\\mathrm { B F _ { 4 } ^ { - } }$doped copolymer film, the conductivity of the both solution and electrode sides were measured by the standard four-probe technique. The conductivity of copolymer was found as 1.7 · $1 0 ^ { - 2 } \\mathrm { S } / \\mathrm { c m }$",
+      "merged_source_block_ids": [
+        "P_4_57",
+        "V2_4_6_1",
+        "V2_4_6_3"
+      ],
+      "section": "3.5. Conductivity"
+    },
+    {
+      "block_id": "P_4_58",
+      "page_id": 4,
+      "block_index": 58,
+      "element_type": "title",
+      "bbox": [
+        69,
+        762,
+        406,
+        796
+      ],
+      "alignment_status": "matched",
+      "text": "3.6. Spectroelectrochemistry of conducting copolymer",
+      "title_level": 2,
+      "section": "3.6. Spectroelectrochemistry of conducting copolymer"
+    },
+    {
+      "block_id": "P_4_59",
+      "page_id": 4,
+      "block_index": 59,
+      "element_type": "text",
+      "bbox": [
+        68,
+        811,
+        485,
+        925
+      ],
+      "alignment_status": "matched",
+      "text": "The redox switching of polymers results in the change of the optical properties which can be examined through spectroelectrochemistry. Spectroelectrochemistry experiments reveal the unique and important properties of conjugated polymers, such as band gap $( E _ { \\mathrm { g } } )$and $\\lambda _ { \\mathrm { m a x } } .$The film deposited onto ITO coated glass electrode was placed in a UV cuvette for UV–Vis experiment after it is washed with monomer free electrolyte solution. While potential was ranging between 0.0 V and +1.0 V, the absorbance versus wavelength relation was in situ monitored (Fig. 4). The $\\lambda _ { \\mathrm { m a x } }$and the energy gap values of the copolymer were determined and reported in Table 1. P(TMPMT-co-Th) has an absorbance at 427 nm $\\left( \\lambda _ { \\mathrm { m a x } } \\right)$with a band gap (the onset energy for the $\\pi { - } \\pi ^ { * }$transition) $( E _ { \\mathrm { g } } )$of 2.20 eV.",
+      "merged_source_block_ids": [
+        "P_4_59",
+        "V2_4_8_1",
+        "V2_4_8_3",
+        "V2_4_8_5",
+        "V2_4_8_7",
+        "V2_4_8_9",
+        "V2_4_8_11"
+      ],
+      "section": "3.6. Spectroelectrochemistry of conducting copolymer"
+    },
+    {
+      "block_id": "I_4_60",
+      "page_id": 4,
+      "block_index": 60,
+      "element_type": "image",
+      "bbox": [
+        566,
+        502,
+        889,
+        898
+      ],
+      "alignment_status": "matched",
+      "image_kind": "image",
+      "caption": "Fig. 3. SEM micrographs of (a) P(TMPMT-co-Th) and (b) PTh.",
+      "image_path": "wenxian/reference_no_0033617/images/fig3.jpg"
+    },
+    {
+      "block_id": "I_5_63",
+      "page_id": 5,
+      "block_index": 63,
+      "element_type": "image",
+      "bbox": [
+        150,
+        87,
+        847,
+        361
+      ],
+      "alignment_status": "matched",
+      "image_kind": "chart",
+      "caption": "Fig. 4. Spectroelectrochemistry of P(TMPMT-co-PTh) synthesized in BFEE potentiostatically on ITO coated glass as a function of wavelength at applied potentials between 0.0 V and +1.0 in 0.1 M TBAFB/AN.",
+      "image_path": "wenxian/reference_no_0033617/images/fig4.jpg"
+    },
+    {
+      "block_id": "T_5_64",
+      "page_id": 5,
+      "block_index": 64,
+      "element_type": "table",
+      "bbox": [
+        62,
+        451,
+        474,
+        530
+      ],
+      "alignment_status": "matched",
+      "caption": "Electrochromic Properties of P(TMPMT-co-Th) and PTh",
+      "table_body": "<table><tr><td></td><td>L</td><td>a</td><td>b</td></tr><tr><td rowspan=\"2\">P(TMPMT-co-Th)</td><td>Ox = 47</td><td>Ox = -4</td><td>Ox = 8</td></tr><tr><td>Red = 53</td><td>Red = 1</td><td>Red = 21</td></tr><tr><td rowspan=\"2\">P(TMPMT-co-Th)/PEDOT</td><td>Ox = 53</td><td>Ox = -3</td><td>Ox = -13</td></tr><tr><td>Red = 62</td><td>Red = -2</td><td>Red = 4</td></tr></table>",
+      "image_path": "wenxian/reference_no_0033617/images/table1.jpg"
+    },
+    {
+      "block_id": "P_5_65",
+      "page_id": 5,
+      "block_index": 65,
+      "element_type": "text",
+      "bbox": [
+        60,
+        601,
+        477,
+        749
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "3.6. Spectroelectrochemistry of conducting copolymer"
+    },
+    {
+      "block_id": "P_5_66",
+      "page_id": 5,
+      "block_index": 66,
+      "element_type": "title",
+      "bbox": [
+        60,
+        762,
+        404,
+        780
+      ],
+      "alignment_status": "matched",
+      "text": "3.7. Electrochromic switching of copolymer",
+      "title_level": 2,
+      "section": "3.7. Electrochromic switching of copolymer"
+    },
+    {
+      "block_id": "P_5_67",
+      "page_id": 5,
+      "block_index": 67,
+      "element_type": "text",
+      "bbox": [
+        60,
+        793,
+        477,
+        925
+      ],
+      "alignment_status": "matched",
+      "text": "One of the most important ability of a polymer is to switch rapidly and exhibit a striking color change. Electrochromic switching studies can monitor these types of properties. Switching times and contrast in polymers are determined via squarewave potential step method coupled with optical spectroscopy. For that purpose potential was given at an initial potential for a given period of time, and kept at a second potential for the same period of time before being switched back to the initial potential. The % optical contrast (%DT) was measured using a UV–Vis spectrophotometer. The polymer film was synthesized on ITO-coated glass under constant potential. %T is monitored at 427 nm while the potential was switched from 0.0 to +1.0 V. The contrast between the reduced and oxidized states was found as 8% (Fig. 5). The switching time between the two states was 2.0 s.",
+      "section": "3.7. Electrochromic switching of copolymer"
+    },
+    {
+      "block_id": "P_5_68",
+      "page_id": 5,
+      "block_index": 68,
+      "element_type": "text",
+      "bbox": [
+        509,
+        425,
+        928,
+        587
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "3.7. Electrochromic switching of copolymer"
+    },
+    {
+      "block_id": "P_5_69",
+      "page_id": 5,
+      "block_index": 69,
+      "element_type": "title",
+      "bbox": [
+        511,
+        602,
+        806,
+        618
+      ],
+      "alignment_status": "matched",
+      "text": "3.8. Spectroelectrochemistry of ECD",
+      "title_level": 2,
+      "section": "3.8. Spectroelectrochemistry of ECD"
+    },
+    {
+      "block_id": "P_5_70",
+      "page_id": 5,
+      "block_index": 70,
+      "element_type": "text",
+      "bbox": [
+        509,
+        634,
+        928,
+        925
+      ],
+      "alignment_status": "matched",
+      "text": "To examine the optical changes of the P(TMPMT-co-Th)/PEDOT device during doping and dedoping cycles, spectroelectrochemistry studies were carried out. The spectra of P(TMPMTco-Th)/PEDOT device at voltages between 0.0 and +2.8 V are shown in Fig. 6. Alternation of the color from brown to blue was observed upon stepwise increase of the applied potential from 0.0 to +2.8 V. Due to $\\pi { - } \\pi ^ { * }$electronic transition, a maximum absorbance at 445 nm is observed. At 0.0 V, PEDOT layer was in oxidized state, giving a transparent sky blue color and the color of the ECD was dominated by the copolymer, which was in its neutral state. At potentials beyond +2.0 V, the PEDOT starts to dominate and evolution of a new peak at around 628 nm due to $\\pi { - } \\pi ^ { * }$transition was monitored. With the application of +2.8 V, the copolymer was fully oxidized where as, the PEDOT layer was in its neutral state, and thus, at this voltage the color of the ECD was blue.",
+      "merged_source_block_ids": [
+        "P_5_70",
+        "V2_5_7_1",
+        "V2_5_7_3"
+      ],
+      "section": "3.8. Spectroelectrochemistry of ECD"
+    },
+    {
+      "block_id": "I_6_73",
+      "page_id": 6,
+      "block_index": 73,
+      "element_type": "image",
+      "bbox": [
+        156,
+        86,
+        851,
+        351
+      ],
+      "alignment_status": "matched",
+      "image_kind": "chart",
+      "caption": "Fig. 5. Electrochromic switching, optical absorbance monitored at 427 nm for P(TMPMT-co-Th) in TBAFB/BFEE/AN.",
+      "image_path": "wenxian/reference_no_0033617/images/fig5.jpg"
+    },
+    {
+      "block_id": "I_6_74",
+      "page_id": 6,
+      "block_index": 74,
+      "element_type": "image",
+      "bbox": [
+        156,
+        398,
+        849,
+        672
+      ],
+      "alignment_status": "matched",
+      "image_kind": "chart",
+      "caption": "Fig. 6. Optoelectrochemical spectrum of P(TMPMT-co-Th)/PEDOT ECD at applied potentials between 0.0 V and +2.8 V.",
+      "image_path": "wenxian/reference_no_0033617/images/fig6.jpg"
+    },
+    {
+      "block_id": "P_6_75",
+      "page_id": 6,
+      "block_index": 75,
+      "element_type": "text",
+      "bbox": [
+        68,
+        714,
+        483,
+        747
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "3.8. Spectroelectrochemistry of ECD"
+    },
+    {
+      "block_id": "P_6_76",
+      "page_id": 6,
+      "block_index": 76,
+      "element_type": "title",
+      "bbox": [
+        69,
+        762,
+        255,
+        778
+      ],
+      "alignment_status": "matched",
+      "text": "3.9. Switching of ECD",
+      "title_level": 2,
+      "section": "3.9. Switching of ECD"
+    },
+    {
+      "block_id": "P_6_77",
+      "page_id": 6,
+      "block_index": 77,
+      "element_type": "text",
+      "bbox": [
+        68,
+        793,
+        485,
+        925
+      ],
+      "alignment_status": "matched",
+      "text": "Kinetic studies were done in order to determine the response time needed to perform switching between the two colored states and the optical contrast of P(TMPMT-co-Th)/PEDOT device. In this experiment, the potential was stepped between 0.0 V and +2.8 V with a residence time of 5 s at each potential. The switching time was calculated as 1.4 s at 95% of the maximum transmittance and the optical contrast, monitored at 445 nm, was calculated as 2%. Fig. 7 shows transmittance–time profiles of the ECD.",
+      "section": "3.9. Switching of ECD"
+    },
+    {
+      "block_id": "P_6_78",
+      "page_id": 6,
+      "block_index": 78,
+      "element_type": "text",
+      "bbox": [
+        518,
+        714,
+        935,
+        762
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "3.9. Switching of ECD"
+    },
+    {
+      "block_id": "P_6_79",
+      "page_id": 6,
+      "block_index": 79,
+      "element_type": "title",
+      "bbox": [
+        520,
+        778,
+        639,
+        796
+      ],
+      "alignment_status": "matched",
+      "text": "3.10. Stability",
+      "title_level": 2,
+      "section": "3.10. Stability"
+    },
+    {
+      "block_id": "P_6_80",
+      "page_id": 6,
+      "block_index": 80,
+      "element_type": "text",
+      "bbox": [
+        516,
+        809,
+        937,
+        925
+      ],
+      "alignment_status": "matched",
+      "text": "Long life times in the electrochromic applications are one of the most important targets in the construction of ECDs. Cyclic voltammetry was employed in order to evaluate redox stability of the device under atmospheric conditions. The voltage of the device was continuously swept between 0.0 V and 2.8 V with 500 mV/s scan rate and cyclic voltammetry was monitored. As seen in Fig. 8, P(TMPMT-co-Th)/PEDOT could be repeatedly switched up to 500 cycles retaining most (85%) of its electroactivity.",
+      "section": "3.10. Stability"
+    },
+    {
+      "block_id": "I_7_83",
+      "page_id": 7,
+      "block_index": 83,
+      "element_type": "image",
+      "bbox": [
+        143,
+        84,
+        849,
+        343
+      ],
+      "alignment_status": "matched",
+      "image_kind": "chart",
+      "caption": "Fig. 7. Electrochromic switching, optical absorbance monitored at 445 nm for P(TMPMT-co-Th)/PEDOT ECD between 0.0 V and +2.8 V.",
+      "image_path": "wenxian/reference_no_0033617/images/fig7.jpg"
+    },
+    {
+      "block_id": "I_7_84",
+      "page_id": 7,
+      "block_index": 84,
+      "element_type": "image",
+      "bbox": [
+        156,
+        402,
+        823,
+        692
+      ],
+      "alignment_status": "matched",
+      "image_kind": "chart",
+      "caption": "Fig. 8. Cyclic voltammogram of P(TMPMT-co-Th)/PEDOT ECD as a function of repeated scans at 500 mV/s: 1st cycle (plain), after 500th cycle (dash).",
+      "image_path": "wenxian/reference_no_0033617/images/fig8.jpg"
+    },
+    {
+      "block_id": "P_7_85",
+      "page_id": 7,
+      "block_index": 85,
+      "element_type": "text",
+      "bbox": [
+        60,
+        746,
+        477,
+        812
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "3.10. Stability"
+    },
+    {
+      "block_id": "P_7_86",
+      "page_id": 7,
+      "block_index": 86,
+      "element_type": "title",
+      "bbox": [
+        62,
+        827,
+        277,
+        843
+      ],
+      "alignment_status": "matched",
+      "text": "3.11. Open circuit stability",
+      "title_level": 2,
+      "section": "3.11. Open circuit stability"
+    },
+    {
+      "block_id": "P_7_87",
+      "page_id": 7,
+      "block_index": 87,
+      "element_type": "text",
+      "bbox": [
+        60,
+        859,
+        477,
+        925
+      ],
+      "alignment_status": "matched",
+      "text": "The time during which an electrochromic material retains its color without applying potential is called the optical memory. The ECD was polarized in the brown/blue states by an applied pulse (0.0 V/2.8 V, brown/blue colored states, respectively) for 1 s and then kept under open circuit conditions for 100 s while the optical spectrum at 445 nm was monitored (Fig. 9) as a function of time.",
+      "section": "3.11. Open circuit stability"
+    },
+    {
+      "block_id": "P_7_88",
+      "page_id": 7,
+      "block_index": 88,
+      "element_type": "text",
+      "bbox": [
+        509,
+        746,
+        928,
+        828
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "3.11. Open circuit stability"
+    },
+    {
+      "block_id": "P_7_89",
+      "page_id": 7,
+      "block_index": 89,
+      "element_type": "title",
+      "bbox": [
+        511,
+        843,
+        658,
+        859
+      ],
+      "alignment_status": "matched",
+      "text": "3.12. Colorimetry",
+      "title_level": 2,
+      "section": "3.12. Colorimetry"
+    },
+    {
+      "block_id": "P_7_90",
+      "page_id": 7,
+      "block_index": 90,
+      "element_type": "text",
+      "bbox": [
+        509,
+        874,
+        928,
+        925
+      ],
+      "alignment_status": "matched",
+      "text": "Colorimetry was used as a quantitative scale to define and compare colors which allows matching the colors in electrochromic devices. Color is made up of three attributes; hue, saturation and luminance. Colorimetry measurements were performed in the same electrolyte system. The luminance (L) and a and b values were measured and given in Table 1.",
+      "section": "3.12. Colorimetry"
+    },
+    {
+      "block_id": "I_8_93",
+      "page_id": 8,
+      "block_index": 93,
+      "element_type": "image",
+      "bbox": [
+        143,
+        88,
+        852,
+        376
+      ],
+      "alignment_status": "matched",
+      "image_kind": "chart",
+      "caption": "Fig. 9. Open circuit memory of P(TMPMT-co-Th)/PEDOT ECD monitored by single wavelength absorbtion spectroscopy at 626 nm. 0.0 V and +2.8 V pulse are applied for 1 s for every 100 s to recover the initial transmittance.",
+      "image_path": "wenxian/reference_no_0033617/images/fig9.jpg"
+    },
+    {
+      "block_id": "P_8_94",
+      "page_id": 8,
+      "block_index": 94,
+      "element_type": "text",
+      "bbox": [
+        69,
+        433,
+        483,
+        514
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "3.12. Colorimetry"
+    },
+    {
+      "block_id": "P_8_95",
+      "page_id": 8,
+      "block_index": 95,
+      "element_type": "title",
+      "bbox": [
+        69,
+        541,
+        181,
+        557
+      ],
+      "alignment_status": "matched",
+      "text": "4. Conclusion",
+      "title_level": 2,
+      "section": "4. Conclusion"
+    },
+    {
+      "block_id": "P_8_96",
+      "page_id": 8,
+      "block_index": 96,
+      "element_type": "text",
+      "bbox": [
+        68,
+        572,
+        485,
+        832
+      ],
+      "alignment_status": "matched",
+      "text": "The synthesis of 3-{[4-(thien-3-yl-methoxy)phenoxy]methyl}thiophene (TMPMT), and its copolymer with thiophene were successfully accomplished. Spectroelectrochemistry experiments revealed out that $\\pi - \\pi ^ { * }$transition and polaron formations occurred at 427 nm and 642 nm respectively and band gap energy was calculated as 2.20 eV. P(TMPMTco-Th)/PEDOT electrochromic device was assembled in sandwich configuration: ITO coated glass/ anodically coloring polymer [P(TMPMT-co-Th)]kgel electrolytek cathodically coloring polymer PEDOT/ITO coated glass. The switching voltages were 0.0 V and +2.6 V. Switching time and optical contrast were found as 1.4 s and 2% respectively. The ECD showed good redox stability and optimal optical memory under atmospheric conditions.",
+      "merged_source_block_ids": [
+        "P_8_96",
+        "V2_8_3_1"
+      ],
+      "section": "4. Conclusion"
+    },
+    {
+      "block_id": "P_8_97",
+      "page_id": 8,
+      "block_index": 97,
+      "element_type": "title",
+      "bbox": [
+        69,
+        859,
+        222,
+        874
+      ],
+      "alignment_status": "matched",
+      "text": "Acknowledgements",
+      "title_level": 2,
+      "section": "Acknowledgements"
+    },
+    {
+      "block_id": "P_8_98",
+      "page_id": 8,
+      "block_index": 98,
+      "element_type": "text",
+      "bbox": [
+        69,
+        890,
+        481,
+        923
+      ],
+      "alignment_status": "matched",
+      "text": "Authors gratefully thank DPT-2005K120580, METU-BAP-2005-01-03-06 and TUBA grants.",
+      "section": "Acknowledgements"
+    },
+    {
+      "block_id": "P_8_99",
+      "page_id": 8,
+      "block_index": 99,
+      "element_type": "title",
+      "bbox": [
+        522,
+        433,
+        610,
+        448
+      ],
+      "alignment_status": "matched",
+      "text": "References",
+      "title_level": 2,
+      "section": "References"
+    },
+    {
+      "block_id": "R_8_100",
+      "page_id": 8,
+      "block_index": 100,
+      "element_type": "references",
+      "bbox": [
+        529,
+        464,
+        933,
+        517
+      ],
+      "alignment_status": "matched",
+      "text": "[1] Bingol B, Guner Y, Cirpan A, Toppare L. Synthesis and characterization of thiophen-3-yl acetic acid 4-pyrrol-1-yl phenyl ester and its conducting polymers. Int J Polym Mater 2005;54(8):713–30.",
+      "section": "References"
+    },
+    {
+      "block_id": "R_8_101",
+      "page_id": 8,
+      "block_index": 101,
+      "element_type": "references",
+      "bbox": [
+        529,
+        518,
+        933,
+        557
+      ],
+      "alignment_status": "matched",
+      "text": "[2] Mermilliod N, Tanguy J. A study of chemically synthesized polypyrrole as electrode material for battery applications. J Electrochem Soc 1986;133(6):1073–9.",
+      "section": "References"
+    },
+    {
+      "block_id": "R_8_102",
+      "page_id": 8,
+      "block_index": 102,
+      "element_type": "references",
+      "bbox": [
+        529,
+        559,
+        933,
+        611
+      ],
+      "alignment_status": "matched",
+      "text": "[3] Kiralp S, Toppare L, Yagci Y. Immobilization of polyphenol oxidase in conducting copolymers and determination of phenolic compounds in wines with enzyme electrodes. Int J Biol Macromol 2003;33(1–3):37–41.",
+      "section": "References"
+    },
+    {
+      "block_id": "R_8_103",
+      "page_id": 8,
+      "block_index": 103,
+      "element_type": "references",
+      "bbox": [
+        529,
+        613,
+        933,
+        652
+      ],
+      "alignment_status": "matched",
+      "text": "[4] Hacarlioglu P, Toppare L, Yilmaz L. Polycarbonate-polypyrrole mixed matrix gas separation membranes. J Membr Sci 2003;225(1–2):51–62.",
+      "section": "References"
+    },
+    {
+      "block_id": "R_8_104",
+      "page_id": 8,
+      "block_index": 104,
+      "element_type": "references",
+      "bbox": [
+        529,
+        653,
+        933,
+        704
+      ],
+      "alignment_status": "matched",
+      "text": "[5] Yildiz HB, Kiralp S, Toppare L, Yagci Y. Immobilization of tyrosinase in poly(ethyleneoxide) electrodes and determination of phenolics in red wines. Reac Funct Polym 2005;63(2): 155–61.",
+      "section": "References"
+    },
+    {
+      "block_id": "R_8_105",
+      "page_id": 8,
+      "block_index": 105,
+      "element_type": "references",
+      "bbox": [
+        529,
+        707,
+        933,
+        746
+      ],
+      "alignment_status": "matched",
+      "text": "[6] Thompson BC, Schottland P, Zong K, Reynolds JR. In situ colorimetric analysis of electrochromic polymers and devices. Chem Mater 2000;12(6):1563–71.",
+      "section": "References"
+    },
+    {
+      "block_id": "R_8_106",
+      "page_id": 8,
+      "block_index": 106,
+      "element_type": "references",
+      "bbox": [
+        529,
+        747,
+        933,
+        785
+      ],
+      "alignment_status": "matched",
+      "text": "[7] Somani PR, Radhakrisnan S. Electrochromic materials and devices: present and future. Mater Chem Phys 2001;77(1): 117–33.",
+      "section": "References"
+    },
+    {
+      "block_id": "R_8_107",
+      "page_id": 8,
+      "block_index": 107,
+      "element_type": "references",
+      "bbox": [
+        529,
+        787,
+        933,
+        840
+      ],
+      "alignment_status": "matched",
+      "text": "[8] Cirpan A, Argun AA, Grenier CRG, Reeves BD, Reynolds JR. Electrochromic devices based on soluble and processable dioxythiophene polymers. J Mater Chem 2003;13(10): 2422–8.",
+      "section": "References"
+    },
+    {
+      "block_id": "R_8_108",
+      "page_id": 8,
+      "block_index": 108,
+      "element_type": "references",
+      "bbox": [
+        529,
+        840,
+        933,
+        893
+      ],
+      "alignment_status": "matched",
+      "text": "[9] Sahin E, Camurlu P, Toppare L, Mercore VM, Cianga I, Yagci Y. Conducting copolymers of thiophene functional ized polystyrenes with thiophene. J Electroanal Chem 2005; 579(2):189–97",
+      "section": "References"
+    },
+    {
+      "block_id": "R_8_109",
+      "page_id": 8,
+      "block_index": 109,
+      "element_type": "references",
+      "bbox": [
+        522,
+        894,
+        933,
+        920
+      ],
+      "alignment_status": "matched",
+      "text": "[10] Campaigne E, LeSuer WM. 3-Substituted Thiophenes. JACS 1948;70:1555–8.",
+      "section": "References"
+    }
+  ],
+  "warnings": [
+    {
+      "code": "legacy_manifest_missing_options",
+      "message": "旧 manifest 缺少 OCR 选项，已按 null 保留：ocr_enabled, language, page_ranges, enable_formula, enable_table, extra_formats"
+    }
+  ]
+}

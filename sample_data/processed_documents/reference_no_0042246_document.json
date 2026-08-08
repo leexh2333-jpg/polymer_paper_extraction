@@ -1,0 +1,1945 @@
+{
+  "schema_version": "1.0",
+  "document_id": "reference_no_0042246",
+  "paper": {
+    "ref_no": "reference_no_0042246",
+    "pdf_filename": "dcc84ee0-0e82-4079-a54a-c0c33ccb82e5_origin.pdf",
+    "source_pdf_path": "mineru/reference_no_0042246/dcc84ee0-0e82-4079-a54a-c0c33ccb82e5_origin.pdf",
+    "organized_pdf_path": "organized/reference_no_0042246/origin.pdf",
+    "doi": null,
+    "title": null,
+    "authors": null,
+    "journal": null,
+    "year": null,
+    "metadata_status": "failed",
+    "metadata_extraction": {
+      "method": "llm",
+      "provider": null,
+      "model": null,
+      "prompt_file": "prompts/meta_extract.md",
+      "prompt_sha256": "98252486e4f9cdfd1b42ea02b7e01440d6be99c99d18720dc71c95aa1643fcd4",
+      "source_pages": [
+        0,
+        1
+      ],
+      "status": "failed",
+      "error_type": "MetaExtractorUnavailable"
+    }
+  },
+  "source_files": {
+    "markdown": "reference_no_0042246.md",
+    "content_v1": "content.json",
+    "content_v2": "content_v2.json",
+    "pdf": "origin.pdf"
+  },
+  "ocr": {
+    "engine": "mineru",
+    "batch_id": "122ff743-eb66-4583-986f-6c8015953309",
+    "model_version": "vlm",
+    "ocr_enabled": false,
+    "language": null,
+    "page_ranges": null,
+    "enable_formula": true,
+    "enable_table": true,
+    "extra_formats": [],
+    "status": "done",
+    "manifest_file": "batch_122ff743-eb66-4583-986f-6c8015953309_manifest.json",
+    "status_file": "batch_122ff743-eb66-4583-986f-6c8015953309_status.json"
+  },
+  "elements": [
+    {
+      "block_id": "P_0_0",
+      "page_id": 0,
+      "block_index": 0,
+      "element_type": "title",
+      "bbox": [
+        299,
+        68,
+        867,
+        149
+      ],
+      "alignment_status": "matched",
+      "text": "ミクロスケールの海－島相分離構造を有するNBR/ポリエーテル電解質 ブレンドのイオン伝導性に及ぼす湿度の影響",
+      "title_level": 1,
+      "section": "DocumentTitle"
+    },
+    {
+      "block_id": "P_0_1",
+      "page_id": 0,
+      "block_index": 1,
+      "element_type": "text",
+      "bbox": [
+        510,
+        187,
+        894,
+        206
+      ],
+      "alignment_status": "matched",
+      "text": "富永　洋一＊・浅井　茂雄・住田　雅夫",
+      "section": "ミクロスケールの海－島相分離構造を有するNBR/ポリエーテル電解質 ブレンドのイオン伝導性に及ぼす湿度の影響"
+    },
+    {
+      "block_id": "P_0_2",
+      "page_id": 0,
+      "block_index": 2,
+      "element_type": "title",
+      "bbox": [
+        95,
+        239,
+        899,
+        279
+      ],
+      "alignment_status": "matched",
+      "text": "Effect of Humidity on Ionic Conductivity of NBR/Polyether Electrolyte Blends with Microscale Sea-Island Phase Separation",
+      "title_level": 1,
+      "section": "Effect of Humidity on Ionic Conductivity of NBR/Polyether Electrolyte Blends with Microscale Sea-Island Phase Separation"
+    },
+    {
+      "block_id": "P_0_3",
+      "page_id": 0,
+      "block_index": 3,
+      "element_type": "text",
+      "bbox": [
+        65,
+        298,
+        927,
+        361
+      ],
+      "alignment_status": "matched",
+      "text": "Yoichi TOMINAGA<sup>1＊</sup>, Shigeo ASAI<sup>2</sup>, Masao SUMITA<sup>2</sup> (<sup>1＊</sup>: Department of Symbiotic Science and Technology, Tokyo University of Agriculture and Technology (2-24-16, Naka-cho, Koganei-shi, Tokyo 184-8588, Japan), e-mail: ytominag@cc.tuat.ac.jp <sup>2</sup>: Department of Chemistry and Materials Science, Tokyo Institute of Technology (2-12-1, Ookayama, Meguro-ku, Tokyo 152-8550, Japan)",
+      "section": "Effect of Humidity on Ionic Conductivity of NBR/Polyether Electrolyte Blends with Microscale Sea-Island Phase Separation"
+    },
+    {
+      "block_id": "P_0_4",
+      "page_id": 0,
+      "block_index": 4,
+      "element_type": "text",
+      "bbox": [
+        65,
+        373,
+        927,
+        557
+      ],
+      "alignment_status": "matched",
+      "text": "Novel ion-conductive elastomer blends containing polyether-based solid polymer electrolyte (SPE) were prepared by the radical polymerization of oligo[(ethylene oxide)-co-(propylene oxide)] methacrylate (M(EO/PO)) monomer with $\\mathrm { L i C l O _ { 4 } }$in NBR. Obtained samples showed micro- (or nano-) scale Sea-Island phase separation, which was revealed from the TEM observation in case of $\\mathrm { N B R 1 8 / P M ( E O / P O ) _ { m o n o } \\mathrm { - L i C l O _ { 4 } 5 0 / 5 0 } }$wt% blend, and the DC conductivity under dry $\\mathrm { N _ { 2 } } ~ ( \\sigma _ { \\mathrm { d r y } } )$was approximately $1 0 ^ { - 8 } \\mathrm { { S } \\ c m ^ { - 1 } }$at $2 5 \\ { } ^ { \\circ } \\mathrm { C } .$The difference in the conductivity of blend samples between dry and wet conditions was very small, whereas the conductivity of $\\mathrm { P M ( E O / P O ) } \\mathrm { - L i C l O _ { 4 } }$without NBR under wet condition $( \\sigma _ { \\mathrm { w e t } } )$was 10-times higher than $\\sigma _ { \\mathrm { d r y } }$. Moreover, the $\\sigma _ { \\mathrm { d r y } }$of NBR43 blend sample (NBR43/electrolyte = 30/70 wt%) was higher than that of the neat electrolyte. The complex impedance measurement revealed that AC ionic conductivity of the NBR43 blend sample was $6 . 7 \\mathrm { ~ x ~ } 1 0 ^ { - 6 } \\mathrm { ~ S ~ c m ~ } ^ { - 1 }$at 25 ℃ and the value was approximately 6-times higher than that of the neat electrolyte. This may be caused by accelerated ion-conduction between the electrolyte islands or on the NBR/electrolyte interface where the resistance is very small because of the electrical interactions between Li ions $\\mathrm { ( o r \\ L i ^ { + - } }$polyether complex domains) and nitrile groups of NBR.",
+      "merged_source_block_ids": [
+        "P_0_4",
+        "V2_0_4_1",
+        "V2_0_4_3",
+        "V2_0_4_5",
+        "V2_0_4_7",
+        "V2_0_4_9",
+        "V2_0_4_11",
+        "V2_0_4_13",
+        "V2_0_4_15",
+        "V2_0_4_17",
+        "V2_0_4_19",
+        "V2_0_4_21"
+      ],
+      "section": "Effect of Humidity on Ionic Conductivity of NBR/Polyether Electrolyte Blends with Microscale Sea-Island Phase Separation"
+    },
+    {
+      "block_id": "P_0_5",
+      "page_id": 0,
+      "block_index": 5,
+      "element_type": "text",
+      "bbox": [
+        672,
+        557,
+        926,
+        571
+      ],
+      "alignment_status": "matched",
+      "text": "(Received on January 29, 2009)",
+      "section": "Effect of Humidity on Ionic Conductivity of NBR/Polyether Electrolyte Blends with Microscale Sea-Island Phase Separation"
+    },
+    {
+      "block_id": "P_0_6",
+      "page_id": 0,
+      "block_index": 6,
+      "element_type": "text",
+      "bbox": [
+        694,
+        571,
+        926,
+        587
+      ],
+      "alignment_status": "matched",
+      "text": "(Accepted on August 3, 2009)",
+      "section": "Effect of Humidity on Ionic Conductivity of NBR/Polyether Electrolyte Blends with Microscale Sea-Island Phase Separation"
+    },
+    {
+      "block_id": "P_0_7",
+      "page_id": 0,
+      "block_index": 7,
+      "element_type": "text",
+      "bbox": [
+        67,
+        587,
+        922,
+        617
+      ],
+      "alignment_status": "matched",
+      "text": "Key Words ：Elastomer Blends, Solid Polymer Electrolytes, Lithium Salts, Ionic Conductivity, Morphology, Sea-Island Phase Separation",
+      "section": "Effect of Humidity on Ionic Conductivity of NBR/Polyether Electrolyte Blends with Microscale Sea-Island Phase Separation"
+    },
+    {
+      "block_id": "P_0_8",
+      "page_id": 0,
+      "block_index": 8,
+      "element_type": "title",
+      "bbox": [
+        186,
+        667,
+        238,
+        682
+      ],
+      "alignment_status": "matched",
+      "text": "1. 緒",
+      "title_level": 2,
+      "section": "1. 緒"
+    },
+    {
+      "block_id": "P_0_9",
+      "page_id": 0,
+      "block_index": 9,
+      "element_type": "title",
+      "bbox": [
+        339,
+        668,
+        361,
+        682
+      ],
+      "alignment_status": "matched",
+      "text": "言",
+      "title_level": 2,
+      "section": "言"
+    },
+    {
+      "block_id": "P_0_10",
+      "page_id": 0,
+      "block_index": 10,
+      "element_type": "text",
+      "bbox": [
+        67,
+        695,
+        478,
+        859
+      ],
+      "alignment_status": "matched",
+      "text": "ポリエチレンオキシド（PEO）などのアルキレンオキシド型ポリエーテル類にアルカリ金属塩を溶解させた高分子<sup>1）</sup>は，半結晶性固体やゴム状固体中でもイオン伝導性を発現させることができる新しいソフトイオニクス材料<sup>2）</sup>である．このようなエチレンオキシド（EO）型高分子をベースとする一連の固体高分子電解質（SPE）は，無機や液体電解質に代わる次世代イオン伝導材料であり，高分子型リチウム電池や帯電防止材など，新しい電気･電子材料やデバイスへの応用が期待されている<sup>3―</sup> <sup>6）</sup>．一般的に，電解質材料は無機系と有機系に大別され，それらはさらに固体と液体にそれぞれ分けられる．有機系材料では，プロピレンカルボナートなど高極性の有機溶媒がベースとなった液体材料が主流であり，そこにLi塩を溶解させた電解質溶液がLi二次電池などへ既に実用化されている．高分子を用いた系としては，電解質溶液に使われるような有機溶媒を含浸させたゲル型電解質が実用段階まで来ており，一部はすでにノート型PC用電池などへ実用化されている．しかし，ゲル型電解質は液体系と同様に溶媒漏洩や安全性の懸念が払拭されておらず，またデバイスの軽量化に対する欠点も指摘されており，固体高分子としての利点が十分に活かされていないと言える．これらの液体型やゲル型電解質に匹敵する高いイオン伝導性が固体高分子中で発現できるような新材料が得られれば，これまでに実現することが困難であった全固体型プラスチック電池の開発も夢ではない．また，固体高分子材料としての特性を活かした新しいイオニクス分野への用途開拓も期待される．例えば，イオン伝導性を利用した新しい帯電防止材料，液体材料に依存しないソフトアクチュエーター，高分子型コンデンサーなどである．ところが，これまでのSPEは，液体･ゲル型電解質や無機系電解質などと比較すると1桁以上イオン伝導度が低く，実用化のためには少なくとも室温で $1 0 ^ { - 4 } \\mathrm { ~ S ~ c m } ^ { - }$<sup>―1</sup>以上の高イオン伝導性の発現が必要とされている．さらに，これまでのSPEはEO鎖を基本骨格とするポリエーテルがベースであり，そこに金属塩が溶解しているため，ほとんどの試料は吸湿性が極めて高くなり，使用環境が制限されるSPEのイオン伝導度は湿度環境によって著しく変化するため，実用的な用途が電池などの密閉系に限られてしまう逆に，SPE中へのわずかな水分の混入は，水素結合の影響に $\\downarrow > \\tau$イオン伝導度を低下させるという報告もあ$\\gtrsim 7 )$．このような湿度による影響は，SPEの用途拡大を妨げる大きな要因となっている．したがって，ポリエーテルに依存しない高分子材料の利用が，湿度環境による影響を受けないSPEの開発や新しいイオニクス材料としての用途開拓にもつながると考えられる",
+      "merged_source_block_ids": [
+        "P_0_10",
+        "V2_0_10_1",
+        "V2_0_10_3",
+        "V2_0_10_5"
+      ],
+      "section": "言"
+    },
+    {
+      "block_id": "P_0_11",
+      "page_id": 0,
+      "block_index": 11,
+      "element_type": "text",
+      "bbox": [
+        514,
+        658,
+        927,
+        933
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "言"
+    },
+    {
+      "block_id": "F_0_15",
+      "page_id": 0,
+      "block_index": 15,
+      "element_type": "footnote",
+      "bbox": [
+        68,
+        879,
+        339,
+        892
+      ],
+      "alignment_status": "matched",
+      "text": "<sup>1＊</sup>東京農工大学・大学院共生科学技術研究院",
+      "section": "言"
+    },
+    {
+      "block_id": "F_0_16",
+      "page_id": 0,
+      "block_index": 16,
+      "element_type": "footnote",
+      "bbox": [
+        84,
+        892,
+        312,
+        906
+      ],
+      "alignment_status": "matched",
+      "text": "（〒184―8588 小金井市中町 2―24―16）",
+      "section": "言"
+    },
+    {
+      "block_id": "F_0_17",
+      "page_id": 0,
+      "block_index": 17,
+      "element_type": "footnote",
+      "bbox": [
+        68,
+        904,
+        300,
+        919
+      ],
+      "alignment_status": "matched",
+      "text": "<sup>2</sup> 東京工業大学・大学院理工学研究科",
+      "section": "言"
+    },
+    {
+      "block_id": "F_0_18",
+      "page_id": 0,
+      "block_index": 18,
+      "element_type": "footnote",
+      "bbox": [
+        84,
+        917,
+        342,
+        932
+      ],
+      "alignment_status": "matched",
+      "text": "（〒152―8550 東京都目黒区大岡山2―12―1）",
+      "section": "言"
+    },
+    {
+      "block_id": "P_1_20",
+      "page_id": 1,
+      "block_index": 20,
+      "element_type": "text",
+      "bbox": [
+        67,
+        65,
+        480,
+        432
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "言"
+    },
+    {
+      "block_id": "P_1_21",
+      "page_id": 1,
+      "block_index": 21,
+      "element_type": "text",
+      "bbox": [
+        68,
+        435,
+        480,
+        673
+      ],
+      "alignment_status": "matched",
+      "text": "そこで著者らは，非ポリエーテル系エラストマーの利用およびSPEとのブレンド化による湿度依存性の低減，さらには高いイオン伝導度を実現できる新しいコンセプトの材料開発を目的とした<sup>8―</sup> <sup>10）</sup>．エラストマーは，固体（ゴム）状態で優れた加工性や機械強度を有し，かつ局所的には極めて高い分子運動性を示す唯一の高分子であり，SPEとしての利用は非常に魅力的である．本研究では，用いるエラストマーとして比較的低いガラス転移温度 $( T _ { \\mathrm { g } } )$）と高い極性を併せ持つアクリロニトリル-ブタジエンゴム（NBR）に着目した．NBRのSPEへの研究例は既に幾つか報告されているが<sup>11，12）</sup>，ほとんどは液体電解質を利用した混合系（ゲル）であり，NBR本来の特性を活かした“ドライな”SPEの開発には至っていない",
+      "merged_source_block_ids": [
+        "P_1_21",
+        "V2_1_1_1"
+      ],
+      "section": "言"
+    },
+    {
+      "block_id": "P_1_22",
+      "page_id": 1,
+      "block_index": 22,
+      "element_type": "text",
+      "bbox": [
+        68,
+        677,
+        480,
+        784
+      ],
+      "alignment_status": "matched",
+      "text": "本報告では，様々な組成のNBR/ポリエーテル電解質ブレンドを作製し，それらのイオン伝導性に及ぼす湿度の影響について，ポリエーテルの構造，ブレンド方法，NBR中のアクリロニトリル量，の観点から明らかにした．また，ブレンド体の相分離構造についても解析を行い，イオン伝導度との関連性について検討した",
+      "section": "言"
+    },
+    {
+      "block_id": "P_1_23",
+      "page_id": 1,
+      "block_index": 23,
+      "element_type": "title",
+      "bbox": [
+        184,
+        797,
+        366,
+        812
+      ],
+      "alignment_status": "matched",
+      "text": "2. 実 験",
+      "title_level": 2,
+      "section": "2. 実 験"
+    },
+    {
+      "block_id": "P_1_24",
+      "page_id": 1,
+      "block_index": 24,
+      "element_type": "title",
+      "bbox": [
+        84,
+        825,
+        196,
+        839
+      ],
+      "alignment_status": "matched",
+      "text": "2.1 試料作製",
+      "title_level": 2,
+      "section": "2.1 試料作製"
+    },
+    {
+      "block_id": "P_1_25",
+      "page_id": 1,
+      "block_index": 25,
+      "element_type": "title",
+      "bbox": [
+        84,
+        843,
+        228,
+        857
+      ],
+      "alignment_status": "matched",
+      "text": "2.1.1 材料の準備",
+      "title_level": 2,
+      "section": "2.1.1 材料の準備"
+    },
+    {
+      "block_id": "P_1_26",
+      "page_id": 1,
+      "block_index": 26,
+      "element_type": "text",
+      "bbox": [
+        68,
+        863,
+        478,
+        932
+      ],
+      "alignment_status": "matched",
+      "text": "ベースエラストマーには，日本ゼオンのブタジエンゴム（ムーニー粘度 $\\left( M L _ { 1 + 4 } \\left( 1 0 0 \\mathrm { ~ \\textcircled { ~ } C ~ } \\right) \\right) = 5 6 )$）およびNBRを用いた．NBRには，アクリロニトリル（AN）成分が少ない低ニトリル（NBR18, ムーニー粘度＝32），およびAN成分が多",
+      "merged_source_block_ids": [
+        "P_1_26",
+        "V2_1_6_1"
+      ],
+      "section": "2.1.1 材料の準備"
+    },
+    {
+      "block_id": "P_1_27",
+      "page_id": 1,
+      "block_index": 27,
+      "element_type": "text",
+      "bbox": [
+        559,
+        70,
+        589,
+        80
+      ],
+      "alignment_status": "matched",
+      "text": "PEO",
+      "section": "2.1.1 材料の準備"
+    },
+    {
+      "block_id": "E_1_28",
+      "page_id": 1,
+      "block_index": 28,
+      "element_type": "equation",
+      "bbox": [
+        616,
+        66,
+        737,
+        87
+      ],
+      "alignment_status": "matched",
+      "text": "$$\n- \\left(- \\mathbf {C H} _ {2} - \\mathbf {C H} _ {2} - \\mathbf {O} -\\right) _ {n} -\\tag{P(EO/PO}\n$$",
+      "equation_kind": "display",
+      "section": "2.1.1 材料の準備"
+    },
+    {
+      "block_id": "E_1_29",
+      "page_id": 1,
+      "block_index": 29,
+      "element_type": "equation",
+      "bbox": [
+        625,
+        99,
+        820,
+        129
+      ],
+      "alignment_status": "matched",
+      "text": "$$\n\\left[ \\begin{array}{c} - \\mathsf {C H} _ {2} - \\mathsf {C H} _ {2} - \\mathsf {O} - / - \\mathsf {C H} _ {2} - \\mathsf {C H} - \\mathsf {O} - \\\\ \\mathsf {I} \\\\ \\mathsf {C H} _ {3} \\end{array} \\right] _ {n}\n$$",
+      "equation_kind": "display",
+      "section": "2.1.1 材料の準備"
+    },
+    {
+      "block_id": "I_1_30",
+      "page_id": 1,
+      "block_index": 30,
+      "element_type": "image",
+      "bbox": [
+        539,
+        143,
+        905,
+        206
+      ],
+      "alignment_status": "matched",
+      "image_kind": "image",
+      "caption": "Figure 1 Chemical structures of poly（ethylene oxide）（PEO）, poly［（ethylene oxide）-co（propylene oxide）- ］（P（EO/PO））and poly｛oligo［（ethylene oxide）-co（propylene oxide）-methacrylate｝（PM（EO/PO））.",
+      "image_path": "organized/reference_no_0042246/images/f0c3d1eafa7713a2ebf681eb5eca4b232b673167f20d7b530e79ce2ad7322bb2.jpg"
+    },
+    {
+      "block_id": "P_1_31",
+      "page_id": 1,
+      "block_index": 31,
+      "element_type": "text",
+      "bbox": [
+        515,
+        287,
+        929,
+        562
+      ],
+      "alignment_status": "matched",
+      "text": "い高ニトリル（NBR43, ムーニー粘度＝78）のものをそれぞれ用いた．また，本論文中のブタジエンゴムについては，他のニトリルゴムと表記を統一させるため，略号にNBR0を用いることとする．ポリエーテルには，平均分子量50万のPEO（和光純薬），日本ゼオンのエチレンオキシド（EO）/プロピレンオキシド（PO）共重合体（P（EO/PO），EO成分量88 mol％），ポリ［（オリゴEO/PO）グラフト型メタクリラート］（PM（EO/PO））をそれぞれ用いた．各種ポリエーテルの構造をFigure 1に示す．PM（EO/PO）の合成には，日油のブレンマー 50PEP-300（（オリゴEO/PO）グラフト型メタクリラートモノマー（M（EO/PO）），側鎖の繰り返し数；EO=3，PO=4（<sup>1</sup>H-NMR））を用いた．重合開始剤にはα,α’-アゾビスイソブチロニトリル（AIBN, 関東化学）を，アルカリ金属塩には過塩素酸リチ $\\mathrm { \\Delta \\ l b { ' } \\Delta \\ L i C l O _ { 4 } , }$，無水98％，関東化学）を用いた",
+      "merged_source_block_ids": [
+        "P_1_31",
+        "V2_1_11_1"
+      ],
+      "section": "2.1.1 材料の準備"
+    },
+    {
+      "block_id": "P_1_32",
+      "page_id": 1,
+      "block_index": 32,
+      "element_type": "title",
+      "bbox": [
+        532,
+        565,
+        826,
+        580
+      ],
+      "alignment_status": "matched",
+      "text": "2.1.2 NBR/PEO電解質ブレンドの作製",
+      "title_level": 2,
+      "section": "2.1.2 NBR/PEO電解質ブレンドの作製"
+    },
+    {
+      "block_id": "P_1_33",
+      "page_id": 1,
+      "block_index": 33,
+      "element_type": "text",
+      "bbox": [
+        517,
+        583,
+        929,
+        709
+      ],
+      "alignment_status": "matched",
+      "text": "所定量のNBR，PEO， $\\mathrm { L i C l O _ { 4 } }$を脱水テトラヒドロフラン（THF）に加え，12時間以上かくはんして均一な溶液を得た $\\mathrm { L i C l O _ { 4 } } \\mathcal { V } \\mathrm { f }$，PEOのEOユニットに対するLiイオンの濃度が5 mol％（［Li<sup>+</sup>］/［EO］＝1/20）になるように加えた溶液をテフロン<sup>獏</sup>シャーレ上にキャストし，24時間以上かけて脱溶媒および真空乾燥を繰り返し，厚さ約500μmの均一な膜を得た",
+      "merged_source_block_ids": [
+        "P_1_33",
+        "V2_1_13_1",
+        "V2_1_13_3"
+      ],
+      "section": "2.1.2 NBR/PEO電解質ブレンドの作製"
+    },
+    {
+      "block_id": "P_1_34",
+      "page_id": 1,
+      "block_index": 34,
+      "element_type": "title",
+      "bbox": [
+        532,
+        714,
+        865,
+        728
+      ],
+      "alignment_status": "matched",
+      "text": "2.1.3 NBR/P（EO/PO）電解質ブレンドの作製",
+      "title_level": 2,
+      "section": "2.1.3 NBR/P（EO/PO）電解質ブレンドの作製"
+    },
+    {
+      "block_id": "P_1_35",
+      "page_id": 1,
+      "block_index": 35,
+      "element_type": "text",
+      "bbox": [
+        515,
+        732,
+        929,
+        821
+      ],
+      "alignment_status": "matched",
+      "text": "ポリエーテルにはP（EO/PO）を用い，以降は前述のPEO電解質ブレンドと同様の方法で厚さ約400～800μmの均一な膜を得た $\\mathrm { L i C l O _ { 4 } }$は，P（EO/PO）のEO/POユニットに対するLiイオ $\\sim \\textcircled { \\oslash }$濃度が 5 mol ％（［Li<sup>+</sup>］/［EOPO］＝1/20）になるように加えた",
+      "merged_source_block_ids": [
+        "P_1_35",
+        "V2_1_15_1",
+        "V2_1_15_3"
+      ],
+      "section": "2.1.3 NBR/P（EO/PO）電解質ブレンドの作製"
+    },
+    {
+      "block_id": "P_1_36",
+      "page_id": 1,
+      "block_index": 36,
+      "element_type": "title",
+      "bbox": [
+        532,
+        825,
+        905,
+        839
+      ],
+      "alignment_status": "matched",
+      "text": "2.1.4 NBR/PM（EO/PO）電解質ブレンドの作製－1",
+      "title_level": 2,
+      "section": "2.1.4 NBR/PM（EO/PO）電解質ブレンドの作製－1"
+    },
+    {
+      "block_id": "P_1_37",
+      "page_id": 1,
+      "block_index": 37,
+      "element_type": "text",
+      "bbox": [
+        515,
+        841,
+        929,
+        933
+      ],
+      "alignment_status": "matched",
+      "text": "所定量のM（EO/PO）， $\\mathrm { L i C l O _ { 4 } }$（［Li<sup>+</sup>］［EO］/ ［PO］＝1/20），AIBN（モノマーに対して1 mol％）を脱水THFに加え，12時間以上かくはんして均一な溶液を得た．THF溶液を減圧下で4時間脱溶媒し，得られた粘性液体（M（EO/PO）-$\\mathrm { L i C l O _ { 4 } ) }$を室温で24時間真空乾燥した．M（EO/PO）-",
+      "merged_source_block_ids": [
+        "P_1_37",
+        "V2_1_17_1",
+        "V2_1_17_3"
+      ],
+      "section": "2.1.4 NBR/PM（EO/PO）電解質ブレンドの作製－1"
+    },
+    {
+      "block_id": "P_1_38",
+      "page_id": 1,
+      "block_index": 38,
+      "element_type": "text",
+      "bbox": [
+        862,
+        947,
+        909,
+        960
+      ],
+      "alignment_status": "matched",
+      "text": "（ 12 ）",
+      "section": "2.1.4 NBR/PM（EO/PO）電解質ブレンドの作製－1"
+    },
+    {
+      "block_id": "P_2_42",
+      "page_id": 2,
+      "block_index": 42,
+      "element_type": "text",
+      "bbox": [
+        67,
+        64,
+        478,
+        319
+      ],
+      "alignment_status": "matched",
+      "text": "$\\mathrm { L i C l O _ { 4 } }$をシャーレ上にキャストし，100 ℃のホットプレート上で乾燥 $\\mathrm { N _ { 2 } }$ガスをフローしながら6時間保持して重合させた．得られた電解質（PM（EO/PO）-LiClO ）は，さらに18時間100 ℃で真空乾燥した．PM（EO/PO）-LiClO<sub>4</sub>は，膜形状を保持できる透明な高分子であるが，力学的にはもろく，柔らかい寒天状であった．得られたPM（EO/PO）-$\\mathrm { L i C l O _ { 4 } }$は，細かく砕いて粉状にした．NBRを二軸オープ$ \\cup \\sqsubset  \\pi -  \\pi$を用 $\\textsf { V } ^ { 1 } \\textsf { C } 3 5$℃で5分間素練りし，そこに所定量の粉状PM（ $\\mathrm { ( E O P O ) . L i C l O _ { 4 } }$を5分かけて加え，続いて約80分混練した．以降， $= 0 . 7 V = K$方法により得られた試料を，NBR18/PM（EO/PO）<sub>poly</sub>-LiClO<sub>4</sub>と表記する．混練後のブレンド体を60 ℃，20 MPaの条件で3分間圧縮成形し，24時間真空乾燥して厚さ約500～600μmの均一な膜を得た",
+      "merged_source_block_ids": [
+        "P_2_42",
+        "V2_2_0_0",
+        "V2_2_0_2",
+        "V2_2_0_4",
+        "V2_2_0_6",
+        "V2_2_0_8",
+        "V2_2_0_10",
+        "V2_2_0_12"
+      ],
+      "section": "2.1.4 NBR/PM（EO/PO）電解質ブレンドの作製－1"
+    },
+    {
+      "block_id": "P_2_43",
+      "page_id": 2,
+      "block_index": 43,
+      "element_type": "title",
+      "bbox": [
+        82,
+        325,
+        455,
+        338
+      ],
+      "alignment_status": "matched",
+      "text": "2.1.5 NBR/PM（EO/PO）電解質ブレンドの作製－2",
+      "title_level": 2,
+      "section": "2.1.5 NBR/PM（EO/PO）電解質ブレンドの作製－2"
+    },
+    {
+      "block_id": "P_2_44",
+      "page_id": 2,
+      "block_index": 44,
+      "element_type": "text",
+      "bbox": [
+        67,
+        342,
+        478,
+        562
+      ],
+      "alignment_status": "matched",
+      "text": "所定量の重量比のNBR18（またはNBR0, NBR43）およびM（EO/PO）を，LiClO（［Li<sup>+</sup>］/［EO］［PO］＝1/20）およびAIBN（モノマーに対して1 mol％）とともに脱水THFに加え，均一な溶液を作製した．テフロン<sup>獏</sup>シャーレに注いだTHF溶液を減圧下で4時間脱溶媒し，得られた粘性液体（NBR/M（EO/PO）-LiClO ）を室温で24時間真空乾燥したシャーレ上のNBR混合物を，そのまま100 ℃のホットプレート上で乾燥 $\\mathrm { N _ { 2 } }$ガスをフローしながら6時間保持して重合させた．得られた電解質膜を，さらに18時間100 ℃で真空乾燥させて，厚さ約500～800μmの均一な膜を得た以降，このブレンド方法により得られた試料を，NBR/$\\mathrm { P M ( E O / P O ) } _ { \\mathrm { m o n o } ^ { - } } \\mathrm { L i C l O } _ { 4 }$と表記する",
+      "merged_source_block_ids": [
+        "P_2_44",
+        "V2_2_2_1",
+        "V2_2_2_3"
+      ],
+      "section": "2.1.5 NBR/PM（EO/PO）電解質ブレンドの作製－2"
+    },
+    {
+      "block_id": "P_2_45",
+      "page_id": 2,
+      "block_index": 45,
+      "element_type": "title",
+      "bbox": [
+        82,
+        565,
+        240,
+        580
+      ],
+      "alignment_status": "matched",
+      "text": "2.2 直流伝導度測定",
+      "title_level": 2,
+      "section": "2.2 直流伝導度測定"
+    },
+    {
+      "block_id": "P_2_46",
+      "page_id": 2,
+      "block_index": 46,
+      "element_type": "text",
+      "bbox": [
+        67,
+        583,
+        478,
+        914
+      ],
+      "alignment_status": "matched",
+      "text": "各種ブレンド試料の直流イオン伝導度（σ）は，直流二端子法による体積抵抗率測定から求めた．測定装置には，ピコアンメーター487（Keithley）を用いた．測定対象の各種試料は，均一な厚さの15 mm四方に切り取り，測定セルの作製に用いた．セル用試料の四辺の縁から5 mmの部分をマスキングテープで被覆した後に，中央の10 mm四方に両面ともドータイト<sup>獏</sup>を塗布し，二枚の銅箔で挟んでガラス基板上に固定した．全ての測定セルは，作製後に24時間以上室温で真空乾燥させた．この測定セルを乾燥状態とし，乾燥 $\\mathrm { N _ { 2 } }$ガスをフローしたSUSボックス中で乾燥状態の伝導度（ $( \\sigma _ { \\mathrm { d r y } } )$）を測定した．一方，吸湿状態における伝導度 $( \\sigma _ { \\mathrm { w e t } } )$）は，高湿度環境下に置いた測定セルを大気中に取り出し，直ちにSUSボックス中に導入してそのまま測定した．吸湿状態の測定セルは，真空乾燥後のセルを底に純水を張ったガラスデシケーター中（相対湿度95％以上）に密閉し，室温で47時間以上静置させて得た．なお，全$\\subset \\mathcal { O }$試料は3個以上のセルを測定し，それらの平均値をプロットした",
+      "merged_source_block_ids": [
+        "P_2_46",
+        "V2_2_4_1",
+        "V2_2_4_3",
+        "V2_2_4_5",
+        "V2_2_4_7"
+      ],
+      "section": "2.2 直流伝導度測定"
+    },
+    {
+      "block_id": "P_2_47",
+      "page_id": 2,
+      "block_index": 47,
+      "element_type": "text",
+      "bbox": [
+        85,
+        946,
+        134,
+        960
+      ],
+      "alignment_status": "matched",
+      "text": "（ 13 ）",
+      "section": "2.2 直流伝導度測定"
+    },
+    {
+      "block_id": "P_2_48",
+      "page_id": 2,
+      "block_index": 48,
+      "element_type": "title",
+      "bbox": [
+        532,
+        65,
+        705,
+        79
+      ],
+      "alignment_status": "matched",
+      "text": "2.3 示差走査熱量測定",
+      "title_level": 2,
+      "section": "2.3 示差走査熱量測定"
+    },
+    {
+      "block_id": "P_2_49",
+      "page_id": 2,
+      "block_index": 49,
+      "element_type": "text",
+      "bbox": [
+        515,
+        84,
+        927,
+        228
+      ],
+      "alignment_status": "matched",
+      "text": "アルミニウム製の専用パンを用い，一部の試料について示差走査熱量計（DSC）による熱分析を行った．測定装置には，DSC-50W（島津製作所）を用いた．乾燥N ガスフロー下（流量：30 mL/min）で，昇温速度を10 ℃/min，測定温度範囲を－100～150 ℃とした．得られたDSCカーブの解析から，ガラス転移温度 $( T _ { \\mathrm { g } } )$），融点（ $\\left( T _ { \\mathrm { m } } \\right)$）および融解エ$\\smile 5 \\pi \\varrho ^ { \\circ } - ( \\varDelta H )$）を求めた．なお， $\\overrightarrow { 7 } \\nu \\dot { > }$ド体のΔHは試料中の電解質の重量で規格化した値である",
+      "merged_source_block_ids": [
+        "P_2_49",
+        "V2_2_7_1",
+        "V2_2_7_3",
+        "V2_2_7_5",
+        "V2_2_7_7"
+      ],
+      "section": "2.3 示差走査熱量測定"
+    },
+    {
+      "block_id": "P_2_50",
+      "page_id": 2,
+      "block_index": 50,
+      "element_type": "title",
+      "bbox": [
+        532,
+        231,
+        690,
+        246
+      ],
+      "alignment_status": "matched",
+      "text": "2.4 動的粘弾性測定",
+      "title_level": 2,
+      "section": "2.4 動的粘弾性測定"
+    },
+    {
+      "block_id": "P_2_51",
+      "page_id": 2,
+      "block_index": 51,
+      "element_type": "text",
+      "bbox": [
+        515,
+        250,
+        927,
+        338
+      ],
+      "alignment_status": "matched",
+      "text": "一部の試料について，動的粘弾性の温度依存性の測定を行った．測定装置には，DVA-200S（アイティー計測）を用い，引張モードで温度範囲を－100～50 ℃，昇温速度を5℃/min，周波数を10 Hz，正弦ひずみを0.1 ％として測定を実行した",
+      "section": "2.4 動的粘弾性測定"
+    },
+    {
+      "block_id": "P_2_52",
+      "page_id": 2,
+      "block_index": 52,
+      "element_type": "title",
+      "bbox": [
+        532,
+        343,
+        736,
+        357
+      ],
+      "alignment_status": "matched",
+      "text": "2.5 透過型電子顕微鏡観察",
+      "title_level": 2,
+      "section": "2.5 透過型電子顕微鏡観察"
+    },
+    {
+      "block_id": "P_2_53",
+      "page_id": 2,
+      "block_index": 53,
+      "element_type": "text",
+      "bbox": [
+        515,
+        361,
+        927,
+        470
+      ],
+      "alignment_status": "matched",
+      "text": "2種類の方法で作製した50/50ブレンド（NBR18/PM$( \\mathrm { E O / P O } ) _ { \\mathrm { p o l y , ~ m o n o ^ { - } L i C l O _ { 4 } } } ) \\mathrm { 1 } = \\mathrm { O } \\mathrm { v } \\mathrm { 7 }$，透過型電子顕微鏡（TEM）による相分離状態の確認を行った．各種試料は，－80 ℃でクライオミクロトームを用いて薄片化し，$\\mathrm { O s O _ { 4 } }$ガス染色を行った．測定装置にはJEM-200CT（日本電子）を用い，加速電圧80 Vまたは100 Vで観察を行った",
+      "merged_source_block_ids": [
+        "P_2_53",
+        "V2_2_11_1",
+        "V2_2_11_3"
+      ],
+      "section": "2.5 透過型電子顕微鏡観察"
+    },
+    {
+      "block_id": "P_2_54",
+      "page_id": 2,
+      "block_index": 54,
+      "element_type": "title",
+      "bbox": [
+        532,
+        473,
+        752,
+        487
+      ],
+      "alignment_status": "matched",
+      "text": "2.6 複素インピーダンス測定",
+      "title_level": 2,
+      "section": "2.6 複素インピーダンス測定"
+    },
+    {
+      "block_id": "P_2_55",
+      "page_id": 2,
+      "block_index": 55,
+      "element_type": "text",
+      "bbox": [
+        515,
+        492,
+        927,
+        673
+      ],
+      "alignment_status": "matched",
+      "text": "乾燥N ガスフロー中におけるPM（EO/PO）-LiClO およびNBR43系ブレンド（50/50, 30/70 wt％）の交流複素インピーダンス測定を行った．測定温度は25 ℃で一定とし，測定セルは直流伝導度測定時と同様のものを使用した．測定装置には，インピーダンスアナライザー 4192A（Hewlett-Packard）を用い，印加電圧を1 V，周波数範囲を10 Hz～10 MHzとして測定を実行した．交流法より得られるプロットをカーブフィッティングさせたときの半円とインピーダンスの実数部 $\\left( Z _ { \\mathrm { r e a l } } \\right)$）との交点（外挿点）をバルク抵抗値とし，その値からイオン伝導度（σ）を求めた",
+      "merged_source_block_ids": [
+        "P_2_55",
+        "V2_2_13_1"
+      ],
+      "section": "2.6 複素インピーダンス測定"
+    },
+    {
+      "block_id": "P_2_56",
+      "page_id": 2,
+      "block_index": 56,
+      "element_type": "title",
+      "bbox": [
+        650,
+        686,
+        796,
+        700
+      ],
+      "alignment_status": "matched",
+      "text": "3. 結果および考察",
+      "title_level": 2,
+      "section": "3. 結果および考察"
+    },
+    {
+      "block_id": "P_2_57",
+      "page_id": 2,
+      "block_index": 57,
+      "element_type": "text",
+      "bbox": [
+        515,
+        714,
+        927,
+        821
+      ],
+      "alignment_status": "matched",
+      "text": "得られた全ての乾燥ブレンド試料の状態を目視で観察した結果，巨視的な相分離やLi塩の析出は見られず，ブレンド比にかかわらず均一であった．また，NBR18/PM$\\mathrm { ( E O / P O ) _ { m o n o }  – L i C l O _ { 4 } \\uparrow \\Sigma \\ell \\pm }$，重合前のモノマーのしみ出しはほとんど見られず，重合後の試料も全て半透明なシート状のものであった",
+      "merged_source_block_ids": [
+        "P_2_57",
+        "V2_2_15_1"
+      ],
+      "section": "3. 結果および考察"
+    },
+    {
+      "block_id": "P_2_58",
+      "page_id": 2,
+      "block_index": 58,
+      "element_type": "text",
+      "bbox": [
+        515,
+        825,
+        927,
+        933
+      ],
+      "alignment_status": "matched",
+      "text": "DSCおよびDMA測定より得られた各種NBR，ポリエーテル電解質，およびブレンド体のデータ解析結果をTable 1にまとめた．NBR単体では，高い運動性を発現するブタジエン部が多いNBR18の方が，NBR43よりも40℃低い $T _ { \\mathrm { g } }$を示している．本研究で用いたNBRは，測定温度範囲において結晶の融解に基づく相転移は確認されなか",
+      "merged_source_block_ids": [
+        "P_2_58",
+        "V2_2_16_1"
+      ],
+      "section": "3. 結果および考察"
+    },
+    {
+      "block_id": "T_3_62",
+      "page_id": 3,
+      "block_index": 62,
+      "element_type": "table",
+      "bbox": [
+        220,
+        109,
+        778,
+        294
+      ],
+      "alignment_status": "matched",
+      "caption": "Table 1 Glass transition temperature $( T _ { \\mathrm { g } } , \\mathrm { o n s e t } )$ ）, melting point $( T _ { \\mathrm { m } } , \\mathrm { p e a k \\ t o p } )$ ）, heat of fusion （ ΔH）, storage modulus（E’ at 25 ℃）and AC ionic conductivity（ $( \\sigma _ { i }$ at 25 ℃）of NBR, electrolytes and the blends.",
+      "table_body": "<table><tr><td colspan=\"2\">Sample</td><td> $T_{\\text{g}} / ^{\\circ}\\text{C}$ </td><td> $T_{\\text{m}} / ^{\\circ}\\text{C}$ </td><td> $\\Delta H / \\text{kJ mol}^{-1}$ </td><td> $E' / \\text{MPa}$ </td><td> $\\sigma_{i} / \\text{S cm}^{-1}$ </td></tr><tr><td colspan=\"2\">NBR18</td><td>-65</td><td>-</td><td>-</td><td>1.3</td><td>-</td></tr><tr><td colspan=\"2\">NBR43</td><td>-25</td><td>-</td><td>-</td><td>2.8</td><td>-</td></tr><tr><td colspan=\"2\">PEO-LiClO4</td><td>-41</td><td>61</td><td>5.36</td><td>216.8</td><td>-</td></tr><tr><td colspan=\"2\">P (EO/PO)-LiClO4</td><td>-45</td><td>35, (13)</td><td>2.38</td><td>5.3</td><td>-</td></tr><tr><td colspan=\"2\">PM (EO/PO)-LiClO4</td><td>-49</td><td>-</td><td>-</td><td>0.5</td><td> $1.1 \\times 10^{-6}$ </td></tr><tr><td rowspan=\"5\">50/50 Blend</td><td>NBR18/PEO system</td><td>-70</td><td>62</td><td>5.15</td><td>13.6</td><td>-</td></tr><tr><td>/P (EO/PO)</td><td>-70</td><td>40, (12)</td><td>1.74</td><td>2.5</td><td>-</td></tr><tr><td>/PM (EO/PO)poly</td><td>-59</td><td>-</td><td>-</td><td>1.1</td><td>-</td></tr><tr><td>/PM (EO/PO)mono</td><td>-62</td><td>-</td><td>-</td><td>0.8</td><td>-</td></tr><tr><td>NBR43/PM (EO/PO)mono</td><td>-49</td><td>-</td><td>-</td><td>1.5</td><td> $4.5 \\times 10^{-6}$ </td></tr><tr><td>30/70</td><td>NBR43/PM (EO/PO)mono</td><td>-55</td><td>-</td><td>-</td><td>-</td><td> $6.7 \\times 10^{-6}$ </td></tr></table>",
+      "image_path": "organized/reference_no_0042246/images/e5867be9fee219f1ce6bae8e988f3bf125e038e1a7e4d97ae093bfc95cab9bbe.jpg"
+    },
+    {
+      "block_id": "P_3_63",
+      "page_id": 3,
+      "block_index": 63,
+      "element_type": "text",
+      "bbox": [
+        68,
+        325,
+        480,
+        933
+      ],
+      "alignment_status": "matched",
+      "text": "った．ポリエーテル電解質では，結晶性のPEO系が最も高 $\\mathsf { V } ^ { \\mathrm { ~  ~ } } T _ { \\mathrm { ~ g ~ } }$を示した $\\Sigma \\ O _ { 2 } \\mathrm { P E O - L i C l O _ { 4 } }$電解質のT<sub>g</sub>は，PEO単体（約－65 ℃）よりも高く， $T _ { \\mathrm { m } }$は低温側にシフトしている．また，ΔHも大きく変化（PEO単体が約 $7 . 0 \\mathrm { \\ k J / m o l ^ { 4 } } )$に対し，約5.4 kJ/molに減少）していることから， $\\mathrm { L i C l O _ { 4 } }$の溶解によるキャリヤーイオンの生成およびエーテル鎖－カチオン間の相互作用の形成が影響していることが分か$\\gtrsim 3 )$．この傾向は，他のポリエーテルにおいても同様である $\\mathrm { P ( E O / P O ) } \\mathrm { - } \\mathrm { L i C l O } _ { 4 }$電解質は，PEO系よりもわずかに低い $T _ { \\mathrm { g } }$を示しているが，これは部分的に含まれるPO鎖がEO鎖よりも解離カチオンとの間に形成する相互作用力が弱いためであると考えられる<sup>4）</sup> $T _ { \\mathrm { m } } \\ell \\pm 2$箇所に見られるが，低温側のピーク（値はカッコ内）はブロードで著しく乱れている．PO部分は非晶性であるため，EO部分の結晶化を大きく阻害している $\\mathrm { P M } \\left( \\mathrm { E O / P O } \\right) . \\mathrm { L i C l O } _ { 4 }$は主鎖がメタクリラート系で，側鎖に短 $\\cup \\colon \\operatorname { E O } / \\operatorname { P O } \\beth = \\ \" $ト（分子量：約365）を有しているため，最も低 $\\mathsf { V } ^ { \\mathrm { ~  ~ } T _ { \\mathrm { ~ g ~ } } }$を示した．この電解質は膜形状を保持できるが力学的にもろい性質であ $\\supset$た．また， $\\mathrm { P M } \\left( \\mathrm { E O } / \\mathrm { P O } \\right) . \\mathrm { L i C l O } _ { 4 } \\mathcal { O } E ^ { \\prime }$は全ての試料中で最も低くなった．これらのブレンド体は，NBR18/PM$\\left( \\mathrm { E O / P O } \\right) _ { \\mathrm { p o l y ^ { - } } } \\mathrm { L i C l O _ { 4 } }$を除き，ほぼ全て $\\yen 023,456$ド種においてオリジナルのポリエーテル電解質と同等か，それよりも低 $\\mathsf { V } ^ { \\mathrm { ~  ~ } T _ { \\mathrm { g } } }$を示すことが分かった．Figure 2には，一例としてNBR18/PM（ $\\mathrm { ( E O / P O ) _ { m o n o } \\mathrm { - } L i C l O _ { 4 } \\mathcal { O } ) }$各ブレンド比におけるDSC曲線を示す．一般的に，相溶系ポリ $7 - 7 2 =$ド$\\mathcal { O } T _ { \\mathrm { g } }$は，混合前のそれぞれのポリ $\\bigtriangledown - \\mathcal { O } T _ { \\mathrm { g } }$間に単一に現れることが知られている．しかし，本研究の解析結果からは，ブレンド体のDSC曲線に2種の $T _ { \\mathrm { g } }$は見られず，単一$\\mathcal { O } T _ { \\mathrm { g } }$が確認されているが，ポリ $\\vec { \\bf \\Phi } \\vec { \\bf \\bigtriangledown } \\vec { \\bf \\Phi } - \\mathcal { D } \\vec { \\bf \\Phi }$組成と $T _ { \\mathrm { g } } \\mathcal { O } )$間に明確な相関は見られないことから，これら $0 5 2 2$ド体は部分的に相分離した状態，もしくは極めて微細な相分離構造である可能性が考えられる．また，ブレンド体の中に存在するPEOおよびP（EO/PO）の結晶相は，NBRとの混合によってわずかに減少することも， $\\Delta H \\phi$低下から示唆された",
+      "merged_source_block_ids": [
+        "P_3_63",
+        "V2_3_1_1",
+        "V2_3_1_3",
+        "V2_3_1_5",
+        "V2_3_1_7",
+        "V2_3_1_9",
+        "V2_3_1_11",
+        "V2_3_1_13",
+        "V2_3_1_15",
+        "V2_3_1_17",
+        "V2_3_1_19",
+        "V2_3_1_21",
+        "V2_3_1_23",
+        "V2_3_1_25",
+        "V2_3_1_27",
+        "V2_3_1_29",
+        "V2_3_1_31",
+        "V2_3_1_33",
+        "V2_3_1_35",
+        "V2_3_1_37",
+        "V2_3_1_39",
+        "V2_3_1_41",
+        "V2_3_1_43",
+        "V2_3_1_45",
+        "V2_3_1_47",
+        "V2_3_1_49",
+        "V2_3_1_51",
+        "V2_3_1_53"
+      ],
+      "section": "3. 結果および考察"
+    },
+    {
+      "block_id": "I_3_64",
+      "page_id": 3,
+      "block_index": 64,
+      "element_type": "image",
+      "bbox": [
+        576,
+        317,
+        868,
+        568
+      ],
+      "alignment_status": "matched",
+      "image_kind": "chart",
+      "caption": "Figure 2 DSC curves of NBR18/PM（EO/PO）<sub>mono</sub>-LiClO<sub>4</sub> blends.",
+      "image_path": "organized/reference_no_0042246/images/355f8c6de0f58bea94429bc96487112e3b754c58d26d46f1a3f67449e5fbebc6.jpg"
+    },
+    {
+      "block_id": "P_3_65",
+      "page_id": 3,
+      "block_index": 65,
+      "element_type": "text",
+      "bbox": [
+        517,
+        621,
+        927,
+        653
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "3. 結果および考察"
+    },
+    {
+      "block_id": "P_3_66",
+      "page_id": 3,
+      "block_index": 66,
+      "element_type": "text",
+      "bbox": [
+        515,
+        658,
+        929,
+        933
+      ],
+      "alignment_status": "matched",
+      "text": "次に，各種ブレンド体の吸湿に伴う重量変化を評価したセルに組み込む前のNBR18系50/50ブレンド試料について，サ $\\yen 7$みをガラスデシケーター中に静置して $\\sigma _ { \\mathrm { w e t } }$測定と同じ条件下で十分に吸湿させた後，直ちに大気中に取り出して重量を測定した．このブレンド体の乾燥状態か$\\dot { 5 } \\textcircled { \\scriptsize { \\cdot } }$重量変化を測定したところ，電解質成分がPEO系では58.4％，P（EO/PO）系では38.7％，PM $\\mathrm { ( E O / P O ) _ { p o l y } }$系では37.1％， $\\mathrm { P M } \\left( \\mathrm { E O } / \\mathrm { P O } \\right) _ { \\mathrm { m o n o } }$系では31.7％の増加を示した．各ポリエーテル電解質単体の重量変化は，PEO-$\\mathrm { L i C l O _ { 4 } }$が 107.9 ％， $\\mathrm { \\Delta ) ( E O / P O ) . L i C l O _ { 4 } }$が 105.3 ％，PM$\\mathrm { ( E O / P O ) . L i C l O _ { 4 } \\mathcal { A } 6 5 . 1 }$％（フィルム）であった．NBRとの$\\overrightarrow { 7 } \\nu \\dot { > }$ド化によって吸湿による重量増加が大きく抑制されており，更にPM（EO/PO）が吸湿の抑制に効果を有することも分かった．また， $\\sigma _ { \\mathrm { { w e t } } }$測定用セルの状態で同様の重量変化を測定した．一例として，NBR18系ブレンドの",
+      "merged_source_block_ids": [
+        "P_3_66",
+        "V2_3_4_1",
+        "V2_3_4_3",
+        "V2_3_4_5",
+        "V2_3_4_7",
+        "V2_3_4_9",
+        "V2_3_4_11",
+        "V2_3_4_13",
+        "V2_3_4_15",
+        "V2_3_4_17",
+        "V2_3_4_19"
+      ],
+      "section": "3. 結果および考察"
+    },
+    {
+      "block_id": "P_3_67",
+      "page_id": 3,
+      "block_index": 67,
+      "element_type": "text",
+      "bbox": [
+        862,
+        947,
+        909,
+        960
+      ],
+      "alignment_status": "matched",
+      "text": "（ 14 ）",
+      "section": "3. 結果および考察"
+    },
+    {
+      "block_id": "I_4_71",
+      "page_id": 4,
+      "block_index": 71,
+      "element_type": "image",
+      "bbox": [
+        126,
+        65,
+        418,
+        236
+      ],
+      "alignment_status": "matched",
+      "image_kind": "chart",
+      "caption": "Figure 3 Relation between electrolyte content and water uptake of NBR18/PM $\\mathrm { ( E O / P O ) } _ { \\mathrm { m o n o } ^ { - } } \\mathrm { L i C l O } _ { 4 }$ blends in the mea surement cells.",
+      "image_path": "organized/reference_no_0042246/images/7ba4a65f94b96d2258c60929cea6f9f12c00a1a184a969830fb55ade5c7431e0.jpg"
+    },
+    {
+      "block_id": "I_4_72",
+      "page_id": 4,
+      "block_index": 72,
+      "element_type": "image",
+      "bbox": [
+        127,
+        304,
+        418,
+        474
+      ],
+      "alignment_status": "matched",
+      "image_kind": "chart",
+      "caption": "Figure 4 Electrolyte content dependence of DC conductivity for NBR18/PEO-LiClO blends in dry and wet condition.",
+      "image_path": "organized/reference_no_0042246/images/3492031eebcfdde00108c30764a11f19c4fdf2153d64a332c405c0a7f0a12a59.jpg"
+    },
+    {
+      "block_id": "P_4_73",
+      "page_id": 4,
+      "block_index": 73,
+      "element_type": "text",
+      "bbox": [
+        68,
+        527,
+        478,
+        673
+      ],
+      "alignment_status": "matched",
+      "text": "吸湿量とPM $\\mathrm { ( E O / P O ) _ { m o n o } \\mathrm { - L i C l O _ { 4 } } }$成分量の関係をFigure 3に示す．試料のみのときの変化に比べると測定セルとしての重量変化はわずかであるが，50/50ブレンドまではゆっくりと増加し，それ以上ではほとんど変わらない傾向を示した．吸湿量は30/70ブレンドのときに最大となり，その増加量は約7 wt％であった．更に，電解質 $\\hbar ^ { \\mathrm { s p g o - L i C l O _ { 4 } } }$$\\textcircled { \\scriptsize { \\cdot } } \\textcircled { \\scriptsize { 7 } } \\nu \\textcircled { \\scriptsize { \\cdot } }$ド体では，吸湿による測定セルの重量変化が最も大きく，10 wt％程度まで増加することも分かった",
+      "merged_source_block_ids": [
+        "P_4_73",
+        "V2_4_2_1",
+        "V2_4_2_3",
+        "V2_4_2_4"
+      ],
+      "section": "3. 結果および考察"
+    },
+    {
+      "block_id": "P_4_74",
+      "page_id": 4,
+      "block_index": 74,
+      "element_type": "text",
+      "bbox": [
+        67,
+        677,
+        478,
+        932
+      ],
+      "alignment_status": "matched",
+      "text": "NBR18系ブレンドの伝導度と電解質 $\\left( \\mathrm { P E O - L i C l O _ { 4 } } \\right)$）成分量の関係をFigure 4に示す．NBR18単体の伝導度は低く，$1 0 ^ { - 1 0 } ~ \\mathrm { { S } ~ c m ^ { - 1 } }$以下であるが，湿度による影響はそれほど見られない $_ { \\mathrm { P E O - L i C l O _ { 4 } } }$単体の $\\sigma _ { \\mathrm { d r y } }$は，25 ℃で2.5× 10<sup>―</sup> <sup>7</sup> Scm<sup>―</sup> <sup>1</sup>であり，PEOの高い結晶性の影響を受けているため，比較的低い値にとどま $0 \\subset V ^ { \\bullet } .$る．高湿度環境下での保持によって10％程度の吸湿による重量増加があった影響で，$_ { \\mathrm { P E O - L i C l O _ { 4 } } }$単体の $\\sigma _ { \\mathrm { { w e t } } }$は $\\sigma _ { \\mathrm { d r y } }$よりも40倍近く増加し，約$1 0 ^ { - 5 } \\ \\mathrm { S \\ c m ^ { - 1 } }$を示した．イオン伝導性高分子中へのわずかな水分の吸着は，水素結合などの影響によりイオン伝導度を低下させるという報告もあるが<sup>7）</sup>，本研究の結果からは，$_ { \\mathrm { P E O - L i C l O _ { 4 } } }$電解質中に吸着した水分が溶媒として働くことで，PEOの結晶性を大きく低下させていると共に，非晶相中のイオン移動を促進させている可能性が大きい<sup>13）</sup>",
+      "merged_source_block_ids": [
+        "P_4_74",
+        "V2_4_3_1",
+        "V2_4_3_3",
+        "V2_4_3_5",
+        "V2_4_3_7",
+        "V2_4_3_9",
+        "V2_4_3_11",
+        "V2_4_3_13",
+        "V2_4_3_15",
+        "V2_4_3_17",
+        "V2_4_3_19"
+      ],
+      "section": "3. 結果および考察"
+    },
+    {
+      "block_id": "P_4_75",
+      "page_id": 4,
+      "block_index": 75,
+      "element_type": "text",
+      "bbox": [
+        85,
+        947,
+        134,
+        960
+      ],
+      "alignment_status": "matched",
+      "text": "（ 15 ）",
+      "section": "3. 結果および考察"
+    },
+    {
+      "block_id": "I_4_76",
+      "page_id": 4,
+      "block_index": 76,
+      "element_type": "image",
+      "bbox": [
+        576,
+        66,
+        868,
+        236
+      ],
+      "alignment_status": "matched",
+      "image_kind": "chart",
+      "caption": "Figure 5 Electrolyte content dependence of DC conductivity for NBR18/P（EO/PO）-LiClO blends in dry and wet condition.",
+      "image_path": "organized/reference_no_0042246/images/89f4bfeae736fc4f9317ffeb30c79b6c974c7bcb3d5c0c20446b07763475a7a9.jpg"
+    },
+    {
+      "block_id": "P_4_77",
+      "page_id": 4,
+      "block_index": 77,
+      "element_type": "text",
+      "bbox": [
+        515,
+        306,
+        927,
+        543
+      ],
+      "alignment_status": "matched",
+      "text": "一方， $\\overrightarrow { 7 } \\nu \\dot { \\underline { \\sim } }$ド体の伝導度の電解質量依存性でも， $\\sigma _ { \\mathrm { { w e t } } }$と $\\sigma _ { \\mathrm { d r y } }$<sub>y</sub>に明らかな相違が見られた．電解質量が10wt％の系では伝導度に大きな差異は見られないが，電解質量の増加に伴 $> \\mathsf { T } \\sigma _ { \\mathrm { w e t } }$と $\\sigma _ { \\mathrm { \\ d r y } } \\mathcal { O } )$相違が著しく増大している．特に，電解質量が $5 0 \\mathrm { w t }$％を超えるブレンド体では，PEO-$\\mathrm { L i C l O _ { 4 } }$単体よりも $\\sigma _ { \\mathrm { \\scriptsize ~ d r y } }$に対する $\\sigma _ { \\mathrm { { \\scriptsize ~ w e t } } }$の上昇幅が大きく，電解質量が70wt％の系では60倍近い．このような結果の主な要因としては， $_ { \\mathrm { P E O - L i C l O _ { 4 } } }$電解質中への水分吸着によるPEO結晶相の減少および非晶相の運動性の向上が関係し $\\curvearrowleft$ると考えられる．ところが， $\\sigma _ { \\mathrm { { w e t } } }$と $\\sigma _ { \\mathrm { \\ d r y } } \\mathcal { O } )$差は電解質量には必ずしも依存していないことから，NBR相と電解質相の界面にも優先的に水分が吸着することで，相間でのイオン移動が促進された可能性も示唆される",
+      "merged_source_block_ids": [
+        "P_4_77",
+        "V2_4_6_1",
+        "V2_4_6_3",
+        "V2_4_6_5",
+        "V2_4_6_7",
+        "V2_4_6_9",
+        "V2_4_6_11",
+        "V2_4_6_13",
+        "V2_4_6_15",
+        "V2_4_6_17",
+        "V2_4_6_19",
+        "V2_4_6_21",
+        "V2_4_6_23",
+        "V2_4_6_25"
+      ],
+      "section": "3. 結果および考察"
+    },
+    {
+      "block_id": "P_4_78",
+      "page_id": 4,
+      "block_index": 78,
+      "element_type": "text",
+      "bbox": [
+        515,
+        546,
+        927,
+        840
+      ],
+      "alignment_status": "matched",
+      "text": "NBR18系 $F V \\mathcal { \\succ } \\vdash \\vdash \\mathcal { O } )$伝導度と電解質（P（EO/PO）-LiClO ）成分量の関係をFigure 5に示す．P（EO/PO）は，非晶性のPO構造がランダムに結合した共重合体であり，PEOと比較すると結晶性が大幅に減少している．また，PO部はEO部よりもエーテル酸素部分の双極子モーメントが小さいため，塩溶解性（カチオンとの静電的相互作用力）が弱く，EO部よりも疎水的であるため，NBRのブタ $\\therefore I = 2$部分などに対する相溶性が増す可能性がある．その結果は，P$\\mathrm { ( E O / P O ) . L i C l O _ { 4 } }$単体の $\\sigma _ { \\mathrm { d r y } }$はPEO系よりも高く， $\\sigma _ { \\mathrm { w e t } }$との差異もFigure 4と比較して大きく低減することが分かった．また，各組成 $\\textcircled { 1 }  r \\nu :$ド体においても， $\\sigma _ { \\mathrm { d r y } }$に対する $\\sigma _ { \\mathrm { w e t } } \\phi$上昇幅は大きく抑制されている．例えば50/50ブレンドでは， $\\sigma _ { \\mathrm { d r y } }$が約 $6 \\times 1 0 ^ { - 8 }$S $\\mathrm { c m } ^ { - 1 } \\overline { { \\mathrm { c } } }$あり， $\\sigma _ { \\mathrm { w e t } }$は $\\sigma _ { \\mathrm { d r y } }$の4倍程度である．さらに，これらの伝導度は $1 0 ^ { - 8 }$S $\\mathrm { c m } ^ { - 1 }$以上のレベルにあり，帯電防止材料<sup>10）</sup>としての要件は十分に満たしていることも分かった",
+      "merged_source_block_ids": [
+        "P_4_78",
+        "V2_4_7_1",
+        "V2_4_7_3",
+        "V2_4_7_5",
+        "V2_4_7_7",
+        "V2_4_7_9",
+        "V2_4_7_11",
+        "V2_4_7_13",
+        "V2_4_7_15",
+        "V2_4_7_17",
+        "V2_4_7_19",
+        "V2_4_7_21",
+        "V2_4_7_23",
+        "V2_4_7_25",
+        "V2_4_7_27",
+        "V2_4_7_29"
+      ],
+      "section": "3. 結果および考察"
+    },
+    {
+      "block_id": "P_4_79",
+      "page_id": 4,
+      "block_index": 79,
+      "element_type": "text",
+      "bbox": [
+        515,
+        844,
+        927,
+        932
+      ],
+      "alignment_status": "matched",
+      "text": "Figure 6にはNBR18/PM（EO/PO）<sub>poly</sub>- $\\mathrm { L i C l O _ { 4 } }$（NBR/高分子のロール混練 $\\overrightarrow { T } V = k ^ { \\ast } )$），Figure 7 には NBR18/PM$\\mathrm { ( E O / P O ) _ { m o n o } mathrm { - L i C l O _ { 4 } ( N B R / \\Sigma ) \\Sigma \\Sigma } }$混合物の後重合ブレンド）の伝導度と各電解質成分量の関係を示した．Figure6からは，電解質 $\\left( \\mathrm { P M } \\left( \\mathrm { E O / P O } \\right) . \\mathrm { L i C l O _ { 4 } } \\right)$）量が30 wt％以上のブレンド体の $\\sigma _ { \\mathrm { w e t } }$が $\\sigma _ { \\mathrm { d r y } }$よりも著しく増加し，50/50ブレンドでは約100倍の差異が確認された．PM（EO/PO）は，側鎖にPO部を有しているため，Figure 5のような傾向が期待されたが，結果的にはPEO系よりも湿度による影響を大きく受けることが分かった．一方，同じブレンド体をモノマー溶液からNBR中でin-situ重合させたブレンド体（Figure 7）では，湿度によるイオン伝導度の影響が著しく抑制されており，50/50ブレンドではσ<sub>wet</sub>がσ<sub>dry</sub>の1.5倍程度にとどまることが明らかとなった．さらに，他のブレンド比における試料についても，これらの値に大きな差異は見られず，このブレンド体の湿度に対する高い安定性が示された",
+      "merged_source_block_ids": [
+        "P_4_79",
+        "V2_4_8_1",
+        "V2_4_8_3",
+        "V2_4_8_5",
+        "V2_4_8_7",
+        "V2_4_8_9",
+        "V2_4_8_11"
+      ],
+      "section": "3. 結果および考察"
+    },
+    {
+      "block_id": "I_5_83",
+      "page_id": 5,
+      "block_index": 83,
+      "element_type": "image",
+      "bbox": [
+        127,
+        66,
+        420,
+        237
+      ],
+      "alignment_status": "matched",
+      "image_kind": "chart",
+      "caption": "Figure 6 Electrolyte content dependence of DC conductivity for NBR18/ $\\mathrm { P M ( E O / P O ) } _ { \\mathrm { p o l y } } \\mathrm { - } \\mathrm { L i C l O } _ { 4 }$ blends in dry and wet condition.",
+      "image_path": "organized/reference_no_0042246/images/e2d4af2c085b212a10a4c050b8530aa593695ace422841f395111773d3e51506.jpg"
+    },
+    {
+      "block_id": "I_5_84",
+      "page_id": 5,
+      "block_index": 84,
+      "element_type": "image",
+      "bbox": [
+        127,
+        302,
+        418,
+        472
+      ],
+      "alignment_status": "matched",
+      "image_kind": "chart",
+      "caption": "Figure 7 Electrolyte content dependence of DC conductivity for NBR18/PM（EO $\\mathrm { \\langle P O \\rangle _ { m o n o } \\mathrm { - L i C l O _ { 4 } } }$ blends in dry and wet condition.",
+      "image_path": "organized/reference_no_0042246/images/157b1f1a10269b78114a1e7efb0794b7e8f263b05788398c759bbe96cebed3c6.jpg"
+    },
+    {
+      "block_id": "P_5_85",
+      "page_id": 5,
+      "block_index": 85,
+      "element_type": "text",
+      "bbox": [
+        68,
+        546,
+        480,
+        766
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "3. 結果および考察"
+    },
+    {
+      "block_id": "P_5_86",
+      "page_id": 5,
+      "block_index": 86,
+      "element_type": "text",
+      "bbox": [
+        68,
+        769,
+        480,
+        933
+      ],
+      "alignment_status": "matched",
+      "text": "このような傾向を示す要因として，ブレンド体の作製法によるモルホロジーの変化が影響しているのではないかと考え，TEM測定によるNBR/電解質間の相構造の違いを観察した．その結果をFigure 8に示す．（a）のNBR/高分子ブレンド（ロール混練）では，グレーのNBR海相に対してサイズや形状が不均一な白色のPM（EO/PO）-LiClO（電解質）破砕片（島相）がサブマイクロからマイクロメートルオーダーで粗雑に分散しているのが分かる．一方，（b）のNBR/モノマー混合物の後重合ブレンドでは，（a）とは大きく異なり極めて小さなサイズ（100～200 nm程度）の球形の島相が，NBRドメイン相に均一分散した海―島相分離構造を有することが明らかとなった．（b）を拡大してみると，（c）のように20 nm前後のより小さい電解質島相がわずかに点在している様子も確認された．したがって，Fig-ure 6, 7に見られるような湿度環境による伝導度の変化を抑制する要因としては，（b）や（c）のように電解質成分が島相となるようなモルホロジーの形成にあることが分かった．さらに，単純に電解質が島相を形成するだけではなく，より微細な電解質島相が均一に分散したミクロ（or ナノ）相分離構造を形成することが，伝導度の湿度に対する安定性の向上には極めて有効であることを示唆した．重合後のPM（EO/PO）-LiClO<sub>4</sub>はほとんどの有機溶媒に不溶であり，NBRとのブレンドにはロールで混練する必要があった（a）からは，巨視的にはよく混ざっているように見えても微視的には相分離している様子が観察される．一方で，（b）や（c）のようなブレンドは，NBRとM（EO/PO）モノマーの混合物の段階では，既に相溶化した状態にあったのではないかと推察される．過去の研究例では，例えばAN量が23～45％のNBRは，ポリ塩化ビニル（PVC）と相溶することが知られており<sup>14）</sup>，PVCの衝撃強度を改善するための高分子可塑剤として既に実用化されている．NBR/PVCブレ",
+      "section": "3. 結果および考察"
+    },
+    {
+      "block_id": "I_5_87",
+      "page_id": 5,
+      "block_index": 87,
+      "element_type": "image",
+      "bbox": [
+        601,
+        65,
+        845,
+        432
+      ],
+      "alignment_status": "matched",
+      "image_kind": "image",
+      "caption": "Figure 8 TEM photographs of dried NBR18/electrolyte blends （50/50 wt％）. Electrolyte =（a）PM（EO/PO）<sub>poly</sub>-LiClO<sub>4</sub>, （b）PM（EO/PO）<sub>mono</sub>-LiClO<sub>4</sub>（c） . an enlarged photograph of（b）.",
+      "image_path": "organized/reference_no_0042246/images/9450395f09ea7525e55b041470a8f86d249437cad10ef7f022f6ac75a3034b6d.jpg"
+    },
+    {
+      "block_id": "P_5_88",
+      "page_id": 5,
+      "block_index": 88,
+      "element_type": "text",
+      "bbox": [
+        515,
+        527,
+        929,
+        933
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "3. 結果および考察"
+    },
+    {
+      "block_id": "P_5_89",
+      "page_id": 5,
+      "block_index": 89,
+      "element_type": "text",
+      "bbox": [
+        862,
+        947,
+        909,
+        960
+      ],
+      "alignment_status": "matched",
+      "text": "（ 16 ）",
+      "section": "3. 結果および考察"
+    },
+    {
+      "block_id": "I_6_93",
+      "page_id": 6,
+      "block_index": 93,
+      "element_type": "image",
+      "bbox": [
+        127,
+        65,
+        418,
+        233
+      ],
+      "alignment_status": "matched",
+      "image_kind": "chart",
+      "caption": "Figure 9 Electrolyte content dependence of DC conductivity for NBR43/PM（EO/PO） -LiClO（○, ●）and BR/PM （EO/PO）<sub>mono</sub>-LiClO<sub>4</sub>（△, ▲）blends in dry and wet condi tion.",
+      "image_path": "organized/reference_no_0042246/images/2e8e6d89cb4e3ad3f82966f72690aa4844e66eeda40a9b5b4b808393b1e629a2.jpg"
+    },
+    {
+      "block_id": "P_6_94",
+      "page_id": 6,
+      "block_index": 94,
+      "element_type": "text",
+      "bbox": [
+        67,
+        324,
+        478,
+        469
+      ],
+      "alignment_status": "matched",
+      "text": "ンドのモルホロジー観察に関する過去の研究では，1μm以下のNBR島相がPVC海相中に分散したTEM写真も報告されている<sup>15）</sup>．本研究のNBR/PM（EO/PO）<sub>mono</sub>-LiClO<sub>4</sub>ブレンドは，NBR/PVC系よりも微細な海島相分離構造が観察されていることから，一般的には相溶系であると判断される．現在，NBR/モノマー混合物の顕微鏡観察や重合過程における相分離構造形成メカニズムの解析を検討中であり，今後の研究成果として報告する予定である",
+      "section": "3. 結果および考察"
+    },
+    {
+      "block_id": "P_6_95",
+      "page_id": 6,
+      "block_index": 95,
+      "element_type": "text",
+      "bbox": [
+        65,
+        473,
+        478,
+        933
+      ],
+      "alignment_status": "matched",
+      "text": "続いて，Figure 7 と同様の NBR/PM（EO/PO）<sub>mono</sub>-$\\mathrm { L i C l O _ { 4 } } \\supset V \\supset$ドに及ぼすNBRのAN量の影響を検討したNBR0およびNBR43系ブレンドの伝導度と電解質量の関係をFigure 9にまとめた．NBR0（BR）系ブレンドは，電解質量が50wt％以下では吸湿による伝導度の影響は5～10倍程度に抑制されているが，その値は $1 0 ^ { - 1 2 } \\sim 1 0 ^ { - 1 1 }$S$\\mathrm { c m } ^ { - 1 }$オーダーと著しく低く，NBR0単体と比較しても大きな上昇は見られない．NBR0中にはニトリル $\\mathrm { ( - C H _ { 2 } C N ) }$基が存在せず，そのため電解質相中の解離イオンはNBR相中を移動することができないため，伝導度が低い値にとどまったものと考えられる．電解質の相対量が増加してくるとイオン伝導度は急激に上昇する傾向が見られ，50/50ブレンド付近からは $1 0 ^ { - 1 0 }$S cm<sup>―</sup> <sup>1</sup>を上回っている．ところが， $3 0 / 7 0 > r \\nu >$ドでは， $\\sigma _ { \\mathrm { w e t } }$は $\\sigma _ { \\mathrm { d r y } }$よりも100倍以上高い値を示しており，電解質島相が大きくなっているか，もしくはNBR海相と共連続型のような相分離構造を形成している可能性がある．一方，AN量の多いNBR43系ブレンドでは，吸湿による伝導度の増加が極めて小さく抑えられており，50/50ブレンドではほぼ同じ値（ $( \\sigma _ { \\mathrm { w e t } } / \\sigma _ { \\mathrm { d r y } } =$1.04）となった．NBR43系ブレンドにおいても，Figure 8（b）のNBR18系と同じような微細相分離構造を有することがTEM観察の結果から示唆されており，海―島相分離構造の形成および微細化が吸湿による重量増加や伝導度の変化に及ぼす影響を抑制していると考えられる．さらに，NBR43系ブレンドはNBR0やNBR18のような低ニトリル系ブレンドよりも高い伝導度を発現し，電解質量の増加に伴い直線的に上昇することが分かった．一般的に，電解質材料中におけるニトリル基は，CN部の強い電子吸引性の影響でカチオン（本研究ではLiイオン）との間に強固なルイス酸-塩基相互作用を形成させることができるため，NBR<sup>12）</sup>やポリアクリロニトリル<sup>16）</sup>中（ゲル状態）で金属塩の解離やイオン輸送を発現させることができる．NBR43系ブレンドの高い伝導性は，解離イオンが電解質相中だけでなく，NBR海相中やNBR/電解質界面でも速いイオン移動が発現していることを示唆している．さらに，ニトリル基の増加はカチオンを介した静電的相互作用によってNBRと電解質の相溶性を更に増加させることにもつながると考えられ，Figure 9のような伝導度の上昇と湿度に対する安定性の向上を両立できたのではないかと考察している",
+      "merged_source_block_ids": [
+        "P_6_95",
+        "V2_6_2_1",
+        "V2_6_2_3",
+        "V2_6_2_5",
+        "V2_6_2_7",
+        "V2_6_2_9",
+        "V2_6_2_11",
+        "V2_6_2_13",
+        "V2_6_2_15",
+        "V2_6_2_17"
+      ],
+      "section": "3. 結果および考察"
+    },
+    {
+      "block_id": "I_6_96",
+      "page_id": 6,
+      "block_index": 96,
+      "element_type": "image",
+      "bbox": [
+        576,
+        65,
+        868,
+        228
+      ],
+      "alignment_status": "matched",
+      "image_kind": "chart",
+      "caption": "Figure 10 Cole-Cole plots of PM（EO/PO）-LiClO（electrolyte with-out NBR, ●）and NBR43/PM（EO/PO） -LiClO blend（50/50 wt％ : ◇, 30/70 wt ％ : ○）in dry N at 25 ℃.",
+      "image_path": "organized/reference_no_0042246/images/9e528b87fbad6ca0c064336128f7fb7a739be0ac8b311d5594dea8f551f72aee.jpg"
+    },
+    {
+      "block_id": "P_6_97",
+      "page_id": 6,
+      "block_index": 97,
+      "element_type": "text",
+      "bbox": [
+        515,
+        306,
+        927,
+        581
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "3. 結果および考察"
+    },
+    {
+      "block_id": "P_6_98",
+      "page_id": 6,
+      "block_index": 98,
+      "element_type": "text",
+      "bbox": [
+        515,
+        583,
+        929,
+        934
+      ],
+      "alignment_status": "matched",
+      "text": "Figure 9のような高ニトリル系ブレンドの伝導度変化では，もう一つの注目すべき結果が明らかとなったNBR43系の50/50およ $\\mathrm { \\Delta } \\mathrm { U } 3 0 / 7 0 \\mathrm { \\Delta } \\mathcal { T } \\nu \\supset \\mathrm { \\Delta } \\mathrm { F } \\mathcal { O } \\sigma _ { \\mathrm { d r y } } \\mathinner { \\| { \\pm } }$，電解質単体（PM（EO/PO）-LiClO<sub>4</sub>）のσ<sub>dry</sub>よりもわずかに高い値を示している．電解質側から見ればNBRは非伝導成分であり，単純にNBR量が増えるほど伝導度は低下するはずである．そこで，これらの挙動をより詳細に解析するため，複素インピーダンス法による交流イオン伝導性の評価を試みた．PM（EO/PO）-LiClO 単体，およびNBR43が30％，50％含まれる各ブレンド体の25℃におけるコールコールプロットをFigure 10に示す．なお，本測定ではブロッキング電極（SUS）を用いており，電極/電解質界面における電荷移動，すなわち電気化学的な反応は起こっていない両者のブレンド体のバルク抵抗値は，電解質単体よりも明らかに低下していることが分かる．各試料のイオン伝導度（σ）は，NBR43系ブレンドでは50/50が電解質単体の約4倍，30/70が約6倍となった．具体的なデータをTable1にまとめた． $\\sigma _ { i }$は系の $T _ { \\mathrm { g } }$にも大きな影響を受けるが，Figure 9で最も高い伝導度（ $( \\sigma _ { \\mathrm { d r y } } )$）を示した30/70ブレンドが電解質単体よりも低い $\\mathrm { { } ^ { \\circ } } T _ { \\mathrm { { g } } }$を示すことがTable 1から分かっている $5 0 / 5 0 > \\nu > \\mathrm { K } \\mathcal { O } T _ { \\mathrm { g } }$は電解質単体の値と同じであるが，NBRが加わることによってσに有効なキャリヤーイオン数が増加した可能性もある．しかし，これらのブレンド体に関しては，これまでの結果からNBR相と電解質相が微視的な相分離構造を形成していることが明らかであるため，コールコールプロットの結果は単一の半円にはならないはずである．例えば，高分子の結晶と非晶が混在する場合，相分離構造を有する場合，粒界を有する場合など，一般的には複合体やブレンド体のような不均一系では，その複素インピーダンス挙動が，高分子電解質のバルク抵抗に基づく半円に加え，界面抵抗に基づく第二の半円が低周波数側に現れることが報告されている<sup>17）</sup>．ところが，今回のNBR43系ブレンドではこのような二重半円が見られないことから，NBR/電解質界面の抵抗は複素インピーダンス測定では観測できないほど小さい値であると考察される．すなわち，NBR/電解質間のイオン輸送に対する界面抵抗は無視できるほど小さく，電解質相からNBR相へ，またNBR相を介した電解質島相間のスムーズなイオン移動が発現していることを示唆している．NBR43の海相中には多数のニトリル基が存在しており，局所的な領域（より電解質相に近い部分や電解質相との界面）におけるイオン解離の促進やイオン伝導パスの発現が，イオン伝導度の上昇につながったものと推察される",
+      "merged_source_block_ids": [
+        "P_6_98",
+        "V2_6_5_1",
+        "V2_6_5_3",
+        "V2_6_5_5",
+        "V2_6_5_7",
+        "V2_6_5_9",
+        "V2_6_5_11"
+      ],
+      "section": "3. 結果および考察"
+    },
+    {
+      "block_id": "P_7_103",
+      "page_id": 7,
+      "block_index": 103,
+      "element_type": "text",
+      "bbox": [
+        68,
+        65,
+        480,
+        506
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "3. 結果および考察"
+    },
+    {
+      "block_id": "P_7_104",
+      "page_id": 7,
+      "block_index": 104,
+      "element_type": "title",
+      "bbox": [
+        186,
+        519,
+        364,
+        533
+      ],
+      "alignment_status": "matched",
+      "text": "4. ま と め",
+      "title_level": 2,
+      "section": "4. ま と め"
+    },
+    {
+      "block_id": "P_7_105",
+      "page_id": 7,
+      "block_index": 105,
+      "element_type": "text",
+      "bbox": [
+        68,
+        546,
+        480,
+        933
+      ],
+      "alignment_status": "matched",
+      "text": "本研究では，NBRおよびポリエーテル系電解質をベースとするエラストマーブレンドを作製し，直流イオン伝導度に及ぼす湿度環境の影響を明らかにした．また，DSC，TEM，およびDMAによる物性測定を行い，ブレンド組成との関係を解析した．その結果，NBR系ブレンドの湿度変化に対する伝導度の安定性に関しては，（1）疎水的なPO部を含むポリエーテル鎖（EO/PO共重合鎖）の導入，（2）電解質成分が島相となる海-島相分離構造の形成，（3）（2）の微細化および均一化，（4）ベースとなるNBRの高ニトリル化，が必要であることが分かった．これらの条件を満たすNBR43/PM（EO/PO）<sub>mono</sub>-LiClO<sub>4</sub>は，吸湿状態と乾燥状態の伝導度に差異がほとんど見られず，湿度環境に対する伝導度の安定性の向上が達成できた．50/50ブレンドのTEM測定の結果からは，電解質成分の球形島相が200～300 nmのオーダーでNBR海相中に均一に分散している様子が見られた．NBR43系ブレンドの複素インピーダンス測定からは，一部の組成の試料が電解質単体（PM（EO/PO）-LiClO ）よりも高いイオン伝導度を発現できることが分かり，NBR43/電解質ブレンド比が30/70では，25 ℃で6.7×10<sup>―</sup> <sup>6</sup> S cm<sup>―</sup> <sup>1</sup>を示した．NBR43系ブレンドでは，NBR/電解質界面におけるイオン移動抵抗は観測されず，多数のニトリル基の存在によるLiイオンとの静電的相互作用の影響や，それに伴う界面などの局所的な領域におけるイオン解離の促進やイオン伝導パスの発現が，イオン伝導度の上昇につながったものと考察した．今回のイオン伝導度の測定からは，これまでのSPEの限界である10<sup>―</sup> <sup>4</sup> Scm<sup>―</sup> <sup>1</sup>以上を達成することはできなかったが，ブレンド体で用いているSPEの単体を上回る値を発現させることに成功した．今後は，最適なエラストマーやモノマーの選択，ブレンド方法の確立，などによって更なるソフトイオニクス材料の発展と用途開拓を目指したい",
+      "section": "4. ま と め"
+    },
+    {
+      "block_id": "P_7_106",
+      "page_id": 7,
+      "block_index": 106,
+      "element_type": "text",
+      "bbox": [
+        515,
+        65,
+        929,
+        247
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "4. ま と め"
+    },
+    {
+      "block_id": "P_7_107",
+      "page_id": 7,
+      "block_index": 107,
+      "element_type": "title",
+      "bbox": [
+        517,
+        268,
+        573,
+        282
+      ],
+      "alignment_status": "matched",
+      "text": "謝 辞",
+      "title_level": 2,
+      "section": "謝 辞"
+    },
+    {
+      "block_id": "P_7_108",
+      "page_id": 7,
+      "block_index": 108,
+      "element_type": "text",
+      "bbox": [
+        515,
+        287,
+        927,
+        338
+      ],
+      "alignment_status": "matched",
+      "text": "本研究で使用しました各種ニトリルゴム，ゼオスパン，ブレンマーをご提供頂きました，日本ゼオン㈱，日油㈱に厚く御礼申し上げます",
+      "section": "謝 辞"
+    },
+    {
+      "block_id": "P_7_109",
+      "page_id": 7,
+      "block_index": 109,
+      "element_type": "title",
+      "bbox": [
+        680,
+        351,
+        766,
+        367
+      ],
+      "alignment_status": "matched",
+      "text": "References",
+      "title_level": 2,
+      "section": "References"
+    },
+    {
+      "block_id": "R_7_110",
+      "page_id": 7,
+      "block_index": 110,
+      "element_type": "references",
+      "bbox": [
+        522,
+        381,
+        791,
+        394
+      ],
+      "alignment_status": "matched",
+      "text": "1）Wright, P. V.: Brit. Polym. J., 7, 319（1975）",
+      "section": "References"
+    },
+    {
+      "block_id": "R_7_111",
+      "page_id": 7,
+      "block_index": 111,
+      "element_type": "references",
+      "bbox": [
+        522,
+        395,
+        927,
+        432
+      ],
+      "alignment_status": "matched",
+      "text": "2）Armand, M. B.; Chagagno, J. M.; Duclot, M. T.: in “Fast Ion Transport in Solids”, Vashishta, P.; Mumdy, J. N.; Shennoy, G. K.: Eds., Amsterdam, Elsevier, p.131（1979）",
+      "section": "References"
+    },
+    {
+      "block_id": "R_7_112",
+      "page_id": 7,
+      "block_index": 112,
+      "element_type": "references",
+      "bbox": [
+        522,
+        435,
+        870,
+        447
+      ],
+      "alignment_status": "matched",
+      "text": "3）Ratner, M. A.; Shriver, D. F.: Chem. Rev., 88, 109（1988）",
+      "section": "References"
+    },
+    {
+      "block_id": "R_7_113",
+      "page_id": 7,
+      "block_index": 113,
+      "element_type": "references",
+      "bbox": [
+        522,
+        449,
+        926,
+        473
+      ],
+      "alignment_status": "matched",
+      "text": "4）Gray, F. M.: “Solid Polymer Electrolytes”, VCH, New York（1991）",
+      "section": "References"
+    },
+    {
+      "block_id": "R_7_114",
+      "page_id": 7,
+      "block_index": 114,
+      "element_type": "references",
+      "bbox": [
+        522,
+        476,
+        927,
+        500
+      ],
+      "alignment_status": "matched",
+      "text": "5）Bruce, P. G.; Vincent, C. A.: J. Chem. Soc., Faraday Trans., 89,3187（1993）",
+      "section": "References"
+    },
+    {
+      "block_id": "R_7_115",
+      "page_id": 7,
+      "block_index": 115,
+      "element_type": "references",
+      "bbox": [
+        522,
+        502,
+        927,
+        514
+      ],
+      "alignment_status": "matched",
+      "text": "6）Takeoka, S.; Ohno, H.; Tsuchida, E.: Polym. Adv. Tech., 4, 53（1993）",
+      "section": "References"
+    },
+    {
+      "block_id": "R_7_116",
+      "page_id": 7,
+      "block_index": 116,
+      "element_type": "references",
+      "bbox": [
+        524,
+        516,
+        927,
+        539
+      ],
+      "alignment_status": "matched",
+      "text": "7）Rietman, E. A.; Kaplan, M. L.; Cava, R. J.: Solid State Ionics, 17, 67（1985）",
+      "section": "References"
+    },
+    {
+      "block_id": "R_7_117",
+      "page_id": 7,
+      "block_index": 117,
+      "element_type": "references",
+      "bbox": [
+        522,
+        543,
+        927,
+        569
+      ],
+      "alignment_status": "matched",
+      "text": "8）Yoshitani, T.; Tominaga, Y.; Asai, S.; Sumita, M.: Nippon GomuKyokai Elastomer Touronkai Youshisyu, 18, 56（2006）",
+      "section": "References"
+    },
+    {
+      "block_id": "R_7_118",
+      "page_id": 7,
+      "block_index": 118,
+      "element_type": "references",
+      "bbox": [
+        522,
+        570,
+        926,
+        595
+      ],
+      "alignment_status": "matched",
+      "text": "9）Tominaga, Y.; Yoshitani, T.; Asai, S.; Sumita, M.: Kobunshi Gakkai Kobunshi Touronkai Yokousyu, 56, 3516（2007）",
+      "section": "References"
+    },
+    {
+      "block_id": "R_7_119",
+      "page_id": 7,
+      "block_index": 119,
+      "element_type": "references",
+      "bbox": [
+        521,
+        596,
+        921,
+        621
+      ],
+      "alignment_status": "matched",
+      "text": "10）Tominaga, Y.; Matsumura, S.: Jpn. Kokai Tokkyo Koho 2008138038（2008）",
+      "section": "References"
+    },
+    {
+      "block_id": "R_7_120",
+      "page_id": 7,
+      "block_index": 120,
+      "element_type": "references",
+      "bbox": [
+        522,
+        624,
+        926,
+        648
+      ],
+      "alignment_status": "matched",
+      "text": "11）Matsumoto, M.; Rutt, J. S.; Nishi, S.: J. Electrochem. Soc., 142,3052（1995）",
+      "section": "References"
+    },
+    {
+      "block_id": "R_7_121",
+      "page_id": 7,
+      "block_index": 121,
+      "element_type": "references",
+      "bbox": [
+        521,
+        651,
+        926,
+        675
+      ],
+      "alignment_status": "matched",
+      "text": "12）Marwanta, E.; Mizumo, T.; Ohno, H.: Solid State Ionics, 178, 227（2007）",
+      "section": "References"
+    },
+    {
+      "block_id": "R_7_122",
+      "page_id": 7,
+      "block_index": 122,
+      "element_type": "references",
+      "bbox": [
+        521,
+        677,
+        825,
+        690
+      ],
+      "alignment_status": "matched",
+      "text": "13）Weston, J. E.; Steele, B. C. H.: ibid., 7, 81（1982）",
+      "section": "References"
+    },
+    {
+      "block_id": "R_7_123",
+      "page_id": 7,
+      "block_index": 123,
+      "element_type": "references",
+      "bbox": [
+        521,
+        692,
+        927,
+        728
+      ],
+      "alignment_status": "matched",
+      "text": "14）Brandrup, J.; Immergut, E. H.; Grulke, E. A. Eds.: “PolymerHandbook（4yh ed.）”, Wiley Interscience, New York, p.VI/411（1999）",
+      "section": "References"
+    },
+    {
+      "block_id": "R_7_124",
+      "page_id": 7,
+      "block_index": 124,
+      "element_type": "references",
+      "bbox": [
+        522,
+        732,
+        887,
+        744
+      ],
+      "alignment_status": "matched",
+      "text": "15）Kwak, S.-Y.; Nakajima, N.: Macromolecules, 29, 5446（1996）",
+      "section": "References"
+    },
+    {
+      "block_id": "R_7_125",
+      "page_id": 7,
+      "block_index": 125,
+      "element_type": "references",
+      "bbox": [
+        521,
+        746,
+        927,
+        771
+      ],
+      "alignment_status": "matched",
+      "text": "16）Ferry, A.; Edman, L.; Forsyth, M.; MacFarlane, D. R.; Sun, J.:Electrochim. Acta, 45, 1237（2000）",
+      "section": "References"
+    },
+    {
+      "block_id": "R_7_126",
+      "page_id": 7,
+      "block_index": 126,
+      "element_type": "references",
+      "bbox": [
+        522,
+        772,
+        927,
+        797
+      ],
+      "alignment_status": "matched",
+      "text": "17）Watanabe, M.; Oohashi, S.; Sanui, K.; Ogata, N.; Kobayashi, T.;Ohtaki, Z.: Macromolecules, 17, 2908（1984）",
+      "section": "References"
+    },
+    {
+      "block_id": "P_7_127",
+      "page_id": 7,
+      "block_index": 127,
+      "element_type": "title",
+      "bbox": [
+        652,
+        820,
+        796,
+        834
+      ],
+      "alignment_status": "matched",
+      "text": "日本語表記参考文献",
+      "title_level": 2,
+      "section": "日本語表記参考文献"
+    },
+    {
+      "block_id": "P_7_128",
+      "page_id": 7,
+      "block_index": 128,
+      "element_type": "text",
+      "bbox": [
+        521,
+        848,
+        927,
+        873
+      ],
+      "alignment_status": "matched",
+      "text": "8）芳谷勉，富永洋一，浅井茂雄，住田雅夫：日本ゴム協会 エラストマー討論会要旨集，18，56（2006）",
+      "section": "日本語表記参考文献"
+    },
+    {
+      "block_id": "R_7_129",
+      "page_id": 7,
+      "block_index": 129,
+      "element_type": "references",
+      "bbox": [
+        521,
+        875,
+        927,
+        901
+      ],
+      "alignment_status": "matched",
+      "text": "9）富永洋一，芳谷勉，浅井茂雄，住田雅夫：高分子学会 高分子討論会要旨集，56，3516（2007）",
+      "section": "日本語表記参考文献"
+    },
+    {
+      "block_id": "R_7_130",
+      "page_id": 7,
+      "block_index": 130,
+      "element_type": "references",
+      "bbox": [
+        519,
+        902,
+        826,
+        915
+      ],
+      "alignment_status": "matched",
+      "text": "10）富永洋一，松村成記：特開 2008―138038（2008）",
+      "section": "日本語表記参考文献"
+    },
+    {
+      "block_id": "P_7_131",
+      "page_id": 7,
+      "block_index": 131,
+      "element_type": "text",
+      "bbox": [
+        862,
+        946,
+        909,
+        960
+      ],
+      "alignment_status": "matched",
+      "text": "（ 18 ）",
+      "section": "日本語表記参考文献"
+    }
+  ],
+  "warnings": [
+    {
+      "code": "metadata_extraction_failed",
+      "message": "未配置统一 LLM 元数据提取器；document JSON 已继续生成"
+    }
+  ]
+}

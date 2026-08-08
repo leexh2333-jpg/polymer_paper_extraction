@@ -1,0 +1,1618 @@
+{
+  "schema_version": "1.0",
+  "document_id": "reference_no_0043590",
+  "paper": {
+    "ref_no": "reference_no_0043590",
+    "pdf_filename": "8fd43c94-53a2-4638-83c1-4f5fb64cce98_origin.pdf",
+    "source_pdf_path": "mineru_output/reference_no_0043590/8fd43c94-53a2-4638-83c1-4f5fb64cce98_origin.pdf",
+    "organized_pdf_path": "wenxian/reference_no_0043590/origin.pdf",
+    "doi": "10.1002/app.30177",
+    "title": "Multiple Percolation in a Carbon-Filled Polymer Composites via Foaming",
+    "authors": [
+      "M. R. Thompson",
+      "G. H. Motlagh",
+      "K. J. Oxby",
+      "A. N. Hrymak"
+    ],
+    "journal": "Journal of Applied Polymer Science",
+    "year": 2010,
+    "metadata_status": "complete",
+    "metadata_extraction": {
+      "method": "llm",
+      "provider": "volcengine",
+      "model": "doubao-seed-2-0-pro-260215",
+      "prompt_file": "prompts/meta_extract.md",
+      "prompt_sha256": "96d91fd20308fdaa013aaef055c4b873880414f84228b8c5983246b74d21271b",
+      "source_pages": [
+        0,
+        1
+      ],
+      "status": "success"
+    }
+  },
+  "source_files": {
+    "markdown": "reference_no_0043590.md",
+    "content_v1": "content.json",
+    "content_v2": "content_v2.json",
+    "pdf": "origin.pdf"
+  },
+  "ocr": {
+    "engine": "mineru",
+    "batch_id": "a2fa80d8-bb3d-43a9-a298-6438abdeb41a",
+    "model_version": "vlm",
+    "ocr_enabled": null,
+    "language": null,
+    "page_ranges": null,
+    "enable_formula": null,
+    "enable_table": null,
+    "extra_formats": null,
+    "status": "done",
+    "manifest_file": "batch_a2fa80d8-bb3d-43a9-a298-6438abdeb41a_manifest.json",
+    "status_file": "batch_a2fa80d8-bb3d-43a9-a298-6438abdeb41a_status.json"
+  },
+  "elements": [
+    {
+      "block_id": "P_0_0",
+      "page_id": 0,
+      "block_index": 0,
+      "element_type": "title",
+      "bbox": [
+        100,
+        93,
+        750,
+        145
+      ],
+      "alignment_status": "matched",
+      "text": "Multiple Percolation in a Carbon-Filled Polymer Composites via Foaming",
+      "title_level": 1,
+      "section": "DocumentTitle"
+    },
+    {
+      "block_id": "P_0_1",
+      "page_id": 0,
+      "block_index": 1,
+      "element_type": "text",
+      "bbox": [
+        100,
+        170,
+        615,
+        188
+      ],
+      "alignment_status": "matched",
+      "text": "M. R. Thompson,<sup>1</sup> G. H. Motlagh,<sup>2</sup> K. J. Oxby,<sup>1</sup> A. N. Hrymak<sup>1</sup>",
+      "section": "Multiple Percolation in a Carbon-Filled Polymer Composites via Foaming"
+    },
+    {
+      "block_id": "P_0_2",
+      "page_id": 0,
+      "block_index": 2,
+      "element_type": "text",
+      "bbox": [
+        100,
+        193,
+        880,
+        224
+      ],
+      "alignment_status": "matched",
+      "text": "<sup>1</sup>MMRI/CAPPA-D Department of Chemical Engineering, McMaster University Hamilton, Ontario L8S 4L7, Canada <sup>2</sup>Department of Chemical Engineering, Faculty of Engineering, University of Tehran, Tehran, Iran 14395/1311",
+      "section": "Multiple Percolation in a Carbon-Filled Polymer Composites via Foaming"
+    },
+    {
+      "block_id": "P_0_3",
+      "page_id": 0,
+      "block_index": 3,
+      "element_type": "text",
+      "bbox": [
+        100,
+        239,
+        463,
+        253
+      ],
+      "alignment_status": "matched",
+      "text": "Received 4 September 2008; accepted 9 November 2008",
+      "section": "Multiple Percolation in a Carbon-Filled Polymer Composites via Foaming"
+    },
+    {
+      "block_id": "P_0_4",
+      "page_id": 0,
+      "block_index": 4,
+      "element_type": "text",
+      "bbox": [
+        100,
+        251,
+        258,
+        265
+      ],
+      "alignment_status": "matched",
+      "text": "DOI 10.1002/app.30177",
+      "section": "Multiple Percolation in a Carbon-Filled Polymer Composites via Foaming"
+    },
+    {
+      "block_id": "P_0_5",
+      "page_id": 0,
+      "block_index": 5,
+      "element_type": "text",
+      "bbox": [
+        100,
+        264,
+        680,
+        279
+      ],
+      "alignment_status": "matched",
+      "text": "Published online 10 September 2009 in Wiley InterScience (www.interscience.wiley.com).",
+      "section": "Multiple Percolation in a Carbon-Filled Polymer Composites via Foaming"
+    },
+    {
+      "block_id": "P_0_6",
+      "page_id": 0,
+      "block_index": 6,
+      "element_type": "text",
+      "bbox": [
+        98,
+        293,
+        488,
+        420
+      ],
+      "alignment_status": "matched",
+      "text": "ABSTRACT: This article describes an investigation into the effects of foaming on the electrical conductivity for a carbon-filled cyclic olefin copolymer (COC) composite incorporating both chopped carbon fibers (cCF) and carbon black (CB). Foamed and solid samples were injection molded and then analyzed for cell size, fiber length, fiber orientation, and electrical conductivity. Foamed samples exhibited higher electrical conductivity in the through-plane direction for materials containing only CB or composites containing both filler types, and reduced electrical conductivity in the cCF-",
+      "section": "Multiple Percolation in a Carbon-Filled Polymer Composites via Foaming"
+    },
+    {
+      "block_id": "P_0_7",
+      "page_id": 0,
+      "block_index": 7,
+      "element_type": "title",
+      "bbox": [
+        223,
+        467,
+        363,
+        482
+      ],
+      "alignment_status": "matched",
+      "text": "INTRODUCTION",
+      "title_level": 2,
+      "section": "INTRODUCTION"
+    },
+    {
+      "block_id": "P_0_8",
+      "page_id": 0,
+      "block_index": 8,
+      "element_type": "text",
+      "bbox": [
+        96,
+        488,
+        488,
+        804
+      ],
+      "alignment_status": "matched",
+      "text": "The addition of conductive fillers such as metal or carbon in powder or fiber form to an insulative thermoplastic matrix can provide suitable pathways for electrons, resulting in conductivity values in the order of $1 0 ^ { - 5 } – 1 0 0 \\mathsf { S } / \\mathrm { c m } . ^ { \\sharp - 3 }$The concentrations of the conductive fillers must exceed their percolation threshold within the matrix (either individually or in combination) so that the dispersed additives are in suitable proximity to one another to allow electrons to traverse from one side of a molded part to the other. Generally, with the generation of a percolating network of filler in the polymer matrix there is an accompanying increase in material weight and decrease in processability as well as mechanical properties of a manufactured part. The foaming of polymers is known to improve impact and acoustical dampening properties,<sup>4</sup> decrease material density and improve processability by lowering matrix viscosity<sup>5</sup>; all properties which suffer with the high loading of a filler. However, there are few publications reporting on the electrical conductivity of foam polymer composites<sup>6,7</sup> and none examine the relationfilled composites. The increased electrical property gained by foaming was attributed to multiple percolation with CB aggregates forming more effective conductive clusters and networks in the continuous polymer phase during growth of the gas domains. A mechanism for the phenomenon was proposed based on these experimental observations. VC 2009 Wiley Periodicals, Inc. J Appl Polym Sci 115: 646–654, 2010",
+      "merged_source_block_ids": [
+        "P_0_8",
+        "V2_0_8_1"
+      ],
+      "section": "INTRODUCTION"
+    },
+    {
+      "block_id": "P_0_9",
+      "page_id": 0,
+      "block_index": 9,
+      "element_type": "text",
+      "bbox": [
+        507,
+        293,
+        898,
+        383
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "INTRODUCTION"
+    },
+    {
+      "block_id": "P_0_10",
+      "page_id": 0,
+      "block_index": 10,
+      "element_type": "text",
+      "bbox": [
+        507,
+        392,
+        896,
+        420
+      ],
+      "alignment_status": "matched",
+      "text": "Key words: electrical conductivity; foam; polymer composite; carbon filler",
+      "section": "INTRODUCTION"
+    },
+    {
+      "block_id": "P_0_11",
+      "page_id": 0,
+      "block_index": 11,
+      "element_type": "text",
+      "bbox": [
+        507,
+        467,
+        896,
+        500
+      ],
+      "alignment_status": "matched",
+      "text": "ship between filler morphology and foam structure in regards to electrical properties.",
+      "section": "INTRODUCTION"
+    },
+    {
+      "block_id": "P_0_12",
+      "page_id": 0,
+      "block_index": 12,
+      "element_type": "text",
+      "bbox": [
+        506,
+        498,
+        900,
+        841
+      ],
+      "alignment_status": "matched",
+      "text": "The energy and electronics product sectors hold many opportunities for polymers provided the electrical properties of such soft matter can be improved without sacrificing those attributes, such as ease of forming and light weight, which drew engineers to consider their use. Previous work by the presenting authors has examined how combinations of fillers with different aspect ratios can maximize conductivity—while maintaining processability in conventional processing equipment.<sup>8</sup> It identified synergistic combinations of powders and fibers, which maximized electrical conductivity without significantly increasing viscosity. That work was followed-up with studies revealing the benefit that foaming could have on certain aspects of electrical conductivity.<sup>7</sup> Being the first article in this area of research, the mechanism for this improvement in electrical conductivity was hypothesized based on morphological observations of that system. The present work attempts to deconstruct the morphological contributions being made by powder and fiber additives to improve our understanding of the mechanism by which foaming improves electrical conductivity in injection-molded materials.",
+      "section": "INTRODUCTION"
+    },
+    {
+      "block_id": "P_0_13",
+      "page_id": 0,
+      "block_index": 13,
+      "element_type": "title",
+      "bbox": [
+        636,
+        860,
+        769,
+        875
+      ],
+      "alignment_status": "matched",
+      "text": "EXPERIMENTAL",
+      "title_level": 2,
+      "section": "EXPERIMENTAL"
+    },
+    {
+      "block_id": "P_0_14",
+      "page_id": 0,
+      "block_index": 14,
+      "element_type": "title",
+      "bbox": [
+        509,
+        883,
+        585,
+        898
+      ],
+      "alignment_status": "matched",
+      "text": "Materials",
+      "title_level": 2,
+      "section": "Materials"
+    },
+    {
+      "block_id": "P_0_15",
+      "page_id": 0,
+      "block_index": 15,
+      "element_type": "text",
+      "bbox": [
+        507,
+        904,
+        898,
+        951
+      ],
+      "alignment_status": "matched",
+      "text": "Cyclic olefin copolymer (COC), an amorphous copolymer of ethylene and norbornene, (Topas 6013S-04 supplied by Ticona, MFR 14 g/10 min at 260-C,",
+      "section": "Materials"
+    },
+    {
+      "block_id": "F_0_16",
+      "page_id": 0,
+      "block_index": 16,
+      "element_type": "footnote",
+      "bbox": [
+        98,
+        835,
+        485,
+        862
+      ],
+      "alignment_status": "matched",
+      "text": "Correspondence to: M. R. Thompson (mthomps@mcmaster. ca).",
+      "section": "Materials"
+    },
+    {
+      "block_id": "F_0_17",
+      "page_id": 0,
+      "block_index": 17,
+      "element_type": "footnote",
+      "bbox": [
+        98,
+        862,
+        488,
+        914
+      ],
+      "alignment_status": "matched",
+      "text": "Contract grant sponsor: Ontario Centres of Excellence Emerging Materials and Knowledge program, Natural Science and Engineering Research Council of Canada, and the Iranian Ministry of Science.",
+      "section": "Materials"
+    },
+    {
+      "block_id": "T_1_19",
+      "page_id": 1,
+      "block_index": 19,
+      "element_type": "table",
+      "bbox": [
+        100,
+        133,
+        485,
+        261
+      ],
+      "alignment_status": "matched",
+      "caption": "TABLE I Properties of the Matrix Polymer and Conductive fillers",
+      "table_body": "<table><tr><td>Properties</td><td>COC</td><td>CB</td><td>cCF</td></tr><tr><td>Electrical conductivity (S/cm)</td><td> $<10^{-16}$ </td><td>10–100</td><td>625</td></tr><tr><td>Specific gravity</td><td>1.02</td><td>1.8</td><td>1.78</td></tr><tr><td>Bulk density (kg/m3)</td><td>510</td><td>100–120</td><td>360</td></tr><tr><td>Aggregate size (nm)</td><td>-</td><td>30–100</td><td>-</td></tr><tr><td>Pore volume (DBP, mL/100 g)</td><td>-</td><td>480–510</td><td>-</td></tr><tr><td>Surface area (m2/g)</td><td>-</td><td>1250</td><td>1.1</td></tr><tr><td>Fiber diameter (μm)</td><td>-</td><td>-</td><td>7.5</td></tr><tr><td>Fiber length (μm)</td><td>-</td><td>-</td><td>5000</td></tr></table>",
+      "image_path": "wenxian/reference_no_0043590/images/table1.jpg"
+    },
+    {
+      "block_id": "P_1_20",
+      "page_id": 1,
+      "block_index": 20,
+      "element_type": "text",
+      "bbox": [
+        96,
+        300,
+        488,
+        480
+      ],
+      "alignment_status": "matched",
+      "text": "2.16 kg) was used as the matrix polymer. PANderived chopped carbon fiber (cCF) supplied by Asbury Carbons was used along with a high surface area carbon black (CB) from Akzo Nobel (Ketjenblack EC600JD) as conductive fillers. The properties of these two carbon fillers and the matrix polymer are given in Table I. A masterbatch exothermic chemical blowing agent (CBA, IM 2240) containing 20 wt % 5-phenyl tetrazol in polycarbonate was supplied by Dempsey Corporation. The onset of decomposition for the CBA was determined by thermogravimetric analysis to be 225-C with the majority of gas evolved at 240-C.",
+      "section": "Materials"
+    },
+    {
+      "block_id": "P_1_21",
+      "page_id": 1,
+      "block_index": 21,
+      "element_type": "title",
+      "bbox": [
+        98,
+        512,
+        363,
+        528
+      ],
+      "alignment_status": "matched",
+      "text": "Preparation of composite materials",
+      "title_level": 2,
+      "section": "Preparation of composite materials"
+    },
+    {
+      "block_id": "P_1_22",
+      "page_id": 1,
+      "block_index": 22,
+      "element_type": "text",
+      "bbox": [
+        96,
+        534,
+        488,
+        802
+      ],
+      "alignment_status": "matched",
+      "text": "To probe the influence of foaming on the filler-produced electron pathways within our composite materials, a series of formulations were created using prepared masterbatches of 8 vol % CB in COC from a twin-screw extruder (Leistritz ZSE 27) and 40 vol % carbon fibers in COC using a single screw extruder (50 mm Davis-Standard). The twin-screw extruder operated at a nominal temperature of 260-C and 100 RPM with CB introduced into the melt by a side feeder half way down the length of the machine to minimize agglomeration. The single screw extruder operated at a nominal temperature of 260-C fitted with a deep channel, zero compression screw rotating at 20 RPM. The stated formulations below were then produced by dry blending these masterbatch materials with COC in the injection molding machine, along with 5 wt % of the foaming agent.",
+      "section": "Preparation of composite materials"
+    },
+    {
+      "block_id": "P_1_23",
+      "page_id": 1,
+      "block_index": 23,
+      "element_type": "text",
+      "bbox": [
+        96,
+        801,
+        488,
+        951
+      ],
+      "alignment_status": "matched",
+      "text": "Single filler composites were prepared containing either 10 vol % cCF (COC/cCF10), or 3 vol % CB (COC/CB3). These carbon loading values were selected so that the final molded parts would exhibit a relatively high electrical conductivity to minimize measurement error, yet not so high that the resulting viscosity made them difficult to injection mold or foam. The viscosity of both materials was reported in a previous article to be quite similar during processing.<sup>8</sup> Two hybrid composites were prepared containing both CB and cCFs, one where the CB concentration was below its percolation threshold, with 1 vol % CB and the other above this critical value with 3 vol % CB. Both hybrid composites contained 10 vol % CF in addition to the stated CB content. The naming terminology used in this article for these two materials indicates the percent volume of cCF and CB in the polymer matrix. For example, COC/cCF10-CB1 corresponds to the material with 10 vol % cCF and 1 vol % CB mixed into COC. The viscosity curves of the individual filler composites and hybrid composites are summarized in Figure 1.",
+      "section": "Preparation of composite materials"
+    },
+    {
+      "block_id": "P_1_24",
+      "page_id": 1,
+      "block_index": 24,
+      "element_type": "text",
+      "bbox": [
+        506,
+        104,
+        900,
+        285
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "Preparation of composite materials"
+    },
+    {
+      "block_id": "P_1_25",
+      "page_id": 1,
+      "block_index": 25,
+      "element_type": "title",
+      "bbox": [
+        507,
+        309,
+        693,
+        325
+      ],
+      "alignment_status": "matched",
+      "text": "Foam injection molding",
+      "title_level": 2,
+      "section": "Foam injection molding"
+    },
+    {
+      "block_id": "P_1_26",
+      "page_id": 1,
+      "block_index": 26,
+      "element_type": "text",
+      "bbox": [
+        506,
+        330,
+        900,
+        496
+      ],
+      "alignment_status": "matched",
+      "text": "Molded samples from the prepared materials were produced using an Arburg 55 ton injection molding machine with a rectangular center-gated mold. The shot size was controlled to 85% mold fill to allow for foam growth. The temperature profile of the plasticating unit and nozzle were set at 30, 210, 210, 250, 290, and 300-C, respectively, from the hopper to the nozzle so to prevent premature decomposition of CBA. These processing conditions were already shown to be optimal for obtaining high electrical conductivity.<sup>7</sup>",
+      "section": "Foam injection molding"
+    },
+    {
+      "block_id": "P_1_27",
+      "page_id": 1,
+      "block_index": 27,
+      "element_type": "title",
+      "bbox": [
+        507,
+        520,
+        582,
+        535
+      ],
+      "alignment_status": "matched",
+      "text": "Analysis",
+      "title_level": 2,
+      "section": "Analysis"
+    },
+    {
+      "block_id": "P_1_28",
+      "page_id": 1,
+      "block_index": 28,
+      "element_type": "text",
+      "bbox": [
+        506,
+        541,
+        900,
+        679
+      ],
+      "alignment_status": "matched",
+      "text": "The test specimens from each composite produced were prepared in accordance with our previous articles.<sup>7,8</sup> The 40 mm  10.5 mm rectangular samples, as shown in Figure 2, were used to measure electrical conductivity along the length (L) and thickness (T) axes. In some cases, the two surface faces in the LW plane were milled to remove the 0.6-mm skin layers from the top and bottom of the original 3-mm thick part. Apparent density (and hence porosity) was determined by the buoyancy method. In-plane measurements in the L direction $( \\sigma _ { L } )$were carried out by the four-probe method, whereas the two-probe method was used to measure electrical conductivity in the T direction $( \\sigma _ { T } ,$through plane). The voltage range used for these analyses was kept as close to 0.5–1 VDC as possible, to minimize the occurrence of joule heating. In-plane measurement, in accordance with ASTM C611, used the rectangular specimens (described earlier), which were placed between two gold-coated copper electrodes and a constant DC current was applied by an Agilent 6441C power source. The voltage drop was measured by a second set of probes between two points on the sample, separated by a distance of 30 mm, using an Agilent 3440A multimeter. Through-plane measurement of electrical conductivity was done between two gold-plated copper electrodes. To minimize the contact resistance, conductive carbon article (Technimat 6100-070 supplied by Lydall) was placed between the two electrode-sample surfaces. Constant DC current was applied while the sample was kept under a constant compressive pressure of 10 MPa and the potential drop was measured between the two electrodes. Bulk conductivity $( \\sigma _ { 3 D } )$that was the geometric average of values for the length, width, and through-plane direction were included in some analysis. The measurements of the fiber length distribution, fiber orientation factors $( f _ { L } , \\ f _ { W } , \\ { \\breve { f } } _ { T } )$, and foam structure were done by optical microscopy using digital image analysis software. Refer to our earlier article for details on measurement techniques used in this work.<sup>7,8</sup>",
+      "merged_source_block_ids": [
+        "P_1_28",
+        "V2_1_9_1",
+        "V2_1_9_3",
+        "V2_1_9_5",
+        "V2_1_9_7"
+      ],
+      "section": "Analysis"
+    },
+    {
+      "block_id": "I_1_29",
+      "page_id": 1,
+      "block_index": 29,
+      "element_type": "image",
+      "bbox": [
+        509,
+        691,
+        895,
+        913
+      ],
+      "alignment_status": "matched",
+      "image_kind": "chart",
+      "caption": "Figure 1 Shear viscosity curves for COC and the COC composites.",
+      "image_path": "wenxian/reference_no_0043590/images/fig1.jpg"
+    },
+    {
+      "block_id": "I_2_33",
+      "page_id": 2,
+      "block_index": 33,
+      "element_type": "image",
+      "bbox": [
+        104,
+        103,
+        485,
+        307
+      ],
+      "alignment_status": "matched",
+      "image_kind": "image",
+      "caption": "Figure 2 Prepared specimens from molded sample for electrical conductivity measurements.",
+      "image_path": "wenxian/reference_no_0043590/images/fig2.jpg"
+    },
+    {
+      "block_id": "P_2_34",
+      "page_id": 2,
+      "block_index": 34,
+      "element_type": "text",
+      "bbox": [
+        96,
+        358,
+        488,
+        850
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "Analysis"
+    },
+    {
+      "block_id": "P_2_35",
+      "page_id": 2,
+      "block_index": 35,
+      "element_type": "title",
+      "bbox": [
+        176,
+        882,
+        412,
+        897
+      ],
+      "alignment_status": "matched",
+      "text": "RESULTS AND DISCUSSION",
+      "title_level": 2,
+      "section": "RESULTS AND DISCUSSION"
+    },
+    {
+      "block_id": "P_2_36",
+      "page_id": 2,
+      "block_index": 36,
+      "element_type": "text",
+      "bbox": [
+        96,
+        904,
+        488,
+        951
+      ],
+      "alignment_status": "matched",
+      "text": "The variability in measured material attributes were generally small for bulk properties, although quite large for electrical conductivity, which tended to be much more sensitive to the heterogeneity of filler dispersion. For material density and foam cell size, the maximum standard deviation was 1.1% and 8%, respectively. Material density was used to confirm the filler concentration in the molded nonfoamed parts and determine the porosity of the foamed parts. The maximum standard deviations among fiber orientation factors $( f _ { L } , f _ { W } ,$and $f _ { T } )$was 24%. The lower standard deviation for $f _ { L }$was probably due to the fact that fibers were preferentially oriented in the L direction. For electrical conductivity, the maximum standard deviation was 74%, largest for the in-plane conductivity (r ) because of the small distance between the measuring probes.<sup>8,9</sup>",
+      "merged_source_block_ids": [
+        "P_2_36",
+        "V2_2_3_1",
+        "V2_2_3_3",
+        "V2_2_3_5"
+      ],
+      "section": "RESULTS AND DISCUSSION"
+    },
+    {
+      "block_id": "P_2_37",
+      "page_id": 2,
+      "block_index": 37,
+      "element_type": "text",
+      "bbox": [
+        506,
+        104,
+        900,
+        314
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "RESULTS AND DISCUSSION"
+    },
+    {
+      "block_id": "P_2_38",
+      "page_id": 2,
+      "block_index": 38,
+      "element_type": "title",
+      "bbox": [
+        507,
+        337,
+        841,
+        353
+      ],
+      "alignment_status": "matched",
+      "text": "Foam morphology of the different materials",
+      "title_level": 2,
+      "section": "Foam morphology of the different materials"
+    },
+    {
+      "block_id": "P_2_39",
+      "page_id": 2,
+      "block_index": 39,
+      "element_type": "text",
+      "bbox": [
+        506,
+        358,
+        900,
+        643
+      ],
+      "alignment_status": "matched",
+      "text": "With the addition of CBA to the different COC formulations, a porosity of 11–16% was achieved. Table II summarizes attributes of the foam samples for the CB filled, carbon fiber-filled, and hybrid-filled COC composites, made in comparison with a foamed COC material. The foam structure produced by injection molding of the unmodified COC demonstrated a broad range of cell sizes, with finer (<50 lm) bubbles located near the skin of the molded part and very large (>500 lm) bubbles along the centerline. Despite the broad range of sizes, most bubbles were found to be near spherical in the foamed COC. Conversely, the cells through the core of the different COC composites were more uniform in size except near the skin where the bubbles were highly elongated. SEM micrographs giving a cross-sectional view of the molded part for the foamed COC as well as COC/CB3 and COC/cCF10 are shown in Figure 3.",
+      "section": "Foam morphology of the different materials"
+    },
+    {
+      "block_id": "P_2_40",
+      "page_id": 2,
+      "block_index": 40,
+      "element_type": "title",
+      "bbox": [
+        509,
+        664,
+        660,
+        681
+      ],
+      "alignment_status": "matched",
+      "text": "CB-COC composite",
+      "title_level": 2,
+      "section": "CB-COC composite"
+    },
+    {
+      "block_id": "P_2_41",
+      "page_id": 2,
+      "block_index": 41,
+      "element_type": "text",
+      "bbox": [
+        506,
+        686,
+        900,
+        793
+      ],
+      "alignment_status": "matched",
+      "text": "For the foamed composite with 3 vol % CB in the COC matrix, Table II noted that its average cell size was slightly reduced and there was a significant decrease in cell density compared with the foamed COC. Near the skin layer, the observed bubbles were elongated, although not as extensively as found with the cCF composite. Comparing SEM micrographs of the foamed and nonfoamed COC/ CB3, as seen in Figure 4, there was no detectable difference in CB dispersion caused by the foaming agent. The largest aggregates of CB found were 0.5 lm in both micrographs in comparison with the nominal cell diameter of 60 lm found in COC/CB3. This means the gas phase excluded a considerable volume within the molded part, which will not partake in the conduction of electrons.",
+      "section": "CB-COC composite"
+    },
+    {
+      "block_id": "T_2_42",
+      "page_id": 2,
+      "block_index": 42,
+      "element_type": "table",
+      "bbox": [
+        509,
+        835,
+        896,
+        944
+      ],
+      "alignment_status": "matched",
+      "caption": "TABLE II Cell Size of the Foam Injection molded Composites",
+      "table_body": "<table><tr><td rowspan=\"2\">Sample</td><td rowspan=\"2\">Void Content (%)</td><td rowspan=\"2\">Cell Density (×106cells/cm3)</td><td colspan=\"3\">Cell Size (μm)</td></tr><tr><td> $D_n$ </td><td> $D_w$ </td><td> $D_{max}$ </td></tr><tr><td>COC</td><td>11</td><td>2.3</td><td>45</td><td>72</td><td>540</td></tr><tr><td>CB3</td><td>15</td><td>1.0</td><td>57</td><td>64</td><td>400</td></tr><tr><td>cCF10</td><td>15</td><td>5.0</td><td>30</td><td>35</td><td>200</td></tr><tr><td>cCF10-CB1</td><td>14</td><td>2.6</td><td>23</td><td>27</td><td>52</td></tr><tr><td>cCF10-CB3</td><td>16</td><td>2.5</td><td>28</td><td>35</td><td>72</td></tr></table>",
+      "image_path": "wenxian/reference_no_0043590/images/table2.jpg"
+    },
+    {
+      "block_id": "I_3_46",
+      "page_id": 3,
+      "block_index": 46,
+      "element_type": "image",
+      "bbox": [
+        106,
+        116,
+        479,
+        359
+      ],
+      "alignment_status": "matched",
+      "image_kind": "image",
+      "caption": null,
+      "image_path": "wenxian/reference_no_0043590/images/fig1.jpg"
+    },
+    {
+      "block_id": "I_3_47",
+      "page_id": 3,
+      "block_index": 47,
+      "element_type": "image",
+      "bbox": [
+        106,
+        372,
+        480,
+        618
+      ],
+      "alignment_status": "matched",
+      "image_kind": "image",
+      "caption": null,
+      "image_path": "wenxian/reference_no_0043590/images/fig2.jpg"
+    },
+    {
+      "block_id": "I_3_48",
+      "page_id": 3,
+      "block_index": 48,
+      "element_type": "image",
+      "bbox": [
+        106,
+        630,
+        480,
+        876
+      ],
+      "alignment_status": "matched",
+      "image_kind": "image",
+      "caption": "Figure 3 SEM image showing the cell morphology for (a) COC, (b) COC/CB3, and (c) COC/cCF10 composite in the LT plane. L, horizontal direction and T, vertical direction. Filler particles are not detectable at given resolution.",
+      "image_path": "wenxian/reference_no_0043590/images/fig3.jpg"
+    },
+    {
+      "block_id": "P_3_49",
+      "page_id": 3,
+      "block_index": 49,
+      "element_type": "text",
+      "bbox": [
+        506,
+        104,
+        898,
+        239
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "CB-COC composite"
+    },
+    {
+      "block_id": "P_3_50",
+      "page_id": 3,
+      "block_index": 50,
+      "element_type": "text",
+      "bbox": [
+        506,
+        239,
+        898,
+        374
+      ],
+      "alignment_status": "matched",
+      "text": "The electrical conductivity was measured in-plane and through-plane for the foam composite samples and compared against their solid counterparts. Neat COC was not included in this measurement as its conductivity lies below the resolution of our instrument. Figure 5 summarizes the values of $\\sigma _ { L } , \\sigma _ { T } ,$and average conductivity (r <sub>D</sub>) for these materials, with and without the skin layer removed. For the nonfoamed composite, $\\sigma _ { L }$was larger $( 1 0 ^ { - 2 } \\ \\mathrm { S / c m } )$than r<sub>T</sub> by almost three orders of magnitude with the skin in place yet after removing the skin (0.6 mm on each side) the through-plane value was only one order of magnitude smaller. The poor transmission of electrons through the skin layer is typical for injection molded parts of carbon filler composites, as noted by Drubetski et al.<sup>10</sup> in their examination of materials containing CB, carbon fibers, or a combination of both. The solid filler particles are concentrated within the molten matrix near the mid-plane of the part due to the shear–stress profile. This \"filler localization\" effect was similarly observed for the foamed specimen, although through-plane conductivity was notably improved even with the skin remaining. Conductivity was increased in all measured planes for the foamed COC/CB3 material, although most notably in the through-plane direction. The in-plane conductivity was approximately in order of magnitude higher than the nonfoamed sample, and this value did not change with the removal of the skin. The through-plane conductivity for the foamed sample (with skin) was comparable in value to the nonfoamed sample with the skin removed. With removal of the skin, $\\sigma _ { T }$for the foamed COC/CB3 sample was now only 50% lower than the in-plane conductivity.",
+      "merged_source_block_ids": [
+        "P_3_50",
+        "V2_3_4_1",
+        "V2_3_4_3",
+        "V2_3_4_5",
+        "V2_3_4_7"
+      ],
+      "section": "CB-COC composite"
+    },
+    {
+      "block_id": "I_3_51",
+      "page_id": 3,
+      "block_index": 51,
+      "element_type": "image",
+      "bbox": [
+        512,
+        400,
+        893,
+        635
+      ],
+      "alignment_status": "matched",
+      "image_kind": "image",
+      "caption": null,
+      "image_path": "wenxian/reference_no_0043590/images/fig3.jpg"
+    },
+    {
+      "block_id": "I_3_52",
+      "page_id": 3,
+      "block_index": 52,
+      "element_type": "image",
+      "bbox": [
+        512,
+        651,
+        893,
+        887
+      ],
+      "alignment_status": "matched",
+      "image_kind": "image",
+      "caption": "Figure 4 Close-up examination of fractured surface of COC/CB3 composite, (a) nonfoamed specimen and (b) foamed specimen, by SEM. CB appears as small clusters of spherical particles in the fractured surface of the matrix.",
+      "image_path": "wenxian/reference_no_0043590/images/fig4.jpg"
+    },
+    {
+      "block_id": "I_4_56",
+      "page_id": 4,
+      "block_index": 56,
+      "element_type": "image",
+      "bbox": [
+        100,
+        104,
+        484,
+        304
+      ],
+      "alignment_status": "matched",
+      "image_kind": "chart",
+      "caption": "Figure 5 Electrical conductivity of injection-molded COC/CB3 composites tested with LW skin present, and after removing 0.6 mm LW skin from both sides.",
+      "image_path": "wenxian/reference_no_0043590/images/fig5.jpg"
+    },
+    {
+      "block_id": "P_4_57",
+      "page_id": 4,
+      "block_index": 57,
+      "element_type": "text",
+      "bbox": [
+        96,
+        371,
+        488,
+        756
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "CB-COC composite"
+    },
+    {
+      "block_id": "P_4_58",
+      "page_id": 4,
+      "block_index": 58,
+      "element_type": "text",
+      "bbox": [
+        96,
+        756,
+        488,
+        951
+      ],
+      "alignment_status": "matched",
+      "text": "The observed enhancement in conductivity for the foamed COC/CB3 indicated a more segregated network of CB aggregates in the matrix due to the volume excluded by the gas phase. Possibly more interesting was the greater isotropy of electrical conductivity found for the foamed sample over its nonfoamed counterpart. With no localization of the carbon aggregates detected at the bubble boundary by SEM, these conductivity measurements suggest that the bubble growth in our samples resulted in more uniform dispersion of these aggregates throughout the matrix, partially countering filler localization caused by the flow field. The reduced shear viscosity often found with gas-laden melts would have additionally helped in reducing filler localization.",
+      "section": "CB-COC composite"
+    },
+    {
+      "block_id": "P_4_59",
+      "page_id": 4,
+      "block_index": 59,
+      "element_type": "text",
+      "bbox": [
+        507,
+        104,
+        898,
+        137
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "CB-COC composite"
+    },
+    {
+      "block_id": "P_4_60",
+      "page_id": 4,
+      "block_index": 60,
+      "element_type": "title",
+      "bbox": [
+        507,
+        162,
+        730,
+        177
+      ],
+      "alignment_status": "matched",
+      "text": "Carbon fiber-COC composite",
+      "title_level": 2,
+      "section": "Carbon fiber-COC composite"
+    },
+    {
+      "block_id": "P_4_61",
+      "page_id": 4,
+      "block_index": 61,
+      "element_type": "text",
+      "bbox": [
+        506,
+        183,
+        900,
+        555
+      ],
+      "alignment_status": "matched",
+      "text": "The porosity and cell size of the foamed composite containing 10 vol % cCF was found to be similar to the foamed COC/CB3 composite, as noted in Table II. The most notable difference in foam morphology for the cCF-filled composite was the greater frequency of elongated bubbles found in comparison with the CB-filled foam. The micrograph included in Figure 3 for this composite demonstrates these two foam morphologies. The elongated bubbles formed foam of low-cellular density near the skin layers of the part, oriented according to the fountain flow field present as the cavity filled. In the core region, the bubbles were more spherical and the cell density was considerably higher than near the skin. The majority of cells were in the range of 30-70 lm, which was similar in magnitude to the average fiber length in the composite. SEM analysis found no evidence of cell nucleation occurring at a fiber, indicating the additive did not likely act as a significant nucleating agent in the process. Table III lists the weight average fiber lengths found in the foamed and nonfoamed composites prepared by the injection molding machine. It appears that foaming had no significant effect on the degree of fiber breakage occurring as COC/cCF10 was being processed.",
+      "section": "Carbon fiber-COC composite"
+    },
+    {
+      "block_id": "P_4_62",
+      "page_id": 4,
+      "block_index": 62,
+      "element_type": "text",
+      "bbox": [
+        506,
+        555,
+        900,
+        795
+      ],
+      "alignment_status": "matched",
+      "text": "The influence of foaming on fiber orientation was determined by orientation factors for all three axes [i.e., in-plane longitudinal (f<sub>L</sub>), in-plane transverse (f<sub>W</sub>), and through plane (f<sub>T</sub>)]. Table IV summarizes the orientation factors calculated from optical micrographs of skin and core regions from the injectionmolded composites. Limiting our analysis for this section to the COC/cCF10 composite, it can be seen that no significant differences in fiber orientation were noted between foamed and nonfoamed samples, and very little difference was found in the morphology between the core and skin regions. Fibers were being oriented due to viscous forces, whereas the expansive forces of a bubble near a fiber had no influence. The low $f _ { T }$value indicates that only a few fibers were orientated out of plane, precluding the skin region where all fibers were highly aligned inplane by shear. The $f _ { L }$and $f _ { W }$values indicate that the in-plane fibers were randomly oriented, although to a slightly lesser degree in the skin layer.",
+      "merged_source_block_ids": [
+        "P_4_62",
+        "V2_4_6_1",
+        "V2_4_6_3",
+        "V2_4_6_5"
+      ],
+      "section": "Carbon fiber-COC composite"
+    },
+    {
+      "block_id": "T_4_63",
+      "page_id": 4,
+      "block_index": 63,
+      "element_type": "table",
+      "bbox": [
+        507,
+        837,
+        896,
+        914
+      ],
+      "alignment_status": "matched",
+      "caption": "TABLE III Fiber Length in Carbon Fiber Filled Composites",
+      "table_body": "<table><tr><td>Sample</td><td>Description</td><td>Wt. Average Length ( $\\mu m$ ) $^{a}$ </td></tr><tr><td>cCF10</td><td>Nonfoamed</td><td>172</td></tr><tr><td>cCF10</td><td>Foamed</td><td>181</td></tr><tr><td>cCF10-CB3</td><td>Nonfoamed</td><td>188</td></tr><tr><td>cCF10-CB3</td><td>Foamed</td><td>207</td></tr></table>",
+      "image_path": "wenxian/reference_no_0043590/images/table3.jpg"
+    },
+    {
+      "block_id": "T_5_67",
+      "page_id": 5,
+      "block_index": 67,
+      "element_type": "table",
+      "bbox": [
+        100,
+        144,
+        485,
+        337
+      ],
+      "alignment_status": "matched",
+      "caption": "TABLE IV Fiber Orientation factors of the Injection molded Composites",
+      "table_body": "<table><tr><td>Sample</td><td>Void Content (%)</td><td>Location</td><td> $f_T$ </td><td> $f_L$ </td><td> $f_W$ </td></tr><tr><td rowspan=\"4\">cCF10</td><td rowspan=\"2\">0</td><td>Core</td><td>0.12</td><td>0.50</td><td>0.39</td></tr><tr><td>Skin</td><td>0.04</td><td>0.61</td><td>0.35</td></tr><tr><td rowspan=\"2\">15</td><td>Core</td><td>0.105</td><td>0.585</td><td>0.310</td></tr><tr><td>Skin</td><td>0.040</td><td>0.610</td><td>0.347</td></tr><tr><td rowspan=\"4\">cCF10CB1</td><td rowspan=\"2\">0</td><td>Core</td><td>0.082</td><td>0.62</td><td>0.30</td></tr><tr><td>Skin</td><td>0.030</td><td>0.68</td><td>0.29</td></tr><tr><td rowspan=\"2\">14</td><td>Core</td><td>0.055</td><td>0.67</td><td>0.27</td></tr><tr><td>Skin</td><td>0.043</td><td>0.660</td><td>0.300</td></tr><tr><td rowspan=\"4\">cCF10CB3</td><td rowspan=\"2\">0</td><td>Core</td><td>0.118</td><td>0.63</td><td>0.25</td></tr><tr><td>Skin</td><td>0.027</td><td>0.710</td><td>0.260</td></tr><tr><td rowspan=\"2\">16</td><td>Core</td><td>0.200</td><td>0.50</td><td>0.29</td></tr><tr><td>Skin</td><td>0.040</td><td>0.680</td><td>0.280</td></tr></table>",
+      "image_path": "wenxian/reference_no_0043590/images/table4.jpg"
+    },
+    {
+      "block_id": "P_5_68",
+      "page_id": 5,
+      "block_index": 68,
+      "element_type": "text",
+      "bbox": [
+        98,
+        356,
+        488,
+        417
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "Carbon fiber-COC composite"
+    },
+    {
+      "block_id": "P_5_69",
+      "page_id": 5,
+      "block_index": 69,
+      "element_type": "text",
+      "bbox": [
+        96,
+        416,
+        488,
+        758
+      ],
+      "alignment_status": "matched",
+      "text": "Figure 6 shows the electrical conductivities for nonfoamed and foamed injection-molded samples with the COC/cCF10 composite, both in their original state and after their skin layers were removed. For the original nonfoamed COC/cCF10 material, $\\sigma _ { L }$was 2–3 orders of magnitude larger than $\\sigma _ { T } .$This follows with the orientation factor data, which indicated the fibers formed electron pathways due to their preferential alignment in the LW plane yet very little connectivity existed between planes to allow for through-plane current flow. Removing the skin had no effect on $\\sigma _ { L }$or $\\sigma _ { T }$despite differences in the orientation factor $f _ { T }$between the core and skin layers. Foaming this exclusively fiber-filled composite resulted in a slight decrease in the conductivity for the $L$direction and up to two orders of magnitude decrease in the T direction. Neither result corresponds with fiber orientation data, which indicated no difference between the nonfoamed and foamed sample. With the skin removed from the foamed sample, both $\\sigma _ { L }$and $\\sigma _ { T }$were found to be significantly lower than the nonfoamed sample or even the foamed sample with skin.",
+      "merged_source_block_ids": [
+        "P_5_69",
+        "V2_5_2_1",
+        "V2_5_2_3",
+        "V2_5_2_5",
+        "V2_5_2_7",
+        "V2_5_2_9",
+        "V2_5_2_11",
+        "V2_5_2_13",
+        "V2_5_2_15"
+      ],
+      "section": "Carbon fiber-COC composite"
+    },
+    {
+      "block_id": "P_5_70",
+      "page_id": 5,
+      "block_index": 70,
+      "element_type": "text",
+      "bbox": [
+        96,
+        756,
+        488,
+        951
+      ],
+      "alignment_status": "matched",
+      "text": "The conductivity data demonstrated little sensitivity to the minor differences in fiber orientation found between foamed and nonfoamed samples (with and without skin removal). Presumably much larger changes in the fiber direction, particularly out of plane, are needed to have a notable change in conductivity. As a result, the reduced conductivity of the foamed material was not attributed to orientation changes but rather largely related to the now present gas phase. Unfortunately, the effect of segregation on the carbon filler by foaming, which enhanced the electron pathways for the CB-filled composite, was not seen with carbon fibers. This is attributable to the relatively higher tendency for smaller particulate like CB aggregates to redistribute within shear flow during bubble growth in comparison with the considerably larger carbon fibers. This phenomenon shall be discussed in greater detail later in this article.",
+      "section": "Carbon fiber-COC composite"
+    },
+    {
+      "block_id": "P_5_71",
+      "page_id": 5,
+      "block_index": 71,
+      "element_type": "text",
+      "bbox": [
+        507,
+        104,
+        900,
+        195
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "Carbon fiber-COC composite"
+    },
+    {
+      "block_id": "P_5_72",
+      "page_id": 5,
+      "block_index": 72,
+      "element_type": "title",
+      "bbox": [
+        507,
+        218,
+        809,
+        234
+      ],
+      "alignment_status": "matched",
+      "text": "Hybrid carbon fiber/CB-COC composite",
+      "title_level": 2,
+      "section": "Hybrid carbon fiber/CB-COC composite"
+    },
+    {
+      "block_id": "P_5_73",
+      "page_id": 5,
+      "block_index": 73,
+      "element_type": "text",
+      "bbox": [
+        506,
+        240,
+        900,
+        477
+      ],
+      "alignment_status": "matched",
+      "text": "Hybrid filler systems were examined in this work as a means of increasing the conductivity of a polymer composite material, while attempting to maintain rheological properties within the range of economical processing technologies such as extrusion or injection molding. Two hybrid-filled composites were prepared, with the CB concentration below and above its inherent percolation threshold. Noted in Table II, the measured cell size was slightly smaller and much more uniform for both hybrid composites in comparison with the other foamed materials made in this study. As with COC/CB3 and COC/cCF10, the bubble size was similar in scale to the fibers yet much larger than the CB aggregates. The difference in CB concentration between the two hybrid materials had no discernable effect on the foam morphology.",
+      "section": "Hybrid carbon fiber/CB-COC composite"
+    },
+    {
+      "block_id": "P_5_74",
+      "page_id": 5,
+      "block_index": 74,
+      "element_type": "text",
+      "bbox": [
+        506,
+        477,
+        900,
+        687
+      ],
+      "alignment_status": "matched",
+      "text": "Despite its comparatively high viscosity, the fiber length of the nonfoamed COC/cCF10-CB3 was comparable with COC/cCF10, as reported in Table III. More interesting was the significantly longer fibers found in the foamed hybrid material compared with all other materials listed in the table. The addition of the CBA reduced the degree of fiber breakage occurring in the injection molding machine for this material. It is possible that the same phenomenon occurred for COC/cCF10 although the magnitude of error in the fiber length measurement made distinguishing such a change difficult. As observed in previous work,<sup>5,11</sup> blowing agents may act as plasticizers in a melt during processing, which reduces the level of stresses in the flow field acting on fibers. The lower than expected fiber breakage in the hybrid material despite its higher viscosity was thought to indicate that the CB participated in minimizing fiber damage. Rather than acting as a plasticizer as the blowing agent, CB interactions in the flow field increased the non-Newtonian nature of the melt [referring to the flow curves in Fig. 1] and with more plug-like flow characteristics of the hybrid material, fewer fibers experienced damaging shear forces.",
+      "section": "Hybrid carbon fiber/CB-COC composite"
+    },
+    {
+      "block_id": "I_5_75",
+      "page_id": 5,
+      "block_index": 75,
+      "element_type": "image",
+      "bbox": [
+        509,
+        702,
+        893,
+        901
+      ],
+      "alignment_status": "matched",
+      "image_kind": "chart",
+      "caption": "Figure 6 Electrical conductivity of solid and foam injection-molded COC/cCF10 composites, with skin and after machining off skin.",
+      "image_path": "wenxian/reference_no_0043590/images/fig6.jpg"
+    },
+    {
+      "block_id": "P_6_79",
+      "page_id": 6,
+      "block_index": 79,
+      "element_type": "text",
+      "bbox": [
+        96,
+        104,
+        488,
+        254
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "Hybrid carbon fiber/CB-COC composite"
+    },
+    {
+      "block_id": "P_6_80",
+      "page_id": 6,
+      "block_index": 80,
+      "element_type": "text",
+      "bbox": [
+        96,
+        253,
+        488,
+        580
+      ],
+      "alignment_status": "matched",
+      "text": "Fiber orientation in the hybrid composites was reported in Table IV. For both composites, COC/ cCF10-CB1 and COC/cCF10-CB3, the fibers in-plane were found to be more preferentially oriented in the direction of flow as noted by the lower $f _ { W }$and higher f<sub>L</sub>values shown in the table compared with COC/cCF10. For COC/cCF10-CB1, there was no notable difference in the orientation of fibers between the skin and core regions or between foamed and nonfoamed samples. Through-plane orientation was negligible for COC/cCF10-CB1 yet for COC/cCF10- CB3 there were now more fibers directed out of plane in the core region as a result of foaming. The increased out of plane orientation found in the presence of foaming is in agreement with previous results.<sup>7</sup> In that earlier work, it was found that fiber orientation related to foaming occurs for only a narrow processing window and filler concentrations. The data in Table IV also show that $f _ { L }$decreased and $f _ { W }$increased for the foamed sample of COC/ cCF10-CB3 indicating the influence of bubble growth on fiber orientation were seen in all planes.",
+      "merged_source_block_ids": [
+        "P_6_80",
+        "V2_6_1_1",
+        "V2_6_1_3",
+        "V2_6_1_5"
+      ],
+      "section": "Hybrid carbon fiber/CB-COC composite"
+    },
+    {
+      "block_id": "P_6_81",
+      "page_id": 6,
+      "block_index": 81,
+      "element_type": "text",
+      "bbox": [
+        96,
+        579,
+        488,
+        951
+      ],
+      "alignment_status": "matched",
+      "text": "The measured electrical conductivities of the COC/ cCF-CB composites are plotted in Figure 7. In general, the conductivities of these composites, nonfoam or foam, depended on the concentration of the CB included in the formulation. For the hybrid containing 1 vol % CB, the conductivities in both L and T directions were similar to the carbon fiber containing composite (COC/cCF10). When the CB content exceeded its percolation threshold, the conductivities of the hybrid (COC/cCF10-CB3) more closely resembled the CB containing composite (COC/CB3), although being one order of magnitude higher in both L and T directions. As found in our earlier work,<sup>8</sup> the two fillers synergistically participated in electron pathways to bring about higher conductivity values than that observed due to the individual components. With foaming, $\\sigma _ { L }$was not significantly changed and yet through-plane conductivity made a marked increase for the hybrid composites, even with only 1 vol % CB. Indeed, the more than one order of magnitude drop in through-plane electrical conductivity found in the carbon fiber composites due to foaming had turned into a more than one order of magnitude improvement with the hybrids. Skin removal improved $\\sigma _ { T }$across parts made from either nonfoamed hybrid composite by approximately one order of magnitude but did not remarkably affect $\\sigma _ { L } ; \\mathrm { ~ a ~ }$behavior consistent with COC/CB3. For the foamed hybrid composites, skin removal had no significant effect on $\\sigma _ { T , \\astrosun }$which remained similar to the foams with skins and now with the nonfoamed materials after their skins were removed. $\\sigma _ { L }$dropped by an order of magnitude for the foam hybrid with 1 vol % CB with its skin removed suggesting that considerable conduction was taking place in the skin layer, yet for the 3 vol % CB containing hybrid, conduction in the skin and core were similar.",
+      "merged_source_block_ids": [
+        "P_6_81",
+        "V2_6_2_1",
+        "V2_6_2_3",
+        "V2_6_2_5",
+        "V2_6_2_7",
+        "V2_6_2_9"
+      ],
+      "section": "Hybrid carbon fiber/CB-COC composite"
+    },
+    {
+      "block_id": "I_6_82",
+      "page_id": 6,
+      "block_index": 82,
+      "element_type": "image",
+      "bbox": [
+        509,
+        106,
+        895,
+        304
+      ],
+      "alignment_status": "matched",
+      "image_kind": "chart",
+      "caption": null,
+      "image_path": "wenxian/reference_no_0043590/images/fig4.jpg"
+    },
+    {
+      "block_id": "I_6_83",
+      "page_id": 6,
+      "block_index": 83,
+      "element_type": "image",
+      "bbox": [
+        509,
+        313,
+        895,
+        511
+      ],
+      "alignment_status": "matched",
+      "image_kind": "chart",
+      "caption": "Figure 7 Electrical conductivity of hybrid cCF10/CB composite with skin present and after LW skin removal (0.6 mm), a) 1 vol % CB and b) 3 vol % CB.",
+      "image_path": "wenxian/reference_no_0043590/images/fig7.jpg"
+    },
+    {
+      "block_id": "P_6_84",
+      "page_id": 6,
+      "block_index": 84,
+      "element_type": "text",
+      "bbox": [
+        506,
+        574,
+        900,
+        754
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "Hybrid carbon fiber/CB-COC composite"
+    },
+    {
+      "block_id": "P_6_85",
+      "page_id": 6,
+      "block_index": 85,
+      "element_type": "title",
+      "bbox": [
+        507,
+        779,
+        657,
+        795
+      ],
+      "alignment_status": "matched",
+      "text": "General discussion",
+      "title_level": 2,
+      "section": "General discussion"
+    },
+    {
+      "block_id": "P_6_86",
+      "page_id": 6,
+      "block_index": 86,
+      "element_type": "text",
+      "bbox": [
+        506,
+        800,
+        900,
+        951
+      ],
+      "alignment_status": "matched",
+      "text": "It was established in our previous work that hybrid composites possess synergistic conductive properties and through foaming under specific operating conditions and at specific filler concentrations that this conductivity can be increased further.<sup>7,8</sup> Through foaming, fiber orientation assumed a slightly more random state and through-plane conductivity showed the most notable improvement for such hybrid materials. Because of the observed changes in fiber orientation for the foamed hybrid composite, the increase in conductivity was attributed in that case to the effect that bubble growth was having on the fibers during injection mold filling flow. However, the present work attempted to separate the effect on the individual components to examine this hypothesis and the results suggest that the gain in conductivity by foaming was predominantly related to changes in the CB dispersion.",
+      "section": "General discussion"
+    },
+    {
+      "block_id": "I_7_90",
+      "page_id": 7,
+      "block_index": 90,
+      "element_type": "image",
+      "bbox": [
+        104,
+        106,
+        482,
+        353
+      ],
+      "alignment_status": "matched",
+      "image_kind": "image",
+      "caption": "Figure 8 SEM micrograph of COC/cCF10 demonstrating isolation of carbon fibers by bubble growth during injection molding.",
+      "image_path": "wenxian/reference_no_0043590/images/fig8.jpg"
+    },
+    {
+      "block_id": "P_7_91",
+      "page_id": 7,
+      "block_index": 91,
+      "element_type": "text",
+      "bbox": [
+        98,
+        430,
+        488,
+        550
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "General discussion"
+    },
+    {
+      "block_id": "P_7_92",
+      "page_id": 7,
+      "block_index": 92,
+      "element_type": "text",
+      "bbox": [
+        96,
+        550,
+        490,
+        951
+      ],
+      "alignment_status": "matched",
+      "text": "Exclusively considering foaming in a homogeneous conductive material, it would be expected that bubble growth would have a negative influence on electrical conductivity due to the resulting volume exclusion. However, for the heterogeneous systems being considered in this article, foaming created a multiphase material with altered morphology for the carbon fillers present in the continuous polymer phase. The resulting effect on conductivity is referred to as multiple percolation because both filler and material must create their own continuous percolating network across the part. Multiple percolation has been studied for quite some time in CB-filled immiscible polymer blends<sup>12,13</sup> and to a lesser degree with carbon fibers immiscible blends<sup>14</sup> or hybrid carbon fillers in an immiscible blend,<sup>15</sup> as means to enhance conductivity without negatively impacting the polymer’s performance. In fact, crystallization can similarly provide this multiple percolation effect because the filler will be excluded from the crystals; an issue purposely avoided in this work by selecting the amorphous COC for the study. In the case of CB as seen in the foamed COC/CB3, the CB-rich polymer phase created by foaming showed increased electrical conductivity in all directions. The gas domains in the molded part did not hinder electron pathways but rather assisted in carbon aggregate formation across the material. SEM micrographs [as represented by Fig. 3] showed no evidence of an increased density of CB at the gas-polymer interface, so it was believed the filler remained well dispersed within the polymer phase. Carbon fibers, such as in foamed COC/cCF10, did not demonstrate the same beneficial gain in electrical conductivity as CB and this was likely attributed to their relatively large dimensions. Carbon fibers can be viewed as more rigid, discrete entities in the viscous polymer matrix compared with CB aggregates, and so cannot be as easily displaced by a growing bubble. The SEM micrograph in Figure 8 shows a common occurrence of a fiber surrounded by domains of gas (i.e., bubbles). For foaming in an injection molding process, the fibers do not enter into a foam cell (which we have noted in batch foaming of carbon fiber filled material) but rather can become isolated from existing conductive pathways of the molded part if too many cells grow in the region. In combination with the volume exclusion effect of the gas phase, the overall electrical conductivity of a fiber-filled part decreases—at least at the low-fiber concentrations being pursued in this work to maintain processibility.",
+      "section": "General discussion"
+    },
+    {
+      "block_id": "P_7_93",
+      "page_id": 7,
+      "block_index": 93,
+      "element_type": "text",
+      "bbox": [
+        506,
+        104,
+        900,
+        446
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "General discussion"
+    },
+    {
+      "block_id": "P_7_94",
+      "page_id": 7,
+      "block_index": 94,
+      "element_type": "text",
+      "bbox": [
+        506,
+        445,
+        900,
+        596
+      ],
+      "alignment_status": "matched",
+      "text": "For the hybrid composites, the effect of multiple percolation was most notable in the through-plane direction because fewer pathways originally existed and any change in morphology would have a more notable effect. The small improvement in out of plane reorientation of fibers due to bubble growth in COC/cCF10-CB3 likely made a minor contribution to the enhanced conductivity and demonstrated a unique possibility for foaming to create more randomly oriented fiber filled structures if the phenomenon can be properly understood and controlled. However, the major gain in conductivity for both hybrid materials was considered as CB forming more aggregates between the in-plane layers of fibers to span the through-plane part thickness. A proposed mechanism for the increased conductivity is presented in Figure 9 based on the response of the individual filler-COC composites to foaming.",
+      "section": "General discussion"
+    },
+    {
+      "block_id": "I_7_95",
+      "page_id": 7,
+      "block_index": 95,
+      "element_type": "image",
+      "bbox": [
+        528,
+        613,
+        876,
+        914
+      ],
+      "alignment_status": "matched",
+      "image_kind": "image",
+      "caption": "Figure 9 Conceptual model of morphological changes in the hybrid composite resulting from bubble growth.",
+      "image_path": "wenxian/reference_no_0043590/images/fig9.jpg"
+    },
+    {
+      "block_id": "P_8_99",
+      "page_id": 8,
+      "block_index": 99,
+      "element_type": "text",
+      "bbox": [
+        96,
+        104,
+        488,
+        225
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "General discussion"
+    },
+    {
+      "block_id": "P_8_100",
+      "page_id": 8,
+      "block_index": 100,
+      "element_type": "title",
+      "bbox": [
+        228,
+        243,
+        358,
+        258
+      ],
+      "alignment_status": "matched",
+      "text": "CONCLUSIONS",
+      "title_level": 2,
+      "section": "CONCLUSIONS"
+    },
+    {
+      "block_id": "P_8_101",
+      "page_id": 8,
+      "block_index": 101,
+      "element_type": "text",
+      "bbox": [
+        96,
+        266,
+        488,
+        550
+      ],
+      "alignment_status": "matched",
+      "text": "The work improves our fundamental understanding of the mechanism by which electrical conductivity has increased by foaming in a CB/cCF filled thermoplastic. The electrical conductivity of a foamed carbon-filled polymer was increased through multiple percolation. Producing a CB-rich polymer phase through foaming led to increased conductivity, both in-plane and in the through-plane direction, whereas for carbon fiber, the opposite effect was observed. Aggregates of CB were readily displaced by bubble growth, whereas fibers remain fixed in position within the viscous polymer matrix and as a result, portions of fibers become nonconductive as many became isolated from existing pathways due to the gas phase. The combination of CB and carbon fiber provided synergistic effect that led to improved through plane conductivity with foaming. The result of this mechanism is a more highly conductive polymer, particular in the through-plane direction, while maintaining suitable processability for more economical processing methods such as injection molding.",
+      "section": "CONCLUSIONS"
+    },
+    {
+      "block_id": "P_8_102",
+      "page_id": 8,
+      "block_index": 102,
+      "element_type": "text",
+      "bbox": [
+        507,
+        104,
+        896,
+        137
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "CONCLUSIONS"
+    },
+    {
+      "block_id": "P_8_103",
+      "page_id": 8,
+      "block_index": 103,
+      "element_type": "text",
+      "bbox": [
+        507,
+        150,
+        896,
+        179
+      ],
+      "alignment_status": "matched",
+      "text": "The authors would like to acknowledge the following: Asbury Carbons, Dempsey International, Lydall, and Ticona.",
+      "section": "CONCLUSIONS"
+    },
+    {
+      "block_id": "P_8_104",
+      "page_id": 8,
+      "block_index": 104,
+      "element_type": "title",
+      "bbox": [
+        509,
+        202,
+        595,
+        217
+      ],
+      "alignment_status": "matched",
+      "text": "References",
+      "title_level": 2,
+      "section": "References"
+    },
+    {
+      "block_id": "R_8_105",
+      "page_id": 8,
+      "block_index": 105,
+      "element_type": "references",
+      "bbox": [
+        515,
+        225,
+        896,
+        251
+      ],
+      "alignment_status": "matched",
+      "text": "1. Blythe, T.; Bloor, D. Electrical Properties of Polymers; Cambridge University Press: New York, 2005.",
+      "section": "References"
+    },
+    {
+      "block_id": "R_8_106",
+      "page_id": 8,
+      "block_index": 106,
+      "element_type": "references",
+      "bbox": [
+        517,
+        251,
+        788,
+        262
+      ],
+      "alignment_status": "matched",
+      "text": "2. Huang, J.-C. Adv Polym Tech 2002, 21, 299.",
+      "section": "References"
+    },
+    {
+      "block_id": "R_8_107",
+      "page_id": 8,
+      "block_index": 107,
+      "element_type": "references",
+      "bbox": [
+        517,
+        262,
+        830,
+        275
+      ],
+      "alignment_status": "matched",
+      "text": "3. Weber, M.; Kamal, M. R. Polym Com 1997, 18, 726.",
+      "section": "References"
+    },
+    {
+      "block_id": "R_8_108",
+      "page_id": 8,
+      "block_index": 108,
+      "element_type": "references",
+      "bbox": [
+        517,
+        276,
+        896,
+        300
+      ],
+      "alignment_status": "matched",
+      "text": "4. Throne, J. L. Thermoplastic Foams; Sherwood Publishers: Hinckley OH, 1996.",
+      "section": "References"
+    },
+    {
+      "block_id": "R_8_109",
+      "page_id": 8,
+      "block_index": 109,
+      "element_type": "references",
+      "bbox": [
+        517,
+        300,
+        896,
+        325
+      ],
+      "alignment_status": "matched",
+      "text": "5. Qin, X.; Thompson, M. R.; Hrymak, A. N.; Torres, A. Ind Eng Chem Res 2006, 45, 2734.",
+      "section": "References"
+    },
+    {
+      "block_id": "R_8_110",
+      "page_id": 8,
+      "block_index": 110,
+      "element_type": "references",
+      "bbox": [
+        517,
+        325,
+        896,
+        349
+      ],
+      "alignment_status": "matched",
+      "text": "6. Yang, Y.; Gupta, M. C.; Dudley, K. L.; Lawrence, R. W. Adv Mater 2005, 17, 1999.",
+      "section": "References"
+    },
+    {
+      "block_id": "R_8_111",
+      "page_id": 8,
+      "block_index": 111,
+      "element_type": "references",
+      "bbox": [
+        517,
+        350,
+        896,
+        374
+      ],
+      "alignment_status": "matched",
+      "text": "7. Motlagh, G. H.; Hyrmak, A. N.; Thompson, M. R. Polym Eng Sci 2008, 48, 687.",
+      "section": "References"
+    },
+    {
+      "block_id": "R_8_112",
+      "page_id": 8,
+      "block_index": 112,
+      "element_type": "references",
+      "bbox": [
+        517,
+        375,
+        896,
+        400
+      ],
+      "alignment_status": "matched",
+      "text": "8. Motlagh, G. H.; Hrymak, A. N.; Thompson, M. R. J Polym Chem B: Polym Phys 2007, 45, 1808.",
+      "section": "References"
+    },
+    {
+      "block_id": "R_8_113",
+      "page_id": 8,
+      "block_index": 113,
+      "element_type": "references",
+      "bbox": [
+        515,
+        400,
+        896,
+        423
+      ],
+      "alignment_status": "matched",
+      "text": "9. Mironov, V. S.; Kim, J. K.; Park, M.; Lim, S.; Cho, W. K. Polym Test 2007, 26, 547.",
+      "section": "References"
+    },
+    {
+      "block_id": "R_8_114",
+      "page_id": 8,
+      "block_index": 114,
+      "element_type": "references",
+      "bbox": [
+        512,
+        424,
+        896,
+        446
+      ],
+      "alignment_status": "matched",
+      "text": "10. Drubetski, M.; Siegmann, A.; Narkis, M. Polym Compos 2005, 26, 454.",
+      "section": "References"
+    },
+    {
+      "block_id": "R_8_115",
+      "page_id": 8,
+      "block_index": 115,
+      "element_type": "references",
+      "bbox": [
+        512,
+        449,
+        874,
+        461
+      ],
+      "alignment_status": "matched",
+      "text": "11. Zhang, G.; Thompson, M. R. Comp Sci Tech 2005, 65, 2240.",
+      "section": "References"
+    },
+    {
+      "block_id": "R_8_116",
+      "page_id": 8,
+      "block_index": 116,
+      "element_type": "references",
+      "bbox": [
+        512,
+        461,
+        896,
+        485
+      ],
+      "alignment_status": "matched",
+      "text": "12. Sumita, M.; Sakata, K.; Hayakawa, Y.; Asai, S.; Miyasaka, K.; Tanemura, M. Colloid Polym Sci 1992, 270, 134.",
+      "section": "References"
+    },
+    {
+      "block_id": "R_8_117",
+      "page_id": 8,
+      "block_index": 117,
+      "element_type": "references",
+      "bbox": [
+        512,
+        485,
+        833,
+        498
+      ],
+      "alignment_status": "matched",
+      "text": "13. Zhang, Q.-H.; Chen, D.-J. J Mater Sci 2004, 39, 1751.",
+      "section": "References"
+    },
+    {
+      "block_id": "R_8_118",
+      "page_id": 8,
+      "block_index": 118,
+      "element_type": "references",
+      "bbox": [
+        512,
+        498,
+        896,
+        522
+      ],
+      "alignment_status": "matched",
+      "text": "14. Zhang, C.; Yi, X. S.; Yui, H.; Asai, S.; Sumita, M. Mater Lett 1998, 36, 186.",
+      "section": "References"
+    },
+    {
+      "block_id": "R_8_119",
+      "page_id": 8,
+      "block_index": 119,
+      "element_type": "references",
+      "bbox": [
+        512,
+        523,
+        896,
+        545
+      ],
+      "alignment_status": "matched",
+      "text": "15. Thongruang, W.; Spontak, R. J.; Balik, C. M. Polymer 2002, 43, 3717.",
+      "section": "References"
+    }
+  ],
+  "warnings": [
+    {
+      "code": "legacy_manifest_missing_options",
+      "message": "旧 manifest 缺少 OCR 选项，已按 null 保留：ocr_enabled, language, page_ranges, enable_formula, enable_table, extra_formats"
+    }
+  ]
+}

@@ -1,0 +1,1830 @@
+{
+  "schema_version": "1.0",
+  "document_id": "reference_no_0037645",
+  "paper": {
+    "ref_no": "reference_no_0037645",
+    "pdf_filename": "ffed9aa0-b612-4c05-b73b-f80d6e8e9887_origin.pdf",
+    "source_pdf_path": "mineru/reference_no_0037645/ffed9aa0-b612-4c05-b73b-f80d6e8e9887_origin.pdf",
+    "organized_pdf_path": "organized/reference_no_0037645/origin.pdf",
+    "doi": null,
+    "title": null,
+    "authors": null,
+    "journal": null,
+    "year": null,
+    "metadata_status": "failed",
+    "metadata_extraction": {
+      "method": "llm",
+      "provider": null,
+      "model": null,
+      "prompt_file": "prompts/meta_extract.md",
+      "prompt_sha256": "98252486e4f9cdfd1b42ea02b7e01440d6be99c99d18720dc71c95aa1643fcd4",
+      "source_pages": [
+        0,
+        1
+      ],
+      "status": "failed",
+      "error_type": "MetaExtractorUnavailable"
+    }
+  },
+  "source_files": {
+    "markdown": "reference_no_0037645.md",
+    "content_v1": "content.json",
+    "content_v2": "content_v2.json",
+    "pdf": "origin.pdf"
+  },
+  "ocr": {
+    "engine": "mineru",
+    "batch_id": "122ff743-eb66-4583-986f-6c8015953309",
+    "model_version": "vlm",
+    "ocr_enabled": false,
+    "language": null,
+    "page_ranges": null,
+    "enable_formula": true,
+    "enable_table": true,
+    "extra_formats": [],
+    "status": "done",
+    "manifest_file": "batch_122ff743-eb66-4583-986f-6c8015953309_manifest.json",
+    "status_file": "batch_122ff743-eb66-4583-986f-6c8015953309_status.json"
+  },
+  "elements": [
+    {
+      "block_id": "P_0_0",
+      "page_id": 0,
+      "block_index": 0,
+      "element_type": "title",
+      "bbox": [
+        161,
+        68,
+        802,
+        108
+      ],
+      "alignment_status": "matched",
+      "text": "Synthesis and Characterization of Organoboron Quinolate Polymers with Tunable Luminescence Properties",
+      "title_level": 1,
+      "section": "DocumentTitle"
+    },
+    {
+      "block_id": "P_0_1",
+      "page_id": 0,
+      "block_index": 1,
+      "element_type": "text",
+      "bbox": [
+        161,
+        122,
+        607,
+        138
+      ],
+      "alignment_status": "matched",
+      "text": "Yang Qin, Irene Kiburu, Shimul Shah, and Frieder Ja1kle\\*",
+      "section": "Synthesis and Characterization of Organoboron Quinolate Polymers with Tunable Luminescence Properties"
+    },
+    {
+      "block_id": "P_0_2",
+      "page_id": 0,
+      "block_index": 2,
+      "element_type": "text",
+      "bbox": [
+        161,
+        143,
+        810,
+        159
+      ],
+      "alignment_status": "matched",
+      "text": "Department of Chemistry, Rutgers UniVersity Newark, 73 Warren Street, Newark, New Jersey 07102",
+      "section": "Synthesis and Characterization of Organoboron Quinolate Polymers with Tunable Luminescence Properties"
+    },
+    {
+      "block_id": "P_0_3",
+      "page_id": 0,
+      "block_index": 3,
+      "element_type": "text",
+      "bbox": [
+        161,
+        164,
+        643,
+        179
+      ],
+      "alignment_status": "matched",
+      "text": "ReceiVed August 8, 2006; ReVised Manuscript ReceiVed October 23, 2006",
+      "section": "Synthesis and Characterization of Organoboron Quinolate Polymers with Tunable Luminescence Properties"
+    },
+    {
+      "block_id": "P_0_4",
+      "page_id": 0,
+      "block_index": 4,
+      "element_type": "text",
+      "bbox": [
+        161,
+        196,
+        834,
+        325
+      ],
+      "alignment_status": "matched",
+      "text": "ABSTRACT: A modular one-pot approach for the synthesis of well-defined organoboron quinolate polymers and the tuning of their photoluminescence is reported. Highly selective borylation of poly(4-trimethylsilylstyrene) (PSSiMe ) followed by replacement of one of the bromine substituents in the resulting reactive polymer PSBBr with tert-butylphenyl groups led to the common intermediate PSBPhBr. A series of organoboron quinolate polymers PSBPhQ were then obtained in high isolated yields (65-85%) by in situ treatment of PSBPhBr with differently substituted 8-hydroxyquinoline derivatives. All the quinolate polymers were fully characterized by multinuclear NMR spectroscopy, elemental analysis, gel permeation chromatography in-line with multiangle laser light scattering (GPC-MALLS), differential scanning calorimetry (DSC), and thermal gravimetric analysis (TGA). Luminescence measurements revealed distinct emission bands, ranging from the blue to the red region (486- 615 nm), depending on the substitution pattern on the quinolate ligands.",
+      "section": "Synthesis and Characterization of Organoboron Quinolate Polymers with Tunable Luminescence Properties"
+    },
+    {
+      "block_id": "P_0_5",
+      "page_id": 0,
+      "block_index": 5,
+      "element_type": "title",
+      "bbox": [
+        84,
+        349,
+        174,
+        363
+      ],
+      "alignment_status": "matched",
+      "text": "Introduction",
+      "title_level": 2,
+      "section": "Introduction"
+    },
+    {
+      "block_id": "P_0_6",
+      "page_id": 0,
+      "block_index": 6,
+      "element_type": "text",
+      "bbox": [
+        81,
+        367,
+        483,
+        700
+      ],
+      "alignment_status": "matched",
+      "text": "Polymeric light emitting device (PLED) materials have attracted much recent interest for their favorable solution processability,<sup>1</sup> such as ink-jet printing and roll-to-roll processing, a prerequisite for low-cost manufacturing and large area applications. Thus, conjugated semiconducting polymers and dendrimers have been extensively studied as electroactive materials in PLED devices.<sup>2</sup> An interesting alternative is to covalently link electro- and/or photoactive small molecules that are commonly used in small molecule organic light emitting devices (SMOLEDs) to a polymeric scaffold. The latter can be achieved either through polymerization of appropriately functionalized monomers or through polymer analogous reactions with suitable reagents. One of the major advantages of using a polymer scaffold is that well-defined polymers are easily prepared, for which the physical, optical and electronic properties can be fine-tuned. Moreover, through use of controlled polymerization techniques random and block copolymers are accessible, where multiple active components can be introduced into a single active display material. To this point, several studies on the attachment of aluminum tris(8-hydroxyquinolate) (AlQ<sub>3</sub>), which is commonly used as electron conduction and emitting layer in $\\mathrm { O L E D s } , { ^ { 3 , 4 } }$to soluble polymeric scaffolds have been reported.<sup>5</sup>-<sup>9</sup> Moreover, reports on polymeric analogs of platinum and iridium chelates have recently appeared in the literature.<sup>10</sup>",
+      "merged_source_block_ids": [
+        "P_0_6",
+        "V2_0_6_1"
+      ],
+      "section": "Introduction"
+    },
+    {
+      "block_id": "P_0_7",
+      "page_id": 0,
+      "block_index": 7,
+      "element_type": "text",
+      "bbox": [
+        81,
+        700,
+        483,
+        895
+      ],
+      "alignment_status": "matched",
+      "text": "Molecular organoboron quinolates and related chelate complexes of boron have been shown to provide efficient luminescence and in some cases better stability over their aluminum counterparts.<sup>11</sup>-<sup>15</sup> We are currently investigating the incorporation of electro- and photoactive organoboron moieties into polymers for the development of new solution processable device materials.<sup>16</sup>-<sup>19</sup> In pursuit of this goal we have worked out a modular approach to well-defined organoboron quinolate polymers (A), which is based on the selective cleavage of di-(2-thienyl)boryl functionalized polystyrene derivatives with 8-hydroxyquinoline (Scheme 1).<sup>16</sup> These fully functionalized organoboron quinolate polymers are readily prepared and fabricated into thin films, and they show bright green emission at ca. 508 nm $( \\Phi = 1 2 \\ – 1 4 \\% )$upon photoexcitation. In an",
+      "merged_source_block_ids": [
+        "P_0_7",
+        "V2_0_7_1"
+      ],
+      "section": "Introduction"
+    },
+    {
+      "block_id": "P_0_8",
+      "page_id": 0,
+      "block_index": 8,
+      "element_type": "text",
+      "bbox": [
+        573,
+        349,
+        854,
+        362
+      ],
+      "alignment_status": "matched",
+      "text": "Scheme 1. Organoboron Quinolate Polymers",
+      "section": "Introduction"
+    },
+    {
+      "block_id": "I_0_9",
+      "page_id": 0,
+      "block_index": 9,
+      "element_type": "image",
+      "bbox": [
+        537,
+        363,
+        890,
+        614
+      ],
+      "alignment_status": "matched",
+      "image_kind": "image",
+      "caption": null,
+      "image_path": "organized/reference_no_0037645/images/0426c3be7799568204079927cc12eeef74faa7998e21f4d7cd94d8c0ea17398a.jpg"
+    },
+    {
+      "block_id": "P_0_10",
+      "page_id": 0,
+      "block_index": 10,
+      "element_type": "text",
+      "bbox": [
+        513,
+        631,
+        913,
+        762
+      ],
+      "alignment_status": "matched",
+      "text": "alternative approach, Weck and co-workers recently reported the copolymerization of 8-hydroxyquinoline functionalized styrene via free radical polymerization.<sup>7</sup> The resulting styrene copolymer serves as a versatile scaffold for polymeric metalloquinolates through complexation with boron (B, Scheme 1), aluminum, or other metal salts. Emission maxima of 497 nm (Φ ) 10%) and 498 nm (Φ ) 20%) were reported for copolymers B featuring 33% and 10% loading with the photoactive groups, respectively.",
+      "section": "Introduction"
+    },
+    {
+      "block_id": "P_0_11",
+      "page_id": 0,
+      "block_index": 11,
+      "element_type": "text",
+      "bbox": [
+        511,
+        765,
+        913,
+        924
+      ],
+      "alignment_status": "matched",
+      "text": "The major advantage of our methodology is that the chemical, physical, and photophysical properties of the boron quinolate polymers can readily be fine-tuned by varying the substitution pattern of the chelating ligand. However, we found that the longterm oxidative stability of polymers A was moderate, presumably due to the electron-rich character of the thiophene moieties. Moreover, the initial attachment of a thienyl group, which later is cleaved off again was undesirable. We report in here a new and highly versatile method that addresses these issues and describe the preparation of a series of new luminescent polymers with tunable emission color.",
+      "section": "Introduction"
+    },
+    {
+      "block_id": "F_0_15",
+      "page_id": 0,
+      "block_index": 15,
+      "element_type": "footnote",
+      "bbox": [
+        98,
+        910,
+        393,
+        924
+      ],
+      "alignment_status": "matched",
+      "text": "\\* Corresponding author. E-mail: fjaekle@rutgers.edu.",
+      "section": "Introduction"
+    },
+    {
+      "block_id": "I_1_16",
+      "page_id": 1,
+      "block_index": 16,
+      "element_type": "image",
+      "bbox": [
+        228,
+        56,
+        767,
+        294
+      ],
+      "alignment_status": "matched",
+      "image_kind": "image",
+      "caption": "Figure 1. Aromatic region of the $^ { 1 3 } \\mathrm { C }$ NMR spectra of PSBPhBr (R ) polymer backbone) and $( \\mathrm { ^ { t } B u P h ) _ { 2 } B B r \\left( R = ^ { t } B u \\right) } _ { \\cdot }$ . Ph and <sup>t</sup>Ph refer to pheny groups attached to the polymer backbone and tert-butyl phenyl groups, respectively.",
+      "image_path": "organized/reference_no_0037645/images/0aa1870c266ff0adbef7a7c94f5f6bc8c22b6f407d2d9fdddc2c448b8d5b8fca.jpg"
+    },
+    {
+      "block_id": "I_1_17",
+      "page_id": 1,
+      "block_index": 17,
+      "element_type": "image",
+      "bbox": [
+        214,
+        344,
+        779,
+        566
+      ],
+      "alignment_status": "matched",
+      "image_kind": "image",
+      "caption": "Scheme 2. Synthesis of Organoboron Quinolate Polymers",
+      "image_path": "organized/reference_no_0037645/images/b8ce42189eba7d5976298a88d9fb9a231a597622f0ffc9bdf4237171ef751cca.jpg"
+    },
+    {
+      "block_id": "P_1_18",
+      "page_id": 1,
+      "block_index": 18,
+      "element_type": "title",
+      "bbox": [
+        84,
+        577,
+        245,
+        590
+      ],
+      "alignment_status": "matched",
+      "text": "Results and Discussion",
+      "title_level": 2,
+      "section": "Results and Discussion"
+    },
+    {
+      "block_id": "P_1_19",
+      "page_id": 1,
+      "block_index": 19,
+      "element_type": "text",
+      "bbox": [
+        81,
+        594,
+        483,
+        959
+      ],
+      "alignment_status": "matched",
+      "text": "Polymer Synthesis. The silyl-functionalized polymer poly-(4-trimethylsilyl styrene) (PSSiMe<sub>3</sub>) with $M _ { \\mathrm { w } } = 5 9 ~ 5 4 0$and PDI $= 1 . 1 2$was prepared by atom transfer radical polymerization (ATRP)<sup>20</sup> and quantitatively converted to poly(4-dibromoboryl styrene), PSBBr<sub>2</sub>, with a slight excess of BBr<sub>3</sub> as previously described.<sup>21</sup> The reactive polymer $\\mathbf { P S B } \\mathbf { B r } _ { 2 }$was then treated in situ with a slight excess of 1-trimethylstannyl-4-tert-butylbenzene at $- 2 0 ~ ^ { \\circ } \\mathrm { C }$in $\\mathrm { C H } _ { 2 } \\mathrm { C l } _ { 2 } .$Under these conditions, selective replacement of only one of the boron-bound bromine substituents by the tert-butylphenyl group led to the formation of PSBPhBr (Scheme $\\dot { 2 } ) . \\dot { 2 } 2$For characterization purposes PSB-PhBr was isolated by precipitation into hexanes and freezedried from benzene. Transfer of a single phenyl group to the boron moieties was evident from multinuclear NMR spectroscopy and further confirmed by comparison of the polymer data withthoseofthecorrespondingmolecularcompound(<sup>t</sup>BuPh)<sub>2</sub>BBr.<sup>22</sup> Integration of the $\\mathrm { \\hat { \\Pi } } ^ { 1 } \\mathrm { H }$NMR spectrum of PSBPhBr was consistent with the presence of one tert-butylphenyl group per repeat unit of the polymer. The aromatic region of the $\\mathrm { \\Delta \\stackrel { \\smile } { 1 3 } C }$NMR spectrum of the polymer is shown in Figure 1 in comparison to that of (<sup>t</sup>BuPh)<sub>2</sub>BBr. The signals for the pendent tert-butylphenyl groups of the polymer and those of (<sup>t</sup>BuPh)<sub>2</sub>BBr occur at essentially the same chemical shifts, while the signals for the phenyl groups attached to the polymer backbone are slightly shifted and broadened due to the atactic nature of the polystyrene. The close resemblance of the polymer and (<sup>t</sup>BuPh)<sub>2</sub>BBr spectra and the absence of signals for the starting material (PSBBr<sub>2</sub>) confirm the monosubstitution pattern and suggest a high degree of functionalization.",
+      "merged_source_block_ids": [
+        "P_1_19",
+        "V2_1_3_1",
+        "V2_1_3_3",
+        "V2_1_3_5",
+        "V2_1_3_7",
+        "V2_1_3_9",
+        "V2_1_3_11",
+        "V2_1_3_13",
+        "V2_1_3_15"
+      ],
+      "section": "Results and Discussion"
+    },
+    {
+      "block_id": "P_1_20",
+      "page_id": 1,
+      "block_index": 20,
+      "element_type": "text",
+      "bbox": [
+        511,
+        577,
+        913,
+        619
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "Results and Discussion"
+    },
+    {
+      "block_id": "P_1_21",
+      "page_id": 1,
+      "block_index": 21,
+      "element_type": "text",
+      "bbox": [
+        511,
+        621,
+        913,
+        801
+      ],
+      "alignment_status": "matched",
+      "text": "As shown in Scheme 2, PSBPhBr was reacted in situ with 8-hydroxyquinoline or methyl-protected 8-hydroxyquinoline derivatives to give the corresponding boron quinolate polymers. In all reactions, in which the 8-hydroxy substituted ligands were employed, a large excess of triethylamine was added to remove the byproduct HBr; with methoxy-protected ligands, the O-Me bond was readily cleaved under formation of the boron quinolate moiety and MeBr.<sup>23</sup> A distinct color change and spontaneous appearance of luminescence upon addition of the ligands indicated a rapid reaction. The transformations proceeded to completion within 12 h, and the resulting polymers were isolated in good yields (65-85%) by repeated precipitation into methanol and dried under high vacuum.",
+      "section": "Results and Discussion"
+    },
+    {
+      "block_id": "P_1_22",
+      "page_id": 1,
+      "block_index": 22,
+      "element_type": "text",
+      "bbox": [
+        511,
+        803,
+        915,
+        958
+      ],
+      "alignment_status": "matched",
+      "text": "NMR Characterization. The organoboron quinolate polymers were fully characterized by <sup>1</sup>H, $^ { 1 3 } \\mathrm { C } ,$and $^ { 1 1 } \\mathrm { B }$NMR spectroscopy. Sharp signals in the $^ { 1 1 } \\mathrm { B }$NMR spectra at ca. 7 ppm $( w _ { 1 / 2 } = 3 5 0 – 5 7 0$Hz) confirm the tetracoordinated nature of the boron centers. The <sup>1</sup>H NMR data of the polymers provide very little information due to signal overlap, but a comparison of the $^ { 1 3 } \\mathrm { C }$NMR spectra with those of the corresponding molecular compounds, $( \\mathrm { ^ { t B u P h } } ) _ { 2 } \\mathrm { B Q } , ^ { 2 2 }$confirms the polymer structure as illustrated in Figure 2. The carbon resonances for the quinolate and the pendent tert-butylphenyl groups are virtually unchanged in the polymer relative to those of (<sup>t</sup>BuPh)<sub>2</sub>BQ. The signals for the phenyl groups attached to the polymer backbone, on the other hand, are slightly shifted and strongly broadened due to the atactic nature of the polymer. The close similarity of the spectra between the polymer and the molecular compound, and the absence of signals for the starting material suggest a high degree of functionalization.",
+      "merged_source_block_ids": [
+        "P_1_22",
+        "V2_1_6_1",
+        "V2_1_6_3",
+        "V2_1_6_5",
+        "V2_1_6_7",
+        "V2_1_6_9",
+        "V2_1_6_11"
+      ],
+      "section": "Results and Discussion"
+    },
+    {
+      "block_id": "I_2_26",
+      "page_id": 2,
+      "block_index": 26,
+      "element_type": "image",
+      "bbox": [
+        243,
+        59,
+        750,
+        303
+      ],
+      "alignment_status": "matched",
+      "image_kind": "chart",
+      "caption": "Figure 2. Aromatic region of the $^ { 1 3 } \\mathrm { C }$ NMR spectra of PSBPhQ-H (R ) polymer backbone) and (<sup>t</sup>BuPh) BQ (R ) <sup>t</sup>Bu). Ph, <sup>t</sup>Ph and Q represent phenyl groups attached to the polymer backbone, tert-butylphenyl, and quinolato groups, respectively.",
+      "image_path": "organized/reference_no_0037645/images/0847ded71e877011c60437cf0a376e26790ac6918ec7c90f25a4c0e56b611249.jpg"
+    },
+    {
+      "block_id": "T_2_27",
+      "page_id": 2,
+      "block_index": 27,
+      "element_type": "table",
+      "bbox": [
+        86,
+        366,
+        475,
+        477
+      ],
+      "alignment_status": "matched",
+      "caption": "Table 1. Data from Gel Permeation Chromatography Analysis in Line with Multiangle Laser Light Scattering (GPC-MALLS)",
+      "table_body": "<table><tr><td>polymers $^{a}$ </td><td> $M_{\\text{w}}^{b}$ </td><td>DP $^{d}$ </td><td>PDI $^{e}$ </td><td>dn/dc(mL/g) $^{f}$ </td><td> $R_{\\text{H}}$ (nm) $^{g}$ </td></tr><tr><td>PSSiMe $_{3}$ </td><td>59 540</td><td>338</td><td>1.12</td><td>0.148</td><td>2</td></tr><tr><td>PSBPhQ-Bpin</td><td>172 700</td><td>334</td><td>1.15</td><td>0.177</td><td>7</td></tr><tr><td>PSBPhQ-C $_{6}$ F $_{5}$ </td><td>189 200</td><td>339</td><td>1.18</td><td>0.163</td><td>7</td></tr><tr><td>PSBPhQ-H</td><td>135 700</td><td>347</td><td>1.14</td><td>0.194</td><td>6</td></tr><tr><td>PSBPhQ-Cl</td><td>144 100</td><td>338</td><td>1.13</td><td>0.190</td><td>7</td></tr><tr><td>PSBPhQ-C $_{6}$ H $_{4}$ OMe</td><td>169 800</td><td>341</td><td>1.13</td><td>0.208</td><td>7</td></tr><tr><td>PSBPhQ-C $_{6}$ H $_{4}$ NMe $_{2}$  $^{c}$ </td><td>178 900</td><td>350</td><td>1.11</td><td>0.229</td><td>7</td></tr></table>",
+      "image_path": "organized/reference_no_0037645/images/375171ba50dfea93a8298cc315b9e720f3932513d7b44ab06eb745dabb2d6abf.jpg"
+    },
+    {
+      "block_id": "P_2_28",
+      "page_id": 2,
+      "block_index": 28,
+      "element_type": "text",
+      "bbox": [
+        81,
+        566,
+        483,
+        651
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "Results and Discussion"
+    },
+    {
+      "block_id": "P_2_29",
+      "page_id": 2,
+      "block_index": 29,
+      "element_type": "text",
+      "bbox": [
+        81,
+        651,
+        483,
+        929
+      ],
+      "alignment_status": "matched",
+      "text": "Molecular Weight Determination. The new quinolate polymers were subjected to gel permeation chromatography (GPC) analysis in THF for determination of the molecular weights using refractive index (RI) and multiangle laser light scattering (MALLS) detectors (Table 1). Monomodal elution profiles with narrow polydispersities (PDI ) 1.11-1.18) were observed for all polymers except for $\\mathbf { P S B P h Q - C _ { 6 } H _ { 4 } N M e } _ { 2 }$. The latter did not elute from the columns, presumably due to strong interactions between the amino groups and the column material. A small amount of [Bu<sub>4</sub>N]Br (0.2 wt %) was added to the solvent to effectively prevent polymer aggregation and interaction with the column material, while keeping the change of the solvent refractive index negligible. Under these conditions, a monomodal trace was obtained also for PSBPhQ-C<sub>6</sub>H<sub>4</sub>NMe<sub>2</sub>. However, the molecular weights determined by GPC-RI detection vs polystyrene standards were generally considerably lower than expected. This is likely a result of deviation from the calibration curve derived from linear polystyrene standards due to significant structural and conformational differences between the quinolate polymers and polystyrene.",
+      "merged_source_block_ids": [
+        "P_2_29",
+        "V2_2_3_1"
+      ],
+      "section": "Results and Discussion"
+    },
+    {
+      "block_id": "P_2_30",
+      "page_id": 2,
+      "block_index": 30,
+      "element_type": "text",
+      "bbox": [
+        83,
+        928,
+        483,
+        957
+      ],
+      "alignment_status": "matched",
+      "text": "We turned to in-line GPC-MALLS (multiangle laser light scattering) detection for the determination of absolute molecular weights. The molecular weights of all the polymers calculated from MALLS are listed in Table 1. As expected, the organoboron quinolate polymers experience a significant molecular weight increase relative to the starting material, PSSiMe<sub>3</sub>. However, the average number of repeat units (DP) for the quinolate polymers is almost unchanged. Moreover, the polydispersity index (PDI) of the quinolate polymers remains narrow and comparable to that of PSSiMe<sub>3</sub>. Thus, the synthesis of the quinolate polymers, which includes borylation, aryl group transfer, and introduction of the quinolate ligand, occurs without cleavage of the polymer backbone or significant cross-linking.",
+      "section": "Results and Discussion"
+    },
+    {
+      "block_id": "P_2_31",
+      "page_id": 2,
+      "block_index": 31,
+      "element_type": "text",
+      "bbox": [
+        511,
+        339,
+        915,
+        492
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "Results and Discussion"
+    },
+    {
+      "block_id": "P_2_32",
+      "page_id": 2,
+      "block_index": 32,
+      "element_type": "text",
+      "bbox": [
+        511,
+        493,
+        915,
+        729
+      ],
+      "alignment_status": "matched",
+      "text": "Thermal Properties and Polymer Stability. Diphenyl-8- hydroxyquinolatoborane (Ph BQ) was shown by Wang et al. to possess good stability under ambient conditions.<sup>11</sup> However, we found that the long-term environmental stability of thienylsubstituted organoboron quinolate polymers (Scheme 1, A) is somewhat limited, as oxidative degradation was observed after prolonged storage under ambient conditions (several weeks). In contrast, when we monitored the <sup>1</sup>H NMR spectra of the tert-butylphenyl-substituted quinolate polymers both in wet and oxygenated solvents and as solids in air, no sign of decomposition was found for at least 4 weeks, and the GPC traces were virtually identical to those of the freshly prepared polymer samples. Thus, the stability of the quinolate polymers with phenyl groups on boron is significantly improved relative to those containing electron-rich thiophene groups, and the polymers can easily be handled under ambient conditions for extended periods of time.",
+      "section": "Results and Discussion"
+    },
+    {
+      "block_id": "P_2_33",
+      "page_id": 2,
+      "block_index": 33,
+      "element_type": "text",
+      "bbox": [
+        511,
+        731,
+        915,
+        898
+      ],
+      "alignment_status": "matched",
+      "text": "The thermal properties of the quinolate polymers were evaluated by differential scanning calorimetry (DSC) and thermogravimetric analysis (TGA) (Table 2). DSC analysis revealed high glass transition temperatures (ranging from 210 to $2 7 5 \\ ^ { \\circ } \\mathrm { C } )$for the quinolate polymers, and the TGA plots confirmed high thermal stability with decomposition temperatures over $3 0 0 ~ ^ { \\circ } \\mathrm { C } .$After the polymers were heated under nitrogen to $8 0 0 ^ { \\circ } \\mathrm { C } ,$significant amounts of residual material (up to 30%) were observed for all polymers, presumably due to formation of boron-containing ceramic materials, which may also possibly explain the relatively low nitrogen and carbon contents from the elemental analyses of the polymers.<sup>24</sup>",
+      "merged_source_block_ids": [
+        "P_2_33",
+        "V2_2_7_1",
+        "V2_2_7_3",
+        "V2_2_7_5"
+      ],
+      "section": "Results and Discussion"
+    },
+    {
+      "block_id": "P_2_34",
+      "page_id": 2,
+      "block_index": 34,
+      "element_type": "text",
+      "bbox": [
+        511,
+        900,
+        915,
+        958
+      ],
+      "alignment_status": "matched",
+      "text": "Luminescence. We have shown previously that the thiophene substituted boron quinolate polymers (A, Scheme 1) display green luminescence in solution ( 508 nm) when excited at their absorption maxima ( 393 nm).<sup>16</sup> Replacement of the pendent thiophene substituent with a tert-butylphenyl group in the parent polymer PSBPhQ-H gives essentially identical optical properties with an absorption maximum at 395 nm and green emission at 507 nm. Thus, the nature of the pendent substituent on boron does not seem to affect the optical properties of these boron quinolate polymers, which is consistent with previous reports that the emission in the organoboron quinolates $\\mathrm { R } _ { 2 } \\mathrm { B Q }$$\\mathbf { ( R = }$Et, Ph, Np) is not significantly altered by the R-group but occurs from quinolate-centered states.<sup>11</sup>",
+      "merged_source_block_ids": [
+        "P_2_34",
+        "V2_2_8_1",
+        "V2_2_8_2"
+      ],
+      "section": "Results and Discussion"
+    },
+    {
+      "block_id": "T_3_38",
+      "page_id": 3,
+      "block_index": 38,
+      "element_type": "table",
+      "bbox": [
+        88,
+        71,
+        908,
+        128
+      ],
+      "alignment_status": "matched",
+      "caption": "Table 2. Differential Scanning Calorimetry (DSC) and Thermogravimetric Analysis (TGA) Data for the Boron Quinolate Polymers",
+      "table_body": "<table><tr><td></td><td>PSBPhQ-Bpin</td><td>PSBPhQ-C6F5</td><td>PSBPhQ-H</td><td>PSBPhQ-Cl</td><td>PSBPhQ-C6H4OMe</td><td>PSBPhQ-C6H4NMe2</td></tr><tr><td> $T_{\\text{g}}$  (°C)a</td><td>275</td><td>245</td><td>240</td><td>238</td><td>220</td><td>230</td></tr><tr><td> $T_{\\text{dec}}$  (°C)b</td><td>420</td><td>350</td><td>385</td><td>305</td><td>465</td><td>375</td></tr><tr><td>wt loss (%)c</td><td>75</td><td>85</td><td>90</td><td>85</td><td>72</td><td>76</td></tr></table>",
+      "image_path": "organized/reference_no_0037645/images/1fa5f61bc068eb9ac96b97a856b8c088de9eefe0ec7e9f362a82dbff1409a791.jpg"
+    },
+    {
+      "block_id": "I_3_39",
+      "page_id": 3,
+      "block_index": 39,
+      "element_type": "image",
+      "bbox": [
+        107,
+        164,
+        495,
+        366
+      ],
+      "alignment_status": "matched",
+      "image_kind": "chart",
+      "caption": null,
+      "image_path": "organized/reference_no_0037645/images/7295b565c2c9e67105299678cce36dbb6b80d4cb1712e4584a4590b27d933eb9.jpg"
+    },
+    {
+      "block_id": "I_3_40",
+      "page_id": 3,
+      "block_index": 40,
+      "element_type": "image",
+      "bbox": [
+        531,
+        171,
+        888,
+        356
+      ],
+      "alignment_status": "matched",
+      "image_kind": "image",
+      "caption": "Figure 3. Left: Absorption and emission spectra of the organoboron quinolate polymers PSBPhQ-X (refer to Scheme 2 for the polymer structures). The functional group concentration was estimated to ca. $2 \\times 1 0 ^ { - 5 }$ M in THF on the basis of the repeat units assuming 100% functionalization; the polymers were excited at the absorption maxima. Right: Photographs of solutions of PSBPhQ-X in THF (c $1 . 2 \\times 1 0 ^ { - 3 } \\mathrm { M } )$ excited with black light at 365 nm (from left to right: $\\mathbf { X } \\stackrel { \\mathbf { \\cdot } } { = }$ Bpin, $\\mathrm { C } _ { 6 } \\mathrm { F } _ { 5 } ,$ H, Cl, C<sub>6</sub>H<sub>4</sub>OMe, C<sub>6</sub>H<sub>4</sub>NMe<sub>2</sub>, respectively).",
+      "image_path": "organized/reference_no_0037645/images/e9199d12b540a7abecc5b4c065eb4f4ba8071d7b972146674b5be59f7aab085f.jpg"
+    },
+    {
+      "block_id": "P_3_41",
+      "page_id": 3,
+      "block_index": 41,
+      "element_type": "text",
+      "bbox": [
+        81,
+        429,
+        483,
+        554
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "Results and Discussion"
+    },
+    {
+      "block_id": "P_3_42",
+      "page_id": 3,
+      "block_index": 42,
+      "element_type": "text",
+      "bbox": [
+        81,
+        554,
+        483,
+        707
+      ],
+      "alignment_status": "matched",
+      "text": "The effect of placing methyl groups at different positions of the quinolato moiety in Ph<sub>2</sub>BQ on the emission wavelength has been studied experimentally and by means of theoretical calculations.<sup>13,14</sup> Moreover, Wang et al. showed in a recent paper that attachment of benzothienyl or naphthyl groups in the 5-position of the quinolate ligand leads to a red-shift in the emission as a result of extended delocalization of the quinolate π-system into the benzothienyl substituent.<sup>12</sup> In a related study, substitution in the 5- and 7-positions of the quinolate ligand of diphenylboron quinolates with extended π systems has been shown to lead to significant red-shifts in the luminescence.<sup>15</sup>",
+      "section": "Results and Discussion"
+    },
+    {
+      "block_id": "P_3_43",
+      "page_id": 3,
+      "block_index": 43,
+      "element_type": "text",
+      "bbox": [
+        81,
+        705,
+        483,
+        958
+      ],
+      "alignment_status": "matched",
+      "text": "Our methodology for the preparation of organoboron quinolate polymers is highly suitable for the tuning of the luminescent properties through modification of the quinolato moiety,<sup>25,26</sup> because the reactive intermediate PSBPhBr is readily accessible and can be treated with a series of different 8-hydroxyquinoline derivatives with varying substitution pattern as shown in Scheme 2. The absorption and emission spectra of this new series of luminescent polymers are displayed in Figure 3, and the photophysical data are summarized in Table 3. The parent polymer PSBPhQ-H shows an absorption maximum at 395 nm and green emission at 507 nm, which correlates very well with the previously reported data for $\\mathrm { P h } _ { 2 } \\mathrm { B Q } \\left( \\lambda _ { \\mathrm { m a x } } = 3 9 5 \\right.$nm; $\\lambda _ { \\mathrm { e m } } =$504 nm) and for $\\mathrm { ( ^ { t } B u P h ) _ { 2 } B Q } \\left( \\lambda _ { \\operatorname* { m a x } } = 3 9 5 ~ \\mathrm { n m } ; \\lambda _ { \\mathrm { e m } } = 5 0 6 ~ \\mathrm { n m } \\right) , ^ { 2 2 }$which contains tert-butyl groups in the 4-position of the phenyl rings and thus more closely mimics the structure of the polymer. However, the quantum yield for PSBPhQ-H of 17% is considerably lower than that reported for Ph<sub>2</sub>BQ (30% in $\\mathrm { C H } _ { 2 ^ { - } }$$\\mathrm { C l } _ { 2 } ^ { 1 1 }$and 23% in $\\mathrm { C H C l } _ { 3 } { } ^ { 7 }$at room temperature), while it is almost identical to that of (<sup>t</sup>BuPh)<sub>2</sub>BQ (17%). At this point, the reasons for these differences are not obvious. Substitution at the 5-position with electron-withdrawing and electron-donating groups, respectively, strongly impacts the absorption and emission spectra of the polymers. The emission bands span a range from the blue (486 nm; $\\mathbf X = \\mathbf B \\mathbf p \\mathbf i \\mathbf n ) ^ { 2 7 }$to the red (615 nm; $\\mathrm { ~ X ~ } = \\mathrm { ~ C _ { 6 } H _ { 4 } N M e _ { 2 } } )$, thus covering almost the entire visible spectrum. Intriguingly, we found that when the 5-substituent on the quinolato ligand is changed from electron-withdrawing to electron-donating functionalities, the absorption bands experience a distinct red shift. This observation is in agreement with the results described for related aluminum quinolate derivatives.<sup>25</sup> However, a comparison of various $\\mathrm { A l Q } _ { 3 }$derivatives reported in the literature with the organoboron polymers indicates that the emission from the boron quinolate chromophores is generally blue-shifted by up to 20 nm. For instance, the parent polymer PSBPhQ-H emits at 507 nm relative to 526 nm for $\\mathrm { A l Q } _ { 3 } { } ^ { 2 \\bar { 5 } }$in $\\mathrm { C H } _ { 2 } \\mathrm { C l } _ { 2 }$solution. This trend is very interesting, in that blue emitting materials, which continue to be in strong demand for device applications, should be more easily accessible using organoboron quinolates. Indeed, the pentafluorophenyl substituted derivative $\\mathbf { P S B P h Q  – C _ { 6 } F _ { 5 } }$emits at 497 nm $( \\mathrm { A l Q } _ { 3 }$derivative: 516 nm) and attachment of a pinacolatoborane moiety in PSBPhQ-Bpin provides for blue emission at 486 nm. Generally, as the energy gap is increased with electronwithdrawing groups significantly higher quantum efficiencies are observed than with electron-donating substituents (Table 3). This is consistent with previous reports of other molecular organoboron and aluminum quinolates.<sup>25,26,28</sup>",
+      "merged_source_block_ids": [
+        "P_3_43",
+        "V2_3_5_1",
+        "V2_3_5_3",
+        "V2_3_5_5",
+        "V2_3_5_7",
+        "V2_3_5_8",
+        "V2_3_5_10",
+        "V2_3_5_12",
+        "V2_3_5_14",
+        "V2_3_5_16",
+        "V2_3_5_18",
+        "V2_3_5_20",
+        "V2_3_5_22",
+        "V2_3_5_24"
+      ],
+      "section": "Results and Discussion"
+    },
+    {
+      "block_id": "T_3_44",
+      "page_id": 3,
+      "block_index": 44,
+      "element_type": "table",
+      "bbox": [
+        514,
+        452,
+        908,
+        570
+      ],
+      "alignment_status": "matched",
+      "caption": "Table 3. Photophysical Data of the Organoboron Quinolate Polymers",
+      "table_body": "<table><tr><td rowspan=\"2\">compound $^{a}$ </td><td colspan=\"4\">THF</td><td colspan=\"2\">thin  $film^d$ </td></tr><tr><td> $λ_{max}$ (nm) $^{b}$ </td><td> $ε (L mol^{-1} cm^{-1})^{b}$ </td><td> $λ_{em}$ (nm) $^c$ </td><td> $Φ$ (%)</td><td> $λ_{max}$ (nm)</td><td> $λ_{em}$ (nm) $^c$ </td></tr><tr><td>PSBPhQ-Bpin</td><td>389</td><td>4930</td><td>486</td><td>14</td><td>391</td><td>490</td></tr><tr><td>PSBPhQ-C $_6$ F $_5$ </td><td>395</td><td>4880</td><td>497</td><td>28</td><td>400</td><td>502</td></tr><tr><td>PSBPhQ-H</td><td>395</td><td>3210</td><td>507</td><td>17</td><td>399</td><td>510</td></tr><tr><td>PSBPhQ-Cl</td><td>404</td><td>3203</td><td>525</td><td>6</td><td>415</td><td>531</td></tr><tr><td>PSBPhQ-C $_6$ H $_4$ OMe</td><td>419</td><td>3970</td><td>560</td><td>2</td><td>426</td><td>564</td></tr><tr><td>PSBPhQ-C $_6$ H $_4$ NMe $_2$ </td><td>439</td><td>3980</td><td>615</td><td>0.1</td><td>446</td><td>622</td></tr></table>",
+      "image_path": "organized/reference_no_0037645/images/9f173058203651f3267fab4f6982877b31a4a770ecec800be6dece358ea79777.jpg"
+    },
+    {
+      "block_id": "P_3_45",
+      "page_id": 3,
+      "block_index": 45,
+      "element_type": "text",
+      "bbox": [
+        511,
+        637,
+        915,
+        958
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "Results and Discussion"
+    },
+    {
+      "block_id": "I_4_49",
+      "page_id": 4,
+      "block_index": 49,
+      "element_type": "image",
+      "bbox": [
+        101,
+        56,
+        464,
+        238
+      ],
+      "alignment_status": "matched",
+      "image_kind": "chart",
+      "caption": "Figure 4. Absorption and emission spectra of (<sup>t</sup>BuPh)<sub>2</sub>BQ, PSBPhQ-H and PSBPhQ-H-co-PSSiMe in THF solution (functional group concentration ca. $2 \\times 1 0 ^ { - 5 } \\mathrm { M } ,$ , refer to Scheme 2 for polymer structures).",
+      "image_path": "organized/reference_no_0037645/images/cb6afe34f24cce9bb20f97117e2c296d3675b5ffe16d10ced2de537b87518a9e.jpg"
+    },
+    {
+      "block_id": "P_4_50",
+      "page_id": 4,
+      "block_index": 50,
+      "element_type": "text",
+      "bbox": [
+        83,
+        287,
+        483,
+        372
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "Results and Discussion"
+    },
+    {
+      "block_id": "P_4_51",
+      "page_id": 4,
+      "block_index": 51,
+      "element_type": "text",
+      "bbox": [
+        81,
+        371,
+        483,
+        789
+      ],
+      "alignment_status": "matched",
+      "text": "A comparison between the boron quinolate polymers and the respective molecular species<sup>22</sup> revealed almost identical absorption and emission spectra as illustrated for PSBPhQ-H and $( \\mathrm { ^ { t B u P h } } ) _ { 2 } \\mathrm { B Q }$in Figure 4. This similarity indicates that the boron quinolate moieties attached to the polymers have similar structural and electronic properties as the molecular analogs, despite the high functional group density and ensuing steric crowding along the polymer backbone.<sup>29</sup> Moreover, the absence of a bathochromic shift of the emission bands suggests that there is no significant delocalization of the excited-state along the polymer chain despite the high concentration of chromophores. To further confirm these conclusions, we synthesized a random copolymer, $\\mathbf { P S B P h Q - H - } c o \\mathbf { - } \\mathbf { P S S i M e } _ { 3 } ,$with only 10% boron functionalization. The copolymer was obtained using similar methods as for the homopolymers, except that only 0.1 equiv of BBr<sub>3</sub> were used in the initial Si-B exchange reaction. Random replacement of the trimethylsilyl moieties along the polymer chain is expected to take place under these conditions. The boron quinolate moieties in $\\mathbf { P S B P h Q - H - } c o \\mathbf { - } \\mathbf { P S S i M e } _ { 3 }$should therefore be randomly attached to the polymer backbone and separated by styrene repeating units, which prevent any interaction between the chromophores. The degree of functionalization for the isolated copolymer PSBPhQ-H-co-PSSiMe was calculated to be 10.5% according to <sup>1</sup>H NMR integration and 12.8% according to GPC-MALLS, which is very close to the feed ratio of BBr<sub>3</sub> to $\\mathrm { S i M e } _ { 3 }$functional groups.<sup>30</sup> The absorption and emission spectra of PSBPhQ-H-co-PSSiMe<sub>3</sub> are virtually identical to those of PSBPhQ-H (Figure 4), and the quantum efficiency of 0.18 for PSBPhQ-H-co-PSSiMe<sub>3</sub> matches very well with that of 0.17 determined for PSBPhQ-H.",
+      "merged_source_block_ids": [
+        "P_4_51",
+        "V2_4_2_1",
+        "V2_4_2_3",
+        "V2_4_2_5",
+        "V2_4_2_7"
+      ],
+      "section": "Results and Discussion"
+    },
+    {
+      "block_id": "P_4_52",
+      "page_id": 4,
+      "block_index": 52,
+      "element_type": "text",
+      "bbox": [
+        83,
+        787,
+        483,
+        898
+      ],
+      "alignment_status": "matched",
+      "text": "These data further confirm that chromophore aggregate formation within the polymer chains is indeed negligible. To assess the propensity for inter-polymer interactions, a comparison of the photophysical data of thin films cast from toluene (or chlorobenzene) with the solution properties is instructive (Table 3). For thin films of the polymers only a very small bathochromic shift of the absorption and emission maxima was detected.",
+      "section": "Results and Discussion"
+    },
+    {
+      "block_id": "P_4_53",
+      "page_id": 4,
+      "block_index": 53,
+      "element_type": "title",
+      "bbox": [
+        84,
+        909,
+        173,
+        924
+      ],
+      "alignment_status": "matched",
+      "text": "Conclusions",
+      "title_level": 2,
+      "section": "Conclusions"
+    },
+    {
+      "block_id": "P_4_54",
+      "page_id": 4,
+      "block_index": 54,
+      "element_type": "text",
+      "bbox": [
+        83,
+        928,
+        483,
+        957
+      ],
+      "alignment_status": "matched",
+      "text": "In summary, we have developed a highly versatile synthetic route to a series of luminescent organoboron quinolate polymers, which are obtained in high yields from a common intermediate, PSBPhBr, by treatment with substituted 8-hydroxyquinoline derivatives. Close to quantitative functionalization was observed for all the polymers according to NMR spectroscopy, GPC-${ \\mathrm { M A L L S } } .$, and elemental analysis. The polymers are stable under ambient conditions as evidenced by NMR and TGA analyses. Their emission color ranges from the blue region for the polymers bearing electron-withdrawing groups (PSBPhQ-Bpin and $\\mathbf { P S B P h Q  – C _ { 6 } F _ { 5 } } )$to the red region for those featuring electron-donating substituents attached to the quinolato moiety $\\mathbf { ( P S B P h Q  – C _ { 6 } H _ { 4 } O M e }$and $\\mathbf { P S B P h Q - C _ { 6 } H _ { 4 } N M e } _ { 2 } )$. Interactions between the chromophores along the polymer backbone are negligible based on a comparison with related molecular boron quinolates and a random copolymer with only 10% boron functionalization. The observation that similar absorption and emission properties are obtained in solution and for thin films suggests that inter-polymer interactions are also at best very weak. Future studies will entail further investigations on potential device applications of these polymers as electron conducting or emitting materials.",
+      "merged_source_block_ids": [
+        "P_4_54",
+        "V2_4_5_1",
+        "V2_4_5_3",
+        "V2_4_5_5",
+        "V2_4_5_7"
+      ],
+      "section": "Conclusions"
+    },
+    {
+      "block_id": "P_4_55",
+      "page_id": 4,
+      "block_index": 55,
+      "element_type": "text",
+      "bbox": [
+        511,
+        56,
+        913,
+        335
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "Conclusions"
+    },
+    {
+      "block_id": "P_4_56",
+      "page_id": 4,
+      "block_index": 56,
+      "element_type": "title",
+      "bbox": [
+        514,
+        345,
+        666,
+        359
+      ],
+      "alignment_status": "matched",
+      "text": "Experimental Section",
+      "title_level": 2,
+      "section": "Experimental Section"
+    },
+    {
+      "block_id": "P_4_57",
+      "page_id": 4,
+      "block_index": 57,
+      "element_type": "text",
+      "bbox": [
+        511,
+        364,
+        915,
+        719
+      ],
+      "alignment_status": "matched",
+      "text": "Materials and General Methods. The compounds 8-hydroxyquinoline (99%), 8-hydroxy-5-chloro-quinoline (95%), and 8-hy droxy-5-nitroquinoline (96%) were purchased from Acros and sublimed prior to use. Triethylamine (99.5%) was obtained from Acros and distilled from ${ \\mathrm { C a } } { \\dot { \\mathrm { H } } } _ { 2 } .$BBr<sub>3</sub> (99.9%) was obtained from Aldrich and distilled under vacuum. Poly(4-trimethylsilyl styrene) $( \\mathbf { P S S i M e } _ { 3 } ) , ^ { 2 1 }$1-trimethylstannyl-4-tert-butylbenzene,<sup>31</sup> 8-methoxyquinoline,<sup>32</sup> 5-bromo-8-methoxyquinoline,<sup>32</sup> and all other substituted quinoline derivatives<sup>25</sup> were synthesized according to literature procedures. Reactions and manipulations involving reactive (tricoordinate) boron species were carried out under an atmosphere of prepurified nitrogen using either Schlenk techniques or an inertatmosphere glovebox (Innovative Technologies). Ether solvents were distilled from Na/benzophenone prior to use. Hydrocarbon and chlorinated solvents were purified using a solvent purification system (Innovative Technologies; alumina/copper columns for hydrocarbon solvents), and the chlorinated solvents were subsequently distilled from CaH<sub>2</sub> and degassed via several freezepump-thaw cycles. The 499.893 MHz <sup>1</sup>H, 470.365 MHz <sup>19</sup>F, and 125.681 MHz <sup>13</sup>C NMR spectra were recorded on a Varian INOVA 500 MHz spectrometer. The 160.4 MHz $^ { 1 1 } \\mathrm { B }$NMR spectra were recorded on the Varian INOVA 500 spectrometer equipped with a boron-free probe using boron-free quartz NMR tubes. All solution <sup>1</sup>H and <sup>13</sup>C NMR spectra were referenced internally to the solvent peaks. <sup>11</sup>B NMR spectra were referenced externally to BF ‚Et O $( \\delta = 0 )$in $\\mathrm { C } _ { 6 } \\mathrm { D } _ { 6 } ;$<sup>19</sup>F NMR spectra were referenced externally to $\\mathrm { { \\alpha } } \\mathrm { { \\alpha } } ^ { \\prime } \\mathrm { { \\alpha } } ^ { \\prime \\prime }$-trifluorotoluene $( \\delta = \\bar { - } 6 3 . 7 3 )$in $\\mathrm { C } _ { 6 } \\mathrm { D } _ { 6 } .$. The labeling scheme shown",
+      "merged_source_block_ids": [
+        "P_4_57",
+        "V2_4_8_1",
+        "V2_4_8_3",
+        "V2_4_8_5",
+        "V2_4_8_7",
+        "V2_4_8_9",
+        "V2_4_8_11",
+        "V2_4_8_13",
+        "V2_4_8_15"
+      ],
+      "section": "Experimental Section"
+    },
+    {
+      "block_id": "I_4_58",
+      "page_id": 4,
+      "block_index": 58,
+      "element_type": "image",
+      "bbox": [
+        630,
+        724,
+        795,
+        871
+      ],
+      "alignment_status": "matched",
+      "image_kind": "image",
+      "caption": null,
+      "image_path": "organized/reference_no_0037645/images/58b766ce362a8fd6de414e2ccb1e03da491bf4efba78a99707f9fd993380f88f.jpg"
+    },
+    {
+      "block_id": "P_4_59",
+      "page_id": 4,
+      "block_index": 59,
+      "element_type": "text",
+      "bbox": [
+        513,
+        878,
+        913,
+        931
+      ],
+      "alignment_status": "matched",
+      "text": "is used for <sup>1</sup>H and $^ { 1 3 } \\mathrm { C }$NMR assignments. The abbreviations Ph, Q, <sup>t</sup>Ph, and $\\mathrm { \\Delta Q _ { P h } }$are used for phenyl groups from the PS backbone, quinolato, tert-butylphenyl, and phenyl substituents on the quinolato ligands, respectively.",
+      "merged_source_block_ids": [
+        "P_4_59",
+        "V2_4_10_1",
+        "V2_4_10_3"
+      ],
+      "section": "Experimental Section"
+    },
+    {
+      "block_id": "P_4_60",
+      "page_id": 4,
+      "block_index": 60,
+      "element_type": "text",
+      "bbox": [
+        513,
+        930,
+        913,
+        957
+      ],
+      "alignment_status": "matched",
+      "text": "GPC analyses were performed in THF (1 mL/min) using a Waters Breeze system equipped with a 717plus autosampler, a 1525 binary",
+      "section": "Experimental Section"
+    },
+    {
+      "block_id": "P_5_64",
+      "page_id": 5,
+      "block_index": 64,
+      "element_type": "text",
+      "bbox": [
+        81,
+        56,
+        483,
+        625
+      ],
+      "alignment_status": "matched",
+      "text": "HPLC pump, a 2487 dual λ absorbance detector, and a 2414 refractive index detector. Two Styragel columns (Polymer Laboratories; 5 µm Mix-C), which were kept in a column heater at 35 ${ } ^ { \\circ } \\mathrm { C } ,$were used for separation. The columns were calibrated with polystyrene standards (Polymer Laboratories). Multiangle laser light scattering (MALLS) experiments were performed at 690 nm (30 mW linear polarized GaAs laser) using a Wyatt Dawn EOS instrument either in a batch mode or in-line with the GPC as specified; a Wyatt Optilab refractive index detector operated at 690 nm was used as the concentration detector for in-line GPC-MALLS measurements; differential refractive indices dn/dc were calculated from in-line GPC-MALLS mode with the Wyatt Astra software assuming 100% mass recovery. Dynamic light scattering (DLS) studies were performed using the Wyatt Dawn EOS modified with a Wyatt QELS attachment. Data were collected at an angle of $1 0 8 ^ { \\circ }$using an avalanche photodiode and an optical fiber and processed with the Wyatt QELSBatch software (cumulant analysis). DSC measurements were performed on a Perkin-Elmer differential scanning calorimeter Pyris 1 system with ca. 10 mg of the polymer and at a scan rate of $2 \\dot { 0 } ~ { } ^ { \\circ } \\mathrm { C } / \\mathrm { m i n }$. The results reported are from the second heating cycle. The DSC instrument was calibrated with indium $( T _ { \\mathrm { t r a n s i t i o n } } = 1 5 6 . 6 0 ^ { \\circ } \\mathrm { C } )$and zinc $( T _ { \\mathrm { t r a n s i t i o n } } = 4 1 9 . 4 7 \\ ^ { \\circ } \\mathrm { C } )$for temperature and indium for enthalpy change. TGA measurements were performed on a Perkin-Elmer Pyris 1 Thermogravimetric analyzer at a scan rate of $2 0 ~ ^ { \\circ } \\mathrm { C }$/min and up to $8 0 0 ~ ^ { \\circ } \\mathrm { C } .$The TGA instrument was calibrated with alumel (Curie point: $1 5 4 . 2 ^ { \\circ } \\mathrm { C } )$and perkalloy (Curie point: $5 9 6 ~ ^ { \\circ } \\mathrm { C } )$. Thin films of the polymers were prepared on glass slides with ca. 5-10 mg/mL of polymer in toluene (data in Table 3) or chlorobenzene (TOC picture) using a Specialty Coatings Systems (SCS) G3P-8 Spin-Coater $( 0 - 2 0 0 0$rpm over 25 s, 2000-5000 rpm over 25 s, and 5000-0 rpm over 25 s). Solution UV-vis measurements were performed in THF using a Varian Cary 500 scan UV-vis-NIR spectrophotometer with a 1 cm quartz cuvette. Absorbances (\u000f) for the polymers are reported per repeating unit assuming 100% chromophore functionalization. The fluorescence data were measured on a Varian Cary Eclipse fluorescence spectrophotometer with the same solutions as those used in the $\\mathrm { { U } \\bar { V } - v i s }$measurements. Anthracene was used as the standard for determination of the quantum yields. The quantum yield of anthracene $( \\Phi = 0 . 3 0$in THF) was adopted from the Handbook ofPhotochemis $t r y , ^ { 3 3 }$and the concentration of anthracene in THF was $5 \\times 1 0 ^ { - 6 } \\mathrm { M }$. Photophysical data for thin films of the polymer on glass slides were obtained on the same instruments. Elemental analyses were performed by Quantitative Technologies Inc., Whitehouse, NJ; combustion aid was added in all cases.",
+      "merged_source_block_ids": [
+        "P_5_64",
+        "V2_5_0_1",
+        "V2_5_0_3",
+        "V2_5_0_5",
+        "V2_5_0_7",
+        "V2_5_0_9",
+        "V2_5_0_11",
+        "V2_5_0_13",
+        "V2_5_0_15",
+        "V2_5_0_17",
+        "V2_5_0_19",
+        "V2_5_0_21",
+        "V2_5_0_23",
+        "V2_5_0_25",
+        "V2_5_0_27"
+      ],
+      "section": "Experimental Section"
+    },
+    {
+      "block_id": "P_5_65",
+      "page_id": 5,
+      "block_index": 65,
+      "element_type": "text",
+      "bbox": [
+        83,
+        625,
+        483,
+        664
+      ],
+      "alignment_status": "matched",
+      "text": "Caution! BBr<sub>3</sub> is toxic and highly corrosive and should be handled appropriately with great care. Fluorinated grease was used for ground glass joints in all reactions involving boron tribromide.",
+      "section": "Experimental Section"
+    },
+    {
+      "block_id": "P_5_66",
+      "page_id": 5,
+      "block_index": 66,
+      "element_type": "text",
+      "bbox": [
+        83,
+        664,
+        483,
+        880
+      ],
+      "alignment_status": "matched",
+      "text": "Synthesis of PSBPhBr. $\\mathbf { P S S i M e } _ { 3 } \\left( 1 . 0 \\mathrm { g } , 5 . 6 7 \\right.$mmol $\\mathrm { S i M e } _ { 3 } )$was dissolved in 20 mL of $\\mathrm { C H } _ { 2 } \\mathrm { C l } _ { 2 } ,$and a solution of $\\mathrm { B B r } _ { 3 } \\ ( 1 . 7 0 \\ \\mathrm { g } ,$6.80 mmol) in 10 mL of $\\mathrm { C H } _ { 2 } \\mathrm { C l } _ { 2 }$was added dropwise. The mixture was stirred under nitrogen for 12 h and then cooled down $\\mathrm { t o } - 2 0$$^ \\circ \\mathrm { C } . \\mathrm { A }$solution of 1-trimethylstannyl-4-tert-butylbenzene (2.53 g, 8.51 mmol) in 15 mL of CH<sub>2</sub>Cl<sub>2</sub> was slowly added, and the mixture was slowly warmed up to room temperature and stirred for another 4 h. The solution was then concentrated $\\mathrm { t o } \\sim 2$mL and precipitated into a large excess of hexanes. PSBPhBr was recovered as a white solid by freeze-drying from benzene (1.6 g, 86%). <sup>1</sup>H NMR (499.893 MHz, CDCl ): δ ) 7.74 (Ph-H2,6; <sup>t</sup>Ph-H2,6), 7.35 (<sup>t</sup>Ph-H3,5), 6.67, 6.55, 6.41 (Ph-H3,5), 2.2-1.2 (polymer backbone),1.28 (CMe<sub>3</sub>). <sup>13</sup>C NMR (125.698 MHz, CDCl<sub>3</sub>): $\\delta = 1 5 6 . 5$(<sup>t</sup>Ph-C4), 150.2 (Ph-C4), 137.7 (Ph-C2,6; <sup>t</sup>Ph-C2,6), 137.0 (<sup>t</sup>Ph-C1), 127.4 (Ph-C3,5), 125.0 (<sup>t</sup>Ph-C3,5), 46-41 (polymer backbone), 35.3 (CMe ), 31.3 (CMe ), Ph-C1 not observed. <sup>11</sup>B NMR (160.380 MHz, CDCl<sub>3</sub>): $\\delta = 5 8 \\ : ( w _ { 1 / 2 } = 3 5 2 0$Hz).",
+      "merged_source_block_ids": [
+        "P_5_66",
+        "V2_5_2_1",
+        "V2_5_2_3",
+        "V2_5_2_5",
+        "V2_5_2_7",
+        "V2_5_2_9",
+        "V2_5_2_11",
+        "V2_5_2_12",
+        "V2_5_2_14",
+        "V2_5_2_16",
+        "V2_5_2_18"
+      ],
+      "section": "Experimental Section"
+    },
+    {
+      "block_id": "P_5_67",
+      "page_id": 5,
+      "block_index": 67,
+      "element_type": "text",
+      "bbox": [
+        83,
+        878,
+        483,
+        957
+      ],
+      "alignment_status": "matched",
+      "text": "Synthesis of PSBPhQ-H. PSSiMe<sub>3</sub> (0.33 g, 1.89 mmol SiMe<sub>3</sub>) was dissolved in 20 mL of CH<sub>2</sub>Cl<sub>2</sub>, and a solution of BBr<sub>3</sub> (0.57 g, 2.27 mmol) in 10 mL of CH<sub>2</sub>Cl<sub>2</sub> was added dropwise. The mixture was stirred under nitrogen for 12 h and then cooled down $\\mathrm { t o } - 2 0$$^ \\circ \\mathrm { C } .$A solution of 1-trimethylstannyl-4-tert-butylbenzene (0.86 g, 2.91 mmol) in 15 mL of CH<sub>2</sub>Cl<sub>2</sub> was slowly added, and the mixture was slowly warmed up to room temperature and stirred for another 4 h. 8-Hydroxyquinoline (1.10 g, 7.56 mmol) and triethylamine (1.53 g, 15.1 mmol) in 10 mL of CH<sub>2</sub>Cl<sub>2</sub> were then added slowly, and the mixture was stirred for 12 h prior to removal of volatile materials under vacuum. PSBPhQ-H was recovered by repeated precipitation from THF into methanol and dried at 60 $^ { \\circ } \\mathrm { C } ^ { \\prime }$under high vacuum overnight $_ { ( 0 . 4 9 \\ \\mathrm { g } , }$66% yield). <sup>1</sup>H NMR (499.893 MHz, CDCl<sub>3</sub>): $\\delta = \\mathsf { \\bar { 8 } } . 6 { - } 5 . 6$(very br, all aromatic H’s), 2.4-0.8 (polymer backbone and CMe ). <sup>13</sup>C NMR (125.698 MHz, CDCl ): $\\bar { \\delta } = 1 5 8 . 9 \\ : ( \\mathrm { Q - C 8 } )$, 149.4 (<sup>t</sup>Ph-C4), 144.3 (Ph-C1,4; <sup>t</sup>Ph-C1), 139.5 (Q-C2/4), 138.5 (Q-C2/4), 137.4 (Q-C9), 132.1 (Ph-C2,6; <sup>t</sup>Ph-C2,6; Q-C6), 128.3 (Q-C10), 127.1 (Ph-C3,5), 124.6 (<sup>t</sup>Ph-C3,5), 123.1 (Q-C3), 112.2 (Q-C5), 109.2 (Q-C7), 46-38 (polymer backbone), 34.6 (CMe<sub>3</sub>), 31.7 (CMe<sub>3</sub>). <sup>11</sup>B NMR (160.380 MHz, CDCl<sub>3</sub>): $\\delta = 7 ~ ( w _ { 1 / 2 } = 5 7 0 ~ \\mathrm { H z } )$. GPC-MALLS (THF, 1 mL/min): M<sub>n</sub> ) 119 000, $M _ { \\mathrm { w } } = 1 3 5$700, PDI ) 1.14, dn/dc ) $0 . 1 9 4$m $\\mathrm { \\mathcal { L } } / \\mathrm { g } , R _ { \\mathrm { H } } = 6$nm. DSC (20 °C/min, onset, second heating curve): $T _ { \\mathrm { { g } } } = 2 4 0 \\ { } ^ { \\circ } { \\mathrm { C } } ;$TGA (20 °C/min, onset): $T _ { \\mathrm { d e c } } = 3 8 5 ~ ^ { \\circ } \\bar { \\mathrm { C } } ,$90% total weight loss. $\\mathrm { U V - v i s ~ } ( 2 . 1 \\times 1 0 ^ { - 5 } ~ \\mathrm { M }$in THF): $\\lambda _ { \\operatorname* { m a x } } =$395 nm, $\\epsilon = \\bar { 3 } 2 1 0 ~ \\mathrm { c m } ^ { - 1 } ~ \\mathrm { M } ^ { - 1 }$. Fluorescence: $\\lambda _ { \\mathrm { e x c } } = 3 9 5$nm, λ<sub>em</sub> $= 5 0 7$nm, $\\Phi = 1 7 \\%$. Anal. Calcd for $\\mathrm { C } _ { 2 7 } \\mathrm { H } _ { 2 6 } \\mathrm { B N O } { \\mathrm { : } }$C, 82.87; H, 6.70; N, 3.58. Found: C, 81.77; H, 6.22; N, 3.06.",
+      "merged_source_block_ids": [
+        "P_5_67",
+        "V2_5_3_1",
+        "V2_5_3_2",
+        "V2_5_3_4",
+        "V2_5_3_6",
+        "V2_5_3_8",
+        "V2_5_3_10",
+        "V2_5_3_12",
+        "V2_5_3_14",
+        "V2_5_3_16",
+        "V2_5_3_18",
+        "V2_5_3_20",
+        "V2_5_3_22",
+        "V2_5_3_24",
+        "V2_5_3_26",
+        "V2_5_3_28",
+        "V2_5_3_30",
+        "V2_5_3_32",
+        "V2_5_3_34",
+        "V2_5_3_36"
+      ],
+      "section": "Experimental Section"
+    },
+    {
+      "block_id": "P_5_68",
+      "page_id": 5,
+      "block_index": 68,
+      "element_type": "text",
+      "bbox": [
+        511,
+        56,
+        913,
+        335
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "Experimental Section"
+    },
+    {
+      "block_id": "P_5_69",
+      "page_id": 5,
+      "block_index": 69,
+      "element_type": "text",
+      "bbox": [
+        511,
+        335,
+        913,
+        690
+      ],
+      "alignment_status": "matched",
+      "text": "Synthesis of PSBPhQ-Cl. PSSiMe<sub>3</sub> (0.33 g, 1.89 mmol SiMe<sub>3</sub>) was dissolved in 20 mL of $\\mathrm { \\ C H } _ { 2 } \\mathrm { C l } _ { 2 } ,$and a solution of BBr<sub>3</sub> (0.57 g, 2.27 mmol) in 10 mL of CH<sub>2</sub>Cl<sub>2</sub> was added dropwise. The mixture was stirred under nitrogen for 12 h and then cooled down to -20 $^ \\circ \\mathbf { C } .$. A solution of 1-trimethylstannyl-4-tert-butylbenzene (0.86 g, 2.91 mmol) in 15 mL of $\\mathrm { C H } _ { 2 } \\mathrm { C l } _ { 2 }$was slowly added and the mixture was slowly warmed up to room temperature and stirred for another 4 h. 5-Chloro-8-hydroxyquinoline (1.36 g, 7.56 mmol) and triethylamine (1.53 g, 15.1 mmol) in 10 mL of $\\mathrm { C H } _ { 2 } \\mathrm { C l } _ { 2 }$were then added slowly and the mixture was stirred for 12 h prior to removal of volatile materials under vacuum. PSBPhQ-Cl was recovered by repeated precipitation from THF into methanol and dried at $6 0 ~ ^ { \\circ } \\mathrm { C }$under high vacuum overnight (0.52 g, 65% yield). <sup>1</sup>H NMR (499.893 MHz, CDCl<sub>3</sub>): $\\delta \\stackrel { - } { = } 8 . 7 - 5 . 6$(very br, all aromatic H’s), 2.4-0.6 (polymer backbone and CMe ). <sup>13</sup>C NMR (125.698 MHz, CDCl<sub>3</sub>): δ ) 158.0 (Q-C8), 149.8 (<sup>t</sup>Ph-C4), 143.3 (Ph-C1,4; <sup>t</sup>Ph-C1), 140.4 (Q-C2/4), 137.8 (Q-C9), 136.2 (Q-C2/4), 132.0 (Ph-C2,6; <sup>t</sup>Ph-C2,6; Q-C6), 127.0 (Ph-C3,5), 126.4 (Q-C10), 124.7 (<sup>t</sup>Ph-C3,5; Q-C3), 115.1 (Q-C5), 109.6 (Q-C7), 46-38 (polymer backbone), 34 $. 6 ( C { \\bf M e } _ { 3 } )$, 31.7 (CMe<sub>3</sub>). <sup>11</sup>B NMR (160.380 MHz, CDCl ): $\\delta = 8 ~ ( w _ { 1 / 2 } = 5 6 0$Hz). GPC-MALLS (THF, 1 mL/min): $M _ { \\mathrm { n } } = 1 2 7 6 0 0$$M _ { \\mathrm { w } } =$144 100, $\\mathrm { P D I } = 1 . 1 3 ,$, dn/dc ) $0 . 1 9 0$mL/g $, R _ { \\mathrm { H } } = 7$nm. DSC (20 °C/min, onset, second heating curve): $T _ { \\mathrm { { g } } } = 2 3 8 \\ { } ^ { \\circ } \\mathrm { { C } } ;$TGA (20 °C/min, onset): $T _ { \\mathrm { d e c } } = 3 0 5 ~ ^ { \\circ } \\mathrm { C } ,$85% total weight loss. $\\mathrm { U V - v i s ~ } ( 2 . 2 \\times 1 0 ^ { - 5 } ~ \\mathrm { { I } }$M in THF): $\\lambda _ { \\operatorname* { m a x } } =$404 nm, $\\epsilon = 2 3 1 0$cm-<sup>1</sup> M-<sup>1</sup>. Fluorescence: $\\lambda _ { \\mathrm { e x c } } = 4 0 4$nm, $\\lambda _ { \\mathrm { e m } }$$= 5 2 5$nm, $\\Phi = 6 \\%$. Anal. Calcd for C<sub>27</sub>H<sub>25</sub>BClNO: C, 76.17; H, 5.92; N, 3.29. Found: C, 75.97; H, 5.73; N, 2.96.",
+      "merged_source_block_ids": [
+        "P_5_69",
+        "V2_5_5_1",
+        "V2_5_5_3",
+        "V2_5_5_5",
+        "V2_5_5_7",
+        "V2_5_5_9",
+        "V2_5_5_11",
+        "V2_5_5_13",
+        "V2_5_5_15",
+        "V2_5_5_17",
+        "V2_5_5_18",
+        "V2_5_5_20",
+        "V2_5_5_22",
+        "V2_5_5_24",
+        "V2_5_5_26",
+        "V2_5_5_28",
+        "V2_5_5_30",
+        "V2_5_5_32",
+        "V2_5_5_34",
+        "V2_5_5_36",
+        "V2_5_5_38",
+        "V2_5_5_39",
+        "V2_5_5_41"
+      ],
+      "section": "Experimental Section"
+    },
+    {
+      "block_id": "P_5_70",
+      "page_id": 5,
+      "block_index": 70,
+      "element_type": "text",
+      "bbox": [
+        511,
+        689,
+        913,
+        959
+      ],
+      "alignment_status": "matched",
+      "text": "Synthesis of PSBPhQ-C H OMe. PSSiMe (0.50 g, 2.84 mmol SiMe<sub>3</sub>) was dissolved in 20 mL of $\\mathrm { C H } _ { 2 } \\mathrm { C l } _ { 2 } ,$and a solution of $\\mathrm { B B r } _ { 3 }$(0.78 g, 3.12 mmol) in 10 mL of $\\mathrm { C H } _ { 2 } \\mathrm { C l } _ { 2 }$was added dropwise. The mixture was stirred under nitrogen for 12 h and then cooled down $\\mathrm { t o } ~ - 2 0 ~ ^ { \\circ } \\mathrm { C }$. A solution of 1-trimethylstannyl-4-tert-butylbenzene (1.05 g, 3.55 mmol) in 15 mL of $\\mathrm { C H } _ { 2 } \\mathrm { C l } _ { 2 }$was slowly added and the mixture was slowly warmed up to room temperature and stirred for another 4 h. 5-(4-Methoxyphenyl)-8-hydroxyquinoline (0.86 $^ { \\mathrm { g , } }$3.41 mmol) and triethylamine (0.86 g, 8.52 mmol) in 10 mL of $\\mathrm { C H } _ { 2 } \\mathrm { C l } _ { 2 }$were then added slowly and the mixture was stirred for 12 h prior to removal of volatile materials under vacuum. PSBPhQ $\\mathbf { C _ { 6 } } \\mathbf { \\bar { H } _ { 4 } O M e }$was recovered by repeated precipitation from THF into methanol and dried at $6 0 ~ ^ { \\circ } \\mathrm { C }$under high vacuum overnight (1.15 g, 82% yield). <sup>1</sup>H NMR (499.893 MHz, CDCl<sub>3</sub>): $\\delta = 9 . 2 { - 5 . 8 }$(very br, all aromatic H’s), 3.8 (OMe), 2.4-0.6 (polymer backbone and ${ \\mathrm { C } } M e _ { 3 } )$<sup>13</sup>C NMR (125.698 MHz, CDCl<sub>3</sub>): δ ) 159.1 (Q-C8), 158.2 (<sup>Q</sup>Ph-C1), 149.3 (<sup>t</sup>Ph-C4), 144.2 (Ph-C1,4; <sup>t</sup>Ph-C1), 139.5 (Q-C2/4), 137.6 (Q-C2/4,9), 132.0 (Ph-C2,6; <sup>t</sup>Ph-C2,6; Q-C6), 130.8 (<sup>Q</sup>Ph-C3,4,5), 126.8 (Ph-C3,5; Q-C10), 125.6 (Q-C5), 124.7 (<sup>t</sup>Ph-C3,5), 123.0 (Q-C3), 114.4 (<sup>Q</sup>Ph-C2,6), 109.1 (Q-C7), 55.5 (OMe), 46-38 (polymer backbone), 34.5 (CMe<sub>3</sub>), 31.7 (CMe ). <sup>11</sup>B NMR (160.380 MHz, CDCl ): $\\delta = 7 ~ ( w _ { 1 / 2 } = 4 1 0$Hz). GPC-MALLS (THF, 1 mL/min): $M _ { \\mathrm { n } } ~ = ~ 1 5 0$700, $M _ { \\mathrm { w } } ~ =$169 800, PDI ) 1.13, dn/dc ) 0.208 mL/g, $R _ { \\mathrm { H } } = 7$nm. DSC (20 ${ } ^ { \\circ } \\mathrm { C } / \\mathrm { m i n } ,$onset, second heating curve): $T _ { \\mathrm { g } } = 2 2 0 { ^ \\circ } \\mathrm { C } ;$TGA (20 °C/ min, onset): $T _ { \\mathrm { d e c } } = 4 6 5 ~ ^ { \\circ } \\mathrm { C } ,$, 72% total weight loss. UV-vis (2.0 $\\times \\ 1 0 ^ { - 5 }$M in THF): $\\lambda _ { \\operatorname* { m a x } } = 4 1 9$nm, $\\epsilon = 3 7 9 0 ~ \\mathrm { c m } ^ { - 1 } ~ \\mathrm { M } ^ { - 1 } .$Fluorescence: $\\lambda _ { \\mathrm { e x c } } = 4 1 9$nm, $\\lambda _ { \\mathrm { e m } } = 5 6 0$nm, $\\Phi = 2 \\%$. Anal Calcd for ${ \\bf C } _ { 3 4 } \\mathrm { H } _ { 3 2 } \\mathrm { B N O } _ { 2 } \\colon \\mathrm { C }$, 82.09; H, 6.48; N, 2.82. Found: C, 81.57; H, 6.29; N 2.46.",
+      "merged_source_block_ids": [
+        "P_5_70",
+        "V2_5_6_1",
+        "V2_5_6_3",
+        "V2_5_6_5",
+        "V2_5_6_7",
+        "V2_5_6_9",
+        "V2_5_6_11",
+        "V2_5_6_13",
+        "V2_5_6_15",
+        "V2_5_6_17",
+        "V2_5_6_19",
+        "V2_5_6_21",
+        "V2_5_6_23",
+        "V2_5_6_25",
+        "V2_5_6_27",
+        "V2_5_6_29",
+        "V2_5_6_31",
+        "V2_5_6_33",
+        "V2_5_6_35",
+        "V2_5_6_37",
+        "V2_5_6_39",
+        "V2_5_6_41",
+        "V2_5_6_43",
+        "V2_5_6_45",
+        "V2_5_6_47",
+        "V2_5_6_49"
+      ],
+      "section": "Experimental Section"
+    },
+    {
+      "block_id": "P_6_74",
+      "page_id": 6,
+      "block_index": 74,
+      "element_type": "text",
+      "bbox": [
+        83,
+        55,
+        483,
+        171
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "Experimental Section"
+    },
+    {
+      "block_id": "P_6_75",
+      "page_id": 6,
+      "block_index": 75,
+      "element_type": "text",
+      "bbox": [
+        81,
+        171,
+        483,
+        539
+      ],
+      "alignment_status": "matched",
+      "text": "Synthesis of PSBPhQ- ${ \\bf \\cdot C _ { 6 } H _ { 4 } N M e } _ { 2 } .$PSSiMe<sub>3</sub> (0.50 g, 2.84 mmol SiMe<sub>3</sub>) was dissolved in 20 mL of $\\mathrm { C H } _ { 2 } \\mathrm { C l } _ { 2 } ,$and a solution of $\\mathrm { B B r } _ { 3 }$(0.78 g, 3.12 mmol) in 10 mL of CH<sub>2</sub>Cl<sub>2</sub> was added dropwise. The mixture was stirred under nitrogen for 12 h and then cooled down $\\mathrm { t o } \\ - 2 0 \\ ^ { \\circ } \\mathrm { C } .$. A solution of 1-trimethylstannyl-4-tert-butylbenzene (1.10 g, 3.69 mmol) in 15 mL of $\\mathrm { C H } _ { 2 } \\mathrm { C l } _ { 2 }$was slowly added, and the mixture was slowly warmed up to room temperature and stirred for another 4 h. 5-(4-Dimethylaminophenyl)-8-methoxyquinoline (0.95 g, 3.41 mmol) in 10 mL of CH<sub>2</sub>Cl<sub>2</sub> was then added slowly and the mixture was stirred for 12 h prior to removal of volatile materials under vacuum. PSBPhQ- $\\mathbf { C _ { 6 } H _ { 4 } N M e } _ { 2 }$was recovered by repeated precipitation from THF into methanol and dried at $6 0 ~ ^ { \\circ } \\dot { \\mathrm { C } }$under high vacuum overnight (1.15 g, 79% yield). <sup>1</sup>H NMR (499.893 MHz, CDCl ): $\\delta = 8 . 8 - 5 . 6$(very br, all aromatic H’s), 3.0 (NMe ), 2.4-0.4 (polymer backbone and CMe ). <sup>13</sup>C NMR (125.698 MHz, CDCl<sub>3</sub>): δ ) 157.8 (Q-C8), 149.9 (<sup>t</sup>Ph-C4), 149.1 (<sup>Q</sup>Ph-C1), 144.4 (Ph-C1,4; <sup>t</sup>Ph-C1), 139.5 (Q-C2/4), 137.7 (Q-C2/4,9), 132.1 (Ph-C2,6; <sup>t</sup>Ph-C2,6; Q-C6), 130.5 (<sup>Q</sup>Ph-C3,5), 126.6 (Ph-C3,5; <sup>Q</sup>Ph-C4; Q-C5,10), 124.5 (<sup>t</sup>Ph-C3,5), 123.0 (Q-C3), 112.9 (<sup>Q</sup>Ph-C2,6), 109.1 (Q-C7), 40.8 (NMe ), 46-38 (polymer backbone), 34.5 (CMe<sub>3</sub>), 31.7 (CMe<sub>3</sub>). <sup>11</sup>B NMR (160.380 MHz, CDCl<sub>3</sub>): $\\delta = 7 \\ ( w _ { 1 / 2 } = 3 5 0 \\ \\mathrm { H z } )$. GPC-MALLS (1 mL/min, 0.2% Bu NBr in THF): $M _ { \\mathrm { n } } = 1 6 1$200, M ) 178 900, PDI ) 1.11, dn/dc ) 0.229 mL $/ \\mathrm { g } , R _ { \\mathrm { H } } = 7$nm. DSC (20 °C/min, onset, second heating curve): $T _ { \\mathrm { { g } } } = 2 3 0 ~ ^ { \\circ } \\mathrm { { C } ; }$TGA (20 °C/min, onset): $T _ { \\mathrm { d e c } } = 3 7 5 ^ { \\circ } \\mathrm { C }$, 76% total weight loss. UV-vis $( 2 . 1 \\times 1 0 ^ { - 5 }$M in THF): $\\lambda _ { \\operatorname* { m a x } } = 4 3 9$nm, \u000f ) 3980 cm-<sup>1</sup> M-<sup>1</sup>. Fluorescence: $\\lambda _ { \\mathrm { e x c } } =$439 nm, λ ) 615 nm, $\\Phi = 0 . 1 \\%$. Anal. Calcd for $\\mathrm { C } _ { 3 5 } \\mathrm { H } _ { 3 5 } \\mathrm { B N } _ { 2 } \\mathrm { O } ;$C, 82.53; H, 6.91; N, 5.49. Found: C, 81.28; H, 6.66; N, 5.11.",
+      "merged_source_block_ids": [
+        "P_6_75",
+        "V2_6_1_1",
+        "V2_6_1_3",
+        "V2_6_1_5",
+        "V2_6_1_7",
+        "V2_6_1_9",
+        "V2_6_1_11",
+        "V2_6_1_13",
+        "V2_6_1_15",
+        "V2_6_1_17",
+        "V2_6_1_19",
+        "V2_6_1_21",
+        "V2_6_1_23",
+        "V2_6_1_25",
+        "V2_6_1_27",
+        "V2_6_1_29",
+        "V2_6_1_31",
+        "V2_6_1_33",
+        "V2_6_1_35"
+      ],
+      "section": "Experimental Section"
+    },
+    {
+      "block_id": "P_6_76",
+      "page_id": 6,
+      "block_index": 76,
+      "element_type": "text",
+      "bbox": [
+        81,
+        537,
+        483,
+        917
+      ],
+      "alignment_status": "matched",
+      "text": "Synthesis of PSBPhQ-C F . PSSiMe (0.30 g, 1.70 mmol SiMe<sub>3</sub>) was dissolved in 20 mL of CH<sub>2</sub>Cl<sub>2</sub>, and a solution of BBr<sub>3</sub> (0.45 g, 1.79 mmol) in 10 mL of $\\mathrm { C H } _ { 2 } \\mathrm { C l } _ { 2 }$was added dropwise. The mixture was stirred under nitrogen for 12 h and then cooled down $\\mathrm { t o } \\ - 2 0 \\ ^ { \\circ } \\mathrm { C } .$. A solution of 1-trimethylstannyl-4-tert-butylbenzene (0.58 g, 1.96 mmol) in 15 mL of CH<sub>2</sub>Cl<sub>2</sub> was slowly added, and the mixture was slowly warmed up to room temperature and stirred for another 4 h. 5-Pentafluorophenyl-8-methoxyquinoline (0.61 g, 1.87 mmol) in 10 mL of $\\mathrm { C H } _ { 2 } \\mathrm { \\bar { C } l } _ { 2 }$was then added slowly, and the mixture was stirred for 12 h prior to removal of volatile materials under vacuum. $\\mathbf { P S B P h Q - C _ { 6 } F _ { 5 } }$was recovered by repeated precipitation from THF into methanol and dried at $6 0 ~ ^ { \\circ } \\mathrm { C }$under high vacuum overnight (0.81 g, 85% yield). <sup>1</sup>H NMR (499.893 MHz, CDCl<sub>3</sub>): $\\delta ~ = ~ 8 . 8 \\mathrm { - } 5 . 8$(very br, all aromatic H’s), 2.4-0.6 (polymer backbone and CMe<sub>3</sub>). <sup>19</sup>F NMR (470.365 MHz, CDCl<sub>3</sub>): $\\delta =$-140.8 (F2,6), -155.5 (F4), -162.5 (F3,5). <sup>13</sup>C NMR (125.698 MHz, CDCl<sub>3</sub>): δ ) 160.4 (Q-C8), 149.8 (<sup>t</sup>Ph-C4), 146-142 (Ph-C1,4; <sup>t</sup>Ph-C1; <sup>Q</sup>Pf-C2,4,6), 140.1 (Q-C2/4), 139-137 (<sup>Q</sup>Pf-C3,5), 137.2 (Q-C9), 136.1 (Q-C2/4,6), 131.9 (Ph-C2,6; <sup>t</sup>Ph-C2,6), 127.0 (Ph-C3,5; Q-C10), 124.7 (<sup>t</sup>Ph-C3,5; Q-C3), 112.4 (<sup>Q</sup>Pf-C1), 109.0 (Q-C7), 108.5 (Q-C5), 46-38 (polymer backbone), 34.5 (CMe<sub>3</sub>), 31.5 (CMe<sub>3</sub>). <sup>11</sup>B NMR (160.380 MHz, CDCl<sub>3</sub>): δ ) 7 (w<sub>1/2</sub> ) 560 Hz). GPC-MALLS (THF, 1 mL/min): $M _ { \\mathrm { n } } = 1 6$1 000, $M _ { \\mathrm { w } } = 1 8 9$200, PDI ) 1.18, dn/dc ) 0.163 mL/g, $R _ { \\mathrm { H } } = 7$nm. DSC (20 °C/min, onset, second heating curve): $T _ { \\mathrm { g } } =$$2 4 5 ^ { \\circ } \\mathrm { C } ;$TGA (20 °C/min, onset): $T _ { \\mathrm { d e c } } = 3 5 0 ~ ^ { \\circ } \\mathrm { C }$, 85% total weight loss. UV-vis $( 1 . 8 \\times 1 0 ^ { - 5 } \\mathrm { { M } }$in THF): $\\lambda _ { \\operatorname* { m a x } } = 3 9 5$nm, \u000f ) 4880 cm-<sup>1</sup> M-<sup>1</sup>. Fluorescence: $\\lambda _ { \\mathrm { e x c } } = 3 9 5$nm, $\\lambda _ { \\mathrm { e m } } = 4 9 7$nm, $\\Phi =$28%. Anal. Calcd for C H BF NO: C, 71.11; H, 4.52; N, 2.51. Found: C, 72.05; H, 4.74; N, 2.27.",
+      "merged_source_block_ids": [
+        "P_6_76",
+        "V2_6_2_1",
+        "V2_6_2_3",
+        "V2_6_2_5",
+        "V2_6_2_7",
+        "V2_6_2_9",
+        "V2_6_2_11",
+        "V2_6_2_13",
+        "V2_6_2_15",
+        "V2_6_2_17",
+        "V2_6_2_19",
+        "V2_6_2_21",
+        "V2_6_2_22",
+        "V2_6_2_24",
+        "V2_6_2_26",
+        "V2_6_2_28",
+        "V2_6_2_30",
+        "V2_6_2_32",
+        "V2_6_2_34"
+      ],
+      "section": "Experimental Section"
+    },
+    {
+      "block_id": "P_6_77",
+      "page_id": 6,
+      "block_index": 77,
+      "element_type": "text",
+      "bbox": [
+        83,
+        917,
+        483,
+        957
+      ],
+      "alignment_status": "matched",
+      "text": "Synthesis of PSBPhQ-Bpin. PSSiMe (0.30 g, 1.70 mmol SiMe<sub>3</sub>) was dissolved in 20 mL of CH<sub>2</sub>Cl<sub>2</sub>, and a solution of BBr<sub>3</sub> (0.45 g, 1.79 mmol) in 10 mL of CH<sub>2</sub>Cl<sub>2</sub> was added dropwise. The mixture was stirred under nitrogen for 12 h and then cooled down $\\mathrm { t o } \\ - 2 0 \\ ^ { \\circ } \\mathrm { C } .$. A solution of 1-trimethylstannyl-4-tert-butylbenzene (0.58 g, 1.96 mmol) in 15 mL of $\\mathrm { C H } _ { 2 } \\mathrm { C l } _ { 2 }$was slowly added, and the mixture was slowly warmed up to room temperature and stirred for another 4 h. 5-Pinacolato-8-methoxyquinoline (0.58 g, 2.04 mmol) in 10 mL of CH<sub>2</sub>Cl<sub>2</sub> was then added slowly, and the mixture was stirred for 12 h prior to removal of volatile materials under vacuum. PS-BPhPinQ was recovered by repeated precipitation from THF into methanol and dried at $6 0 ~ ^ { \\circ } \\mathrm { C }$under high vacuum overnight (0.60 g, 68% yield). <sup>1</sup>H NMR (499.893 MHz, CDCl ): $\\delta ~ = ~ 9 . 2 \\mathrm { - } 5 . 8$(very br, all aromatic H’s), 2.4-0.6 (polymer backbone, CMe<sub>3</sub> and $M e _ { 2 } \\mathrm { C C } M e _ { 2 } )$. <sup>13</sup>C NMR (125.698 MHz, CDCl<sub>3</sub>): δ ) 162.1 (Q-C8), 149.0 (<sup>t</sup>Ph-C4), 146-141 (Ph-C1,4; <sup>t</sup>Ph-C1; Q-C6), 140.2 (Q-C2,4), 137.6 (Q-C9), 132.1 (Ph-C2,6; <sup>t</sup>Ph-C2,6; Q-C10), 127.3 (Ph-C3,5), 124.5 (<sup>t</sup>Ph-C3,5; Q-C3), 111.6 (Q-C5), 109.2 (Q-C7), 83.6 (Me<sub>2</sub>CCMe<sub>2</sub>), 46-38 (polymer backbone), 34.5 (CMe<sub>3</sub>), 31.5 (CMe<sub>3</sub>), 25.2 (Me<sub>2</sub>CCMe<sub>2</sub>). <sup>11</sup>B NMR (160.380 MHz, CDCl<sub>3</sub>): δ ) 24 (w<sub>1/2</sub> ) 850 Hz), 7 $( w _ { 1 / 2 } = 5 2 0$Hz). GPC-MALLS (THF, 1 mL/min): $M _ { \\mathrm { n } } = 1 5 0 , 6 0 0 , M _ { \\mathrm { w } } = 1 7 2 ,$700, PDI ) 1.15, dn/dc ) 0.177 mL/g, $R _ { \\mathrm { H } } = 7$nm. DSC $( 2 0 ~ ^ { \\circ } \\mathrm { C } /$min, onset, second heating curve): $T _ { \\mathrm { { g } } } = 2 4 5 ~ ^ { \\circ } \\mathrm { { C } } .$TGA (20 °C/ min, onset): $T _ { \\mathrm { d e c } } = 3 5 0 ~ ^ { \\circ } \\mathrm { \\bar { C } }$, 85% total weight loss. UV-vis (2.2 $\\times \\ 1 0 ^ { - 5 }$M in THF): $\\lambda _ { \\operatorname* { m a x } } = 3 8 9$nm, \u000f ) 4930 cm-<sup>1</sup> M-<sup>1</sup>. Fluorescence: $\\lambda _ { \\mathrm { e x c } } = 3 8 9$nm, $\\lambda _ { \\mathrm { e m } } = 4 8 6$nm, $\\Phi = 1 4 \\%$. Anal Calcd for $\\mathrm { C } _ { 3 3 } \\mathrm { H } _ { 3 7 } \\mathrm { B } _ { 2 } \\mathrm { N O } _ { 3 } \\mathrm { ; }$C, 76.62; H, 7.21; N, 2.71. Found: C, 76.07; H, 6.92; N, 2.44.",
+      "merged_source_block_ids": [
+        "P_6_77",
+        "V2_6_3_1",
+        "V2_6_3_3",
+        "V2_6_3_5",
+        "V2_6_3_7",
+        "V2_6_3_9",
+        "V2_6_3_11",
+        "V2_6_3_13",
+        "V2_6_3_15",
+        "V2_6_3_17",
+        "V2_6_3_19",
+        "V2_6_3_21",
+        "V2_6_3_23",
+        "V2_6_3_25",
+        "V2_6_3_27",
+        "V2_6_3_29",
+        "V2_6_3_31",
+        "V2_6_3_33"
+      ],
+      "section": "Experimental Section"
+    },
+    {
+      "block_id": "P_6_78",
+      "page_id": 6,
+      "block_index": 78,
+      "element_type": "text",
+      "bbox": [
+        511,
+        56,
+        913,
+        385
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "Experimental Section"
+    },
+    {
+      "block_id": "P_6_79",
+      "page_id": 6,
+      "block_index": 79,
+      "element_type": "text",
+      "bbox": [
+        511,
+        385,
+        913,
+        750
+      ],
+      "alignment_status": "matched",
+      "text": "Synthesis of PSBPhQ-H-co-PSSiMe<sub>3</sub>. PSSiMe<sub>3</sub> (0.50 g, 2.84 mmol SiMe<sub>3</sub>) was dissolved in 20 mL of CH<sub>2</sub>Cl<sub>2</sub>, and a solution of $\\mathrm { B B r } _ { 3 }$(71 mg, 0.28 mmol) in 10 mL of CH<sub>2</sub>Cl<sub>2</sub> was added dropwise. The mixture was stirred under nitrogen for 12 h and then cooled down to -20 °C. A solution of 1-trimethylstannyl-4-tertbutylbenzene (89 mg, 0.29 mmol) in 15 mL of CH<sub>2</sub>Cl<sub>2</sub> was slowly added, and the mixture was slowly warmed up to room temperature and stirred for another 4 h. 8-Hydroxyquinoline (0.165 g, 1.14 mmol) and triethylamine (0.29 g, 2.84 mmol) in 10 mL of CH<sub>2</sub>Cl<sub>2</sub> were then added slowly, and the mixture was stirred for 12 h prior to removal of volatile materials under vacuum. PSBPhQ-H-co-$\\mathbf { P S S i M e } _ { 3 }$was recovered by repeated precipitation from THF into methanol and dried at $6 0 { } ^ { \\circ } \\dot { \\mathrm { C } }$under high vacuum overnight $( 0 . 4 0 \\ \\mathrm { g } ,$80% yield). <sup>1</sup>H NMR (499.893 MHz, CDCl ): $\\delta = 8 . 5 { - 5 . 6 }$(all aromatic H’s), 2.4-1.0 (polymer backbone and CMe<sub>3</sub>), 0.25 (SiMe<sub>3</sub>). <sup>13</sup>C NMR (125.698 MHz, CDCl<sub>3</sub>): $\\delta = 1 5 9 . 2 ( \\mathrm { Q - C 8 } ) ,$149.4 (<sup>t</sup>Ph-C4), 146.3 (<sup>Si</sup>Ph-C4), 144.1 (Ph-C1,4; <sup>t</sup>Ph-C1), 139.3 (Q-C2/4), 138.5 (Q-C2/4), 137.5 (Q-C9), 137.2 (<sup>Si</sup>Ph-C1), 134.8 (Q-C6), 133.3 (Ph-C2, 6; <sup>Si</sup>Ph-C2,6), 131.9 (<sup>t</sup>Ph-C2,6), 128.5 (Q-C10), 127.4 (Ph-C3,5; <sup>Si</sup>Ph-C3,5), 124.6 (<sup>t</sup>Ph-C3,5), 122.8 (Q-C3), 112.0 (Q-C5), 109.8 (Q-C7), 47-40 (polymer backbone), 34.5 (CMe ), 31.7 (CMe ). <sup>11</sup>B NMR (160.380 MHz, CDCl<sub>3</sub>): $\\delta = 9 \\ : \\ : ( w _ { 1 / 2 } = 1 3 5 0$Hz). GPC-MALLS (1 mL/min, THF): $M _ { \\mathrm { n } } = 5 9 6 6 0$, M<sub>w</sub> ) 68 860, PDI ) 1.15, dn/dc ) 0.148 mL/g, $R _ { \\mathrm { H } } = 4$nm. UV-vis (2.9 10-<sup>5</sup> M in THF, assuming 10% functionality): $\\lambda _ { \\operatorname* { m a x } } = 3 9 8$nm, \u000f ) 2420 cm-<sup>1</sup> M-<sup>1</sup>. Fluorescence: λ<sub>exc</sub> ) 398 nm, $\\lambda _ { \\mathrm { e m } } = 5 0 8$nm, Φ ) 18%. Anal Calcd for $\\mathrm { C _ { 1 2 6 } H _ { 1 7 0 } S i _ { 9 } B N O ; }$C, 76.50; H, 8.66; N, 0.71. Found: C, 76.36; H, 8.59; N, 0.30.",
+      "merged_source_block_ids": [
+        "P_6_79",
+        "V2_6_5_1",
+        "V2_6_5_3",
+        "V2_6_5_5",
+        "V2_6_5_7",
+        "V2_6_5_9",
+        "V2_6_5_11",
+        "V2_6_5_13",
+        "V2_6_5_15",
+        "V2_6_5_17",
+        "V2_6_5_19",
+        "V2_6_5_21",
+        "V2_6_5_23"
+      ],
+      "section": "Experimental Section"
+    },
+    {
+      "block_id": "P_6_80",
+      "page_id": 6,
+      "block_index": 80,
+      "element_type": "text",
+      "bbox": [
+        511,
+        762,
+        913,
+        845
+      ],
+      "alignment_status": "matched",
+      "text": "Acknowledgment is made to the National Science Foundation (CAREER award CHE-0346828 to F.J. and instrumentation Grant MRI-0116066), the donors of The Petroleum Research Fund, administered by the American Chemical Society, and to DuPont for support of this research. F.J. is an Alfred P. Sloan research fellow.",
+      "section": "Experimental Section"
+    },
+    {
+      "block_id": "P_6_81",
+      "page_id": 6,
+      "block_index": 81,
+      "element_type": "title",
+      "bbox": [
+        514,
+        858,
+        666,
+        872
+      ],
+      "alignment_status": "matched",
+      "text": "References and Notes",
+      "title_level": 2,
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_6_82",
+      "page_id": 6,
+      "block_index": 82,
+      "element_type": "references",
+      "bbox": [
+        521,
+        878,
+        911,
+        922
+      ],
+      "alignment_status": "matched",
+      "text": "(1) See, for example: (a) Kraft, A.; Grimsdale, A. C.; Holmes, A. B. Angew. Chem., Int. Ed. 1998, 37, 402-428. (b) Bao, Z.; Rogers, J. A.; Katz, H. E. J. Mater. Chem. 1999, 9, 1895-1904. (c) Calvert, P. Chem. Mater. 2001, 13, 3299-3305.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_6_83",
+      "page_id": 6,
+      "block_index": 83,
+      "element_type": "references",
+      "bbox": [
+        522,
+        922,
+        911,
+        955
+      ],
+      "alignment_status": "matched",
+      "text": "(2) See, for example: (a) Burroughes, J. H.; Bradley, D. D. C.; Brown, A. R.; Marks, R. N.; Mackay, K.; Friend, R. H.; Burns, P. L.; Holmes, A. B. Nature (London) 1990, 347, 539-541. (b) Braun, D.; Heeger,",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_7_87",
+      "page_id": 7,
+      "block_index": 87,
+      "element_type": "references",
+      "bbox": [
+        109,
+        56,
+        480,
+        133
+      ],
+      "alignment_status": "matched",
+      "text": "A. J. Appl. Phys. Lett. 1991, 58, 1982-1984. (c) Mitschke, U.; Ba¨uerle, P. J. Mater. Chem. 2000, 10, 1471-1507. (d) Bernius, M. T.; Inbasekaran, M.; OBrien, J.; Wu, W. AdV. Mater. 2000, 12, 1737- 1750. (e) Furuta, P.; Brooks, J.; Thompson, M. E.; Fre´chet, J. M. J. J. Am. Chem. Soc. 2003, 125, 13165-13172. (f) Kulkarni, A. P.; Tonzola, C. J.; Babel, A.; Jenekhe, S. A. Chem. Mater. 2004, 16, 4556-4573. (g) Hughes, G.; Bryce, M. R. J. Mater. Chem. 2005, 15, 94-107.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_7_88",
+      "page_id": 7,
+      "block_index": 88,
+      "element_type": "references",
+      "bbox": [
+        91,
+        133,
+        480,
+        164
+      ],
+      "alignment_status": "matched",
+      "text": "(3) (a) Tang, C. W.; VanSlyke, S. A. Appl. Phys. Lett. 1987, 51, 913- 915. (b) Tang, C. W.; VanSlyke, S. A.; Chen, C. H. J. Appl. Phys. 1989, 65, 3610-3616.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_7_89",
+      "page_id": 7,
+      "block_index": 89,
+      "element_type": "references",
+      "bbox": [
+        91,
+        164,
+        482,
+        250
+      ],
+      "alignment_status": "matched",
+      "text": "(4) For recent studies, see, for example: (a) Hido, J.; Hongawa, K.; Okuyama, K.; Nagai, K. Appl. Phys. Lett. 1994, 64, 815-817. (b) Brinkmann, M.; Gadret, G.; Muccini, M.; Taliani, C.; Masciocchi, N.; Sironi, A. J. Am. Chem. Soc. 2000, 122, 5147-5157. (c) Kushto, G. P.; Iizumi, Y.; Kido, J.; Kafafi, Z. H. J. Phys. Chem. A. 2000, 104, 3670-3680. (d) Jang, H.; Do, L.-M.; Kim, Y.; Zyung, T.; Do, Y. Synth. Met. 2001, 121, 1667-1668. (e) Lin, B. C.; Cheng, C. P.; You, Z.-Q.; Hsu, C.-P. J. Am. Chem. Soc. 2005, 127, 66-67.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_7_90",
+      "page_id": 7,
+      "block_index": 90,
+      "element_type": "references",
+      "bbox": [
+        91,
+        250,
+        482,
+        304
+      ],
+      "alignment_status": "matched",
+      "text": "(5) (a) Lu, J.; Hlil, A. R.; Meng, Y.; Hay, A. S.; Tao, Y.; D’Iorio, M.; Maindron, T.; Dodelet, J.-P. J. Polym. Sci., Part A: Polym. Chem. 2000, 38, 2887-2892. (b) Shoji, E.; Miyatake, K.; Hlil, A. R.; Hay, A. S.; Maindron, T.; Jousseaume, V.; Dodelet, J. P.; Tao, Y.; D’Iorio, M. J. Polym. Sci., Part A: Polym. Chem. 2003, 41, 3006-3016.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_7_91",
+      "page_id": 7,
+      "block_index": 91,
+      "element_type": "references",
+      "bbox": [
+        91,
+        304,
+        482,
+        345
+      ],
+      "alignment_status": "matched",
+      "text": "(6) (a) Meyers, A.; Weck, M. Macromolecules 2003, 36, 1766-1768. (b) Meyers, A.; Weck, M. Chem. Mater. 2004, 16, 1183-1188. (c) Kimyonok, A.; Wang, X.-Y.; Weck, M. J. Macromol. Sci. C 2006, 46, 47-77.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_7_92",
+      "page_id": 7,
+      "block_index": 92,
+      "element_type": "references",
+      "bbox": [
+        91,
+        347,
+        464,
+        358
+      ],
+      "alignment_status": "matched",
+      "text": "(7) Wang, X.-Y.; Weck, M. Macromolecules 2005, 38, 7219-7224.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_7_93",
+      "page_id": 7,
+      "block_index": 93,
+      "element_type": "references",
+      "bbox": [
+        91,
+        357,
+        480,
+        378
+      ],
+      "alignment_status": "matched",
+      "text": "(8) Takayama, T.; Kitamura, M.; Kobayashi, Y.; Arakawa, Y.; Kudo, K. Macromol. Rap. Commun. 2004, 25, 1171-1174.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_7_94",
+      "page_id": 7,
+      "block_index": 94,
+      "element_type": "references",
+      "bbox": [
+        91,
+        378,
+        480,
+        411
+      ],
+      "alignment_status": "matched",
+      "text": "(9) (a) Du, N.; Tian, R.; Peng, J.; Lu, M. J. Polym. Sci., Part A: Polym. Chem. 2005, 43, 397-406. (b) Mei, Q.; Du, N.; Lu, M. J. Appl. Polym. Sci. 2006, 99, 1945-1952.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_7_95",
+      "page_id": 7,
+      "block_index": 95,
+      "element_type": "references",
+      "bbox": [
+        86,
+        411,
+        482,
+        561
+      ],
+      "alignment_status": "matched",
+      "text": "(10) See, for example: (a) Jiang, X.; Register, R. A.; Killeen, K. A.; Thompson, M. E.; Pschenitzka, F.; Sturm, J. C. Chem. Mater. 2000, 12, 2542-2549. (b) Lee, C.-L.; Lee, K. B.; Kim, J.-J. Appl. Phys. Lett. 2000, 77, 2280-2282. (c) Markham, J. P. J.; Lo, S.-C.; Magennis, S. W.; Burn, P. L.; Samuel, I. D. W. Appl. Phys. Lett. 2002, 80, 2645- 2647. (d) Furuta, P. T.; Deng, L.; Garon, S.; Thompson, M. E.; Fre´chet, J. M. J. J. Am. Chem. Soc. 2004, 126, 15388-15389. (e) Gong, X.; Moses, D.; Heeger, A. J.; Xiao, S. J. Phys. Chem. B 2004, 108, 8601- 8605. (f) Galbrecht, F.; Yang, X. H.; Nehls, B. S.; Neher, P.; Farrell, T.; Scherf, U. Chem. Commun. 2005, 2378-2380. (g) Suzuki, M.; Tokito, S.; Sato, F.; Igarashi, T.; Kondo, K.; Koyama, T.; Yamaguchi, T. Appl. Phys. Lett. 2005, 86, 103507/103501-10350.7/103503. (h) Deng, L.; Furuta, P. T.; Garon, S.; Li, J.; Kavulak, D.; Thompson, M. E.; Fre´chet, J. M. J. Chem. Mater. 2006, 18, 386-395.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_7_96",
+      "page_id": 7,
+      "block_index": 96,
+      "element_type": "references",
+      "bbox": [
+        84,
+        561,
+        480,
+        614
+      ],
+      "alignment_status": "matched",
+      "text": "(11) (a) Liu, S.-F.; Seward, C.; Aziz, H.; Hu, N.-X.; Popovic, Z.; Wang, S. Organometallics 2000, 19, 5709-5714. (b) Wu, Q.; Esteghamatian, M.; Hu, N.-X.; Popovic, Z.; Enright, G.; Tao, Y.; D’Iorio, M.; Wang, S. Chem. Mater. 2000, 12, 79-83. (c) Cui, Y.; Wang, S. J. Org. Chem. 2006, 71, 6485-6496.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_7_97",
+      "page_id": 7,
+      "block_index": 97,
+      "element_type": "references",
+      "bbox": [
+        84,
+        614,
+        480,
+        636
+      ],
+      "alignment_status": "matched",
+      "text": "(12) Cui, Y.; Liu, Q.-D.; Bai, D.-R.; Jia, W.-L.; Tao, Y.; Wang, S. Inorg. Chem. 2005, 44, 601-609.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_7_98",
+      "page_id": 7,
+      "block_index": 98,
+      "element_type": "references",
+      "bbox": [
+        84,
+        635,
+        477,
+        657
+      ],
+      "alignment_status": "matched",
+      "text": "(13) Anderson, S.; Weaver, M. S.; Hudson, A. J. Synth. Met. 2000, 111- 112, 459-463.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_7_99",
+      "page_id": 7,
+      "block_index": 99,
+      "element_type": "references",
+      "bbox": [
+        84,
+        657,
+        480,
+        679
+      ],
+      "alignment_status": "matched",
+      "text": "(14) Teng, Y. L.; Kan, Y. H.; Su, Z. M.; Liao, Y.; Yan, L. K.; Yang, Y. J.; Wang, R. S. Int. J. Quantum Chem. 2005, 103, 775-780.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_7_100",
+      "page_id": 7,
+      "block_index": 100,
+      "element_type": "references",
+      "bbox": [
+        84,
+        679,
+        480,
+        710
+      ],
+      "alignment_status": "matched",
+      "text": "(15) Kappaun, S.; Rentenberger, S.; Pogantsch, A.; Zojer, E.; Mereiter, K.; Trimmel, G.; Saf, R.; Mo¨ller, K. C.; Stelzer, F.; Slugovc, C. Chem. Mater. 2006, 18, 3539-3547.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_7_101",
+      "page_id": 7,
+      "block_index": 101,
+      "element_type": "references",
+      "bbox": [
+        84,
+        710,
+        480,
+        732
+      ],
+      "alignment_status": "matched",
+      "text": "(16) Qin, Y.; Pagba, C.; Piotrowiak, P.; Ja¨kle, F. J. Am. Chem. Soc. 2004, 126, 7015-7018.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_7_102",
+      "page_id": 7,
+      "block_index": 102,
+      "element_type": "references",
+      "bbox": [
+        84,
+        732,
+        480,
+        753
+      ],
+      "alignment_status": "matched",
+      "text": "(17) Sundararaman, A.; Victor, M.; Varughese, M.; Ja¨kle, F. J. Am. Chem. Soc. 2005, 127, 13748-13749.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_7_103",
+      "page_id": 7,
+      "block_index": 103,
+      "element_type": "references",
+      "bbox": [
+        84,
+        753,
+        480,
+        775
+      ],
+      "alignment_status": "matched",
+      "text": "(18) Parab, K.; Venkatasubbaiah, K.; Ja¨kle, F. J. Am. Chem. Soc. 2006, 128, 12879-12885.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_7_104",
+      "page_id": 7,
+      "block_index": 104,
+      "element_type": "references",
+      "bbox": [
+        84,
+        775,
+        482,
+        883
+      ],
+      "alignment_status": "matched",
+      "text": "(19) For other examples of electro- and photo-active organoboron polymers, see: (a) Matsumi, N.; Kensuke, N.; Chujo, Y. J. Am. Chem. Soc. 1998, 120, 5112-5113. (b) Matsumi, N.; Naka, K.; Chujo, Y. J. Am. Chem. Soc. 1998, 120, 10776-10777. (c) Matsumi, N.; Umeyama, T.; Chujo, Y. Polym. Bull. (Berlin) 2000, 44, 431-436. (d) Matsumoto, F.; Nagata, Y.; Chujo, Y. Polym. Bull. (Berlin) 2005, 53, 155-160. (e) Heilmann, J. B.; Scheibitz, M.; Qin, Y.; Sundararaman, A.; Ja¨kle, F.; Kretz, T.; Bolte, M.; Lerner, H.-W.; Holthausen, M. C.; Wagner, M. Angew. Chem., Int. Ed. 2006, 45, 920-925. (f) Ja¨kle, F. Coord. Chem. ReV. 2006, 250, 1107-1121 and references therein.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_7_105",
+      "page_id": 7,
+      "block_index": 105,
+      "element_type": "references",
+      "bbox": [
+        514,
+        56,
+        911,
+        79
+      ],
+      "alignment_status": "matched",
+      "text": "(20) Matyjaszewski, K.; Xia, J. Chem. ReV. 2001, 101, 2921- 2990.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_7_106",
+      "page_id": 7,
+      "block_index": 106,
+      "element_type": "references",
+      "bbox": [
+        514,
+        79,
+        911,
+        143
+      ],
+      "alignment_status": "matched",
+      "text": "(21) (a) Qin, Y.; Cheng, G.; Sundararaman, A.; Ja¨kle, F. J. Am. Chem. Soc. 2002, 124, 12672-12673. (b) Qin, Y.; Cheng, G.; Achara, O.; Parab, K.; Ja¨kle, F. Macromolecules 2004, 37, 7123-7131. (c) Qin, Y.; Sukul, V.; Pagakos, D.; Cui, C.; Ja¨kle, F. Macromolecules 2005, 38, 8987-8990. (d) Ja¨kle, F. J. Inorg. Organomet. Polym. Mater. 2005, 15, 293-307.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_7_107",
+      "page_id": 7,
+      "block_index": 107,
+      "element_type": "references",
+      "bbox": [
+        514,
+        143,
+        911,
+        186
+      ],
+      "alignment_status": "matched",
+      "text": "(22) Under similar conditions no evidence of side reactions was observed for the reaction of (<sup>t</sup>BuPh)BBr with 1-trimethylstannyl-4-tert-butylbenzene: Qin, Y.; Kiburu, I.; Shah, S.; Ja¨kle, F. Org. Lett. 2006, 8, 5227-5230.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_7_108",
+      "page_id": 7,
+      "block_index": 108,
+      "element_type": "references",
+      "bbox": [
+        514,
+        186,
+        913,
+        294
+      ],
+      "alignment_status": "matched",
+      "text": "(23) While methoxyphenyl-substituted 8-hydroxyquinoline features two potential sites of attack, reactions with (<sup>t</sup>BuPh)<sub>2</sub>BBr showed clean attachment of boron at the quinolate moiety without cleavage of the methoxy group. Moreover, the polymer data showed no unusual signals in the NMR spectra or signs of cross-linking by GPC. Presumably, the hydroxy group is considerably more reactive than the methoxy moiety and, since the initial attack of boron involves Lewis acid-Lewis base adduct formation, the presence of the pyridyl nitrogen in â-position is expected to further favor reaction at the quinolate OH group.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_7_109",
+      "page_id": 7,
+      "block_index": 109,
+      "element_type": "references",
+      "bbox": [
+        514,
+        292,
+        913,
+        474
+      ],
+      "alignment_status": "matched",
+      "text": "(24) Boron containing polymers have been commonly used as precursors to boron carbide and boron nitride materials; see, for example: (a) Lynch, A. T.; Sneddon, L. G. J. Am. Chem. Soc. 1989, 111, 6201- 6209. (b) Mu¨ller, A.; Zern, A.; Gerstel, P.; Bill, J.; Aldinger, F. J. Eur. Ceram. Soc. 2002, 22, 1631-1643. (c) Keller, T. M. Carbon 2002, 40, 225-229. (d) Welna, D. T.; Bender, J. D.; Wei, X.; Sneddon, L. G.; Allcock, H. R. AdV. Mater. 2005, 17, 859-862; (e) Sneddon, L. G.; Pender, M. J.; Forsthoefel, K. M.; Kusari, U.; Wei, X. J. Eur. Ceram. Soc. 2005, 25, 91-97. Formation of ceramic residues is one possible explanation for the low C,H,N data of the polymers. Analysis of the TGA residue of PSBPhQ-H by X-ray diffraction yielded data reminiscent of amorphous material. Small amounts of residual solvents or less than 100% boron functionalization also have to be considered, and slightly lower absorbances in comparison to the model systems support this possibility. However, we could not conclusively correlate the elemental analysis results to one single factor, and indeed multiple factors may contribute.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_7_110",
+      "page_id": 7,
+      "block_index": 110,
+      "element_type": "references",
+      "bbox": [
+        514,
+        474,
+        913,
+        603
+      ],
+      "alignment_status": "matched",
+      "text": "(25) Fine-tuning of AlQ<sub>3</sub> emission: (a) Hopkins, T. A.; Meerholz, K.; Shaheen, S.; Anderson, M. L.; Schmidt, A.; Kippelen, B.; Padias, A. B.; Hall, H. K., Jr.; Peyghambarian, N.; Armstrong, N. R. Chem. Mater. 1996, 8, 344-351. (b) Sapochak, L. S.; Padmaperuma, A.; Washton, N.; Endrino, F.; Schmett, G. T.; Marshall, J.; Fogarty, D.; Burrows, P. E.; Forrest, S. R. J. Am. Chem. Soc. 2001, 123, 6300- 6307. (c) Pohl, R.; Anzenbacher, P., Jr. Org. Lett. 2003, 5, 2769- 2772. (d) Pohl, R.; Montes, V. A.; Shinar, J.; Anzenbacher, P. J. J. Org. Chem. 2004, 69, 1723-1725. (e) Montes, V. A.; Li, G.; Pohl, R.; Shinar, J.; Anzenbacher, P., Jr. AdV. Mater. 2004, 16, 2001-2003. (f) Montes, V. A.; Pohl, R.; Shinar, J.; Anzenbacher, P., Jr. Chem.s Eur. J. 2006, 12, 4523-4535.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_7_111",
+      "page_id": 7,
+      "block_index": 111,
+      "element_type": "references",
+      "bbox": [
+        514,
+        604,
+        913,
+        667
+      ],
+      "alignment_status": "matched",
+      "text": "(26) Fine-tuning of the emission of tetra-coordinate B species with chelating nitrogen ligands: (a) Liu, Q.-D.; Mudadu, M. S.; Thummel, R.; Tao, Y.; Wang, S. AdV. Funct. Mater. 2005, 15, 143-154. (b) Chen, H.- Y.; Chi, Y.; Liu, C.-S.; Yu, J.-K.; Cheng, Y.-M.; Chen, K.-S.; Chou, P.-T.; Peng, S.-M.; Lee, G.-H.; Carty, A. J.; Yeh, S.-J.; Chen, C.-T. AdV. Funct. Mater. 2005, 15, 567-574.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_7_112",
+      "page_id": 7,
+      "block_index": 112,
+      "element_type": "references",
+      "bbox": [
+        514,
+        667,
+        913,
+        722
+      ],
+      "alignment_status": "matched",
+      "text": "(27) For the nitro derivative (X ) NO<sub>2</sub>) an even higher energy emission at 462 nm was observed, but the quantum efficiency was very low, presumably due to charge transfer character of the emission. A similar observation was made for a nitro-functionalized AlQ<sub>3</sub>-appended polymer by Weck et al.;<sup>6b</sup> see also the citation in ref 22.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_7_113",
+      "page_id": 7,
+      "block_index": 113,
+      "element_type": "references",
+      "bbox": [
+        514,
+        722,
+        911,
+        744
+      ],
+      "alignment_status": "matched",
+      "text": "(28) Chen, C. H.; Shi, J. Coord. Chem. ReV. 1998, 171, 161- 174.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_7_114",
+      "page_id": 7,
+      "block_index": 114,
+      "element_type": "references",
+      "bbox": [
+        514,
+        743,
+        911,
+        765
+      ],
+      "alignment_status": "matched",
+      "text": "(29) We have recently observed a very different behavior for luminescent tri-coordinate organoboron polymers; see ref 18.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_7_115",
+      "page_id": 7,
+      "block_index": 115,
+      "element_type": "references",
+      "bbox": [
+        514,
+        763,
+        913,
+        796
+      ],
+      "alignment_status": "matched",
+      "text": "(30) Considering that the error in the molecular weight measurements should be relatively larger, we used a 10% degree of functionalization in the calculations.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_7_116",
+      "page_id": 7,
+      "block_index": 116,
+      "element_type": "references",
+      "bbox": [
+        516,
+        796,
+        911,
+        818
+      ],
+      "alignment_status": "matched",
+      "text": "(31) Eaborn, C.; Hornfeld, H. L.; Walton, D. R. M. J. Organomet. Chem. 1967, 10, 529-530.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_7_117",
+      "page_id": 7,
+      "block_index": 117,
+      "element_type": "references",
+      "bbox": [
+        516,
+        818,
+        911,
+        839
+      ],
+      "alignment_status": "matched",
+      "text": "(32) Gershon, H.; McNeil, M. W.; Schulman, S. G. J. Org. Chem. 1972, 37, 4078-4082.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "R_7_118",
+      "page_id": 7,
+      "block_index": 118,
+      "element_type": "references",
+      "bbox": [
+        516,
+        839,
+        913,
+        862
+      ],
+      "alignment_status": "matched",
+      "text": "(33) Murov, S. L., Carmichael, I., Hug, G. L., Eds. Handbook of Photochemistry, 2nd ed.; Marcel Dekker: New York, 1993.",
+      "section": "References and Notes"
+    },
+    {
+      "block_id": "P_7_119",
+      "page_id": 7,
+      "block_index": 119,
+      "element_type": "text",
+      "bbox": [
+        542,
+        869,
+        622,
+        882
+      ],
+      "alignment_status": "matched",
+      "text": "MA061805F",
+      "section": "References and Notes"
+    }
+  ],
+  "warnings": [
+    {
+      "code": "metadata_extraction_failed",
+      "message": "未配置统一 LLM 元数据提取器；document JSON 已继续生成"
+    }
+  ]
+}

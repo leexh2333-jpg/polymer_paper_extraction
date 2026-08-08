@@ -1,0 +1,1255 @@
+{
+  "schema_version": "1.0",
+  "document_id": "reference_no_0073324",
+  "paper": {
+    "ref_no": "reference_no_0073324",
+    "pdf_filename": "7f2d83d4-f73e-4690-9062-606307f0470c_origin.pdf",
+    "source_pdf_path": "mineru/reference_no_0073324/7f2d83d4-f73e-4690-9062-606307f0470c_origin.pdf",
+    "organized_pdf_path": "organized/reference_no_0073324/origin.pdf",
+    "doi": null,
+    "title": null,
+    "authors": null,
+    "journal": null,
+    "year": null,
+    "metadata_status": "failed",
+    "metadata_extraction": {
+      "method": "llm",
+      "provider": null,
+      "model": null,
+      "prompt_file": "prompts/meta_extract.md",
+      "prompt_sha256": "98252486e4f9cdfd1b42ea02b7e01440d6be99c99d18720dc71c95aa1643fcd4",
+      "source_pages": [
+        0,
+        1
+      ],
+      "status": "failed",
+      "error_type": "MetaExtractorUnavailable"
+    }
+  },
+  "source_files": {
+    "markdown": "reference_no_0073324.md",
+    "content_v1": "content.json",
+    "content_v2": "content_v2.json",
+    "pdf": "origin.pdf"
+  },
+  "ocr": {
+    "engine": "mineru",
+    "batch_id": "3987e160-2691-40d5-bd52-f4279f35872d",
+    "model_version": "vlm",
+    "ocr_enabled": false,
+    "language": null,
+    "page_ranges": null,
+    "enable_formula": true,
+    "enable_table": true,
+    "extra_formats": [],
+    "status": "done",
+    "manifest_file": "batch_3987e160-2691-40d5-bd52-f4279f35872d_manifest.json",
+    "status_file": "batch_3987e160-2691-40d5-bd52-f4279f35872d_status.json"
+  },
+  "elements": [
+    {
+      "block_id": "P_0_0",
+      "page_id": 0,
+      "block_index": 0,
+      "element_type": "title",
+      "bbox": [
+        210,
+        161,
+        756,
+        210
+      ],
+      "alignment_status": "matched",
+      "text": "Aliphatic Polyhydrazides: A New Low Temperature Solution Polymerization",
+      "title_level": 1,
+      "section": "DocumentTitle"
+    },
+    {
+      "block_id": "P_0_1",
+      "page_id": 0,
+      "block_index": 1,
+      "element_type": "text",
+      "bbox": [
+        104,
+        237,
+        861,
+        290
+      ],
+      "alignment_status": "matched",
+      "text": "A. H. FRAZER and F. T. WALLENBERGER, Pioneering Research Division, Textile Fibers Department, E. I. du Pont de Nemours & Company, Inc., Experimental Station, Wilmington, Delaware",
+      "section": "Aliphatic Polyhydrazides: A New Low Temperature Solution Polymerization"
+    },
+    {
+      "block_id": "P_0_2",
+      "page_id": 0,
+      "block_index": 2,
+      "element_type": "title",
+      "bbox": [
+        437,
+        330,
+        532,
+        349
+      ],
+      "alignment_status": "matched",
+      "text": "Synopsis",
+      "title_level": 2,
+      "section": "Synopsis"
+    },
+    {
+      "block_id": "P_0_3",
+      "page_id": 0,
+      "block_index": 3,
+      "element_type": "text",
+      "bbox": [
+        106,
+        356,
+        863,
+        487
+      ],
+      "alignment_status": "matched",
+      "text": "High molecular weight polyhydrazides have been prepared by a new low temperature polymerization technique from equimolar amounts of a dihydrazide and a dicarbonyl chloride in dialkyl amide solvents. All-aliphatic polyhydrazides were insoluble in dimethyl sulfoxide, had polymer melt temperatures ranging from 200 to 300°C. Films could be pressed and fibers could be pulled from the melt. Aliphatic-aromatic and oxalic-aromatic polyhydrazides which undergo dehydration at different rates had polymer melt temperatures ranging from 250 to 300°C. and inherent viscosities ranging from 0.3 to 1.5. They were soluble in dimethyl sulfoxide, a solvent from which tough films could be cast.",
+      "section": "Synopsis"
+    },
+    {
+      "block_id": "P_0_4",
+      "page_id": 0,
+      "block_index": 4,
+      "element_type": "title",
+      "bbox": [
+        388,
+        510,
+        581,
+        525
+      ],
+      "alignment_status": "matched",
+      "text": "INTRODUCTION",
+      "title_level": 2,
+      "section": "INTRODUCTION"
+    },
+    {
+      "block_id": "P_0_5",
+      "page_id": 0,
+      "block_index": 5,
+      "element_type": "text",
+      "bbox": [
+        106,
+        535,
+        865,
+        654
+      ],
+      "alignment_status": "matched",
+      "text": "Carboxylic hydrazides or symmetrical carboxylic dihydrazides have been prepared by the reaction between carboxylic acids,  $^{1}$ esters,  $^{2}$ anhydrides,  $^{2}$ or carbonyl chlorides  $^{3}$ with hydrazine or carboxylic hydrazides, respectively. The reaction of esters with hydrazine or with 80–100% hydrazine hydrate is generally regarded to be quantitative while the other acid derivatives frequently lead to undesirable mixtures of mono-, di-, tri-, and tetraacyl hydrazines.  $^{2,4-6}$",
+      "merged_source_block_ids": [
+        "P_0_5",
+        "V2_0_5_1",
+        "V2_0_5_3",
+        "V2_0_5_5",
+        "V2_0_5_7",
+        "V2_0_5_9"
+      ],
+      "section": "INTRODUCTION"
+    },
+    {
+      "block_id": "P_0_6",
+      "page_id": 0,
+      "block_index": 6,
+      "element_type": "text",
+      "bbox": [
+        106,
+        656,
+        865,
+        893
+      ],
+      "alignment_status": "matched",
+      "text": "This monomeric model reaction has been adapted and applied to the preparation of polymers. A French patent,  $^{7}$ as early as 1942, discloses the condensation of hydrazine or with dicarboxylic acids in alcohol and the thermal treatment of the product to yield low melting polymeric materials presumed to be low molecular weight polyhydrazides. Moldenhauer and Bock  $^{8}$ obtained in similar reaction sequences polymer which supposedly could be melt spun to fibers or melt pressed to films. Pritchard  $^{9}$ described the melt polymerization of dihydrazides in the absence of dicarboxylic acid derivatives yielding unidentified polymer. Fisher,  $^{10}$ and later also Korshak, Chelnokova, and Shkoline  $^{11}$ prepared well-defined polyaminotriazoles from two moles of hydrazine and one mole of a dibasic acid at elevated temperatures and pressures. McFarlane and Miller  $^{13}$ described the preparation of a series of polyhydrazides by a high temperature solution process. Most recently, Campbell, Foldi, and Farago  $^{12}$ described the preparation of well characterized polyurelenes and of poly(acyl semicarbazides) from stoichiometric amounts of hydrazine or dihydrazides and diisocyanates.",
+      "merged_source_block_ids": [
+        "P_0_6",
+        "V2_0_6_1",
+        "V2_0_6_3",
+        "V2_0_6_5",
+        "V2_0_6_7",
+        "V2_0_6_9",
+        "V2_0_6_11",
+        "V2_0_6_13"
+      ],
+      "section": "INTRODUCTION"
+    },
+    {
+      "block_id": "P_1_9",
+      "page_id": 1,
+      "block_index": 9,
+      "element_type": "text",
+      "bbox": [
+        115,
+        114,
+        881,
+        167
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "INTRODUCTION"
+    },
+    {
+      "block_id": "P_1_10",
+      "page_id": 1,
+      "block_index": 10,
+      "element_type": "text",
+      "bbox": [
+        115,
+        167,
+        881,
+        458
+      ],
+      "alignment_status": "matched",
+      "text": "Since polyhydrazides may also be considered as polyamides with hydra-zine, as an inorganic diamine component, it was of interest to prepare well-defined, high molecular weight aliphatic, oxalic, alicyclic, homo- and hetero-aromatic polyhydrazides and copolyhydrazides, to study their solubilities and to evaluate their utility as films and fibers. The procedure of McFarlane and Miller $^{13}$ which involves the reaction of stoichiometric amounts of dihydrazide with dicarboxylic acids, esters, or dicarbonyl chlorides in such solvents as nitrobenzene and mixed xylenols at temperatures of 170–200°C. appeared to be suited for our purposes. In the course of this investigation, we have developed a new low temperature polymerization method involving the reaction of a dicarbonyl chloride with hydrazine or a dihydrazide at low temperatures in a dialkyl amide solvent. Thus, this report not only describes the preparation and properties of the aliphatic polyhydrazide, but in addition, compares the results of this new synthetic route with those of prior work, specifically that by McFarlane and Miller. $^{13}$ The description of all-aromatic polyhydrazides, as a new class of polymers, has been deferred for a separate discussion. $^{14}$",
+      "merged_source_block_ids": [
+        "P_1_10",
+        "V2_1_1_1",
+        "V2_1_1_3",
+        "V2_1_1_5"
+      ],
+      "section": "INTRODUCTION"
+    },
+    {
+      "block_id": "P_1_11",
+      "page_id": 1,
+      "block_index": 11,
+      "element_type": "title",
+      "bbox": [
+        400,
+        475,
+        597,
+        492
+      ],
+      "alignment_status": "matched",
+      "text": "EXPERIMENTAL",
+      "title_level": 2,
+      "section": "EXPERIMENTAL"
+    },
+    {
+      "block_id": "P_1_12",
+      "page_id": 1,
+      "block_index": 12,
+      "element_type": "text",
+      "bbox": [
+        115,
+        507,
+        877,
+        558
+      ],
+      "alignment_status": "matched",
+      "text": "Polymer melt temperatures (PMT) and inherent viscosities (  $\\eta_{inh}$ ) were obtained by standard methods of polymer characterization as recommended by Beaman and Cramer  $^{15}$  and by Sorenson and Campbell.  $^{16}$",
+      "merged_source_block_ids": [
+        "P_1_12",
+        "V2_1_3_1",
+        "V2_1_3_3",
+        "V2_1_3_5"
+      ],
+      "section": "EXPERIMENTAL"
+    },
+    {
+      "block_id": "P_1_13",
+      "page_id": 1,
+      "block_index": 13,
+      "element_type": "text",
+      "bbox": [
+        113,
+        558,
+        879,
+        729
+      ],
+      "alignment_status": "matched",
+      "text": "The system of codes used throughout this paper simplifies the writing of structures. It is extensively used in Tables I and II. Arabic numerals indicate the number of carbon atoms in a diacid component such as dihydrazides, diacid chlorides, or diesters. The following abbreviations have been used for other diacid portions: HT = hexahydroterephthalic acid, DP = dipicolinic acid, PY = 2,6-pyrazindicarboxylic, I = isophthalic, T = terephthalic. Zero (0), as abbreviation stands for the simplest diamine, hydrazine. A polymer code such as 0-2-0-I would, therefore, represent the ordered alternating polyhydrazide derived from oxalic acid and isophthalic acid.",
+      "section": "EXPERIMENTAL"
+    },
+    {
+      "block_id": "P_1_14",
+      "page_id": 1,
+      "block_index": 14,
+      "element_type": "text",
+      "bbox": [
+        115,
+        727,
+        877,
+        763
+      ],
+      "alignment_status": "matched",
+      "text": "Intermediates, such as diacids, diacid chlorides, and dialkyl esters were obtained by conventional methods.",
+      "section": "EXPERIMENTAL"
+    },
+    {
+      "block_id": "P_1_15",
+      "page_id": 1,
+      "block_index": 15,
+      "element_type": "title",
+      "bbox": [
+        310,
+        777,
+        682,
+        795
+      ],
+      "alignment_status": "matched",
+      "text": "1. Preparation of Dihydrazides  $^{1-6,18}$",
+      "merged_source_block_ids": [
+        "P_1_15",
+        "V2_1_6_1"
+      ],
+      "title_level": 2,
+      "section": "1. Preparation of Dihydrazides  $^{1-6,18}$"
+    },
+    {
+      "block_id": "P_1_16",
+      "page_id": 1,
+      "block_index": 16,
+      "element_type": "text",
+      "bbox": [
+        113,
+        808,
+        879,
+        895
+      ],
+      "alignment_status": "matched",
+      "text": "A mixture of 1 mole of diethyl (or dimethyl) ester of a dibasic acid and 3 moles of hydrazine hydrate was refluxed in 500–1000 ml. of dry methanol for 4–24 hr. The solid dihydrazide which precipitates during the reaction is collected and recrystallized from water. In this manner, we have prepared isophthalic dihydrazide, azelaic dihydrazide and sebacic dihydrazide.",
+      "section": "1. Preparation of Dihydrazides  $^{1-6,18}$"
+    },
+    {
+      "block_id": "P_2_19",
+      "page_id": 2,
+      "block_index": 19,
+      "element_type": "text",
+      "bbox": [
+        101,
+        114,
+        858,
+        151
+      ],
+      "alignment_status": "matched",
+      "text": "Oxalyl dihydrazide and hydrazine hydrate (Eastman Kodak), which are commercially available, were used as received.",
+      "section": "1. Preparation of Dihydrazides  $^{1-6,18}$"
+    },
+    {
+      "block_id": "P_2_20",
+      "page_id": 2,
+      "block_index": 20,
+      "element_type": "title",
+      "bbox": [
+        219,
+        160,
+        740,
+        177
+      ],
+      "alignment_status": "matched",
+      "text": "2. Preparation of Polyhydrazides in Inert Solvents",
+      "title_level": 2,
+      "section": "2. Preparation of Polyhydrazides in Inert Solvents"
+    },
+    {
+      "block_id": "P_2_21",
+      "page_id": 2,
+      "block_index": 21,
+      "element_type": "text",
+      "bbox": [
+        101,
+        186,
+        858,
+        239
+      ],
+      "alignment_status": "matched",
+      "text": "McFarlane and Miller's method $^{13}$ was used without change for the preparation of aliphatic polyhydrazides. A modification has also been reported by Frazer and Wallenberger. $^{14}$",
+      "merged_source_block_ids": [
+        "P_2_21",
+        "V2_2_2_1",
+        "V2_2_2_3"
+      ],
+      "section": "2. Preparation of Polyhydrazides in Inert Solvents"
+    },
+    {
+      "block_id": "P_2_22",
+      "page_id": 2,
+      "block_index": 22,
+      "element_type": "title",
+      "bbox": [
+        217,
+        247,
+        745,
+        265
+      ],
+      "alignment_status": "matched",
+      "text": "3. Preparation of Polyhydrazide in Amide Solvents",
+      "title_level": 2,
+      "section": "3. Preparation of Polyhydrazide in Amide Solvents"
+    },
+    {
+      "block_id": "P_2_23",
+      "page_id": 2,
+      "block_index": 23,
+      "element_type": "text",
+      "bbox": [
+        101,
+        273,
+        861,
+        393
+      ],
+      "alignment_status": "matched",
+      "text": "A solution of 0.01 mole of dicarboxylic acid dihydrazide and 20–30 ml. of N-methylpyrrolidone or hexamethylphosphoramide was placed in an ice-cooled reaction flask adapted with stirrer, nitrogen inlet and drying tube. To this was added portionwise over a period of   $\\sim$ 15 min. 0.01 mole of a dicarbonyl chloride. The reaction mixture was stirred overnight, and the polymer precipitated with water. The isolated polymer was washed with ethanol and dried.",
+      "merged_source_block_ids": [
+        "P_2_23",
+        "V2_2_4_1"
+      ],
+      "section": "3. Preparation of Polyhydrazide in Amide Solvents"
+    },
+    {
+      "block_id": "P_2_24",
+      "page_id": 2,
+      "block_index": 24,
+      "element_type": "text",
+      "bbox": [
+        101,
+        393,
+        861,
+        446
+      ],
+      "alignment_status": "matched",
+      "text": "All-aliphatic polyhydrazides precipitated from the solution as the molecular weight solution viscosity increased. Aliphatic-aromatic and oxalic aromatic polyhydrazides remained in solution during the preparation.",
+      "section": "3. Preparation of Polyhydrazide in Amide Solvents"
+    },
+    {
+      "block_id": "P_2_25",
+      "page_id": 2,
+      "block_index": 25,
+      "element_type": "title",
+      "bbox": [
+        314,
+        462,
+        650,
+        479
+      ],
+      "alignment_status": "matched",
+      "text": "RESULTS AND DISCUSSION",
+      "title_level": 2,
+      "section": "RESULTS AND DISCUSSION"
+    },
+    {
+      "block_id": "P_2_26",
+      "page_id": 2,
+      "block_index": 26,
+      "element_type": "title",
+      "bbox": [
+        168,
+        492,
+        798,
+        510
+      ],
+      "alignment_status": "matched",
+      "text": "1. High Temperature Solution Preparation of Polyhydrazides",
+      "title_level": 2,
+      "section": "1. High Temperature Solution Preparation of Polyhydrazides"
+    },
+    {
+      "block_id": "P_2_27",
+      "page_id": 2,
+      "block_index": 27,
+      "element_type": "text",
+      "bbox": [
+        101,
+        518,
+        863,
+        620
+      ],
+      "alignment_status": "matched",
+      "text": "McFarlane and Miller  $^{13}$ described a high temperature solution (HTS) polymerization technique for the preparation of aliphatic and mixed aliphatic-aromatic copolyhydrazides. They reacted a diester, diacid chloride, or diacid component with hydrazine or an equimolar dihydrazide component in solvents such as mixed xyleneols or nitrobenzene at temperatures ranging from 170 to 200°C.",
+      "merged_source_block_ids": [
+        "P_2_27",
+        "V2_2_8_1"
+      ],
+      "section": "1. High Temperature Solution Preparation of Polyhydrazides"
+    },
+    {
+      "block_id": "P_2_28",
+      "page_id": 2,
+      "block_index": 28,
+      "element_type": "text",
+      "bbox": [
+        104,
+        621,
+        863,
+        704
+      ],
+      "alignment_status": "matched",
+      "text": "When these preparations  $^{13}$ were repeated, it was noted that the polymer melt temperatures of aliphatic polyhydrazides range from 185 to 328°C. (Table I) and that they were insoluble in a variety of polymer solvents including dimethyl sulfoxide. No self-supporting films and fibers were afforded by standard techniques.",
+      "merged_source_block_ids": [
+        "P_2_28",
+        "V2_2_9_1"
+      ],
+      "section": "1. High Temperature Solution Preparation of Polyhydrazides"
+    },
+    {
+      "block_id": "P_2_29",
+      "page_id": 2,
+      "block_index": 29,
+      "element_type": "text",
+      "bbox": [
+        101,
+        704,
+        863,
+        775
+      ],
+      "alignment_status": "matched",
+      "text": "The preparation of the heretofore unknown oxalic-aliphatic copolyhydrazides such as 0-2-0-6 (Table II, example 1b–1g) and the preparation of a series of aliphatic-aromatic polyhydrazides was attempted. However, only low molecular weight materials were obtained.",
+      "section": "1. High Temperature Solution Preparation of Polyhydrazides"
+    },
+    {
+      "block_id": "P_2_30",
+      "page_id": 2,
+      "block_index": 30,
+      "element_type": "title",
+      "bbox": [
+        171,
+        787,
+        796,
+        805
+      ],
+      "alignment_status": "matched",
+      "text": "2. Low Temperature Solution Preparation of Polyhydrazides",
+      "title_level": 2,
+      "section": "2. Low Temperature Solution Preparation of Polyhydrazides"
+    },
+    {
+      "block_id": "P_2_31",
+      "page_id": 2,
+      "block_index": 31,
+      "element_type": "text",
+      "bbox": [
+        101,
+        812,
+        865,
+        898
+      ],
+      "alignment_status": "matched",
+      "text": "Morgan, Tietz, and Sorenson, $^{17}$ as well as Campbell, Foldi, and Farago $^{12}$ have studied the use of amide solvents in the preparation of condensation polymers. During this investigation, it was found that hydrazine or dihydrazides in hexamethylphosphoramide react with dicarbonyl chlorides smoothly to give high molecular weight polyhydrazides at room temperature or below. N-Methylpyrrolidone may be used as alternate solvent to give high molecular weight polyhydrazides. This condensation, a low temperature solution (LTS) polymerization, proceeds as shown in eq. (1).",
+      "merged_source_block_ids": [
+        "P_2_31",
+        "V2_2_12_1",
+        "V2_2_12_3"
+      ],
+      "section": "2. Low Temperature Solution Preparation of Polyhydrazides"
+    },
+    {
+      "block_id": "T_3_34",
+      "page_id": 3,
+      "block_index": 34,
+      "element_type": "table",
+      "bbox": [
+        146,
+        113,
+        772,
+        896
+      ],
+      "alignment_status": "matched",
+      "caption": "TABLE I. Aliphatic Polyhydrazides $^{a}$ See experimental section for codes. $^{b}$ HTS = High temperature solution polymerization; LTS = low temperature solution polymerization. $^{c}$ Determination of McFarlane and Miller. $^{13}$ $^{d}$ Determination of Moldehauer and Bock. $^{7,8}$",
+      "table_body": "<table><tr><td colspan=\"2\">Polymer</td><td colspan=\"4\">Dicarboxylic intermediate</td><td rowspan=\"2\" colspan=\"2\">Method of polymerizationb</td><td rowspan=\"2\">PMT, °C.</td><td rowspan=\"2\">M.P. °C.</td></tr><tr><td>No.</td><td>Codea</td><td>Acida</td><td>Chloridea</td><td>Esteraa</td><td>Hydrazidea</td></tr><tr><td>1</td><td>0-2</td><td></td><td></td><td>DiPh-2</td><td>2</td><td>HTS</td><td></td><td>380</td><td></td></tr><tr><td>1a</td><td>0-2-0-6</td><td></td><td></td><td>DiEt-2</td><td>6</td><td>HTS</td><td></td><td></td><td>285c</td></tr><tr><td>b</td><td></td><td></td><td></td><td>DiEt-2</td><td>6</td><td>HTS</td><td></td><td>300</td><td></td></tr><tr><td>c</td><td></td><td></td><td>6</td><td></td><td>2</td><td></td><td>LTS</td><td>295</td><td></td></tr><tr><td>2a</td><td>0-2-0-9</td><td>2</td><td></td><td></td><td>9</td><td>HTS</td><td></td><td></td><td>265c</td></tr><tr><td>b</td><td></td><td></td><td></td><td>DiEt-2</td><td>9</td><td>HTS</td><td></td><td>295</td><td></td></tr><tr><td>c</td><td></td><td>2</td><td></td><td></td><td>9</td><td>HTS</td><td></td><td>320</td><td></td></tr><tr><td>d</td><td></td><td></td><td></td><td>DiEt-2</td><td>9</td><td>HTS</td><td></td><td>300</td><td></td></tr><tr><td>3</td><td>0-2-0-10</td><td></td><td>10</td><td></td><td>2</td><td></td><td>LTS</td><td>300</td><td></td></tr><tr><td>4</td><td>0-4-0-6</td><td>4</td><td></td><td></td><td>6</td><td>HTS</td><td></td><td></td><td>285c</td></tr><tr><td>5</td><td>0-4-0-10</td><td>10</td><td></td><td></td><td>4</td><td>HTS</td><td></td><td></td><td>300c</td></tr><tr><td></td><td>0-6</td><td></td><td>6</td><td></td><td>6</td><td></td><td>LTS</td><td>328</td><td></td></tr><tr><td>6a</td><td>0-6-0-9</td><td>9</td><td></td><td></td><td>6</td><td>HTS</td><td></td><td></td><td>300c</td></tr><tr><td>b</td><td></td><td></td><td>6</td><td></td><td>9</td><td></td><td>LTS</td><td>318</td><td></td></tr><tr><td>7a</td><td>0-6-0-10</td><td>10</td><td></td><td></td><td>6</td><td>HTS</td><td></td><td></td><td>295c</td></tr><tr><td>b</td><td></td><td>10</td><td></td><td></td><td>6</td><td>HTS</td><td></td><td>325</td><td></td></tr><tr><td>c</td><td></td><td></td><td>10</td><td></td><td>6</td><td></td><td>LTS</td><td>308</td><td></td></tr><tr><td>8</td><td>0-6-0-HT</td><td>HT</td><td></td><td></td><td>6</td><td>HTS</td><td></td><td></td><td>300c</td></tr><tr><td>9</td><td>0-9</td><td>9</td><td></td><td></td><td>9</td><td>HTS</td><td></td><td></td><td>215c</td></tr><tr><td>10</td><td>0-9-0-10</td><td></td><td>10</td><td></td><td>9</td><td></td><td>LTS</td><td>280</td><td></td></tr><tr><td>11</td><td>0-10</td><td></td><td>10</td><td></td><td>10</td><td></td><td>LTS</td><td>280</td><td></td></tr><tr><td>12</td><td>0-13</td><td></td><td></td><td></td><td>13</td><td>Melt</td><td></td><td></td><td>185d</td></tr><tr><td>13</td><td>0-18</td><td>18</td><td></td><td></td><td>0</td><td>Melt</td><td></td><td></td><td>highd</td></tr></table>",
+      "image_path": "organized/reference_no_0073324/images/0469a13b4f2c7ffdf104a8c347095c004ee62823abae2a6185f17eb97c9402ee.jpg"
+    },
+    {
+      "block_id": "T_4_37",
+      "page_id": 4,
+      "block_index": 37,
+      "element_type": "table",
+      "bbox": [
+        245,
+        113,
+        714,
+        899
+      ],
+      "alignment_status": "matched",
+      "caption": "TABLE II\nAliphatic and Mixed Copolyhydrazides $^{a}$ See experimental section for codes. $^{b}$ See footnote b in Table I. $^{c}$ Preparation of McFarlane and Miller. $^{13}$",
+      "table_body": "<table><tr><td colspan=\"2\">Polymer</td><td colspan=\"4\">Dicarboxylic portion</td><td rowspan=\"2\">Method of polymerizationb</td><td rowspan=\"2\">PMT, °C.</td><td rowspan=\"2\"> $\\eta_{inh}$  (DMSO)</td><td rowspan=\"2\">Comments</td></tr><tr><td>No.</td><td>Codea</td><td>Acida</td><td>Chloridea</td><td>Estera</td><td>Hydrazidea</td></tr><tr><td>a</td><td>0-2-0-I</td><td></td><td>I</td><td></td><td>2</td><td></td><td>LTS</td><td>342</td><td>1.43</td></tr><tr><td>b</td><td></td><td>I</td><td></td><td></td><td>2</td><td>HTS</td><td></td><td>290</td><td>0.12</td></tr><tr><td>c</td><td></td><td></td><td>I</td><td></td><td>2</td><td>HTS</td><td></td><td>310</td><td>Insoluble</td></tr><tr><td>d</td><td></td><td></td><td></td><td>DiMe-I</td><td>2</td><td>HTS</td><td></td><td>250</td><td>0.04</td></tr><tr><td>e</td><td></td><td>2</td><td></td><td></td><td>I</td><td>HTS</td><td></td><td>240</td><td>Insoluble</td></tr><tr><td>f</td><td></td><td></td><td>2</td><td></td><td>I</td><td>HTS</td><td></td><td>270</td><td>0.12</td></tr><tr><td>g</td><td></td><td></td><td></td><td>DiEt-2</td><td>I</td><td>HTS</td><td></td><td>210</td><td>0.10</td></tr><tr><td></td><td>0-2-0-DP</td><td></td><td>DP</td><td></td><td>2</td><td></td><td>LTS</td><td>350</td><td>1.01</td></tr><tr><td></td><td>0-2-0-PY</td><td></td><td>PY</td><td></td><td>2</td><td></td><td>LTS</td><td>380</td><td>0.33</td></tr><tr><td></td><td>0-6-0-I</td><td></td><td>I</td><td></td><td>6</td><td></td><td>LTS</td><td>290</td><td>0.60</td></tr><tr><td>a</td><td>0-6-0-T</td><td>T</td><td></td><td></td><td>6</td><td>HTSc</td><td></td><td>300</td><td>—</td></tr><tr><td>b</td><td></td><td>T</td><td></td><td></td><td>6</td><td>HTS</td><td></td><td>315</td><td>Insoluble</td></tr><tr><td></td><td>0-9-0-T</td><td>T</td><td></td><td></td><td>9</td><td>HTS</td><td></td><td>320</td><td>Insoluble</td></tr><tr><td></td><td>0-10-0-I</td><td></td><td>I</td><td></td><td>10</td><td></td><td>LTS</td><td>260</td><td>1.00</td></tr><tr><td></td><td>0-HT-0-I</td><td></td><td>HT</td><td></td><td>I</td><td></td><td>LTS</td><td>320</td><td>0.60</td></tr><tr><td></td><td>0-HI-0-I</td><td></td><td>HI</td><td></td><td>I</td><td></td><td>LTS</td><td>310</td><td>0.40</td></tr></table>",
+      "image_path": "organized/reference_no_0073324/images/2324be8845cf61c24ad758394fd4bc10a446a958e767f27aaac37d812be73876.jpg"
+    },
+    {
+      "block_id": "P_5_40",
+      "page_id": 5,
+      "block_index": 40,
+      "element_type": "text",
+      "bbox": [
+        127,
+        117,
+        888,
+        170
+      ],
+      "alignment_status": "matched",
+      "text": "",
+      "section": "2. Low Temperature Solution Preparation of Polyhydrazides"
+    },
+    {
+      "block_id": "I_5_41",
+      "page_id": 5,
+      "block_index": 41,
+      "element_type": "image",
+      "bbox": [
+        127,
+        179,
+        849,
+        316
+      ],
+      "alignment_status": "matched",
+      "image_kind": "image",
+      "caption": null,
+      "image_path": "organized/reference_no_0073324/images/ad0b62dacabb824157810a55ed46dad611c2519d3409123b2df8c131d423038a.jpg"
+    },
+    {
+      "block_id": "P_5_42",
+      "page_id": 5,
+      "block_index": 42,
+      "element_type": "text",
+      "bbox": [
+        125,
+        333,
+        886,
+        436
+      ],
+      "alignment_status": "matched",
+      "text": "In general, optimum molecular weight and yield of polyhydrazides were obtained when the intermediates and solvents were of the highest purity and moisture vigorously excluded. Surprisingly, film-forming molecular weight polymer could also be obtained with hydrazine hydrate in hexamethylphosphoramide as solvent. There is no apparent explanation for this anomalous behavior.",
+      "section": "2. Low Temperature Solution Preparation of Polyhydrazides"
+    },
+    {
+      "block_id": "P_5_43",
+      "page_id": 5,
+      "block_index": 43,
+      "element_type": "text",
+      "bbox": [
+        122,
+        436,
+        886,
+        641
+      ],
+      "alignment_status": "matched",
+      "text": "It was, however, noted that the first members of the homologous series of aliphatic dicarbonyl chlorides gave, in decreasing order, vigorous to mild reaction with the solvent. Thus, oxalyl, malonyl, succinyl, and glutaryl chloride could not be used for the preparation of high molecular weight polyhydrazides in amide solvents. Adipyl chloride was successfully employed if it was added dropwise and over prolonged periods of time to the dihydrazide in the amide solvent solution. In order to prepare copolyhydrazides with the radicals derived from oxalyl, malonyl, succinyl, and glutaryl chloride, it was necessary to prepare the corresponding dihydrazide and to react this with a diacid chloride. Based on our experimental data it would appear that there is no other restriction on the use of dicarbonyl chlorides as well as dihydrazides.",
+      "section": "2. Low Temperature Solution Preparation of Polyhydrazides"
+    },
+    {
+      "block_id": "P_5_44",
+      "page_id": 5,
+      "block_index": 44,
+      "element_type": "text",
+      "bbox": [
+        122,
+        640,
+        886,
+        777
+      ],
+      "alignment_status": "matched",
+      "text": "This new synthesis, therefore, affords high-molecular weight polyhydrazides, while the McFarlane-Miller  $^{13}$ procedure does not. The copolyhydrazide, for example, consisting of alternating portions of oxalic and isophthalic acids has been prepared by 7 different approaches (Table II, 1a-1g). Only the low temperature solution method gave high molecular weight film-forming polymers. Similarly, as shown in Table II, other film-forming aliphatic or mixed polyhydrazides were obtained only by the new synthesis.",
+      "merged_source_block_ids": [
+        "P_5_44",
+        "V2_5_4_1"
+      ],
+      "section": "2. Low Temperature Solution Preparation of Polyhydrazides"
+    },
+    {
+      "block_id": "P_5_45",
+      "page_id": 5,
+      "block_index": 45,
+      "element_type": "title",
+      "bbox": [
+        307,
+        787,
+        701,
+        803
+      ],
+      "alignment_status": "matched",
+      "text": "3. Solubilities and Polymer Structure",
+      "title_level": 2,
+      "section": "3. Solubilities and Polymer Structure"
+    },
+    {
+      "block_id": "P_5_46",
+      "page_id": 5,
+      "block_index": 46,
+      "element_type": "text",
+      "bbox": [
+        122,
+        812,
+        886,
+        898
+      ],
+      "alignment_status": "matched",
+      "text": "Generally all of the copolyhydrazides (aliphatic-aromatic and oxalic-aromatic) are soluble in hot, and many in cold dimethyl sulfoxide. Aliphatic polyhydrazides are less soluble. They are either swollen or partly soluble in the hot solvent. Polyhydrazides are often soluble in hexamethylphosphoramide, and occasionally in hot tetramethylene cyclic sulfone.",
+      "section": "3. Solubilities and Polymer Structure"
+    },
+    {
+      "block_id": "P_6_49",
+      "page_id": 6,
+      "block_index": 49,
+      "element_type": "text",
+      "bbox": [
+        90,
+        114,
+        854,
+        303
+      ],
+      "alignment_status": "matched",
+      "text": "The polymer solubility in a series of copolyhydrazides of 0-I/0-6 ranging in mole composition from 0.00/1.00 to 1.00/0.00, was found to vary markedly as the composition was varied. Solubilities and polymer melt temperatures of these copolymers are shown in Table III. The melting point-composition curve indicates that 0-I and 0-6 are isomorphous. The 0.5/0.5 copolymer, prepared by the reaction of isophthalyl chloride with adipyl dihydrazide, is soluble in both dimethyl sulfoxide and hexamethylphosphoramide. It is by virtue of its preparation an ordered copolymer. It should be noted, however, that a random copolymer which was prepared by the reaction of equivalent amounts of isophthalyl chloride and adipyl chloride with hydrazine was insoluble in DMSO.",
+      "section": "3. Solubilities and Polymer Structure"
+    },
+    {
+      "block_id": "T_6_50",
+      "page_id": 6,
+      "block_index": 50,
+      "element_type": "table",
+      "bbox": [
+        99,
+        349,
+        847,
+        492
+      ],
+      "alignment_status": "matched",
+      "caption": "TABLE III 0-I/0-6 Copolymers",
+      "table_body": "<table><tr><td rowspan=\"2\">Composition, mole-%</td><td rowspan=\"2\"> $\\eta_{inh}$  (DMSO)</td><td rowspan=\"2\">PMT °C.</td><td colspan=\"2\">Solubility</td><td rowspan=\"2\">Comment</td></tr><tr><td>Dimethyl sulfoxide</td><td>Hexamethyl-phosphoramide</td></tr><tr><td>0.00/1.00</td><td>—</td><td>290</td><td>Insoluble</td><td>Insoluble</td><td>No films</td></tr><tr><td>0.33/0.67</td><td>—</td><td>293</td><td>Insoluble</td><td>Insoluble</td><td>No films</td></tr><tr><td>0.50/0.50</td><td>0.45</td><td>322</td><td>Soluble</td><td>Soluble</td><td>Clear films</td></tr><tr><td>0.67/0.33</td><td>0.49</td><td>342</td><td>Soluble</td><td>Soluble</td><td>Tough films</td></tr><tr><td>1.00/0.00</td><td>1.00</td><td>380</td><td>Soluble</td><td>Soluble</td><td>Tough films</td></tr></table>",
+      "image_path": "organized/reference_no_0073324/images/99bb2d739d09b03ada70c4539804aef94ddc2e0137e4540b066d9c2f3f28635c.jpg"
+    },
+    {
+      "block_id": "P_6_51",
+      "page_id": 6,
+      "block_index": 51,
+      "element_type": "text",
+      "bbox": [
+        94,
+        512,
+        851,
+        548
+      ],
+      "alignment_status": "matched",
+      "text": "Of structural interest are the oxalic-aromatic polyhydrazides. They possess an unusually long and highly polar bishydrazide group",
+      "section": "3. Solubilities and Polymer Structure"
+    },
+    {
+      "block_id": "E_6_52",
+      "page_id": 6,
+      "block_index": 52,
+      "element_type": "equation",
+      "bbox": [
+        314,
+        551,
+        636,
+        568
+      ],
+      "alignment_status": "matched",
+      "text": "$$\n\\left. + \\mathrm{ArCONHNHCOCONHNHCO} \\right\\rangle_ {n}\n$$",
+      "equation_kind": "display",
+      "section": "3. Solubilities and Polymer Structure"
+    },
+    {
+      "block_id": "P_6_53",
+      "page_id": 6,
+      "block_index": 53,
+      "element_type": "text",
+      "bbox": [
+        94,
+        575,
+        842,
+        593
+      ],
+      "alignment_status": "matched",
+      "text": "that provides the chain link within the aliphatic or aromatic polymer chain.",
+      "section": "3. Solubilities and Polymer Structure"
+    },
+    {
+      "block_id": "P_6_54",
+      "page_id": 6,
+      "block_index": 54,
+      "element_type": "title",
+      "bbox": [
+        259,
+        603,
+        689,
+        621
+      ],
+      "alignment_status": "matched",
+      "text": "4. Post-Reactions and Polymer Structure",
+      "title_level": 2,
+      "section": "4. Post-Reactions and Polymer Structure"
+    },
+    {
+      "block_id": "P_6_55",
+      "page_id": 6,
+      "block_index": 55,
+      "element_type": "text",
+      "bbox": [
+        92,
+        628,
+        856,
+        818
+      ],
+      "alignment_status": "matched",
+      "text": "Dehydrations of a variety of monomeric polyhydrazides to give 2,5-disubstituted 1,3,4-oxadiazoles have been studied by Stolle.  $^{1}$  We have applied this reaction quantitatively to prepare poly(1,3,4-oxadiazoles),  $^{14}$  but it seems appropriate to mention briefly the implications of this reaction which may occur as side reaction, when polyhydrazides are dried at elevated temperatures. Thus polyhydrazides may partially change into poly(1,3,4-oxadiazoles) which may be observed by slight changes in the microanalysis of dried polyhydrazides. For example, the polyhydrazide from sebacyl chloride and sebacic dihydrazide, 0–10, showed a noticeable tendency to lose water of reaction and change, at least partially into a polyoxadiazole structure [eq. (2)] upon drying above 150°C. (N  $_{2}$ ).",
+      "merged_source_block_ids": [
+        "P_6_55",
+        "V2_6_6_1",
+        "V2_6_6_3",
+        "V2_6_6_5"
+      ],
+      "section": "4. Post-Reactions and Polymer Structure"
+    },
+    {
+      "block_id": "E_6_56",
+      "page_id": 6,
+      "block_index": 56,
+      "element_type": "equation",
+      "bbox": [
+        224,
+        826,
+        726,
+        893
+      ],
+      "alignment_status": "matched",
+      "text": "$$\n\\left[ \\begin{array}{c} \\mathrm {(CH_ {2}) _ {3}} - \\mathrm{C} \\\\ \\mathrm{O} \\end{array} \\right] \\xrightarrow {\\Delta} \\left[ \\begin{array}{c} \\mathrm {(CH_ {2}) _ {8}} - \\mathrm{N} - \\mathrm{N} \\\\ \\mathrm{O} \\end{array} \\right]\\tag{2}\n$$",
+      "equation_kind": "display",
+      "section": "4. Post-Reactions and Polymer Structure"
+    },
+    {
+      "block_id": "P_7_59",
+      "page_id": 7,
+      "block_index": 59,
+      "element_type": "text",
+      "bbox": [
+        131,
+        116,
+        891,
+        204
+      ],
+      "alignment_status": "matched",
+      "text": "Similar microanalytical evidence may be obtained for a change of oxalic acid containing polyhydrazides into the corresponding oxadiazoles. It was observed that the reaction proceeded at a faster rate. This may, at least in part, be due to the fact that a different type polyoxadiazole structure is formed during this cyclodehydration [eq. (3)] which contains adjacent",
+      "section": "4. Post-Reactions and Polymer Structure"
+    },
+    {
+      "block_id": "I_7_60",
+      "page_id": 7,
+      "block_index": 60,
+      "element_type": "image",
+      "bbox": [
+        138,
+        213,
+        847,
+        280
+      ],
+      "alignment_status": "matched",
+      "image_kind": "image",
+      "caption": null,
+      "image_path": "organized/reference_no_0073324/images/d7efa506aeb8aca664a565c84fdcb13cad69f5a3670c896a92c35bd9f861bf4d.jpg"
+    },
+    {
+      "block_id": "P_7_61",
+      "page_id": 7,
+      "block_index": 61,
+      "element_type": "text",
+      "bbox": [
+        856,
+        243,
+        879,
+        257
+      ],
+      "alignment_status": "matched",
+      "text": "(3)",
+      "section": "4. Post-Reactions and Polymer Structure"
+    },
+    {
+      "block_id": "P_7_62",
+      "page_id": 7,
+      "block_index": 62,
+      "element_type": "text",
+      "bbox": [
+        129,
+        292,
+        891,
+        345
+      ],
+      "alignment_status": "matched",
+      "text": "oxadiazole rings that separate the aliphatic or aromatic portion. This difference in reactivity and structure makes it advisable to distinguish aliphatic and aromatic polyhydrazides from those containing oxalic acid.",
+      "section": "4. Post-Reactions and Polymer Structure"
+    },
+    {
+      "block_id": "P_7_63",
+      "page_id": 7,
+      "block_index": 63,
+      "element_type": "text",
+      "bbox": [
+        129,
+        351,
+        891,
+        381
+      ],
+      "alignment_status": "matched",
+      "text": "The authors wish to express their appreciation to Messrs. J. H. Curlett, W. F. Holley, and A. J. Prucino for their excellent technical assistance.",
+      "section": "4. Post-Reactions and Polymer Structure"
+    },
+    {
+      "block_id": "P_7_64",
+      "page_id": 7,
+      "block_index": 64,
+      "element_type": "title",
+      "bbox": [
+        449,
+        392,
+        571,
+        408
+      ],
+      "alignment_status": "matched",
+      "text": "References",
+      "title_level": 2,
+      "section": "References"
+    },
+    {
+      "block_id": "R_7_65",
+      "page_id": 7,
+      "block_index": 65,
+      "element_type": "references",
+      "bbox": [
+        159,
+        416,
+        807,
+        431
+      ],
+      "alignment_status": "matched",
+      "text": "1. Stolle, R. (a) Ber., 32, 796 (1899); (b) J. Prakt. Chem. [2], 68, 30 (1903).",
+      "section": "References"
+    },
+    {
+      "block_id": "R_7_66",
+      "page_id": 7,
+      "block_index": 66,
+      "element_type": "references",
+      "bbox": [
+        159,
+        431,
+        629,
+        446
+      ],
+      "alignment_status": "matched",
+      "text": "2. Autenrieth, W., and P. Spiess, Ber., 34, 187 (1901).",
+      "section": "References"
+    },
+    {
+      "block_id": "R_7_67",
+      "page_id": 7,
+      "block_index": 67,
+      "element_type": "references",
+      "bbox": [
+        159,
+        446,
+        750,
+        459
+      ],
+      "alignment_status": "matched",
+      "text": "3. Naegli, C., and G. Stefanovich, Helv. Chim. Acta, 11, 609 (1928).",
+      "section": "References"
+    },
+    {
+      "block_id": "R_7_68",
+      "page_id": 7,
+      "block_index": 68,
+      "element_type": "references",
+      "bbox": [
+        159,
+        459,
+        731,
+        474
+      ],
+      "alignment_status": "matched",
+      "text": "4. Sah, P. P. T., and C. L. Hsu, Rec. Trav. Chim., 59, 349 (1940).",
+      "section": "References"
+    },
+    {
+      "block_id": "R_7_69",
+      "page_id": 7,
+      "block_index": 69,
+      "element_type": "references",
+      "bbox": [
+        159,
+        474,
+        722,
+        488
+      ],
+      "alignment_status": "matched",
+      "text": "5. Curtius, T., and A. Riedel, J. Prakt. Chem. [2], 76, 238 (1907).",
+      "section": "References"
+    },
+    {
+      "block_id": "R_7_70",
+      "page_id": 7,
+      "block_index": 70,
+      "element_type": "references",
+      "bbox": [
+        159,
+        489,
+        763,
+        502
+      ],
+      "alignment_status": "matched",
+      "text": "6. Curtius, T., and F. Bollenbeck, J. Prakt. Chem. [2], 76, 281 (1907).",
+      "section": "References"
+    },
+    {
+      "block_id": "R_7_71",
+      "page_id": 7,
+      "block_index": 71,
+      "element_type": "references",
+      "bbox": [
+        159,
+        502,
+        828,
+        517
+      ],
+      "alignment_status": "matched",
+      "text": "7. French Pat. 870,259 (3/6/42), to I. G. Farbenindustrie Aktiengesellschaft.",
+      "section": "References"
+    },
+    {
+      "block_id": "R_7_72",
+      "page_id": 7,
+      "block_index": 72,
+      "element_type": "references",
+      "bbox": [
+        159,
+        517,
+        736,
+        531
+      ],
+      "alignment_status": "matched",
+      "text": "8. Moldenhauer, O., and H. Bock, U. S. Pat. 2,349,979 (5/30/44).",
+      "section": "References"
+    },
+    {
+      "block_id": "R_7_73",
+      "page_id": 7,
+      "block_index": 73,
+      "element_type": "references",
+      "bbox": [
+        157,
+        531,
+        729,
+        545
+      ],
+      "alignment_status": "matched",
+      "text": "9. Pritchard, W. W., U. S. Pat. 2,395,642 (2/26/46), to Du Pont.",
+      "section": "References"
+    },
+    {
+      "block_id": "R_7_74",
+      "page_id": 7,
+      "block_index": 74,
+      "element_type": "references",
+      "bbox": [
+        129,
+        545,
+        886,
+        574
+      ],
+      "alignment_status": "matched",
+      "text": "10. Fisher, J. W., U. S. Pat. 2,476,968 (7/26/49); U. S. Pat. 2,512,891 (6/27/50), to Celanese Corporation; J. Appl. Chem., 4, 212 (1954).",
+      "section": "References"
+    },
+    {
+      "block_id": "R_7_75",
+      "page_id": 7,
+      "block_index": 75,
+      "element_type": "references",
+      "bbox": [
+        129,
+        574,
+        886,
+        601
+      ],
+      "alignment_status": "matched",
+      "text": "11. Korshak, V. V., G. N. Chelnokova, and M. A. Shkoline, Izv. Akad. Nauk SSSR, Otdel. Khim. Nauk, 1959, 894, 925.",
+      "section": "References"
+    },
+    {
+      "block_id": "R_7_76",
+      "page_id": 7,
+      "block_index": 76,
+      "element_type": "references",
+      "bbox": [
+        145,
+        601,
+        886,
+        617
+      ],
+      "alignment_status": "matched",
+      "text": "12. Campbell, T. W., V. S. Foldi, and J. Farago, J. Appl. Polymer Sci., 5, 155 (1959).",
+      "section": "References"
+    },
+    {
+      "block_id": "R_7_77",
+      "page_id": 7,
+      "block_index": 77,
+      "element_type": "references",
+      "bbox": [
+        129,
+        617,
+        888,
+        644
+      ],
+      "alignment_status": "matched",
+      "text": "13. McFarlane, S. B., and A. L. Miller, U. S. Pat. 2,615,862 (10/28/52), to Celanese Corporation.",
+      "section": "References"
+    },
+    {
+      "block_id": "R_7_78",
+      "page_id": 7,
+      "block_index": 78,
+      "element_type": "references",
+      "bbox": [
+        148,
+        644,
+        812,
+        659
+      ],
+      "alignment_status": "matched",
+      "text": "14. Frazer, A. H., and F. T. Wallenberger, J. Polymer Sci., A2, 1147 (1964).",
+      "section": "References"
+    },
+    {
+      "block_id": "R_7_79",
+      "page_id": 7,
+      "block_index": 79,
+      "element_type": "references",
+      "bbox": [
+        148,
+        659,
+        754,
+        673
+      ],
+      "alignment_status": "matched",
+      "text": "15. Beaman, R. G., and F. B. Cramer, J. Polymer Sci., 21, 223 (1956).",
+      "section": "References"
+    },
+    {
+      "block_id": "R_7_80",
+      "page_id": 7,
+      "block_index": 80,
+      "element_type": "references",
+      "bbox": [
+        131,
+        673,
+        886,
+        700
+      ],
+      "alignment_status": "matched",
+      "text": "16. Sorenson, W. R., and T. W. Campbell, Preparative Methods of Polymer Chemistry, Interscience, New York, 1961, pp. 32–55.",
+      "section": "References"
+    },
+    {
+      "block_id": "R_7_81",
+      "page_id": 7,
+      "block_index": 81,
+      "element_type": "references",
+      "bbox": [
+        150,
+        700,
+        750,
+        714
+      ],
+      "alignment_status": "matched",
+      "text": "17. Morgan, P. W., R. F. Tietz, and W. R. Sorenson, in preparation.",
+      "section": "References"
+    },
+    {
+      "block_id": "R_7_82",
+      "page_id": 7,
+      "block_index": 82,
+      "element_type": "references",
+      "bbox": [
+        148,
+        714,
+        791,
+        730
+      ],
+      "alignment_status": "matched",
+      "text": "18. Borsche, W., W. Müller, and C. A. Bodenstein, Ann., 475, 120 (1929).",
+      "section": "References"
+    },
+    {
+      "block_id": "P_7_83",
+      "page_id": 7,
+      "block_index": 83,
+      "element_type": "title",
+      "bbox": [
+        462,
+        743,
+        555,
+        759
+      ],
+      "alignment_status": "matched",
+      "text": "Résumé",
+      "title_level": 2,
+      "section": "Résumé"
+    },
+    {
+      "block_id": "P_7_84",
+      "page_id": 7,
+      "block_index": 84,
+      "element_type": "text",
+      "bbox": [
+        127,
+        767,
+        888,
+        896
+      ],
+      "alignment_status": "matched",
+      "text": "On a préparé des polyhydrazides de haut poids moléculaire par une nouvelle technique de polymérisation a basse température à partir de quantités équimoléculaires d'un dihydrazide et d'un chlorure de dicarbonyle dans des solvants dialcoyl-amide. Des polyhydrazides entièrement aliphatiques sont insolubles dans le diméthylsulfoxyde, ont un point de fusion qui varie de 200° a 300°. On peut presser des films et tirer des fibres au départ de la matière fondue. Les polyhydrazides aliphatiques-aromatiques et oxaliques, qui subissent une déshydratation à vitesses différentes, ont desp oints de fusion qui varient de 250° à 300°C, et des viscosités inhérentes variant de 0.3 à 1.5. Ils sont solubles dans le diméthyl sulfoxyde, solvant duquel on peut obtenir des films résistants.",
+      "section": "Résumé"
+    },
+    {
+      "block_id": "P_8_87",
+      "page_id": 8,
+      "block_index": 87,
+      "element_type": "title",
+      "bbox": [
+        388,
+        114,
+        587,
+        133
+      ],
+      "alignment_status": "matched",
+      "text": "Zusammenfassung",
+      "title_level": 2,
+      "section": "Zusammenfassung"
+    },
+    {
+      "block_id": "P_8_88",
+      "page_id": 8,
+      "block_index": 88,
+      "element_type": "text",
+      "bbox": [
+        108,
+        140,
+        865,
+        270
+      ],
+      "alignment_status": "matched",
+      "text": "Hochmolekulare Polyhydrazide wurden nach einem neuen Tieftemperatur-Polymerisationsverfahren aus äquimolaren Mengen eines Dihydrazids und eines Dicarbonylchlorids in Dialkylamid-Lösungsmitteln hergestellt. Rein aliphatische Polyhydrazide waren in Dimethylsulfoxyd unlöslich und hatten Schmelztemperaturen im Bereich von 200 bis 300°. Aus der Schmelze konnten Filme gepresst und Fasern gezogen werden. Aliphatisch-aromatische und Oxalsäure-aromatische Polyhydrazide, die mit verschiedener Geschwindigkeit dehydratisieren, besassen Polymerschmelztemperaturen im Bereich von 250 bis 300°C und Viskositätszahlen von 0,3 bis 1,5. Sie waren in Dimethylsulfoxyd löslich und aus der Lösung konnten zähe Filme gegossen werden.",
+      "section": "Zusammenfassung"
+    },
+    {
+      "block_id": "P_8_89",
+      "page_id": 8,
+      "block_index": 89,
+      "element_type": "text",
+      "bbox": [
+        108,
+        276,
+        381,
+        293
+      ],
+      "alignment_status": "matched",
+      "text": "Received January 31, 1963",
+      "section": "Zusammenfassung"
+    }
+  ],
+  "warnings": [
+    {
+      "code": "metadata_extraction_failed",
+      "message": "未配置统一 LLM 元数据提取器；document JSON 已继续生成"
+    }
+  ]
+}
