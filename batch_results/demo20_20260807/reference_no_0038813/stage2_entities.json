@@ -1,0 +1,573 @@
+{
+  "schema_version": "1.0",
+  "document_id": "reference_no_0038813",
+  "polymer_entities": [
+    {
+      "entity_id": "pe001",
+      "polymer_name": "polystyrene",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "polystyrene"
+      ],
+      "resolved_from_mentions": [
+        "m001",
+        "m024"
+      ],
+      "evidence": {
+        "block_id": "P_1_21",
+        "page": 1,
+        "bbox": [
+          53.0,
+          330.0,
+          467.0,
+          787.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The molecular weight calibration was carried out using polystyrene standards."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.99
+      }
+    },
+    {
+      "entity_id": "pe002",
+      "polymer_name": "poly(amide-urea)s",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "poly(amide-urea)s",
+        "polyureas"
+      ],
+      "resolved_from_mentions": [
+        "m002",
+        "m003",
+        "m007",
+        "m027",
+        "m039",
+        "m048",
+        "m057",
+        "m059"
+      ],
+      "evidence": {
+        "block_id": "P_4_66",
+        "page": 4,
+        "bbox": [
+          89.0,
+          416.0,
+          500.0,
+          501.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Thus, two series of poly(amide-urea)s were prepared via the polyaddition reactions of four different diisocyanates (aromatic, semi-aromatic, and cycloaliphatic) including PPDI, NDI, 4,4 -diphenyl methane diisocyanate (MDI), and H<sub>12</sub>MDI with the prepared diamines at $7 0 ^ { \\circ } \\mathrm { C }$for 4 hr (Scheme 2)."
+      },
+      "source_image_refs": [
+        {
+          "block_id": "I_4_71",
+          "page": 4,
+          "bbox": [
+            161.0,
+            599.0,
+            870.0,
+            891.0
+          ],
+          "image_path": "organized/reference_no_0038813/images/81c86ed7734405584c4ce682aff74499927909b68843754cfef5aa971580292e.jpg",
+          "caption": "Scheme 2. Synthesis of poly(amide-urea)s."
+        }
+      ],
+      "confidence": {
+        "score": 0.84
+      }
+    },
+    {
+      "entity_id": "pe003",
+      "polymer_name": "polyamides",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "polyamides"
+      ],
+      "resolved_from_mentions": [
+        "m004"
+      ],
+      "evidence": {
+        "block_id": "P_2_46",
+        "page": 2,
+        "bbox": [
+          529.0,
+          248.0,
+          942.0,
+          675.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Diamines are valuable monomers for the preparation of variety of polymers including polyureas, polyamides, and polyimides.<sup>15–17</sup> For this purpose, the anthraquinone containing diamines were prepared via a two-step route."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.98
+      }
+    },
+    {
+      "entity_id": "pe004",
+      "polymer_name": "polyimides",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "polyimides"
+      ],
+      "resolved_from_mentions": [
+        "m005"
+      ],
+      "evidence": {
+        "block_id": "P_2_46",
+        "page": 2,
+        "bbox": [
+          529.0,
+          248.0,
+          942.0,
+          675.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Diamines are valuable monomers for the preparation of variety of polymers including polyureas, polyamides, and polyimides.<sup>15–17</sup> For this purpose, the anthraquinone containing diamines were prepared via a two-step route."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.98
+      }
+    },
+    {
+      "entity_id": "pe005",
+      "polymer_name": "1AQA-PPDI",
+      "variant_of": "pe002",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "polyurea",
+        "1AQA-PPDI"
+      ],
+      "resolved_from_mentions": [
+        "m006",
+        "m008",
+        "m016",
+        "m025",
+        "m030",
+        "m031",
+        "m040",
+        "m049"
+      ],
+      "evidence": {
+        "block_id": "I_4_69",
+        "page": 4,
+        "bbox": [
+          534.0,
+          61.0,
+          937.0,
+          222.0
+        ],
+        "source_type": "image",
+        "source_sentence": "Figure 2. Temperature dependence of inherent viscosity of polyurea 1AQA-PPDI formed by the polyaddition of 1AQA (5.0 mmol) with PPDI (5.0 mmol) in NMP for 10 hr."
+      },
+      "source_image_refs": [
+        {
+          "block_id": "I_4_69",
+          "page": 4,
+          "bbox": [
+            534.0,
+            61.0,
+            937.0,
+            222.0
+          ],
+          "image_path": "organized/reference_no_0038813/images/0c88dfc5765302e45e92c2101563360de90d46fe99506d8443f3955dc4e77491.jpg",
+          "caption": "Figure 2. Temperature dependence of inherent viscosity of polyurea 1AQA-PPDI formed by the polyaddition of 1AQA (5.0 mmol) with PPDI (5.0 mmol) in NMP for 10 hr."
+        },
+        {
+          "block_id": "I_4_70",
+          "page": 4,
+          "bbox": [
+            536.0,
+            344.0,
+            937.0,
+            507.0
+          ],
+          "image_path": "organized/reference_no_0038813/images/9e899aff61d82408823d7ca8fb052f25c6947fbffafb9a8c5f811361be7dafe9.jpg",
+          "caption": "Figure 3. Time dependence of inherent viscosity of polyurea 1AQA-PPDI formed through the polyaddition of 1AQA (5.0 mmol) with PPDI (5.0 mmol) in NMP at 708C. This figure is available in colour online at www.interscience.wiley.com/ journal/pat"
+        }
+      ],
+      "confidence": {
+        "score": 0.97
+      }
+    },
+    {
+      "entity_id": "pe006",
+      "polymer_name": "1AQA-NDI",
+      "variant_of": "pe002",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "1AQA-NDI"
+      ],
+      "resolved_from_mentions": [
+        "m009",
+        "m017",
+        "m032",
+        "m042",
+        "m050"
+      ],
+      "evidence": {
+        "block_id": "T_5_77",
+        "page": 5,
+        "bbox": [
+          55.0,
+          80.0,
+          905.0,
+          522.0
+        ],
+        "source_type": "table",
+        "source_sentence": "1AQA-NDI"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "entity_id": "pe007",
+      "polymer_name": "1AQA-MDI",
+      "variant_of": "pe002",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "1AQA-MDI"
+      ],
+      "resolved_from_mentions": [
+        "m010",
+        "m018",
+        "m026",
+        "m033",
+        "m044",
+        "m051"
+      ],
+      "evidence": {
+        "block_id": "P_6_84",
+        "page": 6,
+        "bbox": [
+          87.0,
+          249.0,
+          500.0,
+          476.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Thermal analysis of the polymers is summarized in Table 3 and the representative curves of DMTA for 1AQA-PPDI $( T _ { \\mathrm { g } } =$1908C) and DSC for 1AQA-MDI $( T _ { \\mathrm { g } } { = } 1 7 8 ^ { \\circ } \\mathrm { C } )$are shown in Figs 4 and 5, respectively."
+      },
+      "source_image_refs": [
+        {
+          "block_id": "I_6_90",
+          "page": 6,
+          "bbox": [
+            536.0,
+            508.0,
+            937.0,
+            638.0
+          ],
+          "image_path": "organized/reference_no_0038813/images/b7617f46de6be3160f4dc2989b949cfa02913a9f98027603098635eba23e7307.jpg",
+          "caption": "Figure 5. DSC curve of polymer 1AQA-MDI. This figure is available in colour online at www.interscience.wiley.com/ journal/pat"
+        }
+      ],
+      "confidence": {
+        "score": 0.96
+      }
+    },
+    {
+      "entity_id": "pe008",
+      "polymer_name": "1AQA-H $_{12}$ MDI",
+      "variant_of": "pe002",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "1AQA-H $_{12}$ MDI"
+      ],
+      "resolved_from_mentions": [
+        "m011",
+        "m019",
+        "m034",
+        "m046",
+        "m052"
+      ],
+      "evidence": {
+        "block_id": "T_5_77",
+        "page": 5,
+        "bbox": [
+          55.0,
+          80.0,
+          905.0,
+          522.0
+        ],
+        "source_type": "table",
+        "source_sentence": "1AQA-H $_{12}$ MDI"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "entity_id": "pe009",
+      "polymer_name": "2AQA-PPDI",
+      "variant_of": "pe002",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "2AQA-PPDI"
+      ],
+      "resolved_from_mentions": [
+        "m012",
+        "m020",
+        "m035",
+        "m041",
+        "m053"
+      ],
+      "evidence": {
+        "block_id": "T_5_77",
+        "page": 5,
+        "bbox": [
+          55.0,
+          80.0,
+          905.0,
+          522.0
+        ],
+        "source_type": "table",
+        "source_sentence": "2AQA-PPDI"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "entity_id": "pe010",
+      "polymer_name": "2AQA-NDI",
+      "variant_of": "pe002",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "2AQA-NDI"
+      ],
+      "resolved_from_mentions": [
+        "m013",
+        "m021",
+        "m036",
+        "m043",
+        "m054"
+      ],
+      "evidence": {
+        "block_id": "T_5_77",
+        "page": 5,
+        "bbox": [
+          55.0,
+          80.0,
+          905.0,
+          522.0
+        ],
+        "source_type": "table",
+        "source_sentence": "2AQA-NDI"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "entity_id": "pe011",
+      "polymer_name": "2AQA-MDI",
+      "variant_of": "pe002",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "2AQA-MDI"
+      ],
+      "resolved_from_mentions": [
+        "m014",
+        "m022",
+        "m037",
+        "m045",
+        "m055"
+      ],
+      "evidence": {
+        "block_id": "T_5_77",
+        "page": 5,
+        "bbox": [
+          55.0,
+          80.0,
+          905.0,
+          522.0
+        ],
+        "source_type": "table",
+        "source_sentence": "2AQA-MDI"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "entity_id": "pe012",
+      "polymer_name": "2AQA-H $_{12}$ MDI",
+      "variant_of": "pe002",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "2AQA-H $_{12}$ MDI"
+      ],
+      "resolved_from_mentions": [
+        "m015",
+        "m023",
+        "m038",
+        "m047",
+        "m056"
+      ],
+      "evidence": {
+        "block_id": "T_5_77",
+        "page": 5,
+        "bbox": [
+          55.0,
+          80.0,
+          905.0,
+          522.0
+        ],
+        "source_type": "table",
+        "source_sentence": "2AQA-H $_{12}$ MDI"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "entity_id": "pe013",
+      "polymer_name": "PPDI-derived polyurea",
+      "variant_of": "pe002",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "PPDI-derived polyurea"
+      ],
+      "resolved_from_mentions": [
+        "m028"
+      ],
+      "evidence": {
+        "block_id": "P_6_85",
+        "page": 6,
+        "bbox": [
+          87.0,
+          476.0,
+          500.0,
+          691.0
+        ],
+        "source_type": "text",
+        "source_sentence": "In the polymers derived from the same diamine and different diisocyanates, PPDI-derived polyurea showed the highest thermal stability, likely related to the fully aromatic and more symmetric structure of this polymer, whereas $\\mathrm { H } _ { 1 2 } \\mathrm { M D I }$-derived polyurea showed the lowest thermal stability, probably due to its weak aliphatic linkages."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.92
+      }
+    },
+    {
+      "entity_id": "pe014",
+      "polymer_name": "$\\mathrm { H } _ { 1 2 } \\mathrm { M D I }$-derived polyurea",
+      "variant_of": "pe002",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "$\\mathrm { H } _ { 1 2 } \\mathrm { M D I }$-derived polyurea"
+      ],
+      "resolved_from_mentions": [
+        "m029"
+      ],
+      "evidence": {
+        "block_id": "P_6_85",
+        "page": 6,
+        "bbox": [
+          87.0,
+          476.0,
+          500.0,
+          691.0
+        ],
+        "source_type": "text",
+        "source_sentence": "In the polymers derived from the same diamine and different diisocyanates, PPDI-derived polyurea showed the highest thermal stability, likely related to the fully aromatic and more symmetric structure of this polymer, whereas $\\mathrm { H } _ { 1 2 } \\mathrm { M D I }$-derived polyurea showed the lowest thermal stability, probably due to its weak aliphatic linkages."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.92
+      }
+    },
+    {
+      "entity_id": "pe015",
+      "polymer_name": "Aromatic polyureas",
+      "variant_of": "pe002",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "Aromatic polyureas"
+      ],
+      "resolved_from_mentions": [
+        "m058"
+      ],
+      "evidence": {
+        "block_id": "P_7_100",
+        "page": 7,
+        "bbox": [
+          53.0,
+          505.0,
+          465.0,
+          604.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Aromatic polyureas derived from aromatic diisocyanates exhibited lower solubility in organic solvents in comparison with polyureas derived from aliphatic diisocyanate."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.88
+      }
+    }
+  ],
+  "unresolved_mention_ids": [],
+  "provenance": {
+    "stage": "stage2_polymer_entity",
+    "provider": "dmx",
+    "model": "gpt-5.6-terra-2026-07-09",
+    "models": [
+      "gpt-5.6-terra-2026-07-09"
+    ],
+    "prompt_id": "polymer.stage2.polymer_entity",
+    "prompt_version": "1.2.0",
+    "prompt_sha256": "8293a9f30517fa564eb1fd5e3af02ea721f9ac48554f50edf089bcb9cec63801",
+    "input_hash": "d0bc034ad8d4b3d94620531fbde056d1489de0d04e001f7ac1e1855f3fab1105",
+    "model_config_hash": "c9e96c2514956e7b4b65eae3d327d34f95b7a33876cec6d4aa56f95eb79a9b50",
+    "cache_key": "7060d730770e88e4ea58a8a9a9b95c54add0e23df859dd73d5cbe3ffe9972bb1",
+    "output_schema_version": "polymer_entity_schema.v2",
+    "implementation_version": "1.3.3",
+    "context_block_count": 54,
+    "context_chars": 34843,
+    "call_count": 1,
+    "usage": {
+      "input_tokens": 19807,
+      "output_tokens": 3388,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "billable_input_tokens": 19807,
+      "total_tokens": 23195
+    },
+    "cost": {
+      "status": "calculated",
+      "currency": "CNY",
+      "input_per_million": "17",
+      "output_per_million": "101",
+      "input_cost": "0.336719",
+      "output_cost": "0.342188",
+      "total_cost": "0.678907"
+    },
+    "status": "success"
+  },
+  "warnings": []
+}

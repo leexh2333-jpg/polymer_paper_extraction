@@ -1,0 +1,2401 @@
+{
+  "schema_version": "1.0",
+  "document_id": "reference_no_0020284",
+  "characterizations": [
+    {
+      "characterization_id": "char001",
+      "method_raw": "Ubbelohde viscometer",
+      "method_normalized": "viscometry",
+      "sample_ids": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006"
+      ],
+      "entity_ids": [
+        "pe001",
+        "pe002",
+        "pe003",
+        "pe004",
+        "pe005",
+        "pe006"
+      ],
+      "sample_resolution_status": "multi_resolved",
+      "series_id": "series002",
+      "parameters": {
+        "concentration": "0.5 dL/g"
+      },
+      "result_summary": "Inherent viscosities of 6 polycarbonate samples were measured, values range from 0.18 to 0.77 dL/g.",
+      "derived_property_ids": [],
+      "evidence": [
+        {
+          "block_id": "P_3_52",
+          "page": 3,
+          "bbox": [
+            108.0,
+            496.0,
+            491.0,
+            681.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The inherent viscosities,  $\\eta_{inh}$, were measured with an Ubbelohde viscometer at a concentration 0.5 dL/g."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "characterization_id": "char002",
+      "method_raw": "x-ray diffraction",
+      "method_normalized": "XRD",
+      "sample_ids": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006"
+      ],
+      "entity_ids": [
+        "pe001",
+        "pe002",
+        "pe003",
+        "pe004",
+        "pe005",
+        "pe006"
+      ],
+      "sample_resolution_status": "multi_resolved",
+      "series_id": "series003",
+      "parameters": {
+        "method": "powder method"
+      },
+      "result_summary": "X-ray diffraction measurements were performed on 6 polycarbonate samples, all found to be semicrystalline, with degree of crystallinity ranging from 25.4% to 40.3%.",
+      "derived_property_ids": [
+        "prop_s5_021",
+        "prop_s5_022",
+        "prop_s5_023",
+        "prop_s5_024",
+        "prop_s5_025",
+        "prop_s5_026",
+        "prop_s5_027",
+        "prop_s5_028",
+        "prop_s5_029",
+        "prop_s5_030",
+        "prop_s5_031",
+        "prop_s5_032"
+      ],
+      "evidence": [
+        {
+          "block_id": "P_3_52",
+          "page": 3,
+          "bbox": [
+            108.0,
+            496.0,
+            491.0,
+            681.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The x-ray diffraction diagram was recorded with a powder method with an x-ray diffractometer (Philips model PW 1710)."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "characterization_id": "char003",
+      "method_raw": "DSC",
+      "method_normalized": "DSC",
+      "sample_ids": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006"
+      ],
+      "entity_ids": [
+        "pe001",
+        "pe002",
+        "pe003",
+        "pe004",
+        "pe005",
+        "pe006"
+      ],
+      "sample_resolution_status": "multi_resolved",
+      "series_id": "series004",
+      "parameters": {},
+      "result_summary": "Glass transition temperatures of 6 polycarbonate samples were measured, values range from 141 to 206°C.",
+      "derived_property_ids": [],
+      "evidence": [
+        {
+          "block_id": "P_3_56",
+          "page": 3,
+          "bbox": [
+            519.0,
+            225.0,
+            901.0,
+            527.0
+          ],
+          "source_type": "text",
+          "source_sentence": "thermogravimetric analysis (TGA), differential scanning calorimetry (DSC), contact angle, and limiting oxygen index (LOI)."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "characterization_id": "char004",
+      "method_raw": "Infrared (IR) spectra",
+      "method_normalized": "FTIR",
+      "sample_ids": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006"
+      ],
+      "sample_resolution_status": "multi_resolved",
+      "instrument": "JASCO IR-700 spectrometer",
+      "parameters": {
+        "sample_preparation": "KBr disks"
+      },
+      "result_summary": "FTIR spectra were recorded for 6 polycarbonate samples, characteristic absorption peaks of functional groups were detected.",
+      "derived_property_ids": [
+        "prop_s5_001",
+        "prop_s5_002",
+        "prop_s5_003",
+        "prop_s5_004",
+        "prop_s5_005",
+        "prop_s5_006",
+        "prop_s5_007",
+        "prop_s5_008",
+        "prop_s5_009",
+        "prop_s5_010",
+        "prop_s5_011",
+        "prop_s5_012",
+        "prop_s5_013",
+        "prop_s5_014",
+        "prop_s5_015",
+        "prop_s5_016",
+        "prop_s5_017",
+        "prop_s5_018",
+        "prop_s5_019",
+        "prop_s5_020"
+      ],
+      "evidence": [
+        {
+          "block_id": "P_3_52",
+          "page": 3,
+          "bbox": [
+            108.0,
+            496.0,
+            491.0,
+            681.0
+          ],
+          "source_type": "text",
+          "source_sentence": "Infrared (IR) spectra in the range 4000–400 cm  $^{-1}$ of the synthesized monomers and polymers in solid state were obtained for samples in KBr disks (JASCO IR-700 spectrometer)."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "characterization_id": "char005",
+      "method_raw": "thermogravimetric analysis (TGA)",
+      "method_normalized": "TGA",
+      "sample_ids": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006"
+      ],
+      "sample_resolution_status": "multi_resolved",
+      "parameters": {
+        "atmosphere": "nitrogen"
+      },
+      "result_summary": "Thermogravimetric analysis was performed on 6 polycarbonate samples, thermal degradation temperatures and residual mass at 600°C were measured.",
+      "derived_property_ids": [],
+      "evidence": [
+        {
+          "block_id": "P_3_56",
+          "page": 3,
+          "bbox": [
+            519.0,
+            225.0,
+            901.0,
+            527.0
+          ],
+          "source_type": "text",
+          "source_sentence": "thermogravimetric analysis (TGA), differential scanning calorimetry (DSC), contact angle, and limiting oxygen index (LOI)."
+        },
+        {
+          "block_id": "P_6_79",
+          "page": 6,
+          "bbox": [
+            100.0,
+            589.0,
+            480.0,
+            651.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The thermal behavior of polymers was evaluated by means of TGA and DSC."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    }
+  ],
+  "properties": [
+    {
+      "property_id": "prop_s5_001",
+      "characterization_id": "char004",
+      "sample_id": "s001",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "1769",
+      "property_name_normalized": "ftir_peak_wavenumber",
+      "property_category": "composition_structure",
+      "value_raw": "1769",
+      "value_min": 1769.0,
+      "value_max": 1769.0,
+      "spectral_assignment": "C=O",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_3_58",
+          "page": 3,
+          "bbox": [
+            111.0,
+            720.0,
+            900.0,
+            903.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<table><tr><td rowspan=\"3\">Polymer</td><td colspan=\"4\">Elemental Analysis</td><td rowspan=\"2\" colspan=\"5\">IR (cm-1, in KBr)</td></tr><tr><td colspan=\"2\">C (%)</td><td colspan=\"2\">H %</td></tr><tr><td>Found</td><td>(Calcd.)</td><td>Found</td><td>(Calcd.)</td><td>C=O</td><td>C-O-C</td><td>CH3</td><td>SO2</td><td>Br</td></tr><tr><td>PC-1</td><td>75.50</td><td>75.59</td><td>5.54</td><td>5.51</td><td>1769</td><td>1226</td><td>2958</td><td>—</td><td>—</td></tr><tr><td>PC-2</td><td>56.51</td><td>56.52</td><td>2.89</td><td>2.90</td><td>1779</td><td>1219</td><td>—</td><td>1150, 1291</td><td>—</td></tr><tr><td>PC-3</td><td>52.84</td><td>53.03</td><td>2.26</td><td>2.21</td><td>1774</td><td>1224</td><td>—</td><td>—</td><td>—</td></tr><tr><td>PC-4</td><td>33.63</td><td>33.68</td><td>1.81</td><td>1.75</",
+          "table_locator": {
+            "table_id": "T_3_58",
+            "row_label": "PC-1",
+            "column_label": "C=O",
+            "cell_value": "1769",
+            "cell_id": "T_3_58:r0003:c0005",
+            "row_index": 3,
+            "column_index": 5
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_002",
+      "characterization_id": "char004",
+      "sample_id": "s001",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "1226",
+      "property_name_normalized": "ftir_peak_wavenumber",
+      "property_category": "composition_structure",
+      "value_raw": "1226",
+      "value_min": 1226.0,
+      "value_max": 1226.0,
+      "spectral_assignment": "C-O-C",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_3_58",
+          "page": 3,
+          "bbox": [
+            111.0,
+            720.0,
+            900.0,
+            903.0
+          ],
+          "source_type": "table",
+          "source_sentence": "td rowspan=\"3\">Polymer</td><td colspan=\"4\">Elemental Analysis</td><td rowspan=\"2\" colspan=\"5\">IR (cm-1, in KBr)</td></tr><tr><td colspan=\"2\">C (%)</td><td colspan=\"2\">H %</td></tr><tr><td>Found</td><td>(Calcd.)</td><td>Found</td><td>(Calcd.)</td><td>C=O</td><td>C-O-C</td><td>CH3</td><td>SO2</td><td>Br</td></tr><tr><td>PC-1</td><td>75.50</td><td>75.59</td><td>5.54</td><td>5.51</td><td>1769</td><td>1226</td><td>2958</td><td>—</td><td>—</td></tr><tr><td>PC-2</td><td>56.51</td><td>56.52</td><td>2.89</td><td>2.90</td><td>1779</td><td>1219</td><td>—</td><td>1150, 1291</td><td>—</td></tr><tr><td>PC-3</td><td>52.84</td><td>53.03</td><td>2.26</td><td>2.21</td><td>1774</td><td>1224</td><td>—</td><td>—</td><td>—</td></tr><tr><td>PC-4</td><td>33.63</td><td>33.68</td><td>1.81</td><td>1.75</td><td>1788<",
+          "table_locator": {
+            "table_id": "T_3_58",
+            "row_label": "PC-1",
+            "column_label": "C-O-C",
+            "cell_value": "1226",
+            "cell_id": "T_3_58:r0003:c0006",
+            "row_index": 3,
+            "column_index": 6
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_003",
+      "characterization_id": "char004",
+      "sample_id": "s001",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "2958",
+      "property_name_normalized": "ftir_peak_wavenumber",
+      "property_category": "composition_structure",
+      "value_raw": "2958",
+      "value_min": 2958.0,
+      "value_max": 2958.0,
+      "spectral_assignment": "CH3",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_3_58",
+          "page": 3,
+          "bbox": [
+            111.0,
+            720.0,
+            900.0,
+            903.0
+          ],
+          "source_type": "table",
+          "source_sentence": "\">Polymer</td><td colspan=\"4\">Elemental Analysis</td><td rowspan=\"2\" colspan=\"5\">IR (cm-1, in KBr)</td></tr><tr><td colspan=\"2\">C (%)</td><td colspan=\"2\">H %</td></tr><tr><td>Found</td><td>(Calcd.)</td><td>Found</td><td>(Calcd.)</td><td>C=O</td><td>C-O-C</td><td>CH3</td><td>SO2</td><td>Br</td></tr><tr><td>PC-1</td><td>75.50</td><td>75.59</td><td>5.54</td><td>5.51</td><td>1769</td><td>1226</td><td>2958</td><td>—</td><td>—</td></tr><tr><td>PC-2</td><td>56.51</td><td>56.52</td><td>2.89</td><td>2.90</td><td>1779</td><td>1219</td><td>—</td><td>1150, 1291</td><td>—</td></tr><tr><td>PC-3</td><td>52.84</td><td>53.03</td><td>2.26</td><td>2.21</td><td>1774</td><td>1224</td><td>—</td><td>—</td><td>—</td></tr><tr><td>PC-4</td><td>33.63</td><td>33.68</td><td>1.81</td><td>1.75</td><td>1788</td><td>1228<",
+          "table_locator": {
+            "table_id": "T_3_58",
+            "row_label": "PC-1",
+            "column_label": "CH3",
+            "cell_value": "2958",
+            "cell_id": "T_3_58:r0003:c0007",
+            "row_index": 3,
+            "column_index": 7
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_004",
+      "characterization_id": "char004",
+      "sample_id": "s002",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "1779",
+      "property_name_normalized": "ftir_peak_wavenumber",
+      "property_category": "composition_structure",
+      "value_raw": "1779",
+      "value_min": 1779.0,
+      "value_max": 1779.0,
+      "spectral_assignment": "C=O",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_3_58",
+          "page": 3,
+          "bbox": [
+            111.0,
+            720.0,
+            900.0,
+            903.0
+          ],
+          "source_type": "table",
+          "source_sentence": "tr><td colspan=\"2\">C (%)</td><td colspan=\"2\">H %</td></tr><tr><td>Found</td><td>(Calcd.)</td><td>Found</td><td>(Calcd.)</td><td>C=O</td><td>C-O-C</td><td>CH3</td><td>SO2</td><td>Br</td></tr><tr><td>PC-1</td><td>75.50</td><td>75.59</td><td>5.54</td><td>5.51</td><td>1769</td><td>1226</td><td>2958</td><td>—</td><td>—</td></tr><tr><td>PC-2</td><td>56.51</td><td>56.52</td><td>2.89</td><td>2.90</td><td>1779</td><td>1219</td><td>—</td><td>1150, 1291</td><td>—</td></tr><tr><td>PC-3</td><td>52.84</td><td>53.03</td><td>2.26</td><td>2.21</td><td>1774</td><td>1224</td><td>—</td><td>—</td><td>—</td></tr><tr><td>PC-4</td><td>33.63</td><td>33.68</td><td>1.81</td><td>1.75</td><td>1788</td><td>1228</td><td>2960</td><td>—</td><td>798</td></tr><tr><td>PC-5</td><td>26.41</td><td>26.35</td><td>0.67</td><td>0.6",
+          "table_locator": {
+            "table_id": "T_3_58",
+            "row_label": "PC-2",
+            "column_label": "C=O",
+            "cell_value": "1779",
+            "cell_id": "T_3_58:r0004:c0005",
+            "row_index": 4,
+            "column_index": 5
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_005",
+      "characterization_id": "char004",
+      "sample_id": "s002",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "1219",
+      "property_name_normalized": "ftir_peak_wavenumber",
+      "property_category": "composition_structure",
+      "value_raw": "1219",
+      "value_min": 1219.0,
+      "value_max": 1219.0,
+      "spectral_assignment": "C-O-C",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_3_58",
+          "page": 3,
+          "bbox": [
+            111.0,
+            720.0,
+            900.0,
+            903.0
+          ],
+          "source_type": "table",
+          "source_sentence": "n=\"2\">C (%)</td><td colspan=\"2\">H %</td></tr><tr><td>Found</td><td>(Calcd.)</td><td>Found</td><td>(Calcd.)</td><td>C=O</td><td>C-O-C</td><td>CH3</td><td>SO2</td><td>Br</td></tr><tr><td>PC-1</td><td>75.50</td><td>75.59</td><td>5.54</td><td>5.51</td><td>1769</td><td>1226</td><td>2958</td><td>—</td><td>—</td></tr><tr><td>PC-2</td><td>56.51</td><td>56.52</td><td>2.89</td><td>2.90</td><td>1779</td><td>1219</td><td>—</td><td>1150, 1291</td><td>—</td></tr><tr><td>PC-3</td><td>52.84</td><td>53.03</td><td>2.26</td><td>2.21</td><td>1774</td><td>1224</td><td>—</td><td>—</td><td>—</td></tr><tr><td>PC-4</td><td>33.63</td><td>33.68</td><td>1.81</td><td>1.75</td><td>1788</td><td>1228</td><td>2960</td><td>—</td><td>798</td></tr><tr><td>PC-5</td><td>26.41</td><td>26.35</td><td>0.67</td><td>0.68</td><td>178",
+          "table_locator": {
+            "table_id": "T_3_58",
+            "row_label": "PC-2",
+            "column_label": "C-O-C",
+            "cell_value": "1219",
+            "cell_id": "T_3_58:r0004:c0006",
+            "row_index": 4,
+            "column_index": 6
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_006",
+      "characterization_id": "char004",
+      "sample_id": "s002",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "1150",
+      "property_name_normalized": "ftir_peak_wavenumber",
+      "property_category": "composition_structure",
+      "value_raw": "1150",
+      "value_min": 1150.0,
+      "value_max": 1150.0,
+      "spectral_assignment": "SO2",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_3_58",
+          "page": 3,
+          "bbox": [
+            111.0,
+            720.0,
+            900.0,
+            903.0
+          ],
+          "source_type": "table",
+          "source_sentence": "span=\"2\">H %</td></tr><tr><td>Found</td><td>(Calcd.)</td><td>Found</td><td>(Calcd.)</td><td>C=O</td><td>C-O-C</td><td>CH3</td><td>SO2</td><td>Br</td></tr><tr><td>PC-1</td><td>75.50</td><td>75.59</td><td>5.54</td><td>5.51</td><td>1769</td><td>1226</td><td>2958</td><td>—</td><td>—</td></tr><tr><td>PC-2</td><td>56.51</td><td>56.52</td><td>2.89</td><td>2.90</td><td>1779</td><td>1219</td><td>—</td><td>1150, 1291</td><td>—</td></tr><tr><td>PC-3</td><td>52.84</td><td>53.03</td><td>2.26</td><td>2.21</td><td>1774</td><td>1224</td><td>—</td><td>—</td><td>—</td></tr><tr><td>PC-4</td><td>33.63</td><td>33.68</td><td>1.81</td><td>1.75</td><td>1788</td><td>1228</td><td>2960</td><td>—</td><td>798</td></tr><tr><td>PC-5</td><td>26.41</td><td>26.35</td><td>0.67</td><td>0.68</td><td>1788</td><td>1220</td><td>",
+          "table_locator": {
+            "table_id": "T_3_58",
+            "row_label": "PC-2",
+            "column_label": "SO2",
+            "cell_value": "1150",
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_007",
+      "characterization_id": "char004",
+      "sample_id": "s002",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "1291",
+      "property_name_normalized": "ftir_peak_wavenumber",
+      "property_category": "composition_structure",
+      "value_raw": "1291",
+      "value_min": 1291.0,
+      "value_max": 1291.0,
+      "spectral_assignment": "SO2",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_3_58",
+          "page": 3,
+          "bbox": [
+            111.0,
+            720.0,
+            900.0,
+            903.0
+          ],
+          "source_type": "table",
+          "source_sentence": "2\">H %</td></tr><tr><td>Found</td><td>(Calcd.)</td><td>Found</td><td>(Calcd.)</td><td>C=O</td><td>C-O-C</td><td>CH3</td><td>SO2</td><td>Br</td></tr><tr><td>PC-1</td><td>75.50</td><td>75.59</td><td>5.54</td><td>5.51</td><td>1769</td><td>1226</td><td>2958</td><td>—</td><td>—</td></tr><tr><td>PC-2</td><td>56.51</td><td>56.52</td><td>2.89</td><td>2.90</td><td>1779</td><td>1219</td><td>—</td><td>1150, 1291</td><td>—</td></tr><tr><td>PC-3</td><td>52.84</td><td>53.03</td><td>2.26</td><td>2.21</td><td>1774</td><td>1224</td><td>—</td><td>—</td><td>—</td></tr><tr><td>PC-4</td><td>33.63</td><td>33.68</td><td>1.81</td><td>1.75</td><td>1788</td><td>1228</td><td>2960</td><td>—</td><td>798</td></tr><tr><td>PC-5</td><td>26.41</td><td>26.35</td><td>0.67</td><td>0.68</td><td>1788</td><td>1220</td><td>—</td>",
+          "table_locator": {
+            "table_id": "T_3_58",
+            "row_label": "PC-2",
+            "column_label": "SO2",
+            "cell_value": "1291",
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_008",
+      "characterization_id": "char004",
+      "sample_id": "s003",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "1774",
+      "property_name_normalized": "ftir_peak_wavenumber",
+      "property_category": "composition_structure",
+      "value_raw": "1774",
+      "value_min": 1774.0,
+      "value_max": 1774.0,
+      "spectral_assignment": "C=O",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_3_58",
+          "page": 3,
+          "bbox": [
+            111.0,
+            720.0,
+            900.0,
+            903.0
+          ],
+          "source_type": "table",
+          "source_sentence": "-O-C</td><td>CH3</td><td>SO2</td><td>Br</td></tr><tr><td>PC-1</td><td>75.50</td><td>75.59</td><td>5.54</td><td>5.51</td><td>1769</td><td>1226</td><td>2958</td><td>—</td><td>—</td></tr><tr><td>PC-2</td><td>56.51</td><td>56.52</td><td>2.89</td><td>2.90</td><td>1779</td><td>1219</td><td>—</td><td>1150, 1291</td><td>—</td></tr><tr><td>PC-3</td><td>52.84</td><td>53.03</td><td>2.26</td><td>2.21</td><td>1774</td><td>1224</td><td>—</td><td>—</td><td>—</td></tr><tr><td>PC-4</td><td>33.63</td><td>33.68</td><td>1.81</td><td>1.75</td><td>1788</td><td>1228</td><td>2960</td><td>—</td><td>798</td></tr><tr><td>PC-5</td><td>26.41</td><td>26.35</td><td>0.67</td><td>0.68</td><td>1788</td><td>1220</td><td>—</td><td>1150, 1291</td><td>794</td></tr><tr><td>PC-6</td><td>28.41</td><td>28.32</td><td>0.63</td><td>0",
+          "table_locator": {
+            "table_id": "T_3_58",
+            "row_label": "PC-3",
+            "column_label": "C=O",
+            "cell_value": "1774",
+            "cell_id": "T_3_58:r0005:c0005",
+            "row_index": 5,
+            "column_index": 5
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_009",
+      "characterization_id": "char004",
+      "sample_id": "s003",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "1224",
+      "property_name_normalized": "ftir_peak_wavenumber",
+      "property_category": "composition_structure",
+      "value_raw": "1224",
+      "value_min": 1224.0,
+      "value_max": 1224.0,
+      "spectral_assignment": "C-O-C",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_3_58",
+          "page": 3,
+          "bbox": [
+            111.0,
+            720.0,
+            900.0,
+            903.0
+          ],
+          "source_type": "table",
+          "source_sentence": "CH3</td><td>SO2</td><td>Br</td></tr><tr><td>PC-1</td><td>75.50</td><td>75.59</td><td>5.54</td><td>5.51</td><td>1769</td><td>1226</td><td>2958</td><td>—</td><td>—</td></tr><tr><td>PC-2</td><td>56.51</td><td>56.52</td><td>2.89</td><td>2.90</td><td>1779</td><td>1219</td><td>—</td><td>1150, 1291</td><td>—</td></tr><tr><td>PC-3</td><td>52.84</td><td>53.03</td><td>2.26</td><td>2.21</td><td>1774</td><td>1224</td><td>—</td><td>—</td><td>—</td></tr><tr><td>PC-4</td><td>33.63</td><td>33.68</td><td>1.81</td><td>1.75</td><td>1788</td><td>1228</td><td>2960</td><td>—</td><td>798</td></tr><tr><td>PC-5</td><td>26.41</td><td>26.35</td><td>0.67</td><td>0.68</td><td>1788</td><td>1220</td><td>—</td><td>1150, 1291</td><td>794</td></tr><tr><td>PC-6</td><td>28.41</td><td>28.32</td><td>0.63</td><td>0.59</td><td>1",
+          "table_locator": {
+            "table_id": "T_3_58",
+            "row_label": "PC-3",
+            "column_label": "C-O-C",
+            "cell_value": "1224",
+            "cell_id": "T_3_58:r0005:c0006",
+            "row_index": 5,
+            "column_index": 6
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_010",
+      "characterization_id": "char004",
+      "sample_id": "s004",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "1788",
+      "property_name_normalized": "ftir_peak_wavenumber",
+      "property_category": "composition_structure",
+      "value_raw": "1788",
+      "value_min": 1788.0,
+      "value_max": 1788.0,
+      "spectral_assignment": "C=O",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_3_58",
+          "page": 3,
+          "bbox": [
+            111.0,
+            720.0,
+            900.0,
+            903.0
+          ],
+          "source_type": "table",
+          "source_sentence": "</td><td>75.59</td><td>5.54</td><td>5.51</td><td>1769</td><td>1226</td><td>2958</td><td>—</td><td>—</td></tr><tr><td>PC-2</td><td>56.51</td><td>56.52</td><td>2.89</td><td>2.90</td><td>1779</td><td>1219</td><td>—</td><td>1150, 1291</td><td>—</td></tr><tr><td>PC-3</td><td>52.84</td><td>53.03</td><td>2.26</td><td>2.21</td><td>1774</td><td>1224</td><td>—</td><td>—</td><td>—</td></tr><tr><td>PC-4</td><td>33.63</td><td>33.68</td><td>1.81</td><td>1.75</td><td>1788</td><td>1228</td><td>2960</td><td>—</td><td>798</td></tr><tr><td>PC-5</td><td>26.41</td><td>26.35</td><td>0.67</td><td>0.68</td><td>1788</td><td>1220</td><td>—</td><td>1150, 1291</td><td>794</td></tr><tr><td>PC-6</td><td>28.41</td><td>28.32</td><td>0.63</td><td>0.59</td><td>1793</td><td></td><td>—</td><td>—</td><td>793</td></tr></table>",
+          "table_locator": {
+            "table_id": "T_3_58",
+            "row_label": "PC-4",
+            "column_label": "C=O",
+            "cell_value": "1788",
+            "cell_id": "T_3_58:r0006:c0005",
+            "row_index": 6,
+            "column_index": 5
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_011",
+      "characterization_id": "char004",
+      "sample_id": "s004",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "1228",
+      "property_name_normalized": "ftir_peak_wavenumber",
+      "property_category": "composition_structure",
+      "value_raw": "1228",
+      "value_min": 1228.0,
+      "value_max": 1228.0,
+      "spectral_assignment": "C-O-C",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_3_58",
+          "page": 3,
+          "bbox": [
+            111.0,
+            720.0,
+            900.0,
+            903.0
+          ],
+          "source_type": "table",
+          "source_sentence": "</td><td>75.59</td><td>5.54</td><td>5.51</td><td>1769</td><td>1226</td><td>2958</td><td>—</td><td>—</td></tr><tr><td>PC-2</td><td>56.51</td><td>56.52</td><td>2.89</td><td>2.90</td><td>1779</td><td>1219</td><td>—</td><td>1150, 1291</td><td>—</td></tr><tr><td>PC-3</td><td>52.84</td><td>53.03</td><td>2.26</td><td>2.21</td><td>1774</td><td>1224</td><td>—</td><td>—</td><td>—</td></tr><tr><td>PC-4</td><td>33.63</td><td>33.68</td><td>1.81</td><td>1.75</td><td>1788</td><td>1228</td><td>2960</td><td>—</td><td>798</td></tr><tr><td>PC-5</td><td>26.41</td><td>26.35</td><td>0.67</td><td>0.68</td><td>1788</td><td>1220</td><td>—</td><td>1150, 1291</td><td>794</td></tr><tr><td>PC-6</td><td>28.41</td><td>28.32</td><td>0.63</td><td>0.59</td><td>1793</td><td></td><td>—</td><td>—</td><td>793</td></tr></table>",
+          "table_locator": {
+            "table_id": "T_3_58",
+            "row_label": "PC-4",
+            "column_label": "C-O-C",
+            "cell_value": "1228",
+            "cell_id": "T_3_58:r0006:c0006",
+            "row_index": 6,
+            "column_index": 6
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_012",
+      "characterization_id": "char004",
+      "sample_id": "s004",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "2960",
+      "property_name_normalized": "ftir_peak_wavenumber",
+      "property_category": "composition_structure",
+      "value_raw": "2960",
+      "value_min": 2960.0,
+      "value_max": 2960.0,
+      "spectral_assignment": "CH3",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_3_58",
+          "page": 3,
+          "bbox": [
+            111.0,
+            720.0,
+            900.0,
+            903.0
+          ],
+          "source_type": "table",
+          "source_sentence": "</td><td>75.59</td><td>5.54</td><td>5.51</td><td>1769</td><td>1226</td><td>2958</td><td>—</td><td>—</td></tr><tr><td>PC-2</td><td>56.51</td><td>56.52</td><td>2.89</td><td>2.90</td><td>1779</td><td>1219</td><td>—</td><td>1150, 1291</td><td>—</td></tr><tr><td>PC-3</td><td>52.84</td><td>53.03</td><td>2.26</td><td>2.21</td><td>1774</td><td>1224</td><td>—</td><td>—</td><td>—</td></tr><tr><td>PC-4</td><td>33.63</td><td>33.68</td><td>1.81</td><td>1.75</td><td>1788</td><td>1228</td><td>2960</td><td>—</td><td>798</td></tr><tr><td>PC-5</td><td>26.41</td><td>26.35</td><td>0.67</td><td>0.68</td><td>1788</td><td>1220</td><td>—</td><td>1150, 1291</td><td>794</td></tr><tr><td>PC-6</td><td>28.41</td><td>28.32</td><td>0.63</td><td>0.59</td><td>1793</td><td></td><td>—</td><td>—</td><td>793</td></tr></table>",
+          "table_locator": {
+            "table_id": "T_3_58",
+            "row_label": "PC-4",
+            "column_label": "CH3",
+            "cell_value": "2960",
+            "cell_id": "T_3_58:r0006:c0007",
+            "row_index": 6,
+            "column_index": 7
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_013",
+      "characterization_id": "char004",
+      "sample_id": "s004",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "798",
+      "property_name_normalized": "ftir_peak_wavenumber",
+      "property_category": "composition_structure",
+      "value_raw": "798",
+      "value_min": 798.0,
+      "value_max": 798.0,
+      "spectral_assignment": "Br",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_3_58",
+          "page": 3,
+          "bbox": [
+            111.0,
+            720.0,
+            900.0,
+            903.0
+          ],
+          "source_type": "table",
+          "source_sentence": "</td><td>75.59</td><td>5.54</td><td>5.51</td><td>1769</td><td>1226</td><td>2958</td><td>—</td><td>—</td></tr><tr><td>PC-2</td><td>56.51</td><td>56.52</td><td>2.89</td><td>2.90</td><td>1779</td><td>1219</td><td>—</td><td>1150, 1291</td><td>—</td></tr><tr><td>PC-3</td><td>52.84</td><td>53.03</td><td>2.26</td><td>2.21</td><td>1774</td><td>1224</td><td>—</td><td>—</td><td>—</td></tr><tr><td>PC-4</td><td>33.63</td><td>33.68</td><td>1.81</td><td>1.75</td><td>1788</td><td>1228</td><td>2960</td><td>—</td><td>798</td></tr><tr><td>PC-5</td><td>26.41</td><td>26.35</td><td>0.67</td><td>0.68</td><td>1788</td><td>1220</td><td>—</td><td>1150, 1291</td><td>794</td></tr><tr><td>PC-6</td><td>28.41</td><td>28.32</td><td>0.63</td><td>0.59</td><td>1793</td><td></td><td>—</td><td>—</td><td>793</td></tr></table>",
+          "table_locator": {
+            "table_id": "T_3_58",
+            "row_label": "PC-4",
+            "column_label": "Br",
+            "cell_value": "798",
+            "cell_id": "T_3_58:r0006:c0009",
+            "row_index": 6,
+            "column_index": 9
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_014",
+      "characterization_id": "char004",
+      "sample_id": "s005",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "1788",
+      "property_name_normalized": "ftir_peak_wavenumber",
+      "property_category": "composition_structure",
+      "value_raw": "1788",
+      "value_min": 1788.0,
+      "value_max": 1788.0,
+      "spectral_assignment": "C=O",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_3_58",
+          "page": 3,
+          "bbox": [
+            111.0,
+            720.0,
+            900.0,
+            903.0
+          ],
+          "source_type": "table",
+          "source_sentence": "</td><td>75.59</td><td>5.54</td><td>5.51</td><td>1769</td><td>1226</td><td>2958</td><td>—</td><td>—</td></tr><tr><td>PC-2</td><td>56.51</td><td>56.52</td><td>2.89</td><td>2.90</td><td>1779</td><td>1219</td><td>—</td><td>1150, 1291</td><td>—</td></tr><tr><td>PC-3</td><td>52.84</td><td>53.03</td><td>2.26</td><td>2.21</td><td>1774</td><td>1224</td><td>—</td><td>—</td><td>—</td></tr><tr><td>PC-4</td><td>33.63</td><td>33.68</td><td>1.81</td><td>1.75</td><td>1788</td><td>1228</td><td>2960</td><td>—</td><td>798</td></tr><tr><td>PC-5</td><td>26.41</td><td>26.35</td><td>0.67</td><td>0.68</td><td>1788</td><td>1220</td><td>—</td><td>1150, 1291</td><td>794</td></tr><tr><td>PC-6</td><td>28.41</td><td>28.32</td><td>0.63</td><td>0.59</td><td>1793</td><td></td><td>—</td><td>—</td><td>793</td></tr></table>",
+          "table_locator": {
+            "table_id": "T_3_58",
+            "row_label": "PC-5",
+            "column_label": "C=O",
+            "cell_value": "1788",
+            "cell_id": "T_3_58:r0007:c0005",
+            "row_index": 7,
+            "column_index": 5
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_015",
+      "characterization_id": "char004",
+      "sample_id": "s005",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "1220",
+      "property_name_normalized": "ftir_peak_wavenumber",
+      "property_category": "composition_structure",
+      "value_raw": "1220",
+      "value_min": 1220.0,
+      "value_max": 1220.0,
+      "spectral_assignment": "C-O-C",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_3_58",
+          "page": 3,
+          "bbox": [
+            111.0,
+            720.0,
+            900.0,
+            903.0
+          ],
+          "source_type": "table",
+          "source_sentence": "</td><td>75.59</td><td>5.54</td><td>5.51</td><td>1769</td><td>1226</td><td>2958</td><td>—</td><td>—</td></tr><tr><td>PC-2</td><td>56.51</td><td>56.52</td><td>2.89</td><td>2.90</td><td>1779</td><td>1219</td><td>—</td><td>1150, 1291</td><td>—</td></tr><tr><td>PC-3</td><td>52.84</td><td>53.03</td><td>2.26</td><td>2.21</td><td>1774</td><td>1224</td><td>—</td><td>—</td><td>—</td></tr><tr><td>PC-4</td><td>33.63</td><td>33.68</td><td>1.81</td><td>1.75</td><td>1788</td><td>1228</td><td>2960</td><td>—</td><td>798</td></tr><tr><td>PC-5</td><td>26.41</td><td>26.35</td><td>0.67</td><td>0.68</td><td>1788</td><td>1220</td><td>—</td><td>1150, 1291</td><td>794</td></tr><tr><td>PC-6</td><td>28.41</td><td>28.32</td><td>0.63</td><td>0.59</td><td>1793</td><td></td><td>—</td><td>—</td><td>793</td></tr></table>",
+          "table_locator": {
+            "table_id": "T_3_58",
+            "row_label": "PC-5",
+            "column_label": "C-O-C",
+            "cell_value": "1220",
+            "cell_id": "T_3_58:r0007:c0006",
+            "row_index": 7,
+            "column_index": 6
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_016",
+      "characterization_id": "char004",
+      "sample_id": "s005",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "1150",
+      "property_name_normalized": "ftir_peak_wavenumber",
+      "property_category": "composition_structure",
+      "value_raw": "1150",
+      "value_min": 1150.0,
+      "value_max": 1150.0,
+      "spectral_assignment": "SO2",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_3_58",
+          "page": 3,
+          "bbox": [
+            111.0,
+            720.0,
+            900.0,
+            903.0
+          ],
+          "source_type": "table",
+          "source_sentence": "span=\"2\">H %</td></tr><tr><td>Found</td><td>(Calcd.)</td><td>Found</td><td>(Calcd.)</td><td>C=O</td><td>C-O-C</td><td>CH3</td><td>SO2</td><td>Br</td></tr><tr><td>PC-1</td><td>75.50</td><td>75.59</td><td>5.54</td><td>5.51</td><td>1769</td><td>1226</td><td>2958</td><td>—</td><td>—</td></tr><tr><td>PC-2</td><td>56.51</td><td>56.52</td><td>2.89</td><td>2.90</td><td>1779</td><td>1219</td><td>—</td><td>1150, 1291</td><td>—</td></tr><tr><td>PC-3</td><td>52.84</td><td>53.03</td><td>2.26</td><td>2.21</td><td>1774</td><td>1224</td><td>—</td><td>—</td><td>—</td></tr><tr><td>PC-4</td><td>33.63</td><td>33.68</td><td>1.81</td><td>1.75</td><td>1788</td><td>1228</td><td>2960</td><td>—</td><td>798</td></tr><tr><td>PC-5</td><td>26.41</td><td>26.35</td><td>0.67</td><td>0.68</td><td>1788</td><td>1220</td><td>",
+          "table_locator": {
+            "table_id": "T_3_58",
+            "row_label": "PC-5",
+            "column_label": "SO2",
+            "cell_value": "1150",
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_017",
+      "characterization_id": "char004",
+      "sample_id": "s005",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "1291",
+      "property_name_normalized": "ftir_peak_wavenumber",
+      "property_category": "composition_structure",
+      "value_raw": "1291",
+      "value_min": 1291.0,
+      "value_max": 1291.0,
+      "spectral_assignment": "SO2",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_3_58",
+          "page": 3,
+          "bbox": [
+            111.0,
+            720.0,
+            900.0,
+            903.0
+          ],
+          "source_type": "table",
+          "source_sentence": "2\">H %</td></tr><tr><td>Found</td><td>(Calcd.)</td><td>Found</td><td>(Calcd.)</td><td>C=O</td><td>C-O-C</td><td>CH3</td><td>SO2</td><td>Br</td></tr><tr><td>PC-1</td><td>75.50</td><td>75.59</td><td>5.54</td><td>5.51</td><td>1769</td><td>1226</td><td>2958</td><td>—</td><td>—</td></tr><tr><td>PC-2</td><td>56.51</td><td>56.52</td><td>2.89</td><td>2.90</td><td>1779</td><td>1219</td><td>—</td><td>1150, 1291</td><td>—</td></tr><tr><td>PC-3</td><td>52.84</td><td>53.03</td><td>2.26</td><td>2.21</td><td>1774</td><td>1224</td><td>—</td><td>—</td><td>—</td></tr><tr><td>PC-4</td><td>33.63</td><td>33.68</td><td>1.81</td><td>1.75</td><td>1788</td><td>1228</td><td>2960</td><td>—</td><td>798</td></tr><tr><td>PC-5</td><td>26.41</td><td>26.35</td><td>0.67</td><td>0.68</td><td>1788</td><td>1220</td><td>—</td>",
+          "table_locator": {
+            "table_id": "T_3_58",
+            "row_label": "PC-5",
+            "column_label": "SO2",
+            "cell_value": "1291",
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_018",
+      "characterization_id": "char004",
+      "sample_id": "s005",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "794",
+      "property_name_normalized": "ftir_peak_wavenumber",
+      "property_category": "composition_structure",
+      "value_raw": "794",
+      "value_min": 794.0,
+      "value_max": 794.0,
+      "spectral_assignment": "Br",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_3_58",
+          "page": 3,
+          "bbox": [
+            111.0,
+            720.0,
+            900.0,
+            903.0
+          ],
+          "source_type": "table",
+          "source_sentence": "</td><td>75.59</td><td>5.54</td><td>5.51</td><td>1769</td><td>1226</td><td>2958</td><td>—</td><td>—</td></tr><tr><td>PC-2</td><td>56.51</td><td>56.52</td><td>2.89</td><td>2.90</td><td>1779</td><td>1219</td><td>—</td><td>1150, 1291</td><td>—</td></tr><tr><td>PC-3</td><td>52.84</td><td>53.03</td><td>2.26</td><td>2.21</td><td>1774</td><td>1224</td><td>—</td><td>—</td><td>—</td></tr><tr><td>PC-4</td><td>33.63</td><td>33.68</td><td>1.81</td><td>1.75</td><td>1788</td><td>1228</td><td>2960</td><td>—</td><td>798</td></tr><tr><td>PC-5</td><td>26.41</td><td>26.35</td><td>0.67</td><td>0.68</td><td>1788</td><td>1220</td><td>—</td><td>1150, 1291</td><td>794</td></tr><tr><td>PC-6</td><td>28.41</td><td>28.32</td><td>0.63</td><td>0.59</td><td>1793</td><td></td><td>—</td><td>—</td><td>793</td></tr></table>",
+          "table_locator": {
+            "table_id": "T_3_58",
+            "row_label": "PC-5",
+            "column_label": "Br",
+            "cell_value": "794",
+            "cell_id": "T_3_58:r0007:c0009",
+            "row_index": 7,
+            "column_index": 9
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_019",
+      "characterization_id": "char004",
+      "sample_id": "s006",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "1793",
+      "property_name_normalized": "ftir_peak_wavenumber",
+      "property_category": "composition_structure",
+      "value_raw": "1793",
+      "value_min": 1793.0,
+      "value_max": 1793.0,
+      "spectral_assignment": "C=O",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_3_58",
+          "page": 3,
+          "bbox": [
+            111.0,
+            720.0,
+            900.0,
+            903.0
+          ],
+          "source_type": "table",
+          "source_sentence": "</td><td>75.59</td><td>5.54</td><td>5.51</td><td>1769</td><td>1226</td><td>2958</td><td>—</td><td>—</td></tr><tr><td>PC-2</td><td>56.51</td><td>56.52</td><td>2.89</td><td>2.90</td><td>1779</td><td>1219</td><td>—</td><td>1150, 1291</td><td>—</td></tr><tr><td>PC-3</td><td>52.84</td><td>53.03</td><td>2.26</td><td>2.21</td><td>1774</td><td>1224</td><td>—</td><td>—</td><td>—</td></tr><tr><td>PC-4</td><td>33.63</td><td>33.68</td><td>1.81</td><td>1.75</td><td>1788</td><td>1228</td><td>2960</td><td>—</td><td>798</td></tr><tr><td>PC-5</td><td>26.41</td><td>26.35</td><td>0.67</td><td>0.68</td><td>1788</td><td>1220</td><td>—</td><td>1150, 1291</td><td>794</td></tr><tr><td>PC-6</td><td>28.41</td><td>28.32</td><td>0.63</td><td>0.59</td><td>1793</td><td></td><td>—</td><td>—</td><td>793</td></tr></table>",
+          "table_locator": {
+            "table_id": "T_3_58",
+            "row_label": "PC-6",
+            "column_label": "C=O",
+            "cell_value": "1793",
+            "cell_id": "T_3_58:r0008:c0005",
+            "row_index": 8,
+            "column_index": 5
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_020",
+      "characterization_id": "char004",
+      "sample_id": "s006",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "793",
+      "property_name_normalized": "ftir_peak_wavenumber",
+      "property_category": "composition_structure",
+      "value_raw": "793",
+      "value_min": 793.0,
+      "value_max": 793.0,
+      "spectral_assignment": "Br",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_3_58",
+          "page": 3,
+          "bbox": [
+            111.0,
+            720.0,
+            900.0,
+            903.0
+          ],
+          "source_type": "table",
+          "source_sentence": "</td><td>75.59</td><td>5.54</td><td>5.51</td><td>1769</td><td>1226</td><td>2958</td><td>—</td><td>—</td></tr><tr><td>PC-2</td><td>56.51</td><td>56.52</td><td>2.89</td><td>2.90</td><td>1779</td><td>1219</td><td>—</td><td>1150, 1291</td><td>—</td></tr><tr><td>PC-3</td><td>52.84</td><td>53.03</td><td>2.26</td><td>2.21</td><td>1774</td><td>1224</td><td>—</td><td>—</td><td>—</td></tr><tr><td>PC-4</td><td>33.63</td><td>33.68</td><td>1.81</td><td>1.75</td><td>1788</td><td>1228</td><td>2960</td><td>—</td><td>798</td></tr><tr><td>PC-5</td><td>26.41</td><td>26.35</td><td>0.67</td><td>0.68</td><td>1788</td><td>1220</td><td>—</td><td>1150, 1291</td><td>794</td></tr><tr><td>PC-6</td><td>28.41</td><td>28.32</td><td>0.63</td><td>0.59</td><td>1793</td><td></td><td>—</td><td>—</td><td>793</td></tr></table>",
+          "table_locator": {
+            "table_id": "T_3_58",
+            "row_label": "PC-6",
+            "column_label": "Br",
+            "cell_value": "793",
+            "cell_id": "T_3_58:r0008:c0009",
+            "row_index": 8,
+            "column_index": 9
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_021",
+      "characterization_id": "char002",
+      "sample_id": "s001",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "Degree of Crystallinity",
+      "property_name_normalized": "xrd_crystallinity",
+      "property_category": "morphology",
+      "value_raw": "33.4",
+      "value_min": 33.4,
+      "value_max": 33.4,
+      "unit_raw": "%",
+      "unit_normalized": "%",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_5_70",
+          "page": 5,
+          "bbox": [
+            113.0,
+            106.0,
+            901.0,
+            258.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<table><tr><td>Polymer</td><td>2θ Value (deg)</td><td>d-Spacing (Å)</td><td>Degree of Crystallinity (%)</td></tr><tr><td>PC-1</td><td>17.2, 25.8, 29.7, 42.4, 43.5, 49.2</td><td>5.13, 3.51, 3.00, 2.12, 2.07, 1.84</td><td>33.4</td></tr><tr><td>PC-2</td><td>17.0, 18.8, 20.8, 25.2, 26.3, 42.5, 43.5, 49.3</td><td>5.20, 4.70, 4.26, 3.53, 3.38, 2.12, 2.07, 1.84</td><td>40.3</td></tr><tr><td>PC-3</td><td>19.9, 28.4, 42.5, 43.5, 49.2</td><td>4.42, 3.14, 2.12, 2.07, 1.84</td><td>29.8</td></tr><tr><td>PC-4</td><td>42.2, 43.5</td><td>2.13, 2.07</td><td>28.8</td></tr><tr><td>PC-5</td><td>21.9, 42.5, 43.5</td><td>4.08, 2.12, 2.07</td><td>31.1</td></tr><tr><td>PC-6</td><td>42.4, 43.5, 49.2</td><td>2.12, 2.07, 1.84</td><td>25.4</td></tr></table>",
+          "table_locator": {
+            "table_id": "T_5_70",
+            "row_label": "PC-1",
+            "column_label": "Degree of Crystallinity (%)",
+            "cell_value": "33.4",
+            "cell_id": "T_5_70:r0001:c0003",
+            "row_index": 1,
+            "column_index": 3
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_022",
+      "characterization_id": "char002",
+      "sample_id": "s002",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "Degree of Crystallinity",
+      "property_name_normalized": "xrd_crystallinity",
+      "property_category": "morphology",
+      "value_raw": "40.3",
+      "value_min": 40.3,
+      "value_max": 40.3,
+      "unit_raw": "%",
+      "unit_normalized": "%",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_5_70",
+          "page": 5,
+          "bbox": [
+            113.0,
+            106.0,
+            901.0,
+            258.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<table><tr><td>Polymer</td><td>2θ Value (deg)</td><td>d-Spacing (Å)</td><td>Degree of Crystallinity (%)</td></tr><tr><td>PC-1</td><td>17.2, 25.8, 29.7, 42.4, 43.5, 49.2</td><td>5.13, 3.51, 3.00, 2.12, 2.07, 1.84</td><td>33.4</td></tr><tr><td>PC-2</td><td>17.0, 18.8, 20.8, 25.2, 26.3, 42.5, 43.5, 49.3</td><td>5.20, 4.70, 4.26, 3.53, 3.38, 2.12, 2.07, 1.84</td><td>40.3</td></tr><tr><td>PC-3</td><td>19.9, 28.4, 42.5, 43.5, 49.2</td><td>4.42, 3.14, 2.12, 2.07, 1.84</td><td>29.8</td></tr><tr><td>PC-4</td><td>42.2, 43.5</td><td>2.13, 2.07</td><td>28.8</td></tr><tr><td>PC-5</td><td>21.9, 42.5, 43.5</td><td>4.08, 2.12, 2.07</td><td>31.1</td></tr><tr><td>PC-6</td><td>42.4, 43.5, 49.2</td><td>2.12, 2.07, 1.84</td><td>25.4</td></tr></table>",
+          "table_locator": {
+            "table_id": "T_5_70",
+            "row_label": "PC-2",
+            "column_label": "Degree of Crystallinity (%)",
+            "cell_value": "40.3",
+            "cell_id": "T_5_70:r0002:c0003",
+            "row_index": 2,
+            "column_index": 3
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_023",
+      "characterization_id": "char002",
+      "sample_id": "s003",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "Degree of Crystallinity",
+      "property_name_normalized": "xrd_crystallinity",
+      "property_category": "morphology",
+      "value_raw": "29.8",
+      "value_min": 29.8,
+      "value_max": 29.8,
+      "unit_raw": "%",
+      "unit_normalized": "%",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_5_70",
+          "page": 5,
+          "bbox": [
+            113.0,
+            106.0,
+            901.0,
+            258.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<table><tr><td>Polymer</td><td>2θ Value (deg)</td><td>d-Spacing (Å)</td><td>Degree of Crystallinity (%)</td></tr><tr><td>PC-1</td><td>17.2, 25.8, 29.7, 42.4, 43.5, 49.2</td><td>5.13, 3.51, 3.00, 2.12, 2.07, 1.84</td><td>33.4</td></tr><tr><td>PC-2</td><td>17.0, 18.8, 20.8, 25.2, 26.3, 42.5, 43.5, 49.3</td><td>5.20, 4.70, 4.26, 3.53, 3.38, 2.12, 2.07, 1.84</td><td>40.3</td></tr><tr><td>PC-3</td><td>19.9, 28.4, 42.5, 43.5, 49.2</td><td>4.42, 3.14, 2.12, 2.07, 1.84</td><td>29.8</td></tr><tr><td>PC-4</td><td>42.2, 43.5</td><td>2.13, 2.07</td><td>28.8</td></tr><tr><td>PC-5</td><td>21.9, 42.5, 43.5</td><td>4.08, 2.12, 2.07</td><td>31.1</td></tr><tr><td>PC-6</td><td>42.4, 43.5, 49.2</td><td>2.12, 2.07, 1.84</td><td>25.4</td></tr></table>",
+          "table_locator": {
+            "table_id": "T_5_70",
+            "row_label": "PC-3",
+            "column_label": "Degree of Crystallinity (%)",
+            "cell_value": "29.8",
+            "cell_id": "T_5_70:r0003:c0003",
+            "row_index": 3,
+            "column_index": 3
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_024",
+      "characterization_id": "char002",
+      "sample_id": "s004",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "Degree of Crystallinity",
+      "property_name_normalized": "xrd_crystallinity",
+      "property_category": "morphology",
+      "value_raw": "28.8",
+      "value_min": 28.8,
+      "value_max": 28.8,
+      "unit_raw": "%",
+      "unit_normalized": "%",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_5_70",
+          "page": 5,
+          "bbox": [
+            113.0,
+            106.0,
+            901.0,
+            258.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<table><tr><td>Polymer</td><td>2θ Value (deg)</td><td>d-Spacing (Å)</td><td>Degree of Crystallinity (%)</td></tr><tr><td>PC-1</td><td>17.2, 25.8, 29.7, 42.4, 43.5, 49.2</td><td>5.13, 3.51, 3.00, 2.12, 2.07, 1.84</td><td>33.4</td></tr><tr><td>PC-2</td><td>17.0, 18.8, 20.8, 25.2, 26.3, 42.5, 43.5, 49.3</td><td>5.20, 4.70, 4.26, 3.53, 3.38, 2.12, 2.07, 1.84</td><td>40.3</td></tr><tr><td>PC-3</td><td>19.9, 28.4, 42.5, 43.5, 49.2</td><td>4.42, 3.14, 2.12, 2.07, 1.84</td><td>29.8</td></tr><tr><td>PC-4</td><td>42.2, 43.5</td><td>2.13, 2.07</td><td>28.8</td></tr><tr><td>PC-5</td><td>21.9, 42.5, 43.5</td><td>4.08, 2.12, 2.07</td><td>31.1</td></tr><tr><td>PC-6</td><td>42.4, 43.5, 49.2</td><td>2.12, 2.07, 1.84</td><td>25.4</td></tr></table>",
+          "table_locator": {
+            "table_id": "T_5_70",
+            "row_label": "PC-4",
+            "column_label": "Degree of Crystallinity (%)",
+            "cell_value": "28.8",
+            "cell_id": "T_5_70:r0004:c0003",
+            "row_index": 4,
+            "column_index": 3
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_025",
+      "characterization_id": "char002",
+      "sample_id": "s005",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "Degree of Crystallinity",
+      "property_name_normalized": "xrd_crystallinity",
+      "property_category": "morphology",
+      "value_raw": "31.1",
+      "value_min": 31.1,
+      "value_max": 31.1,
+      "unit_raw": "%",
+      "unit_normalized": "%",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_5_70",
+          "page": 5,
+          "bbox": [
+            113.0,
+            106.0,
+            901.0,
+            258.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<table><tr><td>Polymer</td><td>2θ Value (deg)</td><td>d-Spacing (Å)</td><td>Degree of Crystallinity (%)</td></tr><tr><td>PC-1</td><td>17.2, 25.8, 29.7, 42.4, 43.5, 49.2</td><td>5.13, 3.51, 3.00, 2.12, 2.07, 1.84</td><td>33.4</td></tr><tr><td>PC-2</td><td>17.0, 18.8, 20.8, 25.2, 26.3, 42.5, 43.5, 49.3</td><td>5.20, 4.70, 4.26, 3.53, 3.38, 2.12, 2.07, 1.84</td><td>40.3</td></tr><tr><td>PC-3</td><td>19.9, 28.4, 42.5, 43.5, 49.2</td><td>4.42, 3.14, 2.12, 2.07, 1.84</td><td>29.8</td></tr><tr><td>PC-4</td><td>42.2, 43.5</td><td>2.13, 2.07</td><td>28.8</td></tr><tr><td>PC-5</td><td>21.9, 42.5, 43.5</td><td>4.08, 2.12, 2.07</td><td>31.1</td></tr><tr><td>PC-6</td><td>42.4, 43.5, 49.2</td><td>2.12, 2.07, 1.84</td><td>25.4</td></tr></table>",
+          "table_locator": {
+            "table_id": "T_5_70",
+            "row_label": "PC-5",
+            "column_label": "Degree of Crystallinity (%)",
+            "cell_value": "31.1",
+            "cell_id": "T_5_70:r0005:c0003",
+            "row_index": 5,
+            "column_index": 3
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_026",
+      "characterization_id": "char002",
+      "sample_id": "s006",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "Degree of Crystallinity",
+      "property_name_normalized": "xrd_crystallinity",
+      "property_category": "morphology",
+      "value_raw": "25.4",
+      "value_min": 25.4,
+      "value_max": 25.4,
+      "unit_raw": "%",
+      "unit_normalized": "%",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_5_70",
+          "page": 5,
+          "bbox": [
+            113.0,
+            106.0,
+            901.0,
+            258.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<table><tr><td>Polymer</td><td>2θ Value (deg)</td><td>d-Spacing (Å)</td><td>Degree of Crystallinity (%)</td></tr><tr><td>PC-1</td><td>17.2, 25.8, 29.7, 42.4, 43.5, 49.2</td><td>5.13, 3.51, 3.00, 2.12, 2.07, 1.84</td><td>33.4</td></tr><tr><td>PC-2</td><td>17.0, 18.8, 20.8, 25.2, 26.3, 42.5, 43.5, 49.3</td><td>5.20, 4.70, 4.26, 3.53, 3.38, 2.12, 2.07, 1.84</td><td>40.3</td></tr><tr><td>PC-3</td><td>19.9, 28.4, 42.5, 43.5, 49.2</td><td>4.42, 3.14, 2.12, 2.07, 1.84</td><td>29.8</td></tr><tr><td>PC-4</td><td>42.2, 43.5</td><td>2.13, 2.07</td><td>28.8</td></tr><tr><td>PC-5</td><td>21.9, 42.5, 43.5</td><td>4.08, 2.12, 2.07</td><td>31.1</td></tr><tr><td>PC-6</td><td>42.4, 43.5, 49.2</td><td>2.12, 2.07, 1.84</td><td>25.4</td></tr></table>",
+          "table_locator": {
+            "table_id": "T_5_70",
+            "row_label": "PC-6",
+            "column_label": "Degree of Crystallinity (%)",
+            "cell_value": "25.4",
+            "cell_id": "T_5_70:r0006:c0003",
+            "row_index": 6,
+            "column_index": 3
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_027",
+      "characterization_id": "char002",
+      "sample_id": "s001",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "17.2",
+      "property_name_normalized": "xrd_diffraction_peak_2theta",
+      "property_category": "morphology",
+      "value_raw": "17.2",
+      "value_min": 17.2,
+      "value_max": 17.2,
+      "unit_raw": "deg",
+      "unit_normalized": "°",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_5_70",
+          "page": 5,
+          "bbox": [
+            113.0,
+            106.0,
+            901.0,
+            258.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<table><tr><td>Polymer</td><td>2θ Value (deg)</td><td>d-Spacing (Å)</td><td>Degree of Crystallinity (%)</td></tr><tr><td>PC-1</td><td>17.2, 25.8, 29.7, 42.4, 43.5, 49.2</td><td>5.13, 3.51, 3.00, 2.12, 2.07, 1.84</td><td>33.4</td></tr><tr><td>PC-2</td><td>17.0, 18.8, 20.8, 25.2, 26.3, 42.5, 43.5, 49.3</td><td>5.20, 4.70, 4.26, 3.53, 3.38, 2.12, 2.07, 1.84</td><td>40.3</td></tr><tr><td>PC-3</td><td>19.9, 28.4, 42.5, 43.5, 49.2</td><td>4.42, 3.14, 2.12, 2.07, 1.84</td><td>29.8</td></tr><tr><td>PC-4</td><td>42.2, 43.5</td><td>2.13, 2.07</td><td>28.8</td></tr><tr><td>PC-5</td><td>21.9, 42.5, 43.5</td><td>4.08, 2.12, 2.07</td><td>31.1</td></tr><tr><td>PC-6</td><td>42.4, 43.5, 49.2</td><td>2.12, 2.07, 1.84</td><td>25.4</td></tr></table>",
+          "table_locator": {
+            "table_id": "T_5_70",
+            "row_label": "PC-1",
+            "column_label": "2θ Value (deg)",
+            "cell_value": "17.2",
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_028",
+      "characterization_id": "char002",
+      "sample_id": "s001",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "25.8",
+      "property_name_normalized": "xrd_diffraction_peak_2theta",
+      "property_category": "morphology",
+      "value_raw": "25.8",
+      "value_min": 25.8,
+      "value_max": 25.8,
+      "unit_raw": "deg",
+      "unit_normalized": "°",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_5_70",
+          "page": 5,
+          "bbox": [
+            113.0,
+            106.0,
+            901.0,
+            258.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<table><tr><td>Polymer</td><td>2θ Value (deg)</td><td>d-Spacing (Å)</td><td>Degree of Crystallinity (%)</td></tr><tr><td>PC-1</td><td>17.2, 25.8, 29.7, 42.4, 43.5, 49.2</td><td>5.13, 3.51, 3.00, 2.12, 2.07, 1.84</td><td>33.4</td></tr><tr><td>PC-2</td><td>17.0, 18.8, 20.8, 25.2, 26.3, 42.5, 43.5, 49.3</td><td>5.20, 4.70, 4.26, 3.53, 3.38, 2.12, 2.07, 1.84</td><td>40.3</td></tr><tr><td>PC-3</td><td>19.9, 28.4, 42.5, 43.5, 49.2</td><td>4.42, 3.14, 2.12, 2.07, 1.84</td><td>29.8</td></tr><tr><td>PC-4</td><td>42.2, 43.5</td><td>2.13, 2.07</td><td>28.8</td></tr><tr><td>PC-5</td><td>21.9, 42.5, 43.5</td><td>4.08, 2.12, 2.07</td><td>31.1</td></tr><tr><td>PC-6</td><td>42.4, 43.5, 49.2</td><td>2.12, 2.07, 1.84</td><td>25.4</td></tr></table>",
+          "table_locator": {
+            "table_id": "T_5_70",
+            "row_label": "PC-1",
+            "column_label": "2θ Value (deg)",
+            "cell_value": "25.8",
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_029",
+      "characterization_id": "char002",
+      "sample_id": "s001",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "29.7",
+      "property_name_normalized": "xrd_diffraction_peak_2theta",
+      "property_category": "morphology",
+      "value_raw": "29.7",
+      "value_min": 29.7,
+      "value_max": 29.7,
+      "unit_raw": "deg",
+      "unit_normalized": "°",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_5_70",
+          "page": 5,
+          "bbox": [
+            113.0,
+            106.0,
+            901.0,
+            258.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<table><tr><td>Polymer</td><td>2θ Value (deg)</td><td>d-Spacing (Å)</td><td>Degree of Crystallinity (%)</td></tr><tr><td>PC-1</td><td>17.2, 25.8, 29.7, 42.4, 43.5, 49.2</td><td>5.13, 3.51, 3.00, 2.12, 2.07, 1.84</td><td>33.4</td></tr><tr><td>PC-2</td><td>17.0, 18.8, 20.8, 25.2, 26.3, 42.5, 43.5, 49.3</td><td>5.20, 4.70, 4.26, 3.53, 3.38, 2.12, 2.07, 1.84</td><td>40.3</td></tr><tr><td>PC-3</td><td>19.9, 28.4, 42.5, 43.5, 49.2</td><td>4.42, 3.14, 2.12, 2.07, 1.84</td><td>29.8</td></tr><tr><td>PC-4</td><td>42.2, 43.5</td><td>2.13, 2.07</td><td>28.8</td></tr><tr><td>PC-5</td><td>21.9, 42.5, 43.5</td><td>4.08, 2.12, 2.07</td><td>31.1</td></tr><tr><td>PC-6</td><td>42.4, 43.5, 49.2</td><td>2.12, 2.07, 1.84</td><td>25.4</td></tr></table>",
+          "table_locator": {
+            "table_id": "T_5_70",
+            "row_label": "PC-1",
+            "column_label": "2θ Value (deg)",
+            "cell_value": "29.7",
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_030",
+      "characterization_id": "char002",
+      "sample_id": "s001",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "42.4",
+      "property_name_normalized": "xrd_diffraction_peak_2theta",
+      "property_category": "morphology",
+      "value_raw": "42.4",
+      "value_min": 42.4,
+      "value_max": 42.4,
+      "unit_raw": "deg",
+      "unit_normalized": "°",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_5_70",
+          "page": 5,
+          "bbox": [
+            113.0,
+            106.0,
+            901.0,
+            258.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<table><tr><td>Polymer</td><td>2θ Value (deg)</td><td>d-Spacing (Å)</td><td>Degree of Crystallinity (%)</td></tr><tr><td>PC-1</td><td>17.2, 25.8, 29.7, 42.4, 43.5, 49.2</td><td>5.13, 3.51, 3.00, 2.12, 2.07, 1.84</td><td>33.4</td></tr><tr><td>PC-2</td><td>17.0, 18.8, 20.8, 25.2, 26.3, 42.5, 43.5, 49.3</td><td>5.20, 4.70, 4.26, 3.53, 3.38, 2.12, 2.07, 1.84</td><td>40.3</td></tr><tr><td>PC-3</td><td>19.9, 28.4, 42.5, 43.5, 49.2</td><td>4.42, 3.14, 2.12, 2.07, 1.84</td><td>29.8</td></tr><tr><td>PC-4</td><td>42.2, 43.5</td><td>2.13, 2.07</td><td>28.8</td></tr><tr><td>PC-5</td><td>21.9, 42.5, 43.5</td><td>4.08, 2.12, 2.07</td><td>31.1</td></tr><tr><td>PC-6</td><td>42.4, 43.5, 49.2</td><td>2.12, 2.07, 1.84</td><td>25.4</td></tr></table>",
+          "table_locator": {
+            "table_id": "T_5_70",
+            "row_label": "PC-1",
+            "column_label": "2θ Value (deg)",
+            "cell_value": "42.4",
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_031",
+      "characterization_id": "char002",
+      "sample_id": "s001",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "43.5",
+      "property_name_normalized": "xrd_diffraction_peak_2theta",
+      "property_category": "morphology",
+      "value_raw": "43.5",
+      "value_min": 43.5,
+      "value_max": 43.5,
+      "unit_raw": "deg",
+      "unit_normalized": "°",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_5_70",
+          "page": 5,
+          "bbox": [
+            113.0,
+            106.0,
+            901.0,
+            258.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<table><tr><td>Polymer</td><td>2θ Value (deg)</td><td>d-Spacing (Å)</td><td>Degree of Crystallinity (%)</td></tr><tr><td>PC-1</td><td>17.2, 25.8, 29.7, 42.4, 43.5, 49.2</td><td>5.13, 3.51, 3.00, 2.12, 2.07, 1.84</td><td>33.4</td></tr><tr><td>PC-2</td><td>17.0, 18.8, 20.8, 25.2, 26.3, 42.5, 43.5, 49.3</td><td>5.20, 4.70, 4.26, 3.53, 3.38, 2.12, 2.07, 1.84</td><td>40.3</td></tr><tr><td>PC-3</td><td>19.9, 28.4, 42.5, 43.5, 49.2</td><td>4.42, 3.14, 2.12, 2.07, 1.84</td><td>29.8</td></tr><tr><td>PC-4</td><td>42.2, 43.5</td><td>2.13, 2.07</td><td>28.8</td></tr><tr><td>PC-5</td><td>21.9, 42.5, 43.5</td><td>4.08, 2.12, 2.07</td><td>31.1</td></tr><tr><td>PC-6</td><td>42.4, 43.5, 49.2</td><td>2.12, 2.07, 1.84</td><td>25.4</td></tr></table>",
+          "table_locator": {
+            "table_id": "T_5_70",
+            "row_label": "PC-1",
+            "column_label": "2θ Value (deg)",
+            "cell_value": "43.5",
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_032",
+      "characterization_id": "char002",
+      "sample_id": "s001",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "49.2",
+      "property_name_normalized": "xrd_diffraction_peak_2theta",
+      "property_category": "morphology",
+      "value_raw": "49.2",
+      "value_min": 49.2,
+      "value_max": 49.2,
+      "unit_raw": "deg",
+      "unit_normalized": "°",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_5_70",
+          "page": 5,
+          "bbox": [
+            113.0,
+            106.0,
+            901.0,
+            258.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<table><tr><td>Polymer</td><td>2θ Value (deg)</td><td>d-Spacing (Å)</td><td>Degree of Crystallinity (%)</td></tr><tr><td>PC-1</td><td>17.2, 25.8, 29.7, 42.4, 43.5, 49.2</td><td>5.13, 3.51, 3.00, 2.12, 2.07, 1.84</td><td>33.4</td></tr><tr><td>PC-2</td><td>17.0, 18.8, 20.8, 25.2, 26.3, 42.5, 43.5, 49.3</td><td>5.20, 4.70, 4.26, 3.53, 3.38, 2.12, 2.07, 1.84</td><td>40.3</td></tr><tr><td>PC-3</td><td>19.9, 28.4, 42.5, 43.5, 49.2</td><td>4.42, 3.14, 2.12, 2.07, 1.84</td><td>29.8</td></tr><tr><td>PC-4</td><td>42.2, 43.5</td><td>2.13, 2.07</td><td>28.8</td></tr><tr><td>PC-5</td><td>21.9, 42.5, 43.5</td><td>4.08, 2.12, 2.07</td><td>31.1</td></tr><tr><td>PC-6</td><td>42.4, 43.5, 49.2</td><td>2.12, 2.07, 1.84</td><td>25.4</td></tr></table>",
+          "table_locator": {
+            "table_id": "T_5_70",
+            "row_label": "PC-1",
+            "column_label": "2θ Value (deg)",
+            "cell_value": "49.2",
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    }
+  ],
+  "provenance": {
+    "stage": "stage5_characterization",
+    "provider": "dmx",
+    "model": "doubao-seed-2.0-pro",
+    "models": [
+      "doubao-seed-2.0-pro"
+    ],
+    "prompt_id": "polymer.stage5.characterization",
+    "prompt_version": "1.6.2",
+    "prompt_sha256": "5f918eb9d0dcbe0a4dc60a70d83c4e9f144f9a87bf68905d0a38ad22c000ee5c",
+    "vocabulary_sha256": "3e9d85e4915a729edf0f0a53821f3ee6edf32874e1da6972457417e4f13a1510",
+    "input_hash": "590e5b8df70a9db4a330ac29313d458933ea0c75d16cbdea79a77b93ec5b3f1f",
+    "model_config_hash": "7e14aff06827af47a7b1a797111258e33d5972d1c072111440c3b2aae020f3ce",
+    "cache_key": "95c9fa2a32bf2a86f67d5a6570b8254d425bfd444e391a00556d1fe7d8270018",
+    "output_schema_version": "characterization_schema.v4",
+    "implementation_version": "1.7.1",
+    "context_block_count": 52,
+    "context_chars": 34932,
+    "call_count": 1,
+    "usage": {
+      "input_tokens": 19423,
+      "output_tokens": 16843,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "billable_input_tokens": 19423,
+      "total_tokens": 36266
+    },
+    "cost": {
+      "status": "calculated",
+      "currency": "CNY",
+      "input_per_million": "4.32",
+      "output_per_million": "29.15",
+      "input_cost": "0.08390736",
+      "output_cost": "0.49097345",
+      "total_cost": "0.57488081"
+    },
+    "status": "success"
+  },
+  "warnings": [
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_characterization_details_cleared",
+      "message": "Preview 模式已清空无对象 evidence 支撑的可选表征细节",
+      "field_path": "characterizations[0]",
+      "fields": [
+        "measurement_context"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_characterization_details_cleared",
+      "message": "Preview 模式已清空无对象 evidence 支撑的可选表征细节",
+      "field_path": "characterizations[1]",
+      "fields": [
+        "instrument",
+        "measurement_context"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_characterization_details_cleared",
+      "message": "Preview 模式已清空无对象 evidence 支撑的可选表征细节",
+      "field_path": "characterizations[2]",
+      "fields": [
+        "measurement_context"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_characterization_details_cleared",
+      "message": "Preview 模式已清空无对象 evidence 支撑的可选表征细节",
+      "field_path": "characterizations[3]",
+      "fields": [
+        "parameters",
+        "measurement_context"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_characterization_details_cleared",
+      "message": "Preview 模式已清空无对象 evidence 支撑的可选表征细节",
+      "field_path": "characterizations[4]",
+      "fields": [
+        "measurement_context"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[0]",
+      "property_id": "prop_s5_001",
+      "fields": [
+        "unit_raw"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[1]",
+      "property_id": "prop_s5_002",
+      "fields": [
+        "unit_raw"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[2]",
+      "property_id": "prop_s5_003",
+      "fields": [
+        "unit_raw"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[3]",
+      "property_id": "prop_s5_004",
+      "fields": [
+        "unit_raw"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[4]",
+      "property_id": "prop_s5_005",
+      "fields": [
+        "unit_raw"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[5]",
+      "property_id": "prop_s5_006",
+      "fields": [
+        "unit_raw"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[6]",
+      "property_id": "prop_s5_007",
+      "fields": [
+        "unit_raw"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[7]",
+      "property_id": "prop_s5_008",
+      "fields": [
+        "unit_raw"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[8]",
+      "property_id": "prop_s5_009",
+      "fields": [
+        "unit_raw"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[9]",
+      "property_id": "prop_s5_010",
+      "fields": [
+        "unit_raw"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[10]",
+      "property_id": "prop_s5_011",
+      "fields": [
+        "unit_raw"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[11]",
+      "property_id": "prop_s5_012",
+      "fields": [
+        "unit_raw"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[12]",
+      "property_id": "prop_s5_013",
+      "fields": [
+        "unit_raw"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[13]",
+      "property_id": "prop_s5_014",
+      "fields": [
+        "unit_raw"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[14]",
+      "property_id": "prop_s5_015",
+      "fields": [
+        "unit_raw"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[15]",
+      "property_id": "prop_s5_016",
+      "fields": [
+        "unit_raw"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[16]",
+      "property_id": "prop_s5_017",
+      "fields": [
+        "unit_raw"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[17]",
+      "property_id": "prop_s5_018",
+      "fields": [
+        "unit_raw"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[18]",
+      "property_id": "prop_s5_019",
+      "fields": [
+        "unit_raw"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[19]",
+      "property_id": "prop_s5_020",
+      "fields": [
+        "unit_raw"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "series_point_subject_scope_inherited",
+      "message": "Characterization 已从关联且主体范围一致的跨主体 Series points 继承完整主体范围",
+      "field_path": "characterizations[0]",
+      "series_ids": [
+        "series002"
+      ],
+      "sample_ids": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006"
+      ],
+      "entity_ids": [
+        "pe001",
+        "pe002",
+        "pe003",
+        "pe004",
+        "pe005",
+        "pe006"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "series_point_subject_scope_inherited",
+      "message": "Characterization 已从关联且主体范围一致的跨主体 Series points 继承完整主体范围",
+      "field_path": "characterizations[1]",
+      "series_ids": [
+        "series003"
+      ],
+      "sample_ids": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006"
+      ],
+      "entity_ids": [
+        "pe001",
+        "pe002",
+        "pe003",
+        "pe004",
+        "pe005",
+        "pe006"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "series_point_subject_scope_inherited",
+      "message": "Characterization 已从关联且主体范围一致的跨主体 Series points 继承完整主体范围",
+      "field_path": "characterizations[2]",
+      "series_ids": [
+        "series004"
+      ],
+      "sample_ids": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006"
+      ],
+      "entity_ids": [
+        "pe001",
+        "pe002",
+        "pe003",
+        "pe004",
+        "pe005",
+        "pe006"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "derived_property_back_reference_completed",
+      "message": "Stage 5 property 已明确引用唯一 Characterization；已补齐其 derived_property_ids 反向引用",
+      "field_path": "properties[0].characterization_id",
+      "characterization_id": "char004",
+      "property_id": "prop_s5_001"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "derived_property_back_reference_completed",
+      "message": "Stage 5 property 已明确引用唯一 Characterization；已补齐其 derived_property_ids 反向引用",
+      "field_path": "properties[1].characterization_id",
+      "characterization_id": "char004",
+      "property_id": "prop_s5_002"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "derived_property_back_reference_completed",
+      "message": "Stage 5 property 已明确引用唯一 Characterization；已补齐其 derived_property_ids 反向引用",
+      "field_path": "properties[2].characterization_id",
+      "characterization_id": "char004",
+      "property_id": "prop_s5_003"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "derived_property_back_reference_completed",
+      "message": "Stage 5 property 已明确引用唯一 Characterization；已补齐其 derived_property_ids 反向引用",
+      "field_path": "properties[3].characterization_id",
+      "characterization_id": "char004",
+      "property_id": "prop_s5_004"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "derived_property_back_reference_completed",
+      "message": "Stage 5 property 已明确引用唯一 Characterization；已补齐其 derived_property_ids 反向引用",
+      "field_path": "properties[4].characterization_id",
+      "characterization_id": "char004",
+      "property_id": "prop_s5_005"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "derived_property_back_reference_completed",
+      "message": "Stage 5 property 已明确引用唯一 Characterization；已补齐其 derived_property_ids 反向引用",
+      "field_path": "properties[5].characterization_id",
+      "characterization_id": "char004",
+      "property_id": "prop_s5_006"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "derived_property_back_reference_completed",
+      "message": "Stage 5 property 已明确引用唯一 Characterization；已补齐其 derived_property_ids 反向引用",
+      "field_path": "properties[6].characterization_id",
+      "characterization_id": "char004",
+      "property_id": "prop_s5_007"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "derived_property_back_reference_completed",
+      "message": "Stage 5 property 已明确引用唯一 Characterization；已补齐其 derived_property_ids 反向引用",
+      "field_path": "properties[7].characterization_id",
+      "characterization_id": "char004",
+      "property_id": "prop_s5_008"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "derived_property_back_reference_completed",
+      "message": "Stage 5 property 已明确引用唯一 Characterization；已补齐其 derived_property_ids 反向引用",
+      "field_path": "properties[8].characterization_id",
+      "characterization_id": "char004",
+      "property_id": "prop_s5_009"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "derived_property_back_reference_completed",
+      "message": "Stage 5 property 已明确引用唯一 Characterization；已补齐其 derived_property_ids 反向引用",
+      "field_path": "properties[9].characterization_id",
+      "characterization_id": "char004",
+      "property_id": "prop_s5_010"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "derived_property_back_reference_completed",
+      "message": "Stage 5 property 已明确引用唯一 Characterization；已补齐其 derived_property_ids 反向引用",
+      "field_path": "properties[10].characterization_id",
+      "characterization_id": "char004",
+      "property_id": "prop_s5_011"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "derived_property_back_reference_completed",
+      "message": "Stage 5 property 已明确引用唯一 Characterization；已补齐其 derived_property_ids 反向引用",
+      "field_path": "properties[11].characterization_id",
+      "characterization_id": "char004",
+      "property_id": "prop_s5_012"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "derived_property_back_reference_completed",
+      "message": "Stage 5 property 已明确引用唯一 Characterization；已补齐其 derived_property_ids 反向引用",
+      "field_path": "properties[12].characterization_id",
+      "characterization_id": "char004",
+      "property_id": "prop_s5_013"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "derived_property_back_reference_completed",
+      "message": "Stage 5 property 已明确引用唯一 Characterization；已补齐其 derived_property_ids 反向引用",
+      "field_path": "properties[13].characterization_id",
+      "characterization_id": "char004",
+      "property_id": "prop_s5_014"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "derived_property_back_reference_completed",
+      "message": "Stage 5 property 已明确引用唯一 Characterization；已补齐其 derived_property_ids 反向引用",
+      "field_path": "properties[14].characterization_id",
+      "characterization_id": "char004",
+      "property_id": "prop_s5_015"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "derived_property_back_reference_completed",
+      "message": "Stage 5 property 已明确引用唯一 Characterization；已补齐其 derived_property_ids 反向引用",
+      "field_path": "properties[15].characterization_id",
+      "characterization_id": "char004",
+      "property_id": "prop_s5_016"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "derived_property_back_reference_completed",
+      "message": "Stage 5 property 已明确引用唯一 Characterization；已补齐其 derived_property_ids 反向引用",
+      "field_path": "properties[16].characterization_id",
+      "characterization_id": "char004",
+      "property_id": "prop_s5_017"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "derived_property_back_reference_completed",
+      "message": "Stage 5 property 已明确引用唯一 Characterization；已补齐其 derived_property_ids 反向引用",
+      "field_path": "properties[17].characterization_id",
+      "characterization_id": "char004",
+      "property_id": "prop_s5_018"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "derived_property_back_reference_completed",
+      "message": "Stage 5 property 已明确引用唯一 Characterization；已补齐其 derived_property_ids 反向引用",
+      "field_path": "properties[18].characterization_id",
+      "characterization_id": "char004",
+      "property_id": "prop_s5_019"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "derived_property_back_reference_completed",
+      "message": "Stage 5 property 已明确引用唯一 Characterization；已补齐其 derived_property_ids 反向引用",
+      "field_path": "properties[19].characterization_id",
+      "characterization_id": "char004",
+      "property_id": "prop_s5_020"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "derived_property_back_reference_completed",
+      "message": "Stage 5 property 已明确引用唯一 Characterization；已补齐其 derived_property_ids 反向引用",
+      "field_path": "properties[20].characterization_id",
+      "characterization_id": "char002",
+      "property_id": "prop_s5_021"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "derived_property_back_reference_completed",
+      "message": "Stage 5 property 已明确引用唯一 Characterization；已补齐其 derived_property_ids 反向引用",
+      "field_path": "properties[21].characterization_id",
+      "characterization_id": "char002",
+      "property_id": "prop_s5_022"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "derived_property_back_reference_completed",
+      "message": "Stage 5 property 已明确引用唯一 Characterization；已补齐其 derived_property_ids 反向引用",
+      "field_path": "properties[22].characterization_id",
+      "characterization_id": "char002",
+      "property_id": "prop_s5_023"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "derived_property_back_reference_completed",
+      "message": "Stage 5 property 已明确引用唯一 Characterization；已补齐其 derived_property_ids 反向引用",
+      "field_path": "properties[23].characterization_id",
+      "characterization_id": "char002",
+      "property_id": "prop_s5_024"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "derived_property_back_reference_completed",
+      "message": "Stage 5 property 已明确引用唯一 Characterization；已补齐其 derived_property_ids 反向引用",
+      "field_path": "properties[24].characterization_id",
+      "characterization_id": "char002",
+      "property_id": "prop_s5_025"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "derived_property_back_reference_completed",
+      "message": "Stage 5 property 已明确引用唯一 Characterization；已补齐其 derived_property_ids 反向引用",
+      "field_path": "properties[25].characterization_id",
+      "characterization_id": "char002",
+      "property_id": "prop_s5_026"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "derived_property_back_reference_completed",
+      "message": "Stage 5 property 已明确引用唯一 Characterization；已补齐其 derived_property_ids 反向引用",
+      "field_path": "properties[26].characterization_id",
+      "characterization_id": "char002",
+      "property_id": "prop_s5_027"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "derived_property_back_reference_completed",
+      "message": "Stage 5 property 已明确引用唯一 Characterization；已补齐其 derived_property_ids 反向引用",
+      "field_path": "properties[27].characterization_id",
+      "characterization_id": "char002",
+      "property_id": "prop_s5_028"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "derived_property_back_reference_completed",
+      "message": "Stage 5 property 已明确引用唯一 Characterization；已补齐其 derived_property_ids 反向引用",
+      "field_path": "properties[28].characterization_id",
+      "characterization_id": "char002",
+      "property_id": "prop_s5_029"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "derived_property_back_reference_completed",
+      "message": "Stage 5 property 已明确引用唯一 Characterization；已补齐其 derived_property_ids 反向引用",
+      "field_path": "properties[29].characterization_id",
+      "characterization_id": "char002",
+      "property_id": "prop_s5_030"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "derived_property_back_reference_completed",
+      "message": "Stage 5 property 已明确引用唯一 Characterization；已补齐其 derived_property_ids 反向引用",
+      "field_path": "properties[30].characterization_id",
+      "characterization_id": "char002",
+      "property_id": "prop_s5_031"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "derived_property_back_reference_completed",
+      "message": "Stage 5 property 已明确引用唯一 Characterization；已补齐其 derived_property_ids 反向引用",
+      "field_path": "properties[31].characterization_id",
+      "characterization_id": "char002",
+      "property_id": "prop_s5_032"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_property_subject_subscope_retained",
+      "message": "Preview 模式已保留多主体 Characterization 下的明确单主体性质；需在正式数据中复核",
+      "items": [
+        {
+          "property_id": "prop_s5_001",
+          "characterization_id": "char004",
+          "sample_id": "s001",
+          "entity_id": null
+        },
+        {
+          "property_id": "prop_s5_002",
+          "characterization_id": "char004",
+          "sample_id": "s001",
+          "entity_id": null
+        },
+        {
+          "property_id": "prop_s5_003",
+          "characterization_id": "char004",
+          "sample_id": "s001",
+          "entity_id": null
+        },
+        {
+          "property_id": "prop_s5_004",
+          "characterization_id": "char004",
+          "sample_id": "s002",
+          "entity_id": null
+        },
+        {
+          "property_id": "prop_s5_005",
+          "characterization_id": "char004",
+          "sample_id": "s002",
+          "entity_id": null
+        },
+        {
+          "property_id": "prop_s5_006",
+          "characterization_id": "char004",
+          "sample_id": "s002",
+          "entity_id": null
+        },
+        {
+          "property_id": "prop_s5_007",
+          "characterization_id": "char004",
+          "sample_id": "s002",
+          "entity_id": null
+        },
+        {
+          "property_id": "prop_s5_008",
+          "characterization_id": "char004",
+          "sample_id": "s003",
+          "entity_id": null
+        },
+        {
+          "property_id": "prop_s5_009",
+          "characterization_id": "char004",
+          "sample_id": "s003",
+          "entity_id": null
+        },
+        {
+          "property_id": "prop_s5_010",
+          "characterization_id": "char004",
+          "sample_id": "s004",
+          "entity_id": null
+        },
+        {
+          "property_id": "prop_s5_011",
+          "characterization_id": "char004",
+          "sample_id": "s004",
+          "entity_id": null
+        },
+        {
+          "property_id": "prop_s5_012",
+          "characterization_id": "char004",
+          "sample_id": "s004",
+          "entity_id": null
+        },
+        {
+          "property_id": "prop_s5_013",
+          "characterization_id": "char004",
+          "sample_id": "s004",
+          "entity_id": null
+        },
+        {
+          "property_id": "prop_s5_014",
+          "characterization_id": "char004",
+          "sample_id": "s005",
+          "entity_id": null
+        },
+        {
+          "property_id": "prop_s5_015",
+          "characterization_id": "char004",
+          "sample_id": "s005",
+          "entity_id": null
+        },
+        {
+          "property_id": "prop_s5_016",
+          "characterization_id": "char004",
+          "sample_id": "s005",
+          "entity_id": null
+        },
+        {
+          "property_id": "prop_s5_017",
+          "characterization_id": "char004",
+          "sample_id": "s005",
+          "entity_id": null
+        },
+        {
+          "property_id": "prop_s5_018",
+          "characterization_id": "char004",
+          "sample_id": "s005",
+          "entity_id": null
+        },
+        {
+          "property_id": "prop_s5_019",
+          "characterization_id": "char004",
+          "sample_id": "s006",
+          "entity_id": null
+        },
+        {
+          "property_id": "prop_s5_020",
+          "characterization_id": "char004",
+          "sample_id": "s006",
+          "entity_id": null
+        },
+        {
+          "property_id": "prop_s5_021",
+          "characterization_id": "char002",
+          "sample_id": "s001",
+          "entity_id": null
+        },
+        {
+          "property_id": "prop_s5_022",
+          "characterization_id": "char002",
+          "sample_id": "s002",
+          "entity_id": null
+        },
+        {
+          "property_id": "prop_s5_023",
+          "characterization_id": "char002",
+          "sample_id": "s003",
+          "entity_id": null
+        },
+        {
+          "property_id": "prop_s5_024",
+          "characterization_id": "char002",
+          "sample_id": "s004",
+          "entity_id": null
+        },
+        {
+          "property_id": "prop_s5_025",
+          "characterization_id": "char002",
+          "sample_id": "s005",
+          "entity_id": null
+        },
+        {
+          "property_id": "prop_s5_026",
+          "characterization_id": "char002",
+          "sample_id": "s006",
+          "entity_id": null
+        },
+        {
+          "property_id": "prop_s5_027",
+          "characterization_id": "char002",
+          "sample_id": "s001",
+          "entity_id": null
+        },
+        {
+          "property_id": "prop_s5_028",
+          "characterization_id": "char002",
+          "sample_id": "s001",
+          "entity_id": null
+        },
+        {
+          "property_id": "prop_s5_029",
+          "characterization_id": "char002",
+          "sample_id": "s001",
+          "entity_id": null
+        },
+        {
+          "property_id": "prop_s5_030",
+          "characterization_id": "char002",
+          "sample_id": "s001",
+          "entity_id": null
+        },
+        {
+          "property_id": "prop_s5_031",
+          "characterization_id": "char002",
+          "sample_id": "s001",
+          "entity_id": null
+        },
+        {
+          "property_id": "prop_s5_032",
+          "characterization_id": "char002",
+          "sample_id": "s001",
+          "entity_id": null
+        }
+      ]
+    }
+  ]
+}

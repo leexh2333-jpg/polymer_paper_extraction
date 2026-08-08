@@ -1,0 +1,1243 @@
+{
+  "schema_version": "1.0",
+  "document_id": "reference_no_0038813",
+  "measurement_conditions": [
+    {
+      "condition_id": "mc001",
+      "temperature": {
+        "raw": "$3 0 ^ { \\circ } \\mathrm { C }$",
+        "value": 30.0,
+        "unit": "°C",
+        "evidence": [
+          {
+            "block_id": "P_1_21",
+            "page": 1,
+            "bbox": [
+              53.0,
+              330.0,
+              467.0,
+              787.0
+            ],
+            "source_type": "text",
+            "source_sentence": "Inherent viscosities were measured using an Ubbelohde viscometer at a concentration of 0.5 g/dl in NMP at $3 0 ^ { \\circ } \\mathrm { C }$."
+          }
+        ],
+        "evidence_ids": []
+      },
+      "other_conditions": {
+        "concentration": "0.5 g/dl",
+        "solvent": "NMP"
+      },
+      "other_condition_evidence": {
+        "concentration": [
+          {
+            "block_id": "P_1_21",
+            "page": 1,
+            "bbox": [
+              53.0,
+              330.0,
+              467.0,
+              787.0
+            ],
+            "source_type": "text",
+            "source_sentence": "Inherent viscosities were measured using an Ubbelohde viscometer at a concentration of 0.5 g/dl in NMP at $3 0 ^ { \\circ } \\mathrm { C }$."
+          }
+        ],
+        "solvent": [
+          {
+            "block_id": "P_1_21",
+            "page": 1,
+            "bbox": [
+              53.0,
+              330.0,
+              467.0,
+              787.0
+            ],
+            "source_type": "text",
+            "source_sentence": "Inherent viscosities were measured using an Ubbelohde viscometer at a concentration of 0.5 g/dl in NMP at $3 0 ^ { \\circ } \\mathrm { C }$."
+          }
+        ]
+      },
+      "condition_status": "reported",
+      "evidence": {
+        "block_id": "P_1_21",
+        "page": 1,
+        "bbox": [
+          53.0,
+          330.0,
+          467.0,
+          787.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Inherent viscosities were measured using an Ubbelohde viscometer at a concentration of 0.5 g/dl in NMP at $3 0 ^ { \\circ } \\mathrm { C }$."
+      },
+      "confidence": {
+        "score": 0.95
+      }
+    },
+    {
+      "condition_id": "mc002",
+      "other_conditions": {
+        "solvent": "dimethylformamide (DMF)",
+        "calibration_standard": "polystyrene standards",
+        "flow_rate": "1 ml/min"
+      },
+      "other_condition_evidence": {
+        "solvent": [
+          {
+            "block_id": "P_1_21",
+            "page": 1,
+            "bbox": [
+              53.0,
+              330.0,
+              467.0,
+              787.0
+            ],
+            "source_type": "text",
+            "source_sentence": "dimethylformamide (DMF) was used as a solvent."
+          }
+        ],
+        "calibration_standard": [
+          {
+            "block_id": "P_1_21",
+            "page": 1,
+            "bbox": [
+              53.0,
+              330.0,
+              467.0,
+              787.0
+            ],
+            "source_type": "text",
+            "source_sentence": "The molecular weight calibration was carried out using polystyrene standards."
+          }
+        ],
+        "flow_rate": [
+          {
+            "block_id": "P_1_21",
+            "page": 1,
+            "bbox": [
+              53.0,
+              330.0,
+              467.0,
+              787.0
+            ],
+            "source_type": "text",
+            "source_sentence": "Calibration and measurements were made at a flow rate of 1 ml/min"
+          }
+        ]
+      },
+      "condition_status": "reported",
+      "evidence": {
+        "block_id": "P_1_21",
+        "page": 1,
+        "bbox": [
+          53.0,
+          330.0,
+          467.0,
+          787.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Gel permeation chromatography (GPC) was performed on a Waters 150-C instrument using Styragel columns and a differential refractometer detector. The molecular weight calibration was carried out using polystyrene standards. Calibration and measurements were made at a flow rate of 1 ml/min, and dimethylformamide (DMF) was used as a solvent."
+      },
+      "confidence": {
+        "score": 0.95
+      }
+    },
+    {
+      "condition_id": "mc003",
+      "other_conditions": {
+        "atmosphere": "air",
+        "heating_rate": "10 °C/min",
+        "temperature_range": "30 to 200 °C"
+      },
+      "other_condition_evidence": {},
+      "condition_status": "reported",
+      "evidence": {
+        "block_id": "P_1_21",
+        "page": 1,
+        "bbox": [
+          53.0,
+          330.0,
+          467.0,
+          787.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Differential scanning calorimetry (DSC) and thermogravimetric analysis (TGA) were recorded duplicate on a Stanton Redcraft STA-780 (London, UK) in air at a heating rate of 108C/min. In DSC thermograms, the samples were heated from 30 to $2 0 0 ^ { \\circ } \\mathrm { C } ,$they were cooled, and then re-heated to eliminate the thermal history."
+      },
+      "confidence": {
+        "score": 0.95
+      }
+    },
+    {
+      "condition_id": "mc004",
+      "frequency": {
+        "raw": "1 Hz",
+        "value": 1.0,
+        "unit": "Hz",
+        "evidence": [
+          {
+            "block_id": "P_1_21",
+            "page": 1,
+            "bbox": [
+              53.0,
+              330.0,
+              467.0,
+              787.0
+            ],
+            "source_type": "text",
+            "source_sentence": "at 1 Hz"
+          }
+        ],
+        "evidence_ids": []
+      },
+      "other_conditions": {
+        "heating_rate": "5 °C/min",
+        "temperature_range": "25 - 300 °C"
+      },
+      "other_condition_evidence": {},
+      "condition_status": "reported",
+      "evidence": {
+        "block_id": "P_1_21",
+        "page": 1,
+        "bbox": [
+          53.0,
+          330.0,
+          467.0,
+          787.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The dynamic mechanical measurements were recorded on a Polymer Laboratories dynamic mechanical thermal analyzer over a temperature range of $2 5 { - } 3 0 0 ^ { \\circ } \\mathrm { C }$at 1 Hz and a heating rate of 58C/min (Surrey, UK)."
+      },
+      "confidence": {
+        "score": 0.95
+      }
+    },
+    {
+      "condition_id": "mc005",
+      "other_conditions": {
+        "atmosphere": "air",
+        "heating_rate": "10 °C/min"
+      },
+      "other_condition_evidence": {},
+      "condition_status": "reported",
+      "evidence": {
+        "block_id": "P_1_21",
+        "page": 1,
+        "bbox": [
+          53.0,
+          330.0,
+          467.0,
+          787.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Differential scanning calorimetry (DSC) and thermogravimetric analysis (TGA) were recorded duplicate on a Stanton Redcraft STA-780 (London, UK) in air at a heating rate of 108C/min."
+      },
+      "confidence": {
+        "score": 0.95
+      }
+    },
+    {
+      "condition_id": "mc006",
+      "other_conditions": {
+        "solvent": "NMP"
+      },
+      "other_condition_evidence": {
+        "solvent": [
+          {
+            "block_id": "P_6_89",
+            "page": 6,
+            "bbox": [
+              529.0,
+              391.0,
+              942.0,
+              477.0
+            ],
+            "source_type": "text",
+            "source_sentence": "measuring ultraviolet–visible (UV–Vis) absorption in NMP solution."
+          }
+        ]
+      },
+      "condition_status": "reported",
+      "evidence": {
+        "block_id": "P_6_89",
+        "page": 6,
+        "bbox": [
+          529.0,
+          391.0,
+          942.0,
+          477.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The optical properties of polymers were investigated by measuring ultraviolet–visible (UV–Vis) absorption in NMP solution."
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "condition_id": "mc007",
+      "other_conditions": {},
+      "other_condition_evidence": {},
+      "condition_status": "not_reported",
+      "evidence": {
+        "block_id": "T_7_98",
+        "page": 7,
+        "bbox": [
+          55.0,
+          223.0,
+          463.0,
+          345.0
+        ],
+        "source_type": "table",
+        "source_sentence": "Table 5. Solubility of poly(amide-urea)s"
+      },
+      "confidence": {
+        "score": 0.8
+      }
+    },
+    {
+      "condition_id": "mc008",
+      "temperature": {
+        "raw": "$7 0 ^ { \\circ } \\mathrm { C }$",
+        "value": 70.0,
+        "unit": "°C",
+        "evidence": [
+          {
+            "block_id": "P_2_44",
+            "page": 2,
+            "bbox": [
+              529.0,
+              65.0,
+              942.0,
+              193.0
+            ],
+            "source_type": "text",
+            "source_sentence": "4 hr at $7 0 ^ { \\circ } \\mathrm { C }$"
+          }
+        ],
+        "evidence_ids": []
+      },
+      "other_conditions": {
+        "reaction_time": "4 hr",
+        "solvent": "NMP"
+      },
+      "other_condition_evidence": {},
+      "condition_status": "reported",
+      "evidence": {
+        "block_id": "P_2_44",
+        "page": 2,
+        "bbox": [
+          529.0,
+          65.0,
+          942.0,
+          193.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The solution was stirred for 1 hr at room temperature and 4 hr at $7 0 ^ { \\circ } \\mathrm { C } ,$and then it was precipitated in water."
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    }
+  ],
+  "properties": [
+    {
+      "property_id": "prop001",
+      "sample_id": "s002",
+      "property_name_raw": "Yield",
+      "observation_role": "single",
+      "value_raw": "92",
+      "value_min": 92.0,
+      "value_max": 92.0,
+      "unit_raw": "%",
+      "measurement_condition_id": "mc008",
+      "measurement_context": {
+        "temperature": {
+          "raw": "$7 0 ^ { \\circ } \\mathrm { C }$",
+          "value": 70.0,
+          "unit": "°C",
+          "evidence": [
+            {
+              "block_id": "P_2_44",
+              "page": 2,
+              "bbox": [
+                529.0,
+                65.0,
+                942.0,
+                193.0
+              ],
+              "source_type": "text",
+              "source_sentence": "4 hr at $7 0 ^ { \\circ } \\mathrm { C }$"
+            }
+          ],
+          "evidence_ids": []
+        },
+        "other_conditions": {
+          "reaction_time": "4 hr",
+          "solvent": "NMP"
+        },
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_5_77",
+          "page": 5,
+          "bbox": [
+            55.0,
+            80.0,
+            905.0,
+            522.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<tr><td rowspan=\"4\">1AQA-PPDI</td><td>3338</td><td rowspan=\"4\">...</td><td rowspan=\"4\">92</td></tr>",
+          "table_locator": {
+            "table_id": "T_5_77",
+            "row_label": "1AQA-PPDI",
+            "column_label": "Yield (%)",
+            "cell_value": "92",
+            "cell_id": "T_5_77:r0001:c0003",
+            "row_index": 1,
+            "column_index": 3
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop002",
+      "sample_id": "s002",
+      "property_name_raw": "η_{\\text{inh}}",
+      "property_name_normalized": "intrinsic_viscosity",
+      "property_code": "P6120",
+      "property_category": "dilute_solution_property",
+      "observation_role": "single",
+      "value_raw": "0.73",
+      "value_min": 0.73,
+      "value_max": 0.73,
+      "unit_raw": "dl/g",
+      "unit_normalized": "dL/g",
+      "measurement_condition_id": "mc001",
+      "measurement_context": {
+        "temperature": {
+          "raw": "$3 0 ^ { \\circ } \\mathrm { C }$",
+          "value": 30.0,
+          "unit": "°C",
+          "evidence": [
+            {
+              "block_id": "P_1_21",
+              "page": 1,
+              "bbox": [
+                53.0,
+                330.0,
+                467.0,
+                787.0
+              ],
+              "source_type": "text",
+              "source_sentence": "Inherent viscosities were measured using an Ubbelohde viscometer at a concentration of 0.5 g/dl in NMP at $3 0 ^ { \\circ } \\mathrm { C }$."
+            }
+          ],
+          "evidence_ids": []
+        },
+        "other_conditions": {
+          "concentration": "0.5 g/dl",
+          "solvent": "NMP"
+        },
+        "other_condition_evidence": {
+          "concentration": [
+            {
+              "block_id": "P_1_21",
+              "page": 1,
+              "bbox": [
+                53.0,
+                330.0,
+                467.0,
+                787.0
+              ],
+              "source_type": "text",
+              "source_sentence": "Inherent viscosities were measured using an Ubbelohde viscometer at a concentration of 0.5 g/dl in NMP at $3 0 ^ { \\circ } \\mathrm { C }$."
+            }
+          ],
+          "solvent": [
+            {
+              "block_id": "P_1_21",
+              "page": 1,
+              "bbox": [
+                53.0,
+                330.0,
+                467.0,
+                787.0
+              ],
+              "source_type": "text",
+              "source_sentence": "Inherent viscosities were measured using an Ubbelohde viscometer at a concentration of 0.5 g/dl in NMP at $3 0 ^ { \\circ } \\mathrm { C }$."
+            }
+          ]
+        },
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_5_78",
+          "page": 5,
+          "bbox": [
+            55.0,
+            581.0,
+            905.0,
+            899.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<tr><td>Found</td><td>67.08</td><td>3.48</td><td>13.77</td><td>0.73</td><td>22,000</td><td>48,500</td><td>2.20</td></tr>",
+          "table_locator": {
+            "table_id": "T_5_78",
+            "row_label": "Found",
+            "column_label": "$\\eta_{\\text{inh}}$ (dl/g) $^a$",
+            "cell_value": "0.73",
+            "cell_id": "T_5_78:r0004:c0004",
+            "row_index": 4,
+            "column_index": 4
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop003",
+      "sample_id": "s002",
+      "property_name_raw": "M_n",
+      "molecular_weight_type": "Mn",
+      "observation_role": "single",
+      "value_raw": "22,000",
+      "value_min": 22000.0,
+      "value_max": 22000.0,
+      "measurement_condition_id": "mc002",
+      "measurement_context": {
+        "other_conditions": {
+          "solvent": "dimethylformamide (DMF)",
+          "calibration_standard": "polystyrene standards",
+          "flow_rate": "1 ml/min"
+        },
+        "other_condition_evidence": {
+          "solvent": [
+            {
+              "block_id": "P_1_21",
+              "page": 1,
+              "bbox": [
+                53.0,
+                330.0,
+                467.0,
+                787.0
+              ],
+              "source_type": "text",
+              "source_sentence": "dimethylformamide (DMF) was used as a solvent."
+            }
+          ],
+          "calibration_standard": [
+            {
+              "block_id": "P_1_21",
+              "page": 1,
+              "bbox": [
+                53.0,
+                330.0,
+                467.0,
+                787.0
+              ],
+              "source_type": "text",
+              "source_sentence": "The molecular weight calibration was carried out using polystyrene standards."
+            }
+          ],
+          "flow_rate": [
+            {
+              "block_id": "P_1_21",
+              "page": 1,
+              "bbox": [
+                53.0,
+                330.0,
+                467.0,
+                787.0
+              ],
+              "source_type": "text",
+              "source_sentence": "Calibration and measurements were made at a flow rate of 1 ml/min"
+            }
+          ]
+        },
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_5_78",
+          "page": 5,
+          "bbox": [
+            55.0,
+            581.0,
+            905.0,
+            899.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<tr><td>Found</td><td>67.08</td><td>3.48</td><td>13.77</td><td>0.73</td><td>22,000</td><td>48,500</td><td>2.20</td></tr>",
+          "table_locator": {
+            "table_id": "T_5_78",
+            "row_label": "Found",
+            "column_label": "$M_n$",
+            "cell_value": "22,000",
+            "cell_id": "T_5_78:r0004:c0005",
+            "row_index": 4,
+            "column_index": 5
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop004",
+      "sample_id": "s002",
+      "property_name_raw": "M_w",
+      "molecular_weight_type": "Mw",
+      "observation_role": "single",
+      "value_raw": "48,500",
+      "value_min": 48500.0,
+      "value_max": 48500.0,
+      "measurement_condition_id": "mc002",
+      "measurement_context": {
+        "other_conditions": {
+          "solvent": "dimethylformamide (DMF)",
+          "calibration_standard": "polystyrene standards",
+          "flow_rate": "1 ml/min"
+        },
+        "other_condition_evidence": {
+          "solvent": [
+            {
+              "block_id": "P_1_21",
+              "page": 1,
+              "bbox": [
+                53.0,
+                330.0,
+                467.0,
+                787.0
+              ],
+              "source_type": "text",
+              "source_sentence": "dimethylformamide (DMF) was used as a solvent."
+            }
+          ],
+          "calibration_standard": [
+            {
+              "block_id": "P_1_21",
+              "page": 1,
+              "bbox": [
+                53.0,
+                330.0,
+                467.0,
+                787.0
+              ],
+              "source_type": "text",
+              "source_sentence": "The molecular weight calibration was carried out using polystyrene standards."
+            }
+          ],
+          "flow_rate": [
+            {
+              "block_id": "P_1_21",
+              "page": 1,
+              "bbox": [
+                53.0,
+                330.0,
+                467.0,
+                787.0
+              ],
+              "source_type": "text",
+              "source_sentence": "Calibration and measurements were made at a flow rate of 1 ml/min"
+            }
+          ]
+        },
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_5_78",
+          "page": 5,
+          "bbox": [
+            55.0,
+            581.0,
+            905.0,
+            899.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<tr><td>Found</td><td>67.08</td><td>3.48</td><td>13.77</td><td>0.73</td><td>22,000</td><td>48,500</td><td>2.20</td></tr>",
+          "table_locator": {
+            "table_id": "T_5_78",
+            "row_label": "Found",
+            "column_label": "$M_w$",
+            "cell_value": "48,500",
+            "cell_id": "T_5_78:r0004:c0006",
+            "row_index": 4,
+            "column_index": 6
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop005",
+      "sample_id": "s002",
+      "property_name_raw": "M_w/M_n",
+      "observation_role": "single",
+      "value_raw": "2.20",
+      "value_min": 2.2,
+      "value_max": 2.2,
+      "measurement_condition_id": "mc002",
+      "measurement_context": {
+        "other_conditions": {
+          "solvent": "dimethylformamide (DMF)",
+          "calibration_standard": "polystyrene standards",
+          "flow_rate": "1 ml/min"
+        },
+        "other_condition_evidence": {
+          "solvent": [
+            {
+              "block_id": "P_1_21",
+              "page": 1,
+              "bbox": [
+                53.0,
+                330.0,
+                467.0,
+                787.0
+              ],
+              "source_type": "text",
+              "source_sentence": "dimethylformamide (DMF) was used as a solvent."
+            }
+          ],
+          "calibration_standard": [
+            {
+              "block_id": "P_1_21",
+              "page": 1,
+              "bbox": [
+                53.0,
+                330.0,
+                467.0,
+                787.0
+              ],
+              "source_type": "text",
+              "source_sentence": "The molecular weight calibration was carried out using polystyrene standards."
+            }
+          ],
+          "flow_rate": [
+            {
+              "block_id": "P_1_21",
+              "page": 1,
+              "bbox": [
+                53.0,
+                330.0,
+                467.0,
+                787.0
+              ],
+              "source_type": "text",
+              "source_sentence": "Calibration and measurements were made at a flow rate of 1 ml/min"
+            }
+          ]
+        },
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_5_78",
+          "page": 5,
+          "bbox": [
+            55.0,
+            581.0,
+            905.0,
+            899.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<tr><td>Found</td><td>67.08</td><td>3.48</td><td>13.77</td><td>0.73</td><td>22,000</td><td>48,500</td><td>2.20</td></tr>",
+          "table_locator": {
+            "table_id": "T_5_78",
+            "row_label": "Found",
+            "column_label": "$M_w/M_n$",
+            "cell_value": "2.20",
+            "cell_id": "T_5_78:r0004:c0007",
+            "row_index": 4,
+            "column_index": 7
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop006",
+      "sample_id": "s002",
+      "property_name_raw": "T_{g}",
+      "property_name_normalized": "glass_transition_temperature",
+      "property_code": "P3110",
+      "property_category": "thermal_property",
+      "observation_role": "single",
+      "value_raw": "190",
+      "value_min": 190.0,
+      "value_max": 190.0,
+      "unit_raw": "°C",
+      "unit_normalized": "°C",
+      "measurement_condition_id": "mc004",
+      "measurement_context": {
+        "frequency": {
+          "raw": "1 Hz",
+          "value": 1.0,
+          "unit": "Hz",
+          "evidence": [
+            {
+              "block_id": "P_1_21",
+              "page": 1,
+              "bbox": [
+                53.0,
+                330.0,
+                467.0,
+                787.0
+              ],
+              "source_type": "text",
+              "source_sentence": "at 1 Hz"
+            }
+          ],
+          "evidence_ids": []
+        },
+        "other_conditions": {
+          "heating_rate": "5 °C/min",
+          "temperature_range": "25 - 300 °C"
+        },
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_6_86",
+          "page": 6,
+          "bbox": [
+            90.0,
+            742.0,
+            510.0,
+            863.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<tr><td>1AQA-PPDI</td><td>190</td><td>229</td><td>327</td><td>475</td><td>49</td></tr>",
+          "table_locator": {
+            "table_id": "T_6_86",
+            "row_label": "1AQA-PPDI",
+            "column_label": "$T_{g}$ (°C)",
+            "cell_value": "190",
+            "cell_id": "T_6_86:r0001:c0001",
+            "row_index": 1,
+            "column_index": 1
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop007",
+      "sample_id": "s002",
+      "property_name_raw": "T_{i}",
+      "property_name_normalized": "thermal_decomposition_temperature",
+      "property_code": "P3170",
+      "property_category": "thermal_property",
+      "observation_role": "single",
+      "value_raw": "229",
+      "value_min": 229.0,
+      "value_max": 229.0,
+      "unit_raw": "°C",
+      "unit_normalized": "°C",
+      "measurement_condition_id": "mc005",
+      "measurement_context": {
+        "other_conditions": {
+          "atmosphere": "air",
+          "heating_rate": "10 °C/min"
+        },
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_6_86",
+          "page": 6,
+          "bbox": [
+            90.0,
+            742.0,
+            510.0,
+            863.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<tr><td>1AQA-PPDI</td><td>190</td><td>229</td><td>327</td><td>475</td><td>49</td></tr>",
+          "table_locator": {
+            "table_id": "T_6_86",
+            "row_label": "1AQA-PPDI",
+            "column_label": "$T_{i}$ (°C)",
+            "cell_value": "229",
+            "cell_id": "T_6_86:r0001:c0002",
+            "row_index": 1,
+            "column_index": 2
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop008",
+      "sample_id": "s002",
+      "property_name_raw": "T_{10}",
+      "property_name_normalized": "thermal_decomposition_temperature",
+      "property_code": "P3170",
+      "property_category": "thermal_property",
+      "observation_role": "single",
+      "value_raw": "327",
+      "value_min": 327.0,
+      "value_max": 327.0,
+      "unit_raw": "°C",
+      "unit_normalized": "°C",
+      "measurement_condition_id": "mc005",
+      "measurement_context": {
+        "other_conditions": {
+          "atmosphere": "air",
+          "heating_rate": "10 °C/min"
+        },
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_6_86",
+          "page": 6,
+          "bbox": [
+            90.0,
+            742.0,
+            510.0,
+            863.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<tr><td>1AQA-PPDI</td><td>190</td><td>229</td><td>327</td><td>475</td><td>49</td></tr>",
+          "table_locator": {
+            "table_id": "T_6_86",
+            "row_label": "1AQA-PPDI",
+            "column_label": "$T_{10}$ (°C)",
+            "cell_value": "327",
+            "cell_id": "T_6_86:r0001:c0003",
+            "row_index": 1,
+            "column_index": 3
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop009",
+      "sample_id": "s002",
+      "property_name_raw": "T_{max}",
+      "property_name_normalized": "thermal_decomposition_temperature",
+      "property_code": "P3170",
+      "property_category": "thermal_property",
+      "observation_role": "single",
+      "value_raw": "475",
+      "value_min": 475.0,
+      "value_max": 475.0,
+      "unit_raw": "°C",
+      "unit_normalized": "°C",
+      "measurement_condition_id": "mc005",
+      "measurement_context": {
+        "other_conditions": {
+          "atmosphere": "air",
+          "heating_rate": "10 °C/min"
+        },
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_6_86",
+          "page": 6,
+          "bbox": [
+            90.0,
+            742.0,
+            510.0,
+            863.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<tr><td>1AQA-PPDI</td><td>190</td><td>229</td><td>327</td><td>475</td><td>49</td></tr>",
+          "table_locator": {
+            "table_id": "T_6_86",
+            "row_label": "1AQA-PPDI",
+            "column_label": "$T_{max}$ (°C)",
+            "cell_value": "475",
+            "cell_id": "T_6_86:r0001:c0004",
+            "row_index": 1,
+            "column_index": 4
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop010",
+      "sample_id": "s002",
+      "property_name_raw": "Char yield at 700°C",
+      "observation_role": "single",
+      "value_raw": "49",
+      "value_min": 49.0,
+      "value_max": 49.0,
+      "unit_raw": "%",
+      "measurement_condition_id": "mc005",
+      "measurement_context": {
+        "other_conditions": {
+          "atmosphere": "air",
+          "heating_rate": "10 °C/min"
+        },
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_6_86",
+          "page": 6,
+          "bbox": [
+            90.0,
+            742.0,
+            510.0,
+            863.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<tr><td>1AQA-PPDI</td><td>190</td><td>229</td><td>327</td><td>475</td><td>49</td></tr>",
+          "table_locator": {
+            "table_id": "T_6_86",
+            "row_label": "1AQA-PPDI",
+            "column_label": "Char yield at 700°C (%)",
+            "cell_value": "49",
+            "cell_id": "T_6_86:r0001:c0005",
+            "row_index": 1,
+            "column_index": 5
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop011",
+      "sample_id": "s002",
+      "property_name_raw": "λ_{\\text{max}}",
+      "observation_role": "single",
+      "value_raw": "401",
+      "value_min": 401.0,
+      "value_max": 401.0,
+      "unit_raw": "nm",
+      "unit_normalized": "nm",
+      "measurement_condition_id": "mc006",
+      "measurement_context": {
+        "other_conditions": {
+          "solvent": "NMP"
+        },
+        "other_condition_evidence": {
+          "solvent": [
+            {
+              "block_id": "P_6_89",
+              "page": 6,
+              "bbox": [
+                529.0,
+                391.0,
+                942.0,
+                477.0
+              ],
+              "source_type": "text",
+              "source_sentence": "measuring ultraviolet–visible (UV–Vis) absorption in NMP solution."
+            }
+          ]
+        },
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_7_97",
+          "page": 7,
+          "bbox": [
+            55.0,
+            81.0,
+            463.0,
+            155.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<tr><td>1AQA-PPDI</td><td>401</td><td>2AQA-PPDI</td><td>384</td></tr>",
+          "table_locator": {
+            "table_id": "T_7_97",
+            "row_label": "1AQA-PPDI",
+            "column_label": "$\\lambda_{\\text{max}}$ (nm)",
+            "cell_value": "401",
+            "cell_id": "T_7_97:r0001:c0001",
+            "row_index": 1,
+            "column_index": 1
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    }
+  ],
+  "unresolved_properties": [
+    {
+      "unresolved_id": "uprop001",
+      "entity_id": "pe002",
+      "property_name_raw": "M_n",
+      "observation_role": "single",
+      "value_raw": "14,200 to 22,000",
+      "measurement_context": {
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "reason": "sample_ambiguous",
+      "evidence": [
+        {
+          "block_id": "P_6_83",
+          "page": 6,
+          "bbox": [
+            87.0,
+            93.0,
+            500.0,
+            249.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The numerous molecular weights $\\left( M _ { \\mathrm { n } } \\right)$ranged from 14,200 to 22,000 corresponding to a degree of polymerization between 25 and 42."
+        }
+      ],
+      "confidence": {
+        "score": 0.8
+      }
+    },
+    {
+      "unresolved_id": "uprop002",
+      "entity_id": "pe002",
+      "property_name_raw": "M_w",
+      "observation_role": "single",
+      "value_raw": "35,700–48,500",
+      "measurement_context": {
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "reason": "sample_ambiguous",
+      "evidence": [
+        {
+          "block_id": "P_6_83",
+          "page": 6,
+          "bbox": [
+            87.0,
+            93.0,
+            500.0,
+            249.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The $M _ { \\mathrm { w } }$values were about 35,700–48,500 which means that the ratio of $M _ { \\mathrm { w } } / M _ { \\mathrm { n } }$was between 2.20 and 2.51."
+        }
+      ],
+      "confidence": {
+        "score": 0.8
+      }
+    }
+  ],
+  "property_series": [],
+  "provenance": {
+    "stage": "stage4_property",
+    "provider": "dmx",
+    "model": "doubao-seed-2.0-pro",
+    "models": [
+      "doubao-seed-2.0-pro"
+    ],
+    "prompt_id": "polymer.stage4.property",
+    "prompt_version": "1.7.2",
+    "prompt_sha256": "ec79fe3bf47539cab4ba239c611d1ab17d75dc0038cda85020caca580f7987a5",
+    "vocabulary_sha256": "3e9d85e4915a729edf0f0a53821f3ee6edf32874e1da6972457417e4f13a1510",
+    "input_hash": "787400592cfea5e0901886d868e626d20d2cdec0231ba412ad35226b10d91810",
+    "model_config_hash": "7e14aff06827af47a7b1a797111258e33d5972d1c072111440c3b2aae020f3ce",
+    "cache_key": "8afd3cffd0a90e041a078d8bb61a6b8813359b949779a12a9ea94527c54bc767",
+    "output_schema_version": "property_observation_schema.v7",
+    "implementation_version": "1.7.10",
+    "context_block_count": 51,
+    "context_chars": 37423,
+    "call_count": 1,
+    "usage": {
+      "input_tokens": 28935,
+      "output_tokens": 10550,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "billable_input_tokens": 28935,
+      "total_tokens": 39485
+    },
+    "cost": {
+      "status": "calculated",
+      "currency": "CNY",
+      "input_per_million": "4.32",
+      "output_per_million": "29.15",
+      "input_cost": "0.1249992",
+      "output_cost": "0.3075325",
+      "total_cost": "0.4325317"
+    },
+    "status": "success"
+  },
+  "warnings": [
+    {
+      "stage": "stage4_property",
+      "code": "candidate_table_locator_surface_repaired",
+      "message": "模型 locator 表面文本不在表格原文；已用 property raw 与 determination method 中唯一匹配的 Stage 0 表头恢复",
+      "evidence": 5
+    },
+    {
+      "stage": "stage4_property",
+      "code": "preview_semantic_validation_bypassed",
+      "message": "Preview 已保留 Schema 合法候选，并跳过原文/evidence 语义对应校验；Strict 模式仍会报错",
+      "reason": "mc004.other_conditions.heating_rate.raw 无法在对象 evidence中定位"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "unresolved_properties",
+      "message": "2 条性质无法可靠关联具体 Sample",
+      "unresolved_ids": [
+        "uprop001",
+        "uprop002"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4426 @@
+{
+  "schema_version": "1.1",
+  "source_document_schema_version": "1.0",
+  "document_id": "reference_no_0038813",
+  "paper": {
+    "ref_no": "reference_no_0038813",
+    "pdf_filename": "991b5294-93c3-4d06-b471-de6de3417f81_origin.pdf",
+    "source_pdf_path": "mineru/reference_no_0038813/991b5294-93c3-4d06-b471-de6de3417f81_origin.pdf",
+    "organized_pdf_path": "organized/reference_no_0038813/origin.pdf",
+    "doi": null,
+    "title": null,
+    "authors": null,
+    "journal": null,
+    "year": null,
+    "metadata_status": "failed",
+    "metadata_extraction": {
+      "method": "llm",
+      "provider": null,
+      "model": null,
+      "prompt_file": "prompts/meta_extract.md",
+      "prompt_sha256": "98252486e4f9cdfd1b42ea02b7e01440d6be99c99d18720dc71c95aa1643fcd4",
+      "source_pages": [
+        0,
+        1
+      ],
+      "status": "failed",
+      "error_type": "MetaExtractorUnavailable"
+    }
+  },
+  "source_files": {
+    "markdown": "reference_no_0038813.md",
+    "content_v1": "content.json",
+    "content_v2": "content_v2.json",
+    "pdf": "origin.pdf"
+  },
+  "ocr": {
+    "engine": "mineru",
+    "batch_id": "122ff743-eb66-4583-986f-6c8015953309",
+    "model_version": "vlm",
+    "ocr_enabled": false,
+    "language": null,
+    "page_ranges": null,
+    "enable_formula": true,
+    "enable_table": true,
+    "extra_formats": [],
+    "status": "done",
+    "manifest_file": "batch_122ff743-eb66-4583-986f-6c8015953309_manifest.json",
+    "status_file": "batch_122ff743-eb66-4583-986f-6c8015953309_status.json"
+  },
+  "elements": [
+    {
+      "block_id": "P_0_0",
+      "type": "title",
+      "section": "DocumentTitle",
+      "text": "Preparation and characterization of thermally stable poly(amide-urea)s functionalized with anthraquinone chromophore",
+      "page": 0,
+      "bbox": [
+        90.0,
+        84.0,
+        889.0,
+        166.0
+      ],
+      "source_block_index": 0,
+      "alignment_status": "matched",
+      "title_level": 1
+    },
+    {
+      "block_id": "P_0_1",
+      "type": "text",
+      "text": "Shahram Mehdipour-Ataei\\* and Naeemeh Bahri-Laleh",
+      "page": 0,
+      "bbox": [
+        90.0,
+        186.0,
+        611.0,
+        203.0
+      ],
+      "source_block_index": 1,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_0_2",
+      "type": "text",
+      "text": "Iran Polymer and Petrochemical Institute, P.O. Box 14965/115, Tehran, Iran",
+      "page": 0,
+      "bbox": [
+        89.0,
+        205.0,
+        546.0,
+        219.0
+      ],
+      "source_block_index": 2,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_0_3",
+      "type": "text",
+      "text": "Received 13 March 2007; Revised 28 August 2007; Accepted 10 September 2007",
+      "page": 0,
+      "bbox": [
+        89.0,
+        222.0,
+        576.0,
+        236.0
+      ],
+      "source_block_index": 3,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_0_4",
+      "type": "text",
+      "text": "Two new diamines containing bulky anthraquinone pendant units were prepared via reactions of 1- and 2-aminoanthraquinone with 3,5-dinitrobenzoylchloride and a subsequent reduction of their nitro groups. A novel series of highly organosoluble poly(amide-urea)s were synthesized from the reactions of the prepared diamines with various commercially available diisocyanates via a stepgrowth addition reaction process in N-methyl-2-pyrrolidone (NMP). The effects of two factors (time and temperature) on the reaction were studied to optimize the conditions for the preparation of high molecular weight polymers. All poly(amide-urea)s were characterized by Fourier Transform Infrared (FTIR) and <sup>1</sup>H-nuclear magnetic resonance (NMR) spectroscopies and elemental analysis. The resulting poly(amide-urea)s had inherent viscosities in the range of 0.54–0.73 dl/g. They exhibited excellent solubility in polar solvents. The temperature for 10% weight loss of the polymers in air was all above 285-C, their residues were more than 36% at 700-C in air, and their $T _ { \\mathbf { g } }$values were in the range of 148–190-C. According to the wide-angle X-ray diffraction (WAXD), the polymers were almost amorphous. The optical properties of poly(amide-urea)s measured by ultraviolet–visible (UV–Vis) spectroscopy showed absorption maxima at 303–429 nm. Copyright # 2008 John Wiley & Sons, Ltd.",
+      "page": 0,
+      "bbox": [
+        147.0,
+        258.0,
+        882.0,
+        476.0
+      ],
+      "source_block_index": 4,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_0_4",
+        "V2_0_4_1"
+      ]
+    },
+    {
+      "block_id": "P_0_5",
+      "type": "text",
+      "text": "KEYWORDS: thermally stable; polyurea; amide; chromophore",
+      "page": 0,
+      "bbox": [
+        90.0,
+        486.0,
+        485.0,
+        501.0
+      ],
+      "source_block_index": 5,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_0_6",
+      "type": "title",
+      "section": "Introduction",
+      "text": "INTRODUCTION",
+      "page": 0,
+      "bbox": [
+        90.0,
+        555.0,
+        245.0,
+        571.0
+      ],
+      "source_block_index": 6,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_0_7",
+      "type": "text",
+      "section": "Introduction",
+      "text": "Polyureas may be classified as heterochain macromolecular compounds, which contain urea groups in their structure. They are polycondensation or step-wise addition products in which the urea-linking group occurs periodically in oligomeric or polymeric chains of otherwise different chemical structure. The chains may be linear or nonlinear and comprise aliphatic, cycloaliphatic, aromatic, or heteroatomic structural repeat units.",
+      "page": 0,
+      "bbox": [
+        89.0,
+        586.0,
+        499.0,
+        699.0
+      ],
+      "source_block_index": 7,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_0_8",
+      "type": "text",
+      "section": "Introduction",
+      "text": "A number of methods have been used to prepare polyureas, but the best method is the reaction of diamines with diisocyanates in polar aprotic solvents such as N-methyl-2- pyrrolidone (NMP) at room temperature. This reaction is a step-growth addition reaction of amine across the carbon– nitrogen double bond, and there is no byproduct. A wide variety of raw materials coupled with adaptable synthetic techniques allows the polyurea chemist to design useful materials for many applications. Some of the recent developments in this field are the encapsulation of catalysts within the polyurea matrix while the catalytic activities are maintained.<sup>2,3</sup> The use of polyurea-based thick film coating materials for substrate protection and corrosion prevention has taken an exponential rise in the market place in the past 10 years or so. Polyureas have been reported to be used for the encapsulation of pharmaceutical, inks, dyes, piezoelectric and ferroelectric polymers, second-order optical nonlinear polymers, lithographic matrixes, permeable membranes, biodegradable polymers, polymer microcapsules, hyperbranched polymers, gelling agents, and polyelectrolytes.<sup>4–7</sup>",
+      "page": 0,
+      "bbox": [
+        89.0,
+        700.0,
+        500.0,
+        843.0
+      ],
+      "source_block_index": 8,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_0_9",
+      "type": "text",
+      "section": "Introduction",
+      "text": "",
+      "page": 0,
+      "bbox": [
+        529.0,
+        557.0,
+        942.0,
+        713.0
+      ],
+      "source_block_index": 9,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_0_10",
+      "type": "text",
+      "section": "Introduction",
+      "text": "However, potentially more useful polyureas are those containing other functional groups such as urea–formaldehyde resins,<sup>8</sup> poly(urethane-urea)s used as cast elastomers,<sup>9</sup> poly(ether-urea)s,<sup>10</sup> and poly(amide-urea)s.<sup>11–13</sup>",
+      "page": 0,
+      "bbox": [
+        529.0,
+        714.0,
+        942.0,
+        770.0
+      ],
+      "source_block_index": 10,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_0_11",
+      "type": "text",
+      "section": "Introduction",
+      "text": "Wholly aromatic polyureas are generally difficult to process due to their limited solubility and high glass transition or melt temperatures. This could be related to the fact that polyureas have a –NH–CO–NH– functional group and therefore they can form hydrogen bonds. This shortcoming was overcome by the introduction of N-phenyl substitution along the polymer backbone. Another approach to increase their solubility in organic solvents is the introduction of bulky groups in the polymer backbone.<sup>14</sup>",
+      "page": 0,
+      "bbox": [
+        529.0,
+        771.0,
+        942.0,
+        912.0
+      ],
+      "source_block_index": 11,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "F_0_15",
+      "type": "footnote",
+      "section": "Introduction",
+      "text": "\\*Correspondence to: S. Mehdipour-Ataei, Iran Polymer and Petrochemical Institute, P.O. Box 14965/115, Tehran, Iran. E-mail: s.mehdipour@ippi.ac.ir",
+      "page": 0,
+      "bbox": [
+        89.0,
+        881.0,
+        497.0,
+        916.0
+      ],
+      "source_block_index": 15,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_1_16",
+      "type": "text",
+      "section": "Introduction",
+      "text": "This paper deals with the synthesis and characterization of polyureas containing anthraquinone units by the polyaddition of two prepared diamines (1AQA and $2 \\mathrm { A Q A } )$with some commercially available diisocyanates and investigation of their physical properties and also structure–property relations.",
+      "page": 1,
+      "bbox": [
+        55.0,
+        65.0,
+        465.0,
+        150.0
+      ],
+      "source_block_index": 16,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_1_16",
+        "V2_1_0_1"
+      ]
+    },
+    {
+      "block_id": "P_1_17",
+      "type": "title",
+      "section": "Methods",
+      "text": "EXPERIMENTAL",
+      "page": 1,
+      "bbox": [
+        55.0,
+        169.0,
+        205.0,
+        184.0
+      ],
+      "source_block_index": 17,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_1_18",
+      "type": "title",
+      "section": "Methods",
+      "text": "Materials",
+      "page": 1,
+      "bbox": [
+        55.0,
+        191.0,
+        139.0,
+        205.0
+      ],
+      "source_block_index": 18,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_1_19",
+      "type": "text",
+      "section": "Methods",
+      "text": "All chemicals were purchased either from Merck or Aldrich Chemical Co. N-methyl-2-pyrrolidone (NMP) was distilled under reduced pressure over CaH . p-Phenylene diisocyanate (PPDI) and 1,5-naphthalene diisocyanate (NDI) were sublimed before use. 4,40-Dicyclohexylmethane diisocyanate $\\mathrm { ( H } _ { 1 2 } \\mathrm { M D I ) }$was purified by distillation.",
+      "page": 1,
+      "bbox": [
+        55.0,
+        206.0,
+        465.0,
+        293.0
+      ],
+      "source_block_index": 19,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_1_19",
+        "V2_1_3_1"
+      ]
+    },
+    {
+      "block_id": "P_1_20",
+      "type": "title",
+      "section": "Methods",
+      "text": "Instrumentation",
+      "page": 1,
+      "bbox": [
+        55.0,
+        315.0,
+        194.0,
+        328.0
+      ],
+      "source_block_index": 20,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_1_21",
+      "type": "text",
+      "section": "Methods",
+      "text": "Infrared measurements were performed on a Bruker-IFS 48 Fourier Transform Infrared (FTIR) spectrometer (Ettlingen, Germany). The H-nuclear magnetic resonance (NMR) spectra were recorded in DMSO-D solution using a Bruker Avance DPX 250 MHz (GmbH, Germany). Elemental analyses were performed by a CHN-O-Rapid Heraeus elemental analyzer (Wellesley, MA). Differential scanning calorimetry (DSC) and thermogravimetric analysis (TGA) were recorded duplicate on a Stanton Redcraft STA-780 (London, UK) in air at a heating rate of 108C/min. In DSC thermograms, the samples were heated from 30 to $2 0 0 ^ { \\circ } \\mathrm { C } ,$they were cooled, and then re-heated to eliminate the thermal history. The temperature and mass uncertainty of the instruments were 0.706 and 0.159, respectively. The dynamic mechanical measurements were recorded on a Polymer Laboratories dynamic mechanical thermal analyzer over a temperature range of $2 5 { - } 3 0 0 ^ { \\circ } \\mathrm { C }$at 1 Hz and a heating rate of 58C/min (Surrey, UK). Inherent viscosities were measured using an Ubbelohde viscometer at a concentration of 0.5 g/dl in NMP at $3 0 ^ { \\circ } \\mathrm { C }$. Wide-angle X-ray diffraction (WAXD) patterns were performed at room temperature on an X-ray diffractometer (Siemens model D 5000) using a Ni-filtered Cu Ka radiation (40 kV, 25 mA) at a scanning rate of 38/min. The mass spectra were recorded on a Shimadzu GC-MS-QP 1000 EX. Gel permeation chromatography (GPC) was performed on a Waters 150-C instrument using Styragel columns and a differential refractometer detector. The molecular weight calibration was carried out using polystyrene standards. Calibration and measurements were made at a flow rate of 1 ml/min, and dimethylformamide (DMF) was used as a solvent. UV spectra were obtained by a Cecil CE 1021 UV–Vis spectrometer (Cambridge, UK).",
+      "page": 1,
+      "bbox": [
+        53.0,
+        330.0,
+        467.0,
+        787.0
+      ],
+      "source_block_index": 21,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_1_21",
+        "V2_1_5_1",
+        "V2_1_5_3",
+        "V2_1_5_5"
+      ]
+    },
+    {
+      "block_id": "P_1_22",
+      "type": "title",
+      "section": "Methods",
+      "text": "Monomer synthesis",
+      "page": 1,
+      "bbox": [
+        55.0,
+        808.0,
+        223.0,
+        824.0
+      ],
+      "source_block_index": 22,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_1_23",
+      "type": "title",
+      "section": "Methods",
+      "text": "Synthesis of dinitro compound 1AQN",
+      "page": 1,
+      "bbox": [
+        55.0,
+        830.0,
+        339.0,
+        845.0
+      ],
+      "source_block_index": 23,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_1_24",
+      "type": "text",
+      "section": "Methods",
+      "text": "A 100-ml, two-necked, round-bottomed flask equipped with a magnetic stirrer, nitrogen gas inlet tube, and calcium chloride drying tube was charged with 26 mmol of the 1-aminoanthraquinone and 75 ml of dry NMP. The mixture was stirred at $0 ^ { \\circ } \\mathrm { C }$for 0.5 hr. Then 21.6 ml of propylene oxide was added, and after about 3 min, 30 mmol of $^ { 3 , 5 \\cdot }$-dinitrobenzoyl chloride was added and the mixture was stirred at $0 ^ { \\circ } \\mathrm { C }$for 0.5 hr. The temperature was raised to room temperature and the solution was stirred for 6 hr. The product was precipitated by pouring the content of the flask into water. Then it was filtered, washed with hot water, and dried overnight under vacuum at 708C. The yield of the reaction was about 92%.",
+      "page": 1,
+      "bbox": [
+        55.0,
+        845.0,
+        465.0,
+        916.0
+      ],
+      "source_block_index": 24,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_1_24",
+        "V2_1_8_1",
+        "V2_1_8_3",
+        "V2_1_8_5"
+      ]
+    },
+    {
+      "block_id": "P_1_25",
+      "type": "text",
+      "section": "Methods",
+      "text": "",
+      "page": 1,
+      "bbox": [
+        495.0,
+        64.0,
+        909.0,
+        178.0
+      ],
+      "source_block_index": 25,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "I_1_26",
+      "type": "image",
+      "section": "Methods",
+      "page": 1,
+      "bbox": [
+        527.0,
+        179.0,
+        878.0,
+        332.0
+      ],
+      "source_block_index": 26,
+      "alignment_status": "matched",
+      "caption": "IR (KBr): y3421 (N–H stretching), 1668 (amide and anthraquinone ring C––O stretching), 1638 (anthraquinone ring C––O stretching), 1584 (C––C aromatic), 1538 (asymmetrical stretching NO<sub>2</sub>), 1341 (symmetrical stretching NO<sub>2</sub>); <sup>1</sup>H-NMR $\\begin{array} { r l } { ( \\mathrm { D M S O - D } _ { 6 } ) \\colon } & { { } } \\end{array}$ d13.07 (s, 1H, NH), 9.18 (s, 2H ), 9.10 (s, 1H ), 8.20 (d, 1H ), 8.10 (d, 2H ), 7.99 (m, $2 \\mathrm { H _ { g } } ) ,$ , 7.86 (d, 1H ), 7.53 (m, $\\mathrm { 1 H _ { d } ) ; }$ ; elemental analysis calculated for $\\mathrm { C } _ { 2 1 } \\mathrm { H } _ { 1 1 } \\mathrm { N } _ { 3 } \\mathrm { O } _ { 7 } \\colon \\mathrm { C } ,$ 60.44%; H, 2.66%; N, 10.07%, found: C, 62.68%; H, 2.45%; N, 9.98%; Mass spectrum: m/z 417.",
+      "image_path": "organized/reference_no_0038813/images/13029b6cc7fefbe0d73d0783d537c606a94e9af959a6bb5ca3a2785f4d446330.jpg",
+      "image_kind": "image"
+    },
+    {
+      "block_id": "P_1_27",
+      "type": "title",
+      "section": "Methods",
+      "text": "Synthesis of dinitro compound 2AQN",
+      "page": 1,
+      "bbox": [
+        497.0,
+        501.0,
+        781.0,
+        516.0
+      ],
+      "source_block_index": 27,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_1_28",
+      "type": "text",
+      "section": "Methods",
+      "text": "The aforementioned procedure was applied to the synthesis of the dinitro compound. However, 2-aminoanthraquinone was used instead of 1-aminoanthraquinone. The yield of the reaction was about 95%.",
+      "page": 1,
+      "bbox": [
+        495.0,
+        516.0,
+        907.0,
+        574.0
+      ],
+      "source_block_index": 28,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "I_1_29",
+      "type": "image",
+      "section": "Methods",
+      "page": 1,
+      "bbox": [
+        527.0,
+        577.0,
+        878.0,
+        707.0
+      ],
+      "source_block_index": 29,
+      "alignment_status": "matched",
+      "image_path": "organized/reference_no_0038813/images/36d40d09e9aa8b1c964219352986da3d9de1c050315b6bf68d6a0c12ac048490.jpg",
+      "image_kind": "image"
+    },
+    {
+      "block_id": "P_1_30",
+      "type": "text",
+      "section": "Methods",
+      "text": "IR (KBr): y3464 (N–H stretching), 1674 (amide and anthraquinone ring C––O stretching), 1633 (anthraquinone ring C––O stretching), 1587 (C––C aromatic), 1534 (asymmetrical stretching NO ), 1341 (symmetrical stretching NO ); <sup>1</sup>H-NMR $\\begin{array} { r l } { ( \\mathrm { D M S O - D } _ { 6 } ) \\colon } & { { } } \\end{array}$d12.82 (s, 1H, NH), 9.07 (s, 2H<sub>b</sub>), 9.03 $( \\mathrm { s } , \\mathrm { 1 H _ { a } } ) , \\mathrm { 8 . 2 2 } ( \\mathrm { s } , \\mathrm { 1 H _ { c } } ) , \\mathrm { 8 . 1 5 ( d , 1 H _ { d } ) } , \\mathrm { 8 . 0 8 ( d , 2 H _ { f } ) } , \\mathrm { 8 . 0 2 ( d , 1 H _ { e } ) } ,$7.94 (m, $2 \\mathrm { H } _ { \\mathrm { g } } ) ;$elemental analysis calculated for $\\mathrm { C } _ { 2 1 } \\mathrm { H } _ { 1 1 } \\mathrm { N } _ { 3 } \\mathrm { O } _ { 7 } \\mathrm { : }$C, 60.44%; H, 2.66%; N, 10.07%, found: C, 60.69%; H, 2.90%; $\\mathrm { N } ,$9.93%; Mass spectrum: m/z 417.",
+      "page": 1,
+      "bbox": [
+        497.0,
+        717.0,
+        907.0,
+        847.0
+      ],
+      "source_block_index": 30,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_1_30",
+        "V2_1_14_1",
+        "V2_1_14_3",
+        "V2_1_14_5",
+        "V2_1_14_7",
+        "V2_1_14_9"
+      ]
+    },
+    {
+      "block_id": "P_1_31",
+      "type": "title",
+      "section": "Methods",
+      "text": "Synthesis of diamine compound 1AQA",
+      "page": 1,
+      "bbox": [
+        497.0,
+        872.0,
+        786.0,
+        887.0
+      ],
+      "source_block_index": 31,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_1_32",
+      "type": "text",
+      "section": "Methods",
+      "text": "11.5 grams of 1AQN, 0.935 g of 10% Pd–C, and 200 ml of ethanol were introduced into the three-neck flask to which",
+      "page": 1,
+      "bbox": [
+        497.0,
+        887.0,
+        907.0,
+        916.0
+      ],
+      "source_block_index": 32,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_2_37",
+      "type": "text",
+      "section": "Methods",
+      "text": "75 ml of hydrazine monohydrate was added dropwise over a period of 1 hr at 858C. After the complete addition, the reaction was continued at reflux temperature for another 12 hr. To the suspension, 80 ml of tetrahydrofuran (THF) was added to re-dissolve the precipitated product, and refluxing was continued for 3 hr. The mixture was filtered to remove the Pd–C and the filtrate was poured into water. The product was filtered off, washed with hot water, and dried. The yield of the reaction was about 92%.",
+      "page": 2,
+      "bbox": [
+        87.0,
+        64.0,
+        500.0,
+        193.0
+      ],
+      "source_block_index": 37,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "I_2_38",
+      "type": "image",
+      "section": "Methods",
+      "page": 2,
+      "bbox": [
+        117.0,
+        194.0,
+        468.0,
+        346.0
+      ],
+      "source_block_index": 38,
+      "alignment_status": "matched",
+      "caption": "IR (KBr): y3420 (amide N–H stretching), 3287 (amine N–H stretching), 1663 (amide and anthraquinone ring C––O stretching), 1636 (anthraquinone ring ${ \\mathrm { C } } { = } { \\mathrm { O } }$ stretching), 1598 $( C { = } C$ aromatic), 1282 (amine C–N stretching); <sup>1</sup>H-NMR $( \\mathrm { D M S O - D _ { 6 } } ) ;$ : 9.14 (s, 1H, NH), 8.17 (d, $\\mathrm { 1 H _ { c } ) , }$ , 8.00 (d, 2H<sub>f</sub>), 7.96 (m, $2 \\mathrm { H _ { g } } ) _ { \\cdot }$ , 7.74 (d, 1H<sub>e</sub>), 7.50 (m, 1H<sub>d</sub>), 6.47 (s, 2H ), 6.09 $( \\mathbf { s } ,$ 1H ), 5.15 (s, 4H, NH ); elemental analysis calculated for $\\mathrm { C } _ { 2 1 } \\mathrm { H } _ { 1 5 } \\mathrm { N } _ { 3 } \\mathrm { O } _ { 3 } \\colon \\mathrm { C } ,$ 70.58%; H, 4.23%; N, 11.76%, found: C, 70.36%; H, 4.07%; N, 11.92%.",
+      "image_path": "organized/reference_no_0038813/images/39b816812dea031c6119ccb6c31a9b38e039c4a8d3d4f78435ec8a106e6a704b.jpg",
+      "image_kind": "image"
+    },
+    {
+      "block_id": "P_2_39",
+      "type": "title",
+      "section": "Methods",
+      "text": "Synthesis of diamine compound 2AQA",
+      "page": 2,
+      "bbox": [
+        90.0,
+        509.0,
+        379.0,
+        524.0
+      ],
+      "source_block_index": 39,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_2_40",
+      "type": "text",
+      "section": "Methods",
+      "text": "The aforementioned procedure was applied for the synthesis of the diamine. However 2AQN was used instead of 1AQN. The yield of the reaction was about 88%.",
+      "page": 2,
+      "bbox": [
+        89.0,
+        524.0,
+        499.0,
+        568.0
+      ],
+      "source_block_index": 40,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "I_2_41",
+      "type": "image",
+      "section": "Methods",
+      "page": 2,
+      "bbox": [
+        117.0,
+        571.0,
+        470.0,
+        701.0
+      ],
+      "source_block_index": 41,
+      "alignment_status": "matched",
+      "caption": "IR (KBr): y3385 (amide N–H stretching), 3326 (amine N–H stretching), 1669 (amide and anthraquinone ring C––O stretching), 1642 (anthraquinone ring C––O stretching), 1588 (C––C aromatic), 1328 (amine ${ \\mathrm { C } } { \\mathrm { - N } }$ stretching); <sup>1</sup>H-NMR (DMSO-D ): 8.92 (s, 1H, NH), 8.08 (s, 1H ), 8.03 (d, $\\mathrm { 1 H _ { d } ) , }$ , 8.00 (d, 2H ), 7.96 (d, 1H ), 7.89 (m, $2 \\mathrm { H _ { g } } ) .$ , 6.40 $( \\mathrm { s } , 2 \\mathrm { H } _ { \\mathrm { b } } ) .$ , 6.02 (s, $\\mathrm { 1 H _ { a } ) _ { \\it . } }$ , 5.09 (s, 4H, $\\mathrm { N H } _ { 2 } ) ;$ elemental analysis calculated for $\\mathrm { C } _ { 2 1 } \\mathrm { H } _ { 1 5 } \\mathrm { N } _ { 3 } \\mathrm { O } _ { 3 } \\colon \\mathrm { C } ,$ 70.58%; H, 4.23%; N, 11.76%, found: C, 70.82%; H, 4.49%; N, 11.48%.",
+      "image_path": "organized/reference_no_0038813/images/4ff69444ff6188434f3a028d9ef3284c329384bbe027163c2fe4b42138fd4d3a.jpg",
+      "image_kind": "image"
+    },
+    {
+      "block_id": "P_2_42",
+      "type": "title",
+      "section": "Methods",
+      "text": "Polymer synthesis",
+      "page": 2,
+      "bbox": [
+        90.0,
+        872.0,
+        245.0,
+        887.0
+      ],
+      "source_block_index": 42,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_2_43",
+      "type": "text",
+      "section": "Methods",
+      "text": "A typical procedure for the preparation of poly(amide-urea)s was as follows:",
+      "page": 2,
+      "bbox": [
+        89.0,
+        888.0,
+        497.0,
+        916.0
+      ],
+      "source_block_index": 43,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_2_44",
+      "type": "text",
+      "section": "Methods",
+      "text": "A round-bottomed flask equipped with an $\\Nu _ { 2 }$inlet tube, condenser, and thermometer was charged with 0.005 mol of diamine and 10 ml of dry NMP. Then a solution containing 0.005 mol of diisocyanate in 10 ml of dry NMP was added in one lot to the flask contents. The solution was stirred for 1 hr at room temperature and 4 hr at $7 0 ^ { \\circ } \\mathrm { C } ,$and then it was precipitated in water. The polymer was filtered, washed with hot water and methanol, and dried at vacuum oven at $8 0 ^ { \\circ } \\mathrm { C }$",
+      "page": 2,
+      "bbox": [
+        529.0,
+        65.0,
+        942.0,
+        193.0
+      ],
+      "source_block_index": 44,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_2_44",
+        "V2_2_7_1",
+        "V2_2_7_3",
+        "V2_2_7_5"
+      ]
+    },
+    {
+      "block_id": "P_2_45",
+      "type": "title",
+      "section": "Results",
+      "text": "RESULTS AND DISCUSSION",
+      "page": 2,
+      "bbox": [
+        532.0,
+        226.0,
+        791.0,
+        241.0
+      ],
+      "source_block_index": 45,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_2_46",
+      "type": "text",
+      "section": "Results",
+      "text": "Diamines are valuable monomers for the preparation of variety of polymers including polyureas, polyamides, and polyimides.<sup>15–17</sup> For this purpose, the anthraquinone containing diamines were prepared via a two-step route. First, the dinitro compound intermediates (1AQN and 2AQN) were synthesized by nucleophilic chloro-displacement reactions of 1- and 2-aminoanthraquinone with 3,5-dinitrobenzoylchloride in the presence of propylene oxide in NMP. A low temperature reaction was performed for the nucleophilic substitution reaction because the $\\Nu { \\cal O } _ { 2 }$electron withdrawing group raised the reactivity of 3,5-dinitrobenzoylchloride. In the next step, diamines (1AQA and 2AQA) were obtained by the catalytic reduction of 1AQN and 2AQN with hydrazine hydrate and Pd–C catalyst in refluxing ethanol (Scheme 1). Elemental analysis, plus IR and <sup>1</sup>H-NMR spectroscopy were used to confirm the structures of the dinitro compounds (1AQN and 2AQN) and the diamine monomers (1AQA and 2AQA). The FTIR spectra of 2AQN and 2AQA are shown in Fig. 1. In the IR spectrum, characteristic bands of dinitro compound (2AQN) were at about 3464 (amide N–H stretching), 1674 (amide C––O stretching and asymmetrical anthraquinone C––O stretching), 1633 (symmetrical anthraquinone C––O stretching), 1587 (C––C aromatic), 1534 (asymmetrical $\\Nu { \\cal O } _ { 2 }$stretching) and 1341 $\\mathrm { c m } ^ { - 1 }$(symmetrical $\\Nu { \\cal O } _ { 2 }$stretching), and the characteristic bands of diamino compound (2AQA) were at 3385 (amide N–H stretching), 3326 (amine N–H stretching), 1669 (amide C––O stretching and asymmetrical anthraquinone ring C––O stretching), 1642 (symmetrical anthraquinone ring C––O stretching), 1588 (C–– C aromatic), and 1328 cm\u0001<sup>1</sup> (C–N stretching).",
+      "page": 2,
+      "bbox": [
+        529.0,
+        248.0,
+        942.0,
+        675.0
+      ],
+      "source_block_index": 46,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_2_46",
+        "V2_2_9_1",
+        "V2_2_9_3",
+        "V2_2_9_5",
+        "V2_2_9_7"
+      ]
+    },
+    {
+      "block_id": "P_2_47",
+      "type": "text",
+      "section": "Results",
+      "text": "The <sup>1</sup>H-NMR spectra revealed that by reduction, the nitro groups of 1AQN and 2AQN were converted to amino groups to produce 1AQA and 2AQA, respectively. In 1AQN and 2AQN compounds due to the presence of two nitro-withdrawing groups, aromatic protons of $\\mathrm { H _ { a } }$and $\\mathrm { H _ { b } }$appeared in low field (9.03–9.18 ppm). When nitro groups were converted into amino groups (in 1AQA and 2AQA), these two protons were shifted to higher field (6.02–6.47 ppm), also two signals at 5.15 and 5.09 ppm corresponding to the amino groups of 1AQA and 2AQA appeared, respectively.",
+      "page": 2,
+      "bbox": [
+        529.0,
+        675.0,
+        942.0,
+        831.0
+      ],
+      "source_block_index": 47,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_2_47",
+        "V2_2_10_1",
+        "V2_2_10_3"
+      ]
+    },
+    {
+      "block_id": "P_2_48",
+      "type": "text",
+      "section": "Results",
+      "text": "The reaction of the isocyanate component with the amine is generally a very rapid reaction. Therefore, primary and secondary amines react readily with isocyanates without added catalyst due to their inherent nucleophilicity. Also, isocyanates are very labile molecules and an important characteristic feature of aromatic isocyanates is that they are much more reactive than aliphatics due to delocalization of electron density into the aromatic ring. 18",
+      "page": 2,
+      "bbox": [
+        529.0,
+        831.0,
+        942.0,
+        916.0
+      ],
+      "source_block_index": 48,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "I_3_54",
+      "type": "image",
+      "section": "Results",
+      "page": 3,
+      "bbox": [
+        171.0,
+        66.0,
+        791.0,
+        268.0
+      ],
+      "source_block_index": 54,
+      "alignment_status": "matched",
+      "caption": "Scheme 1. Preparation of monomers.",
+      "image_path": "organized/reference_no_0038813/images/ec7c7eabed10741d4cde438cd04c0dcd879a49586bbfc1ab3eeef4446b244617.jpg",
+      "image_kind": "image"
+    },
+    {
+      "block_id": "I_3_55",
+      "type": "image",
+      "section": "Results",
+      "page": 3,
+      "bbox": [
+        193.0,
+        302.0,
+        771.0,
+        598.0
+      ],
+      "source_block_index": 55,
+      "alignment_status": "matched",
+      "image_path": "organized/reference_no_0038813/images/3294c4eb8255a48ec531f1f864617c85fcf4cfe66f34996c94fc6dfc122621f4.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "I_3_56",
+      "type": "image",
+      "section": "Results",
+      "page": 3,
+      "bbox": [
+        193.0,
+        599.0,
+        774.0,
+        890.0
+      ],
+      "source_block_index": 56,
+      "alignment_status": "matched",
+      "caption": "Figure 1. FTIR spectra of (a) 2AQN and (b) 2AQA.",
+      "image_path": "organized/reference_no_0038813/images/d8770e606f7415093e5bc2aef099613bfd9bd78cb3de3abc389d725333f0de62.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "P_4_61",
+      "type": "text",
+      "section": "Results",
+      "text": "",
+      "page": 4,
+      "bbox": [
+        87.0,
+        64.0,
+        499.0,
+        93.0
+      ],
+      "source_block_index": 61,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "I_4_62",
+      "type": "image",
+      "section": "Results",
+      "page": 4,
+      "bbox": [
+        92.0,
+        95.0,
+        490.0,
+        193.0
+      ],
+      "source_block_index": 62,
+      "alignment_status": "matched",
+      "image_path": "organized/reference_no_0038813/images/692e16520eb7a0e6c9823bf8fbfcc374487759a3c802f51f268e6ae860021391.jpg",
+      "image_kind": "image"
+    },
+    {
+      "block_id": "P_4_63",
+      "type": "text",
+      "section": "Results",
+      "text": "Of the mesomer structures shown in the above scheme, if the isocyanate group is attached directly to an aromatic ring, the resonance effect places a higher average positive charge on the NCO carbon atom, making it more reactive toward nucleophiles, such as protic amines.",
+      "page": 4,
+      "bbox": [
+        89.0,
+        203.0,
+        500.0,
+        274.0
+      ],
+      "source_block_index": 63,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_4_64",
+      "type": "text",
+      "section": "Results",
+      "text": "To optimize the reaction conditions of these primary amines with isocyanates, the polyaddition of 1AQA with PPDI was investigated. The effect of reaction temperature on the inherent viscosity of the polyurea was examined in NMP at temperature between 30 and 1508C (Fig. 2). The optimized temperature range was between 60 and $1 1 0 ^ { \\circ } \\mathrm { C } ,$, giving polyurea with the highest molecular weights.",
+      "page": 4,
+      "bbox": [
+        87.0,
+        274.0,
+        500.0,
+        374.0
+      ],
+      "source_block_index": 64,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_4_64",
+        "V2_4_3_1"
+      ]
+    },
+    {
+      "block_id": "P_4_65",
+      "type": "text",
+      "section": "Results",
+      "text": "The influence of reaction time on the polyaddition is shown in Fig. 3. The reaction progressed relatively rapidly in NMP at $7 0 ^ { \\circ } \\mathrm { C }$and was essentially complete after 4 hr.",
+      "page": 4,
+      "bbox": [
+        89.0,
+        374.0,
+        499.0,
+        416.0
+      ],
+      "source_block_index": 65,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_4_65",
+        "V2_4_4_1"
+      ]
+    },
+    {
+      "block_id": "P_4_66",
+      "type": "text",
+      "section": "Results",
+      "text": "Thus, two series of poly(amide-urea)s were prepared via the polyaddition reactions of four different diisocyanates (aromatic, semi-aromatic, and cycloaliphatic) including PPDI, NDI, 4,4 -diphenyl methane diisocyanate (MDI), and H<sub>12</sub>MDI with the prepared diamines at $7 0 ^ { \\circ } \\mathrm { C }$for 4 hr (Scheme 2).",
+      "page": 4,
+      "bbox": [
+        89.0,
+        416.0,
+        500.0,
+        501.0
+      ],
+      "source_block_index": 66,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_4_66",
+        "V2_4_5_1"
+      ]
+    },
+    {
+      "block_id": "P_4_67",
+      "type": "text",
+      "section": "Results",
+      "text": "The chemical structure of the resulting polymers was ascertained by FTIR and <sup>1</sup>H-NMR spectroscopies (Table 1). The main characteristic feature of the polymers spectra was the appearance of urea and disappearance of amine linkages.",
+      "page": 4,
+      "bbox": [
+        89.0,
+        501.0,
+        500.0,
+        559.0
+      ],
+      "source_block_index": 67,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_4_68",
+      "type": "text",
+      "section": "Results",
+      "text": "Also, the results of elemental analysis for the polymers are compiled in Table 2. The values found were generally in good agreement with the calculated values for the proposed formulas.",
+      "page": 4,
+      "bbox": [
+        89.0,
+        558.0,
+        500.0,
+        587.0
+      ],
+      "source_block_index": 68,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "I_4_69",
+      "type": "image",
+      "section": "Results",
+      "page": 4,
+      "bbox": [
+        534.0,
+        61.0,
+        937.0,
+        222.0
+      ],
+      "source_block_index": 69,
+      "alignment_status": "matched",
+      "caption": "Figure 2. Temperature dependence of inherent viscosity of polyurea 1AQA-PPDI formed by the polyaddition of 1AQA (5.0 mmol) with PPDI (5.0 mmol) in NMP for 10 hr.",
+      "image_path": "organized/reference_no_0038813/images/0c88dfc5765302e45e92c2101563360de90d46fe99506d8443f3955dc4e77491.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "I_4_70",
+      "type": "image",
+      "section": "Results",
+      "page": 4,
+      "bbox": [
+        536.0,
+        344.0,
+        937.0,
+        507.0
+      ],
+      "source_block_index": 70,
+      "alignment_status": "matched",
+      "caption": "Figure 3. Time dependence of inherent viscosity of polyurea 1AQA-PPDI formed through the polyaddition of 1AQA (5.0 mmol) with PPDI (5.0 mmol) in NMP at 708C. This figure is available in colour online at www.interscience.wiley.com/ journal/pat",
+      "image_path": "organized/reference_no_0038813/images/9e899aff61d82408823d7ca8fb052f25c6947fbffafb9a8c5f811361be7dafe9.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "I_4_71",
+      "type": "image",
+      "section": "Results",
+      "page": 4,
+      "bbox": [
+        161.0,
+        599.0,
+        870.0,
+        891.0
+      ],
+      "source_block_index": 71,
+      "alignment_status": "matched",
+      "caption": "Scheme 2. Synthesis of poly(amide-urea)s.",
+      "image_path": "organized/reference_no_0038813/images/81c86ed7734405584c4ce682aff74499927909b68843754cfef5aa971580292e.jpg",
+      "image_kind": "image"
+    },
+    {
+      "block_id": "T_5_77",
+      "type": "table",
+      "section": "Results",
+      "page": 5,
+      "bbox": [
+        55.0,
+        80.0,
+        905.0,
+        522.0
+      ],
+      "source_block_index": 77,
+      "alignment_status": "matched",
+      "caption": "Table 1. Characterization of polymers",
+      "table_body": "<table><tr><td>Polymer</td><td>IR (KBr)  $(cm^{-1})$ </td><td>NMR (DMSO- $D_6$ ) ( $\\delta$ )</td><td>Yield (%)</td></tr><tr><td rowspan=\"4\">1AQA-PPDI</td><td>3338</td><td rowspan=\"4\">12.76 (s, 1H, NH), 9.07 (s, 2H, ph), 8.99 (s, 1H, NH), 8.13 (d, 1H, AQ), 8.04 (d, 2H, AQ), 7.92 (m, 2H, AQ), 7.78 (d, 1H, AQ), 7.61 (d, 4H, DI), 7.48 (m, 1H, AQ)</td><td rowspan=\"4\">92</td></tr><tr><td>1670</td></tr><tr><td>1634</td></tr><tr><td>1598</td></tr><tr><td rowspan=\"4\">1AQA-NDI</td><td>3329</td><td rowspan=\"4\">12.75 (s, 1H, NH), 9.05 (s, 2H, ph), 8.98 (s, 1H, ph), 8.45 (s, 2H, NH), 8.33 (s, 2H, NH), 8.12 (d, 1H, AQ), 8.02 (d, 2H, AQ), 7.91 (m, 2H, AQ), 7.76 (d, 1H, AQ), 7.40 (m, 1H, AQ), 7.13 (d, 2H, DI), 7.11 (m, 2H, DI), 6.54 (d, 2H, DI)</td><td rowspan=\"4\">89</td></tr><tr><td>1664</td></tr><tr><td>1635</td></tr><tr><td>1594</td></tr><tr><td rowspan=\"4\">1AQA-MDI</td><td>3334</td><td rowspan=\"4\">12.72 (s, 1H, NH), 9.03 (s, 2H, ph), 8.96 (s, 1H, ph), 8.43 (s, 2H, NH), 8.31 (s, 2H, NH), 8.10 (d, 1H, AQ), 8.01 (d, 2H, AQ), 7.88 (m, 2H, AQ), 7.44 (m, 1H, AQ), 7.36 (d, 4H, DI), 3.84 (s, 2H, DI)</td><td rowspan=\"4\">93</td></tr><tr><td>1672</td></tr><tr><td>1640</td></tr><tr><td>161</td></tr><tr><td rowspan=\"4\">1AQA-H $_{12}$ MDI</td><td>3317</td><td rowspan=\"4\">12.68 (s, 1H, NH), 9.00 (s, 2H, ph), 8.92 (s, 1H, ph), 8.40 (s, 2H, NH), 8.29 (s, 2H, NH), 8.06 (d, 1H, AQ), 7.97 (d, 2H, AQ), 7.85 (m, 2H, AQ), 7.73 (d, 1H, AQ), 7.41 (m, 1H, AQ), 3.56 (m, 2H, DI), 1.50 (m, 8H, DI), 1.46 (m, 2H, DI), 1.22 (m, 8H, DI), 1.18 (d, 2H, DDI)</td><td rowspan=\"4\">88</td></tr><tr><td>1665</td></tr><tr><td>1638</td></tr><tr><td>1603</td></tr><tr><td rowspan=\"4\">2AQA-PPDI</td><td>3302</td><td rowspan=\"4\">12.70 (s, 1H, NH), 9.00 (s, 2H, ph), 8.94 (s, 1H, ph), 8.43 (s, 2H, NH), 8.31 (s, 2H, NH), 8.13 (s, 1H, AQ), 8.08 (d, 1H, AQ), 7.98 (d, 2H, AQ), 7.94 (d, 1H, AQ), 7.86 (m, 2H, AQ), 7.12 (d, 2H, DI), 7.09 (m, 2H, DI), 6.51 (d, 2H, DI)</td><td rowspan=\"4\">87</td></tr><tr><td>1668</td></tr><tr><td>1630</td></tr><tr><td>1590</td></tr><tr><td rowspan=\"4\">2AQA-NDI</td><td>3343</td><td rowspan=\"4\">12.72 (s, 1H, NH), 9.01 (s, 2H, ph), 8.95 (s, 1H, ph), 8.45 (s, 2H, NH), 8.32 (s, 2H, NH), 8.15 (s, 1H, AQ), 8.10 (d, 1H, AQ), 8.00 (d, 2H, AQ), 7.97 (d, 1H, AQ), 7.87 (m, 2H, AQ), 7.59 (d, 4H, DI)</td><td rowspan=\"4\">91</td></tr><tr><td>1659</td></tr><tr><td>1642</td></tr><tr><td>1589</td></tr><tr><td rowspan=\"4\">2AQA-MDI</td><td>3339</td><td rowspan=\"4\">12.68 (s, 1H, NH), 8.99 (s, 2H, ph), 8.93 (s, 1H, ph), 8.41 (s, 2H, NH), 8.30 (s, 2H, NH), 8.11 (s, 1H, AQ), 8.05 (d, 1H, AQ), 7.95 (d, 2H, AQ), 7.92 (d, 1H, AQ), 7.83 (m, 2H, AQ), 7.80 (d, 4H, DI), 7.33 (d, 4H, DI), 3.81 (s, 2H, DI)</td><td rowspan=\"4\">90</td></tr><tr><td>1672</td></tr><tr><td>1650</td></tr><tr><td>1589</td></tr><tr><td rowspan=\"4\">2AQA-H $_{12}$ MDI</td><td>3324</td><td rowspan=\"4\">12.65 (s, 1H, NH), 8.96 (s, 2H, ph), 8.90 (s, 1H, ph), 8.38 (s, 2H, NH), 8.26 (s, 2H, NH), 8.05 (s, 1H, AQ), 8.02 (d, 1H, AQ), 7.92 (d, 2H, AQ), 7.90 (d, 1H, AQ), 7.80 (m, 2H, AQ), 3.55 (m, 2H, DI), 1.48 (m, 8H, DI), 1.45 (m, 2H, DI), 1.20 (m, 8H, DI), 1.17 (d, 2H, DI)</td><td rowspan=\"4\">89</td></tr><tr><td>1674</td></tr><tr><td>1635</td></tr><tr><td>1597</td></tr></table>",
+      "table_cells": [
+        {
+          "cell_id": "T_5_77:r0000:c0000",
+          "row_index": 0,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Polymer",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_77:r0000:c0001",
+          "row_index": 0,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "IR (KBr) $(cm^{-1})$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_77:r0000:c0002",
+          "row_index": 0,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "NMR (DMSO- $D_6$ ) ( $\\delta$ )",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_77:r0000:c0003",
+          "row_index": 0,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Yield (%)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_77:r0001:c0000",
+          "row_index": 1,
+          "column_index": 0,
+          "row_span": 4,
+          "column_span": 1,
+          "text": "1AQA-PPDI",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_77:r0001:c0001",
+          "row_index": 1,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "3338",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_77:r0001:c0002",
+          "row_index": 1,
+          "column_index": 2,
+          "row_span": 4,
+          "column_span": 1,
+          "text": "12.76 (s, 1H, NH), 9.07 (s, 2H, ph), 8.99 (s, 1H, NH), 8.13 (d, 1H, AQ), 8.04 (d, 2H, AQ), 7.92 (m, 2H, AQ), 7.78 (d, 1H, AQ), 7.61 (d, 4H, DI), 7.48 (m, 1H, AQ)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_77:r0001:c0003",
+          "row_index": 1,
+          "column_index": 3,
+          "row_span": 4,
+          "column_span": 1,
+          "text": "92",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_77:r0002:c0001",
+          "row_index": 2,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1670",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_77:r0003:c0001",
+          "row_index": 3,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1634",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_77:r0004:c0001",
+          "row_index": 4,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1598",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_77:r0005:c0000",
+          "row_index": 5,
+          "column_index": 0,
+          "row_span": 4,
+          "column_span": 1,
+          "text": "1AQA-NDI",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_77:r0005:c0001",
+          "row_index": 5,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "3329",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_77:r0005:c0002",
+          "row_index": 5,
+          "column_index": 2,
+          "row_span": 4,
+          "column_span": 1,
+          "text": "12.75 (s, 1H, NH), 9.05 (s, 2H, ph), 8.98 (s, 1H, ph), 8.45 (s, 2H, NH), 8.33 (s, 2H, NH), 8.12 (d, 1H, AQ), 8.02 (d, 2H, AQ), 7.91 (m, 2H, AQ), 7.76 (d, 1H, AQ), 7.40 (m, 1H, AQ), 7.13 (d, 2H, DI), 7.11 (m, 2H, DI), 6.54 (d, 2H, DI)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_77:r0005:c0003",
+          "row_index": 5,
+          "column_index": 3,
+          "row_span": 4,
+          "column_span": 1,
+          "text": "89",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_77:r0006:c0001",
+          "row_index": 6,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1664",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_77:r0007:c0001",
+          "row_index": 7,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1635",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_77:r0008:c0001",
+          "row_index": 8,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1594",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_77:r0009:c0000",
+          "row_index": 9,
+          "column_index": 0,
+          "row_span": 4,
+          "column_span": 1,
+          "text": "1AQA-MDI",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_77:r0009:c0001",
+          "row_index": 9,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "3334",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_77:r0009:c0002",
+          "row_index": 9,
+          "column_index": 2,
+          "row_span": 4,
+          "column_span": 1,
+          "text": "12.72 (s, 1H, NH), 9.03 (s, 2H, ph), 8.96 (s, 1H, ph), 8.43 (s, 2H, NH), 8.31 (s, 2H, NH), 8.10 (d, 1H, AQ), 8.01 (d, 2H, AQ), 7.88 (m, 2H, AQ), 7.44 (m, 1H, AQ), 7.36 (d, 4H, DI), 3.84 (s, 2H, DI)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_77:r0009:c0003",
+          "row_index": 9,
+          "column_index": 3,
+          "row_span": 4,
+          "column_span": 1,
+          "text": "93",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_77:r0010:c0001",
+          "row_index": 10,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1672",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_77:r0011:c0001",
+          "row_index": 11,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1640",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_77:r0012:c0001",
+          "row_index": 12,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "161",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_77:r0013:c0000",
+          "row_index": 13,
+          "column_index": 0,
+          "row_span": 4,
+          "column_span": 1,
+          "text": "1AQA-H $_{12}$ MDI",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_77:r0013:c0001",
+          "row_index": 13,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "3317",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_77:r0013:c0002",
+          "row_index": 13,
+          "column_index": 2,
+          "row_span": 4,
+          "column_span": 1,
+          "text": "12.68 (s, 1H, NH), 9.00 (s, 2H, ph), 8.92 (s, 1H, ph), 8.40 (s, 2H, NH), 8.29 (s, 2H, NH), 8.06 (d, 1H, AQ), 7.97 (d, 2H, AQ), 7.85 (m, 2H, AQ), 7.73 (d, 1H, AQ), 7.41 (m, 1H, AQ), 3.56 (m, 2H, DI), 1.50 (m, 8H, DI), 1.46 (m, 2H, DI), 1.22 (m, 8H, DI), 1.18 (d, 2H, DDI)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_77:r0013:c0003",
+          "row_index": 13,
+          "column_index": 3,
+          "row_span": 4,
+          "column_span": 1,
+          "text": "88",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_77:r0014:c0001",
+          "row_index": 14,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1665",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_77:r0015:c0001",
+          "row_index": 15,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1638",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_77:r0016:c0001",
+          "row_index": 16,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1603",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_77:r0017:c0000",
+          "row_index": 17,
+          "column_index": 0,
+          "row_span": 4,
+          "column_span": 1,
+          "text": "2AQA-PPDI",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_77:r0017:c0001",
+          "row_index": 17,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "3302",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_77:r0017:c0002",
+          "row_index": 17,
+          "column_index": 2,
+          "row_span": 4,
+          "column_span": 1,
+          "text": "12.70 (s, 1H, NH), 9.00 (s, 2H, ph), 8.94 (s, 1H, ph), 8.43 (s, 2H, NH), 8.31 (s, 2H, NH), 8.13 (s, 1H, AQ), 8.08 (d, 1H, AQ), 7.98 (d, 2H, AQ), 7.94 (d, 1H, AQ), 7.86 (m, 2H, AQ), 7.12 (d, 2H, DI), 7.09 (m, 2H, DI), 6.51 (d, 2H, DI)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_77:r0017:c0003",
+          "row_index": 17,
+          "column_index": 3,
+          "row_span": 4,
+          "column_span": 1,
+          "text": "87",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_77:r0018:c0001",
+          "row_index": 18,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1668",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_77:r0019:c0001",
+          "row_index": 19,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1630",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_77:r0020:c0001",
+          "row_index": 20,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1590",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_77:r0021:c0000",
+          "row_index": 21,
+          "column_index": 0,
+          "row_span": 4,
+          "column_span": 1,
+          "text": "2AQA-NDI",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_77:r0021:c0001",
+          "row_index": 21,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "3343",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_77:r0021:c0002",
+          "row_index": 21,
+          "column_index": 2,
+          "row_span": 4,
+          "column_span": 1,
+          "text": "12.72 (s, 1H, NH), 9.01 (s, 2H, ph), 8.95 (s, 1H, ph), 8.45 (s, 2H, NH), 8.32 (s, 2H, NH), 8.15 (s, 1H, AQ), 8.10 (d, 1H, AQ), 8.00 (d, 2H, AQ), 7.97 (d, 1H, AQ), 7.87 (m, 2H, AQ), 7.59 (d, 4H, DI)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_77:r0021:c0003",
+          "row_index": 21,
+          "column_index": 3,
+          "row_span": 4,
+          "column_span": 1,
+          "text": "91",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_77:r0022:c0001",
+          "row_index": 22,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1659",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_77:r0023:c0001",
+          "row_index": 23,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1642",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_77:r0024:c0001",
+          "row_index": 24,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1589",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_77:r0025:c0000",
+          "row_index": 25,
+          "column_index": 0,
+          "row_span": 4,
+          "column_span": 1,
+          "text": "2AQA-MDI",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_77:r0025:c0001",
+          "row_index": 25,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "3339",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_77:r0025:c0002",
+          "row_index": 25,
+          "column_index": 2,
+          "row_span": 4,
+          "column_span": 1,
+          "text": "12.68 (s, 1H, NH), 8.99 (s, 2H, ph), 8.93 (s, 1H, ph), 8.41 (s, 2H, NH), 8.30 (s, 2H, NH), 8.11 (s, 1H, AQ), 8.05 (d, 1H, AQ), 7.95 (d, 2H, AQ), 7.92 (d, 1H, AQ), 7.83 (m, 2H, AQ), 7.80 (d, 4H, DI), 7.33 (d, 4H, DI), 3.81 (s, 2H, DI)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_77:r0025:c0003",
+          "row_index": 25,
+          "column_index": 3,
+          "row_span": 4,
+          "column_span": 1,
+          "text": "90",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_77:r0026:c0001",
+          "row_index": 26,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1672",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_77:r0027:c0001",
+          "row_index": 27,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1650",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_77:r0028:c0001",
+          "row_index": 28,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1589",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_77:r0029:c0000",
+          "row_index": 29,
+          "column_index": 0,
+          "row_span": 4,
+          "column_span": 1,
+          "text": "2AQA-H $_{12}$ MDI",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_77:r0029:c0001",
+          "row_index": 29,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "3324",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_77:r0029:c0002",
+          "row_index": 29,
+          "column_index": 2,
+          "row_span": 4,
+          "column_span": 1,
+          "text": "12.65 (s, 1H, NH), 8.96 (s, 2H, ph), 8.90 (s, 1H, ph), 8.38 (s, 2H, NH), 8.26 (s, 2H, NH), 8.05 (s, 1H, AQ), 8.02 (d, 1H, AQ), 7.92 (d, 2H, AQ), 7.90 (d, 1H, AQ), 7.80 (m, 2H, AQ), 3.55 (m, 2H, DI), 1.48 (m, 8H, DI), 1.45 (m, 2H, DI), 1.20 (m, 8H, DI), 1.17 (d, 2H, DI)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_77:r0029:c0003",
+          "row_index": 29,
+          "column_index": 3,
+          "row_span": 4,
+          "column_span": 1,
+          "text": "89",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_77:r0030:c0001",
+          "row_index": 30,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1674",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_77:r0031:c0001",
+          "row_index": 31,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1635",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_77:r0032:c0001",
+          "row_index": 32,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1597",
+          "is_header": false
+        }
+      ],
+      "image_path": "organized/reference_no_0038813/images/e419f26c95ac11cb80682b4b2a2c68b4b839e8aaea34c2f0b5c5898330ca6d12.jpg"
+    },
+    {
+      "block_id": "T_5_78",
+      "type": "table",
+      "section": "Results",
+      "page": 5,
+      "bbox": [
+        55.0,
+        581.0,
+        905.0,
+        899.0
+      ],
+      "source_block_index": 78,
+      "alignment_status": "matched",
+      "caption": "Table 2. Elemental analysis, viscosity, and molecular weights of polymers",
+      "table_body": "<table><tr><td rowspan=\"2\">Polymer</td><td colspan=\"3\">Elemental analysis (%)</td><td rowspan=\"2\"> $\\eta_{\\text{inh}}$  (dl/g) $^a$ </td><td rowspan=\"2\"> $M_n$ </td><td rowspan=\"2\"> $M_w$ </td><td rowspan=\"2\"> $M_w/M_n$ </td></tr><tr><td>C</td><td>H</td><td>N</td></tr><tr><td colspan=\"8\">1AQA-PPDI</td></tr><tr><td>Calcd</td><td>67.31</td><td>3.70</td><td>13.53</td><td></td><td></td><td></td><td></td></tr><tr><td>Found</td><td>67.08</td><td>3.48</td><td>13.77</td><td>0.73</td><td>22,000</td><td>48,500</td><td>2.20</td></tr><tr><td colspan=\"8\">1AQA-NDI</td></tr><tr><td>Calcd</td><td>69.84</td><td>3.73</td><td>12.34</td><td></td><td></td><td></td><td></td></tr><tr><td>Found</td><td>69.28</td><td>3.96</td><td>12.06</td><td>0.64</td><td>17,400</td><td>42,000</td><td>2.41</td></tr><tr><td colspan=\"8\">1AQA-MDI</td></tr><tr><td>Calcd</td><td>71.16</td><td>4.15</td><td>11.53</td><td></td><td></td><td></td><td></td></tr><tr><td>Found</td><td>70.97</td><td>3.99</td><td>11.74</td><td>0.66</td><td>20,500</td><td>47,900</td><td>2.34</td></tr><tr><td colspan=\"8\">1AQA-H $_{12}$ MDI</td></tr><tr><td>Calcd</td><td>69.77</td><td>6.02</td><td>11.30</td><td></td><td></td><td></td><td></td></tr><tr><td>Found</td><td>70.00</td><td>5.86</td><td>11.53</td><td>0.64</td><td>19,800</td><td>45,800</td><td>2.31</td></tr><tr><td colspan=\"8\">2AQA-PPDI</td></tr><tr><td>Calcd</td><td>67.31</td><td>3.70</td><td>13.53</td><td></td><td></td><td></td><td></td></tr><tr><td>Found</td><td>67.06</td><td>3.92</td><td>13.11</td><td>0.62</td><td>18,700</td><td>42,400</td><td>2.27</td></tr><tr><td colspan=\"8\">2AQA-NDI</td></tr><tr><td>Calcd</td><td>69.84</td><td>3.73</td><td>12.34</td><td></td><td></td><td></td><td></td></tr><tr><td>Found</td><td>69.22</td><td>3.98</td><td>12.04</td><td>0.54</td><td>14,200</td><td>35,700</td><td>2.51</td></tr><tr><td colspan=\"8\">2AQA-MDI</td></tr><tr><td>Calcd</td><td>71.16</td><td>4.15</td><td>11.53</td><td></td><td></td><td></td><td></td></tr><tr><td>Found</td><td>70.93</td><td>4.36</td><td>11.20</td><td>0.55</td><td>16,600</td><td>39,400</td><td>2.37</td></tr><tr><td colspan=\"8\">2AQA-H $_{12}$ MDI</td></tr><tr><td>Calcd</td><td>69.77</td><td>6.02</td><td>11.30</td><td></td><td></td><td></td><td></td></tr><tr><td>Found</td><td>69.98</td><td>6.26</td><td>11.03</td><td>0.56</td><td>17,600</td><td>42,000</td><td>2.39</td></tr></table>",
+      "table_cells": [
+        {
+          "cell_id": "T_5_78:r0000:c0000",
+          "row_index": 0,
+          "column_index": 0,
+          "row_span": 2,
+          "column_span": 1,
+          "text": "Polymer",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0000:c0001",
+          "row_index": 0,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 3,
+          "text": "Elemental analysis (%)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0000:c0004",
+          "row_index": 0,
+          "column_index": 4,
+          "row_span": 2,
+          "column_span": 1,
+          "text": "$\\eta_{\\text{inh}}$ (dl/g) $^a$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0000:c0005",
+          "row_index": 0,
+          "column_index": 5,
+          "row_span": 2,
+          "column_span": 1,
+          "text": "$M_n$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0000:c0006",
+          "row_index": 0,
+          "column_index": 6,
+          "row_span": 2,
+          "column_span": 1,
+          "text": "$M_w$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0000:c0007",
+          "row_index": 0,
+          "column_index": 7,
+          "row_span": 2,
+          "column_span": 1,
+          "text": "$M_w/M_n$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0001:c0001",
+          "row_index": 1,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "C",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0001:c0002",
+          "row_index": 1,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "H",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0001:c0003",
+          "row_index": 1,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "N",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0002:c0000",
+          "row_index": 2,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 8,
+          "text": "1AQA-PPDI",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0003:c0000",
+          "row_index": 3,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Calcd",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0003:c0001",
+          "row_index": 3,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "67.31",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0003:c0002",
+          "row_index": 3,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "3.70",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0003:c0003",
+          "row_index": 3,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "13.53",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0003:c0004",
+          "row_index": 3,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0003:c0005",
+          "row_index": 3,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0003:c0006",
+          "row_index": 3,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0003:c0007",
+          "row_index": 3,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0004:c0000",
+          "row_index": 4,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Found",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0004:c0001",
+          "row_index": 4,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "67.08",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0004:c0002",
+          "row_index": 4,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "3.48",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0004:c0003",
+          "row_index": 4,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "13.77",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0004:c0004",
+          "row_index": 4,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.73",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0004:c0005",
+          "row_index": 4,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "22,000",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0004:c0006",
+          "row_index": 4,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "48,500",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0004:c0007",
+          "row_index": 4,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "2.20",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0005:c0000",
+          "row_index": 5,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 8,
+          "text": "1AQA-NDI",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0006:c0000",
+          "row_index": 6,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Calcd",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0006:c0001",
+          "row_index": 6,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "69.84",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0006:c0002",
+          "row_index": 6,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "3.73",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0006:c0003",
+          "row_index": 6,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "12.34",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0006:c0004",
+          "row_index": 6,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0006:c0005",
+          "row_index": 6,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0006:c0006",
+          "row_index": 6,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0006:c0007",
+          "row_index": 6,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0007:c0000",
+          "row_index": 7,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Found",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0007:c0001",
+          "row_index": 7,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "69.28",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0007:c0002",
+          "row_index": 7,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "3.96",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0007:c0003",
+          "row_index": 7,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "12.06",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0007:c0004",
+          "row_index": 7,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.64",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0007:c0005",
+          "row_index": 7,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "17,400",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0007:c0006",
+          "row_index": 7,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "42,000",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0007:c0007",
+          "row_index": 7,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "2.41",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0008:c0000",
+          "row_index": 8,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 8,
+          "text": "1AQA-MDI",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0009:c0000",
+          "row_index": 9,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Calcd",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0009:c0001",
+          "row_index": 9,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "71.16",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0009:c0002",
+          "row_index": 9,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "4.15",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0009:c0003",
+          "row_index": 9,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "11.53",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0009:c0004",
+          "row_index": 9,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0009:c0005",
+          "row_index": 9,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0009:c0006",
+          "row_index": 9,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0009:c0007",
+          "row_index": 9,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0010:c0000",
+          "row_index": 10,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Found",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0010:c0001",
+          "row_index": 10,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "70.97",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0010:c0002",
+          "row_index": 10,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "3.99",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0010:c0003",
+          "row_index": 10,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "11.74",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0010:c0004",
+          "row_index": 10,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.66",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0010:c0005",
+          "row_index": 10,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "20,500",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0010:c0006",
+          "row_index": 10,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "47,900",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0010:c0007",
+          "row_index": 10,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "2.34",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0011:c0000",
+          "row_index": 11,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 8,
+          "text": "1AQA-H $_{12}$ MDI",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0012:c0000",
+          "row_index": 12,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Calcd",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0012:c0001",
+          "row_index": 12,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "69.77",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0012:c0002",
+          "row_index": 12,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "6.02",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0012:c0003",
+          "row_index": 12,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "11.30",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0012:c0004",
+          "row_index": 12,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0012:c0005",
+          "row_index": 12,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0012:c0006",
+          "row_index": 12,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0012:c0007",
+          "row_index": 12,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0013:c0000",
+          "row_index": 13,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Found",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0013:c0001",
+          "row_index": 13,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "70.00",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0013:c0002",
+          "row_index": 13,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "5.86",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0013:c0003",
+          "row_index": 13,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "11.53",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0013:c0004",
+          "row_index": 13,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.64",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0013:c0005",
+          "row_index": 13,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "19,800",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0013:c0006",
+          "row_index": 13,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "45,800",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0013:c0007",
+          "row_index": 13,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "2.31",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0014:c0000",
+          "row_index": 14,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 8,
+          "text": "2AQA-PPDI",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0015:c0000",
+          "row_index": 15,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Calcd",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0015:c0001",
+          "row_index": 15,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "67.31",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0015:c0002",
+          "row_index": 15,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "3.70",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0015:c0003",
+          "row_index": 15,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "13.53",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0015:c0004",
+          "row_index": 15,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0015:c0005",
+          "row_index": 15,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0015:c0006",
+          "row_index": 15,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0015:c0007",
+          "row_index": 15,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0016:c0000",
+          "row_index": 16,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Found",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0016:c0001",
+          "row_index": 16,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "67.06",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0016:c0002",
+          "row_index": 16,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "3.92",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0016:c0003",
+          "row_index": 16,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "13.11",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0016:c0004",
+          "row_index": 16,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.62",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0016:c0005",
+          "row_index": 16,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "18,700",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0016:c0006",
+          "row_index": 16,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "42,400",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0016:c0007",
+          "row_index": 16,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "2.27",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0017:c0000",
+          "row_index": 17,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 8,
+          "text": "2AQA-NDI",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0018:c0000",
+          "row_index": 18,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Calcd",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0018:c0001",
+          "row_index": 18,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "69.84",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0018:c0002",
+          "row_index": 18,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "3.73",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0018:c0003",
+          "row_index": 18,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "12.34",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0018:c0004",
+          "row_index": 18,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0018:c0005",
+          "row_index": 18,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0018:c0006",
+          "row_index": 18,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0018:c0007",
+          "row_index": 18,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0019:c0000",
+          "row_index": 19,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Found",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0019:c0001",
+          "row_index": 19,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "69.22",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0019:c0002",
+          "row_index": 19,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "3.98",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0019:c0003",
+          "row_index": 19,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "12.04",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0019:c0004",
+          "row_index": 19,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.54",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0019:c0005",
+          "row_index": 19,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "14,200",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0019:c0006",
+          "row_index": 19,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "35,700",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0019:c0007",
+          "row_index": 19,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "2.51",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0020:c0000",
+          "row_index": 20,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 8,
+          "text": "2AQA-MDI",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0021:c0000",
+          "row_index": 21,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Calcd",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0021:c0001",
+          "row_index": 21,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "71.16",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0021:c0002",
+          "row_index": 21,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "4.15",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0021:c0003",
+          "row_index": 21,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "11.53",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0021:c0004",
+          "row_index": 21,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0021:c0005",
+          "row_index": 21,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0021:c0006",
+          "row_index": 21,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0021:c0007",
+          "row_index": 21,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0022:c0000",
+          "row_index": 22,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Found",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0022:c0001",
+          "row_index": 22,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "70.93",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0022:c0002",
+          "row_index": 22,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "4.36",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0022:c0003",
+          "row_index": 22,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "11.20",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0022:c0004",
+          "row_index": 22,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.55",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0022:c0005",
+          "row_index": 22,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "16,600",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0022:c0006",
+          "row_index": 22,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "39,400",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0022:c0007",
+          "row_index": 22,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "2.37",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0023:c0000",
+          "row_index": 23,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 8,
+          "text": "2AQA-H $_{12}$ MDI",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0024:c0000",
+          "row_index": 24,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Calcd",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0024:c0001",
+          "row_index": 24,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "69.77",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0024:c0002",
+          "row_index": 24,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "6.02",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0024:c0003",
+          "row_index": 24,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "11.30",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0024:c0004",
+          "row_index": 24,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0024:c0005",
+          "row_index": 24,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0024:c0006",
+          "row_index": 24,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0024:c0007",
+          "row_index": 24,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0025:c0000",
+          "row_index": 25,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Found",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0025:c0001",
+          "row_index": 25,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "69.98",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0025:c0002",
+          "row_index": 25,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "6.26",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0025:c0003",
+          "row_index": 25,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "11.03",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0025:c0004",
+          "row_index": 25,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.56",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0025:c0005",
+          "row_index": 25,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "17,600",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0025:c0006",
+          "row_index": 25,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "42,000",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_78:r0025:c0007",
+          "row_index": 25,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "2.39",
+          "is_header": false
+        }
+      ],
+      "image_path": "organized/reference_no_0038813/images/92b822c927c65e903bf63a5c7a39db6d97646fe9a11334856a029f5925ccdd20.jpg"
+    },
+    {
+      "block_id": "P_6_82",
+      "type": "text",
+      "section": "Results",
+      "text": "",
+      "page": 6,
+      "bbox": [
+        89.0,
+        65.0,
+        499.0,
+        92.0
+      ],
+      "source_block_index": 82,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_6_83",
+      "type": "text",
+      "section": "Results",
+      "text": "Inherent viscosity which is a good criterion for the estimation of molecular weight is tabulated in Table 2. The molecular weights and dispersity of the polymers were investigated using the GPC method with DMF as a solvent calibrated with polystyrene standards. The results are compiled in Table 2. The numerous molecular weights $\\left( M _ { \\mathrm { n } } \\right)$ranged from 14,200 to 22,000 corresponding to a degree of polymerization between 25 and 42. The $M _ { \\mathrm { w } }$values were about 35,700–48,500 which means that the ratio of $M _ { \\mathrm { w } } / M _ { \\mathrm { n } }$was between 2.20 and 2.51. No monomers were found in the GPC chromatograms.",
+      "page": 6,
+      "bbox": [
+        87.0,
+        93.0,
+        500.0,
+        249.0
+      ],
+      "source_block_index": 83,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_6_83",
+        "V2_6_1_1",
+        "V2_6_1_3",
+        "V2_6_1_5"
+      ]
+    },
+    {
+      "block_id": "P_6_84",
+      "type": "text",
+      "section": "Results",
+      "text": "Thermal behavior of the polymers was studied using dynamic mechanical thermal analysis (DMTA). By increasing the temperature from 30 to $3 0 0 ^ { \\circ } \\mathrm { C }$, one transition was seen for the polymers at which tan d went through a maximum. This transition was related to the glass transition temperature of the polymers. Also DSC analysis confirmed data obtained from DMTA. The glass transition temperature $( T _ { \\mathrm { g } } )$was taken as the midpoint of the change in the slope of the baseline. Also, no polymer showed a clear melting endotherm which resulted from the amorphous nature of the polymers. Thermal analysis of the polymers is summarized in Table 3 and the representative curves of DMTA for 1AQA-PPDI $( T _ { \\mathrm { g } } =$1908C) and DSC for 1AQA-MDI $( T _ { \\mathrm { g } } { = } 1 7 8 ^ { \\circ } \\mathrm { C } )$are shown in Figs 4 and 5, respectively. The glass transition temperature of 1AQA-PPDI was higher than 1AQA-MDI due to the more rigidity of PPDI with respect to MDI structure.",
+      "page": 6,
+      "bbox": [
+        87.0,
+        249.0,
+        500.0,
+        476.0
+      ],
+      "source_block_index": 84,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_6_84",
+        "V2_6_2_1",
+        "V2_6_2_3",
+        "V2_6_2_5",
+        "V2_6_2_7"
+      ]
+    },
+    {
+      "block_id": "P_6_85",
+      "type": "text",
+      "section": "Results",
+      "text": "TGA provides the information about polymer stability upon heating and thermal behaviors of polymers. The temperatures for 2% gravimetric loss (T ) of the polyureas were about 192–2298C, and the temperatures for 10% gravimetric loss $( T _ { 1 0 } )$that are important criteria for the evaluation of thermal stability were in the range of $2 8 5 { - } 3 2 7 ^ { \\circ } \\mathrm { C } ,$and also the char yields of polymers at 7008C were about 36–49%. The results are collected in Table 3. The thermal stability of the polymers was dependent on the nature of diamines and diisocyanates. In the polymers derived from the same diamine and different diisocyanates, PPDI-derived polyurea showed the highest thermal stability, likely related to the fully aromatic and more symmetric structure of this polymer, whereas $\\mathrm { H } _ { 1 2 } \\mathrm { M D I }$-derived polyurea showed the lowest thermal stability, probably due to its weak aliphatic linkages. Also, from the diamine point of view, 1AQA-derived polymers from the same diisocyanate reveal higher thermal stability in comparison with 2AQAderived polymers due to the more symmetric, better growth of molecular weight, and close packing of polymer chain. A representative TGA curve for polymer 1AQA-PPDI is shown in Fig. 6.",
+      "page": 6,
+      "bbox": [
+        87.0,
+        476.0,
+        500.0,
+        691.0
+      ],
+      "source_block_index": 85,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_6_85",
+        "V2_6_3_1",
+        "V2_6_3_3",
+        "V2_6_3_5"
+      ]
+    },
+    {
+      "block_id": "T_6_86",
+      "type": "table",
+      "section": "Results",
+      "page": 6,
+      "bbox": [
+        90.0,
+        742.0,
+        510.0,
+        863.0
+      ],
+      "source_block_index": 86,
+      "alignment_status": "matched",
+      "caption": "Table 3. Thermal analysis of the polymers",
+      "table_body": "<table><tr><td>Polymer</td><td> $T_{g}$  (°C)</td><td> $T_{i}$  (°C)</td><td> $T_{10}$  (°C)</td><td> $T_{max}$  (°C)</td><td>Char yield at 700°C (%)</td></tr><tr><td>1AQA-PPDI</td><td>190</td><td>229</td><td>327</td><td>475</td><td>49</td></tr><tr><td>1AQA-NDI</td><td>185</td><td>223</td><td>320</td><td>471</td><td>46</td></tr><tr><td>1AQA-MDI</td><td>178</td><td>216</td><td>316</td><td>468</td><td>45</td></tr><tr><td>1AQA-H $_{12}$ MDI</td><td>156</td><td>200</td><td>291</td><td>449</td><td>38</td></tr><tr><td>2AQA-PPDI</td><td>184</td><td>224</td><td>322</td><td>472</td><td>47</td></tr><tr><td>2AQA-NDI</td><td>178</td><td>218</td><td>314</td><td>466</td><td>44</td></tr><tr><td>2AQA-MDI</td><td>168</td><td>212</td><td>310</td><td>461</td><td>43</td></tr><tr><td>2AQA-H $_{12}$ MDI</td><td>148</td><td>192</td><td>285</td><td>443</td><td>36</td></tr></table>",
+      "table_cells": [
+        {
+          "cell_id": "T_6_86:r0000:c0000",
+          "row_index": 0,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Polymer",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_86:r0000:c0001",
+          "row_index": 0,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$T_{g}$ (°C)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_86:r0000:c0002",
+          "row_index": 0,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$T_{i}$ (°C)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_86:r0000:c0003",
+          "row_index": 0,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$T_{10}$ (°C)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_86:r0000:c0004",
+          "row_index": 0,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$T_{max}$ (°C)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_86:r0000:c0005",
+          "row_index": 0,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Char yield at 700°C (%)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_86:r0001:c0000",
+          "row_index": 1,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1AQA-PPDI",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_86:r0001:c0001",
+          "row_index": 1,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "190",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_86:r0001:c0002",
+          "row_index": 1,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "229",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_86:r0001:c0003",
+          "row_index": 1,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "327",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_86:r0001:c0004",
+          "row_index": 1,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "475",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_86:r0001:c0005",
+          "row_index": 1,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "49",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_86:r0002:c0000",
+          "row_index": 2,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1AQA-NDI",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_86:r0002:c0001",
+          "row_index": 2,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "185",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_86:r0002:c0002",
+          "row_index": 2,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "223",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_86:r0002:c0003",
+          "row_index": 2,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "320",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_86:r0002:c0004",
+          "row_index": 2,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "471",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_86:r0002:c0005",
+          "row_index": 2,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "46",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_86:r0003:c0000",
+          "row_index": 3,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1AQA-MDI",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_86:r0003:c0001",
+          "row_index": 3,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "178",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_86:r0003:c0002",
+          "row_index": 3,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "216",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_86:r0003:c0003",
+          "row_index": 3,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "316",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_86:r0003:c0004",
+          "row_index": 3,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "468",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_86:r0003:c0005",
+          "row_index": 3,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "45",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_86:r0004:c0000",
+          "row_index": 4,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1AQA-H $_{12}$ MDI",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_86:r0004:c0001",
+          "row_index": 4,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "156",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_86:r0004:c0002",
+          "row_index": 4,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "200",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_86:r0004:c0003",
+          "row_index": 4,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "291",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_86:r0004:c0004",
+          "row_index": 4,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "449",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_86:r0004:c0005",
+          "row_index": 4,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "38",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_86:r0005:c0000",
+          "row_index": 5,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "2AQA-PPDI",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_86:r0005:c0001",
+          "row_index": 5,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "184",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_86:r0005:c0002",
+          "row_index": 5,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "224",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_86:r0005:c0003",
+          "row_index": 5,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "322",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_86:r0005:c0004",
+          "row_index": 5,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "472",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_86:r0005:c0005",
+          "row_index": 5,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "47",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_86:r0006:c0000",
+          "row_index": 6,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "2AQA-NDI",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_86:r0006:c0001",
+          "row_index": 6,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "178",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_86:r0006:c0002",
+          "row_index": 6,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "218",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_86:r0006:c0003",
+          "row_index": 6,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "314",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_86:r0006:c0004",
+          "row_index": 6,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "466",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_86:r0006:c0005",
+          "row_index": 6,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "44",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_86:r0007:c0000",
+          "row_index": 7,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "2AQA-MDI",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_86:r0007:c0001",
+          "row_index": 7,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "168",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_86:r0007:c0002",
+          "row_index": 7,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "212",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_86:r0007:c0003",
+          "row_index": 7,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "310",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_86:r0007:c0004",
+          "row_index": 7,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "461",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_86:r0007:c0005",
+          "row_index": 7,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "43",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_86:r0008:c0000",
+          "row_index": 8,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "2AQA-H $_{12}$ MDI",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_86:r0008:c0001",
+          "row_index": 8,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "148",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_86:r0008:c0002",
+          "row_index": 8,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "192",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_86:r0008:c0003",
+          "row_index": 8,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "285",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_86:r0008:c0004",
+          "row_index": 8,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "443",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_86:r0008:c0005",
+          "row_index": 8,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "36",
+          "is_header": false
+        }
+      ],
+      "image_path": "organized/reference_no_0038813/images/412402d6a6c21e504cd6426ec510e580b798d3d5854ca6b05e11e938ebbe2241.jpg"
+    },
+    {
+      "block_id": "I_6_87",
+      "type": "image",
+      "section": "Results",
+      "page": 6,
+      "bbox": [
+        537.0,
+        61.0,
+        936.0,
+        224.0
+      ],
+      "source_block_index": 87,
+      "alignment_status": "matched",
+      "caption": "Figure 4. DMTA curve of polymer 1AQA-PPDI.",
+      "image_path": "organized/reference_no_0038813/images/30332837349738eaf4cb7f196f7b1388ac5b9c0cdef63c38f96425942d32b9e7.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "P_6_88",
+      "type": "text",
+      "section": "Results",
+      "text": "",
+      "page": 6,
+      "bbox": [
+        529.0,
+        290.0,
+        942.0,
+        391.0
+      ],
+      "source_block_index": 88,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_6_89",
+      "type": "text",
+      "section": "Results",
+      "text": "Ultraviolet spectroscopy was used to study the optical properties of polymers. This spectrum provides information about the conjugation along the polymer backbone. The optical properties of polymers were investigated by measuring ultraviolet–visible (UV–Vis) absorption in NMP solution. The UV–Vis absorption data of the polymers are summarized in Table 4. These polymers had absorption maxima at 303–429 nm assignable to the Q Q<sup>-</sup> transition resulting from the conjugation between the aromatic rings and nitrogen atoms. Introduction of anthraquinone unit into the polymer backbone led to the appearance of the absorption maxima in the visible region.",
+      "page": 6,
+      "bbox": [
+        529.0,
+        391.0,
+        942.0,
+        477.0
+      ],
+      "source_block_index": 89,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "I_6_90",
+      "type": "image",
+      "section": "Results",
+      "page": 6,
+      "bbox": [
+        536.0,
+        508.0,
+        937.0,
+        638.0
+      ],
+      "source_block_index": 90,
+      "alignment_status": "matched",
+      "caption": "Figure 5. DSC curve of polymer 1AQA-MDI. This figure is available in colour online at www.interscience.wiley.com/ journal/pat",
+      "image_path": "organized/reference_no_0038813/images/b7617f46de6be3160f4dc2989b949cfa02913a9f98027603098635eba23e7307.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "I_6_91",
+      "type": "image",
+      "section": "Results",
+      "page": 6,
+      "bbox": [
+        536.0,
+        718.0,
+        937.0,
+        864.0
+      ],
+      "source_block_index": 91,
+      "alignment_status": "matched",
+      "caption": "Figure 6. TGA curve of polymer 1AQA-PPDI. This figure is available in colour online at www.interscience.wiley.com/ journal/pat",
+      "image_path": "organized/reference_no_0038813/images/2f0d7f9d2ea1e6eb17dda40ad08b4d5cb77732855fa4c97ad8c189952da24d95.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "T_7_97",
+      "type": "table",
+      "section": "Results",
+      "page": 7,
+      "bbox": [
+        55.0,
+        81.0,
+        463.0,
+        155.0
+      ],
+      "source_block_index": 97,
+      "alignment_status": "matched",
+      "caption": "Table 4. UV–Vis absorption of poly(amide-urea)s<sup>a</sup>",
+      "table_body": "<table><tr><td>Polymer</td><td> $\\lambda_{\\text{max}}$  (nm)</td><td>Polymer</td><td> $\\lambda_{\\text{max}}$  (nm)</td></tr><tr><td>1AQA-PPDI</td><td>401</td><td>2AQA-PPDI</td><td>384</td></tr><tr><td>1AQA-NDI</td><td>429</td><td>2AQA-NDI</td><td>410</td></tr><tr><td>1AQA-MDI</td><td>367</td><td>2AQA-MDI</td><td>355</td></tr><tr><td>1AQA-H $_{12}$ MDI</td><td>317</td><td>2AQA-H $_{12}$ MDI</td><td>303</td></tr></table>",
+      "table_cells": [
+        {
+          "cell_id": "T_7_97:r0000:c0000",
+          "row_index": 0,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Polymer",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_97:r0000:c0001",
+          "row_index": 0,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$\\lambda_{\\text{max}}$ (nm)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_97:r0000:c0002",
+          "row_index": 0,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Polymer",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_97:r0000:c0003",
+          "row_index": 0,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$\\lambda_{\\text{max}}$ (nm)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_97:r0001:c0000",
+          "row_index": 1,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1AQA-PPDI",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_97:r0001:c0001",
+          "row_index": 1,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "401",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_97:r0001:c0002",
+          "row_index": 1,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "2AQA-PPDI",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_97:r0001:c0003",
+          "row_index": 1,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "384",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_97:r0002:c0000",
+          "row_index": 2,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1AQA-NDI",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_97:r0002:c0001",
+          "row_index": 2,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "429",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_97:r0002:c0002",
+          "row_index": 2,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "2AQA-NDI",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_97:r0002:c0003",
+          "row_index": 2,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "410",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_97:r0003:c0000",
+          "row_index": 3,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1AQA-MDI",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_97:r0003:c0001",
+          "row_index": 3,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "367",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_97:r0003:c0002",
+          "row_index": 3,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "2AQA-MDI",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_97:r0003:c0003",
+          "row_index": 3,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "355",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_97:r0004:c0000",
+          "row_index": 4,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1AQA-H $_{12}$ MDI",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_97:r0004:c0001",
+          "row_index": 4,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "317",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_97:r0004:c0002",
+          "row_index": 4,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "2AQA-H $_{12}$ MDI",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_97:r0004:c0003",
+          "row_index": 4,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "303",
+          "is_header": false
+        }
+      ],
+      "image_path": "organized/reference_no_0038813/images/b9d5fd420e264403b1c28a113b5e2f2db242da07c35e3170c0c5c7911558a910.jpg"
+    },
+    {
+      "block_id": "T_7_98",
+      "type": "table",
+      "section": "Results",
+      "page": 7,
+      "bbox": [
+        55.0,
+        223.0,
+        463.0,
+        345.0
+      ],
+      "source_block_index": 98,
+      "alignment_status": "matched",
+      "caption": "Table 5. Solubility of poly(amide-urea)s",
+      "table_body": "<table><tr><td>Polymer</td><td>NMP</td><td>DMSO</td><td>DMF</td><td>DMAC</td><td>m-Cresol</td><td>THF</td></tr><tr><td>1AQA-PPDI</td><td>++</td><td>++</td><td>++</td><td>++</td><td>+</td><td>-</td></tr><tr><td>1AQA-NDI</td><td>++</td><td>++</td><td>++</td><td>++</td><td>+</td><td>±</td></tr><tr><td>1AQA-MDI</td><td>++</td><td>++</td><td>++</td><td>++</td><td>+</td><td>±</td></tr><tr><td>1AQA-H $_{12}$ MDI</td><td>++</td><td>++</td><td>++</td><td>++</td><td>++</td><td>+</td></tr><tr><td>2AQA-PPDI</td><td>++</td><td>++</td><td>++</td><td>++</td><td>+</td><td>-</td></tr><tr><td>2AQA-NDI</td><td>++</td><td>++</td><td>++</td><td>++</td><td>++</td><td>+</td></tr><tr><td>2AQA-MDI</td><td>++</td><td>++</td><td>++</td><td>++</td><td>+</td><td>±</td></tr><tr><td>2AQA-H $_{12}$ MDI</td><td>++</td><td>++</td><td>++</td><td>++</td><td>++</td><td>+</td></tr></table>",
+      "table_cells": [
+        {
+          "cell_id": "T_7_98:r0000:c0000",
+          "row_index": 0,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Polymer",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_98:r0000:c0001",
+          "row_index": 0,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "NMP",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_98:r0000:c0002",
+          "row_index": 0,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "DMSO",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_98:r0000:c0003",
+          "row_index": 0,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "DMF",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_98:r0000:c0004",
+          "row_index": 0,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "DMAC",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_98:r0000:c0005",
+          "row_index": 0,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "m-Cresol",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_98:r0000:c0006",
+          "row_index": 0,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "THF",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_98:r0001:c0000",
+          "row_index": 1,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1AQA-PPDI",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_98:r0001:c0001",
+          "row_index": 1,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "++",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_98:r0001:c0002",
+          "row_index": 1,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "++",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_98:r0001:c0003",
+          "row_index": 1,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "++",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_98:r0001:c0004",
+          "row_index": 1,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "++",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_98:r0001:c0005",
+          "row_index": 1,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "+",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_98:r0001:c0006",
+          "row_index": 1,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_98:r0002:c0000",
+          "row_index": 2,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1AQA-NDI",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_98:r0002:c0001",
+          "row_index": 2,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "++",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_98:r0002:c0002",
+          "row_index": 2,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "++",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_98:r0002:c0003",
+          "row_index": 2,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "++",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_98:r0002:c0004",
+          "row_index": 2,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "++",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_98:r0002:c0005",
+          "row_index": 2,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "+",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_98:r0002:c0006",
+          "row_index": 2,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "±",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_98:r0003:c0000",
+          "row_index": 3,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1AQA-MDI",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_98:r0003:c0001",
+          "row_index": 3,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "++",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_98:r0003:c0002",
+          "row_index": 3,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "++",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_98:r0003:c0003",
+          "row_index": 3,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "++",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_98:r0003:c0004",
+          "row_index": 3,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "++",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_98:r0003:c0005",
+          "row_index": 3,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "+",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_98:r0003:c0006",
+          "row_index": 3,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "±",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_98:r0004:c0000",
+          "row_index": 4,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1AQA-H $_{12}$ MDI",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_98:r0004:c0001",
+          "row_index": 4,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "++",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_98:r0004:c0002",
+          "row_index": 4,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "++",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_98:r0004:c0003",
+          "row_index": 4,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "++",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_98:r0004:c0004",
+          "row_index": 4,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "++",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_98:r0004:c0005",
+          "row_index": 4,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "++",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_98:r0004:c0006",
+          "row_index": 4,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "+",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_98:r0005:c0000",
+          "row_index": 5,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "2AQA-PPDI",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_98:r0005:c0001",
+          "row_index": 5,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "++",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_98:r0005:c0002",
+          "row_index": 5,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "++",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_98:r0005:c0003",
+          "row_index": 5,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "++",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_98:r0005:c0004",
+          "row_index": 5,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "++",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_98:r0005:c0005",
+          "row_index": 5,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "+",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_98:r0005:c0006",
+          "row_index": 5,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_98:r0006:c0000",
+          "row_index": 6,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "2AQA-NDI",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_98:r0006:c0001",
+          "row_index": 6,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "++",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_98:r0006:c0002",
+          "row_index": 6,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "++",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_98:r0006:c0003",
+          "row_index": 6,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "++",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_98:r0006:c0004",
+          "row_index": 6,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "++",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_98:r0006:c0005",
+          "row_index": 6,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "++",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_98:r0006:c0006",
+          "row_index": 6,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "+",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_98:r0007:c0000",
+          "row_index": 7,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "2AQA-MDI",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_98:r0007:c0001",
+          "row_index": 7,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "++",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_98:r0007:c0002",
+          "row_index": 7,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "++",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_98:r0007:c0003",
+          "row_index": 7,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "++",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_98:r0007:c0004",
+          "row_index": 7,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "++",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_98:r0007:c0005",
+          "row_index": 7,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "+",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_98:r0007:c0006",
+          "row_index": 7,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "±",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_98:r0008:c0000",
+          "row_index": 8,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "2AQA-H $_{12}$ MDI",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_98:r0008:c0001",
+          "row_index": 8,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "++",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_98:r0008:c0002",
+          "row_index": 8,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "++",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_98:r0008:c0003",
+          "row_index": 8,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "++",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_98:r0008:c0004",
+          "row_index": 8,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "++",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_98:r0008:c0005",
+          "row_index": 8,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "++",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_98:r0008:c0006",
+          "row_index": 8,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "+",
+          "is_header": false
+        }
+      ],
+      "image_path": "organized/reference_no_0038813/images/b2ffe5c4a9e6fe28b693268c8b7c87f9ae163cfecff6f873e79c8006412295c5.jpg"
+    },
+    {
+      "block_id": "P_7_99",
+      "type": "text",
+      "section": "Results",
+      "text": "",
+      "page": 7,
+      "bbox": [
+        53.0,
+        420.0,
+        465.0,
+        505.0
+      ],
+      "source_block_index": 99,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_7_100",
+      "type": "text",
+      "section": "Results",
+      "text": "The solubility behavior of the polyureas is summarized in Table 5. The polyureas dissolve readily in a variety of organic solvents including dimethylacetamide, m-cresol, NMP, dimethylsulfoxide. Aromatic polyureas derived from aromatic diisocyanates exhibited lower solubility in organic solvents in comparison with polyureas derived from aliphatic diisocyanate.",
+      "page": 7,
+      "bbox": [
+        53.0,
+        505.0,
+        465.0,
+        604.0
+      ],
+      "source_block_index": 100,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_7_101",
+      "type": "text",
+      "section": "Results",
+      "text": "The crystallinity of the polymers was examined by WAXD patterns obtained by the powder specimens in the region of 2u 5–708 at room temperature. The X-ray diffraction studies of the polyureas revealed that all of the polymers were amorphous. The amorphous nature of polyureas is reflected in their excellent solubility behavior. The excellent solubility characteristics and amorphous nature of polyureas were attributed to the meta-catenation of diamine compounds and presence of cardo anthraquinone groups that resulted in increasing chain distances and decreasing chain to chain interactions, which interrupted the close packing of polymer chains, thereby leading to an enhancement in solubility and a decrease in crystallinity in agreement with the general rule that the solubility decreases with increasing crystallinity.",
+      "page": 7,
+      "bbox": [
+        53.0,
+        604.0,
+        467.0,
+        776.0
+      ],
+      "source_block_index": 101,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_7_102",
+      "type": "text",
+      "section": "Results",
+      "text": "",
+      "page": 7,
+      "bbox": [
+        495.0,
+        64.0,
+        907.0,
+        108.0
+      ],
+      "source_block_index": 102,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_7_103",
+      "type": "title",
+      "section": "Conclusion",
+      "text": "CONCLUSION",
+      "page": 7,
+      "bbox": [
+        497.0,
+        131.0,
+        631.0,
+        147.0
+      ],
+      "source_block_index": 103,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_7_104",
+      "type": "text",
+      "section": "Conclusion",
+      "text": "Two amide containing diamine with bulky anthraquinone units were prepared via reactions of 1- and 2-aminoanthraquinone with 3,5-dinitrobenzoyl chloride and subsequent reduction of their nitro groups. Two series of poly(amide-urea)s were prepared from the polyaddition reactions of these two diamines with different diisocyanates. The effect of time and temperature on the molecular weights of polymer was studied. The poly(amide-urea)s had inherent viscosity in the range of 0.54–0.73 dl/g. The glass transition temperatures of these poly(amide-urea)s were in the range of 148–1908C, and they showed reasonable thermal stability by GA. According to the WAXD, the polymers were almost amorphous. These polymers showed absorption maxima at 303–429 nm in ultraviolet spectroscopy. Therefore, the polyureas showed high thermal stability and improved solubility that was mainly due to the presence of preformed amide group and anthraquinone unit.",
+      "page": 7,
+      "bbox": [
+        495.0,
+        154.0,
+        909.0,
+        397.0
+      ],
+      "source_block_index": 104,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_7_105",
+      "type": "title",
+      "section": "References",
+      "text": "REFERENCES",
+      "page": 7,
+      "bbox": [
+        499.0,
+        421.0,
+        621.0,
+        435.0
+      ],
+      "source_block_index": 105,
+      "alignment_status": "matched",
+      "title_level": 2
+    }
+  ],
+  "warnings": [
+    {
+      "code": "metadata_extraction_failed",
+      "message": "未配置统一 LLM 元数据提取器；document JSON 已继续生成"
+    }
+  ]
+}

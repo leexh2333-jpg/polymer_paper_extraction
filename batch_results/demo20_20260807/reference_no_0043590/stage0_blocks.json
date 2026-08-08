@@ -1,0 +1,2768 @@
+{
+  "schema_version": "1.1",
+  "source_document_schema_version": "1.0",
+  "document_id": "reference_no_0043590",
+  "paper": {
+    "ref_no": "reference_no_0043590",
+    "pdf_filename": "8fd43c94-53a2-4638-83c1-4f5fb64cce98_origin.pdf",
+    "source_pdf_path": "mineru_output/reference_no_0043590/8fd43c94-53a2-4638-83c1-4f5fb64cce98_origin.pdf",
+    "organized_pdf_path": "wenxian/reference_no_0043590/origin.pdf",
+    "doi": "10.1002/app.30177",
+    "title": "Multiple Percolation in a Carbon-Filled Polymer Composites via Foaming",
+    "authors": [
+      "M. R. Thompson",
+      "G. H. Motlagh",
+      "K. J. Oxby",
+      "A. N. Hrymak"
+    ],
+    "journal": "Journal of Applied Polymer Science",
+    "year": 2010,
+    "metadata_status": "complete",
+    "metadata_extraction": {
+      "method": "llm",
+      "provider": "volcengine",
+      "model": "doubao-seed-2-0-pro-260215",
+      "prompt_file": "prompts/meta_extract.md",
+      "prompt_sha256": "96d91fd20308fdaa013aaef055c4b873880414f84228b8c5983246b74d21271b",
+      "source_pages": [
+        0,
+        1
+      ],
+      "status": "success"
+    }
+  },
+  "source_files": {
+    "markdown": "reference_no_0043590.md",
+    "content_v1": "content.json",
+    "content_v2": "content_v2.json",
+    "pdf": "origin.pdf"
+  },
+  "ocr": {
+    "engine": "mineru",
+    "batch_id": "a2fa80d8-bb3d-43a9-a298-6438abdeb41a",
+    "model_version": "vlm",
+    "ocr_enabled": null,
+    "language": null,
+    "page_ranges": null,
+    "enable_formula": null,
+    "enable_table": null,
+    "extra_formats": null,
+    "status": "done",
+    "manifest_file": "batch_a2fa80d8-bb3d-43a9-a298-6438abdeb41a_manifest.json",
+    "status_file": "batch_a2fa80d8-bb3d-43a9-a298-6438abdeb41a_status.json"
+  },
+  "elements": [
+    {
+      "block_id": "P_0_0",
+      "type": "title",
+      "section": "DocumentTitle",
+      "text": "Multiple Percolation in a Carbon-Filled Polymer Composites via Foaming",
+      "page": 0,
+      "bbox": [
+        100.0,
+        93.0,
+        750.0,
+        145.0
+      ],
+      "source_block_index": 0,
+      "alignment_status": "matched",
+      "title_level": 1
+    },
+    {
+      "block_id": "P_0_1",
+      "type": "text",
+      "text": "M. R. Thompson,<sup>1</sup> G. H. Motlagh,<sup>2</sup> K. J. Oxby,<sup>1</sup> A. N. Hrymak<sup>1</sup>",
+      "page": 0,
+      "bbox": [
+        100.0,
+        170.0,
+        615.0,
+        188.0
+      ],
+      "source_block_index": 1,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_0_2",
+      "type": "text",
+      "text": "<sup>1</sup>MMRI/CAPPA-D Department of Chemical Engineering, McMaster University Hamilton, Ontario L8S 4L7, Canada <sup>2</sup>Department of Chemical Engineering, Faculty of Engineering, University of Tehran, Tehran, Iran 14395/1311",
+      "page": 0,
+      "bbox": [
+        100.0,
+        193.0,
+        880.0,
+        224.0
+      ],
+      "source_block_index": 2,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_0_3",
+      "type": "text",
+      "text": "Received 4 September 2008; accepted 9 November 2008",
+      "page": 0,
+      "bbox": [
+        100.0,
+        239.0,
+        463.0,
+        253.0
+      ],
+      "source_block_index": 3,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_0_4",
+      "type": "text",
+      "text": "DOI 10.1002/app.30177",
+      "page": 0,
+      "bbox": [
+        100.0,
+        251.0,
+        258.0,
+        265.0
+      ],
+      "source_block_index": 4,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_0_5",
+      "type": "text",
+      "text": "Published online 10 September 2009 in Wiley InterScience (www.interscience.wiley.com).",
+      "page": 0,
+      "bbox": [
+        100.0,
+        264.0,
+        680.0,
+        279.0
+      ],
+      "source_block_index": 5,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_0_6",
+      "type": "text",
+      "text": "ABSTRACT: This article describes an investigation into the effects of foaming on the electrical conductivity for a carbon-filled cyclic olefin copolymer (COC) composite incorporating both chopped carbon fibers (cCF) and carbon black (CB). Foamed and solid samples were injection molded and then analyzed for cell size, fiber length, fiber orientation, and electrical conductivity. Foamed samples exhibited higher electrical conductivity in the through-plane direction for materials containing only CB or composites containing both filler types, and reduced electrical conductivity in the cCF-",
+      "page": 0,
+      "bbox": [
+        98.0,
+        293.0,
+        488.0,
+        420.0
+      ],
+      "source_block_index": 6,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_0_7",
+      "type": "title",
+      "section": "Introduction",
+      "text": "INTRODUCTION",
+      "page": 0,
+      "bbox": [
+        223.0,
+        467.0,
+        363.0,
+        482.0
+      ],
+      "source_block_index": 7,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_0_8",
+      "type": "text",
+      "section": "Introduction",
+      "text": "The addition of conductive fillers such as metal or carbon in powder or fiber form to an insulative thermoplastic matrix can provide suitable pathways for electrons, resulting in conductivity values in the order of $1 0 ^ { - 5 } – 1 0 0 \\mathsf { S } / \\mathrm { c m } . ^ { \\sharp - 3 }$The concentrations of the conductive fillers must exceed their percolation threshold within the matrix (either individually or in combination) so that the dispersed additives are in suitable proximity to one another to allow electrons to traverse from one side of a molded part to the other. Generally, with the generation of a percolating network of filler in the polymer matrix there is an accompanying increase in material weight and decrease in processability as well as mechanical properties of a manufactured part. The foaming of polymers is known to improve impact and acoustical dampening properties,<sup>4</sup> decrease material density and improve processability by lowering matrix viscosity<sup>5</sup>; all properties which suffer with the high loading of a filler. However, there are few publications reporting on the electrical conductivity of foam polymer composites<sup>6,7</sup> and none examine the relationfilled composites. The increased electrical property gained by foaming was attributed to multiple percolation with CB aggregates forming more effective conductive clusters and networks in the continuous polymer phase during growth of the gas domains. A mechanism for the phenomenon was proposed based on these experimental observations. VC 2009 Wiley Periodicals, Inc. J Appl Polym Sci 115: 646–654, 2010",
+      "page": 0,
+      "bbox": [
+        96.0,
+        488.0,
+        488.0,
+        804.0
+      ],
+      "source_block_index": 8,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_0_8",
+        "V2_0_8_1"
+      ]
+    },
+    {
+      "block_id": "P_0_9",
+      "type": "text",
+      "section": "Introduction",
+      "text": "",
+      "page": 0,
+      "bbox": [
+        507.0,
+        293.0,
+        898.0,
+        383.0
+      ],
+      "source_block_index": 9,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_0_10",
+      "type": "text",
+      "section": "Introduction",
+      "text": "Key words: electrical conductivity; foam; polymer composite; carbon filler",
+      "page": 0,
+      "bbox": [
+        507.0,
+        392.0,
+        896.0,
+        420.0
+      ],
+      "source_block_index": 10,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_0_11",
+      "type": "text",
+      "section": "Introduction",
+      "text": "ship between filler morphology and foam structure in regards to electrical properties.",
+      "page": 0,
+      "bbox": [
+        507.0,
+        467.0,
+        896.0,
+        500.0
+      ],
+      "source_block_index": 11,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_0_12",
+      "type": "text",
+      "section": "Introduction",
+      "text": "The energy and electronics product sectors hold many opportunities for polymers provided the electrical properties of such soft matter can be improved without sacrificing those attributes, such as ease of forming and light weight, which drew engineers to consider their use. Previous work by the presenting authors has examined how combinations of fillers with different aspect ratios can maximize conductivity—while maintaining processability in conventional processing equipment.<sup>8</sup> It identified synergistic combinations of powders and fibers, which maximized electrical conductivity without significantly increasing viscosity. That work was followed-up with studies revealing the benefit that foaming could have on certain aspects of electrical conductivity.<sup>7</sup> Being the first article in this area of research, the mechanism for this improvement in electrical conductivity was hypothesized based on morphological observations of that system. The present work attempts to deconstruct the morphological contributions being made by powder and fiber additives to improve our understanding of the mechanism by which foaming improves electrical conductivity in injection-molded materials.",
+      "page": 0,
+      "bbox": [
+        506.0,
+        498.0,
+        900.0,
+        841.0
+      ],
+      "source_block_index": 12,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_0_13",
+      "type": "title",
+      "section": "Methods",
+      "text": "EXPERIMENTAL",
+      "page": 0,
+      "bbox": [
+        636.0,
+        860.0,
+        769.0,
+        875.0
+      ],
+      "source_block_index": 13,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_0_14",
+      "type": "title",
+      "section": "Methods",
+      "text": "Materials",
+      "page": 0,
+      "bbox": [
+        509.0,
+        883.0,
+        585.0,
+        898.0
+      ],
+      "source_block_index": 14,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_0_15",
+      "type": "text",
+      "section": "Methods",
+      "text": "Cyclic olefin copolymer (COC), an amorphous copolymer of ethylene and norbornene, (Topas 6013S-04 supplied by Ticona, MFR 14 g/10 min at 260-C,",
+      "page": 0,
+      "bbox": [
+        507.0,
+        904.0,
+        898.0,
+        951.0
+      ],
+      "source_block_index": 15,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "F_0_16",
+      "type": "footnote",
+      "section": "Methods",
+      "text": "Correspondence to: M. R. Thompson (mthomps@mcmaster. ca).",
+      "page": 0,
+      "bbox": [
+        98.0,
+        835.0,
+        485.0,
+        862.0
+      ],
+      "source_block_index": 16,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "F_0_17",
+      "type": "footnote",
+      "section": "Methods",
+      "text": "Contract grant sponsor: Ontario Centres of Excellence Emerging Materials and Knowledge program, Natural Science and Engineering Research Council of Canada, and the Iranian Ministry of Science.",
+      "page": 0,
+      "bbox": [
+        98.0,
+        862.0,
+        488.0,
+        914.0
+      ],
+      "source_block_index": 17,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "T_1_19",
+      "type": "table",
+      "section": "Methods",
+      "page": 1,
+      "bbox": [
+        100.0,
+        133.0,
+        485.0,
+        261.0
+      ],
+      "source_block_index": 19,
+      "alignment_status": "matched",
+      "caption": "TABLE I Properties of the Matrix Polymer and Conductive fillers",
+      "table_body": "<table><tr><td>Properties</td><td>COC</td><td>CB</td><td>cCF</td></tr><tr><td>Electrical conductivity (S/cm)</td><td> $<10^{-16}$ </td><td>10–100</td><td>625</td></tr><tr><td>Specific gravity</td><td>1.02</td><td>1.8</td><td>1.78</td></tr><tr><td>Bulk density (kg/m3)</td><td>510</td><td>100–120</td><td>360</td></tr><tr><td>Aggregate size (nm)</td><td>-</td><td>30–100</td><td>-</td></tr><tr><td>Pore volume (DBP, mL/100 g)</td><td>-</td><td>480–510</td><td>-</td></tr><tr><td>Surface area (m2/g)</td><td>-</td><td>1250</td><td>1.1</td></tr><tr><td>Fiber diameter (μm)</td><td>-</td><td>-</td><td>7.5</td></tr><tr><td>Fiber length (μm)</td><td>-</td><td>-</td><td>5000</td></tr></table>",
+      "table_cells": [
+        {
+          "cell_id": "T_1_19:r0000:c0000",
+          "row_index": 0,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Properties",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_1_19:r0000:c0001",
+          "row_index": 0,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "COC",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_1_19:r0000:c0002",
+          "row_index": 0,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "CB",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_1_19:r0000:c0003",
+          "row_index": 0,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "cCF",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_1_19:r0001:c0000",
+          "row_index": 1,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Electrical conductivity (S/cm)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_1_19:r0001:c0001",
+          "row_index": 1,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$<10^{-16}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_1_19:r0001:c0002",
+          "row_index": 1,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "10–100",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_1_19:r0001:c0003",
+          "row_index": 1,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "625",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_1_19:r0002:c0000",
+          "row_index": 2,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Specific gravity",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_1_19:r0002:c0001",
+          "row_index": 2,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1.02",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_1_19:r0002:c0002",
+          "row_index": 2,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1.8",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_1_19:r0002:c0003",
+          "row_index": 2,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1.78",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_1_19:r0003:c0000",
+          "row_index": 3,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Bulk density (kg/m3)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_1_19:r0003:c0001",
+          "row_index": 3,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "510",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_1_19:r0003:c0002",
+          "row_index": 3,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "100–120",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_1_19:r0003:c0003",
+          "row_index": 3,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "360",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_1_19:r0004:c0000",
+          "row_index": 4,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Aggregate size (nm)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_1_19:r0004:c0001",
+          "row_index": 4,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_1_19:r0004:c0002",
+          "row_index": 4,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "30–100",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_1_19:r0004:c0003",
+          "row_index": 4,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_1_19:r0005:c0000",
+          "row_index": 5,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Pore volume (DBP, mL/100 g)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_1_19:r0005:c0001",
+          "row_index": 5,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_1_19:r0005:c0002",
+          "row_index": 5,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "480–510",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_1_19:r0005:c0003",
+          "row_index": 5,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_1_19:r0006:c0000",
+          "row_index": 6,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Surface area (m2/g)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_1_19:r0006:c0001",
+          "row_index": 6,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_1_19:r0006:c0002",
+          "row_index": 6,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1250",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_1_19:r0006:c0003",
+          "row_index": 6,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1.1",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_1_19:r0007:c0000",
+          "row_index": 7,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Fiber diameter (μm)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_1_19:r0007:c0001",
+          "row_index": 7,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_1_19:r0007:c0002",
+          "row_index": 7,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_1_19:r0007:c0003",
+          "row_index": 7,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "7.5",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_1_19:r0008:c0000",
+          "row_index": 8,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Fiber length (μm)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_1_19:r0008:c0001",
+          "row_index": 8,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_1_19:r0008:c0002",
+          "row_index": 8,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_1_19:r0008:c0003",
+          "row_index": 8,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "5000",
+          "is_header": false
+        }
+      ],
+      "image_path": "wenxian/reference_no_0043590/images/table1.jpg"
+    },
+    {
+      "block_id": "P_1_20",
+      "type": "text",
+      "section": "Methods",
+      "text": "2.16 kg) was used as the matrix polymer. PANderived chopped carbon fiber (cCF) supplied by Asbury Carbons was used along with a high surface area carbon black (CB) from Akzo Nobel (Ketjenblack EC600JD) as conductive fillers. The properties of these two carbon fillers and the matrix polymer are given in Table I. A masterbatch exothermic chemical blowing agent (CBA, IM 2240) containing 20 wt % 5-phenyl tetrazol in polycarbonate was supplied by Dempsey Corporation. The onset of decomposition for the CBA was determined by thermogravimetric analysis to be 225-C with the majority of gas evolved at 240-C.",
+      "page": 1,
+      "bbox": [
+        96.0,
+        300.0,
+        488.0,
+        480.0
+      ],
+      "source_block_index": 20,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_1_21",
+      "type": "title",
+      "section": "Methods",
+      "text": "Preparation of composite materials",
+      "page": 1,
+      "bbox": [
+        98.0,
+        512.0,
+        363.0,
+        528.0
+      ],
+      "source_block_index": 21,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_1_22",
+      "type": "text",
+      "section": "Methods",
+      "text": "To probe the influence of foaming on the filler-produced electron pathways within our composite materials, a series of formulations were created using prepared masterbatches of 8 vol % CB in COC from a twin-screw extruder (Leistritz ZSE 27) and 40 vol % carbon fibers in COC using a single screw extruder (50 mm Davis-Standard). The twin-screw extruder operated at a nominal temperature of 260-C and 100 RPM with CB introduced into the melt by a side feeder half way down the length of the machine to minimize agglomeration. The single screw extruder operated at a nominal temperature of 260-C fitted with a deep channel, zero compression screw rotating at 20 RPM. The stated formulations below were then produced by dry blending these masterbatch materials with COC in the injection molding machine, along with 5 wt % of the foaming agent.",
+      "page": 1,
+      "bbox": [
+        96.0,
+        534.0,
+        488.0,
+        802.0
+      ],
+      "source_block_index": 22,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_1_23",
+      "type": "text",
+      "section": "Methods",
+      "text": "Single filler composites were prepared containing either 10 vol % cCF (COC/cCF10), or 3 vol % CB (COC/CB3). These carbon loading values were selected so that the final molded parts would exhibit a relatively high electrical conductivity to minimize measurement error, yet not so high that the resulting viscosity made them difficult to injection mold or foam. The viscosity of both materials was reported in a previous article to be quite similar during processing.<sup>8</sup> Two hybrid composites were prepared containing both CB and cCFs, one where the CB concentration was below its percolation threshold, with 1 vol % CB and the other above this critical value with 3 vol % CB. Both hybrid composites contained 10 vol % CF in addition to the stated CB content. The naming terminology used in this article for these two materials indicates the percent volume of cCF and CB in the polymer matrix. For example, COC/cCF10-CB1 corresponds to the material with 10 vol % cCF and 1 vol % CB mixed into COC. The viscosity curves of the individual filler composites and hybrid composites are summarized in Figure 1.",
+      "page": 1,
+      "bbox": [
+        96.0,
+        801.0,
+        488.0,
+        951.0
+      ],
+      "source_block_index": 23,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_1_24",
+      "type": "text",
+      "section": "Methods",
+      "text": "",
+      "page": 1,
+      "bbox": [
+        506.0,
+        104.0,
+        900.0,
+        285.0
+      ],
+      "source_block_index": 24,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_1_25",
+      "type": "title",
+      "section": "Methods",
+      "text": "Foam injection molding",
+      "page": 1,
+      "bbox": [
+        507.0,
+        309.0,
+        693.0,
+        325.0
+      ],
+      "source_block_index": 25,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_1_26",
+      "type": "text",
+      "section": "Methods",
+      "text": "Molded samples from the prepared materials were produced using an Arburg 55 ton injection molding machine with a rectangular center-gated mold. The shot size was controlled to 85% mold fill to allow for foam growth. The temperature profile of the plasticating unit and nozzle were set at 30, 210, 210, 250, 290, and 300-C, respectively, from the hopper to the nozzle so to prevent premature decomposition of CBA. These processing conditions were already shown to be optimal for obtaining high electrical conductivity.<sup>7</sup>",
+      "page": 1,
+      "bbox": [
+        506.0,
+        330.0,
+        900.0,
+        496.0
+      ],
+      "source_block_index": 26,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_1_27",
+      "type": "title",
+      "section": "Methods",
+      "text": "Analysis",
+      "page": 1,
+      "bbox": [
+        507.0,
+        520.0,
+        582.0,
+        535.0
+      ],
+      "source_block_index": 27,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_1_28",
+      "type": "text",
+      "section": "Methods",
+      "text": "The test specimens from each composite produced were prepared in accordance with our previous articles.<sup>7,8</sup> The 40 mm  10.5 mm rectangular samples, as shown in Figure 2, were used to measure electrical conductivity along the length (L) and thickness (T) axes. In some cases, the two surface faces in the LW plane were milled to remove the 0.6-mm skin layers from the top and bottom of the original 3-mm thick part. Apparent density (and hence porosity) was determined by the buoyancy method. In-plane measurements in the L direction $( \\sigma _ { L } )$were carried out by the four-probe method, whereas the two-probe method was used to measure electrical conductivity in the T direction $( \\sigma _ { T } ,$through plane). The voltage range used for these analyses was kept as close to 0.5–1 VDC as possible, to minimize the occurrence of joule heating. In-plane measurement, in accordance with ASTM C611, used the rectangular specimens (described earlier), which were placed between two gold-coated copper electrodes and a constant DC current was applied by an Agilent 6441C power source. The voltage drop was measured by a second set of probes between two points on the sample, separated by a distance of 30 mm, using an Agilent 3440A multimeter. Through-plane measurement of electrical conductivity was done between two gold-plated copper electrodes. To minimize the contact resistance, conductive carbon article (Technimat 6100-070 supplied by Lydall) was placed between the two electrode-sample surfaces. Constant DC current was applied while the sample was kept under a constant compressive pressure of 10 MPa and the potential drop was measured between the two electrodes. Bulk conductivity $( \\sigma _ { 3 D } )$that was the geometric average of values for the length, width, and through-plane direction were included in some analysis. The measurements of the fiber length distribution, fiber orientation factors $( f _ { L } , \\ f _ { W } , \\ { \\breve { f } } _ { T } )$, and foam structure were done by optical microscopy using digital image analysis software. Refer to our earlier article for details on measurement techniques used in this work.<sup>7,8</sup>",
+      "page": 1,
+      "bbox": [
+        506.0,
+        541.0,
+        900.0,
+        679.0
+      ],
+      "source_block_index": 28,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_1_28",
+        "V2_1_9_1",
+        "V2_1_9_3",
+        "V2_1_9_5",
+        "V2_1_9_7"
+      ]
+    },
+    {
+      "block_id": "I_1_29",
+      "type": "image",
+      "section": "Methods",
+      "page": 1,
+      "bbox": [
+        509.0,
+        691.0,
+        895.0,
+        913.0
+      ],
+      "source_block_index": 29,
+      "alignment_status": "matched",
+      "caption": "Figure 1 Shear viscosity curves for COC and the COC composites.",
+      "image_path": "wenxian/reference_no_0043590/images/fig1.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "I_2_33",
+      "type": "image",
+      "section": "Methods",
+      "page": 2,
+      "bbox": [
+        104.0,
+        103.0,
+        485.0,
+        307.0
+      ],
+      "source_block_index": 33,
+      "alignment_status": "matched",
+      "caption": "Figure 2 Prepared specimens from molded sample for electrical conductivity measurements.",
+      "image_path": "wenxian/reference_no_0043590/images/fig2.jpg",
+      "image_kind": "image"
+    },
+    {
+      "block_id": "P_2_34",
+      "type": "text",
+      "section": "Methods",
+      "text": "",
+      "page": 2,
+      "bbox": [
+        96.0,
+        358.0,
+        488.0,
+        850.0
+      ],
+      "source_block_index": 34,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_2_35",
+      "type": "title",
+      "section": "Results",
+      "text": "RESULTS AND DISCUSSION",
+      "page": 2,
+      "bbox": [
+        176.0,
+        882.0,
+        412.0,
+        897.0
+      ],
+      "source_block_index": 35,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_2_36",
+      "type": "text",
+      "section": "Results",
+      "text": "The variability in measured material attributes were generally small for bulk properties, although quite large for electrical conductivity, which tended to be much more sensitive to the heterogeneity of filler dispersion. For material density and foam cell size, the maximum standard deviation was 1.1% and 8%, respectively. Material density was used to confirm the filler concentration in the molded nonfoamed parts and determine the porosity of the foamed parts. The maximum standard deviations among fiber orientation factors $( f _ { L } , f _ { W } ,$and $f _ { T } )$was 24%. The lower standard deviation for $f _ { L }$was probably due to the fact that fibers were preferentially oriented in the L direction. For electrical conductivity, the maximum standard deviation was 74%, largest for the in-plane conductivity (r ) because of the small distance between the measuring probes.<sup>8,9</sup>",
+      "page": 2,
+      "bbox": [
+        96.0,
+        904.0,
+        488.0,
+        951.0
+      ],
+      "source_block_index": 36,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_2_36",
+        "V2_2_3_1",
+        "V2_2_3_3",
+        "V2_2_3_5"
+      ]
+    },
+    {
+      "block_id": "P_2_37",
+      "type": "text",
+      "section": "Results",
+      "text": "",
+      "page": 2,
+      "bbox": [
+        506.0,
+        104.0,
+        900.0,
+        314.0
+      ],
+      "source_block_index": 37,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_2_38",
+      "type": "title",
+      "section": "Results",
+      "text": "Foam morphology of the different materials",
+      "page": 2,
+      "bbox": [
+        507.0,
+        337.0,
+        841.0,
+        353.0
+      ],
+      "source_block_index": 38,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_2_39",
+      "type": "text",
+      "section": "Results",
+      "text": "With the addition of CBA to the different COC formulations, a porosity of 11–16% was achieved. Table II summarizes attributes of the foam samples for the CB filled, carbon fiber-filled, and hybrid-filled COC composites, made in comparison with a foamed COC material. The foam structure produced by injection molding of the unmodified COC demonstrated a broad range of cell sizes, with finer (<50 lm) bubbles located near the skin of the molded part and very large (>500 lm) bubbles along the centerline. Despite the broad range of sizes, most bubbles were found to be near spherical in the foamed COC. Conversely, the cells through the core of the different COC composites were more uniform in size except near the skin where the bubbles were highly elongated. SEM micrographs giving a cross-sectional view of the molded part for the foamed COC as well as COC/CB3 and COC/cCF10 are shown in Figure 3.",
+      "page": 2,
+      "bbox": [
+        506.0,
+        358.0,
+        900.0,
+        643.0
+      ],
+      "source_block_index": 39,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_2_40",
+      "type": "title",
+      "section": "Results",
+      "text": "CB-COC composite",
+      "page": 2,
+      "bbox": [
+        509.0,
+        664.0,
+        660.0,
+        681.0
+      ],
+      "source_block_index": 40,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_2_41",
+      "type": "text",
+      "section": "Results",
+      "text": "For the foamed composite with 3 vol % CB in the COC matrix, Table II noted that its average cell size was slightly reduced and there was a significant decrease in cell density compared with the foamed COC. Near the skin layer, the observed bubbles were elongated, although not as extensively as found with the cCF composite. Comparing SEM micrographs of the foamed and nonfoamed COC/ CB3, as seen in Figure 4, there was no detectable difference in CB dispersion caused by the foaming agent. The largest aggregates of CB found were 0.5 lm in both micrographs in comparison with the nominal cell diameter of 60 lm found in COC/CB3. This means the gas phase excluded a considerable volume within the molded part, which will not partake in the conduction of electrons.",
+      "page": 2,
+      "bbox": [
+        506.0,
+        686.0,
+        900.0,
+        793.0
+      ],
+      "source_block_index": 41,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "T_2_42",
+      "type": "table",
+      "section": "Results",
+      "page": 2,
+      "bbox": [
+        509.0,
+        835.0,
+        896.0,
+        944.0
+      ],
+      "source_block_index": 42,
+      "alignment_status": "matched",
+      "caption": "TABLE II Cell Size of the Foam Injection molded Composites",
+      "table_body": "<table><tr><td rowspan=\"2\">Sample</td><td rowspan=\"2\">Void Content (%)</td><td rowspan=\"2\">Cell Density (×106cells/cm3)</td><td colspan=\"3\">Cell Size (μm)</td></tr><tr><td> $D_n$ </td><td> $D_w$ </td><td> $D_{max}$ </td></tr><tr><td>COC</td><td>11</td><td>2.3</td><td>45</td><td>72</td><td>540</td></tr><tr><td>CB3</td><td>15</td><td>1.0</td><td>57</td><td>64</td><td>400</td></tr><tr><td>cCF10</td><td>15</td><td>5.0</td><td>30</td><td>35</td><td>200</td></tr><tr><td>cCF10-CB1</td><td>14</td><td>2.6</td><td>23</td><td>27</td><td>52</td></tr><tr><td>cCF10-CB3</td><td>16</td><td>2.5</td><td>28</td><td>35</td><td>72</td></tr></table>",
+      "table_cells": [
+        {
+          "cell_id": "T_2_42:r0000:c0000",
+          "row_index": 0,
+          "column_index": 0,
+          "row_span": 2,
+          "column_span": 1,
+          "text": "Sample",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_42:r0000:c0001",
+          "row_index": 0,
+          "column_index": 1,
+          "row_span": 2,
+          "column_span": 1,
+          "text": "Void Content (%)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_42:r0000:c0002",
+          "row_index": 0,
+          "column_index": 2,
+          "row_span": 2,
+          "column_span": 1,
+          "text": "Cell Density (×106cells/cm3)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_42:r0000:c0003",
+          "row_index": 0,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 3,
+          "text": "Cell Size (μm)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_42:r0001:c0003",
+          "row_index": 1,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$D_n$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_42:r0001:c0004",
+          "row_index": 1,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$D_w$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_42:r0001:c0005",
+          "row_index": 1,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$D_{max}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_42:r0002:c0000",
+          "row_index": 2,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "COC",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_42:r0002:c0001",
+          "row_index": 2,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "11",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_42:r0002:c0002",
+          "row_index": 2,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "2.3",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_42:r0002:c0003",
+          "row_index": 2,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "45",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_42:r0002:c0004",
+          "row_index": 2,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "72",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_42:r0002:c0005",
+          "row_index": 2,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "540",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_42:r0003:c0000",
+          "row_index": 3,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "CB3",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_42:r0003:c0001",
+          "row_index": 3,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "15",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_42:r0003:c0002",
+          "row_index": 3,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1.0",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_42:r0003:c0003",
+          "row_index": 3,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "57",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_42:r0003:c0004",
+          "row_index": 3,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "64",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_42:r0003:c0005",
+          "row_index": 3,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "400",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_42:r0004:c0000",
+          "row_index": 4,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "cCF10",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_42:r0004:c0001",
+          "row_index": 4,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "15",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_42:r0004:c0002",
+          "row_index": 4,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "5.0",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_42:r0004:c0003",
+          "row_index": 4,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "30",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_42:r0004:c0004",
+          "row_index": 4,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "35",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_42:r0004:c0005",
+          "row_index": 4,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "200",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_42:r0005:c0000",
+          "row_index": 5,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "cCF10-CB1",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_42:r0005:c0001",
+          "row_index": 5,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "14",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_42:r0005:c0002",
+          "row_index": 5,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "2.6",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_42:r0005:c0003",
+          "row_index": 5,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "23",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_42:r0005:c0004",
+          "row_index": 5,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "27",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_42:r0005:c0005",
+          "row_index": 5,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "52",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_42:r0006:c0000",
+          "row_index": 6,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "cCF10-CB3",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_42:r0006:c0001",
+          "row_index": 6,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "16",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_42:r0006:c0002",
+          "row_index": 6,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "2.5",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_42:r0006:c0003",
+          "row_index": 6,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "28",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_42:r0006:c0004",
+          "row_index": 6,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "35",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_42:r0006:c0005",
+          "row_index": 6,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "72",
+          "is_header": false
+        }
+      ],
+      "image_path": "wenxian/reference_no_0043590/images/table2.jpg"
+    },
+    {
+      "block_id": "I_3_46",
+      "type": "image",
+      "section": "Results",
+      "page": 3,
+      "bbox": [
+        106.0,
+        116.0,
+        479.0,
+        359.0
+      ],
+      "source_block_index": 46,
+      "alignment_status": "matched",
+      "image_path": "wenxian/reference_no_0043590/images/fig1.jpg",
+      "image_kind": "image"
+    },
+    {
+      "block_id": "I_3_47",
+      "type": "image",
+      "section": "Results",
+      "page": 3,
+      "bbox": [
+        106.0,
+        372.0,
+        480.0,
+        618.0
+      ],
+      "source_block_index": 47,
+      "alignment_status": "matched",
+      "image_path": "wenxian/reference_no_0043590/images/fig2.jpg",
+      "image_kind": "image"
+    },
+    {
+      "block_id": "I_3_48",
+      "type": "image",
+      "section": "Results",
+      "page": 3,
+      "bbox": [
+        106.0,
+        630.0,
+        480.0,
+        876.0
+      ],
+      "source_block_index": 48,
+      "alignment_status": "matched",
+      "caption": "Figure 3 SEM image showing the cell morphology for (a) COC, (b) COC/CB3, and (c) COC/cCF10 composite in the LT plane. L, horizontal direction and T, vertical direction. Filler particles are not detectable at given resolution.",
+      "image_path": "wenxian/reference_no_0043590/images/fig3.jpg",
+      "image_kind": "image"
+    },
+    {
+      "block_id": "P_3_49",
+      "type": "text",
+      "section": "Results",
+      "text": "",
+      "page": 3,
+      "bbox": [
+        506.0,
+        104.0,
+        898.0,
+        239.0
+      ],
+      "source_block_index": 49,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_3_50",
+      "type": "text",
+      "section": "Results",
+      "text": "The electrical conductivity was measured in-plane and through-plane for the foam composite samples and compared against their solid counterparts. Neat COC was not included in this measurement as its conductivity lies below the resolution of our instrument. Figure 5 summarizes the values of $\\sigma _ { L } , \\sigma _ { T } ,$and average conductivity (r <sub>D</sub>) for these materials, with and without the skin layer removed. For the nonfoamed composite, $\\sigma _ { L }$was larger $( 1 0 ^ { - 2 } \\ \\mathrm { S / c m } )$than r<sub>T</sub> by almost three orders of magnitude with the skin in place yet after removing the skin (0.6 mm on each side) the through-plane value was only one order of magnitude smaller. The poor transmission of electrons through the skin layer is typical for injection molded parts of carbon filler composites, as noted by Drubetski et al.<sup>10</sup> in their examination of materials containing CB, carbon fibers, or a combination of both. The solid filler particles are concentrated within the molten matrix near the mid-plane of the part due to the shear–stress profile. This \"filler localization\" effect was similarly observed for the foamed specimen, although through-plane conductivity was notably improved even with the skin remaining. Conductivity was increased in all measured planes for the foamed COC/CB3 material, although most notably in the through-plane direction. The in-plane conductivity was approximately in order of magnitude higher than the nonfoamed sample, and this value did not change with the removal of the skin. The through-plane conductivity for the foamed sample (with skin) was comparable in value to the nonfoamed sample with the skin removed. With removal of the skin, $\\sigma _ { T }$for the foamed COC/CB3 sample was now only 50% lower than the in-plane conductivity.",
+      "page": 3,
+      "bbox": [
+        506.0,
+        239.0,
+        898.0,
+        374.0
+      ],
+      "source_block_index": 50,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_3_50",
+        "V2_3_4_1",
+        "V2_3_4_3",
+        "V2_3_4_5",
+        "V2_3_4_7"
+      ]
+    },
+    {
+      "block_id": "I_3_51",
+      "type": "image",
+      "section": "Results",
+      "page": 3,
+      "bbox": [
+        512.0,
+        400.0,
+        893.0,
+        635.0
+      ],
+      "source_block_index": 51,
+      "alignment_status": "matched",
+      "image_path": "wenxian/reference_no_0043590/images/fig3.jpg",
+      "image_kind": "image"
+    },
+    {
+      "block_id": "I_3_52",
+      "type": "image",
+      "section": "Results",
+      "page": 3,
+      "bbox": [
+        512.0,
+        651.0,
+        893.0,
+        887.0
+      ],
+      "source_block_index": 52,
+      "alignment_status": "matched",
+      "caption": "Figure 4 Close-up examination of fractured surface of COC/CB3 composite, (a) nonfoamed specimen and (b) foamed specimen, by SEM. CB appears as small clusters of spherical particles in the fractured surface of the matrix.",
+      "image_path": "wenxian/reference_no_0043590/images/fig4.jpg",
+      "image_kind": "image"
+    },
+    {
+      "block_id": "I_4_56",
+      "type": "image",
+      "section": "Results",
+      "page": 4,
+      "bbox": [
+        100.0,
+        104.0,
+        484.0,
+        304.0
+      ],
+      "source_block_index": 56,
+      "alignment_status": "matched",
+      "caption": "Figure 5 Electrical conductivity of injection-molded COC/CB3 composites tested with LW skin present, and after removing 0.6 mm LW skin from both sides.",
+      "image_path": "wenxian/reference_no_0043590/images/fig5.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "P_4_57",
+      "type": "text",
+      "section": "Results",
+      "text": "",
+      "page": 4,
+      "bbox": [
+        96.0,
+        371.0,
+        488.0,
+        756.0
+      ],
+      "source_block_index": 57,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_4_58",
+      "type": "text",
+      "section": "Results",
+      "text": "The observed enhancement in conductivity for the foamed COC/CB3 indicated a more segregated network of CB aggregates in the matrix due to the volume excluded by the gas phase. Possibly more interesting was the greater isotropy of electrical conductivity found for the foamed sample over its nonfoamed counterpart. With no localization of the carbon aggregates detected at the bubble boundary by SEM, these conductivity measurements suggest that the bubble growth in our samples resulted in more uniform dispersion of these aggregates throughout the matrix, partially countering filler localization caused by the flow field. The reduced shear viscosity often found with gas-laden melts would have additionally helped in reducing filler localization.",
+      "page": 4,
+      "bbox": [
+        96.0,
+        756.0,
+        488.0,
+        951.0
+      ],
+      "source_block_index": 58,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_4_59",
+      "type": "text",
+      "section": "Results",
+      "text": "",
+      "page": 4,
+      "bbox": [
+        507.0,
+        104.0,
+        898.0,
+        137.0
+      ],
+      "source_block_index": 59,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_4_60",
+      "type": "title",
+      "section": "Results",
+      "text": "Carbon fiber-COC composite",
+      "page": 4,
+      "bbox": [
+        507.0,
+        162.0,
+        730.0,
+        177.0
+      ],
+      "source_block_index": 60,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_4_61",
+      "type": "text",
+      "section": "Results",
+      "text": "The porosity and cell size of the foamed composite containing 10 vol % cCF was found to be similar to the foamed COC/CB3 composite, as noted in Table II. The most notable difference in foam morphology for the cCF-filled composite was the greater frequency of elongated bubbles found in comparison with the CB-filled foam. The micrograph included in Figure 3 for this composite demonstrates these two foam morphologies. The elongated bubbles formed foam of low-cellular density near the skin layers of the part, oriented according to the fountain flow field present as the cavity filled. In the core region, the bubbles were more spherical and the cell density was considerably higher than near the skin. The majority of cells were in the range of 30-70 lm, which was similar in magnitude to the average fiber length in the composite. SEM analysis found no evidence of cell nucleation occurring at a fiber, indicating the additive did not likely act as a significant nucleating agent in the process. Table III lists the weight average fiber lengths found in the foamed and nonfoamed composites prepared by the injection molding machine. It appears that foaming had no significant effect on the degree of fiber breakage occurring as COC/cCF10 was being processed.",
+      "page": 4,
+      "bbox": [
+        506.0,
+        183.0,
+        900.0,
+        555.0
+      ],
+      "source_block_index": 61,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_4_62",
+      "type": "text",
+      "section": "Results",
+      "text": "The influence of foaming on fiber orientation was determined by orientation factors for all three axes [i.e., in-plane longitudinal (f<sub>L</sub>), in-plane transverse (f<sub>W</sub>), and through plane (f<sub>T</sub>)]. Table IV summarizes the orientation factors calculated from optical micrographs of skin and core regions from the injectionmolded composites. Limiting our analysis for this section to the COC/cCF10 composite, it can be seen that no significant differences in fiber orientation were noted between foamed and nonfoamed samples, and very little difference was found in the morphology between the core and skin regions. Fibers were being oriented due to viscous forces, whereas the expansive forces of a bubble near a fiber had no influence. The low $f _ { T }$value indicates that only a few fibers were orientated out of plane, precluding the skin region where all fibers were highly aligned inplane by shear. The $f _ { L }$and $f _ { W }$values indicate that the in-plane fibers were randomly oriented, although to a slightly lesser degree in the skin layer.",
+      "page": 4,
+      "bbox": [
+        506.0,
+        555.0,
+        900.0,
+        795.0
+      ],
+      "source_block_index": 62,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_4_62",
+        "V2_4_6_1",
+        "V2_4_6_3",
+        "V2_4_6_5"
+      ]
+    },
+    {
+      "block_id": "T_4_63",
+      "type": "table",
+      "section": "Results",
+      "page": 4,
+      "bbox": [
+        507.0,
+        837.0,
+        896.0,
+        914.0
+      ],
+      "source_block_index": 63,
+      "alignment_status": "matched",
+      "caption": "TABLE III Fiber Length in Carbon Fiber Filled Composites",
+      "table_body": "<table><tr><td>Sample</td><td>Description</td><td>Wt. Average Length ( $\\mu m$ ) $^{a}$ </td></tr><tr><td>cCF10</td><td>Nonfoamed</td><td>172</td></tr><tr><td>cCF10</td><td>Foamed</td><td>181</td></tr><tr><td>cCF10-CB3</td><td>Nonfoamed</td><td>188</td></tr><tr><td>cCF10-CB3</td><td>Foamed</td><td>207</td></tr></table>",
+      "table_cells": [
+        {
+          "cell_id": "T_4_63:r0000:c0000",
+          "row_index": 0,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Sample",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_63:r0000:c0001",
+          "row_index": 0,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Description",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_63:r0000:c0002",
+          "row_index": 0,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Wt. Average Length ( $\\mu m$ ) $^{a}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_63:r0001:c0000",
+          "row_index": 1,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "cCF10",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_63:r0001:c0001",
+          "row_index": 1,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Nonfoamed",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_63:r0001:c0002",
+          "row_index": 1,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "172",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_63:r0002:c0000",
+          "row_index": 2,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "cCF10",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_63:r0002:c0001",
+          "row_index": 2,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Foamed",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_63:r0002:c0002",
+          "row_index": 2,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "181",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_63:r0003:c0000",
+          "row_index": 3,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "cCF10-CB3",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_63:r0003:c0001",
+          "row_index": 3,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Nonfoamed",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_63:r0003:c0002",
+          "row_index": 3,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "188",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_63:r0004:c0000",
+          "row_index": 4,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "cCF10-CB3",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_63:r0004:c0001",
+          "row_index": 4,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Foamed",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_63:r0004:c0002",
+          "row_index": 4,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "207",
+          "is_header": false
+        }
+      ],
+      "image_path": "wenxian/reference_no_0043590/images/table3.jpg"
+    },
+    {
+      "block_id": "T_5_67",
+      "type": "table",
+      "section": "Results",
+      "page": 5,
+      "bbox": [
+        100.0,
+        144.0,
+        485.0,
+        337.0
+      ],
+      "source_block_index": 67,
+      "alignment_status": "matched",
+      "caption": "TABLE IV Fiber Orientation factors of the Injection molded Composites",
+      "table_body": "<table><tr><td>Sample</td><td>Void Content (%)</td><td>Location</td><td> $f_T$ </td><td> $f_L$ </td><td> $f_W$ </td></tr><tr><td rowspan=\"4\">cCF10</td><td rowspan=\"2\">0</td><td>Core</td><td>0.12</td><td>0.50</td><td>0.39</td></tr><tr><td>Skin</td><td>0.04</td><td>0.61</td><td>0.35</td></tr><tr><td rowspan=\"2\">15</td><td>Core</td><td>0.105</td><td>0.585</td><td>0.310</td></tr><tr><td>Skin</td><td>0.040</td><td>0.610</td><td>0.347</td></tr><tr><td rowspan=\"4\">cCF10CB1</td><td rowspan=\"2\">0</td><td>Core</td><td>0.082</td><td>0.62</td><td>0.30</td></tr><tr><td>Skin</td><td>0.030</td><td>0.68</td><td>0.29</td></tr><tr><td rowspan=\"2\">14</td><td>Core</td><td>0.055</td><td>0.67</td><td>0.27</td></tr><tr><td>Skin</td><td>0.043</td><td>0.660</td><td>0.300</td></tr><tr><td rowspan=\"4\">cCF10CB3</td><td rowspan=\"2\">0</td><td>Core</td><td>0.118</td><td>0.63</td><td>0.25</td></tr><tr><td>Skin</td><td>0.027</td><td>0.710</td><td>0.260</td></tr><tr><td rowspan=\"2\">16</td><td>Core</td><td>0.200</td><td>0.50</td><td>0.29</td></tr><tr><td>Skin</td><td>0.040</td><td>0.680</td><td>0.280</td></tr></table>",
+      "table_cells": [
+        {
+          "cell_id": "T_5_67:r0000:c0000",
+          "row_index": 0,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Sample",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_67:r0000:c0001",
+          "row_index": 0,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Void Content (%)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_67:r0000:c0002",
+          "row_index": 0,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Location",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_67:r0000:c0003",
+          "row_index": 0,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$f_T$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_67:r0000:c0004",
+          "row_index": 0,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$f_L$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_67:r0000:c0005",
+          "row_index": 0,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$f_W$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_67:r0001:c0000",
+          "row_index": 1,
+          "column_index": 0,
+          "row_span": 4,
+          "column_span": 1,
+          "text": "cCF10",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_67:r0001:c0001",
+          "row_index": 1,
+          "column_index": 1,
+          "row_span": 2,
+          "column_span": 1,
+          "text": "0",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_67:r0001:c0002",
+          "row_index": 1,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Core",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_67:r0001:c0003",
+          "row_index": 1,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.12",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_67:r0001:c0004",
+          "row_index": 1,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.50",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_67:r0001:c0005",
+          "row_index": 1,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.39",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_67:r0002:c0002",
+          "row_index": 2,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Skin",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_67:r0002:c0003",
+          "row_index": 2,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.04",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_67:r0002:c0004",
+          "row_index": 2,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.61",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_67:r0002:c0005",
+          "row_index": 2,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.35",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_67:r0003:c0001",
+          "row_index": 3,
+          "column_index": 1,
+          "row_span": 2,
+          "column_span": 1,
+          "text": "15",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_67:r0003:c0002",
+          "row_index": 3,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Core",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_67:r0003:c0003",
+          "row_index": 3,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.105",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_67:r0003:c0004",
+          "row_index": 3,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.585",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_67:r0003:c0005",
+          "row_index": 3,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.310",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_67:r0004:c0002",
+          "row_index": 4,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Skin",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_67:r0004:c0003",
+          "row_index": 4,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.040",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_67:r0004:c0004",
+          "row_index": 4,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.610",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_67:r0004:c0005",
+          "row_index": 4,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.347",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_67:r0005:c0000",
+          "row_index": 5,
+          "column_index": 0,
+          "row_span": 4,
+          "column_span": 1,
+          "text": "cCF10CB1",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_67:r0005:c0001",
+          "row_index": 5,
+          "column_index": 1,
+          "row_span": 2,
+          "column_span": 1,
+          "text": "0",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_67:r0005:c0002",
+          "row_index": 5,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Core",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_67:r0005:c0003",
+          "row_index": 5,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.082",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_67:r0005:c0004",
+          "row_index": 5,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.62",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_67:r0005:c0005",
+          "row_index": 5,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.30",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_67:r0006:c0002",
+          "row_index": 6,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Skin",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_67:r0006:c0003",
+          "row_index": 6,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.030",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_67:r0006:c0004",
+          "row_index": 6,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.68",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_67:r0006:c0005",
+          "row_index": 6,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.29",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_67:r0007:c0001",
+          "row_index": 7,
+          "column_index": 1,
+          "row_span": 2,
+          "column_span": 1,
+          "text": "14",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_67:r0007:c0002",
+          "row_index": 7,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Core",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_67:r0007:c0003",
+          "row_index": 7,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.055",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_67:r0007:c0004",
+          "row_index": 7,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.67",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_67:r0007:c0005",
+          "row_index": 7,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.27",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_67:r0008:c0002",
+          "row_index": 8,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Skin",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_67:r0008:c0003",
+          "row_index": 8,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.043",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_67:r0008:c0004",
+          "row_index": 8,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.660",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_67:r0008:c0005",
+          "row_index": 8,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.300",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_67:r0009:c0000",
+          "row_index": 9,
+          "column_index": 0,
+          "row_span": 4,
+          "column_span": 1,
+          "text": "cCF10CB3",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_67:r0009:c0001",
+          "row_index": 9,
+          "column_index": 1,
+          "row_span": 2,
+          "column_span": 1,
+          "text": "0",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_67:r0009:c0002",
+          "row_index": 9,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Core",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_67:r0009:c0003",
+          "row_index": 9,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.118",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_67:r0009:c0004",
+          "row_index": 9,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.63",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_67:r0009:c0005",
+          "row_index": 9,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.25",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_67:r0010:c0002",
+          "row_index": 10,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Skin",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_67:r0010:c0003",
+          "row_index": 10,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.027",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_67:r0010:c0004",
+          "row_index": 10,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.710",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_67:r0010:c0005",
+          "row_index": 10,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.260",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_67:r0011:c0001",
+          "row_index": 11,
+          "column_index": 1,
+          "row_span": 2,
+          "column_span": 1,
+          "text": "16",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_67:r0011:c0002",
+          "row_index": 11,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Core",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_67:r0011:c0003",
+          "row_index": 11,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.200",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_67:r0011:c0004",
+          "row_index": 11,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.50",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_67:r0011:c0005",
+          "row_index": 11,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.29",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_67:r0012:c0002",
+          "row_index": 12,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Skin",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_67:r0012:c0003",
+          "row_index": 12,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.040",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_67:r0012:c0004",
+          "row_index": 12,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.680",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_67:r0012:c0005",
+          "row_index": 12,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.280",
+          "is_header": false
+        }
+      ],
+      "image_path": "wenxian/reference_no_0043590/images/table4.jpg"
+    },
+    {
+      "block_id": "P_5_68",
+      "type": "text",
+      "section": "Results",
+      "text": "",
+      "page": 5,
+      "bbox": [
+        98.0,
+        356.0,
+        488.0,
+        417.0
+      ],
+      "source_block_index": 68,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_5_69",
+      "type": "text",
+      "section": "Results",
+      "text": "Figure 6 shows the electrical conductivities for nonfoamed and foamed injection-molded samples with the COC/cCF10 composite, both in their original state and after their skin layers were removed. For the original nonfoamed COC/cCF10 material, $\\sigma _ { L }$was 2–3 orders of magnitude larger than $\\sigma _ { T } .$This follows with the orientation factor data, which indicated the fibers formed electron pathways due to their preferential alignment in the LW plane yet very little connectivity existed between planes to allow for through-plane current flow. Removing the skin had no effect on $\\sigma _ { L }$or $\\sigma _ { T }$despite differences in the orientation factor $f _ { T }$between the core and skin layers. Foaming this exclusively fiber-filled composite resulted in a slight decrease in the conductivity for the $L$direction and up to two orders of magnitude decrease in the T direction. Neither result corresponds with fiber orientation data, which indicated no difference between the nonfoamed and foamed sample. With the skin removed from the foamed sample, both $\\sigma _ { L }$and $\\sigma _ { T }$were found to be significantly lower than the nonfoamed sample or even the foamed sample with skin.",
+      "page": 5,
+      "bbox": [
+        96.0,
+        416.0,
+        488.0,
+        758.0
+      ],
+      "source_block_index": 69,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_5_69",
+        "V2_5_2_1",
+        "V2_5_2_3",
+        "V2_5_2_5",
+        "V2_5_2_7",
+        "V2_5_2_9",
+        "V2_5_2_11",
+        "V2_5_2_13",
+        "V2_5_2_15"
+      ]
+    },
+    {
+      "block_id": "P_5_70",
+      "type": "text",
+      "section": "Results",
+      "text": "The conductivity data demonstrated little sensitivity to the minor differences in fiber orientation found between foamed and nonfoamed samples (with and without skin removal). Presumably much larger changes in the fiber direction, particularly out of plane, are needed to have a notable change in conductivity. As a result, the reduced conductivity of the foamed material was not attributed to orientation changes but rather largely related to the now present gas phase. Unfortunately, the effect of segregation on the carbon filler by foaming, which enhanced the electron pathways for the CB-filled composite, was not seen with carbon fibers. This is attributable to the relatively higher tendency for smaller particulate like CB aggregates to redistribute within shear flow during bubble growth in comparison with the considerably larger carbon fibers. This phenomenon shall be discussed in greater detail later in this article.",
+      "page": 5,
+      "bbox": [
+        96.0,
+        756.0,
+        488.0,
+        951.0
+      ],
+      "source_block_index": 70,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_5_71",
+      "type": "text",
+      "section": "Results",
+      "text": "",
+      "page": 5,
+      "bbox": [
+        507.0,
+        104.0,
+        900.0,
+        195.0
+      ],
+      "source_block_index": 71,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_5_72",
+      "type": "title",
+      "section": "Results",
+      "text": "Hybrid carbon fiber/CB-COC composite",
+      "page": 5,
+      "bbox": [
+        507.0,
+        218.0,
+        809.0,
+        234.0
+      ],
+      "source_block_index": 72,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_5_73",
+      "type": "text",
+      "section": "Results",
+      "text": "Hybrid filler systems were examined in this work as a means of increasing the conductivity of a polymer composite material, while attempting to maintain rheological properties within the range of economical processing technologies such as extrusion or injection molding. Two hybrid-filled composites were prepared, with the CB concentration below and above its inherent percolation threshold. Noted in Table II, the measured cell size was slightly smaller and much more uniform for both hybrid composites in comparison with the other foamed materials made in this study. As with COC/CB3 and COC/cCF10, the bubble size was similar in scale to the fibers yet much larger than the CB aggregates. The difference in CB concentration between the two hybrid materials had no discernable effect on the foam morphology.",
+      "page": 5,
+      "bbox": [
+        506.0,
+        240.0,
+        900.0,
+        477.0
+      ],
+      "source_block_index": 73,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_5_74",
+      "type": "text",
+      "section": "Results",
+      "text": "Despite its comparatively high viscosity, the fiber length of the nonfoamed COC/cCF10-CB3 was comparable with COC/cCF10, as reported in Table III. More interesting was the significantly longer fibers found in the foamed hybrid material compared with all other materials listed in the table. The addition of the CBA reduced the degree of fiber breakage occurring in the injection molding machine for this material. It is possible that the same phenomenon occurred for COC/cCF10 although the magnitude of error in the fiber length measurement made distinguishing such a change difficult. As observed in previous work,<sup>5,11</sup> blowing agents may act as plasticizers in a melt during processing, which reduces the level of stresses in the flow field acting on fibers. The lower than expected fiber breakage in the hybrid material despite its higher viscosity was thought to indicate that the CB participated in minimizing fiber damage. Rather than acting as a plasticizer as the blowing agent, CB interactions in the flow field increased the non-Newtonian nature of the melt [referring to the flow curves in Fig. 1] and with more plug-like flow characteristics of the hybrid material, fewer fibers experienced damaging shear forces.",
+      "page": 5,
+      "bbox": [
+        506.0,
+        477.0,
+        900.0,
+        687.0
+      ],
+      "source_block_index": 74,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "I_5_75",
+      "type": "image",
+      "section": "Results",
+      "page": 5,
+      "bbox": [
+        509.0,
+        702.0,
+        893.0,
+        901.0
+      ],
+      "source_block_index": 75,
+      "alignment_status": "matched",
+      "caption": "Figure 6 Electrical conductivity of solid and foam injection-molded COC/cCF10 composites, with skin and after machining off skin.",
+      "image_path": "wenxian/reference_no_0043590/images/fig6.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "P_6_79",
+      "type": "text",
+      "section": "Results",
+      "text": "",
+      "page": 6,
+      "bbox": [
+        96.0,
+        104.0,
+        488.0,
+        254.0
+      ],
+      "source_block_index": 79,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_6_80",
+      "type": "text",
+      "section": "Results",
+      "text": "Fiber orientation in the hybrid composites was reported in Table IV. For both composites, COC/ cCF10-CB1 and COC/cCF10-CB3, the fibers in-plane were found to be more preferentially oriented in the direction of flow as noted by the lower $f _ { W }$and higher f<sub>L</sub>values shown in the table compared with COC/cCF10. For COC/cCF10-CB1, there was no notable difference in the orientation of fibers between the skin and core regions or between foamed and nonfoamed samples. Through-plane orientation was negligible for COC/cCF10-CB1 yet for COC/cCF10- CB3 there were now more fibers directed out of plane in the core region as a result of foaming. The increased out of plane orientation found in the presence of foaming is in agreement with previous results.<sup>7</sup> In that earlier work, it was found that fiber orientation related to foaming occurs for only a narrow processing window and filler concentrations. The data in Table IV also show that $f _ { L }$decreased and $f _ { W }$increased for the foamed sample of COC/ cCF10-CB3 indicating the influence of bubble growth on fiber orientation were seen in all planes.",
+      "page": 6,
+      "bbox": [
+        96.0,
+        253.0,
+        488.0,
+        580.0
+      ],
+      "source_block_index": 80,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_6_80",
+        "V2_6_1_1",
+        "V2_6_1_3",
+        "V2_6_1_5"
+      ]
+    },
+    {
+      "block_id": "P_6_81",
+      "type": "text",
+      "section": "Results",
+      "text": "The measured electrical conductivities of the COC/ cCF-CB composites are plotted in Figure 7. In general, the conductivities of these composites, nonfoam or foam, depended on the concentration of the CB included in the formulation. For the hybrid containing 1 vol % CB, the conductivities in both L and T directions were similar to the carbon fiber containing composite (COC/cCF10). When the CB content exceeded its percolation threshold, the conductivities of the hybrid (COC/cCF10-CB3) more closely resembled the CB containing composite (COC/CB3), although being one order of magnitude higher in both L and T directions. As found in our earlier work,<sup>8</sup> the two fillers synergistically participated in electron pathways to bring about higher conductivity values than that observed due to the individual components. With foaming, $\\sigma _ { L }$was not significantly changed and yet through-plane conductivity made a marked increase for the hybrid composites, even with only 1 vol % CB. Indeed, the more than one order of magnitude drop in through-plane electrical conductivity found in the carbon fiber composites due to foaming had turned into a more than one order of magnitude improvement with the hybrids. Skin removal improved $\\sigma _ { T }$across parts made from either nonfoamed hybrid composite by approximately one order of magnitude but did not remarkably affect $\\sigma _ { L } ; \\mathrm { ~ a ~ }$behavior consistent with COC/CB3. For the foamed hybrid composites, skin removal had no significant effect on $\\sigma _ { T , \\astrosun }$which remained similar to the foams with skins and now with the nonfoamed materials after their skins were removed. $\\sigma _ { L }$dropped by an order of magnitude for the foam hybrid with 1 vol % CB with its skin removed suggesting that considerable conduction was taking place in the skin layer, yet for the 3 vol % CB containing hybrid, conduction in the skin and core were similar.",
+      "page": 6,
+      "bbox": [
+        96.0,
+        579.0,
+        488.0,
+        951.0
+      ],
+      "source_block_index": 81,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_6_81",
+        "V2_6_2_1",
+        "V2_6_2_3",
+        "V2_6_2_5",
+        "V2_6_2_7",
+        "V2_6_2_9"
+      ]
+    },
+    {
+      "block_id": "I_6_82",
+      "type": "image",
+      "section": "Results",
+      "page": 6,
+      "bbox": [
+        509.0,
+        106.0,
+        895.0,
+        304.0
+      ],
+      "source_block_index": 82,
+      "alignment_status": "matched",
+      "image_path": "wenxian/reference_no_0043590/images/fig4.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "I_6_83",
+      "type": "image",
+      "section": "Results",
+      "page": 6,
+      "bbox": [
+        509.0,
+        313.0,
+        895.0,
+        511.0
+      ],
+      "source_block_index": 83,
+      "alignment_status": "matched",
+      "caption": "Figure 7 Electrical conductivity of hybrid cCF10/CB composite with skin present and after LW skin removal (0.6 mm), a) 1 vol % CB and b) 3 vol % CB.",
+      "image_path": "wenxian/reference_no_0043590/images/fig7.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "P_6_84",
+      "type": "text",
+      "section": "Results",
+      "text": "",
+      "page": 6,
+      "bbox": [
+        506.0,
+        574.0,
+        900.0,
+        754.0
+      ],
+      "source_block_index": 84,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_6_85",
+      "type": "title",
+      "section": "Results",
+      "text": "General discussion",
+      "page": 6,
+      "bbox": [
+        507.0,
+        779.0,
+        657.0,
+        795.0
+      ],
+      "source_block_index": 85,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_6_86",
+      "type": "text",
+      "section": "Results",
+      "text": "It was established in our previous work that hybrid composites possess synergistic conductive properties and through foaming under specific operating conditions and at specific filler concentrations that this conductivity can be increased further.<sup>7,8</sup> Through foaming, fiber orientation assumed a slightly more random state and through-plane conductivity showed the most notable improvement for such hybrid materials. Because of the observed changes in fiber orientation for the foamed hybrid composite, the increase in conductivity was attributed in that case to the effect that bubble growth was having on the fibers during injection mold filling flow. However, the present work attempted to separate the effect on the individual components to examine this hypothesis and the results suggest that the gain in conductivity by foaming was predominantly related to changes in the CB dispersion.",
+      "page": 6,
+      "bbox": [
+        506.0,
+        800.0,
+        900.0,
+        951.0
+      ],
+      "source_block_index": 86,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "I_7_90",
+      "type": "image",
+      "section": "Results",
+      "page": 7,
+      "bbox": [
+        104.0,
+        106.0,
+        482.0,
+        353.0
+      ],
+      "source_block_index": 90,
+      "alignment_status": "matched",
+      "caption": "Figure 8 SEM micrograph of COC/cCF10 demonstrating isolation of carbon fibers by bubble growth during injection molding.",
+      "image_path": "wenxian/reference_no_0043590/images/fig8.jpg",
+      "image_kind": "image"
+    },
+    {
+      "block_id": "P_7_91",
+      "type": "text",
+      "section": "Results",
+      "text": "",
+      "page": 7,
+      "bbox": [
+        98.0,
+        430.0,
+        488.0,
+        550.0
+      ],
+      "source_block_index": 91,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_7_92",
+      "type": "text",
+      "section": "Results",
+      "text": "Exclusively considering foaming in a homogeneous conductive material, it would be expected that bubble growth would have a negative influence on electrical conductivity due to the resulting volume exclusion. However, for the heterogeneous systems being considered in this article, foaming created a multiphase material with altered morphology for the carbon fillers present in the continuous polymer phase. The resulting effect on conductivity is referred to as multiple percolation because both filler and material must create their own continuous percolating network across the part. Multiple percolation has been studied for quite some time in CB-filled immiscible polymer blends<sup>12,13</sup> and to a lesser degree with carbon fibers immiscible blends<sup>14</sup> or hybrid carbon fillers in an immiscible blend,<sup>15</sup> as means to enhance conductivity without negatively impacting the polymer’s performance. In fact, crystallization can similarly provide this multiple percolation effect because the filler will be excluded from the crystals; an issue purposely avoided in this work by selecting the amorphous COC for the study. In the case of CB as seen in the foamed COC/CB3, the CB-rich polymer phase created by foaming showed increased electrical conductivity in all directions. The gas domains in the molded part did not hinder electron pathways but rather assisted in carbon aggregate formation across the material. SEM micrographs [as represented by Fig. 3] showed no evidence of an increased density of CB at the gas-polymer interface, so it was believed the filler remained well dispersed within the polymer phase. Carbon fibers, such as in foamed COC/cCF10, did not demonstrate the same beneficial gain in electrical conductivity as CB and this was likely attributed to their relatively large dimensions. Carbon fibers can be viewed as more rigid, discrete entities in the viscous polymer matrix compared with CB aggregates, and so cannot be as easily displaced by a growing bubble. The SEM micrograph in Figure 8 shows a common occurrence of a fiber surrounded by domains of gas (i.e., bubbles). For foaming in an injection molding process, the fibers do not enter into a foam cell (which we have noted in batch foaming of carbon fiber filled material) but rather can become isolated from existing conductive pathways of the molded part if too many cells grow in the region. In combination with the volume exclusion effect of the gas phase, the overall electrical conductivity of a fiber-filled part decreases—at least at the low-fiber concentrations being pursued in this work to maintain processibility.",
+      "page": 7,
+      "bbox": [
+        96.0,
+        550.0,
+        490.0,
+        951.0
+      ],
+      "source_block_index": 92,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_7_93",
+      "type": "text",
+      "section": "Results",
+      "text": "",
+      "page": 7,
+      "bbox": [
+        506.0,
+        104.0,
+        900.0,
+        446.0
+      ],
+      "source_block_index": 93,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_7_94",
+      "type": "text",
+      "section": "Results",
+      "text": "For the hybrid composites, the effect of multiple percolation was most notable in the through-plane direction because fewer pathways originally existed and any change in morphology would have a more notable effect. The small improvement in out of plane reorientation of fibers due to bubble growth in COC/cCF10-CB3 likely made a minor contribution to the enhanced conductivity and demonstrated a unique possibility for foaming to create more randomly oriented fiber filled structures if the phenomenon can be properly understood and controlled. However, the major gain in conductivity for both hybrid materials was considered as CB forming more aggregates between the in-plane layers of fibers to span the through-plane part thickness. A proposed mechanism for the increased conductivity is presented in Figure 9 based on the response of the individual filler-COC composites to foaming.",
+      "page": 7,
+      "bbox": [
+        506.0,
+        445.0,
+        900.0,
+        596.0
+      ],
+      "source_block_index": 94,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "I_7_95",
+      "type": "image",
+      "section": "Results",
+      "page": 7,
+      "bbox": [
+        528.0,
+        613.0,
+        876.0,
+        914.0
+      ],
+      "source_block_index": 95,
+      "alignment_status": "matched",
+      "caption": "Figure 9 Conceptual model of morphological changes in the hybrid composite resulting from bubble growth.",
+      "image_path": "wenxian/reference_no_0043590/images/fig9.jpg",
+      "image_kind": "image"
+    },
+    {
+      "block_id": "P_8_99",
+      "type": "text",
+      "section": "Results",
+      "text": "",
+      "page": 8,
+      "bbox": [
+        96.0,
+        104.0,
+        488.0,
+        225.0
+      ],
+      "source_block_index": 99,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_8_100",
+      "type": "title",
+      "section": "Conclusion",
+      "text": "CONCLUSIONS",
+      "page": 8,
+      "bbox": [
+        228.0,
+        243.0,
+        358.0,
+        258.0
+      ],
+      "source_block_index": 100,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_8_101",
+      "type": "text",
+      "section": "Conclusion",
+      "text": "The work improves our fundamental understanding of the mechanism by which electrical conductivity has increased by foaming in a CB/cCF filled thermoplastic. The electrical conductivity of a foamed carbon-filled polymer was increased through multiple percolation. Producing a CB-rich polymer phase through foaming led to increased conductivity, both in-plane and in the through-plane direction, whereas for carbon fiber, the opposite effect was observed. Aggregates of CB were readily displaced by bubble growth, whereas fibers remain fixed in position within the viscous polymer matrix and as a result, portions of fibers become nonconductive as many became isolated from existing pathways due to the gas phase. The combination of CB and carbon fiber provided synergistic effect that led to improved through plane conductivity with foaming. The result of this mechanism is a more highly conductive polymer, particular in the through-plane direction, while maintaining suitable processability for more economical processing methods such as injection molding.",
+      "page": 8,
+      "bbox": [
+        96.0,
+        266.0,
+        488.0,
+        550.0
+      ],
+      "source_block_index": 101,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_8_102",
+      "type": "text",
+      "section": "Conclusion",
+      "text": "",
+      "page": 8,
+      "bbox": [
+        507.0,
+        104.0,
+        896.0,
+        137.0
+      ],
+      "source_block_index": 102,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_8_103",
+      "type": "text",
+      "section": "Conclusion",
+      "text": "The authors would like to acknowledge the following: Asbury Carbons, Dempsey International, Lydall, and Ticona.",
+      "page": 8,
+      "bbox": [
+        507.0,
+        150.0,
+        896.0,
+        179.0
+      ],
+      "source_block_index": 103,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_8_104",
+      "type": "title",
+      "section": "References",
+      "text": "References",
+      "page": 8,
+      "bbox": [
+        509.0,
+        202.0,
+        595.0,
+        217.0
+      ],
+      "source_block_index": 104,
+      "alignment_status": "matched",
+      "title_level": 2
+    }
+  ],
+  "warnings": [
+    {
+      "code": "legacy_manifest_missing_options",
+      "message": "旧 manifest 缺少 OCR 选项，已按 null 保留：ocr_enabled, language, page_ranges, enable_formula, enable_table, extra_formats"
+    }
+  ]
+}

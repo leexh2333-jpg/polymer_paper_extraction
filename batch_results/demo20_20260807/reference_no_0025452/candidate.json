@@ -1,0 +1,6222 @@
+{
+  "schema_version": "candidate.v1",
+  "document_id": "reference_no_0025452",
+  "publication": {
+    "kind": "candidate",
+    "status": "complete",
+    "validation_status": "not_validated",
+    "message": "Stage 0-5 已完成；未经完整科学语义校验，仅用于预览模型抽取结果。",
+    "completed_stages": [
+      "stage0",
+      "stage1",
+      "stage2",
+      "stage3",
+      "stage4",
+      "stage5"
+    ],
+    "candidate_stages": [],
+    "failed_stages": []
+  },
+  "paper": {
+    "ref_no": "reference_no_0025452",
+    "pdf_filename": "3c4318c7-7a1a-4f53-982d-6e04ec0d3b5b_origin.pdf",
+    "source_pdf_path": "mineru/reference_no_0025452/3c4318c7-7a1a-4f53-982d-6e04ec0d3b5b_origin.pdf",
+    "organized_pdf_path": "organized/reference_no_0025452/origin.pdf",
+    "doi": null,
+    "title": null,
+    "authors": null,
+    "journal": null,
+    "year": null,
+    "metadata_status": "failed",
+    "metadata_extraction": {
+      "method": "llm",
+      "provider": null,
+      "model": null,
+      "prompt_file": "prompts/meta_extract.md",
+      "prompt_sha256": "98252486e4f9cdfd1b42ea02b7e01440d6be99c99d18720dc71c95aa1643fcd4",
+      "source_pages": [
+        0,
+        1
+      ],
+      "status": "failed",
+      "error_type": "MetaExtractorUnavailable"
+    }
+  },
+  "material_mentions": [
+    {
+      "mention_id": "m001",
+      "text": "polyimide aerogels",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_1_18",
+        "page": 1,
+        "bbox": [
+          86.0,
+          279.0,
+          910.0,
+          825.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Due to the sensitive relations between aerogel physical, thermal, and mechanical properties, improving the polyimide aerogels performance requires understanding of their structure to properties relations, along with introducing a robust method to tailor aerogels properties to achieve the optimum performance."
+      },
+      "confidence": {
+        "score": 0.96
+      },
+      "evidence_ids": [
+        "ev00001"
+      ]
+    },
+    {
+      "mention_id": "m002",
+      "text": "PMDA) and biphenyl-tetracarboxylic acid dianhydride (BPDA) backbone polyimide aerogels",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_1_18",
+        "page": 1,
+        "bbox": [
+          86.0,
+          279.0,
+          910.0,
+          825.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Given this background, this work extensively studies the structure to properties relations of pyromellitic dianhydride (PMDA) and biphenyl-tetracarboxylic acid dianhydride (BPDA) backbone polyimide aerogels at varying hybrid diamine fractions."
+      },
+      "confidence": {
+        "score": 0.92
+      },
+      "evidence_ids": [
+        "ev00002"
+      ]
+    },
+    {
+      "mention_id": "m003",
+      "text": "hybrid diamine polyimide aerogels",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_1_18",
+        "page": 1,
+        "bbox": [
+          86.0,
+          279.0,
+          910.0,
+          825.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Based on the results, combination of rigid and flexible diamine monomers at varying fractions successfully tailored the properties of the hybrid diamine polyimide aerogels."
+      },
+      "confidence": {
+        "score": 0.93
+      },
+      "evidence_ids": [
+        "ev00003"
+      ]
+    },
+    {
+      "mention_id": "m004",
+      "text": "Polyimide",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_1_19",
+        "page": 1,
+        "bbox": [
+          89.0,
+          873.0,
+          702.0,
+          892.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Keywords: Polyimide; Hybrid Aerogel; BPDA; PMDA; Mesoporous Solids;"
+      },
+      "confidence": {
+        "score": 0.97
+      },
+      "evidence_ids": [
+        "ev00004"
+      ]
+    },
+    {
+      "mention_id": "m005",
+      "text": "PMDA and BPDA backbone aerogels",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_9_54",
+        "page": 9,
+        "bbox": [
+          86.0,
+          161.0,
+          910.0,
+          494.0
+        ],
+        "source_type": "text",
+        "source_sentence": "As observed from Figure 3, increasing ODA diamine fraction on PMDA and BPDA backbone aerogels resulted in increased and decreased shrinkage, respectively."
+      },
+      "confidence": {
+        "score": 0.91
+      },
+      "evidence_ids": [
+        "ev00005"
+      ]
+    },
+    {
+      "mention_id": "m006",
+      "text": "ODA-BPDA aerogels",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_9_54",
+        "page": 9,
+        "bbox": [
+          86.0,
+          161.0,
+          910.0,
+          494.0
+        ],
+        "source_type": "text",
+        "source_sentence": "However, the ODA-BPDA aerogels presented significantly lower shrinkage than PPDA-BPDAs."
+      },
+      "confidence": {
+        "score": 0.93
+      },
+      "evidence_ids": [
+        "ev00006"
+      ]
+    },
+    {
+      "mention_id": "m007",
+      "text": "PPDA-BPDAs",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_9_54",
+        "page": 9,
+        "bbox": [
+          86.0,
+          161.0,
+          910.0,
+          494.0
+        ],
+        "source_type": "text",
+        "source_sentence": "However, the ODA-BPDA aerogels presented significantly lower shrinkage than PPDA-BPDAs."
+      },
+      "confidence": {
+        "score": 0.92
+      },
+      "evidence_ids": [
+        "ev00006"
+      ]
+    },
+    {
+      "mention_id": "m008",
+      "text": "BPDA backbone aerogels",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_9_55",
+        "page": 9,
+        "bbox": [
+          86.0,
+          508.0,
+          911.0,
+          878.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Based on this, the higher shrinkage of BPDA backbone aerogels with increasing PPDA content is believed to be due to the greater chain rigidity, high planarity, and shorter chain length between cross-links of the PPDA-BPDA oligomers.<sup>13</sup> Such chain geometry allows the polymer chains to densely pack together."
+      },
+      "confidence": {
+        "score": 0.91
+      },
+      "evidence_ids": [
+        "ev00007"
+      ]
+    },
+    {
+      "mention_id": "m009",
+      "text": "PPDA-BPDA oligomers",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_9_55",
+        "page": 9,
+        "bbox": [
+          86.0,
+          508.0,
+          911.0,
+          878.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Based on this, the higher shrinkage of BPDA backbone aerogels with increasing PPDA content is believed to be due to the greater chain rigidity, high planarity, and shorter chain length between cross-links of the PPDA-BPDA oligomers.<sup>13</sup> Such chain geometry allows the polymer chains to densely pack together."
+      },
+      "confidence": {
+        "score": 0.93
+      },
+      "evidence_ids": [
+        "ev00007"
+      ]
+    },
+    {
+      "mention_id": "m010",
+      "text": "ODA-BPDA oligomers",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_9_55",
+        "page": 9,
+        "bbox": [
+          86.0,
+          508.0,
+          911.0,
+          878.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Furthermore, the decreasing shrinkage of BPDA backbone aerogels with increasing ODA content is believed to be due to non-co-planarity of the ODA-BPDA oligomers due to existence of the oxygen linking groups between the phenyl rings.<sup>35,36</sup> The reduced shrinkage of PMDA backbone aerogels with increasing PPDA content is believed to be due to highly rigid nature of PPDA-PMDA bonding.<sup>20</sup>"
+      },
+      "confidence": {
+        "score": 0.93
+      },
+      "evidence_ids": [
+        "ev00008"
+      ]
+    },
+    {
+      "mention_id": "m011",
+      "text": "PMDA backbone aerogels",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_9_55",
+        "page": 9,
+        "bbox": [
+          86.0,
+          508.0,
+          911.0,
+          878.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Furthermore, the decreasing shrinkage of BPDA backbone aerogels with increasing ODA content is believed to be due to non-co-planarity of the ODA-BPDA oligomers due to existence of the oxygen linking groups between the phenyl rings.<sup>35,36</sup> The reduced shrinkage of PMDA backbone aerogels with increasing PPDA content is believed to be due to highly rigid nature of PPDA-PMDA bonding.<sup>20</sup>"
+      },
+      "confidence": {
+        "score": 0.91
+      },
+      "evidence_ids": [
+        "ev00008"
+      ]
+    },
+    {
+      "mention_id": "m012",
+      "text": "PPDA-PMDA bonding",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_9_55",
+        "page": 9,
+        "bbox": [
+          86.0,
+          508.0,
+          911.0,
+          878.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Furthermore, the decreasing shrinkage of BPDA backbone aerogels with increasing ODA content is believed to be due to non-co-planarity of the ODA-BPDA oligomers due to existence of the oxygen linking groups between the phenyl rings.<sup>35,36</sup> The reduced shrinkage of PMDA backbone aerogels with increasing PPDA content is believed to be due to highly rigid nature of PPDA-PMDA bonding.<sup>20</sup>"
+      },
+      "confidence": {
+        "score": 0.93
+      },
+      "evidence_ids": [
+        "ev00008"
+      ]
+    },
+    {
+      "mention_id": "m013",
+      "text": "ODA-PMDA chains",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_10_57",
+        "page": 10,
+        "bbox": [
+          86.0,
+          90.0,
+          908.0,
+          145.0
+        ],
+        "source_type": "text",
+        "source_sentence": "However, due to the shorter chain length between the cross-links as well as the planarity of ODA-PMDA chains, addition of more flexible ODA monomers resulted in increased shrinkage."
+      },
+      "confidence": {
+        "score": 0.92
+      },
+      "evidence_ids": [
+        "ev00009"
+      ]
+    },
+    {
+      "mention_id": "m014",
+      "text": "BPDA backbone hybrid diamine aerogel",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_10_58",
+        "page": 10,
+        "bbox": [
+          86.0,
+          161.0,
+          910.0,
+          285.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Expressively, the BPDA backbone hybrid diamine aerogel with 25% ODA fraction (S7) presented even higher shrinkage than the PPDA-BPDA samples."
+      },
+      "confidence": {
+        "score": 0.94
+      },
+      "evidence_ids": [
+        "ev00010"
+      ]
+    },
+    {
+      "mention_id": "m015",
+      "text": "S7",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_10_58",
+        "page": 10,
+        "bbox": [
+          86.0,
+          161.0,
+          910.0,
+          285.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Expressively, the BPDA backbone hybrid diamine aerogel with 25% ODA fraction (S7) presented even higher shrinkage than the PPDA-BPDA samples."
+      },
+      "confidence": {
+        "score": 0.98
+      },
+      "evidence_ids": [
+        "ev00010"
+      ]
+    },
+    {
+      "mention_id": "m016",
+      "text": "PPDA-BPDA samples",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_10_58",
+        "page": 10,
+        "bbox": [
+          86.0,
+          161.0,
+          910.0,
+          285.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Expressively, the BPDA backbone hybrid diamine aerogel with 25% ODA fraction (S7) presented even higher shrinkage than the PPDA-BPDA samples."
+      },
+      "confidence": {
+        "score": 0.92
+      },
+      "evidence_ids": [
+        "ev00010"
+      ]
+    },
+    {
+      "mention_id": "m017",
+      "text": "ODA-BPDA chains",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_10_58",
+        "page": 10,
+        "bbox": [
+          86.0,
+          161.0,
+          910.0,
+          285.0
+        ],
+        "source_type": "text",
+        "source_sentence": "This suggests that at low ODA-BPDA content, rather than non-co-planarity and shorter crosslinks, the more flexible nature of ODA-BPDA chains plays the dominant role and as a result, increases the shrinkage."
+      },
+      "confidence": {
+        "score": 0.93
+      },
+      "evidence_ids": [
+        "ev00011"
+      ]
+    },
+    {
+      "mention_id": "m018",
+      "text": "PPDA-PMDA aerogels",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_10_59",
+        "page": 10,
+        "bbox": [
+          86.0,
+          300.0,
+          910.0,
+          598.0
+        ],
+        "source_type": "text",
+        "source_sentence": "As observed from Figure 3, except the PPDA-PMDA aerogels, the main shrinkage of the samples is occurred through the CO2 supercritical drying stage."
+      },
+      "confidence": {
+        "score": 0.95
+      },
+      "evidence_ids": [
+        "ev00012"
+      ]
+    },
+    {
+      "mention_id": "m019",
+      "text": "PMDA backbone aerogels",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_10_59",
+        "page": 10,
+        "bbox": [
+          86.0,
+          300.0,
+          910.0,
+          598.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Furthermore, The PMDA backbone aerogels with ODA content of higher than 75% and The BPDA backbone aerogels with ODA content of less than 75%, presented high shrinkage ranging from 7% to 17% during the 24 h ageing stage."
+      },
+      "confidence": {
+        "score": 0.92
+      },
+      "evidence_ids": [
+        "ev00013"
+      ]
+    },
+    {
+      "mention_id": "m020",
+      "text": "BPDA backbone aerogels",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_10_59",
+        "page": 10,
+        "bbox": [
+          86.0,
+          300.0,
+          910.0,
+          598.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Furthermore, The PMDA backbone aerogels with ODA content of higher than 75% and The BPDA backbone aerogels with ODA content of less than 75%, presented high shrinkage ranging from 7% to 17% during the 24 h ageing stage."
+      },
+      "confidence": {
+        "score": 0.92
+      },
+      "evidence_ids": [
+        "ev00013"
+      ]
+    },
+    {
+      "mention_id": "m021",
+      "text": "PPDA-PMDA",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_10_60",
+        "page": 10,
+        "bbox": [
+          86.0,
+          614.0,
+          908.0,
+          667.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Among the studied aerogels, PPDA-PMDA presented the lowest shrinkage of 7.3%, which is believed to be due to highly rigid and brittle nature of PPDA-PMDA bonding.<sup>20</sup>"
+      },
+      "confidence": {
+        "score": 0.96
+      },
+      "evidence_ids": [
+        "ev00014"
+      ]
+    },
+    {
+      "mention_id": "m022",
+      "text": "PMDA and BPDA backbone aerogels",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_11_63",
+        "page": 11,
+        "bbox": [
+          86.0,
+          518.0,
+          910.0,
+          679.0
+        ],
+        "source_type": "text",
+        "source_sentence": "As presented in Table 2, increasing the ODA content resulted in decreased and increased density of PMDA and BPDA backbone aerogels, respectively."
+      },
+      "confidence": {
+        "score": 0.95
+      },
+      "evidence_ids": [
+        "ev00015"
+      ]
+    },
+    {
+      "mention_id": "m023",
+      "text": "PPDA-PMDA",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_11_63",
+        "page": 11,
+        "bbox": [
+          86.0,
+          518.0,
+          910.0,
+          679.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Among the studied aerogels, single diamine PPDA-PMDA and ODA-BPDA presented the lowest densities of 0.056 g/cm and 0.083 $\\mathrm { g } / \\mathrm { c m } ^ { 3 }$, correspondingly."
+      },
+      "confidence": {
+        "score": 0.96
+      },
+      "evidence_ids": [
+        "ev00016"
+      ]
+    },
+    {
+      "mention_id": "m024",
+      "text": "ODA-BPDA",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_11_63",
+        "page": 11,
+        "bbox": [
+          86.0,
+          518.0,
+          910.0,
+          679.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Among the studied aerogels, single diamine PPDA-PMDA and ODA-BPDA presented the lowest densities of 0.056 g/cm and 0.083 $\\mathrm { g } / \\mathrm { c m } ^ { 3 }$, correspondingly."
+      },
+      "confidence": {
+        "score": 0.96
+      },
+      "evidence_ids": [
+        "ev00016"
+      ]
+    },
+    {
+      "mention_id": "m025",
+      "text": "PPDA-BPDA",
+      "mention_role": "abbreviation",
+      "evidence": {
+        "block_id": "P_11_64",
+        "page": 11,
+        "bbox": [
+          86.0,
+          691.0,
+          911.0,
+          919.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Similar to shrinkage results, it was observed that addition of 25% fraction of the diverse diamine monomer to dense PPDA-BPDA and ODA-PMDA aerogels did not affect the aerogels density considerably."
+      },
+      "confidence": {
+        "score": 0.96
+      },
+      "evidence_ids": [
+        "ev00017"
+      ]
+    },
+    {
+      "mention_id": "m026",
+      "text": "ODA-PMDA",
+      "mention_role": "abbreviation",
+      "evidence": {
+        "block_id": "P_11_64",
+        "page": 11,
+        "bbox": [
+          86.0,
+          691.0,
+          911.0,
+          919.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Similar to shrinkage results, it was observed that addition of 25% fraction of the diverse diamine monomer to dense PPDA-BPDA and ODA-PMDA aerogels did not affect the aerogels density considerably."
+      },
+      "confidence": {
+        "score": 0.96
+      },
+      "evidence_ids": [
+        "ev00017"
+      ]
+    },
+    {
+      "mention_id": "m027",
+      "text": "S3",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_11_64",
+        "page": 11,
+        "bbox": [
+          86.0,
+          691.0,
+          911.0,
+          919.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Roughly, similar morphology of the S3 and S5 as well as S6 and S7 aerogels is also in agreement with this observation."
+      },
+      "confidence": {
+        "score": 0.98
+      },
+      "evidence_ids": [
+        "ev00018"
+      ]
+    },
+    {
+      "mention_id": "m028",
+      "text": "S5",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_11_64",
+        "page": 11,
+        "bbox": [
+          86.0,
+          691.0,
+          911.0,
+          919.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Roughly, similar morphology of the S3 and S5 as well as S6 and S7 aerogels is also in agreement with this observation."
+      },
+      "confidence": {
+        "score": 0.98
+      },
+      "evidence_ids": [
+        "ev00018"
+      ]
+    },
+    {
+      "mention_id": "m029",
+      "text": "S6",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_11_64",
+        "page": 11,
+        "bbox": [
+          86.0,
+          691.0,
+          911.0,
+          919.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Roughly, similar morphology of the S3 and S5 as well as S6 and S7 aerogels is also in agreement with this observation."
+      },
+      "confidence": {
+        "score": 0.98
+      },
+      "evidence_ids": [
+        "ev00018"
+      ]
+    },
+    {
+      "mention_id": "m030",
+      "text": "S7",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_11_64",
+        "page": 11,
+        "bbox": [
+          86.0,
+          691.0,
+          911.0,
+          919.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Roughly, similar morphology of the S3 and S5 as well as S6 and S7 aerogels is also in agreement with this observation."
+      },
+      "confidence": {
+        "score": 0.98
+      },
+      "evidence_ids": [
+        "ev00018"
+      ]
+    },
+    {
+      "mention_id": "m031",
+      "text": "polyimide aerogels",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "T_12_66",
+        "page": 12,
+        "bbox": [
+          91.0,
+          108.0,
+          933.0,
+          303.0
+        ],
+        "source_type": "table",
+        "source_sentence": "Properties of the studied polyimide aerogels."
+      },
+      "confidence": {
+        "score": 0.97
+      },
+      "evidence_ids": [
+        "ev00019"
+      ]
+    },
+    {
+      "mention_id": "m032",
+      "text": "S1",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "T_12_66",
+        "page": 12,
+        "bbox": [
+          91.0,
+          108.0,
+          933.0,
+          303.0
+        ],
+        "source_type": "table",
+        "source_sentence": "<table><tr><td>Sample</td><td>PPDA Fraction</td><td>dianhydride</td><td>density (g/cm3)</td><td>porosity (%)</td><td>shrinkage (%)</td><td>modulus (MPa)</td><td>onset of decomposition (°C)</td></tr><tr><td>S1</td><td>100%</td><td>PMDA</td><td>0.056</td><td>96.6</td><td>7.7</td><td>0.18</td><td>422</td></tr><tr><td>S2</td><td>50%</td><td>PMDA</td><td>0.102</td><td>94.6</td><td>18.9</td><td>0.95</td><td>459</td></tr><tr><td>S3</td><td>25%</td><td>PMDA</td><td>0.176</td><td>89.3</td><td>33.3</td><t"
+      },
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00020"
+      ]
+    },
+    {
+      "mention_id": "m033",
+      "text": "S2",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "T_12_66",
+        "page": 12,
+        "bbox": [
+          91.0,
+          108.0,
+          933.0,
+          303.0
+        ],
+        "source_type": "table",
+        "source_sentence": "S2"
+      },
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00021"
+      ]
+    },
+    {
+      "mention_id": "m034",
+      "text": "S3",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "T_12_66",
+        "page": 12,
+        "bbox": [
+          91.0,
+          108.0,
+          933.0,
+          303.0
+        ],
+        "source_type": "table",
+        "source_sentence": "S3"
+      },
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00022"
+      ]
+    },
+    {
+      "mention_id": "m035",
+      "text": "S4",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "T_12_66",
+        "page": 12,
+        "bbox": [
+          91.0,
+          108.0,
+          933.0,
+          303.0
+        ],
+        "source_type": "table",
+        "source_sentence": "S4"
+      },
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00023"
+      ]
+    },
+    {
+      "mention_id": "m036",
+      "text": "S5",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "T_12_66",
+        "page": 12,
+        "bbox": [
+          91.0,
+          108.0,
+          933.0,
+          303.0
+        ],
+        "source_type": "table",
+        "source_sentence": "S5"
+      },
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00024"
+      ]
+    },
+    {
+      "mention_id": "m037",
+      "text": "S6",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "T_12_66",
+        "page": 12,
+        "bbox": [
+          91.0,
+          108.0,
+          933.0,
+          303.0
+        ],
+        "source_type": "table",
+        "source_sentence": "S6"
+      },
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00025"
+      ]
+    },
+    {
+      "mention_id": "m038",
+      "text": "S7",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "T_12_66",
+        "page": 12,
+        "bbox": [
+          91.0,
+          108.0,
+          933.0,
+          303.0
+        ],
+        "source_type": "table",
+        "source_sentence": "S7"
+      },
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00026"
+      ]
+    },
+    {
+      "mention_id": "m039",
+      "text": "S8",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "T_12_66",
+        "page": 12,
+        "bbox": [
+          91.0,
+          108.0,
+          933.0,
+          303.0
+        ],
+        "source_type": "table",
+        "source_sentence": "S8"
+      },
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00027"
+      ]
+    },
+    {
+      "mention_id": "m040",
+      "text": "S9",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "T_12_66",
+        "page": 12,
+        "bbox": [
+          91.0,
+          108.0,
+          933.0,
+          303.0
+        ],
+        "source_type": "table",
+        "source_sentence": "S9"
+      },
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00028"
+      ]
+    },
+    {
+      "mention_id": "m041",
+      "text": "S10",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "T_12_66",
+        "page": 12,
+        "bbox": [
+          91.0,
+          108.0,
+          933.0,
+          303.0
+        ],
+        "source_type": "table",
+        "source_sentence": "S10"
+      },
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00029"
+      ]
+    },
+    {
+      "mention_id": "m042",
+      "text": "PPDA-PMDA",
+      "mention_role": "abbreviation",
+      "evidence": {
+        "block_id": "P_12_68",
+        "page": 12,
+        "bbox": [
+          86.0,
+          676.0,
+          910.0,
+          906.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Therefore, the low density PPDA-PMDA and ODA-BPDA aerogels presented the highest open cell contents of 96.6% and 94.8% among the samples."
+      },
+      "confidence": {
+        "score": 0.96
+      },
+      "evidence_ids": [
+        "ev00030"
+      ]
+    },
+    {
+      "mention_id": "m043",
+      "text": "ODA-BPDA",
+      "mention_role": "abbreviation",
+      "evidence": {
+        "block_id": "P_12_68",
+        "page": 12,
+        "bbox": [
+          86.0,
+          676.0,
+          910.0,
+          906.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Therefore, the low density PPDA-PMDA and ODA-BPDA aerogels presented the highest open cell contents of 96.6% and 94.8% among the samples."
+      },
+      "confidence": {
+        "score": 0.96
+      },
+      "evidence_ids": [
+        "ev00030"
+      ]
+    },
+    {
+      "mention_id": "m044",
+      "text": "S2",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_12_68",
+        "page": 12,
+        "bbox": [
+          86.0,
+          676.0,
+          910.0,
+          906.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Furthermore, the S2 hybrid aerogels with 50% ODA fraction presented high open cell content of 94.6%."
+      },
+      "confidence": {
+        "score": 0.98
+      },
+      "evidence_ids": [
+        "ev00031"
+      ]
+    },
+    {
+      "mention_id": "m045",
+      "text": "S1",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_12_68",
+        "page": 12,
+        "bbox": [
+          86.0,
+          676.0,
+          910.0,
+          906.0
+        ],
+        "source_type": "text",
+        "source_sentence": "By comparing the results of S2 hybrid aerogels with PPDA-PMDA (S1) aerogel, it can be observed that more than 82% increased density of the S2 aerogels resulted in only 2% decrease in open cell content."
+      },
+      "confidence": {
+        "score": 0.98
+      },
+      "evidence_ids": [
+        "ev00032"
+      ]
+    },
+    {
+      "mention_id": "m046",
+      "text": "ODA-BPDA",
+      "mention_role": "abbreviation",
+      "evidence": {
+        "block_id": "P_13_75",
+        "page": 13,
+        "bbox": [
+          86.0,
+          786.0,
+          910.0,
+          910.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The PMDA backbone aerogels morphology can be mainly described as a three-dimensional network of nano fibers tangled together along with some spherical agglomerated particles randomly attached to the network.<sup>17</sup> However, except the ODA-BPDA aerogels, the BPDA backbone aerogels were mainly presented clusters of particles morphology closer to silica aerogels.<sup>40,41</sup> Polyimide aerogels network structure is believed to be mainly formed during the last stage of polymerization as wel"
+      },
+      "confidence": {
+        "score": 0.96
+      },
+      "evidence_ids": [
+        "ev00033"
+      ]
+    },
+    {
+      "mention_id": "m047",
+      "text": "Polyimide aerogels",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_13_75",
+        "page": 13,
+        "bbox": [
+          86.0,
+          786.0,
+          910.0,
+          910.0
+        ],
+        "source_type": "text",
+        "source_sentence": "ology can be mainly described as a three-dimensional network of nano fibers tangled together along with some spherical agglomerated particles randomly attached to the network.<sup>17</sup> However, except the ODA-BPDA aerogels, the BPDA backbone aerogels were mainly presented clusters of particles morphology closer to silica aerogels.<sup>40,41</sup> Polyimide aerogels network structure is believed to be mainly formed during the last stage of polymerization as well as the initial gelation stage."
+      },
+      "confidence": {
+        "score": 0.97
+      },
+      "evidence_ids": [
+        "ev00034"
+      ]
+    },
+    {
+      "mention_id": "m048",
+      "text": "polyimide aerogels",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_14_78",
+        "page": 14,
+        "bbox": [
+          88.0,
+          439.0,
+          911.0,
+          494.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Therefore, achieving polyimide aerogels with desired network structure requires accurate control of all sensitive processing variables at optimum level."
+      },
+      "confidence": {
+        "score": 0.97
+      },
+      "evidence_ids": [
+        "ev00035"
+      ]
+    },
+    {
+      "mention_id": "m049",
+      "text": "PMDA backbone aerogels",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_14_79",
+        "page": 14,
+        "bbox": [
+          86.0,
+          508.0,
+          911.0,
+          878.0
+        ],
+        "source_type": "text",
+        "source_sentence": "From Figure 5A to Figure 5J, it is observed that the PMDA backbone aerogels fiber thickness, chain length between the crosslinks, and the average pore size were decreased with increasing ODA content."
+      },
+      "confidence": {
+        "score": 0.98
+      },
+      "evidence_ids": [
+        "ev00036"
+      ]
+    },
+    {
+      "mention_id": "m050",
+      "text": "S1",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_14_79",
+        "page": 14,
+        "bbox": [
+          86.0,
+          508.0,
+          911.0,
+          878.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Among the PMDA backbone aerogels, the S1 and S2 aerogels with PPDA content of more than 50% presented roughly similar morphology as well as fiber thickness of about 45 nm."
+      },
+      "confidence": {
+        "score": 0.95
+      },
+      "evidence_ids": [
+        "ev00037"
+      ]
+    },
+    {
+      "mention_id": "m051",
+      "text": "S2",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_14_79",
+        "page": 14,
+        "bbox": [
+          86.0,
+          508.0,
+          911.0,
+          878.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Among the PMDA backbone aerogels, the S1 and S2 aerogels with PPDA content of more than 50% presented roughly similar morphology as well as fiber thickness of about 45 nm."
+      },
+      "confidence": {
+        "score": 0.95
+      },
+      "evidence_ids": [
+        "ev00037"
+      ]
+    },
+    {
+      "mention_id": "m052",
+      "text": "S3",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_14_79",
+        "page": 14,
+        "bbox": [
+          86.0,
+          508.0,
+          911.0,
+          878.0
+        ],
+        "source_type": "text",
+        "source_sentence": "However, increasing the ODA content from 75% in sample S3 to 87.5% in sample S4 resulted in major pore size reduction, as presented in Figure 5F and Figure 5H."
+      },
+      "confidence": {
+        "score": 0.95
+      },
+      "evidence_ids": [
+        "ev00038"
+      ]
+    },
+    {
+      "mention_id": "m053",
+      "text": "S4",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_14_79",
+        "page": 14,
+        "bbox": [
+          86.0,
+          508.0,
+          911.0,
+          878.0
+        ],
+        "source_type": "text",
+        "source_sentence": "However, increasing the ODA content from 75% in sample S3 to 87.5% in sample S4 resulted in major pore size reduction, as presented in Figure 5F and Figure 5H."
+      },
+      "confidence": {
+        "score": 0.95
+      },
+      "evidence_ids": [
+        "ev00038"
+      ]
+    },
+    {
+      "mention_id": "m054",
+      "text": "BPDA backbone aerogels",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_15_81",
+        "page": 15,
+        "bbox": [
+          86.0,
+          90.0,
+          908.0,
+          215.0
+        ],
+        "source_type": "text",
+        "source_sentence": "As observed from Figure 5K to Figure 5T, the average pore size and particle diameter of the BPDA backbone aerogels were increased with increasing ODA content.<sup>13,17</sup> Furthermore, the increased pore size with increasing ODA fraction of BPDA backbone aerogels was commensurate with shrinkage and open cell content trends of those samples."
+      },
+      "confidence": {
+        "score": 0.98
+      },
+      "evidence_ids": [
+        "ev00039"
+      ]
+    },
+    {
+      "mention_id": "m055",
+      "text": "ODA-BPDA",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_15_82",
+        "page": 15,
+        "bbox": [
+          86.0,
+          229.0,
+          908.0,
+          354.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Unlike ODA-BPDA (S10) sample with the fibrous structure, the hybrid BPDA backbone aerogels, samples S7 to S9, presented clusters of particles morphology closer to PPDA-BPDA (S6) sample."
+      },
+      "confidence": {
+        "score": 0.94
+      },
+      "evidence_ids": [
+        "ev00040"
+      ]
+    },
+    {
+      "mention_id": "m056",
+      "text": "S10",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_15_82",
+        "page": 15,
+        "bbox": [
+          86.0,
+          229.0,
+          908.0,
+          354.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Unlike ODA-BPDA (S10) sample with the fibrous structure, the hybrid BPDA backbone aerogels, samples S7 to S9, presented clusters of particles morphology closer to PPDA-BPDA (S6) sample."
+      },
+      "confidence": {
+        "score": 0.95
+      },
+      "evidence_ids": [
+        "ev00040"
+      ]
+    },
+    {
+      "mention_id": "m057",
+      "text": "hybrid BPDA backbone aerogels",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_15_82",
+        "page": 15,
+        "bbox": [
+          86.0,
+          229.0,
+          908.0,
+          354.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Unlike ODA-BPDA (S10) sample with the fibrous structure, the hybrid BPDA backbone aerogels, samples S7 to S9, presented clusters of particles morphology closer to PPDA-BPDA (S6) sample."
+      },
+      "confidence": {
+        "score": 0.97
+      },
+      "evidence_ids": [
+        "ev00040"
+      ]
+    },
+    {
+      "mention_id": "m058",
+      "text": "S7",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_15_82",
+        "page": 15,
+        "bbox": [
+          86.0,
+          229.0,
+          908.0,
+          354.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Unlike ODA-BPDA (S10) sample with the fibrous structure, the hybrid BPDA backbone aerogels, samples S7 to S9, presented clusters of particles morphology closer to PPDA-BPDA (S6) sample."
+      },
+      "confidence": {
+        "score": 0.95
+      },
+      "evidence_ids": [
+        "ev00040"
+      ]
+    },
+    {
+      "mention_id": "m059",
+      "text": "S9",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_15_82",
+        "page": 15,
+        "bbox": [
+          86.0,
+          229.0,
+          908.0,
+          354.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Unlike ODA-BPDA (S10) sample with the fibrous structure, the hybrid BPDA backbone aerogels, samples S7 to S9, presented clusters of particles morphology closer to PPDA-BPDA (S6) sample."
+      },
+      "confidence": {
+        "score": 0.95
+      },
+      "evidence_ids": [
+        "ev00040"
+      ]
+    },
+    {
+      "mention_id": "m060",
+      "text": "PPDA-BPDA",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_15_82",
+        "page": 15,
+        "bbox": [
+          86.0,
+          229.0,
+          908.0,
+          354.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Unlike ODA-BPDA (S10) sample with the fibrous structure, the hybrid BPDA backbone aerogels, samples S7 to S9, presented clusters of particles morphology closer to PPDA-BPDA (S6) sample."
+      },
+      "confidence": {
+        "score": 0.94
+      },
+      "evidence_ids": [
+        "ev00040"
+      ]
+    },
+    {
+      "mention_id": "m061",
+      "text": "S6",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_15_82",
+        "page": 15,
+        "bbox": [
+          86.0,
+          229.0,
+          908.0,
+          354.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Unlike ODA-BPDA (S10) sample with the fibrous structure, the hybrid BPDA backbone aerogels, samples S7 to S9, presented clusters of particles morphology closer to PPDA-BPDA (S6) sample."
+      },
+      "confidence": {
+        "score": 0.95
+      },
+      "evidence_ids": [
+        "ev00040"
+      ]
+    },
+    {
+      "mention_id": "m062",
+      "text": "polyimides",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_16_87",
+        "page": 16,
+        "bbox": [
+          86.0,
+          652.0,
+          910.0,
+          920.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The characteristic bands of polyimides, including 727 ( cm-1), $1 3 7 0 ( \\mathrm { c m } ^ { - 1 } )$(imide C−N), 1715 $( \\mathsf { c m } ^ { - 1 } )$(symmetric imide C=O) and $1 7 7 5 ( \\mathrm { c m } ^ { - 1 } )$(asymmetric imide C=O) are observed for all studied samples.<sup>30</sup> None of the sample sets presented significant band of $1 8 6 0 ~ ( \\mathrm { c m } ^ { - 1 } )$, which indicates the existence of unreacted anhydride."
+      },
+      "confidence": {
+        "score": 0.98
+      },
+      "evidence_ids": [
+        "ev00041"
+      ]
+    },
+    {
+      "mention_id": "m063",
+      "text": "PMDA backbone aerogels",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_16_87",
+        "page": 16,
+        "bbox": [
+          86.0,
+          652.0,
+          910.0,
+          920.0
+        ],
+        "source_type": "text",
+        "source_sentence": "However, PMDA backbone aerogels presented small peaks at 1660 $\\textstyle { \\left( \\cos ^ { - 1 } \\right) }$(amic acid C=O) and $1 5 3 5 \\ : \\mathrm { ~ ( ~ c m } ^ { - 1 } )$(amide C−N) bands, which may suggest incomplete imidization of polyimide samples."
+      },
+      "confidence": {
+        "score": 0.98
+      },
+      "evidence_ids": [
+        "ev00042"
+      ]
+    },
+    {
+      "mention_id": "m064",
+      "text": "polyimide samples",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_16_87",
+        "page": 16,
+        "bbox": [
+          86.0,
+          652.0,
+          910.0,
+          920.0
+        ],
+        "source_type": "text",
+        "source_sentence": "However, PMDA backbone aerogels presented small peaks at 1660 $\\textstyle { \\left( \\cos ^ { - 1 } \\right) }$(amic acid C=O) and $1 5 3 5 \\ : \\mathrm { ~ ( ~ c m } ^ { - 1 } )$(amide C−N) bands, which may suggest incomplete imidization of polyimide samples."
+      },
+      "confidence": {
+        "score": 0.93
+      },
+      "evidence_ids": [
+        "ev00042"
+      ]
+    },
+    {
+      "mention_id": "m065",
+      "text": "S1",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_16_87",
+        "page": 16,
+        "bbox": [
+          86.0,
+          652.0,
+          910.0,
+          920.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Among the PMDA backbone aerogels, the S1 and S3 samples presented highest intensity at"
+      },
+      "confidence": {
+        "score": 0.95
+      },
+      "evidence_ids": [
+        "ev00043"
+      ]
+    },
+    {
+      "mention_id": "m066",
+      "text": "S3",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_16_87",
+        "page": 16,
+        "bbox": [
+          86.0,
+          652.0,
+          910.0,
+          920.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Among the PMDA backbone aerogels, the S1 and S3 samples presented highest intensity at"
+      },
+      "confidence": {
+        "score": 0.95
+      },
+      "evidence_ids": [
+        "ev00043"
+      ]
+    },
+    {
+      "mention_id": "m067",
+      "text": "BPDA backbone aerogels",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_17_89",
+        "page": 17,
+        "bbox": [
+          89.0,
+          90.0,
+          906.0,
+          145.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The lack of $1 6 6 0 \\ ( \\mathrm { c m } ^ { - 1 } )$and $1 5 3 5 \\ ( { \\mathrm { c m } } ^ { - 1 } )$bands on BPDA backbone aerogels may indicate the complete imidization of those sample."
+      },
+      "confidence": {
+        "score": 0.98
+      },
+      "evidence_ids": [
+        "ev00044"
+      ]
+    },
+    {
+      "mention_id": "m068",
+      "text": "PPDA-BPDA aerogels",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_17_91",
+        "page": 17,
+        "bbox": [
+          88.0,
+          335.0,
+          910.0,
+          566.0
+        ],
+        "source_type": "text",
+        "source_sentence": "For instance, comparing the sample S7 with S6 presented that addition of ODA to PPDA-BPDA aerogels resulted in appearance of the peak at $1 2 3 8 ( \\mathrm { c m } ^ { - 1 } )$band."
+      },
+      "confidence": {
+        "score": 0.97
+      },
+      "evidence_ids": [
+        "ev00045"
+      ]
+    },
+    {
+      "mention_id": "m069",
+      "text": "S7",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_17_91",
+        "page": 17,
+        "bbox": [
+          88.0,
+          335.0,
+          910.0,
+          566.0
+        ],
+        "source_type": "text",
+        "source_sentence": "For instance, comparing the sample S7 with S6 presented that addition of ODA to PPDA-BPDA aerogels resulted in appearance of the peak at $1 2 3 8 ( \\mathrm { c m } ^ { - 1 } )$band."
+      },
+      "confidence": {
+        "score": 0.95
+      },
+      "evidence_ids": [
+        "ev00045"
+      ]
+    },
+    {
+      "mention_id": "m070",
+      "text": "S6",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_17_91",
+        "page": 17,
+        "bbox": [
+          88.0,
+          335.0,
+          910.0,
+          566.0
+        ],
+        "source_type": "text",
+        "source_sentence": "For instance, comparing the sample S7 with S6 presented that addition of ODA to PPDA-BPDA aerogels resulted in appearance of the peak at $1 2 3 8 ( \\mathrm { c m } ^ { - 1 } )$band."
+      },
+      "confidence": {
+        "score": 0.95
+      },
+      "evidence_ids": [
+        "ev00045"
+      ]
+    },
+    {
+      "mention_id": "m071",
+      "text": "S10",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_17_91",
+        "page": 17,
+        "bbox": [
+          88.0,
+          335.0,
+          910.0,
+          566.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Furthermore, for S7 to S10 aerogels, the intensity of the peak at $1 2 3 8 \\ ( \\mathrm { c m } ^ { - 1 } )$band increased with increasing ODA fraction."
+      },
+      "confidence": {
+        "score": 0.95
+      },
+      "evidence_ids": [
+        "ev00046"
+      ]
+    },
+    {
+      "mention_id": "m072",
+      "text": "polyimide aerogels",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_19_97",
+        "page": 19,
+        "bbox": [
+          86.0,
+          126.0,
+          910.0,
+          529.0
+        ],
+        "source_type": "text",
+        "source_sentence": "As illustrated in Figure 8, fabricated polyimide aerogels presented high onset of decomposition ranging from 422 to $6 2 1 ~ ^ { \\circ } \\mathrm { C }$."
+      },
+      "confidence": {
+        "score": 0.98
+      },
+      "evidence_ids": [
+        "ev00047"
+      ]
+    },
+    {
+      "mention_id": "m073",
+      "text": "PPDA-PMDA",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_19_97",
+        "page": 19,
+        "bbox": [
+          86.0,
+          126.0,
+          910.0,
+          529.0
+        ],
+        "source_type": "text",
+        "source_sentence": "On PMDA backbone, the PPDA-PMDA (S1) and ODA-PMDA (S5) aerogels presented the lowest and highest onset of decomposition, respectively."
+      },
+      "confidence": {
+        "score": 0.95
+      },
+      "evidence_ids": [
+        "ev00048"
+      ]
+    },
+    {
+      "mention_id": "m074",
+      "text": "S1",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_19_97",
+        "page": 19,
+        "bbox": [
+          86.0,
+          126.0,
+          910.0,
+          529.0
+        ],
+        "source_type": "text",
+        "source_sentence": "On PMDA backbone, the PPDA-PMDA (S1) and ODA-PMDA (S5) aerogels presented the lowest and highest onset of decomposition, respectively."
+      },
+      "confidence": {
+        "score": 0.95
+      },
+      "evidence_ids": [
+        "ev00048"
+      ]
+    },
+    {
+      "mention_id": "m075",
+      "text": "ODA-PMDA",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_19_97",
+        "page": 19,
+        "bbox": [
+          86.0,
+          126.0,
+          910.0,
+          529.0
+        ],
+        "source_type": "text",
+        "source_sentence": "On PMDA backbone, the PPDA-PMDA (S1) and ODA-PMDA (S5) aerogels presented the lowest and highest onset of decomposition, respectively."
+      },
+      "confidence": {
+        "score": 0.95
+      },
+      "evidence_ids": [
+        "ev00048"
+      ]
+    },
+    {
+      "mention_id": "m076",
+      "text": "S5",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_19_97",
+        "page": 19,
+        "bbox": [
+          86.0,
+          126.0,
+          910.0,
+          529.0
+        ],
+        "source_type": "text",
+        "source_sentence": "On PMDA backbone, the PPDA-PMDA (S1) and ODA-PMDA (S5) aerogels presented the lowest and highest onset of decomposition, respectively."
+      },
+      "confidence": {
+        "score": 0.95
+      },
+      "evidence_ids": [
+        "ev00048"
+      ]
+    },
+    {
+      "mention_id": "m077",
+      "text": "PMDA backbone hybrid aerogels",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_19_97",
+        "page": 19,
+        "bbox": [
+          86.0,
+          126.0,
+          910.0,
+          529.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The decomposition trends of the PMDA backbone hybrid aerogels were also reminiscent the combination of single diamine S1 and S5 trends."
+      },
+      "confidence": {
+        "score": 0.97
+      },
+      "evidence_ids": [
+        "ev00049"
+      ]
+    },
+    {
+      "mention_id": "m078",
+      "text": "PPDA-BPDA",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_19_97",
+        "page": 19,
+        "bbox": [
+          86.0,
+          126.0,
+          910.0,
+          529.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The PPDA-BPDA (S6) and ODA-BPDA (S10) presented the onset of decomposition of $6 2 1 ~ ^ { \\circ } \\mathrm { C }$and $5 8 9 ^ { \\circ } \\mathrm { C } .$, respectively."
+      },
+      "confidence": {
+        "score": 0.95
+      },
+      "evidence_ids": [
+        "ev00050"
+      ]
+    },
+    {
+      "mention_id": "m079",
+      "text": "S6",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_19_97",
+        "page": 19,
+        "bbox": [
+          86.0,
+          126.0,
+          910.0,
+          529.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The PPDA-BPDA (S6) and ODA-BPDA (S10) presented the onset of decomposition of $6 2 1 ~ ^ { \\circ } \\mathrm { C }$and $5 8 9 ^ { \\circ } \\mathrm { C } .$, respectively."
+      },
+      "confidence": {
+        "score": 0.95
+      },
+      "evidence_ids": [
+        "ev00050"
+      ]
+    },
+    {
+      "mention_id": "m080",
+      "text": "ODA-BPDA",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_19_97",
+        "page": 19,
+        "bbox": [
+          86.0,
+          126.0,
+          910.0,
+          529.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The PPDA-BPDA (S6) and ODA-BPDA (S10) presented the onset of decomposition of $6 2 1 ~ ^ { \\circ } \\mathrm { C }$and $5 8 9 ^ { \\circ } \\mathrm { C } .$, respectively."
+      },
+      "confidence": {
+        "score": 0.95
+      },
+      "evidence_ids": [
+        "ev00050"
+      ]
+    },
+    {
+      "mention_id": "m081",
+      "text": "S10",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_19_97",
+        "page": 19,
+        "bbox": [
+          86.0,
+          126.0,
+          910.0,
+          529.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The PPDA-BPDA (S6) and ODA-BPDA (S10) presented the onset of decomposition of $6 2 1 ~ ^ { \\circ } \\mathrm { C }$and $5 8 9 ^ { \\circ } \\mathrm { C } .$, respectively."
+      },
+      "confidence": {
+        "score": 0.95
+      },
+      "evidence_ids": [
+        "ev00050"
+      ]
+    },
+    {
+      "mention_id": "m082",
+      "text": "BPDA backbone hybrid aerogels",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_19_97",
+        "page": 19,
+        "bbox": [
+          86.0,
+          126.0,
+          910.0,
+          529.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The BPDA backbone hybrid aerogels presented the onset of decomposition ranging from 580 to $5 8 5 ~ ^ { \\circ } \\mathrm { C }$, those were close to the onset of decomposition of ODA-BPDA (S10) aerogels."
+      },
+      "confidence": {
+        "score": 0.97
+      },
+      "evidence_ids": [
+        "ev00051"
+      ]
+    },
+    {
+      "mention_id": "m083",
+      "text": "polyimides",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_19_98",
+        "page": 19,
+        "bbox": [
+          86.0,
+          544.0,
+          910.0,
+          806.0
+        ],
+        "source_type": "text",
+        "source_sentence": "In general, at comparable backbone chemistry, polyimides containing highly reactive PPDA diamine were expected to present higher decomposition temperature than those containing ODA diamine monomer.<sup>13</sup> Similar tendency were observed from BPDA backbone aerogels in this work."
+      },
+      "confidence": {
+        "score": 0.91
+      },
+      "evidence_ids": [
+        "ev00052"
+      ]
+    },
+    {
+      "mention_id": "m084",
+      "text": "BPDA backbone aerogels",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_19_98",
+        "page": 19,
+        "bbox": [
+          86.0,
+          544.0,
+          910.0,
+          806.0
+        ],
+        "source_type": "text",
+        "source_sentence": "In general, at comparable backbone chemistry, polyimides containing highly reactive PPDA diamine were expected to present higher decomposition temperature than those containing ODA diamine monomer.<sup>13</sup> Similar tendency were observed from BPDA backbone aerogels in this work."
+      },
+      "confidence": {
+        "score": 0.83
+      },
+      "evidence_ids": [
+        "ev00052"
+      ]
+    },
+    {
+      "mention_id": "m085",
+      "text": "PPDA-PMDA",
+      "mention_role": "abbreviation",
+      "evidence": {
+        "block_id": "P_19_98",
+        "page": 19,
+        "bbox": [
+          86.0,
+          544.0,
+          910.0,
+          806.0
+        ],
+        "source_type": "text",
+        "source_sentence": "However, on PMDA backbone, the PPDA-PMDA (S1) aerogel presented lower onset of decomposition of $4 2 2 ~ ^ { \\circ } \\mathrm { C }$than the ODA-PMDA sample with decomposition temperature of $5 8 6 ~ ^ { \\circ } \\mathrm { C } .$By a closer look to the decomposition trend of the PPDA-PMDA (S1) aerogels, two varying slopes of decomposition at less than $7 0 0 ~ ^ { \\circ } \\mathrm { C }$were observed."
+      },
+      "confidence": {
+        "score": 0.96
+      },
+      "evidence_ids": [
+        "ev00053"
+      ]
+    },
+    {
+      "mention_id": "m086",
+      "text": "S1",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_19_98",
+        "page": 19,
+        "bbox": [
+          86.0,
+          544.0,
+          910.0,
+          806.0
+        ],
+        "source_type": "text",
+        "source_sentence": "However, on PMDA backbone, the PPDA-PMDA (S1) aerogel presented lower onset of decomposition of $4 2 2 ~ ^ { \\circ } \\mathrm { C }$than the ODA-PMDA sample with decomposition temperature of $5 8 6 ~ ^ { \\circ } \\mathrm { C } .$By a closer look to the decomposition trend of the PPDA-PMDA (S1) aerogels, two varying slopes of decomposition at less than $7 0 0 ~ ^ { \\circ } \\mathrm { C }$were observed."
+      },
+      "confidence": {
+        "score": 0.97
+      },
+      "evidence_ids": [
+        "ev00053"
+      ]
+    },
+    {
+      "mention_id": "m087",
+      "text": "ODA-PMDA",
+      "mention_role": "abbreviation",
+      "evidence": {
+        "block_id": "P_19_98",
+        "page": 19,
+        "bbox": [
+          86.0,
+          544.0,
+          910.0,
+          806.0
+        ],
+        "source_type": "text",
+        "source_sentence": "However, on PMDA backbone, the PPDA-PMDA (S1) aerogel presented lower onset of decomposition of $4 2 2 ~ ^ { \\circ } \\mathrm { C }$than the ODA-PMDA sample with decomposition temperature of $5 8 6 ~ ^ { \\circ } \\mathrm { C } .$By a closer look to the decomposition trend of the PPDA-PMDA (S1) aerogels, two varying slopes of decomposition at less than $7 0 0 ~ ^ { \\circ } \\mathrm { C }$were observed."
+      },
+      "confidence": {
+        "score": 0.94
+      },
+      "evidence_ids": [
+        "ev00053"
+      ]
+    },
+    {
+      "mention_id": "m088",
+      "text": "PPDA-PMDA",
+      "mention_role": "abbreviation",
+      "evidence": {
+        "block_id": "P_19_99",
+        "page": 19,
+        "bbox": [
+          86.0,
+          823.0,
+          908.0,
+          910.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Based on previous studies, the onset of decomposition of $6 3 2 ~ ^ { \\circ } \\mathrm { C }$was reported from nonporous PPDA-PMDA polyimide films, made at higher number of repeat units of $\\mathrm { n } { > } 3 0 ."
+      },
+      "confidence": {
+        "score": 0.97
+      },
+      "evidence_ids": [
+        "ev00054"
+      ]
+    },
+    {
+      "mention_id": "m089",
+      "text": "PPDA-PMDA polyimide films",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_19_99",
+        "page": 19,
+        "bbox": [
+          86.0,
+          823.0,
+          908.0,
+          910.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Based on previous studies, the onset of decomposition of $6 3 2 ~ ^ { \\circ } \\mathrm { C }$was reported from nonporous PPDA-PMDA polyimide films, made at higher number of repeat units of $\\mathrm { n } { > } 3 0 ."
+      },
+      "confidence": {
+        "score": 0.96
+      },
+      "evidence_ids": [
+        "ev00054"
+      ]
+    },
+    {
+      "mention_id": "m090",
+      "text": "S1",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_19_99",
+        "page": 19,
+        "bbox": [
+          86.0,
+          823.0,
+          908.0,
+          910.0
+        ],
+        "source_type": "text",
+        "source_sentence": "^ { 2 0 }$However, to achieve solid stable PPDA-PMDA sol-gels, the sample S1 was made from very low number of repeat unit of $\\mathrm { n } { = } 1$in this work."
+      },
+      "confidence": {
+        "score": 0.98
+      },
+      "evidence_ids": [
+        "ev00055"
+      ]
+    },
+    {
+      "mention_id": "m091",
+      "text": "PPDA-PMDA oligomers",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_19_99",
+        "page": 19,
+        "bbox": [
+          86.0,
+          823.0,
+          908.0,
+          910.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Based on this hypothesis, the first decomposition trend of S1 samples, from 422 to 621 ˚C, could be attributed to an alternative chemical reaction of excess diamine content with PPDA-PMDA oligomers and the second onset of decomposition at 621 ˚C could be accredited to the thermal degradation of PPDA-PMDA oligomers.<sup>42,43</sup> Roughly equal weight fraction of the excess diamine content of S1 sample, 24.3 wt.%, with the sample weight loss of 25 wt.% during the first decomposition cycle from 4"
+      },
+      "confidence": {
+        "score": 0.94
+      },
+      "evidence_ids": [
+        "ev00056"
+      ]
+    },
+    {
+      "mention_id": "m092",
+      "text": "Polyimide aerogels",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_22_108",
+        "page": 22,
+        "bbox": [
+          86.0,
+          710.0,
+          908.0,
+          797.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Polyimide aerogels were generally presented low thermal conductivity ranging from 30 to 50 mW $\\mathrm { m ^ { - 1 } K ^ { - 1 } } ."
+      },
+      "confidence": {
+        "score": 0.95
+      },
+      "evidence_ids": [
+        "ev00057"
+      ]
+    },
+    {
+      "mention_id": "m093",
+      "text": "PMDA and BPDA backbone aerogels",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_23_112",
+        "page": 23,
+        "bbox": [
+          86.0,
+          369.0,
+          911.0,
+          912.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Figure 10 presented the thermal conductivity of PMDA and BPDA backbone aerogels with varying diamine fractions."
+      },
+      "confidence": {
+        "score": 0.86
+      },
+      "evidence_ids": [
+        "ev00058"
+      ]
+    },
+    {
+      "mention_id": "m094",
+      "text": "S2",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_23_112",
+        "page": 23,
+        "bbox": [
+          86.0,
+          369.0,
+          911.0,
+          912.0
+        ],
+        "source_type": "text",
+        "source_sentence": "However, unlike the other aerogels, the S2 and S7 samples presented even reduced effective thermal conductivity at higher density compared to the S1 and S6 aerogels, respectively."
+      },
+      "confidence": {
+        "score": 0.98
+      },
+      "evidence_ids": [
+        "ev00059"
+      ]
+    },
+    {
+      "mention_id": "m095",
+      "text": "S7",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_23_112",
+        "page": 23,
+        "bbox": [
+          86.0,
+          369.0,
+          911.0,
+          912.0
+        ],
+        "source_type": "text",
+        "source_sentence": "However, unlike the other aerogels, the S2 and S7 samples presented even reduced effective thermal conductivity at higher density compared to the S1 and S6 aerogels, respectively."
+      },
+      "confidence": {
+        "score": 0.98
+      },
+      "evidence_ids": [
+        "ev00059"
+      ]
+    },
+    {
+      "mention_id": "m096",
+      "text": "S1",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_23_112",
+        "page": 23,
+        "bbox": [
+          86.0,
+          369.0,
+          911.0,
+          912.0
+        ],
+        "source_type": "text",
+        "source_sentence": "However, unlike the other aerogels, the S2 and S7 samples presented even reduced effective thermal conductivity at higher density compared to the S1 and S6 aerogels, respectively."
+      },
+      "confidence": {
+        "score": 0.98
+      },
+      "evidence_ids": [
+        "ev00059"
+      ]
+    },
+    {
+      "mention_id": "m097",
+      "text": "S6",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_23_112",
+        "page": 23,
+        "bbox": [
+          86.0,
+          369.0,
+          911.0,
+          912.0
+        ],
+        "source_type": "text",
+        "source_sentence": "However, unlike the other aerogels, the S2 and S7 samples presented even reduced effective thermal conductivity at higher density compared to the S1 and S6 aerogels, respectively."
+      },
+      "confidence": {
+        "score": 0.98
+      },
+      "evidence_ids": [
+        "ev00059"
+      ]
+    },
+    {
+      "mention_id": "m098",
+      "text": "S2",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_24_114",
+        "page": 24,
+        "bbox": [
+          86.0,
+          90.0,
+          910.0,
+          460.0
+        ],
+        "source_type": "text",
+        "source_sentence": "As presented in Figure 11, by comparing the thermal conductivity versus density deviations, roughly similar slope of increased Keff by increased density was observed from the S2 to S3 and S4 to S5 trends on PMDA backbone as well as the S7 to S9 trend on BPDA backbone."
+      },
+      "confidence": {
+        "score": 0.97
+      },
+      "evidence_ids": [
+        "ev00060"
+      ]
+    },
+    {
+      "mention_id": "m099",
+      "text": "S3",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_24_114",
+        "page": 24,
+        "bbox": [
+          86.0,
+          90.0,
+          910.0,
+          460.0
+        ],
+        "source_type": "text",
+        "source_sentence": "As presented in Figure 11, by comparing the thermal conductivity versus density deviations, roughly similar slope of increased Keff by increased density was observed from the S2 to S3 and S4 to S5 trends on PMDA backbone as well as the S7 to S9 trend on BPDA backbone."
+      },
+      "confidence": {
+        "score": 0.97
+      },
+      "evidence_ids": [
+        "ev00060"
+      ]
+    },
+    {
+      "mention_id": "m100",
+      "text": "S4",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_24_114",
+        "page": 24,
+        "bbox": [
+          86.0,
+          90.0,
+          910.0,
+          460.0
+        ],
+        "source_type": "text",
+        "source_sentence": "As presented in Figure 11, by comparing the thermal conductivity versus density deviations, roughly similar slope of increased Keff by increased density was observed from the S2 to S3 and S4 to S5 trends on PMDA backbone as well as the S7 to S9 trend on BPDA backbone."
+      },
+      "confidence": {
+        "score": 0.97
+      },
+      "evidence_ids": [
+        "ev00060"
+      ]
+    },
+    {
+      "mention_id": "m101",
+      "text": "S5",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_24_114",
+        "page": 24,
+        "bbox": [
+          86.0,
+          90.0,
+          910.0,
+          460.0
+        ],
+        "source_type": "text",
+        "source_sentence": "As presented in Figure 11, by comparing the thermal conductivity versus density deviations, roughly similar slope of increased Keff by increased density was observed from the S2 to S3 and S4 to S5 trends on PMDA backbone as well as the S7 to S9 trend on BPDA backbone."
+      },
+      "confidence": {
+        "score": 0.97
+      },
+      "evidence_ids": [
+        "ev00060"
+      ]
+    },
+    {
+      "mention_id": "m102",
+      "text": "S7",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_24_114",
+        "page": 24,
+        "bbox": [
+          86.0,
+          90.0,
+          910.0,
+          460.0
+        ],
+        "source_type": "text",
+        "source_sentence": "As presented in Figure 11, by comparing the thermal conductivity versus density deviations, roughly similar slope of increased Keff by increased density was observed from the S2 to S3 and S4 to S5 trends on PMDA backbone as well as the S7 to S9 trend on BPDA backbone."
+      },
+      "confidence": {
+        "score": 0.97
+      },
+      "evidence_ids": [
+        "ev00060"
+      ]
+    },
+    {
+      "mention_id": "m103",
+      "text": "S9",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_24_114",
+        "page": 24,
+        "bbox": [
+          86.0,
+          90.0,
+          910.0,
+          460.0
+        ],
+        "source_type": "text",
+        "source_sentence": "As presented in Figure 11, by comparing the thermal conductivity versus density deviations, roughly similar slope of increased Keff by increased density was observed from the S2 to S3 and S4 to S5 trends on PMDA backbone as well as the S7 to S9 trend on BPDA backbone."
+      },
+      "confidence": {
+        "score": 0.97
+      },
+      "evidence_ids": [
+        "ev00060"
+      ]
+    },
+    {
+      "mention_id": "m104",
+      "text": "S1",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_24_114",
+        "page": 24,
+        "bbox": [
+          86.0,
+          90.0,
+          910.0,
+          460.0
+        ],
+        "source_type": "text",
+        "source_sentence": "However, different slopes were observed from the S1 to S2 and S3 to S4 trends on PMDA backbone along with the S6 to S7 and S9 to S10 trends on BPDA backbone."
+      },
+      "confidence": {
+        "score": 0.97
+      },
+      "evidence_ids": [
+        "ev00061"
+      ]
+    },
+    {
+      "mention_id": "m105",
+      "text": "S6",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_24_114",
+        "page": 24,
+        "bbox": [
+          86.0,
+          90.0,
+          910.0,
+          460.0
+        ],
+        "source_type": "text",
+        "source_sentence": "However, different slopes were observed from the S1 to S2 and S3 to S4 trends on PMDA backbone along with the S6 to S7 and S9 to S10 trends on BPDA backbone."
+      },
+      "confidence": {
+        "score": 0.97
+      },
+      "evidence_ids": [
+        "ev00061"
+      ]
+    },
+    {
+      "mention_id": "m106",
+      "text": "S10",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_24_114",
+        "page": 24,
+        "bbox": [
+          86.0,
+          90.0,
+          910.0,
+          460.0
+        ],
+        "source_type": "text",
+        "source_sentence": "However, different slopes were observed from the S1 to S2 and S3 to S4 trends on PMDA backbone along with the S6 to S7 and S9 to S10 trends on BPDA backbone."
+      },
+      "confidence": {
+        "score": 0.97
+      },
+      "evidence_ids": [
+        "ev00061"
+      ]
+    },
+    {
+      "mention_id": "m107",
+      "text": "ODA-BPDA",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_24_115",
+        "page": 24,
+        "bbox": [
+          88.0,
+          474.0,
+          908.0,
+          527.0
+        ],
+        "source_type": "text",
+        "source_sentence": "In overall, the ODA-BPDA (S10) and 50% PPDA-ODA-PMDA (S2) aerogels presented the lowest effective thermal conductivities of about 33 $( \\mathrm { m } \\mathrm { w } \\mathrm { m } ^ { - 1 } \\mathrm { K } ^ { - 1 } )$, among the studied aerogels."
+      },
+      "confidence": {
+        "score": 0.93
+      },
+      "evidence_ids": [
+        "ev00062"
+      ]
+    },
+    {
+      "mention_id": "m108",
+      "text": "S10",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_24_115",
+        "page": 24,
+        "bbox": [
+          88.0,
+          474.0,
+          908.0,
+          527.0
+        ],
+        "source_type": "text",
+        "source_sentence": "In overall, the ODA-BPDA (S10) and 50% PPDA-ODA-PMDA (S2) aerogels presented the lowest effective thermal conductivities of about 33 $( \\mathrm { m } \\mathrm { w } \\mathrm { m } ^ { - 1 } \\mathrm { K } ^ { - 1 } )$, among the studied aerogels."
+      },
+      "confidence": {
+        "score": 0.98
+      },
+      "evidence_ids": [
+        "ev00062"
+      ]
+    },
+    {
+      "mention_id": "m109",
+      "text": "50% PPDA-ODA-PMDA",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_24_115",
+        "page": 24,
+        "bbox": [
+          88.0,
+          474.0,
+          908.0,
+          527.0
+        ],
+        "source_type": "text",
+        "source_sentence": "In overall, the ODA-BPDA (S10) and 50% PPDA-ODA-PMDA (S2) aerogels presented the lowest effective thermal conductivities of about 33 $( \\mathrm { m } \\mathrm { w } \\mathrm { m } ^ { - 1 } \\mathrm { K } ^ { - 1 } )$, among the studied aerogels."
+      },
+      "confidence": {
+        "score": 0.93
+      },
+      "evidence_ids": [
+        "ev00062"
+      ]
+    },
+    {
+      "mention_id": "m110",
+      "text": "S2",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_24_115",
+        "page": 24,
+        "bbox": [
+          88.0,
+          474.0,
+          908.0,
+          527.0
+        ],
+        "source_type": "text",
+        "source_sentence": "In overall, the ODA-BPDA (S10) and 50% PPDA-ODA-PMDA (S2) aerogels presented the lowest effective thermal conductivities of about 33 $( \\mathrm { m } \\mathrm { w } \\mathrm { m } ^ { - 1 } \\mathrm { K } ^ { - 1 } )$, among the studied aerogels."
+      },
+      "confidence": {
+        "score": 0.98
+      },
+      "evidence_ids": [
+        "ev00062"
+      ]
+    },
+    {
+      "mention_id": "m111",
+      "text": "PMDA backbone aerogels",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_25_122",
+        "page": 25,
+        "bbox": [
+          86.0,
+          827.0,
+          910.0,
+          916.0
+        ],
+        "source_type": "text",
+        "source_sentence": "However, the linear elastic region of PMDA backbone aerogels dramatically increased with increasing ODA content."
+      },
+      "confidence": {
+        "score": 0.88
+      },
+      "evidence_ids": [
+        "ev00063"
+      ]
+    },
+    {
+      "mention_id": "m112",
+      "text": "BPDA backbone aerogels",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_25_122",
+        "page": 25,
+        "bbox": [
+          86.0,
+          827.0,
+          910.0,
+          916.0
+        ],
+        "source_type": "text",
+        "source_sentence": "As observed from Figure 12, with increasing the ODA fraction, the mechanical compression resistance and the compression absorbed energy of PMDA and BPDA backbone aerogels increased and decreased, respectively."
+      },
+      "confidence": {
+        "score": 0.88
+      },
+      "evidence_ids": [
+        "ev00064"
+      ]
+    },
+    {
+      "mention_id": "m113",
+      "text": "S1",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_25_122",
+        "page": 25,
+        "bbox": [
+          86.0,
+          827.0,
+          910.0,
+          916.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Due to highly brittle nature of PPDA-PMDA bonding, the samples S1 presented very short linear elasticity region."
+      },
+      "confidence": {
+        "score": 0.97
+      },
+      "evidence_ids": [
+        "ev00065"
+      ]
+    },
+    {
+      "mention_id": "m114",
+      "text": "S6",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_25_122",
+        "page": 25,
+        "bbox": [
+          86.0,
+          827.0,
+          910.0,
+          916.0
+        ],
+        "source_type": "text",
+        "source_sentence": "For instance, on samples S6 with high modulus of 16.9 MPa, the plateau region of stress-strain graph was roughly eliminated, and the linear elastic region appeared to be directly continued by the densification region."
+      },
+      "confidence": {
+        "score": 0.97
+      },
+      "evidence_ids": [
+        "ev00066"
+      ]
+    },
+    {
+      "mention_id": "m115",
+      "text": "polyimide aerogel",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_25_122",
+        "page": 25,
+        "bbox": [
+          86.0,
+          827.0,
+          910.0,
+          916.0
+        ],
+        "source_type": "text",
+        "source_sentence": "density, $\\frac { \\rho ^ { * } } { \\rho _ { s } }$, and lower open cell content of the foams.<sup>38</sup> Increased relative density of polymeric foams was reported to increase Young's modulus, to raise the plateau stress, and to reduce the strain at which densification starts.<sup>38</sup> Furthermore, based on Gibson and Ashby classification, the polyimide aerogel stress-strain graphs were more similar to elastomeric foams rather than elastic-plastic or elastic-brittle types.<sup>38,49</sup>"
+      },
+      "confidence": {
+        "score": 0.95
+      },
+      "evidence_ids": [
+        "ev00067"
+      ]
+    },
+    {
+      "mention_id": "m116",
+      "text": "BPDA backbone aerogels",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_27_127",
+        "page": 27,
+        "bbox": [
+          86.0,
+          90.0,
+          910.0,
+          494.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Similar to the trends in Figure 12, with increasing ODA content, the compression modulus of PMDA and BPDA backbone aerogels was increased and decreased, respectively, and the compression modulus ranging from 0.18 to 16.9 MPa was observed."
+      },
+      "confidence": {
+        "score": 0.88
+      },
+      "evidence_ids": [
+        "ev00068"
+      ]
+    },
+    {
+      "mention_id": "m117",
+      "text": "BPDA backbone polyimide aerogels",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_27_127",
+        "page": 27,
+        "bbox": [
+          86.0,
+          90.0,
+          910.0,
+          494.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Thus, the BPDA backbone polyimide aerogels with optimum backbone chemistry were able to present even higher modulus than Methyltrimethoxysilane (MTMS) reinforced silica aerogel, with maximum reported young’s modulus of 12.694 MPa.<sup>50</sup> Furthermore, both samples S3 and S9 with similar diamine content of 75% ODA and 25% PPDA, but with different dianhydride backbones presented similar compression modulus of about 4.3 MPa."
+      },
+      "confidence": {
+        "score": 0.95
+      },
+      "evidence_ids": [
+        "ev00069"
+      ]
+    },
+    {
+      "mention_id": "m118",
+      "text": "S3",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_27_127",
+        "page": 27,
+        "bbox": [
+          86.0,
+          90.0,
+          910.0,
+          494.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Thus, the BPDA backbone polyimide aerogels with optimum backbone chemistry were able to present even higher modulus than Methyltrimethoxysilane (MTMS) reinforced silica aerogel, with maximum reported young’s modulus of 12.694 MPa.<sup>50</sup> Furthermore, both samples S3 and S9 with similar diamine content of 75% ODA and 25% PPDA, but with different dianhydride backbones presented similar compression modulus of about 4.3 MPa."
+      },
+      "confidence": {
+        "score": 0.97
+      },
+      "evidence_ids": [
+        "ev00069"
+      ]
+    },
+    {
+      "mention_id": "m119",
+      "text": "S9",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_27_127",
+        "page": 27,
+        "bbox": [
+          86.0,
+          90.0,
+          910.0,
+          494.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Thus, the BPDA backbone polyimide aerogels with optimum backbone chemistry were able to present even higher modulus than Methyltrimethoxysilane (MTMS) reinforced silica aerogel, with maximum reported young’s modulus of 12.694 MPa.<sup>50</sup> Furthermore, both samples S3 and S9 with similar diamine content of 75% ODA and 25% PPDA, but with different dianhydride backbones presented similar compression modulus of about 4.3 MPa."
+      },
+      "confidence": {
+        "score": 0.97
+      },
+      "evidence_ids": [
+        "ev00069"
+      ]
+    },
+    {
+      "mention_id": "m120",
+      "text": "S6",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_29_137",
+        "page": 29,
+        "bbox": [
+          86.0,
+          90.0,
+          911.0,
+          809.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The density normalized modulus of the aerogels can be defined based on aerogel morphology as well as it’s chains properties.<sup>38</sup> Among the studied aerogels, BPDA backbone S6 and S10 aerogels presented the highest normalized modulus."
+      },
+      "confidence": {
+        "score": 0.93
+      },
+      "evidence_ids": [
+        "ev00070"
+      ]
+    },
+    {
+      "mention_id": "m121",
+      "text": "S10",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_29_137",
+        "page": 29,
+        "bbox": [
+          86.0,
+          90.0,
+          911.0,
+          809.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The density normalized modulus of the aerogels can be defined based on aerogel morphology as well as it’s chains properties.<sup>38</sup> Among the studied aerogels, BPDA backbone S6 and S10 aerogels presented the highest normalized modulus."
+      },
+      "confidence": {
+        "score": 0.93
+      },
+      "evidence_ids": [
+        "ev00070"
+      ]
+    },
+    {
+      "mention_id": "m122",
+      "text": "ODA-PMDA oligomers",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_29_137",
+        "page": 29,
+        "bbox": [
+          86.0,
+          90.0,
+          911.0,
+          809.0
+        ],
+        "source_type": "text",
+        "source_sentence": "This could be due to more flexible nature of ODA-PMDA oligomers over the brittle PPDA-PMDA’s.<sup>51</sup> Furthermore, for PMDA backbone aerogels, the slope of the normalized modulus versus ODA fraction suddenly increased by increasing the ODA fraction from 75% to 87.5%."
+      },
+      "confidence": {
+        "score": 0.88
+      },
+      "evidence_ids": [
+        "ev00071"
+      ]
+    },
+    {
+      "mention_id": "m123",
+      "text": "PPDA-PMDA’s",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_29_137",
+        "page": 29,
+        "bbox": [
+          86.0,
+          90.0,
+          911.0,
+          809.0
+        ],
+        "source_type": "text",
+        "source_sentence": "This could be due to more flexible nature of ODA-PMDA oligomers over the brittle PPDA-PMDA’s.<sup>51</sup> Furthermore, for PMDA backbone aerogels, the slope of the normalized modulus versus ODA fraction suddenly increased by increasing the ODA fraction from 75% to 87.5%."
+      },
+      "confidence": {
+        "score": 0.86
+      },
+      "evidence_ids": [
+        "ev00071"
+      ]
+    },
+    {
+      "mention_id": "m124",
+      "text": "PPDA-PMDA",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_29_138",
+        "page": 29,
+        "bbox": [
+          88.0,
+          821.0,
+          910.0,
+          911.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Among the studied aerogels, only the PPDA-PMDA (S1) samples presented brittle assembly."
+      },
+      "confidence": {
+        "score": 0.95
+      },
+      "evidence_ids": [
+        "ev00072"
+      ]
+    },
+    {
+      "mention_id": "m125",
+      "text": "S1",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_29_138",
+        "page": 29,
+        "bbox": [
+          88.0,
+          821.0,
+          910.0,
+          911.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Among the studied aerogels, only the PPDA-PMDA (S1) samples presented brittle assembly."
+      },
+      "confidence": {
+        "score": 0.96
+      },
+      "evidence_ids": [
+        "ev00072"
+      ]
+    },
+    {
+      "mention_id": "m126",
+      "text": "S2",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_29_138",
+        "page": 29,
+        "bbox": [
+          88.0,
+          821.0,
+          910.0,
+          911.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Figure 15 presents both S1 and S2 aerogels after compression test."
+      },
+      "confidence": {
+        "score": 0.94
+      },
+      "evidence_ids": [
+        "ev00073"
+      ]
+    },
+    {
+      "mention_id": "m127",
+      "text": "ODA-PPDA-PMDA",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_29_138",
+        "page": 29,
+        "bbox": [
+          88.0,
+          821.0,
+          910.0,
+          911.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Therefore, no visible crack propagation was observed from the ODA-PPDA-PMDA aerogels through the compression test."
+      },
+      "confidence": {
+        "score": 0.91
+      },
+      "evidence_ids": [
+        "ev00074"
+      ]
+    },
+    {
+      "mention_id": "m128",
+      "text": "S7",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_30_143",
+        "page": 30,
+        "bbox": [
+          88.0,
+          866.0,
+          908.0,
+          921.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Among the aerogels the hybrid diamine BPDA backbone aerogel with 25% ODA fraction, S7, presented the highest yield stress."
+      },
+      "confidence": {
+        "score": 0.96
+      },
+      "evidence_ids": [
+        "ev00075"
+      ]
+    },
+    {
+      "mention_id": "m129",
+      "text": "S6",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_30_143",
+        "page": 30,
+        "bbox": [
+          88.0,
+          866.0,
+          908.0,
+          921.0
+        ],
+        "source_type": "text",
+        "source_sentence": "However, slightly higher yield stress of S7 sample over the S6 was due to the higher density of S7 aerogels."
+      },
+      "confidence": {
+        "score": 0.94
+      },
+      "evidence_ids": [
+        "ev00076"
+      ]
+    },
+    {
+      "mention_id": "m130",
+      "text": "S3",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_30_143",
+        "page": 30,
+        "bbox": [
+          88.0,
+          866.0,
+          908.0,
+          921.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Furthermore, similar change of the slope between the S3 and S4 samples was observed from the yield stress versus the ODA fraction graph."
+      },
+      "confidence": {
+        "score": 0.94
+      },
+      "evidence_ids": [
+        "ev00077"
+      ]
+    },
+    {
+      "mention_id": "m131",
+      "text": "S4",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_30_143",
+        "page": 30,
+        "bbox": [
+          88.0,
+          866.0,
+          908.0,
+          921.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Furthermore, similar change of the slope between the S3 and S4 samples was observed from the yield stress versus the ODA fraction graph."
+      },
+      "confidence": {
+        "score": 0.94
+      },
+      "evidence_ids": [
+        "ev00077"
+      ]
+    }
+  ],
+  "polymer_entities": [
+    {
+      "entity_id": "pe001",
+      "polymer_name": "polyimide aerogels",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "polyimide aerogels",
+        "Polyimide",
+        "Polyimide aerogels",
+        "polyimides",
+        "polyimide samples",
+        "polyimide aerogel"
+      ],
+      "resolved_from_mentions": [
+        "m001",
+        "m004",
+        "m031",
+        "m047",
+        "m048",
+        "m062",
+        "m064",
+        "m072",
+        "m083",
+        "m092",
+        "m115"
+      ],
+      "evidence": {
+        "block_id": "P_1_18",
+        "page": 1,
+        "bbox": [
+          86.0,
+          279.0,
+          910.0,
+          825.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Due to the sensitive relations between aerogel physical, thermal, and mechanical properties, improving the polyimide aerogels performance requires understanding of their structure to properties relations, along with introducing a robust method to tailor aerogels properties to achieve the optimum performance."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.91
+      },
+      "evidence_ids": [
+        "ev00001"
+      ]
+    },
+    {
+      "entity_id": "pe002",
+      "polymer_name": "PMDA backbone aerogels",
+      "variant_of": "pe001",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "PMDA backbone aerogels"
+      ],
+      "resolved_from_mentions": [
+        "m011",
+        "m019",
+        "m049",
+        "m063",
+        "m111"
+      ],
+      "evidence": {
+        "block_id": "P_10_59",
+        "page": 10,
+        "bbox": [
+          86.0,
+          300.0,
+          910.0,
+          598.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Furthermore, The PMDA backbone aerogels with ODA content of higher than 75% and The BPDA backbone aerogels with ODA content of less than 75%, presented high shrinkage ranging from 7% to 17% during the 24 h ageing stage."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.82
+      },
+      "evidence_ids": [
+        "ev00013"
+      ]
+    },
+    {
+      "entity_id": "pe003",
+      "polymer_name": "BPDA backbone aerogels",
+      "variant_of": "pe001",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "BPDA backbone aerogels",
+        "BPDA backbone polyimide aerogels"
+      ],
+      "resolved_from_mentions": [
+        "m008",
+        "m020",
+        "m054",
+        "m067",
+        "m084",
+        "m112",
+        "m116",
+        "m117"
+      ],
+      "evidence": {
+        "block_id": "P_15_81",
+        "page": 15,
+        "bbox": [
+          86.0,
+          90.0,
+          908.0,
+          215.0
+        ],
+        "source_type": "text",
+        "source_sentence": "As observed from Figure 5K to Figure 5T, the average pore size and particle diameter of the BPDA backbone aerogels were increased with increasing ODA content.<sup>13,17</sup> Furthermore, the increased pore size with increasing ODA fraction of BPDA backbone aerogels was commensurate with shrinkage and open cell content trends of those samples."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.84
+      },
+      "evidence_ids": [
+        "ev00039"
+      ]
+    },
+    {
+      "entity_id": "pe004",
+      "polymer_name": "hybrid diamine polyimide aerogels",
+      "variant_of": "pe001",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "hybrid diamine polyimide aerogels"
+      ],
+      "resolved_from_mentions": [
+        "m003"
+      ],
+      "evidence": {
+        "block_id": "P_1_18",
+        "page": 1,
+        "bbox": [
+          86.0,
+          279.0,
+          910.0,
+          825.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Based on the results, combination of rigid and flexible diamine monomers at varying fractions successfully tailored the properties of the hybrid diamine polyimide aerogels."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.75
+      },
+      "evidence_ids": [
+        "ev00003"
+      ]
+    },
+    {
+      "entity_id": "pe005",
+      "polymer_name": "PMDA backbone hybrid aerogels",
+      "variant_of": "pe002",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "PMDA backbone hybrid aerogels"
+      ],
+      "resolved_from_mentions": [
+        "m077"
+      ],
+      "evidence": {
+        "block_id": "P_19_97",
+        "page": 19,
+        "bbox": [
+          86.0,
+          126.0,
+          910.0,
+          529.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The decomposition trends of the PMDA backbone hybrid aerogels were also reminiscent the combination of single diamine S1 and S5 trends."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.82
+      },
+      "evidence_ids": [
+        "ev00049"
+      ]
+    },
+    {
+      "entity_id": "pe006",
+      "polymer_name": "BPDA backbone hybrid diamine aerogel",
+      "variant_of": "pe003",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "BPDA backbone hybrid diamine aerogel",
+        "hybrid BPDA backbone aerogels",
+        "BPDA backbone hybrid aerogels"
+      ],
+      "resolved_from_mentions": [
+        "m014",
+        "m057",
+        "m082"
+      ],
+      "evidence": {
+        "block_id": "P_10_58",
+        "page": 10,
+        "bbox": [
+          86.0,
+          161.0,
+          910.0,
+          285.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Expressively, the BPDA backbone hybrid diamine aerogel with 25% ODA fraction (S7) presented even higher shrinkage than the PPDA-BPDA samples."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.8
+      },
+      "evidence_ids": [
+        "ev00010"
+      ]
+    },
+    {
+      "entity_id": "pe007",
+      "polymer_name": "PPDA-PMDA",
+      "variant_of": "pe002",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "PPDA-PMDA bonding",
+        "PPDA-PMDA aerogels",
+        "PPDA-PMDA",
+        "S1"
+      ],
+      "resolved_from_mentions": [
+        "m012",
+        "m018",
+        "m021",
+        "m023",
+        "m032",
+        "m042",
+        "m045",
+        "m050",
+        "m065",
+        "m073",
+        "m074",
+        "m085",
+        "m086",
+        "m113",
+        "m124",
+        "m125"
+      ],
+      "evidence": {
+        "block_id": "P_12_68",
+        "page": 12,
+        "bbox": [
+          86.0,
+          676.0,
+          910.0,
+          906.0
+        ],
+        "source_type": "text",
+        "source_sentence": "By comparing the results of S2 hybrid aerogels with PPDA-PMDA (S1) aerogel, it can be observed that more than 82% increased density of the S2 aerogels resulted in only 2% decrease in open cell content."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.95
+      },
+      "evidence_ids": [
+        "ev00032"
+      ]
+    },
+    {
+      "entity_id": "pe008",
+      "polymer_name": "ODA-PMDA",
+      "variant_of": "pe002",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "ODA-PMDA chains",
+        "ODA-PMDA",
+        "S5"
+      ],
+      "resolved_from_mentions": [
+        "m013",
+        "m026",
+        "m028",
+        "m036",
+        "m075",
+        "m076",
+        "m087",
+        "m101"
+      ],
+      "evidence": {
+        "block_id": "P_19_97",
+        "page": 19,
+        "bbox": [
+          86.0,
+          126.0,
+          910.0,
+          529.0
+        ],
+        "source_type": "text",
+        "source_sentence": "On PMDA backbone, the PPDA-PMDA (S1) and ODA-PMDA (S5) aerogels presented the lowest and highest onset of decomposition, respectively."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.91
+      },
+      "evidence_ids": [
+        "ev00048"
+      ]
+    },
+    {
+      "entity_id": "pe009",
+      "polymer_name": "PPDA-BPDA",
+      "variant_of": "pe003",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "PPDA-BPDAs",
+        "PPDA-BPDA samples",
+        "PPDA-BPDA",
+        "S6",
+        "PPDA-BPDA aerogels"
+      ],
+      "resolved_from_mentions": [
+        "m007",
+        "m016",
+        "m025",
+        "m029",
+        "m037",
+        "m060",
+        "m061",
+        "m068",
+        "m070",
+        "m078",
+        "m079",
+        "m097",
+        "m105",
+        "m114",
+        "m120",
+        "m129"
+      ],
+      "evidence": {
+        "block_id": "P_15_82",
+        "page": 15,
+        "bbox": [
+          86.0,
+          229.0,
+          908.0,
+          354.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Unlike ODA-BPDA (S10) sample with the fibrous structure, the hybrid BPDA backbone aerogels, samples S7 to S9, presented clusters of particles morphology closer to PPDA-BPDA (S6) sample."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.93
+      },
+      "evidence_ids": [
+        "ev00040"
+      ]
+    },
+    {
+      "entity_id": "pe010",
+      "polymer_name": "ODA-BPDA",
+      "variant_of": "pe003",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "ODA-BPDA aerogels",
+        "ODA-BPDA oligomers",
+        "ODA-BPDA chains",
+        "ODA-BPDA",
+        "S10"
+      ],
+      "resolved_from_mentions": [
+        "m006",
+        "m010",
+        "m017",
+        "m024",
+        "m041",
+        "m043",
+        "m046",
+        "m055",
+        "m056",
+        "m071",
+        "m080",
+        "m081",
+        "m106",
+        "m107",
+        "m108",
+        "m121"
+      ],
+      "evidence": {
+        "block_id": "P_15_82",
+        "page": 15,
+        "bbox": [
+          86.0,
+          229.0,
+          908.0,
+          354.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Unlike ODA-BPDA (S10) sample with the fibrous structure, the hybrid BPDA backbone aerogels, samples S7 to S9, presented clusters of particles morphology closer to PPDA-BPDA (S6) sample."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.93
+      },
+      "evidence_ids": [
+        "ev00040"
+      ]
+    },
+    {
+      "entity_id": "pe011",
+      "polymer_name": "50% PPDA-ODA-PMDA",
+      "variant_of": "pe005",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "S2",
+        "50% PPDA-ODA-PMDA"
+      ],
+      "resolved_from_mentions": [
+        "m033",
+        "m044",
+        "m094",
+        "m098",
+        "m109",
+        "m110",
+        "m126"
+      ],
+      "evidence": {
+        "block_id": "P_24_115",
+        "page": 24,
+        "bbox": [
+          88.0,
+          474.0,
+          908.0,
+          527.0
+        ],
+        "source_type": "text",
+        "source_sentence": "In overall, the ODA-BPDA (S10) and 50% PPDA-ODA-PMDA (S2) aerogels presented the lowest effective thermal conductivities of about 33 $( \\mathrm { m } \\mathrm { w } \\mathrm { m } ^ { - 1 } \\mathrm { K } ^ { - 1 } )$, among the studied aerogels."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.94
+      },
+      "evidence_ids": [
+        "ev00062"
+      ]
+    },
+    {
+      "entity_id": "pe012",
+      "polymer_name": "S3",
+      "variant_of": "pe005",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "S3"
+      ],
+      "resolved_from_mentions": [
+        "m027",
+        "m034",
+        "m052",
+        "m066",
+        "m099",
+        "m118",
+        "m130"
+      ],
+      "evidence": {
+        "block_id": "P_14_79",
+        "page": 14,
+        "bbox": [
+          86.0,
+          508.0,
+          911.0,
+          878.0
+        ],
+        "source_type": "text",
+        "source_sentence": "However, increasing the ODA content from 75% in sample S3 to 87.5% in sample S4 resulted in major pore size reduction, as presented in Figure 5F and Figure 5H."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.82
+      },
+      "evidence_ids": [
+        "ev00038"
+      ]
+    },
+    {
+      "entity_id": "pe013",
+      "polymer_name": "S4",
+      "variant_of": "pe005",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "S4"
+      ],
+      "resolved_from_mentions": [
+        "m035",
+        "m053",
+        "m100",
+        "m131"
+      ],
+      "evidence": {
+        "block_id": "P_14_79",
+        "page": 14,
+        "bbox": [
+          86.0,
+          508.0,
+          911.0,
+          878.0
+        ],
+        "source_type": "text",
+        "source_sentence": "However, increasing the ODA content from 75% in sample S3 to 87.5% in sample S4 resulted in major pore size reduction, as presented in Figure 5F and Figure 5H."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.82
+      },
+      "evidence_ids": [
+        "ev00038"
+      ]
+    },
+    {
+      "entity_id": "pe014",
+      "polymer_name": "S7",
+      "variant_of": "pe006",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "S7"
+      ],
+      "resolved_from_mentions": [
+        "m015",
+        "m030",
+        "m038",
+        "m058",
+        "m069",
+        "m095",
+        "m102",
+        "m128"
+      ],
+      "evidence": {
+        "block_id": "P_10_58",
+        "page": 10,
+        "bbox": [
+          86.0,
+          161.0,
+          910.0,
+          285.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Expressively, the BPDA backbone hybrid diamine aerogel with 25% ODA fraction (S7) presented even higher shrinkage than the PPDA-BPDA samples."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.93
+      },
+      "evidence_ids": [
+        "ev00010"
+      ]
+    },
+    {
+      "entity_id": "pe015",
+      "polymer_name": "S8",
+      "variant_of": "pe006",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "S8"
+      ],
+      "resolved_from_mentions": [
+        "m039"
+      ],
+      "evidence": {
+        "block_id": "T_12_66",
+        "page": 12,
+        "bbox": [
+          91.0,
+          108.0,
+          933.0,
+          303.0
+        ],
+        "source_type": "table",
+        "source_sentence": "S8"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.64
+      },
+      "evidence_ids": [
+        "ev00027"
+      ]
+    },
+    {
+      "entity_id": "pe016",
+      "polymer_name": "S9",
+      "variant_of": "pe006",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "S9"
+      ],
+      "resolved_from_mentions": [
+        "m040",
+        "m059",
+        "m103",
+        "m119"
+      ],
+      "evidence": {
+        "block_id": "P_27_127",
+        "page": 27,
+        "bbox": [
+          86.0,
+          90.0,
+          910.0,
+          494.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Furthermore, both samples S3 and S9 with similar diamine content of 75% ODA and 25% PPDA, but with different dianhydride backbones presented similar compression modulus of about 4.3 MPa."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.83
+      },
+      "evidence_ids": [
+        "ev00078"
+      ]
+    },
+    {
+      "entity_id": "pe017",
+      "polymer_name": "PPDA-BPDA oligomers",
+      "variant_of": "pe009",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "PPDA-BPDA oligomers"
+      ],
+      "resolved_from_mentions": [
+        "m009"
+      ],
+      "evidence": {
+        "block_id": "P_9_55",
+        "page": 9,
+        "bbox": [
+          86.0,
+          508.0,
+          911.0,
+          878.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Based on this, the higher shrinkage of BPDA backbone aerogels with increasing PPDA content is believed to be due to the greater chain rigidity, high planarity, and shorter chain length between cross-links of the PPDA-BPDA oligomers.<sup>13</sup>"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.87
+      },
+      "evidence_ids": [
+        "ev00079"
+      ]
+    },
+    {
+      "entity_id": "pe018",
+      "polymer_name": "PPDA-PMDA oligomers",
+      "variant_of": "pe007",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "PPDA-PMDA oligomers",
+        "PPDA-PMDA’s"
+      ],
+      "resolved_from_mentions": [
+        "m091",
+        "m123"
+      ],
+      "evidence": {
+        "block_id": "P_19_99",
+        "page": 19,
+        "bbox": [
+          86.0,
+          823.0,
+          908.0,
+          910.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Based on this hypothesis, the first decomposition trend of S1 samples, from 422 to 621 ˚C, could be attributed to an alternative chemical reaction of excess diamine content with PPDA-PMDA oligomers and the second onset of decomposition at 621 ˚C could be accredited to the thermal degradation of PPDA-PMDA oligomers.<sup>42,43</sup>"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.85
+      },
+      "evidence_ids": [
+        "ev00080"
+      ]
+    },
+    {
+      "entity_id": "pe019",
+      "polymer_name": "ODA-PMDA oligomers",
+      "variant_of": "pe008",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "ODA-PMDA oligomers"
+      ],
+      "resolved_from_mentions": [
+        "m122"
+      ],
+      "evidence": {
+        "block_id": "P_29_137",
+        "page": 29,
+        "bbox": [
+          86.0,
+          90.0,
+          911.0,
+          809.0
+        ],
+        "source_type": "text",
+        "source_sentence": "This could be due to more flexible nature of ODA-PMDA oligomers over the brittle PPDA-PMDA’s.<sup>51</sup>"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.81
+      },
+      "evidence_ids": [
+        "ev00081"
+      ]
+    },
+    {
+      "entity_id": "pe020",
+      "polymer_name": "PPDA-PMDA polyimide films",
+      "variant_of": "pe007",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "PPDA-PMDA",
+        "PPDA-PMDA polyimide films"
+      ],
+      "resolved_from_mentions": [
+        "m088",
+        "m089"
+      ],
+      "evidence": {
+        "block_id": "P_19_99",
+        "page": 19,
+        "bbox": [
+          86.0,
+          823.0,
+          908.0,
+          910.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Based on previous studies, the onset of decomposition of $6 3 2 ~ ^ { \\circ } \\mathrm { C }$was reported from nonporous PPDA-PMDA polyimide films, made at higher number of repeat units of $\\mathrm { n } { > } 3 0 . ^ { 2 0 }$"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00082"
+      ]
+    },
+    {
+      "entity_id": "pe021",
+      "polymer_name": "ODA-PPDA-PMDA",
+      "variant_of": "pe005",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "ODA-PPDA-PMDA"
+      ],
+      "resolved_from_mentions": [
+        "m127"
+      ],
+      "evidence": {
+        "block_id": "P_29_138",
+        "page": 29,
+        "bbox": [
+          88.0,
+          821.0,
+          910.0,
+          911.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Therefore, no visible crack propagation was observed from the ODA-PPDA-PMDA aerogels through the compression test."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.76
+      },
+      "evidence_ids": [
+        "ev00074"
+      ]
+    }
+  ],
+  "unresolved_mention_ids": [
+    "m002",
+    "m005",
+    "m022",
+    "m093",
+    "m051",
+    "m090",
+    "m096",
+    "m104"
+  ],
+  "samples": [
+    {
+      "sample_id": "s001",
+      "sample_kind": "synthesis_batch",
+      "refers_to_entity": "pe007",
+      "polymer_name": "PPDA-PMDA",
+      "sample_label_raw": "S1",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "P_12_68",
+        "page": 12,
+        "bbox": [
+          86.0,
+          676.0,
+          910.0,
+          906.0
+        ],
+        "source_type": "text",
+        "source_sentence": "By comparing the results of S2 hybrid aerogels with PPDA-PMDA (S1) aerogel, it can be observed that more than 82% increased density of the S2 aerogels resulted in only 2% decrease in open cell content."
+      },
+      "confidence": {
+        "score": 0.95
+      },
+      "evidence_ids": [
+        "ev00032"
+      ]
+    },
+    {
+      "sample_id": "s002",
+      "sample_kind": "synthesis_batch",
+      "refers_to_entity": "pe011",
+      "polymer_name": "50% PPDA-ODA-PMDA",
+      "sample_label_raw": "S2",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "P_24_115",
+        "page": 24,
+        "bbox": [
+          88.0,
+          474.0,
+          908.0,
+          527.0
+        ],
+        "source_type": "text",
+        "source_sentence": "In overall, the ODA-BPDA (S10) and 50% PPDA-ODA-PMDA (S2) aerogels presented the lowest effective thermal conductivities of about 33 $( \\mathrm { m } \\mathrm { w } \\mathrm { m } ^ { - 1 } \\mathrm { K } ^ { - 1 } )$, among the studied aerogels."
+      },
+      "confidence": {
+        "score": 0.95
+      },
+      "evidence_ids": [
+        "ev00062"
+      ]
+    },
+    {
+      "sample_id": "s003",
+      "sample_kind": "synthesis_batch",
+      "refers_to_entity": "pe012",
+      "polymer_name": "S3",
+      "sample_label_raw": "S3",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "P_14_79",
+        "page": 14,
+        "bbox": [
+          86.0,
+          508.0,
+          911.0,
+          878.0
+        ],
+        "source_type": "text",
+        "source_sentence": "However, increasing the ODA content from 75% in sample S3 to 87.5% in sample S4 resulted in major pore size reduction, as presented in Figure 5F and Figure 5H."
+      },
+      "confidence": {
+        "score": 0.95
+      },
+      "evidence_ids": [
+        "ev00038"
+      ]
+    },
+    {
+      "sample_id": "s004",
+      "sample_kind": "synthesis_batch",
+      "refers_to_entity": "pe013",
+      "polymer_name": "S4",
+      "sample_label_raw": "S4",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "P_14_79",
+        "page": 14,
+        "bbox": [
+          86.0,
+          508.0,
+          911.0,
+          878.0
+        ],
+        "source_type": "text",
+        "source_sentence": "However, increasing the ODA content from 75% in sample S3 to 87.5% in sample S4 resulted in major pore size reduction, as presented in Figure 5F and Figure 5H."
+      },
+      "confidence": {
+        "score": 0.95
+      },
+      "evidence_ids": [
+        "ev00038"
+      ]
+    },
+    {
+      "sample_id": "s005",
+      "sample_kind": "synthesis_batch",
+      "refers_to_entity": "pe008",
+      "polymer_name": "ODA-PMDA",
+      "sample_label_raw": "S5",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "P_19_97",
+        "page": 19,
+        "bbox": [
+          86.0,
+          126.0,
+          910.0,
+          529.0
+        ],
+        "source_type": "text",
+        "source_sentence": "On PMDA backbone, the PPDA-PMDA (S1) and ODA-PMDA (S5) aerogels presented the lowest and highest onset of decomposition, respectively."
+      },
+      "confidence": {
+        "score": 0.95
+      },
+      "evidence_ids": [
+        "ev00048"
+      ]
+    },
+    {
+      "sample_id": "s006",
+      "sample_kind": "synthesis_batch",
+      "refers_to_entity": "pe009",
+      "polymer_name": "PPDA-BPDA",
+      "sample_label_raw": "S6",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "P_15_82",
+        "page": 15,
+        "bbox": [
+          86.0,
+          229.0,
+          908.0,
+          354.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Unlike ODA-BPDA (S10) sample with the fibrous structure, the hybrid BPDA backbone aerogels, samples S7 to S9, presented clusters of particles morphology closer to PPDA-BPDA (S6) sample."
+      },
+      "confidence": {
+        "score": 0.95
+      },
+      "evidence_ids": [
+        "ev00040"
+      ]
+    },
+    {
+      "sample_id": "s007",
+      "sample_kind": "synthesis_batch",
+      "refers_to_entity": "pe014",
+      "polymer_name": "S7",
+      "sample_label_raw": "S7",
+      "state_description": "BPDA backbone hybrid diamine aerogel with 25% ODA fraction",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "P_10_58",
+        "page": 10,
+        "bbox": [
+          86.0,
+          161.0,
+          910.0,
+          285.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Expressively, the BPDA backbone hybrid diamine aerogel with 25% ODA fraction (S7) presented even higher shrinkage than the PPDA-BPDA samples."
+      },
+      "confidence": {
+        "score": 0.95
+      },
+      "evidence_ids": [
+        "ev00010"
+      ]
+    },
+    {
+      "sample_id": "s008",
+      "sample_kind": "synthesis_batch",
+      "refers_to_entity": "pe015",
+      "polymer_name": "S8",
+      "sample_label_raw": "S8",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "T_12_66",
+        "page": 12,
+        "bbox": [
+          91.0,
+          108.0,
+          933.0,
+          303.0
+        ],
+        "source_type": "table",
+        "source_sentence": "<tr><td>S8</td><td>50%</td><td>BPDA</td><td>0.148</td><td>87.7</td><td>30.4</td><td>5.29</td><td>585</td></tr>"
+      },
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00083"
+      ]
+    },
+    {
+      "sample_id": "s009",
+      "sample_kind": "synthesis_batch",
+      "refers_to_entity": "pe016",
+      "polymer_name": "S9",
+      "sample_label_raw": "S9",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "P_27_127",
+        "page": 27,
+        "bbox": [
+          86.0,
+          90.0,
+          910.0,
+          494.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Furthermore, both samples S3 and S9 with similar diamine content of 75% ODA and 25% PPDA, but with different dianhydride backbones presented similar compression modulus of about 4.3 MPa."
+      },
+      "confidence": {
+        "score": 0.95
+      },
+      "evidence_ids": [
+        "ev00078"
+      ]
+    },
+    {
+      "sample_id": "s010",
+      "sample_kind": "synthesis_batch",
+      "refers_to_entity": "pe010",
+      "polymer_name": "ODA-BPDA",
+      "sample_label_raw": "S10",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "P_15_82",
+        "page": 15,
+        "bbox": [
+          86.0,
+          229.0,
+          908.0,
+          354.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Unlike ODA-BPDA (S10) sample with the fibrous structure, the hybrid BPDA backbone aerogels, samples S7 to S9, presented clusters of particles morphology closer to PPDA-BPDA (S6) sample."
+      },
+      "confidence": {
+        "score": 0.95
+      },
+      "evidence_ids": [
+        "ev00040"
+      ]
+    },
+    {
+      "sample_id": "s011",
+      "sample_kind": "intermediate",
+      "refers_to_entity": "pe017",
+      "polymer_name": "PPDA-BPDA oligomers",
+      "sample_label_raw": "PPDA-BPDA oligomers",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "P_9_55",
+        "page": 9,
+        "bbox": [
+          86.0,
+          508.0,
+          911.0,
+          878.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Based on this, the higher shrinkage of BPDA backbone aerogels with increasing PPDA content is believed to be due to the greater chain rigidity, high planarity, and shorter chain length between cross-links of the PPDA-BPDA oligomers.<sup>13</sup>"
+      },
+      "confidence": {
+        "score": 0.8
+      },
+      "evidence_ids": [
+        "ev00079"
+      ]
+    },
+    {
+      "sample_id": "s012",
+      "sample_kind": "intermediate",
+      "refers_to_entity": "pe018",
+      "polymer_name": "PPDA-PMDA oligomers",
+      "sample_label_raw": "PPDA-PMDA oligomers",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "P_19_99",
+        "page": 19,
+        "bbox": [
+          86.0,
+          823.0,
+          908.0,
+          910.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Based on this hypothesis, the first decomposition trend of S1 samples, from 422 to 621 ˚C, could be attributed to an alternative chemical reaction of excess diamine content with PPDA-PMDA oligomers and the second onset of decomposition at 621 ˚C could be accredited to the thermal degradation of PPDA-PMDA oligomers.<sup>42,43</sup>"
+      },
+      "confidence": {
+        "score": 0.8
+      },
+      "evidence_ids": [
+        "ev00080"
+      ]
+    },
+    {
+      "sample_id": "s013",
+      "sample_kind": "intermediate",
+      "refers_to_entity": "pe019",
+      "polymer_name": "ODA-PMDA oligomers",
+      "sample_label_raw": "ODA-PMDA oligomers",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "P_29_137",
+        "page": 29,
+        "bbox": [
+          86.0,
+          90.0,
+          911.0,
+          809.0
+        ],
+        "source_type": "text",
+        "source_sentence": "This could be due to more flexible nature of ODA-PMDA oligomers over the brittle PPDA-PMDA’s.<sup>51</sup>"
+      },
+      "confidence": {
+        "score": 0.8
+      },
+      "evidence_ids": [
+        "ev00081"
+      ]
+    }
+  ],
+  "process_steps": [],
+  "unresolved_entity_ids": [
+    "pe001",
+    "pe002",
+    "pe003",
+    "pe004",
+    "pe005",
+    "pe006",
+    "pe020",
+    "pe021"
+  ],
+  "property_observations": [
+    {
+      "property_id": "prop_s5_001",
+      "characterization_id": "char001",
+      "sample_ids": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006",
+        "s007",
+        "s008",
+        "s009",
+        "s010"
+      ],
+      "sample_resolution_status": "multi_resolved",
+      "property_name_raw": "727",
+      "property_name_normalized": "ftir_peak_wavenumber",
+      "property_category": "composition_structure",
+      "value_raw": "727",
+      "value_min": 727.0,
+      "value_max": 727.0,
+      "unit_raw": "cm-1",
+      "unit_normalized": "cm⁻¹",
+      "source_stage": "stage5",
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_16_87",
+          "page": 16,
+          "bbox": [
+            86.0,
+            652.0,
+            910.0,
+            920.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The characteristic bands of polyimides, including 727 ( cm-1), $1 3 7 0 ( \\mathrm { c m } ^ { - 1 } )$(imide C−N), 1715 $( \\mathsf { c m } ^ { - 1 } )$(symmetric imide C=O) and $1 7 7 5 ( \\mathrm { c m } ^ { - 1 } )$(asymmetric imide C=O) are observed for all studied samples.<sup>30</sup> None of the sample sets presented significant band of $1 8 6 0 ~ ( \\mathrm { c m } ^ { - 1 } )$, which indicates the existence of unreacted anhydride."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00041"
+      ]
+    },
+    {
+      "property_id": "prop_s5_002",
+      "characterization_id": "char001",
+      "sample_ids": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006",
+        "s007",
+        "s008",
+        "s009",
+        "s010"
+      ],
+      "sample_resolution_status": "multi_resolved",
+      "property_name_raw": "1715",
+      "property_name_normalized": "ftir_peak_wavenumber",
+      "property_category": "composition_structure",
+      "value_raw": "1715",
+      "value_min": 1715.0,
+      "value_max": 1715.0,
+      "spectral_assignment": "symmetric imide C=O",
+      "source_stage": "stage5",
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_16_87",
+          "page": 16,
+          "bbox": [
+            86.0,
+            652.0,
+            910.0,
+            920.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The characteristic bands of polyimides, including 727 ( cm-1), $1 3 7 0 ( \\mathrm { c m } ^ { - 1 } )$(imide C−N), 1715 $( \\mathsf { c m } ^ { - 1 } )$(symmetric imide C=O) and $1 7 7 5 ( \\mathrm { c m } ^ { - 1 } )$(asymmetric imide C=O) are observed for all studied samples.<sup>30</sup> None of the sample sets presented significant band of $1 8 6 0 ~ ( \\mathrm { c m } ^ { - 1 } )$, which indicates the existence of unreacted anhydride."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00041"
+      ]
+    },
+    {
+      "property_id": "prop_s5_003",
+      "characterization_id": "char001",
+      "sample_ids": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005"
+      ],
+      "sample_resolution_status": "multi_resolved",
+      "property_name_raw": "1660",
+      "property_name_normalized": "ftir_peak_wavenumber",
+      "property_category": "composition_structure",
+      "value_raw": "1660",
+      "value_min": 1660.0,
+      "value_max": 1660.0,
+      "spectral_assignment": "amic acid C=O",
+      "source_stage": "stage5",
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_16_87",
+          "page": 16,
+          "bbox": [
+            86.0,
+            652.0,
+            910.0,
+            920.0
+          ],
+          "source_type": "text",
+          "source_sentence": "However, PMDA backbone aerogels presented small peaks at 1660 $\\textstyle { \\left( \\cos ^ { - 1 } \\right) }$(amic acid C=O) and $1 5 3 5 \\ : \\mathrm { ~ ( ~ c m } ^ { - 1 } )$(amide C−N) bands, which may suggest incomplete imidization of polyimide samples."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00042"
+      ]
+    }
+  ],
+  "measurement_conditions": [],
+  "unresolved_property_observations": [],
+  "property_series": [],
+  "characterizations": [
+    {
+      "characterization_id": "char001",
+      "method_raw": "FTIR spectroscopy",
+      "method_normalized": "FTIR",
+      "sample_ids": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006",
+        "s007",
+        "s008",
+        "s009",
+        "s010"
+      ],
+      "sample_resolution_status": "multi_resolved",
+      "parameters": {},
+      "result_summary": "All studied samples showed characteristic polyimide bands; BPDA backbone samples indicated complete imidization, while PMDA backbone samples showed signs of incomplete imidization.",
+      "derived_property_ids": [
+        "prop_s5_001",
+        "prop_s5_002",
+        "prop_s5_003"
+      ],
+      "evidence": [
+        {
+          "block_id": "P_16_87",
+          "page": 16,
+          "bbox": [
+            86.0,
+            652.0,
+            910.0,
+            920.0
+          ],
+          "source_type": "text",
+          "source_sentence": "Chemical structure of aerogels was studied qualitatively by FTIR spectroscopy, as presented in Figure 7."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00084"
+      ]
+    },
+    {
+      "characterization_id": "char002",
+      "method_raw": "thermogravimetric analysis (TGA)",
+      "method_normalized": "TGA",
+      "sample_ids": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006",
+        "s007",
+        "s008",
+        "s009",
+        "s010"
+      ],
+      "sample_resolution_status": "multi_resolved",
+      "parameters": {
+        "atmosphere": "nitrogen"
+      },
+      "result_summary": "Onset of decomposition of fabricated aerogels ranged from 422 °C to 621 °C.",
+      "derived_property_ids": [],
+      "evidence": [
+        {
+          "block_id": "P_19_97",
+          "page": 19,
+          "bbox": [
+            86.0,
+            126.0,
+            910.0,
+            529.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The thermogravimetric analysis (TGA) was performed on all studied aerogels under nitrogen environment, starting from room temperature to $7 5 0 ~ ^ { \\circ } \\mathrm { C }$at the rate of $1 0 ~ { ^ { \\circ } C } / { \\mathrm { m i n } }$."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00085"
+      ]
+    },
+    {
+      "characterization_id": "char003",
+      "method_raw": "differential scanning calorimetry (DSC) test",
+      "method_normalized": "DSC",
+      "sample_ids": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006",
+        "s007",
+        "s008",
+        "s009",
+        "s010"
+      ],
+      "sample_resolution_status": "multi_resolved",
+      "parameters": {},
+      "result_summary": "Glass transition temperature in the range of 250 °C to 300 °C was observed for some samples.",
+      "derived_property_ids": [],
+      "evidence": [
+        {
+          "block_id": "P_22_106",
+          "page": 22,
+          "bbox": [
+            86.0,
+            90.0,
+            908.0,
+            215.0
+          ],
+          "source_type": "text",
+          "source_sentence": "As presented in Figure 9, differential scanning calorimetry (DSC) test was performed on fabricated aerogels."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00086"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "block_id": "P_1_18",
+      "page": 1,
+      "bbox": [
+        86.0,
+        279.0,
+        910.0,
+        825.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Due to the sensitive relations between aerogel physical, thermal, and mechanical properties, improving the polyimide aerogels performance requires understanding of their structure to properties relations, along with introducing a robust method to tailor aerogels properties to achieve the optimum performance.",
+      "evidence_id": "ev00001",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m001"
+    },
+    {
+      "block_id": "P_1_18",
+      "page": 1,
+      "bbox": [
+        86.0,
+        279.0,
+        910.0,
+        825.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Given this background, this work extensively studies the structure to properties relations of pyromellitic dianhydride (PMDA) and biphenyl-tetracarboxylic acid dianhydride (BPDA) backbone polyimide aerogels at varying hybrid diamine fractions.",
+      "evidence_id": "ev00002",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m002"
+    },
+    {
+      "block_id": "P_1_18",
+      "page": 1,
+      "bbox": [
+        86.0,
+        279.0,
+        910.0,
+        825.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Based on the results, combination of rigid and flexible diamine monomers at varying fractions successfully tailored the properties of the hybrid diamine polyimide aerogels.",
+      "evidence_id": "ev00003",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m003"
+    },
+    {
+      "block_id": "P_1_19",
+      "page": 1,
+      "bbox": [
+        89.0,
+        873.0,
+        702.0,
+        892.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Keywords: Polyimide; Hybrid Aerogel; BPDA; PMDA; Mesoporous Solids;",
+      "evidence_id": "ev00004",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m004"
+    },
+    {
+      "block_id": "P_9_54",
+      "page": 9,
+      "bbox": [
+        86.0,
+        161.0,
+        910.0,
+        494.0
+      ],
+      "source_type": "text",
+      "source_sentence": "As observed from Figure 3, increasing ODA diamine fraction on PMDA and BPDA backbone aerogels resulted in increased and decreased shrinkage, respectively.",
+      "evidence_id": "ev00005",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m005"
+    },
+    {
+      "block_id": "P_9_54",
+      "page": 9,
+      "bbox": [
+        86.0,
+        161.0,
+        910.0,
+        494.0
+      ],
+      "source_type": "text",
+      "source_sentence": "However, the ODA-BPDA aerogels presented significantly lower shrinkage than PPDA-BPDAs.",
+      "evidence_id": "ev00006",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m006"
+    },
+    {
+      "block_id": "P_9_55",
+      "page": 9,
+      "bbox": [
+        86.0,
+        508.0,
+        911.0,
+        878.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Based on this, the higher shrinkage of BPDA backbone aerogels with increasing PPDA content is believed to be due to the greater chain rigidity, high planarity, and shorter chain length between cross-links of the PPDA-BPDA oligomers.<sup>13</sup> Such chain geometry allows the polymer chains to densely pack together.",
+      "evidence_id": "ev00007",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m008"
+    },
+    {
+      "block_id": "P_9_55",
+      "page": 9,
+      "bbox": [
+        86.0,
+        508.0,
+        911.0,
+        878.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Furthermore, the decreasing shrinkage of BPDA backbone aerogels with increasing ODA content is believed to be due to non-co-planarity of the ODA-BPDA oligomers due to existence of the oxygen linking groups between the phenyl rings.<sup>35,36</sup> The reduced shrinkage of PMDA backbone aerogels with increasing PPDA content is believed to be due to highly rigid nature of PPDA-PMDA bonding.<sup>20</sup>",
+      "evidence_id": "ev00008",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m010"
+    },
+    {
+      "block_id": "P_10_57",
+      "page": 10,
+      "bbox": [
+        86.0,
+        90.0,
+        908.0,
+        145.0
+      ],
+      "source_type": "text",
+      "source_sentence": "However, due to the shorter chain length between the cross-links as well as the planarity of ODA-PMDA chains, addition of more flexible ODA monomers resulted in increased shrinkage.",
+      "evidence_id": "ev00009",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m013"
+    },
+    {
+      "block_id": "P_10_58",
+      "page": 10,
+      "bbox": [
+        86.0,
+        161.0,
+        910.0,
+        285.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Expressively, the BPDA backbone hybrid diamine aerogel with 25% ODA fraction (S7) presented even higher shrinkage than the PPDA-BPDA samples.",
+      "evidence_id": "ev00010",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m014"
+    },
+    {
+      "block_id": "P_10_58",
+      "page": 10,
+      "bbox": [
+        86.0,
+        161.0,
+        910.0,
+        285.0
+      ],
+      "source_type": "text",
+      "source_sentence": "This suggests that at low ODA-BPDA content, rather than non-co-planarity and shorter crosslinks, the more flexible nature of ODA-BPDA chains plays the dominant role and as a result, increases the shrinkage.",
+      "evidence_id": "ev00011",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m017"
+    },
+    {
+      "block_id": "P_10_59",
+      "page": 10,
+      "bbox": [
+        86.0,
+        300.0,
+        910.0,
+        598.0
+      ],
+      "source_type": "text",
+      "source_sentence": "As observed from Figure 3, except the PPDA-PMDA aerogels, the main shrinkage of the samples is occurred through the CO2 supercritical drying stage.",
+      "evidence_id": "ev00012",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m018"
+    },
+    {
+      "block_id": "P_10_59",
+      "page": 10,
+      "bbox": [
+        86.0,
+        300.0,
+        910.0,
+        598.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Furthermore, The PMDA backbone aerogels with ODA content of higher than 75% and The BPDA backbone aerogels with ODA content of less than 75%, presented high shrinkage ranging from 7% to 17% during the 24 h ageing stage.",
+      "evidence_id": "ev00013",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m019"
+    },
+    {
+      "block_id": "P_10_60",
+      "page": 10,
+      "bbox": [
+        86.0,
+        614.0,
+        908.0,
+        667.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Among the studied aerogels, PPDA-PMDA presented the lowest shrinkage of 7.3%, which is believed to be due to highly rigid and brittle nature of PPDA-PMDA bonding.<sup>20</sup>",
+      "evidence_id": "ev00014",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m021"
+    },
+    {
+      "block_id": "P_11_63",
+      "page": 11,
+      "bbox": [
+        86.0,
+        518.0,
+        910.0,
+        679.0
+      ],
+      "source_type": "text",
+      "source_sentence": "As presented in Table 2, increasing the ODA content resulted in decreased and increased density of PMDA and BPDA backbone aerogels, respectively.",
+      "evidence_id": "ev00015",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m022"
+    },
+    {
+      "block_id": "P_11_63",
+      "page": 11,
+      "bbox": [
+        86.0,
+        518.0,
+        910.0,
+        679.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Among the studied aerogels, single diamine PPDA-PMDA and ODA-BPDA presented the lowest densities of 0.056 g/cm and 0.083 $\\mathrm { g } / \\mathrm { c m } ^ { 3 }$, correspondingly.",
+      "evidence_id": "ev00016",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m023"
+    },
+    {
+      "block_id": "P_11_64",
+      "page": 11,
+      "bbox": [
+        86.0,
+        691.0,
+        911.0,
+        919.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Similar to shrinkage results, it was observed that addition of 25% fraction of the diverse diamine monomer to dense PPDA-BPDA and ODA-PMDA aerogels did not affect the aerogels density considerably.",
+      "evidence_id": "ev00017",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m025"
+    },
+    {
+      "block_id": "P_11_64",
+      "page": 11,
+      "bbox": [
+        86.0,
+        691.0,
+        911.0,
+        919.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Roughly, similar morphology of the S3 and S5 as well as S6 and S7 aerogels is also in agreement with this observation.",
+      "evidence_id": "ev00018",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m027"
+    },
+    {
+      "block_id": "T_12_66",
+      "page": 12,
+      "bbox": [
+        91.0,
+        108.0,
+        933.0,
+        303.0
+      ],
+      "source_type": "table",
+      "source_sentence": "Properties of the studied polyimide aerogels.",
+      "evidence_id": "ev00019",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m031"
+    },
+    {
+      "block_id": "T_12_66",
+      "page": 12,
+      "bbox": [
+        91.0,
+        108.0,
+        933.0,
+        303.0
+      ],
+      "source_type": "table",
+      "source_sentence": "<table><tr><td>Sample</td><td>PPDA Fraction</td><td>dianhydride</td><td>density (g/cm3)</td><td>porosity (%)</td><td>shrinkage (%)</td><td>modulus (MPa)</td><td>onset of decomposition (°C)</td></tr><tr><td>S1</td><td>100%</td><td>PMDA</td><td>0.056</td><td>96.6</td><td>7.7</td><td>0.18</td><td>422</td></tr><tr><td>S2</td><td>50%</td><td>PMDA</td><td>0.102</td><td>94.6</td><td>18.9</td><td>0.95</td><td>459</td></tr><tr><td>S3</td><td>25%</td><td>PMDA</td><td>0.176</td><td>89.3</td><td>33.3</td><t",
+      "evidence_id": "ev00020",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m032"
+    },
+    {
+      "block_id": "T_12_66",
+      "page": 12,
+      "bbox": [
+        91.0,
+        108.0,
+        933.0,
+        303.0
+      ],
+      "source_type": "table",
+      "source_sentence": "S2",
+      "evidence_id": "ev00021",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m033"
+    },
+    {
+      "block_id": "T_12_66",
+      "page": 12,
+      "bbox": [
+        91.0,
+        108.0,
+        933.0,
+        303.0
+      ],
+      "source_type": "table",
+      "source_sentence": "S3",
+      "evidence_id": "ev00022",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m034"
+    },
+    {
+      "block_id": "T_12_66",
+      "page": 12,
+      "bbox": [
+        91.0,
+        108.0,
+        933.0,
+        303.0
+      ],
+      "source_type": "table",
+      "source_sentence": "S4",
+      "evidence_id": "ev00023",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m035"
+    },
+    {
+      "block_id": "T_12_66",
+      "page": 12,
+      "bbox": [
+        91.0,
+        108.0,
+        933.0,
+        303.0
+      ],
+      "source_type": "table",
+      "source_sentence": "S5",
+      "evidence_id": "ev00024",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m036"
+    },
+    {
+      "block_id": "T_12_66",
+      "page": 12,
+      "bbox": [
+        91.0,
+        108.0,
+        933.0,
+        303.0
+      ],
+      "source_type": "table",
+      "source_sentence": "S6",
+      "evidence_id": "ev00025",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m037"
+    },
+    {
+      "block_id": "T_12_66",
+      "page": 12,
+      "bbox": [
+        91.0,
+        108.0,
+        933.0,
+        303.0
+      ],
+      "source_type": "table",
+      "source_sentence": "S7",
+      "evidence_id": "ev00026",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m038"
+    },
+    {
+      "block_id": "T_12_66",
+      "page": 12,
+      "bbox": [
+        91.0,
+        108.0,
+        933.0,
+        303.0
+      ],
+      "source_type": "table",
+      "source_sentence": "S8",
+      "evidence_id": "ev00027",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m039"
+    },
+    {
+      "block_id": "T_12_66",
+      "page": 12,
+      "bbox": [
+        91.0,
+        108.0,
+        933.0,
+        303.0
+      ],
+      "source_type": "table",
+      "source_sentence": "S9",
+      "evidence_id": "ev00028",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m040"
+    },
+    {
+      "block_id": "T_12_66",
+      "page": 12,
+      "bbox": [
+        91.0,
+        108.0,
+        933.0,
+        303.0
+      ],
+      "source_type": "table",
+      "source_sentence": "S10",
+      "evidence_id": "ev00029",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m041"
+    },
+    {
+      "block_id": "P_12_68",
+      "page": 12,
+      "bbox": [
+        86.0,
+        676.0,
+        910.0,
+        906.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Therefore, the low density PPDA-PMDA and ODA-BPDA aerogels presented the highest open cell contents of 96.6% and 94.8% among the samples.",
+      "evidence_id": "ev00030",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m042"
+    },
+    {
+      "block_id": "P_12_68",
+      "page": 12,
+      "bbox": [
+        86.0,
+        676.0,
+        910.0,
+        906.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Furthermore, the S2 hybrid aerogels with 50% ODA fraction presented high open cell content of 94.6%.",
+      "evidence_id": "ev00031",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m044"
+    },
+    {
+      "block_id": "P_12_68",
+      "page": 12,
+      "bbox": [
+        86.0,
+        676.0,
+        910.0,
+        906.0
+      ],
+      "source_type": "text",
+      "source_sentence": "By comparing the results of S2 hybrid aerogels with PPDA-PMDA (S1) aerogel, it can be observed that more than 82% increased density of the S2 aerogels resulted in only 2% decrease in open cell content.",
+      "evidence_id": "ev00032",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m045"
+    },
+    {
+      "block_id": "P_13_75",
+      "page": 13,
+      "bbox": [
+        86.0,
+        786.0,
+        910.0,
+        910.0
+      ],
+      "source_type": "text",
+      "source_sentence": "The PMDA backbone aerogels morphology can be mainly described as a three-dimensional network of nano fibers tangled together along with some spherical agglomerated particles randomly attached to the network.<sup>17</sup> However, except the ODA-BPDA aerogels, the BPDA backbone aerogels were mainly presented clusters of particles morphology closer to silica aerogels.<sup>40,41</sup> Polyimide aerogels network structure is believed to be mainly formed during the last stage of polymerization as wel",
+      "evidence_id": "ev00033",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m046"
+    },
+    {
+      "block_id": "P_13_75",
+      "page": 13,
+      "bbox": [
+        86.0,
+        786.0,
+        910.0,
+        910.0
+      ],
+      "source_type": "text",
+      "source_sentence": "ology can be mainly described as a three-dimensional network of nano fibers tangled together along with some spherical agglomerated particles randomly attached to the network.<sup>17</sup> However, except the ODA-BPDA aerogels, the BPDA backbone aerogels were mainly presented clusters of particles morphology closer to silica aerogels.<sup>40,41</sup> Polyimide aerogels network structure is believed to be mainly formed during the last stage of polymerization as well as the initial gelation stage.",
+      "evidence_id": "ev00034",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m047"
+    },
+    {
+      "block_id": "P_14_78",
+      "page": 14,
+      "bbox": [
+        88.0,
+        439.0,
+        911.0,
+        494.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Therefore, achieving polyimide aerogels with desired network structure requires accurate control of all sensitive processing variables at optimum level.",
+      "evidence_id": "ev00035",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m048"
+    },
+    {
+      "block_id": "P_14_79",
+      "page": 14,
+      "bbox": [
+        86.0,
+        508.0,
+        911.0,
+        878.0
+      ],
+      "source_type": "text",
+      "source_sentence": "From Figure 5A to Figure 5J, it is observed that the PMDA backbone aerogels fiber thickness, chain length between the crosslinks, and the average pore size were decreased with increasing ODA content.",
+      "evidence_id": "ev00036",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m049"
+    },
+    {
+      "block_id": "P_14_79",
+      "page": 14,
+      "bbox": [
+        86.0,
+        508.0,
+        911.0,
+        878.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Among the PMDA backbone aerogels, the S1 and S2 aerogels with PPDA content of more than 50% presented roughly similar morphology as well as fiber thickness of about 45 nm.",
+      "evidence_id": "ev00037",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m050"
+    },
+    {
+      "block_id": "P_14_79",
+      "page": 14,
+      "bbox": [
+        86.0,
+        508.0,
+        911.0,
+        878.0
+      ],
+      "source_type": "text",
+      "source_sentence": "However, increasing the ODA content from 75% in sample S3 to 87.5% in sample S4 resulted in major pore size reduction, as presented in Figure 5F and Figure 5H.",
+      "evidence_id": "ev00038",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m052"
+    },
+    {
+      "block_id": "P_15_81",
+      "page": 15,
+      "bbox": [
+        86.0,
+        90.0,
+        908.0,
+        215.0
+      ],
+      "source_type": "text",
+      "source_sentence": "As observed from Figure 5K to Figure 5T, the average pore size and particle diameter of the BPDA backbone aerogels were increased with increasing ODA content.<sup>13,17</sup> Furthermore, the increased pore size with increasing ODA fraction of BPDA backbone aerogels was commensurate with shrinkage and open cell content trends of those samples.",
+      "evidence_id": "ev00039",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m054"
+    },
+    {
+      "block_id": "P_15_82",
+      "page": 15,
+      "bbox": [
+        86.0,
+        229.0,
+        908.0,
+        354.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Unlike ODA-BPDA (S10) sample with the fibrous structure, the hybrid BPDA backbone aerogels, samples S7 to S9, presented clusters of particles morphology closer to PPDA-BPDA (S6) sample.",
+      "evidence_id": "ev00040",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m055"
+    },
+    {
+      "block_id": "P_16_87",
+      "page": 16,
+      "bbox": [
+        86.0,
+        652.0,
+        910.0,
+        920.0
+      ],
+      "source_type": "text",
+      "source_sentence": "The characteristic bands of polyimides, including 727 ( cm-1), $1 3 7 0 ( \\mathrm { c m } ^ { - 1 } )$(imide C−N), 1715 $( \\mathsf { c m } ^ { - 1 } )$(symmetric imide C=O) and $1 7 7 5 ( \\mathrm { c m } ^ { - 1 } )$(asymmetric imide C=O) are observed for all studied samples.<sup>30</sup> None of the sample sets presented significant band of $1 8 6 0 ~ ( \\mathrm { c m } ^ { - 1 } )$, which indicates the existence of unreacted anhydride.",
+      "evidence_id": "ev00041",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m062"
+    },
+    {
+      "block_id": "P_16_87",
+      "page": 16,
+      "bbox": [
+        86.0,
+        652.0,
+        910.0,
+        920.0
+      ],
+      "source_type": "text",
+      "source_sentence": "However, PMDA backbone aerogels presented small peaks at 1660 $\\textstyle { \\left( \\cos ^ { - 1 } \\right) }$(amic acid C=O) and $1 5 3 5 \\ : \\mathrm { ~ ( ~ c m } ^ { - 1 } )$(amide C−N) bands, which may suggest incomplete imidization of polyimide samples.",
+      "evidence_id": "ev00042",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m063"
+    },
+    {
+      "block_id": "P_16_87",
+      "page": 16,
+      "bbox": [
+        86.0,
+        652.0,
+        910.0,
+        920.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Among the PMDA backbone aerogels, the S1 and S3 samples presented highest intensity at",
+      "evidence_id": "ev00043",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m065"
+    },
+    {
+      "block_id": "P_17_89",
+      "page": 17,
+      "bbox": [
+        89.0,
+        90.0,
+        906.0,
+        145.0
+      ],
+      "source_type": "text",
+      "source_sentence": "The lack of $1 6 6 0 \\ ( \\mathrm { c m } ^ { - 1 } )$and $1 5 3 5 \\ ( { \\mathrm { c m } } ^ { - 1 } )$bands on BPDA backbone aerogels may indicate the complete imidization of those sample.",
+      "evidence_id": "ev00044",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m067"
+    },
+    {
+      "block_id": "P_17_91",
+      "page": 17,
+      "bbox": [
+        88.0,
+        335.0,
+        910.0,
+        566.0
+      ],
+      "source_type": "text",
+      "source_sentence": "For instance, comparing the sample S7 with S6 presented that addition of ODA to PPDA-BPDA aerogels resulted in appearance of the peak at $1 2 3 8 ( \\mathrm { c m } ^ { - 1 } )$band.",
+      "evidence_id": "ev00045",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m068"
+    },
+    {
+      "block_id": "P_17_91",
+      "page": 17,
+      "bbox": [
+        88.0,
+        335.0,
+        910.0,
+        566.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Furthermore, for S7 to S10 aerogels, the intensity of the peak at $1 2 3 8 \\ ( \\mathrm { c m } ^ { - 1 } )$band increased with increasing ODA fraction.",
+      "evidence_id": "ev00046",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m071"
+    },
+    {
+      "block_id": "P_19_97",
+      "page": 19,
+      "bbox": [
+        86.0,
+        126.0,
+        910.0,
+        529.0
+      ],
+      "source_type": "text",
+      "source_sentence": "As illustrated in Figure 8, fabricated polyimide aerogels presented high onset of decomposition ranging from 422 to $6 2 1 ~ ^ { \\circ } \\mathrm { C }$.",
+      "evidence_id": "ev00047",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m072"
+    },
+    {
+      "block_id": "P_19_97",
+      "page": 19,
+      "bbox": [
+        86.0,
+        126.0,
+        910.0,
+        529.0
+      ],
+      "source_type": "text",
+      "source_sentence": "On PMDA backbone, the PPDA-PMDA (S1) and ODA-PMDA (S5) aerogels presented the lowest and highest onset of decomposition, respectively.",
+      "evidence_id": "ev00048",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m073"
+    },
+    {
+      "block_id": "P_19_97",
+      "page": 19,
+      "bbox": [
+        86.0,
+        126.0,
+        910.0,
+        529.0
+      ],
+      "source_type": "text",
+      "source_sentence": "The decomposition trends of the PMDA backbone hybrid aerogels were also reminiscent the combination of single diamine S1 and S5 trends.",
+      "evidence_id": "ev00049",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m077"
+    },
+    {
+      "block_id": "P_19_97",
+      "page": 19,
+      "bbox": [
+        86.0,
+        126.0,
+        910.0,
+        529.0
+      ],
+      "source_type": "text",
+      "source_sentence": "The PPDA-BPDA (S6) and ODA-BPDA (S10) presented the onset of decomposition of $6 2 1 ~ ^ { \\circ } \\mathrm { C }$and $5 8 9 ^ { \\circ } \\mathrm { C } .$, respectively.",
+      "evidence_id": "ev00050",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m078"
+    },
+    {
+      "block_id": "P_19_97",
+      "page": 19,
+      "bbox": [
+        86.0,
+        126.0,
+        910.0,
+        529.0
+      ],
+      "source_type": "text",
+      "source_sentence": "The BPDA backbone hybrid aerogels presented the onset of decomposition ranging from 580 to $5 8 5 ~ ^ { \\circ } \\mathrm { C }$, those were close to the onset of decomposition of ODA-BPDA (S10) aerogels.",
+      "evidence_id": "ev00051",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m082"
+    },
+    {
+      "block_id": "P_19_98",
+      "page": 19,
+      "bbox": [
+        86.0,
+        544.0,
+        910.0,
+        806.0
+      ],
+      "source_type": "text",
+      "source_sentence": "In general, at comparable backbone chemistry, polyimides containing highly reactive PPDA diamine were expected to present higher decomposition temperature than those containing ODA diamine monomer.<sup>13</sup> Similar tendency were observed from BPDA backbone aerogels in this work.",
+      "evidence_id": "ev00052",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m083"
+    },
+    {
+      "block_id": "P_19_98",
+      "page": 19,
+      "bbox": [
+        86.0,
+        544.0,
+        910.0,
+        806.0
+      ],
+      "source_type": "text",
+      "source_sentence": "However, on PMDA backbone, the PPDA-PMDA (S1) aerogel presented lower onset of decomposition of $4 2 2 ~ ^ { \\circ } \\mathrm { C }$than the ODA-PMDA sample with decomposition temperature of $5 8 6 ~ ^ { \\circ } \\mathrm { C } .$By a closer look to the decomposition trend of the PPDA-PMDA (S1) aerogels, two varying slopes of decomposition at less than $7 0 0 ~ ^ { \\circ } \\mathrm { C }$were observed.",
+      "evidence_id": "ev00053",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m085"
+    },
+    {
+      "block_id": "P_19_99",
+      "page": 19,
+      "bbox": [
+        86.0,
+        823.0,
+        908.0,
+        910.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Based on previous studies, the onset of decomposition of $6 3 2 ~ ^ { \\circ } \\mathrm { C }$was reported from nonporous PPDA-PMDA polyimide films, made at higher number of repeat units of $\\mathrm { n } { > } 3 0 .",
+      "evidence_id": "ev00054",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m088"
+    },
+    {
+      "block_id": "P_19_99",
+      "page": 19,
+      "bbox": [
+        86.0,
+        823.0,
+        908.0,
+        910.0
+      ],
+      "source_type": "text",
+      "source_sentence": "^ { 2 0 }$However, to achieve solid stable PPDA-PMDA sol-gels, the sample S1 was made from very low number of repeat unit of $\\mathrm { n } { = } 1$in this work.",
+      "evidence_id": "ev00055",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m090"
+    },
+    {
+      "block_id": "P_19_99",
+      "page": 19,
+      "bbox": [
+        86.0,
+        823.0,
+        908.0,
+        910.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Based on this hypothesis, the first decomposition trend of S1 samples, from 422 to 621 ˚C, could be attributed to an alternative chemical reaction of excess diamine content with PPDA-PMDA oligomers and the second onset of decomposition at 621 ˚C could be accredited to the thermal degradation of PPDA-PMDA oligomers.<sup>42,43</sup> Roughly equal weight fraction of the excess diamine content of S1 sample, 24.3 wt.%, with the sample weight loss of 25 wt.% during the first decomposition cycle from 4",
+      "evidence_id": "ev00056",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m091"
+    },
+    {
+      "block_id": "P_22_108",
+      "page": 22,
+      "bbox": [
+        86.0,
+        710.0,
+        908.0,
+        797.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Polyimide aerogels were generally presented low thermal conductivity ranging from 30 to 50 mW $\\mathrm { m ^ { - 1 } K ^ { - 1 } } .",
+      "evidence_id": "ev00057",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m092"
+    },
+    {
+      "block_id": "P_23_112",
+      "page": 23,
+      "bbox": [
+        86.0,
+        369.0,
+        911.0,
+        912.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Figure 10 presented the thermal conductivity of PMDA and BPDA backbone aerogels with varying diamine fractions.",
+      "evidence_id": "ev00058",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m093"
+    },
+    {
+      "block_id": "P_23_112",
+      "page": 23,
+      "bbox": [
+        86.0,
+        369.0,
+        911.0,
+        912.0
+      ],
+      "source_type": "text",
+      "source_sentence": "However, unlike the other aerogels, the S2 and S7 samples presented even reduced effective thermal conductivity at higher density compared to the S1 and S6 aerogels, respectively.",
+      "evidence_id": "ev00059",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m094"
+    },
+    {
+      "block_id": "P_24_114",
+      "page": 24,
+      "bbox": [
+        86.0,
+        90.0,
+        910.0,
+        460.0
+      ],
+      "source_type": "text",
+      "source_sentence": "As presented in Figure 11, by comparing the thermal conductivity versus density deviations, roughly similar slope of increased Keff by increased density was observed from the S2 to S3 and S4 to S5 trends on PMDA backbone as well as the S7 to S9 trend on BPDA backbone.",
+      "evidence_id": "ev00060",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m098"
+    },
+    {
+      "block_id": "P_24_114",
+      "page": 24,
+      "bbox": [
+        86.0,
+        90.0,
+        910.0,
+        460.0
+      ],
+      "source_type": "text",
+      "source_sentence": "However, different slopes were observed from the S1 to S2 and S3 to S4 trends on PMDA backbone along with the S6 to S7 and S9 to S10 trends on BPDA backbone.",
+      "evidence_id": "ev00061",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m104"
+    },
+    {
+      "block_id": "P_24_115",
+      "page": 24,
+      "bbox": [
+        88.0,
+        474.0,
+        908.0,
+        527.0
+      ],
+      "source_type": "text",
+      "source_sentence": "In overall, the ODA-BPDA (S10) and 50% PPDA-ODA-PMDA (S2) aerogels presented the lowest effective thermal conductivities of about 33 $( \\mathrm { m } \\mathrm { w } \\mathrm { m } ^ { - 1 } \\mathrm { K } ^ { - 1 } )$, among the studied aerogels.",
+      "evidence_id": "ev00062",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m107"
+    },
+    {
+      "block_id": "P_25_122",
+      "page": 25,
+      "bbox": [
+        86.0,
+        827.0,
+        910.0,
+        916.0
+      ],
+      "source_type": "text",
+      "source_sentence": "However, the linear elastic region of PMDA backbone aerogels dramatically increased with increasing ODA content.",
+      "evidence_id": "ev00063",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m111"
+    },
+    {
+      "block_id": "P_25_122",
+      "page": 25,
+      "bbox": [
+        86.0,
+        827.0,
+        910.0,
+        916.0
+      ],
+      "source_type": "text",
+      "source_sentence": "As observed from Figure 12, with increasing the ODA fraction, the mechanical compression resistance and the compression absorbed energy of PMDA and BPDA backbone aerogels increased and decreased, respectively.",
+      "evidence_id": "ev00064",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m112"
+    },
+    {
+      "block_id": "P_25_122",
+      "page": 25,
+      "bbox": [
+        86.0,
+        827.0,
+        910.0,
+        916.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Due to highly brittle nature of PPDA-PMDA bonding, the samples S1 presented very short linear elasticity region.",
+      "evidence_id": "ev00065",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m113"
+    },
+    {
+      "block_id": "P_25_122",
+      "page": 25,
+      "bbox": [
+        86.0,
+        827.0,
+        910.0,
+        916.0
+      ],
+      "source_type": "text",
+      "source_sentence": "For instance, on samples S6 with high modulus of 16.9 MPa, the plateau region of stress-strain graph was roughly eliminated, and the linear elastic region appeared to be directly continued by the densification region.",
+      "evidence_id": "ev00066",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m114"
+    },
+    {
+      "block_id": "P_25_122",
+      "page": 25,
+      "bbox": [
+        86.0,
+        827.0,
+        910.0,
+        916.0
+      ],
+      "source_type": "text",
+      "source_sentence": "density, $\\frac { \\rho ^ { * } } { \\rho _ { s } }$, and lower open cell content of the foams.<sup>38</sup> Increased relative density of polymeric foams was reported to increase Young's modulus, to raise the plateau stress, and to reduce the strain at which densification starts.<sup>38</sup> Furthermore, based on Gibson and Ashby classification, the polyimide aerogel stress-strain graphs were more similar to elastomeric foams rather than elastic-plastic or elastic-brittle types.<sup>38,49</sup>",
+      "evidence_id": "ev00067",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m115"
+    },
+    {
+      "block_id": "P_27_127",
+      "page": 27,
+      "bbox": [
+        86.0,
+        90.0,
+        910.0,
+        494.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Similar to the trends in Figure 12, with increasing ODA content, the compression modulus of PMDA and BPDA backbone aerogels was increased and decreased, respectively, and the compression modulus ranging from 0.18 to 16.9 MPa was observed.",
+      "evidence_id": "ev00068",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m116"
+    },
+    {
+      "block_id": "P_27_127",
+      "page": 27,
+      "bbox": [
+        86.0,
+        90.0,
+        910.0,
+        494.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Thus, the BPDA backbone polyimide aerogels with optimum backbone chemistry were able to present even higher modulus than Methyltrimethoxysilane (MTMS) reinforced silica aerogel, with maximum reported young’s modulus of 12.694 MPa.<sup>50</sup> Furthermore, both samples S3 and S9 with similar diamine content of 75% ODA and 25% PPDA, but with different dianhydride backbones presented similar compression modulus of about 4.3 MPa.",
+      "evidence_id": "ev00069",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m117"
+    },
+    {
+      "block_id": "P_29_137",
+      "page": 29,
+      "bbox": [
+        86.0,
+        90.0,
+        911.0,
+        809.0
+      ],
+      "source_type": "text",
+      "source_sentence": "The density normalized modulus of the aerogels can be defined based on aerogel morphology as well as it’s chains properties.<sup>38</sup> Among the studied aerogels, BPDA backbone S6 and S10 aerogels presented the highest normalized modulus.",
+      "evidence_id": "ev00070",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m120"
+    },
+    {
+      "block_id": "P_29_137",
+      "page": 29,
+      "bbox": [
+        86.0,
+        90.0,
+        911.0,
+        809.0
+      ],
+      "source_type": "text",
+      "source_sentence": "This could be due to more flexible nature of ODA-PMDA oligomers over the brittle PPDA-PMDA’s.<sup>51</sup> Furthermore, for PMDA backbone aerogels, the slope of the normalized modulus versus ODA fraction suddenly increased by increasing the ODA fraction from 75% to 87.5%.",
+      "evidence_id": "ev00071",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m122"
+    },
+    {
+      "block_id": "P_29_138",
+      "page": 29,
+      "bbox": [
+        88.0,
+        821.0,
+        910.0,
+        911.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Among the studied aerogels, only the PPDA-PMDA (S1) samples presented brittle assembly.",
+      "evidence_id": "ev00072",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m124"
+    },
+    {
+      "block_id": "P_29_138",
+      "page": 29,
+      "bbox": [
+        88.0,
+        821.0,
+        910.0,
+        911.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Figure 15 presents both S1 and S2 aerogels after compression test.",
+      "evidence_id": "ev00073",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m126"
+    },
+    {
+      "block_id": "P_29_138",
+      "page": 29,
+      "bbox": [
+        88.0,
+        821.0,
+        910.0,
+        911.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Therefore, no visible crack propagation was observed from the ODA-PPDA-PMDA aerogels through the compression test.",
+      "evidence_id": "ev00074",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m127"
+    },
+    {
+      "block_id": "P_30_143",
+      "page": 30,
+      "bbox": [
+        88.0,
+        866.0,
+        908.0,
+        921.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Among the aerogels the hybrid diamine BPDA backbone aerogel with 25% ODA fraction, S7, presented the highest yield stress.",
+      "evidence_id": "ev00075",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m128"
+    },
+    {
+      "block_id": "P_30_143",
+      "page": 30,
+      "bbox": [
+        88.0,
+        866.0,
+        908.0,
+        921.0
+      ],
+      "source_type": "text",
+      "source_sentence": "However, slightly higher yield stress of S7 sample over the S6 was due to the higher density of S7 aerogels.",
+      "evidence_id": "ev00076",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m129"
+    },
+    {
+      "block_id": "P_30_143",
+      "page": 30,
+      "bbox": [
+        88.0,
+        866.0,
+        908.0,
+        921.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Furthermore, similar change of the slope between the S3 and S4 samples was observed from the yield stress versus the ODA fraction graph.",
+      "evidence_id": "ev00077",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m130"
+    },
+    {
+      "block_id": "P_27_127",
+      "page": 27,
+      "bbox": [
+        86.0,
+        90.0,
+        910.0,
+        494.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Furthermore, both samples S3 and S9 with similar diamine content of 75% ODA and 25% PPDA, but with different dianhydride backbones presented similar compression modulus of about 4.3 MPa.",
+      "evidence_id": "ev00078",
+      "source_stage": "stage2_polymer_entity",
+      "object_id": "pe016"
+    },
+    {
+      "block_id": "P_9_55",
+      "page": 9,
+      "bbox": [
+        86.0,
+        508.0,
+        911.0,
+        878.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Based on this, the higher shrinkage of BPDA backbone aerogels with increasing PPDA content is believed to be due to the greater chain rigidity, high planarity, and shorter chain length between cross-links of the PPDA-BPDA oligomers.<sup>13</sup>",
+      "evidence_id": "ev00079",
+      "source_stage": "stage2_polymer_entity",
+      "object_id": "pe017"
+    },
+    {
+      "block_id": "P_19_99",
+      "page": 19,
+      "bbox": [
+        86.0,
+        823.0,
+        908.0,
+        910.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Based on this hypothesis, the first decomposition trend of S1 samples, from 422 to 621 ˚C, could be attributed to an alternative chemical reaction of excess diamine content with PPDA-PMDA oligomers and the second onset of decomposition at 621 ˚C could be accredited to the thermal degradation of PPDA-PMDA oligomers.<sup>42,43</sup>",
+      "evidence_id": "ev00080",
+      "source_stage": "stage2_polymer_entity",
+      "object_id": "pe018"
+    },
+    {
+      "block_id": "P_29_137",
+      "page": 29,
+      "bbox": [
+        86.0,
+        90.0,
+        911.0,
+        809.0
+      ],
+      "source_type": "text",
+      "source_sentence": "This could be due to more flexible nature of ODA-PMDA oligomers over the brittle PPDA-PMDA’s.<sup>51</sup>",
+      "evidence_id": "ev00081",
+      "source_stage": "stage2_polymer_entity",
+      "object_id": "pe019"
+    },
+    {
+      "block_id": "P_19_99",
+      "page": 19,
+      "bbox": [
+        86.0,
+        823.0,
+        908.0,
+        910.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Based on previous studies, the onset of decomposition of $6 3 2 ~ ^ { \\circ } \\mathrm { C }$was reported from nonporous PPDA-PMDA polyimide films, made at higher number of repeat units of $\\mathrm { n } { > } 3 0 . ^ { 2 0 }$",
+      "evidence_id": "ev00082",
+      "source_stage": "stage2_polymer_entity",
+      "object_id": "pe020"
+    },
+    {
+      "block_id": "T_12_66",
+      "page": 12,
+      "bbox": [
+        91.0,
+        108.0,
+        933.0,
+        303.0
+      ],
+      "source_type": "table",
+      "source_sentence": "<tr><td>S8</td><td>50%</td><td>BPDA</td><td>0.148</td><td>87.7</td><td>30.4</td><td>5.29</td><td>585</td></tr>",
+      "evidence_id": "ev00083",
+      "source_stage": "stage3_sample_process",
+      "object_id": "s008"
+    },
+    {
+      "block_id": "P_16_87",
+      "page": 16,
+      "bbox": [
+        86.0,
+        652.0,
+        910.0,
+        920.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Chemical structure of aerogels was studied qualitatively by FTIR spectroscopy, as presented in Figure 7.",
+      "evidence_id": "ev00084",
+      "source_stage": "stage5_characterization",
+      "object_id": "char001"
+    },
+    {
+      "block_id": "P_19_97",
+      "page": 19,
+      "bbox": [
+        86.0,
+        126.0,
+        910.0,
+        529.0
+      ],
+      "source_type": "text",
+      "source_sentence": "The thermogravimetric analysis (TGA) was performed on all studied aerogels under nitrogen environment, starting from room temperature to $7 5 0 ~ ^ { \\circ } \\mathrm { C }$at the rate of $1 0 ~ { ^ { \\circ } C } / { \\mathrm { m i n } }$.",
+      "evidence_id": "ev00085",
+      "source_stage": "stage5_characterization",
+      "object_id": "char002"
+    },
+    {
+      "block_id": "P_22_106",
+      "page": 22,
+      "bbox": [
+        86.0,
+        90.0,
+        908.0,
+        215.0
+      ],
+      "source_type": "text",
+      "source_sentence": "As presented in Figure 9, differential scanning calorimetry (DSC) test was performed on fabricated aerogels.",
+      "evidence_id": "ev00086",
+      "source_stage": "stage5_characterization",
+      "object_id": "char003"
+    }
+  ],
+  "provenance": [
+    {
+      "stage": "ocr",
+      "engine": "mineru",
+      "batch_id": "122ff743-eb66-4583-986f-6c8015953309",
+      "model_version": "vlm",
+      "ocr_enabled": false,
+      "language": null,
+      "page_ranges": null,
+      "enable_formula": true,
+      "enable_table": true,
+      "extra_formats": [],
+      "status": "done",
+      "manifest_file": "batch_122ff743-eb66-4583-986f-6c8015953309_manifest.json",
+      "status_file": "batch_122ff743-eb66-4583-986f-6c8015953309_status.json"
+    },
+    {
+      "stage": "stage1_material_mention",
+      "provider": "dmx",
+      "model": "gpt-5.6-terra-2026-07-09",
+      "models": [
+        "gpt-5.6-terra-2026-07-09"
+      ],
+      "prompt_id": "polymer.stage1.material_mention",
+      "prompt_version": "1.2.1",
+      "prompt_sha256": "af2a070da70b7754d6ae45eeebe3bf42cf2eb2dcd039e11acdb837a06c461fb9",
+      "input_hash": "5e4c73446e828b2d96e0690f98994770ddf9bae8e65daaadc03653820201e0df",
+      "model_config_hash": "e075727883d2926c6e33e8497fe72c20e1e5addc7dfd2a90d973701ccfece7ad",
+      "cache_key": "a56502a99fcdec0be03172c61823e39edecf0c7a2a798f5a40ef864b6370f214",
+      "output_schema_version": "material_mention_schema.v2",
+      "implementation_version": "1.2.6",
+      "chunk_count": 6,
+      "usage": {
+        "input_tokens": 17559,
+        "output_tokens": 8600,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "billable_input_tokens": 17559,
+        "total_tokens": 26159
+      },
+      "cost": {
+        "status": "calculated",
+        "currency": "CNY",
+        "input_per_million": "17",
+        "output_per_million": "101",
+        "input_cost": "0.298503",
+        "output_cost": "0.868600",
+        "total_cost": "1.167103"
+      },
+      "status": "success"
+    },
+    {
+      "stage": "stage2_polymer_entity",
+      "provider": "dmx",
+      "model": "gpt-5.6-terra-2026-07-09",
+      "models": [
+        "gpt-5.6-terra-2026-07-09"
+      ],
+      "prompt_id": "polymer.stage2.polymer_entity",
+      "prompt_version": "1.2.0",
+      "prompt_sha256": "8293a9f30517fa564eb1fd5e3af02ea721f9ac48554f50edf089bcb9cec63801",
+      "input_hash": "66834a41e52de4d50d4e5d88494a47fa5a49feeefe30ef9993cd9351a8f8af2b",
+      "model_config_hash": "c9e96c2514956e7b4b65eae3d327d34f95b7a33876cec6d4aa56f95eb79a9b50",
+      "cache_key": "bf454b59e6961d7f23092c81a43ba0a6e4c4a667933f19bf2cb41fdf9cd694ea",
+      "output_schema_version": "polymer_entity_schema.v2",
+      "implementation_version": "1.3.3",
+      "context_block_count": 63,
+      "context_chars": 43716,
+      "call_count": 1,
+      "usage": {
+        "input_tokens": 28645,
+        "output_tokens": 4778,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "billable_input_tokens": 28645,
+        "total_tokens": 33423
+      },
+      "cost": {
+        "status": "calculated",
+        "currency": "CNY",
+        "input_per_million": "17",
+        "output_per_million": "101",
+        "input_cost": "0.486965",
+        "output_cost": "0.482578",
+        "total_cost": "0.969543"
+      },
+      "status": "success"
+    },
+    {
+      "stage": "stage3_sample_process",
+      "provider": "dmx",
+      "model": "doubao-seed-2.0-pro",
+      "models": [
+        "doubao-seed-2.0-pro"
+      ],
+      "prompt_id": "polymer.stage3.sample_process",
+      "prompt_version": "1.2.2",
+      "prompt_sha256": "ce2e2c59006b08286a1d41f8c6e5b8c9523abd65f8162c90b636eab35c5b263e",
+      "input_hash": "3f46bfcddf5f25c5db48fc0a85267ecc7842d4f5741b9407c5618f8958a6e73a",
+      "model_config_hash": "7a389959b1eae8cb35e4c5e5702559631666e759a9891cf98687a5b37dd5d1ad",
+      "cache_key": "cb6efc2b304d0240e5c3a6f184ebe8885241c4c87405b90680aa56d117bacb0b",
+      "output_schema_version": "sample_process_schema.v2",
+      "implementation_version": "1.3.6",
+      "context_block_count": 15,
+      "context_chars": 17801,
+      "call_count": 1,
+      "usage": {
+        "input_tokens": 12665,
+        "output_tokens": 7479,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "billable_input_tokens": 12665,
+        "total_tokens": 20144
+      },
+      "cost": {
+        "status": "calculated",
+        "currency": "CNY",
+        "input_per_million": "4.32",
+        "output_per_million": "29.15",
+        "input_cost": "0.0547128",
+        "output_cost": "0.21801285",
+        "total_cost": "0.27272565"
+      },
+      "status": "success"
+    },
+    {
+      "stage": "stage4_property",
+      "provider": "dmx",
+      "model": "doubao-seed-2.0-pro",
+      "models": [
+        "doubao-seed-2.0-pro"
+      ],
+      "prompt_id": "polymer.stage4.property",
+      "prompt_version": "1.7.2",
+      "prompt_sha256": "ec79fe3bf47539cab4ba239c611d1ab17d75dc0038cda85020caca580f7987a5",
+      "vocabulary_sha256": "3e9d85e4915a729edf0f0a53821f3ee6edf32874e1da6972457417e4f13a1510",
+      "input_hash": "abe88cb9f1564efc494ee5cf0d76aecf46ce8108830a3962cd68a2c7b23b4bea",
+      "model_config_hash": "7e14aff06827af47a7b1a797111258e33d5972d1c072111440c3b2aae020f3ce",
+      "cache_key": "6202b672fda3abe6ac9ea74ed5bff441baba3cc7d5541465728948e567ca4b25",
+      "output_schema_version": "property_observation_schema.v7",
+      "implementation_version": "1.7.10",
+      "context_block_count": 64,
+      "context_chars": 48222,
+      "call_count": 1,
+      "usage": {
+        "input_tokens": 28575,
+        "output_tokens": 20731,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "billable_input_tokens": 28575,
+        "total_tokens": 49306
+      },
+      "cost": {
+        "status": "calculated",
+        "currency": "CNY",
+        "input_per_million": "4.32",
+        "output_per_million": "29.15",
+        "input_cost": "0.123444",
+        "output_cost": "0.60430865",
+        "total_cost": "0.72775265"
+      },
+      "status": "success"
+    },
+    {
+      "stage": "stage5_characterization",
+      "provider": "dmx",
+      "model": "doubao-seed-2.0-pro",
+      "models": [
+        "doubao-seed-2.0-pro"
+      ],
+      "prompt_id": "polymer.stage5.characterization",
+      "prompt_version": "1.6.2",
+      "prompt_sha256": "5f918eb9d0dcbe0a4dc60a70d83c4e9f144f9a87bf68905d0a38ad22c000ee5c",
+      "vocabulary_sha256": "3e9d85e4915a729edf0f0a53821f3ee6edf32874e1da6972457417e4f13a1510",
+      "input_hash": "b6922f6cd750777824ed6fa67aced4d42f84a762880fc4b04a12aca02e891810",
+      "model_config_hash": "7e14aff06827af47a7b1a797111258e33d5972d1c072111440c3b2aae020f3ce",
+      "cache_key": "359d1c7640eba081610a851f1385bde7b7af7940c4ae9eb4618ecc9fbc31e105",
+      "output_schema_version": "characterization_schema.v4",
+      "implementation_version": "1.7.1",
+      "context_block_count": 64,
+      "context_chars": 48222,
+      "call_count": 1,
+      "usage": {
+        "input_tokens": 21181,
+        "output_tokens": 8722,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "billable_input_tokens": 21181,
+        "total_tokens": 29903
+      },
+      "cost": {
+        "status": "calculated",
+        "currency": "CNY",
+        "input_per_million": "4.32",
+        "output_per_million": "29.15",
+        "input_cost": "0.09150192",
+        "output_cost": "0.2542463",
+        "total_cost": "0.34574822"
+      },
+      "status": "success"
+    }
+  ],
+  "warnings": [
+    {
+      "code": "metadata_extraction_failed",
+      "message": "未配置统一 LLM 元数据提取器；document JSON 已继续生成",
+      "stage": "stage0"
+    },
+    {
+      "stage": "stage1_material_mention",
+      "code": "mention_surface_recovered",
+      "message": "mention 表面文本已恢复为 evidence 中的原文形式（唯一匹配，多候选时不修复）",
+      "items": [
+        {
+          "block_id": "P_1_18",
+          "model_text": "PMDA and biphenyl-tetracarboxylic acid dianhydride (BPDA) backbone polyimide aerogels",
+          "source_text": "PMDA) and biphenyl-tetracarboxylic acid dianhydride (BPDA) backbone polyimide aerogels"
+        }
+      ]
+    },
+    {
+      "stage": "stage1_material_mention",
+      "code": "preview_invalid_mentions_removed",
+      "message": "Preview 模式已丢弃无法恢复为原文子串的 mention 候选",
+      "items": [
+        {
+          "block_id": "P_15_82",
+          "model_text": "S8",
+          "reason": "not_source_substring"
+        }
+      ]
+    },
+    {
+      "stage": "stage2_polymer_entity",
+      "code": "preview_invalid_entities_removed",
+      "message": "Preview 模式已移除 polymer_name 并非来自 resolved mention 的实体，并将相关 mention 保守标记为 unresolved",
+      "items": [
+        {
+          "entity_id": "pe018",
+          "polymer_name": "ODA-BPDA oligomers",
+          "mention_ids": [
+            "m122"
+          ]
+        }
+      ]
+    },
+    {
+      "stage": "stage2_polymer_entity",
+      "code": "missing_mentions_marked_unresolved",
+      "message": "模型漏覆盖的 mention 已保守标记为 unresolved",
+      "mention_ids": [
+        "m051",
+        "m090",
+        "m096",
+        "m104"
+      ]
+    },
+    {
+      "stage": "stage2_polymer_entity",
+      "code": "unresolved_mentions",
+      "message": "8 个 mention 未解析为实体，已原样保留引用",
+      "mention_ids": [
+        "m002",
+        "m005",
+        "m022",
+        "m093",
+        "m051",
+        "m090",
+        "m096",
+        "m104"
+      ]
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "section_fallback",
+      "message": "Methods 为空，仅使用 Stage 2 entity 的 evidence block；结果需人工复核"
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "unsupported_state_descriptions_dropped",
+      "message": "已有有效 sample_label_raw；删除无法逐字定位的 state_description",
+      "sample_ids": [
+        "s001",
+        "s002",
+        "s005",
+        "s006",
+        "s010"
+      ]
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "unresolved_entities",
+      "message": "8 个 entity 未解析到实际样品",
+      "entity_ids": [
+        "pe001",
+        "pe002",
+        "pe003",
+        "pe004",
+        "pe005",
+        "pe006",
+        "pe020",
+        "pe021"
+      ]
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "orphan_noninitial_samples",
+      "message": "非初始样品缺少原文支持的生成 ProcessStep",
+      "sample_ids": [
+        "s011",
+        "s012",
+        "s013"
+      ]
+    },
+    {
+      "stage": "stage4_property",
+      "code": "series_entity_relinked_to_sample",
+      "message": "PropertySeries/point 的 entity_id 与已解析 Sample 冲突；已按 Stage 3 Sample.refers_to_entity 确定性纠正",
+      "series": 0,
+      "points": 50
+    },
+    {
+      "stage": "stage4_property",
+      "code": "multi_subject_series_normalized",
+      "message": "PropertySeries 的 points 明确属于多个 Sample/PolymerEntity；已清除错误的单一顶层主体，主体关系保留在各 point",
+      "series": 5
+    },
+    {
+      "stage": "stage4_property",
+      "code": "series_context_evidence_supplemented",
+      "message": "Series/point measurement context 不在数值表格 evidence；已补入全文中唯一的完全匹配原文 block",
+      "series_evidence": 3
+    },
+    {
+      "stage": "stage4_property",
+      "code": "preview_semantic_validation_bypassed",
+      "message": "Preview 已保留 Schema 合法候选，并跳过原文/evidence 语义对应校验；Strict 模式仍会报错",
+      "reason": "uprop001.property_name_raw='glass transition temperature' 不是任一 evidence block 的原文子串"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "preview_degraded_empty_shell",
+      "message": "模型响应无法安全结构化，Preview 已生成 degraded 空壳结果",
+      "degraded": true,
+      "reason": "结构化候选无法安全物化：sample_resolution_status: Input should be 'resolved' or 'unresolved'"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_characterization_details_cleared",
+      "message": "Preview 模式已清空无对象 evidence 支撑的可选表征细节",
+      "field_path": "characterizations[1]",
+      "fields": [
+        "parameters"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_property_removed",
+      "message": "Preview 模式已移除 value_raw 无原文支撑的 Stage 5 性质",
+      "field_path": "properties[1].value_raw",
+      "property_id": "prop_s5_002"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[2]",
+      "property_id": "prop_s5_003",
+      "fields": [
+        "unit_raw"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_property_removed",
+      "message": "Preview 模式已移除 value_raw 无原文支撑的 Stage 5 性质",
+      "field_path": "properties[3].value_raw",
+      "property_id": "prop_s5_004"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_property_removed",
+      "message": "Preview 模式已移除 value_raw 无原文支撑的 Stage 5 性质",
+      "field_path": "properties[4].value_raw",
+      "property_id": "prop_s5_005"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[5]",
+      "property_id": "prop_s5_006",
+      "fields": [
+        "unit_raw"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_property_removed",
+      "message": "Preview 模式已移除 value_raw 无原文支撑的 Stage 5 性质",
+      "field_path": "properties[6].value_raw",
+      "property_id": "prop_s5_007"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_property_removed",
+      "message": "Preview 模式已移除 value_raw 无原文支撑的 Stage 5 性质",
+      "field_path": "properties[7].value_raw",
+      "property_id": "prop_s5_008"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_property_subject_subscope_retained",
+      "message": "Preview 模式已保留多主体 Characterization 下的明确单主体性质；需在正式数据中复核",
+      "items": [
+        {
+          "property_id": "prop_s5_006",
+          "characterization_id": "char001",
+          "sample_id": null,
+          "entity_id": null
+        }
+      ]
+    }
+  ],
+  "stage_failures": [],
+  "raw_stage_candidates": {},
+  "validation_summary": {
+    "status": "not_validated",
+    "error_count": 0,
+    "warning_count": 24
+  },
+  "source_stage_versions": {
+    "stage0": "1.1",
+    "stage1": "1.0",
+    "stage2": "1.0",
+    "stage3": "1.0",
+    "stage4": "1.0",
+    "stage5": "1.0"
+  }
+}

@@ -1,0 +1,1580 @@
+{
+  "schema_version": "candidate.v1",
+  "document_id": "reference_no_0043541",
+  "publication": {
+    "kind": "candidate",
+    "status": "complete",
+    "validation_status": "not_validated",
+    "message": "Stage 0-5 已完成；未经完整科学语义校验，仅用于预览模型抽取结果。",
+    "completed_stages": [
+      "stage0",
+      "stage1",
+      "stage2",
+      "stage3",
+      "stage4",
+      "stage5"
+    ],
+    "candidate_stages": [],
+    "failed_stages": []
+  },
+  "paper": {
+    "ref_no": "reference_no_0043541",
+    "pdf_filename": "a36175ca-0d6a-404d-85a7-2626c63f6355_origin.pdf",
+    "source_pdf_path": "mineru_output/reference_no_0043541/a36175ca-0d6a-404d-85a7-2626c63f6355_origin.pdf",
+    "organized_pdf_path": "wenxian/reference_no_0043541/origin.pdf",
+    "doi": "10.1002/masy.200950513",
+    "title": "Structure and Surface Properties of High-density Polyelectrolyte Brushes at the Interface of Aqueous Solution",
+    "authors": [
+      "Motoyasu Kobayashi",
+      "Hiroki Yamaguchi",
+      "Yuki Terayama",
+      "Zhe Wang",
+      "Kazuhiko Ishihara",
+      "Masahiro Hino",
+      "Atsushi Takahara"
+    ],
+    "journal": "Macromol. Symp.",
+    "year": 2009,
+    "metadata_status": "complete",
+    "metadata_extraction": {
+      "method": "llm",
+      "provider": "volcengine",
+      "model": "doubao-seed-2-0-pro-260215",
+      "prompt_file": "prompts/meta_extract.md",
+      "prompt_sha256": "96d91fd20308fdaa013aaef055c4b873880414f84228b8c5983246b74d21271b",
+      "source_pages": [
+        0,
+        1
+      ],
+      "status": "success"
+    }
+  },
+  "material_mentions": [
+    {
+      "mention_id": "m001",
+      "text": "poly(MPC)",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_3_40",
+        "page": 3,
+        "bbox": [
+          89.0,
+          569.0,
+          486.0,
+          915.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Another type of controlled radical polymerization process was also reported by Ishihara.<sup>[19]</sup> Preparation of a high-density poly(MPC) brush has been reported by Iwasaki<sup>[20]</sup> and $\\mathrm { B r a s h } ^ { [ 2 1 ] }$using surface-initiated ATRP from a silicon substrate, immobilized 2-bromoisobutylate group."
+      },
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00001"
+      ]
+    },
+    {
+      "mention_id": "m002",
+      "text": "poly(DMAEMA)",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_3_40",
+        "page": 3,
+        "bbox": [
+          89.0,
+          569.0,
+          486.0,
+          915.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Similarly, the graft density of the poly(DMAEMA) brush was determined to be 0.40 chains/nm<sup>2</sup>."
+      },
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00002"
+      ]
+    },
+    {
+      "mention_id": "m003",
+      "text": "poly(MPC)",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_3_42",
+        "page": 3,
+        "bbox": [
+          500.0,
+          259.0,
+          900.0,
+          743.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The contact angle of the water droplet (2.0 mL) on the poly(MPC) brush surface was $1 \\sim 3 ^ { \\circ }$The contact angle against methylene iodide and hexadecane were $4 5 ^ { \\circ }$and ${ < } 5 ^ { \\circ }$, respectively."
+      },
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00003"
+      ]
+    },
+    {
+      "mention_id": "m004",
+      "text": "poly(DMAEMA)",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_3_42",
+        "page": 3,
+        "bbox": [
+          500.0,
+          259.0,
+          900.0,
+          743.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The contact angle of the poly(DMAEMA) brush was reduced from $5 6 ^ { \\circ }$to $3 6 ^ { \\circ }$by immersion in methyl iodide solution, indicating the formation of a hydrophilic poly(METAI) brush."
+      },
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00004"
+      ]
+    },
+    {
+      "mention_id": "m005",
+      "text": "poly(METAI)",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_3_42",
+        "page": 3,
+        "bbox": [
+          500.0,
+          259.0,
+          900.0,
+          743.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The contact angle of the poly(DMAEMA) brush was reduced from $5 6 ^ { \\circ }$to $3 6 ^ { \\circ }$by immersion in methyl iodide solution, indicating the formation of a hydrophilic poly(METAI) brush."
+      },
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00004"
+      ]
+    },
+    {
+      "mention_id": "m006",
+      "text": "poly(METAI)",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_3_44",
+        "page": 3,
+        "bbox": [
+          500.0,
+          792.0,
+          898.0,
+          915.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Figure 1(a) and (b) shows the NR profile and corresponding scattering density of a poly(METAI) brush at the D<sub>2</sub>O/Poly(ME-TAI) and 1.0 M NaCl/poly(METAI) interface."
+      },
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00005"
+      ]
+    },
+    {
+      "mention_id": "m007",
+      "text": "Poly(ME-TAI)",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_3_44",
+        "page": 3,
+        "bbox": [
+          500.0,
+          792.0,
+          898.0,
+          915.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Figure 1(a) and (b) shows the NR profile and corresponding scattering density of a poly(METAI) brush at the D<sub>2</sub>O/Poly(ME-TAI) and 1.0 M NaCl/poly(METAI) interface."
+      },
+      "confidence": {
+        "score": 0.95
+      },
+      "evidence_ids": [
+        "ev00005"
+      ]
+    },
+    {
+      "mention_id": "m008",
+      "text": "poly(MPC)",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "T_4_49",
+        "page": 4,
+        "bbox": [
+          96.0,
+          67.0,
+          903.0,
+          217.0
+        ],
+        "source_type": "table",
+        "source_sentence": "poly(MPC)"
+      },
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00006"
+      ]
+    },
+    {
+      "mention_id": "m009",
+      "text": "poly(DMAEMA)",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "T_4_49",
+        "page": 4,
+        "bbox": [
+          96.0,
+          67.0,
+          903.0,
+          217.0
+        ],
+        "source_type": "table",
+        "source_sentence": "poly(DMAEMA)"
+      },
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00007"
+      ]
+    },
+    {
+      "mention_id": "m010",
+      "text": "poly(METAI)",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "T_4_49",
+        "page": 4,
+        "bbox": [
+          96.0,
+          67.0,
+          903.0,
+          217.0
+        ],
+        "source_type": "table",
+        "source_sentence": "poly(METAI)"
+      },
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00008"
+      ]
+    },
+    {
+      "mention_id": "m011",
+      "text": "poly(MPC)",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_4_56",
+        "page": 4,
+        "bbox": [
+          96.0,
+          328.0,
+          493.0,
+          537.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The scattering length density profiles of the poly(MPC) brushes in $\\mathbf { D } _ { 2 } \\mathbf { O }$calculated from the reflectivity curves indicated that the poly(METAI) chains were stretched up to 60 nm in $\\mathbf { D } _ { 2 } \\mathbf { O } _ { 3 }$, forming a concentration gradient of ${ \\bf D } _ { 2 } { \\bf O } .$."
+      },
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00009"
+      ]
+    },
+    {
+      "mention_id": "m012",
+      "text": "poly(METAI)",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_4_56",
+        "page": 4,
+        "bbox": [
+          96.0,
+          328.0,
+          493.0,
+          537.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The scattering length density profiles of the poly(MPC) brushes in $\\mathbf { D } _ { 2 } \\mathbf { O }$calculated from the reflectivity curves indicated that the poly(METAI) chains were stretched up to 60 nm in $\\mathbf { D } _ { 2 } \\mathbf { O } _ { 3 }$, forming a concentration gradient of ${ \\bf D } _ { 2 } { \\bf O } .$."
+      },
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00009"
+      ]
+    },
+    {
+      "mention_id": "m013",
+      "text": "poly (METAI)",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_4_56",
+        "page": 4,
+        "bbox": [
+          96.0,
+          328.0,
+          493.0,
+          537.0
+        ],
+        "source_type": "text",
+        "source_sentence": "For instance, assuming the swollen brush thickness was 60 nm, the $M _ { \\mathrm { n } }$was 126,000, and grafting density was 0.40 chains/nm<sup>2</sup>, the ionic concentration in swollen poly (METAI) brush layer can be estimated to be 4.2 M, which is much higher than salt concentration in aqueous solution."
+      },
+      "confidence": {
+        "score": 0.97
+      },
+      "evidence_ids": [
+        "ev00010"
+      ]
+    },
+    {
+      "mention_id": "m014",
+      "text": "poly(MPC)",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_5_69",
+        "page": 5,
+        "bbox": [
+          89.0,
+          466.0,
+          486.0,
+          675.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Negligible change was also observed betweenthe swellingstructureofpoly(MPC) facing a pure $\\mathbf { D } _ { 2 } \\mathbf { O }$and a NaCl deuterium oxide solution, as shown in Figure 1 (c) and (d)."
+      },
+      "confidence": {
+        "score": 0.98
+      },
+      "evidence_ids": [
+        "ev00011"
+      ]
+    },
+    {
+      "mention_id": "m015",
+      "text": "PMPC",
+      "mention_role": "abbreviation",
+      "evidence": {
+        "block_id": "P_5_69",
+        "page": 5,
+        "bbox": [
+          89.0,
+          466.0,
+          486.0,
+          675.0
+        ],
+        "source_type": "text",
+        "source_sentence": "We found that the dimension of free poly(MPC) in water is independent of the ionic strength of the salt solution.<sup>[25,26]</sup> Poly(MPC) can be regard as a quite unique zwitter-type polyelectrolyte having the independence of intra- and intermolecular interaction of PMPC from the concentration of $\\mathrm { N a C l } ."
+      },
+      "confidence": {
+        "score": 0.92
+      },
+      "evidence_ids": [
+        "ev00012"
+      ]
+    },
+    {
+      "mention_id": "m016",
+      "text": "poly(MPC)",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_5_73",
+        "page": 5,
+        "bbox": [
+          500.0,
+          363.0,
+          898.0,
+          675.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Figure 2 shows the friction coefficient of poly(MPC) and poly(METAI) brush surfaces measured using a sliding a glass ball in air and in water at 298 K."
+      },
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00013"
+      ]
+    },
+    {
+      "mention_id": "m017",
+      "text": "poly(METAI)",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_5_73",
+        "page": 5,
+        "bbox": [
+          500.0,
+          363.0,
+          898.0,
+          675.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Figure 2 shows the friction coefficient of poly(MPC) and poly(METAI) brush surfaces measured using a sliding a glass ball in air and in water at 298 K."
+      },
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00013"
+      ]
+    },
+    {
+      "mention_id": "m018",
+      "text": "poly(MPC)",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_6_82",
+        "page": 6,
+        "bbox": [
+          96.0,
+          603.0,
+          493.0,
+          915.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The salt concentration effect on the polyelectrolyte brush has attracted much attention due to increased understanding of the molecular interactions and dispersion of brush grafted nanoparticles in aqueous media.<sup>[28]</sup> Figure 3(a) and (b) show the friction coefficient of poly(MPC) and poly(METAI) brushes in 0 \u0003 1.0 M of NaCl solution, respectively."
+      },
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00014"
+      ]
+    },
+    {
+      "mention_id": "m019",
+      "text": "poly(METAI)",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_6_82",
+        "page": 6,
+        "bbox": [
+          96.0,
+          603.0,
+          493.0,
+          915.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The salt concentration effect on the polyelectrolyte brush has attracted much attention due to increased understanding of the molecular interactions and dispersion of brush grafted nanoparticles in aqueous media.<sup>[28]</sup> Figure 3(a) and (b) show the friction coefficient of poly(MPC) and poly(METAI) brushes in 0 \u0003 1.0 M of NaCl solution, respectively."
+      },
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00014"
+      ]
+    },
+    {
+      "mention_id": "m020",
+      "text": "poly(MPC)",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_6_84",
+        "page": 6,
+        "bbox": [
+          506.0,
+          484.0,
+          907.0,
+          915.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Figure 4 shows adhesion and lateral force for the high-density poly(MPC) brush surface measured by AFM using a colloidal probe in aqueous solution."
+      },
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00015"
+      ]
+    }
+  ],
+  "polymer_entities": [
+    {
+      "entity_id": "pe001",
+      "polymer_name": "poly(MPC)",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "poly(MPC)",
+        "PMPC"
+      ],
+      "resolved_from_mentions": [
+        "m001",
+        "m003",
+        "m008",
+        "m011",
+        "m014",
+        "m015",
+        "m016",
+        "m018",
+        "m020"
+      ],
+      "evidence": {
+        "block_id": "P_5_69",
+        "page": 5,
+        "bbox": [
+          89.0,
+          466.0,
+          486.0,
+          675.0
+        ],
+        "source_type": "text",
+        "source_sentence": "We found that the dimension of free poly(MPC) in water is independent of the ionic strength of the salt solution.<sup>[25,26]</sup> Poly(MPC) can be regard as a quite unique zwitter-type polyelectrolyte having the independence of intra- and intermolecular interaction of PMPC from the concentration of $\\mathrm { N a C l } . ^ { [ 2 6 ] }$As a result, the thickness of the high-density polyelectrolyte brushes in solution was observed to change very little in salt solution."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00016"
+      ]
+    },
+    {
+      "entity_id": "pe002",
+      "polymer_name": "poly(DMAEMA)",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "poly(DMAEMA)"
+      ],
+      "resolved_from_mentions": [
+        "m002",
+        "m004",
+        "m009"
+      ],
+      "evidence": {
+        "block_id": "P_3_42",
+        "page": 3,
+        "bbox": [
+          500.0,
+          259.0,
+          900.0,
+          743.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The contact angle of the poly(DMAEMA) brush was reduced from $5 6 ^ { \\circ }$to $3 6 ^ { \\circ }$by immersion in methyl iodide solution, indicating the formation of a hydrophilic poly(METAI) brush."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.97
+      },
+      "evidence_ids": [
+        "ev00004"
+      ]
+    },
+    {
+      "entity_id": "pe003",
+      "polymer_name": "poly(METAI)",
+      "variant_of": "pe002",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "poly(METAI)",
+        "Poly(ME-TAI)",
+        "poly (METAI)"
+      ],
+      "resolved_from_mentions": [
+        "m005",
+        "m006",
+        "m007",
+        "m010",
+        "m012",
+        "m013",
+        "m017",
+        "m019"
+      ],
+      "evidence": {
+        "block_id": "P_3_42",
+        "page": 3,
+        "bbox": [
+          500.0,
+          259.0,
+          900.0,
+          743.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The contact angle of the poly(DMAEMA) brush was reduced from $5 6 ^ { \\circ }$to $3 6 ^ { \\circ }$by immersion in methyl iodide solution, indicating the formation of a hydrophilic poly(METAI) brush."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.95
+      },
+      "evidence_ids": [
+        "ev00004"
+      ]
+    }
+  ],
+  "unresolved_mention_ids": [],
+  "samples": [
+    {
+      "sample_id": "s001",
+      "sample_kind": "processed_material",
+      "refers_to_entity": "pe001",
+      "polymer_name": "poly(MPC)",
+      "sample_label_raw": "poly(MPC) brush",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "P_3_42",
+        "page": 3,
+        "bbox": [
+          500.0,
+          259.0,
+          900.0,
+          743.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The contact angle of the water droplet (2.0 mL) on the poly(MPC) brush surface was $1 \\sim 3 ^ { \\circ }$"
+      },
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00017"
+      ]
+    },
+    {
+      "sample_id": "s002",
+      "sample_kind": "conditioned_state",
+      "refers_to_entity": "pe001",
+      "polymer_name": "poly(MPC)",
+      "state_description": "hydrated poly(MPC) brush",
+      "intended_use": [
+        "evaluate the hydrophilicity in water"
+      ],
+      "evidence": {
+        "block_id": "P_3_42",
+        "page": 3,
+        "bbox": [
+          500.0,
+          259.0,
+          900.0,
+          743.0
+        ],
+        "source_type": "text",
+        "source_sentence": "In order to evaluate the hydrophilicity in water, the air bubble contact angle was measured for a hydrated poly(MPC) brush in water."
+      },
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00018"
+      ]
+    },
+    {
+      "sample_id": "s003",
+      "sample_kind": "processed_material",
+      "refers_to_entity": "pe002",
+      "polymer_name": "poly(DMAEMA)",
+      "sample_label_raw": "poly(DMAEMA) brush",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "P_3_42",
+        "page": 3,
+        "bbox": [
+          500.0,
+          259.0,
+          900.0,
+          743.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The contact angle of the poly(DMAEMA) brush was reduced from $5 6 ^ { \\circ }$to $3 6 ^ { \\circ }$by immersion in methyl iodide solution, indicating the formation of a hydrophilic poly(METAI) brush."
+      },
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00004"
+      ]
+    },
+    {
+      "sample_id": "s004",
+      "sample_kind": "processed_material",
+      "refers_to_entity": "pe003",
+      "polymer_name": "poly(METAI)",
+      "sample_label_raw": "poly(METAI) brush",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "P_3_42",
+        "page": 3,
+        "bbox": [
+          500.0,
+          259.0,
+          900.0,
+          743.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The contact angle of the poly(DMAEMA) brush was reduced from $5 6 ^ { \\circ }$to $3 6 ^ { \\circ }$by immersion in methyl iodide solution, indicating the formation of a hydrophilic poly(METAI) brush."
+      },
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00004"
+      ]
+    },
+    {
+      "sample_id": "s005",
+      "sample_kind": "synthesis_batch",
+      "refers_to_entity": "pe001",
+      "polymer_name": "poly(MPC)",
+      "sample_label_raw": "free poly(MPC)",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "P_5_69",
+        "page": 5,
+        "bbox": [
+          89.0,
+          466.0,
+          486.0,
+          675.0
+        ],
+        "source_type": "text",
+        "source_sentence": "We found that the dimension of free poly(MPC) in water is independent of the ionic strength of the salt solution."
+      },
+      "confidence": {
+        "score": 0.7
+      },
+      "evidence_ids": [
+        "ev00019"
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "step_id": "ps001",
+      "process_type": "hydration",
+      "input_sample_ids": [
+        "s001"
+      ],
+      "output_sample_ids": [
+        "s002"
+      ],
+      "parameters": {},
+      "evidence": {
+        "block_id": "P_3_42",
+        "page": 3,
+        "bbox": [
+          500.0,
+          259.0,
+          900.0,
+          743.0
+        ],
+        "source_type": "text",
+        "source_sentence": "In order to evaluate the hydrophilicity in water, the air bubble contact angle was measured for a hydrated poly(MPC) brush in water."
+      },
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00018"
+      ]
+    },
+    {
+      "step_id": "ps002",
+      "process_type": "surface_modification",
+      "input_sample_ids": [
+        "s003"
+      ],
+      "output_sample_ids": [
+        "s004"
+      ],
+      "parameters": {},
+      "evidence": {
+        "block_id": "P_3_42",
+        "page": 3,
+        "bbox": [
+          500.0,
+          259.0,
+          900.0,
+          743.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The contact angle of the poly(DMAEMA) brush was reduced from $5 6 ^ { \\circ }$to $3 6 ^ { \\circ }$by immersion in methyl iodide solution, indicating the formation of a hydrophilic poly(METAI) brush."
+      },
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00004"
+      ]
+    }
+  ],
+  "unresolved_entity_ids": [],
+  "property_observations": [],
+  "measurement_conditions": [],
+  "unresolved_property_observations": [],
+  "property_series": [],
+  "characterizations": [
+    {
+      "characterization_id": "char001",
+      "method_raw": "SEC",
+      "method_normalized": "GPC",
+      "sample_id": "s001",
+      "entity_id": "pe001",
+      "sample_resolution_status": "resolved",
+      "parameters": {
+        "eluent": "water"
+      },
+      "result_summary": "Mn of corresponding free polymer from poly(MPC) brushes is approximately 30000-120000",
+      "derived_property_ids": [],
+      "evidence": [
+        {
+          "block_id": "P_3_40",
+          "page": 3,
+          "bbox": [
+            89.0,
+            569.0,
+            486.0,
+            915.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The $M _ { \\mathrm { n } }$of the obtained poly(MPC) brushes on the silicon wafer were estimated to be approximately 30,000  120,000 by SEC of the corresponding free polymer using water as the eluent."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00020"
+      ]
+    },
+    {
+      "characterization_id": "char002",
+      "method_raw": "AFM observation",
+      "method_normalized": "AFM",
+      "sample_id": "s001",
+      "entity_id": "pe001",
+      "sample_resolution_status": "resolved",
+      "parameters": {},
+      "result_summary": "Homogeneous poly(MPC) layer formed on substrate, surface roughness is 0.8~1.5 nm in dried state",
+      "derived_property_ids": [],
+      "evidence": [
+        {
+          "block_id": "P_3_40",
+          "page": 3,
+          "bbox": [
+            89.0,
+            569.0,
+            486.0,
+            915.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The AFM observation revealed that a homogeneous polymer layer was formed on the substrate, and the surface roughness was $0 . 8 \\sim 1 . 5$nm in the dried state in a $5 \\times 5 \\mu \\mathrm { m } ^ { 2 }$scanning area."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00021"
+      ]
+    },
+    {
+      "characterization_id": "char003",
+      "method_raw": "AFM",
+      "method_normalized": "AFM",
+      "sample_id": "s001",
+      "entity_id": "pe001",
+      "sample_resolution_status": "resolved",
+      "parameters": {
+        "normal_load": "10 nN"
+      },
+      "result_summary": "Adhesion and lateral force of high-density poly(MPC) brush measured in ethanol/water mixture and NaCl aqueous solution",
+      "derived_property_ids": [],
+      "evidence": [
+        {
+          "block_id": "P_6_84",
+          "page": 6,
+          "bbox": [
+            506.0,
+            484.0,
+            907.0,
+            915.0
+          ],
+          "source_type": "text",
+          "source_sentence": "Figure 4 shows adhesion and lateral force for the high-density poly(MPC) brush surface measured by AFM using a colloidal probe in aqueous solution."
+        },
+        {
+          "block_id": "I_6_80",
+          "page": 6,
+          "bbox": [
+            500.0,
+            33.0,
+            813.0,
+            208.0
+          ],
+          "source_type": "image",
+          "source_sentence": "Adhesion force (a) and friction (lateral) force (b) of poly(MPC) brush in a ethanol/water $( 7 0 / 3 0 , \\boldsymbol { \\mathrm v } / \\boldsymbol { \\mathrm v } )$ solution and NaCl aqueous solution measured by AFM using a colloidal probe cantilever with silica sphere $( d = 5 0 \\ \\mu \\mathrm { m } )$ Friction force is represented by output of the photo diode at a scan rate of 10 $\\mu \\mathrm { m } / \\mathsf { s }$ under normal load of 10 nN."
+        }
+      ],
+      "confidence": {
+        "score": 0.85
+      },
+      "evidence_ids": [
+        "ev00015",
+        "ev00022"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "block_id": "P_3_40",
+      "page": 3,
+      "bbox": [
+        89.0,
+        569.0,
+        486.0,
+        915.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Another type of controlled radical polymerization process was also reported by Ishihara.<sup>[19]</sup> Preparation of a high-density poly(MPC) brush has been reported by Iwasaki<sup>[20]</sup> and $\\mathrm { B r a s h } ^ { [ 2 1 ] }$using surface-initiated ATRP from a silicon substrate, immobilized 2-bromoisobutylate group.",
+      "evidence_id": "ev00001",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m001"
+    },
+    {
+      "block_id": "P_3_40",
+      "page": 3,
+      "bbox": [
+        89.0,
+        569.0,
+        486.0,
+        915.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Similarly, the graft density of the poly(DMAEMA) brush was determined to be 0.40 chains/nm<sup>2</sup>.",
+      "evidence_id": "ev00002",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m002"
+    },
+    {
+      "block_id": "P_3_42",
+      "page": 3,
+      "bbox": [
+        500.0,
+        259.0,
+        900.0,
+        743.0
+      ],
+      "source_type": "text",
+      "source_sentence": "The contact angle of the water droplet (2.0 mL) on the poly(MPC) brush surface was $1 \\sim 3 ^ { \\circ }$The contact angle against methylene iodide and hexadecane were $4 5 ^ { \\circ }$and ${ < } 5 ^ { \\circ }$, respectively.",
+      "evidence_id": "ev00003",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m003"
+    },
+    {
+      "block_id": "P_3_42",
+      "page": 3,
+      "bbox": [
+        500.0,
+        259.0,
+        900.0,
+        743.0
+      ],
+      "source_type": "text",
+      "source_sentence": "The contact angle of the poly(DMAEMA) brush was reduced from $5 6 ^ { \\circ }$to $3 6 ^ { \\circ }$by immersion in methyl iodide solution, indicating the formation of a hydrophilic poly(METAI) brush.",
+      "evidence_id": "ev00004",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m004"
+    },
+    {
+      "block_id": "P_3_44",
+      "page": 3,
+      "bbox": [
+        500.0,
+        792.0,
+        898.0,
+        915.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Figure 1(a) and (b) shows the NR profile and corresponding scattering density of a poly(METAI) brush at the D<sub>2</sub>O/Poly(ME-TAI) and 1.0 M NaCl/poly(METAI) interface.",
+      "evidence_id": "ev00005",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m006"
+    },
+    {
+      "block_id": "T_4_49",
+      "page": 4,
+      "bbox": [
+        96.0,
+        67.0,
+        903.0,
+        217.0
+      ],
+      "source_type": "table",
+      "source_sentence": "poly(MPC)",
+      "evidence_id": "ev00006",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m008"
+    },
+    {
+      "block_id": "T_4_49",
+      "page": 4,
+      "bbox": [
+        96.0,
+        67.0,
+        903.0,
+        217.0
+      ],
+      "source_type": "table",
+      "source_sentence": "poly(DMAEMA)",
+      "evidence_id": "ev00007",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m009"
+    },
+    {
+      "block_id": "T_4_49",
+      "page": 4,
+      "bbox": [
+        96.0,
+        67.0,
+        903.0,
+        217.0
+      ],
+      "source_type": "table",
+      "source_sentence": "poly(METAI)",
+      "evidence_id": "ev00008",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m010"
+    },
+    {
+      "block_id": "P_4_56",
+      "page": 4,
+      "bbox": [
+        96.0,
+        328.0,
+        493.0,
+        537.0
+      ],
+      "source_type": "text",
+      "source_sentence": "The scattering length density profiles of the poly(MPC) brushes in $\\mathbf { D } _ { 2 } \\mathbf { O }$calculated from the reflectivity curves indicated that the poly(METAI) chains were stretched up to 60 nm in $\\mathbf { D } _ { 2 } \\mathbf { O } _ { 3 }$, forming a concentration gradient of ${ \\bf D } _ { 2 } { \\bf O } .$.",
+      "evidence_id": "ev00009",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m011"
+    },
+    {
+      "block_id": "P_4_56",
+      "page": 4,
+      "bbox": [
+        96.0,
+        328.0,
+        493.0,
+        537.0
+      ],
+      "source_type": "text",
+      "source_sentence": "For instance, assuming the swollen brush thickness was 60 nm, the $M _ { \\mathrm { n } }$was 126,000, and grafting density was 0.40 chains/nm<sup>2</sup>, the ionic concentration in swollen poly (METAI) brush layer can be estimated to be 4.2 M, which is much higher than salt concentration in aqueous solution.",
+      "evidence_id": "ev00010",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m013"
+    },
+    {
+      "block_id": "P_5_69",
+      "page": 5,
+      "bbox": [
+        89.0,
+        466.0,
+        486.0,
+        675.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Negligible change was also observed betweenthe swellingstructureofpoly(MPC) facing a pure $\\mathbf { D } _ { 2 } \\mathbf { O }$and a NaCl deuterium oxide solution, as shown in Figure 1 (c) and (d).",
+      "evidence_id": "ev00011",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m014"
+    },
+    {
+      "block_id": "P_5_69",
+      "page": 5,
+      "bbox": [
+        89.0,
+        466.0,
+        486.0,
+        675.0
+      ],
+      "source_type": "text",
+      "source_sentence": "We found that the dimension of free poly(MPC) in water is independent of the ionic strength of the salt solution.<sup>[25,26]</sup> Poly(MPC) can be regard as a quite unique zwitter-type polyelectrolyte having the independence of intra- and intermolecular interaction of PMPC from the concentration of $\\mathrm { N a C l } .",
+      "evidence_id": "ev00012",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m015"
+    },
+    {
+      "block_id": "P_5_73",
+      "page": 5,
+      "bbox": [
+        500.0,
+        363.0,
+        898.0,
+        675.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Figure 2 shows the friction coefficient of poly(MPC) and poly(METAI) brush surfaces measured using a sliding a glass ball in air and in water at 298 K.",
+      "evidence_id": "ev00013",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m016"
+    },
+    {
+      "block_id": "P_6_82",
+      "page": 6,
+      "bbox": [
+        96.0,
+        603.0,
+        493.0,
+        915.0
+      ],
+      "source_type": "text",
+      "source_sentence": "The salt concentration effect on the polyelectrolyte brush has attracted much attention due to increased understanding of the molecular interactions and dispersion of brush grafted nanoparticles in aqueous media.<sup>[28]</sup> Figure 3(a) and (b) show the friction coefficient of poly(MPC) and poly(METAI) brushes in 0 \u0003 1.0 M of NaCl solution, respectively.",
+      "evidence_id": "ev00014",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m018"
+    },
+    {
+      "block_id": "P_6_84",
+      "page": 6,
+      "bbox": [
+        506.0,
+        484.0,
+        907.0,
+        915.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Figure 4 shows adhesion and lateral force for the high-density poly(MPC) brush surface measured by AFM using a colloidal probe in aqueous solution.",
+      "evidence_id": "ev00015",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m020"
+    },
+    {
+      "block_id": "P_5_69",
+      "page": 5,
+      "bbox": [
+        89.0,
+        466.0,
+        486.0,
+        675.0
+      ],
+      "source_type": "text",
+      "source_sentence": "We found that the dimension of free poly(MPC) in water is independent of the ionic strength of the salt solution.<sup>[25,26]</sup> Poly(MPC) can be regard as a quite unique zwitter-type polyelectrolyte having the independence of intra- and intermolecular interaction of PMPC from the concentration of $\\mathrm { N a C l } . ^ { [ 2 6 ] }$As a result, the thickness of the high-density polyelectrolyte brushes in solution was observed to change very little in salt solution.",
+      "evidence_id": "ev00016",
+      "source_stage": "stage2_polymer_entity",
+      "object_id": "pe001"
+    },
+    {
+      "block_id": "P_3_42",
+      "page": 3,
+      "bbox": [
+        500.0,
+        259.0,
+        900.0,
+        743.0
+      ],
+      "source_type": "text",
+      "source_sentence": "The contact angle of the water droplet (2.0 mL) on the poly(MPC) brush surface was $1 \\sim 3 ^ { \\circ }$",
+      "evidence_id": "ev00017",
+      "source_stage": "stage3_sample_process",
+      "object_id": "s001"
+    },
+    {
+      "block_id": "P_3_42",
+      "page": 3,
+      "bbox": [
+        500.0,
+        259.0,
+        900.0,
+        743.0
+      ],
+      "source_type": "text",
+      "source_sentence": "In order to evaluate the hydrophilicity in water, the air bubble contact angle was measured for a hydrated poly(MPC) brush in water.",
+      "evidence_id": "ev00018",
+      "source_stage": "stage3_sample_process",
+      "object_id": "s002"
+    },
+    {
+      "block_id": "P_5_69",
+      "page": 5,
+      "bbox": [
+        89.0,
+        466.0,
+        486.0,
+        675.0
+      ],
+      "source_type": "text",
+      "source_sentence": "We found that the dimension of free poly(MPC) in water is independent of the ionic strength of the salt solution.",
+      "evidence_id": "ev00019",
+      "source_stage": "stage3_sample_process",
+      "object_id": "s005"
+    },
+    {
+      "block_id": "P_3_40",
+      "page": 3,
+      "bbox": [
+        89.0,
+        569.0,
+        486.0,
+        915.0
+      ],
+      "source_type": "text",
+      "source_sentence": "The $M _ { \\mathrm { n } }$of the obtained poly(MPC) brushes on the silicon wafer were estimated to be approximately 30,000  120,000 by SEC of the corresponding free polymer using water as the eluent.",
+      "evidence_id": "ev00020",
+      "source_stage": "stage5_characterization",
+      "object_id": "pe001"
+    },
+    {
+      "block_id": "P_3_40",
+      "page": 3,
+      "bbox": [
+        89.0,
+        569.0,
+        486.0,
+        915.0
+      ],
+      "source_type": "text",
+      "source_sentence": "The AFM observation revealed that a homogeneous polymer layer was formed on the substrate, and the surface roughness was $0 . 8 \\sim 1 . 5$nm in the dried state in a $5 \\times 5 \\mu \\mathrm { m } ^ { 2 }$scanning area.",
+      "evidence_id": "ev00021",
+      "source_stage": "stage5_characterization",
+      "object_id": "pe001"
+    },
+    {
+      "block_id": "I_6_80",
+      "page": 6,
+      "bbox": [
+        500.0,
+        33.0,
+        813.0,
+        208.0
+      ],
+      "source_type": "image",
+      "source_sentence": "Adhesion force (a) and friction (lateral) force (b) of poly(MPC) brush in a ethanol/water $( 7 0 / 3 0 , \\boldsymbol { \\mathrm v } / \\boldsymbol { \\mathrm v } )$ solution and NaCl aqueous solution measured by AFM using a colloidal probe cantilever with silica sphere $( d = 5 0 \\ \\mu \\mathrm { m } )$ Friction force is represented by output of the photo diode at a scan rate of 10 $\\mu \\mathrm { m } / \\mathsf { s }$ under normal load of 10 nN.",
+      "evidence_id": "ev00022",
+      "source_stage": "stage5_characterization",
+      "object_id": "pe001"
+    }
+  ],
+  "provenance": [
+    {
+      "stage": "ocr",
+      "engine": "mineru",
+      "batch_id": "a2fa80d8-bb3d-43a9-a298-6438abdeb41a",
+      "model_version": "vlm",
+      "ocr_enabled": null,
+      "language": null,
+      "page_ranges": null,
+      "enable_formula": null,
+      "enable_table": null,
+      "extra_formats": null,
+      "status": "done",
+      "manifest_file": "batch_a2fa80d8-bb3d-43a9-a298-6438abdeb41a_manifest.json",
+      "status_file": "batch_a2fa80d8-bb3d-43a9-a298-6438abdeb41a_status.json"
+    },
+    {
+      "stage": "stage1_material_mention",
+      "provider": "dmx",
+      "model": "gpt-5.6-terra-2026-07-09",
+      "models": [
+        "gpt-5.6-terra-2026-07-09"
+      ],
+      "prompt_id": "polymer.stage1.material_mention",
+      "prompt_version": "1.2.1",
+      "prompt_sha256": "af2a070da70b7754d6ae45eeebe3bf42cf2eb2dcd039e11acdb837a06c461fb9",
+      "input_hash": "d907eb9acd97a580303a4a3c083d33278fd3d77bab6a1267eaf2abf0eb2986ef",
+      "model_config_hash": "e075727883d2926c6e33e8497fe72c20e1e5addc7dfd2a90d973701ccfece7ad",
+      "cache_key": "034c01f32f62d0066df37329f7385f09e64c48b0d511e9a15bf94b79be81d619",
+      "output_schema_version": "material_mention_schema.v2",
+      "implementation_version": "1.2.6",
+      "chunk_count": 2,
+      "usage": {
+        "input_tokens": 5960,
+        "output_tokens": 880,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "billable_input_tokens": 5960,
+        "total_tokens": 6840
+      },
+      "cost": {
+        "status": "calculated",
+        "currency": "CNY",
+        "input_per_million": "17",
+        "output_per_million": "101",
+        "input_cost": "0.101320",
+        "output_cost": "0.088880",
+        "total_cost": "0.190200"
+      },
+      "status": "success"
+    },
+    {
+      "stage": "stage2_polymer_entity",
+      "provider": "dmx",
+      "model": "gpt-5.6-terra-2026-07-09",
+      "models": [
+        "gpt-5.6-terra-2026-07-09"
+      ],
+      "prompt_id": "polymer.stage2.polymer_entity",
+      "prompt_version": "1.2.0",
+      "prompt_sha256": "8293a9f30517fa564eb1fd5e3af02ea721f9ac48554f50edf089bcb9cec63801",
+      "input_hash": "c068ba048713f351dbeb89c7d2bccbd328a1a5f58504ad952219537f6becd424",
+      "model_config_hash": "c9e96c2514956e7b4b65eae3d327d34f95b7a33876cec6d4aa56f95eb79a9b50",
+      "cache_key": "9c5af069df230dd0f7f6b7bfdc9f84fca8ab9aa20683f8bee9834766aace929c",
+      "output_schema_version": "polymer_entity_schema.v2",
+      "implementation_version": "1.3.3",
+      "context_block_count": 24,
+      "context_chars": 16028,
+      "call_count": 1,
+      "usage": {
+        "input_tokens": 8739,
+        "output_tokens": 991,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "billable_input_tokens": 8739,
+        "total_tokens": 9730
+      },
+      "cost": {
+        "status": "calculated",
+        "currency": "CNY",
+        "input_per_million": "17",
+        "output_per_million": "101",
+        "input_cost": "0.148563",
+        "output_cost": "0.100091",
+        "total_cost": "0.248654"
+      },
+      "status": "success"
+    },
+    {
+      "stage": "stage3_sample_process",
+      "provider": "dmx",
+      "model": "doubao-seed-2.0-pro",
+      "models": [
+        "doubao-seed-2.0-pro"
+      ],
+      "prompt_id": "polymer.stage3.sample_process",
+      "prompt_version": "1.2.2",
+      "prompt_sha256": "ce2e2c59006b08286a1d41f8c6e5b8c9523abd65f8162c90b636eab35c5b263e",
+      "input_hash": "372824f67ea367136478812e6c4b9b59df0486c0eca5386a979a31bc164fa240",
+      "model_config_hash": "7a389959b1eae8cb35e4c5e5702559631666e759a9891cf98687a5b37dd5d1ad",
+      "cache_key": "c27ca15aebc8034601bb1a57b75478af2fe8b841d23efcf0b4dd8aeaec167ea8",
+      "output_schema_version": "sample_process_schema.v2",
+      "implementation_version": "1.3.5",
+      "context_block_count": 2,
+      "context_chars": 2328,
+      "call_count": 1,
+      "usage": {
+        "input_tokens": 4342,
+        "output_tokens": 4104,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "billable_input_tokens": 4342,
+        "total_tokens": 8446
+      },
+      "cost": {
+        "status": "calculated",
+        "currency": "CNY",
+        "input_per_million": "4.32",
+        "output_per_million": "29.15",
+        "input_cost": "0.01875744",
+        "output_cost": "0.1196316",
+        "total_cost": "0.13838904"
+      },
+      "status": "success"
+    },
+    {
+      "stage": "stage4_property",
+      "provider": "dmx",
+      "model": "doubao-seed-2-0-pro-260215",
+      "models": [
+        "doubao-seed-2-0-pro-260215"
+      ],
+      "prompt_id": "polymer.stage4.property",
+      "prompt_version": "1.7.2",
+      "prompt_sha256": "ec79fe3bf47539cab4ba239c611d1ab17d75dc0038cda85020caca580f7987a5",
+      "vocabulary_sha256": "3e9d85e4915a729edf0f0a53821f3ee6edf32874e1da6972457417e4f13a1510",
+      "input_hash": "78713bd9ac5e14658eafc4c09fb8698d3e16ca86ac8d2893e932a56fe4ebc6f9",
+      "model_config_hash": "7e14aff06827af47a7b1a797111258e33d5972d1c072111440c3b2aae020f3ce",
+      "cache_key": "3fd9159784849e693d229a30672b540dfc3a3a5c68396c053bcb9ce46dbfa3f3",
+      "output_schema_version": "property_observation_schema.v7",
+      "implementation_version": "1.7.10",
+      "context_block_count": 23,
+      "context_chars": 17377,
+      "call_count": 0,
+      "usage": {
+        "input_tokens": 19616,
+        "output_tokens": 23877,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "billable_input_tokens": 19616,
+        "total_tokens": 43493
+      },
+      "cost": {
+        "status": "calculated",
+        "currency": "CNY",
+        "input_per_million": "4.32",
+        "output_per_million": "29.15",
+        "input_cost": "0.08474112",
+        "output_cost": "0.69601455",
+        "total_cost": "0.78075567"
+      },
+      "status": "success"
+    },
+    {
+      "stage": "stage5_characterization",
+      "provider": "dmx",
+      "model": "doubao-seed-2.0-pro",
+      "models": [
+        "doubao-seed-2.0-pro"
+      ],
+      "prompt_id": "polymer.stage5.characterization",
+      "prompt_version": "1.6.2",
+      "prompt_sha256": "5f918eb9d0dcbe0a4dc60a70d83c4e9f144f9a87bf68905d0a38ad22c000ee5c",
+      "vocabulary_sha256": "3e9d85e4915a729edf0f0a53821f3ee6edf32874e1da6972457417e4f13a1510",
+      "input_hash": "98471283182e6ebb2e22e9d4fb7a018bcdd22e3726e3b837ddbd41f249777677",
+      "model_config_hash": "7e14aff06827af47a7b1a797111258e33d5972d1c072111440c3b2aae020f3ce",
+      "cache_key": "3fb75b0470fe6650275e953e3508a9200da174d500fbb3d2fbd7088a57d848ec",
+      "output_schema_version": "characterization_schema.v4",
+      "implementation_version": "1.7.1",
+      "context_block_count": 23,
+      "context_chars": 17377,
+      "call_count": 1,
+      "usage": {
+        "input_tokens": 12086,
+        "output_tokens": 4639,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "billable_input_tokens": 12086,
+        "total_tokens": 16725
+      },
+      "cost": {
+        "status": "calculated",
+        "currency": "CNY",
+        "input_per_million": "4.32",
+        "output_per_million": "29.15",
+        "input_cost": "0.05221152",
+        "output_cost": "0.13522685",
+        "total_cost": "0.18743837"
+      },
+      "status": "success"
+    }
+  ],
+  "warnings": [
+    {
+      "code": "legacy_manifest_missing_options",
+      "message": "旧 manifest 缺少 OCR 选项，已按 null 保留：ocr_enabled, language, page_ranges, enable_formula, enable_table, extra_formats",
+      "stage": "stage0"
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "section_fallback",
+      "message": "Methods 为空，仅使用 Stage 2 entity 的 evidence block；结果需人工复核"
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "orphan_noninitial_samples",
+      "message": "非初始样品缺少原文支持的生成 ProcessStep",
+      "sample_ids": [
+        "s001",
+        "s003"
+      ]
+    },
+    {
+      "stage": "stage4_property",
+      "code": "preview_point_locator_recovered_from_unique_table_row",
+      "message": "Preview 模式已用唯一完整表格行、唯一列头及一致 value_raw 补全 Series point 的稳定坐标",
+      "points": 18
+    },
+    {
+      "stage": "stage4_property",
+      "code": "series_entity_relinked_to_sample",
+      "message": "PropertySeries/point 的 entity_id 与已解析 Sample 冲突；已按 Stage 3 Sample.refers_to_entity 确定性纠正",
+      "series": 3,
+      "points": 0
+    },
+    {
+      "stage": "stage4_property",
+      "code": "candidate_table_locator_surface_repaired",
+      "message": "模型 locator 表面文本不在表格原文；已用 property raw 与 determination method 中唯一匹配的 Stage 0 表头恢复",
+      "evidence": 66
+    },
+    {
+      "stage": "stage4_property",
+      "code": "coordinate_table_locators_synthesized",
+      "message": "已按 coordinate 原文值与表头生成稳定单元格定位",
+      "evidence": 45
+    },
+    {
+      "stage": "stage4_property",
+      "code": "coordinate_locators_aligned_to_point",
+      "message": "重复 coordinate 标签已按同一 point 的唯一性质值行绑定到对应单元格（支持 rowspan）",
+      "evidence": 24
+    },
+    {
+      "stage": "stage4_property",
+      "code": "condition_evidence_surfaces_repaired",
+      "message": "条件 evidence 的候选摘要无法逐字定位；已用同一条件下性质字段的原文 anchor 恢复",
+      "evidence": 2
+    },
+    {
+      "stage": "stage4_property",
+      "code": "preview_degraded_empty_shell",
+      "message": "模型响应无法安全结构化，Preview 已生成 degraded 空壳结果",
+      "degraded": true,
+      "reason": "measurement_conditions.5: Value error, reported condition 必须包含至少一个条件值; measurement_conditions.6: Value error, reported condition 必须包含至少一个条件值; measurement_conditions.7: Value error, reported condition 必须包含至少一个条件值; property_series.0.points.0.coordinates.0.evidence.table_locator.column_label: String should have at least 1 character; property_series.0.points.0.coordinates.1.evidence.table_locator.column_label: String should have at least 1 character; property_series.0.points.1.coordinates.0.evidence.table_locator.column_label: String should have at least 1 character; property_series.0.points.2.coordinates.0.evidence.table_locator.column_label: String should have at least 1 character; property_series.0.points.3.coordinates.0.evidence.table_locator.column_label: String should have at least 1 cha"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_characterization_details_cleared",
+      "message": "Preview 模式已清空无对象 evidence 支撑的可选表征细节",
+      "field_path": "characterizations[1]",
+      "fields": [
+        "parameters"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_characterization_details_cleared",
+      "message": "Preview 模式已清空无对象 evidence 支撑的可选表征细节",
+      "field_path": "characterizations[2]",
+      "fields": [
+        "parameters"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_semantic_validation_bypassed",
+      "message": "Preview 已保留 Schema 合法候选，并跳过原文/evidence 语义对应校验；Strict 模式仍会报错",
+      "reason": "char001.method_raw 与 method_normalized 不匹配"
+    }
+  ],
+  "stage_failures": [],
+  "raw_stage_candidates": {},
+  "validation_summary": {
+    "status": "not_validated",
+    "error_count": 0,
+    "warning_count": 13
+  },
+  "source_stage_versions": {
+    "stage0": "1.1",
+    "stage1": "1.0",
+    "stage2": "1.0",
+    "stage3": "1.0",
+    "stage4": "1.0",
+    "stage5": "1.0"
+  }
+}

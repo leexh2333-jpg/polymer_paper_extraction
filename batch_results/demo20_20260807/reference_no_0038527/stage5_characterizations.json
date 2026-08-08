@@ -1,0 +1,1589 @@
+{
+  "schema_version": "1.0",
+  "document_id": "reference_no_0038527",
+  "characterizations": [
+    {
+      "characterization_id": "char001",
+      "method_raw": "NMR",
+      "method_normalized": "NMR",
+      "sample_ids": [
+        "s002",
+        "s008"
+      ],
+      "sample_resolution_status": "multi_resolved",
+      "parameters": {},
+      "result_summary": "Used to determine regioregularity of polymers, with 1H NMR showing ht diad content 94-98% for Rg(Th-m,n/p) series and 76% for Rn(Th-5,4/8).",
+      "derived_property_ids": [
+        "prop_s5_001",
+        "prop_s5_002",
+        "prop_s5_003",
+        "prop_s5_004"
+      ],
+      "evidence": [
+        {
+          "block_id": "P_2_37",
+          "page": 2,
+          "bbox": [
+            514.0,
+            242.0,
+            933.0,
+            404.0
+          ],
+          "source_type": "text",
+          "source_sentence": "These materials were characterized in this study by NMR, UV-vis, and FT-IR spectroscopies, mass spectrometry, elemental analysis, gel permeation chromatography (GPC), differential scanning calorimetry (DSC), and X-ray diffraction (XRD)."
+        }
+      ],
+      "confidence": {
+        "score": 0.95
+      }
+    },
+    {
+      "characterization_id": "char002",
+      "method_raw": "gel permeation chromatography (GPC)",
+      "method_normalized": "GPC",
+      "sample_ids": [
+        "s002",
+        "s007",
+        "s008",
+        "s009",
+        "s010",
+        "s011",
+        "s012",
+        "s013",
+        "s014",
+        "s015",
+        "s017",
+        "s018"
+      ],
+      "sample_resolution_status": "multi_resolved",
+      "parameters": {},
+      "result_summary": "Measured Mn, Mw, PDI and degree of polymerization for polymer samples, values listed in Table 1.",
+      "derived_property_ids": [],
+      "evidence": [
+        {
+          "block_id": "P_2_37",
+          "page": 2,
+          "bbox": [
+            514.0,
+            242.0,
+            933.0,
+            404.0
+          ],
+          "source_type": "text",
+          "source_sentence": "These materials were characterized in this study by NMR, UV-vis, and FT-IR spectroscopies, mass spectrometry, elemental analysis, gel permeation chromatography (GPC), differential scanning calorimetry (DSC), and X-ray diffraction (XRD)."
+        }
+      ],
+      "confidence": {
+        "score": 0.95
+      }
+    },
+    {
+      "characterization_id": "char003",
+      "method_raw": "differential scanning calorimetry (DSC)",
+      "method_normalized": "DSC",
+      "sample_ids": [
+        "s002",
+        "s007",
+        "s008",
+        "s009",
+        "s010",
+        "s011",
+        "s012",
+        "s013",
+        "s014",
+        "s015",
+        "s017",
+        "s018"
+      ],
+      "sample_resolution_status": "multi_resolved",
+      "parameters": {},
+      "result_summary": "Measured melting (Tm) and crystallization (Tc) temperatures for polymer samples, values listed in Table 1.",
+      "derived_property_ids": [],
+      "evidence": [
+        {
+          "block_id": "P_2_37",
+          "page": 2,
+          "bbox": [
+            514.0,
+            242.0,
+            933.0,
+            404.0
+          ],
+          "source_type": "text",
+          "source_sentence": "These materials were characterized in this study by NMR, UV-vis, and FT-IR spectroscopies, mass spectrometry, elemental analysis, gel permeation chromatography (GPC), differential scanning calorimetry (DSC), and X-ray diffraction (XRD)."
+        },
+        {
+          "block_id": "P_4_59",
+          "page": 4,
+          "bbox": [
+            67.0,
+            841.0,
+            483.0,
+            964.0
+          ],
+          "source_type": "text",
+          "source_sentence": "Thermal transitions of regiorandom and regioregular alternating alkyl:semifluoroalkyl polymers were determined by differential scanning calorimetry (DSC) (Table 1)."
+        }
+      ],
+      "confidence": {
+        "score": 0.95
+      }
+    },
+    {
+      "characterization_id": "char004",
+      "method_raw": "X-ray diffraction (XRD)",
+      "method_normalized": "XRD",
+      "sample_ids": [
+        "s002",
+        "s007",
+        "s008",
+        "s010",
+        "s011",
+        "s012"
+      ],
+      "sample_resolution_status": "multi_resolved",
+      "parameters": {},
+      "result_summary": "Measured 2θ diffraction peaks and interlayer distances for polymer samples, values listed in Table 2, confirming bilayer lamellar structure for regioregular polymers.",
+      "derived_property_ids": [
+        "prop_s5_005",
+        "prop_s5_006",
+        "prop_s5_007",
+        "prop_s5_008",
+        "prop_s5_009",
+        "prop_s5_010",
+        "prop_s5_011",
+        "prop_s5_012",
+        "prop_s5_013",
+        "prop_s5_014",
+        "prop_s5_015",
+        "prop_s5_016",
+        "prop_s5_017",
+        "prop_s5_018",
+        "prop_s5_019",
+        "prop_s5_020",
+        "prop_s5_021",
+        "prop_s5_022",
+        "prop_s5_023"
+      ],
+      "evidence": [
+        {
+          "block_id": "P_2_37",
+          "page": 2,
+          "bbox": [
+            514.0,
+            242.0,
+            933.0,
+            404.0
+          ],
+          "source_type": "text",
+          "source_sentence": "These materials were characterized in this study by NMR, UV-vis, and FT-IR spectroscopies, mass spectrometry, elemental analysis, gel permeation chromatography (GPC), differential scanning calorimetry (DSC), and X-ray diffraction (XRD)."
+        },
+        {
+          "block_id": "P_4_63",
+          "page": 4,
+          "bbox": [
+            514.0,
+            651.0,
+            933.0,
+            759.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The solid-state structure of Rg(Th-m,n/p) was characterized by X-ray diffraction. Polymer films with a thickness of ca. 100 µm were prepared by dropcasting and evaporating a THF or xylene solution of Rg(Thm,n/p) on a silicon substrate followed by annealing the resulting film at 150 °C for 3 h under N2. A representative diffractogram of Rg(Th-5,4/12) is shown in Figure 8, and calculated lattice constants for all homologues are compiled in Table 2."
+        }
+      ],
+      "confidence": {
+        "score": 0.95
+      }
+    },
+    {
+      "characterization_id": "char005",
+      "method_raw": "UV-vis",
+      "method_normalized": "UV-Vis",
+      "sample_ids": [
+        "s002",
+        "s007",
+        "s008",
+        "s009",
+        "s010",
+        "s011",
+        "s012",
+        "s013",
+        "s014",
+        "s015",
+        "s017",
+        "s018"
+      ],
+      "sample_resolution_status": "multi_resolved",
+      "parameters": {
+        "solvent": "chloroform"
+      },
+      "result_summary": "Measured absorption maxima λmax for polymer samples, values listed in Table 1.",
+      "derived_property_ids": [],
+      "evidence": [
+        {
+          "block_id": "P_2_37",
+          "page": 2,
+          "bbox": [
+            514.0,
+            242.0,
+            933.0,
+            404.0
+          ],
+          "source_type": "text",
+          "source_sentence": "These materials were characterized in this study by NMR, UV-vis, and FT-IR spectroscopies, mass spectrometry, elemental analysis, gel permeation chromatography (GPC), differential scanning calorimetry (DSC), and X-ray diffraction (XRD)."
+        },
+        {
+          "block_id": "P_3_51",
+          "page": 3,
+          "bbox": [
+            514.0,
+            639.0,
+            933.0,
+            965.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The UV-vis spectra of Rg(Th-m,n/p) and Rn(Th-5,4/8) were recorded in chloroform solution and as thin films (Table 1, Figure 6)."
+        }
+      ],
+      "confidence": {
+        "score": 0.95
+      }
+    }
+  ],
+  "properties": [
+    {
+      "property_id": "prop_s5_001",
+      "characterization_id": "char001",
+      "sample_id": "s008",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "1H NMR signal",
+      "property_name_normalized": "nmr_chemical_shift",
+      "property_category": "composition_structure",
+      "value_raw": "2.79",
+      "value_min": 2.79,
+      "value_max": 2.79,
+      "unit_raw": "ppm",
+      "unit_normalized": "ppm",
+      "source_stage": "stage5",
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_2_40",
+          "page": 2,
+          "bbox": [
+            514.0,
+            879.0,
+            933.0,
+            965.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The signals at 2.79 and 2.55 ppm are assigned to the protons of the R-methylene units of the side chains in ht and hh diads, respectively."
+        },
+        {
+          "block_id": "I_3_45",
+          "page": 3,
+          "bbox": [
+            88.0,
+            340.0,
+            463.0,
+            514.0
+          ],
+          "source_type": "image",
+          "source_sentence": "Figure 4. 1H NMR spectra of Rn(Th-5,4/8) and Rg(Th-5,4/8) in CDCl3."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_002",
+      "characterization_id": "char001",
+      "sample_id": "s008",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "1H NMR signal",
+      "property_name_normalized": "nmr_chemical_shift",
+      "property_category": "composition_structure",
+      "value_raw": "2.55",
+      "value_min": 2.55,
+      "value_max": 2.55,
+      "unit_raw": "ppm",
+      "unit_normalized": "ppm",
+      "source_stage": "stage5",
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_2_40",
+          "page": 2,
+          "bbox": [
+            514.0,
+            879.0,
+            933.0,
+            965.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The signals at 2.79 and 2.55 ppm are assigned to the protons of the R-methylene units of the side chains in ht and hh diads, respectively."
+        },
+        {
+          "block_id": "I_3_45",
+          "page": 3,
+          "bbox": [
+            88.0,
+            340.0,
+            463.0,
+            514.0
+          ],
+          "source_type": "image",
+          "source_sentence": "Figure 4. 1H NMR spectra of Rn(Th-5,4/8) and Rg(Th-5,4/8) in CDCl3."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_003",
+      "characterization_id": "char001",
+      "sample_id": "s008",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "1H NMR singlet",
+      "property_name_normalized": "nmr_chemical_shift",
+      "property_category": "composition_structure",
+      "value_raw": "6.94",
+      "value_min": 6.94,
+      "value_max": 6.94,
+      "unit_raw": "ppm",
+      "unit_normalized": "ppm",
+      "source_stage": "stage5",
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_2_40",
+          "page": 2,
+          "bbox": [
+            514.0,
+            879.0,
+            933.0,
+            965.0
+          ],
+          "source_type": "text",
+          "source_sentence": "In the aromatic region, Rg(Th-5,4/8) displays two sharp singlets with the same intensity at 6.94 and 6.96 ppm, corresponding to the protons on the two β substituted thiophene rings of the repeat unit."
+        },
+        {
+          "block_id": "I_3_45",
+          "page": 3,
+          "bbox": [
+            88.0,
+            340.0,
+            463.0,
+            514.0
+          ],
+          "source_type": "image",
+          "source_sentence": "Figure 4. 1H NMR spectra of Rn(Th-5,4/8) and Rg(Th-5,4/8) in CDCl3."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_004",
+      "characterization_id": "char001",
+      "sample_id": "s008",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "1H NMR singlet",
+      "property_name_normalized": "nmr_chemical_shift",
+      "property_category": "composition_structure",
+      "value_raw": "6.96",
+      "value_min": 6.96,
+      "value_max": 6.96,
+      "unit_raw": "ppm",
+      "unit_normalized": "ppm",
+      "source_stage": "stage5",
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_2_40",
+          "page": 2,
+          "bbox": [
+            514.0,
+            879.0,
+            933.0,
+            965.0
+          ],
+          "source_type": "text",
+          "source_sentence": "In the aromatic region, Rg(Th-5,4/8) displays two sharp singlets with the same intensity at 6.94 and 6.96 ppm, corresponding to the protons on the two β substituted thiophene rings of the repeat unit."
+        },
+        {
+          "block_id": "I_3_45",
+          "page": 3,
+          "bbox": [
+            88.0,
+            340.0,
+            463.0,
+            514.0
+          ],
+          "source_type": "image",
+          "source_sentence": "Figure 4. 1H NMR spectra of Rn(Th-5,4/8) and Rg(Th-5,4/8) in CDCl3."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_005",
+      "characterization_id": "char004",
+      "sample_id": "s007",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "2θ (200)",
+      "property_name_normalized": "xrd_diffraction_peak_2theta",
+      "property_category": "morphology",
+      "value_raw": "4.5",
+      "value_min": 4.5,
+      "value_max": 4.5,
+      "unit_raw": "deg",
+      "unit_normalized": "°",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_5_69",
+          "page": 5,
+          "bbox": [
+            71.0,
+            314.0,
+            478.0,
+            420.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table 2. Interlayer Distances of Rg(Th-m,n/p) and Rn(Th-5,4/8)",
+          "table_locator": {
+            "table_id": "T_5_69",
+            "row_label": "Rg(Th-5,4/4)",
+            "column_label": "(200)",
+            "cell_value": "4.5",
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.95
+      }
+    },
+    {
+      "property_id": "prop_s5_006",
+      "characterization_id": "char004",
+      "sample_id": "s007",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "2θ (300)",
+      "property_name_normalized": "xrd_diffraction_peak_2theta",
+      "property_category": "morphology",
+      "value_raw": "6.6",
+      "value_min": 6.6,
+      "value_max": 6.6,
+      "unit_raw": "deg",
+      "unit_normalized": "°",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_5_69",
+          "page": 5,
+          "bbox": [
+            71.0,
+            314.0,
+            478.0,
+            420.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table 2. Interlayer Distances of Rg(Th-m,n/p) and Rn(Th-5,4/8)",
+          "table_locator": {
+            "table_id": "T_5_69",
+            "row_label": "Rg(Th-5,4/4)",
+            "column_label": "(300)",
+            "cell_value": "6.6",
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.95
+      }
+    },
+    {
+      "property_id": "prop_s5_007",
+      "characterization_id": "char004",
+      "sample_id": "s007",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "2θ (400)",
+      "property_name_normalized": "xrd_diffraction_peak_2theta",
+      "property_category": "morphology",
+      "value_raw": "8.7",
+      "value_min": 8.7,
+      "value_max": 8.7,
+      "unit_raw": "deg",
+      "unit_normalized": "°",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_5_69",
+          "page": 5,
+          "bbox": [
+            71.0,
+            314.0,
+            478.0,
+            420.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table 2. Interlayer Distances of Rg(Th-m,n/p) and Rn(Th-5,4/8)",
+          "table_locator": {
+            "table_id": "T_5_69",
+            "row_label": "Rg(Th-5,4/4)",
+            "column_label": "(400)",
+            "cell_value": "8.7",
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.95
+      }
+    },
+    {
+      "property_id": "prop_s5_008",
+      "characterization_id": "char004",
+      "sample_id": "s008",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "2θ (200)",
+      "property_name_normalized": "xrd_diffraction_peak_2theta",
+      "property_category": "morphology",
+      "value_raw": "4.1",
+      "value_min": 4.1,
+      "value_max": 4.1,
+      "unit_raw": "deg",
+      "unit_normalized": "°",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_5_69",
+          "page": 5,
+          "bbox": [
+            71.0,
+            314.0,
+            478.0,
+            420.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table 2. Interlayer Distances of Rg(Th-m,n/p) and Rn(Th-5,4/8)",
+          "table_locator": {
+            "table_id": "T_5_69",
+            "row_label": "Rg(Th-5,4/8)",
+            "column_label": "(200)",
+            "cell_value": "4.1",
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.95
+      }
+    },
+    {
+      "property_id": "prop_s5_009",
+      "characterization_id": "char004",
+      "sample_id": "s008",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "2θ (300)",
+      "property_name_normalized": "xrd_diffraction_peak_2theta",
+      "property_category": "morphology",
+      "value_raw": "6.1",
+      "value_min": 6.1,
+      "value_max": 6.1,
+      "unit_raw": "deg",
+      "unit_normalized": "°",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_5_69",
+          "page": 5,
+          "bbox": [
+            71.0,
+            314.0,
+            478.0,
+            420.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table 2. Interlayer Distances of Rg(Th-m,n/p) and Rn(Th-5,4/8)",
+          "table_locator": {
+            "table_id": "T_5_69",
+            "row_label": "Rg(Th-5,4/8)",
+            "column_label": "(300)",
+            "cell_value": "6.1",
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.95
+      }
+    },
+    {
+      "property_id": "prop_s5_010",
+      "characterization_id": "char004",
+      "sample_id": "s008",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "2θ (400)",
+      "property_name_normalized": "xrd_diffraction_peak_2theta",
+      "property_category": "morphology",
+      "value_raw": "7.9",
+      "value_min": 7.9,
+      "value_max": 7.9,
+      "unit_raw": "deg",
+      "unit_normalized": "°",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_5_69",
+          "page": 5,
+          "bbox": [
+            71.0,
+            314.0,
+            478.0,
+            420.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table 2. Interlayer Distances of Rg(Th-m,n/p) and Rn(Th-5,4/8)",
+          "table_locator": {
+            "table_id": "T_5_69",
+            "row_label": "Rg(Th-5,4/8)",
+            "column_label": "(400)",
+            "cell_value": "7.9",
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.95
+      }
+    },
+    {
+      "property_id": "prop_s5_011",
+      "characterization_id": "char004",
+      "sample_id": "s008",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "2θ (600)",
+      "property_name_normalized": "xrd_diffraction_peak_2theta",
+      "property_category": "morphology",
+      "value_raw": "11.7",
+      "value_min": 11.7,
+      "value_max": 11.7,
+      "unit_raw": "deg",
+      "unit_normalized": "°",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_5_69",
+          "page": 5,
+          "bbox": [
+            71.0,
+            314.0,
+            478.0,
+            420.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table 2. Interlayer Distances of Rg(Th-m,n/p) and Rn(Th-5,4/8)",
+          "table_locator": {
+            "table_id": "T_5_69",
+            "row_label": "Rg(Th-5,4/8)",
+            "column_label": "(600)",
+            "cell_value": "11.7",
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.95
+      }
+    },
+    {
+      "property_id": "prop_s5_012",
+      "characterization_id": "char004",
+      "sample_id": "s010",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "2θ (100)",
+      "property_name_normalized": "xrd_diffraction_peak_2theta",
+      "property_category": "morphology",
+      "value_raw": "1.9",
+      "value_min": 1.9,
+      "value_max": 1.9,
+      "unit_raw": "deg",
+      "unit_normalized": "°",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_5_69",
+          "page": 5,
+          "bbox": [
+            71.0,
+            314.0,
+            478.0,
+            420.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table 2. Interlayer Distances of Rg(Th-m,n/p) and Rn(Th-5,4/8)",
+          "table_locator": {
+            "table_id": "T_5_69",
+            "row_label": "Rg(Th-5,4/12)",
+            "column_label": "(100)",
+            "cell_value": "1.9",
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.95
+      }
+    },
+    {
+      "property_id": "prop_s5_013",
+      "characterization_id": "char004",
+      "sample_id": "s010",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "2θ (200)",
+      "property_name_normalized": "xrd_diffraction_peak_2theta",
+      "property_category": "morphology",
+      "value_raw": "3.6",
+      "value_min": 3.6,
+      "value_max": 3.6,
+      "unit_raw": "deg",
+      "unit_normalized": "°",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_5_69",
+          "page": 5,
+          "bbox": [
+            71.0,
+            314.0,
+            478.0,
+            420.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table 2. Interlayer Distances of Rg(Th-m,n/p) and Rn(Th-5,4/8)",
+          "table_locator": {
+            "table_id": "T_5_69",
+            "row_label": "Rg(Th-5,4/12)",
+            "column_label": "(200)",
+            "cell_value": "3.6",
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.95
+      }
+    },
+    {
+      "property_id": "prop_s5_014",
+      "characterization_id": "char004",
+      "sample_id": "s010",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "2θ (300)",
+      "property_name_normalized": "xrd_diffraction_peak_2theta",
+      "property_category": "morphology",
+      "value_raw": "5.5",
+      "value_min": 5.5,
+      "value_max": 5.5,
+      "unit_raw": "deg",
+      "unit_normalized": "°",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_5_69",
+          "page": 5,
+          "bbox": [
+            71.0,
+            314.0,
+            478.0,
+            420.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table 2. Interlayer Distances of Rg(Th-m,n/p) and Rn(Th-5,4/8)",
+          "table_locator": {
+            "table_id": "T_5_69",
+            "row_label": "Rg(Th-5,4/12)",
+            "column_label": "(300)",
+            "cell_value": "5.5",
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.95
+      }
+    },
+    {
+      "property_id": "prop_s5_015",
+      "characterization_id": "char004",
+      "sample_id": "s010",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "2θ (400)",
+      "property_name_normalized": "xrd_diffraction_peak_2theta",
+      "property_category": "morphology",
+      "value_raw": "7.0",
+      "value_min": 7.0,
+      "value_max": 7.0,
+      "unit_raw": "deg",
+      "unit_normalized": "°",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_5_69",
+          "page": 5,
+          "bbox": [
+            71.0,
+            314.0,
+            478.0,
+            420.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table 2. Interlayer Distances of Rg(Th-m,n/p) and Rn(Th-5,4/8)",
+          "table_locator": {
+            "table_id": "T_5_69",
+            "row_label": "Rg(Th-5,4/12)",
+            "column_label": "(400)",
+            "cell_value": "7.0",
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.95
+      }
+    },
+    {
+      "property_id": "prop_s5_016",
+      "characterization_id": "char004",
+      "sample_id": "s010",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "2θ (600)",
+      "property_name_normalized": "xrd_diffraction_peak_2theta",
+      "property_category": "morphology",
+      "value_raw": "10.6",
+      "value_min": 10.6,
+      "value_max": 10.6,
+      "unit_raw": "deg",
+      "unit_normalized": "°",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_5_69",
+          "page": 5,
+          "bbox": [
+            71.0,
+            314.0,
+            478.0,
+            420.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table 2. Interlayer Distances of Rg(Th-m,n/p) and Rn(Th-5,4/8)",
+          "table_locator": {
+            "table_id": "T_5_69",
+            "row_label": "Rg(Th-5,4/12)",
+            "column_label": "(600)",
+            "cell_value": "10.6",
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.95
+      }
+    },
+    {
+      "property_id": "prop_s5_017",
+      "characterization_id": "char004",
+      "sample_id": "s011",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "2θ (200)",
+      "property_name_normalized": "xrd_diffraction_peak_2theta",
+      "property_category": "morphology",
+      "value_raw": "3.5",
+      "value_min": 3.5,
+      "value_max": 3.5,
+      "unit_raw": "deg",
+      "unit_normalized": "°",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_5_69",
+          "page": 5,
+          "bbox": [
+            71.0,
+            314.0,
+            478.0,
+            420.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table 2. Interlayer Distances of Rg(Th-m,n/p) and Rn(Th-5,4/8)",
+          "table_locator": {
+            "table_id": "T_5_69",
+            "row_label": "Rg(Th-8,4/8)",
+            "column_label": "(200)",
+            "cell_value": "3.5",
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.95
+      }
+    },
+    {
+      "property_id": "prop_s5_018",
+      "characterization_id": "char004",
+      "sample_id": "s011",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "2θ (400)",
+      "property_name_normalized": "xrd_diffraction_peak_2theta",
+      "property_category": "morphology",
+      "value_raw": "6.9",
+      "value_min": 6.9,
+      "value_max": 6.9,
+      "unit_raw": "deg",
+      "unit_normalized": "°",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_5_69",
+          "page": 5,
+          "bbox": [
+            71.0,
+            314.0,
+            478.0,
+            420.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table 2. Interlayer Distances of Rg(Th-m,n/p) and Rn(Th-5,4/8)",
+          "table_locator": {
+            "table_id": "T_5_69",
+            "row_label": "Rg(Th-8,4/8)",
+            "column_label": "(400)",
+            "cell_value": "6.9",
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.95
+      }
+    },
+    {
+      "property_id": "prop_s5_019",
+      "characterization_id": "char004",
+      "sample_id": "s011",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "2θ (600)",
+      "property_name_normalized": "xrd_diffraction_peak_2theta",
+      "property_category": "morphology",
+      "value_raw": "10.3",
+      "value_min": 10.3,
+      "value_max": 10.3,
+      "unit_raw": "deg",
+      "unit_normalized": "°",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_5_69",
+          "page": 5,
+          "bbox": [
+            71.0,
+            314.0,
+            478.0,
+            420.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table 2. Interlayer Distances of Rg(Th-m,n/p) and Rn(Th-5,4/8)",
+          "table_locator": {
+            "table_id": "T_5_69",
+            "row_label": "Rg(Th-8,4/8)",
+            "column_label": "(600)",
+            "cell_value": "10.3",
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.95
+      }
+    },
+    {
+      "property_id": "prop_s5_020",
+      "characterization_id": "char004",
+      "sample_id": "s012",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "2θ (400)",
+      "property_name_normalized": "xrd_diffraction_peak_2theta",
+      "property_category": "morphology",
+      "value_raw": "6.1",
+      "value_min": 6.1,
+      "value_max": 6.1,
+      "unit_raw": "deg",
+      "unit_normalized": "°",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_5_69",
+          "page": 5,
+          "bbox": [
+            71.0,
+            314.0,
+            478.0,
+            420.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table 2. Interlayer Distances of Rg(Th-m,n/p) and Rn(Th-5,4/8)",
+          "table_locator": {
+            "table_id": "T_5_69",
+            "row_label": "Rg(Th-11,4/8)",
+            "column_label": "(400)",
+            "cell_value": "6.1",
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.95
+      }
+    },
+    {
+      "property_id": "prop_s5_021",
+      "characterization_id": "char004",
+      "sample_id": "s002",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "2θ (100)",
+      "property_name_normalized": "xrd_diffraction_peak_2theta",
+      "property_category": "morphology",
+      "value_raw": "3.9",
+      "value_min": 3.9,
+      "value_max": 3.9,
+      "unit_raw": "deg",
+      "unit_normalized": "°",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_5_69",
+          "page": 5,
+          "bbox": [
+            71.0,
+            314.0,
+            478.0,
+            420.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table 2. Interlayer Distances of Rg(Th-m,n/p) and Rn(Th-5,4/8)",
+          "table_locator": {
+            "table_id": "T_5_69",
+            "row_label": "Rn(Th-5,4/8)",
+            "column_label": "(100)",
+            "cell_value": "3.9",
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.95
+      }
+    },
+    {
+      "property_id": "prop_s5_022",
+      "characterization_id": "char004",
+      "sample_id": "s002",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "2θ (200)",
+      "property_name_normalized": "xrd_diffraction_peak_2theta",
+      "property_category": "morphology",
+      "value_raw": "7.7",
+      "value_min": 7.7,
+      "value_max": 7.7,
+      "unit_raw": "deg",
+      "unit_normalized": "°",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_5_69",
+          "page": 5,
+          "bbox": [
+            71.0,
+            314.0,
+            478.0,
+            420.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table 2. Interlayer Distances of Rg(Th-m,n/p) and Rn(Th-5,4/8)",
+          "table_locator": {
+            "table_id": "T_5_69",
+            "row_label": "Rn(Th-5,4/8)",
+            "column_label": "(200)",
+            "cell_value": "7.7",
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.95
+      }
+    },
+    {
+      "property_id": "prop_s5_023",
+      "characterization_id": "char004",
+      "sample_id": "s002",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "2θ (300)",
+      "property_name_normalized": "xrd_diffraction_peak_2theta",
+      "property_category": "morphology",
+      "value_raw": "11.6",
+      "value_min": 11.6,
+      "value_max": 11.6,
+      "unit_raw": "deg",
+      "unit_normalized": "°",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_5_69",
+          "page": 5,
+          "bbox": [
+            71.0,
+            314.0,
+            478.0,
+            420.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table 2. Interlayer Distances of Rg(Th-m,n/p) and Rn(Th-5,4/8)",
+          "table_locator": {
+            "table_id": "T_5_69",
+            "row_label": "Rn(Th-5,4/8)",
+            "column_label": "(300)",
+            "cell_value": "11.6",
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.95
+      }
+    }
+  ],
+  "provenance": {
+    "stage": "stage5_characterization",
+    "provider": "dmx",
+    "model": "doubao-seed-2.0-pro",
+    "models": [
+      "doubao-seed-2.0-pro"
+    ],
+    "prompt_id": "polymer.stage5.characterization",
+    "prompt_version": "1.6.2",
+    "prompt_sha256": "5f918eb9d0dcbe0a4dc60a70d83c4e9f144f9a87bf68905d0a38ad22c000ee5c",
+    "vocabulary_sha256": "3e9d85e4915a729edf0f0a53821f3ee6edf32874e1da6972457417e4f13a1510",
+    "input_hash": "049b21e50c7fe375a3690bf87e174f9645b170de23e27f0822c22c1c3ca7d7a2",
+    "model_config_hash": "7e14aff06827af47a7b1a797111258e33d5972d1c072111440c3b2aae020f3ce",
+    "cache_key": "1d7f870996d5f88a536e374627b64e02595e4fe3326a96912ab347746c40fc53",
+    "output_schema_version": "characterization_schema.v4",
+    "implementation_version": "1.7.1",
+    "context_block_count": 42,
+    "context_chars": 39509,
+    "call_count": 1,
+    "usage": {
+      "input_tokens": 21827,
+      "output_tokens": 19602,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "billable_input_tokens": 21827,
+      "total_tokens": 41429
+    },
+    "cost": {
+      "status": "calculated",
+      "currency": "CNY",
+      "input_per_million": "4.32",
+      "output_per_million": "29.15",
+      "input_cost": "0.09429264",
+      "output_cost": "0.5713983",
+      "total_cost": "0.66569094"
+    },
+    "status": "success"
+  },
+  "warnings": [
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_incomplete_table_evidence_removed",
+      "message": "Preview 模式已移除缺少 table_locator 的附加表格 evidence；同一对象仍保留其他原文 evidence",
+      "field_path": "characterizations[3].evidence",
+      "block_ids": [
+        "T_5_69"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unlocatable_additional_evidence_removed",
+      "message": "Preview 模式已移除无法回定位到 Stage 0 block 的附加 Characterization evidence",
+      "field_path": "characterizations[0].evidence",
+      "block_ids": [
+        "P_2_40"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unlocatable_additional_evidence_removed",
+      "message": "Preview 模式已移除无法回定位到 Stage 0 block 的附加 Characterization evidence",
+      "field_path": "characterizations[1].evidence",
+      "block_ids": [
+        "P_2_39"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_characterization_details_cleared",
+      "message": "Preview 模式已清空无对象 evidence 支撑的可选表征细节",
+      "field_path": "characterizations[1]",
+      "fields": [
+        "parameters"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_characterization_details_cleared",
+      "message": "Preview 模式已清空无对象 evidence 支撑的可选表征细节",
+      "field_path": "characterizations[3]",
+      "fields": [
+        "parameters"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_characterization_details_cleared",
+      "message": "Preview 模式已清空无对象 evidence 支撑的可选表征细节",
+      "field_path": "characterizations[4]",
+      "fields": [
+        "parameters"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[0]",
+      "property_id": "prop_s5_001",
+      "fields": [
+        "spectral_assignment",
+        "solvent"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[1]",
+      "property_id": "prop_s5_002",
+      "fields": [
+        "spectral_assignment",
+        "solvent"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[2]",
+      "property_id": "prop_s5_003",
+      "fields": [
+        "spectral_assignment",
+        "solvent"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[3]",
+      "property_id": "prop_s5_004",
+      "fields": [
+        "spectral_assignment",
+        "solvent"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[4]",
+      "property_id": "prop_s5_005",
+      "fields": [
+        "spectral_assignment"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[5]",
+      "property_id": "prop_s5_006",
+      "fields": [
+        "spectral_assignment"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[6]",
+      "property_id": "prop_s5_007",
+      "fields": [
+        "spectral_assignment"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[7]",
+      "property_id": "prop_s5_008",
+      "fields": [
+        "spectral_assignment"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[8]",
+      "property_id": "prop_s5_009",
+      "fields": [
+        "spectral_assignment"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[9]",
+      "property_id": "prop_s5_010",
+      "fields": [
+        "spectral_assignment"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[10]",
+      "property_id": "prop_s5_011",
+      "fields": [
+        "spectral_assignment"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[11]",
+      "property_id": "prop_s5_012",
+      "fields": [
+        "spectral_assignment"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[12]",
+      "property_id": "prop_s5_013",
+      "fields": [
+        "spectral_assignment"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[13]",
+      "property_id": "prop_s5_014",
+      "fields": [
+        "spectral_assignment"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[14]",
+      "property_id": "prop_s5_015",
+      "fields": [
+        "spectral_assignment"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[15]",
+      "property_id": "prop_s5_016",
+      "fields": [
+        "spectral_assignment"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[16]",
+      "property_id": "prop_s5_017",
+      "fields": [
+        "spectral_assignment"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[17]",
+      "property_id": "prop_s5_018",
+      "fields": [
+        "spectral_assignment"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[18]",
+      "property_id": "prop_s5_019",
+      "fields": [
+        "spectral_assignment"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[19]",
+      "property_id": "prop_s5_020",
+      "fields": [
+        "spectral_assignment"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[20]",
+      "property_id": "prop_s5_021",
+      "fields": [
+        "spectral_assignment"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[21]",
+      "property_id": "prop_s5_022",
+      "fields": [
+        "spectral_assignment"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[22]",
+      "property_id": "prop_s5_023",
+      "fields": [
+        "spectral_assignment"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unscoped_stage5_items_removed",
+      "message": "Preview 模式已移除无法唯一关联任何单/多主体的 Stage 5 表征及其派生性质；未猜测 entity_id",
+      "characterization_ids": [
+        "char006"
+      ],
+      "property_ids": []
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_property_subject_subscope_retained",
+      "message": "Preview 模式已保留多主体 Characterization 下的明确单主体性质；需在正式数据中复核",
+      "items": [
+        {
+          "property_id": "prop_s5_001",
+          "characterization_id": "char001",
+          "sample_id": "s008",
+          "entity_id": null
+        }
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_semantic_validation_bypassed",
+      "message": "Preview 已保留 Schema 合法候选，并跳过原文/evidence 语义对应校验；Strict 模式仍会报错",
+      "reason": "I_3_45 evidence 无法定位到原文"
+    }
+  ]
+}

@@ -1,0 +1,1418 @@
+{
+  "schema_version": "1.0",
+  "document_id": "reference_no_0042480",
+  "characterizations": [
+    {
+      "characterization_id": "char001",
+      "method_raw": "FT-IR spectra",
+      "method_normalized": "FTIR",
+      "sample_ids": [
+        "s001",
+        "s002",
+        "s003",
+        "s004"
+      ],
+      "sample_resolution_status": "multi_resolved",
+      "instrument": "Nicolet FT-IR (510P) spectrophotometer",
+      "parameters": {
+        "sample_prep": "KBr pellets (2%)"
+      },
+      "result_summary": "FTIR spectra confirm the presence of N-H, CN, C=O, C-N, and Ar-O-Ar functional groups in polymers I-IV, consistent with the proposed polyamide structures.",
+      "derived_property_ids": [
+        "prop_s5_001",
+        "prop_s5_002",
+        "prop_s5_003",
+        "prop_s5_004",
+        "prop_s5_005",
+        "prop_s5_006",
+        "prop_s5_007",
+        "prop_s5_008",
+        "prop_s5_009",
+        "prop_s5_010",
+        "prop_s5_011",
+        "prop_s5_012",
+        "prop_s5_013",
+        "prop_s5_014",
+        "prop_s5_015",
+        "prop_s5_016",
+        "prop_s5_017",
+        "prop_s5_018",
+        "prop_s5_019",
+        "prop_s5_020"
+      ],
+      "evidence": [
+        {
+          "block_id": "P_2_30",
+          "page": 2,
+          "bbox": [
+            107.0,
+            836.0,
+            888.0,
+            909.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The FT-IR spectra of the polymers in KBr pellets (2%) were recorded using a Nicolet FT-IR (510P) spectrophotometer."
+        },
+        {
+          "block_id": "T_7_73",
+          "page": 7,
+          "bbox": [
+            109.0,
+            103.0,
+            883.0,
+            310.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table 1 The structure analysis and inherent viscosities $( \\eta _ { \\mathrm { i n h } } )$ of polymers",
+          "table_locator": {
+            "table_id": "T_7_73",
+            "row_label": "Polymer",
+            "column_label": "IR, cm-1",
+            "cell_value": "3395 (N-H); 2231 (CN); 1245 (C-N); 1657 (C=O); 1242 (Ar-O-Ar)",
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        },
+        {
+          "block_id": "P_7_75",
+          "page": 7,
+          "bbox": [
+            107.0,
+            390.0,
+            888.0,
+            498.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The FT-IR spectra of polymers (Table 1) show that all the spectra have the stretching vibration for the C=O group $( 1 , 6 5 3 { - } 1 , 6 5 7 \\ \\mathrm { c m } ^ { - 1 } )$and the N–H group $( 3 , 3 9 4 - 3 , 3 9 8 ~ \\mathrm { c m } ^ { - 1 } )$in the acylamide linkage, the stretching vibration for CN group $( 2 , 2 3 1 - 2 , 2 3 3 ~ \\mathrm { c m } ^ { - 1 } )$, the stretching vibration for $\\mathrm { C - N } ( 1 , 2 4 4 - 1 , 2 4 7 ~ \\mathrm { c m } ^ { - 1 } )$, and the stretching vibration for the ether group asymmetrical vibration of Ar–O–Ar (1,241– $1 { , } 2 4 2 \\ \\mathrm { c m } ^ { - 1 } )$, indicating that the prepared polyamides have the proposed structures."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "characterization_id": "char002",
+      "method_raw": "Thermogravimetric analysis (TGA)",
+      "method_normalized": "TGA",
+      "sample_ids": [
+        "s001",
+        "s002",
+        "s003",
+        "s004"
+      ],
+      "sample_resolution_status": "multi_resolved",
+      "instrument": "Perkin-Elmer 7 Series thermal analysis system",
+      "measurement_context": {
+        "other_conditions": {
+          "sample_weight": "5.0–7.0 mg"
+        },
+        "other_condition_evidence": {
+          "sample_weight": [
+            {
+              "block_id": "P_2_30",
+              "page": 2,
+              "bbox": [
+                107.0,
+                836.0,
+                888.0,
+                909.0
+              ],
+              "source_type": "text",
+              "source_sentence": "Thermogravimetric analysis (TGA) was carried out on a Perkin-Elmer 7 Series thermal analysis system with an increasing rate of $1 0 \\mathrm { \\Omega } ^ { \\circ } \\mathrm { C } / \\mathrm { m i n } , \\mathrm { N } _ { 2 }$ atmosphere at the flow rate of 40 mL/min, scanning scope ranging from 50 to $7 5 0 ~ ^ { \\circ } \\mathrm { C }$, and sample weight of 5.0–7.0 mg."
+            }
+          ]
+        },
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "parameters": {},
+      "result_summary": "TGA shows 5% weight loss temperatures (Td) of polymers I-IV range from 409 °C to 438 °C, indicating good thermal stability.",
+      "derived_property_ids": [],
+      "evidence": [
+        {
+          "block_id": "P_2_30",
+          "page": 2,
+          "bbox": [
+            107.0,
+            836.0,
+            888.0,
+            909.0
+          ],
+          "source_type": "text",
+          "source_sentence": "Thermogravimetric analysis (TGA) was carried out on a Perkin-Elmer 7 Series thermal analysis system with an increasing rate of $1 0 \\mathrm { \\Omega } ^ { \\circ } \\mathrm { C } / \\mathrm { m i n } , \\mathrm { N } _ { 2 }$ atmosphere at the flow rate of 40 mL/min, scanning scope ranging from 50 to $7 5 0 ~ ^ { \\circ } \\mathrm { C }$, and sample weight of 5.0–7.0 mg."
+        },
+        {
+          "block_id": "P_8_86",
+          "page": 8,
+          "bbox": [
+            107.0,
+            322.0,
+            886.0,
+            394.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The thermal stabilities of the polymers were investigated by TGA in $\\Nu _ { 2 }$. The thermal decomposition temperatures $\\mathrm { ( } T _ { \\mathrm { d } } \\mathrm { s ) }$(Table 2) at 5% weight loss of polymers I–IV are $4 3 5 ^ { \\circ } \\mathrm { C } , 4 3 8 ^ { \\circ } \\mathrm { C } , 4 0 9 ^ { \\circ } \\mathrm { C } .$, and $4 1 6 ~ ^ { \\circ } \\mathrm { C }$, indicating that the novel polyamides have good thermal stabilities used as novel polymer materials."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "characterization_id": "char003",
+      "method_raw": "inherent viscosities",
+      "method_normalized": "viscometry",
+      "sample_ids": [
+        "s001",
+        "s002",
+        "s003",
+        "s004"
+      ],
+      "sample_resolution_status": "multi_resolved",
+      "measurement_context": {
+        "other_conditions": {
+          "solvent": "0.1 wt% NMP solution"
+        },
+        "other_condition_evidence": {
+          "solvent": [
+            {
+              "block_id": "P_2_30",
+              "page": 2,
+              "bbox": [
+                107.0,
+                836.0,
+                888.0,
+                909.0
+              ],
+              "source_type": "text",
+              "source_sentence": "The inherent viscosities $( \\eta _ { \\mathrm { i n h } } )$of polymers were measured in a 0.1 wt% NMP solution at $3 0 ~ ^ { \\circ } \\mathrm { C }$."
+            }
+          ]
+        },
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "parameters": {},
+      "result_summary": "Inherent viscosities of polymers I-IV range from 0.64 to 0.75 dL/g, indicating high molecular weight polyamides were obtained.",
+      "derived_property_ids": [],
+      "evidence": [
+        {
+          "block_id": "P_2_30",
+          "page": 2,
+          "bbox": [
+            107.0,
+            836.0,
+            888.0,
+            909.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The inherent viscosities $( \\eta _ { \\mathrm { i n h } } )$of polymers were measured in a 0.1 wt% NMP solution at $3 0 ~ ^ { \\circ } \\mathrm { C }$."
+        },
+        {
+          "block_id": "T_7_73",
+          "page": 7,
+          "bbox": [
+            109.0,
+            103.0,
+            883.0,
+            310.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table 1 The structure analysis and inherent viscosities $( \\eta _ { \\mathrm { i n h } } )$ of polymers",
+          "table_locator": {
+            "table_id": "T_7_73",
+            "row_label": "Polymer",
+            "column_label": "ηinh, dL g-1",
+            "cell_value": "0.75, 0.70, 0.66, 0.64",
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    }
+  ],
+  "properties": [
+    {
+      "property_id": "prop_s5_001",
+      "characterization_id": "char001",
+      "sample_id": "s001",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "IR peak",
+      "property_name_normalized": "ftir_peak_wavenumber",
+      "property_category": "composition_structure",
+      "value_raw": "3395",
+      "value_min": 3395.0,
+      "value_max": 3395.0,
+      "unit_raw": "cm-1",
+      "unit_normalized": "cm⁻¹",
+      "spectral_assignment": "N-H",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_7_73",
+          "page": 7,
+          "bbox": [
+            109.0,
+            103.0,
+            883.0,
+            310.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table 1 The structure analysis and inherent viscosities $( \\eta _ { \\mathrm { i n h } } )$ of polymers",
+          "table_locator": {
+            "table_id": "T_7_73",
+            "row_label": "I",
+            "column_label": "IR, cm-1",
+            "cell_value": "3395 (N-H); 2231 (CN); 1245 (C-N); 1657 (C=O); 1242 (Ar-O-Ar)",
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_002",
+      "characterization_id": "char001",
+      "sample_id": "s001",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "IR peak",
+      "property_name_normalized": "ftir_peak_wavenumber",
+      "property_category": "composition_structure",
+      "value_raw": "2231",
+      "value_min": 2231.0,
+      "value_max": 2231.0,
+      "unit_raw": "cm-1",
+      "unit_normalized": "cm⁻¹",
+      "spectral_assignment": "CN",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_7_73",
+          "page": 7,
+          "bbox": [
+            109.0,
+            103.0,
+            883.0,
+            310.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table 1 The structure analysis and inherent viscosities $( \\eta _ { \\mathrm { i n h } } )$ of polymers",
+          "table_locator": {
+            "table_id": "T_7_73",
+            "row_label": "I",
+            "column_label": "IR, cm-1",
+            "cell_value": "3395 (N-H); 2231 (CN); 1245 (C-N); 1657 (C=O); 1242 (Ar-O-Ar)",
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_003",
+      "characterization_id": "char001",
+      "sample_id": "s001",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "IR peak",
+      "property_name_normalized": "ftir_peak_wavenumber",
+      "property_category": "composition_structure",
+      "value_raw": "1245",
+      "value_min": 1245.0,
+      "value_max": 1245.0,
+      "unit_raw": "cm-1",
+      "unit_normalized": "cm⁻¹",
+      "spectral_assignment": "C-N",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_7_73",
+          "page": 7,
+          "bbox": [
+            109.0,
+            103.0,
+            883.0,
+            310.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table 1 The structure analysis and inherent viscosities $( \\eta _ { \\mathrm { i n h } } )$ of polymers",
+          "table_locator": {
+            "table_id": "T_7_73",
+            "row_label": "I",
+            "column_label": "IR, cm-1",
+            "cell_value": "3395 (N-H); 2231 (CN); 1245 (C-N); 1657 (C=O); 1242 (Ar-O-Ar)",
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_004",
+      "characterization_id": "char001",
+      "sample_id": "s001",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "IR peak",
+      "property_name_normalized": "ftir_peak_wavenumber",
+      "property_category": "composition_structure",
+      "value_raw": "1657",
+      "value_min": 1657.0,
+      "value_max": 1657.0,
+      "unit_raw": "cm-1",
+      "unit_normalized": "cm⁻¹",
+      "spectral_assignment": "C=O",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_7_73",
+          "page": 7,
+          "bbox": [
+            109.0,
+            103.0,
+            883.0,
+            310.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table 1 The structure analysis and inherent viscosities $( \\eta _ { \\mathrm { i n h } } )$ of polymers",
+          "table_locator": {
+            "table_id": "T_7_73",
+            "row_label": "I",
+            "column_label": "IR, cm-1",
+            "cell_value": "3395 (N-H); 2231 (CN); 1245 (C-N); 1657 (C=O); 1242 (Ar-O-Ar)",
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_005",
+      "characterization_id": "char001",
+      "sample_id": "s001",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "IR peak",
+      "property_name_normalized": "ftir_peak_wavenumber",
+      "property_category": "composition_structure",
+      "value_raw": "1242",
+      "value_min": 1242.0,
+      "value_max": 1242.0,
+      "unit_raw": "cm-1",
+      "unit_normalized": "cm⁻¹",
+      "spectral_assignment": "Ar-O-Ar",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_7_73",
+          "page": 7,
+          "bbox": [
+            109.0,
+            103.0,
+            883.0,
+            310.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table 1 The structure analysis and inherent viscosities $( \\eta _ { \\mathrm { i n h } } )$ of polymers",
+          "table_locator": {
+            "table_id": "T_7_73",
+            "row_label": "I",
+            "column_label": "IR, cm-1",
+            "cell_value": "3395 (N-H); 2231 (CN); 1245 (C-N); 1657 (C=O); 1242 (Ar-O-Ar)",
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_006",
+      "characterization_id": "char001",
+      "sample_id": "s002",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "IR peak",
+      "property_name_normalized": "ftir_peak_wavenumber",
+      "property_category": "composition_structure",
+      "value_raw": "3396",
+      "value_min": 3396.0,
+      "value_max": 3396.0,
+      "unit_raw": "cm-1",
+      "unit_normalized": "cm⁻¹",
+      "spectral_assignment": "N-H",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_7_73",
+          "page": 7,
+          "bbox": [
+            109.0,
+            103.0,
+            883.0,
+            310.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table 1 The structure analysis and inherent viscosities $( \\eta _ { \\mathrm { i n h } } )$ of polymers",
+          "table_locator": {
+            "table_id": "T_7_73",
+            "row_label": "II",
+            "column_label": "IR, cm-1",
+            "cell_value": "3396 (N-H); 2232 (CN); 1247 (C-N); 1653 (C=O,); 1241 (Ar-O-Ar)",
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_007",
+      "characterization_id": "char001",
+      "sample_id": "s002",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "IR peak",
+      "property_name_normalized": "ftir_peak_wavenumber",
+      "property_category": "composition_structure",
+      "value_raw": "2232",
+      "value_min": 2232.0,
+      "value_max": 2232.0,
+      "unit_raw": "cm-1",
+      "unit_normalized": "cm⁻¹",
+      "spectral_assignment": "CN",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_7_73",
+          "page": 7,
+          "bbox": [
+            109.0,
+            103.0,
+            883.0,
+            310.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table 1 The structure analysis and inherent viscosities $( \\eta _ { \\mathrm { i n h } } )$ of polymers",
+          "table_locator": {
+            "table_id": "T_7_73",
+            "row_label": "II",
+            "column_label": "IR, cm-1",
+            "cell_value": "3396 (N-H); 2232 (CN); 1247 (C-N); 1653 (C=O,); 1241 (Ar-O-Ar)",
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_008",
+      "characterization_id": "char001",
+      "sample_id": "s002",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "IR peak",
+      "property_name_normalized": "ftir_peak_wavenumber",
+      "property_category": "composition_structure",
+      "value_raw": "1247",
+      "value_min": 1247.0,
+      "value_max": 1247.0,
+      "unit_raw": "cm-1",
+      "unit_normalized": "cm⁻¹",
+      "spectral_assignment": "C-N",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_7_73",
+          "page": 7,
+          "bbox": [
+            109.0,
+            103.0,
+            883.0,
+            310.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table 1 The structure analysis and inherent viscosities $( \\eta _ { \\mathrm { i n h } } )$ of polymers",
+          "table_locator": {
+            "table_id": "T_7_73",
+            "row_label": "II",
+            "column_label": "IR, cm-1",
+            "cell_value": "3396 (N-H); 2232 (CN); 1247 (C-N); 1653 (C=O,); 1241 (Ar-O-Ar)",
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_009",
+      "characterization_id": "char001",
+      "sample_id": "s002",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "IR peak",
+      "property_name_normalized": "ftir_peak_wavenumber",
+      "property_category": "composition_structure",
+      "value_raw": "1653",
+      "value_min": 1653.0,
+      "value_max": 1653.0,
+      "unit_raw": "cm-1",
+      "unit_normalized": "cm⁻¹",
+      "spectral_assignment": "C=O",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_7_73",
+          "page": 7,
+          "bbox": [
+            109.0,
+            103.0,
+            883.0,
+            310.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table 1 The structure analysis and inherent viscosities $( \\eta _ { \\mathrm { i n h } } )$ of polymers",
+          "table_locator": {
+            "table_id": "T_7_73",
+            "row_label": "II",
+            "column_label": "IR, cm-1",
+            "cell_value": "3396 (N-H); 2232 (CN); 1247 (C-N); 1653 (C=O,); 1241 (Ar-O-Ar)",
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_010",
+      "characterization_id": "char001",
+      "sample_id": "s002",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "IR peak",
+      "property_name_normalized": "ftir_peak_wavenumber",
+      "property_category": "composition_structure",
+      "value_raw": "1241",
+      "value_min": 1241.0,
+      "value_max": 1241.0,
+      "unit_raw": "cm-1",
+      "unit_normalized": "cm⁻¹",
+      "spectral_assignment": "Ar-O-Ar",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_7_73",
+          "page": 7,
+          "bbox": [
+            109.0,
+            103.0,
+            883.0,
+            310.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table 1 The structure analysis and inherent viscosities $( \\eta _ { \\mathrm { i n h } } )$ of polymers",
+          "table_locator": {
+            "table_id": "T_7_73",
+            "row_label": "II",
+            "column_label": "IR, cm-1",
+            "cell_value": "3396 (N-H); 2232 (CN); 1247 (C-N); 1653 (C=O,); 1241 (Ar-O-Ar)",
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_011",
+      "characterization_id": "char001",
+      "sample_id": "s003",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "IR peak",
+      "property_name_normalized": "ftir_peak_wavenumber",
+      "property_category": "composition_structure",
+      "value_raw": "3394",
+      "value_min": 3394.0,
+      "value_max": 3394.0,
+      "unit_raw": "cm-1",
+      "unit_normalized": "cm⁻¹",
+      "spectral_assignment": "N-H",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_7_73",
+          "page": 7,
+          "bbox": [
+            109.0,
+            103.0,
+            883.0,
+            310.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table 1 The structure analysis and inherent viscosities $( \\eta _ { \\mathrm { i n h } } )$ of polymers",
+          "table_locator": {
+            "table_id": "T_7_73",
+            "row_label": "III",
+            "column_label": "IR, cm-1",
+            "cell_value": "3394 (N-H); 2233 (CN); 1244 (C-N); 1655 (C=O); 1241 (Ar-O-Ar)",
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_012",
+      "characterization_id": "char001",
+      "sample_id": "s003",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "IR peak",
+      "property_name_normalized": "ftir_peak_wavenumber",
+      "property_category": "composition_structure",
+      "value_raw": "2233",
+      "value_min": 2233.0,
+      "value_max": 2233.0,
+      "unit_raw": "cm-1",
+      "unit_normalized": "cm⁻¹",
+      "spectral_assignment": "CN",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_7_73",
+          "page": 7,
+          "bbox": [
+            109.0,
+            103.0,
+            883.0,
+            310.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table 1 The structure analysis and inherent viscosities $( \\eta _ { \\mathrm { i n h } } )$ of polymers",
+          "table_locator": {
+            "table_id": "T_7_73",
+            "row_label": "III",
+            "column_label": "IR, cm-1",
+            "cell_value": "3394 (N-H); 2233 (CN); 1244 (C-N); 1655 (C=O); 1241 (Ar-O-Ar)",
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_013",
+      "characterization_id": "char001",
+      "sample_id": "s003",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "IR peak",
+      "property_name_normalized": "ftir_peak_wavenumber",
+      "property_category": "composition_structure",
+      "value_raw": "1244",
+      "value_min": 1244.0,
+      "value_max": 1244.0,
+      "unit_raw": "cm-1",
+      "unit_normalized": "cm⁻¹",
+      "spectral_assignment": "C-N",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_7_73",
+          "page": 7,
+          "bbox": [
+            109.0,
+            103.0,
+            883.0,
+            310.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table 1 The structure analysis and inherent viscosities $( \\eta _ { \\mathrm { i n h } } )$ of polymers",
+          "table_locator": {
+            "table_id": "T_7_73",
+            "row_label": "III",
+            "column_label": "IR, cm-1",
+            "cell_value": "3394 (N-H); 2233 (CN); 1244 (C-N); 1655 (C=O); 1241 (Ar-O-Ar)",
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_014",
+      "characterization_id": "char001",
+      "sample_id": "s003",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "IR peak",
+      "property_name_normalized": "ftir_peak_wavenumber",
+      "property_category": "composition_structure",
+      "value_raw": "1655",
+      "value_min": 1655.0,
+      "value_max": 1655.0,
+      "unit_raw": "cm-1",
+      "unit_normalized": "cm⁻¹",
+      "spectral_assignment": "C=O",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_7_73",
+          "page": 7,
+          "bbox": [
+            109.0,
+            103.0,
+            883.0,
+            310.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table 1 The structure analysis and inherent viscosities $( \\eta _ { \\mathrm { i n h } } )$ of polymers",
+          "table_locator": {
+            "table_id": "T_7_73",
+            "row_label": "III",
+            "column_label": "IR, cm-1",
+            "cell_value": "3394 (N-H); 2233 (CN); 1244 (C-N); 1655 (C=O); 1241 (Ar-O-Ar)",
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_015",
+      "characterization_id": "char001",
+      "sample_id": "s003",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "IR peak",
+      "property_name_normalized": "ftir_peak_wavenumber",
+      "property_category": "composition_structure",
+      "value_raw": "1241",
+      "value_min": 1241.0,
+      "value_max": 1241.0,
+      "unit_raw": "cm-1",
+      "unit_normalized": "cm⁻¹",
+      "spectral_assignment": "Ar-O-Ar",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_7_73",
+          "page": 7,
+          "bbox": [
+            109.0,
+            103.0,
+            883.0,
+            310.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table 1 The structure analysis and inherent viscosities $( \\eta _ { \\mathrm { i n h } } )$ of polymers",
+          "table_locator": {
+            "table_id": "T_7_73",
+            "row_label": "III",
+            "column_label": "IR, cm-1",
+            "cell_value": "3394 (N-H); 2233 (CN); 1244 (C-N); 1655 (C=O); 1241 (Ar-O-Ar)",
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_016",
+      "characterization_id": "char001",
+      "sample_id": "s004",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "IR peak",
+      "property_name_normalized": "ftir_peak_wavenumber",
+      "property_category": "composition_structure",
+      "value_raw": "3398",
+      "value_min": 3398.0,
+      "value_max": 3398.0,
+      "unit_raw": "cm-1",
+      "unit_normalized": "cm⁻¹",
+      "spectral_assignment": "N-H",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_7_73",
+          "page": 7,
+          "bbox": [
+            109.0,
+            103.0,
+            883.0,
+            310.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table 1 The structure analysis and inherent viscosities $( \\eta _ { \\mathrm { i n h } } )$ of polymers",
+          "table_locator": {
+            "table_id": "T_7_73",
+            "row_label": "IV",
+            "column_label": "IR, cm-1",
+            "cell_value": "3398 (N-H); 2231 (CN); 1246 (C-N); 1656 (C=O); 1242 (Ar-O-Ar)",
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_017",
+      "characterization_id": "char001",
+      "sample_id": "s004",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "IR peak",
+      "property_name_normalized": "ftir_peak_wavenumber",
+      "property_category": "composition_structure",
+      "value_raw": "2231",
+      "value_min": 2231.0,
+      "value_max": 2231.0,
+      "unit_raw": "cm-1",
+      "unit_normalized": "cm⁻¹",
+      "spectral_assignment": "CN",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_7_73",
+          "page": 7,
+          "bbox": [
+            109.0,
+            103.0,
+            883.0,
+            310.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table 1 The structure analysis and inherent viscosities $( \\eta _ { \\mathrm { i n h } } )$ of polymers",
+          "table_locator": {
+            "table_id": "T_7_73",
+            "row_label": "IV",
+            "column_label": "IR, cm-1",
+            "cell_value": "3398 (N-H); 2231 (CN); 1246 (C-N); 1656 (C=O); 1242 (Ar-O-Ar)",
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_018",
+      "characterization_id": "char001",
+      "sample_id": "s004",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "IR peak",
+      "property_name_normalized": "ftir_peak_wavenumber",
+      "property_category": "composition_structure",
+      "value_raw": "1246",
+      "value_min": 1246.0,
+      "value_max": 1246.0,
+      "unit_raw": "cm-1",
+      "unit_normalized": "cm⁻¹",
+      "spectral_assignment": "C-N",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_7_73",
+          "page": 7,
+          "bbox": [
+            109.0,
+            103.0,
+            883.0,
+            310.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table 1 The structure analysis and inherent viscosities $( \\eta _ { \\mathrm { i n h } } )$ of polymers",
+          "table_locator": {
+            "table_id": "T_7_73",
+            "row_label": "IV",
+            "column_label": "IR, cm-1",
+            "cell_value": "3398 (N-H); 2231 (CN); 1246 (C-N); 1656 (C=O); 1242 (Ar-O-Ar)",
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_019",
+      "characterization_id": "char001",
+      "sample_id": "s004",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "IR peak",
+      "property_name_normalized": "ftir_peak_wavenumber",
+      "property_category": "composition_structure",
+      "value_raw": "1656",
+      "value_min": 1656.0,
+      "value_max": 1656.0,
+      "unit_raw": "cm-1",
+      "unit_normalized": "cm⁻¹",
+      "spectral_assignment": "C=O",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_7_73",
+          "page": 7,
+          "bbox": [
+            109.0,
+            103.0,
+            883.0,
+            310.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table 1 The structure analysis and inherent viscosities $( \\eta _ { \\mathrm { i n h } } )$ of polymers",
+          "table_locator": {
+            "table_id": "T_7_73",
+            "row_label": "IV",
+            "column_label": "IR, cm-1",
+            "cell_value": "3398 (N-H); 2231 (CN); 1246 (C-N); 1656 (C=O); 1242 (Ar-O-Ar)",
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_020",
+      "characterization_id": "char001",
+      "sample_id": "s004",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "IR peak",
+      "property_name_normalized": "ftir_peak_wavenumber",
+      "property_category": "composition_structure",
+      "value_raw": "1242",
+      "value_min": 1242.0,
+      "value_max": 1242.0,
+      "unit_raw": "cm-1",
+      "unit_normalized": "cm⁻¹",
+      "spectral_assignment": "Ar-O-Ar",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_7_73",
+          "page": 7,
+          "bbox": [
+            109.0,
+            103.0,
+            883.0,
+            310.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table 1 The structure analysis and inherent viscosities $( \\eta _ { \\mathrm { i n h } } )$ of polymers",
+          "table_locator": {
+            "table_id": "T_7_73",
+            "row_label": "IV",
+            "column_label": "IR, cm-1",
+            "cell_value": "3398 (N-H); 2231 (CN); 1246 (C-N); 1656 (C=O); 1242 (Ar-O-Ar)",
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    }
+  ],
+  "provenance": {
+    "stage": "stage5_characterization",
+    "provider": "dmx",
+    "model": "doubao-seed-2.0-pro",
+    "models": [
+      "doubao-seed-2.0-pro"
+    ],
+    "prompt_id": "polymer.stage5.characterization",
+    "prompt_version": "1.6.2",
+    "prompt_sha256": "5f918eb9d0dcbe0a4dc60a70d83c4e9f144f9a87bf68905d0a38ad22c000ee5c",
+    "vocabulary_sha256": "3e9d85e4915a729edf0f0a53821f3ee6edf32874e1da6972457417e4f13a1510",
+    "input_hash": "b8b175314dc0b0f8b6d159c8603e0dee15103a0be5471cba4d14fd8f1d0de3e0",
+    "model_config_hash": "7e14aff06827af47a7b1a797111258e33d5972d1c072111440c3b2aae020f3ce",
+    "cache_key": "5fefea50fe1f4ab1af9f53450298c10dd91ac010e93452871e84a8a3b9057c54",
+    "output_schema_version": "characterization_schema.v4",
+    "implementation_version": "1.7.1",
+    "context_block_count": 45,
+    "context_chars": 26495,
+    "call_count": 1,
+    "usage": {
+      "input_tokens": 15579,
+      "output_tokens": 18131,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "billable_input_tokens": 15579,
+      "total_tokens": 33710
+    },
+    "cost": {
+      "status": "calculated",
+      "currency": "CNY",
+      "input_per_million": "4.32",
+      "output_per_million": "29.15",
+      "input_cost": "0.06730128",
+      "output_cost": "0.52851865",
+      "total_cost": "0.59581993"
+    },
+    "status": "success"
+  },
+  "warnings": [
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_characterization_method_surface_recovered",
+      "message": "Preview 模式已将表征方法恢复为 evidence 中唯一匹配的原文词形",
+      "field_path": "characterizations[1].method_raw",
+      "method_normalized": "NMR"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_characterization_method_surface_recovered",
+      "message": "Preview 模式已将表征方法恢复为 evidence 中唯一匹配的原文词形",
+      "field_path": "characterizations[3].method_raw",
+      "method_normalized": "viscometry"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_characterization_details_cleared",
+      "message": "Preview 模式已清空无对象 evidence 支撑的可选表征细节",
+      "field_path": "characterizations[0]",
+      "fields": [
+        "measurement_context"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_characterization_details_cleared",
+      "message": "Preview 模式已清空无对象 evidence 支撑的可选表征细节",
+      "field_path": "characterizations[2]",
+      "fields": [
+        "measurement_context.other_conditions"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_characterization_details_cleared",
+      "message": "Preview 模式已清空无对象 evidence 支撑的可选表征细节",
+      "field_path": "characterizations[3]",
+      "fields": [
+        "measurement_context.temperature"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[23]",
+      "property_id": "prop_s5_024",
+      "fields": [
+        "spectral_assignment"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[24]",
+      "property_id": "prop_s5_025",
+      "fields": [
+        "spectral_assignment",
+        "solvent"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[25]",
+      "property_id": "prop_s5_026",
+      "fields": [
+        "solvent"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[26]",
+      "property_id": "prop_s5_027",
+      "fields": [
+        "solvent"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[27]",
+      "property_id": "prop_s5_028",
+      "fields": [
+        "spectral_assignment",
+        "solvent"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unscoped_stage5_items_removed",
+      "message": "Preview 模式已移除无法唯一关联任何单/多主体的 Stage 5 表征及其派生性质；未猜测 entity_id",
+      "characterization_ids": [
+        "char002"
+      ],
+      "property_ids": [
+        "prop_s5_021",
+        "prop_s5_022",
+        "prop_s5_023",
+        "prop_s5_024",
+        "prop_s5_025",
+        "prop_s5_026",
+        "prop_s5_027",
+        "prop_s5_028"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "derived_property_back_reference_completed",
+      "message": "Stage 5 property 已明确引用唯一 Characterization；已补齐其 derived_property_ids 反向引用",
+      "field_path": "properties[0].characterization_id",
+      "characterization_id": "char001",
+      "property_id": "prop_s5_001"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "derived_property_back_reference_completed",
+      "message": "Stage 5 property 已明确引用唯一 Characterization；已补齐其 derived_property_ids 反向引用",
+      "field_path": "properties[1].characterization_id",
+      "characterization_id": "char001",
+      "property_id": "prop_s5_002"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "derived_property_back_reference_completed",
+      "message": "Stage 5 property 已明确引用唯一 Characterization；已补齐其 derived_property_ids 反向引用",
+      "field_path": "properties[2].characterization_id",
+      "characterization_id": "char001",
+      "property_id": "prop_s5_003"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "derived_property_back_reference_completed",
+      "message": "Stage 5 property 已明确引用唯一 Characterization；已补齐其 derived_property_ids 反向引用",
+      "field_path": "properties[3].characterization_id",
+      "characterization_id": "char001",
+      "property_id": "prop_s5_004"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "derived_property_back_reference_completed",
+      "message": "Stage 5 property 已明确引用唯一 Characterization；已补齐其 derived_property_ids 反向引用",
+      "field_path": "properties[4].characterization_id",
+      "characterization_id": "char001",
+      "property_id": "prop_s5_005"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "derived_property_back_reference_completed",
+      "message": "Stage 5 property 已明确引用唯一 Characterization；已补齐其 derived_property_ids 反向引用",
+      "field_path": "properties[5].characterization_id",
+      "characterization_id": "char001",
+      "property_id": "prop_s5_006"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "derived_property_back_reference_completed",
+      "message": "Stage 5 property 已明确引用唯一 Characterization；已补齐其 derived_property_ids 反向引用",
+      "field_path": "properties[6].characterization_id",
+      "characterization_id": "char001",
+      "property_id": "prop_s5_007"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "derived_property_back_reference_completed",
+      "message": "Stage 5 property 已明确引用唯一 Characterization；已补齐其 derived_property_ids 反向引用",
+      "field_path": "properties[7].characterization_id",
+      "characterization_id": "char001",
+      "property_id": "prop_s5_008"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "derived_property_back_reference_completed",
+      "message": "Stage 5 property 已明确引用唯一 Characterization；已补齐其 derived_property_ids 反向引用",
+      "field_path": "properties[8].characterization_id",
+      "characterization_id": "char001",
+      "property_id": "prop_s5_009"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "derived_property_back_reference_completed",
+      "message": "Stage 5 property 已明确引用唯一 Characterization；已补齐其 derived_property_ids 反向引用",
+      "field_path": "properties[9].characterization_id",
+      "characterization_id": "char001",
+      "property_id": "prop_s5_010"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "derived_property_back_reference_completed",
+      "message": "Stage 5 property 已明确引用唯一 Characterization；已补齐其 derived_property_ids 反向引用",
+      "field_path": "properties[10].characterization_id",
+      "characterization_id": "char001",
+      "property_id": "prop_s5_011"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "derived_property_back_reference_completed",
+      "message": "Stage 5 property 已明确引用唯一 Characterization；已补齐其 derived_property_ids 反向引用",
+      "field_path": "properties[11].characterization_id",
+      "characterization_id": "char001",
+      "property_id": "prop_s5_012"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "derived_property_back_reference_completed",
+      "message": "Stage 5 property 已明确引用唯一 Characterization；已补齐其 derived_property_ids 反向引用",
+      "field_path": "properties[12].characterization_id",
+      "characterization_id": "char001",
+      "property_id": "prop_s5_013"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "derived_property_back_reference_completed",
+      "message": "Stage 5 property 已明确引用唯一 Characterization；已补齐其 derived_property_ids 反向引用",
+      "field_path": "properties[13].characterization_id",
+      "characterization_id": "char001",
+      "property_id": "prop_s5_014"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "derived_property_back_reference_completed",
+      "message": "Stage 5 property 已明确引用唯一 Characterization；已补齐其 derived_property_ids 反向引用",
+      "field_path": "properties[14].characterization_id",
+      "characterization_id": "char001",
+      "property_id": "prop_s5_015"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "derived_property_back_reference_completed",
+      "message": "Stage 5 property 已明确引用唯一 Characterization；已补齐其 derived_property_ids 反向引用",
+      "field_path": "properties[15].characterization_id",
+      "characterization_id": "char001",
+      "property_id": "prop_s5_016"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "derived_property_back_reference_completed",
+      "message": "Stage 5 property 已明确引用唯一 Characterization；已补齐其 derived_property_ids 反向引用",
+      "field_path": "properties[16].characterization_id",
+      "characterization_id": "char001",
+      "property_id": "prop_s5_017"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "derived_property_back_reference_completed",
+      "message": "Stage 5 property 已明确引用唯一 Characterization；已补齐其 derived_property_ids 反向引用",
+      "field_path": "properties[17].characterization_id",
+      "characterization_id": "char001",
+      "property_id": "prop_s5_018"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "derived_property_back_reference_completed",
+      "message": "Stage 5 property 已明确引用唯一 Characterization；已补齐其 derived_property_ids 反向引用",
+      "field_path": "properties[18].characterization_id",
+      "characterization_id": "char001",
+      "property_id": "prop_s5_019"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "derived_property_back_reference_completed",
+      "message": "Stage 5 property 已明确引用唯一 Characterization；已补齐其 derived_property_ids 反向引用",
+      "field_path": "properties[19].characterization_id",
+      "characterization_id": "char001",
+      "property_id": "prop_s5_020"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_semantic_validation_bypassed",
+      "message": "Preview 已保留 Schema 合法候选，并跳过原文/evidence 语义对应校验；Strict 模式仍会报错",
+      "reason": "T_7_73.table_locator.cell_value 不是表格原文"
+    }
+  ]
+}

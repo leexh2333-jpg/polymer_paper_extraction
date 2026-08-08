@@ -1,0 +1,974 @@
+{
+  "schema_version": "1.0",
+  "document_id": "reference_no_0042246",
+  "polymer_entities": [
+    {
+      "entity_id": "pe001",
+      "polymer_name": "NBR",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "NBR",
+        "アクリロニトリル-ブタジエンゴム"
+      ],
+      "resolved_from_mentions": [
+        "m001",
+        "m003",
+        "m007",
+        "m017",
+        "m018",
+        "m020",
+        "m023",
+        "m036",
+        "m038",
+        "m040",
+        "m044",
+        "m049",
+        "m063",
+        "m067",
+        "m085",
+        "m091",
+        "m098",
+        "m102",
+        "m106",
+        "m107",
+        "m112",
+        "m115",
+        "m123",
+        "m124"
+      ],
+      "evidence": {
+        "block_id": "P_1_21",
+        "page": 1,
+        "bbox": [
+          68.0,
+          435.0,
+          480.0,
+          673.0
+        ],
+        "source_type": "text",
+        "source_sentence": "本研究では，用いるエラストマーとして比較的低いガラス転移温度 $( T _ { \\mathrm { g } } )$）と高い極性を併せ持つアクリロニトリル-ブタジエンゴム（NBR）に着目した．"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.98
+      }
+    },
+    {
+      "entity_id": "pe002",
+      "polymer_name": "NBR18",
+      "variant_of": "pe001",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "NBR18"
+      ],
+      "resolved_from_mentions": [
+        "m024",
+        "m053",
+        "m057",
+        "m061",
+        "m065",
+        "m068",
+        "m084",
+        "m087",
+        "m094",
+        "m099",
+        "m103"
+      ],
+      "evidence": {
+        "block_id": "P_1_26",
+        "page": 1,
+        "bbox": [
+          68.0,
+          863.0,
+          478.0,
+          932.0
+        ],
+        "source_type": "text",
+        "source_sentence": "ベースエラストマーには，日本ゼオンのブタジエンゴム（ムーニー粘度 $\\left( M L _ { 1 + 4 } \\left( 1 0 0 \\mathrm { ~ \\textcircled { ~ } C ~ } \\right) \\right) = 5 6 )$）およびNBRを用いた．NBRには，アクリロニトリル（AN）成分が少ない低ニトリル（NBR18, ムーニー粘度＝32），およびAN成分が多"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.94
+      }
+    },
+    {
+      "entity_id": "pe003",
+      "polymer_name": "NBR43",
+      "variant_of": "pe001",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "NBR43"
+      ],
+      "resolved_from_mentions": [
+        "m010",
+        "m026",
+        "m055",
+        "m060",
+        "m066",
+        "m069",
+        "m119",
+        "m121",
+        "m129"
+      ],
+      "evidence": {
+        "block_id": "P_1_31",
+        "page": 1,
+        "bbox": [
+          515.0,
+          287.0,
+          929.0,
+          562.0
+        ],
+        "source_type": "text",
+        "source_sentence": "い高ニトリル（NBR43, ムーニー粘度＝78）のものをそれぞれ用いた．"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.94
+      }
+    },
+    {
+      "entity_id": "pe004",
+      "polymer_name": "ブタジエンゴム",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "ブタジエンゴム",
+        "NBR0",
+        "BR"
+      ],
+      "resolved_from_mentions": [
+        "m022",
+        "m027",
+        "m029",
+        "m054",
+        "m117",
+        "m118"
+      ],
+      "evidence": {
+        "block_id": "P_1_31",
+        "page": 1,
+        "bbox": [
+          515.0,
+          287.0,
+          929.0,
+          562.0
+        ],
+        "source_type": "text",
+        "source_sentence": "また，本論文中のブタジエンゴムについては，他のニトリルゴムと表記を統一させるため，略号にNBR0を用いることとする．"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.97
+      }
+    },
+    {
+      "entity_id": "pe005",
+      "polymer_name": "ニトリルゴム",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "ニトリルゴム"
+      ],
+      "resolved_from_mentions": [
+        "m028",
+        "m132"
+      ],
+      "evidence": {
+        "block_id": "P_7_108",
+        "page": 7,
+        "bbox": [
+          515.0,
+          287.0,
+          927.0,
+          338.0
+        ],
+        "source_type": "text",
+        "source_sentence": "本研究で使用しました各種ニトリルゴム，ゼオスパン，ブレンマーをご提供頂きました，日本ゼオン㈱，日油㈱に厚く御礼申し上げます"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.83
+      }
+    },
+    {
+      "entity_id": "pe006",
+      "polymer_name": "ポリエチレンオキシド",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "ポリエチレンオキシド",
+        "PEO"
+      ],
+      "resolved_from_mentions": [
+        "m012",
+        "m013",
+        "m025",
+        "m031",
+        "m037",
+        "m039",
+        "m043",
+        "m081",
+        "m088",
+        "m095",
+        "m096",
+        "m101",
+        "m105"
+      ],
+      "evidence": {
+        "block_id": "P_0_10",
+        "page": 0,
+        "bbox": [
+          67.0,
+          695.0,
+          478.0,
+          859.0
+        ],
+        "source_type": "text",
+        "source_sentence": "ポリエチレンオキシド（PEO）などのアルキレンオキシド型ポリエーテル類にアルカリ金属塩を溶解させた高分子<sup>1）</sup>は，半結晶性固体やゴム状固体中でもイオン伝導性を発現させることができる新しいソフトイオニクス材料<sup>2）</sup>である．"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.98
+      }
+    },
+    {
+      "entity_id": "pe007",
+      "polymer_name": "PEO-LiClO4",
+      "variant_of": "pe006",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "PEO-LiClO4",
+        "PEO-$\\mathrm { L i C l O _ { 4 } }$"
+      ],
+      "resolved_from_mentions": [
+        "m070",
+        "m097"
+      ],
+      "evidence": {
+        "block_id": "T_3_62",
+        "page": 3,
+        "bbox": [
+          220.0,
+          109.0,
+          778.0,
+          294.0
+        ],
+        "source_type": "table",
+        "source_sentence": "PEO-LiClO4"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.91
+      }
+    },
+    {
+      "entity_id": "pe008",
+      "polymer_name": "エチレンオキシド（EO）/プロピレンオキシド（PO）共重合体",
+      "polymer_type": "random_copolymer",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "エチレンオキシド（EO）/プロピレンオキシド（PO）共重合体",
+        "P（EO/PO）",
+        "EO/PO共重合鎖"
+      ],
+      "resolved_from_mentions": [
+        "m032",
+        "m033",
+        "m041",
+        "m042",
+        "m082",
+        "m089",
+        "m100",
+        "m127"
+      ],
+      "evidence": {
+        "block_id": "P_1_31",
+        "page": 1,
+        "bbox": [
+          515.0,
+          287.0,
+          929.0,
+          562.0
+        ],
+        "source_type": "text",
+        "source_sentence": "ポリエーテルには，平均分子量50万のPEO（和光純薬），日本ゼオンのエチレンオキシド（EO）/プロピレンオキシド（PO）共重合体（P（EO/PO），EO成分量88 mol％），ポリ［（オリゴEO/PO）グラフト型メタクリラート］（PM（EO/PO））をそれぞれ用いた．"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.96
+      }
+    },
+    {
+      "entity_id": "pe009",
+      "polymer_name": "P (EO/PO)-LiClO4",
+      "polymer_type": "random_copolymer",
+      "variant_of": "pe008",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "P (EO/PO)-LiClO4"
+      ],
+      "resolved_from_mentions": [
+        "m071"
+      ],
+      "evidence": {
+        "block_id": "T_3_62",
+        "page": 3,
+        "bbox": [
+          220.0,
+          109.0,
+          778.0,
+          294.0
+        ],
+        "source_type": "table",
+        "source_sentence": "P (EO/PO)-LiClO4"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.88
+      }
+    },
+    {
+      "entity_id": "pe010",
+      "polymer_name": "ポリ［（オリゴEO/PO）グラフト型メタクリラート］",
+      "polymer_type": "graft_copolymer",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "ポリ［（オリゴEO/PO）グラフト型メタクリラート］",
+        "PM（EO/PO）",
+        "PM",
+        "PM（ $\\mathrm { ( E O / P O"
+      ],
+      "resolved_from_mentions": [
+        "m034",
+        "m035",
+        "m045",
+        "m046",
+        "m052",
+        "m058",
+        "m062",
+        "m083",
+        "m090",
+        "m092",
+        "m104",
+        "m109",
+        "m113",
+        "m116"
+      ],
+      "evidence": {
+        "block_id": "P_1_31",
+        "page": 1,
+        "bbox": [
+          515.0,
+          287.0,
+          929.0,
+          562.0
+        ],
+        "source_type": "text",
+        "source_sentence": "ポリエーテルには，平均分子量50万のPEO（和光純薬），日本ゼオンのエチレンオキシド（EO）/プロピレンオキシド（PO）共重合体（P（EO/PO），EO成分量88 mol％），ポリ［（オリゴEO/PO）グラフト型メタクリラート］（PM（EO/PO））をそれぞれ用いた．"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.96
+      }
+    },
+    {
+      "entity_id": "pe011",
+      "polymer_name": "PM（EO/PO）-LiClO<sub>4</sub>",
+      "polymer_type": "graft_copolymer",
+      "variant_of": "pe010",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "$\\mathrm { P M ( E O / P O ) } \\mathrm { - L i C l O _ { 4 } }$",
+        "PM（EO/PO）-LiClO<sub>4</sub>",
+        "PM（EO/PO）-$\\mathrm { L i C l O _ { 4 } }$",
+        "PM（EO/PO）-LiClO",
+        "PM (EO/PO)-LiClO4"
+      ],
+      "resolved_from_mentions": [
+        "m009",
+        "m047",
+        "m048",
+        "m059",
+        "m072",
+        "m108",
+        "m122",
+        "m130"
+      ],
+      "evidence": {
+        "block_id": "P_2_42",
+        "page": 2,
+        "bbox": [
+          67.0,
+          64.0,
+          478.0,
+          319.0
+        ],
+        "source_type": "text",
+        "source_sentence": "PM（EO/PO）-LiClO<sub>4</sub>は，膜形状を保持できる透明な高分子であるが，力学的にはもろく，柔らかい寒天状であった．"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.89
+      }
+    },
+    {
+      "entity_id": "pe012",
+      "polymer_name": "ポリエーテル電解質",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "ポリエーテル電解質",
+        "Polyether Electrolyte",
+        "ポリエーテル系電解質"
+      ],
+      "resolved_from_mentions": [
+        "m002",
+        "m004",
+        "m021",
+        "m064",
+        "m080",
+        "m125"
+      ],
+      "evidence": {
+        "block_id": "P_0_0",
+        "page": 0,
+        "bbox": [
+          299.0,
+          68.0,
+          867.0,
+          149.0
+        ],
+        "source_type": "title",
+        "source_sentence": "ミクロスケールの海－島相分離構造を有するNBR/ポリエーテル電解質 ブレンドのイオン伝導性に及ぼす湿度の影響"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.89
+      }
+    },
+    {
+      "entity_id": "pe013",
+      "polymer_name": "polyether-based solid polymer electrolyte",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "polyether-based solid polymer electrolyte",
+        "SPE"
+      ],
+      "resolved_from_mentions": [
+        "m005",
+        "m006"
+      ],
+      "evidence": {
+        "block_id": "P_0_4",
+        "page": 0,
+        "bbox": [
+          65.0,
+          373.0,
+          927.0,
+          557.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Novel ion-conductive elastomer blends containing polyether-based solid polymer electrolyte (SPE) were prepared by the radical polymerization of oligo[(ethylene oxide)-co-(propylene oxide)] methacrylate (M(EO/PO)) monomer with $\\mathrm { L i C l O _ { 4 } }$in NBR."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.96
+      }
+    },
+    {
+      "entity_id": "pe014",
+      "polymer_name": "Solid Polymer Electrolytes",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "Solid Polymer Electrolytes",
+        "SPE"
+      ],
+      "resolved_from_mentions": [
+        "m011",
+        "m016",
+        "m019",
+        "m131"
+      ],
+      "evidence": {
+        "block_id": "P_0_7",
+        "page": 0,
+        "bbox": [
+          67.0,
+          587.0,
+          922.0,
+          617.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Key Words ：Elastomer Blends, Solid Polymer Electrolytes, Lithium Salts, Ionic Conductivity, Morphology, Sea-Island Phase Separation"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.77
+      }
+    },
+    {
+      "entity_id": "pe015",
+      "polymer_name": "アルキレンオキシド型ポリエーテル類",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "アルキレンオキシド型ポリエーテル類"
+      ],
+      "resolved_from_mentions": [
+        "m014"
+      ],
+      "evidence": {
+        "block_id": "P_0_10",
+        "page": 0,
+        "bbox": [
+          67.0,
+          695.0,
+          478.0,
+          859.0
+        ],
+        "source_type": "text",
+        "source_sentence": "ポリエチレンオキシド（PEO）などのアルキレンオキシド型ポリエーテル類にアルカリ金属塩を溶解させた高分子<sup>1）</sup>は，半結晶性固体やゴム状固体中でもイオン伝導性を発現させることができる新しいソフトイオニクス材料<sup>2）</sup>である．"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.78
+      }
+    },
+    {
+      "entity_id": "pe016",
+      "polymer_name": "エチレンオキシド（EO）型高分子",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "エチレンオキシド（EO）型高分子"
+      ],
+      "resolved_from_mentions": [
+        "m015"
+      ],
+      "evidence": {
+        "block_id": "P_0_10",
+        "page": 0,
+        "bbox": [
+          67.0,
+          695.0,
+          478.0,
+          859.0
+        ],
+        "source_type": "text",
+        "source_sentence": "このようなエチレンオキシド（EO）型高分子をベースとする一連の固体高分子電解質（SPE）は，無機や液体電解質に代わる次世代イオン伝導材料であり，高分子型リチウム電池や帯電防止材など，新しい電気･電子材料やデバイスへの応用が期待されている<sup>3―</sup> <sup>6）</sup>．"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.79
+      }
+    },
+    {
+      "entity_id": "pe017",
+      "polymer_name": "ポリエーテル",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "ポリエーテル",
+        "ポリエーテル鎖"
+      ],
+      "resolved_from_mentions": [
+        "m030",
+        "m126"
+      ],
+      "evidence": {
+        "block_id": "P_1_31",
+        "page": 1,
+        "bbox": [
+          515.0,
+          287.0,
+          929.0,
+          562.0
+        ],
+        "source_type": "text",
+        "source_sentence": "ポリエーテルには，平均分子量50万のPEO（和光純薬），日本ゼオンのエチレンオキシド（EO）/プロピレンオキシド（PO）共重合体（P（EO/PO），EO成分量88 mol％），ポリ［（オリゴEO/PO）グラフト型メタクリラート］（PM（EO/PO））をそれぞれ用いた．"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.79
+      }
+    },
+    {
+      "entity_id": "pe018",
+      "polymer_name": "ポリ塩化ビニル",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "ポリ塩化ビニル",
+        "PVC"
+      ],
+      "resolved_from_mentions": [
+        "m110",
+        "m111",
+        "m114"
+      ],
+      "evidence": {
+        "block_id": "P_5_86",
+        "page": 5,
+        "bbox": [
+          68.0,
+          769.0,
+          480.0,
+          933.0
+        ],
+        "source_type": "text",
+        "source_sentence": "過去の研究例では，例えばAN量が23～45％のNBRは，ポリ塩化ビニル（PVC）と相溶することが知られており<sup>14）</sup>，PVCの衝撃強度を改善するための高分子可塑剤として既に実用化されている．"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.97
+      }
+    },
+    {
+      "entity_id": "pe019",
+      "polymer_name": "ポリアクリロニトリル",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "ポリアクリロニトリル"
+      ],
+      "resolved_from_mentions": [
+        "m120"
+      ],
+      "evidence": {
+        "block_id": "P_6_95",
+        "page": 6,
+        "bbox": [
+          65.0,
+          473.0,
+          478.0,
+          933.0
+        ],
+        "source_type": "text",
+        "source_sentence": "一般的に，電解質材料中におけるニトリル基は，CN部の強い電子吸引性の影響でカチオン（本研究ではLiイオン）との間に強固なルイス酸-塩基相互作用を形成させることができるため，NBR<sup>12）</sup>やポリアクリロニトリル<sup>16）</sup>中（ゲル状態）で金属塩の解離やイオン輸送を発現させることができる．"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.93
+      }
+    },
+    {
+      "entity_id": "pe020",
+      "polymer_name": "$\\mathrm { N B R 1 8 / P M ( E O / P O ) _ { m o n o } \\mathrm { - L i C l O _ { 4 } 5 0 / 5 0 } }$",
+      "polymer_type": "blend",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "$\\mathrm { N B R 1 8 / P M ( E O / P O ) _ { m o n o } \\mathrm { - L i C l O _ { 4 } 5 0 / 5 0 } }$"
+      ],
+      "resolved_from_mentions": [
+        "m008"
+      ],
+      "evidence": {
+        "block_id": "P_0_4",
+        "page": 0,
+        "bbox": [
+          65.0,
+          373.0,
+          927.0,
+          557.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Obtained samples showed micro- (or nano-) scale Sea-Island phase separation, which was revealed from the TEM observation in case of $\\mathrm { N B R 1 8 / P M ( E O / P O ) _ { m o n o } \\mathrm { - L i C l O _ { 4 } 5 0 / 5 0 } }$wt% blend, and the DC conductivity under dry $\\mathrm { N _ { 2 } } ~ ( \\sigma _ { \\mathrm { d r y } } )$was approximately $1 0 ^ { - 8 } \\mathrm { { S } \\ c m ^ { - 1 } }$at $2 5 \\ { } ^ { \\circ } \\mathrm { C } .$"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.82
+      }
+    },
+    {
+      "entity_id": "pe021",
+      "polymer_name": "NBR18/PM（EO/PO）<sub>poly</sub>-LiClO<sub>4</sub>",
+      "polymer_type": "blend",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "NBR18/PM（EO/PO）<sub>poly</sub>-LiClO<sub>4</sub>"
+      ],
+      "resolved_from_mentions": [
+        "m050"
+      ],
+      "evidence": {
+        "block_id": "P_2_42",
+        "page": 2,
+        "bbox": [
+          67.0,
+          64.0,
+          478.0,
+          319.0
+        ],
+        "source_type": "text",
+        "source_sentence": "以降， $= 0 . 7 V = K$方法により得られた試料を，NBR18/PM（EO/PO）<sub>poly</sub>-LiClO<sub>4</sub>と表記する．"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.93
+      }
+    },
+    {
+      "entity_id": "pe022",
+      "polymer_name": "NBR/$\\mathrm { P M ( E O / P O ) } _ { \\mathrm { m o n o } ^ { - } } \\mathrm { L i C l O } _ { 4 }$",
+      "polymer_type": "blend",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "NBR/$\\mathrm { P M ( E O / P O ) } _ { \\mathrm { m o n o } ^ { - } } \\mathrm { L i C l O } _ { 4 }$"
+      ],
+      "resolved_from_mentions": [
+        "m056"
+      ],
+      "evidence": {
+        "block_id": "P_2_44",
+        "page": 2,
+        "bbox": [
+          67.0,
+          342.0,
+          478.0,
+          562.0
+        ],
+        "source_type": "text",
+        "source_sentence": "以降，このブレンド方法により得られた試料を，NBR/$\\mathrm { P M ( E O / P O ) } _ { \\mathrm { m o n o } ^ { - } } \\mathrm { L i C l O } _ { 4 }$と表記する"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.88
+      }
+    },
+    {
+      "entity_id": "pe023",
+      "polymer_name": "NBR43/PM（EO/PO）<sub>mono</sub>-LiClO<sub>4</sub>",
+      "polymer_type": "blend",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "NBR43/PM (EO/PO)mono",
+        "NBR43/PM（EO/PO）<sub>mono</sub>-LiClO<sub>4</sub>"
+      ],
+      "resolved_from_mentions": [
+        "m078",
+        "m128"
+      ],
+      "evidence": {
+        "block_id": "P_7_105",
+        "page": 7,
+        "bbox": [
+          68.0,
+          546.0,
+          480.0,
+          933.0
+        ],
+        "source_type": "text",
+        "source_sentence": "これらの条件を満たすNBR43/PM（EO/PO）<sub>mono</sub>-LiClO<sub>4</sub>は，吸湿状態と乾燥状態の伝導度に差異がほとんど見られず，湿度環境に対する伝導度の安定性の向上が達成できた．"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.89
+      }
+    },
+    {
+      "entity_id": "pe024",
+      "polymer_name": "NBR18/PEO system",
+      "polymer_type": "blend",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "NBR18/PEO system"
+      ],
+      "resolved_from_mentions": [
+        "m074"
+      ],
+      "evidence": {
+        "block_id": "T_3_62",
+        "page": 3,
+        "bbox": [
+          220.0,
+          109.0,
+          778.0,
+          294.0
+        ],
+        "source_type": "table",
+        "source_sentence": "NBR18/PEO system"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.84
+      }
+    },
+    {
+      "entity_id": "pe025",
+      "polymer_name": "NBR18系50/50ブレンド試料",
+      "polymer_type": "blend",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "NBR18系50/50ブレンド試料"
+      ],
+      "resolved_from_mentions": [
+        "m086"
+      ],
+      "evidence": {
+        "block_id": "P_3_66",
+        "page": 3,
+        "bbox": [
+          515.0,
+          658.0,
+          929.0,
+          933.0
+        ],
+        "source_type": "text",
+        "source_sentence": "次に，各種ブレンド体の吸湿に伴う重量変化を評価したセルに組み込む前のNBR18系50/50ブレンド試料について，サ $\\yen 7$みをガラスデシケーター中に静置して $\\sigma _ { \\mathrm { w e t } }$測定と同じ条件下で十分に吸湿させた後，直ちに大気中に取り出して重量を測定した．"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.69
+      }
+    },
+    {
+      "entity_id": "pe026",
+      "polymer_name": "NBR18系ブレンド",
+      "polymer_type": "blend",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "NBR18系ブレンド"
+      ],
+      "resolved_from_mentions": [
+        "m093"
+      ],
+      "evidence": {
+        "block_id": "P_4_74",
+        "page": 4,
+        "bbox": [
+          67.0,
+          677.0,
+          478.0,
+          932.0
+        ],
+        "source_type": "text",
+        "source_sentence": "NBR18系ブレンドの伝導度と電解質 $\\left( \\mathrm { P E O - L i C l O _ { 4 } } \\right)$）成分量の関係をFigure 4に示す．"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.74
+      }
+    }
+  ],
+  "unresolved_mention_ids": [
+    "m073",
+    "m075",
+    "m076",
+    "m077",
+    "m079",
+    "m133",
+    "m134",
+    "m051"
+  ],
+  "provenance": {
+    "stage": "stage2_polymer_entity",
+    "provider": "dmx",
+    "model": "gpt-5.6-terra-2026-07-09",
+    "models": [
+      "gpt-5.6-terra-2026-07-09"
+    ],
+    "prompt_id": "polymer.stage2.polymer_entity",
+    "prompt_version": "1.2.0",
+    "prompt_sha256": "8293a9f30517fa564eb1fd5e3af02ea721f9ac48554f50edf089bcb9cec63801",
+    "input_hash": "9f0557beb5845ea22e719ce635832b9c6bb3a11f9ba27a1c19dc4a93859f38fc",
+    "model_config_hash": "c9e96c2514956e7b4b65eae3d327d34f95b7a33876cec6d4aa56f95eb79a9b50",
+    "cache_key": "1e9dfcba99f7f24b19001fadb1741f0feaadfd98e15e932346de656d253ec59b",
+    "output_schema_version": "polymer_entity_schema.v2",
+    "implementation_version": "1.3.3",
+    "context_block_count": 36,
+    "context_chars": 26699,
+    "call_count": 1,
+    "usage": {
+      "input_tokens": 55096,
+      "output_tokens": 6925,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "billable_input_tokens": 55096,
+      "total_tokens": 62021
+    },
+    "cost": {
+      "status": "calculated",
+      "currency": "CNY",
+      "input_per_million": "17",
+      "output_per_million": "101",
+      "input_cost": "0.936632",
+      "output_cost": "0.699425",
+      "total_cost": "1.636057"
+    },
+    "status": "success"
+  },
+  "warnings": [
+    {
+      "stage": "stage2_polymer_entity",
+      "code": "section_fallback",
+      "message": "Methods/Results 为空，仅使用 Stage 1 mention 的 evidence block；结果需人工复核"
+    },
+    {
+      "stage": "stage2_polymer_entity",
+      "code": "component_blend_nested_mentions_split",
+      "message": "组分名称与包含该名称的 blend 实体已保留为不同实体",
+      "items": [
+        {
+          "shorter_mention_id": "m087",
+          "longer_mention_id": "m086",
+          "component_entity_id": "pe002",
+          "blend_entity_id": "pe025"
+        }
+      ]
+    },
+    {
+      "stage": "stage2_polymer_entity",
+      "code": "preview_nested_mentions_split_retained",
+      "message": "Preview 模式已保留无法确定合并关系的嵌套 mention 拆分；需在正式数据中复核",
+      "items": [
+        {
+          "shorter_mention_id": "m109",
+          "longer_mention_id": "m108",
+          "shorter_assignment": "pe010",
+          "longer_assignment": "pe011"
+        }
+      ]
+    },
+    {
+      "stage": "stage2_polymer_entity",
+      "code": "missing_mentions_marked_unresolved",
+      "message": "模型漏覆盖的 mention 已保守标记为 unresolved",
+      "mention_ids": [
+        "m051"
+      ]
+    },
+    {
+      "stage": "stage2_polymer_entity",
+      "code": "unresolved_mentions",
+      "message": "8 个 mention 未解析为实体，已原样保留引用",
+      "mention_ids": [
+        "m073",
+        "m075",
+        "m076",
+        "m077",
+        "m079",
+        "m133",
+        "m134",
+        "m051"
+      ]
+    }
+  ]
+}

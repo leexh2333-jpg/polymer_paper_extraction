@@ -21,6 +21,7 @@ polymer_extraction_delivery_20260807/
 ├─ sample_data/processed_documents/    固定 20 篇标准化输入 JSON
 ├─ source_pdfs/                        固定 20 篇原文 PDF
 ├─ acceptance/                         历史验收摘要与报告
+├─ batch_results/demo20_20260807/      固定 20 篇完整跑批结果
 ├─ docs/                               项目和风险说明
 ├─ .env.example                        密钥占位模板，不含真实密钥
 ├─ requirements.txt                    运行依赖
@@ -454,6 +455,21 @@ python -m pytest `
 - 随机 7 篇：`7/7`；
 - 剩余 10 篇：`10/10`；
 - 合计：`20/20`。
+
+完整 Stage 0–5、Candidate 和 HTML 结果已收录于：
+
+`batch_results/demo20_20260807/`
+
+每篇包含 8 个最终产物，可直接用浏览器打开：
+
+`batch_results/demo20_20260807/<reference_no>/report_candidate.html`
+
+文献与批次映射、文件 SHA-256 和验收状态见：
+
+- `batch_results/demo20_20260807/README.md`；
+- `batch_results/demo20_20260807/RESULT_INDEX.json`。
+
+为避免上传运行噪声，该目录不包含日志、SQLite 状态库、历史 failure JSON、retry 状态和重复资源。
 
 另对曾未一次完成的候选随机抽取 3 篇，在全新输出目录、无缓存条件下复测，21 个 Stage attempt 全部成功，Preview `3/3`、Strict `3/3`。
 

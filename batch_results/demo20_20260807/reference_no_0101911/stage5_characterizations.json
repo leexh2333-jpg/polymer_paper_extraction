@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.0",
+  "document_id": "reference_no_0101911",
+  "characterizations": [
+    {
+      "characterization_id": "char001",
+      "method_raw": "field emission SEM",
+      "method_normalized": "SEM",
+      "sample_ids": [
+        "s004",
+        "s005"
+      ],
+      "sample_resolution_status": "multi_resolved",
+      "instrument": "field emission SEM",
+      "parameters": {},
+      "result_summary": "PVC/ABS/SMIA composite SEM images show no phase separation, indicating excellent compatibility of ABS, PVC and SMIA; impact fracture surface micromorphology of PVC/ABS composites was characterized, 10 phr ABS addition gives well-distributed voids and tree-root-like yielding fibers, typical of toughness fracture.",
+      "derived_property_ids": [],
+      "evidence": [
+        {
+          "block_id": "P_0_8",
+          "page": 0,
+          "bbox": [
+            80.0,
+            502.0,
+            915.0,
+            702.0
+          ],
+          "source_type": "text",
+          "source_sentence": "Phase separation was not observed in the scanning electron microscope images of composites, elucidating the outstanding compatibility of ABS, PVC, and SMIA."
+        },
+        {
+          "block_id": "P_2_53",
+          "page": 2,
+          "bbox": [
+            505.0,
+            759.0,
+            927.0,
+            938.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The field emission SEM was used to explore the micromorphology of the impact fracture surface."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    }
+  ],
+  "properties": [],
+  "provenance": {
+    "stage": "stage5_characterization",
+    "provider": "dmx",
+    "model": "doubao-seed-2.0-pro",
+    "models": [
+      "doubao-seed-2.0-pro"
+    ],
+    "prompt_id": "polymer.stage5.characterization",
+    "prompt_version": "1.6.2",
+    "prompt_sha256": "5f918eb9d0dcbe0a4dc60a70d83c4e9f144f9a87bf68905d0a38ad22c000ee5c",
+    "vocabulary_sha256": "3e9d85e4915a729edf0f0a53821f3ee6edf32874e1da6972457417e4f13a1510",
+    "input_hash": "ce6c1d7550bf8cb1dd27fd2386f92dd4c04137a355a55966e89238401b3aad9a",
+    "model_config_hash": "7e14aff06827af47a7b1a797111258e33d5972d1c072111440c3b2aae020f3ce",
+    "cache_key": "abaa1fdeba8674fffc713974096822a3104c49c1ded2c383f9f9ec44b25fff8f",
+    "output_schema_version": "characterization_schema.v4",
+    "implementation_version": "1.7.1",
+    "context_block_count": 5,
+    "context_chars": 6884,
+    "call_count": 1,
+    "usage": {
+      "input_tokens": 9830,
+      "output_tokens": 2241,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "billable_input_tokens": 9830,
+      "total_tokens": 12071
+    },
+    "cost": {
+      "status": "calculated",
+      "currency": "CNY",
+      "input_per_million": "4.32",
+      "output_per_million": "29.15",
+      "input_cost": "0.0424656",
+      "output_cost": "0.06532515",
+      "total_cost": "0.10779075"
+    },
+    "status": "success"
+  },
+  "warnings": [
+    {
+      "stage": "stage5_characterization",
+      "code": "section_fallback",
+      "message": "Methods/Results 为空，仅使用上游 evidence block；结果需人工复核"
+    }
+  ]
+}

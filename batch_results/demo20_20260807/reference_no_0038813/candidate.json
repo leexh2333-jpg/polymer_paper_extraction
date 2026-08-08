@@ -1,0 +1,6198 @@
+{
+  "schema_version": "candidate.v1",
+  "document_id": "reference_no_0038813",
+  "publication": {
+    "kind": "candidate",
+    "status": "complete",
+    "validation_status": "not_validated",
+    "message": "Stage 0-5 已完成；未经完整科学语义校验，仅用于预览模型抽取结果。",
+    "completed_stages": [
+      "stage0",
+      "stage1",
+      "stage2",
+      "stage3",
+      "stage4",
+      "stage5"
+    ],
+    "candidate_stages": [],
+    "failed_stages": []
+  },
+  "paper": {
+    "ref_no": "reference_no_0038813",
+    "pdf_filename": "991b5294-93c3-4d06-b471-de6de3417f81_origin.pdf",
+    "source_pdf_path": "mineru/reference_no_0038813/991b5294-93c3-4d06-b471-de6de3417f81_origin.pdf",
+    "organized_pdf_path": "organized/reference_no_0038813/origin.pdf",
+    "doi": null,
+    "title": null,
+    "authors": null,
+    "journal": null,
+    "year": null,
+    "metadata_status": "failed",
+    "metadata_extraction": {
+      "method": "llm",
+      "provider": null,
+      "model": null,
+      "prompt_file": "prompts/meta_extract.md",
+      "prompt_sha256": "98252486e4f9cdfd1b42ea02b7e01440d6be99c99d18720dc71c95aa1643fcd4",
+      "source_pages": [
+        0,
+        1
+      ],
+      "status": "failed",
+      "error_type": "MetaExtractorUnavailable"
+    }
+  },
+  "material_mentions": [
+    {
+      "mention_id": "m001",
+      "text": "polystyrene",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_1_21",
+        "page": 1,
+        "bbox": [
+          53.0,
+          330.0,
+          467.0,
+          787.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The molecular weight calibration was carried out using polystyrene standards."
+      },
+      "confidence": {
+        "score": 0.98
+      },
+      "evidence_ids": [
+        "ev00001"
+      ]
+    },
+    {
+      "mention_id": "m002",
+      "text": "poly(amide-urea)s",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_2_43",
+        "page": 2,
+        "bbox": [
+          89.0,
+          888.0,
+          497.0,
+          916.0
+        ],
+        "source_type": "text",
+        "source_sentence": "A typical procedure for the preparation of poly(amide-urea)s was as follows:"
+      },
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00002"
+      ]
+    },
+    {
+      "mention_id": "m003",
+      "text": "polyureas",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_2_46",
+        "page": 2,
+        "bbox": [
+          529.0,
+          248.0,
+          942.0,
+          675.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Diamines are valuable monomers for the preparation of variety of polymers including polyureas, polyamides, and polyimides.<sup>15–17</sup> For this purpose, the anthraquinone containing diamines were prepared via a two-step route."
+      },
+      "confidence": {
+        "score": 0.96
+      },
+      "evidence_ids": [
+        "ev00003"
+      ]
+    },
+    {
+      "mention_id": "m004",
+      "text": "polyamides",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_2_46",
+        "page": 2,
+        "bbox": [
+          529.0,
+          248.0,
+          942.0,
+          675.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Diamines are valuable monomers for the preparation of variety of polymers including polyureas, polyamides, and polyimides.<sup>15–17</sup> For this purpose, the anthraquinone containing diamines were prepared via a two-step route."
+      },
+      "confidence": {
+        "score": 0.96
+      },
+      "evidence_ids": [
+        "ev00003"
+      ]
+    },
+    {
+      "mention_id": "m005",
+      "text": "polyimides",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_2_46",
+        "page": 2,
+        "bbox": [
+          529.0,
+          248.0,
+          942.0,
+          675.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Diamines are valuable monomers for the preparation of variety of polymers including polyureas, polyamides, and polyimides.<sup>15–17</sup> For this purpose, the anthraquinone containing diamines were prepared via a two-step route."
+      },
+      "confidence": {
+        "score": 0.96
+      },
+      "evidence_ids": [
+        "ev00003"
+      ]
+    },
+    {
+      "mention_id": "m006",
+      "text": "polyurea",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_4_64",
+        "page": 4,
+        "bbox": [
+          87.0,
+          274.0,
+          500.0,
+          374.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The effect of reaction temperature on the inherent viscosity of the polyurea was examined in NMP at temperature between 30 and 1508C (Fig."
+      },
+      "confidence": {
+        "score": 0.98
+      },
+      "evidence_ids": [
+        "ev00004"
+      ]
+    },
+    {
+      "mention_id": "m007",
+      "text": "poly(amide-urea)s",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_4_66",
+        "page": 4,
+        "bbox": [
+          89.0,
+          416.0,
+          500.0,
+          501.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Thus, two series of poly(amide-urea)s were prepared via the polyaddition reactions of four different diisocyanates (aromatic, semi-aromatic, and cycloaliphatic) including PPDI, NDI, 4,4 -diphenyl methane diisocyanate (MDI), and H<sub>12</sub>MDI with the prepared diamines at $7 0 ^ { \\circ } \\mathrm { C }$for 4 hr (Scheme 2)."
+      },
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00005"
+      ]
+    },
+    {
+      "mention_id": "m008",
+      "text": "1AQA-PPDI",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "T_5_77",
+        "page": 5,
+        "bbox": [
+          55.0,
+          80.0,
+          905.0,
+          522.0
+        ],
+        "source_type": "table",
+        "source_sentence": "1AQA-PPDI"
+      },
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00006"
+      ]
+    },
+    {
+      "mention_id": "m009",
+      "text": "1AQA-NDI",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "T_5_77",
+        "page": 5,
+        "bbox": [
+          55.0,
+          80.0,
+          905.0,
+          522.0
+        ],
+        "source_type": "table",
+        "source_sentence": "1AQA-NDI"
+      },
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00007"
+      ]
+    },
+    {
+      "mention_id": "m010",
+      "text": "1AQA-MDI",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "T_5_77",
+        "page": 5,
+        "bbox": [
+          55.0,
+          80.0,
+          905.0,
+          522.0
+        ],
+        "source_type": "table",
+        "source_sentence": "1AQA-MDI"
+      },
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00008"
+      ]
+    },
+    {
+      "mention_id": "m011",
+      "text": "1AQA-H $_{12}$ MDI",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "T_5_77",
+        "page": 5,
+        "bbox": [
+          55.0,
+          80.0,
+          905.0,
+          522.0
+        ],
+        "source_type": "table",
+        "source_sentence": "1AQA-H $_{12}$ MDI"
+      },
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00009"
+      ]
+    },
+    {
+      "mention_id": "m012",
+      "text": "2AQA-PPDI",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "T_5_77",
+        "page": 5,
+        "bbox": [
+          55.0,
+          80.0,
+          905.0,
+          522.0
+        ],
+        "source_type": "table",
+        "source_sentence": "2AQA-PPDI"
+      },
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00010"
+      ]
+    },
+    {
+      "mention_id": "m013",
+      "text": "2AQA-NDI",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "T_5_77",
+        "page": 5,
+        "bbox": [
+          55.0,
+          80.0,
+          905.0,
+          522.0
+        ],
+        "source_type": "table",
+        "source_sentence": "2AQA-NDI"
+      },
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00011"
+      ]
+    },
+    {
+      "mention_id": "m014",
+      "text": "2AQA-MDI",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "T_5_77",
+        "page": 5,
+        "bbox": [
+          55.0,
+          80.0,
+          905.0,
+          522.0
+        ],
+        "source_type": "table",
+        "source_sentence": "2AQA-MDI"
+      },
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00012"
+      ]
+    },
+    {
+      "mention_id": "m015",
+      "text": "2AQA-H $_{12}$ MDI",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "T_5_77",
+        "page": 5,
+        "bbox": [
+          55.0,
+          80.0,
+          905.0,
+          522.0
+        ],
+        "source_type": "table",
+        "source_sentence": "2AQA-H $_{12}$ MDI"
+      },
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00013"
+      ]
+    },
+    {
+      "mention_id": "m016",
+      "text": "1AQA-PPDI",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "T_5_78",
+        "page": 5,
+        "bbox": [
+          55.0,
+          581.0,
+          905.0,
+          899.0
+        ],
+        "source_type": "table",
+        "source_sentence": "1AQA-PPDI"
+      },
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00014"
+      ]
+    },
+    {
+      "mention_id": "m017",
+      "text": "1AQA-NDI",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "T_5_78",
+        "page": 5,
+        "bbox": [
+          55.0,
+          581.0,
+          905.0,
+          899.0
+        ],
+        "source_type": "table",
+        "source_sentence": "1AQA-NDI"
+      },
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00015"
+      ]
+    },
+    {
+      "mention_id": "m018",
+      "text": "1AQA-MDI",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "T_5_78",
+        "page": 5,
+        "bbox": [
+          55.0,
+          581.0,
+          905.0,
+          899.0
+        ],
+        "source_type": "table",
+        "source_sentence": "1AQA-MDI"
+      },
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00016"
+      ]
+    },
+    {
+      "mention_id": "m019",
+      "text": "1AQA-H $_{12}$ MDI",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "T_5_78",
+        "page": 5,
+        "bbox": [
+          55.0,
+          581.0,
+          905.0,
+          899.0
+        ],
+        "source_type": "table",
+        "source_sentence": "1AQA-H $_{12}$ MDI"
+      },
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00017"
+      ]
+    },
+    {
+      "mention_id": "m020",
+      "text": "2AQA-PPDI",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "T_5_78",
+        "page": 5,
+        "bbox": [
+          55.0,
+          581.0,
+          905.0,
+          899.0
+        ],
+        "source_type": "table",
+        "source_sentence": "2AQA-PPDI"
+      },
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00018"
+      ]
+    },
+    {
+      "mention_id": "m021",
+      "text": "2AQA-NDI",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "T_5_78",
+        "page": 5,
+        "bbox": [
+          55.0,
+          581.0,
+          905.0,
+          899.0
+        ],
+        "source_type": "table",
+        "source_sentence": "2AQA-NDI"
+      },
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00019"
+      ]
+    },
+    {
+      "mention_id": "m022",
+      "text": "2AQA-MDI",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "T_5_78",
+        "page": 5,
+        "bbox": [
+          55.0,
+          581.0,
+          905.0,
+          899.0
+        ],
+        "source_type": "table",
+        "source_sentence": "2AQA-MDI"
+      },
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00020"
+      ]
+    },
+    {
+      "mention_id": "m023",
+      "text": "2AQA-H $_{12}$ MDI",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "T_5_78",
+        "page": 5,
+        "bbox": [
+          55.0,
+          581.0,
+          905.0,
+          899.0
+        ],
+        "source_type": "table",
+        "source_sentence": "2AQA-H $_{12}$ MDI"
+      },
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00021"
+      ]
+    },
+    {
+      "mention_id": "m024",
+      "text": "polystyrene",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_6_83",
+        "page": 6,
+        "bbox": [
+          87.0,
+          93.0,
+          500.0,
+          249.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The molecular weights and dispersity of the polymers were investigated using the GPC method with DMF as a solvent calibrated with polystyrene standards."
+      },
+      "confidence": {
+        "score": 0.98
+      },
+      "evidence_ids": [
+        "ev00022"
+      ]
+    },
+    {
+      "mention_id": "m025",
+      "text": "1AQA-PPDI",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_6_84",
+        "page": 6,
+        "bbox": [
+          87.0,
+          249.0,
+          500.0,
+          476.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Thermal analysis of the polymers is summarized in Table 3 and the representative curves of DMTA for 1AQA-PPDI $( T _ { \\mathrm { g } } =$1908C) and DSC for 1AQA-MDI $( T _ { \\mathrm { g } } { = } 1 7 8 ^ { \\circ } \\mathrm { C } )$are shown in Figs 4 and 5, respectively."
+      },
+      "confidence": {
+        "score": 0.98
+      },
+      "evidence_ids": [
+        "ev00023"
+      ]
+    },
+    {
+      "mention_id": "m026",
+      "text": "1AQA-MDI",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_6_84",
+        "page": 6,
+        "bbox": [
+          87.0,
+          249.0,
+          500.0,
+          476.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Thermal analysis of the polymers is summarized in Table 3 and the representative curves of DMTA for 1AQA-PPDI $( T _ { \\mathrm { g } } =$1908C) and DSC for 1AQA-MDI $( T _ { \\mathrm { g } } { = } 1 7 8 ^ { \\circ } \\mathrm { C } )$are shown in Figs 4 and 5, respectively."
+      },
+      "confidence": {
+        "score": 0.98
+      },
+      "evidence_ids": [
+        "ev00023"
+      ]
+    },
+    {
+      "mention_id": "m027",
+      "text": "polyureas",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_6_85",
+        "page": 6,
+        "bbox": [
+          87.0,
+          476.0,
+          500.0,
+          691.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The temperatures for 2% gravimetric loss (T ) of the polyureas were about 192–2298C, and the temperatures for 10% gravimetric loss $( T _ { 1 0 } )$that are important criteria for the evaluation of thermal stability were in the range of $2 8 5 { - } 3 2 7 ^ { \\circ } \\mathrm { C } ,$and also the char yields of polymers at 7008C were about 36–49%."
+      },
+      "confidence": {
+        "score": 0.96
+      },
+      "evidence_ids": [
+        "ev00024"
+      ]
+    },
+    {
+      "mention_id": "m028",
+      "text": "PPDI-derived polyurea",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_6_85",
+        "page": 6,
+        "bbox": [
+          87.0,
+          476.0,
+          500.0,
+          691.0
+        ],
+        "source_type": "text",
+        "source_sentence": "In the polymers derived from the same diamine and different diisocyanates, PPDI-derived polyurea showed the highest thermal stability, likely related to the fully aromatic and more symmetric structure of this polymer, whereas $\\mathrm { H } _ { 1 2 } \\mathrm { M D I }$-derived polyurea showed the lowest thermal stability, probably due to its weak aliphatic linkages."
+      },
+      "confidence": {
+        "score": 0.91
+      },
+      "evidence_ids": [
+        "ev00025"
+      ]
+    },
+    {
+      "mention_id": "m029",
+      "text": "$\\mathrm { H } _ { 1 2 } \\mathrm { M D I }$-derived polyurea",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_6_85",
+        "page": 6,
+        "bbox": [
+          87.0,
+          476.0,
+          500.0,
+          691.0
+        ],
+        "source_type": "text",
+        "source_sentence": "In the polymers derived from the same diamine and different diisocyanates, PPDI-derived polyurea showed the highest thermal stability, likely related to the fully aromatic and more symmetric structure of this polymer, whereas $\\mathrm { H } _ { 1 2 } \\mathrm { M D I }$-derived polyurea showed the lowest thermal stability, probably due to its weak aliphatic linkages."
+      },
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00025"
+      ]
+    },
+    {
+      "mention_id": "m030",
+      "text": "1AQA-PPDI",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_6_85",
+        "page": 6,
+        "bbox": [
+          87.0,
+          476.0,
+          500.0,
+          691.0
+        ],
+        "source_type": "text",
+        "source_sentence": "A representative TGA curve for polymer 1AQA-PPDI is shown in Fig."
+      },
+      "confidence": {
+        "score": 0.98
+      },
+      "evidence_ids": [
+        "ev00026"
+      ]
+    },
+    {
+      "mention_id": "m031",
+      "text": "1AQA-PPDI",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "T_6_86",
+        "page": 6,
+        "bbox": [
+          90.0,
+          742.0,
+          510.0,
+          863.0
+        ],
+        "source_type": "table",
+        "source_sentence": "1AQA-PPDI"
+      },
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00027"
+      ]
+    },
+    {
+      "mention_id": "m032",
+      "text": "1AQA-NDI",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "T_6_86",
+        "page": 6,
+        "bbox": [
+          90.0,
+          742.0,
+          510.0,
+          863.0
+        ],
+        "source_type": "table",
+        "source_sentence": "1AQA-NDI"
+      },
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00028"
+      ]
+    },
+    {
+      "mention_id": "m033",
+      "text": "1AQA-MDI",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "T_6_86",
+        "page": 6,
+        "bbox": [
+          90.0,
+          742.0,
+          510.0,
+          863.0
+        ],
+        "source_type": "table",
+        "source_sentence": "1AQA-MDI"
+      },
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00029"
+      ]
+    },
+    {
+      "mention_id": "m034",
+      "text": "1AQA-H $_{12}$ MDI",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "T_6_86",
+        "page": 6,
+        "bbox": [
+          90.0,
+          742.0,
+          510.0,
+          863.0
+        ],
+        "source_type": "table",
+        "source_sentence": "1AQA-H $_{12}$ MDI"
+      },
+      "confidence": {
+        "score": 0.98
+      },
+      "evidence_ids": [
+        "ev00030"
+      ]
+    },
+    {
+      "mention_id": "m035",
+      "text": "2AQA-PPDI",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "T_6_86",
+        "page": 6,
+        "bbox": [
+          90.0,
+          742.0,
+          510.0,
+          863.0
+        ],
+        "source_type": "table",
+        "source_sentence": "2AQA-PPDI"
+      },
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00031"
+      ]
+    },
+    {
+      "mention_id": "m036",
+      "text": "2AQA-NDI",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "T_6_86",
+        "page": 6,
+        "bbox": [
+          90.0,
+          742.0,
+          510.0,
+          863.0
+        ],
+        "source_type": "table",
+        "source_sentence": "2AQA-NDI"
+      },
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00032"
+      ]
+    },
+    {
+      "mention_id": "m037",
+      "text": "2AQA-MDI",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "T_6_86",
+        "page": 6,
+        "bbox": [
+          90.0,
+          742.0,
+          510.0,
+          863.0
+        ],
+        "source_type": "table",
+        "source_sentence": "2AQA-MDI"
+      },
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00033"
+      ]
+    },
+    {
+      "mention_id": "m038",
+      "text": "2AQA-H $_{12}$ MDI",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "T_6_86",
+        "page": 6,
+        "bbox": [
+          90.0,
+          742.0,
+          510.0,
+          863.0
+        ],
+        "source_type": "table",
+        "source_sentence": "2AQA-H $_{12}$ MDI"
+      },
+      "confidence": {
+        "score": 0.98
+      },
+      "evidence_ids": [
+        "ev00034"
+      ]
+    },
+    {
+      "mention_id": "m039",
+      "text": "poly(amide-urea)s",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "T_7_97",
+        "page": 7,
+        "bbox": [
+          55.0,
+          81.0,
+          463.0,
+          155.0
+        ],
+        "source_type": "table",
+        "source_sentence": "UV–Vis absorption of poly(amide-urea)s<sup>a</sup>"
+      },
+      "confidence": {
+        "score": 0.97
+      },
+      "evidence_ids": [
+        "ev00035"
+      ]
+    },
+    {
+      "mention_id": "m040",
+      "text": "1AQA-PPDI",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "T_7_97",
+        "page": 7,
+        "bbox": [
+          55.0,
+          81.0,
+          463.0,
+          155.0
+        ],
+        "source_type": "table",
+        "source_sentence": "1AQA-PPDI"
+      },
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00036"
+      ]
+    },
+    {
+      "mention_id": "m041",
+      "text": "2AQA-PPDI",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "T_7_97",
+        "page": 7,
+        "bbox": [
+          55.0,
+          81.0,
+          463.0,
+          155.0
+        ],
+        "source_type": "table",
+        "source_sentence": "2AQA-PPDI"
+      },
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00037"
+      ]
+    },
+    {
+      "mention_id": "m042",
+      "text": "1AQA-NDI",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "T_7_97",
+        "page": 7,
+        "bbox": [
+          55.0,
+          81.0,
+          463.0,
+          155.0
+        ],
+        "source_type": "table",
+        "source_sentence": "1AQA-NDI"
+      },
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00038"
+      ]
+    },
+    {
+      "mention_id": "m043",
+      "text": "2AQA-NDI",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "T_7_97",
+        "page": 7,
+        "bbox": [
+          55.0,
+          81.0,
+          463.0,
+          155.0
+        ],
+        "source_type": "table",
+        "source_sentence": "2AQA-NDI"
+      },
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00039"
+      ]
+    },
+    {
+      "mention_id": "m044",
+      "text": "1AQA-MDI",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "T_7_97",
+        "page": 7,
+        "bbox": [
+          55.0,
+          81.0,
+          463.0,
+          155.0
+        ],
+        "source_type": "table",
+        "source_sentence": "1AQA-MDI"
+      },
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00040"
+      ]
+    },
+    {
+      "mention_id": "m045",
+      "text": "2AQA-MDI",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "T_7_97",
+        "page": 7,
+        "bbox": [
+          55.0,
+          81.0,
+          463.0,
+          155.0
+        ],
+        "source_type": "table",
+        "source_sentence": "2AQA-MDI"
+      },
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00041"
+      ]
+    },
+    {
+      "mention_id": "m046",
+      "text": "1AQA-H $_{12}$ MDI",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "T_7_97",
+        "page": 7,
+        "bbox": [
+          55.0,
+          81.0,
+          463.0,
+          155.0
+        ],
+        "source_type": "table",
+        "source_sentence": "1AQA-H $_{12}$ MDI"
+      },
+      "confidence": {
+        "score": 0.98
+      },
+      "evidence_ids": [
+        "ev00042"
+      ]
+    },
+    {
+      "mention_id": "m047",
+      "text": "2AQA-H $_{12}$ MDI",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "T_7_97",
+        "page": 7,
+        "bbox": [
+          55.0,
+          81.0,
+          463.0,
+          155.0
+        ],
+        "source_type": "table",
+        "source_sentence": "2AQA-H $_{12}$ MDI"
+      },
+      "confidence": {
+        "score": 0.98
+      },
+      "evidence_ids": [
+        "ev00043"
+      ]
+    },
+    {
+      "mention_id": "m048",
+      "text": "poly(amide-urea)s",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "T_7_98",
+        "page": 7,
+        "bbox": [
+          55.0,
+          223.0,
+          463.0,
+          345.0
+        ],
+        "source_type": "table",
+        "source_sentence": "Solubility of poly(amide-urea)s"
+      },
+      "confidence": {
+        "score": 0.97
+      },
+      "evidence_ids": [
+        "ev00044"
+      ]
+    },
+    {
+      "mention_id": "m049",
+      "text": "1AQA-PPDI",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "T_7_98",
+        "page": 7,
+        "bbox": [
+          55.0,
+          223.0,
+          463.0,
+          345.0
+        ],
+        "source_type": "table",
+        "source_sentence": "1AQA-PPDI"
+      },
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00045"
+      ]
+    },
+    {
+      "mention_id": "m050",
+      "text": "1AQA-NDI",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "T_7_98",
+        "page": 7,
+        "bbox": [
+          55.0,
+          223.0,
+          463.0,
+          345.0
+        ],
+        "source_type": "table",
+        "source_sentence": "1AQA-NDI"
+      },
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00046"
+      ]
+    },
+    {
+      "mention_id": "m051",
+      "text": "1AQA-MDI",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "T_7_98",
+        "page": 7,
+        "bbox": [
+          55.0,
+          223.0,
+          463.0,
+          345.0
+        ],
+        "source_type": "table",
+        "source_sentence": "1AQA-MDI"
+      },
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00047"
+      ]
+    },
+    {
+      "mention_id": "m052",
+      "text": "1AQA-H $_{12}$ MDI",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "T_7_98",
+        "page": 7,
+        "bbox": [
+          55.0,
+          223.0,
+          463.0,
+          345.0
+        ],
+        "source_type": "table",
+        "source_sentence": "1AQA-H $_{12}$ MDI"
+      },
+      "confidence": {
+        "score": 0.98
+      },
+      "evidence_ids": [
+        "ev00048"
+      ]
+    },
+    {
+      "mention_id": "m053",
+      "text": "2AQA-PPDI",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "T_7_98",
+        "page": 7,
+        "bbox": [
+          55.0,
+          223.0,
+          463.0,
+          345.0
+        ],
+        "source_type": "table",
+        "source_sentence": "2AQA-PPDI"
+      },
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00049"
+      ]
+    },
+    {
+      "mention_id": "m054",
+      "text": "2AQA-NDI",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "T_7_98",
+        "page": 7,
+        "bbox": [
+          55.0,
+          223.0,
+          463.0,
+          345.0
+        ],
+        "source_type": "table",
+        "source_sentence": "2AQA-NDI"
+      },
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00050"
+      ]
+    },
+    {
+      "mention_id": "m055",
+      "text": "2AQA-MDI",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "T_7_98",
+        "page": 7,
+        "bbox": [
+          55.0,
+          223.0,
+          463.0,
+          345.0
+        ],
+        "source_type": "table",
+        "source_sentence": "2AQA-MDI"
+      },
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00051"
+      ]
+    },
+    {
+      "mention_id": "m056",
+      "text": "2AQA-H $_{12}$ MDI",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "T_7_98",
+        "page": 7,
+        "bbox": [
+          55.0,
+          223.0,
+          463.0,
+          345.0
+        ],
+        "source_type": "table",
+        "source_sentence": "2AQA-H $_{12}$ MDI"
+      },
+      "confidence": {
+        "score": 0.98
+      },
+      "evidence_ids": [
+        "ev00052"
+      ]
+    },
+    {
+      "mention_id": "m057",
+      "text": "polyureas",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_7_100",
+        "page": 7,
+        "bbox": [
+          53.0,
+          505.0,
+          465.0,
+          604.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The solubility behavior of the polyureas is summarized in Table 5."
+      },
+      "confidence": {
+        "score": 0.97
+      },
+      "evidence_ids": [
+        "ev00053"
+      ]
+    },
+    {
+      "mention_id": "m058",
+      "text": "Aromatic polyureas",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_7_100",
+        "page": 7,
+        "bbox": [
+          53.0,
+          505.0,
+          465.0,
+          604.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Aromatic polyureas derived from aromatic diisocyanates exhibited lower solubility in organic solvents in comparison with polyureas derived from aliphatic diisocyanate."
+      },
+      "confidence": {
+        "score": 0.94
+      },
+      "evidence_ids": [
+        "ev00054"
+      ]
+    },
+    {
+      "mention_id": "m059",
+      "text": "polyureas",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_7_101",
+        "page": 7,
+        "bbox": [
+          53.0,
+          604.0,
+          467.0,
+          776.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The X-ray diffraction studies of the polyureas revealed that all of the polymers were amorphous."
+      },
+      "confidence": {
+        "score": 0.97
+      },
+      "evidence_ids": [
+        "ev00055"
+      ]
+    }
+  ],
+  "polymer_entities": [
+    {
+      "entity_id": "pe001",
+      "polymer_name": "polystyrene",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "polystyrene"
+      ],
+      "resolved_from_mentions": [
+        "m001",
+        "m024"
+      ],
+      "evidence": {
+        "block_id": "P_1_21",
+        "page": 1,
+        "bbox": [
+          53.0,
+          330.0,
+          467.0,
+          787.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The molecular weight calibration was carried out using polystyrene standards."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00001"
+      ]
+    },
+    {
+      "entity_id": "pe002",
+      "polymer_name": "poly(amide-urea)s",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "poly(amide-urea)s",
+        "polyureas"
+      ],
+      "resolved_from_mentions": [
+        "m002",
+        "m003",
+        "m007",
+        "m027",
+        "m039",
+        "m048",
+        "m057",
+        "m059"
+      ],
+      "evidence": {
+        "block_id": "P_4_66",
+        "page": 4,
+        "bbox": [
+          89.0,
+          416.0,
+          500.0,
+          501.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Thus, two series of poly(amide-urea)s were prepared via the polyaddition reactions of four different diisocyanates (aromatic, semi-aromatic, and cycloaliphatic) including PPDI, NDI, 4,4 -diphenyl methane diisocyanate (MDI), and H<sub>12</sub>MDI with the prepared diamines at $7 0 ^ { \\circ } \\mathrm { C }$for 4 hr (Scheme 2)."
+      },
+      "source_image_refs": [
+        {
+          "block_id": "I_4_71",
+          "page": 4,
+          "bbox": [
+            161.0,
+            599.0,
+            870.0,
+            891.0
+          ],
+          "image_path": "organized/reference_no_0038813/images/81c86ed7734405584c4ce682aff74499927909b68843754cfef5aa971580292e.jpg",
+          "caption": "Scheme 2. Synthesis of poly(amide-urea)s."
+        }
+      ],
+      "confidence": {
+        "score": 0.84
+      },
+      "evidence_ids": [
+        "ev00005"
+      ]
+    },
+    {
+      "entity_id": "pe003",
+      "polymer_name": "polyamides",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "polyamides"
+      ],
+      "resolved_from_mentions": [
+        "m004"
+      ],
+      "evidence": {
+        "block_id": "P_2_46",
+        "page": 2,
+        "bbox": [
+          529.0,
+          248.0,
+          942.0,
+          675.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Diamines are valuable monomers for the preparation of variety of polymers including polyureas, polyamides, and polyimides.<sup>15–17</sup> For this purpose, the anthraquinone containing diamines were prepared via a two-step route."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.98
+      },
+      "evidence_ids": [
+        "ev00003"
+      ]
+    },
+    {
+      "entity_id": "pe004",
+      "polymer_name": "polyimides",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "polyimides"
+      ],
+      "resolved_from_mentions": [
+        "m005"
+      ],
+      "evidence": {
+        "block_id": "P_2_46",
+        "page": 2,
+        "bbox": [
+          529.0,
+          248.0,
+          942.0,
+          675.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Diamines are valuable monomers for the preparation of variety of polymers including polyureas, polyamides, and polyimides.<sup>15–17</sup> For this purpose, the anthraquinone containing diamines were prepared via a two-step route."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.98
+      },
+      "evidence_ids": [
+        "ev00003"
+      ]
+    },
+    {
+      "entity_id": "pe005",
+      "polymer_name": "1AQA-PPDI",
+      "variant_of": "pe002",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "polyurea",
+        "1AQA-PPDI"
+      ],
+      "resolved_from_mentions": [
+        "m006",
+        "m008",
+        "m016",
+        "m025",
+        "m030",
+        "m031",
+        "m040",
+        "m049"
+      ],
+      "evidence": {
+        "block_id": "I_4_69",
+        "page": 4,
+        "bbox": [
+          534.0,
+          61.0,
+          937.0,
+          222.0
+        ],
+        "source_type": "image",
+        "source_sentence": "Figure 2. Temperature dependence of inherent viscosity of polyurea 1AQA-PPDI formed by the polyaddition of 1AQA (5.0 mmol) with PPDI (5.0 mmol) in NMP for 10 hr."
+      },
+      "source_image_refs": [
+        {
+          "block_id": "I_4_69",
+          "page": 4,
+          "bbox": [
+            534.0,
+            61.0,
+            937.0,
+            222.0
+          ],
+          "image_path": "organized/reference_no_0038813/images/0c88dfc5765302e45e92c2101563360de90d46fe99506d8443f3955dc4e77491.jpg",
+          "caption": "Figure 2. Temperature dependence of inherent viscosity of polyurea 1AQA-PPDI formed by the polyaddition of 1AQA (5.0 mmol) with PPDI (5.0 mmol) in NMP for 10 hr."
+        },
+        {
+          "block_id": "I_4_70",
+          "page": 4,
+          "bbox": [
+            536.0,
+            344.0,
+            937.0,
+            507.0
+          ],
+          "image_path": "organized/reference_no_0038813/images/9e899aff61d82408823d7ca8fb052f25c6947fbffafb9a8c5f811361be7dafe9.jpg",
+          "caption": "Figure 3. Time dependence of inherent viscosity of polyurea 1AQA-PPDI formed through the polyaddition of 1AQA (5.0 mmol) with PPDI (5.0 mmol) in NMP at 708C. This figure is available in colour online at www.interscience.wiley.com/ journal/pat"
+        }
+      ],
+      "confidence": {
+        "score": 0.97
+      },
+      "evidence_ids": [
+        "ev00056"
+      ]
+    },
+    {
+      "entity_id": "pe006",
+      "polymer_name": "1AQA-NDI",
+      "variant_of": "pe002",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "1AQA-NDI"
+      ],
+      "resolved_from_mentions": [
+        "m009",
+        "m017",
+        "m032",
+        "m042",
+        "m050"
+      ],
+      "evidence": {
+        "block_id": "T_5_77",
+        "page": 5,
+        "bbox": [
+          55.0,
+          80.0,
+          905.0,
+          522.0
+        ],
+        "source_type": "table",
+        "source_sentence": "1AQA-NDI"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00007"
+      ]
+    },
+    {
+      "entity_id": "pe007",
+      "polymer_name": "1AQA-MDI",
+      "variant_of": "pe002",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "1AQA-MDI"
+      ],
+      "resolved_from_mentions": [
+        "m010",
+        "m018",
+        "m026",
+        "m033",
+        "m044",
+        "m051"
+      ],
+      "evidence": {
+        "block_id": "P_6_84",
+        "page": 6,
+        "bbox": [
+          87.0,
+          249.0,
+          500.0,
+          476.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Thermal analysis of the polymers is summarized in Table 3 and the representative curves of DMTA for 1AQA-PPDI $( T _ { \\mathrm { g } } =$1908C) and DSC for 1AQA-MDI $( T _ { \\mathrm { g } } { = } 1 7 8 ^ { \\circ } \\mathrm { C } )$are shown in Figs 4 and 5, respectively."
+      },
+      "source_image_refs": [
+        {
+          "block_id": "I_6_90",
+          "page": 6,
+          "bbox": [
+            536.0,
+            508.0,
+            937.0,
+            638.0
+          ],
+          "image_path": "organized/reference_no_0038813/images/b7617f46de6be3160f4dc2989b949cfa02913a9f98027603098635eba23e7307.jpg",
+          "caption": "Figure 5. DSC curve of polymer 1AQA-MDI. This figure is available in colour online at www.interscience.wiley.com/ journal/pat"
+        }
+      ],
+      "confidence": {
+        "score": 0.96
+      },
+      "evidence_ids": [
+        "ev00023"
+      ]
+    },
+    {
+      "entity_id": "pe008",
+      "polymer_name": "1AQA-H $_{12}$ MDI",
+      "variant_of": "pe002",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "1AQA-H $_{12}$ MDI"
+      ],
+      "resolved_from_mentions": [
+        "m011",
+        "m019",
+        "m034",
+        "m046",
+        "m052"
+      ],
+      "evidence": {
+        "block_id": "T_5_77",
+        "page": 5,
+        "bbox": [
+          55.0,
+          80.0,
+          905.0,
+          522.0
+        ],
+        "source_type": "table",
+        "source_sentence": "1AQA-H $_{12}$ MDI"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00009"
+      ]
+    },
+    {
+      "entity_id": "pe009",
+      "polymer_name": "2AQA-PPDI",
+      "variant_of": "pe002",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "2AQA-PPDI"
+      ],
+      "resolved_from_mentions": [
+        "m012",
+        "m020",
+        "m035",
+        "m041",
+        "m053"
+      ],
+      "evidence": {
+        "block_id": "T_5_77",
+        "page": 5,
+        "bbox": [
+          55.0,
+          80.0,
+          905.0,
+          522.0
+        ],
+        "source_type": "table",
+        "source_sentence": "2AQA-PPDI"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00010"
+      ]
+    },
+    {
+      "entity_id": "pe010",
+      "polymer_name": "2AQA-NDI",
+      "variant_of": "pe002",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "2AQA-NDI"
+      ],
+      "resolved_from_mentions": [
+        "m013",
+        "m021",
+        "m036",
+        "m043",
+        "m054"
+      ],
+      "evidence": {
+        "block_id": "T_5_77",
+        "page": 5,
+        "bbox": [
+          55.0,
+          80.0,
+          905.0,
+          522.0
+        ],
+        "source_type": "table",
+        "source_sentence": "2AQA-NDI"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00011"
+      ]
+    },
+    {
+      "entity_id": "pe011",
+      "polymer_name": "2AQA-MDI",
+      "variant_of": "pe002",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "2AQA-MDI"
+      ],
+      "resolved_from_mentions": [
+        "m014",
+        "m022",
+        "m037",
+        "m045",
+        "m055"
+      ],
+      "evidence": {
+        "block_id": "T_5_77",
+        "page": 5,
+        "bbox": [
+          55.0,
+          80.0,
+          905.0,
+          522.0
+        ],
+        "source_type": "table",
+        "source_sentence": "2AQA-MDI"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00012"
+      ]
+    },
+    {
+      "entity_id": "pe012",
+      "polymer_name": "2AQA-H $_{12}$ MDI",
+      "variant_of": "pe002",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "2AQA-H $_{12}$ MDI"
+      ],
+      "resolved_from_mentions": [
+        "m015",
+        "m023",
+        "m038",
+        "m047",
+        "m056"
+      ],
+      "evidence": {
+        "block_id": "T_5_77",
+        "page": 5,
+        "bbox": [
+          55.0,
+          80.0,
+          905.0,
+          522.0
+        ],
+        "source_type": "table",
+        "source_sentence": "2AQA-H $_{12}$ MDI"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00013"
+      ]
+    },
+    {
+      "entity_id": "pe013",
+      "polymer_name": "PPDI-derived polyurea",
+      "variant_of": "pe002",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "PPDI-derived polyurea"
+      ],
+      "resolved_from_mentions": [
+        "m028"
+      ],
+      "evidence": {
+        "block_id": "P_6_85",
+        "page": 6,
+        "bbox": [
+          87.0,
+          476.0,
+          500.0,
+          691.0
+        ],
+        "source_type": "text",
+        "source_sentence": "In the polymers derived from the same diamine and different diisocyanates, PPDI-derived polyurea showed the highest thermal stability, likely related to the fully aromatic and more symmetric structure of this polymer, whereas $\\mathrm { H } _ { 1 2 } \\mathrm { M D I }$-derived polyurea showed the lowest thermal stability, probably due to its weak aliphatic linkages."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.92
+      },
+      "evidence_ids": [
+        "ev00025"
+      ]
+    },
+    {
+      "entity_id": "pe014",
+      "polymer_name": "$\\mathrm { H } _ { 1 2 } \\mathrm { M D I }$-derived polyurea",
+      "variant_of": "pe002",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "$\\mathrm { H } _ { 1 2 } \\mathrm { M D I }$-derived polyurea"
+      ],
+      "resolved_from_mentions": [
+        "m029"
+      ],
+      "evidence": {
+        "block_id": "P_6_85",
+        "page": 6,
+        "bbox": [
+          87.0,
+          476.0,
+          500.0,
+          691.0
+        ],
+        "source_type": "text",
+        "source_sentence": "In the polymers derived from the same diamine and different diisocyanates, PPDI-derived polyurea showed the highest thermal stability, likely related to the fully aromatic and more symmetric structure of this polymer, whereas $\\mathrm { H } _ { 1 2 } \\mathrm { M D I }$-derived polyurea showed the lowest thermal stability, probably due to its weak aliphatic linkages."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.92
+      },
+      "evidence_ids": [
+        "ev00025"
+      ]
+    },
+    {
+      "entity_id": "pe015",
+      "polymer_name": "Aromatic polyureas",
+      "variant_of": "pe002",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "Aromatic polyureas"
+      ],
+      "resolved_from_mentions": [
+        "m058"
+      ],
+      "evidence": {
+        "block_id": "P_7_100",
+        "page": 7,
+        "bbox": [
+          53.0,
+          505.0,
+          465.0,
+          604.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Aromatic polyureas derived from aromatic diisocyanates exhibited lower solubility in organic solvents in comparison with polyureas derived from aliphatic diisocyanate."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.88
+      },
+      "evidence_ids": [
+        "ev00054"
+      ]
+    }
+  ],
+  "unresolved_mention_ids": [],
+  "samples": [
+    {
+      "sample_id": "s001",
+      "sample_kind": "commercial_batch",
+      "refers_to_entity": "pe001",
+      "polymer_name": "polystyrene",
+      "sample_label_raw": "polystyrene standards",
+      "intended_use": [
+        "molecular weight calibration"
+      ],
+      "evidence": {
+        "block_id": "P_1_21",
+        "page": 1,
+        "bbox": [
+          53.0,
+          330.0,
+          467.0,
+          787.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The molecular weight calibration was carried out using polystyrene standards."
+      },
+      "confidence": {
+        "score": 1.0
+      },
+      "evidence_ids": [
+        "ev00001"
+      ]
+    },
+    {
+      "sample_id": "s002",
+      "sample_kind": "synthesis_batch",
+      "refers_to_entity": "pe005",
+      "polymer_name": "1AQA-PPDI",
+      "sample_label_raw": "1AQA-PPDI",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "T_5_77",
+        "page": 5,
+        "bbox": [
+          55.0,
+          80.0,
+          905.0,
+          522.0
+        ],
+        "source_type": "table",
+        "source_sentence": "1AQA-PPDI"
+      },
+      "confidence": {
+        "score": 0.98
+      },
+      "evidence_ids": [
+        "ev00006"
+      ]
+    },
+    {
+      "sample_id": "s003",
+      "sample_kind": "synthesis_batch",
+      "refers_to_entity": "pe006",
+      "polymer_name": "1AQA-NDI",
+      "sample_label_raw": "1AQA-NDI",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "T_5_77",
+        "page": 5,
+        "bbox": [
+          55.0,
+          80.0,
+          905.0,
+          522.0
+        ],
+        "source_type": "table",
+        "source_sentence": "1AQA-NDI"
+      },
+      "confidence": {
+        "score": 0.98
+      },
+      "evidence_ids": [
+        "ev00007"
+      ]
+    },
+    {
+      "sample_id": "s004",
+      "sample_kind": "synthesis_batch",
+      "refers_to_entity": "pe007",
+      "polymer_name": "1AQA-MDI",
+      "sample_label_raw": "1AQA-MDI",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "T_5_77",
+        "page": 5,
+        "bbox": [
+          55.0,
+          80.0,
+          905.0,
+          522.0
+        ],
+        "source_type": "table",
+        "source_sentence": "1AQA-MDI"
+      },
+      "confidence": {
+        "score": 0.98
+      },
+      "evidence_ids": [
+        "ev00008"
+      ]
+    },
+    {
+      "sample_id": "s005",
+      "sample_kind": "synthesis_batch",
+      "refers_to_entity": "pe008",
+      "polymer_name": "1AQA-H $_{12}$ MDI",
+      "sample_label_raw": "1AQA-H $_{12}$ MDI",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "T_5_77",
+        "page": 5,
+        "bbox": [
+          55.0,
+          80.0,
+          905.0,
+          522.0
+        ],
+        "source_type": "table",
+        "source_sentence": "1AQA-H $_{12}$ MDI"
+      },
+      "confidence": {
+        "score": 0.98
+      },
+      "evidence_ids": [
+        "ev00009"
+      ]
+    },
+    {
+      "sample_id": "s006",
+      "sample_kind": "synthesis_batch",
+      "refers_to_entity": "pe009",
+      "polymer_name": "2AQA-PPDI",
+      "sample_label_raw": "2AQA-PPDI",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "T_5_77",
+        "page": 5,
+        "bbox": [
+          55.0,
+          80.0,
+          905.0,
+          522.0
+        ],
+        "source_type": "table",
+        "source_sentence": "2AQA-PPDI"
+      },
+      "confidence": {
+        "score": 0.98
+      },
+      "evidence_ids": [
+        "ev00010"
+      ]
+    },
+    {
+      "sample_id": "s007",
+      "sample_kind": "synthesis_batch",
+      "refers_to_entity": "pe010",
+      "polymer_name": "2AQA-NDI",
+      "sample_label_raw": "2AQA-NDI",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "T_5_77",
+        "page": 5,
+        "bbox": [
+          55.0,
+          80.0,
+          905.0,
+          522.0
+        ],
+        "source_type": "table",
+        "source_sentence": "2AQA-NDI"
+      },
+      "confidence": {
+        "score": 0.98
+      },
+      "evidence_ids": [
+        "ev00011"
+      ]
+    },
+    {
+      "sample_id": "s008",
+      "sample_kind": "synthesis_batch",
+      "refers_to_entity": "pe011",
+      "polymer_name": "2AQA-MDI",
+      "sample_label_raw": "2AQA-MDI",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "T_5_77",
+        "page": 5,
+        "bbox": [
+          55.0,
+          80.0,
+          905.0,
+          522.0
+        ],
+        "source_type": "table",
+        "source_sentence": "2AQA-MDI"
+      },
+      "confidence": {
+        "score": 0.98
+      },
+      "evidence_ids": [
+        "ev00012"
+      ]
+    },
+    {
+      "sample_id": "s009",
+      "sample_kind": "synthesis_batch",
+      "refers_to_entity": "pe012",
+      "polymer_name": "2AQA-H $_{12}$ MDI",
+      "sample_label_raw": "2AQA-H $_{12}$ MDI",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "T_5_77",
+        "page": 5,
+        "bbox": [
+          55.0,
+          80.0,
+          905.0,
+          522.0
+        ],
+        "source_type": "table",
+        "source_sentence": "2AQA-H $_{12}$ MDI"
+      },
+      "confidence": {
+        "score": 0.98
+      },
+      "evidence_ids": [
+        "ev00013"
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "step_id": "ps001",
+      "process_type": "polymerization",
+      "input_sample_ids": [],
+      "output_sample_ids": [
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006",
+        "s007",
+        "s008",
+        "s009"
+      ],
+      "parameters": {
+        "room_temperature_stir_duration": "1 hr",
+        "high_temperature_stir_duration": "4 hr",
+        "precipitation_medium": "water",
+        "washing_solvents": "hot water and methanol",
+        "drying_temperature": "$8 0 ^ { \\circ } \\mathrm { C }$"
+      },
+      "evidence": {
+        "block_id": "P_2_44",
+        "page": 2,
+        "bbox": [
+          529.0,
+          65.0,
+          942.0,
+          193.0
+        ],
+        "source_type": "text",
+        "source_sentence": "A round-bottomed flask equipped with an $\\Nu _ { 2 }$inlet tube, condenser, and thermometer was charged with 0.005 mol of diamine and 10 ml of dry NMP. Then a solution containing 0.005 mol of diisocyanate in 10 ml of dry NMP was added in one lot to the flask contents. The solution was stirred for 1 hr at room temperature and 4 hr at $7 0 ^ { \\circ } \\mathrm { C } ,$and then it was precipitated in water. The polymer was filtered, washed with hot water and methanol, and dried at vacuum oven at $8 0 ^ { \\circ } \\mathrm { C }$"
+      },
+      "confidence": {
+        "score": 0.95
+      },
+      "evidence_ids": [
+        "ev00057"
+      ]
+    }
+  ],
+  "unresolved_entity_ids": [
+    "pe002",
+    "pe003",
+    "pe004",
+    "pe013",
+    "pe014",
+    "pe015"
+  ],
+  "property_observations": [
+    {
+      "property_id": "prop001",
+      "sample_id": "s002",
+      "property_name_raw": "Yield",
+      "observation_role": "single",
+      "value_raw": "92",
+      "value_min": 92.0,
+      "value_max": 92.0,
+      "unit_raw": "%",
+      "measurement_condition_id": "mc008",
+      "measurement_context": {
+        "temperature": {
+          "raw": "$7 0 ^ { \\circ } \\mathrm { C }$",
+          "value": 70.0,
+          "unit": "°C",
+          "evidence": [
+            {
+              "block_id": "P_2_44",
+              "page": 2,
+              "bbox": [
+                529.0,
+                65.0,
+                942.0,
+                193.0
+              ],
+              "source_type": "text",
+              "source_sentence": "4 hr at $7 0 ^ { \\circ } \\mathrm { C }$"
+            }
+          ],
+          "evidence_ids": [
+            "ev00067"
+          ]
+        },
+        "other_conditions": {
+          "reaction_time": "4 hr",
+          "solvent": "NMP"
+        },
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_5_77",
+          "page": 5,
+          "bbox": [
+            55.0,
+            80.0,
+            905.0,
+            522.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<tr><td rowspan=\"4\">1AQA-PPDI</td><td>3338</td><td rowspan=\"4\">...</td><td rowspan=\"4\">92</td></tr>",
+          "table_locator": {
+            "table_id": "T_5_77",
+            "row_label": "1AQA-PPDI",
+            "column_label": "Yield (%)",
+            "cell_value": "92",
+            "cell_id": "T_5_77:r0001:c0003",
+            "row_index": 1,
+            "column_index": 3
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00068"
+      ]
+    },
+    {
+      "property_id": "prop002",
+      "sample_id": "s002",
+      "property_name_raw": "η_{\\text{inh}}",
+      "property_name_normalized": "intrinsic_viscosity",
+      "property_code": "P6120",
+      "property_category": "dilute_solution_property",
+      "observation_role": "single",
+      "value_raw": "0.73",
+      "value_min": 0.73,
+      "value_max": 0.73,
+      "unit_raw": "dl/g",
+      "unit_normalized": "dL/g",
+      "measurement_condition_id": "mc001",
+      "measurement_context": {
+        "temperature": {
+          "raw": "$3 0 ^ { \\circ } \\mathrm { C }$",
+          "value": 30.0,
+          "unit": "°C",
+          "evidence": [
+            {
+              "block_id": "P_1_21",
+              "page": 1,
+              "bbox": [
+                53.0,
+                330.0,
+                467.0,
+                787.0
+              ],
+              "source_type": "text",
+              "source_sentence": "Inherent viscosities were measured using an Ubbelohde viscometer at a concentration of 0.5 g/dl in NMP at $3 0 ^ { \\circ } \\mathrm { C }$."
+            }
+          ],
+          "evidence_ids": [
+            "ev00058"
+          ]
+        },
+        "other_conditions": {
+          "concentration": "0.5 g/dl",
+          "solvent": "NMP"
+        },
+        "other_condition_evidence": {
+          "concentration": [
+            {
+              "block_id": "P_1_21",
+              "page": 1,
+              "bbox": [
+                53.0,
+                330.0,
+                467.0,
+                787.0
+              ],
+              "source_type": "text",
+              "source_sentence": "Inherent viscosities were measured using an Ubbelohde viscometer at a concentration of 0.5 g/dl in NMP at $3 0 ^ { \\circ } \\mathrm { C }$."
+            }
+          ],
+          "solvent": [
+            {
+              "block_id": "P_1_21",
+              "page": 1,
+              "bbox": [
+                53.0,
+                330.0,
+                467.0,
+                787.0
+              ],
+              "source_type": "text",
+              "source_sentence": "Inherent viscosities were measured using an Ubbelohde viscometer at a concentration of 0.5 g/dl in NMP at $3 0 ^ { \\circ } \\mathrm { C }$."
+            }
+          ]
+        },
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_5_78",
+          "page": 5,
+          "bbox": [
+            55.0,
+            581.0,
+            905.0,
+            899.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<tr><td>Found</td><td>67.08</td><td>3.48</td><td>13.77</td><td>0.73</td><td>22,000</td><td>48,500</td><td>2.20</td></tr>",
+          "table_locator": {
+            "table_id": "T_5_78",
+            "row_label": "Found",
+            "column_label": "$\\eta_{\\text{inh}}$ (dl/g) $^a$",
+            "cell_value": "0.73",
+            "cell_id": "T_5_78:r0004:c0004",
+            "row_index": 4,
+            "column_index": 4
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00069"
+      ]
+    },
+    {
+      "property_id": "prop003",
+      "sample_id": "s002",
+      "property_name_raw": "M_n",
+      "molecular_weight_type": "Mn",
+      "observation_role": "single",
+      "value_raw": "22,000",
+      "value_min": 22000.0,
+      "value_max": 22000.0,
+      "measurement_condition_id": "mc002",
+      "measurement_context": {
+        "other_conditions": {
+          "solvent": "dimethylformamide (DMF)",
+          "calibration_standard": "polystyrene standards",
+          "flow_rate": "1 ml/min"
+        },
+        "other_condition_evidence": {
+          "solvent": [
+            {
+              "block_id": "P_1_21",
+              "page": 1,
+              "bbox": [
+                53.0,
+                330.0,
+                467.0,
+                787.0
+              ],
+              "source_type": "text",
+              "source_sentence": "dimethylformamide (DMF) was used as a solvent."
+            }
+          ],
+          "calibration_standard": [
+            {
+              "block_id": "P_1_21",
+              "page": 1,
+              "bbox": [
+                53.0,
+                330.0,
+                467.0,
+                787.0
+              ],
+              "source_type": "text",
+              "source_sentence": "The molecular weight calibration was carried out using polystyrene standards."
+            }
+          ],
+          "flow_rate": [
+            {
+              "block_id": "P_1_21",
+              "page": 1,
+              "bbox": [
+                53.0,
+                330.0,
+                467.0,
+                787.0
+              ],
+              "source_type": "text",
+              "source_sentence": "Calibration and measurements were made at a flow rate of 1 ml/min"
+            }
+          ]
+        },
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_5_78",
+          "page": 5,
+          "bbox": [
+            55.0,
+            581.0,
+            905.0,
+            899.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<tr><td>Found</td><td>67.08</td><td>3.48</td><td>13.77</td><td>0.73</td><td>22,000</td><td>48,500</td><td>2.20</td></tr>",
+          "table_locator": {
+            "table_id": "T_5_78",
+            "row_label": "Found",
+            "column_label": "$M_n$",
+            "cell_value": "22,000",
+            "cell_id": "T_5_78:r0004:c0005",
+            "row_index": 4,
+            "column_index": 5
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00070"
+      ]
+    },
+    {
+      "property_id": "prop004",
+      "sample_id": "s002",
+      "property_name_raw": "M_w",
+      "molecular_weight_type": "Mw",
+      "observation_role": "single",
+      "value_raw": "48,500",
+      "value_min": 48500.0,
+      "value_max": 48500.0,
+      "measurement_condition_id": "mc002",
+      "measurement_context": {
+        "other_conditions": {
+          "solvent": "dimethylformamide (DMF)",
+          "calibration_standard": "polystyrene standards",
+          "flow_rate": "1 ml/min"
+        },
+        "other_condition_evidence": {
+          "solvent": [
+            {
+              "block_id": "P_1_21",
+              "page": 1,
+              "bbox": [
+                53.0,
+                330.0,
+                467.0,
+                787.0
+              ],
+              "source_type": "text",
+              "source_sentence": "dimethylformamide (DMF) was used as a solvent."
+            }
+          ],
+          "calibration_standard": [
+            {
+              "block_id": "P_1_21",
+              "page": 1,
+              "bbox": [
+                53.0,
+                330.0,
+                467.0,
+                787.0
+              ],
+              "source_type": "text",
+              "source_sentence": "The molecular weight calibration was carried out using polystyrene standards."
+            }
+          ],
+          "flow_rate": [
+            {
+              "block_id": "P_1_21",
+              "page": 1,
+              "bbox": [
+                53.0,
+                330.0,
+                467.0,
+                787.0
+              ],
+              "source_type": "text",
+              "source_sentence": "Calibration and measurements were made at a flow rate of 1 ml/min"
+            }
+          ]
+        },
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_5_78",
+          "page": 5,
+          "bbox": [
+            55.0,
+            581.0,
+            905.0,
+            899.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<tr><td>Found</td><td>67.08</td><td>3.48</td><td>13.77</td><td>0.73</td><td>22,000</td><td>48,500</td><td>2.20</td></tr>",
+          "table_locator": {
+            "table_id": "T_5_78",
+            "row_label": "Found",
+            "column_label": "$M_w$",
+            "cell_value": "48,500",
+            "cell_id": "T_5_78:r0004:c0006",
+            "row_index": 4,
+            "column_index": 6
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00071"
+      ]
+    },
+    {
+      "property_id": "prop005",
+      "sample_id": "s002",
+      "property_name_raw": "M_w/M_n",
+      "observation_role": "single",
+      "value_raw": "2.20",
+      "value_min": 2.2,
+      "value_max": 2.2,
+      "measurement_condition_id": "mc002",
+      "measurement_context": {
+        "other_conditions": {
+          "solvent": "dimethylformamide (DMF)",
+          "calibration_standard": "polystyrene standards",
+          "flow_rate": "1 ml/min"
+        },
+        "other_condition_evidence": {
+          "solvent": [
+            {
+              "block_id": "P_1_21",
+              "page": 1,
+              "bbox": [
+                53.0,
+                330.0,
+                467.0,
+                787.0
+              ],
+              "source_type": "text",
+              "source_sentence": "dimethylformamide (DMF) was used as a solvent."
+            }
+          ],
+          "calibration_standard": [
+            {
+              "block_id": "P_1_21",
+              "page": 1,
+              "bbox": [
+                53.0,
+                330.0,
+                467.0,
+                787.0
+              ],
+              "source_type": "text",
+              "source_sentence": "The molecular weight calibration was carried out using polystyrene standards."
+            }
+          ],
+          "flow_rate": [
+            {
+              "block_id": "P_1_21",
+              "page": 1,
+              "bbox": [
+                53.0,
+                330.0,
+                467.0,
+                787.0
+              ],
+              "source_type": "text",
+              "source_sentence": "Calibration and measurements were made at a flow rate of 1 ml/min"
+            }
+          ]
+        },
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_5_78",
+          "page": 5,
+          "bbox": [
+            55.0,
+            581.0,
+            905.0,
+            899.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<tr><td>Found</td><td>67.08</td><td>3.48</td><td>13.77</td><td>0.73</td><td>22,000</td><td>48,500</td><td>2.20</td></tr>",
+          "table_locator": {
+            "table_id": "T_5_78",
+            "row_label": "Found",
+            "column_label": "$M_w/M_n$",
+            "cell_value": "2.20",
+            "cell_id": "T_5_78:r0004:c0007",
+            "row_index": 4,
+            "column_index": 7
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00072"
+      ]
+    },
+    {
+      "property_id": "prop006",
+      "sample_id": "s002",
+      "property_name_raw": "T_{g}",
+      "property_name_normalized": "glass_transition_temperature",
+      "property_code": "P3110",
+      "property_category": "thermal_property",
+      "observation_role": "single",
+      "value_raw": "190",
+      "value_min": 190.0,
+      "value_max": 190.0,
+      "unit_raw": "°C",
+      "unit_normalized": "°C",
+      "measurement_condition_id": "mc004",
+      "measurement_context": {
+        "frequency": {
+          "raw": "1 Hz",
+          "value": 1.0,
+          "unit": "Hz",
+          "evidence": [
+            {
+              "block_id": "P_1_21",
+              "page": 1,
+              "bbox": [
+                53.0,
+                330.0,
+                467.0,
+                787.0
+              ],
+              "source_type": "text",
+              "source_sentence": "at 1 Hz"
+            }
+          ],
+          "evidence_ids": [
+            "ev00062"
+          ]
+        },
+        "other_conditions": {
+          "heating_rate": "5 °C/min",
+          "temperature_range": "25 - 300 °C"
+        },
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_6_86",
+          "page": 6,
+          "bbox": [
+            90.0,
+            742.0,
+            510.0,
+            863.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<tr><td>1AQA-PPDI</td><td>190</td><td>229</td><td>327</td><td>475</td><td>49</td></tr>",
+          "table_locator": {
+            "table_id": "T_6_86",
+            "row_label": "1AQA-PPDI",
+            "column_label": "$T_{g}$ (°C)",
+            "cell_value": "190",
+            "cell_id": "T_6_86:r0001:c0001",
+            "row_index": 1,
+            "column_index": 1
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00073"
+      ]
+    },
+    {
+      "property_id": "prop007",
+      "sample_id": "s002",
+      "property_name_raw": "T_{i}",
+      "property_name_normalized": "thermal_decomposition_temperature",
+      "property_code": "P3170",
+      "property_category": "thermal_property",
+      "observation_role": "single",
+      "value_raw": "229",
+      "value_min": 229.0,
+      "value_max": 229.0,
+      "unit_raw": "°C",
+      "unit_normalized": "°C",
+      "measurement_condition_id": "mc005",
+      "measurement_context": {
+        "other_conditions": {
+          "atmosphere": "air",
+          "heating_rate": "10 °C/min"
+        },
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_6_86",
+          "page": 6,
+          "bbox": [
+            90.0,
+            742.0,
+            510.0,
+            863.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<tr><td>1AQA-PPDI</td><td>190</td><td>229</td><td>327</td><td>475</td><td>49</td></tr>",
+          "table_locator": {
+            "table_id": "T_6_86",
+            "row_label": "1AQA-PPDI",
+            "column_label": "$T_{i}$ (°C)",
+            "cell_value": "229",
+            "cell_id": "T_6_86:r0001:c0002",
+            "row_index": 1,
+            "column_index": 2
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00074"
+      ]
+    },
+    {
+      "property_id": "prop008",
+      "sample_id": "s002",
+      "property_name_raw": "T_{10}",
+      "property_name_normalized": "thermal_decomposition_temperature",
+      "property_code": "P3170",
+      "property_category": "thermal_property",
+      "observation_role": "single",
+      "value_raw": "327",
+      "value_min": 327.0,
+      "value_max": 327.0,
+      "unit_raw": "°C",
+      "unit_normalized": "°C",
+      "measurement_condition_id": "mc005",
+      "measurement_context": {
+        "other_conditions": {
+          "atmosphere": "air",
+          "heating_rate": "10 °C/min"
+        },
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_6_86",
+          "page": 6,
+          "bbox": [
+            90.0,
+            742.0,
+            510.0,
+            863.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<tr><td>1AQA-PPDI</td><td>190</td><td>229</td><td>327</td><td>475</td><td>49</td></tr>",
+          "table_locator": {
+            "table_id": "T_6_86",
+            "row_label": "1AQA-PPDI",
+            "column_label": "$T_{10}$ (°C)",
+            "cell_value": "327",
+            "cell_id": "T_6_86:r0001:c0003",
+            "row_index": 1,
+            "column_index": 3
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00075"
+      ]
+    },
+    {
+      "property_id": "prop009",
+      "sample_id": "s002",
+      "property_name_raw": "T_{max}",
+      "property_name_normalized": "thermal_decomposition_temperature",
+      "property_code": "P3170",
+      "property_category": "thermal_property",
+      "observation_role": "single",
+      "value_raw": "475",
+      "value_min": 475.0,
+      "value_max": 475.0,
+      "unit_raw": "°C",
+      "unit_normalized": "°C",
+      "measurement_condition_id": "mc005",
+      "measurement_context": {
+        "other_conditions": {
+          "atmosphere": "air",
+          "heating_rate": "10 °C/min"
+        },
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_6_86",
+          "page": 6,
+          "bbox": [
+            90.0,
+            742.0,
+            510.0,
+            863.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<tr><td>1AQA-PPDI</td><td>190</td><td>229</td><td>327</td><td>475</td><td>49</td></tr>",
+          "table_locator": {
+            "table_id": "T_6_86",
+            "row_label": "1AQA-PPDI",
+            "column_label": "$T_{max}$ (°C)",
+            "cell_value": "475",
+            "cell_id": "T_6_86:r0001:c0004",
+            "row_index": 1,
+            "column_index": 4
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00076"
+      ]
+    },
+    {
+      "property_id": "prop010",
+      "sample_id": "s002",
+      "property_name_raw": "Char yield at 700°C",
+      "observation_role": "single",
+      "value_raw": "49",
+      "value_min": 49.0,
+      "value_max": 49.0,
+      "unit_raw": "%",
+      "measurement_condition_id": "mc005",
+      "measurement_context": {
+        "other_conditions": {
+          "atmosphere": "air",
+          "heating_rate": "10 °C/min"
+        },
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_6_86",
+          "page": 6,
+          "bbox": [
+            90.0,
+            742.0,
+            510.0,
+            863.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<tr><td>1AQA-PPDI</td><td>190</td><td>229</td><td>327</td><td>475</td><td>49</td></tr>",
+          "table_locator": {
+            "table_id": "T_6_86",
+            "row_label": "1AQA-PPDI",
+            "column_label": "Char yield at 700°C (%)",
+            "cell_value": "49",
+            "cell_id": "T_6_86:r0001:c0005",
+            "row_index": 1,
+            "column_index": 5
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00077"
+      ]
+    },
+    {
+      "property_id": "prop011",
+      "sample_id": "s002",
+      "property_name_raw": "λ_{\\text{max}}",
+      "observation_role": "single",
+      "value_raw": "401",
+      "value_min": 401.0,
+      "value_max": 401.0,
+      "unit_raw": "nm",
+      "unit_normalized": "nm",
+      "measurement_condition_id": "mc006",
+      "measurement_context": {
+        "other_conditions": {
+          "solvent": "NMP"
+        },
+        "other_condition_evidence": {
+          "solvent": [
+            {
+              "block_id": "P_6_89",
+              "page": 6,
+              "bbox": [
+                529.0,
+                391.0,
+                942.0,
+                477.0
+              ],
+              "source_type": "text",
+              "source_sentence": "measuring ultraviolet–visible (UV–Vis) absorption in NMP solution."
+            }
+          ]
+        },
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_7_97",
+          "page": 7,
+          "bbox": [
+            55.0,
+            81.0,
+            463.0,
+            155.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<tr><td>1AQA-PPDI</td><td>401</td><td>2AQA-PPDI</td><td>384</td></tr>",
+          "table_locator": {
+            "table_id": "T_7_97",
+            "row_label": "1AQA-PPDI",
+            "column_label": "$\\lambda_{\\text{max}}$ (nm)",
+            "cell_value": "401",
+            "cell_id": "T_7_97:r0001:c0001",
+            "row_index": 1,
+            "column_index": 1
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00078"
+      ]
+    },
+    {
+      "property_id": "prop_s5_001",
+      "characterization_id": "char006",
+      "entity_id": "pe002",
+      "sample_resolution_status": "unresolved",
+      "property_name_raw": "IR (KBr) peak",
+      "property_name_normalized": "ftir_peak_wavenumber",
+      "property_category": "composition_structure",
+      "value_raw": "3338",
+      "value_min": 3338.0,
+      "value_max": 3338.0,
+      "unit_raw": "cm^{-1}",
+      "unit_normalized": "cm⁻¹",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_5_77",
+          "page": 5,
+          "bbox": [
+            55.0,
+            80.0,
+            905.0,
+            522.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<tr><td rowspan=\"4\">1AQA-PPDI</td><td>3338</td>",
+          "table_locator": {
+            "table_id": "T_5_77",
+            "row_label": "1AQA-PPDI",
+            "column_label": "IR (KBr)  $(cm^{-1})$",
+            "cell_value": "3338",
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00086"
+      ]
+    },
+    {
+      "property_id": "prop_s5_002",
+      "characterization_id": "char006",
+      "entity_id": "pe002",
+      "sample_resolution_status": "unresolved",
+      "property_name_raw": "IR (KBr) peak",
+      "property_name_normalized": "ftir_peak_wavenumber",
+      "property_category": "composition_structure",
+      "value_raw": "1670",
+      "value_min": 1670.0,
+      "value_max": 1670.0,
+      "unit_raw": "cm^{-1}",
+      "unit_normalized": "cm⁻¹",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_5_77",
+          "page": 5,
+          "bbox": [
+            55.0,
+            80.0,
+            905.0,
+            522.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<tr><td>1670</td></tr>",
+          "table_locator": {
+            "table_id": "T_5_77",
+            "row_label": "1AQA-PPDI",
+            "column_label": "IR (KBr)  $(cm^{-1})$",
+            "cell_value": "1670",
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00087"
+      ]
+    },
+    {
+      "property_id": "prop_s5_003",
+      "characterization_id": "char006",
+      "entity_id": "pe002",
+      "sample_resolution_status": "unresolved",
+      "property_name_raw": "IR (KBr) peak",
+      "property_name_normalized": "ftir_peak_wavenumber",
+      "property_category": "composition_structure",
+      "value_raw": "1634",
+      "value_min": 1634.0,
+      "value_max": 1634.0,
+      "unit_raw": "cm^{-1}",
+      "unit_normalized": "cm⁻¹",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_5_77",
+          "page": 5,
+          "bbox": [
+            55.0,
+            80.0,
+            905.0,
+            522.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<tr><td>1634</td></tr>",
+          "table_locator": {
+            "table_id": "T_5_77",
+            "row_label": "1AQA-PPDI",
+            "column_label": "IR (KBr)  $(cm^{-1})$",
+            "cell_value": "1634",
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00088"
+      ]
+    },
+    {
+      "property_id": "prop_s5_004",
+      "characterization_id": "char006",
+      "entity_id": "pe002",
+      "sample_resolution_status": "unresolved",
+      "property_name_raw": "IR (KBr) peak",
+      "property_name_normalized": "ftir_peak_wavenumber",
+      "property_category": "composition_structure",
+      "value_raw": "1598",
+      "value_min": 1598.0,
+      "value_max": 1598.0,
+      "unit_raw": "cm^{-1}",
+      "unit_normalized": "cm⁻¹",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_5_77",
+          "page": 5,
+          "bbox": [
+            55.0,
+            80.0,
+            905.0,
+            522.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<tr><td>1598</td></tr>",
+          "table_locator": {
+            "table_id": "T_5_77",
+            "row_label": "1AQA-PPDI",
+            "column_label": "IR (KBr)  $(cm^{-1})$",
+            "cell_value": "1598",
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00089"
+      ]
+    },
+    {
+      "property_id": "prop_s5_005",
+      "characterization_id": "char007",
+      "entity_id": "pe002",
+      "sample_resolution_status": "unresolved",
+      "property_name_raw": "NMR (DMSO-D6) chemical shift",
+      "property_name_normalized": "nmr_chemical_shift",
+      "property_category": "composition_structure",
+      "value_raw": "12.76",
+      "value_min": 12.76,
+      "value_max": 12.76,
+      "spectral_assignment": "s, 1H, NH",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_5_77",
+          "page": 5,
+          "bbox": [
+            55.0,
+            80.0,
+            905.0,
+            522.0
+          ],
+          "source_type": "table",
+          "source_sentence": "12.76 (s, 1H, NH), 9.07 (s, 2H, ph), 8.99 (s, 1H, NH)",
+          "table_locator": {
+            "table_id": "T_5_77",
+            "row_label": "1AQA-PPDI",
+            "column_label": "NMR (DMSO- $D_6$ ) ( $\\delta$ )",
+            "cell_value": "12.76 (s, 1H, NH)",
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00090"
+      ]
+    },
+    {
+      "property_id": "prop_s5_006",
+      "characterization_id": "char007",
+      "entity_id": "pe002",
+      "sample_resolution_status": "unresolved",
+      "property_name_raw": "NMR (DMSO-D6) chemical shift",
+      "property_name_normalized": "nmr_chemical_shift",
+      "property_category": "composition_structure",
+      "value_raw": "9.07",
+      "value_min": 9.07,
+      "value_max": 9.07,
+      "spectral_assignment": "s, 2H, ph",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_5_77",
+          "page": 5,
+          "bbox": [
+            55.0,
+            80.0,
+            905.0,
+            522.0
+          ],
+          "source_type": "table",
+          "source_sentence": "12.76 (s, 1H, NH), 9.07 (s, 2H, ph), 8.99 (s, 1H, NH)",
+          "table_locator": {
+            "table_id": "T_5_77",
+            "row_label": "1AQA-PPDI",
+            "column_label": "NMR (DMSO- $D_6$ ) ( $\\delta$ )",
+            "cell_value": "9.07 (s, 2H, ph)",
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00091"
+      ]
+    },
+    {
+      "property_id": "prop_s5_007",
+      "characterization_id": "char008",
+      "entity_id": "pe002",
+      "sample_resolution_status": "unresolved",
+      "property_name_raw": "crystallinity",
+      "property_name_normalized": "xrd_crystallinity",
+      "property_category": "morphology",
+      "value_raw": "amorphous",
+      "source_stage": "stage5",
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_7_101",
+          "page": 7,
+          "bbox": [
+            53.0,
+            604.0,
+            467.0,
+            776.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The X-ray diffraction studies of the polyureas revealed that all of the polymers were amorphous."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00055"
+      ]
+    }
+  ],
+  "measurement_conditions": [
+    {
+      "condition_id": "mc001",
+      "temperature": {
+        "raw": "$3 0 ^ { \\circ } \\mathrm { C }$",
+        "value": 30.0,
+        "unit": "°C",
+        "evidence": [
+          {
+            "block_id": "P_1_21",
+            "page": 1,
+            "bbox": [
+              53.0,
+              330.0,
+              467.0,
+              787.0
+            ],
+            "source_type": "text",
+            "source_sentence": "Inherent viscosities were measured using an Ubbelohde viscometer at a concentration of 0.5 g/dl in NMP at $3 0 ^ { \\circ } \\mathrm { C }$."
+          }
+        ],
+        "evidence_ids": [
+          "ev00058"
+        ]
+      },
+      "other_conditions": {
+        "concentration": "0.5 g/dl",
+        "solvent": "NMP"
+      },
+      "other_condition_evidence": {
+        "concentration": [
+          {
+            "block_id": "P_1_21",
+            "page": 1,
+            "bbox": [
+              53.0,
+              330.0,
+              467.0,
+              787.0
+            ],
+            "source_type": "text",
+            "source_sentence": "Inherent viscosities were measured using an Ubbelohde viscometer at a concentration of 0.5 g/dl in NMP at $3 0 ^ { \\circ } \\mathrm { C }$."
+          }
+        ],
+        "solvent": [
+          {
+            "block_id": "P_1_21",
+            "page": 1,
+            "bbox": [
+              53.0,
+              330.0,
+              467.0,
+              787.0
+            ],
+            "source_type": "text",
+            "source_sentence": "Inherent viscosities were measured using an Ubbelohde viscometer at a concentration of 0.5 g/dl in NMP at $3 0 ^ { \\circ } \\mathrm { C }$."
+          }
+        ]
+      },
+      "condition_status": "reported",
+      "evidence": {
+        "block_id": "P_1_21",
+        "page": 1,
+        "bbox": [
+          53.0,
+          330.0,
+          467.0,
+          787.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Inherent viscosities were measured using an Ubbelohde viscometer at a concentration of 0.5 g/dl in NMP at $3 0 ^ { \\circ } \\mathrm { C }$."
+      },
+      "confidence": {
+        "score": 0.95
+      },
+      "evidence_ids": [
+        "ev00058"
+      ]
+    },
+    {
+      "condition_id": "mc002",
+      "other_conditions": {
+        "solvent": "dimethylformamide (DMF)",
+        "calibration_standard": "polystyrene standards",
+        "flow_rate": "1 ml/min"
+      },
+      "other_condition_evidence": {
+        "solvent": [
+          {
+            "block_id": "P_1_21",
+            "page": 1,
+            "bbox": [
+              53.0,
+              330.0,
+              467.0,
+              787.0
+            ],
+            "source_type": "text",
+            "source_sentence": "dimethylformamide (DMF) was used as a solvent."
+          }
+        ],
+        "calibration_standard": [
+          {
+            "block_id": "P_1_21",
+            "page": 1,
+            "bbox": [
+              53.0,
+              330.0,
+              467.0,
+              787.0
+            ],
+            "source_type": "text",
+            "source_sentence": "The molecular weight calibration was carried out using polystyrene standards."
+          }
+        ],
+        "flow_rate": [
+          {
+            "block_id": "P_1_21",
+            "page": 1,
+            "bbox": [
+              53.0,
+              330.0,
+              467.0,
+              787.0
+            ],
+            "source_type": "text",
+            "source_sentence": "Calibration and measurements were made at a flow rate of 1 ml/min"
+          }
+        ]
+      },
+      "condition_status": "reported",
+      "evidence": {
+        "block_id": "P_1_21",
+        "page": 1,
+        "bbox": [
+          53.0,
+          330.0,
+          467.0,
+          787.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Gel permeation chromatography (GPC) was performed on a Waters 150-C instrument using Styragel columns and a differential refractometer detector. The molecular weight calibration was carried out using polystyrene standards. Calibration and measurements were made at a flow rate of 1 ml/min, and dimethylformamide (DMF) was used as a solvent."
+      },
+      "confidence": {
+        "score": 0.95
+      },
+      "evidence_ids": [
+        "ev00059"
+      ]
+    },
+    {
+      "condition_id": "mc003",
+      "other_conditions": {
+        "atmosphere": "air",
+        "heating_rate": "10 °C/min",
+        "temperature_range": "30 to 200 °C"
+      },
+      "other_condition_evidence": {},
+      "condition_status": "reported",
+      "evidence": {
+        "block_id": "P_1_21",
+        "page": 1,
+        "bbox": [
+          53.0,
+          330.0,
+          467.0,
+          787.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Differential scanning calorimetry (DSC) and thermogravimetric analysis (TGA) were recorded duplicate on a Stanton Redcraft STA-780 (London, UK) in air at a heating rate of 108C/min. In DSC thermograms, the samples were heated from 30 to $2 0 0 ^ { \\circ } \\mathrm { C } ,$they were cooled, and then re-heated to eliminate the thermal history."
+      },
+      "confidence": {
+        "score": 0.95
+      },
+      "evidence_ids": [
+        "ev00060"
+      ]
+    },
+    {
+      "condition_id": "mc004",
+      "frequency": {
+        "raw": "1 Hz",
+        "value": 1.0,
+        "unit": "Hz",
+        "evidence": [
+          {
+            "block_id": "P_1_21",
+            "page": 1,
+            "bbox": [
+              53.0,
+              330.0,
+              467.0,
+              787.0
+            ],
+            "source_type": "text",
+            "source_sentence": "at 1 Hz"
+          }
+        ],
+        "evidence_ids": [
+          "ev00062"
+        ]
+      },
+      "other_conditions": {
+        "heating_rate": "5 °C/min",
+        "temperature_range": "25 - 300 °C"
+      },
+      "other_condition_evidence": {},
+      "condition_status": "reported",
+      "evidence": {
+        "block_id": "P_1_21",
+        "page": 1,
+        "bbox": [
+          53.0,
+          330.0,
+          467.0,
+          787.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The dynamic mechanical measurements were recorded on a Polymer Laboratories dynamic mechanical thermal analyzer over a temperature range of $2 5 { - } 3 0 0 ^ { \\circ } \\mathrm { C }$at 1 Hz and a heating rate of 58C/min (Surrey, UK)."
+      },
+      "confidence": {
+        "score": 0.95
+      },
+      "evidence_ids": [
+        "ev00061"
+      ]
+    },
+    {
+      "condition_id": "mc005",
+      "other_conditions": {
+        "atmosphere": "air",
+        "heating_rate": "10 °C/min"
+      },
+      "other_condition_evidence": {},
+      "condition_status": "reported",
+      "evidence": {
+        "block_id": "P_1_21",
+        "page": 1,
+        "bbox": [
+          53.0,
+          330.0,
+          467.0,
+          787.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Differential scanning calorimetry (DSC) and thermogravimetric analysis (TGA) were recorded duplicate on a Stanton Redcraft STA-780 (London, UK) in air at a heating rate of 108C/min."
+      },
+      "confidence": {
+        "score": 0.95
+      },
+      "evidence_ids": [
+        "ev00063"
+      ]
+    },
+    {
+      "condition_id": "mc006",
+      "other_conditions": {
+        "solvent": "NMP"
+      },
+      "other_condition_evidence": {
+        "solvent": [
+          {
+            "block_id": "P_6_89",
+            "page": 6,
+            "bbox": [
+              529.0,
+              391.0,
+              942.0,
+              477.0
+            ],
+            "source_type": "text",
+            "source_sentence": "measuring ultraviolet–visible (UV–Vis) absorption in NMP solution."
+          }
+        ]
+      },
+      "condition_status": "reported",
+      "evidence": {
+        "block_id": "P_6_89",
+        "page": 6,
+        "bbox": [
+          529.0,
+          391.0,
+          942.0,
+          477.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The optical properties of polymers were investigated by measuring ultraviolet–visible (UV–Vis) absorption in NMP solution."
+      },
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00064"
+      ]
+    },
+    {
+      "condition_id": "mc007",
+      "other_conditions": {},
+      "other_condition_evidence": {},
+      "condition_status": "not_reported",
+      "evidence": {
+        "block_id": "T_7_98",
+        "page": 7,
+        "bbox": [
+          55.0,
+          223.0,
+          463.0,
+          345.0
+        ],
+        "source_type": "table",
+        "source_sentence": "Table 5. Solubility of poly(amide-urea)s"
+      },
+      "confidence": {
+        "score": 0.8
+      },
+      "evidence_ids": [
+        "ev00065"
+      ]
+    },
+    {
+      "condition_id": "mc008",
+      "temperature": {
+        "raw": "$7 0 ^ { \\circ } \\mathrm { C }$",
+        "value": 70.0,
+        "unit": "°C",
+        "evidence": [
+          {
+            "block_id": "P_2_44",
+            "page": 2,
+            "bbox": [
+              529.0,
+              65.0,
+              942.0,
+              193.0
+            ],
+            "source_type": "text",
+            "source_sentence": "4 hr at $7 0 ^ { \\circ } \\mathrm { C }$"
+          }
+        ],
+        "evidence_ids": [
+          "ev00067"
+        ]
+      },
+      "other_conditions": {
+        "reaction_time": "4 hr",
+        "solvent": "NMP"
+      },
+      "other_condition_evidence": {},
+      "condition_status": "reported",
+      "evidence": {
+        "block_id": "P_2_44",
+        "page": 2,
+        "bbox": [
+          529.0,
+          65.0,
+          942.0,
+          193.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The solution was stirred for 1 hr at room temperature and 4 hr at $7 0 ^ { \\circ } \\mathrm { C } ,$and then it was precipitated in water."
+      },
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00066"
+      ]
+    }
+  ],
+  "unresolved_property_observations": [
+    {
+      "unresolved_id": "uprop001",
+      "entity_id": "pe002",
+      "property_name_raw": "M_n",
+      "observation_role": "single",
+      "value_raw": "14,200 to 22,000",
+      "measurement_context": {
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "reason": "sample_ambiguous",
+      "evidence": [
+        {
+          "block_id": "P_6_83",
+          "page": 6,
+          "bbox": [
+            87.0,
+            93.0,
+            500.0,
+            249.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The numerous molecular weights $\\left( M _ { \\mathrm { n } } \\right)$ranged from 14,200 to 22,000 corresponding to a degree of polymerization between 25 and 42."
+        }
+      ],
+      "confidence": {
+        "score": 0.8
+      },
+      "evidence_ids": [
+        "ev00079"
+      ]
+    },
+    {
+      "unresolved_id": "uprop002",
+      "entity_id": "pe002",
+      "property_name_raw": "M_w",
+      "observation_role": "single",
+      "value_raw": "35,700–48,500",
+      "measurement_context": {
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "reason": "sample_ambiguous",
+      "evidence": [
+        {
+          "block_id": "P_6_83",
+          "page": 6,
+          "bbox": [
+            87.0,
+            93.0,
+            500.0,
+            249.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The $M _ { \\mathrm { w } }$values were about 35,700–48,500 which means that the ratio of $M _ { \\mathrm { w } } / M _ { \\mathrm { n } }$was between 2.20 and 2.51."
+        }
+      ],
+      "confidence": {
+        "score": 0.8
+      },
+      "evidence_ids": [
+        "ev00080"
+      ]
+    }
+  ],
+  "property_series": [],
+  "characterizations": [
+    {
+      "characterization_id": "char001",
+      "method_raw": "Gel permeation chromatography (GPC)",
+      "method_normalized": "GPC",
+      "entity_id": "pe002",
+      "sample_resolution_status": "unresolved",
+      "instrument": "Waters 150-C instrument",
+      "parameters": {
+        "flow_rate": "1 ml/min",
+        "solvent": "dimethylformamide (DMF)",
+        "calibration": "polystyrene standards"
+      },
+      "derived_property_ids": [
+        "prop003",
+        "prop004",
+        "prop005",
+        "uprop001",
+        "uprop002"
+      ],
+      "evidence": [
+        {
+          "block_id": "P_1_21",
+          "page": 1,
+          "bbox": [
+            53.0,
+            330.0,
+            467.0,
+            787.0
+          ],
+          "source_type": "text",
+          "source_sentence": "Gel permeation chromatography (GPC) was performed on a Waters 150-C instrument using Styragel columns and a differential refractometer detector. The molecular weight calibration was carried out using polystyrene standards. Calibration and measurements were made at a flow rate of 1 ml/min, and dimethylformamide (DMF) was used as a solvent."
+        },
+        {
+          "block_id": "P_6_83",
+          "page": 6,
+          "bbox": [
+            87.0,
+            93.0,
+            500.0,
+            249.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The molecular weights and dispersity of the polymers were investigated using the GPC method with DMF as a solvent calibrated with polystyrene standards."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00059",
+        "ev00022"
+      ]
+    },
+    {
+      "characterization_id": "char002",
+      "method_raw": "Inherent viscosities were measured using an Ubbelohde viscometer",
+      "method_normalized": "viscometry",
+      "entity_id": "pe002",
+      "sample_resolution_status": "unresolved",
+      "instrument": "Ubbelohde viscometer",
+      "parameters": {
+        "concentration": "0.5 g/dl",
+        "solvent": "NMP"
+      },
+      "derived_property_ids": [
+        "prop002"
+      ],
+      "evidence": [
+        {
+          "block_id": "P_1_21",
+          "page": 1,
+          "bbox": [
+            53.0,
+            330.0,
+            467.0,
+            787.0
+          ],
+          "source_type": "text",
+          "source_sentence": "Inherent viscosities were measured using an Ubbelohde viscometer at a concentration of 0.5 g/dl in NMP at $3 0 ^ { \\circ } \\mathrm { C}$."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00081"
+      ]
+    },
+    {
+      "characterization_id": "char003",
+      "method_raw": "Differential scanning calorimetry (DSC)",
+      "method_normalized": "DSC",
+      "entity_id": "pe002",
+      "sample_resolution_status": "unresolved",
+      "instrument": "Stanton Redcraft STA-780",
+      "parameters": {
+        "atmosphere": "air"
+      },
+      "derived_property_ids": [
+        "prop006"
+      ],
+      "evidence": [
+        {
+          "block_id": "P_1_21",
+          "page": 1,
+          "bbox": [
+            53.0,
+            330.0,
+            467.0,
+            787.0
+          ],
+          "source_type": "text",
+          "source_sentence": "Differential scanning calorimetry (DSC) and thermogravimetric analysis (TGA) were recorded duplicate on a Stanton Redcraft STA-780 (London, UK) in air at a heating rate of 108C/min. In DSC thermograms, the samples were heated from 30 to $2 0 0 ^ { \\circ } \\mathrm { C } ,$they were cooled, and then re-heated to eliminate the thermal history."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00060"
+      ]
+    },
+    {
+      "characterization_id": "char004",
+      "method_raw": "thermogravimetric analysis (TGA)",
+      "method_normalized": "TGA",
+      "entity_id": "pe002",
+      "sample_resolution_status": "unresolved",
+      "instrument": "Stanton Redcraft STA-780",
+      "parameters": {
+        "atmosphere": "air"
+      },
+      "derived_property_ids": [
+        "prop007",
+        "prop008",
+        "prop009",
+        "prop010"
+      ],
+      "evidence": [
+        {
+          "block_id": "P_1_21",
+          "page": 1,
+          "bbox": [
+            53.0,
+            330.0,
+            467.0,
+            787.0
+          ],
+          "source_type": "text",
+          "source_sentence": "Differential scanning calorimetry (DSC) and thermogravimetric analysis (TGA) were recorded duplicate on a Stanton Redcraft STA-780 (London, UK) in air at a heating rate of 108C/min."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00063"
+      ]
+    },
+    {
+      "characterization_id": "char005",
+      "method_raw": "dynamic mechanical measurements",
+      "method_normalized": "DMA",
+      "entity_id": "pe002",
+      "sample_resolution_status": "unresolved",
+      "instrument": "Polymer Laboratories dynamic mechanical thermal analyzer",
+      "parameters": {
+        "frequency": "1 Hz"
+      },
+      "derived_property_ids": [],
+      "evidence": [
+        {
+          "block_id": "P_1_21",
+          "page": 1,
+          "bbox": [
+            53.0,
+            330.0,
+            467.0,
+            787.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The dynamic mechanical measurements were recorded on a Polymer Laboratories dynamic mechanical thermal analyzer over a temperature range of $2 5 { - } 3 0 0 ^ { \\circ } \\mathrm { C }$at 1 Hz and a heating rate of 58C/min (Surrey, UK)."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00061"
+      ]
+    },
+    {
+      "characterization_id": "char006",
+      "method_raw": "Fourier Transform Infrared (FTIR) spectrometer",
+      "method_normalized": "FTIR",
+      "entity_id": "pe002",
+      "sample_resolution_status": "unresolved",
+      "instrument": "Bruker-IFS 48 Fourier Transform Infrared (FTIR) spectrometer",
+      "parameters": {},
+      "derived_property_ids": [
+        "prop_s5_001",
+        "prop_s5_002",
+        "prop_s5_003",
+        "prop_s5_004"
+      ],
+      "evidence": [
+        {
+          "block_id": "P_1_21",
+          "page": 1,
+          "bbox": [
+            53.0,
+            330.0,
+            467.0,
+            787.0
+          ],
+          "source_type": "text",
+          "source_sentence": "Infrared measurements were performed on a Bruker-IFS 48 Fourier Transform Infrared (FTIR) spectrometer (Ettlingen, Germany)."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00082"
+      ]
+    },
+    {
+      "characterization_id": "char007",
+      "method_raw": "H-nuclear magnetic resonance (NMR) spectra",
+      "method_normalized": "NMR",
+      "entity_id": "pe002",
+      "sample_resolution_status": "unresolved",
+      "instrument": "Bruker Avance DPX 250 MHz",
+      "parameters": {},
+      "derived_property_ids": [
+        "prop_s5_005",
+        "prop_s5_006"
+      ],
+      "evidence": [
+        {
+          "block_id": "P_1_21",
+          "page": 1,
+          "bbox": [
+            53.0,
+            330.0,
+            467.0,
+            787.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The H-nuclear magnetic resonance (NMR) spectra were recorded in DMSO-D solution using a Bruker Avance DPX 250 MHz (GmbH, Germany)."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00083"
+      ]
+    },
+    {
+      "characterization_id": "char008",
+      "method_raw": "Wide-angle X-ray diffraction (WAXD)",
+      "method_normalized": "XRD",
+      "entity_id": "pe002",
+      "sample_resolution_status": "unresolved",
+      "parameters": {
+        "radiation": "Ni-filtered Cu Ka",
+        "voltage": "40 kV",
+        "current": "25 mA"
+      },
+      "derived_property_ids": [
+        "prop_s5_007"
+      ],
+      "evidence": [
+        {
+          "block_id": "P_1_21",
+          "page": 1,
+          "bbox": [
+            53.0,
+            330.0,
+            467.0,
+            787.0
+          ],
+          "source_type": "text",
+          "source_sentence": "Wide-angle X-ray diffraction (WAXD) patterns were performed at room temperature on an X-ray diffractometer (Siemens model D 5000) using a Ni-filtered Cu Ka radiation (40 kV, 25 mA) at a scanning rate of 38/min."
+        },
+        {
+          "block_id": "P_7_101",
+          "page": 7,
+          "bbox": [
+            53.0,
+            604.0,
+            467.0,
+            776.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The X-ray diffraction studies of the polyureas revealed that all of the polymers were amorphous."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00084",
+        "ev00055"
+      ]
+    },
+    {
+      "characterization_id": "char009",
+      "method_raw": "UV–Vis spectrometer",
+      "method_normalized": "UV-Vis",
+      "entity_id": "pe002",
+      "sample_resolution_status": "unresolved",
+      "instrument": "Cecil CE 1021 UV–Vis spectrometer",
+      "parameters": {
+        "solvent": "NMP"
+      },
+      "derived_property_ids": [
+        "prop011"
+      ],
+      "evidence": [
+        {
+          "block_id": "P_1_21",
+          "page": 1,
+          "bbox": [
+            53.0,
+            330.0,
+            467.0,
+            787.0
+          ],
+          "source_type": "text",
+          "source_sentence": "UV spectra were obtained by a Cecil CE 1021 UV–Vis spectrometer (Cambridge, UK)."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00085"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "block_id": "P_1_21",
+      "page": 1,
+      "bbox": [
+        53.0,
+        330.0,
+        467.0,
+        787.0
+      ],
+      "source_type": "text",
+      "source_sentence": "The molecular weight calibration was carried out using polystyrene standards.",
+      "evidence_id": "ev00001",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m001"
+    },
+    {
+      "block_id": "P_2_43",
+      "page": 2,
+      "bbox": [
+        89.0,
+        888.0,
+        497.0,
+        916.0
+      ],
+      "source_type": "text",
+      "source_sentence": "A typical procedure for the preparation of poly(amide-urea)s was as follows:",
+      "evidence_id": "ev00002",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m002"
+    },
+    {
+      "block_id": "P_2_46",
+      "page": 2,
+      "bbox": [
+        529.0,
+        248.0,
+        942.0,
+        675.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Diamines are valuable monomers for the preparation of variety of polymers including polyureas, polyamides, and polyimides.<sup>15–17</sup> For this purpose, the anthraquinone containing diamines were prepared via a two-step route.",
+      "evidence_id": "ev00003",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m003"
+    },
+    {
+      "block_id": "P_4_64",
+      "page": 4,
+      "bbox": [
+        87.0,
+        274.0,
+        500.0,
+        374.0
+      ],
+      "source_type": "text",
+      "source_sentence": "The effect of reaction temperature on the inherent viscosity of the polyurea was examined in NMP at temperature between 30 and 1508C (Fig.",
+      "evidence_id": "ev00004",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m006"
+    },
+    {
+      "block_id": "P_4_66",
+      "page": 4,
+      "bbox": [
+        89.0,
+        416.0,
+        500.0,
+        501.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Thus, two series of poly(amide-urea)s were prepared via the polyaddition reactions of four different diisocyanates (aromatic, semi-aromatic, and cycloaliphatic) including PPDI, NDI, 4,4 -diphenyl methane diisocyanate (MDI), and H<sub>12</sub>MDI with the prepared diamines at $7 0 ^ { \\circ } \\mathrm { C }$for 4 hr (Scheme 2).",
+      "evidence_id": "ev00005",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m007"
+    },
+    {
+      "block_id": "T_5_77",
+      "page": 5,
+      "bbox": [
+        55.0,
+        80.0,
+        905.0,
+        522.0
+      ],
+      "source_type": "table",
+      "source_sentence": "1AQA-PPDI",
+      "evidence_id": "ev00006",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m008"
+    },
+    {
+      "block_id": "T_5_77",
+      "page": 5,
+      "bbox": [
+        55.0,
+        80.0,
+        905.0,
+        522.0
+      ],
+      "source_type": "table",
+      "source_sentence": "1AQA-NDI",
+      "evidence_id": "ev00007",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m009"
+    },
+    {
+      "block_id": "T_5_77",
+      "page": 5,
+      "bbox": [
+        55.0,
+        80.0,
+        905.0,
+        522.0
+      ],
+      "source_type": "table",
+      "source_sentence": "1AQA-MDI",
+      "evidence_id": "ev00008",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m010"
+    },
+    {
+      "block_id": "T_5_77",
+      "page": 5,
+      "bbox": [
+        55.0,
+        80.0,
+        905.0,
+        522.0
+      ],
+      "source_type": "table",
+      "source_sentence": "1AQA-H $_{12}$ MDI",
+      "evidence_id": "ev00009",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m011"
+    },
+    {
+      "block_id": "T_5_77",
+      "page": 5,
+      "bbox": [
+        55.0,
+        80.0,
+        905.0,
+        522.0
+      ],
+      "source_type": "table",
+      "source_sentence": "2AQA-PPDI",
+      "evidence_id": "ev00010",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m012"
+    },
+    {
+      "block_id": "T_5_77",
+      "page": 5,
+      "bbox": [
+        55.0,
+        80.0,
+        905.0,
+        522.0
+      ],
+      "source_type": "table",
+      "source_sentence": "2AQA-NDI",
+      "evidence_id": "ev00011",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m013"
+    },
+    {
+      "block_id": "T_5_77",
+      "page": 5,
+      "bbox": [
+        55.0,
+        80.0,
+        905.0,
+        522.0
+      ],
+      "source_type": "table",
+      "source_sentence": "2AQA-MDI",
+      "evidence_id": "ev00012",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m014"
+    },
+    {
+      "block_id": "T_5_77",
+      "page": 5,
+      "bbox": [
+        55.0,
+        80.0,
+        905.0,
+        522.0
+      ],
+      "source_type": "table",
+      "source_sentence": "2AQA-H $_{12}$ MDI",
+      "evidence_id": "ev00013",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m015"
+    },
+    {
+      "block_id": "T_5_78",
+      "page": 5,
+      "bbox": [
+        55.0,
+        581.0,
+        905.0,
+        899.0
+      ],
+      "source_type": "table",
+      "source_sentence": "1AQA-PPDI",
+      "evidence_id": "ev00014",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m016"
+    },
+    {
+      "block_id": "T_5_78",
+      "page": 5,
+      "bbox": [
+        55.0,
+        581.0,
+        905.0,
+        899.0
+      ],
+      "source_type": "table",
+      "source_sentence": "1AQA-NDI",
+      "evidence_id": "ev00015",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m017"
+    },
+    {
+      "block_id": "T_5_78",
+      "page": 5,
+      "bbox": [
+        55.0,
+        581.0,
+        905.0,
+        899.0
+      ],
+      "source_type": "table",
+      "source_sentence": "1AQA-MDI",
+      "evidence_id": "ev00016",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m018"
+    },
+    {
+      "block_id": "T_5_78",
+      "page": 5,
+      "bbox": [
+        55.0,
+        581.0,
+        905.0,
+        899.0
+      ],
+      "source_type": "table",
+      "source_sentence": "1AQA-H $_{12}$ MDI",
+      "evidence_id": "ev00017",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m019"
+    },
+    {
+      "block_id": "T_5_78",
+      "page": 5,
+      "bbox": [
+        55.0,
+        581.0,
+        905.0,
+        899.0
+      ],
+      "source_type": "table",
+      "source_sentence": "2AQA-PPDI",
+      "evidence_id": "ev00018",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m020"
+    },
+    {
+      "block_id": "T_5_78",
+      "page": 5,
+      "bbox": [
+        55.0,
+        581.0,
+        905.0,
+        899.0
+      ],
+      "source_type": "table",
+      "source_sentence": "2AQA-NDI",
+      "evidence_id": "ev00019",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m021"
+    },
+    {
+      "block_id": "T_5_78",
+      "page": 5,
+      "bbox": [
+        55.0,
+        581.0,
+        905.0,
+        899.0
+      ],
+      "source_type": "table",
+      "source_sentence": "2AQA-MDI",
+      "evidence_id": "ev00020",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m022"
+    },
+    {
+      "block_id": "T_5_78",
+      "page": 5,
+      "bbox": [
+        55.0,
+        581.0,
+        905.0,
+        899.0
+      ],
+      "source_type": "table",
+      "source_sentence": "2AQA-H $_{12}$ MDI",
+      "evidence_id": "ev00021",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m023"
+    },
+    {
+      "block_id": "P_6_83",
+      "page": 6,
+      "bbox": [
+        87.0,
+        93.0,
+        500.0,
+        249.0
+      ],
+      "source_type": "text",
+      "source_sentence": "The molecular weights and dispersity of the polymers were investigated using the GPC method with DMF as a solvent calibrated with polystyrene standards.",
+      "evidence_id": "ev00022",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m024"
+    },
+    {
+      "block_id": "P_6_84",
+      "page": 6,
+      "bbox": [
+        87.0,
+        249.0,
+        500.0,
+        476.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Thermal analysis of the polymers is summarized in Table 3 and the representative curves of DMTA for 1AQA-PPDI $( T _ { \\mathrm { g } } =$1908C) and DSC for 1AQA-MDI $( T _ { \\mathrm { g } } { = } 1 7 8 ^ { \\circ } \\mathrm { C } )$are shown in Figs 4 and 5, respectively.",
+      "evidence_id": "ev00023",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m025"
+    },
+    {
+      "block_id": "P_6_85",
+      "page": 6,
+      "bbox": [
+        87.0,
+        476.0,
+        500.0,
+        691.0
+      ],
+      "source_type": "text",
+      "source_sentence": "The temperatures for 2% gravimetric loss (T ) of the polyureas were about 192–2298C, and the temperatures for 10% gravimetric loss $( T _ { 1 0 } )$that are important criteria for the evaluation of thermal stability were in the range of $2 8 5 { - } 3 2 7 ^ { \\circ } \\mathrm { C } ,$and also the char yields of polymers at 7008C were about 36–49%.",
+      "evidence_id": "ev00024",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m027"
+    },
+    {
+      "block_id": "P_6_85",
+      "page": 6,
+      "bbox": [
+        87.0,
+        476.0,
+        500.0,
+        691.0
+      ],
+      "source_type": "text",
+      "source_sentence": "In the polymers derived from the same diamine and different diisocyanates, PPDI-derived polyurea showed the highest thermal stability, likely related to the fully aromatic and more symmetric structure of this polymer, whereas $\\mathrm { H } _ { 1 2 } \\mathrm { M D I }$-derived polyurea showed the lowest thermal stability, probably due to its weak aliphatic linkages.",
+      "evidence_id": "ev00025",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m028"
+    },
+    {
+      "block_id": "P_6_85",
+      "page": 6,
+      "bbox": [
+        87.0,
+        476.0,
+        500.0,
+        691.0
+      ],
+      "source_type": "text",
+      "source_sentence": "A representative TGA curve for polymer 1AQA-PPDI is shown in Fig.",
+      "evidence_id": "ev00026",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m030"
+    },
+    {
+      "block_id": "T_6_86",
+      "page": 6,
+      "bbox": [
+        90.0,
+        742.0,
+        510.0,
+        863.0
+      ],
+      "source_type": "table",
+      "source_sentence": "1AQA-PPDI",
+      "evidence_id": "ev00027",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m031"
+    },
+    {
+      "block_id": "T_6_86",
+      "page": 6,
+      "bbox": [
+        90.0,
+        742.0,
+        510.0,
+        863.0
+      ],
+      "source_type": "table",
+      "source_sentence": "1AQA-NDI",
+      "evidence_id": "ev00028",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m032"
+    },
+    {
+      "block_id": "T_6_86",
+      "page": 6,
+      "bbox": [
+        90.0,
+        742.0,
+        510.0,
+        863.0
+      ],
+      "source_type": "table",
+      "source_sentence": "1AQA-MDI",
+      "evidence_id": "ev00029",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m033"
+    },
+    {
+      "block_id": "T_6_86",
+      "page": 6,
+      "bbox": [
+        90.0,
+        742.0,
+        510.0,
+        863.0
+      ],
+      "source_type": "table",
+      "source_sentence": "1AQA-H $_{12}$ MDI",
+      "evidence_id": "ev00030",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m034"
+    },
+    {
+      "block_id": "T_6_86",
+      "page": 6,
+      "bbox": [
+        90.0,
+        742.0,
+        510.0,
+        863.0
+      ],
+      "source_type": "table",
+      "source_sentence": "2AQA-PPDI",
+      "evidence_id": "ev00031",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m035"
+    },
+    {
+      "block_id": "T_6_86",
+      "page": 6,
+      "bbox": [
+        90.0,
+        742.0,
+        510.0,
+        863.0
+      ],
+      "source_type": "table",
+      "source_sentence": "2AQA-NDI",
+      "evidence_id": "ev00032",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m036"
+    },
+    {
+      "block_id": "T_6_86",
+      "page": 6,
+      "bbox": [
+        90.0,
+        742.0,
+        510.0,
+        863.0
+      ],
+      "source_type": "table",
+      "source_sentence": "2AQA-MDI",
+      "evidence_id": "ev00033",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m037"
+    },
+    {
+      "block_id": "T_6_86",
+      "page": 6,
+      "bbox": [
+        90.0,
+        742.0,
+        510.0,
+        863.0
+      ],
+      "source_type": "table",
+      "source_sentence": "2AQA-H $_{12}$ MDI",
+      "evidence_id": "ev00034",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m038"
+    },
+    {
+      "block_id": "T_7_97",
+      "page": 7,
+      "bbox": [
+        55.0,
+        81.0,
+        463.0,
+        155.0
+      ],
+      "source_type": "table",
+      "source_sentence": "UV–Vis absorption of poly(amide-urea)s<sup>a</sup>",
+      "evidence_id": "ev00035",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m039"
+    },
+    {
+      "block_id": "T_7_97",
+      "page": 7,
+      "bbox": [
+        55.0,
+        81.0,
+        463.0,
+        155.0
+      ],
+      "source_type": "table",
+      "source_sentence": "1AQA-PPDI",
+      "evidence_id": "ev00036",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m040"
+    },
+    {
+      "block_id": "T_7_97",
+      "page": 7,
+      "bbox": [
+        55.0,
+        81.0,
+        463.0,
+        155.0
+      ],
+      "source_type": "table",
+      "source_sentence": "2AQA-PPDI",
+      "evidence_id": "ev00037",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m041"
+    },
+    {
+      "block_id": "T_7_97",
+      "page": 7,
+      "bbox": [
+        55.0,
+        81.0,
+        463.0,
+        155.0
+      ],
+      "source_type": "table",
+      "source_sentence": "1AQA-NDI",
+      "evidence_id": "ev00038",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m042"
+    },
+    {
+      "block_id": "T_7_97",
+      "page": 7,
+      "bbox": [
+        55.0,
+        81.0,
+        463.0,
+        155.0
+      ],
+      "source_type": "table",
+      "source_sentence": "2AQA-NDI",
+      "evidence_id": "ev00039",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m043"
+    },
+    {
+      "block_id": "T_7_97",
+      "page": 7,
+      "bbox": [
+        55.0,
+        81.0,
+        463.0,
+        155.0
+      ],
+      "source_type": "table",
+      "source_sentence": "1AQA-MDI",
+      "evidence_id": "ev00040",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m044"
+    },
+    {
+      "block_id": "T_7_97",
+      "page": 7,
+      "bbox": [
+        55.0,
+        81.0,
+        463.0,
+        155.0
+      ],
+      "source_type": "table",
+      "source_sentence": "2AQA-MDI",
+      "evidence_id": "ev00041",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m045"
+    },
+    {
+      "block_id": "T_7_97",
+      "page": 7,
+      "bbox": [
+        55.0,
+        81.0,
+        463.0,
+        155.0
+      ],
+      "source_type": "table",
+      "source_sentence": "1AQA-H $_{12}$ MDI",
+      "evidence_id": "ev00042",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m046"
+    },
+    {
+      "block_id": "T_7_97",
+      "page": 7,
+      "bbox": [
+        55.0,
+        81.0,
+        463.0,
+        155.0
+      ],
+      "source_type": "table",
+      "source_sentence": "2AQA-H $_{12}$ MDI",
+      "evidence_id": "ev00043",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m047"
+    },
+    {
+      "block_id": "T_7_98",
+      "page": 7,
+      "bbox": [
+        55.0,
+        223.0,
+        463.0,
+        345.0
+      ],
+      "source_type": "table",
+      "source_sentence": "Solubility of poly(amide-urea)s",
+      "evidence_id": "ev00044",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m048"
+    },
+    {
+      "block_id": "T_7_98",
+      "page": 7,
+      "bbox": [
+        55.0,
+        223.0,
+        463.0,
+        345.0
+      ],
+      "source_type": "table",
+      "source_sentence": "1AQA-PPDI",
+      "evidence_id": "ev00045",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m049"
+    },
+    {
+      "block_id": "T_7_98",
+      "page": 7,
+      "bbox": [
+        55.0,
+        223.0,
+        463.0,
+        345.0
+      ],
+      "source_type": "table",
+      "source_sentence": "1AQA-NDI",
+      "evidence_id": "ev00046",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m050"
+    },
+    {
+      "block_id": "T_7_98",
+      "page": 7,
+      "bbox": [
+        55.0,
+        223.0,
+        463.0,
+        345.0
+      ],
+      "source_type": "table",
+      "source_sentence": "1AQA-MDI",
+      "evidence_id": "ev00047",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m051"
+    },
+    {
+      "block_id": "T_7_98",
+      "page": 7,
+      "bbox": [
+        55.0,
+        223.0,
+        463.0,
+        345.0
+      ],
+      "source_type": "table",
+      "source_sentence": "1AQA-H $_{12}$ MDI",
+      "evidence_id": "ev00048",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m052"
+    },
+    {
+      "block_id": "T_7_98",
+      "page": 7,
+      "bbox": [
+        55.0,
+        223.0,
+        463.0,
+        345.0
+      ],
+      "source_type": "table",
+      "source_sentence": "2AQA-PPDI",
+      "evidence_id": "ev00049",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m053"
+    },
+    {
+      "block_id": "T_7_98",
+      "page": 7,
+      "bbox": [
+        55.0,
+        223.0,
+        463.0,
+        345.0
+      ],
+      "source_type": "table",
+      "source_sentence": "2AQA-NDI",
+      "evidence_id": "ev00050",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m054"
+    },
+    {
+      "block_id": "T_7_98",
+      "page": 7,
+      "bbox": [
+        55.0,
+        223.0,
+        463.0,
+        345.0
+      ],
+      "source_type": "table",
+      "source_sentence": "2AQA-MDI",
+      "evidence_id": "ev00051",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m055"
+    },
+    {
+      "block_id": "T_7_98",
+      "page": 7,
+      "bbox": [
+        55.0,
+        223.0,
+        463.0,
+        345.0
+      ],
+      "source_type": "table",
+      "source_sentence": "2AQA-H $_{12}$ MDI",
+      "evidence_id": "ev00052",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m056"
+    },
+    {
+      "block_id": "P_7_100",
+      "page": 7,
+      "bbox": [
+        53.0,
+        505.0,
+        465.0,
+        604.0
+      ],
+      "source_type": "text",
+      "source_sentence": "The solubility behavior of the polyureas is summarized in Table 5.",
+      "evidence_id": "ev00053",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m057"
+    },
+    {
+      "block_id": "P_7_100",
+      "page": 7,
+      "bbox": [
+        53.0,
+        505.0,
+        465.0,
+        604.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Aromatic polyureas derived from aromatic diisocyanates exhibited lower solubility in organic solvents in comparison with polyureas derived from aliphatic diisocyanate.",
+      "evidence_id": "ev00054",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m058"
+    },
+    {
+      "block_id": "P_7_101",
+      "page": 7,
+      "bbox": [
+        53.0,
+        604.0,
+        467.0,
+        776.0
+      ],
+      "source_type": "text",
+      "source_sentence": "The X-ray diffraction studies of the polyureas revealed that all of the polymers were amorphous.",
+      "evidence_id": "ev00055",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m059"
+    },
+    {
+      "block_id": "I_4_69",
+      "page": 4,
+      "bbox": [
+        534.0,
+        61.0,
+        937.0,
+        222.0
+      ],
+      "source_type": "image",
+      "source_sentence": "Figure 2. Temperature dependence of inherent viscosity of polyurea 1AQA-PPDI formed by the polyaddition of 1AQA (5.0 mmol) with PPDI (5.0 mmol) in NMP for 10 hr.",
+      "evidence_id": "ev00056",
+      "source_stage": "stage2_polymer_entity",
+      "object_id": "pe005"
+    },
+    {
+      "block_id": "P_2_44",
+      "page": 2,
+      "bbox": [
+        529.0,
+        65.0,
+        942.0,
+        193.0
+      ],
+      "source_type": "text",
+      "source_sentence": "A round-bottomed flask equipped with an $\\Nu _ { 2 }$inlet tube, condenser, and thermometer was charged with 0.005 mol of diamine and 10 ml of dry NMP. Then a solution containing 0.005 mol of diisocyanate in 10 ml of dry NMP was added in one lot to the flask contents. The solution was stirred for 1 hr at room temperature and 4 hr at $7 0 ^ { \\circ } \\mathrm { C } ,$and then it was precipitated in water. The polymer was filtered, washed with hot water and methanol, and dried at vacuum oven at $8 0 ^ { \\circ } \\mathrm { C }$",
+      "evidence_id": "ev00057",
+      "source_stage": "stage3_sample_process",
+      "object_id": "ps001"
+    },
+    {
+      "block_id": "P_1_21",
+      "page": 1,
+      "bbox": [
+        53.0,
+        330.0,
+        467.0,
+        787.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Inherent viscosities were measured using an Ubbelohde viscometer at a concentration of 0.5 g/dl in NMP at $3 0 ^ { \\circ } \\mathrm { C }$.",
+      "evidence_id": "ev00058",
+      "source_stage": "stage4_property",
+      "object_id": "mc001"
+    },
+    {
+      "block_id": "P_1_21",
+      "page": 1,
+      "bbox": [
+        53.0,
+        330.0,
+        467.0,
+        787.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Gel permeation chromatography (GPC) was performed on a Waters 150-C instrument using Styragel columns and a differential refractometer detector. The molecular weight calibration was carried out using polystyrene standards. Calibration and measurements were made at a flow rate of 1 ml/min, and dimethylformamide (DMF) was used as a solvent.",
+      "evidence_id": "ev00059",
+      "source_stage": "stage4_property",
+      "object_id": "mc002"
+    },
+    {
+      "block_id": "P_1_21",
+      "page": 1,
+      "bbox": [
+        53.0,
+        330.0,
+        467.0,
+        787.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Differential scanning calorimetry (DSC) and thermogravimetric analysis (TGA) were recorded duplicate on a Stanton Redcraft STA-780 (London, UK) in air at a heating rate of 108C/min. In DSC thermograms, the samples were heated from 30 to $2 0 0 ^ { \\circ } \\mathrm { C } ,$they were cooled, and then re-heated to eliminate the thermal history.",
+      "evidence_id": "ev00060",
+      "source_stage": "stage4_property",
+      "object_id": "mc003"
+    },
+    {
+      "block_id": "P_1_21",
+      "page": 1,
+      "bbox": [
+        53.0,
+        330.0,
+        467.0,
+        787.0
+      ],
+      "source_type": "text",
+      "source_sentence": "The dynamic mechanical measurements were recorded on a Polymer Laboratories dynamic mechanical thermal analyzer over a temperature range of $2 5 { - } 3 0 0 ^ { \\circ } \\mathrm { C }$at 1 Hz and a heating rate of 58C/min (Surrey, UK).",
+      "evidence_id": "ev00061",
+      "source_stage": "stage4_property",
+      "object_id": "mc004"
+    },
+    {
+      "block_id": "P_1_21",
+      "page": 1,
+      "bbox": [
+        53.0,
+        330.0,
+        467.0,
+        787.0
+      ],
+      "source_type": "text",
+      "source_sentence": "at 1 Hz",
+      "evidence_id": "ev00062",
+      "source_stage": "stage4_property",
+      "object_id": "mc004"
+    },
+    {
+      "block_id": "P_1_21",
+      "page": 1,
+      "bbox": [
+        53.0,
+        330.0,
+        467.0,
+        787.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Differential scanning calorimetry (DSC) and thermogravimetric analysis (TGA) were recorded duplicate on a Stanton Redcraft STA-780 (London, UK) in air at a heating rate of 108C/min.",
+      "evidence_id": "ev00063",
+      "source_stage": "stage4_property",
+      "object_id": "mc005"
+    },
+    {
+      "block_id": "P_6_89",
+      "page": 6,
+      "bbox": [
+        529.0,
+        391.0,
+        942.0,
+        477.0
+      ],
+      "source_type": "text",
+      "source_sentence": "The optical properties of polymers were investigated by measuring ultraviolet–visible (UV–Vis) absorption in NMP solution.",
+      "evidence_id": "ev00064",
+      "source_stage": "stage4_property",
+      "object_id": "mc006"
+    },
+    {
+      "block_id": "T_7_98",
+      "page": 7,
+      "bbox": [
+        55.0,
+        223.0,
+        463.0,
+        345.0
+      ],
+      "source_type": "table",
+      "source_sentence": "Table 5. Solubility of poly(amide-urea)s",
+      "evidence_id": "ev00065",
+      "source_stage": "stage4_property",
+      "object_id": "mc007"
+    },
+    {
+      "block_id": "P_2_44",
+      "page": 2,
+      "bbox": [
+        529.0,
+        65.0,
+        942.0,
+        193.0
+      ],
+      "source_type": "text",
+      "source_sentence": "The solution was stirred for 1 hr at room temperature and 4 hr at $7 0 ^ { \\circ } \\mathrm { C } ,$and then it was precipitated in water.",
+      "evidence_id": "ev00066",
+      "source_stage": "stage4_property",
+      "object_id": "mc008"
+    },
+    {
+      "block_id": "P_2_44",
+      "page": 2,
+      "bbox": [
+        529.0,
+        65.0,
+        942.0,
+        193.0
+      ],
+      "source_type": "text",
+      "source_sentence": "4 hr at $7 0 ^ { \\circ } \\mathrm { C }$",
+      "evidence_id": "ev00067",
+      "source_stage": "stage4_property",
+      "object_id": "mc008"
+    },
+    {
+      "block_id": "T_5_77",
+      "page": 5,
+      "bbox": [
+        55.0,
+        80.0,
+        905.0,
+        522.0
+      ],
+      "source_type": "table",
+      "source_sentence": "<tr><td rowspan=\"4\">1AQA-PPDI</td><td>3338</td><td rowspan=\"4\">...</td><td rowspan=\"4\">92</td></tr>",
+      "table_locator": {
+        "table_id": "T_5_77",
+        "row_label": "1AQA-PPDI",
+        "column_label": "Yield (%)",
+        "cell_value": "92",
+        "cell_id": "T_5_77:r0001:c0003",
+        "row_index": 1,
+        "column_index": 3
+      },
+      "evidence_id": "ev00068",
+      "source_stage": "stage4_property",
+      "object_id": "s002"
+    },
+    {
+      "block_id": "T_5_78",
+      "page": 5,
+      "bbox": [
+        55.0,
+        581.0,
+        905.0,
+        899.0
+      ],
+      "source_type": "table",
+      "source_sentence": "<tr><td>Found</td><td>67.08</td><td>3.48</td><td>13.77</td><td>0.73</td><td>22,000</td><td>48,500</td><td>2.20</td></tr>",
+      "table_locator": {
+        "table_id": "T_5_78",
+        "row_label": "Found",
+        "column_label": "$\\eta_{\\text{inh}}$ (dl/g) $^a$",
+        "cell_value": "0.73",
+        "cell_id": "T_5_78:r0004:c0004",
+        "row_index": 4,
+        "column_index": 4
+      },
+      "evidence_id": "ev00069",
+      "source_stage": "stage4_property",
+      "object_id": "s002"
+    },
+    {
+      "block_id": "T_5_78",
+      "page": 5,
+      "bbox": [
+        55.0,
+        581.0,
+        905.0,
+        899.0
+      ],
+      "source_type": "table",
+      "source_sentence": "<tr><td>Found</td><td>67.08</td><td>3.48</td><td>13.77</td><td>0.73</td><td>22,000</td><td>48,500</td><td>2.20</td></tr>",
+      "table_locator": {
+        "table_id": "T_5_78",
+        "row_label": "Found",
+        "column_label": "$M_n$",
+        "cell_value": "22,000",
+        "cell_id": "T_5_78:r0004:c0005",
+        "row_index": 4,
+        "column_index": 5
+      },
+      "evidence_id": "ev00070",
+      "source_stage": "stage4_property",
+      "object_id": "s002"
+    },
+    {
+      "block_id": "T_5_78",
+      "page": 5,
+      "bbox": [
+        55.0,
+        581.0,
+        905.0,
+        899.0
+      ],
+      "source_type": "table",
+      "source_sentence": "<tr><td>Found</td><td>67.08</td><td>3.48</td><td>13.77</td><td>0.73</td><td>22,000</td><td>48,500</td><td>2.20</td></tr>",
+      "table_locator": {
+        "table_id": "T_5_78",
+        "row_label": "Found",
+        "column_label": "$M_w$",
+        "cell_value": "48,500",
+        "cell_id": "T_5_78:r0004:c0006",
+        "row_index": 4,
+        "column_index": 6
+      },
+      "evidence_id": "ev00071",
+      "source_stage": "stage4_property",
+      "object_id": "s002"
+    },
+    {
+      "block_id": "T_5_78",
+      "page": 5,
+      "bbox": [
+        55.0,
+        581.0,
+        905.0,
+        899.0
+      ],
+      "source_type": "table",
+      "source_sentence": "<tr><td>Found</td><td>67.08</td><td>3.48</td><td>13.77</td><td>0.73</td><td>22,000</td><td>48,500</td><td>2.20</td></tr>",
+      "table_locator": {
+        "table_id": "T_5_78",
+        "row_label": "Found",
+        "column_label": "$M_w/M_n$",
+        "cell_value": "2.20",
+        "cell_id": "T_5_78:r0004:c0007",
+        "row_index": 4,
+        "column_index": 7
+      },
+      "evidence_id": "ev00072",
+      "source_stage": "stage4_property",
+      "object_id": "s002"
+    },
+    {
+      "block_id": "T_6_86",
+      "page": 6,
+      "bbox": [
+        90.0,
+        742.0,
+        510.0,
+        863.0
+      ],
+      "source_type": "table",
+      "source_sentence": "<tr><td>1AQA-PPDI</td><td>190</td><td>229</td><td>327</td><td>475</td><td>49</td></tr>",
+      "table_locator": {
+        "table_id": "T_6_86",
+        "row_label": "1AQA-PPDI",
+        "column_label": "$T_{g}$ (°C)",
+        "cell_value": "190",
+        "cell_id": "T_6_86:r0001:c0001",
+        "row_index": 1,
+        "column_index": 1
+      },
+      "evidence_id": "ev00073",
+      "source_stage": "stage4_property",
+      "object_id": "s002"
+    },
+    {
+      "block_id": "T_6_86",
+      "page": 6,
+      "bbox": [
+        90.0,
+        742.0,
+        510.0,
+        863.0
+      ],
+      "source_type": "table",
+      "source_sentence": "<tr><td>1AQA-PPDI</td><td>190</td><td>229</td><td>327</td><td>475</td><td>49</td></tr>",
+      "table_locator": {
+        "table_id": "T_6_86",
+        "row_label": "1AQA-PPDI",
+        "column_label": "$T_{i}$ (°C)",
+        "cell_value": "229",
+        "cell_id": "T_6_86:r0001:c0002",
+        "row_index": 1,
+        "column_index": 2
+      },
+      "evidence_id": "ev00074",
+      "source_stage": "stage4_property",
+      "object_id": "s002"
+    },
+    {
+      "block_id": "T_6_86",
+      "page": 6,
+      "bbox": [
+        90.0,
+        742.0,
+        510.0,
+        863.0
+      ],
+      "source_type": "table",
+      "source_sentence": "<tr><td>1AQA-PPDI</td><td>190</td><td>229</td><td>327</td><td>475</td><td>49</td></tr>",
+      "table_locator": {
+        "table_id": "T_6_86",
+        "row_label": "1AQA-PPDI",
+        "column_label": "$T_{10}$ (°C)",
+        "cell_value": "327",
+        "cell_id": "T_6_86:r0001:c0003",
+        "row_index": 1,
+        "column_index": 3
+      },
+      "evidence_id": "ev00075",
+      "source_stage": "stage4_property",
+      "object_id": "s002"
+    },
+    {
+      "block_id": "T_6_86",
+      "page": 6,
+      "bbox": [
+        90.0,
+        742.0,
+        510.0,
+        863.0
+      ],
+      "source_type": "table",
+      "source_sentence": "<tr><td>1AQA-PPDI</td><td>190</td><td>229</td><td>327</td><td>475</td><td>49</td></tr>",
+      "table_locator": {
+        "table_id": "T_6_86",
+        "row_label": "1AQA-PPDI",
+        "column_label": "$T_{max}$ (°C)",
+        "cell_value": "475",
+        "cell_id": "T_6_86:r0001:c0004",
+        "row_index": 1,
+        "column_index": 4
+      },
+      "evidence_id": "ev00076",
+      "source_stage": "stage4_property",
+      "object_id": "s002"
+    },
+    {
+      "block_id": "T_6_86",
+      "page": 6,
+      "bbox": [
+        90.0,
+        742.0,
+        510.0,
+        863.0
+      ],
+      "source_type": "table",
+      "source_sentence": "<tr><td>1AQA-PPDI</td><td>190</td><td>229</td><td>327</td><td>475</td><td>49</td></tr>",
+      "table_locator": {
+        "table_id": "T_6_86",
+        "row_label": "1AQA-PPDI",
+        "column_label": "Char yield at 700°C (%)",
+        "cell_value": "49",
+        "cell_id": "T_6_86:r0001:c0005",
+        "row_index": 1,
+        "column_index": 5
+      },
+      "evidence_id": "ev00077",
+      "source_stage": "stage4_property",
+      "object_id": "s002"
+    },
+    {
+      "block_id": "T_7_97",
+      "page": 7,
+      "bbox": [
+        55.0,
+        81.0,
+        463.0,
+        155.0
+      ],
+      "source_type": "table",
+      "source_sentence": "<tr><td>1AQA-PPDI</td><td>401</td><td>2AQA-PPDI</td><td>384</td></tr>",
+      "table_locator": {
+        "table_id": "T_7_97",
+        "row_label": "1AQA-PPDI",
+        "column_label": "$\\lambda_{\\text{max}}$ (nm)",
+        "cell_value": "401",
+        "cell_id": "T_7_97:r0001:c0001",
+        "row_index": 1,
+        "column_index": 1
+      },
+      "evidence_id": "ev00078",
+      "source_stage": "stage4_property",
+      "object_id": "s002"
+    },
+    {
+      "block_id": "P_6_83",
+      "page": 6,
+      "bbox": [
+        87.0,
+        93.0,
+        500.0,
+        249.0
+      ],
+      "source_type": "text",
+      "source_sentence": "The numerous molecular weights $\\left( M _ { \\mathrm { n } } \\right)$ranged from 14,200 to 22,000 corresponding to a degree of polymerization between 25 and 42.",
+      "evidence_id": "ev00079",
+      "source_stage": "stage4_property",
+      "object_id": "pe002"
+    },
+    {
+      "block_id": "P_6_83",
+      "page": 6,
+      "bbox": [
+        87.0,
+        93.0,
+        500.0,
+        249.0
+      ],
+      "source_type": "text",
+      "source_sentence": "The $M _ { \\mathrm { w } }$values were about 35,700–48,500 which means that the ratio of $M _ { \\mathrm { w } } / M _ { \\mathrm { n } }$was between 2.20 and 2.51.",
+      "evidence_id": "ev00080",
+      "source_stage": "stage4_property",
+      "object_id": "pe002"
+    },
+    {
+      "block_id": "P_1_21",
+      "page": 1,
+      "bbox": [
+        53.0,
+        330.0,
+        467.0,
+        787.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Inherent viscosities were measured using an Ubbelohde viscometer at a concentration of 0.5 g/dl in NMP at $3 0 ^ { \\circ } \\mathrm { C}$.",
+      "evidence_id": "ev00081",
+      "source_stage": "stage5_characterization",
+      "object_id": "pe002"
+    },
+    {
+      "block_id": "P_1_21",
+      "page": 1,
+      "bbox": [
+        53.0,
+        330.0,
+        467.0,
+        787.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Infrared measurements were performed on a Bruker-IFS 48 Fourier Transform Infrared (FTIR) spectrometer (Ettlingen, Germany).",
+      "evidence_id": "ev00082",
+      "source_stage": "stage5_characterization",
+      "object_id": "pe002"
+    },
+    {
+      "block_id": "P_1_21",
+      "page": 1,
+      "bbox": [
+        53.0,
+        330.0,
+        467.0,
+        787.0
+      ],
+      "source_type": "text",
+      "source_sentence": "The H-nuclear magnetic resonance (NMR) spectra were recorded in DMSO-D solution using a Bruker Avance DPX 250 MHz (GmbH, Germany).",
+      "evidence_id": "ev00083",
+      "source_stage": "stage5_characterization",
+      "object_id": "pe002"
+    },
+    {
+      "block_id": "P_1_21",
+      "page": 1,
+      "bbox": [
+        53.0,
+        330.0,
+        467.0,
+        787.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Wide-angle X-ray diffraction (WAXD) patterns were performed at room temperature on an X-ray diffractometer (Siemens model D 5000) using a Ni-filtered Cu Ka radiation (40 kV, 25 mA) at a scanning rate of 38/min.",
+      "evidence_id": "ev00084",
+      "source_stage": "stage5_characterization",
+      "object_id": "pe002"
+    },
+    {
+      "block_id": "P_1_21",
+      "page": 1,
+      "bbox": [
+        53.0,
+        330.0,
+        467.0,
+        787.0
+      ],
+      "source_type": "text",
+      "source_sentence": "UV spectra were obtained by a Cecil CE 1021 UV–Vis spectrometer (Cambridge, UK).",
+      "evidence_id": "ev00085",
+      "source_stage": "stage5_characterization",
+      "object_id": "pe002"
+    },
+    {
+      "block_id": "T_5_77",
+      "page": 5,
+      "bbox": [
+        55.0,
+        80.0,
+        905.0,
+        522.0
+      ],
+      "source_type": "table",
+      "source_sentence": "<tr><td rowspan=\"4\">1AQA-PPDI</td><td>3338</td>",
+      "table_locator": {
+        "table_id": "T_5_77",
+        "row_label": "1AQA-PPDI",
+        "column_label": "IR (KBr)  $(cm^{-1})$",
+        "cell_value": "3338",
+        "cell_id": null,
+        "row_index": null,
+        "column_index": null
+      },
+      "evidence_id": "ev00086",
+      "source_stage": "stage5_characterization",
+      "object_id": "pe002"
+    },
+    {
+      "block_id": "T_5_77",
+      "page": 5,
+      "bbox": [
+        55.0,
+        80.0,
+        905.0,
+        522.0
+      ],
+      "source_type": "table",
+      "source_sentence": "<tr><td>1670</td></tr>",
+      "table_locator": {
+        "table_id": "T_5_77",
+        "row_label": "1AQA-PPDI",
+        "column_label": "IR (KBr)  $(cm^{-1})$",
+        "cell_value": "1670",
+        "cell_id": null,
+        "row_index": null,
+        "column_index": null
+      },
+      "evidence_id": "ev00087",
+      "source_stage": "stage5_characterization",
+      "object_id": "pe002"
+    },
+    {
+      "block_id": "T_5_77",
+      "page": 5,
+      "bbox": [
+        55.0,
+        80.0,
+        905.0,
+        522.0
+      ],
+      "source_type": "table",
+      "source_sentence": "<tr><td>1634</td></tr>",
+      "table_locator": {
+        "table_id": "T_5_77",
+        "row_label": "1AQA-PPDI",
+        "column_label": "IR (KBr)  $(cm^{-1})$",
+        "cell_value": "1634",
+        "cell_id": null,
+        "row_index": null,
+        "column_index": null
+      },
+      "evidence_id": "ev00088",
+      "source_stage": "stage5_characterization",
+      "object_id": "pe002"
+    },
+    {
+      "block_id": "T_5_77",
+      "page": 5,
+      "bbox": [
+        55.0,
+        80.0,
+        905.0,
+        522.0
+      ],
+      "source_type": "table",
+      "source_sentence": "<tr><td>1598</td></tr>",
+      "table_locator": {
+        "table_id": "T_5_77",
+        "row_label": "1AQA-PPDI",
+        "column_label": "IR (KBr)  $(cm^{-1})$",
+        "cell_value": "1598",
+        "cell_id": null,
+        "row_index": null,
+        "column_index": null
+      },
+      "evidence_id": "ev00089",
+      "source_stage": "stage5_characterization",
+      "object_id": "pe002"
+    },
+    {
+      "block_id": "T_5_77",
+      "page": 5,
+      "bbox": [
+        55.0,
+        80.0,
+        905.0,
+        522.0
+      ],
+      "source_type": "table",
+      "source_sentence": "12.76 (s, 1H, NH), 9.07 (s, 2H, ph), 8.99 (s, 1H, NH)",
+      "table_locator": {
+        "table_id": "T_5_77",
+        "row_label": "1AQA-PPDI",
+        "column_label": "NMR (DMSO- $D_6$ ) ( $\\delta$ )",
+        "cell_value": "12.76 (s, 1H, NH)",
+        "cell_id": null,
+        "row_index": null,
+        "column_index": null
+      },
+      "evidence_id": "ev00090",
+      "source_stage": "stage5_characterization",
+      "object_id": "pe002"
+    },
+    {
+      "block_id": "T_5_77",
+      "page": 5,
+      "bbox": [
+        55.0,
+        80.0,
+        905.0,
+        522.0
+      ],
+      "source_type": "table",
+      "source_sentence": "12.76 (s, 1H, NH), 9.07 (s, 2H, ph), 8.99 (s, 1H, NH)",
+      "table_locator": {
+        "table_id": "T_5_77",
+        "row_label": "1AQA-PPDI",
+        "column_label": "NMR (DMSO- $D_6$ ) ( $\\delta$ )",
+        "cell_value": "9.07 (s, 2H, ph)",
+        "cell_id": null,
+        "row_index": null,
+        "column_index": null
+      },
+      "evidence_id": "ev00091",
+      "source_stage": "stage5_characterization",
+      "object_id": "pe002"
+    }
+  ],
+  "provenance": [
+    {
+      "stage": "ocr",
+      "engine": "mineru",
+      "batch_id": "122ff743-eb66-4583-986f-6c8015953309",
+      "model_version": "vlm",
+      "ocr_enabled": false,
+      "language": null,
+      "page_ranges": null,
+      "enable_formula": true,
+      "enable_table": true,
+      "extra_formats": [],
+      "status": "done",
+      "manifest_file": "batch_122ff743-eb66-4583-986f-6c8015953309_manifest.json",
+      "status_file": "batch_122ff743-eb66-4583-986f-6c8015953309_status.json"
+    },
+    {
+      "stage": "stage1_material_mention",
+      "provider": "dmx",
+      "model": "gpt-5.6-terra-2026-07-09",
+      "models": [
+        "gpt-5.6-terra-2026-07-09"
+      ],
+      "prompt_id": "polymer.stage1.material_mention",
+      "prompt_version": "1.2.1",
+      "prompt_sha256": "af2a070da70b7754d6ae45eeebe3bf42cf2eb2dcd039e11acdb837a06c461fb9",
+      "input_hash": "bb558a6676dc0b91ce7eb9905e67fea89fc419e3da3a96ef05ede220e37db799",
+      "model_config_hash": "e075727883d2926c6e33e8497fe72c20e1e5addc7dfd2a90d973701ccfece7ad",
+      "cache_key": "861ea4d401a27b92b8dd19d911ee0b4a73e8d36ed5e76f17475343941015afb3",
+      "output_schema_version": "material_mention_schema.v2",
+      "implementation_version": "1.2.6",
+      "chunk_count": 4,
+      "usage": {
+        "input_tokens": 15382,
+        "output_tokens": 2763,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "billable_input_tokens": 15382,
+        "total_tokens": 18145
+      },
+      "cost": {
+        "status": "calculated",
+        "currency": "CNY",
+        "input_per_million": "17",
+        "output_per_million": "101",
+        "input_cost": "0.261494",
+        "output_cost": "0.279063",
+        "total_cost": "0.540557"
+      },
+      "status": "success"
+    },
+    {
+      "stage": "stage2_polymer_entity",
+      "provider": "dmx",
+      "model": "gpt-5.6-terra-2026-07-09",
+      "models": [
+        "gpt-5.6-terra-2026-07-09"
+      ],
+      "prompt_id": "polymer.stage2.polymer_entity",
+      "prompt_version": "1.2.0",
+      "prompt_sha256": "8293a9f30517fa564eb1fd5e3af02ea721f9ac48554f50edf089bcb9cec63801",
+      "input_hash": "d0bc034ad8d4b3d94620531fbde056d1489de0d04e001f7ac1e1855f3fab1105",
+      "model_config_hash": "c9e96c2514956e7b4b65eae3d327d34f95b7a33876cec6d4aa56f95eb79a9b50",
+      "cache_key": "7060d730770e88e4ea58a8a9a9b95c54add0e23df859dd73d5cbe3ffe9972bb1",
+      "output_schema_version": "polymer_entity_schema.v2",
+      "implementation_version": "1.3.3",
+      "context_block_count": 54,
+      "context_chars": 34843,
+      "call_count": 1,
+      "usage": {
+        "input_tokens": 19807,
+        "output_tokens": 3388,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "billable_input_tokens": 19807,
+        "total_tokens": 23195
+      },
+      "cost": {
+        "status": "calculated",
+        "currency": "CNY",
+        "input_per_million": "17",
+        "output_per_million": "101",
+        "input_cost": "0.336719",
+        "output_cost": "0.342188",
+        "total_cost": "0.678907"
+      },
+      "status": "success"
+    },
+    {
+      "stage": "stage3_sample_process",
+      "provider": "dmx",
+      "model": "doubao-seed-2.0-pro",
+      "models": [
+        "doubao-seed-2.0-pro"
+      ],
+      "prompt_id": "polymer.stage3.sample_process",
+      "prompt_version": "1.2.2",
+      "prompt_sha256": "ce2e2c59006b08286a1d41f8c6e5b8c9523abd65f8162c90b636eab35c5b263e",
+      "input_hash": "d100dde009e114bad453bd67732b618cd770cb954badabee3b6fd696558613d2",
+      "model_config_hash": "7a389959b1eae8cb35e4c5e5702559631666e759a9891cf98687a5b37dd5d1ad",
+      "cache_key": "4d961ce3c28bcb79176f186ad8f4b9df90678398ed1d68a93ae440b40c81cdd1",
+      "output_schema_version": "sample_process_schema.v2",
+      "implementation_version": "1.3.6",
+      "context_block_count": 33,
+      "context_chars": 23246,
+      "call_count": 1,
+      "usage": {
+        "input_tokens": 15128,
+        "output_tokens": 4776,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "billable_input_tokens": 15128,
+        "total_tokens": 19904
+      },
+      "cost": {
+        "status": "calculated",
+        "currency": "CNY",
+        "input_per_million": "4.32",
+        "output_per_million": "29.15",
+        "input_cost": "0.06535296",
+        "output_cost": "0.1392204",
+        "total_cost": "0.20457336"
+      },
+      "status": "success"
+    },
+    {
+      "stage": "stage4_property",
+      "provider": "dmx",
+      "model": "doubao-seed-2.0-pro",
+      "models": [
+        "doubao-seed-2.0-pro"
+      ],
+      "prompt_id": "polymer.stage4.property",
+      "prompt_version": "1.7.2",
+      "prompt_sha256": "ec79fe3bf47539cab4ba239c611d1ab17d75dc0038cda85020caca580f7987a5",
+      "vocabulary_sha256": "3e9d85e4915a729edf0f0a53821f3ee6edf32874e1da6972457417e4f13a1510",
+      "input_hash": "787400592cfea5e0901886d868e626d20d2cdec0231ba412ad35226b10d91810",
+      "model_config_hash": "7e14aff06827af47a7b1a797111258e33d5972d1c072111440c3b2aae020f3ce",
+      "cache_key": "8afd3cffd0a90e041a078d8bb61a6b8813359b949779a12a9ea94527c54bc767",
+      "output_schema_version": "property_observation_schema.v7",
+      "implementation_version": "1.7.10",
+      "context_block_count": 51,
+      "context_chars": 37423,
+      "call_count": 1,
+      "usage": {
+        "input_tokens": 28935,
+        "output_tokens": 10550,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "billable_input_tokens": 28935,
+        "total_tokens": 39485
+      },
+      "cost": {
+        "status": "calculated",
+        "currency": "CNY",
+        "input_per_million": "4.32",
+        "output_per_million": "29.15",
+        "input_cost": "0.1249992",
+        "output_cost": "0.3075325",
+        "total_cost": "0.4325317"
+      },
+      "status": "success"
+    },
+    {
+      "stage": "stage5_characterization",
+      "provider": "dmx",
+      "model": "doubao-seed-2.0-pro",
+      "models": [
+        "doubao-seed-2.0-pro"
+      ],
+      "prompt_id": "polymer.stage5.characterization",
+      "prompt_version": "1.6.2",
+      "prompt_sha256": "5f918eb9d0dcbe0a4dc60a70d83c4e9f144f9a87bf68905d0a38ad22c000ee5c",
+      "vocabulary_sha256": "3e9d85e4915a729edf0f0a53821f3ee6edf32874e1da6972457417e4f13a1510",
+      "input_hash": "cd082f3ef3d1ab8a0b21c724e82091ca5e0b9db525bb821da5b1b795d9982a85",
+      "model_config_hash": "7e14aff06827af47a7b1a797111258e33d5972d1c072111440c3b2aae020f3ce",
+      "cache_key": "7983430424f516de76846a6a181a216afacf6f09d87db347a7ed2576f8172aff",
+      "output_schema_version": "characterization_schema.v4",
+      "implementation_version": "1.7.1",
+      "context_block_count": 51,
+      "context_chars": 37423,
+      "call_count": 1,
+      "usage": {
+        "input_tokens": 22941,
+        "output_tokens": 9246,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "billable_input_tokens": 22941,
+        "total_tokens": 32187
+      },
+      "cost": {
+        "status": "calculated",
+        "currency": "CNY",
+        "input_per_million": "4.32",
+        "output_per_million": "29.15",
+        "input_cost": "0.09910512",
+        "output_cost": "0.2695209",
+        "total_cost": "0.36862602"
+      },
+      "status": "success"
+    }
+  ],
+  "warnings": [
+    {
+      "code": "metadata_extraction_failed",
+      "message": "未配置统一 LLM 元数据提取器；document JSON 已继续生成",
+      "stage": "stage0"
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "parameters_not_in_source",
+      "message": "无法定位到 evidence 原文的参数已舍弃",
+      "steps": [
+        {
+          "step_id": "ps001",
+          "parameter_keys": [
+            "high_temperature_stir_temperature"
+          ]
+        }
+      ]
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "unresolved_entities",
+      "message": "6 个 entity 未解析到实际样品",
+      "entity_ids": [
+        "pe002",
+        "pe003",
+        "pe004",
+        "pe013",
+        "pe014",
+        "pe015"
+      ]
+    },
+    {
+      "stage": "stage4_property",
+      "code": "candidate_table_locator_surface_repaired",
+      "message": "模型 locator 表面文本不在表格原文；已用 property raw 与 determination method 中唯一匹配的 Stage 0 表头恢复",
+      "evidence": 5
+    },
+    {
+      "stage": "stage4_property",
+      "code": "preview_semantic_validation_bypassed",
+      "message": "Preview 已保留 Schema 合法候选，并跳过原文/evidence 语义对应校验；Strict 模式仍会报错",
+      "reason": "mc004.other_conditions.heating_rate.raw 无法在对象 evidence中定位"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "unresolved_properties",
+      "message": "2 条性质无法可靠关联具体 Sample",
+      "unresolved_ids": [
+        "uprop001",
+        "uprop002"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_subject_scope_normalized",
+      "message": "Preview 模式已将冲突或空的主体字段收敛为单一合法范围",
+      "field_path": "characterizations[0]"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_subject_scope_normalized",
+      "message": "Preview 模式已将冲突或空的主体字段收敛为单一合法范围",
+      "field_path": "characterizations[1]"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_subject_scope_normalized",
+      "message": "Preview 模式已将冲突或空的主体字段收敛为单一合法范围",
+      "field_path": "characterizations[2]"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_subject_scope_normalized",
+      "message": "Preview 模式已将冲突或空的主体字段收敛为单一合法范围",
+      "field_path": "characterizations[3]"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_subject_scope_normalized",
+      "message": "Preview 模式已将冲突或空的主体字段收敛为单一合法范围",
+      "field_path": "characterizations[4]"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_subject_scope_normalized",
+      "message": "Preview 模式已将冲突或空的主体字段收敛为单一合法范围",
+      "field_path": "characterizations[5]"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_subject_scope_normalized",
+      "message": "Preview 模式已将冲突或空的主体字段收敛为单一合法范围",
+      "field_path": "characterizations[6]"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_subject_scope_normalized",
+      "message": "Preview 模式已将冲突或空的主体字段收敛为单一合法范围",
+      "field_path": "characterizations[7]"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_subject_scope_normalized",
+      "message": "Preview 模式已将冲突或空的主体字段收敛为单一合法范围",
+      "field_path": "characterizations[8]"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_incomplete_table_evidence_removed",
+      "message": "Preview 模式已移除缺少 table_locator 的附加表格 evidence；同一对象仍保留其他原文 evidence",
+      "field_path": "characterizations[5].evidence",
+      "block_ids": [
+        "T_5_77"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_incomplete_table_evidence_removed",
+      "message": "Preview 模式已移除缺少 table_locator 的附加表格 evidence；同一对象仍保留其他原文 evidence",
+      "field_path": "characterizations[6].evidence",
+      "block_ids": [
+        "T_5_77"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_characterization_details_cleared",
+      "message": "Preview 模式已清空无对象 evidence 支撑的可选表征细节",
+      "field_path": "characterizations[1]",
+      "fields": [
+        "parameters"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_characterization_details_cleared",
+      "message": "Preview 模式已清空无对象 evidence 支撑的可选表征细节",
+      "field_path": "characterizations[2]",
+      "fields": [
+        "parameters"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_characterization_details_cleared",
+      "message": "Preview 模式已清空无对象 evidence 支撑的可选表征细节",
+      "field_path": "characterizations[3]",
+      "fields": [
+        "parameters"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_characterization_details_cleared",
+      "message": "Preview 模式已清空无对象 evidence 支撑的可选表征细节",
+      "field_path": "characterizations[4]",
+      "fields": [
+        "parameters"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_characterization_details_cleared",
+      "message": "Preview 模式已清空无对象 evidence 支撑的可选表征细节",
+      "field_path": "characterizations[5]",
+      "fields": [
+        "parameters"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_characterization_details_cleared",
+      "message": "Preview 模式已清空无对象 evidence 支撑的可选表征细节",
+      "field_path": "characterizations[6]",
+      "fields": [
+        "parameters"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_characterization_details_cleared",
+      "message": "Preview 模式已清空无对象 evidence 支撑的可选表征细节",
+      "field_path": "characterizations[7]",
+      "fields": [
+        "instrument",
+        "parameters"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[4]",
+      "property_id": "prop_s5_005",
+      "fields": [
+        "unit_raw",
+        "solvent"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[5]",
+      "property_id": "prop_s5_006",
+      "fields": [
+        "unit_raw",
+        "solvent"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_property_subject_scope_aligned",
+      "message": "Preview 模式已将冲突的派生性质主体对齐到所属 Characterization",
+      "field_path": "properties[0]",
+      "characterization_id": "char006"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_property_subject_scope_aligned",
+      "message": "Preview 模式已将冲突的派生性质主体对齐到所属 Characterization",
+      "field_path": "properties[1]",
+      "characterization_id": "char006"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_property_subject_scope_aligned",
+      "message": "Preview 模式已将冲突的派生性质主体对齐到所属 Characterization",
+      "field_path": "properties[2]",
+      "characterization_id": "char006"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_property_subject_scope_aligned",
+      "message": "Preview 模式已将冲突的派生性质主体对齐到所属 Characterization",
+      "field_path": "properties[3]",
+      "characterization_id": "char006"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_property_subject_scope_aligned",
+      "message": "Preview 模式已将冲突的派生性质主体对齐到所属 Characterization",
+      "field_path": "properties[4]",
+      "characterization_id": "char007"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_property_subject_scope_aligned",
+      "message": "Preview 模式已将冲突的派生性质主体对齐到所属 Characterization",
+      "field_path": "properties[5]",
+      "characterization_id": "char007"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_property_subject_scope_aligned",
+      "message": "Preview 模式已将冲突的派生性质主体对齐到所属 Characterization",
+      "field_path": "properties[6]",
+      "characterization_id": "char008"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_semantic_validation_bypassed",
+      "message": "Preview 已保留 Schema 合法候选，并跳过原文/evidence 语义对应校验；Strict 模式仍会报错",
+      "reason": "char005.method_raw 与 method_normalized 不匹配"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "unresolved_characterizations",
+      "message": "9 条表征无法可靠关联具体 Sample",
+      "characterization_ids": [
+        "char001",
+        "char002",
+        "char003",
+        "char004",
+        "char005",
+        "char006",
+        "char007",
+        "char008",
+        "char009"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "unresolved_stage5_properties",
+      "message": "7 条 Stage 5 性质无法可靠关联具体 Sample",
+      "property_ids": [
+        "prop_s5_001",
+        "prop_s5_002",
+        "prop_s5_003",
+        "prop_s5_004",
+        "prop_s5_005",
+        "prop_s5_006",
+        "prop_s5_007"
+      ]
+    }
+  ],
+  "stage_failures": [],
+  "raw_stage_candidates": {},
+  "validation_summary": {
+    "status": "not_validated",
+    "error_count": 0,
+    "warning_count": 36
+  },
+  "source_stage_versions": {
+    "stage0": "1.1",
+    "stage1": "1.0",
+    "stage2": "1.0",
+    "stage3": "1.0",
+    "stage4": "1.0",
+    "stage5": "1.0"
+  }
+}

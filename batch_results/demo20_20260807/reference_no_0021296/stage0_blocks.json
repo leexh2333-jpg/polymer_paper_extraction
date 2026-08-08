@@ -1,0 +1,3166 @@
+{
+  "schema_version": "1.1",
+  "source_document_schema_version": "1.0",
+  "document_id": "reference_no_0021296",
+  "paper": {
+    "ref_no": "reference_no_0021296",
+    "pdf_filename": "00ab73d1-5b52-4db2-b8fa-61e0b42d83e2_origin.pdf",
+    "source_pdf_path": "mineru/reference_no_0021296/00ab73d1-5b52-4db2-b8fa-61e0b42d83e2_origin.pdf",
+    "organized_pdf_path": "organized/reference_no_0021296/origin.pdf",
+    "doi": null,
+    "title": null,
+    "authors": null,
+    "journal": null,
+    "year": null,
+    "metadata_status": "failed",
+    "metadata_extraction": {
+      "method": "llm",
+      "provider": null,
+      "model": null,
+      "prompt_file": "prompts/meta_extract.md",
+      "prompt_sha256": "98252486e4f9cdfd1b42ea02b7e01440d6be99c99d18720dc71c95aa1643fcd4",
+      "source_pages": [
+        0,
+        1
+      ],
+      "status": "failed",
+      "error_type": "MetaExtractorUnavailable"
+    }
+  },
+  "source_files": {
+    "markdown": "reference_no_0021296.md",
+    "content_v1": "content.json",
+    "content_v2": "content_v2.json",
+    "pdf": "origin.pdf"
+  },
+  "ocr": {
+    "engine": "mineru",
+    "batch_id": "3987e160-2691-40d5-bd52-f4279f35872d",
+    "model_version": "vlm",
+    "ocr_enabled": false,
+    "language": null,
+    "page_ranges": null,
+    "enable_formula": true,
+    "enable_table": true,
+    "extra_formats": [],
+    "status": "done",
+    "manifest_file": "batch_3987e160-2691-40d5-bd52-f4279f35872d_manifest.json",
+    "status_file": "batch_3987e160-2691-40d5-bd52-f4279f35872d_status.json"
+  },
+  "elements": [
+    {
+      "block_id": "P_0_0",
+      "type": "title",
+      "section": "DocumentTitle",
+      "text": "Preparation and Structure/Property Relationships of Polyesters Containing Conjugated Diacetylene Groups",
+      "page": 0,
+      "bbox": [
+        120.0,
+        107.0,
+        831.0,
+        162.0
+      ],
+      "source_block_index": 0,
+      "alignment_status": "matched",
+      "title_level": 1
+    },
+    {
+      "block_id": "P_0_1",
+      "type": "text",
+      "text": "XIAO HU, XIQIANG LI",
+      "page": 0,
+      "bbox": [
+        119.0,
+        189.0,
+        289.0,
+        204.0
+      ],
+      "source_block_index": 1,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_0_2",
+      "type": "text",
+      "text": "Advanced Materials Research Centre and School of Applied Science, Nanyang Technological University, Singapore 639798",
+      "page": 0,
+      "bbox": [
+        117.0,
+        210.0,
+        797.0,
+        239.0
+      ],
+      "source_block_index": 2,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_0_3",
+      "type": "text",
+      "text": "Received 31 March 1998; revised 17 November 1998; accepted 18 November 1998",
+      "page": 0,
+      "bbox": [
+        120.0,
+        267.0,
+        679.0,
+        281.0
+      ],
+      "source_block_index": 3,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_0_4",
+      "type": "text",
+      "text": "ABSTRACT: A series of novel polyesters containing conjugated diacetylenes (DA-polyesters) were prepared from various diacetylene diols with/without methyl side groups and isomers of aromatic acid chlorides via an interfacial condensation. A fully aliphatic DA-polyester was also prepared for comparison. All synthesised DA-polyesters are soluble in m-cresol, and the intrinsic viscosities were measured. In addition, compact and coherent films and sheets can be obtained from some of the polymers via solution or melt casting. The structure, morphology, and properties were characterized using spectroscopic methods, including FTIR, Raman, and WAXD and thermal analysis including TGA, DSC techniques. DMA was carried out on the solution-cast thin films and melt-processed samples. Close correlation was found between the structure and properties in these DA-polyesters. In particular, through analysis using isothermal DSC and Raman spectroscopy, the solid-state reactivity of the diacetylene groups in these polyesters was found related to the interchain spacings, which are, in turn, controlled by the molecular structure of the polymers. Results have shown that the aliphatic DA-polyester behaves very differently compared to the aromatic ones. Distinct differences were also observed among meta- and para-disubstituted isomers of the DA-polyesters. Furthermore, the introduction of methyl side groups has dramatically affected the thermal and thermal mechanical behavior by altering the interchain spacing of the polymers. © 1999 John Wiley & Sons, Inc. J Polym Sci B: Polym Phys 37: 965–974, 1999",
+      "page": 0,
+      "bbox": [
+        217.0,
+        342.0,
+        815.0,
+        621.0
+      ],
+      "source_block_index": 4,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_0_5",
+      "type": "text",
+      "text": "Keywords: diacetylene; polydiacetylene; polyesters; FTIR and Raman spectra; WAXD; DSC and DMA",
+      "page": 0,
+      "bbox": [
+        217.0,
+        619.0,
+        813.0,
+        648.0
+      ],
+      "source_block_index": 5,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_0_6",
+      "type": "title",
+      "section": "Introduction",
+      "text": "INTRODUCTION",
+      "page": 0,
+      "bbox": [
+        120.0,
+        679.0,
+        267.0,
+        694.0
+      ],
+      "source_block_index": 6,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_0_7",
+      "type": "text",
+      "section": "Introduction",
+      "text": "Polydiacetylenes (PDAs) are highly conjugated polymers that can be produced by the thermal or radiation-initiated polymerization of single crystals, Langmuir–Blodgett films, liquid crystals, or isotropic melts that contain diacetylene functional groups.<sup>1</sup> The polymerization of diacetylenes has been of great interest because it was reported<sup>2,3</sup> that the solid-state reaction proceeds via a topochemical 1,4-addition. Generally, most",
+      "page": 0,
+      "bbox": [
+        117.0,
+        709.0,
+        501.0,
+        848.0
+      ],
+      "source_block_index": 7,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_0_8",
+      "type": "text",
+      "section": "Introduction",
+      "text": "PDAs are insoluble even in exotic solvents, and infusible. However, since the report on soluble poly(4BCMU),<sup>4</sup> a large number of soluble PDAs have been synthesized with a proper choice of substituting side groups. Soluble PDAs such as P(nBCMU), P(TS), and P(ETCD) are widely used to study the reversible and irreversible color changes, i.e., chromism and the mechanism of color transition.<sup>5,6</sup> Linear and nonlinear optical properties of PDAs associated with the conjugated backbone have been extensively investigated.<sup>7</sup> P(ETCD)<sup>8</sup> was used to study the thirdorder nonlinear response and P(BPOD)<sup>9</sup> was designed and synthesized to study the second-order nonlinear optical properties. Ogawa<sup>10</sup> also reviewed the unconventional methods to obtain thin films of polydiacetylene for nonlinear optical applications. More recently, intensive studies have also been made on obtaining processible and highly conjugated diacetylene-containing copolymers with combination of good optical, electrical, and mechanical properties.<sup>5–18</sup> These linear copolymers contain diacetylene units on the backbone, and can be treated via thermal or radiationinduced crosspolymerization to produce polydiacetylene chains that give rise to a crosslinked network structure. The crosspolymerized copolymers were shown to have certain optical properties similar to those of the polydiacetylene single crystals. In particular, thermal chromism and optomechanical properties have been well studied by Rubner,<sup>11–13</sup> Hu and Young. <sup>15–18</sup> For example, diacetylene-containing polyurethanes were shown to have interesting opto-mechanical properties, and they were used as microstress/strain sensors via probing the molecular deformation with Raman spectroscopy. This allows the micromechanics of multiphase polymers to be studied, and also the development of stress sensitivity polymer coatings. It is expected that the DA-polyesters should have similar properties. However, there is no report on the opto-mechanical properties of aromatic DA-polymers and limited reports<sup>19–21</sup> on high molecular-weight processible DA-polyesters due to their poor tractability.",
+      "page": 0,
+      "bbox": [
+        529.0,
+        679.0,
+        913.0,
+        907.0
+      ],
+      "source_block_index": 8,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "F_0_9",
+      "type": "footnote",
+      "section": "Introduction",
+      "text": "Correspondence to: X. Hu Journal of Polymer Science: Part B: Polymer Physics, Vol. 37, 965–974 (1999) © 1999 John Wiley & Sons, Inc. CCC 0887-6266/99/100965-10",
+      "page": 0,
+      "bbox": [
+        117.0,
+        869.0,
+        500.0,
+        907.0
+      ],
+      "source_block_index": 9,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "T_1_11",
+      "type": "table",
+      "section": "Introduction",
+      "page": 1,
+      "bbox": [
+        120.0,
+        107.0,
+        910.0,
+        236.0
+      ],
+      "source_block_index": 11,
+      "alignment_status": "matched",
+      "caption": "Table I. Yields and Physical Parameters of the Synthesized Diacetylene Diols",
+      "table_body": "<table><tr><td>Ethynyl AlcoholHO—R—C≡CHDiacetylene DiolHO—R—C≡C—C≡C—R—OH</td><td>Propargyl Alcohol $HOCH_2C≡CH$ 2,4-hexadiyne-1,6-diol(R=CH2; HDD)</td><td>3-butyn-2-ol $HOCH(CH_3)C≡CH$ 3,5-octadiyne-2,7-diol(R=CH(CH3); ODD-2)</td><td>2-methyl-3-butyn-2-ol $HOCH(CH_3)_2C≡CH$ 2,7-dimethyl-3,5-octadiyne-2,7-diol(R=C(CH3)2; ODD-2M)</td></tr><tr><td>Yield (%)</td><td>65</td><td>82</td><td>94</td></tr><tr><td>Colour</td><td>pale yellow</td><td>white</td><td>colourless</td></tr><tr><td>Melting point (°C)a</td><td>113</td><td>64, 85</td><td>132</td></tr><tr><td> $\\Delta H_f(J/g)^a$ </td><td>258</td><td>175</td><td>197</td></tr></table>",
+      "table_cells": [
+        {
+          "cell_id": "T_1_11:r0000:c0000",
+          "row_index": 0,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Ethynyl AlcoholHO—R—C≡CHDiacetylene DiolHO—R—C≡C—C≡C—R—OH",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_1_11:r0000:c0001",
+          "row_index": 0,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Propargyl Alcohol $HOCH_2C≡CH$ 2,4-hexadiyne-1,6-diol(R=CH2; HDD)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_1_11:r0000:c0002",
+          "row_index": 0,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "3-butyn-2-ol $HOCH(CH_3)C≡CH$ 3,5-octadiyne-2,7-diol(R=CH(CH3); ODD-2)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_1_11:r0000:c0003",
+          "row_index": 0,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "2-methyl-3-butyn-2-ol $HOCH(CH_3)_2C≡CH$ 2,7-dimethyl-3,5-octadiyne-2,7-diol(R=C(CH3)2; ODD-2M)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_1_11:r0001:c0000",
+          "row_index": 1,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Yield (%)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_1_11:r0001:c0001",
+          "row_index": 1,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "65",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_1_11:r0001:c0002",
+          "row_index": 1,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "82",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_1_11:r0001:c0003",
+          "row_index": 1,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "94",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_1_11:r0002:c0000",
+          "row_index": 2,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Colour",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_1_11:r0002:c0001",
+          "row_index": 2,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "pale yellow",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_1_11:r0002:c0002",
+          "row_index": 2,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "white",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_1_11:r0002:c0003",
+          "row_index": 2,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "colourless",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_1_11:r0003:c0000",
+          "row_index": 3,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Melting point (°C)a",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_1_11:r0003:c0001",
+          "row_index": 3,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "113",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_1_11:r0003:c0002",
+          "row_index": 3,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "64, 85",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_1_11:r0003:c0003",
+          "row_index": 3,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "132",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_1_11:r0004:c0000",
+          "row_index": 4,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$\\Delta H_f(J/g)^a$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_1_11:r0004:c0001",
+          "row_index": 4,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "258",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_1_11:r0004:c0002",
+          "row_index": 4,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "175",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_1_11:r0004:c0003",
+          "row_index": 4,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "197",
+          "is_header": false
+        }
+      ],
+      "image_path": "organized/reference_no_0021296/images/8bfaa1edb30e2de129d9444a5319376ddc2c8a4136235da47d8bacde8b06efef.jpg"
+    },
+    {
+      "block_id": "P_1_12",
+      "type": "text",
+      "section": "Introduction",
+      "text": "",
+      "page": 1,
+      "bbox": [
+        117.0,
+        284.0,
+        501.0,
+        739.0
+      ],
+      "source_block_index": 12,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_1_13",
+      "type": "text",
+      "section": "Introduction",
+      "text": "In this work, a series of DA-polyesters with carefully designed molecular structures, such as by introducing substitute group (methyl group) in the diacetylene diol monomer and by varying substitution of the phenyl rings in the phthalic acid chloride, were prepared via interfacial polycondensation. The structure, morphology, and properties of these DA-polyesters were systematically studied using spectroscopic, thermal, and thermal mechanical analysis. Because the thermal properties determine not only the processing characteristics of these polymers but also their applications, discussion in this work is focused on the effect of the subtle changes in chemical structure on the crystalline structure as well as on the thermal and processing behavior of these polymers. The study has led to the preparation of both solution processible and melt processible (mouldable) DA-polyesters, from which strong, coherent, and transparent films can be formed. These properties and other known unique behavior of diacetylene-containing copolymers may give these polymers other utility in microelectronic fabrication, which is presently under exploration. The preparation of processible DA-polyesters also means that other behavior such as thermal mechanical properties can now be evaluated, which are otherwise impossible to study due to difficulties in sample preparation.",
+      "page": 1,
+      "bbox": [
+        117.0,
+        739.0,
+        501.0,
+        909.0
+      ],
+      "source_block_index": 13,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_1_14",
+      "type": "text",
+      "section": "Introduction",
+      "text": "",
+      "page": 1,
+      "bbox": [
+        527.0,
+        284.0,
+        913.0,
+        560.0
+      ],
+      "source_block_index": 14,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_1_15",
+      "type": "title",
+      "section": "Methods",
+      "text": "EXPERIMENTAL",
+      "page": 1,
+      "bbox": [
+        529.0,
+        573.0,
+        665.0,
+        590.0
+      ],
+      "source_block_index": 15,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_1_16",
+      "type": "title",
+      "section": "Methods",
+      "text": "Synthesis of Diacetylene Diols",
+      "page": 1,
+      "bbox": [
+        529.0,
+        597.0,
+        759.0,
+        614.0
+      ],
+      "source_block_index": 16,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_1_17",
+      "type": "text",
+      "section": "Methods",
+      "text": "Three types of diacetylene diols, 2,4-hexadiyne-1,6-diol (HDD), 3,5-octadiyne-2,7-diol (ODD-2) and 2,7-dimethyl-3,5-octadiyne-2,7-diol (ODD-2M) were synthesized from ethynyl alcohol compounds (99%, Aldrich) using an oxidative coupling method.<sup>22</sup> The products were recrystallized from ethyl acetate and stored in a tightly sealed bottle wrapped with aluminum foil and kept in a dry desiccator in a cool and dark place. The yield, appearance, melting point, and enthalpy of melting of each synthesized diacetylene diol are listed in Table I. Two melting peaks were observed in ODD-2 due to the stereoisomerism of ODD-2 that was synthesized from the racemic mixture of (6)3-butyln-2-ol.",
+      "page": 1,
+      "bbox": [
+        527.0,
+        616.0,
+        913.0,
+        845.0
+      ],
+      "source_block_index": 17,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_1_18",
+      "type": "title",
+      "section": "Methods",
+      "text": "Synthesis of DA-Polyesters",
+      "page": 1,
+      "bbox": [
+        529.0,
+        856.0,
+        730.0,
+        873.0
+      ],
+      "source_block_index": 18,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_1_19",
+      "type": "text",
+      "section": "Methods",
+      "text": "DA-polyesters were synthesised from diacid chlorides, i.e., succinyl chloride, terephthaloyl chloride, isophthaloyl chloride, and phthaloyl chloride (95%, Acros), and diacetylene diols, i.e., HDD, ODD-2, ODD-2M. The polymerization was carried out via interfacial condensation method in an aqueous-organic solvent system, and can be described in the reaction equation below, where the groups R and $\\mathrm { R ^ { \\prime } }$are shown in Table II.",
+      "page": 1,
+      "bbox": [
+        529.0,
+        875.0,
+        913.0,
+        907.0
+      ],
+      "source_block_index": 19,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_1_19",
+        "V2_1_8_1"
+      ]
+    },
+    {
+      "block_id": "T_2_22",
+      "type": "table",
+      "section": "Methods",
+      "page": 2,
+      "bbox": [
+        120.0,
+        121.0,
+        496.0,
+        400.0
+      ],
+      "source_block_index": 22,
+      "alignment_status": "matched",
+      "caption": "Table II. Structures of Various R and R' Groups in the DA-Polyesters",
+      "table_body": "<table><tr><td>R</td><td>R&#x27;</td><td>DA-Polyesters</td></tr><tr><td> $-CH_2-$ </td><td> $-(CH_2)_2$ </td><td>HS</td></tr><tr><td></td><td><img src=\"images/d8529e3d71b0856a7c0311b9863a70d0cefe010ca4937e352d1e2c3f9436a27b.jpg\"/></td><td>HT</td></tr><tr><td></td><td><img src=\"images/65f38bddb9b72694e3feb1544edf6c4cadadcff28c46361404e8a0171f69ab2b.jpg\"/></td><td>HI</td></tr><tr><td></td><td>[XX5]</td><td>HP</td></tr><tr><td> $-CH(CH_3)-$ </td><td><img src=\"images/6cae361b9c728959fc4f6b6dda9e892b517cd86ff9843844bf9cfad0c97e49d3.jpg\"/></td><td>OT(2)</td></tr><tr><td> $-C(CH_3)_2-$ </td><td><img src=\"images/3d3675dede502ae8bfa131d01070381d5c539c2bf7526873197dfcb4da636d00.jpg\"/></td><td> $OT(2M)^a$ </td></tr></table>",
+      "table_cells": [
+        {
+          "cell_id": "T_2_22:r0000:c0000",
+          "row_index": 0,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "R",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_22:r0000:c0001",
+          "row_index": 0,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "R'",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_22:r0000:c0002",
+          "row_index": 0,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "DA-Polyesters",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_22:r0001:c0000",
+          "row_index": 1,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$-CH_2-$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_22:r0001:c0001",
+          "row_index": 1,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$-(CH_2)_2$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_22:r0001:c0002",
+          "row_index": 1,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "HS",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_22:r0002:c0000",
+          "row_index": 2,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_22:r0002:c0001",
+          "row_index": 2,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_22:r0002:c0002",
+          "row_index": 2,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "HT",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_22:r0003:c0000",
+          "row_index": 3,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_22:r0003:c0001",
+          "row_index": 3,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_22:r0003:c0002",
+          "row_index": 3,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "HI",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_22:r0004:c0000",
+          "row_index": 4,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_22:r0004:c0001",
+          "row_index": 4,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "[XX5]",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_22:r0004:c0002",
+          "row_index": 4,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "HP",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_22:r0005:c0000",
+          "row_index": 5,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$-CH(CH_3)-$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_22:r0005:c0001",
+          "row_index": 5,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_22:r0005:c0002",
+          "row_index": 5,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "OT(2)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_22:r0006:c0000",
+          "row_index": 6,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$-C(CH_3)_2-$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_22:r0006:c0001",
+          "row_index": 6,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_22:r0006:c0002",
+          "row_index": 6,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$OT(2M)^a$",
+          "is_header": false
+        }
+      ],
+      "image_path": "organized/reference_no_0021296/images/ff1616f4c1fade45272319da404bc8f1e05b13bc37bc072e5f11da34369f1d65.jpg"
+    },
+    {
+      "block_id": "P_2_23",
+      "type": "text",
+      "section": "Methods",
+      "text": "",
+      "page": 2,
+      "bbox": [
+        117.0,
+        454.0,
+        501.0,
+        564.0
+      ],
+      "source_block_index": 23,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "E_2_24",
+      "type": "equation",
+      "section": "Methods",
+      "text": "$$\n\\begin{array}{r l}&n \\mathrm{HO-R-C} \\equiv \\mathrm{C-C} \\equiv \\mathrm{C-R-OH}\\\\&\\text {   Diacetylene   diol   }\\\\&+\\begin{array}{c}\\mathrm{nClOC-R'-COCl}\\\\\\text {   Diacid   chloride   }\\end{array}\\rightarrow\\\\&(- \\mathrm{OR-C} \\equiv \\mathrm{C-C} \\equiv \\mathrm{C-R-O-OC-R'-CO}) _ {\\mathrm{n}}\\\\&\\text {   DA - polyester   }\\end{array}\n$$",
+      "page": 2,
+      "bbox": [
+        125.0,
+        575.0,
+        493.0,
+        710.0
+      ],
+      "source_block_index": 24,
+      "alignment_status": "matched",
+      "equation_kind": "display"
+    },
+    {
+      "block_id": "P_2_25",
+      "type": "text",
+      "section": "Methods",
+      "text": "The typical procedure of polymerization is outlined below:<sup>20</sup> the freshly recrystallized diacetylene diol (0.01 mol) was dissolved in 60 mL of 0.33 M NaOH solution in a 500-mL beaker placed in an ice-water bath. The diacid chloride (0.01 mol) was dissolved in 30 mL of toluene (anhydrous grade, Aldrich) and quickly added to the diacetylene diol solution under vigorous stirring typically for 30 min. Then the mixture was poured into 100 mL methanol and stirred. The product was filtered through Bu¨ chner funnel and washed thoroughly with a large amount of distilled water, followed by further extraction with methanol and acetone. All dried DA-polyesters were covered with aluminum foil and stored in a vacuum desiccator at room temperature.",
+      "page": 2,
+      "bbox": [
+        117.0,
+        724.0,
+        501.0,
+        909.0
+      ],
+      "source_block_index": 25,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_2_26",
+      "type": "text",
+      "section": "Methods",
+      "text": "",
+      "page": 2,
+      "bbox": [
+        527.0,
+        87.0,
+        913.0,
+        150.0
+      ],
+      "source_block_index": 26,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_2_27",
+      "type": "title",
+      "section": "Methods",
+      "text": "Spectroscopy Analysis",
+      "page": 2,
+      "bbox": [
+        529.0,
+        164.0,
+        699.0,
+        180.0
+      ],
+      "source_block_index": 27,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_2_28",
+      "type": "text",
+      "section": "Methods",
+      "text": "Fourier-transform infrared (FTIR) spectra of the DA-polyesters were recorded using a Perkin– Elmer system 2000 FTIR spectrometer equipped with microscope and diamond press accessories. Raman spectroscopy analysis was conducted using a Renishaw Ramascope 3000 spectrometer equipped with a modified Olympus microscope. A 350 objective was used to focus the incident laser bean to a spot on the specimen, and the experiment was carried out using the 25-mV diode laser at 632.8 nm. The detector used was a Peltier cooled charge-coupled device. Wide-angle X-ray diffraction (WAXD) patterns were obtained with a Rigaku RINT 2000 series wide-angle X-ray diffractometer using the parameters of 50 kV and 20 mA at the scanning rate of 2°/min.",
+      "page": 2,
+      "bbox": [
+        529.0,
+        183.0,
+        913.0,
+        429.0
+      ],
+      "source_block_index": 28,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_2_29",
+      "type": "title",
+      "section": "Methods",
+      "text": "Thermal Analysis",
+      "page": 2,
+      "bbox": [
+        531.0,
+        441.0,
+        663.0,
+        458.0
+      ],
+      "source_block_index": 29,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_2_30",
+      "type": "text",
+      "section": "Methods",
+      "text": "Thermogravimetric analysis (TGA) was performed using a TA Instruments of Hi-res TGA 2950 Thermogravimetric Analyzer. A sample of about 20 mg was put into a clean platinum pan and run under both nitrogen and air atmosphere from room temperature to $8 0 0 ^ { \\circ } \\mathrm { C }$at a heating rate of 10°C/min. Differential scanning calorimetry (DSC) analysis was carried out employing a Perkin–Elmer DSC-7. All DA-polyesters were analyzed from 40 to 250°C under nitrogen purge at the heating rate of 10°C/min. Isothermal DSC analysis was also carried out by first heating the sample to the annealing temperature $( 8 0 ^ { \\circ } \\mathrm { C } )$at a rate of $3 0 ^ { \\circ } \\mathrm { C } / \\mathrm { m i n }$. Dynamic mechanical analysis (DMA) data were collected through a TA Instruments Dynamic Mechanical Analyzer 2980. A film clamp and a single cantilever clamp were used to test solution-cast HT thin film and melt-processed OT(2) samples, respectively. The measurement was performed at a heating rate of 3°C/min and a frequency of 1 Hz in air. The peak tan d temperature is taken as the glass transition temperature $T _ { g } .$",
+      "page": 2,
+      "bbox": [
+        527.0,
+        460.0,
+        913.0,
+        814.0
+      ],
+      "source_block_index": 30,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_2_30",
+        "V2_2_8_1",
+        "V2_2_8_3",
+        "V2_2_8_5",
+        "V2_2_8_7"
+      ]
+    },
+    {
+      "block_id": "P_2_31",
+      "type": "title",
+      "section": "Results",
+      "text": "RESULTS AND DISCUSSION",
+      "page": 2,
+      "bbox": [
+        529.0,
+        829.0,
+        777.0,
+        845.0
+      ],
+      "source_block_index": 31,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_2_32",
+      "type": "title",
+      "section": "Results",
+      "text": "Synthesis and Preliminary Characterization",
+      "page": 2,
+      "bbox": [
+        529.0,
+        854.0,
+        849.0,
+        872.0
+      ],
+      "source_block_index": 32,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_2_33",
+      "type": "text",
+      "section": "Results",
+      "text": "DA-polyesters were synthesized via interfacial condensation in an aqueous-toluene and had reasonably good yields except for HP and OT(2M). It is thought that the condensation method has its advantages such as simplicity and relatively high yield, though DA-containing polymers may also be synthesized via other route like oxidative coupling.<sup>23,24</sup> This method is also more in line with the conventional polymerization and would enable other chemical manipulations such as copolymerization with conventional monomers. The percentage yield and solid-state appearance of these synthesized DA-polyesters are presented in Table III. The poor yield of HP is likely due to steric hindrance in the ortho-substituted phthaloyl dichloride, which prevents the formation of long polymer chains. No product at all was obtained when attempting to synthesize DA-polyester OT(2M) from ODD-2M and terephthaloyl dichloride via this aqueous-organic system. This may be attributed to the reduced reactivity of the hydroxyl groups in ODD-2M, a tertiary diacetylene diol, because of the high steric hindrance effect caused by the four methyl groups.",
+      "page": 2,
+      "bbox": [
+        529.0,
+        875.0,
+        913.0,
+        907.0
+      ],
+      "source_block_index": 33,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "T_3_36",
+      "type": "table",
+      "section": "Results",
+      "page": 3,
+      "bbox": [
+        120.0,
+        106.0,
+        911.0,
+        189.0
+      ],
+      "source_block_index": 36,
+      "alignment_status": "matched",
+      "caption": "Table III. Yields, Appearance and Intrinsic Viscosities of the as-Synthesised DA-Polyesters",
+      "table_body": "<table><tr><td>Polymer</td><td>HS</td><td>HI</td><td>HP</td><td>HT</td><td>OT(2)</td></tr><tr><td>Yield (%)</td><td>62</td><td>65</td><td>trace</td><td>87</td><td>75</td></tr><tr><td>Appearance</td><td> $P(R)^a$ </td><td>P(W)</td><td>P(W)</td><td>F(W)</td><td>P(W)</td></tr><tr><td>Intrinsic viscosity</td><td>0.089</td><td>0.096</td><td>—</td><td>0.422</td><td>0.063</td></tr></table>",
+      "table_cells": [
+        {
+          "cell_id": "T_3_36:r0000:c0000",
+          "row_index": 0,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Polymer",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_36:r0000:c0001",
+          "row_index": 0,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "HS",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_36:r0000:c0002",
+          "row_index": 0,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "HI",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_36:r0000:c0003",
+          "row_index": 0,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "HP",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_36:r0000:c0004",
+          "row_index": 0,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "HT",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_36:r0000:c0005",
+          "row_index": 0,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "OT(2)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_36:r0001:c0000",
+          "row_index": 1,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Yield (%)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_36:r0001:c0001",
+          "row_index": 1,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "62",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_36:r0001:c0002",
+          "row_index": 1,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "65",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_36:r0001:c0003",
+          "row_index": 1,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "trace",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_36:r0001:c0004",
+          "row_index": 1,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "87",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_36:r0001:c0005",
+          "row_index": 1,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "75",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_36:r0002:c0000",
+          "row_index": 2,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Appearance",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_36:r0002:c0001",
+          "row_index": 2,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$P(R)^a$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_36:r0002:c0002",
+          "row_index": 2,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "P(W)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_36:r0002:c0003",
+          "row_index": 2,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "P(W)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_36:r0002:c0004",
+          "row_index": 2,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "F(W)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_36:r0002:c0005",
+          "row_index": 2,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "P(W)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_36:r0003:c0000",
+          "row_index": 3,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Intrinsic viscosity",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_36:r0003:c0001",
+          "row_index": 3,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.089",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_36:r0003:c0002",
+          "row_index": 3,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.096",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_36:r0003:c0003",
+          "row_index": 3,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "—",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_36:r0003:c0004",
+          "row_index": 3,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.422",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_36:r0003:c0005",
+          "row_index": 3,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.063",
+          "is_header": false
+        }
+      ],
+      "image_path": "organized/reference_no_0021296/images/4275545965270d6dfb0144bbf8325905ece6985101121d1289b239c34a14b825.jpg"
+    },
+    {
+      "block_id": "P_3_37",
+      "type": "text",
+      "section": "Results",
+      "text": "",
+      "page": 3,
+      "bbox": [
+        117.0,
+        239.0,
+        501.0,
+        573.0
+      ],
+      "source_block_index": 37,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_3_38",
+      "type": "text",
+      "section": "Results",
+      "text": "The synthesized DA-polyesters HS, HI, and HT are insoluble in most common solvents, while OT(2) can be readily dissolved in solvents such as THF, DMF, and DMSO. This might be attributed to the relatively low molecular weight and the existence of methyl side groups. Nevertheless, all samples were soluble in m-cresol. Attempts have been made to cast films from the m-cresol solutions of the polymers, and it was found that HT can be readily cast into compact and good-quality translucent films with a light beige color.",
+      "page": 3,
+      "bbox": [
+        117.0,
+        571.0,
+        501.0,
+        739.0
+      ],
+      "source_block_index": 38,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_3_39",
+      "type": "text",
+      "section": "Results",
+      "text": "The measurements of the intrinsic viscosities were made in a thermostat bath regulated to 25 $\\pm \\ : \\ : 0 . 0 2 ^ { \\circ } \\mathrm { C } .$. The dilute solution in m-cresol was charged into a Ubbelohde-type viscometer for testing. Hence, the intrinsic viscosities ([<sub>h</sub>]) of the synthesized DA-polyesters can be obtained and summarized also in Table III. The result shows that the molar molecular weight of HT ([<sub>h</sub>] $= 0 . 4 2 2 )$should be much higher than others ([<sub>h</sub>] $< 0 . 1 )$and that ofOT(2) is the lowest among these four DA-polyesters $( [ \\eta ] = 0 . 0 6 3 )$. The results are consistent with the forms of the as-synthesised polymers, i.e., fiber form for HT, and powder form for the others.",
+      "page": 3,
+      "bbox": [
+        117.0,
+        739.0,
+        501.0,
+        909.0
+      ],
+      "source_block_index": 39,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_3_39",
+        "V2_3_3_1",
+        "V2_3_3_3",
+        "V2_3_3_5",
+        "V2_3_3_7"
+      ]
+    },
+    {
+      "block_id": "P_3_40",
+      "type": "text",
+      "section": "Results",
+      "text": "",
+      "page": 3,
+      "bbox": [
+        529.0,
+        239.0,
+        911.0,
+        286.0
+      ],
+      "source_block_index": 40,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_3_41",
+      "type": "title",
+      "section": "Results",
+      "text": "Spectroscopy Analysis",
+      "page": 3,
+      "bbox": [
+        529.0,
+        308.0,
+        699.0,
+        325.0
+      ],
+      "source_block_index": 41,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_3_42",
+      "type": "title",
+      "section": "Results",
+      "text": "Fourier-Transform Infrared (FTIR) and Raman Spectroscopy25",
+      "page": 3,
+      "bbox": [
+        529.0,
+        330.0,
+        870.0,
+        364.0
+      ],
+      "source_block_index": 42,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_3_43",
+      "type": "text",
+      "section": "Results",
+      "text": "FTIR spectra of the as-synthesised DA-polyesters HS, HI, HT, and OT(2) are shown in Figure 1. Due to its methyl side groups in OT(2), the asymmetric and symmetric stretching bands are observed at 2990 and 2870 cm<sup>21</sup>, while deformation bands at 1450 and $1 3 7 8 ~ \\mathrm { { c m } ^ { - 1 } }$, respectively. For all aromatic DA-polyesters, the sharp and strong band at $7 3 0 ~ \\mathrm { c m } ^ { \\hat { - } \\mathbf { 1 } }$is attributed to CH wagging vibrations of the benzene ring. The characteristic stretching modes of diacetylene group $\\scriptstyle - \\mathrm { C } = \\mathrm { C } -$C'C— are seen at about 2260 and $2 \\bar { 1 } 6 0 ~ \\mathrm { { c m } ^ { - 1 } }$as weak bands.",
+      "page": 3,
+      "bbox": [
+        529.0,
+        369.0,
+        913.0,
+        508.0
+      ],
+      "source_block_index": 43,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_3_43",
+        "V2_3_7_1",
+        "V2_3_7_3",
+        "V2_3_7_5",
+        "V2_3_7_7"
+      ]
+    },
+    {
+      "block_id": "I_3_44",
+      "type": "image",
+      "section": "Results",
+      "page": 3,
+      "bbox": [
+        560.0,
+        546.0,
+        883.0,
+        872.0
+      ],
+      "source_block_index": 44,
+      "alignment_status": "matched",
+      "caption": "Figure 1. FTIR spectra of the as-synthesized DA– polyesters HS, HI, HT, and OT(2).",
+      "image_path": "organized/reference_no_0021296/images/f392894104118d8ed1e964abee6c47528aa9ab08e4f0cc5981c7da091709fd06.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "I_4_47",
+      "type": "image",
+      "section": "Results",
+      "page": 4,
+      "bbox": [
+        145.0,
+        89.0,
+        473.0,
+        393.0
+      ],
+      "source_block_index": 47,
+      "alignment_status": "matched",
+      "caption": "Figure 2. Raman spectra of the as-synthesized DA– polyesters HS, HI, HT, and OT(2).",
+      "image_path": "organized/reference_no_0021296/images/10e7a9be3003fb01837cd0728bd092abcea4a68c8c4d20b7cdfac0b7fd61f9b4.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "P_4_48",
+      "type": "text",
+      "section": "Results",
+      "text": "",
+      "page": 4,
+      "bbox": [
+        117.0,
+        465.0,
+        500.0,
+        512.0
+      ],
+      "source_block_index": 48,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_4_49",
+      "type": "text",
+      "section": "Results",
+      "text": "Raman spectroscopy is complementary to infrared spectroscopy, and is a better technique to detect the formation of the PDA chains and to investigate the factors that affect the crosspolymerization. Raman spectra of as-synthesised DApolyesters of HS, HI, HT, and OT(2) are shown in Figure 2. It is indicated that aliphatic DA-polyester HS is partially crosspolymerized during purification and upon storage. This is clearly illustrated in Figure 2 that, in addition to the band of unreacted diacetylene $( { \\mathrm { - } } \\mathrm { C } { \\equiv } \\mathrm { C } { \\mathrm { - } } \\mathrm { C } { \\equiv } \\mathrm { C } { \\mathrm { - } } )$at about $2 2 6 0 ~ \\mathrm { c m } ^ { - 1 }$, bands of C'C and C|C vibration in polydiacetylene are also seen at 2106 and $1 5 0 7 \\mathrm { c m } ^ { - 1 }$. The vibrational bands for polydiacetylene, however, were not detected in the as-synthesised aromatic DA-polyester HT, HI, and OT(2).",
+      "page": 4,
+      "bbox": [
+        117.0,
+        513.0,
+        501.0,
+        756.0
+      ],
+      "source_block_index": 49,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_4_49",
+        "V2_4_2_1",
+        "V2_4_2_3",
+        "V2_4_2_5"
+      ]
+    },
+    {
+      "block_id": "P_4_50",
+      "type": "text",
+      "section": "Results",
+      "text": "Raman technique was also used to study the solid-state topochemical crosspolymerization of the diacetylene units in the polymers. Figure 3 shows the Raman spectra of thermally treated DA-polyesters. The aromatic DA-polyesters HI, HT, and OT(2) were isothermally treated in nitrogen at $8 0 ^ { \\circ } \\mathrm { C }$for 45 h, while HS was treated for 15 h. By monitoring the three vibrational bands of the unreacted and reacted diacetylenes at about 2260, 2110, and $1 5 0 0 ~ \\mathrm { { c m } ^ { - 1 } }$, it can be seen that aliphatic HS is much more reactive than the other three aromatic DA-polyesters, as the $2 2 6 0 ~ \\mathrm { c m } ^ { - 1 }$band for unreacted diacetylene is no longer detectable. This indicated that most of the diacetylene units have crosspolymerized into polydiacetylene chains after the thermal treatment. However, the Raman spectra of OT(2) remains essentially unchanged before and after thermal treatment at $8 0 ^ { \\circ } \\mathrm { C } ,$, indicating that little or no reaction occurred at this annealing temperature because no polydiacetylene bands at about 2110 and $1 5 0 0 ~ \\mathrm { { c m } ^ { - 1 } }$are observed. Furthermore, for aromatic DA-polyesters HT and HI synthesized from isomers of phthaloyl dichloride, it can be seen that HI is more reactive than HT, indicated by the relatively peak intensity of the bands of diacetylene units (at $2 2 6 0 ~ \\mathrm { c m } ^ { - 1 } )$and polydiacetylene chains (at about 2110 and $1 5 0 0 ~ \\mathrm { { c m } ^ { - 1 } ) }$. Because the melting temperatures of the DA-polyesters studied here are all higher than $1 0 0 ^ { \\circ } \\mathrm { C } _ { : }$, as can be seen later in the DSC results, it is certain that the thermally induced crosspolymerization at $8 0 ^ { \\circ } \\mathrm { C }$follows a solid-state reaction mechanism of diacetylene. This implies that the differences in the solid-state reactivity of the diacetylene units in HI and HT may be attributed to less favorable molecular packing in para-derivative $\\mathrm { H T } . ^ { 2 6 } \\mathrm { ~ A ~ }$recent molecular modeling work on the diacetylene single crystals<sup>27</sup> has also suggested that the tere-",
+      "page": 4,
+      "bbox": [
+        117.0,
+        755.0,
+        501.0,
+        909.0
+      ],
+      "source_block_index": 50,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_4_50",
+        "V2_4_3_1",
+        "V2_4_3_3",
+        "V2_4_3_5",
+        "V2_4_3_7",
+        "V2_4_3_9",
+        "V2_4_3_11",
+        "V2_4_3_13",
+        "V2_4_3_15",
+        "V2_4_3_17",
+        "V2_4_3_19"
+      ]
+    },
+    {
+      "block_id": "P_4_51",
+      "type": "text",
+      "section": "Results",
+      "text": "",
+      "page": 4,
+      "bbox": [
+        529.0,
+        87.0,
+        913.0,
+        531.0
+      ],
+      "source_block_index": 51,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "I_4_52",
+      "type": "image",
+      "section": "Results",
+      "page": 4,
+      "bbox": [
+        557.0,
+        566.0,
+        883.0,
+        871.0
+      ],
+      "source_block_index": 52,
+      "alignment_status": "matched",
+      "caption": "Figure 3. Raman spectra of the isothermally treated DA-polyesters at 80°C.",
+      "image_path": "organized/reference_no_0021296/images/9a761a5a0cb844349ba631189ee74143f4450a1545c3cae24ca689a08e1f16ae.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "I_5_55",
+      "type": "image",
+      "section": "Results",
+      "page": 5,
+      "bbox": [
+        143.0,
+        88.0,
+        475.0,
+        378.0
+      ],
+      "source_block_index": 55,
+      "alignment_status": "matched",
+      "caption": "Figure 4. Wide-angle X-ray diffraction patterns of the as-synthesized DA-polyesters HS, HI, HT, and OT(2).",
+      "image_path": "organized/reference_no_0021296/images/bd99aa9cd43d9232aa83268a289ff3f557551eee9c46a774fe4d40f586d57760.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "P_5_56",
+      "type": "text",
+      "section": "Results",
+      "text": "(para-) isomer required a large change of the crystal lattice parameters for the solid-state polymerization to take place comparing to the metadisubstituted counterpart for their particular systems. The further reduction of solid-state reactivity of diacetylene units in OT(2) can be explained by an even less favorable molecular arrangement for crosspolymerization due to its para-disubstituted structure and the steric hindrance effect of the methyl side groups. It is quite clear that the differences in molecular packing of the polymers, which determines the energy required for the crosspolymerization of diacetylene segments in the DA-polyesters, would therefore give rise to differences in the solid-state reactivity. The findings from Raman spectroscopy on the solid-state reactivity of the DA-polyesters corroborate well with the interchain spacing data obtained from WAXD analysis discussed as following.",
+      "page": 5,
+      "bbox": [
+        117.0,
+        464.0,
+        501.0,
+        739.0
+      ],
+      "source_block_index": 56,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_5_57",
+      "type": "text",
+      "section": "Results",
+      "text": "",
+      "page": 5,
+      "bbox": [
+        529.0,
+        87.0,
+        911.0,
+        119.0
+      ],
+      "source_block_index": 57,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_5_58",
+      "type": "title",
+      "section": "Results",
+      "text": "Wide-Angle X-ray Diffraction (WAXD)",
+      "page": 5,
+      "bbox": [
+        531.0,
+        137.0,
+        818.0,
+        154.0
+      ],
+      "source_block_index": 58,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_5_59",
+      "type": "text",
+      "section": "Results",
+      "text": "Wide-angle X-ray diffraction patterns of the DApolyesters HS, HI, HT, and OT(2) are shown in Figure 4. It can be seen that all the DA-polyesters are semicrystalline evident from the observation of several relatively sharp crystalline diffraction peaks overlapping on a broad amorphous halo around $2 \\theta \\approx 2 3 ^ { \\circ }$. Table IV lists 2u and d-spacing values of these peaks as well as the relative intensity $( I / I _ { 0 } )$for the DA-polyesters.",
+      "page": 5,
+      "bbox": [
+        529.0,
+        161.0,
+        913.0,
+        299.0
+      ],
+      "source_block_index": 59,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_5_59",
+        "V2_5_4_1",
+        "V2_5_4_3"
+      ]
+    },
+    {
+      "block_id": "P_5_60",
+      "type": "text",
+      "section": "Results",
+      "text": "All detected crystalline peaks within 2u range of 10 to $6 0 ^ { \\circ }$, except for the amorphous at around $2 3 ^ { \\circ }$, should be due to the interchain spacing because the periodic length along the polymer chains is expected to be at a much lower 2u angle. It can be seen from Figure 4 and Table IV that the aliphatic DA-polyester HS shows three narrow and close crystalline peaks in shorter interchain spacing of 3–4 Å, indicating a more favorable structure for crosspolymerization. Comparing meta- and para-isomers of aromatic DA-polyesters, i.e., HI and HT, a higher degree of crystallinity is observed in HI as the diffraction peaks are sharper with a lower amorphous background. Longer interchain distances are also observed for para-disubstituted HT. This finding may seem to be somewhat strange, because one usually expects that the meta-disubstitution may result in less linear polymer chains, and hence, larger interchain spacing. However, the WAXD data in Table IV are actually in good agreement with the results from thermal analysis and other observation, which showed that crosspolymerization in HI is more readily achieved comparing to HT. This indicates that HI may have a more favorable molecular packing structure, i.e., closer packing, for the crosspolymerization to occur. In fact, similar phenomena were reported for the diacetylene single-crystal systems where para-isomers were found to have larger interchain spacing compared to the meta-disubstituted counterparts.<sup>26,27</sup> Comparing the two para-disubstituted DA-polyesters, HT and OT(2), the diffraction peaks detected at higher 2u angle have very similar d-spacing (3.46 Å), but the interchain spacing of the lower 2u angle peak is found to be much larger for OT(2), 5.57 Å than that for HT, 4.46 Å. Because the structural units of the two polymers differ only in the methyl side groups, it is not difficult to assume that the methyl side groups in OT(2), two in each structural units, might have caused the polymer chain to separate further. The diffraction peak in OT(2), which is supposed to be corresponding to the relatively weak diffraction observed in HT at $2 \\theta = 1 1 . 3 ^ { \\circ }$and $d = 7 . 8 6 \\mathrm { ~ \\AA } ,$was not observed. This is probably due to the low 2u angle of this diffraction peak, which may be out of the scan range of the equipment used under the present conditions. It is worth mentioning that an earlier article<sup>20</sup> presented a totally different WAXD pattern for an aromatic DA-polyester showing several extra sharp diffraction peaks of 2u at about 32, 45, and 56°, although no explanation was given on the results. In the present study, similar sharp peaks were only observed in HT and HI samples before solvent extraction, and these peaks disappeared after the rigorous sample purification by extraction using methanol and acetone. Therefore, the present study has confirmed that these extra sharp peaks reported ear-$\\mathrm { l i e r ^ { 2 0 } }$were actually artifacts due to the diffraction of the impurities such as small molar mass substances or oligomers that can be easily extracted away by methanol and acetone.",
+      "page": 5,
+      "bbox": [
+        529.0,
+        297.0,
+        913.0,
+        741.0
+      ],
+      "source_block_index": 60,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_5_60",
+        "V2_5_5_1",
+        "V2_5_5_3",
+        "V2_5_5_5",
+        "V2_5_5_7",
+        "V2_5_5_9"
+      ]
+    },
+    {
+      "block_id": "T_5_61",
+      "type": "table",
+      "section": "Results",
+      "page": 5,
+      "bbox": [
+        120.0,
+        791.0,
+        910.0,
+        901.0
+      ],
+      "source_block_index": 61,
+      "alignment_status": "matched",
+      "caption": "Table IV. WAXD Results of the as-Synthesised DA-Polyesters Showing the Values of 2u, d and $\\mathrm { I } / \\mathrm { I } _ { 0 }$",
+      "table_body": "<table><tr><td colspan=\"3\">HS</td><td colspan=\"3\">HI</td><td colspan=\"3\">HT</td><td colspan=\"3\">OT(2)</td></tr><tr><td> $2\\theta^{\\circ}$ </td><td>d</td><td> $I/I_0$ </td><td> $2\\theta^{\\circ}$ </td><td>d</td><td> $I/I_0$ </td><td> $2\\theta^{\\circ}$ </td><td>d</td><td> $I/I_0$ </td><td> $2\\theta^{\\circ}$ </td><td>d</td><td> $I/I_0$ </td></tr><tr><td>22.1</td><td>4.02</td><td>100</td><td>13.0</td><td>6.80</td><td>100</td><td>11.3</td><td>7.86</td><td>51</td><td>15.9</td><td>5.57</td><td>100</td></tr><tr><td>24.3</td><td>3.66</td><td>72</td><td>21.0</td><td>4.24</td><td>68</td><td>19.0</td><td>4.68</td><td>100</td><td>23.3</td><td>3.81</td><td>62</td></tr><tr><td>26.9</td><td>3.31</td><td>58</td><td>26.9</td><td>3.31</td><td>75</td><td>25.7</td><td>3.46</td><td>87</td><td>25.8</td><td>3.46</td><td>50</td></tr></table>",
+      "table_cells": [
+        {
+          "cell_id": "T_5_61:r0000:c0000",
+          "row_index": 0,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 3,
+          "text": "HS",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_61:r0000:c0003",
+          "row_index": 0,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 3,
+          "text": "HI",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_61:r0000:c0006",
+          "row_index": 0,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 3,
+          "text": "HT",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_61:r0000:c0009",
+          "row_index": 0,
+          "column_index": 9,
+          "row_span": 1,
+          "column_span": 3,
+          "text": "OT(2)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_61:r0001:c0000",
+          "row_index": 1,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$2\\theta^{\\circ}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_61:r0001:c0001",
+          "row_index": 1,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "d",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_61:r0001:c0002",
+          "row_index": 1,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$I/I_0$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_61:r0001:c0003",
+          "row_index": 1,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$2\\theta^{\\circ}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_61:r0001:c0004",
+          "row_index": 1,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "d",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_61:r0001:c0005",
+          "row_index": 1,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$I/I_0$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_61:r0001:c0006",
+          "row_index": 1,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$2\\theta^{\\circ}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_61:r0001:c0007",
+          "row_index": 1,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "d",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_61:r0001:c0008",
+          "row_index": 1,
+          "column_index": 8,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$I/I_0$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_61:r0001:c0009",
+          "row_index": 1,
+          "column_index": 9,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$2\\theta^{\\circ}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_61:r0001:c0010",
+          "row_index": 1,
+          "column_index": 10,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "d",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_61:r0001:c0011",
+          "row_index": 1,
+          "column_index": 11,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$I/I_0$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_61:r0002:c0000",
+          "row_index": 2,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "22.1",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_61:r0002:c0001",
+          "row_index": 2,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "4.02",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_61:r0002:c0002",
+          "row_index": 2,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "100",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_61:r0002:c0003",
+          "row_index": 2,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "13.0",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_61:r0002:c0004",
+          "row_index": 2,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "6.80",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_61:r0002:c0005",
+          "row_index": 2,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "100",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_61:r0002:c0006",
+          "row_index": 2,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "11.3",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_61:r0002:c0007",
+          "row_index": 2,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "7.86",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_61:r0002:c0008",
+          "row_index": 2,
+          "column_index": 8,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "51",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_61:r0002:c0009",
+          "row_index": 2,
+          "column_index": 9,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "15.9",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_61:r0002:c0010",
+          "row_index": 2,
+          "column_index": 10,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "5.57",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_61:r0002:c0011",
+          "row_index": 2,
+          "column_index": 11,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "100",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_61:r0003:c0000",
+          "row_index": 3,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "24.3",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_61:r0003:c0001",
+          "row_index": 3,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "3.66",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_61:r0003:c0002",
+          "row_index": 3,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "72",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_61:r0003:c0003",
+          "row_index": 3,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "21.0",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_61:r0003:c0004",
+          "row_index": 3,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "4.24",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_61:r0003:c0005",
+          "row_index": 3,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "68",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_61:r0003:c0006",
+          "row_index": 3,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "19.0",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_61:r0003:c0007",
+          "row_index": 3,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "4.68",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_61:r0003:c0008",
+          "row_index": 3,
+          "column_index": 8,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "100",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_61:r0003:c0009",
+          "row_index": 3,
+          "column_index": 9,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "23.3",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_61:r0003:c0010",
+          "row_index": 3,
+          "column_index": 10,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "3.81",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_61:r0003:c0011",
+          "row_index": 3,
+          "column_index": 11,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "62",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_61:r0004:c0000",
+          "row_index": 4,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "26.9",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_61:r0004:c0001",
+          "row_index": 4,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "3.31",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_61:r0004:c0002",
+          "row_index": 4,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "58",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_61:r0004:c0003",
+          "row_index": 4,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "26.9",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_61:r0004:c0004",
+          "row_index": 4,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "3.31",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_61:r0004:c0005",
+          "row_index": 4,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "75",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_61:r0004:c0006",
+          "row_index": 4,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "25.7",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_61:r0004:c0007",
+          "row_index": 4,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "3.46",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_61:r0004:c0008",
+          "row_index": 4,
+          "column_index": 8,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "87",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_61:r0004:c0009",
+          "row_index": 4,
+          "column_index": 9,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "25.8",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_61:r0004:c0010",
+          "row_index": 4,
+          "column_index": 10,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "3.46",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_61:r0004:c0011",
+          "row_index": 4,
+          "column_index": 11,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "50",
+          "is_header": false
+        }
+      ],
+      "image_path": "organized/reference_no_0021296/images/437786a420b6ea340ce845d2cbe490d456bae48191d1d94490f1444f9b7dd37b.jpg"
+    },
+    {
+      "block_id": "T_6_64",
+      "type": "table",
+      "section": "Results",
+      "page": 6,
+      "bbox": [
+        120.0,
+        119.0,
+        500.0,
+        217.0
+      ],
+      "source_block_index": 64,
+      "alignment_status": "matched",
+      "caption": "Table V. List of $\\mathrm { T _ { 3 \\% } }$ and Percentage of Residue Data for the DA-Polyesters",
+      "table_body": "<table><tr><td>DA-Polyester</td><td>HS</td><td>HI</td><td>HT</td><td>OT(2)</td></tr><tr><td> $T_{3\\%} (N_2)$ </td><td>188</td><td>256</td><td>276</td><td>225</td></tr><tr><td> $T_{3\\%} (air)$ </td><td>201</td><td>266</td><td>280</td><td>230</td></tr><tr><td>% residue (N2) at 800°C</td><td>34.0</td><td>34.1</td><td>39.7</td><td>33.2</td></tr></table>",
+      "table_cells": [
+        {
+          "cell_id": "T_6_64:r0000:c0000",
+          "row_index": 0,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "DA-Polyester",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_64:r0000:c0001",
+          "row_index": 0,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "HS",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_64:r0000:c0002",
+          "row_index": 0,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "HI",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_64:r0000:c0003",
+          "row_index": 0,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "HT",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_64:r0000:c0004",
+          "row_index": 0,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "OT(2)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_64:r0001:c0000",
+          "row_index": 1,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$T_{3\\%} (N_2)$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_64:r0001:c0001",
+          "row_index": 1,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "188",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_64:r0001:c0002",
+          "row_index": 1,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "256",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_64:r0001:c0003",
+          "row_index": 1,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "276",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_64:r0001:c0004",
+          "row_index": 1,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "225",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_64:r0002:c0000",
+          "row_index": 2,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$T_{3\\%} (air)$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_64:r0002:c0001",
+          "row_index": 2,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "201",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_64:r0002:c0002",
+          "row_index": 2,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "266",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_64:r0002:c0003",
+          "row_index": 2,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "280",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_64:r0002:c0004",
+          "row_index": 2,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "230",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_64:r0003:c0000",
+          "row_index": 3,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "% residue (N2) at 800°C",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_64:r0003:c0001",
+          "row_index": 3,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "34.0",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_64:r0003:c0002",
+          "row_index": 3,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "34.1",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_64:r0003:c0003",
+          "row_index": 3,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "39.7",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_64:r0003:c0004",
+          "row_index": 3,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "33.2",
+          "is_header": false
+        }
+      ],
+      "image_path": "organized/reference_no_0021296/images/2cb0db2bc079f98f584823bfd066a9ee002324ce6e168041f722ee6b63b97d42.jpg"
+    },
+    {
+      "block_id": "P_6_65",
+      "type": "text",
+      "section": "Results",
+      "text": "",
+      "page": 6,
+      "bbox": [
+        117.0,
+        258.0,
+        501.0,
+        792.0
+      ],
+      "source_block_index": 65,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_6_66",
+      "type": "title",
+      "section": "Results",
+      "text": "Thermal Analysis",
+      "page": 6,
+      "bbox": [
+        119.0,
+        814.0,
+        251.0,
+        830.0
+      ],
+      "source_block_index": 66,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_6_67",
+      "type": "title",
+      "section": "Results",
+      "text": "Thermogravimetric Analysis (TGA)",
+      "page": 6,
+      "bbox": [
+        120.0,
+        837.0,
+        377.0,
+        854.0
+      ],
+      "source_block_index": 67,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_6_68",
+      "type": "text",
+      "section": "Results",
+      "text": "$T _ { 3 \\% }$is defined as the temperature at which the weight loss is observed at 3%, and is sometimes considered as the onset temperature for degradation of a polymer for comparative purpose. $T _ { 3 \\% }$values obtained both in nitrogen and air are shown in Table V. It can be seen that aromatic DA-polyesters, HT, HI, and OT(2), are much more thermally stable than aliphatic DA-polyester HS, regardless of the testing atmosphere, due to the introduction of the benzene ring in the polymer backbone. Also, the differences in the thermal stability of the HI, HT, and OT(2) can be explained by the position of substitution and the presence of methyl side groups, although the difference in the molar molecular weight among these polymers may also affect their thermal stability. It is interesting to see that, for all DApolyesters studied in this work, the degradation occurred in two stages in air, leaving little or no residue, whereas the degradation occurred mainly in a single stage in nitrogen (200–500°C), leaving a considerable amount of residue of about 30–40%.",
+      "page": 6,
+      "bbox": [
+        119.0,
+        859.0,
+        500.0,
+        907.0
+      ],
+      "source_block_index": 68,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_6_68",
+        "V2_6_4_0",
+        "V2_6_4_2"
+      ]
+    },
+    {
+      "block_id": "P_6_69",
+      "type": "text",
+      "section": "Results",
+      "text": "",
+      "page": 6,
+      "bbox": [
+        527.0,
+        87.0,
+        913.0,
+        393.0
+      ],
+      "source_block_index": 69,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_6_70",
+      "type": "title",
+      "section": "Results",
+      "text": "Differential Scanning Calorimetry (DSC)",
+      "page": 6,
+      "bbox": [
+        531.0,
+        405.0,
+        831.0,
+        422.0
+      ],
+      "source_block_index": 70,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_6_71",
+      "type": "text",
+      "section": "Results",
+      "text": "The DSC curves of as-synthesised DA-polyesters HS, HI, HT, and OT(2) are shown in Figure 5, and the temperatures of melting $( T _ { m } )$and exothermic reaction $( T _ { \\mathrm { e x o } } )$of as-synthesised DA-polyesters and their enthalpies are summarized in Table VI. It can be seen that the melting behavior is observed in HS and OT(2) but not in HT and HI. This absence of melting in semicrystalline HT and HI is probably due to overlapping of the melting transition and the large exothermic peak of the crosspolymerization of diacetylene units. For HS and OT(2), on the other hand, the melting",
+      "page": 6,
+      "bbox": [
+        527.0,
+        428.0,
+        913.0,
+        614.0
+      ],
+      "source_block_index": 71,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_6_71",
+        "V2_6_7_1",
+        "V2_6_7_3"
+      ]
+    },
+    {
+      "block_id": "I_6_72",
+      "type": "image",
+      "section": "Results",
+      "page": 6,
+      "bbox": [
+        558.0,
+        638.0,
+        885.0,
+        844.0
+      ],
+      "source_block_index": 72,
+      "alignment_status": "matched",
+      "caption": "Temperature (°C) Figure 5. DSC curves of the as-synthesized DA-polyesters HS, HI, HT, and OT(2).",
+      "image_path": "organized/reference_no_0021296/images/2f9f6f7191be52fecee33d249a640831c45dab745fd3b6a73f6c431b840fd7de.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "I_7_75",
+      "type": "image",
+      "section": "Results",
+      "page": 7,
+      "bbox": [
+        171.0,
+        88.0,
+        447.0,
+        292.0
+      ],
+      "source_block_index": 75,
+      "alignment_status": "matched",
+      "caption": "Figure 6. Isothermal DSC curve of the as-synthesized HS at $8 0 ^ { \\circ } \\mathrm { C }$",
+      "image_path": "organized/reference_no_0021296/images/e44b9be5b00931d0294ce84f45667310893aa4e007208b5388ecf63fc42cbe24.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "P_7_76",
+      "type": "text",
+      "section": "Results",
+      "text": "transition and the exothermic crosspolymerizating reaction (in the melt state) are more separated mainly because of the highly flexible aliphatic polymer chains in HS and the presence of the methyl side groups in OT(2). The temperature differences between melting and crosspolymerization are 62 and $7 0 \\mathrm { { } ^ { \\circ } C }$for HS and OT(2), respectively. This would enable these DA-polyesters to be processed in the melt state before a significant degree of crosspolymerization occurs. In fact, it was found that the as-synthesized OT(2) could be compression molded into brittle polymer sheets, which are transparent and light-yellow in color. It can also be seen from the DSC curves in Figure 5 that both aliphatic HS and meta-disubstituted HI exhibit a well-defined sharp single exothermic peak, while para-disubstituted HT and OT(2) give a much broader exothermic transition with two poorly defined peaks. This implies that the crosspolymerization of HS and HI occurs more easily and rapidly, while the crosspolymerization in HT and OT(2) takes place in a more gradual manner. It is important to point out the difference between the reactivity of the diacetylene units in the solid state and that in the molten state for these DApolyesters because only the former is believed to be controlled by the molecular packing geometry.",
+      "page": 7,
+      "bbox": [
+        117.0,
+        361.0,
+        501.0,
+        713.0
+      ],
+      "source_block_index": 76,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_7_76",
+        "V2_7_1_1"
+      ]
+    },
+    {
+      "block_id": "T_7_77",
+      "type": "table",
+      "section": "Results",
+      "page": 7,
+      "bbox": [
+        120.0,
+        776.0,
+        498.0,
+        873.0
+      ],
+      "source_block_index": 77,
+      "alignment_status": "matched",
+      "caption": "Table VI. DSC Results of the Synthesised DA-Polyesters",
+      "table_body": "<table><tr><td></td><td>HS</td><td>HI</td><td>HT</td><td>OT(2)</td></tr><tr><td> $T_{m}$  (°C)</td><td>103</td><td>—a</td><td>—b</td><td>156</td></tr><tr><td> $\\Delta H_{m}$  (J/g)</td><td>36.0</td><td>—a</td><td>—a</td><td>12.0</td></tr><tr><td> $T_{exo}$  (°C)</td><td>165</td><td>145</td><td>155, 191</td><td>226, 250</td></tr><tr><td> $\\Delta H_{exo}$  (J/g)</td><td>450</td><td>210</td><td>—b</td><td>—b</td></tr></table>",
+      "table_cells": [
+        {
+          "cell_id": "T_7_77:r0000:c0000",
+          "row_index": 0,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_77:r0000:c0001",
+          "row_index": 0,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "HS",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_77:r0000:c0002",
+          "row_index": 0,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "HI",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_77:r0000:c0003",
+          "row_index": 0,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "HT",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_77:r0000:c0004",
+          "row_index": 0,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "OT(2)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_77:r0001:c0000",
+          "row_index": 1,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$T_{m}$ (°C)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_77:r0001:c0001",
+          "row_index": 1,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "103",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_77:r0001:c0002",
+          "row_index": 1,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "—a",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_77:r0001:c0003",
+          "row_index": 1,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "—b",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_77:r0001:c0004",
+          "row_index": 1,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "156",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_77:r0002:c0000",
+          "row_index": 2,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$\\Delta H_{m}$ (J/g)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_77:r0002:c0001",
+          "row_index": 2,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "36.0",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_77:r0002:c0002",
+          "row_index": 2,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "—a",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_77:r0002:c0003",
+          "row_index": 2,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "—a",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_77:r0002:c0004",
+          "row_index": 2,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "12.0",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_77:r0003:c0000",
+          "row_index": 3,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$T_{exo}$ (°C)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_77:r0003:c0001",
+          "row_index": 3,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "165",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_77:r0003:c0002",
+          "row_index": 3,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "145",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_77:r0003:c0003",
+          "row_index": 3,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "155, 191",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_77:r0003:c0004",
+          "row_index": 3,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "226, 250",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_77:r0004:c0000",
+          "row_index": 4,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$\\Delta H_{exo}$ (J/g)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_77:r0004:c0001",
+          "row_index": 4,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "450",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_77:r0004:c0002",
+          "row_index": 4,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "210",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_77:r0004:c0003",
+          "row_index": 4,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "—b",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_77:r0004:c0004",
+          "row_index": 4,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "—b",
+          "is_header": false
+        }
+      ],
+      "image_path": "organized/reference_no_0021296/images/25ab19274b2a2aa2a069c8197c59c92507f48995c80b846f1eda4cfc66a67e3b.jpg"
+    },
+    {
+      "block_id": "P_7_78",
+      "type": "text",
+      "section": "Results",
+      "text": "",
+      "page": 7,
+      "bbox": [
+        529.0,
+        87.0,
+        911.0,
+        148.0
+      ],
+      "source_block_index": 78,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_7_79",
+      "type": "text",
+      "section": "Results",
+      "text": "The solid-state crosspolymerization reactivity of these DA-polyesters was studied using the Raman technique on the isothermally treated DApolyesters, as discussed earlier. Further investigation was also carried out using an isothermal DSC technique on these polymers at the same temperature, $\\mathrm { i . e . , }$at $8 0 ^ { \\circ } \\mathrm { C } .$. No exothermic peaks were observed in the isothermal DSC traces even after 45 h at $8 0 ^ { \\circ } \\mathrm { C }$for the aromatic DA-polyesters, although Raman spectra indicated partial crosspolymerization in HT and HI, as seen earlier in Figure 3. The absence of exothermic peaks implies that the crosspolymerization occurs in very slow rates in these aromatic DA-polyesters under such conditions. However, the isothermal DSC trace at the same temperature shows a large distinct exotherm of 410 J/g, which peaks at 165 min, for the aliphatic HS, as seen in Figure 6. This also supports the earlier discussion that HS is more reactive in the solid state than the three aromatic DA-polyesters.",
+      "page": 7,
+      "bbox": [
+        529.0,
+        148.0,
+        913.0,
+        469.0
+      ],
+      "source_block_index": 79,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_7_79",
+        "V2_7_4_1",
+        "V2_7_4_3",
+        "V2_7_4_5"
+      ]
+    },
+    {
+      "block_id": "P_7_80",
+      "type": "title",
+      "section": "Results",
+      "text": "Dynamic Mechanical Analysis (DMA)",
+      "page": 7,
+      "bbox": [
+        531.0,
+        481.0,
+        810.0,
+        498.0
+      ],
+      "source_block_index": 80,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_7_81",
+      "type": "text",
+      "section": "Results",
+      "text": "Solution-cast films and melt processed OT(2) sheets were analyzed using DMA in tension mode and single-cantilever mode, respectively. The beige-colored translucent HT films, typically 40 m thick, were cast from m-cresol, while the light-yellow color transparent OT(2) sheets, typically 1 mm thick, were obtained from melt processing of the as-synthesized OT(2) at ${ \\bf 1 7 0 ^ { \\circ } C }$DMA tests were also carried out on the heattreated samples to observe the effect of crosspolymerization. Figures 7 and 8 plot the DMA traces of the as-processed samples, and samples treated at $\\mathrm { 1 7 0 ^ { \\circ } C }$for 2 h. In addition, the second DMA run traces of the treated samples after first run to $2 2 0 ^ { \\circ } \\mathrm { C }$were also presented. The plots of storage modulus $( E ^ { \\prime } )$and mechanical damping (tan d) vs. temperature are shown. The $T _ { g }$and peak tan d values as well as the $E ^ { \\prime }$values at room temperature $( 2 5 \\pm 2 ^ { \\circ } \\mathrm { C } )$are summarized in Table",
+      "page": 7,
+      "bbox": [
+        529.0,
+        503.0,
+        913.0,
+        568.0
+      ],
+      "source_block_index": 81,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_7_81",
+        "V2_7_6_1",
+        "V2_7_6_3",
+        "V2_7_6_5",
+        "V2_7_6_7",
+        "V2_7_6_9",
+        "V2_7_6_11",
+        "V2_7_6_13"
+      ]
+    },
+    {
+      "block_id": "I_7_82",
+      "type": "image",
+      "section": "Results",
+      "page": 7,
+      "bbox": [
+        553.0,
+        603.0,
+        887.0,
+        857.0
+      ],
+      "source_block_index": 82,
+      "alignment_status": "matched",
+      "caption": "Figure 7. DMA curves of solution cast HT films. (a) As-cast, (b) thermally treated at $\\mathrm { 1 7 0 ^ { \\circ } C }$ for 2 h, and (c) second run of (b) after heated to 220°C.",
+      "image_path": "organized/reference_no_0021296/images/f768d0f284435cf1aa0472d8caf46d3f363b55789b3c5e6e65898dfb14baa6ef.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "I_8_85",
+      "type": "image",
+      "section": "Results",
+      "page": 8,
+      "bbox": [
+        122.0,
+        88.0,
+        496.0,
+        369.0
+      ],
+      "source_block_index": 85,
+      "alignment_status": "matched",
+      "caption": "Figure 8. DMA curves of melt-processed OT(2) sheets. (a) As-cast, (b) thermally treated at 170°C for $^ { 2 \\mathrm { ~ h , ~ } }$ and (c) second run of (b) after heated to 220°C.",
+      "image_path": "organized/reference_no_0021296/images/13d1b69827b41771f6d68719e31e4e5853edd45d10716a236c6c5c875c8a6d10.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "P_8_86",
+      "type": "text",
+      "section": "Results",
+      "text": "",
+      "page": 8,
+      "bbox": [
+        117.0,
+        452.0,
+        501.0,
+        681.0
+      ],
+      "source_block_index": 86,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_8_87",
+      "type": "text",
+      "section": "Results",
+      "text": "VII. It can be seen that the as-processed DApolyesters have unique dynamic mechanical behavior. The initial large decrease in storage modulus $( E ^ { \\prime } )$due to glass transition is followed by an equally large increase in $E ^ { \\prime }$as the temperature rises for both HT and OT(2). This increase in $E ^ { \\prime }$is caused by the thermally initiated crosspolymerization that stiffens the polymer by introducing crosslinking and also by forming more rigid polydiacetylene chain reinforcing the polyester at the molecular level. The results also show that, compared to OT(2) samples of the same thermal history, HT has a higher $T _ { g }$and a higher storage modulus value probably due to the absence of methyl side groups on this aromatic DA-polyester.",
+      "page": 8,
+      "bbox": [
+        529.0,
+        87.0,
+        913.0,
+        316.0
+      ],
+      "source_block_index": 87,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_8_87",
+        "V2_8_2_1",
+        "V2_8_2_3",
+        "V2_8_2_5",
+        "V2_8_2_7"
+      ]
+    },
+    {
+      "block_id": "P_8_88",
+      "type": "text",
+      "section": "Results",
+      "text": "Substantial increases in the storage moduli of both HT and OT(2) were observed after thermal treatment, which should be due to crosspolymerization of DA-polyesters. Crosspolymerization has also lead to an increase in the glass transition temperature for both polymers. For example, the $T _ { g }$of OT(2) increased from $\\mathrm { 1 3 3 ^ { \\circ } C }$for the as-processed to $\\bf { 1 9 8 ^ { \\circ } C }$for the thermal treated at 170°C and then to $2 1 0 ^ { \\circ } \\mathrm { C }$for the second run of the treated sample. On the other hand, the peak tan values become considerably smaller, and in fact, no tan d peaks were observed for the heat-treated HT. Furthermore, no drastic drop of storage modulus was observed for the thermally treated samples of HT and OT(2). The thermally treated HT and OT(2) remain relatively rigid even at temperature up to $2 2 0 ^ { \\circ } \\mathrm { C }$as indicated by the storage modulus vs. temperature curves.",
+      "page": 8,
+      "bbox": [
+        529.0,
+        315.0,
+        913.0,
+        590.0
+      ],
+      "source_block_index": 88,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_8_88",
+        "V2_8_3_1",
+        "V2_8_3_3",
+        "V2_8_3_5",
+        "V2_8_3_7",
+        "V2_8_3_9"
+      ]
+    },
+    {
+      "block_id": "P_8_89",
+      "type": "title",
+      "section": "Conclusion",
+      "text": "CONCLUSIONS",
+      "page": 8,
+      "bbox": [
+        531.0,
+        617.0,
+        668.0,
+        635.0
+      ],
+      "source_block_index": 89,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_8_90",
+      "type": "text",
+      "section": "Conclusion",
+      "text": "The structure, morphology, and properties of a series of polyesters containing conjugated diacetylene (DA-polyesters), prepared from two different diacetylene diols and aromatic/aliphatic diacid chlorides, were characterized using spectroscopic methods, including FTIR, Raman, and WAXD, and thermal analysis, including TGA, DSC, and DMA techniques. Raman spectroscopic and isothermal DSC studies show that the reactivity of the solid-state topochemical polymerization of the diacetylene units in the aliphatic DApolyester is much higher than in the aromatic counterparts. For the aromatic DA-polyesters studied, the reactivity of para-disubstituted DApolyester HT is lower than that of the meta-disubstituted HI due to the difference of substitution, while a further reduction of diacetylene reactivity is observed in OT(2) due to the presence of methyl groups on the backbone. The results also suggest that there is a close link between the solid-state reactivity of the DA-polyesters and the molecular packing geometry, in particular, the interchain d-spacing of the polymers, which in turn, is largely determined by the chemical structures of the polymers. The shorter the interchain spacing, the higher the solid-state reactivity of the diacetylene units in these DA-polyesters.",
+      "page": 8,
+      "bbox": [
+        527.0,
+        648.0,
+        913.0,
+        681.0
+      ],
+      "source_block_index": 90,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "T_8_91",
+      "type": "table",
+      "section": "Conclusion",
+      "page": 8,
+      "bbox": [
+        119.0,
+        746.0,
+        910.0,
+        885.0
+      ],
+      "source_block_index": 91,
+      "alignment_status": "matched",
+      "caption": "Table VII. Summary of DMA Results of HT and OT(2) Showing $T _ { g } ,$ Peak tan d Values and Room Temperature Storage Moduli of the as-Processed and Thermally Treated Samples",
+      "table_body": "<table><tr><td rowspan=\"2\">Sample History</td><td colspan=\"3\">HT</td><td colspan=\"3\">OT(2)</td></tr><tr><td>as-Cast</td><td>Treated @ 170°C for 2  $hrs^a$ </td><td>Second Run of the Treated  $HT^a$ </td><td>as-Processed</td><td>Treated @ 170°C for 2 hrs</td><td>Second Run of the Treated OT(2)</td></tr><tr><td> $T_g$ (°C)</td><td>143</td><td>&gt;220</td><td>&gt;220</td><td>133</td><td>198</td><td>218</td></tr><tr><td>Tan δ</td><td>0.22</td><td>—</td><td>—</td><td>1.06</td><td>0.21</td><td>0.15</td></tr><tr><td>E&#x27; (GPa) @ 25°C</td><td>0.66</td><td>1.63</td><td>2.44</td><td>0.46</td><td>1.07</td><td>1.71</td></tr></table>",
+      "table_cells": [
+        {
+          "cell_id": "T_8_91:r0000:c0000",
+          "row_index": 0,
+          "column_index": 0,
+          "row_span": 2,
+          "column_span": 1,
+          "text": "Sample History",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_91:r0000:c0001",
+          "row_index": 0,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 3,
+          "text": "HT",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_91:r0000:c0004",
+          "row_index": 0,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 3,
+          "text": "OT(2)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_91:r0001:c0001",
+          "row_index": 1,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "as-Cast",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_91:r0001:c0002",
+          "row_index": 1,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Treated @ 170°C for 2 $hrs^a$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_91:r0001:c0003",
+          "row_index": 1,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Second Run of the Treated $HT^a$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_91:r0001:c0004",
+          "row_index": 1,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "as-Processed",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_91:r0001:c0005",
+          "row_index": 1,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Treated @ 170°C for 2 hrs",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_91:r0001:c0006",
+          "row_index": 1,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Second Run of the Treated OT(2)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_91:r0002:c0000",
+          "row_index": 2,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$T_g$ (°C)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_91:r0002:c0001",
+          "row_index": 2,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "143",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_91:r0002:c0002",
+          "row_index": 2,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": ">220",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_91:r0002:c0003",
+          "row_index": 2,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": ">220",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_91:r0002:c0004",
+          "row_index": 2,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "133",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_91:r0002:c0005",
+          "row_index": 2,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "198",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_91:r0002:c0006",
+          "row_index": 2,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "218",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_91:r0003:c0000",
+          "row_index": 3,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Tan δ",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_91:r0003:c0001",
+          "row_index": 3,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.22",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_91:r0003:c0002",
+          "row_index": 3,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "—",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_91:r0003:c0003",
+          "row_index": 3,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "—",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_91:r0003:c0004",
+          "row_index": 3,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1.06",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_91:r0003:c0005",
+          "row_index": 3,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.21",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_91:r0003:c0006",
+          "row_index": 3,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.15",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_91:r0004:c0000",
+          "row_index": 4,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "E' (GPa) @ 25°C",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_91:r0004:c0001",
+          "row_index": 4,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.66",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_91:r0004:c0002",
+          "row_index": 4,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1.63",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_91:r0004:c0003",
+          "row_index": 4,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "2.44",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_91:r0004:c0004",
+          "row_index": 4,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.46",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_91:r0004:c0005",
+          "row_index": 4,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1.07",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_91:r0004:c0006",
+          "row_index": 4,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1.71",
+          "is_header": false
+        }
+      ],
+      "image_path": "organized/reference_no_0021296/images/8c7443a58562b22ff45d56500383942b305f410376d5fde5f40507acc3725421.jpg"
+    },
+    {
+      "block_id": "P_9_94",
+      "type": "text",
+      "section": "Conclusion",
+      "text": "",
+      "page": 9,
+      "bbox": [
+        117.0,
+        87.0,
+        501.0,
+        476.0
+      ],
+      "source_block_index": 94,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_9_95",
+      "type": "text",
+      "section": "Conclusion",
+      "text": "In the present work, compact and coherent films and sheets can be obtained from HT and OT(2) via solution casting and melt processing, respectively. It is, therefore, possible to carry out DMA analysis for these two polymers. The DMA curves show a dramatic recovery of the storage modulus above $T _ { g } ,$which is due to the thermalinduced crosspolymerization of the diacetylene segments during the tests of these polymers. A conclusion can also be drawn that thermal treatment of the DA-polyesters results in a large increase in $T _ { g }$and storage modulus, and a drastic reduction in the tan d value. This excellent processability, not reported previously, would enable further study to be carried out on the mechanical, morphological, and other properties of these polymers, and also provide opportunities for their usage as functional polymers in various applications.",
+      "page": 9,
+      "bbox": [
+        117.0,
+        474.0,
+        501.0,
+        770.0
+      ],
+      "source_block_index": 95,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_9_95",
+        "V2_9_1_1",
+        "V2_9_1_3"
+      ]
+    },
+    {
+      "block_id": "P_9_96",
+      "type": "text",
+      "section": "Conclusion",
+      "text": "The work is supported by an AcRF grant from the Nanyang Technological University, Singapore. One author (Li) would like to thank Nanyang Technological University for financial support through research scholarship.",
+      "page": 9,
+      "bbox": [
+        117.0,
+        784.0,
+        500.0,
+        858.0
+      ],
+      "source_block_index": 96,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_9_97",
+      "type": "title",
+      "section": "Conclusion",
+      "text": "REFERENCES AND NOTES",
+      "page": 9,
+      "bbox": [
+        532.0,
+        88.0,
+        754.0,
+        104.0
+      ],
+      "source_block_index": 97,
+      "alignment_status": "matched",
+      "title_level": 2
+    }
+  ],
+  "warnings": [
+    {
+      "code": "metadata_extraction_failed",
+      "message": "未配置统一 LLM 元数据提取器；document JSON 已继续生成"
+    }
+  ]
+}

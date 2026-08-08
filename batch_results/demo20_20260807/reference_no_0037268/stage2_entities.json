@@ -1,0 +1,796 @@
+{
+  "schema_version": "1.0",
+  "document_id": "reference_no_0037268",
+  "polymer_entities": [
+    {
+      "entity_id": "pe001",
+      "polymer_name": "Amylopectin",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "Amylopectin",
+        "AP",
+        "100% Amylopectin",
+        "amylopectin"
+      ],
+      "resolved_from_mentions": [
+        "m001",
+        "m002",
+        "m011",
+        "m034",
+        "m035",
+        "m041",
+        "m042",
+        "m043",
+        "m046",
+        "m047",
+        "m052",
+        "m058",
+        "m059",
+        "m087",
+        "m088",
+        "m095",
+        "m099",
+        "m107",
+        "m111",
+        "m114",
+        "m116",
+        "m117"
+      ],
+      "evidence": {
+        "block_id": "P_10_91",
+        "page": 10,
+        "bbox": [
+          115.0,
+          467.0,
+          884.0,
+          899.0
+        ],
+        "source_type": "text",
+        "source_sentence": "MATERIALS: Amylopectin (AP) and four biodegradable polymers (poly(ε-caprolactone) (PCL), poly(DL-lactide-Co-glycolide) (PLG), poly(3-hydroxy butyric acid) (PHBA), and poly(acrylic acid)(PAA)) were selected for this study."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.99
+      }
+    },
+    {
+      "entity_id": "pe002",
+      "polymer_name": "poly(ε-caprolactone)",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "poly(ε-caprolactone)",
+        "PCL",
+        "100% Poly(ε-caprolactone) (PCL)",
+        "Poly(ε-caprolactone)",
+        "Poly (ε-caprolactone)"
+      ],
+      "resolved_from_mentions": [
+        "m003",
+        "m004",
+        "m012",
+        "m013",
+        "m014",
+        "m036",
+        "m045",
+        "m048",
+        "m060",
+        "m061",
+        "m096",
+        "m100",
+        "m108",
+        "m112",
+        "m115",
+        "m118"
+      ],
+      "evidence": {
+        "block_id": "P_10_91",
+        "page": 10,
+        "bbox": [
+          115.0,
+          467.0,
+          884.0,
+          899.0
+        ],
+        "source_type": "text",
+        "source_sentence": "MATERIALS: Amylopectin (AP) and four biodegradable polymers (poly(ε-caprolactone) (PCL), poly(DL-lactide-Co-glycolide) (PLG), poly(3-hydroxy butyric acid) (PHBA), and poly(acrylic acid)(PAA)) were selected for this study."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.99
+      }
+    },
+    {
+      "entity_id": "pe003",
+      "polymer_name": "poly(DL-lactide-Co-glycolide)",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "poly(DL-lactide-Co-glycolide)",
+        "PLG",
+        "100% Poly(DL-lactide-Co-glycolide) (PGL)",
+        "Poly(DL-lactide-Co-glycolide)",
+        "PGL",
+        "Poly( DL-lactide-Co-glycolide)"
+      ],
+      "resolved_from_mentions": [
+        "m005",
+        "m006",
+        "m018",
+        "m019",
+        "m020",
+        "m037",
+        "m049",
+        "m053",
+        "m064",
+        "m065",
+        "m104",
+        "m119"
+      ],
+      "evidence": {
+        "block_id": "P_10_91",
+        "page": 10,
+        "bbox": [
+          115.0,
+          467.0,
+          884.0,
+          899.0
+        ],
+        "source_type": "text",
+        "source_sentence": "MATERIALS: Amylopectin (AP) and four biodegradable polymers (poly(ε-caprolactone) (PCL), poly(DL-lactide-Co-glycolide) (PLG), poly(3-hydroxy butyric acid) (PHBA), and poly(acrylic acid)(PAA)) were selected for this study."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.93
+      }
+    },
+    {
+      "entity_id": "pe004",
+      "polymer_name": "poly(3-hydroxy butyric acid)",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "poly(3-hydroxy butyric acid)",
+        "PHBA",
+        "100% Poly(3-hydroxy butyric acid) (PHBA)",
+        "Poly(3-hydroxy butyric acid)",
+        "Poly (3-hydroxy butyric acid)"
+      ],
+      "resolved_from_mentions": [
+        "m007",
+        "m008",
+        "m022",
+        "m023",
+        "m024",
+        "m038",
+        "m054",
+        "m062",
+        "m063",
+        "m105",
+        "m120"
+      ],
+      "evidence": {
+        "block_id": "P_10_91",
+        "page": 10,
+        "bbox": [
+          115.0,
+          467.0,
+          884.0,
+          899.0
+        ],
+        "source_type": "text",
+        "source_sentence": "MATERIALS: Amylopectin (AP) and four biodegradable polymers (poly(ε-caprolactone) (PCL), poly(DL-lactide-Co-glycolide) (PLG), poly(3-hydroxy butyric acid) (PHBA), and poly(acrylic acid)(PAA)) were selected for this study."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.99
+      }
+    },
+    {
+      "entity_id": "pe005",
+      "polymer_name": "poly(acrylic acid)",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "poly(acrylic acid)",
+        "PAA",
+        "100% Polyacrylic Acid (2000)(PAA)",
+        "Polyacrylic Acid",
+        "100% Polyacrylic Acid (450000)(PAA)",
+        "100% Polyacrylic Acid (750000)(PAA)",
+        "Poly acrylic acid",
+        "Poly acrylic acid (PAA) (MW:2000)",
+        "Poly acrylic acid (PAA) (MW:450000)",
+        "Poly acrylic acid (PAA) (MW:750000)",
+        "Poly acrylic acid (PAA)(MW:2000)",
+        "Poly acrylic acid (PAA)(MW:450000)",
+        "Poly acrylic acid (PAA)(MW:750000)"
+      ],
+      "resolved_from_mentions": [
+        "m009",
+        "m010",
+        "m026",
+        "m027",
+        "m028",
+        "m029",
+        "m030",
+        "m039",
+        "m050",
+        "m055",
+        "m071",
+        "m072",
+        "m073",
+        "m074",
+        "m075",
+        "m079",
+        "m080",
+        "m081",
+        "m082",
+        "m083",
+        "m097",
+        "m106",
+        "m121"
+      ],
+      "evidence": {
+        "block_id": "P_10_91",
+        "page": 10,
+        "bbox": [
+          115.0,
+          467.0,
+          884.0,
+          899.0
+        ],
+        "source_type": "text",
+        "source_sentence": "MATERIALS: Amylopectin (AP) and four biodegradable polymers (poly(ε-caprolactone) (PCL), poly(DL-lactide-Co-glycolide) (PLG), poly(3-hydroxy butyric acid) (PHBA), and poly(acrylic acid)(PAA)) were selected for this study."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.98
+      }
+    },
+    {
+      "entity_id": "pe006",
+      "polymer_name": "AP-PCL blends",
+      "polymer_type": "blend",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "AP-PCL blends",
+        "AP-PCL"
+      ],
+      "resolved_from_mentions": [
+        "m044",
+        "m051",
+        "m056",
+        "m094",
+        "m101"
+      ],
+      "evidence": {
+        "block_id": "P_20_146",
+        "page": 20,
+        "bbox": [
+          111.0,
+          117.0,
+          881.0,
+          526.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Table III shows the values of   $\\chi_{23}$  of three AP-PCL blends with compositions of 25-75%, 50-50% and 75-25%."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.97
+      }
+    },
+    {
+      "entity_id": "pe007",
+      "polymer_name": "25 - 75% AP-PCL",
+      "polymer_type": "blend",
+      "variant_of": "pe006",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "25 - 75% AP-PCL",
+        "25-75% AP-PCL",
+        "AP-PCI"
+      ],
+      "resolved_from_mentions": [
+        "m015",
+        "m066",
+        "m089",
+        "m113"
+      ],
+      "evidence": {
+        "block_id": "T_11_95",
+        "page": 11,
+        "bbox": [
+          120.0,
+          141.0,
+          877.0,
+          753.0
+        ],
+        "source_type": "table",
+        "source_sentence": "25 - 75% AP-PCL"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.91
+      }
+    },
+    {
+      "entity_id": "pe008",
+      "polymer_name": "50 -50% AP-PCL",
+      "polymer_type": "blend",
+      "variant_of": "pe006",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "50 -50% AP-PCL",
+        "50-50% AP-PCL"
+      ],
+      "resolved_from_mentions": [
+        "m016",
+        "m067",
+        "m090"
+      ],
+      "evidence": {
+        "block_id": "T_11_95",
+        "page": 11,
+        "bbox": [
+          120.0,
+          141.0,
+          877.0,
+          753.0
+        ],
+        "source_type": "table",
+        "source_sentence": "50 -50% AP-PCL"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.99
+      }
+    },
+    {
+      "entity_id": "pe009",
+      "polymer_name": "75 - 25% AP-PCL",
+      "polymer_type": "blend",
+      "variant_of": "pe006",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "75 - 25% AP-PCL",
+        "75-25% AP-PCL"
+      ],
+      "resolved_from_mentions": [
+        "m017",
+        "m068",
+        "m091"
+      ],
+      "evidence": {
+        "block_id": "T_11_95",
+        "page": 11,
+        "bbox": [
+          120.0,
+          141.0,
+          877.0,
+          753.0
+        ],
+        "source_type": "table",
+        "source_sentence": "75 - 25% AP-PCL"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.99
+      }
+    },
+    {
+      "entity_id": "pe010",
+      "polymer_name": "AP-PLG",
+      "polymer_type": "blend",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "AP-PLG"
+      ],
+      "resolved_from_mentions": [
+        "m092"
+      ],
+      "evidence": {
+        "block_id": "P_20_146",
+        "page": 20,
+        "bbox": [
+          111.0,
+          117.0,
+          881.0,
+          526.0
+        ],
+        "source_type": "text",
+        "source_sentence": "$\\chi_{23}$  were not calculated for AP-PLG and AP-PHBA."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.97
+      }
+    },
+    {
+      "entity_id": "pe011",
+      "polymer_name": "50 - 50% AP-PLG",
+      "polymer_type": "blend",
+      "variant_of": "pe010",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "50 - 50% AP-PLG",
+        "50-50% AP-PLG"
+      ],
+      "resolved_from_mentions": [
+        "m021",
+        "m069"
+      ],
+      "evidence": {
+        "block_id": "T_11_95",
+        "page": 11,
+        "bbox": [
+          120.0,
+          141.0,
+          877.0,
+          753.0
+        ],
+        "source_type": "table",
+        "source_sentence": "50 - 50% AP-PLG"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.99
+      }
+    },
+    {
+      "entity_id": "pe012",
+      "polymer_name": "AP-PHBA",
+      "polymer_type": "blend",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "AP-PHBA"
+      ],
+      "resolved_from_mentions": [
+        "m093",
+        "m122"
+      ],
+      "evidence": {
+        "block_id": "P_20_146",
+        "page": 20,
+        "bbox": [
+          111.0,
+          117.0,
+          881.0,
+          526.0
+        ],
+        "source_type": "text",
+        "source_sentence": "$\\chi_{23}$  were not calculated for AP-PLG and AP-PHBA."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.98
+      }
+    },
+    {
+      "entity_id": "pe013",
+      "polymer_name": "50 - 50% AP-PHBA",
+      "polymer_type": "blend",
+      "variant_of": "pe012",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "50 - 50% AP-PHBA",
+        "50-50% AP-PHBA"
+      ],
+      "resolved_from_mentions": [
+        "m025",
+        "m070"
+      ],
+      "evidence": {
+        "block_id": "T_11_95",
+        "page": 11,
+        "bbox": [
+          120.0,
+          141.0,
+          877.0,
+          753.0
+        ],
+        "source_type": "table",
+        "source_sentence": "50 - 50% AP-PHBA"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.99
+      }
+    },
+    {
+      "entity_id": "pe014",
+      "polymer_name": "AP-PAA",
+      "polymer_type": "blend",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "AP-PAA"
+      ],
+      "resolved_from_mentions": [
+        "m057"
+      ],
+      "evidence": {
+        "block_id": "P_16_130",
+        "page": 16,
+        "bbox": [
+          115.0,
+          726.0,
+          881.0,
+          802.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Polymer-Polymer Interaction Parameters,   $\\chi_{23}$ , for blend systems were calculated using IGC and equation (6) at a temperature range of 80 -160 °C.   $\\chi_{23}$  revealed mixed results, partially negative values for AP-PCL at a range of weight fractions (0 -100% AP), extremely exothermic for AP-PAA (for all molar mass)."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.98
+      }
+    },
+    {
+      "entity_id": "pe015",
+      "polymer_name": "50 - 50% AP-PAA (2000)",
+      "polymer_type": "blend",
+      "variant_of": "pe014",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "50 - 50% AP-PAA (2000)",
+        "50 - 50% AP-PAA (450000)",
+        "50 - 50% AP-PAA (750000)",
+        "50-50% AP-PAA (2000)",
+        "50-50% AP-PAA (450000)",
+        "50-50% AP-PAA (750000)",
+        "50-50% AP and PAA"
+      ],
+      "resolved_from_mentions": [
+        "m031",
+        "m032",
+        "m033",
+        "m076",
+        "m077",
+        "m078",
+        "m084",
+        "m085",
+        "m086",
+        "m098"
+      ],
+      "evidence": {
+        "block_id": "T_11_95",
+        "page": 11,
+        "bbox": [
+          120.0,
+          141.0,
+          877.0,
+          753.0
+        ],
+        "source_type": "table",
+        "source_sentence": "50 - 50% AP-PAA (2000)"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.91
+      }
+    },
+    {
+      "entity_id": "pe016",
+      "polymer_name": "Potato starch",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "Potato starch"
+      ],
+      "resolved_from_mentions": [
+        "m040"
+      ],
+      "evidence": {
+        "block_id": "P_13_109",
+        "page": 13,
+        "bbox": [
+          115.0,
+          337.0,
+          881.0,
+          581.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Potato starch containing amylopectin (AP) was purchased from Aldrich with an estimated molar mass of 6.60 million g/mol."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.96
+      }
+    },
+    {
+      "entity_id": "pe017",
+      "polymer_name": "corn starch",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "corn starch"
+      ],
+      "resolved_from_mentions": [
+        "m102"
+      ],
+      "evidence": {
+        "block_id": "P_22_156",
+        "page": 22,
+        "bbox": [
+          111.0,
+          200.0,
+          881.0,
+          478.0
+        ],
+        "source_type": "text",
+        "source_sentence": "It has been shown (44) a significant reduction in the degree of crystallinity when corn starch was blended with ethylene-co-vinyl acetates."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.95
+      }
+    },
+    {
+      "entity_id": "pe018",
+      "polymer_name": "ethylene-co-vinyl acetates",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "ethylene-co-vinyl acetates"
+      ],
+      "resolved_from_mentions": [
+        "m103"
+      ],
+      "evidence": {
+        "block_id": "P_22_156",
+        "page": 22,
+        "bbox": [
+          111.0,
+          200.0,
+          881.0,
+          478.0
+        ],
+        "source_type": "text",
+        "source_sentence": "It has been shown (44) a significant reduction in the degree of crystallinity when corn starch was blended with ethylene-co-vinyl acetates."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.94
+      }
+    },
+    {
+      "entity_id": "pe019",
+      "polymer_name": "PVF  $_{2}$",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "PVF  $_{2}$"
+      ],
+      "resolved_from_mentions": [
+        "m109"
+      ],
+      "evidence": {
+        "block_id": "P_22_158",
+        "page": 22,
+        "bbox": [
+          113.0,
+          550.0,
+          881.0,
+          643.0
+        ],
+        "source_type": "text",
+        "source_sentence": "coefficient   $\\chi_{23}$  and the interaction energy parameter (  $B_{23}$ ) experimentally by measuring the melting point-depression (or elevation) of a polymer mixture (blend) (Equations 11 and 12). In the past (I), we related the depression in the melting point of PVF  $_{2}$ -PEMA blend to the polymer blend miscibility successfully."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "entity_id": "pe020",
+      "polymer_name": "PEMA",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "PEMA"
+      ],
+      "resolved_from_mentions": [
+        "m110"
+      ],
+      "evidence": {
+        "block_id": "P_22_158",
+        "page": 22,
+        "bbox": [
+          113.0,
+          550.0,
+          881.0,
+          643.0
+        ],
+        "source_type": "text",
+        "source_sentence": "coefficient   $\\chi_{23}$  and the interaction energy parameter (  $B_{23}$ ) experimentally by measuring the melting point-depression (or elevation) of a polymer mixture (blend) (Equations 11 and 12). In the past (I), we related the depression in the melting point of PVF  $_{2}$ -PEMA blend to the polymer blend miscibility successfully."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.9
+      }
+    }
+  ],
+  "unresolved_mention_ids": [],
+  "provenance": {
+    "stage": "stage2_polymer_entity",
+    "provider": "dmx",
+    "model": "gpt-5.6-terra-2026-07-09",
+    "models": [
+      "gpt-5.6-terra-2026-07-09"
+    ],
+    "prompt_id": "polymer.stage2.polymer_entity",
+    "prompt_version": "1.2.0",
+    "prompt_sha256": "8293a9f30517fa564eb1fd5e3af02ea721f9ac48554f50edf089bcb9cec63801",
+    "input_hash": "fd51c10eac1760e5e8511621ba32b692ab259152fb42881d83eeaff7ef1d0104",
+    "model_config_hash": "c9e96c2514956e7b4b65eae3d327d34f95b7a33876cec6d4aa56f95eb79a9b50",
+    "cache_key": "591c6203d016fd26ef4e8be22b7b417b56c22073f9f32105c92bc683464061f3",
+    "output_schema_version": "polymer_entity_schema.v2",
+    "implementation_version": "1.3.3",
+    "context_block_count": 51,
+    "context_chars": 39831,
+    "call_count": 1,
+    "usage": {
+      "input_tokens": 27535,
+      "output_tokens": 3982,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "billable_input_tokens": 27535,
+      "total_tokens": 31517
+    },
+    "cost": {
+      "status": "calculated",
+      "currency": "CNY",
+      "input_per_million": "17",
+      "output_per_million": "101",
+      "input_cost": "0.468095",
+      "output_cost": "0.402182",
+      "total_cost": "0.870277"
+    },
+    "status": "success"
+  },
+  "warnings": [
+    {
+      "stage": "stage2_polymer_entity",
+      "code": "component_blend_nested_mentions_split",
+      "message": "组分名称与包含该名称的 blend 实体已保留为不同实体",
+      "items": [
+        {
+          "shorter_mention_id": "m099",
+          "longer_mention_id": "m101",
+          "component_entity_id": "pe001",
+          "blend_entity_id": "pe006"
+        },
+        {
+          "shorter_mention_id": "m045",
+          "longer_mention_id": "m044",
+          "component_entity_id": "pe002",
+          "blend_entity_id": "pe006"
+        },
+        {
+          "shorter_mention_id": "m096",
+          "longer_mention_id": "m094",
+          "component_entity_id": "pe002",
+          "blend_entity_id": "pe006"
+        },
+        {
+          "shorter_mention_id": "m100",
+          "longer_mention_id": "m101",
+          "component_entity_id": "pe002",
+          "blend_entity_id": "pe006"
+        }
+      ]
+    }
+  ]
+}

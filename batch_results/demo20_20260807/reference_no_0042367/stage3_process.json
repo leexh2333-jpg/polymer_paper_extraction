@@ -1,0 +1,588 @@
+{
+  "schema_version": "1.0",
+  "document_id": "reference_no_0042367",
+  "samples": [
+    {
+      "sample_id": "s001",
+      "sample_kind": "commercial_batch",
+      "refers_to_entity": "pe001",
+      "polymer_name": "Poly (e-caprolactone)",
+      "sample_label_raw": "Tone Polymer, P-676 TM",
+      "state_description": "granular form",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "P_1_20",
+        "page": 1,
+        "bbox": [
+          504.0,
+          638.0,
+          924.0,
+          806.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The Poly (e-caprolactone) (brand name Tone Polymer, P-676 TM) was supplied by the Dow Chemical Company;"
+      },
+      "confidence": {
+        "score": 0.99
+      }
+    },
+    {
+      "sample_id": "s002",
+      "sample_kind": "commercial_batch",
+      "refers_to_entity": "pe002",
+      "polymer_name": "Poly (l-lactide-glycolide) copolymer",
+      "sample_label_raw": "Purasorb PLG",
+      "state_description": "granular form",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "P_1_20",
+        "page": 1,
+        "bbox": [
+          504.0,
+          638.0,
+          924.0,
+          806.0
+        ],
+        "source_type": "text",
+        "source_sentence": "the Poly (l-lactide-glycolide) copolymer with a molar ratio of 83=17 (brand name Purasorb PLG) was obtained from Purac Biochem Bv Gorinchem;"
+      },
+      "confidence": {
+        "score": 0.99
+      }
+    },
+    {
+      "sample_id": "s003",
+      "sample_kind": "commercial_batch",
+      "refers_to_entity": "pe003",
+      "polymer_name": "Poly (dl-lactic acid)",
+      "sample_label_raw": "Galastic, PABR-L-68",
+      "state_description": "granular form",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "P_1_20",
+        "page": 1,
+        "bbox": [
+          504.0,
+          638.0,
+          924.0,
+          806.0
+        ],
+        "source_type": "text",
+        "source_sentence": "while the Poly (dl-lactic acid) (brand name Galastic, PABR-L-68) was obtained from Galactic Laboratories (a division of Brussels Biotech), all in granular form."
+      },
+      "confidence": {
+        "score": 0.99
+      }
+    },
+    {
+      "sample_id": "s004",
+      "sample_kind": "intermediate",
+      "refers_to_entity": "pe004",
+      "polymer_name": "PDLLA20/PCL80",
+      "sample_label_raw": "PDLLA20/PCL80",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "T_2_31",
+        "page": 2,
+        "bbox": [
+          71.0,
+          709.0,
+          488.0,
+          892.0
+        ],
+        "source_type": "table",
+        "source_sentence": "PDLLA20/PCL80"
+      },
+      "confidence": {
+        "score": 0.98
+      }
+    },
+    {
+      "sample_id": "s005",
+      "sample_kind": "intermediate",
+      "refers_to_entity": "pe005",
+      "polymer_name": "PDLLA50/PCL50",
+      "sample_label_raw": "PDLLA50/PCL50",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "T_2_31",
+        "page": 2,
+        "bbox": [
+          71.0,
+          709.0,
+          488.0,
+          892.0
+        ],
+        "source_type": "table",
+        "source_sentence": "PDLLA50/PCL50"
+      },
+      "confidence": {
+        "score": 0.98
+      }
+    },
+    {
+      "sample_id": "s006",
+      "sample_kind": "intermediate",
+      "refers_to_entity": "pe006",
+      "polymer_name": "PDLLA80/PCL20",
+      "sample_label_raw": "PDLLA80/PCL20",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "T_2_31",
+        "page": 2,
+        "bbox": [
+          71.0,
+          709.0,
+          488.0,
+          892.0
+        ],
+        "source_type": "table",
+        "source_sentence": "PDLLA80/PCL20"
+      },
+      "confidence": {
+        "score": 0.98
+      }
+    },
+    {
+      "sample_id": "s007",
+      "sample_kind": "intermediate",
+      "refers_to_entity": "pe007",
+      "polymer_name": "PLGA20/PCL80",
+      "sample_label_raw": "PLGA20/PCL80",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "T_2_31",
+        "page": 2,
+        "bbox": [
+          71.0,
+          709.0,
+          488.0,
+          892.0
+        ],
+        "source_type": "table",
+        "source_sentence": "PLGA20/PCL80"
+      },
+      "confidence": {
+        "score": 0.98
+      }
+    },
+    {
+      "sample_id": "s008",
+      "sample_kind": "intermediate",
+      "refers_to_entity": "pe008",
+      "polymer_name": "PLGA50/PCL50",
+      "sample_label_raw": "PLGA50/PCL50",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "T_2_31",
+        "page": 2,
+        "bbox": [
+          71.0,
+          709.0,
+          488.0,
+          892.0
+        ],
+        "source_type": "table",
+        "source_sentence": "PLGA50/PCL50"
+      },
+      "confidence": {
+        "score": 0.98
+      }
+    },
+    {
+      "sample_id": "s009",
+      "sample_kind": "intermediate",
+      "refers_to_entity": "pe009",
+      "polymer_name": "PLGA80/PCL20",
+      "sample_label_raw": "PLGA80/PCL20",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "T_2_31",
+        "page": 2,
+        "bbox": [
+          71.0,
+          709.0,
+          488.0,
+          892.0
+        ],
+        "source_type": "table",
+        "source_sentence": "PLGA80/PCL20"
+      },
+      "confidence": {
+        "score": 0.98
+      }
+    },
+    {
+      "sample_id": "s010",
+      "sample_kind": "intermediate",
+      "refers_to_entity": "pe010",
+      "polymer_name": "PDLLA80/PLGA20",
+      "sample_label_raw": "PDLLA80/PLGA20",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "T_2_31",
+        "page": 2,
+        "bbox": [
+          71.0,
+          709.0,
+          488.0,
+          892.0
+        ],
+        "source_type": "table",
+        "source_sentence": "PDLLA80/PLGA20"
+      },
+      "confidence": {
+        "score": 0.98
+      }
+    },
+    {
+      "sample_id": "s011",
+      "sample_kind": "intermediate",
+      "refers_to_entity": "pe011",
+      "polymer_name": "PDLLA50/PLGA50",
+      "sample_label_raw": "PDLLA50/PLGA50",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "T_2_31",
+        "page": 2,
+        "bbox": [
+          71.0,
+          709.0,
+          488.0,
+          892.0
+        ],
+        "source_type": "table",
+        "source_sentence": "PDLLA50/PLGA50"
+      },
+      "confidence": {
+        "score": 0.98
+      }
+    },
+    {
+      "sample_id": "s012",
+      "sample_kind": "intermediate",
+      "refers_to_entity": "pe012",
+      "polymer_name": "PDLLA20/PLGA20",
+      "sample_label_raw": "PDLLA20/PLGA20",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "T_2_31",
+        "page": 2,
+        "bbox": [
+          71.0,
+          709.0,
+          488.0,
+          892.0
+        ],
+        "source_type": "table",
+        "source_sentence": "PDLLA20/PLGA20"
+      },
+      "confidence": {
+        "score": 0.97
+      }
+    },
+    {
+      "sample_id": "s013",
+      "sample_kind": "processed_material",
+      "refers_to_entity": "pe001",
+      "polymer_name": "Poly (e-caprolactone)",
+      "state_description": "thin films",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "P_1_22",
+        "page": 1,
+        "bbox": [
+          504.0,
+          837.0,
+          924.0,
+          898.0
+        ],
+        "source_type": "text",
+        "source_sentence": "A two-step procedure was developed for the solvent casting of the thin films."
+      },
+      "confidence": {
+        "score": 0.95
+      }
+    },
+    {
+      "sample_id": "s014",
+      "sample_kind": "processed_material",
+      "refers_to_entity": "pe002",
+      "polymer_name": "Poly (l-lactide-glycolide) copolymer",
+      "state_description": "thin films",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "P_1_22",
+        "page": 1,
+        "bbox": [
+          504.0,
+          837.0,
+          924.0,
+          898.0
+        ],
+        "source_type": "text",
+        "source_sentence": "A two-step procedure was developed for the solvent casting of the thin films."
+      },
+      "confidence": {
+        "score": 0.95
+      }
+    },
+    {
+      "sample_id": "s015",
+      "sample_kind": "processed_material",
+      "refers_to_entity": "pe003",
+      "polymer_name": "Poly (dl-lactic acid)",
+      "state_description": "thin films",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "P_1_22",
+        "page": 1,
+        "bbox": [
+          504.0,
+          837.0,
+          924.0,
+          898.0
+        ],
+        "source_type": "text",
+        "source_sentence": "A two-step procedure was developed for the solvent casting of the thin films."
+      },
+      "confidence": {
+        "score": 0.95
+      }
+    }
+  ],
+  "process_steps": [
+    {
+      "step_id": "ps001",
+      "process_type": "blending",
+      "input_sample_ids": [
+        "s001",
+        "s003"
+      ],
+      "output_sample_ids": [
+        "s004"
+      ],
+      "parameters": {},
+      "evidence": {
+        "block_id": "T_2_31",
+        "page": 2,
+        "bbox": [
+          71.0,
+          709.0,
+          488.0,
+          892.0
+        ],
+        "source_type": "table",
+        "source_sentence": "PDLLA20/PCL80"
+      },
+      "confidence": {
+        "score": 0.98
+      }
+    },
+    {
+      "step_id": "ps002",
+      "process_type": "blending",
+      "input_sample_ids": [
+        "s001",
+        "s003"
+      ],
+      "output_sample_ids": [
+        "s005"
+      ],
+      "parameters": {},
+      "evidence": {
+        "block_id": "T_2_31",
+        "page": 2,
+        "bbox": [
+          71.0,
+          709.0,
+          488.0,
+          892.0
+        ],
+        "source_type": "table",
+        "source_sentence": "PDLLA50/PCL50"
+      },
+      "confidence": {
+        "score": 0.98
+      }
+    },
+    {
+      "step_id": "ps003",
+      "process_type": "blending",
+      "input_sample_ids": [
+        "s001",
+        "s003"
+      ],
+      "output_sample_ids": [
+        "s006"
+      ],
+      "parameters": {},
+      "evidence": {
+        "block_id": "T_2_31",
+        "page": 2,
+        "bbox": [
+          71.0,
+          709.0,
+          488.0,
+          892.0
+        ],
+        "source_type": "table",
+        "source_sentence": "PDLLA80/PCL20"
+      },
+      "confidence": {
+        "score": 0.98
+      }
+    },
+    {
+      "step_id": "ps004",
+      "process_type": "casting",
+      "input_sample_ids": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006",
+        "s007",
+        "s008",
+        "s009",
+        "s010",
+        "s011",
+        "s012"
+      ],
+      "output_sample_ids": [
+        "s013",
+        "s014",
+        "s015"
+      ],
+      "parameters": {
+        "agitation time": "2–4 hr",
+        "room temperature evaporation time": "24 hr"
+      },
+      "evidence": {
+        "block_id": "P_1_22",
+        "page": 1,
+        "bbox": [
+          504.0,
+          837.0,
+          924.0,
+          898.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The first step involved dissolving the polymer or polymer mixtures; $5 \\mathrm { g }$of the polymer or polymer mixtures were weighed and placed into a glass beaker, 50 ml of chloroform was added and the polymer=solvent mixture was agitated using a magnetic stirrer for a period of between 2–4 hr until the polymers were fully dissolved."
+      },
+      "confidence": {
+        "score": 0.96
+      }
+    }
+  ],
+  "unresolved_entity_ids": [
+    "pe013",
+    "pe014",
+    "pe015",
+    "pe016",
+    "pe017",
+    "pe018",
+    "pe019",
+    "pe020"
+  ],
+  "provenance": {
+    "stage": "stage3_sample_process",
+    "provider": "dmx",
+    "model": "doubao-seed-2.0-pro",
+    "models": [
+      "doubao-seed-2.0-pro"
+    ],
+    "prompt_id": "polymer.stage3.sample_process",
+    "prompt_version": "1.2.2",
+    "prompt_sha256": "ce2e2c59006b08286a1d41f8c6e5b8c9523abd65f8162c90b636eab35c5b263e",
+    "input_hash": "e18c637f09bea4d0b6a2be210ed000b5a0e36d36a28fd627cf023b56083e6f67",
+    "model_config_hash": "7a389959b1eae8cb35e4c5e5702559631666e759a9891cf98687a5b37dd5d1ad",
+    "cache_key": "516d259da0bf5d95687def9cd126dc5d6091c99e081691912af81891caa84909",
+    "output_schema_version": "sample_process_schema.v2",
+    "implementation_version": "1.3.5",
+    "context_block_count": 30,
+    "context_chars": 19456,
+    "call_count": 1,
+    "usage": {
+      "input_tokens": 12531,
+      "output_tokens": 8400,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "billable_input_tokens": 12531,
+      "total_tokens": 20931
+    },
+    "cost": {
+      "status": "calculated",
+      "currency": "CNY",
+      "input_per_million": "4.32",
+      "output_per_million": "29.15",
+      "input_cost": "0.05413392",
+      "output_cost": "0.24486",
+      "total_cost": "0.29899392"
+    },
+    "status": "success"
+  },
+  "warnings": [
+    {
+      "stage": "stage3_sample_process",
+      "code": "parameters_not_in_source",
+      "message": "无法定位到 evidence 原文的参数已舍弃",
+      "steps": [
+        {
+          "step_id": "ps001",
+          "parameter_keys": [
+            "composition"
+          ]
+        },
+        {
+          "step_id": "ps002",
+          "parameter_keys": [
+            "composition"
+          ]
+        },
+        {
+          "step_id": "ps003",
+          "parameter_keys": [
+            "composition"
+          ]
+        },
+        {
+          "step_id": "ps004",
+          "parameter_keys": [
+            "polymer to solvent ratio",
+            "oven drying time"
+          ]
+        }
+      ]
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "unresolved_entities",
+      "message": "8 个 entity 未解析到实际样品",
+      "entity_ids": [
+        "pe013",
+        "pe014",
+        "pe015",
+        "pe016",
+        "pe017",
+        "pe018",
+        "pe019",
+        "pe020"
+      ]
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "orphan_noninitial_samples",
+      "message": "非初始样品缺少原文支持的生成 ProcessStep",
+      "sample_ids": [
+        "s007",
+        "s008",
+        "s009",
+        "s010",
+        "s011",
+        "s012"
+      ]
+    }
+  ]
+}

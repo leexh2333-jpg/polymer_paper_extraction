@@ -1,0 +1,51 @@
+{
+  "accepted": false,
+  "output_root": "D:\\1work\\1_2026\\polymer\\testcode\\extraction\\output_random3_20260807_100348",
+  "expected_count": 3,
+  "selected_count": 3,
+  "passed_count": 0,
+  "failed_count": 3,
+  "count_issues": [],
+  "documents": [
+    {
+      "ref_no": "reference_no_0043955",
+      "passed": false,
+      "issues": [
+        "缺少 stage2_entities.json",
+        "缺少 stage3_process.json",
+        "缺少 stage4_properties.json",
+        "缺少 stage5_characterizations.json",
+        "candidate.publication.status 不是 complete：partial",
+        "candidate.stage_failures 必须是空列表"
+      ],
+      "historical_failures": []
+    },
+    {
+      "ref_no": "reference_no_0037268",
+      "passed": false,
+      "issues": [
+        "缺少 stage1_mentions.json",
+        "缺少 stage2_entities.json",
+        "缺少 stage3_process.json",
+        "缺少 stage4_properties.json",
+        "缺少 stage5_characterizations.json",
+        "candidate.publication.status 不是 complete：partial",
+        "candidate.stage_failures 必须是空列表"
+      ],
+      "historical_failures": []
+    },
+    {
+      "ref_no": "reference_no_0021296",
+      "passed": false,
+      "issues": [
+        "缺少 stage2_entities.json",
+        "缺少 stage3_process.json",
+        "缺少 stage4_properties.json",
+        "缺少 stage5_characterizations.json",
+        "candidate.publication.status 不是 complete：partial",
+        "candidate.stage_failures 必须是空列表"
+      ],
+      "historical_failures": []
+    }
+  ]
+}

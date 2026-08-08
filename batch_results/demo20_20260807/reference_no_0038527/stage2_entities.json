@@ -1,0 +1,763 @@
+{
+  "schema_version": "1.0",
+  "document_id": "reference_no_0038527",
+  "polymer_entities": [
+    {
+      "entity_id": "pe001",
+      "polymer_name": "Rg(Th-m,n/p)",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "polythiophenes",
+        "regioregular polythiophenes",
+        "Rg(Th-m,n/p)",
+        "polythiophene",
+        "regioregular alternating alkyl:semifluoroalkyl polymers",
+        "alternating regioregular alkyl:semifluoroalkyl polythiophenes",
+        "Rg(Thm,n/p)",
+        "amphiphilic regioregular alternating copolymers"
+      ],
+      "resolved_from_mentions": [
+        "m001",
+        "m003",
+        "m004",
+        "m015",
+        "m016",
+        "m017",
+        "m034",
+        "m039",
+        "m043",
+        "m048",
+        "m053",
+        "m054",
+        "m055",
+        "m061",
+        "m062",
+        "m071"
+      ],
+      "evidence": {
+        "block_id": "P_2_34",
+        "page": 2,
+        "bbox": [
+          66.0,
+          452.0,
+          485.0,
+          964.0
+        ],
+        "source_type": "text",
+        "source_sentence": "We chose the GRIM method<sup>70,72</sup> to polymerize the 3,4′-disubstituted 5,5′-dibromo-2,2′-bithiophenes, 7, and thereby prepare a series of regioregular polythiophenes, Rg(Th-m,n/p), with alternating 3-alkylthiophene and 3-(semifluoroalkyl)thiophene subunits along the backbone (Figure 3)."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.94
+      }
+    },
+    {
+      "entity_id": "pe002",
+      "polymer_name": "Rn(Th-5,4/8)",
+      "variant_of": "pe001",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "Rn(Th-5,4/8)"
+      ],
+      "resolved_from_mentions": [
+        "m005",
+        "m012",
+        "m014",
+        "m018",
+        "m032",
+        "m035",
+        "m049",
+        "m063"
+      ],
+      "evidence": {
+        "block_id": "P_2_36",
+        "page": 2,
+        "bbox": [
+          514.0,
+          146.0,
+          932.0,
+          243.0
+        ],
+        "source_type": "text",
+        "source_sentence": "In addition to exploring the variation of chain lengths m, n, and p on the properties of the regioregular alternating polymers, we also prepared the regiorandom analogue, Rn(Th-5,4/8), by the oxidative polymerization<sup>64,76,77</sup> of $\\mathbf { 6 } ( m = 5 , n =$$4 , p = 8 )$in chloroform with ferric chloride."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.98
+      }
+    },
+    {
+      "entity_id": "pe003",
+      "polymer_name": "Rg(Th-5,4/p)",
+      "variant_of": "pe001",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "Rg(Th-5,4/p)"
+      ],
+      "resolved_from_mentions": [
+        "m010",
+        "m041",
+        "m051"
+      ],
+      "evidence": {
+        "block_id": "P_2_39",
+        "page": 2,
+        "bbox": [
+          514.0,
+          554.0,
+          933.0,
+          879.0
+        ],
+        "source_type": "text",
+        "source_sentence": "For example, for the series Rg(Th-5,4/p) the degree of polymerization of the CHCl<sub>3</sub> fraction increased from $x = 3 9$to 52 to 69 for the butyl, octyl, and dodecyl homologues $( p = 4 ,$8, 12), respectively."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.96
+      }
+    },
+    {
+      "entity_id": "pe004",
+      "polymer_name": "Rg(Th-5,4/1)",
+      "variant_of": "pe001",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "Rg(Th-5,4/1)"
+      ],
+      "resolved_from_mentions": [
+        "m006"
+      ],
+      "evidence": {
+        "block_id": "P_2_38",
+        "page": 2,
+        "bbox": [
+          514.0,
+          404.0,
+          933.0,
+          555.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Notably, attempts to prepare Rg(Th-5,4/1) (with a short alkyl side chain, i.e., methyl) and Rg(Th-5,8/8) and Rg(Th-5,8/12) (with long heptadecafluorooctyl segments, i.e., $m = 8 )$were hindered by the insolubility of the resulting polymers."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.95
+      }
+    },
+    {
+      "entity_id": "pe005",
+      "polymer_name": "Rg(Th-5,8/8)",
+      "variant_of": "pe001",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "Rg(Th-5,8/8)"
+      ],
+      "resolved_from_mentions": [
+        "m007"
+      ],
+      "evidence": {
+        "block_id": "P_2_38",
+        "page": 2,
+        "bbox": [
+          514.0,
+          404.0,
+          933.0,
+          555.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Notably, attempts to prepare Rg(Th-5,4/1) (with a short alkyl side chain, i.e., methyl) and Rg(Th-5,8/8) and Rg(Th-5,8/12) (with long heptadecafluorooctyl segments, i.e., $m = 8 )$were hindered by the insolubility of the resulting polymers."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.95
+      }
+    },
+    {
+      "entity_id": "pe006",
+      "polymer_name": "Rg(Th-5,8/12)",
+      "variant_of": "pe001",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "Rg(Th-5,8/12)"
+      ],
+      "resolved_from_mentions": [
+        "m008"
+      ],
+      "evidence": {
+        "block_id": "P_2_38",
+        "page": 2,
+        "bbox": [
+          514.0,
+          404.0,
+          933.0,
+          555.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Notably, attempts to prepare Rg(Th-5,4/1) (with a short alkyl side chain, i.e., methyl) and Rg(Th-5,8/8) and Rg(Th-5,8/12) (with long heptadecafluorooctyl segments, i.e., $m = 8 )$were hindered by the insolubility of the resulting polymers."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.95
+      }
+    },
+    {
+      "entity_id": "pe007",
+      "polymer_name": "Rg(Th-5,4/4)",
+      "variant_of": "pe001",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "Rg(Th-5,4/4)"
+      ],
+      "resolved_from_mentions": [
+        "m019",
+        "m057",
+        "m064"
+      ],
+      "evidence": {
+        "block_id": "P_4_64",
+        "page": 4,
+        "bbox": [
+          514.0,
+          761.0,
+          933.0,
+          965.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The X-ray diffraction patterns exhibit several sharp low-angle reflections corresponding to a well-ordered lamellar structure with interlayer distances ranging from 40.1 Å for the shortest homologue Rg(Th-5,4/4) up to 57.8 Å for the longest homologue Rg(Th-11,4/8)."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.98
+      }
+    },
+    {
+      "entity_id": "pe008",
+      "polymer_name": "Rg(Th-5,4/8)",
+      "variant_of": "pe001",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "Rg(Th-5,4/8)",
+        "Rg(Th-5,4/ 8)"
+      ],
+      "resolved_from_mentions": [
+        "m013",
+        "m020",
+        "m031",
+        "m033",
+        "m036",
+        "m050",
+        "m065"
+      ],
+      "evidence": {
+        "block_id": "P_3_47",
+        "page": 3,
+        "bbox": [
+          66.0,
+          853.0,
+          483.0,
+          964.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The difference in structure between regioregular Rg(Th-5,4/ 8) and regiorandom Rn(Th-5,4/8) is also evident in their $^ { 1 3 } \\mathrm { C }$NMR spectra (Figure 5)."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.96
+      }
+    },
+    {
+      "entity_id": "pe009",
+      "polymer_name": "Rg(Th-5,4/9)",
+      "variant_of": "pe001",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "Rg(Th-5,4/9)"
+      ],
+      "resolved_from_mentions": [
+        "m021",
+        "m045",
+        "m059"
+      ],
+      "evidence": {
+        "block_id": "P_4_61",
+        "page": 4,
+        "bbox": [
+          514.0,
+          241.0,
+          932.0,
+          444.0
+        ],
+        "source_type": "text",
+        "source_sentence": "For example, Rg(Th-5,4/9) has a melting point of $1 9 5 ~ ^ { \\circ } \\mathrm { C } .$, whereas the isosteric alkyl analogue, the poly(3-nonylthiophene) homopolymer, has a melting point of ${ \\mathrm { ~ \\bar { 1 } 8 6 ~ } } ^ { \\circ } \\mathrm { C } .$The higher melting point may be ascribed, in part, to the rigidity of the fluoroalkyl chains."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.98
+      }
+    },
+    {
+      "entity_id": "pe010",
+      "polymer_name": "Rg(Th-5,4/12)",
+      "variant_of": "pe001",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "Rg(Th-5,4/12)",
+        "Rg(Th-5,4/ 12)"
+      ],
+      "resolved_from_mentions": [
+        "m011",
+        "m022",
+        "m042",
+        "m056",
+        "m066",
+        "m070",
+        "m075"
+      ],
+      "evidence": {
+        "block_id": "P_4_60",
+        "page": 4,
+        "bbox": [
+          514.0,
+          51.0,
+          932.0,
+          240.0
+        ],
+        "source_type": "text",
+        "source_sentence": "For instance, the chloroform-soluble portion of Rg(Th-5,4/12) (x ) 69) exhibits a melting point $( T _ { \\mathrm { m } } )$at $1 9 7 ~ ^ { \\circ } \\mathrm { C }$on heating and a crystallization temperature $( T _ { \\mathrm { c } } )$at 169 °C on cooling, corresponding to a degree of supercooling (∆T) of $2 8 ~ ^ { \\circ } \\mathrm { C }$."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.97
+      }
+    },
+    {
+      "entity_id": "pe011",
+      "polymer_name": "Rg(Th-8,4/8)",
+      "variant_of": "pe001",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "Rg(Th-8,4/8)"
+      ],
+      "resolved_from_mentions": [
+        "m023",
+        "m067"
+      ],
+      "evidence": {
+        "block_id": "T_5_69",
+        "page": 5,
+        "bbox": [
+          71.0,
+          314.0,
+          478.0,
+          420.0
+        ],
+        "source_type": "table",
+        "source_sentence": "Rg(Th-8,4/8)"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.95
+      }
+    },
+    {
+      "entity_id": "pe012",
+      "polymer_name": "Rg(Th-11,4/8)",
+      "variant_of": "pe001",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "Rg(Th-11,4/8)"
+      ],
+      "resolved_from_mentions": [
+        "m024",
+        "m058",
+        "m068"
+      ],
+      "evidence": {
+        "block_id": "P_4_64",
+        "page": 4,
+        "bbox": [
+          514.0,
+          761.0,
+          933.0,
+          965.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The X-ray diffraction patterns exhibit several sharp low-angle reflections corresponding to a well-ordered lamellar structure with interlayer distances ranging from 40.1 Å for the shortest homologue Rg(Th-5,4/4) up to 57.8 Å for the longest homologue Rg(Th-11,4/8)."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.98
+      }
+    },
+    {
+      "entity_id": "pe013",
+      "polymer_name": "Rn(Th-5,4/9)",
+      "variant_of": "pe001",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "Rn(Th-5,4/9)"
+      ],
+      "resolved_from_mentions": [
+        "m025"
+      ],
+      "evidence": {
+        "block_id": "T_3_44",
+        "page": 3,
+        "bbox": [
+          71.0,
+          63.0,
+          928.0,
+          273.0
+        ],
+        "source_type": "table",
+        "source_sentence": "Rn(Th-5,4/9)"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.94
+      }
+    },
+    {
+      "entity_id": "pe014",
+      "polymer_name": "Rn(Th-3,6/9)",
+      "variant_of": "pe001",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "Rn(Th-3,6/9)"
+      ],
+      "resolved_from_mentions": [
+        "m026"
+      ],
+      "evidence": {
+        "block_id": "T_3_44",
+        "page": 3,
+        "bbox": [
+          71.0,
+          63.0,
+          928.0,
+          273.0
+        ],
+        "source_type": "table",
+        "source_sentence": "Rn(Th-3,6/9)"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.94
+      }
+    },
+    {
+      "entity_id": "pe015",
+      "polymer_name": "Rg(Th-3,6/9) (hexane-soluble)",
+      "variant_of": "pe001",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "Rg(Th-3,6/9) (hexane-soluble)",
+        "Rg(Th-3,6/9) (CHCl3-soluble)"
+      ],
+      "resolved_from_mentions": [
+        "m027",
+        "m028"
+      ],
+      "evidence": {
+        "block_id": "T_3_44",
+        "page": 3,
+        "bbox": [
+          71.0,
+          63.0,
+          928.0,
+          273.0
+        ],
+        "source_type": "table",
+        "source_sentence": "Rg(Th-3,6/9) (hexane-soluble)"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.88
+      }
+    },
+    {
+      "entity_id": "pe016",
+      "polymer_name": "Rn(Th-9,0)",
+      "variant_of": "pe001",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "Rn(Th-9,0)"
+      ],
+      "resolved_from_mentions": [
+        "m029"
+      ],
+      "evidence": {
+        "block_id": "T_3_44",
+        "page": 3,
+        "bbox": [
+          71.0,
+          63.0,
+          928.0,
+          273.0
+        ],
+        "source_type": "table",
+        "source_sentence": "Rn(Th-9,0)"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.94
+      }
+    },
+    {
+      "entity_id": "pe017",
+      "polymer_name": "Rg(Th-9,0)",
+      "variant_of": "pe001",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "Rg(Th-9,0)"
+      ],
+      "resolved_from_mentions": [
+        "m030"
+      ],
+      "evidence": {
+        "block_id": "T_3_44",
+        "page": 3,
+        "bbox": [
+          71.0,
+          63.0,
+          928.0,
+          273.0
+        ],
+        "source_type": "table",
+        "source_sentence": "Rg(Th-9,0)"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.94
+      }
+    },
+    {
+      "entity_id": "pe018",
+      "polymer_name": "Rg(Th-m,4/8)",
+      "variant_of": "pe001",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "Rg(Th-m,4/8)"
+      ],
+      "resolved_from_mentions": [
+        "m052"
+      ],
+      "evidence": {
+        "block_id": "P_4_62",
+        "page": 4,
+        "bbox": [
+          514.0,
+          445.0,
+          933.0,
+          648.0
+        ],
+        "source_type": "text",
+        "source_sentence": "While there is a clear decrease in melting point of the polymers as the alkyl chain length (p) increases, there is no such monotonic trend upon variation of the alkylene spacer length (m) (e.g., in the series Rg(Th-m,4/8))."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.94
+      }
+    },
+    {
+      "entity_id": "pe019",
+      "polymer_name": "PATs",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "PATs",
+        "$\\mathrm { P A } \\dot { \\mathrm { T s } } ^ { 1 8 }$",
+        "PAT"
+      ],
+      "resolved_from_mentions": [
+        "m002",
+        "m037",
+        "m038",
+        "m069",
+        "m072"
+      ],
+      "evidence": {
+        "block_id": "P_2_34",
+        "page": 2,
+        "bbox": [
+          66.0,
+          452.0,
+          485.0,
+          964.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The most common methods for generation of PATs include transition-metal-catalyzed coupling polymerization<sup>54–63</sup> and oxidative polymerization.<sup>25,64–69</sup>"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.82
+      }
+    },
+    {
+      "entity_id": "pe020",
+      "polymer_name": "regioregular poly(3-alkylthiophene) homopolymers",
+      "polymer_type": "homopolymer",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "regioregular poly(3-alkylthiophene) homopolymers",
+        "poly(3-alkylthiophene)s",
+        "regioregular poly(3-alkylthiophenes)"
+      ],
+      "resolved_from_mentions": [
+        "m044",
+        "m047",
+        "m073"
+      ],
+      "evidence": {
+        "block_id": "P_4_61",
+        "page": 4,
+        "bbox": [
+          514.0,
+          241.0,
+          932.0,
+          444.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The alternating regioregular alkyl:semifluoroalkyl polythiophenes studied have higher melting temperatures than similar regioregular poly(3-alkylthiophene) homopolymers."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.83
+      }
+    },
+    {
+      "entity_id": "pe021",
+      "polymer_name": "poly(3-nonylthiophene) homopolymer",
+      "polymer_type": "homopolymer",
+      "variant_of": "pe020",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "poly(3-nonylthiophene) homopolymer",
+        "regioregular poly(3-nonylthiophene)"
+      ],
+      "resolved_from_mentions": [
+        "m046",
+        "m060"
+      ],
+      "evidence": {
+        "block_id": "P_4_61",
+        "page": 4,
+        "bbox": [
+          514.0,
+          241.0,
+          932.0,
+          444.0
+        ],
+        "source_type": "text",
+        "source_sentence": "For example, Rg(Th-5,4/9) has a melting point of $1 9 5 ~ ^ { \\circ } \\mathrm { C } .$, whereas the isosteric alkyl analogue, the poly(3-nonylthiophene) homopolymer, has a melting point of ${ \\mathrm { ~ \\bar { 1 } 8 6 ~ } } ^ { \\circ } \\mathrm { C } .$The higher melting point may be ascribed, in part, to the rigidity of the fluoroalkyl chains."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.91
+      }
+    },
+    {
+      "entity_id": "pe022",
+      "polymer_name": "poly(3-hexylthiophene)",
+      "variant_of": "pe020",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "poly(3-hexylthiophene)"
+      ],
+      "resolved_from_mentions": [
+        "m076"
+      ],
+      "evidence": {
+        "block_id": "P_5_79",
+        "page": 5,
+        "bbox": [
+          514.0,
+          613.0,
+          932.0,
+          964.0
+        ],
+        "source_type": "text",
+        "source_sentence": "These values are comparable to those recorded for poly(3-hexylthiophene) $( \\mu = 2 \\times \\bar { 1 } 0 ^ { - 2 } \\mathrm { c m } ^ { 2 } / ( \\mathrm { V } \\mathrm { s } )$on/off $\\mathrm { r a t i o } \\stackrel { \\cdot } { = } \\stackrel { \\cdot } { 1 } \\times 1 0 ^ { \\stackrel { \\cdot } { 1 } } ) , \\stackrel { 7 8 } { }$although it should be noted that mobility decreases dramatically for longer side-chain homologues (a decrease by 95% in comparing the butyl and octyl analogues).<sup>79</sup>"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.8
+      }
+    }
+  ],
+  "unresolved_mention_ids": [
+    "m009",
+    "m040",
+    "m074"
+  ],
+  "provenance": {
+    "stage": "stage2_polymer_entity",
+    "provider": "dmx",
+    "model": "gpt-5.6-terra-2026-07-09",
+    "models": [
+      "gpt-5.6-terra-2026-07-09"
+    ],
+    "prompt_id": "polymer.stage2.polymer_entity",
+    "prompt_version": "1.2.0",
+    "prompt_sha256": "8293a9f30517fa564eb1fd5e3af02ea721f9ac48554f50edf089bcb9cec63801",
+    "input_hash": "714b7ae36c94e513d5b7b4fae691be72d9bec8fbeab55929c8739566b1b7a5a2",
+    "model_config_hash": "c9e96c2514956e7b4b65eae3d327d34f95b7a33876cec6d4aa56f95eb79a9b50",
+    "cache_key": "a0c73c06b411ed185bc0fe82545d6888d0499542ed5dbac9306d4ef935a7e027",
+    "output_schema_version": "polymer_entity_schema.v2",
+    "implementation_version": "1.3.3",
+    "context_block_count": 43,
+    "context_chars": 37035,
+    "call_count": 1,
+    "usage": {
+      "input_tokens": 23699,
+      "output_tokens": 5286,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "billable_input_tokens": 23699,
+      "total_tokens": 28985
+    },
+    "cost": {
+      "status": "calculated",
+      "currency": "CNY",
+      "input_per_million": "17",
+      "output_per_million": "101",
+      "input_cost": "0.402883",
+      "output_cost": "0.533886",
+      "total_cost": "0.936769"
+    },
+    "status": "success"
+  },
+  "warnings": [
+    {
+      "stage": "stage2_polymer_entity",
+      "code": "unresolved_mentions",
+      "message": "3 个 mention 未解析为实体，已原样保留引用",
+      "mention_ids": [
+        "m009",
+        "m040",
+        "m074"
+      ]
+    }
+  ]
+}

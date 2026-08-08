@@ -1,0 +1,817 @@
+{
+  "schema_version": "1.0",
+  "document_id": "reference_no_0039705",
+  "characterizations": [
+    {
+      "characterization_id": "char001",
+      "method_raw": "FT-IR",
+      "method_normalized": "FTIR",
+      "sample_ids": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006"
+      ],
+      "sample_resolution_status": "multi_resolved",
+      "instrument": "Bruker IFS 66V Fourier transform spectrometer",
+      "parameters": {
+        "sample_prep": "KBr pellets"
+      },
+      "derived_property_ids": [
+        "prop_s5_001",
+        "prop_s5_002",
+        "prop_s5_003",
+        "prop_s5_004",
+        "prop_s5_005"
+      ],
+      "evidence": [
+        {
+          "block_id": "P_1_20",
+          "page": 1,
+          "bbox": [
+            99.0,
+            796.0,
+            483.0,
+            903.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The infrared spectra were obtained on a Bruker IFS 66V Fourier transform spectrometer using KBr pellets."
+        },
+        {
+          "block_id": "P_3_59",
+          "page": 3,
+          "bbox": [
+            511.0,
+            471.0,
+            895.0,
+            634.0
+          ],
+          "source_type": "text",
+          "source_sentence": "Ia: FT-IR (KBr, cm\u0003<sup>1</sup>): 2946 and 2881 $\\mathrm { ( - C H _ { 2 } - ) }$2921 and 300 $\\mathrm { ( - C H _ { 3 } ) }$, 1601 (aromatic $- \\mathrm { C } \\mathrm { = } \\mathrm { C } - ) .$886 (o-substituted aromatic)"
+        },
+        {
+          "block_id": "P_3_60",
+          "page": 3,
+          "bbox": [
+            511.0,
+            633.0,
+            895.0,
+            813.0
+          ],
+          "source_type": "text",
+          "source_sentence": "IIa: FT-IR (KBr, $\\mathrm { c m } ^ { - 1 } ) { : }$2947 and 2878 $\\left( - \\mathrm { C H _ { 2 } } \\mathrm { - } \\right)$, 2931 and 3019 $\\mathrm { ( - C H _ { 3 } ) }$, 1599 (aromatic $- \\mathrm { C } \\mathrm { = } \\mathrm { C } - )$, 886 (o-substituted aromatic)"
+        },
+        {
+          "block_id": "P_9_111",
+          "page": 9,
+          "bbox": [
+            101.0,
+            648.0,
+            483.0,
+            709.0
+          ],
+          "source_type": "text",
+          "source_sentence": "absorption band appeared at 1653 $\\mathrm { c m } ^ { - 1 }$ corresponding to double bond of chalcone moiety was completely disappeared after UV irradiation."
+        }
+      ],
+      "confidence": {
+        "score": 0.95
+      }
+    },
+    {
+      "characterization_id": "char002",
+      "method_raw": "NMR",
+      "method_normalized": "NMR",
+      "sample_ids": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006"
+      ],
+      "sample_resolution_status": "multi_resolved",
+      "instrument": "Bruker 300 MHz spectrometer",
+      "parameters": {
+        "internal_standard": "TMS"
+      },
+      "derived_property_ids": [
+        "prop_s5_006",
+        "prop_s5_007"
+      ],
+      "evidence": [
+        {
+          "block_id": "P_1_20",
+          "page": 1,
+          "bbox": [
+            99.0,
+            796.0,
+            483.0,
+            903.0
+          ],
+          "source_type": "text",
+          "source_sentence": "High-resolution $^ { 1 } \\mathrm { H }$ and $^ { 1 3 } \\mathrm { C }$ NMR spectra were recorded on a Bruker 300 MHz spectrometer in $\\mathrm { C D C l _ { 3 } }$ with TMS as an internal standard."
+        },
+        {
+          "block_id": "P_3_59",
+          "page": 3,
+          "bbox": [
+            511.0,
+            471.0,
+            895.0,
+            634.0
+          ],
+          "source_type": "text",
+          "source_sentence": "<sup>1</sup>H NMR (400 MHz, CDCl<sub>3</sub>)d: 8.07 (s, 4H, Ar), 7.56–6.96 (m, 10H, Ar, <sub>A</sub>CH CH<sub>A</sub>), 4.11 (s, 7H, $\\mathrm { { A r - O - C H _ { 2 } } , }$$\\mathrm { - C H _ { 2 } \\mathrm { - } C O O \\mathrm { - } , N \\mathrm { - } C H _ { 3 } ) , 2 . 3 2 \\ ( s , 3 H , - C H _ { 3 } ) , 1 . 3 9 - 1.76 (m, 8H, $- ( \\mathrm { C H _ { 2 } } ) _ { 4 } - )$"
+        }
+      ],
+      "confidence": {
+        "score": 0.95
+      }
+    },
+    {
+      "characterization_id": "char003",
+      "method_raw": "GPC",
+      "method_normalized": "GPC",
+      "sample_ids": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006"
+      ],
+      "sample_resolution_status": "multi_resolved",
+      "instrument": "PL-GPC model 210 chromatograph",
+      "parameters": {
+        "eluent": "THF",
+        "calibration": "polystyrene standard"
+      },
+      "derived_property_ids": [],
+      "evidence": [
+        {
+          "block_id": "P_1_21",
+          "page": 1,
+          "bbox": [
+            511.0,
+            100.0,
+            897.0,
+            533.0
+          ],
+          "source_type": "text",
+          "source_sentence": "and polydispersity $( \\overline { { M _ { \\mathrm { w } } } } / \\overline { { M _ { \\mathrm { n } } } } )$ of the polymers were obtained on a PL-GPC model 210 chromatograph using THF as eluent at $2 5 ~ ^ { \\circ } \\mathrm { C }$ and calibrated with polystyrene standard."
+        },
+        {
+          "block_id": "T_5_80",
+          "page": 5,
+          "bbox": [
+            200.0,
+            764.0,
+            795.0,
+            898.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table 1. Molecular Weight, Yield, and Absorption Maximum of Polymers",
+          "table_locator": {
+            "table_id": "T_5_80",
+            "row_label": "All polymers",
+            "column_label": "$\\overline{M_n}$, $\\overline{M_n}/\\overline{M_w}$",
+            "cell_value": null,
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.95
+      }
+    },
+    {
+      "characterization_id": "char004",
+      "method_raw": "DSC measurements",
+      "method_normalized": "DSC",
+      "sample_ids": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006"
+      ],
+      "sample_resolution_status": "multi_resolved",
+      "parameters": {
+        "atmosphere": "dry nitrogen"
+      },
+      "derived_property_ids": [],
+      "evidence": [
+        {
+          "block_id": "P_1_21",
+          "page": 1,
+          "bbox": [
+            511.0,
+            100.0,
+            897.0,
+            533.0
+          ],
+          "source_type": "text",
+          "source_sentence": "DSC measurements were performed at a heating rate of 5 \u0001C/min up to 400 $^ \\circ \\mathrm { C }$ on sample taken in an aluminium pan with a pierced lid, in dry nitrogen atmosphere with an empty pan as reference."
+        },
+        {
+          "block_id": "T_7_93",
+          "page": 7,
+          "bbox": [
+            200.0,
+            117.0,
+            795.0,
+            267.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table 3. Liquid Crystalline and Thermal Properties of Polymers",
+          "table_locator": {
+            "table_id": "T_7_93",
+            "row_label": "All polymers",
+            "column_label": "$T_g$, $T_m$, $T_i$",
+            "cell_value": null,
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.95
+      }
+    },
+    {
+      "characterization_id": "char005",
+      "method_raw": "TGA",
+      "method_normalized": "TGA",
+      "sample_ids": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006"
+      ],
+      "sample_resolution_status": "multi_resolved",
+      "parameters": {
+        "atmosphere": "nitrogen"
+      },
+      "derived_property_ids": [],
+      "evidence": [
+        {
+          "block_id": "P_6_85",
+          "page": 6,
+          "bbox": [
+            101.0,
+            277.0,
+            483.0,
+            679.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The thermal stability was estimated using TGA under nitrogen atmosphere at a heating rate of $1 0 ~ \\mathrm { { ^ { \\circ } C / m i n } }$."
+        },
+        {
+          "block_id": "T_6_84",
+          "page": 6,
+          "bbox": [
+            102.0,
+            119.0,
+            480.0,
+            254.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table 2. TGA Data of Polymers Ia–IIc",
+          "table_locator": {
+            "table_id": "T_6_84",
+            "row_label": "All polymers",
+            "column_label": "5%, 50%, % Carbine Residue at 800 °C",
+            "cell_value": null,
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.95
+      }
+    },
+    {
+      "characterization_id": "char006",
+      "method_raw": "UV-Vis spectroscopy",
+      "method_normalized": "UV-Vis",
+      "sample_ids": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006"
+      ],
+      "sample_resolution_status": "multi_resolved",
+      "instrument": "Shimadzu UV-260 spectrophotometer",
+      "parameters": {},
+      "derived_property_ids": [],
+      "evidence": [
+        {
+          "block_id": "P_1_21",
+          "page": 1,
+          "bbox": [
+            511.0,
+            100.0,
+            897.0,
+            533.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The absorption spectra in spectroscopic grade chloroform solution and in thin film were measured on a Shimadzu UV-260 spectrophotometer."
+        },
+        {
+          "block_id": "T_5_80",
+          "page": 5,
+          "bbox": [
+            200.0,
+            764.0,
+            795.0,
+            898.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table 1. Molecular Weight, Yield, and Absorption Maximum of Polymers",
+          "table_locator": {
+            "table_id": "T_5_80",
+            "row_label": "All polymers",
+            "column_label": "$λ_{max} (nm)$ (Chloroform), $λ_{max} (nm)$ (Thin Film)",
+            "cell_value": null,
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.95
+      }
+    }
+  ],
+  "properties": [
+    {
+      "property_id": "prop_s5_001",
+      "characterization_id": "char001",
+      "sample_id": "s001",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "FT-IR peak",
+      "property_name_normalized": "ftir_peak_wavenumber",
+      "property_category": "composition_structure",
+      "value_raw": "2946",
+      "value_min": 2946.0,
+      "value_max": 2946.0,
+      "source_stage": "stage5",
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_3_59",
+          "page": 3,
+          "bbox": [
+            511.0,
+            471.0,
+            895.0,
+            634.0
+          ],
+          "source_type": "text",
+          "source_sentence": "Ia: FT-IR (KBr, cm\u0003<sup>1</sup>): 2946 and 2881 $\\mathrm { ( - C H _ { 2 } - ) }$"
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_002",
+      "characterization_id": "char001",
+      "sample_id": "s001",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "FT-IR peak",
+      "property_name_normalized": "ftir_peak_wavenumber",
+      "property_category": "composition_structure",
+      "value_raw": "2921",
+      "value_min": 2921.0,
+      "value_max": 2921.0,
+      "source_stage": "stage5",
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_3_59",
+          "page": 3,
+          "bbox": [
+            511.0,
+            471.0,
+            895.0,
+            634.0
+          ],
+          "source_type": "text",
+          "source_sentence": "2921 and 300 $\\mathrm { ( - C H _ { 3 } ) }$"
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_003",
+      "characterization_id": "char001",
+      "sample_id": "s001",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "FT-IR peak",
+      "property_name_normalized": "ftir_peak_wavenumber",
+      "property_category": "composition_structure",
+      "value_raw": "1601",
+      "value_min": 1601.0,
+      "value_max": 1601.0,
+      "source_stage": "stage5",
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_3_59",
+          "page": 3,
+          "bbox": [
+            511.0,
+            471.0,
+            895.0,
+            634.0
+          ],
+          "source_type": "text",
+          "source_sentence": "1601 (aromatic $- \\mathrm { C } \\mathrm { = } \\mathrm { C } - )$"
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_004",
+      "characterization_id": "char001",
+      "sample_id": "s001",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "FT-IR peak",
+      "property_name_normalized": "ftir_peak_wavenumber",
+      "property_category": "composition_structure",
+      "value_raw": "886",
+      "value_min": 886.0,
+      "value_max": 886.0,
+      "spectral_assignment": "o-substituted aromatic",
+      "source_stage": "stage5",
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_3_59",
+          "page": 3,
+          "bbox": [
+            511.0,
+            471.0,
+            895.0,
+            634.0
+          ],
+          "source_type": "text",
+          "source_sentence": "886 (o-substituted aromatic)"
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_005",
+      "characterization_id": "char001",
+      "sample_id": "s002",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "FT-IR peak",
+      "property_name_normalized": "ftir_peak_wavenumber",
+      "property_category": "composition_structure",
+      "value_raw": "1653",
+      "value_min": 1653.0,
+      "value_max": 1653.0,
+      "spectral_assignment": "double bond of chalcone moiety",
+      "source_stage": "stage5",
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_9_111",
+          "page": 9,
+          "bbox": [
+            101.0,
+            648.0,
+            483.0,
+            709.0
+          ],
+          "source_type": "text",
+          "source_sentence": "absorption band appeared at 1653 $\\mathrm { c m } ^ { - 1 }$ corresponding to double bond of chalcone moiety was completely disappeared after UV irradiation."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_006",
+      "characterization_id": "char002",
+      "sample_id": "s001",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "1H NMR chemical shift",
+      "property_name_normalized": "nmr_chemical_shift",
+      "property_category": "composition_structure",
+      "value_raw": "8.07",
+      "value_min": 8.07,
+      "value_max": 8.07,
+      "spectral_assignment": "Ar",
+      "source_stage": "stage5",
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_3_59",
+          "page": 3,
+          "bbox": [
+            511.0,
+            471.0,
+            895.0,
+            634.0
+          ],
+          "source_type": "text",
+          "source_sentence": "<sup>1</sup>H NMR (400 MHz, CDCl<sub>3</sub>)d: 8.07 (s, 4H, Ar)"
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_007",
+      "characterization_id": "char002",
+      "sample_id": "s001",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "1H NMR chemical shift",
+      "property_name_normalized": "nmr_chemical_shift",
+      "property_category": "composition_structure",
+      "value_raw": "7.56–6.96",
+      "value_min": 6.96,
+      "value_max": 7.56,
+      "source_stage": "stage5",
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_3_59",
+          "page": 3,
+          "bbox": [
+            511.0,
+            471.0,
+            895.0,
+            634.0
+          ],
+          "source_type": "text",
+          "source_sentence": "7.56–6.96 (m, 10H, Ar, <sub>A</sub>CH CH<sub>A</sub>)"
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    }
+  ],
+  "provenance": {
+    "stage": "stage5_characterization",
+    "provider": "dmx",
+    "model": "doubao-seed-2.0-pro",
+    "models": [
+      "doubao-seed-2.0-pro"
+    ],
+    "prompt_id": "polymer.stage5.characterization",
+    "prompt_version": "1.6.2",
+    "prompt_sha256": "5f918eb9d0dcbe0a4dc60a70d83c4e9f144f9a87bf68905d0a38ad22c000ee5c",
+    "vocabulary_sha256": "3e9d85e4915a729edf0f0a53821f3ee6edf32874e1da6972457417e4f13a1510",
+    "input_hash": "a2b31b1c912ccd67233326253f006b118ea7a06e9e230a5a6e5b91c4e382cd94",
+    "model_config_hash": "7e14aff06827af47a7b1a797111258e33d5972d1c072111440c3b2aae020f3ce",
+    "cache_key": "d9df9475f04a7e3ca30fcb6bd6c3d3b6c1b16c693c2c1c608df846ae7b81f4f2",
+    "output_schema_version": "characterization_schema.v4",
+    "implementation_version": "1.7.1",
+    "context_block_count": 82,
+    "context_chars": 50947,
+    "call_count": 1,
+    "usage": {
+      "input_tokens": 24143,
+      "output_tokens": 6927,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "billable_input_tokens": 24143,
+      "total_tokens": 31070
+    },
+    "cost": {
+      "status": "calculated",
+      "currency": "CNY",
+      "input_per_million": "4.32",
+      "output_per_million": "29.15",
+      "input_cost": "0.10429776",
+      "output_cost": "0.20192205",
+      "total_cost": "0.30621981"
+    },
+    "status": "success"
+  },
+  "warnings": [
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_characterization_method_surface_recovered",
+      "message": "Preview 模式已将表征方法恢复为 evidence 中唯一匹配的原文词形",
+      "field_path": "characterizations[1].method_raw",
+      "method_normalized": "NMR"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_characterization_method_surface_recovered",
+      "message": "Preview 模式已将表征方法恢复为 evidence 中唯一匹配的原文词形",
+      "field_path": "characterizations[2].method_raw",
+      "method_normalized": "GPC"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_characterization_method_surface_recovered",
+      "message": "Preview 模式已将表征方法恢复为 evidence 中唯一匹配的原文词形",
+      "field_path": "characterizations[4].method_raw",
+      "method_normalized": "TGA"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_characterization_details_cleared",
+      "message": "Preview 模式已清空无对象 evidence 支撑的可选表征细节",
+      "field_path": "characterizations[1]",
+      "fields": [
+        "parameters"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_characterization_details_cleared",
+      "message": "Preview 模式已清空无对象 evidence 支撑的可选表征细节",
+      "field_path": "characterizations[2]",
+      "fields": [
+        "parameters"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_characterization_details_cleared",
+      "message": "Preview 模式已清空无对象 evidence 支撑的可选表征细节",
+      "field_path": "characterizations[3]",
+      "fields": [
+        "parameters"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_characterization_details_cleared",
+      "message": "Preview 模式已清空无对象 evidence 支撑的可选表征细节",
+      "field_path": "characterizations[4]",
+      "fields": [
+        "parameters"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[0]",
+      "property_id": "prop_s5_001",
+      "fields": [
+        "unit_raw",
+        "spectral_assignment"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[1]",
+      "property_id": "prop_s5_002",
+      "fields": [
+        "unit_raw",
+        "spectral_assignment"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[2]",
+      "property_id": "prop_s5_003",
+      "fields": [
+        "unit_raw",
+        "spectral_assignment"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[3]",
+      "property_id": "prop_s5_004",
+      "fields": [
+        "unit_raw"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[4]",
+      "property_id": "prop_s5_005",
+      "fields": [
+        "unit_raw"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[5]",
+      "property_id": "prop_s5_006",
+      "fields": [
+        "unit_raw",
+        "solvent"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[6]",
+      "property_id": "prop_s5_007",
+      "fields": [
+        "unit_raw",
+        "spectral_assignment",
+        "solvent"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "derived_property_back_reference_completed",
+      "message": "Stage 5 property 已明确引用唯一 Characterization；已补齐其 derived_property_ids 反向引用",
+      "field_path": "properties[0].characterization_id",
+      "characterization_id": "char001",
+      "property_id": "prop_s5_001"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "derived_property_back_reference_completed",
+      "message": "Stage 5 property 已明确引用唯一 Characterization；已补齐其 derived_property_ids 反向引用",
+      "field_path": "properties[1].characterization_id",
+      "characterization_id": "char001",
+      "property_id": "prop_s5_002"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "derived_property_back_reference_completed",
+      "message": "Stage 5 property 已明确引用唯一 Characterization；已补齐其 derived_property_ids 反向引用",
+      "field_path": "properties[2].characterization_id",
+      "characterization_id": "char001",
+      "property_id": "prop_s5_003"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "derived_property_back_reference_completed",
+      "message": "Stage 5 property 已明确引用唯一 Characterization；已补齐其 derived_property_ids 反向引用",
+      "field_path": "properties[3].characterization_id",
+      "characterization_id": "char001",
+      "property_id": "prop_s5_004"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "derived_property_back_reference_completed",
+      "message": "Stage 5 property 已明确引用唯一 Characterization；已补齐其 derived_property_ids 反向引用",
+      "field_path": "properties[4].characterization_id",
+      "characterization_id": "char001",
+      "property_id": "prop_s5_005"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "derived_property_back_reference_completed",
+      "message": "Stage 5 property 已明确引用唯一 Characterization；已补齐其 derived_property_ids 反向引用",
+      "field_path": "properties[5].characterization_id",
+      "characterization_id": "char002",
+      "property_id": "prop_s5_006"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "derived_property_back_reference_completed",
+      "message": "Stage 5 property 已明确引用唯一 Characterization；已补齐其 derived_property_ids 反向引用",
+      "field_path": "properties[6].characterization_id",
+      "characterization_id": "char002",
+      "property_id": "prop_s5_007"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_semantic_validation_bypassed",
+      "message": "Preview 已保留 Schema 合法候选，并跳过原文/evidence 语义对应校验；Strict 模式仍会报错",
+      "reason": "T_5_80.table_locator.row_label 不是表格原文"
+    }
+  ]
+}
