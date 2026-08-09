@@ -1,0 +1,1474 @@
+<!doctype html>
+<html lang="zh-CN" class="mathjax-ignore">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Multiple Percolation in a Carbon-Filled Polymer Composites via Foaming · 抽取关系报告</title>
+<style>
+:root {
+  --ink:#17242a; --muted:#64757c; --paper:#f5f3ec; --panel:#fffdf8;
+  --line:#d7ddd8; --teal:#167d7f; --teal-soft:#dff1ee; --amber:#d98032;
+  --amber-soft:#fff3df; --red:#b74646; --purple:#7564a6; --blue:#4e7694;
+  --shadow:0 14px 36px rgba(31,49,53,.09);
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:14px/1.55 "Segoe UI","Microsoft YaHei",sans-serif}
+button,input,select{font:inherit}
+button{color:inherit}
+header{padding:30px clamp(20px,4vw,64px) 24px;background:#17393c;color:#f9f7ef}
+.publication-banner{padding:12px clamp(20px,4vw,64px);background:#fff0cf;border-bottom:1px solid #e2bc73;color:#704b13;font-weight:600}
+.eyebrow{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#9ed0ca}
+h1{margin:7px 0 8px;max-width:1100px;font:600 clamp(24px,3vw,40px)/1.2 Georgia,"Microsoft YaHei",serif}
+.meta{display:flex;gap:20px;flex-wrap:wrap;color:#cae1dd}.meta b{color:white}
+main{max-width:1680px;margin:auto;padding:22px clamp(14px,3vw,42px) 46px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:12px;margin-bottom:18px}
+.card,.panel{background:var(--panel);border:1px solid #e2e3dc;border-radius:14px;box-shadow:var(--shadow)}
+.card{padding:15px 17px}.card .value{font-size:24px;font-weight:700;color:var(--teal)}.label{color:var(--muted);font-size:12px}
+.panel{margin-top:16px;overflow:hidden}.panel-head{padding:16px 18px;border-bottom:1px solid var(--line);display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.panel-head h2{margin:0;font-size:17px}.hint{color:var(--muted);font-size:12px}
+.toolbar{margin-left:auto;display:flex;gap:8px;flex-wrap:wrap}
+input,select{border:1px solid #cdd7d2;background:white;border-radius:8px;padding:8px 10px;color:var(--ink)}
+.graph-layout{display:grid;grid-template-columns:minmax(0,1fr) clamp(420px,34vw,560px);min-height:600px}
+.graph-scroll{overflow:auto;background:linear-gradient(rgba(22,125,127,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(22,125,127,.035) 1px,transparent 1px);background-size:32px 32px}
+#graph{display:block}
+.detail{border-left:1px solid var(--line);background:#fbfaf5;overflow:auto;max-height:820px}
+.detail-head{position:sticky;top:0;z-index:3;padding:16px 18px 12px;background:rgba(251,250,245,.97);border-bottom:1px solid var(--line);backdrop-filter:blur(8px)}
+.detail-title-row{display:flex;align-items:flex-start;gap:10px}.detail-title-row h3{margin:0;flex:1;font-size:17px}.detail-id{font:12px/1.4 Consolas,monospace;color:var(--muted)}
+.badge-row,.chip-row{display:flex;gap:6px;flex-wrap:wrap;margin-top:9px}
+.badge,.chip{display:inline-flex;align-items:center;gap:4px;border-radius:999px;padding:3px 8px;background:#e8efec;color:#45615d;font-size:11px;border:0}
+.badge.high{background:var(--teal-soft);color:#126567}.badge.medium{background:var(--amber-soft);color:#8a581e}.badge.low{background:#f9e7e2;color:#9b493e}.badge.warning{background:#fff0da;color:#925b20}
+.detail-tabs{display:flex;gap:4px;padding:10px 18px 0;background:#fbfaf5;border-bottom:1px solid var(--line)}
+.tab-button{border:0;border-bottom:2px solid transparent;background:transparent;padding:8px 10px;cursor:pointer;color:var(--muted)}
+.tab-button.active{border-color:var(--teal);color:var(--ink);font-weight:700}
+.detail-panel{padding:16px 18px 24px}.detail-panel[hidden]{display:none}
+.detail-section{margin-top:18px}.detail-section:first-child{margin-top:0}.detail-section h4{margin:0 0 8px;font-size:13px;color:#455b5d}
+.field-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
+.field{margin:0;padding:10px 11px;border:1px solid #e2e5df;background:white;border-radius:9px;min-width:0}
+.field.wide{grid-column:1/-1}.field dt{font-size:11px;color:var(--muted);margin-bottom:3px}.field dd{margin:0;word-break:break-word}
+.measure{padding:16px;border-radius:12px;background:linear-gradient(135deg,#e6f4f1,#f7f4e9);border:1px solid #cfe3de;margin-bottom:12px}
+.measure .measure-name{color:#496665;font-size:12px}.measure .measure-value{margin-top:3px;font:600 20px/1.45 Georgia,"Microsoft YaHei",serif}
+.key-values{display:grid;gap:6px}.key-value{display:grid;grid-template-columns:minmax(90px,.42fr) 1fr;gap:8px}.key-value b{font-size:11px;color:var(--muted);font-weight:500}
+.ref-button{border:1px solid #c7d9d4;background:#f2faf8;color:#175f61;border-radius:999px;padding:3px 8px;cursor:pointer;text-align:left}
+.ref-button:hover{border-color:var(--teal);background:#e2f3ef}.ref-button:disabled{cursor:default;color:var(--muted);background:#f2f2ee;border-color:#ddd}
+.confidence-card{padding:12px;border:1px solid #d7ddd8;border-radius:10px;background:#fff}
+.confidence-score{display:flex;align-items:center;gap:8px;margin-bottom:8px}.confidence-score strong{font-size:17px}
+.evidence-item{border-left:3px solid var(--amber);padding:10px 12px;margin:9px 0;background:white;border-radius:0 9px 9px 0}
+.evidence-meta{display:flex;gap:6px;align-items:center;flex-wrap:wrap;color:var(--muted);font-size:11px;margin-bottom:5px}
+  .evidence-body{white-space:pre-wrap;word-break:break-word}.evidence-link{margin-top:8px;padding-top:8px;border-top:1px dashed var(--line)}
+  .evidence-table-wrap{overflow:auto;margin-top:8px;border:1px solid var(--line);border-radius:8px;background:#fff}.evidence-table{width:max-content;min-width:100%;font-size:12px}.evidence-table th,.evidence-table td{min-width:72px;padding:7px 9px;white-space:normal;border:1px solid #dfe4df}.evidence-table th{background:#f1f5f2;font-weight:600}.evidence-table .locator-cell{background:#fff0bd;box-shadow:inset 0 0 0 2px var(--amber)}
+.relation-list{display:grid;gap:8px}.relation-row{display:grid;grid-template-columns:120px minmax(0,1fr);gap:8px;align-items:start;padding:8px 0;border-bottom:1px solid var(--line)}.relation-kind{color:var(--muted);font-size:12px}
+.raw-toolbar{display:flex;justify-content:flex-end;margin-bottom:7px}.copy-button,.small-button{border:1px solid #cdd7d2;background:white;border-radius:7px;padding:5px 9px;cursor:pointer}
+.raw-json{white-space:pre-wrap;word-break:break-word;background:#eef2ee;border-radius:9px;padding:12px;font-size:12px;margin:0;max-height:560px;overflow:auto}
+.inline-warning{padding:9px 10px;border-radius:8px;background:#fff2df;color:#7f501d;margin:7px 0}
+.edge{stroke:#aebdb8;stroke-width:1.3;fill:none;opacity:.52}.edge.subject-sample{stroke:#337c73;stroke-width:2;opacity:.78}.edge.subject-entity{stroke:#79679e;stroke-width:1.8;stroke-dasharray:6 4;opacity:.82}.edge.projected{stroke:#287f81;stroke-width:2;cursor:pointer;opacity:.78}.edge.active{stroke:var(--amber);stroke-width:2.6;opacity:1}
+.node{cursor:pointer}.node .node-box{fill:#eff1ee;stroke:#adbbb7;stroke-width:1.2;rx:8}.node text{font-size:11px;pointer-events:none}
+.node .node-type-bar{stroke:none}.node[data-type="entity"] .node-type-bar{fill:#4f9d91}.node[data-type="sample"] .node-type-bar,.node[data-type="sample_group"] .node-type-bar{fill:#658ba3}.node[data-type="property"] .node-type-bar,.node[data-type="unresolved_property"] .node-type-bar,.node[data-type="series"] .node-type-bar{fill:#846eae}.node[data-type="characterization"] .node-type-bar{fill:#b57947}.node[data-type="mention"] .node-type-bar,.node[data-type="mention_group"] .node-type-bar{fill:#7e918a}
+.node .node-type{font-size:9px;fill:var(--muted);letter-spacing:.08em}.node:hover .node-box,.node.active .node-box{stroke:var(--amber);stroke-width:2.4;filter:drop-shadow(0 4px 5px rgba(30,50,52,.14))}
+.node.neighbor .node-box{stroke:var(--teal);stroke-width:1.8}.node .node-confidence{font-size:9px;fill:#526a69;text-anchor:end}.node .node-warning{font-size:12px;fill:var(--amber);text-anchor:end}
+.node.high-confidence .node-box{fill:#dff1e8;stroke:#4d9c78}.node.medium-confidence .node-box{fill:#fff0d7;stroke:#c78639}.node.low-confidence .node-box{fill:#fae4df;stroke:var(--red)}.node.missing-confidence .node-box{fill:#eff1ee;stroke:#98a4a0}
+.node.generic .node-box{stroke-dasharray:4 3}.node.dim{opacity:.12}.edge.dim{opacity:.05}.node.hidden,.edge.hidden{display:none}
+.lane-title{font-size:11px;fill:#60777a;font-weight:700;letter-spacing:.06em}.lane-line{stroke:#d5ddd8;stroke-dasharray:3 4}
+.legend{padding:8px 18px;border-top:1px solid var(--line);display:flex;gap:12px;flex-wrap:wrap;color:var(--muted);font-size:11px}.legend span::before{content:"";display:inline-block;width:10px;height:10px;border:1px solid #5c9f7c;background:#dff1e8;border-radius:3px;margin-right:4px;vertical-align:-1px}.legend .medium::before{border-color:#c78639;background:#fff0d7}.legend .low::before{border-color:var(--red);background:#fae4df}.legend .missing::before{border-color:#98a4a0;background:#eff1ee}.legend .solid::before,.legend .dashed::before,.legend .projected::before{width:18px;height:0;border:0;border-top:2px solid #337c73;border-radius:0;background:transparent;vertical-align:3px}.legend .dashed::before{border-top-color:#79679e;border-top-style:dashed}.legend .projected::before{border-top-color:#287f81;border-top-width:3px}
+.group-list{display:grid;gap:7px}.group-row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px;align-items:center;padding:8px 0;border-bottom:1px solid var(--line)}.group-meta{color:var(--muted);font-size:11px;text-align:right}.series-table-wrap{overflow:auto}.series-table{font-size:12px}.series-table th,.series-table td{padding:7px 8px;white-space:nowrap}.series-table .condition-cell{min-width:190px;white-space:normal}.condition-summary{line-height:1.45}.condition-sources{display:flex;gap:4px;flex-wrap:wrap;margin-top:5px}.cell-meta{display:block;color:var(--muted);font-size:10px;margin-top:3px}.cell-links{display:flex;gap:3px;flex-wrap:wrap;margin-top:3px}
+.figure-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(330px,1fr));gap:14px;padding:16px}
+.figure-card{border:1px solid var(--line);border-radius:12px;background:#fff;padding:13px;min-width:0}.figure-card-head{display:flex;align-items:flex-start;gap:8px;margin-bottom:9px}.figure-card-head h3{font-size:15px;margin:0;flex:1}
+.figure-title-button{border:0;background:transparent;padding:0;cursor:pointer;text-align:left}.figure-title-button:hover{color:var(--teal)}
+.figure-panels{display:grid;grid-template-columns:repeat(auto-fit,minmax(105px,1fr));gap:7px}.image-button{border:1px solid #d9dfda;background:#f2f2ee;border-radius:8px;padding:4px;cursor:zoom-in;min-height:112px}.image-button img{display:block;width:100%;height:150px;object-fit:contain;background:#f6f5f0}.image-missing{min-height:112px;display:grid;place-items:center;border:1px dashed #c8cfca;border-radius:8px;color:var(--muted);font-size:12px;text-align:center;padding:8px}
+.figure-caption{margin:10px 0 0;white-space:pre-wrap}.figure-note{margin-top:8px;color:var(--muted);font-size:11px}
+.tables{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(280px,.6fr);gap:16px;margin-top:16px}
+table{width:100%;border-collapse:collapse}th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top}th{font-size:11px;color:var(--muted);letter-spacing:.05em}
+.status{display:inline-block;padding:2px 8px;border-radius:999px;background:#e8efec;color:#45615d;font-size:11px}.status.calculated{background:var(--teal-soft);color:#126567}.status.unavailable{background:#f9e7e2;color:#9b493e}
+.warning-item{padding:10px 12px;border-bottom:1px solid var(--line)}.warning-item b{display:block;color:#8c5a25}.warning-item.actionable{cursor:pointer}.warning-item.actionable:hover{background:#fff6e8}.warning-item small{display:block;color:var(--muted);margin-top:3px}
+.empty{padding:24px;color:var(--muted);text-align:center}mark{background:#ffe49b;color:inherit;padding:0 1px;border-radius:2px}
+dialog{border:0;border-radius:14px;padding:12px;max-width:min(94vw,1200px);max-height:94vh;box-shadow:0 24px 80px rgba(0,0,0,.35)}dialog::backdrop{background:rgba(12,25,28,.72)}.dialog-head{display:flex;justify-content:space-between;gap:12px;align-items:center;margin-bottom:8px}.dialog-head strong{font-size:14px}.dialog-image{display:block;max-width:calc(94vw - 24px);max-height:82vh;object-fit:contain}
+@media(max-width:1200px){.graph-layout{grid-template-columns:1fr}.detail{border-left:0;border-top:1px solid var(--line);max-height:none}.detail-head{position:static}}
+@media(max-width:760px){.tables{grid-template-columns:1fr}.field-grid{grid-template-columns:1fr}.field.wide{grid-column:auto}.figure-grid{grid-template-columns:1fr}.relation-row{grid-template-columns:1fr}.toolbar{margin-left:0;width:100%}}
+</style>
+<script>
+window.MathJax={
+  tex:{
+    inlineMath:[["\\(","\\)"],["$","$"]],
+    displayMath:[["\\[","\\]"],["$$","$$"]],
+    processEscapes:true
+  },
+  svg:{fontCache:"global"},
+  options:{
+    skipHtmlTags:["script","noscript","style","textarea","pre","code","select","option"],
+    ignoreHtmlClass:"mathjax-ignore",
+    processHtmlClass:"mathjax-process",
+    enableMenu:false
+  }
+};
+</script>
+<script defer id="mathjax-script" src="../_assets/mathjax-3.2.2/tex-svg.js"></script>
+</head>
+<body class="mathjax-ignore">
+<header>
+  <div class="eyebrow">Polymer extraction report · reference_no_0043590</div>
+  <h1>Multiple Percolation in a Carbon-Filled Polymer Composites via Foaming</h1>
+  <div class="meta">
+    <span>DOI：<b id="doi"></b></span>
+    <span>年份：<b id="year"></b></span>
+    <span>期刊：<b id="journal"></b></span>
+    <span>公式：<b id="mathStatus"></b></span>
+  </div>
+</header>
+<div class="publication-banner" role="status">候选结果 · Stage 0-5 已完成；未经完整科学语义校验，仅用于预览模型抽取结果。</div>
+<main>
+  <section class="cards" id="cards"></section>
+  <section class="panel">
+    <div class="panel-head">
+      <h2>抽取关系图</h2>
+      <span class="hint">默认按 Sample 关系投影科学链条；完整 Sample、Series 点、Evidence 与条件可在审计视图和详情中查看</span>
+      <div class="toolbar">
+        <select id="viewMode">
+          <option value="science">科学链条（默认）</option>
+          <option value="objects">对象关系（折叠）</option>
+          <option value="process">工艺流程</option>
+          <option value="audit">完整审计</option>
+        </select>
+        <input id="search" type="search" placeholder="搜索 ID 或内容…">
+        <select id="typeFilter"><option value="">全部类型</option></select>
+        <select id="confidenceFilter">
+          <option value="">全部 confidence</option>
+          <option value="high">≥ 0.80</option>
+          <option value="medium">0.50–0.79</option>
+          <option value="low">&lt; 0.50</option>
+          <option value="missing">未提供</option>
+        </select>
+        <button class="small-button" id="resetProjection" type="button">恢复默认视图</button>
+      </div>
+    </div>
+    <div class="graph-layout">
+      <div class="graph-scroll"><svg id="graph" role="img" aria-label="抽取对象关系图"></svg></div>
+      <aside class="detail" id="detail">
+        <div class="empty">正在准备详情…</div>
+      </aside>
+    </div>
+    <div class="legend">
+      <span>高 Confidence ≥ 0.80</span>
+      <span class="medium">中 Confidence 0.50–0.79</span>
+      <span class="low">低 Confidence &lt; 0.50</span>
+      <span class="missing">未提供 Confidence</span>
+      <span class="solid">实线：具体 Sample 已解析</span>
+      <span class="dashed">虚线：仅关联 PolymerEntity</span>
+      <span class="projected">投影边：由 Sample 关系生成，不代表因果</span>
+    </div>
+  </section>
+  <section class="panel" id="figuresPanel" hidden>
+    <div class="panel-head">
+      <h2>文章图片与图注</h2>
+      <span class="hint" id="figureStatus"></span>
+    </div>
+    <div id="figures"></div>
+  </section>
+  <div class="tables">
+    <section class="panel" style="margin-top:0">
+      <div class="panel-head"><h2>逐阶段费用</h2><span class="hint" id="costStatus"></span></div>
+      <div id="costTable"></div>
+    </section>
+    <section class="panel" style="margin-top:0">
+      <div class="panel-head"><h2>校验提示</h2></div>
+      <div id="warnings"></div>
+    </section>
+  </div>
+</main>
+<dialog id="imageDialog">
+  <div class="dialog-head"><strong id="dialogTitle"></strong><button class="small-button" id="dialogClose" type="button">关闭</button></div>
+  <img class="dialog-image" id="dialogImage" alt="">
+</dialog>
+<script id="report-data" type="application/json">{"schema_version":"candidate.v1","document_id":"reference_no_0043590","publication":{"kind":"candidate","status":"complete","validation_status":"not_validated","message":"Stage 0-5 已完成；未经完整科学语义校验，仅用于预览模型抽取结果。","completed_stages":["stage0","stage1","stage2","stage3","stage4","stage5"],"candidate_stages":[],"failed_stages":[]},"paper":{"ref_no":"reference_no_0043590","pdf_filename":"8fd43c94-53a2-4638-83c1-4f5fb64cce98_origin.pdf","source_pdf_path":"mineru_output/reference_no_0043590/8fd43c94-53a2-4638-83c1-4f5fb64cce98_origin.pdf","organized_pdf_path":"wenxian/reference_no_0043590/origin.pdf","doi":"10.1002/app.30177","title":"Multiple Percolation in a Carbon-Filled Polymer Composites via Foaming","authors":["M. R. Thompson","G. H. Motlagh","K. J. Oxby","A. N. Hrymak"],"journal":"Journal of Applied Polymer Science","year":2010,"metadata_status":"complete","metadata_extraction":{"method":"llm","provider":"volcengine","model":"doubao-seed-2-0-pro-260215","prompt_file":"prompts/meta_extract.md","prompt_sha256":"96d91fd20308fdaa013aaef055c4b873880414f84228b8c5983246b74d21271b","source_pages":[0,1],"status":"success"}},"material_mentions":[{"mention_id":"m001","text":"Cyclic olefin copolymer","mention_role":"polymer_name","evidence":{"block_id":"P_0_15","page":0,"bbox":[507.0,904.0,898.0,951.0],"source_type":"text","source_sentence":"Cyclic olefin copolymer (COC), an amorphous copolymer of ethylene and norbornene, (Topas 6013S-04 supplied by Ticona, MFR 14 g/10 min at 260-C,"},"confidence":{"score":0.99},"evidence_ids":["ev00001"]},{"mention_id":"m002","text":"COC","mention_role":"abbreviation","evidence":{"block_id":"P_0_15","page":0,"bbox":[507.0,904.0,898.0,951.0],"source_type":"text","source_sentence":"Cyclic olefin copolymer (COC), an amorphous copolymer of ethylene and norbornene, (Topas 6013S-04 supplied by Ticona, MFR 14 g/10 min at 260-C,"},"confidence":{"score":0.99},"evidence_ids":["ev00001"]},{"mention_id":"m003","text":"Topas 6013S-04","mention_role":"commercial_name","evidence":{"block_id":"P_0_15","page":0,"bbox":[507.0,904.0,898.0,951.0],"source_type":"text","source_sentence":"Cyclic olefin copolymer (COC), an amorphous copolymer of ethylene and norbornene, (Topas 6013S-04 supplied by Ticona, MFR 14 g/10 min at 260-C,"},"confidence":{"score":0.96},"evidence_ids":["ev00001"]},{"mention_id":"m004","text":"COC","mention_role":"abbreviation","evidence":{"block_id":"T_1_19","page":1,"bbox":[100.0,133.0,485.0,261.0],"source_type":"table","source_sentence":"COC"},"confidence":{"score":0.98},"evidence_ids":["ev00002"]},{"mention_id":"m005","text":"polycarbonate","mention_role":"polymer_name","evidence":{"block_id":"P_1_20","page":1,"bbox":[96.0,300.0,488.0,480.0],"source_type":"text","source_sentence":"A masterbatch exothermic chemical blowing agent (CBA, IM 2240) containing 20 wt % 5-phenyl tetrazol in polycarbonate was supplied by Dempsey Corporation."},"confidence":{"score":0.98},"evidence_ids":["ev00003"]},{"mention_id":"m006","text":"COC","mention_role":"abbreviation","evidence":{"block_id":"P_1_22","page":1,"bbox":[96.0,534.0,488.0,802.0],"source_type":"text","source_sentence":"To probe the influence of foaming on the filler-produced electron pathways within our composite materials, a series of formulations were created using prepared masterbatches of 8 vol % CB in COC from a twin-screw extruder (Leistritz ZSE 27) and 40 vol % carbon fibers in COC using a single screw extruder (50 mm Davis-Standard)."},"confidence":{"score":0.99},"evidence_ids":["ev00004"]},{"mention_id":"m007","text":"COC/cCF10","mention_role":"sample_label","evidence":{"block_id":"P_1_23","page":1,"bbox":[96.0,801.0,488.0,951.0],"source_type":"text","source_sentence":"Single filler composites were prepared containing either 10 vol % cCF (COC/cCF10), or 3 vol % CB (COC/CB3)."},"confidence":{"score":0.99},"evidence_ids":["ev00005"]},{"mention_id":"m008","text":"COC/CB3","mention_role":"sample_label","evidence":{"block_id":"P_1_23","page":1,"bbox":[96.0,801.0,488.0,951.0],"source_type":"text","source_sentence":"Single filler composites were prepared containing either 10 vol % cCF (COC/cCF10), or 3 vol % CB (COC/CB3)."},"confidence":{"score":0.99},"evidence_ids":["ev00005"]},{"mention_id":"m009","text":"COC/cCF10-CB1","mention_role":"sample_label","evidence":{"block_id":"P_1_23","page":1,"bbox":[96.0,801.0,488.0,951.0],"source_type":"text","source_sentence":"For example, COC/cCF10-CB1 corresponds to the material with 10 vol % cCF and 1 vol % CB mixed into COC."},"confidence":{"score":0.99},"evidence_ids":["ev00006"]},{"mention_id":"m010","text":"COC","mention_role":"abbreviation","evidence":{"block_id":"P_1_23","page":1,"bbox":[96.0,801.0,488.0,951.0],"source_type":"text","source_sentence":"Single filler composites were prepared containing either 10 vol % cCF (COC/cCF10), or 3 vol % CB (COC/CB3)."},"confidence":{"score":0.98},"evidence_ids":["ev00005"]},{"mention_id":"m011","text":"COC","mention_role":"abbreviation","evidence":{"block_id":"P_2_39","page":2,"bbox":[506.0,358.0,900.0,643.0],"source_type":"text","source_sentence":"With the addition of CBA to the different COC formulations, a porosity of 11–16% was achieved."},"confidence":{"score":0.96},"evidence_ids":["ev00007"]},{"mention_id":"m012","text":"COC/CB3","mention_role":"sample_label","evidence":{"block_id":"P_2_39","page":2,"bbox":[506.0,358.0,900.0,643.0],"source_type":"text","source_sentence":"SEM micrographs giving a cross-sectional view of the molded part for the foamed COC as well as COC/CB3 and COC/cCF10 are shown in Figure 3."},"confidence":{"score":0.91},"evidence_ids":["ev00008"]},{"mention_id":"m013","text":"COC/cCF10","mention_role":"sample_label","evidence":{"block_id":"P_2_39","page":2,"bbox":[506.0,358.0,900.0,643.0],"source_type":"text","source_sentence":"SEM micrographs giving a cross-sectional view of the molded part for the foamed COC as well as COC/CB3 and COC/cCF10 are shown in Figure 3."},"confidence":{"score":0.91},"evidence_ids":["ev00008"]},{"mention_id":"m014","text":"CB-COC composite","mention_role":"polymer_name","evidence":{"block_id":"P_2_40","page":2,"bbox":[509.0,664.0,660.0,681.0],"source_type":"title","source_sentence":"CB-COC composite"},"confidence":{"score":0.82},"evidence_ids":["ev00009"]},{"mention_id":"m015","text":"COC","mention_role":"abbreviation","evidence":{"block_id":"P_2_41","page":2,"bbox":[506.0,686.0,900.0,793.0],"source_type":"text","source_sentence":"For the foamed composite with 3 vol % CB in the COC matrix, Table II noted that its average cell size was slightly reduced and there was a significant decrease in cell density compared with the foamed COC."},"confidence":{"score":0.97},"evidence_ids":["ev00010"]},{"mention_id":"m016","text":"COC/ CB3","mention_role":"sample_label","evidence":{"block_id":"P_2_41","page":2,"bbox":[506.0,686.0,900.0,793.0],"source_type":"text","source_sentence":"Comparing SEM micrographs of the foamed and nonfoamed COC/ CB3, as seen in Figure 4, there was no detectable difference in CB dispersion caused by the foaming agent."},"confidence":{"score":0.9},"evidence_ids":["ev00011"]},{"mention_id":"m017","text":"COC/CB3","mention_role":"sample_label","evidence":{"block_id":"P_2_41","page":2,"bbox":[506.0,686.0,900.0,793.0],"source_type":"text","source_sentence":"The largest aggregates of CB found were 0.5 lm in both micrographs in comparison with the nominal cell diameter of 60 lm found in COC/CB3."},"confidence":{"score":0.94},"evidence_ids":["ev00012"]},{"mention_id":"m018","text":"COC","mention_role":"sample_label","evidence":{"block_id":"T_2_42","page":2,"bbox":[509.0,835.0,896.0,944.0],"source_type":"table","source_sentence":"COC"},"confidence":{"score":0.96},"evidence_ids":["ev00013"]},{"mention_id":"m019","text":"CB3","mention_role":"sample_label","evidence":{"block_id":"T_2_42","page":2,"bbox":[509.0,835.0,896.0,944.0],"source_type":"table","source_sentence":"ntent (%)\u003c/td\u003e\u003ctd rowspan=\"2\"\u003eCell Density (×106cells/cm3)\u003c/td\u003e\u003ctd colspan=\"3\"\u003eCell Size (μm)\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e $D_n$ \u003c/td\u003e\u003ctd\u003e $D_w$ \u003c/td\u003e\u003ctd\u003e $D_{max}$ \u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eCOC\u003c/td\u003e\u003ctd\u003e11\u003c/td\u003e\u003ctd\u003e2.3\u003c/td\u003e\u003ctd\u003e45\u003c/td\u003e\u003ctd\u003e72\u003c/td\u003e\u003ctd\u003e540\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eCB3\u003c/td\u003e\u003ctd\u003e15\u003c/td\u003e\u003ctd\u003e1.0\u003c/td\u003e\u003ctd\u003e57\u003c/td\u003e\u003ctd\u003e64\u003c/td\u003e\u003ctd\u003e400\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003ecCF10\u003c/td\u003e\u003ctd\u003e15\u003c/td\u003e\u003ctd\u003e5.0\u003c/td\u003e\u003ctd\u003e30\u003c/td\u003e\u003ctd\u003e35\u003c/td\u003e\u003ctd\u003e200\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003ecCF10-CB1\u003c/td\u003e\u003ctd\u003e14\u003c/td\u003e\u003ctd\u003e2.6\u003c/td\u003e\u003ctd\u003e23\u003c/td\u003e\u003ctd\u003e27\u003c/td\u003e\u003ctd\u003e52\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003ecCF10-CB3"},"confidence":{"score":0.95},"evidence_ids":["ev00014"]},{"mention_id":"m020","text":"cCF10","mention_role":"sample_label","evidence":{"block_id":"T_2_42","page":2,"bbox":[509.0,835.0,896.0,944.0],"source_type":"table","source_sentence":"=\"3\"\u003eCell Size (μm)\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e $D_n$ \u003c/td\u003e\u003ctd\u003e $D_w$ \u003c/td\u003e\u003ctd\u003e $D_{max}$ \u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eCOC\u003c/td\u003e\u003ctd\u003e11\u003c/td\u003e\u003ctd\u003e2.3\u003c/td\u003e\u003ctd\u003e45\u003c/td\u003e\u003ctd\u003e72\u003c/td\u003e\u003ctd\u003e540\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eCB3\u003c/td\u003e\u003ctd\u003e15\u003c/td\u003e\u003ctd\u003e1.0\u003c/td\u003e\u003ctd\u003e57\u003c/td\u003e\u003ctd\u003e64\u003c/td\u003e\u003ctd\u003e400\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003ecCF10\u003c/td\u003e\u003ctd\u003e15\u003c/td\u003e\u003ctd\u003e5.0\u003c/td\u003e\u003ctd\u003e30\u003c/td\u003e\u003ctd\u003e35\u003c/td\u003e\u003ctd\u003e200\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003ecCF10-CB1\u003c/td\u003e\u003ctd\u003e14\u003c/td\u003e\u003ctd\u003e2.6\u003c/td\u003e\u003ctd\u003e23\u003c/td\u003e\u003ctd\u003e27\u003c/td\u003e\u003ctd\u003e52\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003ecCF10-CB3\u003c/td\u003e\u003ctd\u003e16\u003c/td\u003e\u003ctd\u003e2.5\u003c/td\u003e\u003ctd\u003e28\u003c/td\u003e\u003ctd\u003e35\u003c/td\u003e\u003ctd\u003e72\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e"},"confidence":{"score":0.95},"evidence_ids":["ev00015"]},{"mention_id":"m021","text":"cCF10-CB1","mention_role":"sample_label","evidence":{"block_id":"T_2_42","page":2,"bbox":[509.0,835.0,896.0,944.0],"source_type":"table","source_sentence":"cCF10-CB1"},"confidence":{"score":0.96},"evidence_ids":["ev00016"]},{"mention_id":"m022","text":"cCF10-CB3","mention_role":"sample_label","evidence":{"block_id":"T_2_42","page":2,"bbox":[509.0,835.0,896.0,944.0],"source_type":"table","source_sentence":"cCF10-CB3"},"confidence":{"score":0.96},"evidence_ids":["ev00017"]},{"mention_id":"m023","text":"COC","mention_role":"abbreviation","evidence":{"block_id":"P_3_50","page":3,"bbox":[506.0,239.0,898.0,374.0],"source_type":"text","source_sentence":"Neat COC was not included in this measurement as its conductivity lies below the resolution of our instrument."},"confidence":{"score":0.94},"evidence_ids":["ev00018"]},{"mention_id":"m024","text":"COC/CB3","mention_role":"sample_label","evidence":{"block_id":"P_3_50","page":3,"bbox":[506.0,239.0,898.0,374.0],"source_type":"text","source_sentence":"Conductivity was increased in all measured planes for the foamed COC/CB3 material, although most notably in the through-plane direction."},"confidence":{"score":0.97},"evidence_ids":["ev00019"]},{"mention_id":"m025","text":"COC/CB3","mention_role":"sample_label","evidence":{"block_id":"P_4_58","page":4,"bbox":[96.0,756.0,488.0,951.0],"source_type":"text","source_sentence":"The observed enhancement in conductivity for the foamed COC/CB3 indicated a more segregated network of CB aggregates in the matrix due to the volume excluded by the gas phase."},"confidence":{"score":0.97},"evidence_ids":["ev00020"]},{"mention_id":"m026","text":"COC","mention_role":"abbreviation","evidence":{"block_id":"P_4_60","page":4,"bbox":[507.0,162.0,730.0,177.0],"source_type":"title","source_sentence":"Carbon fiber-COC composite"},"confidence":{"score":0.92},"evidence_ids":["ev00021"]},{"mention_id":"m027","text":"COC/CB3","mention_role":"sample_label","evidence":{"block_id":"P_4_61","page":4,"bbox":[506.0,183.0,900.0,555.0],"source_type":"text","source_sentence":"The porosity and cell size of the foamed composite containing 10 vol % cCF was found to be similar to the foamed COC/CB3 composite, as noted in Table II."},"confidence":{"score":0.97},"evidence_ids":["ev00022"]},{"mention_id":"m028","text":"COC/cCF10","mention_role":"sample_label","evidence":{"block_id":"P_4_61","page":4,"bbox":[506.0,183.0,900.0,555.0],"source_type":"text","source_sentence":"It appears that foaming had no significant effect on the degree of fiber breakage occurring as COC/cCF10 was being processed."},"confidence":{"score":0.97},"evidence_ids":["ev00023"]},{"mention_id":"m029","text":"COC/cCF10","mention_role":"sample_label","evidence":{"block_id":"P_4_62","page":4,"bbox":[506.0,555.0,900.0,795.0],"source_type":"text","source_sentence":"Limiting our analysis for this section to the COC/cCF10 composite, it can be seen that no significant differences in fiber orientation were noted between foamed and nonfoamed samples, and very little difference was found in the morphology between the core and skin regions."},"confidence":{"score":0.97},"evidence_ids":["ev00024"]},{"mention_id":"m030","text":"cCF10","mention_role":"sample_label","evidence":{"block_id":"T_4_63","page":4,"bbox":[507.0,837.0,896.0,914.0],"source_type":"table","source_sentence":"Average Length ( $\\mu m$ ) $^{a}$ \u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003ecCF10\u003c/td\u003e\u003ctd\u003eNonfoamed\u003c/td\u003e\u003ctd\u003e172\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003ecCF10\u003c/td\u003e\u003ctd\u003eFoamed\u003c/td\u003e\u003ctd\u003e181\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003ecCF10-CB3\u003c/td\u003e\u003ctd\u003eNonfoamed\u003c/td\u003e\u003ctd\u003e188\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003ecCF10-CB3\u003c/td\u003e\u003ctd\u003eFoamed\u003c/td\u003e\u003ctd\u003e207\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e"},"confidence":{"score":0.98},"evidence_ids":["ev00025"]},{"mention_id":"m031","text":"cCF10-CB3","mention_role":"sample_label","evidence":{"block_id":"T_4_63","page":4,"bbox":[507.0,837.0,896.0,914.0],"source_type":"table","source_sentence":"Average Length ( $\\mu m$ ) $^{a}$ \u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003ecCF10\u003c/td\u003e\u003ctd\u003eNonfoamed\u003c/td\u003e\u003ctd\u003e172\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003ecCF10\u003c/td\u003e\u003ctd\u003eFoamed\u003c/td\u003e\u003ctd\u003e181\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003ecCF10-CB3\u003c/td\u003e\u003ctd\u003eNonfoamed\u003c/td\u003e\u003ctd\u003e188\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003ecCF10-CB3\u003c/td\u003e\u003ctd\u003eFoamed\u003c/td\u003e\u003ctd\u003e207\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e"},"confidence":{"score":0.98},"evidence_ids":["ev00025"]},{"mention_id":"m032","text":"cCF10","mention_role":"sample_label","evidence":{"block_id":"T_5_67","page":5,"bbox":[100.0,144.0,485.0,337.0],"source_type":"table","source_sentence":"\u003ctable\u003e\u003ctr\u003e\u003ctd\u003eSample\u003c/td\u003e\u003ctd\u003eVoid Content (%)\u003c/td\u003e\u003ctd\u003eLocation\u003c/td\u003e\u003ctd\u003e $f_T$ \u003c/td\u003e\u003ctd\u003e $f_L$ \u003c/td\u003e\u003ctd\u003e $f_W$ \u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd rowspan=\"4\"\u003ecCF10\u003c/td\u003e\u003ctd rowspan=\"2\"\u003e0\u003c/td\u003e\u003ctd\u003eCore\u003c/td\u003e\u003ctd\u003e0.12\u003c/td\u003e\u003ctd\u003e0.50\u003c/td\u003e\u003ctd\u003e0.39\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eSkin\u003c/td\u003e\u003ctd\u003e0.04\u003c/td\u003e\u003ctd\u003e0.61\u003c/td\u003e\u003ctd\u003e0.35\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd rowspan=\"2\"\u003e15\u003c/td\u003e\u003ctd\u003eCore\u003c/td\u003e\u003ctd\u003e0.105\u003c/td\u003e\u003ctd\u003e0.585\u003c/td\u003e\u003ctd\u003e0.310\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eSkin\u003c/td\u003e\u003ctd\u003e0.040\u003c/td\u003e\u003ctd\u003e0.610\u003c/td\u003e\u003ctd\u003e0.347\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd rowspan=\"4\"\u003ecCF10CB1\u003c/td\u003e\u003ctd rowspan=\"2\"\u003e0\u003c/td\u003e\u003ctd"},"confidence":{"score":0.98},"evidence_ids":["ev00026"]},{"mention_id":"m033","text":"cCF10CB1","mention_role":"sample_label","evidence":{"block_id":"T_5_67","page":5,"bbox":[100.0,144.0,485.0,337.0],"source_type":"table","source_sentence":"cCF10CB1"},"confidence":{"score":0.98},"evidence_ids":["ev00027"]},{"mention_id":"m034","text":"cCF10CB3","mention_role":"sample_label","evidence":{"block_id":"T_5_67","page":5,"bbox":[100.0,144.0,485.0,337.0],"source_type":"table","source_sentence":"cCF10CB3"},"confidence":{"score":0.98},"evidence_ids":["ev00028"]},{"mention_id":"m035","text":"COC","mention_role":"abbreviation","evidence":{"block_id":"P_5_69","page":5,"bbox":[96.0,416.0,488.0,758.0],"source_type":"text","source_sentence":"Figure 6 shows the electrical conductivities for nonfoamed and foamed injection-molded samples with the COC/cCF10 composite, both in their original state and after their skin layers were removed."},"confidence":{"score":0.94},"evidence_ids":["ev00029"]},{"mention_id":"m036","text":"COC/cCF10","mention_role":"sample_label","evidence":{"block_id":"P_5_69","page":5,"bbox":[96.0,416.0,488.0,758.0],"source_type":"text","source_sentence":"Figure 6 shows the electrical conductivities for nonfoamed and foamed injection-molded samples with the COC/cCF10 composite, both in their original state and after their skin layers were removed."},"confidence":{"score":0.96},"evidence_ids":["ev00029"]},{"mention_id":"m037","text":"COC","mention_role":"abbreviation","evidence":{"block_id":"P_5_72","page":5,"bbox":[507.0,218.0,809.0,234.0],"source_type":"title","source_sentence":"Hybrid carbon fiber/CB-COC composite"},"confidence":{"score":0.92},"evidence_ids":["ev00030"]},{"mention_id":"m038","text":"COC","mention_role":"abbreviation","evidence":{"block_id":"P_5_73","page":5,"bbox":[506.0,240.0,900.0,477.0],"source_type":"text","source_sentence":"As with COC/CB3 and COC/cCF10, the bubble size was similar in scale to the fibers yet much larger than the CB aggregates."},"confidence":{"score":0.95},"evidence_ids":["ev00031"]},{"mention_id":"m039","text":"COC/CB3","mention_role":"sample_label","evidence":{"block_id":"P_5_73","page":5,"bbox":[506.0,240.0,900.0,477.0],"source_type":"text","source_sentence":"As with COC/CB3 and COC/cCF10, the bubble size was similar in scale to the fibers yet much larger than the CB aggregates."},"confidence":{"score":0.96},"evidence_ids":["ev00031"]},{"mention_id":"m040","text":"COC/cCF10","mention_role":"sample_label","evidence":{"block_id":"P_5_73","page":5,"bbox":[506.0,240.0,900.0,477.0],"source_type":"text","source_sentence":"As with COC/CB3 and COC/cCF10, the bubble size was similar in scale to the fibers yet much larger than the CB aggregates."},"confidence":{"score":0.96},"evidence_ids":["ev00031"]},{"mention_id":"m041","text":"COC","mention_role":"abbreviation","evidence":{"block_id":"P_5_74","page":5,"bbox":[506.0,477.0,900.0,687.0],"source_type":"text","source_sentence":"Despite its comparatively high viscosity, the fiber length of the nonfoamed COC/cCF10-CB3 was comparable with COC/cCF10, as reported in Table III."},"confidence":{"score":0.95},"evidence_ids":["ev00032"]},{"mention_id":"m042","text":"COC/cCF10-CB3","mention_role":"sample_label","evidence":{"block_id":"P_5_74","page":5,"bbox":[506.0,477.0,900.0,687.0],"source_type":"text","source_sentence":"Despite its comparatively high viscosity, the fiber length of the nonfoamed COC/cCF10-CB3 was comparable with COC/cCF10, as reported in Table III."},"confidence":{"score":0.97},"evidence_ids":["ev00032"]},{"mention_id":"m043","text":"COC/cCF10","mention_role":"sample_label","evidence":{"block_id":"P_5_74","page":5,"bbox":[506.0,477.0,900.0,687.0],"source_type":"text","source_sentence":"Despite its comparatively high viscosity, the fiber length of the nonfoamed COC/cCF10-CB3 was comparable with COC/cCF10, as reported in Table III."},"confidence":{"score":0.96},"evidence_ids":["ev00032"]},{"mention_id":"m044","text":"COC","mention_role":"abbreviation","evidence":{"block_id":"P_6_80","page":6,"bbox":[96.0,253.0,488.0,580.0],"source_type":"text","source_sentence":"For both composites, COC/ cCF10-CB1 and COC/cCF10-CB3, the fibers in-plane were found to be more preferentially oriented in the direction of flow as noted by the lower $f _ { W }$and higher f\u003csub\u003eL\u003c/sub\u003evalues shown in the table compared with COC/cCF10."},"confidence":{"score":0.95},"evidence_ids":["ev00033"]},{"mention_id":"m045","text":"COC/ cCF10-CB1","mention_role":"sample_label","evidence":{"block_id":"P_6_80","page":6,"bbox":[96.0,253.0,488.0,580.0],"source_type":"text","source_sentence":"For both composites, COC/ cCF10-CB1 and COC/cCF10-CB3, the fibers in-plane were found to be more preferentially oriented in the direction of flow as noted by the lower $f _ { W }$and higher f\u003csub\u003eL\u003c/sub\u003evalues shown in the table compared with COC/cCF10."},"confidence":{"score":0.96},"evidence_ids":["ev00033"]},{"mention_id":"m046","text":"COC/cCF10-CB3","mention_role":"sample_label","evidence":{"block_id":"P_6_80","page":6,"bbox":[96.0,253.0,488.0,580.0],"source_type":"text","source_sentence":"For both composites, COC/ cCF10-CB1 and COC/cCF10-CB3, the fibers in-plane were found to be more preferentially oriented in the direction of flow as noted by the lower $f _ { W }$and higher f\u003csub\u003eL\u003c/sub\u003evalues shown in the table compared with COC/cCF10."},"confidence":{"score":0.97},"evidence_ids":["ev00033"]},{"mention_id":"m047","text":"COC/cCF10","mention_role":"sample_label","evidence":{"block_id":"P_6_80","page":6,"bbox":[96.0,253.0,488.0,580.0],"source_type":"text","source_sentence":"For both composites, COC/ cCF10-CB1 and COC/cCF10-CB3, the fibers in-plane were found to be more preferentially oriented in the direction of flow as noted by the lower $f _ { W }$and higher f\u003csub\u003eL\u003c/sub\u003evalues shown in the table compared with COC/cCF10."},"confidence":{"score":0.96},"evidence_ids":["ev00033"]},{"mention_id":"m048","text":"COC/ cCF10-CB3","mention_role":"sample_label","evidence":{"block_id":"P_6_80","page":6,"bbox":[96.0,253.0,488.0,580.0],"source_type":"text","source_sentence":"The data in Table IV also show that $f _ { L }$decreased and $f _ { W }$increased for the foamed sample of COC/ cCF10-CB3 indicating the influence of bubble growth on fiber orientation were seen in all planes."},"confidence":{"score":0.96},"evidence_ids":["ev00034"]},{"mention_id":"m049","text":"COC","mention_role":"abbreviation","evidence":{"block_id":"P_6_81","page":6,"bbox":[96.0,579.0,488.0,951.0],"source_type":"text","source_sentence":"The measured electrical conductivities of the COC/ cCF-CB composites are plotted in Figure 7."},"confidence":{"score":0.91},"evidence_ids":["ev00035"]},{"mention_id":"m050","text":"COC/ cCF-CB","mention_role":"sample_label","evidence":{"block_id":"P_6_81","page":6,"bbox":[96.0,579.0,488.0,951.0],"source_type":"text","source_sentence":"The measured electrical conductivities of the COC/ cCF-CB composites are plotted in Figure 7."},"confidence":{"score":0.88},"evidence_ids":["ev00035"]},{"mention_id":"m051","text":"COC/cCF10","mention_role":"sample_label","evidence":{"block_id":"P_6_81","page":6,"bbox":[96.0,579.0,488.0,951.0],"source_type":"text","source_sentence":"For the hybrid containing 1 vol % CB, the conductivities in both L and T directions were similar to the carbon fiber containing composite (COC/cCF10)."},"confidence":{"score":0.95},"evidence_ids":["ev00036"]},{"mention_id":"m052","text":"COC/cCF10-CB3","mention_role":"sample_label","evidence":{"block_id":"P_6_81","page":6,"bbox":[96.0,579.0,488.0,951.0],"source_type":"text","source_sentence":"When the CB content exceeded its percolation threshold, the conductivities of the hybrid (COC/cCF10-CB3) more closely resembled the CB containing composite (COC/CB3), although being one order of magnitude higher in both L and T directions."},"confidence":{"score":0.96},"evidence_ids":["ev00037"]},{"mention_id":"m053","text":"COC/CB3","mention_role":"sample_label","evidence":{"block_id":"P_6_81","page":6,"bbox":[96.0,579.0,488.0,951.0],"source_type":"text","source_sentence":"When the CB content exceeded its percolation threshold, the conductivities of the hybrid (COC/cCF10-CB3) more closely resembled the CB containing composite (COC/CB3), although being one order of magnitude higher in both L and T directions."},"confidence":{"score":0.96},"evidence_ids":["ev00037"]},{"mention_id":"m054","text":"COC","mention_role":"abbreviation","evidence":{"block_id":"P_7_92","page":7,"bbox":[96.0,550.0,490.0,951.0],"source_type":"text","source_sentence":"In fact, crystallization can similarly provide this multiple percolation effect because the filler will be excluded from the crystals; an issue purposely avoided in this work by selecting the amorphous COC for the study."},"confidence":{"score":0.95},"evidence_ids":["ev00038"]},{"mention_id":"m055","text":"COC/CB3","mention_role":"sample_label","evidence":{"block_id":"P_7_92","page":7,"bbox":[96.0,550.0,490.0,951.0],"source_type":"text","source_sentence":"In the case of CB as seen in the foamed COC/CB3, the CB-rich polymer phase created by foaming showed increased electrical conductivity in all directions."},"confidence":{"score":0.96},"evidence_ids":["ev00039"]},{"mention_id":"m056","text":"COC/cCF10","mention_role":"sample_label","evidence":{"block_id":"P_7_92","page":7,"bbox":[96.0,550.0,490.0,951.0],"source_type":"text","source_sentence":"Carbon fibers, such as in foamed COC/cCF10, did not demonstrate the same beneficial gain in electrical conductivity as CB and this was likely attributed to their relatively large dimensions."},"confidence":{"score":0.96},"evidence_ids":["ev00040"]},{"mention_id":"m057","text":"COC","mention_role":"abbreviation","evidence":{"block_id":"P_7_94","page":7,"bbox":[506.0,445.0,900.0,596.0],"source_type":"text","source_sentence":"The small improvement in out of plane reorientation of fibers due to bubble growth in COC/cCF10-CB3 likely made a minor contribution to the enhanced conductivity and demonstrated a unique possibility for foaming to create more randomly oriented fiber filled structures if the phenomenon can be properly understood and controlled."},"confidence":{"score":0.93},"evidence_ids":["ev00041"]},{"mention_id":"m058","text":"COC/cCF10-CB3","mention_role":"sample_label","evidence":{"block_id":"P_7_94","page":7,"bbox":[506.0,445.0,900.0,596.0],"source_type":"text","source_sentence":"The small improvement in out of plane reorientation of fibers due to bubble growth in COC/cCF10-CB3 likely made a minor contribution to the enhanced conductivity and demonstrated a unique possibility for foaming to create more randomly oriented fiber filled structures if the phenomenon can be properly understood and controlled."},"confidence":{"score":0.96},"evidence_ids":["ev00041"]}],"polymer_entities":[{"entity_id":"pe001","polymer_name":"Cyclic olefin copolymer","representation_status":"expert_review_required","structural_features":[],"source_names":["Cyclic olefin copolymer","COC","Topas 6013S-04","COC/cCF10","COC/CB3","COC/cCF10-CB1","CB-COC composite","COC/ CB3","CB3","cCF10","cCF10-CB1","cCF10-CB3","cCF10CB1","cCF10CB3","COC/cCF10-CB3","COC/ cCF10-CB1","COC/ cCF10-CB3","COC/ cCF-CB"],"resolved_from_mentions":["m001","m002","m003","m004","m006","m007","m008","m009","m010","m011","m012","m013","m014","m015","m016","m017","m018","m019","m020","m021","m022","m023","m024","m025","m026","m027","m028","m029","m030","m031","m032","m033","m034","m035","m036","m037","m038","m039","m040","m041","m042","m043","m044","m045","m046","m047","m048","m049","m050","m051","m052","m053","m054","m055","m056","m057","m058"],"evidence":{"block_id":"P_0_15","page":0,"bbox":[507.0,904.0,898.0,951.0],"source_type":"text","source_sentence":"Cyclic olefin copolymer (COC), an amorphous copolymer of ethylene and norbornene, (Topas 6013S-04 supplied by Ticona, MFR 14 g/10 min at 260-C,"},"source_image_refs":[],"confidence":{"score":0.96},"evidence_ids":["ev00001"]},{"entity_id":"pe002","polymer_name":"polycarbonate","representation_status":"expert_review_required","structural_features":[],"source_names":["polycarbonate"],"resolved_from_mentions":["m005"],"evidence":{"block_id":"P_1_20","page":1,"bbox":[96.0,300.0,488.0,480.0],"source_type":"text","source_sentence":"A masterbatch exothermic chemical blowing agent (CBA, IM 2240) containing 20 wt % 5-phenyl tetrazol in polycarbonate was supplied by Dempsey Corporation."},"source_image_refs":[],"confidence":{"score":0.99},"evidence_ids":["ev00003"]}],"unresolved_mention_ids":[],"samples":[{"sample_id":"s001","sample_kind":"commercial_batch","refers_to_entity":"pe001","polymer_name":"Cyclic olefin copolymer","sample_label_raw":"Topas 6013S-04","intended_use":[],"evidence":{"block_id":"P_0_15","page":0,"bbox":[507.0,904.0,898.0,951.0],"source_type":"text","source_sentence":"Cyclic olefin copolymer (COC), an amorphous copolymer of ethylene and norbornene, (Topas 6013S-04 supplied by Ticona, MFR 14 g/10 min at 260-C,"},"confidence":{"score":0.99},"evidence_ids":["ev00001"]},{"sample_id":"s002","sample_kind":"commercial_batch","refers_to_entity":"pe002","polymer_name":"polycarbonate","sample_label_raw":"IM 2240","intended_use":[],"evidence":{"block_id":"P_1_20","page":1,"bbox":[96.0,300.0,488.0,480.0],"source_type":"text","source_sentence":"A masterbatch exothermic chemical blowing agent (CBA, IM 2240) containing 20 wt % 5-phenyl tetrazol in polycarbonate was supplied by Dempsey Corporation."},"confidence":{"score":0.99},"evidence_ids":["ev00003"]},{"sample_id":"s003","sample_kind":"intermediate","refers_to_entity":"pe001","polymer_name":"Cyclic olefin copolymer","state_description":"prepared masterbatches of 8 vol % CB in COC from a twin-screw extruder (Leistritz ZSE 27)","intended_use":[],"evidence":{"block_id":"P_1_22","page":1,"bbox":[96.0,534.0,488.0,802.0],"source_type":"text","source_sentence":"prepared masterbatches of 8 vol % CB in COC from a twin-screw extruder (Leistritz ZSE 27)"},"confidence":{"score":0.95},"evidence_ids":["ev00042"]},{"sample_id":"s004","sample_kind":"intermediate","refers_to_entity":"pe001","polymer_name":"Cyclic olefin copolymer","state_description":"and 40 vol % carbon fibers in COC using a single screw extruder (50 mm Davis-Standard).","intended_use":[],"evidence":{"block_id":"P_1_22","page":1,"bbox":[96.0,534.0,488.0,802.0],"source_type":"text","source_sentence":"and 40 vol % carbon fibers in COC using a single screw extruder (50 mm Davis-Standard)."},"confidence":{"score":0.95},"evidence_ids":["ev00043"]},{"sample_id":"s005","sample_kind":"processed_material","refers_to_entity":"pe001","polymer_name":"Cyclic olefin copolymer","sample_label_raw":"COC/cCF10","intended_use":[],"evidence":{"block_id":"P_1_23","page":1,"bbox":[96.0,801.0,488.0,951.0],"source_type":"text","source_sentence":"Single filler composites were prepared containing either 10 vol % cCF (COC/cCF10), or 3 vol % CB (COC/CB3)."},"confidence":{"score":0.98},"evidence_ids":["ev00005"]},{"sample_id":"s006","sample_kind":"processed_material","refers_to_entity":"pe001","polymer_name":"Cyclic olefin copolymer","sample_label_raw":"COC/CB3","intended_use":[],"evidence":{"block_id":"P_1_23","page":1,"bbox":[96.0,801.0,488.0,951.0],"source_type":"text","source_sentence":"Single filler composites were prepared containing either 10 vol % cCF (COC/cCF10), or 3 vol % CB (COC/CB3)."},"confidence":{"score":0.98},"evidence_ids":["ev00005"]},{"sample_id":"s007","sample_kind":"processed_material","refers_to_entity":"pe001","polymer_name":"Cyclic olefin copolymer","sample_label_raw":"COC/cCF10-CB1","intended_use":[],"evidence":{"block_id":"P_1_23","page":1,"bbox":[96.0,801.0,488.0,951.0],"source_type":"text","source_sentence":"For example, COC/cCF10-CB1 corresponds to the material with 10 vol % cCF and 1 vol % CB mixed into COC."},"confidence":{"score":0.98},"evidence_ids":["ev00006"]},{"sample_id":"s008","sample_kind":"processed_material","refers_to_entity":"pe001","polymer_name":"Cyclic olefin copolymer","intended_use":[],"evidence":{"block_id":"P_1_23","page":1,"bbox":[96.0,801.0,488.0,951.0],"source_type":"text","source_sentence":"the other above this critical value with 3 vol % CB. Both hybrid composites contained 10 vol % CF in addition to the stated CB content."},"confidence":{"score":0.98},"evidence_ids":["ev00044"]},{"sample_id":"s009","sample_kind":"processed_material","refers_to_entity":"pe001","polymer_name":"Cyclic olefin copolymer","state_description":"Molded samples from the prepared materials were produced using an Arburg 55 ton injection molding machine with a rectangular center-gated mold.","intended_use":[],"evidence":{"block_id":"P_1_26","page":1,"bbox":[506.0,330.0,900.0,496.0],"source_type":"text","source_sentence":"Molded samples from the prepared materials were produced using an Arburg 55 ton injection molding machine with a rectangular center-gated mold."},"confidence":{"score":0.95},"evidence_ids":["ev00045"]},{"sample_id":"s010","sample_kind":"test_specimen","refers_to_entity":"pe001","polymer_name":"Cyclic olefin copolymer","state_description":"The 40 mm  10.5 mm rectangular samples, as shown in Figure 2, were used to measure electrical conductivity along the length (L) and thickness (T) axes.","intended_use":["measure electrical conductivity along the length (L) and thickness (T) axes"],"evidence":{"block_id":"P_1_28","page":1,"bbox":[506.0,541.0,900.0,679.0],"source_type":"text","source_sentence":"The 40 mm  10.5 mm rectangular samples, as shown in Figure 2, were used to measure electrical conductivity along the length (L) and thickness (T) axes."},"confidence":{"score":0.95},"evidence_ids":["ev00046"]}],"process_steps":[{"step_id":"ps001","process_type":"compounding","input_sample_ids":["s001"],"output_sample_ids":["s003"],"parameters":{"temperature":"260-C","RPM":"100"},"evidence":{"block_id":"P_1_22","page":1,"bbox":[96.0,534.0,488.0,802.0],"source_type":"text","source_sentence":"prepared masterbatches of 8 vol % CB in COC from a twin-screw extruder (Leistritz ZSE 27) and 40 vol % carbon fibers in COC using a single screw extruder (50 mm Davis-Standard). The twin-screw extruder operated at a nominal temperature of 260-C and 100 RPM with CB introduced into the melt by a side feeder half way down the length of the machine to minimize agglomeration."},"confidence":{"score":0.9},"evidence_ids":["ev00047"]},{"step_id":"ps002","process_type":"compounding","input_sample_ids":["s001"],"output_sample_ids":["s004"],"parameters":{"temperature":"260-C","RPM":"20"},"evidence":{"block_id":"P_1_22","page":1,"bbox":[96.0,534.0,488.0,802.0],"source_type":"text","source_sentence":"The single screw extruder operated at a nominal temperature of 260-C fitted with a deep channel, zero compression screw rotating at 20 RPM."},"confidence":{"score":0.9},"evidence_ids":["ev00048"]},{"step_id":"ps003","process_type":"mixing","input_sample_ids":["s001","s002","s003","s004"],"output_sample_ids":["s005","s006","s007","s008"],"parameters":{"foaming agent content":"5 wt %"},"evidence":{"block_id":"P_1_22","page":1,"bbox":[96.0,534.0,488.0,802.0],"source_type":"text","source_sentence":"The stated formulations below were then produced by dry blending these masterbatch materials with COC in the injection molding machine, along with 5 wt % of the foaming agent."},"confidence":{"score":0.9},"evidence_ids":["ev00049"]},{"step_id":"ps004","process_type":"molding","input_sample_ids":["s005","s006","s007","s008"],"output_sample_ids":["s009"],"parameters":{"equipment":"Arburg 55 ton injection molding machine","mold type":"rectangular center-gated mold","shot size":"85% mold fill"},"evidence":{"block_id":"P_1_26","page":1,"bbox":[506.0,330.0,900.0,496.0],"source_type":"text","source_sentence":"Molded samples from the prepared materials were produced using an Arburg 55 ton injection molding machine with a rectangular center-gated mold. The shot size was controlled to 85% mold fill to allow for foam growth. The temperature profile of the plasticating unit and nozzle were set at 30, 210, 210, 250, 290, and 300-C, respectively, from the hopper to the nozzle so to prevent premature decomposition of CBA."},"confidence":{"score":0.9},"evidence_ids":["ev00050"]},{"step_id":"ps005","process_type":"specimen_preparation","input_sample_ids":["s009"],"output_sample_ids":["s010"],"parameters":{},"evidence":{"block_id":"P_1_28","page":1,"bbox":[506.0,541.0,900.0,679.0],"source_type":"text","source_sentence":"The test specimens from each composite produced were prepared in accordance with our previous articles.\u003csup\u003e7,8\u003c/sup\u003e The 40 mm  10.5 mm rectangular samples, as shown in Figure 2, were used to measure electrical conductivity along the length (L) and thickness (T) axes. In some cases, the two surface faces in the LW plane were milled to remove the 0.6-mm skin layers from the top and bottom of the original 3-mm thick part. Apparent density (and hence porosity) was determined by the buoyancy method. In-plane measurements in the L direction $( \\sigma _ { L } )$were carried out by the four-probe method, whereas the two-probe method was used to measure electrical conductivity in the T direction $( \\sigma _ { T } ,$through plane). The voltage range used for these analyses was kept as close to 0.5–1 VDC as possible, to minimize the occurrence of joule heating. In-plane measurement, in accordance with ASTM C611, used the rectangular specimens (described earlier), which were placed between two gold-coated copper electrodes and a constant DC current was applied by an Agilent 6441C power source. The voltage drop was measured by a second set of probes between two points on the sample, separated by a distance of 30 mm, using an Agilent 3440A multimeter. Through-plane measurement of electrical conductivity was done between two gold-plated copper electrodes. To minimize the contact resistance, conductive carbon article (Technimat 6100-070 supplied by Lydall) was placed between the two electrode-sample surfaces. Constant DC current was applied while the sample was kept under a constant compressive pressure of 10 MPa and the potential drop was measured between the two electrodes. Bulk conductivity $( \\sigma _ { 3 D } )$that was the geometric average of values for the length, width, and through-plane direction were included in some analysis. The measurements of the fiber length distribution, fiber orientation factors $( f _ { L } , \\ f _ { W } , \\ { \\breve { f } } _ { T } )$, and foam structure were done by optical microscopy using digital image analysis software. Refer to our earlier article for details on measurement techniques used in this work.\u003csup\u003e7,8\u003c/sup\u003e"},"confidence":{"score":0.9},"evidence_ids":["ev00051"]}],"unresolved_entity_ids":[],"property_observations":[{"property_id":"prop001","sample_id":"s001","property_name_raw":"Electrical conductivity","property_name_normalized":"electric_conductivity","property_code":"P4130","property_category":"electrical_property","observation_role":"single","value_raw":"\u003c10^{-16}","unit_raw":"S/cm","unit_normalized":"S/cm","measurement_condition_id":"mc001","measurement_context":{"other_conditions":{},"other_condition_evidence":{},"other_condition_evidence_ids":{},"condition_status":"not_reported"},"source_type":"table","evidence":[{"block_id":"T_1_19","page":1,"bbox":[100.0,133.0,485.0,261.0],"source_type":"table","source_sentence":"Electrical conductivity (S/cm)","table_locator":{"table_id":"T_1_19","row_label":"Electrical conductivity (S/cm)","column_label":"$\u003c10^{-16}$","cell_value":"$\u003c10^{-16}$","cell_id":"T_1_19:r0001:c0001","row_index":1,"column_index":1}}],"confidence":{"score":0.9},"evidence_ids":["ev00054"]},{"property_id":"prop002","sample_id":"s001","property_name_raw":"Specific gravity","observation_role":"single","value_raw":"1.02","value_min":1.02,"value_max":1.02,"measurement_condition_id":"mc001","measurement_context":{"other_conditions":{},"other_condition_evidence":{},"other_condition_evidence_ids":{},"condition_status":"not_reported"},"source_type":"table","evidence":[{"block_id":"T_1_19","page":1,"bbox":[100.0,133.0,485.0,261.0],"source_type":"table","source_sentence":"Specific gravity","table_locator":{"table_id":"T_1_19","row_label":"Specific gravity","column_label":"$\u003c10^{-16}$","cell_value":"1.02","cell_id":"T_1_19:r0002:c0001","row_index":2,"column_index":1}}],"confidence":{"score":0.9},"evidence_ids":["ev00055"]},{"property_id":"prop003","sample_id":"s001","property_name_raw":"Bulk density","property_name_normalized":"density","property_code":"P1110","property_category":"physical_property","observation_role":"single","value_raw":"510","value_min":510.0,"value_max":510.0,"unit_raw":"kg/m3","unit_normalized":"kg/m³","measurement_condition_id":"mc001","measurement_context":{"other_conditions":{},"other_condition_evidence":{},"other_condition_evidence_ids":{},"condition_status":"not_reported"},"source_type":"table","evidence":[{"block_id":"T_1_19","page":1,"bbox":[100.0,133.0,485.0,261.0],"source_type":"table","source_sentence":"Bulk density (kg/m3)","table_locator":{"table_id":"T_1_19","row_label":"Bulk density (kg/m3)","column_label":"$\u003c10^{-16}$","cell_value":"510","cell_id":"T_1_19:r0003:c0001","row_index":3,"column_index":1}}],"confidence":{"score":0.9},"evidence_ids":["ev00056"]},{"property_id":"prop004","sample_id":"s001","property_name_raw":"MFR","observation_role":"single","value_raw":"14","value_min":14.0,"value_max":14.0,"unit_raw":"g/10 min","unit_normalized":"g/10 min","measurement_condition_id":"mc002","measurement_context":{"temperature":{"raw":"260-C","value":260.0,"unit":"°C","evidence":[{"block_id":"P_0_15","page":0,"bbox":[507.0,904.0,898.0,951.0],"source_type":"text","source_sentence":"Cyclic olefin copolymer (COC), an amorphous copolymer of ethylene and norbornene, (Topas 6013S-04 supplied by Ticona, MFR 14 g/10 min at 260-C,"}],"evidence_ids":["ev00001"]},"other_conditions":{"load":"2.16 kg"},"other_condition_evidence":{"load":[{"block_id":"P_1_20","page":1,"bbox":[96.0,300.0,488.0,480.0],"source_type":"text","source_sentence":"2.16 kg) was used as the matrix polymer."}]},"other_condition_evidence_ids":{},"condition_status":"reported"},"source_type":"text","evidence":[{"block_id":"P_0_15","page":0,"bbox":[507.0,904.0,898.0,951.0],"source_type":"text","source_sentence":"MFR 14 g/10 min at 260-C,"}],"confidence":{"score":0.9},"evidence_ids":["ev00057"]},{"property_id":"prop_s5_001","characterization_id":"char002","sample_id":"s005","sample_resolution_status":"resolved","property_name_raw":"largest aggregates of CB","property_name_normalized":"morphology_particle_size","property_category":"morphology","value_raw":"0.5","value_min":0.5,"value_max":0.5,"source_stage":"stage5","source_type":"text","evidence":[{"block_id":"P_2_41","page":2,"bbox":[506.0,686.0,900.0,793.0],"source_type":"text","source_sentence":"The largest aggregates of CB found were 0.5 lm in both micrographs in comparison with the nominal cell diameter of 60 lm found in COC/CB3."}],"confidence":{"score":0.9},"evidence_ids":["ev00012"]},{"property_id":"prop_s5_002","characterization_id":"char002","sample_id":"s005","sample_resolution_status":"resolved","property_name_raw":"nominal cell diameter","property_name_normalized":"morphology_domain_size","property_category":"morphology","value_raw":"60","value_min":60.0,"value_max":60.0,"source_stage":"stage5","source_type":"text","evidence":[{"block_id":"P_2_41","page":2,"bbox":[506.0,686.0,900.0,793.0],"source_type":"text","source_sentence":"The largest aggregates of CB found were 0.5 lm in both micrographs in comparison with the nominal cell diameter of 60 lm found in COC/CB3."}],"confidence":{"score":0.9},"evidence_ids":["ev00012"]},{"property_id":"prop_s5_003","characterization_id":"char002","sample_id":"s001","sample_resolution_status":"resolved","property_name_raw":"45","property_name_normalized":"morphology_domain_size","property_category":"morphology","value_raw":"45","value_min":45.0,"value_max":45.0,"unit_raw":"μm","unit_normalized":"μm","source_stage":"stage5","source_type":"table","evidence":[{"block_id":"T_2_42","page":2,"bbox":[509.0,835.0,896.0,944.0],"source_type":"table","source_sentence":"TABLE II Cell Size of the Foam Injection molded Composites","table_locator":{"table_id":"T_2_42","row_label":"COC","column_label":"D_n","cell_value":"45","cell_id":"T_2_42:r0002:c0003","row_index":2,"column_index":3}}],"confidence":{"score":0.9},"evidence_ids":["ev00065"]},{"property_id":"prop_s5_004","characterization_id":"char002","sample_ids":["s001","s005","s006","s007","s008"],"sample_resolution_status":"multi_resolved","property_name_raw":"Aggregate size","property_name_normalized":"morphology_particle_size","property_category":"morphology","value_raw":"30–100","value_min":30.0,"value_max":100.0,"unit_raw":"nm","unit_normalized":"nm","source_stage":"stage5","source_type":"table","evidence":[{"block_id":"T_1_19","page":1,"bbox":[100.0,133.0,485.0,261.0],"source_type":"table","source_sentence":"TABLE I Properties of the Matrix Polymer and Conductive fillers","table_locator":{"table_id":"T_1_19","row_label":"Aggregate size (nm)","column_label":"CB","cell_value":"30–100","cell_id":"T_1_19:r0004:c0002","row_index":4,"column_index":2}}],"confidence":{"score":0.85},"evidence_ids":["ev00066"]},{"property_id":"prop_s5_005","characterization_id":"char002","sample_ids":["s001","s005","s006","s007","s008"],"sample_resolution_status":"multi_resolved","property_name_raw":"Fiber diameter","property_name_normalized":"morphology_particle_size","property_category":"morphology","value_raw":"7.5","value_min":7.5,"value_max":7.5,"unit_raw":"μm","unit_normalized":"μm","source_stage":"stage5","source_type":"table","evidence":[{"block_id":"T_1_19","page":1,"bbox":[100.0,133.0,485.0,261.0],"source_type":"table","source_sentence":"TABLE I Properties of the Matrix Polymer and Conductive fillers","table_locator":{"table_id":"T_1_19","row_label":"Fiber diameter (μm)","column_label":"cCF","cell_value":"7.5","cell_id":"T_1_19:r0007:c0003","row_index":7,"column_index":3}}],"confidence":{"score":0.85},"evidence_ids":["ev00067"]}],"measurement_conditions":[{"condition_id":"mc001","other_conditions":{},"other_condition_evidence":{},"condition_status":"not_reported","evidence":{"block_id":"T_1_19","page":1,"bbox":[100.0,133.0,485.0,261.0],"source_type":"table","source_sentence":"TABLE I Properties of the Matrix Polymer and Conductive fillers","table_locator":{"table_id":"T_1_19","row_label":"Properties","column_label":"Properties","cell_value":"Properties","cell_id":"T_1_19:r0000:c0000","row_index":0,"column_index":0}},"confidence":{"score":0.9},"evidence_ids":["ev00052"]},{"condition_id":"mc002","temperature":{"raw":"260-C","value":260.0,"unit":"°C","evidence":[{"block_id":"P_0_15","page":0,"bbox":[507.0,904.0,898.0,951.0],"source_type":"text","source_sentence":"Cyclic olefin copolymer (COC), an amorphous copolymer of ethylene and norbornene, (Topas 6013S-04 supplied by Ticona, MFR 14 g/10 min at 260-C,"}],"evidence_ids":["ev00001"]},"other_conditions":{"load":"2.16 kg"},"other_condition_evidence":{"load":[{"block_id":"P_1_20","page":1,"bbox":[96.0,300.0,488.0,480.0],"source_type":"text","source_sentence":"2.16 kg) was used as the matrix polymer."}]},"condition_status":"reported","evidence":{"block_id":"P_0_15","page":0,"bbox":[507.0,904.0,898.0,951.0],"source_type":"text","source_sentence":"Cyclic olefin copolymer (COC), an amorphous copolymer of ethylene and norbornene, (Topas 6013S-04 supplied by Ticona, MFR 14 g/10 min at 260-C,"},"confidence":{"score":0.9},"evidence_ids":["ev00001"]},{"condition_id":"mc003","other_conditions":{},"other_condition_evidence":{},"condition_status":"not_reported","evidence":{"block_id":"T_2_42","page":2,"bbox":[509.0,835.0,896.0,944.0],"source_type":"table","source_sentence":"TABLE II Cell Size of the Foam Injection molded Composites"},"confidence":{"score":0.8},"evidence_ids":["ev00053"]}],"unresolved_property_observations":[{"unresolved_id":"uprop001","entity_id":"pe001","property_name_raw":"σ_L","observation_role":"single","value_raw":"10^{-2}","unit_raw":"S/cm","measurement_context":{"other_conditions":{},"other_condition_evidence":{},"other_condition_evidence_ids":{},"condition_status":"not_reported"},"reason":"sample_ambiguous","evidence":[{"block_id":"P_3_50","page":3,"bbox":[506.0,239.0,898.0,374.0],"source_type":"text","source_sentence":"For the nonfoamed composite, $\\sigma _ { L }$was larger $( 1 0 ^ { - 2 } \\ \\mathrm { S / c m } )$than r\u003csub\u003eT\u003c/sub\u003e by almost three orders of magnitude with the skin in place yet after removing the skin (0.6 mm on each side) the through-plane value was only one order of magnitude smaller."}],"confidence":{"score":0.7},"evidence_ids":["ev00058"]}],"property_series":[{"series_id":"series001","sample_resolution_status":"unresolved","property_name_raw":"Void Content","unit_raw":"%","measurement_context":{"other_conditions":{},"other_condition_evidence":{},"other_condition_evidence_ids":{},"condition_status":"not_reported"},"points":[{"point_id":"pt001","observation_role":"series_point","sample_id":"s001","entity_id":"pe001","sample_resolution_status":"resolved","coordinates":[],"value_raw":"11","value_min":11.0,"value_max":11.0,"measurement_context":{"other_conditions":{},"other_condition_evidence":{},"other_condition_evidence_ids":{},"condition_status":"not_reported"},"coverage_status":"covered","evidence":[{"block_id":"T_2_42","page":2,"bbox":[509.0,835.0,896.0,944.0],"source_type":"table","source_sentence":"TABLE II Cell Size of the Foam Injection molded Composites","table_locator":{"table_id":"T_2_42","row_label":"COC","column_label":"Void Content (%)","cell_value":"11","cell_id":"T_2_42:r0002:c0001","row_index":2,"column_index":1}}],"confidence":{"score":0.9},"evidence_ids":["ev00059"]},{"point_id":"pt002","observation_role":"series_point","entity_id":"pe001","sample_resolution_status":"unresolved","coordinates":[],"value_raw":"15","value_min":15.0,"value_max":15.0,"measurement_context":{"other_conditions":{},"other_condition_evidence":{},"other_condition_evidence_ids":{},"condition_status":"not_reported"},"coverage_status":"covered","evidence":[{"block_id":"T_2_42","page":2,"bbox":[509.0,835.0,896.0,944.0],"source_type":"table","source_sentence":"TABLE II Cell Size of the Foam Injection molded Composites","table_locator":{"table_id":"T_2_42","row_label":"CB3","column_label":"Void Content (%)","cell_value":"15","cell_id":"T_2_42:r0003:c0001","row_index":3,"column_index":1}}],"confidence":{"score":0.7},"evidence_ids":["ev00060"]},{"point_id":"pt003","observation_role":"series_point","entity_id":"pe001","sample_resolution_status":"unresolved","coordinates":[],"value_raw":"15","value_min":15.0,"value_max":15.0,"measurement_context":{"other_conditions":{},"other_condition_evidence":{},"other_condition_evidence_ids":{},"condition_status":"not_reported"},"coverage_status":"covered","evidence":[{"block_id":"T_2_42","page":2,"bbox":[509.0,835.0,896.0,944.0],"source_type":"table","source_sentence":"TABLE II Cell Size of the Foam Injection molded Composites","table_locator":{"table_id":"T_2_42","row_label":"cCF10","column_label":"Void Content (%)","cell_value":"15","cell_id":"T_2_42:r0004:c0001","row_index":4,"column_index":1}}],"confidence":{"score":0.7},"evidence_ids":["ev00061"]},{"point_id":"pt004","observation_role":"series_point","entity_id":"pe001","sample_resolution_status":"unresolved","coordinates":[],"value_raw":"14","value_min":14.0,"value_max":14.0,"measurement_context":{"other_conditions":{},"other_condition_evidence":{},"other_condition_evidence_ids":{},"condition_status":"not_reported"},"coverage_status":"covered","evidence":[{"block_id":"T_2_42","page":2,"bbox":[509.0,835.0,896.0,944.0],"source_type":"table","source_sentence":"TABLE II Cell Size of the Foam Injection molded Composites","table_locator":{"table_id":"T_2_42","row_label":"cCF10-CB1","column_label":"Void Content (%)","cell_value":"14","cell_id":"T_2_42:r0005:c0001","row_index":5,"column_index":1}}],"confidence":{"score":0.7},"evidence_ids":["ev00062"]},{"point_id":"pt005","observation_role":"series_point","entity_id":"pe001","sample_resolution_status":"unresolved","coordinates":[],"value_raw":"16","value_min":16.0,"value_max":16.0,"measurement_context":{"other_conditions":{},"other_condition_evidence":{},"other_condition_evidence_ids":{},"condition_status":"not_reported"},"coverage_status":"covered","evidence":[{"block_id":"T_2_42","page":2,"bbox":[509.0,835.0,896.0,944.0],"source_type":"table","source_sentence":"TABLE II Cell Size of the Foam Injection molded Composites","table_locator":{"table_id":"T_2_42","row_label":"cCF10-CB3","column_label":"Void Content (%)","cell_value":"16","cell_id":"T_2_42:r0006:c0001","row_index":6,"column_index":1}}],"confidence":{"score":0.7},"evidence_ids":["ev00063"]}],"coverage":{"expected":5,"covered":5,"missing":0,"not_applicable":0,"ratio":1.0},"evidence":[{"block_id":"T_2_42","page":2,"bbox":[509.0,835.0,896.0,944.0],"source_type":"table","source_sentence":"TABLE II Cell Size of the Foam Injection molded Composites","table_locator":{"table_id":"T_2_42","row_label":"COC","column_label":"Void Content (%)","cell_value":"11","cell_id":"T_2_42:r0002:c0001","row_index":2,"column_index":1}}],"confidence":{"score":0.8},"evidence_ids":["ev00059"]}],"characterizations":[{"characterization_id":"char001","method_raw":"thermogravimetric analysis","method_normalized":"TGA","sample_id":"s002","sample_resolution_status":"resolved","parameters":{},"result_summary":"The onset of decomposition for the CBA was 225-C, with the majority of gas evolved at 240-C.","derived_property_ids":[],"evidence":[{"block_id":"P_1_20","page":1,"bbox":[96.0,300.0,488.0,480.0],"source_type":"text","source_sentence":"The onset of decomposition for the CBA was determined by thermogravimetric analysis to be 225-C with the majority of gas evolved at 240-C."}],"confidence":{"score":0.9},"evidence_ids":["ev00064"]},{"characterization_id":"char002","method_raw":"SEM","method_normalized":"SEM","sample_ids":["s001","s005","s006","s007","s008"],"sample_resolution_status":"multi_resolved","parameters":{},"result_summary":"SEM was used to observe foam cell morphology, CB dispersion, and fiber distribution in COC-based composites.","derived_property_ids":["prop_s5_001","prop_s5_002","prop_s5_003","prop_s5_004","prop_s5_005"],"evidence":[{"block_id":"P_2_39","page":2,"bbox":[506.0,358.0,900.0,643.0],"source_type":"text","source_sentence":"SEM micrographs giving a cross-sectional view of the molded part for the foamed COC as well as COC/CB3 and COC/cCF10 are shown in Figure 3."},{"block_id":"P_2_41","page":2,"bbox":[506.0,686.0,900.0,793.0],"source_type":"text","source_sentence":"Comparing SEM micrographs of the foamed and nonfoamed COC/ CB3, as seen in Figure 4, there was no detectable difference in CB dispersion caused by the foaming agent."}],"confidence":{"score":0.9},"evidence_ids":["ev00008","ev00011"]}],"evidence":[{"block_id":"P_0_15","page":0,"bbox":[507.0,904.0,898.0,951.0],"source_type":"text","source_sentence":"Cyclic olefin copolymer (COC), an amorphous copolymer of ethylene and norbornene, (Topas 6013S-04 supplied by Ticona, MFR 14 g/10 min at 260-C,","evidence_id":"ev00001","source_stage":"stage1_material_mention","object_id":"m001"},{"block_id":"T_1_19","page":1,"bbox":[100.0,133.0,485.0,261.0],"source_type":"table","source_sentence":"COC","evidence_id":"ev00002","source_stage":"stage1_material_mention","object_id":"m004"},{"block_id":"P_1_20","page":1,"bbox":[96.0,300.0,488.0,480.0],"source_type":"text","source_sentence":"A masterbatch exothermic chemical blowing agent (CBA, IM 2240) containing 20 wt % 5-phenyl tetrazol in polycarbonate was supplied by Dempsey Corporation.","evidence_id":"ev00003","source_stage":"stage1_material_mention","object_id":"m005"},{"block_id":"P_1_22","page":1,"bbox":[96.0,534.0,488.0,802.0],"source_type":"text","source_sentence":"To probe the influence of foaming on the filler-produced electron pathways within our composite materials, a series of formulations were created using prepared masterbatches of 8 vol % CB in COC from a twin-screw extruder (Leistritz ZSE 27) and 40 vol % carbon fibers in COC using a single screw extruder (50 mm Davis-Standard).","evidence_id":"ev00004","source_stage":"stage1_material_mention","object_id":"m006"},{"block_id":"P_1_23","page":1,"bbox":[96.0,801.0,488.0,951.0],"source_type":"text","source_sentence":"Single filler composites were prepared containing either 10 vol % cCF (COC/cCF10), or 3 vol % CB (COC/CB3).","evidence_id":"ev00005","source_stage":"stage1_material_mention","object_id":"m007"},{"block_id":"P_1_23","page":1,"bbox":[96.0,801.0,488.0,951.0],"source_type":"text","source_sentence":"For example, COC/cCF10-CB1 corresponds to the material with 10 vol % cCF and 1 vol % CB mixed into COC.","evidence_id":"ev00006","source_stage":"stage1_material_mention","object_id":"m009"},{"block_id":"P_2_39","page":2,"bbox":[506.0,358.0,900.0,643.0],"source_type":"text","source_sentence":"With the addition of CBA to the different COC formulations, a porosity of 11–16% was achieved.","evidence_id":"ev00007","source_stage":"stage1_material_mention","object_id":"m011"},{"block_id":"P_2_39","page":2,"bbox":[506.0,358.0,900.0,643.0],"source_type":"text","source_sentence":"SEM micrographs giving a cross-sectional view of the molded part for the foamed COC as well as COC/CB3 and COC/cCF10 are shown in Figure 3.","evidence_id":"ev00008","source_stage":"stage1_material_mention","object_id":"m012"},{"block_id":"P_2_40","page":2,"bbox":[509.0,664.0,660.0,681.0],"source_type":"title","source_sentence":"CB-COC composite","evidence_id":"ev00009","source_stage":"stage1_material_mention","object_id":"m014"},{"block_id":"P_2_41","page":2,"bbox":[506.0,686.0,900.0,793.0],"source_type":"text","source_sentence":"For the foamed composite with 3 vol % CB in the COC matrix, Table II noted that its average cell size was slightly reduced and there was a significant decrease in cell density compared with the foamed COC.","evidence_id":"ev00010","source_stage":"stage1_material_mention","object_id":"m015"},{"block_id":"P_2_41","page":2,"bbox":[506.0,686.0,900.0,793.0],"source_type":"text","source_sentence":"Comparing SEM micrographs of the foamed and nonfoamed COC/ CB3, as seen in Figure 4, there was no detectable difference in CB dispersion caused by the foaming agent.","evidence_id":"ev00011","source_stage":"stage1_material_mention","object_id":"m016"},{"block_id":"P_2_41","page":2,"bbox":[506.0,686.0,900.0,793.0],"source_type":"text","source_sentence":"The largest aggregates of CB found were 0.5 lm in both micrographs in comparison with the nominal cell diameter of 60 lm found in COC/CB3.","evidence_id":"ev00012","source_stage":"stage1_material_mention","object_id":"m017"},{"block_id":"T_2_42","page":2,"bbox":[509.0,835.0,896.0,944.0],"source_type":"table","source_sentence":"COC","evidence_id":"ev00013","source_stage":"stage1_material_mention","object_id":"m018"},{"block_id":"T_2_42","page":2,"bbox":[509.0,835.0,896.0,944.0],"source_type":"table","source_sentence":"ntent (%)\u003c/td\u003e\u003ctd rowspan=\"2\"\u003eCell Density (×106cells/cm3)\u003c/td\u003e\u003ctd colspan=\"3\"\u003eCell Size (μm)\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e $D_n$ \u003c/td\u003e\u003ctd\u003e $D_w$ \u003c/td\u003e\u003ctd\u003e $D_{max}$ \u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eCOC\u003c/td\u003e\u003ctd\u003e11\u003c/td\u003e\u003ctd\u003e2.3\u003c/td\u003e\u003ctd\u003e45\u003c/td\u003e\u003ctd\u003e72\u003c/td\u003e\u003ctd\u003e540\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eCB3\u003c/td\u003e\u003ctd\u003e15\u003c/td\u003e\u003ctd\u003e1.0\u003c/td\u003e\u003ctd\u003e57\u003c/td\u003e\u003ctd\u003e64\u003c/td\u003e\u003ctd\u003e400\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003ecCF10\u003c/td\u003e\u003ctd\u003e15\u003c/td\u003e\u003ctd\u003e5.0\u003c/td\u003e\u003ctd\u003e30\u003c/td\u003e\u003ctd\u003e35\u003c/td\u003e\u003ctd\u003e200\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003ecCF10-CB1\u003c/td\u003e\u003ctd\u003e14\u003c/td\u003e\u003ctd\u003e2.6\u003c/td\u003e\u003ctd\u003e23\u003c/td\u003e\u003ctd\u003e27\u003c/td\u003e\u003ctd\u003e52\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003ecCF10-CB3","evidence_id":"ev00014","source_stage":"stage1_material_mention","object_id":"m019"},{"block_id":"T_2_42","page":2,"bbox":[509.0,835.0,896.0,944.0],"source_type":"table","source_sentence":"=\"3\"\u003eCell Size (μm)\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e $D_n$ \u003c/td\u003e\u003ctd\u003e $D_w$ \u003c/td\u003e\u003ctd\u003e $D_{max}$ \u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eCOC\u003c/td\u003e\u003ctd\u003e11\u003c/td\u003e\u003ctd\u003e2.3\u003c/td\u003e\u003ctd\u003e45\u003c/td\u003e\u003ctd\u003e72\u003c/td\u003e\u003ctd\u003e540\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eCB3\u003c/td\u003e\u003ctd\u003e15\u003c/td\u003e\u003ctd\u003e1.0\u003c/td\u003e\u003ctd\u003e57\u003c/td\u003e\u003ctd\u003e64\u003c/td\u003e\u003ctd\u003e400\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003ecCF10\u003c/td\u003e\u003ctd\u003e15\u003c/td\u003e\u003ctd\u003e5.0\u003c/td\u003e\u003ctd\u003e30\u003c/td\u003e\u003ctd\u003e35\u003c/td\u003e\u003ctd\u003e200\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003ecCF10-CB1\u003c/td\u003e\u003ctd\u003e14\u003c/td\u003e\u003ctd\u003e2.6\u003c/td\u003e\u003ctd\u003e23\u003c/td\u003e\u003ctd\u003e27\u003c/td\u003e\u003ctd\u003e52\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003ecCF10-CB3\u003c/td\u003e\u003ctd\u003e16\u003c/td\u003e\u003ctd\u003e2.5\u003c/td\u003e\u003ctd\u003e28\u003c/td\u003e\u003ctd\u003e35\u003c/td\u003e\u003ctd\u003e72\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e","evidence_id":"ev00015","source_stage":"stage1_material_mention","object_id":"m020"},{"block_id":"T_2_42","page":2,"bbox":[509.0,835.0,896.0,944.0],"source_type":"table","source_sentence":"cCF10-CB1","evidence_id":"ev00016","source_stage":"stage1_material_mention","object_id":"m021"},{"block_id":"T_2_42","page":2,"bbox":[509.0,835.0,896.0,944.0],"source_type":"table","source_sentence":"cCF10-CB3","evidence_id":"ev00017","source_stage":"stage1_material_mention","object_id":"m022"},{"block_id":"P_3_50","page":3,"bbox":[506.0,239.0,898.0,374.0],"source_type":"text","source_sentence":"Neat COC was not included in this measurement as its conductivity lies below the resolution of our instrument.","evidence_id":"ev00018","source_stage":"stage1_material_mention","object_id":"m023"},{"block_id":"P_3_50","page":3,"bbox":[506.0,239.0,898.0,374.0],"source_type":"text","source_sentence":"Conductivity was increased in all measured planes for the foamed COC/CB3 material, although most notably in the through-plane direction.","evidence_id":"ev00019","source_stage":"stage1_material_mention","object_id":"m024"},{"block_id":"P_4_58","page":4,"bbox":[96.0,756.0,488.0,951.0],"source_type":"text","source_sentence":"The observed enhancement in conductivity for the foamed COC/CB3 indicated a more segregated network of CB aggregates in the matrix due to the volume excluded by the gas phase.","evidence_id":"ev00020","source_stage":"stage1_material_mention","object_id":"m025"},{"block_id":"P_4_60","page":4,"bbox":[507.0,162.0,730.0,177.0],"source_type":"title","source_sentence":"Carbon fiber-COC composite","evidence_id":"ev00021","source_stage":"stage1_material_mention","object_id":"m026"},{"block_id":"P_4_61","page":4,"bbox":[506.0,183.0,900.0,555.0],"source_type":"text","source_sentence":"The porosity and cell size of the foamed composite containing 10 vol % cCF was found to be similar to the foamed COC/CB3 composite, as noted in Table II.","evidence_id":"ev00022","source_stage":"stage1_material_mention","object_id":"m027"},{"block_id":"P_4_61","page":4,"bbox":[506.0,183.0,900.0,555.0],"source_type":"text","source_sentence":"It appears that foaming had no significant effect on the degree of fiber breakage occurring as COC/cCF10 was being processed.","evidence_id":"ev00023","source_stage":"stage1_material_mention","object_id":"m028"},{"block_id":"P_4_62","page":4,"bbox":[506.0,555.0,900.0,795.0],"source_type":"text","source_sentence":"Limiting our analysis for this section to the COC/cCF10 composite, it can be seen that no significant differences in fiber orientation were noted between foamed and nonfoamed samples, and very little difference was found in the morphology between the core and skin regions.","evidence_id":"ev00024","source_stage":"stage1_material_mention","object_id":"m029"},{"block_id":"T_4_63","page":4,"bbox":[507.0,837.0,896.0,914.0],"source_type":"table","source_sentence":"Average Length ( $\\mu m$ ) $^{a}$ \u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003ecCF10\u003c/td\u003e\u003ctd\u003eNonfoamed\u003c/td\u003e\u003ctd\u003e172\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003ecCF10\u003c/td\u003e\u003ctd\u003eFoamed\u003c/td\u003e\u003ctd\u003e181\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003ecCF10-CB3\u003c/td\u003e\u003ctd\u003eNonfoamed\u003c/td\u003e\u003ctd\u003e188\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003ecCF10-CB3\u003c/td\u003e\u003ctd\u003eFoamed\u003c/td\u003e\u003ctd\u003e207\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e","evidence_id":"ev00025","source_stage":"stage1_material_mention","object_id":"m030"},{"block_id":"T_5_67","page":5,"bbox":[100.0,144.0,485.0,337.0],"source_type":"table","source_sentence":"\u003ctable\u003e\u003ctr\u003e\u003ctd\u003eSample\u003c/td\u003e\u003ctd\u003eVoid Content (%)\u003c/td\u003e\u003ctd\u003eLocation\u003c/td\u003e\u003ctd\u003e $f_T$ \u003c/td\u003e\u003ctd\u003e $f_L$ \u003c/td\u003e\u003ctd\u003e $f_W$ \u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd rowspan=\"4\"\u003ecCF10\u003c/td\u003e\u003ctd rowspan=\"2\"\u003e0\u003c/td\u003e\u003ctd\u003eCore\u003c/td\u003e\u003ctd\u003e0.12\u003c/td\u003e\u003ctd\u003e0.50\u003c/td\u003e\u003ctd\u003e0.39\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eSkin\u003c/td\u003e\u003ctd\u003e0.04\u003c/td\u003e\u003ctd\u003e0.61\u003c/td\u003e\u003ctd\u003e0.35\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd rowspan=\"2\"\u003e15\u003c/td\u003e\u003ctd\u003eCore\u003c/td\u003e\u003ctd\u003e0.105\u003c/td\u003e\u003ctd\u003e0.585\u003c/td\u003e\u003ctd\u003e0.310\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eSkin\u003c/td\u003e\u003ctd\u003e0.040\u003c/td\u003e\u003ctd\u003e0.610\u003c/td\u003e\u003ctd\u003e0.347\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd rowspan=\"4\"\u003ecCF10CB1\u003c/td\u003e\u003ctd rowspan=\"2\"\u003e0\u003c/td\u003e\u003ctd","evidence_id":"ev00026","source_stage":"stage1_material_mention","object_id":"m032"},{"block_id":"T_5_67","page":5,"bbox":[100.0,144.0,485.0,337.0],"source_type":"table","source_sentence":"cCF10CB1","evidence_id":"ev00027","source_stage":"stage1_material_mention","object_id":"m033"},{"block_id":"T_5_67","page":5,"bbox":[100.0,144.0,485.0,337.0],"source_type":"table","source_sentence":"cCF10CB3","evidence_id":"ev00028","source_stage":"stage1_material_mention","object_id":"m034"},{"block_id":"P_5_69","page":5,"bbox":[96.0,416.0,488.0,758.0],"source_type":"text","source_sentence":"Figure 6 shows the electrical conductivities for nonfoamed and foamed injection-molded samples with the COC/cCF10 composite, both in their original state and after their skin layers were removed.","evidence_id":"ev00029","source_stage":"stage1_material_mention","object_id":"m035"},{"block_id":"P_5_72","page":5,"bbox":[507.0,218.0,809.0,234.0],"source_type":"title","source_sentence":"Hybrid carbon fiber/CB-COC composite","evidence_id":"ev00030","source_stage":"stage1_material_mention","object_id":"m037"},{"block_id":"P_5_73","page":5,"bbox":[506.0,240.0,900.0,477.0],"source_type":"text","source_sentence":"As with COC/CB3 and COC/cCF10, the bubble size was similar in scale to the fibers yet much larger than the CB aggregates.","evidence_id":"ev00031","source_stage":"stage1_material_mention","object_id":"m038"},{"block_id":"P_5_74","page":5,"bbox":[506.0,477.0,900.0,687.0],"source_type":"text","source_sentence":"Despite its comparatively high viscosity, the fiber length of the nonfoamed COC/cCF10-CB3 was comparable with COC/cCF10, as reported in Table III.","evidence_id":"ev00032","source_stage":"stage1_material_mention","object_id":"m041"},{"block_id":"P_6_80","page":6,"bbox":[96.0,253.0,488.0,580.0],"source_type":"text","source_sentence":"For both composites, COC/ cCF10-CB1 and COC/cCF10-CB3, the fibers in-plane were found to be more preferentially oriented in the direction of flow as noted by the lower $f _ { W }$and higher f\u003csub\u003eL\u003c/sub\u003evalues shown in the table compared with COC/cCF10.","evidence_id":"ev00033","source_stage":"stage1_material_mention","object_id":"m044"},{"block_id":"P_6_80","page":6,"bbox":[96.0,253.0,488.0,580.0],"source_type":"text","source_sentence":"The data in Table IV also show that $f _ { L }$decreased and $f _ { W }$increased for the foamed sample of COC/ cCF10-CB3 indicating the influence of bubble growth on fiber orientation were seen in all planes.","evidence_id":"ev00034","source_stage":"stage1_material_mention","object_id":"m048"},{"block_id":"P_6_81","page":6,"bbox":[96.0,579.0,488.0,951.0],"source_type":"text","source_sentence":"The measured electrical conductivities of the COC/ cCF-CB composites are plotted in Figure 7.","evidence_id":"ev00035","source_stage":"stage1_material_mention","object_id":"m049"},{"block_id":"P_6_81","page":6,"bbox":[96.0,579.0,488.0,951.0],"source_type":"text","source_sentence":"For the hybrid containing 1 vol % CB, the conductivities in both L and T directions were similar to the carbon fiber containing composite (COC/cCF10).","evidence_id":"ev00036","source_stage":"stage1_material_mention","object_id":"m051"},{"block_id":"P_6_81","page":6,"bbox":[96.0,579.0,488.0,951.0],"source_type":"text","source_sentence":"When the CB content exceeded its percolation threshold, the conductivities of the hybrid (COC/cCF10-CB3) more closely resembled the CB containing composite (COC/CB3), although being one order of magnitude higher in both L and T directions.","evidence_id":"ev00037","source_stage":"stage1_material_mention","object_id":"m052"},{"block_id":"P_7_92","page":7,"bbox":[96.0,550.0,490.0,951.0],"source_type":"text","source_sentence":"In fact, crystallization can similarly provide this multiple percolation effect because the filler will be excluded from the crystals; an issue purposely avoided in this work by selecting the amorphous COC for the study.","evidence_id":"ev00038","source_stage":"stage1_material_mention","object_id":"m054"},{"block_id":"P_7_92","page":7,"bbox":[96.0,550.0,490.0,951.0],"source_type":"text","source_sentence":"In the case of CB as seen in the foamed COC/CB3, the CB-rich polymer phase created by foaming showed increased electrical conductivity in all directions.","evidence_id":"ev00039","source_stage":"stage1_material_mention","object_id":"m055"},{"block_id":"P_7_92","page":7,"bbox":[96.0,550.0,490.0,951.0],"source_type":"text","source_sentence":"Carbon fibers, such as in foamed COC/cCF10, did not demonstrate the same beneficial gain in electrical conductivity as CB and this was likely attributed to their relatively large dimensions.","evidence_id":"ev00040","source_stage":"stage1_material_mention","object_id":"m056"},{"block_id":"P_7_94","page":7,"bbox":[506.0,445.0,900.0,596.0],"source_type":"text","source_sentence":"The small improvement in out of plane reorientation of fibers due to bubble growth in COC/cCF10-CB3 likely made a minor contribution to the enhanced conductivity and demonstrated a unique possibility for foaming to create more randomly oriented fiber filled structures if the phenomenon can be properly understood and controlled.","evidence_id":"ev00041","source_stage":"stage1_material_mention","object_id":"m057"},{"block_id":"P_1_22","page":1,"bbox":[96.0,534.0,488.0,802.0],"source_type":"text","source_sentence":"prepared masterbatches of 8 vol % CB in COC from a twin-screw extruder (Leistritz ZSE 27)","evidence_id":"ev00042","source_stage":"stage3_sample_process","object_id":"s003"},{"block_id":"P_1_22","page":1,"bbox":[96.0,534.0,488.0,802.0],"source_type":"text","source_sentence":"and 40 vol % carbon fibers in COC using a single screw extruder (50 mm Davis-Standard).","evidence_id":"ev00043","source_stage":"stage3_sample_process","object_id":"s004"},{"block_id":"P_1_23","page":1,"bbox":[96.0,801.0,488.0,951.0],"source_type":"text","source_sentence":"the other above this critical value with 3 vol % CB. Both hybrid composites contained 10 vol % CF in addition to the stated CB content.","evidence_id":"ev00044","source_stage":"stage3_sample_process","object_id":"s008"},{"block_id":"P_1_26","page":1,"bbox":[506.0,330.0,900.0,496.0],"source_type":"text","source_sentence":"Molded samples from the prepared materials were produced using an Arburg 55 ton injection molding machine with a rectangular center-gated mold.","evidence_id":"ev00045","source_stage":"stage3_sample_process","object_id":"s009"},{"block_id":"P_1_28","page":1,"bbox":[506.0,541.0,900.0,679.0],"source_type":"text","source_sentence":"The 40 mm  10.5 mm rectangular samples, as shown in Figure 2, were used to measure electrical conductivity along the length (L) and thickness (T) axes.","evidence_id":"ev00046","source_stage":"stage3_sample_process","object_id":"s010"},{"block_id":"P_1_22","page":1,"bbox":[96.0,534.0,488.0,802.0],"source_type":"text","source_sentence":"prepared masterbatches of 8 vol % CB in COC from a twin-screw extruder (Leistritz ZSE 27) and 40 vol % carbon fibers in COC using a single screw extruder (50 mm Davis-Standard). The twin-screw extruder operated at a nominal temperature of 260-C and 100 RPM with CB introduced into the melt by a side feeder half way down the length of the machine to minimize agglomeration.","evidence_id":"ev00047","source_stage":"stage3_sample_process","object_id":"ps001"},{"block_id":"P_1_22","page":1,"bbox":[96.0,534.0,488.0,802.0],"source_type":"text","source_sentence":"The single screw extruder operated at a nominal temperature of 260-C fitted with a deep channel, zero compression screw rotating at 20 RPM.","evidence_id":"ev00048","source_stage":"stage3_sample_process","object_id":"ps002"},{"block_id":"P_1_22","page":1,"bbox":[96.0,534.0,488.0,802.0],"source_type":"text","source_sentence":"The stated formulations below were then produced by dry blending these masterbatch materials with COC in the injection molding machine, along with 5 wt % of the foaming agent.","evidence_id":"ev00049","source_stage":"stage3_sample_process","object_id":"ps003"},{"block_id":"P_1_26","page":1,"bbox":[506.0,330.0,900.0,496.0],"source_type":"text","source_sentence":"Molded samples from the prepared materials were produced using an Arburg 55 ton injection molding machine with a rectangular center-gated mold. The shot size was controlled to 85% mold fill to allow for foam growth. The temperature profile of the plasticating unit and nozzle were set at 30, 210, 210, 250, 290, and 300-C, respectively, from the hopper to the nozzle so to prevent premature decomposition of CBA.","evidence_id":"ev00050","source_stage":"stage3_sample_process","object_id":"ps004"},{"block_id":"P_1_28","page":1,"bbox":[506.0,541.0,900.0,679.0],"source_type":"text","source_sentence":"The test specimens from each composite produced were prepared in accordance with our previous articles.\u003csup\u003e7,8\u003c/sup\u003e The 40 mm  10.5 mm rectangular samples, as shown in Figure 2, were used to measure electrical conductivity along the length (L) and thickness (T) axes. In some cases, the two surface faces in the LW plane were milled to remove the 0.6-mm skin layers from the top and bottom of the original 3-mm thick part. Apparent density (and hence porosity) was determined by the buoyancy method. In-plane measurements in the L direction $( \\sigma _ { L } )$were carried out by the four-probe method, whereas the two-probe method was used to measure electrical conductivity in the T direction $( \\sigma _ { T } ,$through plane). The voltage range used for these analyses was kept as close to 0.5–1 VDC as possible, to minimize the occurrence of joule heating. In-plane measurement, in accordance with ASTM C611, used the rectangular specimens (described earlier), which were placed between two gold-coated copper electrodes and a constant DC current was applied by an Agilent 6441C power source. The voltage drop was measured by a second set of probes between two points on the sample, separated by a distance of 30 mm, using an Agilent 3440A multimeter. Through-plane measurement of electrical conductivity was done between two gold-plated copper electrodes. To minimize the contact resistance, conductive carbon article (Technimat 6100-070 supplied by Lydall) was placed between the two electrode-sample surfaces. Constant DC current was applied while the sample was kept under a constant compressive pressure of 10 MPa and the potential drop was measured between the two electrodes. Bulk conductivity $( \\sigma _ { 3 D } )$that was the geometric average of values for the length, width, and through-plane direction were included in some analysis. The measurements of the fiber length distribution, fiber orientation factors $( f _ { L } , \\ f _ { W } , \\ { \\breve { f } } _ { T } )$, and foam structure were done by optical microscopy using digital image analysis software. Refer to our earlier article for details on measurement techniques used in this work.\u003csup\u003e7,8\u003c/sup\u003e","evidence_id":"ev00051","source_stage":"stage3_sample_process","object_id":"ps005"},{"block_id":"T_1_19","page":1,"bbox":[100.0,133.0,485.0,261.0],"source_type":"table","source_sentence":"TABLE I Properties of the Matrix Polymer and Conductive fillers","table_locator":{"table_id":"T_1_19","row_label":"Properties","column_label":"Properties","cell_value":"Properties","cell_id":"T_1_19:r0000:c0000","row_index":0,"column_index":0},"evidence_id":"ev00052","source_stage":"stage4_property","object_id":"mc001"},{"block_id":"T_2_42","page":2,"bbox":[509.0,835.0,896.0,944.0],"source_type":"table","source_sentence":"TABLE II Cell Size of the Foam Injection molded Composites","evidence_id":"ev00053","source_stage":"stage4_property","object_id":"mc003"},{"block_id":"T_1_19","page":1,"bbox":[100.0,133.0,485.0,261.0],"source_type":"table","source_sentence":"Electrical conductivity (S/cm)","table_locator":{"table_id":"T_1_19","row_label":"Electrical conductivity (S/cm)","column_label":"$\u003c10^{-16}$","cell_value":"$\u003c10^{-16}$","cell_id":"T_1_19:r0001:c0001","row_index":1,"column_index":1},"evidence_id":"ev00054","source_stage":"stage4_property","object_id":"s001"},{"block_id":"T_1_19","page":1,"bbox":[100.0,133.0,485.0,261.0],"source_type":"table","source_sentence":"Specific gravity","table_locator":{"table_id":"T_1_19","row_label":"Specific gravity","column_label":"$\u003c10^{-16}$","cell_value":"1.02","cell_id":"T_1_19:r0002:c0001","row_index":2,"column_index":1},"evidence_id":"ev00055","source_stage":"stage4_property","object_id":"s001"},{"block_id":"T_1_19","page":1,"bbox":[100.0,133.0,485.0,261.0],"source_type":"table","source_sentence":"Bulk density (kg/m3)","table_locator":{"table_id":"T_1_19","row_label":"Bulk density (kg/m3)","column_label":"$\u003c10^{-16}$","cell_value":"510","cell_id":"T_1_19:r0003:c0001","row_index":3,"column_index":1},"evidence_id":"ev00056","source_stage":"stage4_property","object_id":"s001"},{"block_id":"P_0_15","page":0,"bbox":[507.0,904.0,898.0,951.0],"source_type":"text","source_sentence":"MFR 14 g/10 min at 260-C,","evidence_id":"ev00057","source_stage":"stage4_property","object_id":"s001"},{"block_id":"P_3_50","page":3,"bbox":[506.0,239.0,898.0,374.0],"source_type":"text","source_sentence":"For the nonfoamed composite, $\\sigma _ { L }$was larger $( 1 0 ^ { - 2 } \\ \\mathrm { S / c m } )$than r\u003csub\u003eT\u003c/sub\u003e by almost three orders of magnitude with the skin in place yet after removing the skin (0.6 mm on each side) the through-plane value was only one order of magnitude smaller.","evidence_id":"ev00058","source_stage":"stage4_property","object_id":"pe001"},{"block_id":"T_2_42","page":2,"bbox":[509.0,835.0,896.0,944.0],"source_type":"table","source_sentence":"TABLE II Cell Size of the Foam Injection molded Composites","table_locator":{"table_id":"T_2_42","row_label":"COC","column_label":"Void Content (%)","cell_value":"11","cell_id":"T_2_42:r0002:c0001","row_index":2,"column_index":1},"evidence_id":"ev00059","source_stage":"stage4_property","object_id":"series001"},{"block_id":"T_2_42","page":2,"bbox":[509.0,835.0,896.0,944.0],"source_type":"table","source_sentence":"TABLE II Cell Size of the Foam Injection molded Composites","table_locator":{"table_id":"T_2_42","row_label":"CB3","column_label":"Void Content (%)","cell_value":"15","cell_id":"T_2_42:r0003:c0001","row_index":3,"column_index":1},"evidence_id":"ev00060","source_stage":"stage4_property","object_id":"pe001"},{"block_id":"T_2_42","page":2,"bbox":[509.0,835.0,896.0,944.0],"source_type":"table","source_sentence":"TABLE II Cell Size of the Foam Injection molded Composites","table_locator":{"table_id":"T_2_42","row_label":"cCF10","column_label":"Void Content (%)","cell_value":"15","cell_id":"T_2_42:r0004:c0001","row_index":4,"column_index":1},"evidence_id":"ev00061","source_stage":"stage4_property","object_id":"pe001"},{"block_id":"T_2_42","page":2,"bbox":[509.0,835.0,896.0,944.0],"source_type":"table","source_sentence":"TABLE II Cell Size of the Foam Injection molded Composites","table_locator":{"table_id":"T_2_42","row_label":"cCF10-CB1","column_label":"Void Content (%)","cell_value":"14","cell_id":"T_2_42:r0005:c0001","row_index":5,"column_index":1},"evidence_id":"ev00062","source_stage":"stage4_property","object_id":"pe001"},{"block_id":"T_2_42","page":2,"bbox":[509.0,835.0,896.0,944.0],"source_type":"table","source_sentence":"TABLE II Cell Size of the Foam Injection molded Composites","table_locator":{"table_id":"T_2_42","row_label":"cCF10-CB3","column_label":"Void Content (%)","cell_value":"16","cell_id":"T_2_42:r0006:c0001","row_index":6,"column_index":1},"evidence_id":"ev00063","source_stage":"stage4_property","object_id":"pe001"},{"block_id":"P_1_20","page":1,"bbox":[96.0,300.0,488.0,480.0],"source_type":"text","source_sentence":"The onset of decomposition for the CBA was determined by thermogravimetric analysis to be 225-C with the majority of gas evolved at 240-C.","evidence_id":"ev00064","source_stage":"stage5_characterization","object_id":"s002"},{"block_id":"T_2_42","page":2,"bbox":[509.0,835.0,896.0,944.0],"source_type":"table","source_sentence":"TABLE II Cell Size of the Foam Injection molded Composites","table_locator":{"table_id":"T_2_42","row_label":"COC","column_label":"D_n","cell_value":"45","cell_id":"T_2_42:r0002:c0003","row_index":2,"column_index":3},"evidence_id":"ev00065","source_stage":"stage5_characterization","object_id":"s001"},{"block_id":"T_1_19","page":1,"bbox":[100.0,133.0,485.0,261.0],"source_type":"table","source_sentence":"TABLE I Properties of the Matrix Polymer and Conductive fillers","table_locator":{"table_id":"T_1_19","row_label":"Aggregate size (nm)","column_label":"CB","cell_value":"30–100","cell_id":"T_1_19:r0004:c0002","row_index":4,"column_index":2},"evidence_id":"ev00066","source_stage":"stage5_characterization","object_id":"prop_s5_004"},{"block_id":"T_1_19","page":1,"bbox":[100.0,133.0,485.0,261.0],"source_type":"table","source_sentence":"TABLE I Properties of the Matrix Polymer and Conductive fillers","table_locator":{"table_id":"T_1_19","row_label":"Fiber diameter (μm)","column_label":"cCF","cell_value":"7.5","cell_id":"T_1_19:r0007:c0003","row_index":7,"column_index":3},"evidence_id":"ev00067","source_stage":"stage5_characterization","object_id":"prop_s5_005"}],"provenance":[{"stage":"ocr","engine":"mineru","batch_id":"a2fa80d8-bb3d-43a9-a298-6438abdeb41a","model_version":"vlm","ocr_enabled":null,"language":null,"page_ranges":null,"enable_formula":null,"enable_table":null,"extra_formats":null,"status":"done","manifest_file":"batch_a2fa80d8-bb3d-43a9-a298-6438abdeb41a_manifest.json","status_file":"batch_a2fa80d8-bb3d-43a9-a298-6438abdeb41a_status.json"},{"stage":"stage1_material_mention","provider":"dmx","model":"gpt-5.6-terra-2026-07-09","models":["gpt-5.6-terra-2026-07-09"],"prompt_id":"polymer.stage1.material_mention","prompt_version":"1.2.1","prompt_sha256":"af2a070da70b7754d6ae45eeebe3bf42cf2eb2dcd039e11acdb837a06c461fb9","input_hash":"c3859ae2927b10f8bf670e5cd07d8905033d7fa4effddf11f498e78a922a745a","model_config_hash":"e075727883d2926c6e33e8497fe72c20e1e5addc7dfd2a90d973701ccfece7ad","cache_key":"4b0037a99a7744a50de9e36f3314faa66a4a55def9112d7db565ae28d32f8a81","output_schema_version":"material_mention_schema.v2","implementation_version":"1.2.6","chunk_count":5,"usage":{"input_tokens":14521,"output_tokens":4060,"cache_creation_input_tokens":0,"cache_read_input_tokens":0,"billable_input_tokens":14521,"total_tokens":18581},"cost":{"status":"calculated","currency":"CNY","input_per_million":"17","output_per_million":"101","input_cost":"0.246857","output_cost":"0.410060","total_cost":"0.656917"},"status":"success"},{"stage":"stage2_polymer_entity","provider":"dmx","model":"gpt-5.6-terra-2026-07-09","models":["gpt-5.6-terra-2026-07-09"],"prompt_id":"polymer.stage2.polymer_entity","prompt_version":"1.2.0","prompt_sha256":"8293a9f30517fa564eb1fd5e3af02ea721f9ac48554f50edf089bcb9cec63801","input_hash":"3eb95d9d8ef9247ca302f578a16dbb17aa8408fbd548ffe8ac26d24ba7522f96","model_config_hash":"c9e96c2514956e7b4b65eae3d327d34f95b7a33876cec6d4aa56f95eb79a9b50","cache_key":"d6ef87854c2304c3855e7983d5c94756f4c1f9012f5d47cce0264626bddd357c","output_schema_version":"polymer_entity_schema.v2","implementation_version":"1.3.3","context_block_count":50,"context_chars":37076,"call_count":1,"usage":{"input_tokens":17732,"output_tokens":1455,"cache_creation_input_tokens":0,"cache_read_input_tokens":0,"billable_input_tokens":17732,"total_tokens":19187},"cost":{"status":"calculated","currency":"CNY","input_per_million":"17","output_per_million":"101","input_cost":"0.301444","output_cost":"0.146955","total_cost":"0.448399"},"status":"success"},{"stage":"stage3_sample_process","provider":"dmx","model":"doubao-seed-2.0-pro","models":["doubao-seed-2.0-pro"],"prompt_id":"polymer.stage3.sample_process","prompt_version":"1.2.2","prompt_sha256":"ce2e2c59006b08286a1d41f8c6e5b8c9523abd65f8162c90b636eab35c5b263e","input_hash":"767b9ffd5dfabb9677dfef8b5836c1df9074c34a7c18cfa8eb2ff8fa18051ed6","model_config_hash":"7a389959b1eae8cb35e4c5e5702559631666e759a9891cf98687a5b37dd5d1ad","cache_key":"3b0cf5b3e5e4bcfeaec34557b6a233693e39c1828821f80a884b5638877b5b43","output_schema_version":"sample_process_schema.v2","implementation_version":"1.3.7","context_block_count":16,"context_chars":9781,"call_count":1,"usage":{"input_tokens":6597,"output_tokens":5618,"cache_creation_input_tokens":0,"cache_read_input_tokens":0,"billable_input_tokens":6597,"total_tokens":12215},"cost":{"status":"calculated","currency":"CNY","input_per_million":"4.32","output_per_million":"29.15","input_cost":"0.02849904","output_cost":"0.1637647","total_cost":"0.19226374"},"status":"success"},{"stage":"stage4_property","provider":"dmx","model":"doubao-seed-2.0-pro","models":["doubao-seed-2.0-pro"],"prompt_id":"polymer.stage4.property","prompt_version":"1.7.2","prompt_sha256":"ec79fe3bf47539cab4ba239c611d1ab17d75dc0038cda85020caca580f7987a5","vocabulary_sha256":"3e9d85e4915a729edf0f0a53821f3ee6edf32874e1da6972457417e4f13a1510","input_hash":"d30144577fa7aa50d5c5aa7256e21cd583b9542b417abaefc29de44a9f6280c4","model_config_hash":"cc96eaab20bd380ae90f3ba1dfa638bd40f111e3e72ca185255fb71b459d40ea","cache_key":"bdd823a9ea0fa7243c72ccf11b119b76b2b836cf8a2fe9d6a85584f8b3877006","output_schema_version":"property_observation_schema.v7","implementation_version":"1.7.10","context_block_count":48,"context_chars":39885,"call_count":1,"usage":{"input_tokens":25245,"output_tokens":9319,"cache_creation_input_tokens":0,"cache_read_input_tokens":0,"billable_input_tokens":25245,"total_tokens":34564},"cost":{"status":"calculated","currency":"CNY","input_per_million":"4.32","output_per_million":"29.15","input_cost":"0.1090584","output_cost":"0.27164885","total_cost":"0.38070725"},"status":"success"},{"stage":"stage5_characterization","provider":"dmx","model":"doubao-seed-2.0-pro","models":["doubao-seed-2.0-pro"],"prompt_id":"polymer.stage5.characterization","prompt_version":"1.6.2","prompt_sha256":"5f918eb9d0dcbe0a4dc60a70d83c4e9f144f9a87bf68905d0a38ad22c000ee5c","vocabulary_sha256":"3e9d85e4915a729edf0f0a53821f3ee6edf32874e1da6972457417e4f13a1510","input_hash":"bcdc04e1187071c997806a726d2383171e1504810aae68b2ddafe276b687833e","model_config_hash":"7e14aff06827af47a7b1a797111258e33d5972d1c072111440c3b2aae020f3ce","cache_key":"8277f8c712923061b8c0be26fd56ac11ad8048101c9e41ba5d28236aee5ea542","output_schema_version":"characterization_schema.v4","implementation_version":"1.7.1","context_block_count":48,"context_chars":39885,"call_count":1,"usage":{"input_tokens":17444,"output_tokens":6642,"cache_creation_input_tokens":0,"cache_read_input_tokens":0,"billable_input_tokens":17444,"total_tokens":24086},"cost":{"status":"calculated","currency":"CNY","input_per_million":"4.32","output_per_million":"29.15","input_cost":"0.07535808","output_cost":"0.1936143","total_cost":"0.26897238"},"status":"success"}],"warnings":[{"code":"legacy_manifest_missing_options","message":"旧 manifest 缺少 OCR 选项，已按 null 保留：ocr_enabled, language, page_ranges, enable_formula, enable_table, extra_formats","stage":"stage0"},{"stage":"stage3_sample_process","code":"state_description_replaced_with_evidence","message":"无标签 Sample 的 state_description 无法逐字定位；已使用验证后的完整 evidence.source_sentence","sample_ids":["s003","s004","s009","s010"]},{"stage":"stage3_sample_process","code":"unsupported_state_descriptions_dropped","message":"已有有效 sample_label_raw；删除无法逐字定位的 state_description","sample_ids":["s002"]},{"stage":"stage3_sample_process","code":"unsupported_sample_labels_dropped","message":"sample_label_raw 无法在 evidence 中定位；已有逐字 state_description，故删除无依据标签","sample_ids":["s008"]},{"stage":"stage3_sample_process","code":"parameters_not_in_source","message":"无法定位到 evidence 原文的参数已舍弃","steps":[{"step_id":"ps001","parameter_keys":["equipment"]},{"step_id":"ps002","parameter_keys":["equipment"]},{"step_id":"ps004","parameter_keys":["temperature profile"]},{"step_id":"ps005","parameter_keys":["dimensions"]}]},{"stage":"stage4_property","code":"series_entity_relinked_to_sample","message":"PropertySeries/point 的 entity_id 与已解析 Sample 冲突；已按 Stage 3 Sample.refers_to_entity 确定性纠正","series":0,"points":1},{"stage":"stage4_property","code":"multi_subject_series_normalized","message":"PropertySeries 的 points 明确属于多个 Sample/PolymerEntity；已清除错误的单一顶层主体，主体关系保留在各 point","series":1},{"stage":"stage4_property","code":"candidate_table_locator_surface_repaired","message":"模型 locator 表面文本不在表格原文；已用 property raw 与 determination method 中唯一匹配的 Stage 0 表头恢复","evidence":3},{"stage":"stage4_property","code":"condition_table_locators_synthesized","message":"已将唯一包含条件 raw 的表头单元格绑定为条件 evidence","evidence":1},{"stage":"stage4_property","code":"preview_semantic_validation_bypassed","message":"Preview 已保留 Schema 合法候选，并跳过原文/evidence 语义对应校验；Strict 模式仍会报错","reason":"uprop001.property_name_raw='σ_L' 不是任一 evidence block 的原文子串"},{"stage":"stage4_property","code":"preview_objects_salvaged","message":"Preview 已逐对象保留可安全物化的数据；坏字段、坏对象或失效引用已局部删除，Strict 模式仍会报错","details":{"dropped_conditions":[],"dropped_properties":[],"dropped_unresolved_properties":[],"dropped_series":[],"dropped_points":[],"dropped_evidence":0,"dropped_coordinates":0}},{"stage":"stage4_property","code":"unresolved_properties","message":"1 条性质无法可靠关联具体 Sample","unresolved_ids":["uprop001"]},{"stage":"stage5_characterization","code":"preview_unsupported_stage5_optional_fields_cleared","message":"Preview 模式已清空无原文支撑的 Stage 5 可选字段","field_path":"properties[0]","property_id":"prop_s5_001","fields":["unit_raw"]},{"stage":"stage5_characterization","code":"preview_unsupported_stage5_optional_fields_cleared","message":"Preview 模式已清空无原文支撑的 Stage 5 可选字段","field_path":"properties[1]","property_id":"prop_s5_002","fields":["unit_raw"]},{"stage":"stage5_characterization","code":"preview_property_subject_scope_aligned","message":"Preview 模式已将冲突的派生性质主体对齐到所属 Characterization","field_path":"properties[3]","characterization_id":"char002"},{"stage":"stage5_characterization","code":"preview_property_subject_scope_aligned","message":"Preview 模式已将冲突的派生性质主体对齐到所属 Characterization","field_path":"properties[4]","characterization_id":"char002"},{"stage":"stage5_characterization","code":"preview_property_subject_subscope_retained","message":"Preview 模式已保留多主体 Characterization 下的明确单主体性质；需在正式数据中复核","items":[{"property_id":"prop_s5_001","characterization_id":"char002","sample_id":"s005","entity_id":null},{"property_id":"prop_s5_002","characterization_id":"char002","sample_id":"s005","entity_id":null},{"property_id":"prop_s5_003","characterization_id":"char002","sample_id":"s001","entity_id":null}]}],"stage_failures":[],"raw_stage_candidates":{},"validation_summary":{"status":"not_validated","error_count":0,"warning_count":17},"source_stage_versions":{"stage0":"1.1","stage1":"1.0","stage2":"1.0","stage3":"1.0","stage4":"1.0","stage5":"1.0"}}</script>
+<script id="report-context" type="application/json">{"figures":[{"figure_id":"fig001","label":"Fig. 1","page":1,"image_block_ids":["I_1_29"],"caption_source_block_id":"I_1_29","caption":"Figure 1 Shear viscosity curves for COC and the COC composites.","association_status":"explicit_caption","images":[{"block_id":"I_1_29","page":1,"bbox":[509.0,691.0,895.0,913.0],"source_block_index":29,"image_kind":"chart","image_path":"wenxian/reference_no_0043590/images/fig1.jpg","image_url":"../../../wenxian/reference_no_0043590/images/fig1.jpg","image_exists":true}],"linked_evidence_ids":[],"linked_object_ids":[],"link_basis":[]},{"figure_id":"fig002","label":"Fig. 2","page":2,"image_block_ids":["I_2_33"],"caption_source_block_id":"I_2_33","caption":"Figure 2 Prepared specimens from molded sample for electrical conductivity measurements.","association_status":"explicit_caption","images":[{"block_id":"I_2_33","page":2,"bbox":[104.0,103.0,485.0,307.0],"source_block_index":33,"image_kind":"image","image_path":"wenxian/reference_no_0043590/images/fig2.jpg","image_url":"../../../wenxian/reference_no_0043590/images/fig2.jpg","image_exists":true}],"linked_evidence_ids":[],"linked_object_ids":[],"link_basis":[]},{"figure_id":"fig003","label":"Fig. 3","page":3,"image_block_ids":["I_3_46","I_3_47","I_3_48"],"caption_source_block_id":"I_3_48","caption":"Figure 3 SEM image showing the cell morphology for (a) COC, (b) COC/CB3, and (c) COC/cCF10 composite in the LT plane. L, horizontal direction and T, vertical direction. Filler particles are not detectable at given resolution.","association_status":"grouped_by_adjacency","images":[{"block_id":"I_3_46","page":3,"bbox":[106.0,116.0,479.0,359.0],"source_block_index":46,"image_kind":"image","image_path":"wenxian/reference_no_0043590/images/fig1.jpg","image_url":"../../../wenxian/reference_no_0043590/images/fig1.jpg","image_exists":true},{"block_id":"I_3_47","page":3,"bbox":[106.0,372.0,480.0,618.0],"source_block_index":47,"image_kind":"image","image_path":"wenxian/reference_no_0043590/images/fig2.jpg","image_url":"../../../wenxian/reference_no_0043590/images/fig2.jpg","image_exists":true},{"block_id":"I_3_48","page":3,"bbox":[106.0,630.0,480.0,876.0],"source_block_index":48,"image_kind":"image","image_path":"wenxian/reference_no_0043590/images/fig3.jpg","image_url":"../../../wenxian/reference_no_0043590/images/fig3.jpg","image_exists":true}],"linked_evidence_ids":[],"linked_object_ids":[],"link_basis":[]},{"figure_id":"fig004","label":"Fig. 4","page":3,"image_block_ids":["I_3_51","I_3_52"],"caption_source_block_id":"I_3_52","caption":"Figure 4 Close-up examination of fractured surface of COC/CB3 composite, (a) nonfoamed specimen and (b) foamed specimen, by SEM. CB appears as small clusters of spherical particles in the fractured surface of the matrix.","association_status":"grouped_by_adjacency","images":[{"block_id":"I_3_51","page":3,"bbox":[512.0,400.0,893.0,635.0],"source_block_index":51,"image_kind":"image","image_path":"wenxian/reference_no_0043590/images/fig3.jpg","image_url":"../../../wenxian/reference_no_0043590/images/fig3.jpg","image_exists":true},{"block_id":"I_3_52","page":3,"bbox":[512.0,651.0,893.0,887.0],"source_block_index":52,"image_kind":"image","image_path":"wenxian/reference_no_0043590/images/fig4.jpg","image_url":"../../../wenxian/reference_no_0043590/images/fig4.jpg","image_exists":true}],"linked_evidence_ids":[],"linked_object_ids":[],"link_basis":[]},{"figure_id":"fig005","label":"Fig. 5","page":4,"image_block_ids":["I_4_56"],"caption_source_block_id":"I_4_56","caption":"Figure 5 Electrical conductivity of injection-molded COC/CB3 composites tested with LW skin present, and after removing 0.6 mm LW skin from both sides.","association_status":"explicit_caption","images":[{"block_id":"I_4_56","page":4,"bbox":[100.0,104.0,484.0,304.0],"source_block_index":56,"image_kind":"chart","image_path":"wenxian/reference_no_0043590/images/fig5.jpg","image_url":"../../../wenxian/reference_no_0043590/images/fig5.jpg","image_exists":true}],"linked_evidence_ids":[],"linked_object_ids":[],"link_basis":[]},{"figure_id":"fig006","label":"Fig. 6","page":5,"image_block_ids":["I_5_75"],"caption_source_block_id":"I_5_75","caption":"Figure 6 Electrical conductivity of solid and foam injection-molded COC/cCF10 composites, with skin and after machining off skin.","association_status":"explicit_caption","images":[{"block_id":"I_5_75","page":5,"bbox":[509.0,702.0,893.0,901.0],"source_block_index":75,"image_kind":"chart","image_path":"wenxian/reference_no_0043590/images/fig6.jpg","image_url":"../../../wenxian/reference_no_0043590/images/fig6.jpg","image_exists":true}],"linked_evidence_ids":[],"linked_object_ids":[],"link_basis":[]},{"figure_id":"fig007","label":"Fig. 7","page":6,"image_block_ids":["I_6_82","I_6_83"],"caption_source_block_id":"I_6_83","caption":"Figure 7 Electrical conductivity of hybrid cCF10/CB composite with skin present and after LW skin removal (0.6 mm), a) 1 vol % CB and b) 3 vol % CB.","association_status":"grouped_by_adjacency","images":[{"block_id":"I_6_82","page":6,"bbox":[509.0,106.0,895.0,304.0],"source_block_index":82,"image_kind":"chart","image_path":"wenxian/reference_no_0043590/images/fig4.jpg","image_url":"../../../wenxian/reference_no_0043590/images/fig4.jpg","image_exists":true},{"block_id":"I_6_83","page":6,"bbox":[509.0,313.0,895.0,511.0],"source_block_index":83,"image_kind":"chart","image_path":"wenxian/reference_no_0043590/images/fig7.jpg","image_url":"../../../wenxian/reference_no_0043590/images/fig7.jpg","image_exists":true}],"linked_evidence_ids":[],"linked_object_ids":[],"link_basis":[]},{"figure_id":"fig008","label":"Fig. 8","page":7,"image_block_ids":["I_7_90"],"caption_source_block_id":"I_7_90","caption":"Figure 8 SEM micrograph of COC/cCF10 demonstrating isolation of carbon fibers by bubble growth during injection molding.","association_status":"explicit_caption","images":[{"block_id":"I_7_90","page":7,"bbox":[104.0,106.0,482.0,353.0],"source_block_index":90,"image_kind":"image","image_path":"wenxian/reference_no_0043590/images/fig8.jpg","image_url":"../../../wenxian/reference_no_0043590/images/fig8.jpg","image_exists":true}],"linked_evidence_ids":[],"linked_object_ids":[],"link_basis":[]},{"figure_id":"fig009","label":"Fig. 9","page":7,"image_block_ids":["I_7_95"],"caption_source_block_id":"I_7_95","caption":"Figure 9 Conceptual model of morphological changes in the hybrid composite resulting from bubble growth.","association_status":"explicit_caption","images":[{"block_id":"I_7_95","page":7,"bbox":[528.0,613.0,876.0,914.0],"source_block_index":95,"image_kind":"image","image_path":"wenxian/reference_no_0043590/images/fig9.jpg","image_url":"../../../wenxian/reference_no_0043590/images/fig9.jpg","image_exists":true}],"linked_evidence_ids":[],"linked_object_ids":[],"link_basis":[]}],"figure_warnings":[],"evidence_to_figure":{},"table_sources":{"T_1_19":"\u003ctable\u003e\u003ctr\u003e\u003ctd\u003eProperties\u003c/td\u003e\u003ctd\u003eCOC\u003c/td\u003e\u003ctd\u003eCB\u003c/td\u003e\u003ctd\u003ecCF\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eElectrical conductivity (S/cm)\u003c/td\u003e\u003ctd\u003e $\u003c10^{-16}$ \u003c/td\u003e\u003ctd\u003e10–100\u003c/td\u003e\u003ctd\u003e625\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eSpecific gravity\u003c/td\u003e\u003ctd\u003e1.02\u003c/td\u003e\u003ctd\u003e1.8\u003c/td\u003e\u003ctd\u003e1.78\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eBulk density (kg/m3)\u003c/td\u003e\u003ctd\u003e510\u003c/td\u003e\u003ctd\u003e100–120\u003c/td\u003e\u003ctd\u003e360\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eAggregate size (nm)\u003c/td\u003e\u003ctd\u003e-\u003c/td\u003e\u003ctd\u003e30–100\u003c/td\u003e\u003ctd\u003e-\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003ePore volume (DBP, mL/100 g)\u003c/td\u003e\u003ctd\u003e-\u003c/td\u003e\u003ctd\u003e480–510\u003c/td\u003e\u003ctd\u003e-\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eSurface area (m2/g)\u003c/td\u003e\u003ctd\u003e-\u003c/td\u003e\u003ctd\u003e1250\u003c/td\u003e\u003ctd\u003e1.1\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eFiber diameter (μm)\u003c/td\u003e\u003ctd\u003e-\u003c/td\u003e\u003ctd\u003e-\u003c/td\u003e\u003ctd\u003e7.5\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eFiber length (μm)\u003c/td\u003e\u003ctd\u003e-\u003c/td\u003e\u003ctd\u003e-\u003c/td\u003e\u003ctd\u003e5000\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e","T_2_42":"\u003ctable\u003e\u003ctr\u003e\u003ctd rowspan=\"2\"\u003eSample\u003c/td\u003e\u003ctd rowspan=\"2\"\u003eVoid Content (%)\u003c/td\u003e\u003ctd rowspan=\"2\"\u003eCell Density (×106cells/cm3)\u003c/td\u003e\u003ctd colspan=\"3\"\u003eCell Size (μm)\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003e $D_n$ \u003c/td\u003e\u003ctd\u003e $D_w$ \u003c/td\u003e\u003ctd\u003e $D_{max}$ \u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eCOC\u003c/td\u003e\u003ctd\u003e11\u003c/td\u003e\u003ctd\u003e2.3\u003c/td\u003e\u003ctd\u003e45\u003c/td\u003e\u003ctd\u003e72\u003c/td\u003e\u003ctd\u003e540\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eCB3\u003c/td\u003e\u003ctd\u003e15\u003c/td\u003e\u003ctd\u003e1.0\u003c/td\u003e\u003ctd\u003e57\u003c/td\u003e\u003ctd\u003e64\u003c/td\u003e\u003ctd\u003e400\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003ecCF10\u003c/td\u003e\u003ctd\u003e15\u003c/td\u003e\u003ctd\u003e5.0\u003c/td\u003e\u003ctd\u003e30\u003c/td\u003e\u003ctd\u003e35\u003c/td\u003e\u003ctd\u003e200\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003ecCF10-CB1\u003c/td\u003e\u003ctd\u003e14\u003c/td\u003e\u003ctd\u003e2.6\u003c/td\u003e\u003ctd\u003e23\u003c/td\u003e\u003ctd\u003e27\u003c/td\u003e\u003ctd\u003e52\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003ecCF10-CB3\u003c/td\u003e\u003ctd\u003e16\u003c/td\u003e\u003ctd\u003e2.5\u003c/td\u003e\u003ctd\u003e28\u003c/td\u003e\u003ctd\u003e35\u003c/td\u003e\u003ctd\u003e72\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e","T_4_63":"\u003ctable\u003e\u003ctr\u003e\u003ctd\u003eSample\u003c/td\u003e\u003ctd\u003eDescription\u003c/td\u003e\u003ctd\u003eWt. Average Length ( $\\mu m$ ) $^{a}$ \u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003ecCF10\u003c/td\u003e\u003ctd\u003eNonfoamed\u003c/td\u003e\u003ctd\u003e172\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003ecCF10\u003c/td\u003e\u003ctd\u003eFoamed\u003c/td\u003e\u003ctd\u003e181\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003ecCF10-CB3\u003c/td\u003e\u003ctd\u003eNonfoamed\u003c/td\u003e\u003ctd\u003e188\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003ecCF10-CB3\u003c/td\u003e\u003ctd\u003eFoamed\u003c/td\u003e\u003ctd\u003e207\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e","T_5_67":"\u003ctable\u003e\u003ctr\u003e\u003ctd\u003eSample\u003c/td\u003e\u003ctd\u003eVoid Content (%)\u003c/td\u003e\u003ctd\u003eLocation\u003c/td\u003e\u003ctd\u003e $f_T$ \u003c/td\u003e\u003ctd\u003e $f_L$ \u003c/td\u003e\u003ctd\u003e $f_W$ \u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd rowspan=\"4\"\u003ecCF10\u003c/td\u003e\u003ctd rowspan=\"2\"\u003e0\u003c/td\u003e\u003ctd\u003eCore\u003c/td\u003e\u003ctd\u003e0.12\u003c/td\u003e\u003ctd\u003e0.50\u003c/td\u003e\u003ctd\u003e0.39\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eSkin\u003c/td\u003e\u003ctd\u003e0.04\u003c/td\u003e\u003ctd\u003e0.61\u003c/td\u003e\u003ctd\u003e0.35\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd rowspan=\"2\"\u003e15\u003c/td\u003e\u003ctd\u003eCore\u003c/td\u003e\u003ctd\u003e0.105\u003c/td\u003e\u003ctd\u003e0.585\u003c/td\u003e\u003ctd\u003e0.310\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eSkin\u003c/td\u003e\u003ctd\u003e0.040\u003c/td\u003e\u003ctd\u003e0.610\u003c/td\u003e\u003ctd\u003e0.347\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd rowspan=\"4\"\u003ecCF10CB1\u003c/td\u003e\u003ctd rowspan=\"2\"\u003e0\u003c/td\u003e\u003ctd\u003eCore\u003c/td\u003e\u003ctd\u003e0.082\u003c/td\u003e\u003ctd\u003e0.62\u003c/td\u003e\u003ctd\u003e0.30\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eSkin\u003c/td\u003e\u003ctd\u003e0.030\u003c/td\u003e\u003ctd\u003e0.68\u003c/td\u003e\u003ctd\u003e0.29\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd rowspan=\"2\"\u003e14\u003c/td\u003e\u003ctd\u003eCore\u003c/td\u003e\u003ctd\u003e0.055\u003c/td\u003e\u003ctd\u003e0.67\u003c/td\u003e\u003ctd\u003e0.27\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eSkin\u003c/td\u003e\u003ctd\u003e0.043\u003c/td\u003e\u003ctd\u003e0.660\u003c/td\u003e\u003ctd\u003e0.300\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd rowspan=\"4\"\u003ecCF10CB3\u003c/td\u003e\u003ctd rowspan=\"2\"\u003e0\u003c/td\u003e\u003ctd\u003eCore\u003c/td\u003e\u003ctd\u003e0.118\u003c/td\u003e\u003ctd\u003e0.63\u003c/td\u003e\u003ctd\u003e0.25\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eSkin\u003c/td\u003e\u003ctd\u003e0.027\u003c/td\u003e\u003ctd\u003e0.710\u003c/td\u003e\u003ctd\u003e0.260\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd rowspan=\"2\"\u003e16\u003c/td\u003e\u003ctd\u003eCore\u003c/td\u003e\u003ctd\u003e0.200\u003c/td\u003e\u003ctd\u003e0.50\u003c/td\u003e\u003ctd\u003e0.29\u003c/td\u003e\u003c/tr\u003e\u003ctr\u003e\u003ctd\u003eSkin\u003c/td\u003e\u003ctd\u003e0.040\u003c/td\u003e\u003ctd\u003e0.680\u003c/td\u003e\u003ctd\u003e0.280\u003c/td\u003e\u003c/tr\u003e\u003c/table\u003e"},"stage0_available":true,"mathjax_available":true,"mathjax_version":"3.2.2"}</script>
+<script>
+"use strict";
+const data=JSON.parse(document.getElementById("report-data").textContent);
+const reportContext=JSON.parse(document.getElementById("report-context").textContent);
+const figures=reportContext.figures||[];
+const paper=data.paper||{};
+const money=new Intl.NumberFormat("zh-CN",{minimumFractionDigits:0,maximumFractionDigits:6});
+const text=value=>value===null||value===undefined||value===""?"未报告":String(value);
+const hasValue=value=>value!==null&&value!==undefined&&value!==""&&(!Array.isArray(value)||value.length>0)&&(!(value&&typeof value==="object"&&!Array.isArray(value))||Object.keys(value).length>0);
+const count=key=>(data[key]||[]).length;
+const percent=metric=>metric?`${(Number(metric.ratio||0)*100).toFixed(1)}%`:"—";
+const create=(tag,className,value)=>{
+  const element=document.createElement(tag);
+  if(className)element.className=className;
+  if(value!==undefined)element.textContent=value;
+  return element;
+};
+const valueLabels={
+  not_reported:"未报告",unspecified:"未指定",reported:"原文报告",
+  text:"正文",title:"标题",table:"表格",image:"图片/图注",equation:"公式",footnote:"脚注",
+  explicit_caption:"显式图注",grouped_by_adjacency:"按相邻版面分组",caption_missing:"缺少图注"
+};
+const displayValue=value=>valueLabels[String(value)]||text(value);
+
+document.getElementById("doi").textContent=paper.doi===null?"null":text(paper.doi);
+document.getElementById("year").textContent=text(paper.year);
+document.getElementById("journal").textContent=text(paper.journal);
+const mathStatus=document.getElementById("mathStatus");
+mathStatus.textContent=reportContext.mathjax_available?"本地资源加载中":"原始文本回退";
+window.addEventListener("load",()=>{
+  if(window.MathJax&&typeof window.MathJax.typesetPromise==="function"){
+    mathStatus.textContent="MathJax 3.2.2（本地）";
+  }else{
+    mathStatus.textContent="公式资源不可用，显示原文";
+  }
+});
+
+const quality=data.quality_metrics||{};
+const costLabel=data.cost_summary&&data.cost_summary.status!=="complete"?"可计费用 / CNY（部分）":"总费用 / CNY";
+const costValue=data.cost_summary?`¥${money.format(Number(data.cost_summary.total_cost||0))}`:"不可用";
+const resolvedPropertyCount=count("property_observations");
+const unresolvedPropertyCount=count("unresolved_property_observations");
+const cards=[
+  ["材料提及",count("material_mentions")],["聚合物实体",count("polymer_entities")],["样品",count("samples")],
+  ["工艺步骤",count("process_steps")],["已归属性质",resolvedPropertyCount],["待归属性质",unresolvedPropertyCount],
+  ["性质候选总数",resolvedPropertyCount+unresolvedPropertyCount],["Property Series",count("property_series")],["表征",count("characterizations")],
+  ["证据",count("evidence")],["图组",figures.length],["单位完整率",percent(quality.properties_with_units)],
+  ["标准工艺率",percent(quality.standard_process_steps)],["方法回链率",percent(quality.stage4_methods_with_characterization)],
+  ["Confidence 覆盖率",percent(quality.objects_with_confidence)],[costLabel,costValue]
+];
+const cardsEl=document.getElementById("cards");
+cards.forEach(([label,value])=>{
+  const element=create("div","card");
+  element.append(create("div","value",value),create("div","label",label));
+  cardsEl.append(element);
+});
+
+const typeNames={mention_group:"材料提及组",mention:"材料提及",entity:"聚合物实体",sample_group:"样品组",sample:"样品",process:"工艺",property:"性质",unresolved_property:"待归属性质",series:"性质序列",condition:"测量条件",characterization:"表征",evidence:"证据",figure:"图片"};
+const idFields=["mention_id","entity_id","sample_id","step_id","property_id","unresolved_id","series_id","condition_id","characterization_id","evidence_id","figure_id"];
+const nodes=[],edges=[],byId=new Map();
+const evidenceById=new Map((data.evidence||[]).map(item=>[item.evidence_id,item]));
+const conditionById=new Map((data.measurement_conditions||[]).map(item=>[item.condition_id,item]));
+const figureById=new Map(figures.map(item=>[item.figure_id,item]));
+const figureByBlock=new Map();
+figures.forEach(figure=>(figure.image_block_ids||[]).forEach(blockId=>figureByBlock.set(blockId,figure)));
+const mergedWarnings=[...(data.warnings||[]),...(reportContext.figure_warnings||[])];
+const warningsByObject=new Map();
+mergedWarnings.forEach(warning=>{
+  if(!warning.object_id)return;
+  const values=warningsByObject.get(warning.object_id)||[];
+  values.push(warning);
+  warningsByObject.set(warning.object_id,values);
+});
+const evidenceConsumers=new Map();
+function objectId(raw){
+  for(const field of idFields){
+    if(raw&&raw[field])return raw[field];
+  }
+  return null;
+}
+function confidenceScore(raw){
+  const value=raw&&raw.confidence&&raw.confidence.score;
+  return Number.isFinite(Number(value))?Number(value):null;
+}
+function aggregateConfidence(items){
+  const scores=items.map(confidenceScore).filter(value=>value!==null);
+  return scores.length?{score:Math.min(...scores)}:null;
+}
+function addNode(id,type,label,raw,evidenceIds=[]){
+  if(!id||byId.has(id))return;
+  const node={id,type,label:text(label),raw,evidenceIds:evidenceIds||[],confidence:confidenceScore(raw),hasWarning:warningsByObject.has(id)};
+  nodes.push(node);
+  byId.set(id,node);
+  node.evidenceIds.forEach(evidenceId=>{
+    const values=evidenceConsumers.get(evidenceId)||[];
+    values.push(id);
+    evidenceConsumers.set(evidenceId,values);
+  });
+}
+const edgeKeys=new Set();
+function edge(a,b,kind){
+  if(!a||!b||a===b)return;
+  const key=`${a}|${b}|${kind}`;
+  if(edgeKeys.has(key))return;
+  edgeKeys.add(key);
+  edges.push({a,b,kind});
+}
+function sampleLabel(item){return item.sample_label_raw||item.state_description||item.polymer_name||item.sample_kind}
+function processLabel(item){
+  const values=Object.values(item.parameters||{}).slice(0,2);
+  return values.length?`${item.process_type} · ${values.join(" · ")}`:item.process_type;
+}
+(data.material_mentions||[]).forEach(item=>addNode(item.mention_id,"mention",item.text,item,item.evidence_ids));
+(data.polymer_entities||[]).forEach(item=>{
+  addNode(item.entity_id,"entity",item.polymer_name,item,item.evidence_ids);
+  (item.resolved_from_mentions||[]).forEach(id=>edge(id,item.entity_id,"resolves"));
+  (item.source_image_refs||[]).forEach(ref=>{
+    const figure=figureByBlock.get(ref.block_id);
+    if(figure)edge(item.entity_id,figure.figure_id,"source image");
+  });
+});
+(data.samples||[]).forEach(item=>{
+  addNode(item.sample_id,"sample",sampleLabel(item),item,item.evidence_ids);
+  edge(item.refers_to_entity,item.sample_id,"sample of");
+});
+(data.process_steps||[]).forEach(item=>{
+  addNode(item.step_id,"process",processLabel(item),item,item.evidence_ids);
+  (item.input_sample_ids||[]).forEach(id=>edge(id,item.step_id,"input"));
+  (item.output_sample_ids||[]).forEach(id=>edge(item.step_id,id,"output"));
+});
+(data.measurement_conditions||[]).forEach(item=>{
+  const label=item.condition_status==="not_reported"
+    ?"条件占位（原文未报告）"
+    :displayValue(item.condition_status||"measurement condition");
+  addNode(item.condition_id,"condition",label,item,item.evidence_ids);
+});
+(data.property_observations||[]).forEach(item=>{
+  addNode(item.property_id,"property",`${item.property_name_raw||"property"}: ${item.value_raw||""}`,item,item.evidence_ids);
+  edge(item.sample_id,item.property_id,"subject-sample");
+  edge(item.property_id,item.measurement_condition_id,"condition");
+  [...(item.series_ids||[]),...(item.series_id?[item.series_id]:[])].forEach(id=>edge(item.property_id,id,"aggregate of"));
+});
+(data.unresolved_property_observations||[]).forEach(item=>{
+  addNode(item.unresolved_id,"unresolved_property",`${item.property_name_raw||"property"}: ${item.value_raw||""}`,item,item.evidence_ids);
+  edge(item.entity_id,item.unresolved_id,"subject-entity");
+  [...(item.series_ids||[]),...(item.series_id?[item.series_id]:[])].forEach(id=>edge(item.unresolved_id,id,"aggregate of"));
+});
+(data.property_series||[]).forEach(item=>{
+  const points=item.points||[];
+  const subjects=new Set(points.map(point=>point.sample_id||point.entity_id).filter(Boolean));
+  const scope=(!item.sample_id&&!item.entity_id&&subjects.size>1)?"跨主体序列":"序列";
+  const label=`${item.property_name_raw||item.property_name||"Property Series"} ${scope}（${points.length} 行数据）`;
+  const evidenceIds=[...new Set([...(item.evidence_ids||[]),...points.flatMap(point=>point.evidence_ids||[])])];
+  addNode(item.series_id,"series",label,item,evidenceIds);
+  if(item.sample_id)edge(item.sample_id,item.series_id,"subject-sample");
+  else edge(item.entity_id,item.series_id,"subject-entity");
+});
+const observationGroups=new Map();
+[
+  ...(data.property_observations||[]),
+  ...(data.unresolved_property_observations||[])
+].forEach(item=>{
+  if(!item.observation_group_id)return;
+  const first=observationGroups.get(item.observation_group_id);
+  const id=objectId(item);
+  if(first)edge(first,id,"same observation");
+  else observationGroups.set(item.observation_group_id,id);
+});
+(data.characterizations||[]).forEach(item=>{
+  addNode(item.characterization_id,"characterization",item.method_normalized||item.method_raw,item,item.evidence_ids);
+  if(item.sample_id)edge(item.sample_id,item.characterization_id,"subject-sample");
+  else edge(item.entity_id,item.characterization_id,"subject-entity");
+  (item.sample_ids||[]).forEach(id=>edge(id,item.characterization_id,"subject-sample"));
+  (item.entity_ids||[]).forEach(id=>edge(id,item.characterization_id,"subject-entity"));
+  [...(item.series_ids||[]),...(item.series_id?[item.series_id]:[])].forEach(id=>edge(item.characterization_id,id,"characterizes"));
+  (item.derived_property_ids||[]).forEach(id=>edge(item.characterization_id,id,"derived"));
+});
+(data.evidence||[]).forEach(item=>addNode(item.evidence_id,"evidence",`p.${item.page} · ${item.source_type}`,item,[]));
+figures.forEach(item=>addNode(item.figure_id,"figure",item.label,item,item.linked_evidence_ids));
+nodes.filter(node=>node.type!=="evidence").forEach(node=>node.evidenceIds.forEach(id=>edge(node.id,id,"evidence")));
+
+const mentionGroupByChild=new Map(),sampleGroupByChild=new Map();
+function addCollapsedGroup(id,type,label,items,entityId){
+  if(!items.length)return;
+  const evidenceIds=[...new Set(items.flatMap(item=>item.evidence_ids||[]))];
+  const raw={
+    group_kind:type,
+    entity_id:entityId||null,
+    count:items.length,
+    item_ids:items.map(objectId),
+    items,
+    evidence_ids:evidenceIds,
+    confidence:aggregateConfidence(items)
+  };
+  addNode(id,type,label,raw,evidenceIds);
+  evidenceIds.forEach(evidenceId=>edge(id,evidenceId,"evidence"));
+}
+(data.polymer_entities||[]).forEach(entity=>{
+  const mentions=(data.material_mentions||[]).filter(item=>(entity.resolved_from_mentions||[]).includes(item.mention_id));
+  if(mentions.length){
+    const id=`mention-group-${entity.entity_id}`;
+    addCollapsedGroup(id,"mention_group",`材料提及 × ${mentions.length}`,mentions,entity.entity_id);
+    mentions.forEach(item=>mentionGroupByChild.set(item.mention_id,id));
+  }
+  const samples=(data.samples||[]).filter(item=>item.refers_to_entity===entity.entity_id);
+  if(samples.length>=4){
+    const id=`sample-group-${entity.entity_id}`;
+    addCollapsedGroup(id,"sample_group",`样品 × ${samples.length}`,samples,entity.entity_id);
+    samples.forEach(item=>sampleGroupByChild.set(item.sample_id,id));
+  }
+});
+const ungroupedMentions=(data.material_mentions||[]).filter(item=>!mentionGroupByChild.has(item.mention_id));
+if(ungroupedMentions.length){
+  const id="mention-group-unresolved";
+  addCollapsedGroup(id,"mention_group",`未解析材料提及 × ${ungroupedMentions.length}`,ungroupedMentions,null);
+  ungroupedMentions.forEach(item=>mentionGroupByChild.set(item.mention_id,id));
+}
+
+const subscriptMap={0:"₀",1:"₁",2:"₂",3:"₃",4:"₄",5:"₅",6:"₆",7:"₇",8:"₈",9:"₉",p:"ₚ",n:"ₙ",m:"ₘ",i:"ᵢ",j:"ⱼ",k:"ₖ",x:"ₓ",a:"ₐ",e:"ₑ",o:"ₒ",r:"ᵣ",s:"ₛ",t:"ₜ"};
+const superscriptMap={0:"⁰",1:"¹",2:"²",3:"³",4:"⁴",5:"⁵",6:"⁶",7:"⁷",8:"⁸",9:"⁹","+":"⁺","-":"⁻","/":"ᐟ"};
+function mappedChars(value,map){return [...value].map(char=>map[char]||char).join("")}
+function liteMath(value){
+  return text(value)
+    .replace(/\$/g,"")
+    .replace(/\\delta/g,"δ").replace(/\\chi/g,"χ").replace(/\\theta/gi,"θ")
+    .replace(/\\alpha/g,"α").replace(/\\beta/g,"β").replace(/\\pm/g,"±")
+    .replace(/\\circ/g,"°").replace(/\\mathrm\{([^}]*)\}/g,"$1")
+    .replace(/_\{?([A-Za-z0-9]+)\}?/g,(_,part)=>mappedChars(part,subscriptMap))
+    .replace(/\^\{?([0-9+\-/]+)\}?/g,(_,part)=>mappedChars(part,superscriptMap))
+    .replace(/\^\{?°\}?/g,"°")
+    .replace(/[{}]/g,"").replace(/\\/g,"");
+}
+function short(value,length=25){
+  const rendered=liteMath(value);
+  return rendered.length>length?`${rendered.slice(0,length-1)}…`:rendered;
+}
+
+const viewConfigs={
+  science:{
+    lanes:[["entity"],["process"],["property","unresolved_property","series","characterization"]],
+    labels:["材料","工艺","性能 / Series / 表征"],
+    gap:315,widths:[220,235,250]
+  },
+  objects:{
+    lanes:[["mention_group","mention"],["entity"],["sample_group","sample"],["property","unresolved_property","series","characterization"]],
+    labels:["材料提及","聚合物实体","样品","性质 / Series / 表征"],
+    gap:245,widths:[185,205,205,235]
+  },
+  process:{
+    lanes:[["sample"],["process"]],
+    labels:["样品","工艺"],
+    gap:285,widths:[220,220]
+  },
+  audit:{
+    lanes:[["mention"],["entity"],["sample"],["process"],["property","unresolved_property","series","condition","characterization"],["evidence"],["figure"]],
+    labels:["提及","实体","样品","工艺","性质 / 条件 / 表征","证据","图片"],
+    gap:230,widths:[180,180,180,180,205,180,180]
+  }
+};
+const svg=document.getElementById("graph");
+const NS="http://www.w3.org/2000/svg";
+const expandedGroups=new Set();
+let nodeEls=new Map(),edgeEls=[],positions=new Map(),selectedId=null,currentRenderedEdges=[];
+function graphProjection(viewName,config){
+  const allowedTypes=new Set(config.lanes.flat());
+  if(viewName==="science"){
+    const visibleNodes=nodes.filter(node=>allowedTypes.has(node.type));
+    const visibleIds=new Set(visibleNodes.map(node=>node.id));
+    const sampleEntity=new Map((data.samples||[]).map(item=>[item.sample_id,item.refers_to_entity]));
+    const projectedEdges=[],seen=new Set();
+    const addProjected=(a,b,kind,sampleIds)=>{
+      if(!visibleIds.has(a)||!visibleIds.has(b)||a===b)return;
+      const samples=[...new Set((sampleIds||[]).filter(Boolean))];
+      const key=`${a}|${b}|${kind}|${samples.join(",")}`;
+      if(seen.has(key))return;
+      seen.add(key);
+      projectedEdges.push({a,b,kind,projected:true,sampleIds:samples});
+    };
+    const processNodes=visibleNodes.filter(node=>node.type==="process");
+    processNodes.forEach(process=>{
+      const sampleIds=[...(process.raw.input_sample_ids||[]),...(process.raw.output_sample_ids||[])];
+      const byEntity=new Map();
+      sampleIds.forEach(sampleId=>{
+        const entityId=sampleEntity.get(sampleId);
+        if(!entityId)return;
+        if(!byEntity.has(entityId))byEntity.set(entityId,[]);
+        byEntity.get(entityId).push(sampleId);
+      });
+      byEntity.forEach((ids,entityId)=>addProjected(entityId,process.id,"projected-material-process",ids));
+    });
+    visibleNodes.filter(node=>["property","unresolved_property","series","characterization"].includes(node.type)).forEach(measurement=>{
+      const sampleId=measurement.raw.sample_id;
+      const producers=sampleId?processNodes.filter(process=>(process.raw.output_sample_ids||[]).includes(sampleId)):[];
+      producers.forEach(process=>addProjected(process.id,measurement.id,"projected-process-result",[sampleId]));
+      if(!producers.length){
+        const entityId=measurement.raw.entity_id||sampleEntity.get(sampleId);
+        if(entityId)addProjected(entityId,measurement.id,"projected-subject-result",sampleId?[sampleId]:[]);
+      }
+    });
+    return {nodes:visibleNodes,edges:projectedEdges};
+  }
+  if(viewName!=="objects"){
+    const visibleNodes=nodes.filter(node=>allowedTypes.has(node.type));
+    const ids=new Set(visibleNodes.map(node=>node.id));
+    return {nodes:visibleNodes,edges:edges.filter(item=>ids.has(item.a)&&ids.has(item.b))};
+  }
+  const visibleNodes=nodes.filter(node=>{
+    if(!allowedTypes.has(node.type))return false;
+    if(node.type==="mention_group"||node.type==="sample_group")return !expandedGroups.has(node.id);
+    const groupId=node.type==="mention"?mentionGroupByChild.get(node.id):node.type==="sample"?sampleGroupByChild.get(node.id):null;
+    return !groupId||expandedGroups.has(groupId);
+  });
+  const visibleIds=new Set(visibleNodes.map(node=>node.id));
+  const remap=id=>{
+    const mentionGroup=mentionGroupByChild.get(id);
+    if(mentionGroup&&!expandedGroups.has(mentionGroup))return mentionGroup;
+    const sampleGroup=sampleGroupByChild.get(id);
+    if(sampleGroup&&!expandedGroups.has(sampleGroup))return sampleGroup;
+    return id;
+  };
+  const seen=new Set(),projectedEdges=[];
+  edges.forEach(item=>{
+    const a=remap(item.a),b=remap(item.b);
+    if(a===b||!visibleIds.has(a)||!visibleIds.has(b))return;
+    const key=`${a}|${b}|${item.kind}`;
+    if(seen.has(key))return;
+    seen.add(key);
+    projectedEdges.push({...item,a,b});
+  });
+  return {nodes:visibleNodes,edges:projectedEdges};
+}
+function renderGraph(){
+  svg.replaceChildren();
+  nodeEls=new Map();
+  edgeEls=[];
+  positions=new Map();
+  const viewName=document.getElementById("viewMode").value;
+  const config=viewConfigs[viewName]||viewConfigs.science;
+  const projection=graphProjection(viewName,config);
+  const visibleNodes=projection.nodes;
+  currentRenderedEdges=projection.edges;
+  let maxRows=1;
+  config.lanes.forEach(types=>{maxRows=Math.max(maxRows,visibleNodes.filter(node=>types.includes(node.type)).length)});
+  const layoutTop=48,rowHeight=66,height=Math.max(600,layoutTop+maxRows*rowHeight+32);
+  const width=Math.max(620,70+(config.lanes.length-1)*config.gap+config.widths.at(-1)+35);
+  svg.setAttribute("viewBox",`0 0 ${width} ${height}`);
+  svg.setAttribute("width",width);
+  svg.setAttribute("height",height);
+  config.lanes.forEach((types,laneIndex)=>{
+    const x=35+laneIndex*config.gap;
+    const title=document.createElementNS(NS,"text");
+    title.setAttribute("x",x);
+    title.setAttribute("y","25");
+    title.setAttribute("class","lane-title");
+    title.textContent=config.labels[laneIndex];
+    svg.append(title);
+    const line=document.createElementNS(NS,"line");
+    line.setAttribute("x1",x-12);
+    line.setAttribute("x2",x-12);
+    line.setAttribute("y1","34");
+    line.setAttribute("y2",height-15);
+    line.setAttribute("class","lane-line");
+    svg.append(line);
+    visibleNodes.filter(node=>types.includes(node.type)).forEach((node,index)=>{
+      positions.set(node.id,{x,y:layoutTop+index*rowHeight,w:config.widths[laneIndex],h:48});
+    });
+  });
+  currentRenderedEdges.forEach((item,index)=>{
+    const a=positions.get(item.a),b=positions.get(item.b);
+    if(!a||!b)return;
+    const path=document.createElementNS(NS,"path");
+    const x1=a.x+a.w,y1=a.y+a.h/2,x2=b.x,y2=b.y+b.h/2,mid=(x1+x2)/2;
+    path.setAttribute("d",`M${x1},${y1} C${mid},${y1} ${mid},${y2} ${x2},${y2}`);
+    path.setAttribute("class",`edge ${item.projected?"projected":item.kind==="subject-sample"?"subject-sample":item.kind==="subject-entity"?"subject-entity":""}`);
+    path.dataset.a=item.a;
+    path.dataset.b=item.b;
+    path.dataset.kind=item.kind;
+    path.dataset.index=index;
+    const title=document.createElementNS(NS,"title");
+    title.textContent=item.projected?`${item.kind} · Sample: ${(item.sampleIds||[]).join(", ")||"未解析"} · 展示投影，不代表因果`:item.kind;
+    path.append(title);
+    if(item.projected)path.addEventListener("click",()=>selectProjectedEdge(item,path));
+    svg.append(path);
+    edgeEls.push(path);
+  });
+  visibleNodes.forEach(node=>{
+    const position=positions.get(node.id);
+    if(!position)return;
+    const group=document.createElementNS(NS,"g");
+    group.setAttribute("class","node");
+    group.dataset.id=node.id;
+    group.dataset.type=node.type;
+    group.classList.add(node.confidence===null?"missing-confidence":node.confidence<.5?"low-confidence":node.confidence<.8?"medium-confidence":"high-confidence");
+    if(node.raw&&node.raw.process_type==="other")group.classList.add("generic");
+    group.setAttribute("transform",`translate(${position.x},${position.y})`);
+    const rectangle=document.createElementNS(NS,"rect");
+    rectangle.setAttribute("class","node-box");
+    rectangle.setAttribute("width",position.w);
+    rectangle.setAttribute("height",position.h);
+    const typeBar=document.createElementNS(NS,"rect");
+    typeBar.setAttribute("class","node-type-bar");
+    typeBar.setAttribute("x","0");
+    typeBar.setAttribute("y","0");
+    typeBar.setAttribute("width","5");
+    typeBar.setAttribute("height",position.h);
+    typeBar.setAttribute("rx","3");
+    const type=document.createElementNS(NS,"text");
+    type.setAttribute("x","9");
+    type.setAttribute("y","15");
+    type.setAttribute("class","node-type");
+    type.textContent=typeNames[node.type].toUpperCase();
+    const confidence=document.createElementNS(NS,"text");
+    confidence.setAttribute("x",position.w-8);
+    confidence.setAttribute("y","15");
+    confidence.setAttribute("class","node-confidence");
+    confidence.textContent=node.confidence===null?"":`C ${node.confidence.toFixed(2)}`;
+    const label=document.createElementNS(NS,"text");
+    label.setAttribute("x","9");
+    label.setAttribute("y","34");
+    label.textContent=short(node.label,Math.floor(position.w/7)-(node.hasWarning?2:0));
+    const title=document.createElementNS(NS,"title");
+    title.textContent=`${typeNames[node.type]} · ${node.id}\n${node.label}`;
+    group.append(rectangle,typeBar,type,confidence,label,title);
+    if(node.hasWarning){
+      const warning=document.createElementNS(NS,"text");
+      warning.setAttribute("x",position.w-8);
+      warning.setAttribute("y","36");
+      warning.setAttribute("class","node-warning");
+      warning.textContent="⚠";
+      group.append(warning);
+    }
+    group.addEventListener("click",()=>selectNode(node.id));
+    svg.append(group);
+    nodeEls.set(node.id,group);
+  });
+  applyFilter();
+  if(selectedId)highlightSelection(selectedId);
+}
+function confidenceMatches(node,filter){
+  if(!filter)return true;
+  if(filter==="missing")return node.confidence===null;
+  if(node.confidence===null)return false;
+  if(filter==="high")return node.confidence>=.8;
+  if(filter==="medium")return node.confidence>=.5&&node.confidence<.8;
+  return node.confidence<.5;
+}
+function applyFilter(){
+  const query=document.getElementById("search").value.trim().toLowerCase();
+  const type=document.getElementById("typeFilter").value;
+  const confidence=document.getElementById("confidenceFilter").value;
+  const matched=new Set();
+  nodeEls.forEach((element,id)=>{
+    const node=byId.get(id);
+    const isMatch=(!type||node.type===type)&&confidenceMatches(node,confidence)&&(!query||`${node.id} ${node.label} ${JSON.stringify(node.raw)}`.toLowerCase().includes(query));
+    element.classList.toggle("dim",!isMatch);
+    if(isMatch)matched.add(id);
+  });
+  edgeEls.forEach(element=>element.classList.toggle("dim",!matched.has(element.dataset.a)||!matched.has(element.dataset.b)));
+}
+function highlightSelection(id){
+  const neighbors=new Set();
+  currentRenderedEdges.forEach(item=>{
+    if(item.a===id)neighbors.add(item.b);
+    if(item.b===id)neighbors.add(item.a);
+  });
+  nodeEls.forEach(element=>{
+    element.classList.toggle("active",element.dataset.id===id);
+    element.classList.toggle("neighbor",neighbors.has(element.dataset.id));
+  });
+  edgeEls.forEach(element=>element.classList.toggle("active",element.dataset.a===id||element.dataset.b===id));
+}
+
+const fieldLabels={
+  text:"原文",mention_role:"提及角色",polymer_name:"聚合物名称",polymer_type:"聚合物类型",
+  representation_status:"表示状态",structural_features:"结构特征",source_names:"来源名称",
+  resolved_from_mentions:"解析自材料提及",sample_kind:"样品类型",refers_to_entity:"所属实体",
+  sample_label_raw:"原始样品标签",state_description:"状态描述",intended_use:"用途",
+  process_type:"工艺类型",input_sample_ids:"输入样品",output_sample_ids:"输出样品",parameters:"参数",
+  property_name_raw:"性质名称",value_raw:"原始值",unit_raw:"原始单位",value_min:"最小值",value_max:"最大值",
+  molecular_weight_type:"分子量类型",sample_id:"样品",measurement_condition_id:"测量条件",
+  source_type:"来源类型",observation_group_id:"观测组",condition_status:"条件状态",
+  other_conditions:"其他条件",method_raw:"原始方法",method_normalized:"规范方法",
+  entity_id:"实体",sample_ids:"样品列表",entity_ids:"实体列表",sample_resolution_status:"样品解析状态",result_summary:"结果摘要",
+  derived_property_ids:"派生性质",page:"页码",block_id:"Block",bbox:"边界框",
+  source_sentence:"证据原文",table_locator:"表格定位",image_kind:"图片类型",
+  association_status:"图注关联状态",image_block_ids:"图片 Blocks",caption:"图注",
+  determination_method_raw:"测定方法",reason:"待归属原因",series_id:"Series ID",series_ids:"Series IDs",point_id:"内部点 ID",
+  observation_role:"观测角色",coverage_status:"覆盖状态",cell_id:"单元格 ID",
+  row_index:"行索引",column_index:"列索引",points:"数据点",aggregates:"汇总值",
+  temperature:"温度",pressure:"压力",time:"时间",concentration:"浓度",solvent:"溶剂",raw:"原文",value:"数值",unit:"单位"
+};
+const detailFields={
+  mention_group:[],
+  mention:["text","mention_role"],
+  entity:["polymer_name","polymer_type","representation_status","structural_features","source_names","resolved_from_mentions"],
+  sample_group:[],
+  sample:["sample_kind","refers_to_entity","polymer_name","sample_label_raw","state_description","intended_use"],
+  process:["process_type","parameters","input_sample_ids","output_sample_ids"],
+  property:["property_name_raw","value_raw","unit_raw","value_min","value_max","molecular_weight_type","sample_id","measurement_condition_id","source_type","observation_group_id","observation_role","series_id","series_ids"],
+  unresolved_property:["property_name_raw","value_raw","unit_raw","determination_method_raw","entity_id","observation_group_id","observation_role","series_id","series_ids","reason"],
+  series:["series_id","property_name_raw","sample_id","entity_id","measurement_condition_id","observation_group_id","aggregates"],
+  condition:["condition_status","other_conditions"],
+  characterization:["method_raw","method_normalized","sample_id","entity_id","sample_ids","entity_ids","sample_resolution_status","series_id","series_ids","measurement_condition_id","parameters","result_summary","derived_property_ids"],
+  evidence:["page","block_id","bbox","source_type","source_sentence","table_locator"],
+  figure:["association_status","page","image_block_ids","caption"]
+};
+const referenceFields=new Set(["refers_to_entity","resolved_from_mentions","input_sample_ids","output_sample_ids","sample_id","sample_ids","measurement_condition_id","entity_id","entity_ids","derived_property_ids","image_block_ids","series_id","series_ids"]);
+const wideFields=new Set(["text","polymer_name","structural_features","source_names","state_description","parameters","other_conditions","result_summary","source_sentence","table_locator","caption","image_block_ids"]);
+const relationLabels={
+  resolves:"解析为","sample of":"所属实体",input:"作为输入",output:"生成输出","subject-sample":"具体样品已解析","subject-entity":"仅关联聚合物实体",
+  condition:"测量条件",characterized:"表征对象",derived:"派生性质","same observation":"同一观测","aggregate of":"汇总自 Series",
+  evidence:"证据支持","source image":"结构来源图"
+};
+function confidenceLevel(score){
+  if(score===null)return {label:"未提供",className:""};
+  if(score>=.8)return {label:"高",className:"high"};
+  if(score>=.5)return {label:"中",className:"medium"};
+  return {label:"低",className:"low"};
+}
+function appendReference(host,id){
+  const node=byId.get(String(id));
+  const button=create("button","ref-button",node?`${node.label}（${id}）`:String(id));
+  button.type="button";
+  if(node)button.addEventListener("click",()=>selectNode(node.id));
+  else button.disabled=true;
+  host.append(button);
+}
+const scientificFields=new Set(["property_name_raw","value_raw","unit_raw","value_min","value_max","determination_method_raw","temperature","mixing temperature","pressure","time","concentration"]);
+function displayMathValue(value,field,parentField=""){
+  const shown=displayValue(value);
+  if(typeof value!=="string"||!value)return shown;
+  if(/(\\\(|\\\[|\$\$|(?<!\\)\$)/.test(value))return value;
+  if(!scientificFields.has(field)&&!scientificFields.has(parentField)&&parentField!=="parameters"&&parentField!=="other_conditions")return shown;
+  if(!/(\\[A-Za-z]+|[_^]\{)/.test(value))return shown;
+  const normalized=value.replace(/\^\{\\circ\}\s*C\b/g,String.raw`^{\circ}\mathrm{C}`);
+  return `\\(${normalized}\\)`;
+}
+function appendValue(host,value,field){
+  if(referenceFields.has(field)){
+    const values=Array.isArray(value)?value:[value];
+    const row=create("div","chip-row");
+    values.forEach(item=>appendReference(row,item));
+    host.append(row);
+    return;
+  }
+  if(Array.isArray(value)){
+    const row=create("div","chip-row");
+    value.forEach(item=>row.append(create("span","chip",typeof item==="object"?JSON.stringify(item):displayValue(item))));
+    host.append(row);
+    return;
+  }
+  if(value&&typeof value==="object"){
+    const list=create("div","key-values");
+    Object.entries(value).forEach(([key,item])=>{
+      const line=create("div","key-value");
+      line.append(create("b","",fieldLabels[key]||key));
+      const shown=create("span","mathjax-process",Array.isArray(item)?item.map(value=>displayMathValue(value,key,field)).join("；"):displayMathValue(item,key,field));
+      line.append(shown);
+      list.append(line);
+    });
+    host.append(list);
+    return;
+  }
+  host.append(create("span","mathjax-process",displayMathValue(value,field)));
+}
+function appendField(grid,field,value){
+  if(!hasValue(value))return;
+  const wrapper=create("dl",`field${wideFields.has(field)?" wide":""}`);
+  wrapper.append(create("dt","",fieldLabels[field]||field));
+  const body=create("dd");
+  appendValue(body,value,field);
+  wrapper.append(body);
+  grid.append(wrapper);
+}
+function renderConfidence(host,raw){
+  const confidence=raw&&raw.confidence;
+  if(!confidence)return;
+  const section=create("section","detail-section");
+  section.append(create("h4","","模型置信度"));
+  const card=create("div","confidence-card");
+  const score=Number.isFinite(Number(confidence.score))?Number(confidence.score):null;
+  const level=confidenceLevel(score);
+  const header=create("div","confidence-score");
+  header.append(create("strong","",score===null?"未提供":score.toFixed(2)),create("span",`badge ${level.className}`,level.label));
+  card.append(header);
+  section.append(card);
+  host.append(section);
+}
+function renderObjectWarnings(host,id){
+  const warnings=warningsByObject.get(id)||[];
+  if(!warnings.length)return;
+  const section=create("section","detail-section");
+  section.append(create("h4","","关联提示"));
+  warnings.forEach(warning=>section.append(create("div","inline-warning",`${warning.code||"warning"}：${warning.message||""}`)));
+  host.append(section);
+}
+function appendFigureImages(host,figure){
+  const panels=create("div","figure-panels");
+  (figure.images||[]).forEach(image=>{
+    if(image.image_exists&&image.image_url){
+      const button=create("button","image-button");
+      button.type="button";
+      button.title=`点击放大 · ${image.block_id}`;
+      const img=document.createElement("img");
+      img.src=image.image_url;
+      img.loading="lazy";
+      img.alt=figure.caption||`${figure.label} · ${image.block_id}`;
+      button.append(img);
+      button.addEventListener("click",()=>openImage(image,figure));
+      panels.append(button);
+    }else{
+      panels.append(create("div","image-missing",`${image.block_id}\n图片文件不可用`));
+    }
+  });
+  host.append(panels);
+}
+function renderFigureOverview(host,figure){
+  appendFigureImages(host,figure);
+  if(figure.caption)host.append(create("p","figure-caption mathjax-process",figure.caption));
+  const note=create("div","figure-note");
+  if((figure.linked_evidence_ids||[]).length){
+    note.textContent="关联依据：图注文本；未读取或推断图像像素。";
+  }else if((figure.link_basis||[]).includes("source_image_ref")){
+    note.textContent="该图由聚合物实体通过 source_image_refs 引用；未读取图像像素。";
+  }else{
+    note.textContent="文章图片，当前尚未被抽取结果引用。";
+  }
+  host.append(note);
+}
+function evidenceLocation(raw){
+  const evidence=(raw.evidence_ids||[]).map(id=>evidenceById.get(id)).find(Boolean);
+  if(!evidence)return "无关联出处";
+  const page=Number(evidence.page);
+  const pageLabel=Number.isFinite(page)?`PDF 第 ${page+1} 页 · index ${page}`:"页码未报告";
+  return `${pageLabel} · ${evidence.block_id||"block 未报告"}`;
+}
+function renderGroupOverview(host,node){
+  const expanded=expandedGroups.has(node.id);
+  host.append(create("div","inline-warning",node.type==="mention_group"
+    ?"材料提及默认折叠；展开后可在图中逐项查看，点击任一条目可直接查看原文出处。"
+    :"样品数量较多时默认折叠；展开后恢复具体 Sample 节点及其关系。"));
+  const toggle=create("button","small-button",expanded?"收起该组":"在图中展开该组");
+  toggle.type="button";
+  toggle.addEventListener("click",()=>{
+    if(expandedGroups.has(node.id))expandedGroups.delete(node.id);
+    else expandedGroups.add(node.id);
+    renderGraph();
+    selectNode(node.id);
+  });
+  host.append(toggle);
+  const section=create("section","detail-section");
+  section.append(create("h4","",`${node.raw.count} 个条目`));
+  const list=create("div","group-list");
+  (node.raw.items||[]).forEach(item=>{
+    const id=objectId(item);
+    const row=create("div","group-row");
+    const target=create("div");
+    appendReference(target,id);
+    const detail=node.type==="mention_group"
+      ?`${displayValue(item.mention_role)} · ${evidenceLocation(item)}`
+      :`${displayValue(item.sample_kind)} · ${evidenceLocation(item)}`;
+    row.append(target,create("div","group-meta",detail));
+    list.append(row);
+  });
+  section.append(list);
+  host.append(section);
+}
+function seriesPointValue(point,key){
+  if(Object.prototype.hasOwnProperty.call(point,key))return point[key];
+  const locator=firstTableLocator(point.evidence_ids||[]);
+  if(locator&&Object.prototype.hasOwnProperty.call(locator,key))return locator[key];
+  return null;
+}
+function firstTableLocator(evidenceIds){
+  for(const evidenceId of evidenceIds||[]){
+    const evidence=evidenceById.get(evidenceId);
+    if(evidence&&evidence.table_locator)return evidence.table_locator;
+  }
+  return null;
+}
+function appendLocatorMeta(host,evidenceIds){
+  const locator=firstTableLocator(evidenceIds);
+  if(!locator)return;
+  const hasRow=locator.row_index!==null&&locator.row_index!==undefined&&Number.isFinite(Number(locator.row_index));
+  const hasColumn=locator.column_index!==null&&locator.column_index!==undefined&&Number.isFinite(Number(locator.column_index));
+  const parts=[locator.cell_id,hasRow?`r${locator.row_index}`:null,hasColumn?`c${locator.column_index}`:null].filter(Boolean);
+  if(parts.length)host.append(create("span","cell-meta",parts.join(" · ")));
+}
+const conditionMetadataFields=new Set(["condition_id","measurement_condition_id","measurement_context","evidence","evidence_ids","other_condition_evidence","other_condition_evidence_ids","confidence"]);
+function conditionPayload(raw){
+  if(!raw||typeof raw!=="object")return {};
+  const source=raw.measurement_context&&typeof raw.measurement_context==="object"?raw.measurement_context:raw;
+  return Object.fromEntries(Object.entries(source).filter(([key,value])=>!conditionMetadataFields.has(key)&&hasValue(value)));
+}
+function sameConditionValue(a,b){return JSON.stringify(a)===JSON.stringify(b)}
+function mergeConditionLayer(values,sources,otherEvidenceIds,layer,label){
+  Object.entries(conditionPayload(layer)).forEach(([key,value])=>{
+    if(key==="other_conditions"&&value&&typeof value==="object"){
+      const merged={...(values.other_conditions||{})};
+      let changed=false;
+      Object.entries(value).forEach(([name,item])=>{
+        if(!sameConditionValue(merged[name],item)){
+          merged[name]=item;
+          otherEvidenceIds[name]=((layer.other_condition_evidence_ids||{})[name]||[]);
+          changed=true;
+        }
+      });
+      if(changed){values.other_conditions=merged;sources.add(label)}
+    }else if(!sameConditionValue(values[key],value)){
+      values[key]=value;
+      sources.add(label);
+    }
+  });
+}
+function effectiveCondition(owner,series=null){
+  const values={},sources=new Set(),otherEvidenceIds={};
+  const conditionId=(owner&&owner.measurement_condition_id)||(series&&series.measurement_condition_id)||null;
+  const legacy=conditionById.get(conditionId);
+  mergeConditionLayer(values,sources,otherEvidenceIds,legacy,"旧 MeasurementCondition");
+  if(series)mergeConditionLayer(values,sources,otherEvidenceIds,series.measurement_context,"Series 继承");
+  mergeConditionLayer(values,sources,otherEvidenceIds,owner&&owner.measurement_context,series?"point 自有":"对象自身");
+  return {values,sources:[...sources],conditionId,otherEvidenceIds};
+}
+function conditionValueText(value,field){
+  if(value&&typeof value==="object"){
+    if(hasValue(value.raw))return displayMathValue(value.raw,field);
+    return [value.value,value.unit].filter(hasValue).join(" ")||JSON.stringify(value);
+  }
+  return displayMathValue(value,field);
+}
+function conditionParts(effective){
+  const parts=[];
+  Object.entries(effective.values).forEach(([key,value])=>{
+    if(key==="condition_status")return;
+    if(key==="other_conditions"&&value&&typeof value==="object"){
+      Object.entries(value).forEach(([name,item])=>parts.push(`${name}: ${conditionValueText(item,name)}`));
+    }else parts.push(`${fieldLabels[key]||key}: ${conditionValueText(value,key)}`);
+  });
+  if(!parts.length&&effective.values.condition_status)parts.push(displayValue(effective.values.condition_status));
+  return parts;
+}
+function appendConditionEvidence(host,effective){
+  Object.entries(effective.values).forEach(([key,value])=>{
+    if(key==="condition_status")return;
+    if(key==="other_conditions"&&value&&typeof value==="object"){
+      Object.keys(value).forEach(name=>{
+        const ids=effective.otherEvidenceIds[name]||[];
+        if(!ids.length)return;
+        const refs=create("div","cell-links");
+        refs.append(create("span","cell-meta",`${name} 证据`));
+        ids.forEach(id=>appendReference(refs,id));
+        host.append(refs);
+      });
+      return;
+    }
+    const ids=(value&&typeof value==="object"&&value.evidence_ids)||[];
+    if(!ids.length)return;
+    const refs=create("div","cell-links");
+    refs.append(create("span","cell-meta",`${fieldLabels[key]||key}证据`));
+    ids.forEach(id=>appendReference(refs,id));
+    host.append(refs);
+  });
+}
+function appendConditionSummary(host,effective){
+  const parts=conditionParts(effective);
+  host.append(create("div","condition-summary mathjax-process",parts.join("；")||"未提供测量条件"));
+  const sources=create("div","condition-sources");
+  effective.sources.forEach(source=>sources.append(create("span","badge",source)));
+  if(sources.children.length)host.append(sources);
+  if(effective.conditionId){
+    const refs=create("div","cell-links");
+    appendReference(refs,effective.conditionId);
+    host.append(refs);
+  }
+  appendConditionEvidence(host,effective);
+}
+function renderSeriesOverview(host,series){
+  const points=series.points||[];
+  const section=create("section","detail-section");
+  section.append(create("h4","",`Series 数据点（${points.length}）`));
+  section.append(create("div","hint","内部点 ID 由抽取系统顺序生成；论文中的对应项请看坐标、行/列索引和单元格 ID。"));
+  if(!points.length){
+    section.append(create("div","empty","该 Series 没有数据点"));
+    host.append(section);
+    return;
+  }
+  const preferred=["point_id","observation_role","sample_id","measurement_condition_id","value_raw","unit_raw","coverage_status","cell_id","row_index","column_index"];
+  const dynamic=[...new Set(points.flatMap(point=>Object.keys(point).filter(key=>!["confidence","evidence_ids","table_locator","coordinates"].includes(key)&&typeof point[key]!=="object")))];
+  const columns=[...preferred.filter(key=>points.some(point=>hasValue(seriesPointValue(point,key)))),...dynamic.filter(key=>!preferred.includes(key))];
+  const coordinateNames=[...new Set(points.flatMap(point=>(point.coordinates||[]).map(coordinate=>coordinate.name_raw)))];
+  const wrapper=create("div","series-table-wrap");
+  const table=create("table","series-table"),head=document.createElement("thead"),header=document.createElement("tr");
+  columns.forEach(key=>header.append(create("th","",fieldLabels[key]||key)));
+  coordinateNames.forEach(name=>header.append(create("th","",`坐标 · ${liteMath(name)}`)));
+  header.append(create("th","","有效测量条件"),create("th","","Confidence"),create("th","","证据"));
+  head.append(header);
+  const body=document.createElement("tbody");
+  points.forEach(point=>{
+    const row=document.createElement("tr");
+    columns.forEach(key=>{
+      const cell=document.createElement("td");
+      const value=seriesPointValue(point,key);
+      if(referenceFields.has(key)&&hasValue(value))appendReference(cell,value);
+      else cell.append(create("span","mathjax-process",displayMathValue(value,key)));
+      row.append(cell);
+    });
+    coordinateNames.forEach(name=>{
+      const coordinate=(point.coordinates||[]).find(item=>item.name_raw===name);
+      const cell=document.createElement("td");
+      if(coordinate){
+        const value=[coordinate.value_raw,coordinate.unit_raw].filter(hasValue).join(" ");
+        cell.append(create("span","mathjax-process",displayMathValue(value,"value_raw")));
+        appendLocatorMeta(cell,coordinate.evidence_ids||[]);
+        const links=create("div","cell-links");
+        (coordinate.evidence_ids||[]).forEach(id=>appendReference(links,id));
+        if(links.children.length)cell.append(links);
+      }else cell.textContent="—";
+      row.append(cell);
+    });
+    const conditionCell=create("td","condition-cell");
+    appendConditionSummary(conditionCell,effectiveCondition(point,series));
+    row.append(conditionCell);
+    const score=confidenceScore(point);
+    row.append(create("td","",score===null?"未提供":score.toFixed(2)));
+    const evidenceCell=document.createElement("td");
+    (point.evidence_ids||[]).forEach(id=>appendReference(evidenceCell,id));
+    appendLocatorMeta(evidenceCell,point.evidence_ids||[]);
+    if(!evidenceCell.children.length)evidenceCell.textContent="未关联";
+    row.append(evidenceCell);
+    body.append(row);
+  });
+  table.append(head,body);
+  wrapper.append(table);
+  section.append(wrapper);
+  host.append(section);
+}
+function renderAttachedCondition(host,property,series=null){
+  const effective=effectiveCondition(property,series);
+  const section=create("section","detail-section");
+  section.append(create("h4","","有效测量条件"));
+  const parts=conditionParts(effective);
+  if(!parts.length){
+    section.append(create("div","inline-warning","未提供测量条件；不从其他对象推断或补写。"));
+    host.append(section);
+    return;
+  }
+  const grid=create("div","field-grid");
+  Object.entries(effective.values).forEach(([field,value])=>appendField(grid,field,value));
+  if(grid.children.length)section.append(grid);
+  const sources=create("div","condition-sources");
+  effective.sources.forEach(source=>sources.append(create("span","badge",source)));
+  if(effective.conditionId)appendReference(sources,effective.conditionId);
+  if(sources.children.length)section.append(sources);
+  appendConditionEvidence(section,effective);
+  host.append(section);
+}
+function renderOverview(node){
+  const panel=create("div","detail-panel mathjax-process");
+  if(node.type==="mention_group"||node.type==="sample_group")renderGroupOverview(panel,node);
+  if(node.type==="property"||node.type==="unresolved_property"){
+    const measure=create("div","measure");
+    measure.append(create("div","measure-name mathjax-process",displayMathValue(node.raw.property_name_raw||"性质结果","property_name_raw")));
+    const value=[node.raw.value_raw,node.raw.unit_raw].filter(hasValue).join(" ");
+    measure.append(create("div","measure-value mathjax-process",displayMathValue(value||"未报告","value_raw")));
+    panel.append(measure);
+  }
+  if(node.type==="figure")renderFigureOverview(panel,node.raw);
+  if(node.type==="series")renderSeriesOverview(panel,node.raw);
+  const grid=create("div","field-grid");
+  (detailFields[node.type]||[]).forEach(field=>{
+    if((node.type==="property"||node.type==="unresolved_property")&&(field==="value_raw"||field==="unit_raw"||field==="property_name_raw"))return;
+    if(node.type==="figure"&&field==="caption")return;
+    appendField(grid,field,node.raw&&node.raw[field]);
+  });
+  if(grid.children.length)panel.append(grid);
+  if(["property","series","characterization"].includes(node.type))renderAttachedCondition(panel,node.raw,node.type==="series"?node.raw:null);
+  if(node.type==="mention"&&node.evidenceIds.length){
+    const evidence=evidenceById.get(node.evidenceIds[0]);
+    if(evidence){
+      const section=create("section","detail-section");
+      section.append(create("h4","","首要出处"));
+      section.append(renderEvidenceCard(evidence,evidenceTerms(node.raw)));
+      panel.append(section);
+    }
+  }
+  renderConfidence(panel,node.raw);
+  renderObjectWarnings(panel,node.id);
+  return panel;
+}
+
+const mathPattern=/(\\\([\s\S]*?\\\)|\\\[[\s\S]*?\\\]|\$\$[\s\S]*?\$\$|(?<!\\)\$(?!\$)(?:\\.|[^$\r\n])+(?<!\\)\$)/g;
+function evidenceTerms(raw){
+  const fields=["text","polymer_name","sample_label_raw","state_description","property_name_raw","value_raw","unit_raw","method_raw","determination_method_raw","instrument","result_summary"];
+  const values=fields.map(key=>raw&&raw[key]).filter(value=>typeof value==="string"&&value.length>1);
+  Object.values((raw&&raw.parameters)||{}).forEach(value=>{if(typeof value==="string"&&value.length>1)values.push(value)});
+  return [...new Set(values)].sort((a,b)=>b.length-a.length);
+}
+function appendHighlightedPlain(host,sentence,terms){
+  let position=0;
+  const lower=sentence.toLowerCase();
+  while(position<sentence.length){
+    let found=null;
+    for(const term of terms){
+      const index=lower.indexOf(term.toLowerCase(),position);
+      if(index>=0&&(!found||index<found.index||(index===found.index&&term.length>found.term.length)))found={index,term};
+    }
+    if(!found){
+      host.append(document.createTextNode(sentence.slice(position)));
+      break;
+    }
+    if(found.index>position)host.append(document.createTextNode(sentence.slice(position,found.index)));
+    const mark=create("mark","",sentence.slice(found.index,found.index+found.term.length));
+    host.append(mark);
+    position=found.index+found.term.length;
+  }
+}
+function appendHighlightedText(host,sentence,terms){
+  mathPattern.lastIndex=0;
+  let position=0,match;
+  while((match=mathPattern.exec(sentence))!==null){
+    if(match.index>position)appendHighlightedPlain(host,sentence.slice(position,match.index),terms);
+    host.append(create("span","math-segment mathjax-process",match[0]));
+    position=match.index+match[0].length;
+  }
+  if(position<sentence.length)appendHighlightedPlain(host,sentence.slice(position),terms);
+}
+function renderEvidenceTable(source,locators){
+  if(typeof source!=="string"||!/^\s*<table[\s>]/i.test(source))return null;
+  const parsed=new DOMParser().parseFromString(source,"text/html");
+  const sourceTable=parsed.querySelector("table");
+  if(!sourceTable)return null;
+  const wrap=create("div","evidence-table-wrap mathjax-process");
+  const table=create("table","evidence-table");
+  const body=document.createElement("tbody");
+  const occupied=[];
+  const targets=(locators||[]).map(locator=>({row:Number(locator&&locator.row_index),column:Number(locator&&locator.column_index)})).filter(target=>Number.isInteger(target.row)&&Number.isInteger(target.column));
+  Array.from(sourceTable.rows).forEach((sourceRow,rowIndex)=>{
+    const row=document.createElement("tr");
+    let columnIndex=0;
+    occupied[rowIndex]=occupied[rowIndex]||[];
+    Array.from(sourceRow.cells).forEach(sourceCell=>{
+      while(occupied[rowIndex][columnIndex])columnIndex++;
+      const cell=document.createElement(sourceCell.tagName.toLowerCase()==="th"?"th":"td");
+      const rowSpan=Math.max(1,Math.min(100,Number(sourceCell.getAttribute("rowspan"))||1));
+      const columnSpan=Math.max(1,Math.min(100,Number(sourceCell.getAttribute("colspan"))||1));
+      if(rowSpan>1)cell.rowSpan=rowSpan;
+      if(columnSpan>1)cell.colSpan=columnSpan;
+      cell.textContent=sourceCell.textContent||"";
+      if(targets.some(target=>target.row>=rowIndex&&target.row<rowIndex+rowSpan&&target.column>=columnIndex&&target.column<columnIndex+columnSpan))cell.classList.add("locator-cell");
+      for(let r=rowIndex;r<rowIndex+rowSpan;r++){
+        occupied[r]=occupied[r]||[];
+        for(let c=columnIndex;c<columnIndex+columnSpan;c++)occupied[r][c]=true;
+      }
+      row.append(cell);
+      columnIndex+=columnSpan;
+    });
+    body.append(row);
+  });
+  table.append(body);
+  wrap.append(table);
+  return wrap;
+}
+function renderEvidenceCard(evidence,terms,group=[evidence]){
+  const box=create("article","evidence-item");
+  const meta=create("div","evidence-meta");
+  const page=Number(evidence.page);
+  const pageLabel=Number.isFinite(page)?`PDF 第 ${page+1} 页 · index ${page}`:"页码未报告";
+  meta.append(create("span","badge",group.length===1?evidence.evidence_id:`${group.length} 条 evidence`),create("span","",pageLabel),create("span","",evidence.block_id),create("span","badge",displayValue(evidence.source_type)));
+  box.append(meta);
+  const fullTable=reportContext.table_sources&&reportContext.table_sources[evidence.block_id];
+  const visualTable=renderEvidenceTable(fullTable||evidence.source_sentence,group.map(item=>item.table_locator).filter(Boolean));
+  if(visualTable){
+    box.append(create("div","hint","表格证据 · 高亮单元格为 locator 定位"),visualTable);
+  }else{
+    const body=create("div","evidence-body mathjax-process");
+    appendHighlightedText(body,evidence.source_sentence||"",terms);
+    box.append(body);
+  }
+  if(group.some(item=>item.table_locator)){
+    const table=create("div","key-values evidence-link");
+    group.filter(item=>item.table_locator).forEach(item=>{
+      const line=create("div","key-value");
+      const locator=item.table_locator;
+      const label=[item.evidence_id,locator.cell_id].filter(hasValue).join(" · ");
+      const value=[locator.row_label,locator.column_label,locator.cell_value].filter(hasValue).join(" · ");
+      line.append(create("b","",label),create("span","mathjax-process",value||`row ${locator.row_index}, column ${locator.column_index}`));
+      table.append(line);
+    });
+    box.append(table);
+  }
+  const figureId=reportContext.evidence_to_figure&&reportContext.evidence_to_figure[evidence.evidence_id];
+  const figure=figureById.get(figureId);
+  if(figure){
+    const link=create("div","evidence-link");
+    link.append(create("div","hint","图片关联：依据图注文本，未分析图像内容"));
+    appendReference(link,figure.figure_id);
+    box.append(link);
+  }
+  return box;
+}
+function renderEvidencePanel(node){
+  const panel=create("div","detail-panel mathjax-process");
+  const evidenceItems=node.type==="evidence"?[node.raw]:node.evidenceIds.map(id=>evidenceById.get(id)).filter(Boolean);
+  if(!evidenceItems.length){
+    panel.append(create("div","empty","该对象没有关联 Evidence"));
+    return panel;
+  }
+  const terms=evidenceTerms(node.raw);
+  const tableGroups=new Map(),plain=[];
+  evidenceItems.forEach(item=>{
+    const fullTable=reportContext.table_sources&&reportContext.table_sources[item.block_id];
+    if(item.source_type==="table"&&(fullTable||typeof item.source_sentence==="string"&&/^\s*<table[\s>]/i.test(item.source_sentence))){
+      const key=fullTable?item.block_id:`${item.block_id||""}\u0000${item.source_sentence}`;
+      if(!tableGroups.has(key))tableGroups.set(key,[]);
+      tableGroups.get(key).push(item);
+    }else plain.push(item);
+  });
+  tableGroups.forEach(group=>panel.append(renderEvidenceCard(group[0],terms,group)));
+  plain.forEach(item=>panel.append(renderEvidenceCard(item,terms)));
+  return panel;
+}
+function renderRelationsPanel(node){
+  const panel=create("div","detail-panel");
+  const related=edges.filter(item=>item.a===node.id||item.b===node.id);
+  if(!related.length){
+    panel.append(create("div","empty","没有可展示的对象关系"));
+    return panel;
+  }
+  const list=create("div","relation-list");
+  related.forEach(item=>{
+    const targetId=item.a===node.id?item.b:item.a;
+    const row=create("div","relation-row");
+    row.append(create("div","relation-kind",`${relationLabels[item.kind]||item.kind}${item.a===node.id?"":"（反向）"}`));
+    const target=create("div");
+    appendReference(target,targetId);
+    row.append(target);
+    list.append(row);
+  });
+  panel.append(list);
+  if(node.type==="evidence"){
+    const consumers=evidenceConsumers.get(node.id)||[];
+    if(consumers.length){
+      const section=create("section","detail-section");
+      section.append(create("h4","","该证据支持的对象"));
+      const row=create("div","chip-row");
+      consumers.forEach(id=>appendReference(row,id));
+      section.append(row);
+      panel.append(section);
+    }
+  }
+  return panel;
+}
+async function copyText(value,button){
+  try{
+    await navigator.clipboard.writeText(value);
+    button.textContent="已复制";
+  }catch(error){
+    const textarea=document.createElement("textarea");
+    textarea.value=value;
+    textarea.style.position="fixed";
+    textarea.style.opacity="0";
+    document.body.append(textarea);
+    textarea.select();
+    document.execCommand("copy");
+    textarea.remove();
+    button.textContent="已复制";
+  }
+  setTimeout(()=>{button.textContent="复制 JSON"},1200);
+}
+function renderRawPanel(node){
+  const panel=create("div","detail-panel mathjax-ignore");
+  const raw=JSON.stringify(node.raw,null,2);
+  const toolbar=create("div","raw-toolbar");
+  const button=create("button","copy-button","复制 JSON");
+  button.type="button";
+  button.addEventListener("click",()=>copyText(raw,button));
+  toolbar.append(button);
+  panel.append(toolbar,create("pre","raw-json mathjax-ignore",raw));
+  return panel;
+}
+function clearMath(container){
+  if(window.MathJax&&typeof window.MathJax.typesetClear==="function"){
+    try{window.MathJax.typesetClear([container])}catch(error){console.warn("MathJax clear failed",error)}
+  }
+}
+function typesetContainer(container){
+  if(!window.MathJax||typeof window.MathJax.typesetPromise!=="function")return;
+  window.MathJax.typesetPromise([container]).catch(error=>{
+    console.warn("MathJax typeset failed",error);
+    mathStatus.textContent="部分公式回退为原文";
+  });
+}
+function selectProjectedEdge(item,path){
+  selectedId=null;
+  nodeEls.forEach(element=>element.classList.remove("active","neighbor"));
+  edgeEls.forEach(element=>element.classList.toggle("active",element===path));
+  const detail=document.getElementById("detail");
+  clearMath(detail);
+  detail.replaceChildren();
+  const head=create("div","detail-head");
+  head.append(create("h3","","科学链条投影关系"),create("div","hint","由底层 Sample 关系计算，仅用于阅读，不代表因果关系"));
+  detail.append(head);
+  const panel=create("div","detail-panel");
+  const grid=create("div","field-grid");
+  appendField(grid,"投影起点",item.a);
+  appendField(grid,"投影终点",item.b);
+  appendField(grid,"投影类型",item.kind);
+  panel.append(grid);
+  const section=create("section","detail-section");
+  section.append(create("h4","","底层 Sample"));
+  const refs=create("div","chip-row");
+  (item.sampleIds||[]).forEach(id=>appendReference(refs,id));
+  if(refs.children.length)section.append(refs);
+  else section.append(create("div","inline-warning","该关系只能关联到材料实体，没有可唯一解析的 Sample。"));
+  panel.append(section);
+  detail.append(panel);
+}
+function selectNode(id){
+  const node=byId.get(id);
+  if(!node)return;
+  selectedId=id;
+  highlightSelection(id);
+  const detail=document.getElementById("detail");
+  clearMath(detail);
+  detail.replaceChildren();
+  const head=create("div","detail-head");
+  const titleRow=create("div","detail-title-row");
+  const title=create("h3","",`${typeNames[node.type]} · ${node.label}`);
+  titleRow.append(title,create("span","detail-id",node.id));
+  head.append(titleRow);
+  const badges=create("div","badge-row");
+  badges.append(create("span","badge",typeNames[node.type]));
+  const score=node.confidence;
+  const level=confidenceLevel(score);
+  badges.append(create("span",`badge ${level.className}`,score===null?"Confidence 未提供":`Confidence ${level.label} ${score.toFixed(2)}`));
+  if(node.hasWarning)badges.append(create("span","badge warning","存在校验提示"));
+  head.append(badges);
+  detail.append(head);
+  const tabs=create("div","detail-tabs");
+  const panels={
+    overview:renderOverview(node),
+    evidence:renderEvidencePanel(node),
+    relations:renderRelationsPanel(node),
+    raw:renderRawPanel(node)
+  };
+  const tabNames={overview:"概览",evidence:`证据 ${node.type==="evidence"?1:node.evidenceIds.length}`,relations:"关联",raw:"原始 JSON"};
+  Object.entries(tabNames).forEach(([key,label],index)=>{
+    const button=create("button",`tab-button${index===0?" active":""}`,label);
+    button.type="button";
+    button.setAttribute("role","tab");
+    button.setAttribute("aria-selected",index===0?"true":"false");
+    button.addEventListener("click",()=>{
+      tabs.querySelectorAll(".tab-button").forEach(item=>{
+        const active=item===button;
+        item.classList.toggle("active",active);
+        item.setAttribute("aria-selected",active?"true":"false");
+      });
+      Object.entries(panels).forEach(([panelKey,panel])=>{panel.hidden=panelKey!==key});
+      typesetContainer(panels[key]);
+    });
+    tabs.append(button);
+    panels[key].hidden=index!==0;
+  });
+  detail.append(tabs,...Object.values(panels));
+  typesetContainer(panels.overview);
+}
+
+const typeFilter=document.getElementById("typeFilter");
+Object.entries(typeNames).forEach(([value,label])=>{
+  const option=document.createElement("option");
+  option.value=value;
+  option.textContent=label;
+  typeFilter.append(option);
+});
+document.getElementById("search").addEventListener("input",applyFilter);
+typeFilter.addEventListener("change",applyFilter);
+document.getElementById("confidenceFilter").addEventListener("change",applyFilter);
+document.getElementById("viewMode").addEventListener("change",renderGraph);
+document.getElementById("resetProjection").addEventListener("click",()=>{
+  expandedGroups.clear();
+  document.getElementById("viewMode").value="science";
+  renderGraph();
+});
+
+const imageDialog=document.getElementById("imageDialog");
+function openImage(image,figure){
+  const dialogImage=document.getElementById("dialogImage");
+  dialogImage.src=image.image_url;
+  dialogImage.alt=figure.caption||figure.label;
+  document.getElementById("dialogTitle").textContent=`${figure.label} · ${image.block_id}`;
+  if(typeof imageDialog.showModal==="function")imageDialog.showModal();
+  else window.open(image.image_url,"_blank");
+}
+document.getElementById("dialogClose").addEventListener("click",()=>imageDialog.close());
+imageDialog.addEventListener("click",event=>{if(event.target===imageDialog)imageDialog.close()});
+
+function figureState(figure){
+  if((figure.linked_evidence_ids||[]).length)return {label:"图注证据",className:"medium",note:"未分析图像内容"};
+  if((figure.link_basis||[]).includes("source_image_ref"))return {label:"结构来源图",className:"high",note:"未分析图像内容"};
+  if(figure.association_status==="caption_missing")return {label:"缺少图注",className:"low",note:"未参与语义关联"};
+  return {label:"未被抽取引用",className:"",note:"文章图片"};
+}
+function renderFigures(){
+  const panel=document.getElementById("figuresPanel");
+  if(!reportContext.stage0_available)return;
+  panel.hidden=false;
+  document.getElementById("figureStatus").textContent=`${figures.length} 个图组 · 仅展示图片和图注，不读取图片像素`;
+  const host=document.getElementById("figures");
+  if(!figures.length){
+    host.append(create("div","empty","Stage 0 中没有图片块"));
+    return;
+  }
+  const grid=create("div","figure-grid");
+  figures.forEach(figure=>{
+    const card=create("article","figure-card");
+    const head=create("div","figure-card-head");
+    const button=create("button","figure-title-button");
+    button.type="button";
+    button.append(create("h3","",`${figure.label} · 第 ${figure.page} 页`));
+    button.addEventListener("click",()=>selectNode(figure.figure_id));
+    const state=figureState(figure);
+    head.append(button,create("span",`badge ${state.className}`,state.label));
+    card.append(head);
+    appendFigureImages(card,figure);
+    if(figure.caption)card.append(create("p","figure-caption mathjax-process",figure.caption));
+    card.append(create("div","figure-note",`${state.note} · ${(figure.images||[]).length} 个图片块 · ${(figure.linked_object_ids||[]).length} 个关联对象`));
+    grid.append(card);
+  });
+  host.append(grid);
+}
+
+const summary=data.cost_summary;
+const costHost=document.getElementById("costTable");
+const costStatus=document.getElementById("costStatus");
+if(!summary){
+  costHost.className="empty";
+  costHost.textContent="当前结果没有费用数据";
+  costStatus.textContent="";
+}else{
+  costStatus.textContent=`${summary.status==="complete"?"完整":"部分可用"} · 合计 ¥${money.format(Number(summary.total_cost||0))}`;
+  const table=document.createElement("table"),head=document.createElement("thead"),headerRow=document.createElement("tr");
+  ["步骤","模型","输入 / 输出 token","状态","费用 / CNY"].forEach(value=>headerRow.append(create("th","",value)));
+  head.append(headerRow);
+  table.append(head);
+  const body=document.createElement("tbody");
+  (summary.stages||[]).forEach(stage=>{
+    const row=document.createElement("tr"),usage=stage.usage||{};
+    const values=[
+      stage.stage,stage.model||"—",stage.usage?`${usage.billable_input_tokens} / ${usage.output_tokens}`:"—",
+      stage.cost.status,stage.cost.total_cost===null||stage.cost.total_cost===undefined?"—":`¥${money.format(Number(stage.cost.total_cost))}`
+    ];
+    values.forEach((value,index)=>{
+      const cell=document.createElement("td");
+      if(index===3)cell.append(create("span",`status ${value}`,value));
+      else cell.textContent=value;
+      row.append(cell);
+    });
+    body.append(row);
+  });
+  table.append(body);
+  costHost.append(table);
+}
+
+const warningHost=document.getElementById("warnings");
+if(!mergedWarnings.length){
+  warningHost.className="empty";
+  warningHost.textContent="没有校验提示";
+}else{
+  mergedWarnings.forEach(warning=>{
+    const element=create("div","warning-item");
+    element.append(create("b","",warning.code||"warning"),create("div","",warning.message||""));
+    if(warning.object_id){
+      const known=byId.has(warning.object_id);
+      element.append(create("small","",`关联对象：${warning.object_id}${known?" · 点击定位":""}`));
+      if(known){
+        element.classList.add("actionable");
+        element.tabIndex=0;
+        const open=()=>selectNode(warning.object_id);
+        element.addEventListener("click",open);
+        element.addEventListener("keydown",event=>{if(event.key==="Enter"||event.key===" ")open()});
+      }
+    }
+    warningHost.append(element);
+  });
+}
+
+renderGraph();
+renderFigures();
+const initialNode=nodes.find(node=>node.type==="property")||nodes.find(node=>node.type==="unresolved_property")||nodes.find(node=>node.type==="series")||nodes.find(node=>node.type==="entity")||nodes[0];
+if(initialNode)selectNode(initialNode.id);
+</script>
+</body>
+</html>

@@ -1,0 +1,877 @@
+{
+  "schema_version": "1.0",
+  "document_id": "reference_no_0037268",
+  "samples": [
+    {
+      "sample_id": "s001",
+      "sample_kind": "commercial_batch",
+      "refers_to_entity": "pe001",
+      "polymer_name": "Amylopectin",
+      "sample_label_raw": "Amylopectin (AP)",
+      "state_description": "powder form",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "P_10_91",
+        "page": 10,
+        "bbox": [
+          115.0,
+          467.0,
+          884.0,
+          899.0
+        ],
+        "source_type": "text",
+        "source_sentence": "AP was obtained from Aldrich Chemical Co. in a powder form."
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "sample_id": "s002",
+      "sample_kind": "commercial_batch",
+      "refers_to_entity": "pe002",
+      "polymer_name": "poly(ε-caprolactone)",
+      "sample_label_raw": "poly(ε-caprolactone) (PCL)",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "P_10_91",
+        "page": 10,
+        "bbox": [
+          115.0,
+          467.0,
+          884.0,
+          899.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The four selected biodegradable polymers mentioned above were also purchased from Aldrich and their average molar masses are listed in Table I."
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "sample_id": "s003",
+      "sample_kind": "commercial_batch",
+      "refers_to_entity": "pe003",
+      "polymer_name": "poly(DL-lactide-Co-glycolide)",
+      "sample_label_raw": "poly(DL-lactide-Co-glycolide) (PLG)",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "P_10_91",
+        "page": 10,
+        "bbox": [
+          115.0,
+          467.0,
+          884.0,
+          899.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The four selected biodegradable polymers mentioned above were also purchased from Aldrich and their average molar masses are listed in Table I."
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "sample_id": "s004",
+      "sample_kind": "commercial_batch",
+      "refers_to_entity": "pe004",
+      "polymer_name": "poly(3-hydroxy butyric acid)",
+      "sample_label_raw": "poly(3-hydroxy butyric acid) (PHBA)",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "P_10_91",
+        "page": 10,
+        "bbox": [
+          115.0,
+          467.0,
+          884.0,
+          899.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The four selected biodegradable polymers mentioned above were also purchased from Aldrich and their average molar masses are listed in Table I."
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "sample_id": "s005",
+      "sample_kind": "commercial_batch",
+      "refers_to_entity": "pe005",
+      "polymer_name": "poly(acrylic acid)",
+      "sample_label_raw": "poly(acrylic acid)(PAA)",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "P_10_91",
+        "page": 10,
+        "bbox": [
+          115.0,
+          467.0,
+          884.0,
+          899.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The four selected biodegradable polymers mentioned above were also purchased from Aldrich and their average molar masses are listed in Table I."
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "sample_id": "s006",
+      "sample_kind": "processed_material",
+      "refers_to_entity": "pe007",
+      "polymer_name": "25 - 75% AP-PCL",
+      "sample_label_raw": "25 - 75% AP-PCL",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "T_11_95",
+        "page": 11,
+        "bbox": [
+          120.0,
+          141.0,
+          877.0,
+          753.0
+        ],
+        "source_type": "table",
+        "source_sentence": "25 - 75% AP-PCL"
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "sample_id": "s007",
+      "sample_kind": "processed_material",
+      "refers_to_entity": "pe008",
+      "polymer_name": "50 -50% AP-PCL",
+      "sample_label_raw": "50 -50% AP-PCL",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "T_11_95",
+        "page": 11,
+        "bbox": [
+          120.0,
+          141.0,
+          877.0,
+          753.0
+        ],
+        "source_type": "table",
+        "source_sentence": "50 -50% AP-PCL"
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "sample_id": "s008",
+      "sample_kind": "processed_material",
+      "refers_to_entity": "pe009",
+      "polymer_name": "75 - 25% AP-PCL",
+      "sample_label_raw": "75 - 25% AP-PCL",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "T_11_95",
+        "page": 11,
+        "bbox": [
+          120.0,
+          141.0,
+          877.0,
+          753.0
+        ],
+        "source_type": "table",
+        "source_sentence": "75 - 25% AP-PCL"
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "sample_id": "s009",
+      "sample_kind": "processed_material",
+      "refers_to_entity": "pe011",
+      "polymer_name": "50 - 50% AP-PLG",
+      "sample_label_raw": "50 - 50% AP-PLG",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "T_11_95",
+        "page": 11,
+        "bbox": [
+          120.0,
+          141.0,
+          877.0,
+          753.0
+        ],
+        "source_type": "table",
+        "source_sentence": "50 - 50% AP-PLG"
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "sample_id": "s010",
+      "sample_kind": "processed_material",
+      "refers_to_entity": "pe013",
+      "polymer_name": "50 - 50% AP-PHBA",
+      "sample_label_raw": "50 - 50% AP-PHBA",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "T_11_95",
+        "page": 11,
+        "bbox": [
+          120.0,
+          141.0,
+          877.0,
+          753.0
+        ],
+        "source_type": "table",
+        "source_sentence": "50 - 50% AP-PHBA"
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "sample_id": "s011",
+      "sample_kind": "processed_material",
+      "refers_to_entity": "pe015",
+      "polymer_name": "50 - 50% AP-PAA (2000)",
+      "sample_label_raw": "50 - 50% AP-PAA (2000)",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "T_11_95",
+        "page": 11,
+        "bbox": [
+          120.0,
+          141.0,
+          877.0,
+          753.0
+        ],
+        "source_type": "table",
+        "source_sentence": "50 - 50% AP-PAA (2000)"
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "sample_id": "s012",
+      "sample_kind": "processed_material",
+      "refers_to_entity": "pe015",
+      "polymer_name": "50 - 50% AP-PAA (2000)",
+      "sample_label_raw": "50 - 50% AP-PAA (450000)",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "T_11_95",
+        "page": 11,
+        "bbox": [
+          120.0,
+          141.0,
+          877.0,
+          753.0
+        ],
+        "source_type": "table",
+        "source_sentence": "50 - 50% AP-PAA (450000)"
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "sample_id": "s013",
+      "sample_kind": "processed_material",
+      "refers_to_entity": "pe015",
+      "polymer_name": "50 - 50% AP-PAA (2000)",
+      "sample_label_raw": "50 - 50% AP-PAA (750000)",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "T_11_95",
+        "page": 11,
+        "bbox": [
+          120.0,
+          141.0,
+          877.0,
+          753.0
+        ],
+        "source_type": "table",
+        "source_sentence": "50 - 50% AP-PAA (750000)"
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "sample_id": "s014",
+      "sample_kind": "processed_material",
+      "refers_to_entity": "pe007",
+      "polymer_name": "25 - 75% AP-PCL",
+      "state_description": "After evaporating the solvent, blends were dried under a vacuum for 48 hours prior to use.",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "P_12_103",
+        "page": 12,
+        "bbox": [
+          113.0,
+          746.0,
+          884.0,
+          915.0
+        ],
+        "source_type": "text",
+        "source_sentence": "After evaporating the solvent, blends were dried under a vacuum for 48 hours prior to use."
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "sample_id": "s015",
+      "sample_kind": "processed_material",
+      "refers_to_entity": "pe008",
+      "polymer_name": "50 -50% AP-PCL",
+      "state_description": "After evaporating the solvent, blends were dried under a vacuum for 48 hours prior to use.",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "P_12_103",
+        "page": 12,
+        "bbox": [
+          113.0,
+          746.0,
+          884.0,
+          915.0
+        ],
+        "source_type": "text",
+        "source_sentence": "After evaporating the solvent, blends were dried under a vacuum for 48 hours prior to use."
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "sample_id": "s016",
+      "sample_kind": "processed_material",
+      "refers_to_entity": "pe009",
+      "polymer_name": "75 - 25% AP-PCL",
+      "state_description": "After evaporating the solvent, blends were dried under a vacuum for 48 hours prior to use.",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "P_12_103",
+        "page": 12,
+        "bbox": [
+          113.0,
+          746.0,
+          884.0,
+          915.0
+        ],
+        "source_type": "text",
+        "source_sentence": "After evaporating the solvent, blends were dried under a vacuum for 48 hours prior to use."
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "sample_id": "s017",
+      "sample_kind": "processed_material",
+      "refers_to_entity": "pe011",
+      "polymer_name": "50 - 50% AP-PLG",
+      "state_description": "After evaporating the solvent, blends were dried under a vacuum for 48 hours prior to use.",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "P_12_103",
+        "page": 12,
+        "bbox": [
+          113.0,
+          746.0,
+          884.0,
+          915.0
+        ],
+        "source_type": "text",
+        "source_sentence": "After evaporating the solvent, blends were dried under a vacuum for 48 hours prior to use."
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "sample_id": "s018",
+      "sample_kind": "processed_material",
+      "refers_to_entity": "pe013",
+      "polymer_name": "50 - 50% AP-PHBA",
+      "state_description": "After evaporating the solvent, blends were dried under a vacuum for 48 hours prior to use.",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "P_12_103",
+        "page": 12,
+        "bbox": [
+          113.0,
+          746.0,
+          884.0,
+          915.0
+        ],
+        "source_type": "text",
+        "source_sentence": "After evaporating the solvent, blends were dried under a vacuum for 48 hours prior to use."
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "sample_id": "s019",
+      "sample_kind": "processed_material",
+      "refers_to_entity": "pe015",
+      "polymer_name": "50 - 50% AP-PAA (2000)",
+      "state_description": "After evaporating the solvent, blends were dried under a vacuum for 48 hours prior to use.",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "P_12_103",
+        "page": 12,
+        "bbox": [
+          113.0,
+          746.0,
+          884.0,
+          915.0
+        ],
+        "source_type": "text",
+        "source_sentence": "After evaporating the solvent, blends were dried under a vacuum for 48 hours prior to use."
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "sample_id": "s020",
+      "sample_kind": "processed_material",
+      "refers_to_entity": "pe015",
+      "polymer_name": "50 - 50% AP-PAA (2000)",
+      "state_description": "After evaporating the solvent, blends were dried under a vacuum for 48 hours prior to use.",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "P_12_103",
+        "page": 12,
+        "bbox": [
+          113.0,
+          746.0,
+          884.0,
+          915.0
+        ],
+        "source_type": "text",
+        "source_sentence": "After evaporating the solvent, blends were dried under a vacuum for 48 hours prior to use."
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "sample_id": "s021",
+      "sample_kind": "processed_material",
+      "refers_to_entity": "pe015",
+      "polymer_name": "50 - 50% AP-PAA (2000)",
+      "state_description": "After evaporating the solvent, blends were dried under a vacuum for 48 hours prior to use.",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "P_12_103",
+        "page": 12,
+        "bbox": [
+          113.0,
+          746.0,
+          884.0,
+          915.0
+        ],
+        "source_type": "text",
+        "source_sentence": "After evaporating the solvent, blends were dried under a vacuum for 48 hours prior to use."
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    }
+  ],
+  "process_steps": [
+    {
+      "step_id": "ps001",
+      "process_type": "blending",
+      "input_sample_ids": [
+        "s001",
+        "s002"
+      ],
+      "output_sample_ids": [
+        "s006",
+        "s007",
+        "s008"
+      ],
+      "parameters": {},
+      "evidence": {
+        "block_id": "P_12_103",
+        "page": 12,
+        "bbox": [
+          113.0,
+          746.0,
+          884.0,
+          915.0
+        ],
+        "source_type": "text",
+        "source_sentence": "These mixtures were prepared by dissolving the proposed blends in the appropriate solvent and the resulting mixtures were deposited onto the solid support using the soaking method developed by us (1)."
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "step_id": "ps002",
+      "process_type": "blending",
+      "input_sample_ids": [
+        "s001",
+        "s003"
+      ],
+      "output_sample_ids": [
+        "s009"
+      ],
+      "parameters": {},
+      "evidence": {
+        "block_id": "P_12_103",
+        "page": 12,
+        "bbox": [
+          113.0,
+          746.0,
+          884.0,
+          915.0
+        ],
+        "source_type": "text",
+        "source_sentence": "These mixtures were prepared by dissolving the proposed blends in the appropriate solvent and the resulting mixtures were deposited onto the solid support using the soaking method developed by us (1)."
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "step_id": "ps003",
+      "process_type": "blending",
+      "input_sample_ids": [
+        "s001",
+        "s004"
+      ],
+      "output_sample_ids": [
+        "s010"
+      ],
+      "parameters": {},
+      "evidence": {
+        "block_id": "P_12_103",
+        "page": 12,
+        "bbox": [
+          113.0,
+          746.0,
+          884.0,
+          915.0
+        ],
+        "source_type": "text",
+        "source_sentence": "These mixtures were prepared by dissolving the proposed blends in the appropriate solvent and the resulting mixtures were deposited onto the solid support using the soaking method developed by us (1)."
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "step_id": "ps004",
+      "process_type": "blending",
+      "input_sample_ids": [
+        "s001",
+        "s005"
+      ],
+      "output_sample_ids": [
+        "s011",
+        "s012",
+        "s013"
+      ],
+      "parameters": {},
+      "evidence": {
+        "block_id": "P_12_103",
+        "page": 12,
+        "bbox": [
+          113.0,
+          746.0,
+          884.0,
+          915.0
+        ],
+        "source_type": "text",
+        "source_sentence": "These mixtures were prepared by dissolving the proposed blends in the appropriate solvent and the resulting mixtures were deposited onto the solid support using the soaking method developed by us (1)."
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "step_id": "ps005",
+      "process_type": "drying",
+      "input_sample_ids": [
+        "s006",
+        "s007",
+        "s008",
+        "s009",
+        "s010",
+        "s011",
+        "s012",
+        "s013"
+      ],
+      "output_sample_ids": [
+        "s014",
+        "s015",
+        "s016",
+        "s017",
+        "s018",
+        "s019",
+        "s020",
+        "s021"
+      ],
+      "parameters": {},
+      "evidence": {
+        "block_id": "P_12_103",
+        "page": 12,
+        "bbox": [
+          113.0,
+          746.0,
+          884.0,
+          915.0
+        ],
+        "source_type": "text",
+        "source_sentence": "After evaporating the solvent, blends were dried under a vacuum for 48 hours prior to use."
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    }
+  ],
+  "unresolved_entity_ids": [
+    "pe006",
+    "pe010",
+    "pe012",
+    "pe014",
+    "pe016",
+    "pe017",
+    "pe018",
+    "pe019",
+    "pe020"
+  ],
+  "provenance": {
+    "stage": "stage3_sample_process",
+    "provider": "dmx",
+    "model": "doubao-seed-2.0-pro",
+    "models": [
+      "doubao-seed-2.0-pro"
+    ],
+    "prompt_id": "polymer.stage3.sample_process",
+    "prompt_version": "1.2.2",
+    "prompt_sha256": "ce2e2c59006b08286a1d41f8c6e5b8c9523abd65f8162c90b636eab35c5b263e",
+    "input_hash": "b1d62309ce2a526d7004e9d4c40b694d5aef2980e9f6d82f438f332713305e50",
+    "model_config_hash": "7a389959b1eae8cb35e4c5e5702559631666e759a9891cf98687a5b37dd5d1ad",
+    "cache_key": "6575d230ae1d372d9a65121102935dd0b863544cb04dba3f432b376218501291",
+    "output_schema_version": "sample_process_schema.v2",
+    "implementation_version": "1.3.5",
+    "context_block_count": 53,
+    "context_chars": 42242,
+    "call_count": 1,
+    "usage": {
+      "input_tokens": 21640,
+      "output_tokens": 6478,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "billable_input_tokens": 21640,
+      "total_tokens": 28118
+    },
+    "cost": {
+      "status": "calculated",
+      "currency": "CNY",
+      "input_per_million": "4.32",
+      "output_per_million": "29.15",
+      "input_cost": "0.0934848",
+      "output_cost": "0.1888337",
+      "total_cost": "0.2823185"
+    },
+    "status": "success"
+  },
+  "warnings": [
+    {
+      "stage": "stage3_sample_process",
+      "code": "failure_response_replayed",
+      "message": "已离线回放保存的 Stage 3 响应，未请求模型",
+      "source": "stage3_failure.json"
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "preview_in_place_postprocess_outputs_split",
+      "message": "Preview 下检测到原位后处理复用了既有 Sample；已一一创建新的最终 Sample，保留唯一 producer 约束",
+      "repairs": [
+        {
+          "step_id": "ps005",
+          "input_sample_ids": [
+            "s006",
+            "s007",
+            "s008",
+            "s009",
+            "s010",
+            "s011",
+            "s012",
+            "s013"
+          ],
+          "final_sample_ids": [
+            "s014",
+            "s015",
+            "s016",
+            "s017",
+            "s018",
+            "s019",
+            "s020",
+            "s021"
+          ]
+        }
+      ]
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "unsupported_intended_uses_dropped",
+      "message": "Sample 已由逐字标签或状态锚定；删除无法在 evidence 中逐字定位的 intended_use",
+      "samples": [
+        {
+          "sample_id": "s001",
+          "values": [
+            "for preparation of blends and pure polymer chromatographic columns"
+          ]
+        },
+        {
+          "sample_id": "s002",
+          "values": [
+            "for preparation of blends and pure polymer chromatographic columns"
+          ]
+        },
+        {
+          "sample_id": "s003",
+          "values": [
+            "for preparation of blends and pure polymer chromatographic columns"
+          ]
+        },
+        {
+          "sample_id": "s004",
+          "values": [
+            "for preparation of blends and pure polymer chromatographic columns"
+          ]
+        },
+        {
+          "sample_id": "s005",
+          "values": [
+            "for preparation of blends and pure polymer chromatographic columns"
+          ]
+        },
+        {
+          "sample_id": "s006",
+          "values": [
+            "for IGC measurement"
+          ]
+        },
+        {
+          "sample_id": "s007",
+          "values": [
+            "for IGC measurement"
+          ]
+        },
+        {
+          "sample_id": "s008",
+          "values": [
+            "for IGC measurement"
+          ]
+        },
+        {
+          "sample_id": "s009",
+          "values": [
+            "for IGC measurement"
+          ]
+        },
+        {
+          "sample_id": "s010",
+          "values": [
+            "for IGC measurement"
+          ]
+        },
+        {
+          "sample_id": "s011",
+          "values": [
+            "for IGC measurement"
+          ]
+        },
+        {
+          "sample_id": "s012",
+          "values": [
+            "for IGC measurement"
+          ]
+        },
+        {
+          "sample_id": "s013",
+          "values": [
+            "for IGC measurement"
+          ]
+        }
+      ]
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "parameters_not_in_source",
+      "message": "无法定位到 evidence 原文的参数已舍弃",
+      "steps": [
+        {
+          "step_id": "ps001",
+          "parameter_keys": [
+            "compositions",
+            "solvent",
+            "column loading"
+          ]
+        },
+        {
+          "step_id": "ps002",
+          "parameter_keys": [
+            "composition",
+            "solvent",
+            "column loading"
+          ]
+        },
+        {
+          "step_id": "ps003",
+          "parameter_keys": [
+            "composition",
+            "solvent",
+            "column loading"
+          ]
+        },
+        {
+          "step_id": "ps004",
+          "parameter_keys": [
+            "composition",
+            "PAA molar mass",
+            "solvent",
+            "column loading"
+          ]
+        },
+        {
+          "step_id": "ps005",
+          "parameter_keys": [
+            "condition"
+          ]
+        }
+      ]
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "unresolved_entities",
+      "message": "9 个 entity 未解析到实际样品",
+      "entity_ids": [
+        "pe006",
+        "pe010",
+        "pe012",
+        "pe014",
+        "pe016",
+        "pe017",
+        "pe018",
+        "pe019",
+        "pe020"
+      ]
+    }
+  ]
+}

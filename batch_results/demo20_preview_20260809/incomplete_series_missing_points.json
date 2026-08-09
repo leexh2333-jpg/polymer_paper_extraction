@@ -1,0 +1,279 @@
+[
+  {
+    "ref_no": "reference_no_0043955",
+    "series_id": "series002",
+    "property_name_raw": "M_{\\text{w}}",
+    "point_id": "pt006",
+    "value_raw": null,
+    "sample_id": null,
+    "entity_id": "pe003",
+    "status": "unresolved",
+    "coordinates": [
+      {
+        "name_raw": "no.",
+        "value_raw": "11",
+        "value": null,
+        "unit_raw": null
+      },
+      {
+        "name_raw": "monomer",
+        "value_raw": "2",
+        "value": null,
+        "unit_raw": null
+      }
+    ],
+    "evidence": [
+      {
+        "block_id": "T_2_37",
+        "table_locator": {
+          "table_id": "T_2_37",
+          "row_label": "11",
+          "column_label": "$M_{\\text{w}}^{c}$",
+          "cell_value": null,
+          "cell_id": "T_2_37:r0013:c0004",
+          "row_index": 13,
+          "column_index": 4
+        }
+      }
+    ]
+  },
+  {
+    "ref_no": "reference_no_0043955",
+    "series_id": "series003",
+    "property_name_raw": "M_{\\text{w}}/M_{\\text{n}}",
+    "point_id": "pt008",
+    "value_raw": null,
+    "sample_id": null,
+    "entity_id": "pe003",
+    "status": "unresolved",
+    "coordinates": [
+      {
+        "name_raw": "no.",
+        "value_raw": "11",
+        "value": null,
+        "unit_raw": null
+      }
+    ],
+    "evidence": [
+      {
+        "block_id": "T_2_37",
+        "table_locator": {
+          "table_id": "T_2_37",
+          "row_label": "11",
+          "column_label": "$M_{\\text{w}}/M_{\\text{n}}^{c}$",
+          "cell_value": null,
+          "cell_id": "T_2_37:r0013:c0005",
+          "row_index": 13,
+          "column_index": 5
+        }
+      }
+    ]
+  },
+  {
+    "ref_no": "reference_no_0038527",
+    "series_id": "series001",
+    "property_name_raw": "$M_{n}^{a,b}$",
+    "point_id": "pt013",
+    "value_raw": null,
+    "sample_id": "s016",
+    "entity_id": "pe015",
+    "status": "resolved",
+    "coordinates": [],
+    "evidence": [
+      {
+        "block_id": "T_3_44",
+        "table_locator": {
+          "table_id": "T_3_44",
+          "row_label": "Rg(Th-3,6/9) (CHCl3-soluble)",
+          "column_label": "$M_{n}^{a,b}$ (g/mol)",
+          "cell_value": "l",
+          "cell_id": "T_3_44:r0013:c0001",
+          "row_index": 13,
+          "column_index": 1
+        }
+      }
+    ]
+  },
+  {
+    "ref_no": "reference_no_0038527",
+    "series_id": "series002",
+    "property_name_raw": "$M_{w}^{a,c}$",
+    "point_id": "pt028",
+    "value_raw": null,
+    "sample_id": "s016",
+    "entity_id": "pe015",
+    "status": "resolved",
+    "coordinates": [],
+    "evidence": [
+      {
+        "block_id": "T_3_44",
+        "table_locator": {
+          "table_id": "T_3_44",
+          "row_label": "Rg(Th-3,6/9) (CHCl3-soluble)",
+          "column_label": "$M_{w}^{a,c}$ (g/mol)",
+          "cell_value": "l",
+          "cell_id": "T_3_44:r0013:c0002",
+          "row_index": 13,
+          "column_index": 2
+        }
+      }
+    ]
+  },
+  {
+    "ref_no": "reference_no_0038527",
+    "series_id": "series006",
+    "property_name_raw": "$T_{m}^{g}$",
+    "point_id": "pt083",
+    "value_raw": null,
+    "sample_id": "s013",
+    "entity_id": "pe013",
+    "status": "resolved",
+    "coordinates": [],
+    "evidence": [
+      {
+        "block_id": "T_3_44",
+        "table_locator": {
+          "table_id": "T_3_44",
+          "row_label": "Rn(Th-5,4/9)",
+          "column_label": "$T_{m}^{g}$ (°C)",
+          "cell_value": "k",
+          "cell_id": "T_3_44:r0010:c0006",
+          "row_index": 10,
+          "column_index": 6
+        }
+      }
+    ]
+  },
+  {
+    "ref_no": "reference_no_0038527",
+    "series_id": "series006",
+    "property_name_raw": "$T_{m}^{g}$",
+    "point_id": "pt084",
+    "value_raw": null,
+    "sample_id": "s014",
+    "entity_id": "pe014",
+    "status": "resolved",
+    "coordinates": [],
+    "evidence": [
+      {
+        "block_id": "T_3_44",
+        "table_locator": {
+          "table_id": "T_3_44",
+          "row_label": "Rn(Th-3,6/9)",
+          "column_label": "$T_{m}^{g}$ (°C)",
+          "cell_value": "k",
+          "cell_id": "T_3_44:r0011:c0006",
+          "row_index": 11,
+          "column_index": 6
+        }
+      }
+    ]
+  },
+  {
+    "ref_no": "reference_no_0038527",
+    "series_id": "series007",
+    "property_name_raw": "$T_{c}^{h}$",
+    "point_id": "pt098",
+    "value_raw": null,
+    "sample_id": "s013",
+    "entity_id": "pe013",
+    "status": "resolved",
+    "coordinates": [],
+    "evidence": [
+      {
+        "block_id": "T_3_44",
+        "table_locator": {
+          "table_id": "T_3_44",
+          "row_label": "Rn(Th-5,4/9)",
+          "column_label": "$T_{c}^{h}$ (°C)",
+          "cell_value": "k",
+          "cell_id": "T_3_44:r0010:c0007",
+          "row_index": 10,
+          "column_index": 7
+        }
+      }
+    ]
+  },
+  {
+    "ref_no": "reference_no_0038527",
+    "series_id": "series007",
+    "property_name_raw": "$T_{c}^{h}$",
+    "point_id": "pt099",
+    "value_raw": null,
+    "sample_id": "s014",
+    "entity_id": "pe014",
+    "status": "resolved",
+    "coordinates": [],
+    "evidence": [
+      {
+        "block_id": "T_3_44",
+        "table_locator": {
+          "table_id": "T_3_44",
+          "row_label": "Rn(Th-3,6/9)",
+          "column_label": "$T_{c}^{h}$ (°C)",
+          "cell_value": "k",
+          "cell_id": "T_3_44:r0011:c0007",
+          "row_index": 11,
+          "column_index": 7
+        }
+      }
+    ]
+  },
+  {
+    "ref_no": "reference_no_0037607",
+    "series_id": "series003",
+    "property_name_raw": "T_g",
+    "point_id": "pt021",
+    "value_raw": "-a)",
+    "sample_id": "s008",
+    "entity_id": "pe009",
+    "status": "resolved",
+    "coordinates": [
+      {
+        "name_raw": "Polymer",
+        "value_raw": "12",
+        "value": null,
+        "unit_raw": null
+      }
+    ],
+    "evidence": [
+      {
+        "block_id": "T_3_58",
+        "table_locator": {
+          "table_id": "T_3_58",
+          "row_label": "12",
+          "column_label": "°C",
+          "cell_value": "-a)",
+          "cell_id": "T_3_58:r0008:c0006",
+          "row_index": 8,
+          "column_index": 6
+        }
+      }
+    ]
+  },
+  {
+    "ref_no": "reference_no_0073324",
+    "series_id": "series001",
+    "property_name_raw": "PMT, °C.",
+    "point_id": "pt002",
+    "value_raw": null,
+    "sample_id": "s003",
+    "entity_id": "pe006",
+    "status": "resolved",
+    "coordinates": [],
+    "evidence": [
+      {
+        "block_id": "T_3_34",
+        "table_locator": {
+          "table_id": "T_3_34",
+          "row_label": "1a",
+          "column_label": "PMT, °C.",
+          "cell_value": null,
+          "cell_id": "T_3_34:r0003:c0008",
+          "row_index": 3,
+          "column_index": 8
+        }
+      }
+    ]
+  }
+]

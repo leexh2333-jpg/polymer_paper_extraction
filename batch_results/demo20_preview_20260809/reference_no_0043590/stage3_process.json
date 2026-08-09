@@ -1,0 +1,488 @@
+{
+  "schema_version": "1.0",
+  "document_id": "reference_no_0043590",
+  "samples": [
+    {
+      "sample_id": "s001",
+      "sample_kind": "commercial_batch",
+      "refers_to_entity": "pe001",
+      "polymer_name": "Cyclic olefin copolymer",
+      "sample_label_raw": "Topas 6013S-04",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "P_0_15",
+        "page": 0,
+        "bbox": [
+          507.0,
+          904.0,
+          898.0,
+          951.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Cyclic olefin copolymer (COC), an amorphous copolymer of ethylene and norbornene, (Topas 6013S-04 supplied by Ticona, MFR 14 g/10 min at 260-C,"
+      },
+      "confidence": {
+        "score": 0.99
+      }
+    },
+    {
+      "sample_id": "s002",
+      "sample_kind": "commercial_batch",
+      "refers_to_entity": "pe002",
+      "polymer_name": "polycarbonate",
+      "sample_label_raw": "IM 2240",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "P_1_20",
+        "page": 1,
+        "bbox": [
+          96.0,
+          300.0,
+          488.0,
+          480.0
+        ],
+        "source_type": "text",
+        "source_sentence": "A masterbatch exothermic chemical blowing agent (CBA, IM 2240) containing 20 wt % 5-phenyl tetrazol in polycarbonate was supplied by Dempsey Corporation."
+      },
+      "confidence": {
+        "score": 0.99
+      }
+    },
+    {
+      "sample_id": "s003",
+      "sample_kind": "intermediate",
+      "refers_to_entity": "pe001",
+      "polymer_name": "Cyclic olefin copolymer",
+      "state_description": "prepared masterbatches of 8 vol % CB in COC from a twin-screw extruder (Leistritz ZSE 27)",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "P_1_22",
+        "page": 1,
+        "bbox": [
+          96.0,
+          534.0,
+          488.0,
+          802.0
+        ],
+        "source_type": "text",
+        "source_sentence": "prepared masterbatches of 8 vol % CB in COC from a twin-screw extruder (Leistritz ZSE 27)"
+      },
+      "confidence": {
+        "score": 0.95
+      }
+    },
+    {
+      "sample_id": "s004",
+      "sample_kind": "intermediate",
+      "refers_to_entity": "pe001",
+      "polymer_name": "Cyclic olefin copolymer",
+      "state_description": "and 40 vol % carbon fibers in COC using a single screw extruder (50 mm Davis-Standard).",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "P_1_22",
+        "page": 1,
+        "bbox": [
+          96.0,
+          534.0,
+          488.0,
+          802.0
+        ],
+        "source_type": "text",
+        "source_sentence": "and 40 vol % carbon fibers in COC using a single screw extruder (50 mm Davis-Standard)."
+      },
+      "confidence": {
+        "score": 0.95
+      }
+    },
+    {
+      "sample_id": "s005",
+      "sample_kind": "processed_material",
+      "refers_to_entity": "pe001",
+      "polymer_name": "Cyclic olefin copolymer",
+      "sample_label_raw": "COC/cCF10",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "P_1_23",
+        "page": 1,
+        "bbox": [
+          96.0,
+          801.0,
+          488.0,
+          951.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Single filler composites were prepared containing either 10 vol % cCF (COC/cCF10), or 3 vol % CB (COC/CB3)."
+      },
+      "confidence": {
+        "score": 0.98
+      }
+    },
+    {
+      "sample_id": "s006",
+      "sample_kind": "processed_material",
+      "refers_to_entity": "pe001",
+      "polymer_name": "Cyclic olefin copolymer",
+      "sample_label_raw": "COC/CB3",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "P_1_23",
+        "page": 1,
+        "bbox": [
+          96.0,
+          801.0,
+          488.0,
+          951.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Single filler composites were prepared containing either 10 vol % cCF (COC/cCF10), or 3 vol % CB (COC/CB3)."
+      },
+      "confidence": {
+        "score": 0.98
+      }
+    },
+    {
+      "sample_id": "s007",
+      "sample_kind": "processed_material",
+      "refers_to_entity": "pe001",
+      "polymer_name": "Cyclic olefin copolymer",
+      "sample_label_raw": "COC/cCF10-CB1",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "P_1_23",
+        "page": 1,
+        "bbox": [
+          96.0,
+          801.0,
+          488.0,
+          951.0
+        ],
+        "source_type": "text",
+        "source_sentence": "For example, COC/cCF10-CB1 corresponds to the material with 10 vol % cCF and 1 vol % CB mixed into COC."
+      },
+      "confidence": {
+        "score": 0.98
+      }
+    },
+    {
+      "sample_id": "s008",
+      "sample_kind": "processed_material",
+      "refers_to_entity": "pe001",
+      "polymer_name": "Cyclic olefin copolymer",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "P_1_23",
+        "page": 1,
+        "bbox": [
+          96.0,
+          801.0,
+          488.0,
+          951.0
+        ],
+        "source_type": "text",
+        "source_sentence": "the other above this critical value with 3 vol % CB. Both hybrid composites contained 10 vol % CF in addition to the stated CB content."
+      },
+      "confidence": {
+        "score": 0.98
+      }
+    },
+    {
+      "sample_id": "s009",
+      "sample_kind": "processed_material",
+      "refers_to_entity": "pe001",
+      "polymer_name": "Cyclic olefin copolymer",
+      "state_description": "Molded samples from the prepared materials were produced using an Arburg 55 ton injection molding machine with a rectangular center-gated mold.",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "P_1_26",
+        "page": 1,
+        "bbox": [
+          506.0,
+          330.0,
+          900.0,
+          496.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Molded samples from the prepared materials were produced using an Arburg 55 ton injection molding machine with a rectangular center-gated mold."
+      },
+      "confidence": {
+        "score": 0.95
+      }
+    },
+    {
+      "sample_id": "s010",
+      "sample_kind": "test_specimen",
+      "refers_to_entity": "pe001",
+      "polymer_name": "Cyclic olefin copolymer",
+      "state_description": "The 40 mm  10.5 mm rectangular samples, as shown in Figure 2, were used to measure electrical conductivity along the length (L) and thickness (T) axes.",
+      "intended_use": [
+        "measure electrical conductivity along the length (L) and thickness (T) axes"
+      ],
+      "evidence": {
+        "block_id": "P_1_28",
+        "page": 1,
+        "bbox": [
+          506.0,
+          541.0,
+          900.0,
+          679.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The 40 mm  10.5 mm rectangular samples, as shown in Figure 2, were used to measure electrical conductivity along the length (L) and thickness (T) axes."
+      },
+      "confidence": {
+        "score": 0.95
+      }
+    }
+  ],
+  "process_steps": [
+    {
+      "step_id": "ps001",
+      "process_type": "compounding",
+      "input_sample_ids": [
+        "s001"
+      ],
+      "output_sample_ids": [
+        "s003"
+      ],
+      "parameters": {
+        "temperature": "260-C",
+        "RPM": "100"
+      },
+      "evidence": {
+        "block_id": "P_1_22",
+        "page": 1,
+        "bbox": [
+          96.0,
+          534.0,
+          488.0,
+          802.0
+        ],
+        "source_type": "text",
+        "source_sentence": "prepared masterbatches of 8 vol % CB in COC from a twin-screw extruder (Leistritz ZSE 27) and 40 vol % carbon fibers in COC using a single screw extruder (50 mm Davis-Standard). The twin-screw extruder operated at a nominal temperature of 260-C and 100 RPM with CB introduced into the melt by a side feeder half way down the length of the machine to minimize agglomeration."
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "step_id": "ps002",
+      "process_type": "compounding",
+      "input_sample_ids": [
+        "s001"
+      ],
+      "output_sample_ids": [
+        "s004"
+      ],
+      "parameters": {
+        "temperature": "260-C",
+        "RPM": "20"
+      },
+      "evidence": {
+        "block_id": "P_1_22",
+        "page": 1,
+        "bbox": [
+          96.0,
+          534.0,
+          488.0,
+          802.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The single screw extruder operated at a nominal temperature of 260-C fitted with a deep channel, zero compression screw rotating at 20 RPM."
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "step_id": "ps003",
+      "process_type": "mixing",
+      "input_sample_ids": [
+        "s001",
+        "s002",
+        "s003",
+        "s004"
+      ],
+      "output_sample_ids": [
+        "s005",
+        "s006",
+        "s007",
+        "s008"
+      ],
+      "parameters": {
+        "foaming agent content": "5 wt %"
+      },
+      "evidence": {
+        "block_id": "P_1_22",
+        "page": 1,
+        "bbox": [
+          96.0,
+          534.0,
+          488.0,
+          802.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The stated formulations below were then produced by dry blending these masterbatch materials with COC in the injection molding machine, along with 5 wt % of the foaming agent."
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "step_id": "ps004",
+      "process_type": "molding",
+      "input_sample_ids": [
+        "s005",
+        "s006",
+        "s007",
+        "s008"
+      ],
+      "output_sample_ids": [
+        "s009"
+      ],
+      "parameters": {
+        "equipment": "Arburg 55 ton injection molding machine",
+        "mold type": "rectangular center-gated mold",
+        "shot size": "85% mold fill"
+      },
+      "evidence": {
+        "block_id": "P_1_26",
+        "page": 1,
+        "bbox": [
+          506.0,
+          330.0,
+          900.0,
+          496.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Molded samples from the prepared materials were produced using an Arburg 55 ton injection molding machine with a rectangular center-gated mold. The shot size was controlled to 85% mold fill to allow for foam growth. The temperature profile of the plasticating unit and nozzle were set at 30, 210, 210, 250, 290, and 300-C, respectively, from the hopper to the nozzle so to prevent premature decomposition of CBA."
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "step_id": "ps005",
+      "process_type": "specimen_preparation",
+      "input_sample_ids": [
+        "s009"
+      ],
+      "output_sample_ids": [
+        "s010"
+      ],
+      "parameters": {},
+      "evidence": {
+        "block_id": "P_1_28",
+        "page": 1,
+        "bbox": [
+          506.0,
+          541.0,
+          900.0,
+          679.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The test specimens from each composite produced were prepared in accordance with our previous articles.<sup>7,8</sup> The 40 mm  10.5 mm rectangular samples, as shown in Figure 2, were used to measure electrical conductivity along the length (L) and thickness (T) axes. In some cases, the two surface faces in the LW plane were milled to remove the 0.6-mm skin layers from the top and bottom of the original 3-mm thick part. Apparent density (and hence porosity) was determined by the buoyancy method. In-plane measurements in the L direction $( \\sigma _ { L } )$were carried out by the four-probe method, whereas the two-probe method was used to measure electrical conductivity in the T direction $( \\sigma _ { T } ,$through plane). The voltage range used for these analyses was kept as close to 0.5–1 VDC as possible, to minimize the occurrence of joule heating. In-plane measurement, in accordance with ASTM C611, used the rectangular specimens (described earlier), which were placed between two gold-coated copper electrodes and a constant DC current was applied by an Agilent 6441C power source. The voltage drop was measured by a second set of probes between two points on the sample, separated by a distance of 30 mm, using an Agilent 3440A multimeter. Through-plane measurement of electrical conductivity was done between two gold-plated copper electrodes. To minimize the contact resistance, conductive carbon article (Technimat 6100-070 supplied by Lydall) was placed between the two electrode-sample surfaces. Constant DC current was applied while the sample was kept under a constant compressive pressure of 10 MPa and the potential drop was measured between the two electrodes. Bulk conductivity $( \\sigma _ { 3 D } )$that was the geometric average of values for the length, width, and through-plane direction were included in some analysis. The measurements of the fiber length distribution, fiber orientation factors $( f _ { L } , \\ f _ { W } , \\ { \\breve { f } } _ { T } )$, and foam structure were done by optical microscopy using digital image analysis software. Refer to our earlier article for details on measurement techniques used in this work.<sup>7,8</sup>"
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    }
+  ],
+  "unresolved_entity_ids": [],
+  "provenance": {
+    "stage": "stage3_sample_process",
+    "provider": "dmx",
+    "model": "doubao-seed-2.0-pro",
+    "models": [
+      "doubao-seed-2.0-pro"
+    ],
+    "prompt_id": "polymer.stage3.sample_process",
+    "prompt_version": "1.2.2",
+    "prompt_sha256": "ce2e2c59006b08286a1d41f8c6e5b8c9523abd65f8162c90b636eab35c5b263e",
+    "input_hash": "767b9ffd5dfabb9677dfef8b5836c1df9074c34a7c18cfa8eb2ff8fa18051ed6",
+    "model_config_hash": "7a389959b1eae8cb35e4c5e5702559631666e759a9891cf98687a5b37dd5d1ad",
+    "cache_key": "3b0cf5b3e5e4bcfeaec34557b6a233693e39c1828821f80a884b5638877b5b43",
+    "output_schema_version": "sample_process_schema.v2",
+    "implementation_version": "1.3.7",
+    "context_block_count": 16,
+    "context_chars": 9781,
+    "call_count": 1,
+    "usage": {
+      "input_tokens": 6597,
+      "output_tokens": 5618,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "billable_input_tokens": 6597,
+      "total_tokens": 12215
+    },
+    "cost": {
+      "status": "calculated",
+      "currency": "CNY",
+      "input_per_million": "4.32",
+      "output_per_million": "29.15",
+      "input_cost": "0.02849904",
+      "output_cost": "0.1637647",
+      "total_cost": "0.19226374"
+    },
+    "status": "success"
+  },
+  "warnings": [
+    {
+      "stage": "stage3_sample_process",
+      "code": "state_description_replaced_with_evidence",
+      "message": "无标签 Sample 的 state_description 无法逐字定位；已使用验证后的完整 evidence.source_sentence",
+      "sample_ids": [
+        "s003",
+        "s004",
+        "s009",
+        "s010"
+      ]
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "unsupported_state_descriptions_dropped",
+      "message": "已有有效 sample_label_raw；删除无法逐字定位的 state_description",
+      "sample_ids": [
+        "s002"
+      ]
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "unsupported_sample_labels_dropped",
+      "message": "sample_label_raw 无法在 evidence 中定位；已有逐字 state_description，故删除无依据标签",
+      "sample_ids": [
+        "s008"
+      ]
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "parameters_not_in_source",
+      "message": "无法定位到 evidence 原文的参数已舍弃",
+      "steps": [
+        {
+          "step_id": "ps001",
+          "parameter_keys": [
+            "equipment"
+          ]
+        },
+        {
+          "step_id": "ps002",
+          "parameter_keys": [
+            "equipment"
+          ]
+        },
+        {
+          "step_id": "ps004",
+          "parameter_keys": [
+            "temperature profile"
+          ]
+        },
+        {
+          "step_id": "ps005",
+          "parameter_keys": [
+            "dimensions"
+          ]
+        }
+      ]
+    }
+  ]
+}

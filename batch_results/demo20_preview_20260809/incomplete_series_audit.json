@@ -1,0 +1,142 @@
+[
+  {
+    "ref_no": "reference_no_0043955",
+    "series_id": "series002",
+    "property_name_raw": "M_{\\text{w}}",
+    "property_name_normalized": null,
+    "point_count": 3,
+    "coverage": {
+      "expected": 3,
+      "covered": 2,
+      "missing": 1,
+      "not_applicable": 0,
+      "ratio": 0.6666666666666666
+    },
+    "evidence_blocks": [
+      "P_10_132"
+    ]
+  },
+  {
+    "ref_no": "reference_no_0043955",
+    "series_id": "series003",
+    "property_name_raw": "M_{\\text{w}}/M_{\\text{n}}",
+    "property_name_normalized": null,
+    "point_count": 2,
+    "coverage": {
+      "expected": 2,
+      "covered": 1,
+      "missing": 1,
+      "not_applicable": 0,
+      "ratio": 0.5
+    },
+    "evidence_blocks": [
+      "P_10_132"
+    ]
+  },
+  {
+    "ref_no": "reference_no_0038527",
+    "series_id": "series001",
+    "property_name_raw": "$M_{n}^{a,b}$",
+    "property_name_normalized": null,
+    "point_count": 15,
+    "coverage": {
+      "expected": 15,
+      "covered": 14,
+      "missing": 1,
+      "not_applicable": 0,
+      "ratio": 0.9333333333333333
+    },
+    "evidence_blocks": [
+      "P_4_60"
+    ]
+  },
+  {
+    "ref_no": "reference_no_0038527",
+    "series_id": "series002",
+    "property_name_raw": "$M_{w}^{a,c}$",
+    "property_name_normalized": null,
+    "point_count": 15,
+    "coverage": {
+      "expected": 15,
+      "covered": 14,
+      "missing": 1,
+      "not_applicable": 0,
+      "ratio": 0.9333333333333333
+    },
+    "evidence_blocks": [
+      "P_4_60"
+    ]
+  },
+  {
+    "ref_no": "reference_no_0038527",
+    "series_id": "series006",
+    "property_name_raw": "$T_{m}^{g}$",
+    "property_name_normalized": "melting_temperature",
+    "point_count": 15,
+    "coverage": {
+      "expected": 15,
+      "covered": 13,
+      "missing": 2,
+      "not_applicable": 0,
+      "ratio": 0.8666666666666667
+    },
+    "evidence_blocks": [
+      "T_3_44"
+    ]
+  },
+  {
+    "ref_no": "reference_no_0038527",
+    "series_id": "series007",
+    "property_name_raw": "$T_{c}^{h}$",
+    "property_name_normalized": "crystallization_temperature",
+    "point_count": 15,
+    "coverage": {
+      "expected": 15,
+      "covered": 13,
+      "missing": 2,
+      "not_applicable": 0,
+      "ratio": 0.8666666666666667
+    },
+    "evidence_blocks": [
+      "T_3_44"
+    ]
+  },
+  {
+    "ref_no": "reference_no_0037607",
+    "series_id": "series003",
+    "property_name_raw": "T_g",
+    "property_name_normalized": "glass_transition_temperature",
+    "point_count": 7,
+    "coverage": {
+      "expected": 7,
+      "covered": 6,
+      "missing": 1,
+      "not_applicable": 0,
+      "ratio": 0.8571428571428571
+    },
+    "evidence_blocks": [
+      "P_6_97"
+    ]
+  },
+  {
+    "ref_no": "reference_no_0073324",
+    "series_id": "series001",
+    "property_name_raw": "PMT, °C.",
+    "property_name_normalized": "melting_temperature",
+    "point_count": 4,
+    "coverage": {
+      "expected": 4,
+      "covered": 3,
+      "missing": 1,
+      "not_applicable": 0,
+      "ratio": 0.75
+    },
+    "evidence_blocks": [
+      "P_1_12",
+      "T_3_34",
+      "T_3_34",
+      "T_3_34",
+      "T_3_34"
+    ]
+  }
+]

@@ -691,6 +691,20 @@ class Stage6Tests(unittest.TestCase):
         self.assertIn("doi", written["paper"])
         self.assertIsNone(written["paper"]["doi"])
         self.assertIn('"cost_summary"', json.dumps(written))
+        self.assertEqual(
+            len(written["property_observations"]),
+            len(stages[4].properties) + len(stages[5].properties),
+        )
+        self.assertEqual(
+            len(written["property_series"]),
+            len(stages[4].property_series),
+        )
+        if written["property_series"]:
+            self.assertEqual(
+                len(written["property_series"][0]["points"]),
+                len(stages[4].property_series[0].points),
+            )
+        self.assertIn("unresolved_property_observations", written)
         self.assertIn('id="graph"', report)
         self.assertIn('id="viewMode"', report)
         self.assertIn('id="confidenceFilter"', report)

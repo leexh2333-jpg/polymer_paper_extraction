@@ -1,0 +1,385 @@
+{
+  "schema_version": "1.0",
+  "document_id": "reference_no_0043590",
+  "characterizations": [
+    {
+      "characterization_id": "char001",
+      "method_raw": "thermogravimetric analysis",
+      "method_normalized": "TGA",
+      "sample_id": "s002",
+      "sample_resolution_status": "resolved",
+      "parameters": {},
+      "result_summary": "The onset of decomposition for the CBA was 225-C, with the majority of gas evolved at 240-C.",
+      "derived_property_ids": [],
+      "evidence": [
+        {
+          "block_id": "P_1_20",
+          "page": 1,
+          "bbox": [
+            96.0,
+            300.0,
+            488.0,
+            480.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The onset of decomposition for the CBA was determined by thermogravimetric analysis to be 225-C with the majority of gas evolved at 240-C."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "characterization_id": "char002",
+      "method_raw": "SEM",
+      "method_normalized": "SEM",
+      "sample_ids": [
+        "s001",
+        "s005",
+        "s006",
+        "s007",
+        "s008"
+      ],
+      "sample_resolution_status": "multi_resolved",
+      "parameters": {},
+      "result_summary": "SEM was used to observe foam cell morphology, CB dispersion, and fiber distribution in COC-based composites.",
+      "derived_property_ids": [
+        "prop_s5_001",
+        "prop_s5_002",
+        "prop_s5_003",
+        "prop_s5_004",
+        "prop_s5_005"
+      ],
+      "evidence": [
+        {
+          "block_id": "P_2_39",
+          "page": 2,
+          "bbox": [
+            506.0,
+            358.0,
+            900.0,
+            643.0
+          ],
+          "source_type": "text",
+          "source_sentence": "SEM micrographs giving a cross-sectional view of the molded part for the foamed COC as well as COC/CB3 and COC/cCF10 are shown in Figure 3."
+        },
+        {
+          "block_id": "P_2_41",
+          "page": 2,
+          "bbox": [
+            506.0,
+            686.0,
+            900.0,
+            793.0
+          ],
+          "source_type": "text",
+          "source_sentence": "Comparing SEM micrographs of the foamed and nonfoamed COC/ CB3, as seen in Figure 4, there was no detectable difference in CB dispersion caused by the foaming agent."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    }
+  ],
+  "properties": [
+    {
+      "property_id": "prop_s5_001",
+      "characterization_id": "char002",
+      "sample_id": "s005",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "largest aggregates of CB",
+      "property_name_normalized": "morphology_particle_size",
+      "property_category": "morphology",
+      "value_raw": "0.5",
+      "value_min": 0.5,
+      "value_max": 0.5,
+      "source_stage": "stage5",
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_2_41",
+          "page": 2,
+          "bbox": [
+            506.0,
+            686.0,
+            900.0,
+            793.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The largest aggregates of CB found were 0.5 lm in both micrographs in comparison with the nominal cell diameter of 60 lm found in COC/CB3."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_002",
+      "characterization_id": "char002",
+      "sample_id": "s005",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "nominal cell diameter",
+      "property_name_normalized": "morphology_domain_size",
+      "property_category": "morphology",
+      "value_raw": "60",
+      "value_min": 60.0,
+      "value_max": 60.0,
+      "source_stage": "stage5",
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_2_41",
+          "page": 2,
+          "bbox": [
+            506.0,
+            686.0,
+            900.0,
+            793.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The largest aggregates of CB found were 0.5 lm in both micrographs in comparison with the nominal cell diameter of 60 lm found in COC/CB3."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_003",
+      "characterization_id": "char002",
+      "sample_id": "s001",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "45",
+      "property_name_normalized": "morphology_domain_size",
+      "property_category": "morphology",
+      "value_raw": "45",
+      "value_min": 45.0,
+      "value_max": 45.0,
+      "unit_raw": "μm",
+      "unit_normalized": "μm",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_2_42",
+          "page": 2,
+          "bbox": [
+            509.0,
+            835.0,
+            896.0,
+            944.0
+          ],
+          "source_type": "table",
+          "source_sentence": "TABLE II Cell Size of the Foam Injection molded Composites",
+          "table_locator": {
+            "table_id": "T_2_42",
+            "row_label": "COC",
+            "column_label": "D_n",
+            "cell_value": "45",
+            "cell_id": "T_2_42:r0002:c0003",
+            "row_index": 2,
+            "column_index": 3
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_004",
+      "characterization_id": "char002",
+      "sample_ids": [
+        "s001",
+        "s005",
+        "s006",
+        "s007",
+        "s008"
+      ],
+      "sample_resolution_status": "multi_resolved",
+      "property_name_raw": "Aggregate size",
+      "property_name_normalized": "morphology_particle_size",
+      "property_category": "morphology",
+      "value_raw": "30–100",
+      "value_min": 30.0,
+      "value_max": 100.0,
+      "unit_raw": "nm",
+      "unit_normalized": "nm",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_1_19",
+          "page": 1,
+          "bbox": [
+            100.0,
+            133.0,
+            485.0,
+            261.0
+          ],
+          "source_type": "table",
+          "source_sentence": "TABLE I Properties of the Matrix Polymer and Conductive fillers",
+          "table_locator": {
+            "table_id": "T_1_19",
+            "row_label": "Aggregate size (nm)",
+            "column_label": "CB",
+            "cell_value": "30–100",
+            "cell_id": "T_1_19:r0004:c0002",
+            "row_index": 4,
+            "column_index": 2
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.85
+      }
+    },
+    {
+      "property_id": "prop_s5_005",
+      "characterization_id": "char002",
+      "sample_ids": [
+        "s001",
+        "s005",
+        "s006",
+        "s007",
+        "s008"
+      ],
+      "sample_resolution_status": "multi_resolved",
+      "property_name_raw": "Fiber diameter",
+      "property_name_normalized": "morphology_particle_size",
+      "property_category": "morphology",
+      "value_raw": "7.5",
+      "value_min": 7.5,
+      "value_max": 7.5,
+      "unit_raw": "μm",
+      "unit_normalized": "μm",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_1_19",
+          "page": 1,
+          "bbox": [
+            100.0,
+            133.0,
+            485.0,
+            261.0
+          ],
+          "source_type": "table",
+          "source_sentence": "TABLE I Properties of the Matrix Polymer and Conductive fillers",
+          "table_locator": {
+            "table_id": "T_1_19",
+            "row_label": "Fiber diameter (μm)",
+            "column_label": "cCF",
+            "cell_value": "7.5",
+            "cell_id": "T_1_19:r0007:c0003",
+            "row_index": 7,
+            "column_index": 3
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.85
+      }
+    }
+  ],
+  "provenance": {
+    "stage": "stage5_characterization",
+    "provider": "dmx",
+    "model": "doubao-seed-2.0-pro",
+    "models": [
+      "doubao-seed-2.0-pro"
+    ],
+    "prompt_id": "polymer.stage5.characterization",
+    "prompt_version": "1.6.2",
+    "prompt_sha256": "5f918eb9d0dcbe0a4dc60a70d83c4e9f144f9a87bf68905d0a38ad22c000ee5c",
+    "vocabulary_sha256": "3e9d85e4915a729edf0f0a53821f3ee6edf32874e1da6972457417e4f13a1510",
+    "input_hash": "bcdc04e1187071c997806a726d2383171e1504810aae68b2ddafe276b687833e",
+    "model_config_hash": "7e14aff06827af47a7b1a797111258e33d5972d1c072111440c3b2aae020f3ce",
+    "cache_key": "8277f8c712923061b8c0be26fd56ac11ad8048101c9e41ba5d28236aee5ea542",
+    "output_schema_version": "characterization_schema.v4",
+    "implementation_version": "1.7.1",
+    "context_block_count": 48,
+    "context_chars": 39885,
+    "call_count": 1,
+    "usage": {
+      "input_tokens": 17444,
+      "output_tokens": 6642,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "billable_input_tokens": 17444,
+      "total_tokens": 24086
+    },
+    "cost": {
+      "status": "calculated",
+      "currency": "CNY",
+      "input_per_million": "4.32",
+      "output_per_million": "29.15",
+      "input_cost": "0.07535808",
+      "output_cost": "0.1936143",
+      "total_cost": "0.26897238"
+    },
+    "status": "success"
+  },
+  "warnings": [
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[0]",
+      "property_id": "prop_s5_001",
+      "fields": [
+        "unit_raw"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[1]",
+      "property_id": "prop_s5_002",
+      "fields": [
+        "unit_raw"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_property_subject_scope_aligned",
+      "message": "Preview 模式已将冲突的派生性质主体对齐到所属 Characterization",
+      "field_path": "properties[3]",
+      "characterization_id": "char002"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_property_subject_scope_aligned",
+      "message": "Preview 模式已将冲突的派生性质主体对齐到所属 Characterization",
+      "field_path": "properties[4]",
+      "characterization_id": "char002"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_property_subject_subscope_retained",
+      "message": "Preview 模式已保留多主体 Characterization 下的明确单主体性质；需在正式数据中复核",
+      "items": [
+        {
+          "property_id": "prop_s5_001",
+          "characterization_id": "char002",
+          "sample_id": "s005",
+          "entity_id": null
+        },
+        {
+          "property_id": "prop_s5_002",
+          "characterization_id": "char002",
+          "sample_id": "s005",
+          "entity_id": null
+        },
+        {
+          "property_id": "prop_s5_003",
+          "characterization_id": "char002",
+          "sample_id": "s001",
+          "entity_id": null
+        }
+      ]
+    }
+  ]
+}

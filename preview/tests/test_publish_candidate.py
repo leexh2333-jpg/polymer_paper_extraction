@@ -172,3 +172,62 @@ def test_candidate_rejects_sensitive_fields() -> None:
 
     with pytest.raises(CandidatePublishError, match="敏感"):
         build_candidate_payload("reference_no_0000001", stages)
+
+
+
+def test_candidate_keeps_stage4_scalar_series_unresolved_and_stage5_properties() -> None:
+    stages = _stages()
+    evidence = {
+        "block_id": "P_0_1",
+        "page": 0,
+        "source_type": "paragraph",
+        "source_sentence": "Polymer A was prepared.",
+    }
+    stages["stage4"].update({
+        "measurement_conditions": [{
+            "condition_id": "mc001",
+            "condition_status": "not_reported",
+            "evidence": evidence,
+        }],
+        "properties": [{
+            "property_id": "prop001",
+            "sample_id": "s001",
+            "property_name_raw": "Tg",
+            "value_raw": "100",
+            "measurement_condition_id": "mc001",
+            "evidence": [evidence],
+        }],
+        "unresolved_properties": [{
+            "unresolved_id": "up001",
+            "property_name_raw": "modulus",
+            "value_raw": "2.0",
+            "evidence": [evidence],
+        }],
+        "property_series": [{
+            "series_id": "series001",
+            "property_name_raw": "Tensile strength",
+            "points": [{
+                "point_id": "pt001",
+                "value_raw": "50",
+                "evidence": [evidence],
+            }],
+            "evidence": [evidence],
+        }],
+    })
+    stages["stage5"]["properties"] = [{
+        "property_id": "stage5prop001",
+        "property_name_raw": "crystallinity",
+        "value_raw": "35",
+        "evidence": [evidence],
+    }]
+
+    candidate = build_candidate_payload("reference_no_0000001", stages)
+
+    assert [item["property_id"] for item in candidate["property_observations"]] == [
+        "prop001",
+        "stage5prop001",
+    ]
+    assert candidate["measurement_conditions"][0]["condition_id"] == "mc001"
+    assert candidate["unresolved_property_observations"][0]["unresolved_id"] == "up001"
+    assert candidate["property_series"][0]["points"][0]["value_raw"] == "50"
+    assert candidate["property_series"][0]["evidence_ids"]

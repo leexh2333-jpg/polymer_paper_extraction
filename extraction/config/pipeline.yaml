@@ -23,7 +23,7 @@ llm:
     stage4_property:
       model: doubao-seed-2-0-pro-260215
       timeout_seconds: 900
-      max_retries: 0
+      max_retries: 2
       stream: true
     stage5_characterization:
       model: doubao-seed-2-0-pro-260215
@@ -73,7 +73,7 @@ stages:
     prompt_id: polymer.stage4.property
     input_sections: [Methods, Results]
     vocabulary_path: extraction/config/polymer_schema.yaml
-    max_input_chars: 90000
+    max_input_chars: 110000
     max_validation_retries: 0
     max_tokens: 128000
   stage5_characterization:

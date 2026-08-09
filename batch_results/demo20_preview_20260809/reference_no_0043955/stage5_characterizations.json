@@ -1,0 +1,434 @@
+{
+  "schema_version": "1.0",
+  "document_id": "reference_no_0043955",
+  "characterizations": [
+    {
+      "characterization_id": "char001",
+      "method_raw": "GPC measurement",
+      "method_normalized": "GPC",
+      "sample_ids": [
+        "s004",
+        "s005",
+        "s008",
+        "s009",
+        "s010",
+        "s011",
+        "s006",
+        "s012",
+        "s013",
+        "s007",
+        "s014",
+        "s015",
+        "s016",
+        "s017",
+        "s018",
+        "s019",
+        "s020",
+        "s021"
+      ],
+      "sample_resolution_status": "multi_resolved",
+      "parameters": {
+        "calibration_standards": "linear polystyrene standards"
+      },
+      "result_summary": "Measured Mw and Mw/Mn for synthesized PPA derivatives; lower Mw values observed for PEG side chain containing PPAs due to differing hydrodynamic volumes from linear polystyrene standards.",
+      "derived_property_ids": [],
+      "evidence": [
+        {
+          "block_id": "P_3_56",
+          "page": 3,
+          "bbox": [
+            512.0,
+            751.0,
+            917.0,
+            931.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The data in table indicate that, as for PPAs with PEG side chains, GPC measurement gave much lower $M _ { \\mathrm { w } }$values (Table 2, nos. 3, 4, 8, 9, 11, and 12)."
+        },
+        {
+          "block_id": "T_4_62",
+          "page": 4,
+          "bbox": [
+            84.0,
+            375.0,
+            477.0,
+            657.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table 2. Polymer Reactions between PFP Ester-Functionalized PPAs and Amines<sup>a</sup>",
+          "table_locator": {
+            "table_id": "T_4_62",
+            "row_label": "1",
+            "column_label": "$M_{\\text{w}}^{b}$",
+            "cell_value": "27 300",
+            "cell_id": "T_4_62:r0002:c0004",
+            "row_index": 2,
+            "column_index": 4
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "characterization_id": "char002",
+      "method_raw": "thermal gravimetric analysis (TGA)",
+      "method_normalized": "TGA",
+      "sample_ids": [
+        "s001",
+        "s002",
+        "s003",
+        "s008",
+        "s009",
+        "s012",
+        "s013",
+        "s014",
+        "s015"
+      ],
+      "sample_resolution_status": "multi_resolved",
+      "parameters": {},
+      "result_summary": "TGA curves of PFP ester-functionalized PPAs and PEG side chain containing PPAs are typical of polymers, indicating no degradation during substitution reaction.",
+      "derived_property_ids": [],
+      "evidence": [
+        {
+          "block_id": "P_3_56",
+          "page": 3,
+          "bbox": [
+            512.0,
+            751.0,
+            917.0,
+            931.0
+          ],
+          "source_type": "text",
+          "source_sentence": "To rule out the degradation of PEG functionalized PPAs, thermal gravimetric analysis (TGA) was conducted on the obtained polymers. Similar to the observation for PFP ester-functionalized PPAs, PPAs with PEG side chain also show typical polymer’s TGA curves (see Figure S6), indicating that the substitution process of amino-functionalized PEG chain to PFP moieties did not degrade the polymers."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "characterization_id": "char003",
+      "method_raw": "NMR",
+      "method_normalized": "NMR",
+      "sample_ids": [
+        "s002",
+        "s006",
+        "s013"
+      ],
+      "sample_resolution_status": "multi_resolved",
+      "parameters": {},
+      "result_summary": "1H NMR confirms attachment of PEG chains to P2 backbone; 19F NMR confirms complete substitution of PFP ester groups by amines.",
+      "derived_property_ids": [
+        "prop_s5_001",
+        "prop_s5_002",
+        "prop_s5_003"
+      ],
+      "evidence": [
+        {
+          "block_id": "P_4_66",
+          "page": 4,
+          "bbox": [
+            512.0,
+            518.0,
+            917.0,
+            765.0
+          ],
+          "source_type": "text",
+          "source_sentence": "<sup>1</sup>H NMR spectra ofpolymer $\\mathrm { P } 2 \\mathrm { - P E G } _ { 7 5 0 }$in deuterated chloroform and water are shown in Figure 5."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "characterization_id": "char004",
+      "method_raw": "IR",
+      "method_normalized": "FTIR",
+      "entity_id": "pe001",
+      "sample_resolution_status": "unresolved",
+      "parameters": {},
+      "result_summary": "IR spectroscopy confirms complete reaction of PFP ester groups with amines.",
+      "derived_property_ids": [],
+      "evidence": [
+        {
+          "block_id": "P_4_66",
+          "page": 4,
+          "bbox": [
+            512.0,
+            518.0,
+            917.0,
+            765.0
+          ],
+          "source_type": "text",
+          "source_sentence": "Like IR and <sup>1</sup>H NMR spectral characteristics, <sup>19</sup>F NMR spectrum indicates that the reaction of PFP ester and amines is completely conducted."
+        }
+      ],
+      "confidence": {
+        "score": 0.8
+      }
+    },
+    {
+      "characterization_id": "char005",
+      "method_raw": "UV",
+      "method_normalized": "UV-Vis",
+      "sample_ids": [
+        "s016",
+        "s017",
+        "s018"
+      ],
+      "sample_resolution_status": "multi_resolved",
+      "parameters": {
+        "solvent": "DMF"
+      },
+      "result_summary": "UV absorption spectra of P1-C*Ph(L)x-C4y% random copolymers are identical to that of P1-C*Ph(L).",
+      "derived_property_ids": [],
+      "evidence": [
+        {
+          "block_id": "P_6_90",
+          "page": 6,
+          "bbox": [
+            512.0,
+            670.0,
+            917.0,
+            932.0
+          ],
+          "source_type": "text",
+          "source_sentence": "Figure 8 shows the UV (upper panel) and CD (the lower panel) spectra of these polymers in DMF. The absorption feature ofthe three polymers is identical to that ofP1- C*Ph(L), While the CD spectra show that the intensity of the CD signals depends on the chiral content."
+        }
+      ],
+      "confidence": {
+        "score": 0.8
+      }
+    }
+  ],
+  "properties": [
+    {
+      "property_id": "prop_s5_001",
+      "characterization_id": "char003",
+      "sample_id": "s013",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "δ 7.90",
+      "property_name_normalized": "nmr_chemical_shift",
+      "property_category": "composition_structure",
+      "value_raw": "δ 7.90",
+      "value_min": 7.9,
+      "value_max": 7.9,
+      "solvent": "deuterated chloroform",
+      "source_stage": "stage5",
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_4_66",
+          "page": 4,
+          "bbox": [
+            512.0,
+            518.0,
+            917.0,
+            765.0
+          ],
+          "source_type": "text",
+          "source_sentence": "Compared with the spectrum ofP2 in $\\mathrm { C D C l } _ { 3 }$(see Figure 2), new peaks at δ 7.90 and 3.33 appear in the spectrum of $\\mathrm { P } 2 \\mathrm { - P E G } _ { 7 5 0 } ,$which are ascribed to the resonance of amide and terminal methyl protons, respectively."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_002",
+      "characterization_id": "char003",
+      "sample_id": "s013",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "δ 3.62",
+      "property_name_normalized": "nmr_chemical_shift",
+      "property_category": "composition_structure",
+      "value_raw": "δ 3.62",
+      "value_min": 3.62,
+      "value_max": 3.62,
+      "solvent": "deuterated chloroform",
+      "source_stage": "stage5",
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_4_66",
+          "page": 4,
+          "bbox": [
+            512.0,
+            518.0,
+            917.0,
+            765.0
+          ],
+          "source_type": "text",
+          "source_sentence": "Meanwhile, the integration value of peaks round δ 3.62 increases from 2 to $^ { 6 2 , }$indicating the attachment ofPEG chain to the polymer."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_003",
+      "characterization_id": "char003",
+      "sample_id": "s013",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "δ 3.43",
+      "property_name_normalized": "nmr_chemical_shift",
+      "property_category": "composition_structure",
+      "value_raw": "δ 3.43",
+      "value_min": 3.43,
+      "value_max": 3.43,
+      "source_stage": "stage5",
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_4_66",
+          "page": 4,
+          "bbox": [
+            512.0,
+            518.0,
+            917.0,
+            765.0
+          ],
+          "source_type": "text",
+          "source_sentence": "However, in the spectrum of $\\mathrm { P } 2 \\mathrm { - P E G } _ { 7 5 0 }$in $\\mathrm { D } _ { 2 } \\mathrm { O } ,$there are only two peaks at δ 3.43 and 3.10 due to the resonance of protons ofwater-soluble PEG chain."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    }
+  ],
+  "provenance": {
+    "stage": "stage5_characterization",
+    "provider": "dmx",
+    "model": "doubao-seed-2.0-pro",
+    "models": [
+      "doubao-seed-2.0-pro"
+    ],
+    "prompt_id": "polymer.stage5.characterization",
+    "prompt_version": "1.6.2",
+    "prompt_sha256": "5f918eb9d0dcbe0a4dc60a70d83c4e9f144f9a87bf68905d0a38ad22c000ee5c",
+    "vocabulary_sha256": "3e9d85e4915a729edf0f0a53821f3ee6edf32874e1da6972457417e4f13a1510",
+    "input_hash": "ba35abbdeb9c61768588f43a2dece51eae142ca9fffc1fab48ce80d750921770",
+    "model_config_hash": "7e14aff06827af47a7b1a797111258e33d5972d1c072111440c3b2aae020f3ce",
+    "cache_key": "68dce93b0b626bba37eacd013d92db15e35beb54aaf67aab0e75a9810c2f1c4c",
+    "output_schema_version": "characterization_schema.v4",
+    "implementation_version": "1.7.1",
+    "context_block_count": 11,
+    "context_chars": 16878,
+    "call_count": 1,
+    "usage": {
+      "input_tokens": 16279,
+      "output_tokens": 9463,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "billable_input_tokens": 16279,
+      "total_tokens": 25742
+    },
+    "cost": {
+      "status": "calculated",
+      "currency": "CNY",
+      "input_per_million": "4.32",
+      "output_per_million": "29.15",
+      "input_cost": "0.07032528",
+      "output_cost": "0.27584645",
+      "total_cost": "0.34617173"
+    },
+    "status": "success"
+  },
+  "warnings": [
+    {
+      "stage": "stage5_characterization",
+      "code": "section_fallback",
+      "message": "Methods/Results 为空，仅使用上游 evidence block；结果需人工复核"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_characterization_method_surface_recovered",
+      "message": "Preview 模式已将表征方法恢复为 evidence 中唯一匹配的原文词形",
+      "field_path": "characterizations[2].method_raw",
+      "method_normalized": "NMR"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[0]",
+      "property_id": "prop_s5_001",
+      "fields": [
+        "spectral_assignment"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_property_removed",
+      "message": "Preview 模式已移除 value_raw 无原文支撑的 Stage 5 性质",
+      "field_path": "properties[1].value_raw",
+      "property_id": "prop_s5_002"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[2]",
+      "property_id": "prop_s5_003",
+      "fields": [
+        "spectral_assignment"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[3]",
+      "property_id": "prop_s5_004",
+      "fields": [
+        "spectral_assignment",
+        "solvent"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_property_removed",
+      "message": "Preview 模式已移除 value_raw 无原文支撑的 Stage 5 性质",
+      "field_path": "properties[4].value_raw",
+      "property_id": "prop_s5_005"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_property_subject_subscope_retained",
+      "message": "Preview 模式已保留多主体 Characterization 下的明确单主体性质；需在正式数据中复核",
+      "items": [
+        {
+          "property_id": "prop_s5_001",
+          "characterization_id": "char003",
+          "sample_id": "s013",
+          "entity_id": null
+        },
+        {
+          "property_id": "prop_s5_003",
+          "characterization_id": "char003",
+          "sample_id": "s013",
+          "entity_id": null
+        },
+        {
+          "property_id": "prop_s5_004",
+          "characterization_id": "char003",
+          "sample_id": "s013",
+          "entity_id": null
+        }
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "unresolved_characterizations",
+      "message": "1 条表征无法可靠关联具体 Sample",
+      "characterization_ids": [
+        "char004"
+      ]
+    }
+  ]
+}

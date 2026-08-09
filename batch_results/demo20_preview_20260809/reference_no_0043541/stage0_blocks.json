@@ -1,0 +1,1504 @@
+{
+  "schema_version": "1.1",
+  "source_document_schema_version": "1.0",
+  "document_id": "reference_no_0043541",
+  "paper": {
+    "ref_no": "reference_no_0043541",
+    "pdf_filename": "a36175ca-0d6a-404d-85a7-2626c63f6355_origin.pdf",
+    "source_pdf_path": "mineru_output/reference_no_0043541/a36175ca-0d6a-404d-85a7-2626c63f6355_origin.pdf",
+    "organized_pdf_path": "wenxian/reference_no_0043541/origin.pdf",
+    "doi": "10.1002/masy.200950513",
+    "title": "Structure and Surface Properties of High-density Polyelectrolyte Brushes at the Interface of Aqueous Solution",
+    "authors": [
+      "Motoyasu Kobayashi",
+      "Hiroki Yamaguchi",
+      "Yuki Terayama",
+      "Zhe Wang",
+      "Kazuhiko Ishihara",
+      "Masahiro Hino",
+      "Atsushi Takahara"
+    ],
+    "journal": "Macromol. Symp.",
+    "year": 2009,
+    "metadata_status": "complete",
+    "metadata_extraction": {
+      "method": "llm",
+      "provider": "volcengine",
+      "model": "doubao-seed-2-0-pro-260215",
+      "prompt_file": "prompts/meta_extract.md",
+      "prompt_sha256": "96d91fd20308fdaa013aaef055c4b873880414f84228b8c5983246b74d21271b",
+      "source_pages": [
+        0,
+        1
+      ],
+      "status": "success"
+    }
+  },
+  "source_files": {
+    "markdown": "reference_no_0043541.md",
+    "content_v1": "content.json",
+    "content_v2": "content_v2.json",
+    "pdf": "origin.pdf"
+  },
+  "ocr": {
+    "engine": "mineru",
+    "batch_id": "a2fa80d8-bb3d-43a9-a298-6438abdeb41a",
+    "model_version": "vlm",
+    "ocr_enabled": null,
+    "language": null,
+    "page_ranges": null,
+    "enable_formula": null,
+    "enable_table": null,
+    "extra_formats": null,
+    "status": "done",
+    "manifest_file": "batch_a2fa80d8-bb3d-43a9-a298-6438abdeb41a_manifest.json",
+    "status_file": "batch_a2fa80d8-bb3d-43a9-a298-6438abdeb41a_status.json"
+  },
+  "elements": [
+    {
+      "block_id": "P_0_0",
+      "type": "title",
+      "section": "DocumentTitle",
+      "text": "Structure and Surface Properties of High-density Polyelectrolyte Brushes at the Interface of Aqueous Solution",
+      "page": 0,
+      "bbox": [
+        129.0,
+        51.0,
+        873.0,
+        129.0
+      ],
+      "source_block_index": 0,
+      "alignment_status": "matched",
+      "title_level": 1
+    },
+    {
+      "block_id": "P_0_1",
+      "type": "text",
+      "text": "Motoyasu Kobayashi,<sup>1</sup> Hiroki Yamaguchi,<sup>2</sup> Yuki Terayama,<sup>2</sup> Zhe Wang,<sup>1</sup> 1 Kazuhiko Ishihara,<sup>3</sup> Masahiro Hino,<sup>4</sup> Atsushi Takahara<sup>\\*1,2</sup>",
+      "page": 0,
+      "bbox": [
+        129.0,
+        141.0,
+        801.0,
+        177.0
+      ],
+      "source_block_index": 1,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_0_2",
+      "type": "text",
+      "text": "Summary: Zwitterionic and cationic polyelectrolyte brushes were prepared by surface-initiated atom transfer radical polymerization of 2-methacryloyloxy- ethyl phosphorylcholine (MPC) and 2-(N,N-dimethylamino)ethyl methacrylate (DMAEMA), respectively. The poly(DMAEMA) brush was treated with methyl iodide to form poly[2- (methacryloyloxy) ethyltrimethylammonium iodide] [poly(METAI)]. The effects of ionic strength on brush structure and surface properties of densely grafted polyelectrolyte brushes were analyzed by contact angle measurements, neutron reflectivity (NR) and macroscopic friction tests. Both polyelectrolyte brushes exhibited hydrophilic properties. The contact angle of the poly(MPC) brush surface against water was ca. 08 in air and the contact angle of the air bubble in water was ca. 1708. The air bubble in water hardly attached to the poly(MPC) brush surface, indicating super hydrophilic characteristics. NR measurements of poly(MPC) and poly(METAI) brushes showed that the grafted polymer chains were extended from the substrate surface in a good solvent such as water. Interestingly, NR study did not reveal the shrinkage of the brush chain in salt solution. The polyelectrolyte brushes immersed in both water and NaCl solution at various concentrations showed a low friction coefficient and low adhesion force.",
+      "page": 0,
+      "bbox": [
+        129.0,
+        190.0,
+        905.0,
+        496.0
+      ],
+      "source_block_index": 2,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_0_3",
+      "type": "text",
+      "text": "Keywords: 2-(N,N-dimethylamino)ethyl methacrylate; 2-methacryloyloxyethyl phosphorylcholine; friction coefficient; neutron reflectivity; polyelectrolyte brush",
+      "page": 0,
+      "bbox": [
+        129.0,
+        513.0,
+        811.0,
+        549.0
+      ],
+      "source_block_index": 3,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_0_4",
+      "type": "title",
+      "section": "Introduction",
+      "text": "Introduction",
+      "page": 0,
+      "bbox": [
+        99.0,
+        585.0,
+        232.0,
+        603.0
+      ],
+      "source_block_index": 4,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_0_5",
+      "type": "text",
+      "section": "Introduction",
+      "text": "A number of experimental studies investigating the interactions and the surface mechanical properties of the solid surfaces bearing polymer brushes<sup>[1]</sup> have been reported in an effort to further understand the mechanism of friction of the brushes.<sup>[2–4]</sup>",
+      "page": 0,
+      "bbox": [
+        96.0,
+        621.0,
+        490.0,
+        725.0
+      ],
+      "source_block_index": 5,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_0_6",
+      "type": "text",
+      "section": "Introduction",
+      "text": "The polymer brushes are prepared either by adsorption of charged diblock an endfunctionalized copolymers at the air-water interface using the Langmuir-Blodgett method (the so called ‘‘grafting to’’ approach), or by the grafting-from method, which employs classical free radical polymerizations. Generally, the graft density of polymer brushes prepared by the ‘‘graftingto’’ method is relatively low because large polymer chains are not able to diffuse to substrate surfaces in cases in which the surfaces are sterically hindered by the surrounding chains. The graft chains are expected to exhibit different frictional properties such as wear resistance by graft density. Recently, lubrication systems by densely grafted polymer brushes have attracted much attention because high-density and C well-defined polymer brushes have been readily synthesized due to recent advances in surface-initiated controlled radical polymerization (CRP) techniques. Forcedistance profiles of high-density PMMA brushes has been measured by Fukuda and coworkers using scanning force micro scopy with a micro silica sphere attached to the cantilever head.<sup>[5]</sup> Under the high graft density at the solid/solvent interface, the osmotic pressure extends beyond the grafted polymer chains, which resists compression. The steric repulsion between the polymers supporting high normal loads gives low frictional forces between brushbearing surfaces. Extremely low friction coefficients were observed in nanotribological studies performed by atomic force microscopy (AFM) using a colloidal probe immobilized with a high-density PMMA brush in toluene.<sup>[6]</sup> A macroscopic friction test of a high-density PMMA brush<sup>[7]</sup> and an organosilane monolayer<sup>[8]</sup> were also reported using a stainless steel ball as a sliding probe, resulting in a low-friction and wear-resistant surface under a high normal load. We reported that a hydrophilic polymer brush with hydroxy groups on the side chains exhibited a low friction coefficient in water.<sup>[9,10]</sup> A super hydrophilic polymer could be obtained from 2- methacryloyloxyehtyl phosphorylcholine (MPC),<sup>[11]</sup> which is a specially-designed methacrylate containing a phosphorylcholine unit in the side chain. Poly(MPC) is well known as both a super-hydrophi lic<sup>[12]</sup> and biocompatible polymer.<sup>[13]</sup> Ho and Nakabayashi observed significant low frictional coefficients for polyurethane catheter material surface coated with poly (MPC-co-n-butyl methacrylate) under wet conditions.<sup>[14]</sup> Applications in medical implant devices such as artificial joints<sup>[15]</sup> have also been extended, taking advantage of the low friction and biocompatibile properties of poly(MPC) brushes. Furthermore, we have demonstrated the macroscopic tribological properties of poly (MPC) brushes under a load of 139 MPa for applications in the field of tribocontrol.<sup>[16]</sup>",
+      "page": 0,
+      "bbox": [
+        506.0,
+        587.0,
+        905.0,
+        914.0
+      ],
+      "source_block_index": 6,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "F_0_10",
+      "type": "footnote",
+      "section": "Introduction",
+      "text": "Institute for Materials Chemistry and Engineering, Kyushu University, 744 Motooka, Nishi-ku, Fukuoka 819-0395, Japan Fax: +81-92-802-2518",
+      "page": 0,
+      "bbox": [
+        99.0,
+        750.0,
+        490.0,
+        800.0
+      ],
+      "source_block_index": 10,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "F_0_11",
+      "type": "footnote",
+      "section": "Introduction",
+      "text": "E-mail: takahara@cstf.kyushu-u.ac.jp",
+      "page": 0,
+      "bbox": [
+        110.0,
+        804.0,
+        382.0,
+        819.0
+      ],
+      "source_block_index": 11,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "F_0_12",
+      "type": "footnote",
+      "section": "Introduction",
+      "text": "<sup>2</sup> Graduate School of Engineering, Kyushu University, 744 Motooka, Nishi-ku, Fukuoka 819-0395, Japan",
+      "page": 0,
+      "bbox": [
+        99.0,
+        816.0,
+        490.0,
+        846.0
+      ],
+      "source_block_index": 12,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "F_0_13",
+      "type": "footnote",
+      "section": "Introduction",
+      "text": "3 Graduate School of Engineering, The University of Tokyo, 7-3-1 Hongo, Bunkyou-ku, Tokyo 110-8586, Japan",
+      "page": 0,
+      "bbox": [
+        99.0,
+        843.0,
+        490.0,
+        885.0
+      ],
+      "source_block_index": 13,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "F_0_14",
+      "type": "footnote",
+      "section": "Introduction",
+      "text": "4 Research Reactor Institute, Kyoto University, Kumatori-cho, Osaka 590-0494, Japan",
+      "page": 0,
+      "bbox": [
+        99.0,
+        885.0,
+        447.0,
+        915.0
+      ],
+      "source_block_index": 14,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_1_17",
+      "type": "text",
+      "section": "Introduction",
+      "text": "",
+      "page": 1,
+      "bbox": [
+        87.0,
+        36.0,
+        488.0,
+        915.0
+      ],
+      "source_block_index": 17,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_1_18",
+      "type": "text",
+      "section": "Introduction",
+      "text": "It is well known that the dimensions of the isolated polyelectrolyte chains are reduced in a salt solution, because of the reduction in intra-molecular electrostatic repulsion with an increase in ionic strength. The behavior of polyelectrolyte brushes in salt solution is important for applications in medical materials, as these materials are in contact with blood and other body fluids. Herein, we report the ionic strength dependence of polymer brush chain conformation and frictional properties in salt solution for zwitterionic type polyelectrolyte brush as well as cationic polymer brushes prepared by surface-initiated CRP.",
+      "page": 1,
+      "bbox": [
+        500.0,
+        36.0,
+        900.0,
+        297.0
+      ],
+      "source_block_index": 18,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_1_19",
+      "type": "title",
+      "section": "Introduction",
+      "text": "Experimental Part",
+      "page": 1,
+      "bbox": [
+        502.0,
+        327.0,
+        695.0,
+        346.0
+      ],
+      "source_block_index": 19,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_1_20",
+      "type": "title",
+      "section": "Introduction",
+      "text": "Preparation of Polymer Brushes",
+      "page": 1,
+      "bbox": [
+        500.0,
+        363.0,
+        781.0,
+        379.0
+      ],
+      "source_block_index": 20,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_1_21",
+      "type": "text",
+      "section": "Introduction",
+      "text": "CuBr (Wako, 98%) was purified by washing with acetic acid and ethanol and was dried under vacuum. Ethyl 2-bromoisobutylate (TCI, 99%) was used as received. The surface initiator, (2-bromo-2-methyl)propionyloxyhexyltri- ethoxysilane (BHE), was synthesized by hydrosilylation of 5- hexenyl 2-bromoisobutylate treated with triethoxysilane using the Karstedt catalyst. MPC monomer was prepared using a previously reported procedure.<sup>[11]</sup> DMAEMA was purified by distillation from calcium hydride under reduced pressure. Silicon wafers (10 mm \u0001 40 mm) were cleaned by washing with piranha solution (conc. H SO / $\\mathrm { H } _ { 2 } \\mathrm { O } _ { 2 } \\mathrm { \\ a q . } = 7 / 3 , \\mathrm { \\ v / v } )$at 373 K for 1 h and subsequent exposure to vacuum ultravioletray (l ¼ 172 nm) for 5 min under reduced pressure (30 Pa). The BHE monolayer was immobilized on the silicon wafers using the chemical vapor adsorption method.<sup>[17]</sup> Scheme 1 shows the scheme for the surfaceinitiated atom transfer radical polymerization (ATRP) of MPC and DMAEMA. A few sheets of BHE-immobilized silicon wafers, CuBr (0.025 mmol), and 4,4<sup>0</sup>- dimethyl-2,2<sup>0</sup>-bipyridyl (0.050 mmol) were introduced into a glass tube with a stopcock and were dried by repeated degassing and purging with argon. A methanol solution of MPC (6.5 mmol) and ethyl",
+      "page": 1,
+      "bbox": [
+        500.0,
+        379.0,
+        900.0,
+        915.0
+      ],
+      "source_block_index": 21,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_1_21",
+        "V2_1_4_1"
+      ]
+    },
+    {
+      "block_id": "I_2_26",
+      "type": "image",
+      "section": "Introduction",
+      "page": 2,
+      "bbox": [
+        99.0,
+        33.0,
+        903.0,
+        145.0
+      ],
+      "source_block_index": 26,
+      "alignment_status": "matched",
+      "image_path": "wenxian/reference_no_0043541/images/fig1.jpg",
+      "image_kind": "image"
+    },
+    {
+      "block_id": "P_2_27",
+      "type": "title",
+      "section": "Introduction",
+      "text": "Scheme 1.",
+      "page": 2,
+      "bbox": [
+        96.0,
+        156.0,
+        179.0,
+        169.0
+      ],
+      "source_block_index": 27,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_2_28",
+      "type": "text",
+      "section": "Introduction",
+      "text": "Surface-initiated ATRP of MPC and DMAEMA",
+      "page": 2,
+      "bbox": [
+        96.0,
+        169.0,
+        433.0,
+        187.0
+      ],
+      "source_block_index": 28,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_2_29",
+      "type": "text",
+      "section": "Introduction",
+      "text": "2-bromoisobutylate (0.0125 mmol) were added to the catalyst. The polymerization solution was degassed by repeated freezepump-thaw cycles to remove the oxygen. The polymerization reaction was conducted at 303 K for 12 h under argon to simultaneously generate a poly(MPC) brush from the substrate and free poly(MPC) from EB. The reaction was quenched by opening the schlenk tube to air, and the free polymer was precipitated into THF. The silicon wafers were washed with methanol using a Soxhlet apparatus for 12 h to remove the free polymer adsorbed to the substrate surface, and dried under reduced pressure at 373 K for 1 h. The free polymer in methanol solution was passed through a neutral alumina column to remove the catalyst. For DMAEMA polymerization, pentamethyldiethylenetriamine was used instead of 4,4<sup>0</sup>-dimethyl-2,2<sup>0</sup>-bipyridyl. The resulting poly(DMAEMA) brush was immersed in a 3% aqueous solution of methyl iodide to obtain a positively charged poly[2-(methacryloyloxy)ethyltrimethylammonium iodide] [poly(METAI)] brush.",
+      "page": 2,
+      "bbox": [
+        96.0,
+        208.0,
+        493.0,
+        657.0
+      ],
+      "source_block_index": 29,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_2_30",
+      "type": "title",
+      "section": "Introduction",
+      "text": "Characterization",
+      "page": 2,
+      "bbox": [
+        96.0,
+        672.0,
+        246.0,
+        690.0
+      ],
+      "source_block_index": 30,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_2_31",
+      "type": "text",
+      "section": "Introduction",
+      "text": "The number-average molecular weights $\\left( M _ { \\mathrm { n } } \\right)$and molecular weight distribution of the free poly(MPC) were determined by size-exclusion chromatography (SEC) recorded on a JASCO instrument equipped with a JASCO 2031plus RI detector and two poly(hydroxyethyl methacrylate) gel columns (Shodex OHpak SB-804HQ, 0.5 mL/min). Water containing 0.01 M LiBr was used as the eluent at 298 K. N,N-Dimethylformamide containing 0.01 M LiBr was used as an eluent for SEC measurement of poly(DMAEMA). A calibration curve was constructed from a series of welldefined poly(MPC)s prepared by reversible fragmentation chain transfer (RAFT) polymerization. The thickness of the polymer brush and the spin-coated film on the silicon substrate were determined using an imaging ellipsometer (Nippon Laser & Electronics Lab.) equipped with a YAG laser (532.8 nm). The polarizer angle was fixed at $5 0 ^ { \\circ }$, and a refractive index of 1.48 was assumed for calculations of the film thickness. The contact angles against water, hexadecane, and methylene iodide (each droplet volume was $2 \\ \\mu \\mathrm { L } )$were recorded with a drop shape analysis system DSA10 Mk2 (KRU<sup>¨</sup> SS Inc.) equipped with a video camera. XPS measurements were carried out on a XPS-APEX (Ulvac Phi Co., Ltd.) using a monochromatic Al-Ka X-ray source at a take-off angle of $4 5 ^ { \\circ }$. The formation of the polymer brush at the water interface was confirmed by NR measurements. High-density poly(MPC) and poly (METAI) brushes for NR were specially prepared by surface-initiated ATRP from a quartz glass plate immobilized with a surface initiator. NR measurements were carried out using a multilayer interferometer for neutrons (MINE) in JRR-3 at TOKAI, using wavelength l ¼ 0.88 nm. A neutron beam was irradiated from quartz glass to the interface between heavy water and the poly(MPC) brush on quartz glass. The incident slits were adjusted to maintain a 55 mm footprint size on the sample surface. The NR profiles were analyzed by fitting calculated reflectivity from model scattering length density profiles to the data, using Parratt32 software. The frictional coefficient of the polymer brushes was recorded on a Tribostation Type32 (Shinto Scientific $\\mathrm { C o . ~ \\ L t d . ) ^ { [ 7 ] } }$using a sliding a glass ball $( d = 1 0 ~ \\mathrm { \\ m m } )$on the substrates over 20 mm at a sliding velocity of 90 mm/min under a normal load of 0.49 N at 298 K. Humidity around the sample stage was controlled by blowing under a stream of dry ${ \\bf N } _ { 2 }$gas or by paving a wet paper towel around moving stage to make a humid atmosphere. The theoretical contact area between the glass probe and a silicon wafer under these conditions was calculated to be $3 . 5 1 \\times { 1 0 } ^ { - 9 } \\ \\mathrm { m } ^ { 2 }$by Hertz’s contact theory, and the average normal pressure on the contact area was estimated to be 139 MPa. Adhesive and force curve measurements were performed by AFM (SPA400, SII Nanotechnology) using colloidal silica beads (d ¼ 50 mm) immobilized on a cantilever (SI-DR3) using UV-sensitive glue (NOA63, Norland Pro. Inc.). The spring constant of the cantilever was 0.4 N/m. The nanotribological test for the poly(MPC) brush was carried out by lateral force microscopy mode at a scan rate of 10 mm/s under a normal force of 10 nN at 298 K. The friction stroke was 5.0 mm.",
+      "page": 2,
+      "bbox": [
+        96.0,
+        690.0,
+        493.0,
+        915.0
+      ],
+      "source_block_index": 31,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_2_31",
+        "V2_2_5_1",
+        "V2_2_5_3",
+        "V2_2_5_5",
+        "V2_2_5_7",
+        "V2_2_5_9",
+        "V2_2_5_11",
+        "V2_2_5_13",
+        "V2_2_5_15"
+      ]
+    },
+    {
+      "block_id": "P_2_32",
+      "type": "text",
+      "section": "Introduction",
+      "text": "",
+      "page": 2,
+      "bbox": [
+        506.0,
+        210.0,
+        907.0,
+        915.0
+      ],
+      "source_block_index": 32,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_3_37",
+      "type": "text",
+      "section": "Introduction",
+      "text": "",
+      "page": 3,
+      "bbox": [
+        89.0,
+        34.0,
+        486.0,
+        484.0
+      ],
+      "source_block_index": 37,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_3_38",
+      "type": "title",
+      "section": "Results",
+      "text": "Results and Discussion",
+      "page": 3,
+      "bbox": [
+        89.0,
+        516.0,
+        336.0,
+        534.0
+      ],
+      "source_block_index": 38,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_3_39",
+      "type": "title",
+      "section": "Results",
+      "text": "Characterization of Polymer Brushes",
+      "page": 3,
+      "bbox": [
+        89.0,
+        552.0,
+        410.0,
+        569.0
+      ],
+      "source_block_index": 39,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_3_40",
+      "type": "text",
+      "section": "Results",
+      "text": "Armes has thoroughly investigated the CRP conditions of MPC<sup>[18]</sup>, and demonstrated that ATRP of MPC in an alcohol proceeds in a living manner, even at 293 K, to give a polymer with a predicted molecular weight and relatively narrow molecular weight distributions. Another type of controlled radical polymerization process was also reported by Ishihara.<sup>[19]</sup> Preparation of a high-density poly(MPC) brush has been reported by Iwasaki<sup>[20]</sup> and $\\mathrm { B r a s h } ^ { [ 2 1 ] }$using surface-initiated ATRP from a silicon substrate, immobilized 2-bromoisobutylate group. In this work, BHE was used as a surface initiator, immobilized on the silicon surface by chemical vapor adsorption. The $M _ { \\mathrm { n } }$of the obtained poly(MPC) brushes on the silicon wafer were estimated to be approximately 30,000 \u0003 120,000 by SEC of the corresponding free polymer using water as the eluent. The AFM observation revealed that a homogeneous polymer layer was formed on the substrate, and the surface roughness was $0 . 8 \\sim 1 . 5$nm in the dried state in a $5 \\times 5 \\mu \\mathrm { m } ^ { 2 }$scanning area. The thickness of the poly(MPC) brush was determined to be ca. 10 \u0003 40 nm by ellipsometry. The graft density was estimated to be ca. 0.22 $\\mathrm { c h a i n s } / \\mathrm { n m } ^ { 2 }$based on the linear relationship between $M _ { \\mathrm { n } }$and the thickness. Similarly, the graft density of the poly(DMAEMA) brush was determined to be 0.40 chains/nm<sup>2</sup>.",
+      "page": 3,
+      "bbox": [
+        89.0,
+        569.0,
+        486.0,
+        915.0
+      ],
+      "source_block_index": 40,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_3_40",
+        "V2_3_3_1",
+        "V2_3_3_3",
+        "V2_3_3_5",
+        "V2_3_3_7",
+        "V2_3_3_9",
+        "V2_3_3_11"
+      ]
+    },
+    {
+      "block_id": "P_3_41",
+      "type": "text",
+      "section": "Results",
+      "text": "",
+      "page": 3,
+      "bbox": [
+        500.0,
+        36.0,
+        898.0,
+        259.0
+      ],
+      "source_block_index": 41,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_3_42",
+      "type": "text",
+      "section": "Results",
+      "text": "The magnitudes of the contact angles of the obtained polymer brushes against various probe liquids are summarized in Table 1. The contact angle of the water droplet (2.0 mL) on the poly(MPC) brush surface was $1 \\sim 3 ^ { \\circ }$The contact angle against methylene iodide and hexadecane were $4 5 ^ { \\circ }$and ${ < } 5 ^ { \\circ }$, respectively. Using the Owens and Wendt’s equation,<sup>[22]</sup> the surface free energy of the poly(MPC) brush surface in air was estimated to be 73 mN/m, which is almost the same as that of water. Advancing and receding contact angles of poly(MPC) brushes against water were $1 1 ^ { \\circ }$and $5 \\sim 7 ^ { \\circ }$, respectively. In order to evaluate the hydrophilicity in water, the air bubble contact angle was measured for a hydrated poly(MPC) brush in water. The air bubble contact angle was almost 1708. This magnitude suggests that the super hydrophilic nature of the poly(MPC) brush and air bubbles are hardly attached to the poly(MPC) brush in water. The contact angle of the poly(DMAEMA) brush was reduced from $5 6 ^ { \\circ }$to $3 6 ^ { \\circ }$by immersion in methyl iodide solution, indicating the formation of a hydrophilic poly(METAI) brush.",
+      "page": 3,
+      "bbox": [
+        500.0,
+        259.0,
+        900.0,
+        743.0
+      ],
+      "source_block_index": 42,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_3_42",
+        "V2_3_5_1",
+        "V2_3_5_3",
+        "V2_3_5_5",
+        "V2_3_5_7",
+        "V2_3_5_9",
+        "V2_3_5_11",
+        "V2_3_5_13"
+      ]
+    },
+    {
+      "block_id": "P_3_43",
+      "type": "title",
+      "section": "Results",
+      "text": "Neutron Reflectivity at Polyelectrolyte Brush/Deuterium Oxide Solution Interface",
+      "page": 3,
+      "bbox": [
+        500.0,
+        759.0,
+        870.0,
+        792.0
+      ],
+      "source_block_index": 43,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_3_44",
+      "type": "text",
+      "section": "Results",
+      "text": "Figure 1(a) and (b) shows the NR profile and corresponding scattering density of a poly(METAI) brush at the D<sub>2</sub>O/Poly(ME-TAI) and 1.0 M NaCl/poly(METAI) interface. A critical angle was clearly observed at $q = 0 . 1 1 \\ \\mathrm { n m } ^ { - 1 }$in Figure 1. This angle could be attributed to the difference in",
+      "page": 3,
+      "bbox": [
+        500.0,
+        792.0,
+        898.0,
+        915.0
+      ],
+      "source_block_index": 44,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_3_44",
+        "V2_3_7_1"
+      ]
+    },
+    {
+      "block_id": "T_4_49",
+      "type": "table",
+      "section": "Results",
+      "page": 4,
+      "bbox": [
+        96.0,
+        67.0,
+        903.0,
+        217.0
+      ],
+      "source_block_index": 49,
+      "alignment_status": "matched",
+      "caption": "Table 1. Table 1. Contact angles and surface free energy of hydrophilic polymer brushes.",
+      "table_body": "<table><tr><td></td><td></td><td>poly(MPC)</td><td>poly(DMAEMA)</td><td>poly(METAI)</td></tr><tr><td rowspan=\"4\"> $Water^{a)}$ </td><td>(static)</td><td> $1 \\sim 3^{\\circ}$ </td><td> $56^{\\circ}$ </td><td> $36^{\\circ}$ </td></tr><tr><td>(advancing)</td><td> $13^{°b)}$ </td><td> $78^{°c)}$ </td><td> $69^{°c)}$ </td></tr><tr><td>(receding)</td><td> $<5^{°b)}$ </td><td> $27^{°c)}$ </td><td> $18^{°c)}$ </td></tr><tr><td>(sliding)</td><td> $15^{°b)}$ </td><td> $62^{°c)}$ </td><td> $41^{°c)}$ </td></tr><tr><td>Air (in water) $^{d)}$ </td><td>(static)</td><td> $170^{\\circ}$ </td><td> $138^{\\circ}$ </td><td> $145^{\\circ}$ </td></tr><tr><td> $Diiodomethane^{e)}$ </td><td>(static)</td><td> $45^{\\circ}$ </td><td> $38^{\\circ}$ </td><td> $47^{\\circ}$ </td></tr><tr><td> $n-Hexadecane^{e)}$ </td><td>(static)</td><td> $<5^{\\circ}$ </td><td> $<5^{\\circ}$ </td><td> $<5^{\\circ}$ </td></tr><tr><td> $\\gamma_{SV}^{f)}$ </td><td>(mN/m)</td><td>73</td><td>50</td><td>60</td></tr></table>",
+      "table_cells": [
+        {
+          "cell_id": "T_4_49:r0000:c0000",
+          "row_index": 0,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_49:r0000:c0001",
+          "row_index": 0,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_49:r0000:c0002",
+          "row_index": 0,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "poly(MPC)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_49:r0000:c0003",
+          "row_index": 0,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "poly(DMAEMA)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_49:r0000:c0004",
+          "row_index": 0,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "poly(METAI)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_49:r0001:c0000",
+          "row_index": 1,
+          "column_index": 0,
+          "row_span": 4,
+          "column_span": 1,
+          "text": "$Water^{a)}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_49:r0001:c0001",
+          "row_index": 1,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "(static)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_49:r0001:c0002",
+          "row_index": 1,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$1 \\sim 3^{\\circ}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_49:r0001:c0003",
+          "row_index": 1,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$56^{\\circ}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_49:r0001:c0004",
+          "row_index": 1,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$36^{\\circ}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_49:r0002:c0001",
+          "row_index": 2,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "(advancing)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_49:r0002:c0002",
+          "row_index": 2,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$13^{°b)}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_49:r0002:c0003",
+          "row_index": 2,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$78^{°c)}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_49:r0002:c0004",
+          "row_index": 2,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$69^{°c)}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_49:r0003:c0001",
+          "row_index": 3,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "(receding)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_49:r0003:c0002",
+          "row_index": 3,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$<5^{°b)}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_49:r0003:c0003",
+          "row_index": 3,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$27^{°c)}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_49:r0003:c0004",
+          "row_index": 3,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$18^{°c)}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_49:r0004:c0001",
+          "row_index": 4,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "(sliding)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_49:r0004:c0002",
+          "row_index": 4,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$15^{°b)}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_49:r0004:c0003",
+          "row_index": 4,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$62^{°c)}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_49:r0004:c0004",
+          "row_index": 4,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$41^{°c)}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_49:r0005:c0000",
+          "row_index": 5,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Air (in water) $^{d)}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_49:r0005:c0001",
+          "row_index": 5,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "(static)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_49:r0005:c0002",
+          "row_index": 5,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$170^{\\circ}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_49:r0005:c0003",
+          "row_index": 5,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$138^{\\circ}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_49:r0005:c0004",
+          "row_index": 5,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$145^{\\circ}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_49:r0006:c0000",
+          "row_index": 6,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$Diiodomethane^{e)}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_49:r0006:c0001",
+          "row_index": 6,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "(static)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_49:r0006:c0002",
+          "row_index": 6,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$45^{\\circ}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_49:r0006:c0003",
+          "row_index": 6,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$38^{\\circ}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_49:r0006:c0004",
+          "row_index": 6,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$47^{\\circ}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_49:r0007:c0000",
+          "row_index": 7,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$n-Hexadecane^{e)}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_49:r0007:c0001",
+          "row_index": 7,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "(static)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_49:r0007:c0002",
+          "row_index": 7,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$<5^{\\circ}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_49:r0007:c0003",
+          "row_index": 7,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$<5^{\\circ}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_49:r0007:c0004",
+          "row_index": 7,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$<5^{\\circ}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_49:r0008:c0000",
+          "row_index": 8,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$\\gamma_{SV}^{f)}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_49:r0008:c0001",
+          "row_index": 8,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "(mN/m)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_49:r0008:c0002",
+          "row_index": 8,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "73",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_49:r0008:c0003",
+          "row_index": 8,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "50",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_49:r0008:c0004",
+          "row_index": 8,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "60",
+          "is_header": false
+        }
+      ],
+      "image_path": "wenxian/reference_no_0043541/images/table1.jpg"
+    },
+    {
+      "block_id": "E_4_50",
+      "type": "equation",
+      "section": "Results",
+      "text": "$$\n^ {a)} 2 \\mu L.\n$$",
+      "page": 4,
+      "bbox": [
+        99.0,
+        220.0,
+        152.0,
+        235.0
+      ],
+      "source_block_index": 50,
+      "alignment_status": "matched",
+      "equation_kind": "display"
+    },
+    {
+      "block_id": "E_4_51",
+      "type": "equation",
+      "section": "Results",
+      "text": "$$\n^ {b)} 3 0 \\mu L.\n$$",
+      "page": 4,
+      "bbox": [
+        99.0,
+        235.0,
+        161.0,
+        250.0
+      ],
+      "source_block_index": 51,
+      "alignment_status": "matched",
+      "equation_kind": "display"
+    },
+    {
+      "block_id": "E_4_52",
+      "type": "equation",
+      "section": "Results",
+      "text": "$$\n^ {c)} 4 0 \\mu L.\n$$",
+      "page": 4,
+      "bbox": [
+        99.0,
+        249.0,
+        161.0,
+        262.0
+      ],
+      "source_block_index": 52,
+      "alignment_status": "matched",
+      "equation_kind": "display"
+    },
+    {
+      "block_id": "E_4_53",
+      "type": "equation",
+      "section": "Results",
+      "text": "$$\n^ {d)} 1 0 \\mu L.\n$$",
+      "page": 4,
+      "bbox": [
+        99.0,
+        262.0,
+        158.0,
+        274.0
+      ],
+      "source_block_index": 53,
+      "alignment_status": "matched",
+      "equation_kind": "display"
+    },
+    {
+      "block_id": "E_4_54",
+      "type": "equation",
+      "section": "Results",
+      "text": "$$\n^ {\\mathrm{e})} 3 \\mu \\mathrm{L}.\n$$",
+      "page": 4,
+      "bbox": [
+        99.0,
+        274.0,
+        152.0,
+        289.0
+      ],
+      "source_block_index": 54,
+      "alignment_status": "matched",
+      "equation_kind": "display"
+    },
+    {
+      "block_id": "P_4_55",
+      "type": "text",
+      "section": "Results",
+      "text": "<sup>f)</sup>Owens equation.",
+      "page": 4,
+      "bbox": [
+        99.0,
+        289.0,
+        237.0,
+        304.0
+      ],
+      "source_block_index": 55,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_4_56",
+      "type": "text",
+      "section": "Results",
+      "text": "scattering length density between quartz and deuterium oxide. The scattering length density profiles of the poly(MPC) brushes in $\\mathbf { D } _ { 2 } \\mathbf { O }$calculated from the reflectivity curves indicated that the poly(METAI) chains were stretched up to 60 nm in $\\mathbf { D } _ { 2 } \\mathbf { O } _ { 3 }$, forming a concentration gradient of ${ \\bf D } _ { 2 } { \\bf O } .$. Interestingly, quite similar reflectivity curve was observed from the interface of the poly(METAI) brush in the 1.0 M NaCl deuterium oxide solution, indicating that the thickness of the swelling brush did not change, even in a salt solution. It is a quite contrast to the fact that the unbound polyelectrolyte shrinks in salt solution due to the reduction in intra-molecular electrostatic repulsion. In the case of the surfacegrafted brush, densely grafted polyelectrolytes form a high local charge density in order to prevent diffusion of a hydrated counterion in the polymer brush layer. For instance, assuming the swollen brush thickness was 60 nm, the $M _ { \\mathrm { n } }$was 126,000, and grafting density was 0.40 chains/nm<sup>2</sup>, the ionic concentration in swollen poly (METAI) brush layer can be estimated to be 4.2 M, which is much higher than salt concentration in aqueous solution. Hydrated sodium or chloride ions could not be diffused into a high-density polymer brush layer due to the high local chain and charge density. Therefore, we suppose that polyelectrolyte brush could keep an extended chain structure in solution. Similar results have been reported by Matsuoka<sup>[23]</sup> and Kurihara.<sup>[24]</sup>",
+      "page": 4,
+      "bbox": [
+        96.0,
+        328.0,
+        493.0,
+        537.0
+      ],
+      "source_block_index": 56,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_4_56",
+        "V2_4_7_1",
+        "V2_4_7_3",
+        "V2_4_7_5",
+        "V2_4_7_7"
+      ]
+    },
+    {
+      "block_id": "I_4_57",
+      "type": "image",
+      "section": "Results",
+      "page": 4,
+      "bbox": [
+        122.0,
+        570.0,
+        500.0,
+        660.0
+      ],
+      "source_block_index": 57,
+      "alignment_status": "matched",
+      "image_path": "wenxian/reference_no_0043541/images/fig2.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "P_4_58",
+      "type": "text",
+      "section": "Results",
+      "text": "",
+      "page": 4,
+      "bbox": [
+        506.0,
+        328.0,
+        905.0,
+        537.0
+      ],
+      "source_block_index": 58,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "I_4_59",
+      "type": "image",
+      "section": "Results",
+      "page": 4,
+      "bbox": [
+        513.0,
+        570.0,
+        882.0,
+        660.0
+      ],
+      "source_block_index": 59,
+      "alignment_status": "matched",
+      "image_path": "wenxian/reference_no_0043541/images/fig3.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "I_4_60",
+      "type": "image",
+      "section": "Results",
+      "page": 4,
+      "bbox": [
+        129.0,
+        660.0,
+        453.0,
+        827.0
+      ],
+      "source_block_index": 60,
+      "alignment_status": "matched",
+      "image_path": "wenxian/reference_no_0043541/images/fig4.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "I_4_61",
+      "type": "image",
+      "section": "Results",
+      "page": 4,
+      "bbox": [
+        525.0,
+        657.0,
+        836.0,
+        828.0
+      ],
+      "source_block_index": 61,
+      "alignment_status": "matched",
+      "caption": "Figure 1. NR profiles of poly(METAI) brush $/ \\mathsf { D } _ { 2 } \\mathsf { O }$ (a), poly(METAI) brush/1.0 M NaCl in $\\mathsf { D } _ { 2 } \\mathsf { O }$ (b), poly(MPC) brus $\\boldsymbol { \\vert } / \\mathsf { D } _ { 2 } \\mathsf { O }$ (c), and poly(MPC) brush/1.0 M NaCl in $\\mathsf { D } _ { 2 } \\mathsf { O }$ (d). The corresponding scattering density profiles of polyelectrolyte brushes/ solution interface were shown above, respectively. Scattering vector sis defined as $q = 4 \\pi$ sinu/l, where wavelength l is 0.88 nm",
+      "image_path": "wenxian/reference_no_0043541/images/fig1.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "I_5_66",
+      "type": "image",
+      "section": "Results",
+      "page": 5,
+      "bbox": [
+        258.0,
+        33.0,
+        495.0,
+        193.0
+      ],
+      "source_block_index": 66,
+      "alignment_status": "matched",
+      "image_path": "wenxian/reference_no_0043541/images/fig5.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "I_5_67",
+      "type": "image",
+      "section": "Results",
+      "page": 5,
+      "bbox": [
+        497.0,
+        31.0,
+        730.0,
+        193.0
+      ],
+      "source_block_index": 67,
+      "alignment_status": "matched",
+      "caption": "Friction coefficient of poly(MPC) (a) and poly(METAI) brushes (b) in dry air, humid air, and in water by sliding a glass ball over a distance of 20 mm at a sliding velocity of 90 mm/min under a load of 0.49 N at 298 K.",
+      "image_path": "wenxian/reference_no_0043541/images/fig6.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "P_5_68",
+      "type": "text",
+      "section": "Results",
+      "text": "",
+      "page": 5,
+      "bbox": [
+        89.0,
+        259.0,
+        486.0,
+        466.0
+      ],
+      "source_block_index": 68,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_5_69",
+      "type": "text",
+      "section": "Results",
+      "text": "Negligible change was also observed betweenthe swellingstructureofpoly(MPC) facing a pure $\\mathbf { D } _ { 2 } \\mathbf { O }$and a NaCl deuterium oxide solution, as shown in Figure 1 (c) and (d). In this case, another mechanism should be explained. We found that the dimension of free poly(MPC) in water is independent of the ionic strength of the salt solution.<sup>[25,26]</sup> Poly(MPC) can be regard as a quite unique zwitter-type polyelectrolyte having the independence of intra- and intermolecular interaction of PMPC from the concentration of $\\mathrm { N a C l } . ^ { [ 2 6 ] }$As a result, the thickness of the high-density polyelectrolyte brushes in solution was observed to change very little in salt solution.",
+      "page": 5,
+      "bbox": [
+        89.0,
+        466.0,
+        486.0,
+        675.0
+      ],
+      "source_block_index": 69,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_5_69",
+        "V2_5_3_1",
+        "V2_5_3_3"
+      ]
+    },
+    {
+      "block_id": "P_5_70",
+      "type": "text",
+      "section": "Results",
+      "text": "",
+      "page": 5,
+      "bbox": [
+        500.0,
+        258.0,
+        898.0,
+        330.0
+      ],
+      "source_block_index": 70,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_5_71",
+      "type": "title",
+      "section": "Results",
+      "text": "Tribological Behavior",
+      "page": 5,
+      "bbox": [
+        500.0,
+        346.0,
+        691.0,
+        363.0
+      ],
+      "source_block_index": 71,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "I_5_72",
+      "type": "image",
+      "section": "Results",
+      "page": 5,
+      "bbox": [
+        262.0,
+        690.0,
+        493.0,
+        843.0
+      ],
+      "source_block_index": 72,
+      "alignment_status": "matched",
+      "image_path": "wenxian/reference_no_0043541/images/fig7.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "P_5_73",
+      "type": "text",
+      "section": "Results",
+      "text": "Figure 2 shows the friction coefficient of poly(MPC) and poly(METAI) brush surfaces measured using a sliding a glass ball in air and in water at 298 K. Under dry ${ \\bf N } _ { 2 }$gas, a high coefficient of friction was observed due to the strong adhesive interaction between the polyelectrolyte brush and the glass probe. In contrast, the brush surface showed a lower coefficient of friction under humid air conditions (humidity ¼ 80%). Water molecules are thought to adsorb into the highly hydrophilic poly(MPC) brush layer, and served as a lubricant, thereby reducing the interactions between the brush and probe. Furthermore, Ho et al. suggested that the water molecules bound to the surface of poly(MPC) provide effective and enhanced boundary lubrication.<sup>[14]</sup> In addition, water-swollen polyelectrolyte brushes compressed by probe spheres provide a repulsive force against a high normal load, because steric repulsion among the high-density brushes produces osmotic pressure.<sup>[27]</sup> These water-lubrication systems restricted the direct contact of a probe with the substrate in order to reduce the friction force. On the other hand, the friction coefficient in water was higher than that under humid air conditions. The authors suppose that swollen and extended poly(MPC) and poly(METAI) brush chains in water are likely to have a larger actual contact area between the brushes and probes. This increased contact area results in a higher friction coefficient compared with the humid air.",
+      "page": 5,
+      "bbox": [
+        500.0,
+        363.0,
+        898.0,
+        675.0
+      ],
+      "source_block_index": 73,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_5_73",
+        "V2_5_7_1"
+      ]
+    },
+    {
+      "block_id": "I_5_74",
+      "type": "image",
+      "section": "Results",
+      "page": 5,
+      "bbox": [
+        497.0,
+        690.0,
+        728.0,
+        840.0
+      ],
+      "source_block_index": 74,
+      "alignment_status": "matched",
+      "caption": "Friction coefficient of poly(MPC) brush (a) and poly (METAI) brush (b) in NaCl aqueous solution by sliding a glass ball immobilized with OTMS over a width of 20 mm at a sliding velocity of 90 mm/min under loading of 0.49 N at 298 K.",
+      "image_path": "wenxian/reference_no_0043541/images/fig8.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "I_6_79",
+      "type": "image",
+      "section": "Results",
+      "page": 6,
+      "bbox": [
+        188.0,
+        33.0,
+        483.0,
+        207.0
+      ],
+      "source_block_index": 79,
+      "alignment_status": "matched",
+      "image_path": "wenxian/reference_no_0043541/images/fig9.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "I_6_80",
+      "type": "image",
+      "section": "Results",
+      "page": 6,
+      "bbox": [
+        500.0,
+        33.0,
+        813.0,
+        208.0
+      ],
+      "source_block_index": 80,
+      "alignment_status": "matched",
+      "caption": "Adhesion force (a) and friction (lateral) force (b) of poly(MPC) brush in a ethanol/water $( 7 0 / 3 0 , \\boldsymbol { \\mathrm v } / \\boldsymbol { \\mathrm v } )$ solution and NaCl aqueous solution measured by AFM using a colloidal probe cantilever with silica sphere $( d = 5 0 \\ \\mu \\mathrm { m } )$ Friction force is represented by output of the photo diode at a scan rate of 10 $\\mu \\mathrm { m } / \\mathsf { s }$ under normal load of 10 nN.",
+      "image_path": "wenxian/reference_no_0043541/images/fig10.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "P_6_81",
+      "type": "text",
+      "section": "Results",
+      "text": "",
+      "page": 6,
+      "bbox": [
+        96.0,
+        294.0,
+        493.0,
+        603.0
+      ],
+      "source_block_index": 81,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_6_82",
+      "type": "text",
+      "section": "Results",
+      "text": "The salt concentration effect on the polyelectrolyte brush has attracted much attention due to increased understanding of the molecular interactions and dispersion of brush grafted nanoparticles in aqueous media.<sup>[28]</sup> Figure 3(a) and (b) show the friction coefficient of poly(MPC) and poly(METAI) brushes in 0 \u0003 1.0 M of NaCl solution, respectively. The relatively low friction coefficient was observed even in 0 \u0003 1.0 M NaCl. The surface of the glass was modified with an octadecyltrimethoxysilane (OTMS) monolayer in order to reduce the effect of sodium ions adsorbed to the glass surface. The friction coefficients in the salt solution were around 0.1, which is close to those in pure water. Therefore, the friction coefficient was not thought to have a dependence on the salt concentration in the macroscopic friction test. As described in the NR analysis, the swollen structure of the densely grafted brush is independent of salt concentration, because the high-density polyelectrolyte brush in solution forms a layer with a very high charge density and ionic strength. Therefore, salt ions cannot diffuse into the brush layer, and do not change the interaction between the polyelectrolyte brushes and probes.",
+      "page": 6,
+      "bbox": [
+        96.0,
+        603.0,
+        493.0,
+        915.0
+      ],
+      "source_block_index": 82,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_6_83",
+      "type": "text",
+      "section": "Results",
+      "text": "",
+      "page": 6,
+      "bbox": [
+        506.0,
+        295.0,
+        905.0,
+        484.0
+      ],
+      "source_block_index": 83,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_6_84",
+      "type": "text",
+      "section": "Results",
+      "text": "A very similar independence on salt concentration was observed in the adhesion force measurements. Figure 4 shows adhesion and lateral force for the high-density poly(MPC) brush surface measured by AFM using a colloidal probe in aqueous solution. A large adhesion and friction force were observed in a mixture of ethanol and water, which is known to be a poor solvent for poly(MPC).<sup>[29,30]</sup> These results suggest that the poly(MPC) surface interacts strongly with silica spheres in poor solvent to give a large adhesion force. On the other hand, the interaction between poly(MPC) and the colloidal probe decreased in a polar solvent such as pure water in order to provide a low adhesion force. A similar trend was observed in the friction force measurement. The solvent quality seems to have an effect on the interaction between the brushes and probes. This is of interest because this interaction dominates the frictional properties of the polymer brushes. In contrast, a significant effect due to salt concentrations ranging from 0 to 1.0 M was not observed to change the adhesion properties of the poly(MPC) brush. The densely grafted polyelectrolyte brush in solution was observed to form a layer with high charge density and ionic concentration. Therefore, salt ions cannot disperse in the brush layer or change the interaction between the polyelectrolyte brushes and probes.",
+      "page": 6,
+      "bbox": [
+        506.0,
+        484.0,
+        907.0,
+        915.0
+      ],
+      "source_block_index": 84,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_7_89",
+      "type": "text",
+      "section": "Results",
+      "text": "",
+      "page": 7,
+      "bbox": [
+        89.0,
+        36.0,
+        486.0,
+        175.0
+      ],
+      "source_block_index": 89,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_7_90",
+      "type": "title",
+      "section": "Conclusion",
+      "text": "Conclusions",
+      "page": 7,
+      "bbox": [
+        92.0,
+        207.0,
+        221.0,
+        225.0
+      ],
+      "source_block_index": 90,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_7_91",
+      "type": "text",
+      "section": "Conclusion",
+      "text": "Densely-grafted poly(MPC) and poly(ME-TAI) brushes were prepared on silicon wafers by surface-initiated ATRP, resulting in excellent hydrophilic surfaces. An extremely low friction coefficient was observed in humid air conditions by sliding a glass probe bearing polymer brush. The osmotic repulsion from high-density grafting chains in water was thought to afford the weak inter-penetration between the opposing and compressed brushes, even at a large normal load, resulting in a low-friction surface. Water lubrication systems supported by a high-density poly(MPC) brush are expected to afford environmentally friendly low friction surfaces. The effect of salt concentration on the high-density polyelectrolyte brushes was investigated in aqueous solutions containing 0 \u0003 1 M NaCl. NR of the swollen brush structure revealed that the extended chain structure was observed in pure water as well as in salt solution. Higher ionic concentration inside the polyelectrolyte brush layer compared with bulk salt solution could contributes salt concentration independence of chain conformation. No dependence on ionic concentration was observed for the macroscopic friction test. Furthermore, a dependence on ionic concentration was not observed for the adhesion force measurements in salt solutions. The hydrated ions in bulk solution, such as sodium and chloride, may not be able to diffuse into the swollen brush layer due to the high osmotic pressure and high charge density of the densely packed polyelectrolyte chains. This independence of surface properties on the ionic strength can contribute the stable performance of a high-density polyelectrolyte brush as a bio-interface under a wide range of salt concentrations.",
+      "page": 7,
+      "bbox": [
+        89.0,
+        243.0,
+        486.0,
+        915.0
+      ],
+      "source_block_index": 91,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_7_92",
+      "type": "text",
+      "section": "Conclusion",
+      "text": "",
+      "page": 7,
+      "bbox": [
+        500.0,
+        36.0,
+        896.0,
+        88.0
+      ],
+      "source_block_index": 92,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_7_93",
+      "type": "text",
+      "section": "Conclusion",
+      "text": "Acknowledgements: The present work is supported by a Grant-in-Aid for the Global COE Program, ‘‘Science for Future Molecular Systems’’, and partially supported by a Grant-in Aid for Young Scientist (B) (19750098) from the Ministry of Education, Culture, Science, Sports and Technology of Japan",
+      "page": 7,
+      "bbox": [
+        500.0,
+        121.0,
+        898.0,
+        229.0
+      ],
+      "source_block_index": 93,
+      "alignment_status": "matched"
+    }
+  ],
+  "warnings": [
+    {
+      "code": "legacy_manifest_missing_options",
+      "message": "旧 manifest 缺少 OCR 选项，已按 null 保留：ocr_enabled, language, page_ranges, enable_formula, enable_table, extra_formats"
+    }
+  ]
+}

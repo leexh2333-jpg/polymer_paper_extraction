@@ -1,11 +1,17 @@
 # 聚合物文献抽取流程交付包
 
-交付日期：2026-08-07  
-固定数据集：20 篇文献  
-运行环境：Windows PowerShell + Python 3.12（建议）  
+首次交付日期：2026-08-07
+
+最近更新日期：2026-08-09
+
+固定数据集：20 篇文献
+
+运行环境：Windows PowerShell + Python 3.12（建议）
 交付目标：既可从随包的标准化文档直接运行 Stage 0–6，也可从随包 PDF 启动 MinerU OCR/解析和抽取全流程。
 
 > 交付用户优先使用包根目录的 `run_demo20_delivery.ps1` 和 `run_pdf_pipeline_delivery.ps1`。`preview/run_demo20.ps1` 是组件级高级入口，详见第 6 节。
+
+> **2026-08-09 Preview 更新：** Stage 4 已改为尽量确定性修复并逐对象保留合法数据，避免单个格式错误导致整篇清空。新版 20 篇结果位于 `batch_results/demo20_preview_20260809/`；旧批次保留用于对照。
 
 ## 1. 交付包目录总览
 
@@ -21,7 +27,8 @@ polymer_extraction_delivery_20260807/
 ├─ sample_data/processed_documents/    固定 20 篇标准化输入 JSON
 ├─ source_pdfs/                        固定 20 篇原文 PDF
 ├─ acceptance/                         历史验收摘要与报告
-├─ batch_results/demo20_20260807/      固定 20 篇完整跑批结果
+├─ batch_results/demo20_20260807/      2026-08-07 历史跑批结果
+├─ batch_results/demo20_preview_20260809/  2026-08-09 Preview 修复验证结果
 ├─ docs/                               项目和风险说明
 ├─ .env.example                        密钥占位模板，不含真实密钥
 ├─ requirements.txt                    运行依赖
@@ -35,7 +42,7 @@ polymer_extraction_delivery_20260807/
 - 真实 API 密钥和 `.env`；
 - 开发机缓存、字节码和 `.pytest_cache`；
 - 历史运行日志和 SQLite 状态库；
-- 历史模型原始响应；
+- 与交付无关的历史模型原始响应；`demo20_preview_20260809` 为审计和离线回放保留本轮 Stage 4 完整响应；
 - 开发目录中的 `output_test` 等历史输出。
 
 ## 2. 三个容易混淆的目录
@@ -476,6 +483,34 @@ python -m pytest `
 打包前仓库测试为 `416 passed`；便携路径修复和交付新增测试后，包内完整测试为 `441 passed`。
 
 以上是 2026-08-07 的历史验收结论，不代表未来每次外部 API 调用都必然成功。网络、供应商、模型版本、配置和输出随机性仍可能影响新运行结果。
+
+### 2026-08-09 Preview 修复验证
+
+在不放松 Strict Schema 的前提下，本次仅增强 Preview：
+
+- Stage 4 输入补齐全部表格，并在 Methods/Results 缺失时回落非 References 正文；
+- 对唯一可确定的 evidence、condition、series/point 状态和字段形态做确定性修复；
+- 单个对象或字段不合法时逐对象保留，避免整篇降级为空壳；
+- 降级和成功路径都保留 Stage 4 完整响应，便于离线回放；
+- Stage 4 瞬时网络错误重试设为 2 次，输入字符预算提高到 110000；交付配置仍使用相对路径。
+
+新版验证结果位于：
+
+`batch_results/demo20_preview_20260809/`
+
+本轮结果为：
+
+- Stage 4 非空 `20/20`；
+- `preview_degraded_empty_shell` 为 `0/20`；
+- Candidate `publication.status == complete` 为 `20/20`；
+- Candidate `stage_failures == []` 为 `20/20`；
+- Stage 4/5 到 `candidate.json` 的 ID 和 series/points 数量对账为 `20/20`；
+- Stage 4 汇总：87 conditions、61 scalar properties、35 unresolved、105 series、691 points；
+- Candidate 汇总：188 property observations、77 characterizations。
+
+相关回归测试：Stage 4、Candidate Publisher、Stage 6 共 `184 passed`。
+
+需要注意：18 篇按 Preview 策略带有语义校验 bypass warning；本轮没有声称 Strict 全部通过，也尚未将这 20 篇全部做“从 PDF 删除中间结果后冷启动”的新一轮验收。详细限制见新批次 README 和验证报告。
 
 ## 13. 便携配置和路径规则
 

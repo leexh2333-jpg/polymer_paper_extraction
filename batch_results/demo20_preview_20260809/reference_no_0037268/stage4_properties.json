@@ -1,0 +1,573 @@
+{
+  "schema_version": "1.0",
+  "document_id": "reference_no_0037268",
+  "measurement_conditions": [
+    {
+      "condition_id": "mc001",
+      "other_conditions": {
+        "carrier_gas": "helium",
+        "flow_rate": "8 ml/minute"
+      },
+      "other_condition_evidence": {
+        "carrier_gas": [
+          {
+            "block_id": "P_12_102",
+            "page": 12,
+            "bbox": [
+              113.0,
+              226.0,
+              881.0,
+              746.0
+            ],
+            "source_type": "text",
+            "source_sentence": "From our previous experiments, it has been demonstrated that the flow rate of the carrier gas, helium, between 0 - 10 ml/minute had no significant effect on the retention volumes."
+          }
+        ],
+        "flow_rate": [
+          {
+            "block_id": "P_12_102",
+            "page": 12,
+            "bbox": [
+              113.0,
+              226.0,
+              881.0,
+              746.0
+            ],
+            "source_type": "text",
+            "source_sentence": "A flow rate of 8 ml/minute will be used throughout this work in order to eliminate the effect of flow rate (kinetic) on $V_{g}^{\\circ}$ values."
+          }
+        ]
+      },
+      "condition_status": "reported",
+      "evidence": {
+        "block_id": "P_12_102",
+        "page": 12,
+        "bbox": [
+          113.0,
+          226.0,
+          881.0,
+          746.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Chromatographic measurements were made using three IGC Stations. A flow rate of 8 ml/minute will be used throughout this work in order to eliminate the effect of flow rate (kinetic) on $V_{g}^{\\circ}$ values. From our previous experiments, it has been demonstrated that the flow rate of the carrier gas, helium, between 0 - 10 ml/minute had no significant effect on the retention volumes."
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "condition_id": "mc002",
+      "other_conditions": {},
+      "other_condition_evidence": {},
+      "condition_status": "not_reported",
+      "evidence": {
+        "block_id": "P_16_126",
+        "page": 16,
+        "bbox": [
+          113.0,
+          283.0,
+          881.0,
+          379.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Where * in Table II denotes parameters measured by the IGC, others are reported by the suppliers."
+      },
+      "confidence": {
+        "score": 0.8
+      }
+    },
+    {
+      "condition_id": "mc003",
+      "temperature": {
+        "raw": "80 -160 °C",
+        "unit": "°C",
+        "evidence": [
+          {
+            "block_id": "P_16_130",
+            "page": 16,
+            "bbox": [
+              115.0,
+              726.0,
+              881.0,
+              802.0
+            ],
+            "source_type": "text",
+            "source_sentence": "Polymer-Polymer Interaction Parameters, $\\chi_{23}$, for blend systems were calculated using IGC and equation (6) at a temperature range of 80 -160 °C."
+          }
+        ],
+        "evidence_ids": []
+      },
+      "other_conditions": {
+        "carrier_gas": "helium",
+        "flow_rate": "8 ml/minute"
+      },
+      "other_condition_evidence": {
+        "carrier_gas": [
+          {
+            "block_id": "P_12_102",
+            "page": 12,
+            "bbox": [
+              113.0,
+              226.0,
+              881.0,
+              746.0
+            ],
+            "source_type": "text",
+            "source_sentence": "From our previous experiments, it has been demonstrated that the flow rate of the carrier gas, helium, between 0 - 10 ml/minute had no significant effect on the retention volumes."
+          }
+        ],
+        "flow_rate": [
+          {
+            "block_id": "P_12_102",
+            "page": 12,
+            "bbox": [
+              113.0,
+              226.0,
+              881.0,
+              746.0
+            ],
+            "source_type": "text",
+            "source_sentence": "A flow rate of 8 ml/minute will be used throughout this work in order to eliminate the effect of flow rate (kinetic) on $V_{g}^{\\circ}$ values."
+          }
+        ]
+      },
+      "condition_status": "reported",
+      "evidence": {
+        "block_id": "P_16_130",
+        "page": 16,
+        "bbox": [
+          115.0,
+          726.0,
+          881.0,
+          802.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Polymer-Polymer Interaction Parameters, $\\chi_{23}$, for blend systems were calculated using IGC and equation (6) at a temperature range of 80 -160 °C."
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    }
+  ],
+  "properties": [
+    {
+      "property_id": "prop001",
+      "sample_id": "s001",
+      "property_name_raw": "molar mass",
+      "molecular_weight_type": "unspecified",
+      "observation_role": "single",
+      "value_raw": "6.60 million gram/mol",
+      "value_min": 6600000.0,
+      "value_max": 6600000.0,
+      "unit_raw": "g/mol",
+      "unit_normalized": "g/mol",
+      "measurement_condition_id": "mc002",
+      "measurement_context": {
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_10_91",
+          "page": 10,
+          "bbox": [
+            115.0,
+            467.0,
+            884.0,
+            899.0
+          ],
+          "source_type": "text",
+          "source_sentence": "Its molar mass was determined as 6.60 million gram/mol."
+        },
+        {
+          "block_id": "T_11_95",
+          "page": 11,
+          "bbox": [
+            120.0,
+            141.0,
+            877.0,
+            753.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table I. Description of Biodegradable Polymers and Blends Studied",
+          "table_locator": {
+            "table_id": "T_11_95",
+            "row_label": "100% Amylopectin",
+            "column_label": "Av. Molar Mass, g/mol",
+            "cell_value": "$6.6 \\times 10^{6}$",
+            "cell_id": "T_11_95:r0001:c0004",
+            "row_index": 1,
+            "column_index": 4
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop002",
+      "sample_id": "s001",
+      "property_name_raw": "T_m",
+      "property_name_normalized": "melting_temperature",
+      "property_code": "P3120",
+      "property_category": "thermal_property",
+      "determination_method_raw": "IGC",
+      "observation_role": "single",
+      "value_raw": "166",
+      "value_min": 166.0,
+      "value_max": 166.0,
+      "unit_raw": "°C",
+      "unit_normalized": "°C",
+      "measurement_condition_id": "mc001",
+      "measurement_context": {
+        "other_conditions": {
+          "carrier_gas": "helium",
+          "flow_rate": "8 ml/minute"
+        },
+        "other_condition_evidence": {
+          "carrier_gas": [
+            {
+              "block_id": "P_12_102",
+              "page": 12,
+              "bbox": [
+                113.0,
+                226.0,
+                881.0,
+                746.0
+              ],
+              "source_type": "text",
+              "source_sentence": "From our previous experiments, it has been demonstrated that the flow rate of the carrier gas, helium, between 0 - 10 ml/minute had no significant effect on the retention volumes."
+            }
+          ],
+          "flow_rate": [
+            {
+              "block_id": "P_12_102",
+              "page": 12,
+              "bbox": [
+                113.0,
+                226.0,
+                881.0,
+                746.0
+              ],
+              "source_type": "text",
+              "source_sentence": "A flow rate of 8 ml/minute will be used throughout this work in order to eliminate the effect of flow rate (kinetic) on $V_{g}^{\\circ}$ values."
+            }
+          ]
+        },
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_13_109",
+          "page": 13,
+          "bbox": [
+            115.0,
+            337.0,
+            881.0,
+            581.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The temperature of 166 °C was later identified to be the $T_{m}$ and 105 °C to be the $T_{g}$ of Amylopectin."
+        },
+        {
+          "block_id": "T_17_134",
+          "page": 17,
+          "bbox": [
+            120.0,
+            171.0,
+            879.0,
+            845.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table II. Measured Physical parameters of Biodegradable polymers and their Blends",
+          "table_locator": {
+            "table_id": "T_17_134",
+            "row_label": "100% Amylopectin (AP)",
+            "column_label": "$T_m^oC$",
+            "cell_value": "166*",
+            "cell_id": "T_17_134:r0001:c0003",
+            "row_index": 1,
+            "column_index": 3
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.95
+      }
+    }
+  ],
+  "unresolved_properties": [],
+  "property_series": [
+    {
+      "series_id": "series001",
+      "sample_resolution_status": "unresolved",
+      "property_name_raw": "$T_g^oC$",
+      "property_name_normalized": "glass_transition_temperature",
+      "property_code": "P3110",
+      "property_category": "thermal_property",
+      "determination_method_raw": "IGC / supplier reported",
+      "unit_raw": "°C",
+      "unit_normalized": "°C",
+      "measurement_context": {
+        "other_conditions": {
+          "carrier_gas": "helium",
+          "flow_rate": "8 ml/minute"
+        },
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "points": [
+        {
+          "point_id": "pt001",
+          "observation_role": "series_point",
+          "sample_id": "s001",
+          "entity_id": "pe001",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "105*",
+          "value_min": 105.0,
+          "value_max": 105.0,
+          "unit_raw": "°C",
+          "unit_normalized": "°C",
+          "measurement_context": {
+            "other_conditions": {
+              "carrier_gas": "helium",
+              "flow_rate": "8 ml/minute"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_17_134",
+              "page": 17,
+              "bbox": [
+                120.0,
+                171.0,
+                879.0,
+                845.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table II. Measured Physical parameters of Biodegradable polymers and their Blends",
+              "table_locator": {
+                "table_id": "T_17_134",
+                "row_label": "100% Amylopectin (AP)",
+                "column_label": "$T_g^oC$",
+                "cell_value": "105*",
+                "cell_id": "T_17_134:r0001:c0002",
+                "row_index": 1,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt002",
+          "observation_role": "series_point",
+          "sample_id": "s002",
+          "entity_id": "pe002",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "-62",
+          "value_min": -62.0,
+          "value_max": -62.0,
+          "unit_raw": "°C",
+          "unit_normalized": "°C",
+          "measurement_context": {
+            "other_conditions": {
+              "carrier_gas": "helium",
+              "flow_rate": "8 ml/minute"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_17_134",
+              "page": 17,
+              "bbox": [
+                120.0,
+                171.0,
+                879.0,
+                845.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table II. Measured Physical parameters of Biodegradable polymers and their Blends",
+              "table_locator": {
+                "table_id": "T_17_134",
+                "row_label": "100% Poly (ε-caprolactone) (PCL)",
+                "column_label": "$T_g^oC$",
+                "cell_value": "-62",
+                "cell_id": "T_17_134:r0002:c0002",
+                "row_index": 2,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.8
+          }
+        },
+        {
+          "point_id": "pt003",
+          "observation_role": "series_point",
+          "sample_id": "s004",
+          "entity_id": "pe004",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "48",
+          "value_min": 48.0,
+          "value_max": 48.0,
+          "unit_raw": "°C",
+          "unit_normalized": "°C",
+          "measurement_context": {
+            "other_conditions": {
+              "carrier_gas": "helium",
+              "flow_rate": "8 ml/minute"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_17_134",
+              "page": 17,
+              "bbox": [
+                120.0,
+                171.0,
+                879.0,
+                845.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table II. Measured Physical parameters of Biodegradable polymers and their Blends",
+              "table_locator": {
+                "table_id": "T_17_134",
+                "row_label": "100% Poly (3-hydroxy butyric acid) (PHBA)",
+                "column_label": "$T_g^oC$",
+                "cell_value": "48",
+                "cell_id": "T_17_134:r0003:c0002",
+                "row_index": 3,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.8
+          }
+        }
+      ],
+      "coverage": {
+        "expected": 3,
+        "covered": 3,
+        "missing": 0,
+        "not_applicable": 0,
+        "ratio": 1.0
+      },
+      "evidence": [
+        {
+          "block_id": "P_12_102",
+          "page": 12,
+          "bbox": [
+            113.0,
+            226.0,
+            881.0,
+            746.0
+          ],
+          "source_type": "text",
+          "source_sentence": "From our previous experiments, it has been demonstrated that the flow rate of the carrier gas, helium, between 0 - 10 ml/minute had no significant effect on the retention volumes."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    }
+  ],
+  "provenance": {
+    "stage": "stage4_property",
+    "provider": "dmx",
+    "model": "doubao-seed-2.0-pro",
+    "models": [
+      "doubao-seed-2.0-pro"
+    ],
+    "prompt_id": "polymer.stage4.property",
+    "prompt_version": "1.7.2",
+    "prompt_sha256": "ec79fe3bf47539cab4ba239c611d1ab17d75dc0038cda85020caca580f7987a5",
+    "vocabulary_sha256": "3e9d85e4915a729edf0f0a53821f3ee6edf32874e1da6972457417e4f13a1510",
+    "input_hash": "8657a8ba55cf03479b476d8f35ef1fc9e7c0fe964ffee0e5af07e3e2da70e999",
+    "model_config_hash": "cc96eaab20bd380ae90f3ba1dfa638bd40f111e3e72ca185255fb71b459d40ea",
+    "cache_key": "abcda1efb658666327c619824ba6a14216bd155bc4f9b8a897de24e211ac4b47",
+    "output_schema_version": "property_observation_schema.v7",
+    "implementation_version": "1.7.10",
+    "context_block_count": 53,
+    "context_chars": 43522,
+    "call_count": 1,
+    "usage": {
+      "input_tokens": 30947,
+      "output_tokens": 7165,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "billable_input_tokens": 30947,
+      "total_tokens": 38112
+    },
+    "cost": {
+      "status": "calculated",
+      "currency": "CNY",
+      "input_per_million": "4.32",
+      "output_per_million": "29.15",
+      "input_cost": "0.13369104",
+      "output_cost": "0.20885975",
+      "total_cost": "0.34255079"
+    },
+    "status": "success"
+  },
+  "warnings": [
+    {
+      "stage": "stage4_property",
+      "code": "multi_subject_series_normalized",
+      "message": "PropertySeries 的 points 明确属于多个 Sample/PolymerEntity；已清除错误的单一顶层主体，主体关系保留在各 point",
+      "series": 1
+    },
+    {
+      "stage": "stage4_property",
+      "code": "series_context_evidence_supplemented",
+      "message": "Series/point measurement context 不在数值表格 evidence；已补入全文中唯一的完全匹配原文 block",
+      "series_evidence": 1
+    },
+    {
+      "stage": "stage4_property",
+      "code": "preview_semantic_validation_bypassed",
+      "message": "Preview 已保留 Schema 合法候选，并跳过原文/evidence 语义对应校验；Strict 模式仍会报错",
+      "reason": "series001.determination_method_raw='IGC / supplier reported' 不是任一 evidence block 的原文子串"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "preview_objects_salvaged",
+      "message": "Preview 已逐对象保留可安全物化的数据；坏字段、坏对象或失效引用已局部删除，Strict 模式仍会报错",
+      "details": {
+        "dropped_conditions": [],
+        "dropped_properties": [],
+        "dropped_unresolved_properties": [],
+        "dropped_series": [],
+        "dropped_points": [],
+        "dropped_evidence": 0,
+        "dropped_coordinates": 0
+      }
+    }
+  ]
+}

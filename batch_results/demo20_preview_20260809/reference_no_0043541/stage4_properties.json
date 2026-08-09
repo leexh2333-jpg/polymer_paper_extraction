@@ -1,0 +1,2230 @@
+{
+  "schema_version": "1.0",
+  "document_id": "reference_no_0043541",
+  "measurement_conditions": [
+    {
+      "condition_id": "mc001",
+      "other_conditions": {
+        "eluent": "water",
+        "measurement_method": "SEC"
+      },
+      "other_condition_evidence": {
+        "eluent": [
+          {
+            "block_id": "P_3_40",
+            "page": 3,
+            "bbox": [
+              89.0,
+              569.0,
+              486.0,
+              915.0
+            ],
+            "source_type": "text",
+            "source_sentence": "using water as the eluent"
+          }
+        ],
+        "measurement_method": [
+          {
+            "block_id": "P_3_40",
+            "page": 3,
+            "bbox": [
+              89.0,
+              569.0,
+              486.0,
+              915.0
+            ],
+            "source_type": "text",
+            "source_sentence": "by SEC of the corresponding free polymer"
+          }
+        ]
+      },
+      "condition_status": "reported",
+      "evidence": {
+        "block_id": "P_3_40",
+        "page": 3,
+        "bbox": [
+          89.0,
+          569.0,
+          486.0,
+          915.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The $M _ { \\mathrm { n } }$of the obtained poly(MPC) brushes on the silicon wafer were estimated to be approximately 30,000 \u0003 120,000 by SEC of the corresponding free polymer using water as the eluent."
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "condition_id": "mc002",
+      "other_conditions": {
+        "measurement_method": "AFM",
+        "state": "dried"
+      },
+      "other_condition_evidence": {
+        "measurement_method": [
+          {
+            "block_id": "P_3_40",
+            "page": 3,
+            "bbox": [
+              89.0,
+              569.0,
+              486.0,
+              915.0
+            ],
+            "source_type": "text",
+            "source_sentence": "The AFM observation revealed"
+          }
+        ],
+        "state": [
+          {
+            "block_id": "P_3_40",
+            "page": 3,
+            "bbox": [
+              89.0,
+              569.0,
+              486.0,
+              915.0
+            ],
+            "source_type": "text",
+            "source_sentence": "in the dried state"
+          }
+        ]
+      },
+      "condition_status": "reported",
+      "evidence": {
+        "block_id": "P_3_40",
+        "page": 3,
+        "bbox": [
+          89.0,
+          569.0,
+          486.0,
+          915.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The AFM observation revealed that a homogeneous polymer layer was formed on the substrate, and the surface roughness was $0 . 8 \\sim 1 . 5$nm in the dried state in a $5 \\times 5 \\mu \\mathrm { m } ^ { 2 }$scanning area."
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "condition_id": "mc003",
+      "other_conditions": {
+        "measurement_method": "ellipsometry"
+      },
+      "other_condition_evidence": {
+        "measurement_method": [
+          {
+            "block_id": "P_3_40",
+            "page": 3,
+            "bbox": [
+              89.0,
+              569.0,
+              486.0,
+              915.0
+            ],
+            "source_type": "text",
+            "source_sentence": "by ellipsometry"
+          }
+        ]
+      },
+      "condition_status": "reported",
+      "evidence": {
+        "block_id": "P_3_40",
+        "page": 3,
+        "bbox": [
+          89.0,
+          569.0,
+          486.0,
+          915.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The thickness of the poly(MPC) brush was determined to be ca. 10 \u0003 40 nm by ellipsometry."
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "condition_id": "mc004",
+      "other_conditions": {},
+      "other_condition_evidence": {},
+      "condition_status": "not_reported",
+      "evidence": {
+        "block_id": "P_3_40",
+        "page": 3,
+        "bbox": [
+          89.0,
+          569.0,
+          486.0,
+          915.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The graft density was estimated to be ca. 0.22 $\\mathrm { c h a i n s } / \\mathrm { n m } ^ { 2 }$based on the linear relationship between $M _ { \\mathrm { n } }$and the thickness."
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "condition_id": "mc005",
+      "other_conditions": {},
+      "other_condition_evidence": {},
+      "condition_status": "not_reported",
+      "evidence": {
+        "block_id": "P_3_40",
+        "page": 3,
+        "bbox": [
+          89.0,
+          569.0,
+          486.0,
+          915.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Similarly, the graft density of the poly(DMAEMA) brush was determined to be 0.40 chains/nm<sup>2</sup>."
+      },
+      "confidence": {
+        "score": 0.8
+      }
+    },
+    {
+      "condition_id": "mc006",
+      "other_conditions": {
+        "calculation_method": "Owens and Wendt’s equation",
+        "environment": "air"
+      },
+      "other_condition_evidence": {
+        "calculation_method": [
+          {
+            "block_id": "P_3_42",
+            "page": 3,
+            "bbox": [
+              500.0,
+              259.0,
+              900.0,
+              743.0
+            ],
+            "source_type": "text",
+            "source_sentence": "Using the Owens and Wendt’s equation"
+          }
+        ],
+        "environment": [
+          {
+            "block_id": "P_3_42",
+            "page": 3,
+            "bbox": [
+              500.0,
+              259.0,
+              900.0,
+              743.0
+            ],
+            "source_type": "text",
+            "source_sentence": "of the poly(MPC) brush surface in air"
+          }
+        ]
+      },
+      "condition_status": "reported",
+      "evidence": {
+        "block_id": "P_3_42",
+        "page": 3,
+        "bbox": [
+          500.0,
+          259.0,
+          900.0,
+          743.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Using the Owens and Wendt’s equation,<sup>[22]</sup> the surface free energy of the poly(MPC) brush surface in air was estimated to be 73 mN/m, which is almost the same as that of water."
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "condition_id": "mc007",
+      "other_conditions": {},
+      "other_condition_evidence": {},
+      "condition_status": "not_reported",
+      "evidence": {
+        "block_id": "T_4_49",
+        "page": 4,
+        "bbox": [
+          96.0,
+          67.0,
+          903.0,
+          217.0
+        ],
+        "source_type": "table",
+        "source_sentence": "Table 1. Contact angles and surface free energy of hydrophilic polymer brushes."
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "condition_id": "mc008",
+      "other_conditions": {},
+      "other_condition_evidence": {},
+      "condition_status": "not_reported",
+      "evidence": {
+        "block_id": "P_4_56",
+        "page": 4,
+        "bbox": [
+          96.0,
+          328.0,
+          493.0,
+          537.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The scattering length density profiles of the poly(MPC) brushes in $\\mathbf { D } _ { 2 } \\mathbf { O }$calculated from the reflectivity curves indicated that the poly(METAI) chains were stretched up to 60 nm in $\\mathbf { D } _ { 2 } \\mathbf { O } _ { 3 }$, forming a concentration gradient of ${ \\bf D } _ { 2 } { \\bf O } .$."
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "condition_id": "mc009",
+      "other_conditions": {},
+      "other_condition_evidence": {},
+      "condition_status": "not_reported",
+      "evidence": {
+        "block_id": "P_4_56",
+        "page": 4,
+        "bbox": [
+          96.0,
+          328.0,
+          493.0,
+          537.0
+        ],
+        "source_type": "text",
+        "source_sentence": "For instance, assuming the swollen brush thickness was 60 nm, the $M _ { \\mathrm { n } }$was 126,000, and grafting density was 0.40 chains/nm<sup>2</sup>, the ionic concentration in swollen poly (METAI) brush layer can be estimated to be 4.2 M, which is much higher than salt concentration in aqueous solution."
+      },
+      "confidence": {
+        "score": 0.8
+      }
+    },
+    {
+      "condition_id": "mc010",
+      "temperature": {
+        "raw": "298 K",
+        "value": 298.0,
+        "unit": "K",
+        "evidence": [
+          {
+            "block_id": "I_5_67",
+            "page": 5,
+            "bbox": [
+              497.0,
+              31.0,
+              730.0,
+              193.0
+            ],
+            "source_type": "image",
+            "source_sentence": "at 298 K"
+          }
+        ],
+        "evidence_ids": []
+      },
+      "other_conditions": {
+        "sliding_velocity": "90 mm/min",
+        "load": "0.49 N"
+      },
+      "other_condition_evidence": {
+        "sliding_velocity": [
+          {
+            "block_id": "I_5_74",
+            "page": 5,
+            "bbox": [
+              497.0,
+              690.0,
+              728.0,
+              840.0
+            ],
+            "source_type": "image",
+            "source_sentence": "at a sliding velocity of 90 mm/min"
+          }
+        ],
+        "load": [
+          {
+            "block_id": "I_5_74",
+            "page": 5,
+            "bbox": [
+              497.0,
+              690.0,
+              728.0,
+              840.0
+            ],
+            "source_type": "image",
+            "source_sentence": "under loading of 0.49 N"
+          }
+        ]
+      },
+      "condition_status": "reported",
+      "evidence": {
+        "block_id": "P_6_82",
+        "page": 6,
+        "bbox": [
+          96.0,
+          603.0,
+          493.0,
+          915.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The friction coefficients in the salt solution were around 0.1, which is close to those in pure water."
+      },
+      "confidence": {
+        "score": 0.8
+      }
+    }
+  ],
+  "properties": [
+    {
+      "property_id": "prop001",
+      "sample_id": "s001",
+      "property_name_raw": "graft density",
+      "observation_role": "single",
+      "value_raw": "0.22",
+      "value_min": 0.22,
+      "value_max": 0.22,
+      "unit_raw": "chains/nm²",
+      "measurement_condition_id": "mc004",
+      "measurement_context": {
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_3_40",
+          "page": 3,
+          "bbox": [
+            89.0,
+            569.0,
+            486.0,
+            915.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The graft density was estimated to be ca. 0.22 $\\mathrm { c h a i n s } / \\mathrm { n m } ^ { 2 }$based on the linear relationship between $M _ { \\mathrm { n } }$and the thickness."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop002",
+      "sample_id": "s003",
+      "property_name_raw": "graft density of the poly(DMAEMA) brush",
+      "observation_role": "single",
+      "value_raw": "0.40",
+      "value_min": 0.4,
+      "value_max": 0.4,
+      "unit_raw": "chains/nm²",
+      "measurement_condition_id": "mc005",
+      "measurement_context": {
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_3_40",
+          "page": 3,
+          "bbox": [
+            89.0,
+            569.0,
+            486.0,
+            915.0
+          ],
+          "source_type": "text",
+          "source_sentence": "Similarly, the graft density of the poly(DMAEMA) brush was determined to be 0.40 chains/nm<sup>2</sup>."
+        }
+      ],
+      "confidence": {
+        "score": 0.8
+      }
+    },
+    {
+      "property_id": "prop003",
+      "sample_id": "s004",
+      "property_name_raw": "swollen thickness of poly(METAI) brush",
+      "observation_role": "single",
+      "value_raw": "60",
+      "value_min": 60.0,
+      "value_max": 60.0,
+      "unit_raw": "nm",
+      "measurement_condition_id": "mc008",
+      "measurement_context": {
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_4_56",
+          "page": 4,
+          "bbox": [
+            96.0,
+            328.0,
+            493.0,
+            537.0
+          ],
+          "source_type": "text",
+          "source_sentence": "the poly(METAI) chains were stretched up to 60 nm in $\\mathbf { D } _ { 2 } \\mathbf { O } _ { 3 }$, forming a concentration gradient of ${ \\bf D } _ { 2 } { \\bf O } .$."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop004",
+      "sample_id": "s004",
+      "property_name_raw": "ionic concentration in swollen poly (METAI) brush layer",
+      "observation_role": "single",
+      "value_raw": "4.2",
+      "value_min": 4.2,
+      "value_max": 4.2,
+      "unit_raw": "M",
+      "measurement_condition_id": "mc009",
+      "measurement_context": {
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_4_56",
+          "page": 4,
+          "bbox": [
+            96.0,
+            328.0,
+            493.0,
+            537.0
+          ],
+          "source_type": "text",
+          "source_sentence": "the ionic concentration in swollen poly (METAI) brush layer can be estimated to be 4.2 M, which is much higher than salt concentration in aqueous solution."
+        }
+      ],
+      "confidence": {
+        "score": 0.8
+      }
+    },
+    {
+      "property_id": "prop005",
+      "sample_id": "s001",
+      "property_name_raw": "friction coefficient in NaCl solution",
+      "observation_role": "single",
+      "value_raw": "around 0.1",
+      "measurement_condition_id": "mc010",
+      "measurement_context": {
+        "temperature": {
+          "raw": "298 K",
+          "value": 298.0,
+          "unit": "K",
+          "evidence": [
+            {
+              "block_id": "I_5_67",
+              "page": 5,
+              "bbox": [
+                497.0,
+                31.0,
+                730.0,
+                193.0
+              ],
+              "source_type": "image",
+              "source_sentence": "at 298 K"
+            }
+          ],
+          "evidence_ids": []
+        },
+        "other_conditions": {
+          "sliding_velocity": "90 mm/min",
+          "load": "0.49 N"
+        },
+        "other_condition_evidence": {
+          "sliding_velocity": [
+            {
+              "block_id": "I_5_74",
+              "page": 5,
+              "bbox": [
+                497.0,
+                690.0,
+                728.0,
+                840.0
+              ],
+              "source_type": "image",
+              "source_sentence": "at a sliding velocity of 90 mm/min"
+            }
+          ],
+          "load": [
+            {
+              "block_id": "I_5_74",
+              "page": 5,
+              "bbox": [
+                497.0,
+                690.0,
+                728.0,
+                840.0
+              ],
+              "source_type": "image",
+              "source_sentence": "under loading of 0.49 N"
+            }
+          ]
+        },
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_6_82",
+          "page": 6,
+          "bbox": [
+            96.0,
+            603.0,
+            493.0,
+            915.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The friction coefficients in the salt solution were around 0.1, which is close to those in pure water."
+        }
+      ],
+      "confidence": {
+        "score": 0.7
+      }
+    },
+    {
+      "property_id": "prop006",
+      "sample_id": "s004",
+      "property_name_raw": "friction coefficient in NaCl solution",
+      "observation_role": "single",
+      "value_raw": "around 0.1",
+      "measurement_condition_id": "mc010",
+      "measurement_context": {
+        "temperature": {
+          "raw": "298 K",
+          "value": 298.0,
+          "unit": "K",
+          "evidence": [
+            {
+              "block_id": "I_5_67",
+              "page": 5,
+              "bbox": [
+                497.0,
+                31.0,
+                730.0,
+                193.0
+              ],
+              "source_type": "image",
+              "source_sentence": "at 298 K"
+            }
+          ],
+          "evidence_ids": []
+        },
+        "other_conditions": {
+          "sliding_velocity": "90 mm/min",
+          "load": "0.49 N"
+        },
+        "other_condition_evidence": {
+          "sliding_velocity": [
+            {
+              "block_id": "I_5_74",
+              "page": 5,
+              "bbox": [
+                497.0,
+                690.0,
+                728.0,
+                840.0
+              ],
+              "source_type": "image",
+              "source_sentence": "at a sliding velocity of 90 mm/min"
+            }
+          ],
+          "load": [
+            {
+              "block_id": "I_5_74",
+              "page": 5,
+              "bbox": [
+                497.0,
+                690.0,
+                728.0,
+                840.0
+              ],
+              "source_type": "image",
+              "source_sentence": "under loading of 0.49 N"
+            }
+          ]
+        },
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_6_82",
+          "page": 6,
+          "bbox": [
+            96.0,
+            603.0,
+            493.0,
+            915.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The friction coefficients in the salt solution were around 0.1, which is close to those in pure water."
+        }
+      ],
+      "confidence": {
+        "score": 0.7
+      }
+    }
+  ],
+  "unresolved_properties": [],
+  "property_series": [
+    {
+      "series_id": "series001",
+      "sample_resolution_status": "unresolved",
+      "property_name_raw": "Water (static) contact angle",
+      "unit_raw": "°",
+      "measurement_context": {
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "points": [
+        {
+          "point_id": "pt001",
+          "observation_role": "series_point",
+          "sample_id": "s001",
+          "entity_id": "pe001",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "1~3",
+          "value_min": 1.0,
+          "value_max": 3.0,
+          "unit_raw": "°",
+          "measurement_context": {
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_4_49",
+              "page": 4,
+              "bbox": [
+                96.0,
+                67.0,
+                903.0,
+                217.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 1. Contact angles and surface free energy of hydrophilic polymer brushes.",
+              "table_locator": {
+                "table_id": "T_4_49",
+                "row_label": "$Water^{a)}$",
+                "column_label": "$<5^{\\circ}$",
+                "cell_value": "$1 \\sim 3^{\\circ}$",
+                "cell_id": "T_4_49:r0001:c0002",
+                "row_index": 1,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt002",
+          "observation_role": "series_point",
+          "sample_id": "s003",
+          "entity_id": "pe002",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "56",
+          "value_min": 56.0,
+          "value_max": 56.0,
+          "unit_raw": "°",
+          "measurement_context": {
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_4_49",
+              "page": 4,
+              "bbox": [
+                96.0,
+                67.0,
+                903.0,
+                217.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 1. Contact angles and surface free energy of hydrophilic polymer brushes.",
+              "table_locator": {
+                "table_id": "T_4_49",
+                "row_label": "$Water^{a)}$",
+                "column_label": "$<5^{\\circ}$",
+                "cell_value": "$56^{\\circ}$",
+                "cell_id": "T_4_49:r0001:c0003",
+                "row_index": 1,
+                "column_index": 3
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt003",
+          "observation_role": "series_point",
+          "sample_id": "s004",
+          "entity_id": "pe003",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "36",
+          "value_min": 36.0,
+          "value_max": 36.0,
+          "unit_raw": "°",
+          "measurement_context": {
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_4_49",
+              "page": 4,
+              "bbox": [
+                96.0,
+                67.0,
+                903.0,
+                217.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 1. Contact angles and surface free energy of hydrophilic polymer brushes.",
+              "table_locator": {
+                "table_id": "T_4_49",
+                "row_label": "$Water^{a)}$",
+                "column_label": "$<5^{\\circ}$",
+                "cell_value": "$36^{\\circ}$",
+                "cell_id": "T_4_49:r0001:c0004",
+                "row_index": 1,
+                "column_index": 4
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        }
+      ],
+      "coverage": {
+        "expected": 3,
+        "covered": 3,
+        "missing": 0,
+        "not_applicable": 0,
+        "ratio": 1.0
+      },
+      "evidence": [
+        {
+          "block_id": "T_4_49",
+          "page": 4,
+          "bbox": [
+            96.0,
+            67.0,
+            903.0,
+            217.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table 1. Contact angles and surface free energy of hydrophilic polymer brushes.",
+          "table_locator": {
+            "table_id": "T_4_49",
+            "row_label": "$Water^{a)}$",
+            "column_label": "$<5^{\\circ}$",
+            "cell_value": "$1 \\sim 3^{\\circ}$",
+            "cell_id": "T_4_49:r0001:c0002",
+            "row_index": 1,
+            "column_index": 2
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "series_id": "series002",
+      "sample_resolution_status": "unresolved",
+      "property_name_raw": "Water (advancing) contact angle",
+      "unit_raw": "°",
+      "measurement_context": {
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "points": [
+        {
+          "point_id": "pt004",
+          "observation_role": "series_point",
+          "sample_id": "s001",
+          "entity_id": "pe001",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "13",
+          "value_min": 13.0,
+          "value_max": 13.0,
+          "unit_raw": "°",
+          "measurement_context": {
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_4_49",
+              "page": 4,
+              "bbox": [
+                96.0,
+                67.0,
+                903.0,
+                217.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 1. Contact angles and surface free energy of hydrophilic polymer brushes.",
+              "table_locator": {
+                "table_id": "T_4_49",
+                "row_label": "$Water^{a)}$",
+                "column_label": "$<5^{\\circ}$",
+                "cell_value": "$13^{°b)}$",
+                "cell_id": "T_4_49:r0002:c0002",
+                "row_index": 2,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt005",
+          "observation_role": "series_point",
+          "sample_id": "s003",
+          "entity_id": "pe002",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "78",
+          "value_min": 78.0,
+          "value_max": 78.0,
+          "unit_raw": "°",
+          "measurement_context": {
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_4_49",
+              "page": 4,
+              "bbox": [
+                96.0,
+                67.0,
+                903.0,
+                217.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 1. Contact angles and surface free energy of hydrophilic polymer brushes.",
+              "table_locator": {
+                "table_id": "T_4_49",
+                "row_label": "$Water^{a)}$",
+                "column_label": "$<5^{\\circ}$",
+                "cell_value": "$78^{°c)}$",
+                "cell_id": "T_4_49:r0002:c0003",
+                "row_index": 2,
+                "column_index": 3
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt006",
+          "observation_role": "series_point",
+          "sample_id": "s004",
+          "entity_id": "pe003",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "69",
+          "value_min": 69.0,
+          "value_max": 69.0,
+          "unit_raw": "°",
+          "measurement_context": {
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_4_49",
+              "page": 4,
+              "bbox": [
+                96.0,
+                67.0,
+                903.0,
+                217.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 1. Contact angles and surface free energy of hydrophilic polymer brushes.",
+              "table_locator": {
+                "table_id": "T_4_49",
+                "row_label": "$Water^{a)}$",
+                "column_label": "$<5^{\\circ}$",
+                "cell_value": "$69^{°c)}$",
+                "cell_id": "T_4_49:r0002:c0004",
+                "row_index": 2,
+                "column_index": 4
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        }
+      ],
+      "coverage": {
+        "expected": 3,
+        "covered": 3,
+        "missing": 0,
+        "not_applicable": 0,
+        "ratio": 1.0
+      },
+      "evidence": [
+        {
+          "block_id": "T_4_49",
+          "page": 4,
+          "bbox": [
+            96.0,
+            67.0,
+            903.0,
+            217.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table 1. Contact angles and surface free energy of hydrophilic polymer brushes.",
+          "table_locator": {
+            "table_id": "T_4_49",
+            "row_label": "$Water^{a)}$",
+            "column_label": "$<5^{\\circ}$",
+            "cell_value": "$13^{°b)}$",
+            "cell_id": "T_4_49:r0002:c0002",
+            "row_index": 2,
+            "column_index": 2
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "series_id": "series003",
+      "sample_resolution_status": "unresolved",
+      "property_name_raw": "Water (receding) contact angle",
+      "unit_raw": "°",
+      "measurement_context": {
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "points": [
+        {
+          "point_id": "pt007",
+          "observation_role": "series_point",
+          "sample_id": "s001",
+          "entity_id": "pe001",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "<5",
+          "value_max": 5.0,
+          "unit_raw": "°",
+          "measurement_context": {
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_4_49",
+              "page": 4,
+              "bbox": [
+                96.0,
+                67.0,
+                903.0,
+                217.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 1. Contact angles and surface free energy of hydrophilic polymer brushes.",
+              "table_locator": {
+                "table_id": "T_4_49",
+                "row_label": "$Water^{a)}$",
+                "column_label": "$<5^{\\circ}$",
+                "cell_value": "$<5^{°b)}$",
+                "cell_id": "T_4_49:r0003:c0002",
+                "row_index": 3,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt008",
+          "observation_role": "series_point",
+          "sample_id": "s003",
+          "entity_id": "pe002",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "27",
+          "value_min": 27.0,
+          "value_max": 27.0,
+          "unit_raw": "°",
+          "measurement_context": {
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_4_49",
+              "page": 4,
+              "bbox": [
+                96.0,
+                67.0,
+                903.0,
+                217.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 1. Contact angles and surface free energy of hydrophilic polymer brushes.",
+              "table_locator": {
+                "table_id": "T_4_49",
+                "row_label": "$Water^{a)}$",
+                "column_label": "$<5^{\\circ}$",
+                "cell_value": "$27^{°c)}$",
+                "cell_id": "T_4_49:r0003:c0003",
+                "row_index": 3,
+                "column_index": 3
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt009",
+          "observation_role": "series_point",
+          "sample_id": "s004",
+          "entity_id": "pe003",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "18",
+          "value_min": 18.0,
+          "value_max": 18.0,
+          "unit_raw": "°",
+          "measurement_context": {
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_4_49",
+              "page": 4,
+              "bbox": [
+                96.0,
+                67.0,
+                903.0,
+                217.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 1. Contact angles and surface free energy of hydrophilic polymer brushes.",
+              "table_locator": {
+                "table_id": "T_4_49",
+                "row_label": "$Water^{a)}$",
+                "column_label": "$<5^{\\circ}$",
+                "cell_value": "$18^{°c)}$",
+                "cell_id": "T_4_49:r0003:c0004",
+                "row_index": 3,
+                "column_index": 4
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        }
+      ],
+      "coverage": {
+        "expected": 3,
+        "covered": 3,
+        "missing": 0,
+        "not_applicable": 0,
+        "ratio": 1.0
+      },
+      "evidence": [
+        {
+          "block_id": "T_4_49",
+          "page": 4,
+          "bbox": [
+            96.0,
+            67.0,
+            903.0,
+            217.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table 1. Contact angles and surface free energy of hydrophilic polymer brushes.",
+          "table_locator": {
+            "table_id": "T_4_49",
+            "row_label": "$Water^{a)}$",
+            "column_label": "$<5^{\\circ}$",
+            "cell_value": "$<5^{°b)}$",
+            "cell_id": "T_4_49:r0003:c0002",
+            "row_index": 3,
+            "column_index": 2
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "series_id": "series004",
+      "sample_resolution_status": "unresolved",
+      "property_name_raw": "Water (sliding) contact angle",
+      "unit_raw": "°",
+      "measurement_context": {
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "points": [
+        {
+          "point_id": "pt010",
+          "observation_role": "series_point",
+          "sample_id": "s001",
+          "entity_id": "pe001",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "15",
+          "value_min": 15.0,
+          "value_max": 15.0,
+          "unit_raw": "°",
+          "measurement_context": {
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_4_49",
+              "page": 4,
+              "bbox": [
+                96.0,
+                67.0,
+                903.0,
+                217.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 1. Contact angles and surface free energy of hydrophilic polymer brushes.",
+              "table_locator": {
+                "table_id": "T_4_49",
+                "row_label": "$Water^{a)}$",
+                "column_label": "$<5^{\\circ}$",
+                "cell_value": "$15^{°b)}$",
+                "cell_id": "T_4_49:r0004:c0002",
+                "row_index": 4,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt011",
+          "observation_role": "series_point",
+          "sample_id": "s003",
+          "entity_id": "pe002",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "62",
+          "value_min": 62.0,
+          "value_max": 62.0,
+          "unit_raw": "°",
+          "measurement_context": {
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_4_49",
+              "page": 4,
+              "bbox": [
+                96.0,
+                67.0,
+                903.0,
+                217.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 1. Contact angles and surface free energy of hydrophilic polymer brushes.",
+              "table_locator": {
+                "table_id": "T_4_49",
+                "row_label": "$Water^{a)}$",
+                "column_label": "$<5^{\\circ}$",
+                "cell_value": "$62^{°c)}$",
+                "cell_id": "T_4_49:r0004:c0003",
+                "row_index": 4,
+                "column_index": 3
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt012",
+          "observation_role": "series_point",
+          "sample_id": "s004",
+          "entity_id": "pe003",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "41",
+          "value_min": 41.0,
+          "value_max": 41.0,
+          "unit_raw": "°",
+          "measurement_context": {
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_4_49",
+              "page": 4,
+              "bbox": [
+                96.0,
+                67.0,
+                903.0,
+                217.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 1. Contact angles and surface free energy of hydrophilic polymer brushes.",
+              "table_locator": {
+                "table_id": "T_4_49",
+                "row_label": "$Water^{a)}$",
+                "column_label": "$<5^{\\circ}$",
+                "cell_value": "$41^{°c)}$",
+                "cell_id": "T_4_49:r0004:c0004",
+                "row_index": 4,
+                "column_index": 4
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        }
+      ],
+      "coverage": {
+        "expected": 3,
+        "covered": 3,
+        "missing": 0,
+        "not_applicable": 0,
+        "ratio": 1.0
+      },
+      "evidence": [
+        {
+          "block_id": "T_4_49",
+          "page": 4,
+          "bbox": [
+            96.0,
+            67.0,
+            903.0,
+            217.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table 1. Contact angles and surface free energy of hydrophilic polymer brushes.",
+          "table_locator": {
+            "table_id": "T_4_49",
+            "row_label": "$Water^{a)}$",
+            "column_label": "$<5^{\\circ}$",
+            "cell_value": "$15^{°b)}$",
+            "cell_id": "T_4_49:r0004:c0002",
+            "row_index": 4,
+            "column_index": 2
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "series_id": "series005",
+      "sample_resolution_status": "unresolved",
+      "property_name_raw": "Air (in water) static contact angle",
+      "unit_raw": "°",
+      "measurement_context": {
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "points": [
+        {
+          "point_id": "pt013",
+          "observation_role": "series_point",
+          "sample_id": "s001",
+          "entity_id": "pe001",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "170",
+          "value_min": 170.0,
+          "value_max": 170.0,
+          "unit_raw": "°",
+          "measurement_context": {
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_4_49",
+              "page": 4,
+              "bbox": [
+                96.0,
+                67.0,
+                903.0,
+                217.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 1. Contact angles and surface free energy of hydrophilic polymer brushes.",
+              "table_locator": {
+                "table_id": "T_4_49",
+                "row_label": "Air (in water) $^{d)}$",
+                "column_label": "$<5^{\\circ}$",
+                "cell_value": "$170^{\\circ}$",
+                "cell_id": "T_4_49:r0005:c0002",
+                "row_index": 5,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt014",
+          "observation_role": "series_point",
+          "sample_id": "s003",
+          "entity_id": "pe002",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "138",
+          "value_min": 138.0,
+          "value_max": 138.0,
+          "unit_raw": "°",
+          "measurement_context": {
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_4_49",
+              "page": 4,
+              "bbox": [
+                96.0,
+                67.0,
+                903.0,
+                217.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 1. Contact angles and surface free energy of hydrophilic polymer brushes.",
+              "table_locator": {
+                "table_id": "T_4_49",
+                "row_label": "Air (in water) $^{d)}$",
+                "column_label": "$<5^{\\circ}$",
+                "cell_value": "$138^{\\circ}$",
+                "cell_id": "T_4_49:r0005:c0003",
+                "row_index": 5,
+                "column_index": 3
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt015",
+          "observation_role": "series_point",
+          "sample_id": "s004",
+          "entity_id": "pe003",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "145",
+          "value_min": 145.0,
+          "value_max": 145.0,
+          "unit_raw": "°",
+          "measurement_context": {
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_4_49",
+              "page": 4,
+              "bbox": [
+                96.0,
+                67.0,
+                903.0,
+                217.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 1. Contact angles and surface free energy of hydrophilic polymer brushes.",
+              "table_locator": {
+                "table_id": "T_4_49",
+                "row_label": "Air (in water) $^{d)}$",
+                "column_label": "$<5^{\\circ}$",
+                "cell_value": "$145^{\\circ}$",
+                "cell_id": "T_4_49:r0005:c0004",
+                "row_index": 5,
+                "column_index": 4
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        }
+      ],
+      "coverage": {
+        "expected": 3,
+        "covered": 3,
+        "missing": 0,
+        "not_applicable": 0,
+        "ratio": 1.0
+      },
+      "evidence": [
+        {
+          "block_id": "T_4_49",
+          "page": 4,
+          "bbox": [
+            96.0,
+            67.0,
+            903.0,
+            217.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table 1. Contact angles and surface free energy of hydrophilic polymer brushes.",
+          "table_locator": {
+            "table_id": "T_4_49",
+            "row_label": "Air (in water) $^{d)}$",
+            "column_label": "$<5^{\\circ}$",
+            "cell_value": "$170^{\\circ}$",
+            "cell_id": "T_4_49:r0005:c0002",
+            "row_index": 5,
+            "column_index": 2
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "series_id": "series006",
+      "sample_resolution_status": "unresolved",
+      "property_name_raw": "Diiodomethane static contact angle",
+      "unit_raw": "°",
+      "measurement_context": {
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "points": [
+        {
+          "point_id": "pt016",
+          "observation_role": "series_point",
+          "sample_id": "s001",
+          "entity_id": "pe001",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "45",
+          "value_min": 45.0,
+          "value_max": 45.0,
+          "unit_raw": "°",
+          "measurement_context": {
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_4_49",
+              "page": 4,
+              "bbox": [
+                96.0,
+                67.0,
+                903.0,
+                217.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 1. Contact angles and surface free energy of hydrophilic polymer brushes.",
+              "table_locator": {
+                "table_id": "T_4_49",
+                "row_label": "$Diiodomethane^{e)}$",
+                "column_label": "$<5^{\\circ}$",
+                "cell_value": "$45^{\\circ}$",
+                "cell_id": "T_4_49:r0006:c0002",
+                "row_index": 6,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt017",
+          "observation_role": "series_point",
+          "sample_id": "s003",
+          "entity_id": "pe002",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "38",
+          "value_min": 38.0,
+          "value_max": 38.0,
+          "unit_raw": "°",
+          "measurement_context": {
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_4_49",
+              "page": 4,
+              "bbox": [
+                96.0,
+                67.0,
+                903.0,
+                217.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 1. Contact angles and surface free energy of hydrophilic polymer brushes.",
+              "table_locator": {
+                "table_id": "T_4_49",
+                "row_label": "$Diiodomethane^{e)}$",
+                "column_label": "$<5^{\\circ}$",
+                "cell_value": "$38^{\\circ}$",
+                "cell_id": "T_4_49:r0006:c0003",
+                "row_index": 6,
+                "column_index": 3
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt018",
+          "observation_role": "series_point",
+          "sample_id": "s004",
+          "entity_id": "pe003",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "47",
+          "value_min": 47.0,
+          "value_max": 47.0,
+          "unit_raw": "°",
+          "measurement_context": {
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_4_49",
+              "page": 4,
+              "bbox": [
+                96.0,
+                67.0,
+                903.0,
+                217.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 1. Contact angles and surface free energy of hydrophilic polymer brushes.",
+              "table_locator": {
+                "table_id": "T_4_49",
+                "row_label": "$Diiodomethane^{e)}$",
+                "column_label": "$<5^{\\circ}$",
+                "cell_value": "$47^{\\circ}$",
+                "cell_id": "T_4_49:r0006:c0004",
+                "row_index": 6,
+                "column_index": 4
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        }
+      ],
+      "coverage": {
+        "expected": 3,
+        "covered": 3,
+        "missing": 0,
+        "not_applicable": 0,
+        "ratio": 1.0
+      },
+      "evidence": [
+        {
+          "block_id": "T_4_49",
+          "page": 4,
+          "bbox": [
+            96.0,
+            67.0,
+            903.0,
+            217.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table 1. Contact angles and surface free energy of hydrophilic polymer brushes.",
+          "table_locator": {
+            "table_id": "T_4_49",
+            "row_label": "$Diiodomethane^{e)}$",
+            "column_label": "$<5^{\\circ}$",
+            "cell_value": "$45^{\\circ}$",
+            "cell_id": "T_4_49:r0006:c0002",
+            "row_index": 6,
+            "column_index": 2
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "series_id": "series007",
+      "sample_resolution_status": "unresolved",
+      "property_name_raw": "n-Hexadecane static contact angle",
+      "unit_raw": "°",
+      "measurement_context": {
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "points": [
+        {
+          "point_id": "pt019",
+          "observation_role": "series_point",
+          "sample_id": "s001",
+          "entity_id": "pe001",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "<5",
+          "value_max": 5.0,
+          "unit_raw": "°",
+          "measurement_context": {
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_4_49",
+              "page": 4,
+              "bbox": [
+                96.0,
+                67.0,
+                903.0,
+                217.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 1. Contact angles and surface free energy of hydrophilic polymer brushes.",
+              "table_locator": {
+                "table_id": "T_4_49",
+                "row_label": "$n-Hexadecane^{e)}$",
+                "column_label": "$<5^{\\circ}$",
+                "cell_value": "$<5^{\\circ}$",
+                "cell_id": "T_4_49:r0007:c0002",
+                "row_index": 7,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt020",
+          "observation_role": "series_point",
+          "sample_id": "s003",
+          "entity_id": "pe002",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "<5",
+          "value_max": 5.0,
+          "unit_raw": "°",
+          "measurement_context": {
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_4_49",
+              "page": 4,
+              "bbox": [
+                96.0,
+                67.0,
+                903.0,
+                217.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 1. Contact angles and surface free energy of hydrophilic polymer brushes.",
+              "table_locator": {
+                "table_id": "T_4_49",
+                "row_label": "$n-Hexadecane^{e)}$",
+                "column_label": "$<5^{\\circ}$",
+                "cell_value": "$<5^{\\circ}$",
+                "cell_id": "T_4_49:r0007:c0003",
+                "row_index": 7,
+                "column_index": 3
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt021",
+          "observation_role": "series_point",
+          "sample_id": "s004",
+          "entity_id": "pe003",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "<5",
+          "value_max": 5.0,
+          "unit_raw": "°",
+          "measurement_context": {
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_4_49",
+              "page": 4,
+              "bbox": [
+                96.0,
+                67.0,
+                903.0,
+                217.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 1. Contact angles and surface free energy of hydrophilic polymer brushes.",
+              "table_locator": {
+                "table_id": "T_4_49",
+                "row_label": "$n-Hexadecane^{e)}$",
+                "column_label": "$<5^{\\circ}$",
+                "cell_value": "$<5^{\\circ}$",
+                "cell_id": "T_4_49:r0007:c0004",
+                "row_index": 7,
+                "column_index": 4
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        }
+      ],
+      "coverage": {
+        "expected": 3,
+        "covered": 3,
+        "missing": 0,
+        "not_applicable": 0,
+        "ratio": 1.0
+      },
+      "evidence": [
+        {
+          "block_id": "T_4_49",
+          "page": 4,
+          "bbox": [
+            96.0,
+            67.0,
+            903.0,
+            217.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table 1. Contact angles and surface free energy of hydrophilic polymer brushes.",
+          "table_locator": {
+            "table_id": "T_4_49",
+            "row_label": "$n-Hexadecane^{e)}$",
+            "column_label": "$<5^{\\circ}$",
+            "cell_value": "$<5^{\\circ}$",
+            "cell_id": "T_4_49:r0007:c0002",
+            "row_index": 7,
+            "column_index": 2
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "series_id": "series008",
+      "sample_resolution_status": "unresolved",
+      "property_name_raw": "$\\gamma_{SV}$",
+      "unit_raw": "mN/m",
+      "measurement_context": {
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "points": [
+        {
+          "point_id": "pt022",
+          "observation_role": "series_point",
+          "sample_id": "s001",
+          "entity_id": "pe001",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "73",
+          "value_min": 73.0,
+          "value_max": 73.0,
+          "unit_raw": "mN/m",
+          "measurement_context": {
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_4_49",
+              "page": 4,
+              "bbox": [
+                96.0,
+                67.0,
+                903.0,
+                217.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 1. Contact angles and surface free energy of hydrophilic polymer brushes.",
+              "table_locator": {
+                "table_id": "T_4_49",
+                "row_label": "$\\gamma_{SV}^{f)}$",
+                "column_label": "$<5^{\\circ}$",
+                "cell_value": "73",
+                "cell_id": "T_4_49:r0008:c0002",
+                "row_index": 8,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt023",
+          "observation_role": "series_point",
+          "sample_id": "s003",
+          "entity_id": "pe002",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "50",
+          "value_min": 50.0,
+          "value_max": 50.0,
+          "unit_raw": "mN/m",
+          "measurement_context": {
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_4_49",
+              "page": 4,
+              "bbox": [
+                96.0,
+                67.0,
+                903.0,
+                217.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 1. Contact angles and surface free energy of hydrophilic polymer brushes.",
+              "table_locator": {
+                "table_id": "T_4_49",
+                "row_label": "$\\gamma_{SV}^{f)}$",
+                "column_label": "$<5^{\\circ}$",
+                "cell_value": "50",
+                "cell_id": "T_4_49:r0008:c0003",
+                "row_index": 8,
+                "column_index": 3
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt024",
+          "observation_role": "series_point",
+          "sample_id": "s004",
+          "entity_id": "pe003",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "60",
+          "value_min": 60.0,
+          "value_max": 60.0,
+          "unit_raw": "mN/m",
+          "measurement_context": {
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_4_49",
+              "page": 4,
+              "bbox": [
+                96.0,
+                67.0,
+                903.0,
+                217.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 1. Contact angles and surface free energy of hydrophilic polymer brushes.",
+              "table_locator": {
+                "table_id": "T_4_49",
+                "row_label": "$\\gamma_{SV}^{f)}$",
+                "column_label": "$<5^{\\circ}$",
+                "cell_value": "60",
+                "cell_id": "T_4_49:r0008:c0004",
+                "row_index": 8,
+                "column_index": 4
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        }
+      ],
+      "coverage": {
+        "expected": 3,
+        "covered": 3,
+        "missing": 0,
+        "not_applicable": 0,
+        "ratio": 1.0
+      },
+      "evidence": [
+        {
+          "block_id": "T_4_49",
+          "page": 4,
+          "bbox": [
+            96.0,
+            67.0,
+            903.0,
+            217.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table 1. Contact angles and surface free energy of hydrophilic polymer brushes.",
+          "table_locator": {
+            "table_id": "T_4_49",
+            "row_label": "$\\gamma_{SV}^{f)}$",
+            "column_label": "$<5^{\\circ}$",
+            "cell_value": "73",
+            "cell_id": "T_4_49:r0008:c0002",
+            "row_index": 8,
+            "column_index": 2
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    }
+  ],
+  "provenance": {
+    "stage": "stage4_property",
+    "provider": "dmx",
+    "model": "doubao-seed-2.0-pro",
+    "models": [
+      "doubao-seed-2.0-pro"
+    ],
+    "prompt_id": "polymer.stage4.property",
+    "prompt_version": "1.7.2",
+    "prompt_sha256": "ec79fe3bf47539cab4ba239c611d1ab17d75dc0038cda85020caca580f7987a5",
+    "vocabulary_sha256": "3e9d85e4915a729edf0f0a53821f3ee6edf32874e1da6972457417e4f13a1510",
+    "input_hash": "78713bd9ac5e14658eafc4c09fb8698d3e16ca86ac8d2893e932a56fe4ebc6f9",
+    "model_config_hash": "cc96eaab20bd380ae90f3ba1dfa638bd40f111e3e72ca185255fb71b459d40ea",
+    "cache_key": "805285056c90f7481b77d84b1bc7dc19ea3b055edfa19ea55e66bba34c882216",
+    "output_schema_version": "property_observation_schema.v7",
+    "implementation_version": "1.7.10",
+    "context_block_count": 23,
+    "context_chars": 17377,
+    "call_count": 1,
+    "usage": {
+      "input_tokens": 19616,
+      "output_tokens": 14397,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "billable_input_tokens": 19616,
+      "total_tokens": 34013
+    },
+    "cost": {
+      "status": "calculated",
+      "currency": "CNY",
+      "input_per_million": "4.32",
+      "output_per_million": "29.15",
+      "input_cost": "0.08474112",
+      "output_cost": "0.41967255",
+      "total_cost": "0.50441367"
+    },
+    "status": "success"
+  },
+  "warnings": [
+    {
+      "stage": "stage4_property",
+      "code": "multi_subject_series_normalized",
+      "message": "PropertySeries 的 points 明确属于多个 Sample/PolymerEntity；已清除错误的单一顶层主体，主体关系保留在各 point",
+      "series": 8
+    },
+    {
+      "stage": "stage4_property",
+      "code": "empty_reported_context_downgraded",
+      "message": "measurement_context 标记为 reported 但没有任何条件值；已确定性改为 not_reported",
+      "contexts": 3
+    },
+    {
+      "stage": "stage4_property",
+      "code": "candidate_table_locator_surface_repaired",
+      "message": "模型 locator 表面文本不在表格原文；已用 property raw 与 determination method 中唯一匹配的 Stage 0 表头恢复",
+      "evidence": 25
+    },
+    {
+      "stage": "stage4_property",
+      "code": "condition_evidence_surfaces_repaired",
+      "message": "条件 evidence 的候选摘要无法逐字定位；已用同一条件下性质字段的原文 anchor 恢复",
+      "evidence": 1
+    },
+    {
+      "stage": "stage4_property",
+      "code": "preview_semantic_validation_bypassed",
+      "message": "Preview 已保留 Schema 合法候选，并跳过原文/evidence 语义对应校验；Strict 模式仍会报错",
+      "reason": "mc010 的 condition raw 无法与关联 property 建立可定位关系：condition_raw=['298 K', '90 mm/min', '0.49 N'], evidence_block='P_6_82', linked_properties=[{'property_id': 'prop009', 'property_name_raw': 'friction coefficient in NaCl solution', 'value_raw': 'around 0.1', 'determination_method_raw': None, 'evidence_blocks': ['P_6_82']}, {'property_id': 'prop010', 'property_name_raw': 'friction coefficient in NaCl solution', 'value_raw': 'around 0.1', 'determination_method_raw': None, 'evidence_blocks': ['P_6_82']}]"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "preview_objects_salvaged",
+      "message": "Preview 已逐对象保留可安全物化的数据；坏字段、坏对象或失效引用已局部删除，Strict 模式仍会报错",
+      "details": {
+        "dropped_conditions": [],
+        "dropped_properties": [],
+        "dropped_unresolved_properties": [],
+        "dropped_series": [],
+        "dropped_points": [],
+        "dropped_evidence": 0,
+        "dropped_coordinates": 0
+      }
+    }
+  ]
+}

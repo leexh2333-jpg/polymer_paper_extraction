@@ -1,0 +1,43 @@
+{
+  "status": "received",
+  "stage": "stage4_property",
+  "document_id": "reference_no_0073324",
+  "call_count": 1,
+  "usage": {
+    "input_tokens": 26440,
+    "output_tokens": 8563,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 10040,
+    "billable_input_tokens": 36480,
+    "total_tokens": 45043
+  },
+  "cost": {
+    "status": "calculated",
+    "currency": "CNY",
+    "input_per_million": "4.32",
+    "output_per_million": "29.15",
+    "input_cost": "0.1575936",
+    "output_cost": "0.24961145",
+    "total_cost": "0.40720505"
+  },
+  "raw_response": {
+    "provider": "dmx",
+    "model": "doubao-seed-2.0-pro",
+    "finish_reason": "end_turn",
+    "content": "{\n  \"measurement_conditions\": [],\n  \"properties\": [],\n  \"property_series\": [\n    {\n      \"series_id\": \"series001\",\n      \"sample_resolution_status\": \"resolved\",\n      \"property_name_raw\": \"PMT, °C.\",\n      \"property_name_normalized\": \"melting_temperature\",\n      \"property_code\": \"P3120\",\n      \"property_category\": \"thermal_property\",\n      \"unit_raw\": \"°C\",\n      \"unit_normalized\": \"°C\",\n      \"determination_method_raw\": \"standard methods of polymer characterization as recommended by Beaman and Cramer $^{15}$ and by Sorenson and Campbell. $^{16}$\",\n      \"measurement_context\": {\n        \"condition_status\": \"not_reported\"\n      },\n      \"evidence\": [],\n      \"coverage\": null,\n      \"confidence\": {\"score\": 0.9},\n      \"points\": [\n        {\n          \"point_id\": \"pt001\",\n          \"coverage_status\": \"covered\",\n          \"value_raw\": \"380\",\n          \"value_min\": 380,\n          \"value_max\": 380,\n          \"unit_raw\": \"°C\",\n          \"sample_id\": \"s002\",\n          \"evidence\": [\n            {\n              \"block_id\": \"T_3_34\",\n              \"source_sentence\": \"<tr><td>1</td><td>0-2</td><td></td><td></td><td>DiPh-2</td><td>2</td><td>HTS</td><td></td><td>380</td><td></td></tr>\",\n              \"table_locator\": {\n                \"table_id\": \"T_3_34\",\n                \"row_label\": \"1\",\n                \"column_label\": \"PMT, °C.\",\n                \"cell_value\": \"380\"\n              }\n            }\n          ],\n          \"confidence\": {\"score\": 0.95}\n        },\n        {\n          \"point_id\": \"pt002\",\n          \"coverage_status\": \"missing\",\n          \"value_raw\": null,\n          \"sample_id\": \"s003\",\n          \"evidence\": [\n            {\n              \"block_id\": \"T_3_34\",\n              \"source_sentence\": \"<tr><td>1a</td><td>0-2-0-6</td><td></td><td></td><td>DiEt-2</td><td>6</td><td>HTS</td><td></td><td></td><td>285c</td></tr>\",\n              \"table_locator\": {\n                \"table_id\": \"T_3_34\",\n                \"row_label\": \"1a\",\n                \"column_label\": \"PMT, °C.\",\n                \"cell_value\": null\n              }\n            }\n          ],\n          \"confidence\": {\"score\": 0.9}\n        },\n        {\n          \"point_id\": \"pt003\",\n          \"coverage_status\": \"covered\",\n          \"value_raw\": \"300\",\n          \"value_min\": 300,\n          \"value_max\": 300,\n          \"unit_raw\": \"°C\",\n          \"sample_id\": \"s003\",\n          \"evidence\": [\n            {\n              \"block_id\": \"T_3_34\",\n              \"source_sentence\": \"<tr><td>b</td><td></td><td></td><td></td><td>DiEt-2</td><td>6</td><td>HTS</td><td></td><td>300</td><td></td></tr>\",\n              \"table_locator\": {\n                \"table_id\": \"T_3_34\",\n                \"row_label\": \"b\",\n                \"column_label\": \"PMT, °C.\",\n                \"cell_value\": \"300\"\n              }\n            }\n          ],\n          \"confidence\": {\"score\": 0.95}\n        },\n        {\n          \"point_id\": \"pt004\",\n          \"coverage_status\": \"covered\",\n          \"value_raw\": \"295\",\n          \"value_min\": 295,\n          \"value_max\": 295,\n          \"unit_raw\": \"°C\",\n          \"sample_id\": \"s003\",\n          \"evidence\": [\n            {\n              \"block_id\": \"T_3_34\",\n              \"source_sentence\": \"<tr><td>c</td><td></td><td></td><td>6</td><td></td><td>2</td><td></td><td>LTS</td><td>295</td><td></td></tr>\",\n              \"table_locator\": {\n                \"table_id\": \"T_3_34\",\n                \"row_label\": \"c\",\n                \"column_label\": \"PMT, °C.\",\n                \"cell_value\": \"295\"\n              }\n            }\n          ],\n          \"confidence\": {\"score\": 0.95}\n        }\n      ]\n    }\n  ],\n  \"unresolved_properties\": [\n    {\n      \"unresolved_id\": \"uprop001\",\n      \"entity_id\": \"pe002\",\n      \"property_name_raw\": \"polymer melt temperatures\",\n      \"value_raw\": \"200 to 300°C\",\n      \"unit_raw\": \"°C\",\n      \"reason\": \"sample_ambiguous\",\n      \"evidence\": [\n        {\n          \"block_id\": \"P_0_3\",\n          \"source_sentence\": \"All-aliphatic polyhydrazides were insoluble in dimethyl sulfoxide, had polymer melt temperatures ranging from 200 to 300°C.\",\n          \"table_locator\": null\n        }\n      ],\n      \"confidence\": {\"score\": 0.8}\n    },\n    {\n      \"unresolved_id\": \"uprop002\",\n      \"entity_id\": \"pe003\",\n      \"property_name_raw\": \"polymer melt temperatures\",\n      \"value_raw\": \"250 to 300°C\",\n      \"unit_raw\": \"°C\",\n      \"reason\": \"sample_ambiguous\",\n      \"evidence\": [\n        {\n          \"block_id\": \"P_0_3\",\n          \"source_sentence\": \"Aliphatic-aromatic and oxalic-aromatic polyhydrazides which undergo dehydration at different rates had polymer melt temperatures ranging from 250 to 300°C.\",\n          \"table_locator\": null\n        }\n      ],\n      \"confidence\": {\"score\": 0.8}\n    },\n    {\n      \"unresolved_id\": \"uprop003\",\n      \"entity_id\": \"pe003\",\n      \"property_name_raw\": \"inherent viscosities\",\n      \"value_raw\": \"0.3 to 1.5\",\n      \"unit_raw\": null,\n      \"reason\": \"sample_ambiguous\",\n      \"evidence\": [\n        {\n          \"block_id\": \"P_0_3\",\n          \"source_sentence\": \"and inherent viscosities ranging from 0.3 to 1.5.\",\n          \"table_locator\": null\n        }\n      ],\n      \"confidence\": {\"score\": 0.8}\n    },\n    {\n      \"unresolved_id\": \"uprop004\",\n      \"entity_id\": \"pe002\",\n      \"property_name_raw\": \"polymer melt temperatures\",\n      \"value_raw\": \"185 to 328°C\",\n      \"unit_raw\": \"°C\",\n      \"reason\": \"sample_ambiguous\",\n      \"evidence\": [\n        {\n          \"block_id\": \"P_2_28\",\n          \"source_sentence\": \"it was noted that the polymer melt temperatures of aliphatic polyhydrazides range from 185 to 328°C. (Table I) and that they were insoluble in a variety of polymer solvents including dimethyl sulfoxide.\",\n          \"table_locator\": null\n        }\n      ],\n      \"confidence\": {\"score\": 0.8}\n    }\n  ]\n}",
+    "usage": {
+      "input_tokens": 26440,
+      "output_tokens": 8563,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 10040
+    },
+    "cost": {
+      "currency": "CNY",
+      "input_per_million": "4.32",
+      "output_per_million": "29.15",
+      "input_cost": "0.1575936",
+      "output_cost": "0.24961145",
+      "total_cost": "0.40720505"
+    }
+  }
+}

@@ -1,0 +1,393 @@
+{
+  "warning_frequency": {
+    "section_fallback": 3,
+    "all_tables_included": 6,
+    "preview_point_locator_recovered_from_unique_table_row": 7,
+    "series_entity_relinked_to_sample": 8,
+    "multi_subject_series_normalized": 18,
+    "candidate_table_locator_surface_repaired": 13,
+    "series_context_evidence_supplemented": 12,
+    "preview_semantic_validation_bypassed": 18,
+    "preview_objects_salvaged": 18,
+    "failure_response_replayed": 4,
+    "empty_reported_context_downgraded": 7,
+    "series_method_evidence_supplemented": 5,
+    "unresolved_properties": 11,
+    "blank_table_cell_values_normalized": 1,
+    "preview_series_unsupported_fields_removed": 4,
+    "property_series_incomplete": 4,
+    "condition_table_locators_synthesized": 2,
+    "condition_evidence_surfaces_repaired": 1,
+    "preview_unscoped_scalar_properties_removed": 1,
+    "coordinate_table_locators_synthesized": 1,
+    "point_locators_aligned_to_coordinates": 1,
+    "preview_singleton_coordinate_evidence_unwrapped": 1,
+    "dropped_unused_conditions": 1,
+    "series_unit_surface_repaired": 1,
+    "preview_missing_point_locator_recovered_from_unique_table_row": 1
+  },
+  "details": {
+    "preview_semantic_validation_bypassed": [
+      {
+        "ref_no": "reference_no_0101911",
+        "code": "preview_semantic_validation_bypassed",
+        "reason": "prop009.property_name_raw='Vicat softening temperature increase' 不是任一 evidence block 的原文子串"
+      },
+      {
+        "ref_no": "reference_no_0025452",
+        "code": "preview_semantic_validation_bypassed",
+        "reason": "T_12_66.table_locator.cell_value 不是表格原文"
+      },
+      {
+        "ref_no": "reference_no_0043955",
+        "code": "preview_semantic_validation_bypassed",
+        "reason": "T_2_37.table_locator.cell_value 不是表格原文"
+      },
+      {
+        "ref_no": "reference_no_0043590",
+        "code": "preview_semantic_validation_bypassed",
+        "reason": "uprop001.property_name_raw='σ_L' 不是任一 evidence block 的原文子串"
+      },
+      {
+        "ref_no": "reference_no_0042367",
+        "code": "preview_semantic_validation_bypassed",
+        "reason": "P_2_37 evidence 无法定位到原文"
+      },
+      {
+        "ref_no": "reference_no_0043541",
+        "code": "preview_semantic_validation_bypassed",
+        "reason": "mc010 的 condition raw 无法与关联 property 建立可定位关系：condition_raw=['298 K', '90 mm/min', '0.49 N'], evidence_block='P_6_82', linked_properties=[{'property_id': 'prop009', 'property_name_raw': 'friction coefficient in NaCl solution', 'value_raw': 'around 0.1', 'determination_method_raw': None, 'evidence_blocks': ['P_6_82']}, {'property_id': 'prop010', 'property_name_raw': 'friction coefficient in NaCl solution', 'value_raw': 'around 0.1', 'determination_method_raw': None, 'evidence_blocks': ['P_6_82']}]"
+      },
+      {
+        "ref_no": "reference_no_0042480",
+        "code": "preview_semantic_validation_bypassed",
+        "reason": "uprop001.determination_method_raw='measured in 0.1 wt% NMP solution at 30 °C' 不是任一 evidence block 的原文子串"
+      },
+      {
+        "ref_no": "reference_no_0042246",
+        "code": "preview_semantic_validation_bypassed",
+        "reason": "prop002.property_name_raw='DC conductivity under dry $\\\\mathrm { N _ { 2 } }$ ( $\\\\sigma _ { \\\\mathrm { d r y } }$ )' 不是任一 evidence block 的原文子串"
+      },
+      {
+        "ref_no": "reference_no_0039705",
+        "code": "preview_semantic_validation_bypassed",
+        "reason": "prop001.property_name_raw='Film property' 不是任一 evidence block 的原文子串"
+      },
+      {
+        "ref_no": "reference_no_0038813",
+        "code": "preview_semantic_validation_bypassed",
+        "reason": "uprop003.value_raw='2.20 to 2.51' 不是任一 evidence block 的原文子串"
+      },
+      {
+        "ref_no": "reference_no_0038527",
+        "code": "preview_semantic_validation_bypassed",
+        "reason": "prop002.determination_method_raw='Organic Field-Effect Transistor measurement after annealing' 不是任一 evidence block 的原文子串"
+      },
+      {
+        "ref_no": "reference_no_0037886",
+        "code": "preview_semantic_validation_bypassed",
+        "reason": "mc001.other_conditions.scan_rate.raw 无法在对象 evidence中定位"
+      },
+      {
+        "ref_no": "reference_no_0037645",
+        "code": "preview_semantic_validation_bypassed",
+        "reason": "mc001 的 condition raw 无法与关联 property 建立可定位关系：condition_raw=['THF'], evidence_block='T_2_27', linked_properties=[{'property_id': 'prop002', 'property_name_raw': 'degree of functionalization', 'value_raw': '12.8%', 'determination_method_raw': 'GPC-MALLS', 'evidence_blocks': ['P_4_51']}]"
+      },
+      {
+        "ref_no": "reference_no_0037607",
+        "code": "preview_semantic_validation_bypassed",
+        "reason": "uprop001 没有可保留的 evidence"
+      },
+      {
+        "ref_no": "reference_no_0037268",
+        "code": "preview_semantic_validation_bypassed",
+        "reason": "series001.determination_method_raw='IGC / supplier reported' 不是任一 evidence block 的原文子串"
+      },
+      {
+        "ref_no": "reference_no_0033617",
+        "code": "preview_semantic_validation_bypassed",
+        "reason": "prop003.property_name_raw='λ_max' 不是任一 evidence block 的原文子串"
+      },
+      {
+        "ref_no": "reference_no_0020284",
+        "code": "preview_semantic_validation_bypassed",
+        "reason": "pt043 的 table evidence 无法唯一解析到稳定 cell_id"
+      },
+      {
+        "ref_no": "reference_no_0021296",
+        "code": "preview_semantic_validation_bypassed",
+        "reason": "prop001.property_name_raw='isothermal DSC exotherm enthalpy' 不是任一 evidence block 的原文子串"
+      }
+    ],
+    "preview_objects_salvaged": [
+      {
+        "ref_no": "reference_no_0101911",
+        "code": "preview_objects_salvaged",
+        "details": {
+          "dropped_conditions": [],
+          "dropped_properties": [],
+          "dropped_unresolved_properties": [],
+          "dropped_series": [],
+          "dropped_points": [],
+          "dropped_evidence": 0,
+          "dropped_coordinates": 0
+        }
+      },
+      {
+        "ref_no": "reference_no_0025452",
+        "code": "preview_objects_salvaged",
+        "details": {
+          "dropped_conditions": [],
+          "dropped_properties": [],
+          "dropped_unresolved_properties": [],
+          "dropped_series": [],
+          "dropped_points": [],
+          "dropped_evidence": 0,
+          "dropped_coordinates": 0
+        }
+      },
+      {
+        "ref_no": "reference_no_0043955",
+        "code": "preview_objects_salvaged",
+        "details": {
+          "dropped_conditions": [],
+          "dropped_properties": [],
+          "dropped_unresolved_properties": [],
+          "dropped_series": [],
+          "dropped_points": [],
+          "dropped_evidence": 0,
+          "dropped_coordinates": 0
+        }
+      },
+      {
+        "ref_no": "reference_no_0043590",
+        "code": "preview_objects_salvaged",
+        "details": {
+          "dropped_conditions": [],
+          "dropped_properties": [],
+          "dropped_unresolved_properties": [],
+          "dropped_series": [],
+          "dropped_points": [],
+          "dropped_evidence": 0,
+          "dropped_coordinates": 0
+        }
+      },
+      {
+        "ref_no": "reference_no_0042367",
+        "code": "preview_objects_salvaged",
+        "details": {
+          "dropped_conditions": [],
+          "dropped_properties": [],
+          "dropped_unresolved_properties": [],
+          "dropped_series": [],
+          "dropped_points": [],
+          "dropped_evidence": 0,
+          "dropped_coordinates": 0
+        }
+      },
+      {
+        "ref_no": "reference_no_0043541",
+        "code": "preview_objects_salvaged",
+        "details": {
+          "dropped_conditions": [],
+          "dropped_properties": [],
+          "dropped_unresolved_properties": [],
+          "dropped_series": [],
+          "dropped_points": [],
+          "dropped_evidence": 0,
+          "dropped_coordinates": 0
+        }
+      },
+      {
+        "ref_no": "reference_no_0042480",
+        "code": "preview_objects_salvaged",
+        "details": {
+          "dropped_conditions": [],
+          "dropped_properties": [],
+          "dropped_unresolved_properties": [],
+          "dropped_series": [],
+          "dropped_points": [],
+          "dropped_evidence": 0,
+          "dropped_coordinates": 0
+        }
+      },
+      {
+        "ref_no": "reference_no_0042246",
+        "code": "preview_objects_salvaged",
+        "details": {
+          "dropped_conditions": [],
+          "dropped_properties": [],
+          "dropped_unresolved_properties": [],
+          "dropped_series": [],
+          "dropped_points": [],
+          "dropped_evidence": 0,
+          "dropped_coordinates": 0
+        }
+      },
+      {
+        "ref_no": "reference_no_0039705",
+        "code": "preview_objects_salvaged",
+        "details": {
+          "dropped_conditions": [],
+          "dropped_properties": [],
+          "dropped_unresolved_properties": [],
+          "dropped_series": [],
+          "dropped_points": [],
+          "dropped_evidence": 0,
+          "dropped_coordinates": 0
+        }
+      },
+      {
+        "ref_no": "reference_no_0038813",
+        "code": "preview_objects_salvaged",
+        "details": {
+          "dropped_conditions": [],
+          "dropped_properties": [],
+          "dropped_unresolved_properties": [],
+          "dropped_series": [],
+          "dropped_points": [],
+          "dropped_evidence": 0,
+          "dropped_coordinates": 0
+        }
+      },
+      {
+        "ref_no": "reference_no_0038527",
+        "code": "preview_objects_salvaged",
+        "details": {
+          "dropped_conditions": [],
+          "dropped_properties": [],
+          "dropped_unresolved_properties": [],
+          "dropped_series": [],
+          "dropped_points": [],
+          "dropped_evidence": 0,
+          "dropped_coordinates": 0
+        }
+      },
+      {
+        "ref_no": "reference_no_0037886",
+        "code": "preview_objects_salvaged",
+        "details": {
+          "dropped_conditions": [],
+          "dropped_properties": [],
+          "dropped_unresolved_properties": [],
+          "dropped_series": [],
+          "dropped_points": [],
+          "dropped_evidence": 0,
+          "dropped_coordinates": 0
+        }
+      },
+      {
+        "ref_no": "reference_no_0037645",
+        "code": "preview_objects_salvaged",
+        "details": {
+          "dropped_conditions": [],
+          "dropped_properties": [],
+          "dropped_unresolved_properties": [],
+          "dropped_series": [],
+          "dropped_points": [],
+          "dropped_evidence": 0,
+          "dropped_coordinates": 0
+        }
+      },
+      {
+        "ref_no": "reference_no_0037607",
+        "code": "preview_objects_salvaged",
+        "details": {
+          "dropped_conditions": [],
+          "dropped_properties": [],
+          "dropped_unresolved_properties": [],
+          "dropped_series": [],
+          "dropped_points": [],
+          "dropped_evidence": 0,
+          "dropped_coordinates": 0
+        }
+      },
+      {
+        "ref_no": "reference_no_0037268",
+        "code": "preview_objects_salvaged",
+        "details": {
+          "dropped_conditions": [],
+          "dropped_properties": [],
+          "dropped_unresolved_properties": [],
+          "dropped_series": [],
+          "dropped_points": [],
+          "dropped_evidence": 0,
+          "dropped_coordinates": 0
+        }
+      },
+      {
+        "ref_no": "reference_no_0033617",
+        "code": "preview_objects_salvaged",
+        "details": {
+          "dropped_conditions": [],
+          "dropped_properties": [],
+          "dropped_unresolved_properties": [],
+          "dropped_series": [],
+          "dropped_points": [],
+          "dropped_evidence": 0,
+          "dropped_coordinates": 0
+        }
+      },
+      {
+        "ref_no": "reference_no_0020284",
+        "code": "preview_objects_salvaged",
+        "details": {
+          "dropped_conditions": [],
+          "dropped_properties": [],
+          "dropped_unresolved_properties": [],
+          "dropped_series": [],
+          "dropped_points": [],
+          "dropped_evidence": 0,
+          "dropped_coordinates": 0
+        }
+      },
+      {
+        "ref_no": "reference_no_0021296",
+        "code": "preview_objects_salvaged",
+        "details": {
+          "dropped_conditions": [],
+          "dropped_properties": [],
+          "dropped_unresolved_properties": [],
+          "dropped_series": [],
+          "dropped_points": [],
+          "dropped_evidence": 0,
+          "dropped_coordinates": 0
+        }
+      }
+    ],
+    "property_series_incomplete": [
+      {
+        "ref_no": "reference_no_0043955",
+        "code": "property_series_incomplete",
+        "series_ids": [
+          "series002",
+          "series003"
+        ]
+      },
+      {
+        "ref_no": "reference_no_0038527",
+        "code": "property_series_incomplete",
+        "series_ids": [
+          "series001",
+          "series002",
+          "series006",
+          "series007"
+        ]
+      },
+      {
+        "ref_no": "reference_no_0037607",
+        "code": "property_series_incomplete",
+        "series_ids": [
+          "series003"
+        ]
+      },
+      {
+        "ref_no": "reference_no_0073324",
+        "code": "property_series_incomplete",
+        "series_ids": [
+          "series001"
+        ]
+      }
+    ]
+  }
+}

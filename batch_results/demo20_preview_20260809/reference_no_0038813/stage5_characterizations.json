@@ -1,0 +1,882 @@
+{
+  "schema_version": "1.0",
+  "document_id": "reference_no_0038813",
+  "characterizations": [
+    {
+      "characterization_id": "char001",
+      "method_raw": "Gel permeation chromatography (GPC)",
+      "method_normalized": "GPC",
+      "entity_id": "pe002",
+      "sample_resolution_status": "unresolved",
+      "instrument": "Waters 150-C instrument",
+      "parameters": {
+        "flow_rate": "1 ml/min",
+        "solvent": "dimethylformamide (DMF)",
+        "calibration": "polystyrene standards"
+      },
+      "derived_property_ids": [
+        "prop003",
+        "prop004",
+        "prop005",
+        "uprop001",
+        "uprop002"
+      ],
+      "evidence": [
+        {
+          "block_id": "P_1_21",
+          "page": 1,
+          "bbox": [
+            53.0,
+            330.0,
+            467.0,
+            787.0
+          ],
+          "source_type": "text",
+          "source_sentence": "Gel permeation chromatography (GPC) was performed on a Waters 150-C instrument using Styragel columns and a differential refractometer detector. The molecular weight calibration was carried out using polystyrene standards. Calibration and measurements were made at a flow rate of 1 ml/min, and dimethylformamide (DMF) was used as a solvent."
+        },
+        {
+          "block_id": "P_6_83",
+          "page": 6,
+          "bbox": [
+            87.0,
+            93.0,
+            500.0,
+            249.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The molecular weights and dispersity of the polymers were investigated using the GPC method with DMF as a solvent calibrated with polystyrene standards."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "characterization_id": "char002",
+      "method_raw": "Inherent viscosities were measured using an Ubbelohde viscometer",
+      "method_normalized": "viscometry",
+      "entity_id": "pe002",
+      "sample_resolution_status": "unresolved",
+      "instrument": "Ubbelohde viscometer",
+      "parameters": {
+        "concentration": "0.5 g/dl",
+        "solvent": "NMP"
+      },
+      "derived_property_ids": [
+        "prop002"
+      ],
+      "evidence": [
+        {
+          "block_id": "P_1_21",
+          "page": 1,
+          "bbox": [
+            53.0,
+            330.0,
+            467.0,
+            787.0
+          ],
+          "source_type": "text",
+          "source_sentence": "Inherent viscosities were measured using an Ubbelohde viscometer at a concentration of 0.5 g/dl in NMP at $3 0 ^ { \\circ } \\mathrm { C}$."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "characterization_id": "char003",
+      "method_raw": "Differential scanning calorimetry (DSC)",
+      "method_normalized": "DSC",
+      "entity_id": "pe002",
+      "sample_resolution_status": "unresolved",
+      "instrument": "Stanton Redcraft STA-780",
+      "parameters": {
+        "atmosphere": "air"
+      },
+      "derived_property_ids": [
+        "prop006"
+      ],
+      "evidence": [
+        {
+          "block_id": "P_1_21",
+          "page": 1,
+          "bbox": [
+            53.0,
+            330.0,
+            467.0,
+            787.0
+          ],
+          "source_type": "text",
+          "source_sentence": "Differential scanning calorimetry (DSC) and thermogravimetric analysis (TGA) were recorded duplicate on a Stanton Redcraft STA-780 (London, UK) in air at a heating rate of 108C/min. In DSC thermograms, the samples were heated from 30 to $2 0 0 ^ { \\circ } \\mathrm { C } ,$they were cooled, and then re-heated to eliminate the thermal history."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "characterization_id": "char004",
+      "method_raw": "thermogravimetric analysis (TGA)",
+      "method_normalized": "TGA",
+      "entity_id": "pe002",
+      "sample_resolution_status": "unresolved",
+      "instrument": "Stanton Redcraft STA-780",
+      "parameters": {
+        "atmosphere": "air"
+      },
+      "derived_property_ids": [
+        "prop007",
+        "prop008",
+        "prop009",
+        "prop010"
+      ],
+      "evidence": [
+        {
+          "block_id": "P_1_21",
+          "page": 1,
+          "bbox": [
+            53.0,
+            330.0,
+            467.0,
+            787.0
+          ],
+          "source_type": "text",
+          "source_sentence": "Differential scanning calorimetry (DSC) and thermogravimetric analysis (TGA) were recorded duplicate on a Stanton Redcraft STA-780 (London, UK) in air at a heating rate of 108C/min."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "characterization_id": "char005",
+      "method_raw": "dynamic mechanical measurements",
+      "method_normalized": "DMA",
+      "entity_id": "pe002",
+      "sample_resolution_status": "unresolved",
+      "instrument": "Polymer Laboratories dynamic mechanical thermal analyzer",
+      "parameters": {
+        "frequency": "1 Hz"
+      },
+      "derived_property_ids": [],
+      "evidence": [
+        {
+          "block_id": "P_1_21",
+          "page": 1,
+          "bbox": [
+            53.0,
+            330.0,
+            467.0,
+            787.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The dynamic mechanical measurements were recorded on a Polymer Laboratories dynamic mechanical thermal analyzer over a temperature range of $2 5 { - } 3 0 0 ^ { \\circ } \\mathrm { C }$at 1 Hz and a heating rate of 58C/min (Surrey, UK)."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "characterization_id": "char006",
+      "method_raw": "Fourier Transform Infrared (FTIR) spectrometer",
+      "method_normalized": "FTIR",
+      "entity_id": "pe002",
+      "sample_resolution_status": "unresolved",
+      "instrument": "Bruker-IFS 48 Fourier Transform Infrared (FTIR) spectrometer",
+      "parameters": {},
+      "derived_property_ids": [
+        "prop_s5_001",
+        "prop_s5_002",
+        "prop_s5_003",
+        "prop_s5_004"
+      ],
+      "evidence": [
+        {
+          "block_id": "P_1_21",
+          "page": 1,
+          "bbox": [
+            53.0,
+            330.0,
+            467.0,
+            787.0
+          ],
+          "source_type": "text",
+          "source_sentence": "Infrared measurements were performed on a Bruker-IFS 48 Fourier Transform Infrared (FTIR) spectrometer (Ettlingen, Germany)."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "characterization_id": "char007",
+      "method_raw": "H-nuclear magnetic resonance (NMR) spectra",
+      "method_normalized": "NMR",
+      "entity_id": "pe002",
+      "sample_resolution_status": "unresolved",
+      "instrument": "Bruker Avance DPX 250 MHz",
+      "parameters": {},
+      "derived_property_ids": [
+        "prop_s5_005",
+        "prop_s5_006"
+      ],
+      "evidence": [
+        {
+          "block_id": "P_1_21",
+          "page": 1,
+          "bbox": [
+            53.0,
+            330.0,
+            467.0,
+            787.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The H-nuclear magnetic resonance (NMR) spectra were recorded in DMSO-D solution using a Bruker Avance DPX 250 MHz (GmbH, Germany)."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "characterization_id": "char008",
+      "method_raw": "Wide-angle X-ray diffraction (WAXD)",
+      "method_normalized": "XRD",
+      "entity_id": "pe002",
+      "sample_resolution_status": "unresolved",
+      "parameters": {
+        "radiation": "Ni-filtered Cu Ka",
+        "voltage": "40 kV",
+        "current": "25 mA"
+      },
+      "derived_property_ids": [
+        "prop_s5_007"
+      ],
+      "evidence": [
+        {
+          "block_id": "P_1_21",
+          "page": 1,
+          "bbox": [
+            53.0,
+            330.0,
+            467.0,
+            787.0
+          ],
+          "source_type": "text",
+          "source_sentence": "Wide-angle X-ray diffraction (WAXD) patterns were performed at room temperature on an X-ray diffractometer (Siemens model D 5000) using a Ni-filtered Cu Ka radiation (40 kV, 25 mA) at a scanning rate of 38/min."
+        },
+        {
+          "block_id": "P_7_101",
+          "page": 7,
+          "bbox": [
+            53.0,
+            604.0,
+            467.0,
+            776.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The X-ray diffraction studies of the polyureas revealed that all of the polymers were amorphous."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "characterization_id": "char009",
+      "method_raw": "UV–Vis spectrometer",
+      "method_normalized": "UV-Vis",
+      "entity_id": "pe002",
+      "sample_resolution_status": "unresolved",
+      "instrument": "Cecil CE 1021 UV–Vis spectrometer",
+      "parameters": {
+        "solvent": "NMP"
+      },
+      "derived_property_ids": [
+        "prop011"
+      ],
+      "evidence": [
+        {
+          "block_id": "P_1_21",
+          "page": 1,
+          "bbox": [
+            53.0,
+            330.0,
+            467.0,
+            787.0
+          ],
+          "source_type": "text",
+          "source_sentence": "UV spectra were obtained by a Cecil CE 1021 UV–Vis spectrometer (Cambridge, UK)."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    }
+  ],
+  "properties": [
+    {
+      "property_id": "prop_s5_001",
+      "characterization_id": "char006",
+      "entity_id": "pe002",
+      "sample_resolution_status": "unresolved",
+      "property_name_raw": "IR (KBr) peak",
+      "property_name_normalized": "ftir_peak_wavenumber",
+      "property_category": "composition_structure",
+      "value_raw": "3338",
+      "value_min": 3338.0,
+      "value_max": 3338.0,
+      "unit_raw": "cm^{-1}",
+      "unit_normalized": "cm⁻¹",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_5_77",
+          "page": 5,
+          "bbox": [
+            55.0,
+            80.0,
+            905.0,
+            522.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<tr><td rowspan=\"4\">1AQA-PPDI</td><td>3338</td>",
+          "table_locator": {
+            "table_id": "T_5_77",
+            "row_label": "1AQA-PPDI",
+            "column_label": "IR (KBr)  $(cm^{-1})$",
+            "cell_value": "3338",
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_002",
+      "characterization_id": "char006",
+      "entity_id": "pe002",
+      "sample_resolution_status": "unresolved",
+      "property_name_raw": "IR (KBr) peak",
+      "property_name_normalized": "ftir_peak_wavenumber",
+      "property_category": "composition_structure",
+      "value_raw": "1670",
+      "value_min": 1670.0,
+      "value_max": 1670.0,
+      "unit_raw": "cm^{-1}",
+      "unit_normalized": "cm⁻¹",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_5_77",
+          "page": 5,
+          "bbox": [
+            55.0,
+            80.0,
+            905.0,
+            522.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<tr><td>1670</td></tr>",
+          "table_locator": {
+            "table_id": "T_5_77",
+            "row_label": "1AQA-PPDI",
+            "column_label": "IR (KBr)  $(cm^{-1})$",
+            "cell_value": "1670",
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_003",
+      "characterization_id": "char006",
+      "entity_id": "pe002",
+      "sample_resolution_status": "unresolved",
+      "property_name_raw": "IR (KBr) peak",
+      "property_name_normalized": "ftir_peak_wavenumber",
+      "property_category": "composition_structure",
+      "value_raw": "1634",
+      "value_min": 1634.0,
+      "value_max": 1634.0,
+      "unit_raw": "cm^{-1}",
+      "unit_normalized": "cm⁻¹",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_5_77",
+          "page": 5,
+          "bbox": [
+            55.0,
+            80.0,
+            905.0,
+            522.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<tr><td>1634</td></tr>",
+          "table_locator": {
+            "table_id": "T_5_77",
+            "row_label": "1AQA-PPDI",
+            "column_label": "IR (KBr)  $(cm^{-1})$",
+            "cell_value": "1634",
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_004",
+      "characterization_id": "char006",
+      "entity_id": "pe002",
+      "sample_resolution_status": "unresolved",
+      "property_name_raw": "IR (KBr) peak",
+      "property_name_normalized": "ftir_peak_wavenumber",
+      "property_category": "composition_structure",
+      "value_raw": "1598",
+      "value_min": 1598.0,
+      "value_max": 1598.0,
+      "unit_raw": "cm^{-1}",
+      "unit_normalized": "cm⁻¹",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_5_77",
+          "page": 5,
+          "bbox": [
+            55.0,
+            80.0,
+            905.0,
+            522.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<tr><td>1598</td></tr>",
+          "table_locator": {
+            "table_id": "T_5_77",
+            "row_label": "1AQA-PPDI",
+            "column_label": "IR (KBr)  $(cm^{-1})$",
+            "cell_value": "1598",
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_005",
+      "characterization_id": "char007",
+      "entity_id": "pe002",
+      "sample_resolution_status": "unresolved",
+      "property_name_raw": "NMR (DMSO-D6) chemical shift",
+      "property_name_normalized": "nmr_chemical_shift",
+      "property_category": "composition_structure",
+      "value_raw": "12.76",
+      "value_min": 12.76,
+      "value_max": 12.76,
+      "spectral_assignment": "s, 1H, NH",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_5_77",
+          "page": 5,
+          "bbox": [
+            55.0,
+            80.0,
+            905.0,
+            522.0
+          ],
+          "source_type": "table",
+          "source_sentence": "12.76 (s, 1H, NH), 9.07 (s, 2H, ph), 8.99 (s, 1H, NH)",
+          "table_locator": {
+            "table_id": "T_5_77",
+            "row_label": "1AQA-PPDI",
+            "column_label": "NMR (DMSO- $D_6$ ) ( $\\delta$ )",
+            "cell_value": "12.76 (s, 1H, NH)",
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_006",
+      "characterization_id": "char007",
+      "entity_id": "pe002",
+      "sample_resolution_status": "unresolved",
+      "property_name_raw": "NMR (DMSO-D6) chemical shift",
+      "property_name_normalized": "nmr_chemical_shift",
+      "property_category": "composition_structure",
+      "value_raw": "9.07",
+      "value_min": 9.07,
+      "value_max": 9.07,
+      "spectral_assignment": "s, 2H, ph",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_5_77",
+          "page": 5,
+          "bbox": [
+            55.0,
+            80.0,
+            905.0,
+            522.0
+          ],
+          "source_type": "table",
+          "source_sentence": "12.76 (s, 1H, NH), 9.07 (s, 2H, ph), 8.99 (s, 1H, NH)",
+          "table_locator": {
+            "table_id": "T_5_77",
+            "row_label": "1AQA-PPDI",
+            "column_label": "NMR (DMSO- $D_6$ ) ( $\\delta$ )",
+            "cell_value": "9.07 (s, 2H, ph)",
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_007",
+      "characterization_id": "char008",
+      "entity_id": "pe002",
+      "sample_resolution_status": "unresolved",
+      "property_name_raw": "crystallinity",
+      "property_name_normalized": "xrd_crystallinity",
+      "property_category": "morphology",
+      "value_raw": "amorphous",
+      "source_stage": "stage5",
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_7_101",
+          "page": 7,
+          "bbox": [
+            53.0,
+            604.0,
+            467.0,
+            776.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The X-ray diffraction studies of the polyureas revealed that all of the polymers were amorphous."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    }
+  ],
+  "provenance": {
+    "stage": "stage5_characterization",
+    "provider": "dmx",
+    "model": "doubao-seed-2.0-pro",
+    "models": [
+      "doubao-seed-2.0-pro"
+    ],
+    "prompt_id": "polymer.stage5.characterization",
+    "prompt_version": "1.6.2",
+    "prompt_sha256": "5f918eb9d0dcbe0a4dc60a70d83c4e9f144f9a87bf68905d0a38ad22c000ee5c",
+    "vocabulary_sha256": "3e9d85e4915a729edf0f0a53821f3ee6edf32874e1da6972457417e4f13a1510",
+    "input_hash": "cd082f3ef3d1ab8a0b21c724e82091ca5e0b9db525bb821da5b1b795d9982a85",
+    "model_config_hash": "7e14aff06827af47a7b1a797111258e33d5972d1c072111440c3b2aae020f3ce",
+    "cache_key": "7983430424f516de76846a6a181a216afacf6f09d87db347a7ed2576f8172aff",
+    "output_schema_version": "characterization_schema.v4",
+    "implementation_version": "1.7.1",
+    "context_block_count": 51,
+    "context_chars": 37423,
+    "call_count": 1,
+    "usage": {
+      "input_tokens": 22941,
+      "output_tokens": 9246,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "billable_input_tokens": 22941,
+      "total_tokens": 32187
+    },
+    "cost": {
+      "status": "calculated",
+      "currency": "CNY",
+      "input_per_million": "4.32",
+      "output_per_million": "29.15",
+      "input_cost": "0.09910512",
+      "output_cost": "0.2695209",
+      "total_cost": "0.36862602"
+    },
+    "status": "success"
+  },
+  "warnings": [
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_subject_scope_normalized",
+      "message": "Preview 模式已将冲突或空的主体字段收敛为单一合法范围",
+      "field_path": "characterizations[0]"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_subject_scope_normalized",
+      "message": "Preview 模式已将冲突或空的主体字段收敛为单一合法范围",
+      "field_path": "characterizations[1]"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_subject_scope_normalized",
+      "message": "Preview 模式已将冲突或空的主体字段收敛为单一合法范围",
+      "field_path": "characterizations[2]"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_subject_scope_normalized",
+      "message": "Preview 模式已将冲突或空的主体字段收敛为单一合法范围",
+      "field_path": "characterizations[3]"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_subject_scope_normalized",
+      "message": "Preview 模式已将冲突或空的主体字段收敛为单一合法范围",
+      "field_path": "characterizations[4]"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_subject_scope_normalized",
+      "message": "Preview 模式已将冲突或空的主体字段收敛为单一合法范围",
+      "field_path": "characterizations[5]"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_subject_scope_normalized",
+      "message": "Preview 模式已将冲突或空的主体字段收敛为单一合法范围",
+      "field_path": "characterizations[6]"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_subject_scope_normalized",
+      "message": "Preview 模式已将冲突或空的主体字段收敛为单一合法范围",
+      "field_path": "characterizations[7]"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_subject_scope_normalized",
+      "message": "Preview 模式已将冲突或空的主体字段收敛为单一合法范围",
+      "field_path": "characterizations[8]"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_incomplete_table_evidence_removed",
+      "message": "Preview 模式已移除缺少 table_locator 的附加表格 evidence；同一对象仍保留其他原文 evidence",
+      "field_path": "characterizations[5].evidence",
+      "block_ids": [
+        "T_5_77"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_incomplete_table_evidence_removed",
+      "message": "Preview 模式已移除缺少 table_locator 的附加表格 evidence；同一对象仍保留其他原文 evidence",
+      "field_path": "characterizations[6].evidence",
+      "block_ids": [
+        "T_5_77"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_characterization_details_cleared",
+      "message": "Preview 模式已清空无对象 evidence 支撑的可选表征细节",
+      "field_path": "characterizations[1]",
+      "fields": [
+        "parameters"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_characterization_details_cleared",
+      "message": "Preview 模式已清空无对象 evidence 支撑的可选表征细节",
+      "field_path": "characterizations[2]",
+      "fields": [
+        "parameters"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_characterization_details_cleared",
+      "message": "Preview 模式已清空无对象 evidence 支撑的可选表征细节",
+      "field_path": "characterizations[3]",
+      "fields": [
+        "parameters"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_characterization_details_cleared",
+      "message": "Preview 模式已清空无对象 evidence 支撑的可选表征细节",
+      "field_path": "characterizations[4]",
+      "fields": [
+        "parameters"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_characterization_details_cleared",
+      "message": "Preview 模式已清空无对象 evidence 支撑的可选表征细节",
+      "field_path": "characterizations[5]",
+      "fields": [
+        "parameters"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_characterization_details_cleared",
+      "message": "Preview 模式已清空无对象 evidence 支撑的可选表征细节",
+      "field_path": "characterizations[6]",
+      "fields": [
+        "parameters"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_characterization_details_cleared",
+      "message": "Preview 模式已清空无对象 evidence 支撑的可选表征细节",
+      "field_path": "characterizations[7]",
+      "fields": [
+        "instrument",
+        "parameters"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[4]",
+      "property_id": "prop_s5_005",
+      "fields": [
+        "unit_raw",
+        "solvent"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[5]",
+      "property_id": "prop_s5_006",
+      "fields": [
+        "unit_raw",
+        "solvent"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_property_subject_scope_aligned",
+      "message": "Preview 模式已将冲突的派生性质主体对齐到所属 Characterization",
+      "field_path": "properties[0]",
+      "characterization_id": "char006"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_property_subject_scope_aligned",
+      "message": "Preview 模式已将冲突的派生性质主体对齐到所属 Characterization",
+      "field_path": "properties[1]",
+      "characterization_id": "char006"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_property_subject_scope_aligned",
+      "message": "Preview 模式已将冲突的派生性质主体对齐到所属 Characterization",
+      "field_path": "properties[2]",
+      "characterization_id": "char006"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_property_subject_scope_aligned",
+      "message": "Preview 模式已将冲突的派生性质主体对齐到所属 Characterization",
+      "field_path": "properties[3]",
+      "characterization_id": "char006"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_property_subject_scope_aligned",
+      "message": "Preview 模式已将冲突的派生性质主体对齐到所属 Characterization",
+      "field_path": "properties[4]",
+      "characterization_id": "char007"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_property_subject_scope_aligned",
+      "message": "Preview 模式已将冲突的派生性质主体对齐到所属 Characterization",
+      "field_path": "properties[5]",
+      "characterization_id": "char007"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_property_subject_scope_aligned",
+      "message": "Preview 模式已将冲突的派生性质主体对齐到所属 Characterization",
+      "field_path": "properties[6]",
+      "characterization_id": "char008"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_semantic_validation_bypassed",
+      "message": "Preview 已保留 Schema 合法候选，并跳过原文/evidence 语义对应校验；Strict 模式仍会报错",
+      "reason": "char005.method_raw 与 method_normalized 不匹配"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "unresolved_characterizations",
+      "message": "9 条表征无法可靠关联具体 Sample",
+      "characterization_ids": [
+        "char001",
+        "char002",
+        "char003",
+        "char004",
+        "char005",
+        "char006",
+        "char007",
+        "char008",
+        "char009"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "unresolved_stage5_properties",
+      "message": "7 条 Stage 5 性质无法可靠关联具体 Sample",
+      "property_ids": [
+        "prop_s5_001",
+        "prop_s5_002",
+        "prop_s5_003",
+        "prop_s5_004",
+        "prop_s5_005",
+        "prop_s5_006",
+        "prop_s5_007"
+      ]
+    }
+  ]
+}

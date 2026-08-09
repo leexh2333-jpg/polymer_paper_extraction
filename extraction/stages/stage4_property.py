@@ -5,6 +5,7 @@ from __future__ import annotations
 import argparse
 import copy
 import hashlib
+from dataclasses import asdict
 import html
 import json
 import re
@@ -74,6 +75,9 @@ from stages.table_grid import resolve_table_locator, table_cells_for
 STAGE_ID = "stage4_property"
 OUTPUT_SCHEMA_VERSION = "property_observation_schema.v7"
 IMPLEMENTATION_VERSION = "1.7.10"
+CACHE_REVISION = "stage4-preview-repair-20260809"
+# CACHE_REVISION 用于使本轮 Preview 修复后的缓存与旧空壳缓存隔离；
+# provenance 版本保持现有 Schema 支持的 1.7.10，Strict 语义不变。
 # 1.7.10 Preview 在响应结构合法但 evidence 语义校验失败时保留原候选；
 # 响应结构仍无法安全解析时生成 degraded 空壳结果，Strict 行为不变。
 # 1.7.9 将仅作为其他 Series 的 coordinate 留存的多值性质列降级为告警，
@@ -313,21 +317,36 @@ def select_context_blocks(
     if missing:
         raise Stage4Error(f"上游输出引用了未知 block：{missing}")
 
+    eligible_types = {
+        "text",
+        "title",
+        "table",
+        "image",
+        "equation",
+        "footnote",
+    }
     section_ids = {
         element.block_id
         for element in document.elements
         if element.section in input_sections
-        and element.type in {
-            "text",
-            "title",
-            "table",
-            "image",
-            "equation",
-            "footnote",
-        }
+        and element.type in eligible_types
         and bool(_element_source_text(element))
     }
-    selected_ids = section_ids | referenced_ids
+    all_table_ids = {
+        element.block_id
+        for element in document.elements
+        if element.type == "table" and bool(_element_source_text(element))
+    }
+    fallback_ids: set[str] = set()
+    if not section_ids:
+        fallback_ids = {
+            element.block_id
+            for element in document.elements
+            if element.type in eligible_types
+            and (element.section or "").strip().casefold() != "references"
+            and bool(_element_source_text(element))
+        }
+    selected_ids = section_ids | all_table_ids | referenced_ids | fallback_ids
     blocks = [
         element
         for element in document.elements
@@ -348,8 +367,18 @@ def select_context_blocks(
             "stage": STAGE_ID,
             "code": "section_fallback",
             "message": (
-                "Methods/Results 为空，仅使用上游 evidence block；结果需人工复核"
+                "Methods/Results 为空，已回落使用全部非 References 正文与全部表格；"
+                "结果需人工复核"
             ),
+            "fallback_block_count": len(fallback_ids),
+        })
+    tables_outside_sections = sorted(all_table_ids - section_ids)
+    if tables_outside_sections:
+        warnings.append({
+            "stage": STAGE_ID,
+            "code": "all_tables_included",
+            "message": "已将目标 section 之外的非空表格一并加入 Stage 4 输入",
+            "table_block_ids": tables_outside_sections,
         })
     return blocks, warnings, context_chars
 
@@ -2338,7 +2367,113 @@ def _repair_candidate_response_payload(
         "preview_missing_point_locators_recovered_from_unique_rows": 0,
         "preview_point_locators_recovered_from_unique_rows": 0,
         "preview_unresolved_series_points_synthesized": 0,
+        "point_subject_inherited_from_series": 0,
+        "preview_invalid_resolution_status_normalized": 0,
+        "source_text_aliases_normalized": 0,
+        "preview_missing_source_sentences_filled": 0,
+        "preview_condition_quantity_ranges_compacted": 0,
+        "preview_series_unsupported_fields_removed": 0,
+        "preview_singleton_coordinate_evidence_unwrapped": 0,
+        "preview_blank_table_locators_degraded": 0,
+        "preview_ambiguous_condition_objects_removed": 0,
     }
+    block_map = {block.block_id: block for block in blocks}
+
+    def normalize_evidence_aliases(value: Any) -> None:
+        if isinstance(value, dict):
+            source_text = value.get("source_text")
+            source_sentence = value.get("source_sentence")
+            if (
+                source_sentence is None
+                and isinstance(value.get("block_id"), str)
+                and isinstance(source_text, str)
+                and source_text.strip()
+            ):
+                value["source_sentence"] = source_text
+                value.pop("source_text", None)
+                repairs["source_text_aliases_normalized"] += 1
+            elif (
+                preview_relaxed
+                and isinstance(value.get("block_id"), str)
+                and (
+                    not isinstance(source_sentence, str)
+                    or not source_sentence.strip()
+                )
+            ):
+                block = block_map.get(value["block_id"])
+                replacement = (
+                    source_text.strip()
+                    if isinstance(source_text, str) and source_text.strip()
+                    else _element_source_text(block) if block is not None else ""
+                )
+                if replacement:
+                    value["source_sentence"] = replacement
+                    value.pop("source_text", None)
+                    repairs["preview_missing_source_sentences_filled"] += 1
+            for child in value.values():
+                normalize_evidence_aliases(child)
+        elif isinstance(value, list):
+            for child in value:
+                normalize_evidence_aliases(child)
+
+    def compact_preview_condition_quantity_ranges(value: Any) -> None:
+        if isinstance(value, dict):
+            for field in (
+                "temperature",
+                "frequency",
+                "humidity",
+                "pressure",
+                "wavelength",
+            ):
+                quantity = value.get(field)
+                if not isinstance(quantity, dict):
+                    continue
+                has_min = "value_min" in quantity
+                has_max = "value_max" in quantity
+                value_min = quantity.pop("value_min", None)
+                value_max = quantity.pop("value_max", None)
+                if has_min or has_max:
+                    if (
+                        quantity.get("value") is None
+                        and value_min is not None
+                        and value_max is not None
+                        and value_min == value_max
+                    ):
+                        quantity["value"] = value_min
+                    repairs[
+                        "preview_condition_quantity_ranges_compacted"
+                    ] += 1
+            for child in value.values():
+                compact_preview_condition_quantity_ranges(child)
+        elif isinstance(value, list):
+            for child in value:
+                compact_preview_condition_quantity_ranges(child)
+
+    normalize_evidence_aliases(payload)
+    if preview_relaxed:
+        compact_preview_condition_quantity_ranges(payload)
+        for series in payload.get("property_series", []):
+            if not isinstance(series, dict):
+                continue
+            if "molecular_weight_type" in series:
+                series.pop("molecular_weight_type", None)
+                repairs["preview_series_unsupported_fields_removed"] += 1
+            for point in series.get("points", []):
+                if not isinstance(point, dict):
+                    continue
+                for coordinate in point.get("coordinates", []):
+                    if not isinstance(coordinate, dict):
+                        continue
+                    evidence = coordinate.get("evidence")
+                    if (
+                        isinstance(evidence, list)
+                        and len(evidence) == 1
+                        and isinstance(evidence[0], dict)
+                    ):
+                        coordinate["evidence"] = evidence[0]
+                        repairs[
+                            "preview_singleton_coordinate_evidence_unwrapped"
+                        ] += 1
     if preview_relaxed:
         for collection_name in ("properties", "property_series"):
             for item in payload.get(collection_name, []):
@@ -2685,19 +2820,46 @@ def _repair_candidate_response_payload(
         ):
             series["entity_id"] = expected_entity
             repairs["series_entity_relinked_to_sample"] += 1
+        series_resolution = series.get("sample_resolution_status")
+        if preview_relaxed and series_resolution not in {"resolved", "unresolved"}:
+            if series.get("sample_id") in sample_entities:
+                series["entity_id"] = sample_entities[series["sample_id"]]
+                series["sample_resolution_status"] = "resolved"
+            else:
+                series["sample_id"] = None
+                if series.get("entity_id") not in set(sample_entities.values()):
+                    series["entity_id"] = None
+                series["sample_resolution_status"] = "unresolved"
+            series_resolution = series["sample_resolution_status"]
+            repairs["preview_invalid_resolution_status_normalized"] += 1
         for point in series.get("points", []):
             if not isinstance(point, dict):
                 continue
             if (
-                series.get("sample_resolution_status") == "unresolved"
-                and point.get("sample_resolution_status") is None
-                and point.get("sample_id") is None
-                and point.get("entity_id") is None
-                and bool(point.get("coordinates"))
-                and bool(point.get("evidence"))
+                preview_relaxed
+                and point.get("sample_resolution_status")
+                not in {"resolved", "unresolved"}
             ):
-                point["sample_resolution_status"] = "unresolved"
-                repairs["preview_unresolved_point_status_filled"] += 1
+                if point.get("sample_id") in sample_entities:
+                    point["entity_id"] = sample_entities[point["sample_id"]]
+                    point["sample_resolution_status"] = "resolved"
+                elif (
+                    point.get("sample_id") is None
+                    and point.get("entity_id") is None
+                    and series_resolution in {"resolved", "unresolved"}
+                ):
+                    point["sample_id"] = series.get("sample_id")
+                    point["entity_id"] = series.get("entity_id")
+                    point["sample_resolution_status"] = series_resolution
+                    repairs["point_subject_inherited_from_series"] += 1
+                    if series_resolution == "unresolved":
+                        repairs["preview_unresolved_point_status_filled"] += 1
+                else:
+                    point["sample_id"] = None
+                    if point.get("entity_id") not in set(sample_entities.values()):
+                        point["entity_id"] = None
+                    point["sample_resolution_status"] = "unresolved"
+                repairs["preview_invalid_resolution_status_normalized"] += 1
             point_sample_id = point.get("sample_id")
             point_expected_entity = sample_entities.get(point_sample_id)
             if isinstance(point_expected_entity, str) and (
@@ -2734,7 +2896,6 @@ def _repair_candidate_response_payload(
                 "resolved" if subjects[0][0] is not None else "unresolved"
             )
             repairs["single_subject_series_inherited_from_points"] += 1
-    block_map = {block.block_id: block for block in blocks}
     if preview_relaxed:
         retained_properties = []
         for item in payload.get("properties", []):
@@ -2791,13 +2952,73 @@ def _repair_candidate_response_payload(
         if not isinstance(condition, dict):
             continue
         evidence = condition.get("evidence")
-        if (
-            isinstance(evidence, list)
-            and len(evidence) == 1
-            and isinstance(evidence[0], dict)
-        ):
-            condition["evidence"] = evidence[0]
-            repairs["singleton_condition_evidence_unwrapped"] += 1
+        if isinstance(evidence, list):
+            candidates = [item for item in evidence if isinstance(item, dict)]
+            unique_candidates: list[dict[str, Any]] = []
+            seen_candidates: set[str] = set()
+            for candidate in candidates:
+                key = json.dumps(
+                    candidate,
+                    ensure_ascii=False,
+                    sort_keys=True,
+                    separators=(",", ":"),
+                )
+                if key not in seen_candidates:
+                    seen_candidates.add(key)
+                    unique_candidates.append(candidate)
+            selected: dict[str, Any] | None = None
+            if len(unique_candidates) == 1:
+                selected = unique_candidates[0]
+            elif unique_candidates:
+                raw_values = {
+                    raw.strip()
+                    for field in (
+                        "temperature", "frequency", "humidity", "pressure",
+                        "wavelength",
+                    )
+                    if isinstance((quantity := condition.get(field)), dict)
+                    for raw in (
+                        quantity.get("value_raw"), quantity.get("unit_raw")
+                    )
+                    if isinstance(raw, str) and raw.strip()
+                }
+                raw_values.update(
+                    raw.strip()
+                    for raw in (condition.get("other_conditions") or {}).values()
+                    if isinstance(raw, str) and raw.strip()
+                )
+                matching = [
+                    candidate
+                    for candidate in unique_candidates
+                    if (block := block_map.get(candidate.get("block_id"))) is not None
+                    and raw_values
+                    and any(
+                        _resolve_surface_text(_element_source_text(block), raw)
+                        is not None
+                        for raw in raw_values
+                    )
+                ]
+                if len(matching) == 1:
+                    selected = matching[0]
+                else:
+                    property_block_ids = {
+                        item_evidence.get("block_id")
+                        for item in condition_properties.get(
+                            str(condition.get("condition_id")), []
+                        )
+                        for item_evidence in item.get("evidence", [])
+                        if isinstance(item_evidence, dict)
+                    }
+                    linked = [
+                        candidate
+                        for candidate in unique_candidates
+                        if candidate.get("block_id") in property_block_ids
+                    ]
+                    if len(linked) == 1:
+                        selected = linked[0]
+            if selected is not None:
+                condition["evidence"] = selected
+                repairs["singleton_condition_evidence_unwrapped"] += 1
         evidence = condition.get("evidence")
         if not isinstance(evidence, dict):
             continue
@@ -4558,6 +4779,28 @@ def _repair_candidate_response_payload(
             retained_properties.append(item)
         payload["properties"] = retained_properties
 
+    if preview_relaxed:
+        def degrade_blank_table_locators(value: Any) -> None:
+            if isinstance(value, dict):
+                locator = value.get("table_locator")
+                if isinstance(locator, dict) and any(
+                    isinstance(locator.get(field), str)
+                    and not locator[field].strip()
+                    for field in ("row_label", "column_label")
+                ):
+                    value["table_locator"] = None
+                    repairs["preview_blank_table_locators_degraded"] += 1
+                for child in value.values():
+                    degrade_blank_table_locators(child)
+            elif isinstance(value, list):
+                for child in value:
+                    degrade_blank_table_locators(child)
+
+        degrade_blank_table_locators(payload)
+
+    # 锚定修复可能再次清空 reported condition，返回前必须再降级一次。
+    downgrade_empty_reported_context(payload)
+
     for series in series_items:
         series_confidence = series.get("confidence")
         if not isinstance(series_confidence, dict):
@@ -5005,6 +5248,28 @@ def _candidate_repair_warnings(
             ),
             "series_evidence": repairs[
                 "series_context_evidence_supplemented"
+            ],
+        })
+    if repairs["preview_series_unsupported_fields_removed"]:
+        warnings.append({
+            "stage": STAGE_ID,
+            "code": "preview_series_unsupported_fields_removed",
+            "message": (
+                "PropertySeries 包含仅适用于标量性质的字段；"
+                "Preview 已删除该字段，Strict 模式仍会报错"
+            ),
+            "fields": repairs["preview_series_unsupported_fields_removed"],
+        })
+    if repairs["preview_singleton_coordinate_evidence_unwrapped"]:
+        warnings.append({
+            "stage": STAGE_ID,
+            "code": "preview_singleton_coordinate_evidence_unwrapped",
+            "message": (
+                "PropertySeriesCoordinate evidence 误输出为单项数组；"
+                "Preview 已确定性解包为唯一 evidence 对象，Strict 模式仍会报错"
+            ),
+            "coordinates": repairs[
+                "preview_singleton_coordinate_evidence_unwrapped"
             ],
         })
     return warnings
@@ -5503,6 +5768,322 @@ def _materialize(
     return conditions, properties, unresolved, property_series
 
 
+
+def _preview_salvage_materialization(
+    parsed: PropertyStageResponse,
+    blocks: list[Stage0Element],
+) -> tuple[
+    PropertyStageResponse,
+    tuple[
+        list[MeasurementCondition],
+        list[PropertyObservation],
+        list[UnresolvedPropertyObservation],
+        list[PropertySeries],
+    ],
+    dict[str, Any],
+]:
+    """Preview 按对象保留可物化候选，避免单条坏数据清空整篇。"""
+
+    block_ids = {block.block_id for block in blocks}
+    report: dict[str, Any] = {
+        "dropped_conditions": [],
+        "dropped_properties": [],
+        "dropped_unresolved_properties": [],
+        "dropped_series": [],
+        "dropped_points": [],
+        "dropped_evidence": 0,
+        "dropped_coordinates": 0,
+    }
+
+    def valid_evidence(item: Any) -> bool:
+        return getattr(item, "block_id", None) in block_ids
+
+    def clean_context_payload(payload: dict[str, Any]) -> dict[str, Any]:
+        cleaned = copy.deepcopy(payload)
+        for field in (
+            "temperature",
+            "frequency",
+            "humidity",
+            "pressure",
+            "wavelength",
+        ):
+            quantity = cleaned.get(field)
+            if not isinstance(quantity, dict):
+                continue
+            evidence = quantity.get("evidence")
+            if isinstance(evidence, list):
+                kept = [
+                    item for item in evidence
+                    if isinstance(item, dict)
+                    and item.get("block_id") in block_ids
+                ]
+                report["dropped_evidence"] += len(evidence) - len(kept)
+                quantity["evidence"] = kept
+        evidence_map = cleaned.get("other_condition_evidence")
+        if isinstance(evidence_map, dict):
+            kept_map: dict[str, list[dict[str, Any]]] = {}
+            for key, evidence in evidence_map.items():
+                if not isinstance(evidence, list):
+                    continue
+                kept = [
+                    item for item in evidence
+                    if isinstance(item, dict)
+                    and item.get("block_id") in block_ids
+                ]
+                report["dropped_evidence"] += len(evidence) - len(kept)
+                if kept:
+                    kept_map[key] = kept
+            cleaned["other_condition_evidence"] = kept_map
+        return cleaned
+
+    def clean_evidence_list(items: list[Any]) -> list[Any]:
+        kept = [item for item in items if valid_evidence(item)]
+        report["dropped_evidence"] += len(items) - len(kept)
+        return kept
+
+    def coverage_payload(points: list[PropertySeriesPointCandidate]) -> dict[str, Any]:
+        covered = sum(item.coverage_status == "covered" for item in points)
+        missing = sum(item.coverage_status == "missing" for item in points)
+        not_applicable = sum(
+            item.coverage_status == "not_applicable" for item in points
+        )
+        expected = covered + missing
+        return {
+            "expected": expected,
+            "covered": covered,
+            "missing": missing,
+            "not_applicable": not_applicable,
+            "ratio": covered / expected if expected else 1.0,
+        }
+
+    def candidate_from_payload(payload: dict[str, Any]) -> PropertyStageResponse:
+        return PropertyStageResponse.model_validate(payload)
+
+    safe_payload: dict[str, list[Any]] = {
+        "measurement_conditions": [],
+        "properties": [],
+        "unresolved_properties": [],
+        "property_series": [],
+    }
+
+    # Condition 是 resolved property 的必需引用；自身无法物化时只删除它，
+    # 后续引用清扫会删除对应 property，不猜测其他 condition。
+    for item in parsed.measurement_conditions:
+        payload = clean_context_payload(item.model_dump(mode="python"))
+        evidence = payload.get("evidence")
+        if not isinstance(evidence, dict) or evidence.get("block_id") not in block_ids:
+            report["dropped_conditions"].append(item.condition_id)
+            report["dropped_evidence"] += 1
+            continue
+        try:
+            trial_payload = copy.deepcopy(safe_payload)
+            trial_payload["measurement_conditions"].append(payload)
+            trial = candidate_from_payload(trial_payload)
+            _materialize(trial, blocks)
+        except (KeyError, ValidationError, ValueError):
+            report["dropped_conditions"].append(item.condition_id)
+            continue
+        safe_payload = trial.model_dump(mode="python")
+
+    # Series 先逐 point 清理；point 坏只删 point，全部 point 坏才删 series。
+    for item in parsed.property_series:
+        series_payload = clean_context_payload(item.model_dump(mode="python"))
+        series_evidence = clean_evidence_list(list(item.evidence))
+        kept_points: list[PropertySeriesPointCandidate] = []
+        for point in item.points:
+            point_payload = point.model_dump(mode="python")
+            point_payload["evidence"] = [
+                evidence.model_dump(mode="python")
+                for evidence in clean_evidence_list(list(point.evidence))
+            ]
+            if not point_payload["evidence"]:
+                report["dropped_points"].append({
+                    "series_id": item.series_id,
+                    "point_id": point.point_id,
+                })
+                continue
+            coordinates = []
+            for coordinate in point.coordinates:
+                if valid_evidence(coordinate.evidence):
+                    coordinates.append(coordinate.model_dump(mode="python"))
+                else:
+                    report["dropped_coordinates"] += 1
+                    report["dropped_evidence"] += 1
+            point_payload["coordinates"] = coordinates
+            if point.measurement_context is not None:
+                point_payload["measurement_context"] = clean_context_payload(
+                    point.measurement_context.model_dump(mode="python")
+                )
+            try:
+                point_candidate = PropertySeriesPointCandidate.model_validate(
+                    point_payload
+                )
+                point_series_payload = copy.deepcopy(series_payload)
+                point_series_payload["points"] = [
+                    point_candidate.model_dump(mode="python")
+                ]
+                point_series_payload["coverage"] = coverage_payload(
+                    [point_candidate]
+                )
+                if (
+                    point_series_payload.get("sample_id") is None
+                    and point_series_payload.get("entity_id") is None
+                    and (
+                        point_candidate.sample_id is not None
+                        or point_candidate.entity_id is not None
+                    )
+                ):
+                    # 多主体 series 拆成单 point 试验时会暂时失去
+                    # multiple_subjects 条件；仅在试验副本继承当前 point
+                    # 的主体，避免把本来可物化的 point 误删。
+                    point_series_payload["sample_id"] = point_candidate.sample_id
+                    point_series_payload["entity_id"] = point_candidate.entity_id
+                    point_series_payload["sample_resolution_status"] = (
+                        point_candidate.sample_resolution_status
+                    )
+                if not series_evidence:
+                    point_series_payload["evidence"] = point_payload["evidence"]
+                else:
+                    point_series_payload["evidence"] = [
+                        evidence.model_dump(mode="python")
+                        for evidence in series_evidence
+                    ]
+                point_series = PropertySeriesCandidate.model_validate(
+                    point_series_payload
+                )
+                trial = PropertyStageResponse.model_validate({
+                    "property_series": [
+                        point_series.model_dump(mode="python")
+                    ]
+                })
+                _materialize(trial, blocks)
+            except (KeyError, ValidationError, ValueError):
+                report["dropped_points"].append({
+                    "series_id": item.series_id,
+                    "point_id": point.point_id,
+                })
+                continue
+            kept_points.append(point_candidate)
+
+        if not kept_points:
+            report["dropped_series"].append(item.series_id)
+            continue
+        series_payload["points"] = [
+            point.model_dump(mode="python") for point in kept_points
+        ]
+        series_payload["coverage"] = coverage_payload(kept_points)
+        if series_evidence:
+            series_payload["evidence"] = [
+                evidence.model_dump(mode="python")
+                for evidence in series_evidence
+            ]
+        else:
+            # Series evidence 是最终对象必填项；仅复用其保留 point 的原始 evidence，
+            # 不创建新文本、不选择实体，也不改变 subject 归属。
+            deduplicated: dict[tuple[str, str], dict[str, Any]] = {}
+            for point in kept_points:
+                for evidence in point.evidence:
+                    if valid_evidence(evidence):
+                        key = (evidence.block_id, evidence.source_sentence)
+                        deduplicated.setdefault(
+                            key,
+                            evidence.model_dump(mode="python"),
+                        )
+            series_payload["evidence"] = list(deduplicated.values())
+        try:
+            series_candidate = PropertySeriesCandidate.model_validate(
+                series_payload
+            )
+            trial_payload = copy.deepcopy(safe_payload)
+            trial_payload["property_series"].append(
+                series_candidate.model_dump(mode="python")
+            )
+            trial = candidate_from_payload(trial_payload)
+            _materialize(trial, blocks)
+        except (KeyError, ValidationError, ValueError):
+            report["dropped_series"].append(item.series_id)
+            continue
+        safe_payload = trial.model_dump(mode="python")
+
+    known_conditions = {
+        item["condition_id"] for item in safe_payload["measurement_conditions"]
+    }
+    known_series = {
+        item["series_id"] for item in safe_payload["property_series"]
+    }
+
+    def references_known_series(item: Any) -> bool:
+        references = set(item.series_ids or [])
+        if item.series_id is not None:
+            references.add(item.series_id)
+        return references <= known_series
+
+    for item in parsed.properties:
+        if (
+            item.measurement_condition_id not in known_conditions
+            or not references_known_series(item)
+        ):
+            report["dropped_properties"].append(item.property_id)
+            continue
+        payload = item.model_dump(mode="python")
+        payload["evidence"] = [
+            evidence.model_dump(mode="python")
+            for evidence in clean_evidence_list(list(item.evidence))
+        ]
+        if not payload["evidence"]:
+            report["dropped_properties"].append(item.property_id)
+            continue
+        if item.measurement_context is not None:
+            payload["measurement_context"] = clean_context_payload(
+                item.measurement_context.model_dump(mode="python")
+            )
+        try:
+            candidate = PropertyObservationCandidate.model_validate(payload)
+            trial_payload = copy.deepcopy(safe_payload)
+            trial_payload["properties"].append(
+                candidate.model_dump(mode="python")
+            )
+            trial = candidate_from_payload(trial_payload)
+            _materialize(trial, blocks)
+        except (KeyError, ValidationError, ValueError):
+            report["dropped_properties"].append(item.property_id)
+            continue
+        safe_payload = trial.model_dump(mode="python")
+
+    for item in parsed.unresolved_properties:
+        if not references_known_series(item):
+            report["dropped_unresolved_properties"].append(item.unresolved_id)
+            continue
+        payload = item.model_dump(mode="python")
+        payload["evidence"] = [
+            evidence.model_dump(mode="python")
+            for evidence in clean_evidence_list(list(item.evidence))
+        ]
+        if not payload["evidence"]:
+            report["dropped_unresolved_properties"].append(item.unresolved_id)
+            continue
+        if item.measurement_context is not None:
+            payload["measurement_context"] = clean_context_payload(
+                item.measurement_context.model_dump(mode="python")
+            )
+        try:
+            candidate = UnresolvedPropertyCandidate.model_validate(payload)
+            trial_payload = copy.deepcopy(safe_payload)
+            trial_payload["unresolved_properties"].append(
+                candidate.model_dump(mode="python")
+            )
+            trial = candidate_from_payload(trial_payload)
+            _materialize(trial, blocks)
+        except (KeyError, ValidationError, ValueError):
+            report["dropped_unresolved_properties"].append(item.unresolved_id)
+            continue
+        safe_payload = trial.model_dump(mode="python")
+
+    salvaged = candidate_from_payload(safe_payload)
+    materialized = _materialize(salvaged, blocks)
+    return salvaged, materialized, report
+
+
 def _normalized_table_label(value: str) -> str:
     projected, _ = _surface_projection(value, compact_math=True)
     return projected
@@ -5666,6 +6247,7 @@ def _cache_components(
         "model_config_hash": model_config_hash,
         "output_schema_version": OUTPUT_SCHEMA_VERSION,
         "implementation_version": implementation_version,
+        "cache_revision": CACHE_REVISION,
         "preview_relaxed": preview_relaxed,
     })
     return input_hash, model_config_hash, cache_key
@@ -5804,6 +6386,7 @@ def extract_properties(
     else:
         parsed = PropertyStageResponse()
 
+    preview_salvage_report: dict[str, Any] | None = None
     try:
         conditions, properties, unresolved, property_series = _materialize(
             parsed,
@@ -5814,14 +6397,23 @@ def extract_properties(
             raise Stage4Error(
                 f"{document.document_id} 响应物化失败：{_validation_feedback(exc)}"
             ) from exc
-        parsed = PropertyStageResponse()
-        conditions, properties, unresolved, property_series = _materialize(
-            parsed,
-            blocks,
-        )
-        preview_degraded_reason = (
-            "结构化候选无法安全物化：" + _validation_feedback(exc)
-        )
+        try:
+            parsed, materialized, preview_salvage_report = (
+                _preview_salvage_materialization(parsed, blocks)
+            )
+            conditions, properties, unresolved, property_series = materialized
+        except (KeyError, ValidationError, ValueError) as salvage_exc:
+            parsed = PropertyStageResponse()
+            conditions, properties, unresolved, property_series = _materialize(
+                parsed,
+                blocks,
+            )
+            preview_degraded_reason = (
+                "结构化候选无法安全物化："
+                + _validation_feedback(exc)
+                + "；逐对象保留失败："
+                + _validation_feedback(salvage_exc)
+            )
     if coordinate_only_table_columns:
         warnings.append({
             "stage": STAGE_ID,
@@ -5850,6 +6442,16 @@ def extract_properties(
                 "语义对应校验；Strict 模式仍会报错"
             ),
             "reason": preview_semantic_bypass_reason,
+        })
+    if preview_salvage_report is not None:
+        warnings.append({
+            "stage": STAGE_ID,
+            "code": "preview_objects_salvaged",
+            "message": (
+                "Preview 已逐对象保留可安全物化的数据；坏字段、坏对象或"
+                "失效引用已局部删除，Strict 模式仍会报错"
+            ),
+            "details": preview_salvage_report,
         })
     if preview_degraded_reason is not None:
         warnings.append({
@@ -6128,6 +6730,51 @@ def extract_properties(
     )
 
 
+def _stage4_raw_response_artifact(
+    client: LLMClient,
+    *,
+    document_id: str,
+    history_start: int,
+) -> dict[str, Any] | None:
+    """保存不含请求、凭据和 HTTP headers 的最近一次模型响应。"""
+
+    raw = getattr(client, "last_raw_response", None)
+    if raw is None:
+        return None
+    history = getattr(client, "call_history", [])
+    call_count = max(0, len(history) - history_start)
+    usage, cost = summarize_client_calls(
+        client,
+        history_start,
+        call_count=call_count,
+    )
+    def json_safe(value: Any) -> Any:
+        if isinstance(value, Decimal):
+            return str(value)
+        if isinstance(value, dict):
+            return {key: json_safe(item) for key, item in value.items()}
+        if isinstance(value, (list, tuple)):
+            return [json_safe(item) for item in value]
+        return value
+
+    return json_safe({
+        "status": "received",
+        "stage": STAGE_ID,
+        "document_id": document_id,
+        "call_count": call_count,
+        "usage": usage,
+        "cost": cost,
+        "raw_response": {
+            "provider": raw.provider,
+            "model": raw.model,
+            "finish_reason": raw.finish_reason,
+            "content": raw.content,
+            "usage": asdict(raw.usage),
+            "cost": asdict(raw.cost) if raw.cost is not None else None,
+        },
+    })
+
+
 def run_stage4(
     stage0_path: Path,
     stage2_path: Path,
@@ -6217,6 +6864,7 @@ def run_stage4(
         except (OSError, ValidationError):
             pass
 
+    history_start = len(getattr(client, "call_history", []))
     result = extract_properties(
         document,
         entities,
@@ -6235,6 +6883,16 @@ def run_stage4(
         output_path,
         result.model_dump(mode="json", exclude_none=True),
     )
+    raw_artifact = _stage4_raw_response_artifact(
+        client,
+        document_id=document.document_id,
+        history_start=history_start,
+    )
+    if raw_artifact is not None:
+        write_json_atomic(
+            output_path.with_name("stage4_llm_response.json"),
+            raw_artifact,
+        )
     return output_path, False
 
 

@@ -1,0 +1,1269 @@
+{
+  "schema_version": "1.1",
+  "source_document_schema_version": "1.0",
+  "document_id": "reference_no_0037921",
+  "paper": {
+    "ref_no": "reference_no_0037921",
+    "pdf_filename": "3ddc0904-187a-42a5-ad9d-e8a6269023c4_origin.pdf",
+    "source_pdf_path": "mineru/reference_no_0037921/3ddc0904-187a-42a5-ad9d-e8a6269023c4_origin.pdf",
+    "organized_pdf_path": "organized/reference_no_0037921/origin.pdf",
+    "doi": null,
+    "title": null,
+    "authors": null,
+    "journal": null,
+    "year": null,
+    "metadata_status": "failed",
+    "metadata_extraction": {
+      "method": "llm",
+      "provider": null,
+      "model": null,
+      "prompt_file": "prompts/meta_extract.md",
+      "prompt_sha256": "98252486e4f9cdfd1b42ea02b7e01440d6be99c99d18720dc71c95aa1643fcd4",
+      "source_pages": [
+        0,
+        1
+      ],
+      "status": "failed",
+      "error_type": "MetaExtractorUnavailable"
+    }
+  },
+  "source_files": {
+    "markdown": "reference_no_0037921.md",
+    "content_v1": "content.json",
+    "content_v2": "content_v2.json",
+    "pdf": "origin.pdf"
+  },
+  "ocr": {
+    "engine": "mineru",
+    "batch_id": "122ff743-eb66-4583-986f-6c8015953309",
+    "model_version": "vlm",
+    "ocr_enabled": false,
+    "language": null,
+    "page_ranges": null,
+    "enable_formula": true,
+    "enable_table": true,
+    "extra_formats": [],
+    "status": "done",
+    "manifest_file": "batch_122ff743-eb66-4583-986f-6c8015953309_manifest.json",
+    "status_file": "batch_122ff743-eb66-4583-986f-6c8015953309_status.json"
+  },
+  "elements": [
+    {
+      "block_id": "P_0_0",
+      "type": "text",
+      "text": "This article was downloaded by: [Ams/Girona\\*barri Lib] On: 08 October 2014, At: 04:42 Publisher: Taylor & Francis Informa Ltd Registered in England and Wales Registered Number: 1072954 Registered office: Mortimer House, 37-41 Mortimer Street, London W1T 3JH, UK",
+      "page": 0,
+      "bbox": [
+        33.0,
+        22.0,
+        914.0,
+        103.0
+      ],
+      "source_block_index": 0,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "I_0_1",
+      "type": "image",
+      "page": 0,
+      "bbox": [
+        38.0,
+        132.0,
+        267.0,
+        335.0
+      ],
+      "source_block_index": 1,
+      "alignment_status": "matched",
+      "image_path": "organized/reference_no_0037921/images/5a7a30b8ce8159cd954bc4450733cd8e7dc9f86d6403e8efac905e247c5d0973.jpg",
+      "image_kind": "image"
+    },
+    {
+      "block_id": "P_0_2",
+      "type": "title",
+      "section": "DocumentTitle",
+      "text": "Journal of Macromolecular Science, Part A: Pure and Applied Chemistry",
+      "page": 0,
+      "bbox": [
+        315.0,
+        129.0,
+        920.0,
+        179.0
+      ],
+      "source_block_index": 2,
+      "alignment_status": "matched",
+      "title_level": 1
+    },
+    {
+      "block_id": "P_0_3",
+      "type": "text",
+      "text": "Publication details, including instructions for authors and subscription information: http://www.tandfonline.com/loi/lmsa20",
+      "page": 0,
+      "bbox": [
+        313.0,
+        178.0,
+        907.0,
+        226.0
+      ],
+      "source_block_index": 3,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_0_4",
+      "type": "title",
+      "text": "Synthesis, Structures and Properties of Polyimide Based on 2,2′‐Bis(4‐aminophenoxy phenyl) Propane",
+      "page": 0,
+      "bbox": [
+        313.0,
+        235.0,
+        949.0,
+        310.0
+      ],
+      "source_block_index": 4,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_0_5",
+      "type": "text",
+      "text": "Cuili Kong <sup>a</sup> , Qinghua Zhang <sup>a</sup> , Xinfei Gu <sup>a</sup> & Dajun Chen",
+      "page": 0,
+      "bbox": [
+        315.0,
+        310.0,
+        810.0,
+        329.0
+      ],
+      "source_block_index": 5,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_0_6",
+      "type": "text",
+      "text": "State Key Laboratory for Modification of Chemical Fibers and Polymer Materials , College of Materials Science and Engineering, Donghua University , Shanghai, 200051, P. R. China Published online: 07 Feb 2007.",
+      "page": 0,
+      "bbox": [
+        313.0,
+        331.0,
+        914.0,
+        394.0
+      ],
+      "source_block_index": 6,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_0_7",
+      "type": "text",
+      "text": "To cite this article: Cuili Kong , Qinghua Zhang , Xinfei Gu & Dajun Chen (2006) Synthesis, Structures and Properties of Polyimide Based on 2,2′‐Bis(4‐aminophenoxy phenyl) Propane, Journal of Macromolecular Science, Part A: Pure and Applied Chemistry, 43:11, 1825-1833, DOI: 10.1080/10601320600941086",
+      "page": 0,
+      "bbox": [
+        33.0,
+        422.0,
+        922.0,
+        472.0
+      ],
+      "source_block_index": 7,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_0_8",
+      "type": "text",
+      "text": "To link to this article: http://dx.doi.org/10.1080/10601320600941086",
+      "page": 0,
+      "bbox": [
+        35.0,
+        478.0,
+        638.0,
+        496.0
+      ],
+      "source_block_index": 8,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_0_9",
+      "type": "title",
+      "text": "PLEASE SCROLL DOWN FOR ARTICLE",
+      "page": 0,
+      "bbox": [
+        33.0,
+        535.0,
+        391.0,
+        552.0
+      ],
+      "source_block_index": 9,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_0_10",
+      "type": "text",
+      "text": "Taylor & Francis makes every effort to ensure the accuracy of all the information (the “Content”) contained in the publications on our platform. However, Taylor & Francis, our agents, and our licensors make no representations or warranties whatsoever as to the accuracy, completeness, or suitability for any purpose of the Content. Any opinions and views expressed in this publication are the opinions and views of the authors, and are not the views of or endorsed by Taylor & Francis. The accuracy of the Content should not be relied upon and should be independently verified with primary sources of information. Taylor and Francis shall not be liable for any losses, actions, claims, proceedings, demands, costs, expenses, damages, and other liabilities whatsoever or howsoever caused arising directly or indirectly in connection with, in relation to or arising out of the use of the Content.",
+      "page": 0,
+      "bbox": [
+        31.0,
+        568.0,
+        953.0,
+        724.0
+      ],
+      "source_block_index": 10,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_0_11",
+      "type": "text",
+      "text": "This article may be used for research, teaching, and private study purposes. Any substantial or systematic reproduction, redistribution, reselling, loan, sub-licensing, systematic supply, or distribution in any form to anyone is expressly forbidden. Terms & Conditions of access and use can be found at http://www.tandfonline.com/page/terms-and-conditions",
+      "page": 0,
+      "bbox": [
+        33.0,
+        731.0,
+        936.0,
+        794.0
+      ],
+      "source_block_index": 11,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_1_12",
+      "type": "title",
+      "text": "Synthesis, Structures and Properties of Polyimide Based on 2,2<sup>0</sup>-Bis(4-aminophenoxy phenyl) Propane",
+      "page": 1,
+      "bbox": [
+        165.0,
+        183.0,
+        827.0,
+        231.0
+      ],
+      "source_block_index": 12,
+      "alignment_status": "matched",
+      "title_level": 1
+    },
+    {
+      "block_id": "P_1_13",
+      "type": "text",
+      "text": "CUILI KONG, QINGHUA ZHANG, XINFEI GU, AND DAJUN CHEN",
+      "page": 1,
+      "bbox": [
+        224.0,
+        259.0,
+        690.0,
+        294.0
+      ],
+      "source_block_index": 13,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_1_14",
+      "type": "text",
+      "text": "State Key Laboratory for Modification of Chemical Fibers and Polymer Materials, College of Materials Science and Engineering, Donghua University, Shanghai 200051, P. R. China",
+      "page": 1,
+      "bbox": [
+        224.0,
+        305.0,
+        827.0,
+        352.0
+      ],
+      "source_block_index": 14,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_1_15",
+      "type": "text",
+      "text": "2,2-Bis[4-(4-aminophenoxy)phenyl] propane (BAPP), as a monomer to prepare polyimide, was synthesizedfrom Bisphenol A and p-chloronitrobenzene via the nucleophilic substitution reaction. The structures ofthe diamine monomer BAPP and an intermediate dinitrocompound 2,2<sup>0</sup>-bis(4-nitrophenoxy phenyl) propane (BNPP) were confirmed by FTIR and NMR. A novel polyimide was derived from BAPP and 3,3<sup>0</sup>,4,4<sup>0</sup>-oxydiphthalic dianhydride (ODPA) in DMAc by a two-step method. FTIR, DSC, TGA, and DMA were employed to characterize the precursor and the polyimide. The glass transition temperature of the polyimide was about 225–2308C. The measurement of mechanical properties indicated that the polyimide exhibited a typical yield behavior of thermoplastic polymers, which is very different from other polyimides. The elongation at break of the polyamic acid and polyimide was 6% and 29%, respectively.",
+      "page": 1,
+      "bbox": [
+        246.0,
+        375.0,
+        833.0,
+        531.0
+      ],
+      "source_block_index": 15,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_1_16",
+      "type": "text",
+      "text": "Keywords BAPP, polyimide, synthesis, characterization",
+      "page": 1,
+      "bbox": [
+        248.0,
+        541.0,
+        647.0,
+        556.0
+      ],
+      "source_block_index": 16,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_1_17",
+      "type": "title",
+      "section": "Introduction",
+      "text": "Introduction",
+      "page": 1,
+      "bbox": [
+        161.0,
+        585.0,
+        276.0,
+        600.0
+      ],
+      "source_block_index": 17,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_1_18",
+      "type": "text",
+      "section": "Introduction",
+      "text": "Aromatic polyimides possess many useful properties such as high transition temperatures, excellent dimensional stability, low dielectric constants, and outstanding thermal and thermo-oxidative stability. The materials have been widely used in industry as structural materials, matrices of composites and integrated circuit insulators (1 – 4). However, in many cases, they are insoluble and intractable, which restrict their application, due to their highly conjugated, rigid-rod-like chemical structures. Many efforts have been made to improve their processability while maintaining their excellent thermal and mechanical properties (5 – 11). Many types of flexible segments introduced to the polymer can alter crystallinity and intermolecular interactions to consequently increase solubility and processability, such as $- \\mathrm { C } \\mathrm { - } , - \\mathrm { O } \\mathrm { - } , - \\mathrm { C H } _ { 2 } \\mathrm { - } , > \\mathrm { C } ( \\mathrm { C H } _ { 3 } ) _ { 2 }$and –COOH (12–15).",
+      "page": 1,
+      "bbox": [
+        157.0,
+        608.0,
+        833.0,
+        761.0
+      ],
+      "source_block_index": 18,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_1_18",
+        "V2_1_6_1"
+      ]
+    },
+    {
+      "block_id": "P_1_19",
+      "type": "text",
+      "section": "Introduction",
+      "text": "In this report, 2,2-bis[4-(4-aminophenoxy)phenyl] propane (BAPP) was prepared in two steps through the nucleophilic substitution reaction of Bisphenol A and p-chloronitrobenzene in the presence of potassium carbonate, followed by catalytic reduction with hydrazine and Pd/C. Polyimide was synthesized from BAPP and $^ { 3 , 3 ^ { \\prime } , 4 , 4 ^ { \\prime } }$-oxydiphthalic dianhydride (ODPA). The synthetic routine to prepare the novel polyimide was expected to lower the cost of the polymer because of the low price of Bisphenol A and improve the processability of the polymer because of the introduction of the flexible segments –O– and ${ \\mathrm { > C } } ( \\mathrm { C H } _ { 3 } ) _ { 2 }$in the polyimide backbone.",
+      "page": 1,
+      "bbox": [
+        157.0,
+        761.0,
+        833.0,
+        792.0
+      ],
+      "source_block_index": 19,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_1_19",
+        "V2_1_7_1",
+        "V2_1_7_3"
+      ]
+    },
+    {
+      "block_id": "P_1_20",
+      "type": "text",
+      "section": "Introduction",
+      "text": "Downloaded by [Ams/Girona\\*barri Lib] at 04:42 08 October 2014",
+      "page": 1,
+      "bbox": [
+        0.0,
+        327.0,
+        24.0,
+        671.0
+      ],
+      "source_block_index": 20,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "F_1_23",
+      "type": "footnote",
+      "section": "Introduction",
+      "text": "Address correspondence to Qinghua Zhang, State Key Laboratory for Modification of Chemical Fibers and Polymer Materials, College of Materials Science and Engineering, Donghua University, Shanghai 200051, P. R. China. Tel.: 0086 21 6237 3727; Fax: 0086 21 6219 3062; E-mail: qhzhang@dhu.edu.cn",
+      "page": 1,
+      "bbox": [
+        159.0,
+        819.0,
+        833.0,
+        872.0
+      ],
+      "source_block_index": 23,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_2_25",
+      "type": "text",
+      "section": "Introduction",
+      "text": "",
+      "page": 2,
+      "bbox": [
+        159.0,
+        124.0,
+        838.0,
+        217.0
+      ],
+      "source_block_index": 25,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_2_26",
+      "type": "title",
+      "section": "Methods",
+      "text": "Experimental",
+      "page": 2,
+      "bbox": [
+        163.0,
+        247.0,
+        289.0,
+        264.0
+      ],
+      "source_block_index": 26,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_2_27",
+      "type": "title",
+      "section": "Methods",
+      "text": "Materials",
+      "page": 2,
+      "bbox": [
+        163.0,
+        278.0,
+        244.0,
+        292.0
+      ],
+      "source_block_index": 27,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_2_28",
+      "type": "text",
+      "section": "Methods",
+      "text": "Bisphenol A and $\\mathrm { p } \\cdot$-chloronitrobenzene, purchased from Shanghai Chemical Reagents $\\mathbf { \\mathrm { C o . } }$were used as received. $3 , 3 ^ { \\prime } , 4 , 4 ^ { \\prime } { \\cdot } 0 \\mathrm { x }$ydiphthalic dianhydride (ODPA) was kindly supplied by Shanghai Resin Institute of China and was recrystallized prior to use.",
+      "page": 2,
+      "bbox": [
+        161.0,
+        301.0,
+        834.0,
+        347.0
+      ],
+      "source_block_index": 28,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_2_28",
+        "V2_2_3_1",
+        "V2_2_3_3",
+        "V2_2_3_5"
+      ]
+    },
+    {
+      "block_id": "P_2_29",
+      "type": "text",
+      "section": "Methods",
+      "text": "N,N-Dimethylacetamide (DMAc, Fluka) was purchased from Shanghai Chemicals Agency.",
+      "page": 2,
+      "bbox": [
+        163.0,
+        347.0,
+        836.0,
+        379.0
+      ],
+      "source_block_index": 29,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_2_30",
+      "type": "title",
+      "section": "Methods",
+      "text": "Synthesis of $2 , 2 ^ { \\prime } { \\cdot } B i s$(4-nitrophenoxy phenyl) Propane (BNPP)",
+      "page": 2,
+      "bbox": [
+        163.0,
+        394.0,
+        651.0,
+        411.0
+      ],
+      "source_block_index": 30,
+      "alignment_status": "matched",
+      "title_level": 2,
+      "merged_source_block_ids": [
+        "P_2_30",
+        "V2_2_5_1"
+      ]
+    },
+    {
+      "block_id": "P_2_31",
+      "type": "text",
+      "section": "Methods",
+      "text": "Bisphenol A (20 mmol) and p-chloronitrobenzene (40 mmol) were dissolved in 100 ml of DMAc in a 250 ml flask with stirring. After complete dissolution, postassium carbonate (20 mmol) was added to the flask in one portion and the solution was stirred at room temperature for 30 min. After that, the solution was heated to $1 2 5 ^ { \\circ } \\mathrm { C }$and the reaction was carried out for 10 h under an atmosphere of $\\mathrm { N } _ { 2 } .$. The resulting solution was cooled to room temperature and was then poured into methanol/water (volume ratio 1:1) to give the crude dinitro compound. The crude compound was recrystallized from acetic anhydride to yield yellow crystals, 8.36 g. The yield of BNPP was 89%, and the melting point was $1 2 2 ^ { \\circ } \\mathrm { C }$by means of DSC.",
+      "page": 2,
+      "bbox": [
+        161.0,
+        417.0,
+        838.0,
+        556.0
+      ],
+      "source_block_index": 31,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_2_31",
+        "V2_2_6_1",
+        "V2_2_6_3",
+        "V2_2_6_5"
+      ]
+    },
+    {
+      "block_id": "P_2_32",
+      "type": "title",
+      "section": "Methods",
+      "text": "Synthesis of ${ 2 , 2 ^ { \\prime } { \\cdot } B i }$s(4-aminophenoxy phenyl) Propane (BAPP)",
+      "page": 2,
+      "bbox": [
+        163.0,
+        571.0,
+        662.0,
+        587.0
+      ],
+      "source_block_index": 32,
+      "alignment_status": "matched",
+      "title_level": 2,
+      "merged_source_block_ids": [
+        "P_2_32",
+        "V2_2_7_1"
+      ]
+    },
+    {
+      "block_id": "P_2_33",
+      "type": "text",
+      "section": "Methods",
+      "text": "A 250 ml three-neck flask was charged with BNPP (10 mmol) and 10% $\\mathrm { P d } / \\mathrm { C } \\left( 0 . 0 5 \\ : \\mathrm { g } \\right)$in ethanol (150 ml), and then hydrazine monohydrate (10 ml) was added to the stirred mixture at $7 0 ^ { \\circ } \\mathrm { C }$over 30 min. After addition, the mixture was heated at the reflux temperature for 8 h. The reaction solution was filtered to remove $\\mathrm { P d } / \\mathrm { C }$and the crude solid was recrystallized from ethanol to obtain 3.4 g of white crystals (83%), mp: $1 2 9 ^ { \\circ } \\mathrm { C }$(by DSC).",
+      "page": 2,
+      "bbox": [
+        161.0,
+        593.0,
+        836.0,
+        672.0
+      ],
+      "source_block_index": 33,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_2_33",
+        "V2_2_8_1",
+        "V2_2_8_3",
+        "V2_2_8_5",
+        "V2_2_8_7"
+      ]
+    },
+    {
+      "block_id": "P_2_34",
+      "type": "title",
+      "section": "Methods",
+      "text": "Synthesis of Polyimides",
+      "page": 2,
+      "bbox": [
+        163.0,
+        687.0,
+        352.0,
+        703.0
+      ],
+      "source_block_index": 34,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_2_35",
+      "type": "text",
+      "section": "Methods",
+      "text": "ODPA was added to the solution of BAPP in DMAc in several portions. The mixture was stirred at $0 ^ { \\circ } \\mathrm { C }$for 20 h under an atmosphere of $\\Nu _ { 2 }$to form the polyamic acid. The film was cast onto a glass plate, followed by heating this solution of polyamic acid for 2 h at $8 0 ^ { \\circ } \\mathrm { C }$1 h at $1 2 0 ^ { \\circ } \\mathrm { C } ,$1 h at $1 8 0 ^ { \\circ } \\mathrm { C } ,$1 h at $2 5 0 ^ { \\circ } \\mathrm { C }$1 h to $3 0 0 ^ { \\circ } \\mathrm { C }$. The $\\eta _ { \\mathrm { i n h } }$of the flexible polyimide film was 1.3 dL/g. DMAc was partly evaporated at $1 2 0 ^ { \\circ } \\mathrm { C }$and completely evaporated at $1 8 0 ^ { \\circ } \\mathrm { C }$, since the boiling point of the solvent is ${ \\sim } 1 6 0 ^ { \\circ } \\mathrm { C }$",
+      "page": 2,
+      "bbox": [
+        161.0,
+        710.0,
+        836.0,
+        802.0
+      ],
+      "source_block_index": 35,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_2_35",
+        "V2_2_10_1",
+        "V2_2_10_3",
+        "V2_2_10_5",
+        "V2_2_10_7",
+        "V2_2_10_9",
+        "V2_2_10_11",
+        "V2_2_10_13",
+        "V2_2_10_15",
+        "V2_2_10_17",
+        "V2_2_10_19",
+        "V2_2_10_21"
+      ]
+    },
+    {
+      "block_id": "P_2_36",
+      "type": "title",
+      "section": "Methods",
+      "text": "Measurements",
+      "page": 2,
+      "bbox": [
+        161.0,
+        817.0,
+        283.0,
+        833.0
+      ],
+      "source_block_index": 36,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_2_37",
+      "type": "text",
+      "section": "Methods",
+      "text": "The IR spectra were recorded on a NEXUS-670 Fourier Transform Infrared (FTIR) spectrometer. The $\\mathbf { \\Pi } ^ { 1 } \\mathbf { H } \\mathbf { - N M R }$spectra were determined on a BRUKER-400 NMR spectrometer.",
+      "page": 2,
+      "bbox": [
+        161.0,
+        840.0,
+        836.0,
+        872.0
+      ],
+      "source_block_index": 37,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_2_37",
+        "V2_2_12_1"
+      ]
+    },
+    {
+      "block_id": "P_2_38",
+      "type": "text",
+      "section": "Methods",
+      "text": "Downloaded by [Ams/Girona\\*barri Lib] at 04:42 08 October 2014",
+      "page": 2,
+      "bbox": [
+        0.0,
+        327.0,
+        22.0,
+        671.0
+      ],
+      "source_block_index": 38,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_3_41",
+      "type": "text",
+      "section": "Methods",
+      "text": "The DSC analysis was performed on a TA Instruments DSC $8 2 2 ^ { \\mathrm { e } }$in flowing nitrogen at a heating rate of $1 0 ^ { \\circ } \\mathrm { C } / \\mathrm { m i n }$. Thermogravimetric analysis (TGA) was performed on a Perkin-Elmer TGA 7 analyzer and the thermal stability of samples was determined in $\\Nu _ { 2 }$at a heating rate of $1 0 ^ { \\circ } \\mathrm { C } / \\mathrm { m i n } .$. To measure the mechanical properties, the polymer films were cut into strips with a width of ${ \\sim } 5 $mm in advance. The measurement was conducted on an XQ-1 instrument with a gauge length of 20 mm and a crosshead speed of 5 mm/min. Each specimen was measured five times and the values were averaged.",
+      "page": 3,
+      "bbox": [
+        157.0,
+        124.0,
+        834.0,
+        233.0
+      ],
+      "source_block_index": 41,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_3_41",
+        "V2_3_0_1",
+        "V2_3_0_3",
+        "V2_3_0_5",
+        "V2_3_0_7",
+        "V2_3_0_9"
+      ]
+    },
+    {
+      "block_id": "P_3_42",
+      "type": "title",
+      "section": "Results",
+      "text": "Results and Discussion",
+      "page": 3,
+      "bbox": [
+        159.0,
+        250.0,
+        367.0,
+        266.0
+      ],
+      "source_block_index": 42,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_3_43",
+      "type": "text",
+      "section": "Results",
+      "text": "To synthesize the diamino-monomer BAPP, the intermediate dinitro monomer (BNPP) was first prepared through the aromatic nucleophilic substitution of p-chloronitrobenzene in the presence of potassium carbonate in DMAc. The electron-withdrawing NO<sub>2</sub> group in p-chloronitrobenzene activates the chloro-atom for displacement. Then, hydrazine hydrate and the $\\mathrm { P d } / \\mathrm { C }$catalyst in refluxing ethanol were used to reduce BNPP, resulting in a high yield. The synthetic routine of BAPP is summarized in Scheme 1.",
+      "page": 3,
+      "bbox": [
+        157.0,
+        273.0,
+        833.0,
+        365.0
+      ],
+      "source_block_index": 43,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_3_43",
+        "V2_3_2_1"
+      ]
+    },
+    {
+      "block_id": "P_3_44",
+      "type": "text",
+      "section": "Results",
+      "text": "Figure 1 shows the FTIR spectra of BNPP and BAPP. The nitro group of BNPP gives two characteristic bands at $1 \\bar { 5 } 1 0 \\mathrm { c m } ^ { - 1 }$and $1 3 4 5 ~ \\mathrm { { c m } ^ { - 1 } }$, attributed to asymmetric and symmetric stretching of the ${ \\bf N } { = } { } \\mathrm { { O } }$group. BNPP shows another characteristic band at $1 2 5 0 \\mathrm { c m } ^ { - 1 }$(C–N stretching). Once BNPP is reduced, the characteristic absorptions of the nitro group disappear, and the amino group shows a pair of N–H stretching bands in the region of $3 3 0 0 { - } 3 4 5 0 \\ \\mathrm { c m } ^ { - 1 }$. The appearance of characteristic absorptions indicates that the reaction of Bisphenol A with p-chloronitrobenzene takes place and produces BNPP and, furthermore, BNPP has completely been deoxidized into BAPP.",
+      "page": 3,
+      "bbox": [
+        157.0,
+        365.0,
+        834.0,
+        487.0
+      ],
+      "source_block_index": 44,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_3_44",
+        "V2_3_3_1",
+        "V2_3_3_3",
+        "V2_3_3_5",
+        "V2_3_3_7",
+        "V2_3_3_9"
+      ]
+    },
+    {
+      "block_id": "P_3_45",
+      "type": "text",
+      "section": "Results",
+      "text": "In the <sup>1</sup>H-NMR spectra in Figure 2, the absorption signals of aromatic protons of BNPP appear in the region of 7.1–8.3 ppm, and those of BAPP shift to a lower field between 6.5– 7.2 ppm because of the inductive effect of electron-withdrawing $\\Nu { 0 } _ { 2 }$groups. The absorption of the amino groups of BAPP in the region of 4.9 ppm indicates that the $\\Nu { 0 } _ { 2 }$groups are reduced to $\\mathrm { N H } _ { 2 }$",
+      "page": 3,
+      "bbox": [
+        157.0,
+        487.0,
+        834.0,
+        565.0
+      ],
+      "source_block_index": 45,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_3_45",
+        "V2_3_4_1",
+        "V2_3_4_3",
+        "V2_3_4_5"
+      ]
+    },
+    {
+      "block_id": "I_3_46",
+      "type": "image",
+      "section": "Results",
+      "page": 3,
+      "bbox": [
+        233.0,
+        588.0,
+        760.0,
+        845.0
+      ],
+      "source_block_index": 46,
+      "alignment_status": "matched",
+      "caption": "Scheme 1. The synthetic routine of BAPP.",
+      "image_path": "organized/reference_no_0037921/images/beff1afb90e6bd58d716c88b3bf88259e3f61ced65b5c72bff8fcdd2c4312e64.jpg",
+      "image_kind": "image"
+    },
+    {
+      "block_id": "P_3_47",
+      "type": "text",
+      "section": "Results",
+      "text": "Downloaded by [Ams/Girona\\*barri Lib] at 04:42 08 October 2014",
+      "page": 3,
+      "bbox": [
+        0.0,
+        327.0,
+        22.0,
+        671.0
+      ],
+      "source_block_index": 47,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "I_4_50",
+      "type": "image",
+      "section": "Results",
+      "page": 4,
+      "bbox": [
+        294.0,
+        124.0,
+        701.0,
+        347.0
+      ],
+      "source_block_index": 50,
+      "alignment_status": "matched",
+      "caption": "Figure 1. FTIR spectra of BNPP, BAPP, and polyimide (PI).",
+      "image_path": "organized/reference_no_0037921/images/f081ea72c6cbdb1f970a6e19f2afb26ed91b86ebfaff643b0b4b7235c1c7d327.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "I_4_51",
+      "type": "image",
+      "section": "Results",
+      "page": 4,
+      "bbox": [
+        322.0,
+        391.0,
+        667.0,
+        585.0
+      ],
+      "source_block_index": 51,
+      "alignment_status": "matched",
+      "caption": "(a)",
+      "image_path": "organized/reference_no_0037921/images/74582d331c3a32ed0cd60c9b2b98f6eccca20f17568b0c55bb63b6dcc331a474.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "I_4_52",
+      "type": "image",
+      "section": "Results",
+      "page": 4,
+      "bbox": [
+        322.0,
+        619.0,
+        666.0,
+        819.0
+      ],
+      "source_block_index": 52,
+      "alignment_status": "matched",
+      "caption": "(b) Figure 2. <sup>1</sup>H-NMR spectra of BNPP (a) and BAPP (b) in DMSO-d<sub>6</sub>.",
+      "image_path": "organized/reference_no_0037921/images/e6c2db494f1eb8e8865d63d083c9db9b473d368f41e43340515b0f25d508acf6.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "P_4_53",
+      "type": "text",
+      "section": "Results",
+      "text": "Downloaded by [Ams/Girona\\*barri Lib] at 04:42 08 October 2014",
+      "page": 4,
+      "bbox": [
+        0.0,
+        327.0,
+        22.0,
+        671.0
+      ],
+      "source_block_index": 53,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_5_56",
+      "type": "text",
+      "section": "Results",
+      "text": "Polyimides were synthesized from diamine BAPP and dianhydrides ODPA by a conventional two-step procedure: ring-opening polyaddition at room temperature to polyamic acid, followed by sequential heating of the polyamic acid films to $3 0 0 ^ { \\circ } \\mathrm { C }$to obtain the corresponding polymers, as shown in Scheme 2. The bottom curve of Figure 1 gives the typical FTIR spectrum of polyimide. The characteristic absorption bands of the imide ring are observed near $1 7 7 8 \\ \\mathrm { c m } ^ { - 1 } , \\ 1 7 1 0 \\ \\mathrm { c m } ^ { - 1 }$(asymmetrical and symmetrical ${ \\mathrm { C } } { = } 0$stretching vibration) and $1 3 7 9 \\mathrm { c m } ^ { - 1 } ( \\mathrm { C } { = } \\mathrm { N }$stretching vibration). Those of the amide and carboxyl groups in the regions of $2 9 0 0 { - } 3 2 0 0 \\mathrm { c m } ^ { - 1 }$(COOH and $\\mathrm { N H } _ { 2 } ) , 1 7 1 3 \\mathrm { c m } ^ { - 1 }$(C55O(COOH)), $1 6 5 8 \\ : \\mathrm { c m } ^ { - 1 } \\ : ( \\mathrm { C } = \\mathrm { O } ( \\mathrm { C O N H } ) )$and 1546 cm<sup>21</sup> (C–NH–) disappear, indicating a virtually complete conversion of the precursor into polyimide.",
+      "page": 5,
+      "bbox": [
+        157.0,
+        124.0,
+        834.0,
+        277.0
+      ],
+      "source_block_index": 56,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_5_56",
+        "V2_5_0_1",
+        "V2_5_0_3",
+        "V2_5_0_5",
+        "V2_5_0_7",
+        "V2_5_0_9",
+        "V2_5_0_11",
+        "V2_5_0_13"
+      ]
+    },
+    {
+      "block_id": "P_5_57",
+      "type": "text",
+      "section": "Results",
+      "text": "Thermal stabilities of the polymers were determined by thermogravimetric analysis (TGA) in nitrogen atmosphere. Thermograms of polyamic acid and polyimide are given in Figure 3. The thermal decomposition takes place at ${ \\sim } 5 0 0 ^ { \\circ } \\mathrm { C }$and the temperature for 10% wt loss for polyimide is at $5 2 5 ^ { \\circ } \\mathrm { C }$. When the temperature is up to $8 0 0 ^ { \\circ } \\mathrm { C } .$, the weight loss of polyimide is ${ \\sim } 4 0 \\%$. However, for the TGA curve of polyamic acid, the weight loss is divided into two stages: The weight loss in the range of $1 2 0 { - } 2 1 0 ^ { \\circ } \\mathrm { C }$is caused by water produced from the conversion of the precursor into polyimide, whereas the weight loss in the second stage $( > 3 0 0 ^ { \\circ } \\mathrm { C } )$exhibits a similar decomposition behavior as polyimide. In general, the polyimide possesses good thermal stability.",
+      "page": 5,
+      "bbox": [
+        157.0,
+        277.0,
+        833.0,
+        414.0
+      ],
+      "source_block_index": 57,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_5_57",
+        "V2_5_1_1",
+        "V2_5_1_3",
+        "V2_5_1_5",
+        "V2_5_1_7",
+        "V2_5_1_9",
+        "V2_5_1_11"
+      ]
+    },
+    {
+      "block_id": "P_5_58",
+      "type": "text",
+      "section": "Results",
+      "text": "The thermal properties of the polymer were evaluated by DSC and DMA. Figure 4 shows the DSC spectra of a typical poly(amic acid) and polyimide. The appearance of an endothermic peak in the range of $1 2 0 { - } 2 0 0 ^ { \\circ } \\mathrm { C }$on the PAA curve is attributed not only to water produced in the process of cyclization, but also to the degradation of PAA occurring in this temperature region. However, polyimide does not show this phenomenon, as shown in Figure 4. None of the polyimides exhibit a crystallization or melt transition in the DSC measurements. DMA data support the result of the temperature region of PAA degradation. As shown in Figure 5a, the DMA spectrum of PAA exhibits a sharp decrease of the storage modulus at $1 2 0 ^ { \\circ } \\mathrm { C }$, and then it increases when the temperature rises to $1 5 0 ^ { \\circ } \\mathrm { C }$until $2 0 0 ^ { \\circ } \\mathrm { C } .$. In comparison, polyimide does not show the severe decrease of the storage modulus in the heating temperature region. The phenomenon indicates that the degradation of PAA with elevated temperature does not last for a long time. Instead, when the temperature is up to $1 5 0 ^ { \\circ } \\mathrm { C }$or more, the occurrence of the imidization leads to the increase of the molecular weight and consequently the increase of storage modulus (16). A result of the degradation of PAA in the temperature region is that it is a severe barrier for preparing polyimide fibers via wet spinning PAA. In our experiments, although we found it was easy to spin PAA dope to prepare PAA fibers, the thermal imidization procedure was relatively difficult. When PAA fibers were heated to $1 2 0 ^ { \\circ } \\mathrm { C }$or more in a heating tube under a little tension, they easily broke. Furthermore, it was also difficult to eliminate the remaining DMAc solvent in the PAA fibers either via heating PAA fibers under a given tension or immersing the fibers into a coagulation bath, such as water or alcohol. How to overcome this barrier is a significant problem to produce polyimide fibers via the procedure of imidizing PAA fibers. Therefore, the preparation of PI fibers has been carried out by spinning soluble polyimide dope in a phenol solvent instead of spinning PAA solution (17 – 19).",
+      "page": 5,
+      "bbox": [
+        157.0,
+        415.0,
+        834.0,
+        554.0
+      ],
+      "source_block_index": 58,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_5_58",
+        "V2_5_2_1",
+        "V2_5_2_3",
+        "V2_5_2_5",
+        "V2_5_2_7",
+        "V2_5_2_9",
+        "V2_5_2_11"
+      ]
+    },
+    {
+      "block_id": "I_5_59",
+      "type": "image",
+      "section": "Results",
+      "page": 5,
+      "bbox": [
+        168.0,
+        578.0,
+        825.0,
+        845.0
+      ],
+      "source_block_index": 59,
+      "alignment_status": "matched",
+      "caption": "Scheme 2. The synthetic routine of polyimides.",
+      "image_path": "organized/reference_no_0037921/images/40ae6adc887c011c643b14783203b1807613fa5308ff6e262b835687ec7915d8.jpg",
+      "image_kind": "image"
+    },
+    {
+      "block_id": "P_5_60",
+      "type": "text",
+      "section": "Results",
+      "text": "Downloaded by [Ams/Girona\\*barri Lib] at 04:42 08 October 2014",
+      "page": 5,
+      "bbox": [
+        0.0,
+        327.0,
+        24.0,
+        671.0
+      ],
+      "source_block_index": 60,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "I_6_63",
+      "type": "image",
+      "section": "Results",
+      "page": 6,
+      "bbox": [
+        304.0,
+        124.0,
+        695.0,
+        333.0
+      ],
+      "source_block_index": 63,
+      "alignment_status": "matched",
+      "caption": "Figure 3. TGA of polyamic acid and polyimide.",
+      "image_path": "organized/reference_no_0037921/images/691fd16c2243269fe2c74c776f3d9d3999a50373524befcb75c528f9a711f0e5.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "P_6_64",
+      "type": "text",
+      "section": "Results",
+      "text": "",
+      "page": 6,
+      "bbox": [
+        161.0,
+        391.0,
+        838.0,
+        607.0
+      ],
+      "source_block_index": 64,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "I_6_65",
+      "type": "image",
+      "section": "Results",
+      "page": 6,
+      "bbox": [
+        315.0,
+        638.0,
+        684.0,
+        845.0
+      ],
+      "source_block_index": 65,
+      "alignment_status": "matched",
+      "caption": "Figure 4. DSC of polyamic acid and polyimide.",
+      "image_path": "organized/reference_no_0037921/images/8d33ba68d2d9e6a357c53d5a7c421991676c33fee28f8f066c1517272a8b389a.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "P_6_66",
+      "type": "text",
+      "section": "Results",
+      "text": "Downloaded by [Ams/Girona\\*barri Lib] at 04:42 08 October 2014",
+      "page": 6,
+      "bbox": [
+        0.0,
+        327.0,
+        24.0,
+        671.0
+      ],
+      "source_block_index": 66,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_7_69",
+      "type": "text",
+      "section": "Results",
+      "text": "",
+      "page": 7,
+      "bbox": [
+        157.0,
+        124.0,
+        833.0,
+        155.0
+      ],
+      "source_block_index": 69,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_7_70",
+      "type": "text",
+      "section": "Results",
+      "text": "Furthermore, the DSC thermogram of polyimide in Figure 4 shows a glass transition temperature $\\mathrm { ( T _ { g } ) }$of $2 3 0 ^ { \\circ } \\mathrm { C }$. This is a relatively lower value compared to those of common rigid polyimides and can probably be attributed to the flexibility of the polymer backbone containing –O– and ${ \\mathrm { > C } } ( \\mathrm { C H } _ { 3 } ) _ { 2 }$groups. The DMA spectra of polyimide in Figure 5b show a loss tangent (tan d) peak at $2 2 5 ^ { \\circ } \\mathrm { C }$, which means $\\mathrm { T _ { g } }$at this temperature. The difference of $\\mathrm { T _ { g } s }$obtained by DSC and DMA is caused by the different measuring methods. The relationship between the storage modulus (E<sup>0</sup>) and loss modulus $( E ^ { \\prime \\prime } )$is dependent on",
+      "page": 7,
+      "bbox": [
+        157.0,
+        155.0,
+        834.0,
+        264.0
+      ],
+      "source_block_index": 70,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_7_70",
+        "V2_7_1_1",
+        "V2_7_1_3",
+        "V2_7_1_5",
+        "V2_7_1_7",
+        "V2_7_1_9",
+        "V2_7_1_11",
+        "V2_7_1_13"
+      ]
+    },
+    {
+      "block_id": "I_7_71",
+      "type": "image",
+      "section": "Results",
+      "page": 7,
+      "bbox": [
+        289.0,
+        292.0,
+        703.0,
+        521.0
+      ],
+      "source_block_index": 71,
+      "alignment_status": "matched",
+      "caption": "(a)",
+      "image_path": "organized/reference_no_0037921/images/1961f8d8a6ba83e24710324bd6b7ad242caa67e0b9e9c107b26b408f6035b98d.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "I_7_72",
+      "type": "image",
+      "section": "Results",
+      "page": 7,
+      "bbox": [
+        265.0,
+        573.0,
+        725.0,
+        803.0
+      ],
+      "source_block_index": 72,
+      "alignment_status": "matched",
+      "caption": "(b) Figure 5. (a) The plots of storage modulus vs. temperature of PAA and PI; and (b) the plots of E<sup>0</sup>, $\\mathrm { E ^ { \\prime \\prime } }$ and tan d vs. temperature of PI.",
+      "image_path": "organized/reference_no_0037921/images/253df2c0b630029e42f1c8a736c7c28f8480c781ff821ab8ddc37a179465c06b.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "P_7_73",
+      "type": "text",
+      "section": "Results",
+      "text": "Downloaded by [Ams/Girona\\*barri Lib] at 04:42 08 October 2014",
+      "page": 7,
+      "bbox": [
+        0.0,
+        326.0,
+        24.0,
+        672.0
+      ],
+      "source_block_index": 73,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "I_8_76",
+      "type": "image",
+      "section": "Results",
+      "page": 8,
+      "bbox": [
+        294.0,
+        123.0,
+        699.0,
+        336.0
+      ],
+      "source_block_index": 76,
+      "alignment_status": "matched",
+      "caption": "Figure 6. Typical stress-strain curves of PAA and PI.",
+      "image_path": "organized/reference_no_0037921/images/abf810460ad22eaaa4a5650975ed2b18c56a8e6a9cc5cdb6c6038669f30a49ea.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "P_8_77",
+      "type": "text",
+      "section": "Results",
+      "text": "the temperature. Below $2 1 0 ^ { \\circ } \\mathrm { C }$, the fact that $\\mathbf { E ^ { \\prime } }$is more than $\\mathrm { E } ^ { \\prime \\prime }$by one order of magnitude indicates that the polyimide exhibits an elastic behavior. However, when the temperature is higher than the glass transition temperature, $\\mathrm { E ^ { \\prime } }$is near to $\\mathrm { E } ^ { \\prime \\prime }$, namely, the tan d value is about 1.0, and consequently the polymer exhibits an obvious viscoelastic behavior.",
+      "page": 8,
+      "bbox": [
+        161.0,
+        400.0,
+        836.0,
+        462.0
+      ],
+      "source_block_index": 77,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_8_77",
+        "V2_8_1_1",
+        "V2_8_1_3",
+        "V2_8_1_5",
+        "V2_8_1_7",
+        "V2_8_1_9"
+      ]
+    },
+    {
+      "block_id": "P_8_78",
+      "type": "text",
+      "section": "Results",
+      "text": "The mechanical properties of polyamic acid and polyimide were measured under standard atmosphere. Typical stress-strain curves of the polymers are shown in Figure 6. The obvious yield behavior at an elongation of \u000114% is shown in the S–S curves of polyimide. The maximum elongation at break is 29%. However, polyamic acid possesses poor mechanical properties. The elongation at break of PAA is only 6% and it does not exhibit an apparent yield. The tensile strengths of polyamic acid and polyimide are 40.5 MPa and 100 MPa, respectively. The measurement of mechanical properties indicates that the novel polyimide exhibits a yield behavior typical of thermoplastic polymers.",
+      "page": 8,
+      "bbox": [
+        161.0,
+        461.0,
+        838.0,
+        600.0
+      ],
+      "source_block_index": 78,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_8_79",
+      "type": "title",
+      "section": "Conclusion",
+      "text": "Conclusions",
+      "page": 8,
+      "bbox": [
+        163.0,
+        634.0,
+        276.0,
+        650.0
+      ],
+      "source_block_index": 79,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_8_80",
+      "type": "text",
+      "section": "Conclusion",
+      "text": "The BAPP was prepared in two steps through the nucleophilic substitution reaction of Bidphenol A and p-chloronitrobenzene in the presence of potassium carbonate, followed by catalytic reduction with hydrazine and Pd/C. FTIR and NMR were used to confirm the structures of the intermediate dinitrocompound BNPP and the diamine monomer BAPP. Polyimide from BAPP and ODPA was synthesized using two-step polymerization. The measurements of DSC, DMA, and TGA indicate that the novel polyimide possesses good thermal properties. Moreover, the polymer exhibits a typical yield behavior of thermoplastic polymers.",
+      "page": 8,
+      "bbox": [
+        161.0,
+        658.0,
+        838.0,
+        782.0
+      ],
+      "source_block_index": 80,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_8_81",
+      "type": "title",
+      "section": "Conclusion",
+      "text": "Acknowledgements",
+      "page": 8,
+      "bbox": [
+        163.0,
+        817.0,
+        339.0,
+        834.0
+      ],
+      "source_block_index": 81,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_8_82",
+      "type": "text",
+      "section": "Conclusion",
+      "text": "We thank the financial support from Shanghai Rising-Star Program (Grant. 06QH14001), and China National 863 Plan (Grant. 2005AA302H30).",
+      "page": 8,
+      "bbox": [
+        161.0,
+        840.0,
+        834.0,
+        872.0
+      ],
+      "source_block_index": 82,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_8_83",
+      "type": "text",
+      "section": "Conclusion",
+      "text": "Downloaded by [Ams/Girona\\*barri Lib] at 04:42 08 October 2014",
+      "page": 8,
+      "bbox": [
+        0.0,
+        327.0,
+        22.0,
+        671.0
+      ],
+      "source_block_index": 83,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_9_86",
+      "type": "title",
+      "section": "References",
+      "text": "References",
+      "page": 9,
+      "bbox": [
+        161.0,
+        124.0,
+        263.0,
+        140.0
+      ],
+      "source_block_index": 86,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_9_106",
+      "type": "text",
+      "section": "References",
+      "text": "Downloaded by [Ams/Girona\\*barri Lib] at 04:42 08 October 2014",
+      "page": 9,
+      "bbox": [
+        0.0,
+        327.0,
+        22.0,
+        671.0
+      ],
+      "source_block_index": 106,
+      "alignment_status": "matched"
+    }
+  ],
+  "warnings": [
+    {
+      "code": "metadata_extraction_failed",
+      "message": "未配置统一 LLM 元数据提取器；document JSON 已继续生成"
+    }
+  ]
+}

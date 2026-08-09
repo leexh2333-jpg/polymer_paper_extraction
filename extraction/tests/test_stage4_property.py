@@ -1,12 +1,16 @@
 import json
 import tempfile
 import unittest
+from decimal import Decimal
 from pathlib import Path
 
 
 from llm_client import (
     DEFAULT_CONFIG_PATH,
+    LLMCallCost,
     LLMJSONResponse,
+    LLMRawResponse,
+    LLMTokenUsage,
     ResolvedLLMConfig,
     load_pipeline_config,
 )
@@ -31,13 +35,17 @@ from stages.stage4_property import (
     _candidate_repair_warnings,
     _failure_replay_client,
     _looks_like_series_property_header,
+    _materialize,
+    _preview_salvage_materialization,
     _recover_grouped_table_methods,
     _repair_candidate_response_payload,
     _resolve_surface_text,
+    _stage4_raw_response_artifact,
     _validate_required_table_series,
     extract_properties,
     load_property_vocabulary,
     run_stage4,
+    select_context_blocks,
 )
 from stages.table_grid import parse_table_cells
 
@@ -1112,6 +1120,207 @@ def rendered_prompt():
 
 
 class Stage4Tests(unittest.TestCase):
+    @staticmethod
+    def _salvage_condition(condition_id: str = "mc001", *, block_id: str = "P_2_0") -> dict:
+        return {
+            "condition_id": condition_id,
+            "temperature": None,
+            "frequency": None,
+            "humidity": None,
+            "pressure": None,
+            "wavelength": None,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "condition_status": "not_reported",
+            "evidence": {
+                "block_id": block_id,
+                "source_sentence": RESULT_SENTENCE,
+                "table_locator": None,
+            },
+        }
+
+    @staticmethod
+    def _salvage_property(
+        property_id: str,
+        condition_id: str,
+        *,
+        block_id: str = "P_2_0",
+    ) -> dict:
+        return {
+            "property_id": property_id,
+            "sample_id": "s001",
+            "property_name_raw": "solubility parameter",
+            "property_name_normalized": "solubility_parameter",
+            "property_code": "P5110",
+            "property_category": "physicochemical_property",
+            "molecular_weight_type": None,
+            "determination_method_raw": None,
+            "observation_group_id": None,
+            "observation_role": "single",
+            "series_id": None,
+            "series_ids": None,
+            "value_raw": "8.5 to 8.6",
+            "value_min": 8.5,
+            "value_max": 8.6,
+            "unit_raw": "(cal/ml)^1/2",
+            "unit_normalized": "(cal/mL)^0.5",
+            "measurement_condition_id": condition_id,
+            "measurement_context": None,
+            "evidence": [{
+                "block_id": block_id,
+                "source_sentence": RESULT_SENTENCE,
+                "table_locator": None,
+            }],
+        }
+
+    @staticmethod
+    def _salvage_series() -> dict:
+        row = (
+            "dried PB film | solubility parameter | "
+            "8.5 to 8.6 (cal/ml)^1/2"
+        )
+
+        def point(point_id: str, block_id: str, value: str) -> dict:
+            return {
+                "point_id": point_id,
+                "observation_role": "series_point",
+                "sample_id": "s001",
+                "entity_id": "pe001",
+                "sample_resolution_status": "resolved",
+                "coordinates": [],
+                "value_raw": value,
+                "value_min": None,
+                "value_max": None,
+                "unit_raw": "(cal/ml)^1/2",
+                "unit_normalized": "(cal/mL)^0.5",
+                "measurement_context": None,
+                "coverage_status": "covered",
+                "evidence": [{
+                    "block_id": block_id,
+                    "source_sentence": row,
+                    "table_locator": None,
+                }],
+            }
+
+        return {
+            "series_id": "series001",
+            "sample_id": "s001",
+            "entity_id": "pe001",
+            "sample_resolution_status": "resolved",
+            "property_name_raw": "solubility parameter",
+            "property_name_normalized": "solubility_parameter",
+            "property_code": "P5110",
+            "property_category": "physicochemical_property",
+            "determination_method_raw": None,
+            "observation_group_id": None,
+            "unit_raw": "(cal/ml)^1/2",
+            "unit_normalized": "(cal/mL)^0.5",
+            "measurement_context": {"condition_status": "not_reported"},
+            "points": [
+                point("pt001", "T_2_0", "8.5"),
+                point("pt002", "missing_block", "8.6"),
+            ],
+            "coverage": {
+                "expected": 2,
+                "covered": 2,
+                "missing": 0,
+                "not_applicable": 0,
+                "ratio": 1.0,
+            },
+            "evidence": [{
+                "block_id": "T_2_0",
+                "source_sentence": row,
+                "table_locator": None,
+            }],
+        }
+
+    def test_preview_salvage_drops_only_bad_property(self) -> None:
+        payload = add_model_confidence({
+            "measurement_conditions": [self._salvage_condition()],
+            "properties": [
+                self._salvage_property("prop001", "mc001"),
+                self._salvage_property(
+                    "prop002", "mc001", block_id="missing_block"
+                ),
+            ],
+            "unresolved_properties": [],
+            "property_series": [],
+        })
+        parsed = PropertyStageResponse.model_validate(payload)
+
+        with self.assertRaises(KeyError):
+            _materialize(parsed, stage0_document().elements)
+        salvaged, materialized, report = _preview_salvage_materialization(
+            parsed,
+            stage0_document().elements,
+        )
+
+        self.assertEqual(
+            [item.property_id for item in salvaged.properties],
+            ["prop001"],
+        )
+        self.assertEqual(len(materialized[1]), 1)
+        self.assertEqual(report["dropped_properties"], ["prop002"])
+
+    def test_preview_salvage_drops_only_bad_series_point(self) -> None:
+        payload = add_model_confidence({
+            "measurement_conditions": [],
+            "properties": [],
+            "unresolved_properties": [],
+            "property_series": [self._salvage_series()],
+        })
+        parsed = PropertyStageResponse.model_validate(payload)
+
+        salvaged, materialized, report = _preview_salvage_materialization(
+            parsed,
+            stage0_document().elements,
+        )
+
+        self.assertEqual(len(salvaged.property_series), 1)
+        self.assertEqual(
+            [point.point_id for point in salvaged.property_series[0].points],
+            ["pt001"],
+        )
+        self.assertEqual(salvaged.property_series[0].coverage.expected, 1)
+        self.assertEqual(len(materialized[3][0].points), 1)
+        self.assertEqual(
+            report["dropped_points"],
+            [{"series_id": "series001", "point_id": "pt002"}],
+        )
+
+    def test_preview_salvage_cleans_property_reference_to_bad_condition(self) -> None:
+        payload = add_model_confidence({
+            "measurement_conditions": [
+                self._salvage_condition("mc001", block_id="missing_block"),
+                self._salvage_condition("mc002"),
+            ],
+            "properties": [
+                self._salvage_property("prop001", "mc001"),
+                self._salvage_property("prop002", "mc002"),
+            ],
+            "unresolved_properties": [],
+            "property_series": [],
+        })
+        parsed = PropertyStageResponse.model_validate(payload)
+
+        salvaged, materialized, report = _preview_salvage_materialization(
+            parsed,
+            stage0_document().elements,
+        )
+
+        self.assertEqual(
+            [item.condition_id for item in salvaged.measurement_conditions],
+            ["mc002"],
+        )
+        self.assertEqual(
+            [item.property_id for item in salvaged.properties],
+            ["prop002"],
+        )
+        self.assertEqual(len(materialized[0]), 1)
+        self.assertEqual(len(materialized[1]), 1)
+        self.assertEqual(report["dropped_conditions"], ["mc001"])
+        self.assertEqual(report["dropped_properties"], ["prop001"])
+
     def test_preview_removes_unscoped_resolved_scalar_property(self) -> None:
         payload = {
             "properties": [{
@@ -4608,7 +4817,7 @@ class Stage4Tests(unittest.TestCase):
                 max_validation_retries=0,
             )
 
-    def test_preview_degrades_when_materialization_is_unsafe(self) -> None:
+    def test_preview_salvages_property_with_one_valid_evidence(self) -> None:
         result = extract_properties(
             stage0_document(),
             stage2_document(),
@@ -4621,12 +4830,20 @@ class Stage4Tests(unittest.TestCase):
             preview_relaxed=True,
         )
 
-        self.assertEqual(result.properties, [])
-        self.assertTrue(any(
-            item["code"] == "preview_degraded_empty_shell"
-            and item["degraded"]
-            for item in result.warnings
-        ))
+        self.assertEqual(len(result.properties), 1)
+        self.assertEqual(
+            [item.block_id for item in result.properties[0].evidence],
+            ["T_2_0"],
+        )
+        salvage_warning = next(
+            item for item in result.warnings
+            if item["code"] == "preview_objects_salvaged"
+        )
+        self.assertEqual(salvage_warning["details"]["dropped_evidence"], 1)
+        self.assertNotIn(
+            "preview_degraded_empty_shell",
+            [item["code"] for item in result.warnings],
+        )
 
     def test_determination_method_can_use_separate_exact_evidence(self) -> None:
         result = extract_properties(
@@ -4890,6 +5107,65 @@ class Stage4Tests(unittest.TestCase):
             self.assertFalse(first_cached)
             self.assertTrue(second_cached)
             self.assertEqual(client.calls, calls_after_first)
+
+    def test_run_stage4_persists_raw_response_without_request_data(self) -> None:
+        document = stage0_document()
+        entities = stage2_document()
+        process = stage3_document()
+        client = FakeClient()
+        client.last_raw_response = LLMRawResponse(
+            provider="test",
+            model="fake-actual",
+            finish_reason="stop",
+            content='{"properties": []}',
+            usage=LLMTokenUsage(input_tokens=12, output_tokens=34),
+            cost=None,
+        )
+        with tempfile.TemporaryDirectory() as temp_dir:
+            root = Path(temp_dir)
+            stage0_path = root / "stage0_blocks.json"
+            stage2_path = root / "stage2_entities.json"
+            stage3_path = root / "stage3_process.json"
+            output_path = root / "stage4_properties.json"
+            stage0_path.write_text(
+                json.dumps(document.model_dump(mode="json")),
+                encoding="utf-8",
+            )
+            stage2_path.write_text(
+                json.dumps(entities.model_dump(mode="json")),
+                encoding="utf-8",
+            )
+            stage3_path.write_text(
+                json.dumps(process.model_dump(mode="json")),
+                encoding="utf-8",
+            )
+
+            run_stage4(
+                stage0_path,
+                stage2_path,
+                stage3_path,
+                output_path,
+                client,
+                rendered_prompt(),
+                self.vocabulary,
+                self.vocabulary_hash,
+                force=True,
+                preview_relaxed=True,
+            )
+
+            artifact_path = root / "stage4_llm_response.json"
+            self.assertTrue(artifact_path.is_file())
+            artifact = json.loads(artifact_path.read_text(encoding="utf-8"))
+            self.assertEqual(artifact["status"], "received")
+            self.assertEqual(
+                artifact["raw_response"]["content"],
+                '{"properties": []}',
+            )
+            serialized = json.dumps(artifact).casefold()
+            self.assertNotIn("api_key", serialized)
+            self.assertNotIn("authorization", serialized)
+            self.assertNotIn("system_prompt", serialized)
+            self.assertNotIn("user_message", serialized)
 
     def test_stage4_172_cache_is_not_reused_after_locator_tightening(
         self,
@@ -5175,6 +5451,458 @@ class Stage4Tests(unittest.TestCase):
 
             self.assertFalse(cached)
             self.assertEqual(client.calls, calls_before + 1)
+
+
+    def test_preview_context_fallback_includes_all_non_reference_blocks_and_tables(self) -> None:
+        document = stage0_document().model_copy(deep=True)
+        for element in document.elements:
+            element.section = "Abstract"
+        document.elements[-1].section = "Conclusion"
+        document.elements.append(document.elements[0].model_copy(update={
+            "block_id": "P_REF_1",
+            "section": "References",
+            "text": "Reference entry that must not enter fallback context.",
+            "source_block_index": 99,
+        }))
+
+        blocks, warnings, _ = select_context_blocks(
+            document,
+            stage2_document(),
+            stage3_document(),
+            max_input_chars=20000,
+        )
+
+        block_ids = {item.block_id for item in blocks}
+        self.assertIn("T_2_0", block_ids)
+        self.assertNotIn("P_REF_1", block_ids)
+        self.assertTrue(any(item["code"] == "section_fallback" for item in warnings))
+
+    def test_preview_point_inherits_unique_series_subject_before_semantic_bypass(self) -> None:
+        payload = SeriesClient().call_json("", "").data
+        series = payload["property_series"][0]
+        series.update({
+            "sample_id": "s001",
+            "entity_id": "pe001",
+            "sample_resolution_status": "resolved",
+        })
+        series["points"][0].update({
+            "sample_id": None,
+            "entity_id": None,
+            "sample_resolution_status": None,
+        })
+
+        repaired, repairs = _repair_candidate_response_payload(
+            payload,
+            stage3_document(),
+            stage0_document().elements,
+            preview_relaxed=True,
+        )
+
+        point = repaired["property_series"][0]["points"][0]
+        self.assertEqual(point["sample_id"], "s001")
+        self.assertEqual(point["entity_id"], "pe001")
+        self.assertEqual(point["sample_resolution_status"], "resolved")
+        self.assertEqual(repairs["point_subject_inherited_from_series"], 1)
+
+    def test_preview_normalizes_source_text_alias_and_degrades_blank_locator(self) -> None:
+        payload = {
+            "properties": [],
+            "unresolved_properties": [],
+            "measurement_conditions": [],
+            "property_series": [{
+                "series_id": "series001",
+                "sample_id": "s001",
+                "entity_id": "pe001",
+                "sample_resolution_status": "resolved",
+                "points": [{
+                    "point_id": "pt001",
+                    "sample_id": None,
+                    "entity_id": None,
+                    "sample_resolution_status": None,
+                    "coordinates": [],
+                    "evidence": [{
+                        "block_id": "T_2_0",
+                        "source_text": "8.5 to 8.6 (cal/ml)^1/2",
+                        "table_locator": {
+                            "table_id": "T_2_0",
+                            "row_label": "dried PB film",
+                            "column_label": "",
+                        },
+                    }],
+                }],
+            }],
+        }
+
+        repaired, repairs = _repair_candidate_response_payload(
+            payload,
+            stage3_document(),
+            stage0_document().elements,
+            preview_relaxed=True,
+        )
+
+        evidence = repaired["property_series"][0]["points"][0]["evidence"][0]
+        self.assertEqual(evidence["source_sentence"], "8.5 to 8.6 (cal/ml)^1/2")
+        self.assertNotIn("source_text", evidence)
+        self.assertIsNone(evidence["table_locator"])
+        self.assertEqual(repairs["source_text_aliases_normalized"], 1)
+        self.assertEqual(repairs["preview_blank_table_locators_degraded"], 1)
+
+    def test_preview_salvage_keeps_multi_subject_series_points(self) -> None:
+        payload = SeriesClient().call_json("", "").data
+        series = payload["property_series"][0]
+        first_point = series["points"][0]
+        first_point.update({
+            "sample_id": "s001",
+            "entity_id": "pe001",
+            "sample_resolution_status": "resolved",
+        })
+        second_point = json.loads(json.dumps(first_point))
+        second_point.update({
+            "point_id": "pt011",
+            "sample_id": "s002",
+            "entity_id": "pe002",
+        })
+        series.update({
+            "sample_id": None,
+            "entity_id": None,
+            "sample_resolution_status": "unresolved",
+            "points": [first_point, second_point],
+            "coverage": None,
+        })
+        parsed = PropertyStageResponse.model_validate(payload)
+
+        salvaged, materialized, report = _preview_salvage_materialization(
+            parsed,
+            list(stage0_document().elements),
+        )
+
+        self.assertEqual(len(salvaged.property_series), 1)
+        self.assertEqual(len(salvaged.property_series[0].points), 2)
+        self.assertEqual(len(materialized[3]), 1)
+        self.assertEqual(report["dropped_points"], [])
+        self.assertEqual(report["dropped_series"], [])
+
+    def test_preview_only_removes_unsupported_series_field(self) -> None:
+        preview_payload = SeriesClient().call_json("", "").data
+        preview_payload["property_series"][0]["molecular_weight_type"] = "Mw"
+
+        preview_repaired, preview_repairs = _repair_candidate_response_payload(
+            preview_payload,
+            stage3_document(),
+            stage0_document().elements,
+            preview_relaxed=True,
+        )
+
+        self.assertNotIn(
+            "molecular_weight_type",
+            preview_repaired["property_series"][0],
+        )
+        self.assertEqual(
+            preview_repairs["preview_series_unsupported_fields_removed"],
+            1,
+        )
+
+        strict_payload = SeriesClient().call_json("", "").data
+        strict_payload["property_series"][0]["molecular_weight_type"] = "Mw"
+        strict_repaired, strict_repairs = _repair_candidate_response_payload(
+            strict_payload,
+            stage3_document(),
+            stage0_document().elements,
+            preview_relaxed=False,
+        )
+
+        self.assertEqual(
+            strict_repaired["property_series"][0]["molecular_weight_type"],
+            "Mw",
+        )
+        self.assertEqual(
+            strict_repairs["preview_series_unsupported_fields_removed"],
+            0,
+        )
+
+    def test_preview_fills_blank_source_sentence_from_known_block(self) -> None:
+        payload = {
+            "properties": [],
+            "unresolved_properties": [],
+            "measurement_conditions": [],
+            "property_series": [{
+                "series_id": "series001",
+                "sample_id": "s001",
+                "entity_id": "pe001",
+                "sample_resolution_status": "resolved",
+                "points": [{
+                    "point_id": "pt001",
+                    "sample_id": None,
+                    "entity_id": None,
+                    "sample_resolution_status": None,
+                    "coordinates": [],
+                    "evidence": [{
+                        "block_id": "P_2_0",
+                        "source_sentence": "",
+                        "table_locator": None,
+                    }],
+                }],
+            }],
+        }
+
+        repaired, repairs = _repair_candidate_response_payload(
+            payload,
+            stage3_document(),
+            stage0_document().elements,
+            preview_relaxed=True,
+        )
+
+        evidence = repaired["property_series"][0]["points"][0]["evidence"][0]
+        self.assertEqual(evidence["source_sentence"], RESULT_SENTENCE)
+        self.assertEqual(repairs["preview_missing_source_sentences_filled"], 1)
+
+    def test_preview_compacts_condition_quantity_range_fields(self) -> None:
+        payload = {
+            "properties": [],
+            "unresolved_properties": [],
+            "property_series": [],
+            "measurement_conditions": [{
+                "condition_id": "mc001",
+                "condition_status": "reported",
+                "temperature": {
+                    "raw": "25 °C",
+                    "value": None,
+                    "value_min": 25,
+                    "value_max": 25,
+                    "unit": "°C",
+                    "evidence": [{
+                        "block_id": "P_2_0",
+                        "source_sentence": RESULT_SENTENCE,
+                        "table_locator": None,
+                    }],
+                },
+                "other_conditions": {},
+                "other_condition_evidence": {},
+                "evidence": {
+                    "block_id": "P_2_0",
+                    "source_sentence": RESULT_SENTENCE,
+                    "table_locator": None,
+                },
+            }],
+        }
+
+        repaired, repairs = _repair_candidate_response_payload(
+            payload,
+            stage3_document(),
+            stage0_document().elements,
+            preview_relaxed=True,
+        )
+
+        temperature = repaired["measurement_conditions"][0]["temperature"]
+        self.assertEqual(temperature["value"], 25)
+        self.assertNotIn("value_min", temperature)
+        self.assertNotIn("value_max", temperature)
+        self.assertEqual(
+            repairs["preview_condition_quantity_ranges_compacted"],
+            1,
+        )
+
+    def test_strict_does_not_fill_evidence_or_compact_condition_quantity(self) -> None:
+        payload = {
+            "properties": [],
+            "unresolved_properties": [],
+            "property_series": [],
+            "measurement_conditions": [{
+                "condition_id": "mc001",
+                "condition_status": "reported",
+                "temperature": {
+                    "raw": "25 °C",
+                    "value": None,
+                    "value_min": 25,
+                    "value_max": 25,
+                    "unit": "°C",
+                    "evidence": [{
+                        "block_id": "P_2_0",
+                        "source_sentence": "",
+                        "table_locator": None,
+                    }],
+                },
+                "other_conditions": {},
+                "other_condition_evidence": {},
+                "evidence": {
+                    "block_id": "P_2_0",
+                    "source_sentence": "",
+                    "table_locator": None,
+                },
+            }],
+        }
+
+        repaired, repairs = _repair_candidate_response_payload(
+            payload,
+            stage3_document(),
+            stage0_document().elements,
+            preview_relaxed=False,
+        )
+
+        condition = repaired["measurement_conditions"][0]
+        self.assertEqual(condition["evidence"]["source_sentence"], "")
+        self.assertEqual(
+            condition["temperature"]["evidence"][0]["source_sentence"],
+            "",
+        )
+        self.assertIn("value_min", condition["temperature"])
+        self.assertIn("value_max", condition["temperature"])
+        self.assertEqual(repairs["preview_missing_source_sentences_filled"], 0)
+        self.assertEqual(
+            repairs["preview_condition_quantity_ranges_compacted"],
+            0,
+        )
+
+    def test_preview_unwraps_singleton_coordinate_evidence(self) -> None:
+        payload = {
+            "properties": [],
+            "unresolved_properties": [],
+            "measurement_conditions": [],
+            "property_series": [{
+                "series_id": "series001",
+                "points": [{
+                    "point_id": "pt001",
+                    "coordinates": [{
+                        "name_raw": "solvent",
+                        "value_raw": "NMP",
+                        "evidence": [{
+                            "block_id": "P_2_0",
+                            "source_sentence": RESULT_SENTENCE,
+                            "table_locator": None,
+                        }],
+                    }],
+                    "evidence": [{
+                        "block_id": "P_2_0",
+                        "source_sentence": RESULT_SENTENCE,
+                        "table_locator": None,
+                    }],
+                }],
+            }],
+        }
+
+        repaired, repairs = _repair_candidate_response_payload(
+            payload,
+            stage3_document(),
+            stage0_document().elements,
+            preview_relaxed=True,
+        )
+
+        evidence = repaired["property_series"][0]["points"][0][
+            "coordinates"
+        ][0]["evidence"]
+        self.assertIsInstance(evidence, dict)
+        self.assertEqual(evidence["block_id"], "P_2_0")
+        self.assertEqual(
+            repairs["preview_singleton_coordinate_evidence_unwrapped"],
+            1,
+        )
+
+    def test_strict_keeps_singleton_coordinate_evidence_list(self) -> None:
+        payload = {
+            "properties": [],
+            "unresolved_properties": [],
+            "measurement_conditions": [],
+            "property_series": [{
+                "series_id": "series001",
+                "points": [{
+                    "point_id": "pt001",
+                    "coordinates": [{
+                        "name_raw": "solvent",
+                        "value_raw": "NMP",
+                        "evidence": [{
+                            "block_id": "P_2_0",
+                            "source_sentence": RESULT_SENTENCE,
+                            "table_locator": None,
+                        }],
+                    }],
+                    "evidence": [{
+                        "block_id": "P_2_0",
+                        "source_sentence": RESULT_SENTENCE,
+                        "table_locator": None,
+                    }],
+                }],
+            }],
+        }
+
+        repaired, repairs = _repair_candidate_response_payload(
+            payload,
+            stage3_document(),
+            stage0_document().elements,
+            preview_relaxed=False,
+        )
+
+        evidence = repaired["property_series"][0]["points"][0][
+            "coordinates"
+        ][0]["evidence"]
+        self.assertIsInstance(evidence, list)
+        self.assertEqual(
+            repairs["preview_singleton_coordinate_evidence_unwrapped"],
+            0,
+        )
+
+    def test_raw_response_artifact_serializes_decimal_costs(self) -> None:
+        client = FakeClient()
+        cost = LLMCallCost(
+            currency="CNY",
+            input_per_million=Decimal("1.1"),
+            output_per_million=Decimal("2.2"),
+            input_cost=Decimal("0.01"),
+            output_cost=Decimal("0.02"),
+            total_cost=Decimal("0.03"),
+        )
+        client.last_raw_response = LLMRawResponse(
+            provider="test",
+            model="fake-actual",
+            finish_reason="stop",
+            content='{"properties": []}',
+            usage=LLMTokenUsage(input_tokens=12, output_tokens=34),
+            cost=cost,
+        )
+
+        artifact = _stage4_raw_response_artifact(
+            client,
+            document_id="doc-test",
+            history_start=0,
+        )
+
+        self.assertIsNotNone(artifact)
+        json.dumps(artifact)
+        self.assertEqual(
+            artifact["raw_response"]["cost"]["total_cost"],
+            "0.03",
+        )
+
+    def test_preview_rechecks_empty_reported_context_after_anchor_cleanup(self) -> None:
+        payload = {
+            "properties": [],
+            "unresolved_properties": [],
+            "property_series": [],
+            "measurement_conditions": [{
+                "condition_id": "cond001",
+                "condition_status": "reported",
+                "temperature": {
+                    "raw": "999 K",
+                    "value": 999,
+                    "unit": "K",
+                    "evidence": [{"block_id": "P_2_0"}],
+                },
+                "other_conditions": {},
+                "other_condition_evidence": {},
+                "evidence": {"block_id": "P_2_0"},
+            }],
+        }
+
+        repaired, repairs = _repair_candidate_response_payload(
+            payload,
+            stage3_document(),
+            stage0_document().elements,
+            preview_relaxed=True,
+        )
+
+        condition = repaired["measurement_conditions"][0]
+        self.assertIsNone(condition["temperature"])
+        self.assertEqual(condition["condition_status"], "not_reported")
+        self.assertGreaterEqual(repairs["empty_reported_contexts_downgraded"], 1)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,497 @@
+{
+  "schema_version": "1.0",
+  "document_id": "reference_no_0037886",
+  "measurement_conditions": [
+    {
+      "condition_id": "mc001",
+      "other_conditions": {
+        "scan_rate": "20 K min⁻¹",
+        "purge_gas": "dry nitrogen",
+        "measurement_temperature_range": "308–523 K"
+      },
+      "other_condition_evidence": {},
+      "condition_status": "reported",
+      "evidence": {
+        "block_id": "P_1_23",
+        "page": 1,
+        "bbox": [
+          526.0,
+          436.0,
+          922.0,
+          573.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The glass transition temperature $( T _ { \\mathrm { g } } )$of the pure polymer was measured with a Mettler 821 calorimetric system. Polymer sample was dried under reduced pressure in a vacuum oven prior to measurement. Dry nitrogen was used as purge gas and thermogram was measured in the range 308– 523 K at a scan rate of 20 $\\mathrm { K } \\mathrm { m i n } ^ { - 1 }$."
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "condition_id": "mc002",
+      "other_conditions": {
+        "frequency_range": "10⁻¹ to 10⁸ Hz",
+        "temperature_step": "5 K",
+        "sample_shape": "disc-shaped, diameter 20 and 10 mm"
+      },
+      "other_condition_evidence": {},
+      "condition_status": "reported",
+      "evidence": {
+        "block_id": "P_1_25",
+        "page": 1,
+        "bbox": [
+          526.0,
+          619.0,
+          922.0,
+          773.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Dielectric measurements were carried out by means of a Novocontrol Broad Band Dielectric Spectrometer made up of an Alpha analyzer to carry out measurement from $1 0 ^ { - 1 } ~ \\mathrm { t o } ~ 1 0 ^ { 6 }$Hz and an Agilent 4991A RF analyzer to perform measurements from ${ 1 0 } ^ { 6 }$to ${ 1 0 } ^ { 8 }$Hz, both devices being coupled with a Quatro temperature controller. Isothermal measurements were carried out from 148 to 423 K in 5-K steps on a molded, disc-shaped (diameter of 20 and 10 mm, respectively) sample."
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    }
+  ],
+  "properties": [
+    {
+      "property_id": "prop001",
+      "sample_id": "s003",
+      "property_name_raw": "glass transition temperature",
+      "property_name_normalized": "glass_transition_temperature",
+      "property_code": "P3110",
+      "property_category": "thermal_property",
+      "determination_method_raw": "Mettler 821 calorimetric system",
+      "observation_role": "single",
+      "value_raw": "433 K",
+      "value_min": 433.0,
+      "value_max": 433.0,
+      "unit_raw": "K",
+      "unit_normalized": "K",
+      "measurement_condition_id": "mc001",
+      "measurement_context": {
+        "other_conditions": {
+          "scan_rate": "20 K min⁻¹",
+          "purge_gas": "dry nitrogen",
+          "measurement_temperature_range": "308–523 K"
+        },
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_1_23",
+          "page": 1,
+          "bbox": [
+            526.0,
+            436.0,
+            922.0,
+            573.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The glass transition temperature obtained for the P4THPMA was 433 K."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop002",
+      "sample_id": "s004",
+      "property_name_raw": "activation energy of β-relaxation",
+      "determination_method_raw": "Arrhenius plot of dielectric relaxation data",
+      "observation_role": "single",
+      "value_raw": "68.2 ± 0.6 kJ mol⁻¹",
+      "value_min": 67.6,
+      "value_max": 68.8,
+      "unit_raw": "kJ mol⁻¹",
+      "unit_normalized": "kJ/mol",
+      "measurement_condition_id": "mc002",
+      "measurement_context": {
+        "other_conditions": {
+          "frequency_range": "10⁻¹ to 10⁸ Hz",
+          "temperature_step": "5 K",
+          "sample_shape": "disc-shaped, diameter 20 and 10 mm"
+        },
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_4_57",
+          "page": 4,
+          "bbox": [
+            526.0,
+            727.0,
+            922.0,
+            911.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The activation energies calculated from the Arrhenius plot for each process were $6 8 . 2 \\pm 0 . 6 \\mathrm { k J } \\mathrm { m o l } ^ { - 1 }$for $\\beta -$relaxation and 48.0 ± 0.3 kJ $\\mathrm { m o l ^ { - 1 } }$for γ-relaxation."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop003",
+      "sample_id": "s004",
+      "property_name_raw": "C (VFTH parameter)",
+      "observation_role": "single",
+      "value_raw": "-13.2 ± 0.2",
+      "value_min": -13.4,
+      "value_max": -13.0,
+      "measurement_condition_id": "mc002",
+      "measurement_context": {
+        "other_conditions": {
+          "frequency_range": "10⁻¹ to 10⁸ Hz",
+          "temperature_step": "5 K",
+          "sample_shape": "disc-shaped, diameter 20 and 10 mm"
+        },
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_5_77",
+          "page": 5,
+          "bbox": [
+            528.0,
+            700.0,
+            920.0,
+            747.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The parameters obtained in our fit were C $= ( - 1 3 . 2 \\pm 0 . 2 ) , M = ( - 1 1 3 0 \\pm 4 0 ) \\mathrm { ~ K ~ }$, and $T _ { \\infty }$$= ( 3 4 2 . 0 \\pm 2 . 3 ) \\mathrm { K } .$"
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop004",
+      "sample_id": "s004",
+      "property_name_raw": "relative free volume at T_g",
+      "observation_role": "single",
+      "value_raw": "3.1%",
+      "value_min": 3.1,
+      "value_max": 3.1,
+      "unit_raw": "%",
+      "measurement_condition_id": "mc002",
+      "measurement_context": {
+        "other_conditions": {
+          "frequency_range": "10⁻¹ to 10⁸ Hz",
+          "temperature_step": "5 K",
+          "sample_shape": "disc-shaped, diameter 20 and 10 mm"
+        },
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_5_80",
+          "page": 5,
+          "bbox": [
+            526.0,
+            833.0,
+            922.0,
+            910.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The obtained value for the free volume is 3.1%."
+        }
+      ],
+      "confidence": {
+        "score": 0.85
+      }
+    }
+  ],
+  "unresolved_properties": [
+    {
+      "unresolved_id": "uprop001",
+      "entity_id": "pe001",
+      "property_name_raw": "simulated energy barrier for O-C bond rotation (δ-relaxation)",
+      "observation_role": "single",
+      "value_raw": "31 kJ mol⁻¹",
+      "measurement_context": {
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "reason": "sample_not_found",
+      "evidence": [
+        {
+          "block_id": "P_7_93",
+          "page": 7,
+          "bbox": [
+            104.0,
+            500.0,
+            498.0,
+            637.0
+          ],
+          "source_type": "text",
+          "source_sentence": "An energy barrier of 31 kJ $\\mathrm { m o l ^ { - 1 } }$was obtained."
+        }
+      ],
+      "confidence": {
+        "score": 0.8
+      }
+    },
+    {
+      "unresolved_id": "uprop002",
+      "entity_id": "pe001",
+      "property_name_raw": "simulated energy barrier for chair-to-chair interconversion (γ-relaxation)",
+      "observation_role": "single",
+      "value_raw": "46.1 kJ mol⁻¹",
+      "measurement_context": {
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "reason": "sample_not_found",
+      "evidence": [
+        {
+          "block_id": "P_7_96",
+          "page": 7,
+          "bbox": [
+            526.0,
+            635.0,
+            922.0,
+            848.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The energy barrier obtained with a simple model compound of one unit (46.1 kJ $\\mathrm { m o l } ^ { - 1 } )$is close to that evaluated by dielectric measurements (48.0 kJ mol-<sup>1</sup>)."
+        }
+      ],
+      "confidence": {
+        "score": 0.8
+      }
+    }
+  ],
+  "property_series": [
+    {
+      "series_id": "series001",
+      "sample_id": "s004",
+      "entity_id": "pe001",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "1/T_{max,β}",
+      "unit_raw": "$ (K $^{-1}$ )",
+      "measurement_context": {
+        "other_conditions": {
+          "frequency_range": "10⁻¹ to 10⁸ Hz",
+          "temperature_step": "5 K"
+        },
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "points": [
+        {
+          "point_id": "pt001",
+          "observation_role": "series_point",
+          "sample_id": "s004",
+          "entity_id": "pe001",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "f",
+              "value_raw": "52.2",
+              "unit_raw": "Hz",
+              "evidence": {
+                "block_id": "T_3_48",
+                "page": 3,
+                "bbox": [
+                  104.0,
+                  643.0,
+                  922.0,
+                  904.0
+                ],
+                "source_type": "table",
+                "source_sentence": "Table 1. Fuoss-Kirkwood Parameters ofSubvitreous Zone and the Relaxation Strengths Evaluated as $\\begin{array} { r } { \\Delta \\varepsilon _ { i } \\ = \\ \\frac { 2 \\varepsilon _ { \\mathrm { m a x } , i } ^ { \\prime \\prime } } { m _ { i } } . } \\end{array}$",
+                "table_locator": {
+                  "table_id": "T_3_48",
+                  "row_label": "52.2",
+                  "column_label": "$f$ (Hz)",
+                  "cell_value": "52.2",
+                  "cell_id": "T_3_48:r0001:c0000",
+                  "row_index": 1,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "0.0032 ± 6 × 10⁻⁶",
+          "value_min": 0.003194,
+          "value_max": 0.003206,
+          "measurement_context": {
+            "other_conditions": {
+              "frequency_range": "10⁻¹ to 10⁸ Hz",
+              "temperature_step": "5 K"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_3_48",
+              "page": 3,
+              "bbox": [
+                104.0,
+                643.0,
+                922.0,
+                904.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 1. Fuoss-Kirkwood Parameters ofSubvitreous Zone and the Relaxation Strengths Evaluated as $\\begin{array} { r } { \\Delta \\varepsilon _ { i } \\ = \\ \\frac { 2 \\varepsilon _ { \\mathrm { m a x } , i } ^ { \\prime \\prime } } { m _ { i } } . } \\end{array}$",
+              "table_locator": {
+                "table_id": "T_3_48",
+                "row_label": "52.2",
+                "column_label": "$1/T_{\\text{max},\\beta}$ (K $^{-1}$ )",
+                "cell_value": "$0.0032 \\pm 6 \\times 10^{-6}$",
+                "cell_id": "T_3_48:r0001:c0001",
+                "row_index": 1,
+                "column_index": 1
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        }
+      ],
+      "coverage": {
+        "expected": 1,
+        "covered": 1,
+        "missing": 0,
+        "not_applicable": 0,
+        "ratio": 1.0
+      },
+      "evidence": [
+        {
+          "block_id": "P_3_46",
+          "page": 3,
+          "bbox": [
+            104.0,
+            540.0,
+            498.0,
+            603.0
+          ],
+          "source_type": "text",
+          "source_sentence": "This value is close to that found for other polymers structurally related, for example, polycyclohexyl methacrylate<sup>1,2</sup> and polymethylcyclohexyl methacrylate<sup>6</sup> (25–35 kJ mol-<sup>1</sup>)."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    }
+  ],
+  "provenance": {
+    "stage": "stage4_property",
+    "provider": "dmx",
+    "model": "doubao-seed-2.0-pro",
+    "models": [
+      "doubao-seed-2.0-pro"
+    ],
+    "prompt_id": "polymer.stage4.property",
+    "prompt_version": "1.7.2",
+    "prompt_sha256": "ec79fe3bf47539cab4ba239c611d1ab17d75dc0038cda85020caca580f7987a5",
+    "vocabulary_sha256": "3e9d85e4915a729edf0f0a53821f3ee6edf32874e1da6972457417e4f13a1510",
+    "input_hash": "10d1ee300dfbb4db5a73e4df1605ae5c779fe290ca14545ded728a1f647bbd32",
+    "model_config_hash": "cc96eaab20bd380ae90f3ba1dfa638bd40f111e3e72ca185255fb71b459d40ea",
+    "cache_key": "24e80c463e46fdef9996a32ec01531cdaf6c72ad2a250a88c30bf4df67e18ca4",
+    "output_schema_version": "property_observation_schema.v7",
+    "implementation_version": "1.7.10",
+    "context_block_count": 74,
+    "context_chars": 56225,
+    "call_count": 1,
+    "usage": {
+      "input_tokens": 33845,
+      "output_tokens": 9617,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "billable_input_tokens": 33845,
+      "total_tokens": 43462
+    },
+    "cost": {
+      "status": "calculated",
+      "currency": "CNY",
+      "input_per_million": "4.32",
+      "output_per_million": "29.15",
+      "input_cost": "0.1462104",
+      "output_cost": "0.28033555",
+      "total_cost": "0.42654595"
+    },
+    "status": "success"
+  },
+  "warnings": [
+    {
+      "stage": "stage4_property",
+      "code": "series_unit_surface_repaired",
+      "message": "Series/point 的 unit_raw 缺少表头括号；已从同一表格列名中恢复唯一等价的原文单位表面文本",
+      "fields": 1
+    },
+    {
+      "stage": "stage4_property",
+      "code": "series_entity_relinked_to_sample",
+      "message": "PropertySeries/point 的 entity_id 与已解析 Sample 冲突；已按 Stage 3 Sample.refers_to_entity 确定性纠正",
+      "series": 1,
+      "points": 0
+    },
+    {
+      "stage": "stage4_property",
+      "code": "candidate_table_locator_surface_repaired",
+      "message": "模型 locator 表面文本不在表格原文；已用 property raw 与 determination method 中唯一匹配的 Stage 0 表头恢复",
+      "evidence": 2
+    },
+    {
+      "stage": "stage4_property",
+      "code": "series_context_evidence_supplemented",
+      "message": "Series/point measurement context 不在数值表格 evidence；已补入全文中唯一的完全匹配原文 block",
+      "series_evidence": 1
+    },
+    {
+      "stage": "stage4_property",
+      "code": "preview_semantic_validation_bypassed",
+      "message": "Preview 已保留 Schema 合法候选，并跳过原文/evidence 语义对应校验；Strict 模式仍会报错",
+      "reason": "mc001.other_conditions.scan_rate.raw 无法在对象 evidence中定位"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "preview_objects_salvaged",
+      "message": "Preview 已逐对象保留可安全物化的数据；坏字段、坏对象或失效引用已局部删除，Strict 模式仍会报错",
+      "details": {
+        "dropped_conditions": [],
+        "dropped_properties": [],
+        "dropped_unresolved_properties": [],
+        "dropped_series": [],
+        "dropped_points": [],
+        "dropped_evidence": 0,
+        "dropped_coordinates": 0
+      }
+    },
+    {
+      "stage": "stage4_property",
+      "code": "unresolved_properties",
+      "message": "2 条性质无法可靠关联具体 Sample",
+      "unresolved_ids": [
+        "uprop001",
+        "uprop002"
+      ]
+    }
+  ]
+}

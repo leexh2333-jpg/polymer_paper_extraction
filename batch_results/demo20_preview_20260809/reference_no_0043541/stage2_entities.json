@@ -1,0 +1,150 @@
+{
+  "schema_version": "1.0",
+  "document_id": "reference_no_0043541",
+  "polymer_entities": [
+    {
+      "entity_id": "pe001",
+      "polymer_name": "poly(MPC)",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "poly(MPC)",
+        "PMPC"
+      ],
+      "resolved_from_mentions": [
+        "m001",
+        "m003",
+        "m008",
+        "m011",
+        "m014",
+        "m015",
+        "m016",
+        "m018",
+        "m020"
+      ],
+      "evidence": {
+        "block_id": "P_5_69",
+        "page": 5,
+        "bbox": [
+          89.0,
+          466.0,
+          486.0,
+          675.0
+        ],
+        "source_type": "text",
+        "source_sentence": "We found that the dimension of free poly(MPC) in water is independent of the ionic strength of the salt solution.<sup>[25,26]</sup> Poly(MPC) can be regard as a quite unique zwitter-type polyelectrolyte having the independence of intra- and intermolecular interaction of PMPC from the concentration of $\\mathrm { N a C l } . ^ { [ 2 6 ] }$As a result, the thickness of the high-density polyelectrolyte brushes in solution was observed to change very little in salt solution."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.99
+      }
+    },
+    {
+      "entity_id": "pe002",
+      "polymer_name": "poly(DMAEMA)",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "poly(DMAEMA)"
+      ],
+      "resolved_from_mentions": [
+        "m002",
+        "m004",
+        "m009"
+      ],
+      "evidence": {
+        "block_id": "P_3_42",
+        "page": 3,
+        "bbox": [
+          500.0,
+          259.0,
+          900.0,
+          743.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The contact angle of the poly(DMAEMA) brush was reduced from $5 6 ^ { \\circ }$to $3 6 ^ { \\circ }$by immersion in methyl iodide solution, indicating the formation of a hydrophilic poly(METAI) brush."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.97
+      }
+    },
+    {
+      "entity_id": "pe003",
+      "polymer_name": "poly(METAI)",
+      "variant_of": "pe002",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "poly(METAI)",
+        "Poly(ME-TAI)",
+        "poly (METAI)"
+      ],
+      "resolved_from_mentions": [
+        "m005",
+        "m006",
+        "m007",
+        "m010",
+        "m012",
+        "m013",
+        "m017",
+        "m019"
+      ],
+      "evidence": {
+        "block_id": "P_3_42",
+        "page": 3,
+        "bbox": [
+          500.0,
+          259.0,
+          900.0,
+          743.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The contact angle of the poly(DMAEMA) brush was reduced from $5 6 ^ { \\circ }$to $3 6 ^ { \\circ }$by immersion in methyl iodide solution, indicating the formation of a hydrophilic poly(METAI) brush."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.95
+      }
+    }
+  ],
+  "unresolved_mention_ids": [],
+  "provenance": {
+    "stage": "stage2_polymer_entity",
+    "provider": "dmx",
+    "model": "gpt-5.6-terra-2026-07-09",
+    "models": [
+      "gpt-5.6-terra-2026-07-09"
+    ],
+    "prompt_id": "polymer.stage2.polymer_entity",
+    "prompt_version": "1.2.0",
+    "prompt_sha256": "8293a9f30517fa564eb1fd5e3af02ea721f9ac48554f50edf089bcb9cec63801",
+    "input_hash": "c068ba048713f351dbeb89c7d2bccbd328a1a5f58504ad952219537f6becd424",
+    "model_config_hash": "c9e96c2514956e7b4b65eae3d327d34f95b7a33876cec6d4aa56f95eb79a9b50",
+    "cache_key": "9c5af069df230dd0f7f6b7bfdc9f84fca8ab9aa20683f8bee9834766aace929c",
+    "output_schema_version": "polymer_entity_schema.v2",
+    "implementation_version": "1.3.3",
+    "context_block_count": 24,
+    "context_chars": 16028,
+    "call_count": 1,
+    "usage": {
+      "input_tokens": 8739,
+      "output_tokens": 991,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "billable_input_tokens": 8739,
+      "total_tokens": 9730
+    },
+    "cost": {
+      "status": "calculated",
+      "currency": "CNY",
+      "input_per_million": "17",
+      "output_per_million": "101",
+      "input_cost": "0.148563",
+      "output_cost": "0.100091",
+      "total_cost": "0.248654"
+    },
+    "status": "success"
+  },
+  "warnings": []
+}
