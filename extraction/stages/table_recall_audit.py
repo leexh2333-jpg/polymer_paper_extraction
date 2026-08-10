@@ -59,7 +59,8 @@ _PROPERTY_ALIAS_PATTERNS: tuple[tuple[str, str], ...] = (
     (r"(?:^|\W)t\s*[_-]?g(?:\W|$)|glass\s+transition|玻璃化转变", "glass_transition_temperature"),
     (r"(?:^|\W)t\s*[_-]?m(?:\W|$)|(?:^|\W)m\.?\s*p\.?(?:\W|$)|(?:^|\W)pmt(?:\W|$)|melting\s+(?:point|temperature)|熔融温度|熔点", "melting_temperature"),
     (r"(?:^|\W)t\s*[_-]?c(?:\W|$)|crystallization\s+temperature|结晶温度", "crystallization_temperature"),
-    (r"(?:^|\W)t\s*[_-]?d(?:\s*\d+\s*%?)?(?:\W|$)|decomposition\s+temperature|thermal\s+degradation|热分解", "thermal_decomposition_temperature"),
+    (r"(?:^|\W)t\s*[_-]?d(?:\s*\d+\s*%?)?(?:\W|$)|decomposition\s+temperature|thermal\s+degradation|热分解|"
+     r"(?:^|\W)t\s*_?\s*\{?\s*\d+(?:\.\d+)?\s*\\?%", "thermal_decomposition_temperature"),
     (r"\b(?:surface\s+tension|surface\s+energy)\b|表面张力|表面能", "surface_tension"),
     (r"\binterfacial\s+tension\b|界面张力", "interfacial_tension"),
     (r"\btensile\s+(?:stress|strength)\s+(?:at\s+)?break\b|断裂拉伸强度|拉伸断裂强度", "tensile_stress_at_break"),
@@ -71,14 +72,26 @@ _PROPERTY_ALIAS_PATTERNS: tuple[tuple[str, str], ...] = (
     (r"\bthermal\s+conductivit(?:y|ies)\b|导热率|热导率", "thermal_conductivity"),
     (r"\bthermal\s+diffusivit(?:y|ies)\b|热扩散率", "thermal_diffusivity"),
     (r"\brefractive\s+index\b|折射率", "refractive_index"),
-    (r"\bintrinsic\s+viscosity\b|特性黏度|特性粘度|(?:^|\W)(?:\\eta|eta|η)(?:\W|$)", "intrinsic_viscosity"),
+    (r"\bintrinsic\s+viscosity\b|\binherent\s+viscosity\b|特性黏度|特性粘度|(?:^|\W)(?:\\eta|eta|η)\s*(?:_?\s*\{?\s*(?:inh|int|sp|red)\b)?", "intrinsic_viscosity"),
     (r"\bdensit(?:y|ies)\b|密度", "density"),
     (r"\bspecific\s+volume\b|比容", "specific_volume"),
     (r"\boxygen\s+index\b|\bloi\b|氧指数", "oxygen_index"),
     (r"\bvicat\b|维卡", "vicat_softening_temperature"),
     (r"\bsoftening\s+temperature\b|软化温度", "softening_temperature"),
-    (r"\b(?:izod|charpy)\s+impact\b|冲击强度", "impact_strength"),
-    (r"\b(?:shore|rockwell)\s+hardness\b|硬度", "hardness"),
+    (r"\bizod\b|悬臂梁冲击", "izod_impact"),
+    (r"\bcharpy\b|简支梁冲击", "charpy_impact"),
+    # 裸写 "Impact strength (J/m)" 是论文表头最常见写法；08_名称映射 中
+    # pipeline 侧同样归到 izod_impact（词表无 impact_strength 键）。
+    (r"\bimpact\s+(?:strength|resistance)\b|\bimpact\s+energy\b|冲击强度", "izod_impact"),
+    # 裸写 "Tensile strength (MPa)"，08_名称映射 归到 tensile_stress_at_break。
+    # 带 at yield 的已由上面的专用别名先行命中，这里只兜底裸写形式。
+    (r"\btensile\s+(?:strength|stress)\b|\bts\b|拉伸强度|抗张强度", "tensile_stress_at_break"),
+    (r"\bflexural\s+(?:strength|stress)\b|弯曲强度", "flexural_stress_at_break"),
+    (r"\bflexural\s+modulus\b|弯曲模量", "flexural_modulus"),
+    (r"\byoung'?[’']?s\s+modul(?:us|i)\b|杨氏模量", "tensile_modulus"),
+    (r"\b(?:loss\s+modulus)\b|损耗模量", "dynamic_tensile_properties"),
+    (r"\bshore\s+hardness\b|邵氏硬度", "shore_hardness"),
+    (r"\brockwell\s+hardness\b|洛氏硬度", "rockwell_hardness"),
     (r"\bheat\s+of\s+fusion\b|\benthalpy\s+of\s+fusion\b|熔融焓", "heat_of_fusion"),
     (r"\bheat\s+of\s+crystallization\b|\bcrystallization\s+enthalpy\b|结晶焓", "heat_of_crystallization"),
     (r"\b(?:residual\s+mass|residue|char\s+yield)\b|残炭率|残余质量", "thermal_decomposition_temperature"),
@@ -127,6 +140,19 @@ _ALLOWED_VALUE_TOKENS = {
     "wt", "vol", "ppm", "ppb", "x", "times", "e", "d",
 }
 
+# 纯排版/单位类 LaTeX 命令：出现在数据值里是正常的（误差项、度数、乘号），
+# 不应据此判定"这格含未知字母、不是数值"。
+# 注意只剥这些；\theta \chi \varepsilon 这类是变量名，剥掉会把表头误当数据值。
+_LATEX_FORMAT_RE = re.compile(
+    r"\\(?:pm|mp|circ|degree|times|cdot|sim|approx|leq|geq|ll|gg|"
+    r"mathrm|mathbf|mathit|text|rm|it|bf|left|right|,|;|:|!|\s)",
+    re.IGNORECASE,
+)
+
+
+def _strip_format_latex(text: str) -> str:
+    return _SPACE_RE.sub(" ", _LATEX_FORMAT_RE.sub(" ", text)).strip()
+
 
 def _is_value_like_numeric(value: str) -> bool:
     """识别表格数据值，排除带数字的表头、样品名和配比。"""
@@ -139,8 +165,10 @@ def _is_value_like_numeric(value: str) -> bool:
         return False
     if _looks_like_identifier(text):
         return False
+    # 先剥排版类 LaTeX，"0.0032 \pm 6 \times 10^{-6}"、"56^{\circ}" 都是数据值。
+    text_for_tokens = _strip_format_latex(text)
     # 诸如 25-75% AP-PCL、100% Amylopectin 是样品/配方，不是性质值。
-    tokens = re.findall(r"[a-zA-Z]+", text)
+    tokens = re.findall(r"[a-zA-Z]+", text_for_tokens)
     unknown_tokens = [token for token in tokens if token not in _ALLOWED_VALUE_TOKENS]
     if unknown_tokens:
         return False
@@ -172,6 +200,14 @@ def _infer_header_rows(cells: Sequence[Stage0TableCell]) -> set[int]:
 def _load_property_patterns(path: Path = DEFAULT_VOCABULARY_PATH) -> list[tuple[re.Pattern[str], str]]:
     payload = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
     vocabulary = payload.get("property_vocabulary") or {}
+    # 别名表的归一名必须存在于词表，否则 Stage4R 会写出词表外的性质名，
+    # 下游按 97 项过滤时会被静默丢弃（历史上 impact_strength/hardness 就是这样丢的）。
+    unknown = sorted({
+        normalized for _, normalized in _PROPERTY_ALIAS_PATTERNS
+        if vocabulary and normalized not in vocabulary
+    })
+    if unknown:
+        raise ValueError(f"别名表归一名不在 property_vocabulary 中: {unknown}")
     patterns: list[tuple[re.Pattern[str], str]] = [
         (re.compile(pattern, re.IGNORECASE), normalized)
         for pattern, normalized in _PROPERTY_ALIAS_PATTERNS
@@ -223,7 +259,9 @@ def _header_context(
     row_headers.sort(key=lambda item: (item.column_index, item.row_index))
     return (
         [item.text for item in column_headers],
-        [item.text for item in row_headers[:2]],
+        # 取最靠近数据格的 3 层行表头。原来截到 2 层，多级行表头
+        # （样品组 / 子组 / 性质）会把带性质名的那一层截掉。
+        [item.text for item in row_headers[-3:]],
     )
 
 
@@ -249,7 +287,6 @@ def _classify_cell(
         return ROLE_UNKNOWN, "stage0_header_cell", None
     context_parts = [*column_headers, *row_headers]
     local_context = _normalized_text(" | ".join(context_parts))
-    full_context = _normalized_text(" | ".join([*context_parts, caption]))
     property_name = _property_match(local_context, property_patterns)
     if property_name is not None:
         return ROLE_PROPERTY, f"property_header:{property_name}", property_name
@@ -259,6 +296,12 @@ def _classify_cell(
         return ROLE_COORDINATE, "coordinate_header", None
     if _CONDITION_RE.search(local_context):
         return ROLE_CONDITION, "condition_header", None
+    # caption 只作提示、不升格为候选：caption 覆盖整张表，而一张表通常混着
+    # 多种性质。实测 5 张有 caption 命中的表里，4 张的格子并不是 caption 说的
+    # 那个性质（如 "…Limiting Oxygen Index…" 表里多数格是 Contact Angle 和
+    # Br%）。据此升格会把这些格子贴上错误的性质名。
+    # 正确做法是让局部表头能被认出（见 _PROPERTY_ALIAS_PATTERNS 中
+    # ηinh、T_{3%} 等），而不是拿 caption 去覆盖列头。
     property_name = _property_match(_normalized_text(caption), property_patterns)
     if property_name is not None:
         return ROLE_UNKNOWN, f"property_caption_hint:{property_name}", property_name

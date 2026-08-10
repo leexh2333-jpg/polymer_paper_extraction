@@ -1,6 +1,6 @@
 ---
 prompt_id: polymer.stage2.polymer_entity
-version: 1.2.0
+version: 1.2.1
 stage: stage2_polymer_entity
 output_schema: polymer_entity_schema.v2
 ---
@@ -21,7 +21,10 @@ output_schema: polymer_entity_schema.v2
 3. 酸式、盐式、不同反离子、明确不同共聚组成或明确不同交联形态必须分别建
    entity；确有系列或形态关系时用 `variant_of` 指向输入中同时建立的实体。
 4. `polymer_name` 必须逐字选择自该 entity 的 `resolved_from_mentions`，
-   不翻译、不改写、不生成 canonical name。
+   不翻译、不改写、不生成 canonical name。同一 entity 同时包含具体聚合物名称与
+   `PC-1`、`P3` 等样品代号时，必须优先选择具体聚合物名称；只有没有可靠的具体
+   名称 mention 时才允许使用样品代号。样品代号仍保留在
+   `resolved_from_mentions` 中，不得丢弃。
 5. `polymer_type` 仅在原文明示时填写；无法确定时返回 `null`。
 6. `structural_features` 当前只允许
    `sulfonic_acid_group`、`aryl_ether_ketone_backbone`、

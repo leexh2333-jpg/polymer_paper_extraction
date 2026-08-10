@@ -728,7 +728,8 @@ class Stage2Provenance(BaseModel):
         "polymer_entity_schema.v2",
     ]
     implementation_version: Literal[
-        "1.0.0", "1.1.0", "1.2.0", "1.3.0", "1.3.1", "1.3.2", "1.3.3"
+        "1.0.0", "1.1.0", "1.2.0", "1.3.0", "1.3.1", "1.3.2", "1.3.3", "1.3.4",
+        "1.3.5",
     ]
     context_block_count: NonNegativeInt
     context_chars: NonNegativeInt

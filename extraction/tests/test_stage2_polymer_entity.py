@@ -22,6 +22,8 @@ from stages.stage2_polymer_entity import (
     Stage2Error,
     _element_source_text,
     _failure_replay_client,
+    _materialize_entities,
+    _preferred_polymer_name_mention,
     extract_polymer_entities,
     run_stage2,
     select_context_blocks,
@@ -870,6 +872,165 @@ class Stage2Tests(unittest.TestCase):
             item["code"] == "preview_invalid_entities_removed"
             for item in result.warnings
         ))
+
+    def test_materialize_prefers_specific_name_over_code_label(self) -> None:
+        document_data = stage0_document().model_dump(mode="json")
+        document_data["elements"][0]["text"] = (
+            "Polycarbonate based on bisphenol A (PC-1) was studied."
+        )
+        document = Stage0Document.model_validate(document_data)
+
+        mention_data = stage1_document().model_dump(mode="json")
+        mention_data["material_mentions"] = [
+            {
+                "mention_id": "m001",
+                "text": "Polycarbonate based on bisphenol A",
+                "mention_role": "polymer_name",
+                "evidence": {
+                    "block_id": "P_0_0",
+                    "page": 0,
+                    "bbox": [1, 2, 3, 4],
+                    "source_type": "text",
+                    "source_sentence": (
+                        "Polycarbonate based on bisphenol A (PC-1) was studied."
+                    ),
+                },
+            },
+            {
+                "mention_id": "m002",
+                "text": "PC-1",
+                "mention_role": "sample_label",
+                "evidence": {
+                    "block_id": "P_0_0",
+                    "page": 0,
+                    "bbox": [1, 2, 3, 4],
+                    "source_type": "text",
+                    "source_sentence": (
+                        "Polycarbonate based on bisphenol A (PC-1) was studied."
+                    ),
+                },
+            },
+        ]
+        mentions = Stage1Document.model_validate(mention_data)
+        parsed = PolymerEntityResponse.model_validate({
+            "entities": [{
+                "entity_id": "pe001",
+                "polymer_name": "PC-1",
+                "polymer_type": "homopolymer",
+                "variant_of": None,
+                "structural_features": [],
+                "resolved_from_mentions": ["m001", "m002"],
+                "evidence": {
+                    "block_id": "P_0_0",
+                    "source_sentence": (
+                        "Polycarbonate based on bisphenol A (PC-1) was studied."
+                    ),
+                },
+                "source_image_block_ids": [],
+                "confidence": {"score": 0.9},
+            }],
+            "unresolved_mention_ids": [],
+        })
+        repairs: list[dict[str, str]] = []
+
+        entities = _materialize_entities(
+            parsed,
+            document.elements,
+            mentions,
+            repairs,
+        )
+
+        self.assertEqual(
+            entities[0].polymer_name,
+            "Polycarbonate based on bisphenol A",
+        )
+        self.assertEqual(
+            entities[0].evidence.source_sentence,
+            "Polycarbonate based on bisphenol A (PC-1) was studied.",
+        )
+        self.assertEqual(repairs[0]["previous_name"], "PC-1")
+        self.assertEqual(repairs[0]["mention_id"], "m001")
+
+    def test_materialize_keeps_code_when_no_specific_name_exists(self) -> None:
+        document = stage0_document()
+        mention_data = stage1_document().model_dump(mode="json")
+        mention_data["material_mentions"] = [{
+            "mention_id": "m001",
+            "text": "PC-1",
+            "mention_role": "sample_label",
+            "evidence": {
+                "block_id": "P_0_0",
+                "page": 0,
+                "bbox": [1, 2, 3, 4],
+                "source_type": "text",
+                "source_sentence": "Polybutadiene (PB) was studied.",
+            },
+        }]
+        mentions = Stage1Document.model_validate(mention_data)
+        parsed = PolymerEntityResponse.model_validate({
+            "entities": [{
+                "entity_id": "pe001",
+                "polymer_name": "PC-1",
+                "polymer_type": None,
+                "variant_of": None,
+                "structural_features": [],
+                "resolved_from_mentions": ["m001"],
+                "evidence": {
+                    "block_id": "P_0_0",
+                    "source_sentence": "Polybutadiene (PB) was studied.",
+                },
+                "source_image_block_ids": [],
+                "confidence": {"score": 0.8},
+            }],
+            "unresolved_mention_ids": [],
+        })
+        repairs: list[dict[str, str]] = []
+
+        entities = _materialize_entities(
+            parsed,
+            document.elements,
+            mentions,
+            repairs,
+        )
+
+        self.assertEqual(entities[0].polymer_name, "PC-1")
+        self.assertEqual(repairs, [])
+
+    def test_preferred_name_supports_conservative_additional_code_forms(self) -> None:
+        from types import SimpleNamespace
+
+        cases = [
+            ("PTh", "polythiophene", True),
+            ("NBR", "アクリロニトリル-ブタジエンゴム", True),
+            ("8b", "poly(4-vinyltriphenylamine)", True),
+            ("9a", "polystyrene", True),
+            ("PVC/ABS/SMIA", "PVC/ABS/SMIA composites", True),
+            ("HS", "aliphatic DA-polyester", False),
+            ("1AQA-PPDI", "polyurea", False),
+            ("Ia", "polymer Ia", False),
+            ("0-2-0-I", "ordered alternating polyhydrazide", False),
+        ]
+        for current_name, mention_name, should_replace in cases:
+            with self.subTest(current_name=current_name):
+                candidate = SimpleNamespace(
+                    polymer_name=current_name,
+                    resolved_from_mentions=["m001"],
+                )
+                mention = SimpleNamespace(
+                    mention_id="m001",
+                    mention_role="polymer_name",
+                    text=mention_name,
+                )
+
+                preferred = _preferred_polymer_name_mention(
+                    candidate,
+                    {"m001": mention},
+                )
+
+                if should_replace:
+                    self.assertIs(preferred, mention)
+                else:
+                    self.assertIsNone(preferred)
 
     def test_context_falls_back_to_mention_evidence(self) -> None:
         blocks, warnings, _ = select_context_blocks(

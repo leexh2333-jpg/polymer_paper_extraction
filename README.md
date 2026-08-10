@@ -13,7 +13,9 @@
 
 > **2026-08-09 Preview 更新：** Stage 4 已改为尽量确定性修复并逐对象保留合法数据，避免单个格式错误导致整篇清空。新版 20 篇结果位于 `batch_results/demo20_preview_20260809/`；旧批次保留用于对照。
 >
-> **2026-08-10 Stage 4R 更新：** Preview 在 Stage 4 与 Stage 5 之间增加确定性表格补抽。Stage 4R 按稳定 `cell_id` 恢复明确缺失的表格性质；无法唯一归属的值保留为 unresolved，不随意绑定实体。Strict 流程不执行 Stage 4R。
+> **2026-08-10 Stage 4R 更新：** Preview 在 Stage 4 与 Stage 5 之间增加确定性表格补抽。Stage 4R 按稳定 `cell_id` 恢复明确缺失的表格性质；无法唯一归属的值保留为 unresolved，不随意绑定实体。当前版本进一步支持 `0-2-0-6` 等数字连字符样品编码、多层表头、LaTeX 数值和扩展性质别名。Strict 流程不执行 Stage 4R。
+>
+> **2026-08-10 Stage 2 名称更新：** 同一实体同时包含具体聚合物名称和样品代号/缩写时，优先采用有原文 mention 支持的具体名称；原代号继续保留用于追溯。无法安全确定时保持原名称，不生成或猜测 canonical name。
 
 ## 1. 交付包目录总览
 
@@ -61,8 +63,9 @@ polymer_extraction_delivery_20260807/
 | `extraction/llm_client.py` | 模型请求、响应记录、JSON 解析和有限修复 |
 | `extraction/config/pipeline.yaml` | 模型、Stage 参数、并发和相对路径配置 |
 | `extraction/config/polymer_schema.yaml` | Stage 4/5 使用的聚合物词表和 Schema 配置 |
-| `extraction/stages/stage4r_table_recovery.py` | Preview-only 表格缺口恢复，按 `cell_id` 合并并保留歧义项 |
-| `extraction/stages/table_recall_audit.py` | 单元格级表格召回审计，不依赖性质名白名单 |
+| `extraction/stages/stage2_polymer_entity.py` | 聚合物实体归并、名称选择、重复 mention 修复和 unresolved 处理 |
+| `extraction/stages/stage4r_table_recovery.py` | Preview-only 表格缺口恢复，按 `cell_id` 合并；支持数字连字符样品编码的严格别名匹配 |
+| `extraction/stages/table_recall_audit.py` | 单元格级表格召回审计，识别性质值、坐标、LaTeX 数值和多层表头 |
 | `extraction/prompts/` | 各 Stage Prompt |
 | `extraction/schema/` | Pydantic/JSON 数据结构 |
 | `extraction/stages/` | Stage 0–6 实现 |
@@ -318,7 +321,7 @@ Preview 的原则是：不伪造事实、不修改数值和证据；局部对象
 当前主要行为：
 
 - Stage 1：非原文 mention 尝试确定性恢复；无法恢复时只丢弃该 mention；
-- Stage 2：重复 mention 能唯一归属时自动修复，否则标记 unresolved；
+- Stage 2：重复 mention 能唯一归属时自动修复，否则标记 unresolved；实体同时包含具体名称和样品代号时，优先采用有原文支持的具体名称；
 - Stage 3：结构和 Process 图合法时，局部 `sample_label_raw` evidence 定位问题可保留并 warning；
 - Stage 4/5：单个可选字段 evidence 无法定位时删除字段；对象整体不可信时删除对象；
 - 非法 JSON：先做有限、确定性的语法修复；仍无法解析时保存原始响应，并生成 degraded 空运行视图；
@@ -364,6 +367,19 @@ Strict 通过数量
 ```
 
 不能只用“20/20 跑完”代替数据质量结论。
+
+### 8.4 聚合物名称与样品代号
+
+Stage 2 的 `polymer_name` 用于展示实体名称，`source_names`、`resolved_from_mentions` 和 Stage 3 的 `sample_label_raw` 用于保留原文代号和追溯关系。当前确定性名称优先规则支持：
+
+- `PC-1`、`P3` 等字母数字样品代号；
+- `PTh`、`NBR` 等较短缩写；
+- `8b`、`9a` 等简单数字样品号；
+- `PVC/ABS/SMIA` 等共混物简称在原文明确写出 `blend`/`composite` 时补充材料类别。
+
+只有同一实体的 resolved mention 中存在可靠 `polymer_name` 时才会替换。两字符类别代号、复杂配方编码和无法唯一判断的名称继续保留，例如 `HS`、`0-2-0-I`、`1AQA-PPDI`。流程不会根据常识翻译、扩写或猜测名称。
+
+名称更新不改变 `entity_id`、`sample_id`、Sample→Entity 关联或 Property/Series/Point ID。重新发布 Candidate 后，具体名称会同步展示在 `candidate.json` 和 `report_candidate.html`。
 
 ## 9. 非法 JSON、网络错误与 failure 回放
 
@@ -425,6 +441,8 @@ output_preview/
 │  ├─ stage2_entities.json
 │  ├─ stage3_process.json
 │  ├─ stage4_properties.json
+│  ├─ stage4r_recovery.json                  Preview-only 表格召回审计/恢复记录
+│  ├─ stage4_properties.recovery_preview.json Preview-only Stage 4R 合并结果
 │  ├─ stage5_characterizations.json
 │  ├─ candidate.json
 │  ├─ report_candidate.html
@@ -441,7 +459,7 @@ output_preview/
 
 测试分布：
 
-- `extraction/tests/`：16 个 `test_*.py`，覆盖抽取核心；
+- `extraction/tests/`：18 个 `test_*.py`，覆盖抽取核心；
 - `ocr/tests/`：2 个 `test_*.py`，覆盖 OCR/标准化；
 - `preview/tests/`：2 个 `test_*.py`，覆盖候选发布和验收。
 
@@ -455,12 +473,19 @@ python -m pytest ./extraction/tests ./ocr/tests ./preview/tests -q
 
 ```powershell
 python -m pytest `
-  ./extraction/tests/test_llm_client.py `
-  ./extraction/tests/test_stage3_sample_process.py `
+  ./extraction/tests/test_stage2_polymer_entity.py `
+  ./extraction/tests/test_stage4r_table_recovery.py `
+  ./extraction/tests/test_table_recall_audit.py `
   -q
 ```
 
 测试失败表示当前环境、依赖或代码行为与交付预期不一致；测试文件本身不是运行输出，不建议为了“精简目录”直接删除。
+
+2026-08-10 在交付仓库根目录执行完整测试，结果为：
+
+```text
+484 passed
+```
 
 ## 12. 已有验收结论
 
@@ -519,6 +544,17 @@ python -m pytest `
 相关回归测试：Stage 4、Candidate Publisher、Stage 6 共 `184 passed`。
 
 需要注意：18 篇按 Preview 策略带有语义校验 bypass warning；本轮没有声称 Strict 全部通过，也尚未将这 20 篇全部做“从 PDF 删除中间结果后冷启动”的新一轮验收。详细限制见新批次 README 和验证报告。
+
+### 2026-08-10 Stage 2 / Stage 4R 代码验证
+
+本次代码更新包括：
+
+- Stage 2 implementation `1.3.5`、Prompt `1.2.1`：具体聚合物名称优先于样品代号，同时保留原代号和全部引用关系；
+- Stage 4R：对 `0-2-0-6` 等数字连字符样品编码使用未过滤行标签做严格等值归属，不进行高风险包含匹配；
+- 表格召回审计：扩展热分解温度、黏度、冲击、拉伸、弯曲和硬度别名，支持 LaTeX 误差/度数/乘号数值及三级行表头；
+- 性质别名归一名必须存在于 `property_vocabulary`，避免词表外名称被下游静默丢弃。
+
+交付仓库完整测试为 `484 passed`。本次提交更新代码与文档，仓库自带的历史结果目录仍为 `demo20_20260807` 和 `demo20_preview_20260809`；使用当前代码运行 Preview 时会生成新的 Stage 4R 产物。
 
 ## 13. 便携配置和路径规则
 

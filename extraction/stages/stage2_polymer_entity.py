@@ -51,7 +51,7 @@ from schema.polymer_schema import (
 
 STAGE_ID = "stage2_polymer_entity"
 OUTPUT_SCHEMA_VERSION = "polymer_entity_schema.v2"
-IMPLEMENTATION_VERSION = "1.3.3"
+IMPLEMENTATION_VERSION = "1.3.5"
 DEFAULT_INPUT_SECTIONS = ("Methods", "Results")
 
 
@@ -700,10 +700,98 @@ def _validate_response(
     return parsed
 
 
+_CODE_LIKE_POLYMER_NAME_RE = re.compile(
+    r"^[A-Za-z]{1,10}(?:[-_ ]?[A-Za-z]{0,4})?[-_ ]?\d+"
+    r"(?:[-_][A-Za-z0-9]+)*$"
+)
+_SIMPLE_ABBREVIATION_RE = re.compile(r"^(?=.{3,6}$)(?=.*[A-Z])[A-Za-z]+$")
+_SIMPLE_NUMBERED_LABEL_RE = re.compile(r"^\d+[A-Za-z]$")
+_BLEND_CODE_RE = re.compile(r"^[A-Z][A-Z0-9-]*(?:/[A-Z][A-Z0-9-]*)+$")
+_MATERIAL_CLASS_TERM_RE = re.compile(
+    r"\b(?:blend|blends|composite|composites)\b|(?:ゴム|樹脂|高分子)",
+    re.IGNORECASE,
+)
+_SPECIFIC_POLYMER_NAME_CUE_RE = re.compile(
+    r"\b(?:based\s+on|derived\s+from|prepared\s+from|synthesized\s+from)\b"
+    r"|\b[A-Za-z0-9'-]+-based\b",
+    re.IGNORECASE,
+)
+_POLYMER_NAME_TERM_RE = re.compile(
+    r"\b(?:homo|co)?poly[a-z0-9'-]*\b|\b(?:polymer|resin|rubber)\b",
+    re.IGNORECASE,
+)
+
+
+def _is_code_like_polymer_name(name: str) -> bool:
+    value = name.strip()
+    return any(pattern.fullmatch(value) for pattern in (
+        _CODE_LIKE_POLYMER_NAME_RE,
+        _SIMPLE_ABBREVIATION_RE,
+        _SIMPLE_NUMBERED_LABEL_RE,
+        _BLEND_CODE_RE,
+    ))
+
+
+def _candidate_merely_wraps_code(candidate_name: str, code_name: str) -> bool:
+    match = re.search(
+        rf"(?<![A-Za-z0-9]){re.escape(code_name)}(?![A-Za-z0-9])",
+        candidate_name,
+        re.IGNORECASE,
+    )
+    if match is None:
+        return False
+    return not (
+        _BLEND_CODE_RE.fullmatch(code_name)
+        and _MATERIAL_CLASS_TERM_RE.search(candidate_name)
+    )
+
+
+def _preferred_polymer_name_mention(
+    candidate: Any,
+    mention_map: dict[str, Any],
+) -> Any | None:
+    """Prefer an evidence-backed polymer name over a sample/code label.
+
+    The LLM may legally choose ``PC-1`` as ``polymer_name`` because it is a
+    resolved mention.  When the same entity also owns a real polymer-name
+    mention, select that mention deterministically.  Non-code model choices
+    are preserved, and no new name is synthesized.
+    """
+    current_name = candidate.polymer_name.strip()
+    if not _is_code_like_polymer_name(current_name):
+        return None
+
+    choices: list[tuple[tuple[int, int, int], int, Any]] = []
+    for order, mention_id in enumerate(candidate.resolved_from_mentions):
+        mention = mention_map.get(mention_id)
+        if mention is None or mention.mention_role != "polymer_name":
+            continue
+        name = mention.text.strip()
+        if not name or _is_code_like_polymer_name(name):
+            continue
+        if (
+            _POLYMER_NAME_TERM_RE.search(name) is None
+            and _MATERIAL_CLASS_TERM_RE.search(name) is None
+        ):
+            continue
+        if _candidate_merely_wraps_code(name, current_name):
+            continue
+        score = (
+            1 if _SPECIFIC_POLYMER_NAME_CUE_RE.search(name) else 0,
+            len(name.split()),
+            len(name),
+        )
+        choices.append((score, -order, mention))
+    if not choices:
+        return None
+    return max(choices, key=lambda item: (item[0], item[1]))[2]
+
+
 def _materialize_entities(
     parsed: PolymerEntityResponse,
     blocks: list[Stage0Element],
     mentions: Stage1Document,
+    preferred_name_repairs: list[dict[str, str]] | None = None,
 ) -> list[PolymerEntity]:
     block_map = {block.block_id: block for block in blocks}
     mention_map = {
@@ -715,7 +803,28 @@ def _materialize_entities(
     }
     entities: list[PolymerEntity] = []
     for candidate in parsed.entities:
-        evidence_block = block_map[candidate.evidence.block_id]
+        preferred_name_mention = _preferred_polymer_name_mention(
+            candidate,
+            mention_map,
+        )
+        polymer_name = (
+            preferred_name_mention.text
+            if preferred_name_mention is not None
+            else candidate.polymer_name
+        )
+        evidence_candidate = (
+            preferred_name_mention.evidence
+            if preferred_name_mention is not None
+            else candidate.evidence
+        )
+        evidence_block = block_map[evidence_candidate.block_id]
+        if preferred_name_mention is not None and preferred_name_repairs is not None:
+            preferred_name_repairs.append({
+                "entity_id": candidate.entity_id,
+                "previous_name": candidate.polymer_name,
+                "polymer_name": polymer_name,
+                "mention_id": preferred_name_mention.mention_id,
+            })
         image_refs = []
         for image_block_id in candidate.source_image_block_ids:
             image_block = block_map[image_block_id]
@@ -728,7 +837,7 @@ def _materialize_entities(
             ))
         entities.append(PolymerEntity(
             entity_id=id_map[candidate.entity_id],
-            polymer_name=candidate.polymer_name,
+            polymer_name=polymer_name,
             polymer_type=candidate.polymer_type,
             variant_of=(
                 id_map[candidate.variant_of]
@@ -746,7 +855,7 @@ def _materialize_entities(
                 page=evidence_block.page,
                 bbox=evidence_block.bbox,
                 source_type=evidence_block.type,
-                source_sentence=candidate.evidence.source_sentence,
+                source_sentence=evidence_candidate.source_sentence,
             ),
             source_image_refs=image_refs,
             confidence=candidate.confidence,
@@ -811,6 +920,7 @@ def extract_polymer_entities(
     preview_evidence_fallbacks: list[dict[str, str]] = []
     preview_invalid_entities_removed: list[dict[str, Any]] = []
     preview_duplicate_mention_repairs: list[dict[str, Any]] = []
+    preferred_name_repairs: list[dict[str, str]] = []
 
     if mentions.material_mentions:
         feedback = None
@@ -867,7 +977,22 @@ def extract_polymer_entities(
     else:
         parsed = PolymerEntityResponse()
 
-    entities = _materialize_entities(parsed, blocks, mentions)
+    entities = _materialize_entities(
+        parsed,
+        blocks,
+        mentions,
+        preferred_name_repairs,
+    )
+    if preferred_name_repairs:
+        warnings.append({
+            "stage": STAGE_ID,
+            "code": "polymer_name_preferred_over_sample_label",
+            "message": (
+                "实体同时包含具体聚合物名称和样品代号时，已优先采用"
+                "有原文 mention 支持的具体名称"
+            ),
+            "items": preferred_name_repairs,
+        })
     if isinstance(client, _FailureReplayClient):
         warnings.append({
             "stage": STAGE_ID,

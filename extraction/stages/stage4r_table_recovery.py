@@ -97,6 +97,33 @@ def _table_entities(stage4: Mapping[str, Any], sample_entities: Mapping[str, str
 
 
 
+def _row_label_candidates(
+    cells: Sequence[Any],
+    row_index: int,
+    column_index: int,
+) -> list[str]:
+    """取该行位于目标列左侧的所有单元格文本，作为样品标签候选。
+
+    审计器的 row_headers 会把"看起来像数值"的格子剔掉，而不少论文的样品编码
+    恰好是纯数字加连字符（0-2、0-2-0-6、0-4-0-10），于是真正的样品标签被当成
+    数值滤掉，infer_entity_id 拿到空的 row_headers 只能报 entity_ambiguous。
+    这里绕过该过滤，直接按网格取左侧标签列。
+    """
+    return [
+        cell.text.strip()
+        for cell in sorted(
+            (
+                cell
+                for cell in cells
+                if cell.row_index <= row_index < cell.row_index + cell.row_span
+                and cell.column_index < column_index
+                and cell.text.strip()
+            ),
+            key=lambda item: item.column_index,
+        )
+    ]
+
+
 def infer_entity_id(
     *,
     row_headers: Sequence[str],
@@ -106,6 +133,7 @@ def infer_entity_id(
     samples: Sequence[Mapping[str, Any]],
     entity_aliases: Mapping[str, set[str]] | None = None,
     table_entities: Mapping[str, set[str]],
+    row_label_candidates: Sequence[str] | None = None,
 ) -> tuple[str | None, str]:
     row_parts = [_norm(value) for value in row_headers if _norm(value)]
     aliases_by_entity: dict[str, set[str]] = defaultdict(set)
@@ -163,6 +191,21 @@ def infer_entity_id(
         return next(iter(existing)), "table_existing_entity"
     if len(valid_entity_ids) == 1:
         return next(iter(valid_entity_ids)), "document_single_entity"
+
+    # 兜底：审计器把纯数字样品编码（0-2-0-6）当数值滤掉了，用未过滤的
+    # 左侧标签列重试一次严格匹配。只认精确相等，不做包含匹配 —— 包含匹配在
+    # 这类编码上极易假阳（0-2 是 0-2-0-6 的子串）。
+    extra_parts = [_norm(value) for value in (row_label_candidates or []) if _norm(value)]
+    extra_parts = [part for part in extra_parts if part not in set(row_parts)]
+    if extra_parts:
+        extra_exact = {
+            entity
+            for entity, aliases in aliases_by_entity.items()
+            if any(part == alias for part in extra_parts for alias in aliases)
+        }
+        if len(extra_exact) == 1:
+            return next(iter(extra_exact)), "row_cell_exact_entity_alias"
+
     return None, "entity_ambiguous" if valid_entity_ids else "entity_not_found"
 
 
@@ -268,6 +311,11 @@ def recover_document(
                 samples=samples,
                 entity_aliases=entity_aliases,
                 table_entities=table_entities,
+                row_label_candidates=_row_label_candidates(
+                    cells,
+                    int(cell["row_index"]),
+                    int(cell["column_index"]),
+                ),
             )
             if entity_id is None:
                 skipped.append({
