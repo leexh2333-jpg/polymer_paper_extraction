@@ -2,7 +2,7 @@
 
 首次交付日期：2026-08-07
 
-最近更新日期：2026-08-09
+最近更新日期：2026-08-10
 
 固定数据集：20 篇文献
 
@@ -12,6 +12,8 @@
 > 交付用户优先使用包根目录的 `run_demo20_delivery.ps1` 和 `run_pdf_pipeline_delivery.ps1`。`preview/run_demo20.ps1` 是组件级高级入口，详见第 6 节。
 
 > **2026-08-09 Preview 更新：** Stage 4 已改为尽量确定性修复并逐对象保留合法数据，避免单个格式错误导致整篇清空。新版 20 篇结果位于 `batch_results/demo20_preview_20260809/`；旧批次保留用于对照。
+>
+> **2026-08-10 Stage 4R 更新：** Preview 在 Stage 4 与 Stage 5 之间增加确定性表格补抽。Stage 4R 按稳定 `cell_id` 恢复明确缺失的表格性质；无法唯一归属的值保留为 unresolved，不随意绑定实体。Strict 流程不执行 Stage 4R。
 
 ## 1. 交付包目录总览
 
@@ -55,10 +57,12 @@ polymer_extraction_delivery_20260807/
 
 | 路径 | 用途 |
 |---|---|
-| `extraction/batch_runner.py` | 多文档批处理、断点续跑、状态库和失败恢复 |
+| `extraction/batch_runner.py` | 多文档批处理、断点续跑、状态库和失败恢复；Preview 编排 Stage 4R |
 | `extraction/llm_client.py` | 模型请求、响应记录、JSON 解析和有限修复 |
 | `extraction/config/pipeline.yaml` | 模型、Stage 参数、并发和相对路径配置 |
 | `extraction/config/polymer_schema.yaml` | Stage 4/5 使用的聚合物词表和 Schema 配置 |
+| `extraction/stages/stage4r_table_recovery.py` | Preview-only 表格缺口恢复，按 `cell_id` 合并并保留歧义项 |
+| `extraction/stages/table_recall_audit.py` | 单元格级表格召回审计，不依赖性质名白名单 |
 | `extraction/prompts/` | 各 Stage Prompt |
 | `extraction/schema/` | Pydantic/JSON 数据结构 |
 | `extraction/stages/` | Stage 0–6 实现 |
@@ -68,7 +72,7 @@ polymer_extraction_delivery_20260807/
 
 ### 2.2 `extraction/tests/`：自动化测试，不是运行数据
 
-该目录包含 16 个 `test_*.py` 和一个公共辅助文件 `helpers.py`。文件较多是因为 Stage 0–6、模型客户端、批处理器、HTML、缓存和失败回放都分别有行为测试。
+该目录包含 18 个 `test_*.py` 和一个公共辅助文件 `helpers.py`。文件较多是因为 Stage 0–6、模型客户端、批处理器、HTML、缓存和失败回放都分别有行为测试。
 
 典型文件：
 
@@ -79,7 +83,9 @@ polymer_extraction_delivery_20260807/
 - `test_stage5_characterization.py`：表征数据；
 - `test_stage6_validate_merge.py`：严格合并和一致性校验；
 - `test_llm_client.py`：JSON 解析、非法转义修复和传输错误；
-- `test_batch_runner.py`：批处理、缓存、续跑、partial 和退出码。
+- `test_batch_runner.py`：批处理、缓存、续跑、partial、Stage 4R Preview 编排和退出码；
+- `test_stage4r_table_recovery.py`：`cell_id` 合并、确定性实体归属、备份和强制重跑；
+- `test_table_recall_audit.py`：表格数值单元格角色和召回缺口审计。
 
 这些测试：
 
@@ -108,7 +114,7 @@ polymer_extraction_delivery_20260807/
 ```text
 标准化 document.json
   ↓
-extraction：Stage 0 → 1 → 2 → 3 → 4 → 5 → 6
+Preview：Stage 0 → 1 → 2 → 3 → 4 → 4R → 5
   ↓
 preview/publish_candidate.py
   ├─ candidate.json
@@ -120,6 +126,8 @@ preview/verify_demo20.py
 ```
 
 `candidate.json` 是聚合运行视图；`report_candidate.html` 是供人查看的候选报告。它们不替代各 Stage 原始 JSON。
+
+Strict 仍按 `Stage 0 → 1 → 2 → 3 → 4 → 5 → 6` 执行，不经过 Stage 4R。Preview 中 Stage 4R 会生成 `stage4r_recovery.json` 和 `stage4_properties.recovery_preview.json`，应用前的 Stage 4 保存在 `stage4_properties.pre_recovery.json`；补抽后的 `stage4_properties.json` 再交给 Stage 5 和候选发布器。
 
 ## 3. 环境准备
 

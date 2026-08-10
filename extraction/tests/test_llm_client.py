@@ -100,7 +100,7 @@ class LLMClientTests(unittest.TestCase):
 
         self.assertIn(resolved.model, config["pricing"]["models"])
         self.assertEqual(resolved.timeout_seconds, 900)
-        self.assertEqual(resolved.max_retries, 0)
+        self.assertEqual(resolved.max_retries, 2)
         self.assertTrue(resolved.stream)
         self.assertEqual(
             config["stages"]["stage4_property"]["max_tokens"],

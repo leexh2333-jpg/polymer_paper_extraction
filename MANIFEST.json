@@ -1,8 +1,8 @@
 {
   "package_name": "polymer_paper_extraction",
-  "generated_at": "2026-08-09",
-  "file_count": 496,
-  "total_bytes": 61549629,
+  "generated_at": "2026-08-10",
+  "file_count": 500,
+  "total_bytes": 61611988,
   "files": [
     {
       "path": ".env.example",
@@ -16,8 +16,8 @@
     },
     {
       "path": "README.md",
-      "size_bytes": 21226,
-      "sha256": "75b34da03227e0eaed0ad075567ad4bfcb62befe100dcdfccb79c077063cc594"
+      "size_bytes": 22327,
+      "sha256": "0caf026ac55c9e645a24d587cc8c6b793ec8f9ef9b45840253df777ab7a17178"
     },
     {
       "path": "acceptance/ACCEPTANCE_SUMMARY.json",
@@ -1936,8 +1936,8 @@
     },
     {
       "path": "extraction/batch_runner.py",
-      "size_bytes": 54517,
-      "sha256": "e1d3e7e8a8169ded3e01438af2a61bf4988428647c6061cb0fa82b62e19c1039"
+      "size_bytes": 54857,
+      "sha256": "26695c65c5ba260daf469a60ade293e5c21b66345e921c28ad664e360ab15680"
     },
     {
       "path": "extraction/config/pipeline.yaml",
@@ -2065,6 +2065,11 @@
       "sha256": "d92b45fc89f374225b9ae89bb4ebf51cf560a1c30b44ce9f58a50ce65b8f36ea"
     },
     {
+      "path": "extraction/stages/stage4r_table_recovery.py",
+      "size_bytes": 17021,
+      "sha256": "457f83e33adb5000ca22adae55ca350c23060e317c48fd67d2fc90ffc273f234"
+    },
+    {
       "path": "extraction/stages/stage5_characterization.py",
       "size_bytes": 107042,
       "sha256": "86cf997132111cf857d5b99d21945cfbcf14810747351866d3a08b05c1373d81"
@@ -2080,19 +2085,24 @@
       "sha256": "4b79d60fc08f7133dbf61c838b6d5c94ca7c263e6d57696f9bc306d97aa9b6b9"
     },
     {
+      "path": "extraction/stages/table_recall_audit.py",
+      "size_bytes": 26802,
+      "sha256": "a921bc202e694d9d2178641d6edc7807c4b60c9dc55756c5df5b05b30f8950d9"
+    },
+    {
       "path": "extraction/tests/helpers.py",
       "size_bytes": 1104,
       "sha256": "ae11098ffeb3e5972bd566ed0e18b01de74f8989b6cd62b83bc82ef7960e168f"
     },
     {
       "path": "extraction/tests/test_batch_runner.py",
-      "size_bytes": 38259,
-      "sha256": "dd29b3f135c2790ffbfcd0380d2d32318955b585ef05597ab9a223a816df51b5"
+      "size_bytes": 39382,
+      "sha256": "e3786a8475adca5288c2c062dc4ed4ad255ce094bc511ebd83ad4985e0abd966"
     },
     {
       "path": "extraction/tests/test_llm_client.py",
       "size_bytes": 20796,
-      "sha256": "6923db579e3b90a5442e14a463831c49e9a2eb48f3a0f6ba16d180d8f75240dc"
+      "sha256": "e847c3814d8ad274b50d35dcd309b3a671c0a793743e1dca7fb491ebba371f98"
     },
     {
       "path": "extraction/tests/test_pipeline_runner.py",
@@ -2145,6 +2155,11 @@
       "sha256": "22a572f40c51fffb030511244980e20edb5e9947baf6b3c665403807b89a1fbf"
     },
     {
+      "path": "extraction/tests/test_stage4r_table_recovery.py",
+      "size_bytes": 6908,
+      "sha256": "089f06f5fb3fbdb607cf8fbfe72038547670ae63c25beedb6d645c9752f85f47"
+    },
+    {
       "path": "extraction/tests/test_stage5_characterization.py",
       "size_bytes": 90217,
       "sha256": "ce07203cf6f42d161d43123e96fc30d2c119d1e50a7899460947af6a039f9329"
@@ -2163,6 +2178,11 @@
       "path": "extraction/tests/test_table_grid.py",
       "size_bytes": 4129,
       "sha256": "7f2579fb8aaa453a99876e945e01de4d4337712a18297155c8884eb53fe70b63"
+    },
+    {
+      "path": "extraction/tests/test_table_recall_audit.py",
+      "size_bytes": 9064,
+      "sha256": "52b0741233fa189dc706b669a05f24171b23fb9253c8f3eac230e7175346106a"
     },
     {
       "path": "extraction/tools/replay_failures.py",

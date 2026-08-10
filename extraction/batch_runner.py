@@ -93,13 +93,24 @@ STAGES = (
     ),
 )
 
+STAGE4R_PREVIEW_STAGE = StageSpec(
+    "stage4r_table_recovery",
+    "stage4r_table_recovery.py",
+    ("stage4r_recovery.json", "stage4_properties.recovery_preview.json"),
+    False,
+)
 PREVIEW_STAGE = StageSpec(
     "candidate_publish",
     str(PREVIEW_SCRIPT),
     ("candidate.json", "report_candidate.html"),
     False,
 )
-PREVIEW_STAGES = (*STAGES[:-1], PREVIEW_STAGE)
+PREVIEW_STAGES = (
+    *STAGES[:5],
+    STAGE4R_PREVIEW_STAGE,
+    STAGES[5],
+    PREVIEW_STAGE,
+)
 PREVIEW_RECOVERABLE_FAILURES = {
     "stage1_material_mention": "stage1_failure.json",
     "stage2_polymer_entity": "stage2_failure.json",
@@ -520,6 +531,8 @@ def build_stage_command(
         )
     if settings.force and spec.stage_id != "stage6_validate_merge":
         command.append("--force")
+    if spec.stage_id == STAGE4R_PREVIEW_STAGE.stage_id:
+        command.append("--apply")
     if settings.preview and spec.stage_id in PREVIEW_RECOVERABLE_FAILURES:
         command.append("--preview-relaxed")
     for argument in extra_args:

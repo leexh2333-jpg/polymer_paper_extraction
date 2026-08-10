@@ -10,6 +10,8 @@ from unittest.mock import Mock, patch
 
 from batch_runner import (
     PREVIEW_STAGE,
+    PREVIEW_STAGES,
+    STAGE4R_PREVIEW_STAGE,
     STAGES,
     VALIDATE_EXISTING_INPUTS,
     BatchStateStore,
@@ -223,6 +225,33 @@ class StageCommandTests(unittest.TestCase):
 
         self.assertIn("--input-root", command)
         self.assertNotIn("--force", command)
+
+    def test_stage4r_is_preview_only_and_runs_between_stage4_and_stage5(self) -> None:
+        preview_ids = [spec.stage_id for spec in PREVIEW_STAGES]
+        strict_ids = [spec.stage_id for spec in STAGES]
+
+        self.assertNotIn(STAGE4R_PREVIEW_STAGE.stage_id, strict_ids)
+        self.assertEqual(
+            preview_ids[preview_ids.index("stage4_property") + 1],
+            STAGE4R_PREVIEW_STAGE.stage_id,
+        )
+        self.assertEqual(
+            preview_ids[preview_ids.index(STAGE4R_PREVIEW_STAGE.stage_id) + 1],
+            "stage5_characterization",
+        )
+
+    def test_stage4r_command_applies_recovery_in_preview_output(self) -> None:
+        command = build_stage_command(
+            STAGE4R_PREVIEW_STAGE,
+            ref_no="reference_no_0000001",
+            settings=self.settings,
+        )
+
+        self.assertIn("--input-root", command)
+        self.assertIn("--output-root", command)
+        self.assertIn("--config", command)
+        self.assertIn("--force", command)
+        self.assertIn("--apply", command)
 
     def test_preview_stage_uses_external_candidate_publisher(self) -> None:
         command = build_stage_command(
