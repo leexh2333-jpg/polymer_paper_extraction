@@ -217,6 +217,121 @@ def _row_sentence(cells: Sequence[Any], row_index: int) -> str:
     return " | ".join(cell.text.strip() for cell in row)
 
 
+# 表头里出现的单位写法 -> 规范单位。只认白名单里的写法：表头层级里混着数据值
+# （'290'、'-25'、'1.3'）和样品名（'1AQA-PPDI'），靠"括号里的东西就是单位"
+# 这类结构规则会把它们当成单位。
+_UNIT_ALIASES: dict[str, str] = {
+    # 温度
+    "°c": "°C", "oc": "°C", "℃": "°C", "\\circ c": "°C", "deg c": "°C", "k": "K",
+    # 力学
+    "mpa": "MPa", "gpa": "GPa", "kpa": "kPa", "pa": "Pa",
+    # 冲击
+    "j/m": "J/m", "kj/m": "kJ/m", "j/m2": "J/m²", "kj/m2": "kJ/m²",
+    "j/m^2": "J/m²", "kj/m^2": "kJ/m²",
+    # 电学
+    "s/cm": "S/cm", "s/m": "S/m",
+    "ohm*cm": "Ω·cm", "ohm cm": "Ω·cm", "ω·cm": "Ω·cm", "ωcm": "Ω·cm",
+    "ohm*m": "Ω·m", "ω·m": "Ω·m",
+    "1/(ohm*cm)": "S/cm", "s cm-1": "S/cm", "scm-1": "S/cm",
+    # 黏度
+    "dl/g": "dL/g", "dlg-1": "dL/g", "dl g-1": "dL/g", "dl/g-1": "dL/g",
+    "ml/g": "mL/g",
+    # 密度 / 表面
+    "g/cm3": "g/cm³", "g/cm^3": "g/cm³", "gcm-3": "g/cm³",
+    "mj/m2": "mJ/m²", "mj/m^2": "mJ/m²", "mn/m": "mN/m", "dyn/cm": "dyn/cm",
+    # 热
+    "j/g": "J/g", "kj/mol": "kJ/mol", "kcal/mol": "kcal/mol", "kcal/g": "kcal/g",
+    "kj/g": "kJ/g", "cal/g": "cal/g", "j/mol": "J/mol",
+    "j/(g k)": "J/(g·K)",
+    # 分子量 / 其他
+    "g/mol": "g/mol", "gmol-1": "g/mol", "kg/mol": "kg/mol",
+    "%": "%", "wt%": "wt%", "vol%": "vol%", "mol%": "mol%",
+    "nm": "nm", "μm": "μm", "um": "μm", "mm": "mm", "cm": "cm", "å": "Å",
+    "hz": "Hz", "mhz": "MHz", "khz": "kHz",
+}
+
+# LaTeX 包装 —— 必须先整串剥掉再切片段，否则 `$(^{\circ}\text{C})$` 会被
+# 括号规则从 `\text{` 中间截断。
+_UNIT_STRIP_RE = re.compile(r"\\(?:text|mathrm|mathit|rm|it|bf)\s*\{([^{}]*)\}")
+_BRACKET_GROUP_RE = re.compile(r"[（(\[]([^）)\]]*)[）)\]]")
+_TRAILING_NUMBER_RE = re.compile(r"\d\s*$")
+# `T_g°C` 里的 °C 是单位；`Modulus at 160 °C` 里的 °C 是测试条件。差别就是
+# ° 前面是不是数字。
+_DEGREE_TAIL_RE = re.compile(r"(?<![\d])\s*(°\s*[a-z]?\.?)\s*$")
+# `kJ mol^{-1}`、`S cm⁻¹`、`dL g-1` —— 倒数指数就是分母。不折成 `/` 的话
+# 白名单里的 `kj/mol`、`s/cm`、`dl/g` 全都对不上。
+_INVERSE_EXP_RE = re.compile(r"\s*([a-zμω]+)\s*(?:\^\s*)?(?:-\s*1|⁻¹)(?![\d.])",
+                             re.IGNORECASE)
+
+
+def _normalize_unit_text(text: str) -> str:
+    """整串归一：剥 LaTeX、统一度数与欧姆写法、折算倒数指数，转小写。"""
+    value = str(text or "")
+    for _ in range(3):                       # \text{\circ C} 可能嵌套
+        value = _UNIT_STRIP_RE.sub(r"\1", value)
+    value = value.replace("\\%", "%").replace("\\,", " ").replace("\\;", " ")
+    value = value.replace("^\\circ", "°").replace("\\circ", "°").replace("^o", "°")
+    value = re.sub(r"°\s*([a-z])", r"°\1", value, flags=re.IGNORECASE)
+    value = value.replace("\\Omega", "ohm").replace("Ω", "ω")
+    value = value.replace("·", "*").replace("⋅", "*")
+    value = value.replace("$", "").replace("{", "").replace("}", "")
+    # 只在前面确实还有一个单位词时才折算，避免把孤零零的 `^-1` 当分母。
+    if _INVERSE_EXP_RE.search(value) and re.search(r"[a-zμω]", value):
+        value = _INVERSE_EXP_RE.sub(r"/\1", value)
+    return re.sub(r"\s+", " ", value).strip().casefold()
+
+
+def _clean_unit_token(text: str) -> str:
+    """把候选片段两端的括号与标点去掉。"""
+    return str(text or "").strip().strip("（）()[]").strip().strip(",.;:·*").strip()
+
+
+def _unit_candidates(header: str) -> list[str]:
+    """从一级表头里列出所有可能是单位的片段，按可信度从高到低。"""
+    norm = _normalize_unit_text(header)
+    if not norm:
+        return []
+    # 括号内多为单位，但也可能是测试条件（`(160 °C)`）；两种都留作候选，
+    # 靠白名单区分。同时准备一份去掉括号的正文，供逗号/斜杠切分用。
+    out: list[str] = list(_BRACKET_GROUP_RE.findall(norm))
+    bare = re.sub(r"[（(\[][^）)\]]*[）)\]]", " ", norm).strip()
+    out.append(norm)
+    out.append(bare)
+    out.extend(re.split(r"[,，;；]", bare))
+    for src in (bare, norm, *list(out)):
+        if not src:
+            continue
+        if "/" in src:                       # `T_g / °C`、`η_inh^c/dL/g`
+            out.append(src.split("/", 1)[1])
+        if "^" in src:                       # `T_g^oC`、`(^°C)^b`
+            out.append(src.rsplit("^", 1)[1])
+            out.append(src.split("^", 1)[1])
+        # 末尾的度数符号（`T_g°C`、`M.P. °C.`）。前面是数字时是测试条件不是单位。
+        if match := _DEGREE_TAIL_RE.search(src):
+            out.append(match.group(1))
+        tokens = src.split()
+        if len(tokens) > 1 and not _TRAILING_NUMBER_RE.search(tokens[-2]):
+            out.append(tokens[-1])
+    return out
+
+
+def infer_unit_from_headers(column_headers: Sequence[str]) -> str | None:
+    """从列头里认单位。认不出就返回 None —— 宁可留空，不要猜错。
+
+    单位在表头里的位置没有规律：括号内 `Tensile strength (MPa)`、斜杠后
+    `$T_g / ^\\circ C$`、逗号后 `PMT, °C.`、上标 `$T_g^oC$`，也可能自己
+    单占一级 `['$T_g$', '°C']`。所以扫描所有层级的所有候选片段，但**只接受
+    _UNIT_ALIASES 里的写法** —— 表头层级里混着数据值（'290'、'-25'）和样品名
+    （'1AQA-PPDI'），"括号里的就是单位"这类纯结构规则会把它们写成单位。
+    """
+    for header in reversed([str(item) for item in column_headers if str(item).strip()]):
+        for candidate in _unit_candidates(header):
+            token = _clean_unit_token(candidate)
+            if token and (unit := _UNIT_ALIASES.get(token)):
+                return unit
+    return None
+
+
 def build_unresolved_property(
     *,
     unresolved_id: str,
@@ -235,7 +350,7 @@ def build_unresolved_property(
     value_raw = str(cell_report["text"]).strip()
     source_sentence = _row_sentence(cells, row_index) or value_raw
     bbox = list(table.bbox) if table.bbox is not None else None
-    return {
+    item = {
         "unresolved_id": unresolved_id,
         "entity_id": entity_id,
         "property_name_raw": property_name,
@@ -258,6 +373,11 @@ def build_unresolved_property(
             },
         }],
     }
+    # 单位就印在列头里，此前被整个丢掉，导致恢复层的记录全部无单位、
+    # 无法与 PolyInfo 的统一单位对齐。认不出时不写该字段。
+    if unit := infer_unit_from_headers(column_headers):
+        item["unit_raw"] = unit
+    return item
 
 
 def recover_document(

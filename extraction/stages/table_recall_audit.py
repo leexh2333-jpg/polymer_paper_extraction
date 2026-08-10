@@ -92,8 +92,16 @@ _PROPERTY_ALIAS_PATTERNS: tuple[tuple[str, str], ...] = (
     (r"\b(?:loss\s+modulus)\b|损耗模量", "dynamic_tensile_properties"),
     (r"\bshore\s+hardness\b|邵氏硬度", "shore_hardness"),
     (r"\brockwell\s+hardness\b|洛氏硬度", "rockwell_hardness"),
-    (r"\bheat\s+of\s+fusion\b|\benthalpy\s+of\s+fusion\b|熔融焓", "heat_of_fusion"),
-    (r"\bheat\s+of\s+crystallization\b|\bcrystallization\s+enthalpy\b|结晶焓", "heat_of_crystallization"),
+    # 焓：论文表头基本不写英文全称，全批 5 处 ΔH 列没有一处是 "heat of fusion"。
+    # 下标决定归属，所以带下标的两条必须排在裸写 ΔH 之前：
+    #   ΔH_c / ΔH_cryst -> 结晶焓        ΔH_m / ΔH_f(usion) -> 熔融焓
+    #   ΔH_exo（放热反应焓）、ΔH_s（混合/溶解焓）不在 97 项内，一律不认 ——
+    #   所以裸写分支要求 ΔH 后面紧跟单位或行尾，不能吃掉任意下标。
+    (r"\bheat\s+of\s+crystallization\b|\bcrystallization\s+enthalpy\b|结晶焓|"
+     r"(?:^|\W)(?:\\delta|Δ)\s*h\s*[_-]?\s*(?:c|cryst\w*)(?:\W|$)", "heat_of_crystallization"),
+    (r"\bheat\s+of\s+fusion\b|\benthalpy\s+of\s+fusion\b|熔融焓|"
+     r"(?:^|\W)(?:\\delta|Δ)\s*h\s*[_-]?\s*(?:m|f|fus\w*)(?:\W|$)|"
+     r"(?:^|\W)(?:\\delta|Δ)\s*h\s*(?=\s*[/(,]?\s*(?:k?j|k?cal)\b)", "heat_of_fusion"),
     (r"\b(?:residual\s+mass|residue|char\s+yield)\b|残炭率|残余质量", "thermal_decomposition_temperature"),
 )
 
