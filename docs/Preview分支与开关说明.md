@@ -115,8 +115,12 @@ python extraction/stages/stage6_validate_merge.py --batch --preview-relaxed `
   --input-root ./output_preview --output-root ./output_preview
 
 # 只补 candidate（不调模型，不花钱）
-python preview/publish_candidate.py --batch `
-  --input-root ./output_preview --output-root ./output_preview
+# publish_candidate.py 没有 --batch，一次只处理一篇，要自己循环。
+# --ref-no 要传完整目录名（含 reference_no_ 前缀）。
+Get-ChildItem ./output_preview -Directory -Filter reference_no_* | ForEach-Object {
+  python preview/publish_candidate.py --ref-no $_.Name `
+    --input-root ./output_preview --output-root ./output_preview
+}
 ```
 
 `candidate.json` 由 `publish_candidate.py` 直接读取 Stage 0–5 的 JSON 合并而成，

@@ -250,9 +250,14 @@ python extraction/stages/stage6_validate_merge.py --batch --preview-relaxed `
 #### 只补 candidate（不调模型，不花钱）
 
 ```powershell
-python preview/publish_candidate.py --batch `
-  --input-root ./output_preview --output-root ./output_preview
+Get-ChildItem ./output_preview -Directory -Filter reference_no_* | ForEach-Object {
+  python preview/publish_candidate.py --ref-no $_.Name `
+    --input-root ./output_preview --output-root ./output_preview
+}
 ```
+
+`publish_candidate.py` 一次只处理一篇，没有 `--batch`，所以这里用循环。
+`--ref-no` 需要传完整目录名（含 `reference_no_` 前缀）。
 
 `candidate.json` 由这个脚本直接读取 Stage 0–5 的 JSON 合并而成，**不经过 Stage 6**，
 因此 Stage 6 是否通过不影响它能否生成。
