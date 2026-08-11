@@ -1,8 +1,8 @@
 {
   "package_name": "polymer_paper_extraction",
-  "generated_at": "2026-08-10",
-  "file_count": 500,
-  "total_bytes": 61637207,
+  "generated_at": "2026-08-11",
+  "file_count": 503,
+  "total_bytes": 61703921,
   "files": [
     {
       "path": ".env.example",
@@ -16,8 +16,8 @@
     },
     {
       "path": "README.md",
-      "size_bytes": 25240,
-      "sha256": "029d37acf945bbbc4a6c69ba5a40efdc1506e4df524dc0ef26520f5ab649b4ae"
+      "size_bytes": 33042,
+      "sha256": "6def8464f5ddd6abc5243029fe77e1ec41ff5a4f3d5f1dda606fffabb4dd7c7a"
     },
     {
       "path": "acceptance/ACCEPTANCE_SUMMARY.json",
@@ -1920,6 +1920,11 @@
       "sha256": "43269eab640f501958e6ce0844b5b91425c8f626c34adf349fe17d949a321b1b"
     },
     {
+      "path": "docs/Preview分支与开关说明.md",
+      "size_bytes": 7747,
+      "sha256": "9373f44d9061e4f0b04db9015d87337beda0dab6ff02eef0840476d5b4c44da6"
+    },
+    {
       "path": "docs/extraction_pipeline_plain_guide.md",
       "size_bytes": 7660,
       "sha256": "93c8782cc57e762d692a4ea82ccef5a06defbea87ae897b80a0d3ee7776ba0c7"
@@ -1936,8 +1941,8 @@
     },
     {
       "path": "extraction/batch_runner.py",
-      "size_bytes": 54857,
-      "sha256": "26695c65c5ba260daf469a60ade293e5c21b66345e921c28ad664e360ab15680"
+      "size_bytes": 55379,
+      "sha256": "8ef901dcfd7988934d71b547f61d4420ac3579f8d809303caa21a49e5080659a"
     },
     {
       "path": "extraction/config/pipeline.yaml",
@@ -2040,6 +2045,11 @@
       "sha256": "16dc5bbab33c421af73aec8339b4bc42a4b4a9e1d7b3537c09227f95c8f8c393"
     },
     {
+      "path": "extraction/stages/evidence_matcher.py",
+      "size_bytes": 14882,
+      "sha256": "7fa03fee204bceb4ea021faf4d654a75e304d37827e214926c0da53a475eb52e"
+    },
+    {
       "path": "extraction/stages/stage0_load_document.py",
       "size_bytes": 11388,
       "sha256": "aa6380d989b98af810bbd0063cc95f70898e391040c0939e0da20ff83f07c2cd"
@@ -2066,8 +2076,8 @@
     },
     {
       "path": "extraction/stages/stage4r_table_recovery.py",
-      "size_bytes": 24720,
-      "sha256": "51437c0301712c0af75171ec6571e838349565715e8b5bf295eab172777e9909"
+      "size_bytes": 31176,
+      "sha256": "ea79ff36e9cfc9086a7374760bd8458518fdd290f4360fea33fd017e1c091a36"
     },
     {
       "path": "extraction/stages/stage5_characterization.py",
@@ -2076,8 +2086,8 @@
     },
     {
       "path": "extraction/stages/stage6_validate_merge.py",
-      "size_bytes": 57297,
-      "sha256": "8d8a019e585050a4c2a43757113c2e401e20b4dd121c9098cbaad2d76d7637f1"
+      "size_bytes": 67380,
+      "sha256": "0fecc14d31b5f43c87d9cb252997304e830e8911c7b58fc67592d9ff920166d4"
     },
     {
       "path": "extraction/stages/table_grid.py",
@@ -2096,8 +2106,13 @@
     },
     {
       "path": "extraction/tests/test_batch_runner.py",
-      "size_bytes": 39382,
-      "sha256": "e3786a8475adca5288c2c062dc4ed4ad255ce094bc511ebd83ad4985e0abd966"
+      "size_bytes": 40740,
+      "sha256": "b9ac016984b351922046f5776049be6d839658de8b374aaf3cffd3a33ad7d6b6"
+    },
+    {
+      "path": "extraction/tests/test_evidence_matcher.py",
+      "size_bytes": 7520,
+      "sha256": "8f3b118c25a76d9ad5026e00e7618572ea85e29ff12dc32d2267a882acea5933"
     },
     {
       "path": "extraction/tests/test_llm_client.py",
@@ -2156,8 +2171,8 @@
     },
     {
       "path": "extraction/tests/test_stage4r_table_recovery.py",
-      "size_bytes": 6908,
-      "sha256": "089f06f5fb3fbdb607cf8fbfe72038547670ae63c25beedb6d645c9752f85f47"
+      "size_bytes": 10244,
+      "sha256": "89d4abc55152c48aeb3ffd2be116922af7e9fe837b9aff82894a06c24a005f9a"
     },
     {
       "path": "extraction/tests/test_stage5_characterization.py",
@@ -2166,8 +2181,8 @@
     },
     {
       "path": "extraction/tests/test_stage6_validate_merge.py",
-      "size_bytes": 25205,
-      "sha256": "d30d18e6c15e53f00f17cec756c0d911300e7fd4443b5ff3755637cc78869ae4"
+      "size_bytes": 32213,
+      "sha256": "002f2f27f95ff371ddeac42c4ad2ce36f9702d30ee31236137cfa0b820aa046c"
     },
     {
       "path": "extraction/tests/test_stage_minus1_reorganize_mineru.py",

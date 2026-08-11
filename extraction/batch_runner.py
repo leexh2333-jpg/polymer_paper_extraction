@@ -109,6 +109,10 @@ PREVIEW_STAGES = (
     *STAGES[:5],
     STAGE4R_PREVIEW_STAGE,
     STAGES[5],
+    # Stage 6 在 preview 下带 --preview-relaxed 跑：证据的表示层差异降级为
+    # warning，仍产出 final.json / report.html。跑不过的篇目会走下面的
+    # candidate_partial 分支，照样发布 candidate.json，不影响整批推进。
+    STAGES[6],
     PREVIEW_STAGE,
 )
 PREVIEW_RECOVERABLE_FAILURES = {
@@ -533,7 +537,10 @@ def build_stage_command(
         command.append("--force")
     if spec.stage_id == STAGE4R_PREVIEW_STAGE.stage_id:
         command.append("--apply")
-    if settings.preview and spec.stage_id in PREVIEW_RECOVERABLE_FAILURES:
+    if settings.preview and (
+        spec.stage_id in PREVIEW_RECOVERABLE_FAILURES
+        or spec.stage_id == "stage6_validate_merge"
+    ):
         command.append("--preview-relaxed")
     for argument in extra_args:
         if argument not in command:
@@ -1317,7 +1324,11 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "--preview",
         action="store_true",
-        help="Stage 5 后发布 candidate.json 和 report_candidate.html，跳过 Stage 6 严格校验",
+        help=(
+            "预览模式：Stage 4 后插入 4R 表格恢复，各 Stage 带 --preview-relaxed，"
+            "Stage 6 以降级校验产出 final.json/report.html，"
+            "并始终发布 candidate.json 和 report_candidate.html"
+        ),
     )
     parser.add_argument("--force", action="store_true")
     parser.add_argument("--status", action="store_true")

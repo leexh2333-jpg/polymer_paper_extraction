@@ -309,6 +309,45 @@ class StageCommandTests(unittest.TestCase):
         self.assertIn("--replay-failure", command)
         self.assertIn("--preview-relaxed", command)
 
+    def test_preview_runs_stage6_before_publishing_candidate(self) -> None:
+        """Preview 也要跑 Stage 6，只是带 --preview-relaxed。"""
+        preview_ids = [spec.stage_id for spec in PREVIEW_STAGES]
+
+        self.assertIn("stage6_validate_merge", preview_ids)
+        self.assertEqual(
+            preview_ids[preview_ids.index("stage6_validate_merge") + 1],
+            PREVIEW_STAGE.stage_id,
+        )
+
+    def test_preview_stage6_uses_relaxed_validation(self) -> None:
+        settings = RunnerSettings(
+            config_path=self.settings.config_path,
+            input_dir=self.settings.input_dir,
+            output_dir=self.settings.output_dir,
+            logs_dir=self.settings.logs_dir,
+            force=False,
+            heartbeat_seconds=10,
+            lease_seconds=90,
+            preview=True,
+        )
+
+        command = build_stage_command(
+            STAGES[6],
+            ref_no="reference_no_0000001",
+            settings=settings,
+        )
+
+        self.assertIn("--preview-relaxed", command)
+
+    def test_strict_stage6_never_receives_relaxed_flag(self) -> None:
+        command = build_stage_command(
+            STAGES[6],
+            ref_no="reference_no_0000001",
+            settings=self.settings,
+        )
+
+        self.assertNotIn("--preview-relaxed", command)
+
     def test_preview_stage3_uses_relaxed_validation(self) -> None:
         settings = RunnerSettings(
             config_path=self.settings.config_path,
