@@ -257,7 +257,8 @@ Get-ChildItem ./output_preview -Directory -Filter reference_no_* | ForEach-Objec
 ```
 
 `publish_candidate.py` 一次只处理一篇，没有 `--batch`，所以这里用循环。
-`--ref-no` 需要传完整目录名（含 `reference_no_` 前缀）。
+`--ref-no` 需要传完整目录名（含 `reference_no_` 前缀）。传错或目录不存在时脚本会
+报错退出（exit code 非 0），不会创建输出目录，也不会写出空的 `candidate.json`。
 
 `candidate.json` 由这个脚本直接读取 Stage 0–5 的 JSON 合并而成，**不经过 Stage 6**，
 因此 Stage 6 是否通过不影响它能否生成。
@@ -556,7 +557,7 @@ output_preview/
 
 - `extraction/tests/`：19 个 `test_*.py`，覆盖抽取核心；
 - `ocr/tests/`：2 个 `test_*.py`，覆盖 OCR/标准化；
-- `preview/tests/`：2 个 `test_*.py`，覆盖候选发布和验收。
+- `preview/tests/`：2 个 `test_*.py`，覆盖候选发布（含输入目录校验）和验收。
 
 运行全部交付测试：
 
@@ -585,8 +586,11 @@ python -m pytest `
 2026-08-11 增加 Stage 6 Preview 与 `evidence_matcher` 后重跑：
 
 ```text
-extraction 490 passed / ocr 13 passed / preview 13 passed
+extraction 490 passed / ocr 13 passed / preview 18 passed
 ```
+
+（`preview` 由 13 增至 18，是因为新增了 `publish_candidate.py` 输入目录校验的
+5 个用例，见下方 2026-08-11 条目。）
 
 ## 12. 已有验收结论
 
@@ -683,6 +687,27 @@ extraction 490 passed / ocr 13 passed / preview 13 passed
 - `evidence_not_in_source` 9 条：证据内容确实不在所引 block 内。
 
 本条结论只覆盖 Stage 6 校验行为，不代表重新调用模型抽取时结果不变。
+
+### 2026-08-11 `publish_candidate.py` 输入校验修复
+
+`publish_candidate.py` 此前对不存在的 `--ref-no` **不报错**：它会按传入的名字
+新建输出目录，写出一份 0 条 `property_observations` 的 `candidate.json`，
+并以 exit code 0 退出。最常见的触发方式是漏掉 `reference_no_` 前缀
+（传 `0020284` 而不是 `reference_no_0020284`）。
+
+静默产出错误结果比直接失败更危险——看起来"跑成功了"，实际数据是空的。
+
+现在的行为：
+
+- 输入目录不存在时抛 `CandidatePublishError`，CLI 以非 0 exit code 退出；
+- **不创建输出目录，不写任何 candidate 文件**；
+- 若只是漏了前缀、加上前缀后目录确实存在，错误信息会直接给出正确写法。
+
+不受影响的行为：目录存在、只是缺少某几个 Stage 文件时，仍按原样发布
+candidate（`candidate_partial`），这是 Preview 的既定设计。
+
+新增 5 个用例（`preview/tests/test_publish_candidate.py`），并通过移除守卫的
+反向对照确认这些用例确实能捕获该缺陷。
 
 ## 13. 便携配置和路径规则
 

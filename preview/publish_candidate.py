@@ -455,6 +455,19 @@ def publish_candidate(
     output_root: Path,
 ) -> tuple[Path, Path]:
     input_dir = input_root / ref_no
+    # 输入目录不存在时必须直接失败，不能建输出目录、也不能写空 candidate。
+    # 缺**某几个 Stage 文件**是正常的（走 candidate_partial），但整个目录都
+    # 不在，说明 --ref-no 传错了——最常见的是漏了 reference_no_ 前缀。
+    # 这种情况以前会静默产出 0 条 observation 的 candidate，比报错更危险。
+    if not input_dir.is_dir():
+        hint = ""
+        if not ref_no.startswith("reference_no_"):
+            prefixed = input_root / f"reference_no_{ref_no}"
+            if prefixed.is_dir():
+                hint = f"；--ref-no 需要完整目录名，请改用 reference_no_{ref_no}"
+        raise CandidatePublishError(
+            f"输入目录不存在：{input_dir}{hint}"
+        )
     stages, stage_states, failures = load_candidate_sources(ref_no, input_dir)
     candidate = build_candidate_payload(
         ref_no,

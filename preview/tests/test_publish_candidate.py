@@ -231,3 +231,128 @@ def test_candidate_keeps_stage4_scalar_series_unresolved_and_stage5_properties()
     assert candidate["unresolved_property_observations"][0]["unresolved_id"] == "up001"
     assert candidate["property_series"][0]["points"][0]["value_raw"] == "50"
     assert candidate["property_series"][0]["evidence_ids"]
+
+
+def _write_stage_files(input_dir: Path, ref_no: str) -> None:
+    input_dir.mkdir(parents=True)
+    for stage_name, payload in _stages(ref_no).items():
+        filename = {
+            "stage0": "stage0_blocks.json",
+            "stage1": "stage1_mentions.json",
+            "stage2": "stage2_entities.json",
+            "stage3": "stage3_process.json",
+            "stage4": "stage4_properties.json",
+            "stage5": "stage5_characterizations.json",
+        }[stage_name]
+        (input_dir / filename).write_text(json.dumps(payload), encoding="utf-8")
+
+
+def test_publish_candidate_rejects_missing_input_dir(tmp_path: Path) -> None:
+    input_root = tmp_path / "input"
+    input_root.mkdir()
+    output_root = tmp_path / "output"
+
+    with pytest.raises(CandidatePublishError) as excinfo:
+        publish_candidate(
+            "reference_no_9999999",
+            input_root=input_root,
+            output_root=output_root,
+        )
+
+    assert "输入目录不存在" in str(excinfo.value)
+    # 关键：失败时不能留下任何输出。
+    assert not output_root.exists()
+
+
+def test_publish_candidate_rejects_ref_no_without_prefix(tmp_path: Path) -> None:
+    """传短号时必须报错，而不是静默产出 0 条 observation 的 candidate。"""
+    ref_no = "reference_no_0000001"
+    input_root = tmp_path / "input"
+    output_root = tmp_path / "output"
+    _write_stage_files(input_root / ref_no, ref_no)
+
+    with pytest.raises(CandidatePublishError) as excinfo:
+        publish_candidate(
+            "0000001",
+            input_root=input_root,
+            output_root=output_root,
+        )
+
+    message = str(excinfo.value)
+    assert "输入目录不存在" in message
+    # 目录确实存在、只是少了前缀时，要给出可直接照做的提示。
+    assert "reference_no_0000001" in message
+    assert not output_root.exists()
+    assert not (input_root / "0000001").exists()
+
+
+def test_publish_candidate_still_accepts_full_reference_no(tmp_path: Path) -> None:
+    """守卫不能影响正常路径：完整目录名照常发布。"""
+    ref_no = "reference_no_0000001"
+    input_root = tmp_path / "input"
+    output_root = tmp_path / "output"
+    _write_stage_files(input_root / ref_no, ref_no)
+
+    candidate_path, report_path = publish_candidate(
+        ref_no,
+        input_root=input_root,
+        output_root=output_root,
+    )
+
+    assert candidate_path.is_file()
+    assert report_path.is_file()
+    candidate = json.loads(candidate_path.read_text(encoding="utf-8"))
+    assert candidate["document_id"] == ref_no
+    # _stages() 的 stage4/stage5 性质列表本来就是空的，这里要断言的是
+    # Stage 全部读到了（区别于目录不存在时的静默空结果）。
+    assert candidate["publication"]["status"] == "complete"
+    assert candidate["material_mentions"]
+
+
+def test_publish_candidate_missing_stage_files_still_publishes(tmp_path: Path) -> None:
+    """目录在、只缺 Stage 文件时仍要发布 candidate（candidate_partial 行为不变）。"""
+    ref_no = "reference_no_0000001"
+    input_root = tmp_path / "input"
+    output_root = tmp_path / "output"
+    input_dir = input_root / ref_no
+    input_dir.mkdir(parents=True)
+    stage0 = _stages(ref_no)["stage0"]
+    (input_dir / "stage0_blocks.json").write_text(
+        json.dumps(stage0), encoding="utf-8"
+    )
+
+    candidate_path, report_path = publish_candidate(
+        ref_no,
+        input_root=input_root,
+        output_root=output_root,
+    )
+
+    assert candidate_path.is_file()
+    assert report_path.is_file()
+    candidate = json.loads(candidate_path.read_text(encoding="utf-8"))
+    assert candidate["publication"]["status"] != "complete"
+
+
+def test_publish_candidate_cli_returns_nonzero_on_missing_ref(
+    tmp_path: Path,
+) -> None:
+    import subprocess
+
+    input_root = tmp_path / "input"
+    input_root.mkdir()
+    output_root = tmp_path / "output"
+    script = PREVIEW_ROOT / "publish_candidate.py"
+
+    result = subprocess.run(
+        [
+            sys.executable, str(script),
+            "--ref-no", "reference_no_9999999",
+            "--input-root", str(input_root),
+            "--output-root", str(output_root),
+        ],
+        capture_output=True, text=True, encoding="utf-8",
+    )
+
+    assert result.returncode != 0
+    assert "输入目录不存在" in result.stderr
+    assert not output_root.exists()
