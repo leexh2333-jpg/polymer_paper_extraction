@@ -2,8 +2,10 @@ from pathlib import Path
 
 from stages.stage4r_table_recovery import (
     _prepare_stage4_input,
+    _row_label_candidates,
     build_parser,
     infer_entity_id,
+    misaligned_header_columns,
     next_unresolved_number,
 )
 
@@ -140,6 +142,74 @@ def test_single_sample_entity_fallback_requires_empty_row_label() -> None:
     )
     assert entity is None
     assert basis == "entity_ambiguous"
+
+
+def _cell(row: int, column: int, text: str, row_span: int = 1, column_span: int = 1):
+    return SimpleNamespace(
+        row_index=row,
+        column_index=column,
+        text=text,
+        row_span=row_span,
+        column_span=column_span,
+    )
+
+
+def test_continuation_row_inherits_polymer_code_from_row_above() -> None:
+    # 这类表把同一聚合物的多条工艺写成续行，编号只印在该组第一行，
+    # 续行的编号列是空白（含义是"同上"）。不向上填充，续行只剩 ['c', 'HTS']，
+    # 实体必然推不出来。
+    cells = [
+        _cell(0, 0, "2a"), _cell(0, 1, "0-2-0-9"), _cell(0, 2, "HTS"), _cell(0, 3, "265"),
+        _cell(1, 0, "b"), _cell(1, 1, ""), _cell(1, 2, "HTS"), _cell(1, 3, "295"),
+        _cell(2, 0, "c"), _cell(2, 1, ""), _cell(2, 2, "HTS"), _cell(2, 3, "320"),
+    ]
+    assert "0-2-0-9" in _row_label_candidates(cells, row_index=2, column_index=3)
+
+
+def test_row_label_candidates_do_not_borrow_code_from_rows_below() -> None:
+    cells = [
+        _cell(0, 0, "1"), _cell(0, 1, ""), _cell(0, 2, "380"),
+        _cell(1, 0, "2"), _cell(1, 1, "0-2-0-9"), _cell(1, 2, "265"),
+    ]
+    assert "0-2-0-9" not in _row_label_candidates(cells, row_index=0, column_index=2)
+
+
+def test_missing_header_colspan_marks_shifted_columns_untrustworthy() -> None:
+    # 表头漏写 colspan：`Method of polymerization` 实际占 HTS/LTS 两个子列，
+    # 表头只给 1 列，数据行仍按 2 列写，于是该列往右整条表头左移一格 ——
+    # col3 挂着 `PMT, °C.` 却装着 LTS 文字，col4 的数值（真的 PMT）被贴上
+    # η_inh 的标签。这些列的性质名不可信。
+    cells = [
+        _cell(0, 0, "Polymer"), _cell(0, 1, "Hydrazide"),
+        _cell(0, 2, "Method of polymerization"), _cell(0, 3, "PMT, °C."),
+        _cell(0, 4, r"$\eta_{inh}$ (DMSO)"),
+        _cell(1, 0, "0-2-0-9"), _cell(1, 1, "9"), _cell(1, 2, "HTS"), _cell(1, 3, ""),
+        _cell(1, 4, "265"),
+        _cell(2, 0, "0-6-0-9"), _cell(2, 1, "6"), _cell(2, 2, ""), _cell(2, 3, "LTS"),
+        _cell(2, 4, "318"),
+    ]
+    assert misaligned_header_columns(cells, {0}) == {3, 4}
+
+
+def test_wordy_sample_column_alone_is_not_treated_as_misaligned() -> None:
+    # 样品名列同样是"整列文字"，但它的表头就写着 Sample，本来就不该有数值。
+    # 只看"整列文字"会把几乎每张表的首列都误判成错位。
+    cells = [
+        _cell(0, 0, "Sample"), _cell(0, 1, "Tensile strength (MPa)"), _cell(0, 2, "Tg (°C)"),
+        _cell(1, 0, "PDLA"), _cell(1, 1, "45"), _cell(1, 2, "58"),
+        _cell(2, 0, "PLGA"), _cell(2, 1, "38"), _cell(2, 2, "47"),
+    ]
+    assert misaligned_header_columns(cells, {0}) == set()
+
+
+def test_empty_numeric_column_is_not_treated_as_misaligned() -> None:
+    # 论文没测这一项，留了一整列空 —— 不是错位，不该整片放弃右侧的列。
+    cells = [
+        _cell(0, 0, "Sample"), _cell(0, 1, "Tg (°C)"), _cell(0, 2, "Comments"),
+        _cell(1, 0, "PDLA"), _cell(1, 1, ""), _cell(1, 2, "brittle film"),
+        _cell(2, 0, "PLGA"), _cell(2, 1, ""), _cell(2, 2, "clear film"),
+    ]
+    assert misaligned_header_columns(cells, {0}) == set()
 
 
 def test_parser_accepts_batch_runner_compatibility_arguments(tmp_path: Path) -> None:

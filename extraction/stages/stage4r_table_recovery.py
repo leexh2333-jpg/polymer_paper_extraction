@@ -20,7 +20,7 @@ if str(EXTRACTION_ROOT) not in sys.path:
 
 from schema.polymer_schema import Stage0Document, Stage4Document
 from stages.table_grid import table_cells_for
-from stages.table_recall_audit import audit_documents
+from stages.table_recall_audit import _infer_header_rows, audit_documents
 
 STAGE_ID = "stage4r_table_recovery"
 IMPLEMENTATION_VERSION = "0.1.0"
@@ -108,20 +108,42 @@ def _row_label_candidates(
     恰好是纯数字加连字符（0-2、0-2-0-6、0-4-0-10），于是真正的样品标签被当成
     数值滤掉，infer_entity_id 拿到空的 row_headers 只能报 entity_ambiguous。
     这里绕过该过滤，直接按网格取左侧标签列。
+
+    另外补一路**向上填充**：这类表把同一个聚合物的多条工艺写成续行，编号只印在
+    该组第一行，续行的编号列是空白：
+
+        2a | 0-2-0-9 | 2 |        | 9 | HTS |     | 265
+        b  |         |   | DiEt-2 | 9 | HTS | 295 |
+        c  |         | 2 |        | 9 | HTS | 320 |     <- 只剩 ['c', 'HTS']
+
+    续行拿不到 `0-2-0-9`，实体必然推不出来。空白在这类表里的含义就是"同上"，
+    所以逐列向上找最近的非空格子补进候选。补进来的只走 infer_entity_id 的
+    **精确相等**分支，且要求全局唯一命中；补错的词配不上任何实体名，最多让命中
+    变成两个而退回 entity_ambiguous（照旧跳过），不会造成错挂。
     """
-    return [
-        cell.text.strip()
-        for cell in sorted(
-            (
-                cell
-                for cell in cells
-                if cell.row_index <= row_index < cell.row_index + cell.row_span
-                and cell.column_index < column_index
-                and cell.text.strip()
-            ),
-            key=lambda item: item.column_index,
-        )
+    covering = [
+        cell
+        for cell in cells
+        if cell.row_index <= row_index < cell.row_index + cell.row_span
+        and cell.column_index < column_index
     ]
+    out = [cell.text.strip() for cell in sorted(covering, key=lambda item: item.column_index)
+           if cell.text.strip()]
+
+    filled = {cell.column_index for cell in covering if cell.text.strip()}
+    for column in range(column_index):
+        if column in filled:
+            continue
+        above = [
+            cell
+            for cell in cells
+            if cell.column_index == column
+            and cell.row_index + cell.row_span <= row_index
+            and cell.text.strip()
+        ]
+        if above:
+            out.append(max(above, key=lambda item: item.row_index).text.strip())
+    return out
 
 
 def infer_entity_id(
@@ -380,6 +402,90 @@ def build_unresolved_property(
     return item
 
 
+_HEADER_TEXT_RE = re.compile(r"[A-Za-z一-鿿]{2,}")
+_HEADER_NUMBER_RE = re.compile(r"^[\s~<>=±(\[]*[-+]?\d")
+
+
+def misaligned_header_columns(
+    cells: Sequence[Any],
+    header_rows: set[int],
+) -> set[int]:
+    """找出列头与数据错位的列，返回不可信的列号集合。
+
+    这类表的 HTML 会漏写表头的 colspan。0073324 Table II 的
+    `Method of polymerization` 实际占 HTS / LTS 两个子列，表头却只给了 1 列，
+    而数据行仍按 2 列写，于是从该列往右整条表头左移一格：
+
+        表头  ... | Method of polymerizationb | PMT, °C. | η_inh (DMSO) | Comments
+        数据  ... | HTS |    (空)    |     342     |    1.43     |
+                              ^col7        ^col8         ^col9
+        -> col7 挂着 "PMT" 却装的是 HTS/LTS 文字，col8 的 342（真的 PMT）
+           被贴上 η_inh 的标签，写进恢复层就是错的性质名。
+
+    判据必须**只认这个错位**，不能顺手把正常表也判进去。样品名列（`PDLA`、
+    `COC`）同样是"整列文字"，但它的表头就写着 `Sample`，本来就不该有数值 ——
+    只看"整列文字"会把几乎每张表的首列都误判。所以要求两个条件同时成立：
+
+      1) 该列**自己独占**的表头（不跨列、因此不会串到邻列去）声明了一个数值量，
+         如 `PMT, °C.`、`T_g (°C)`；而该列数据全是文字、一个数都没有。
+      2) 它右侧存在**表头不像数值量、数据却全是数值**的列 —— 那就是被挤过去的
+         真数据列。正常表不会出现这种"数值跑到非数值表头下面"的组合。
+
+    两条都满足才认定该表表头整体左移，标记该列及其右侧所有列。
+    """
+    own_header: dict[int, list[str]] = defaultdict(list)
+    for cell in cells:
+        if cell.row_index in header_rows and (getattr(cell, "column_span", 1) or 1) == 1:
+            if text := cell.text.strip():
+                own_header[cell.column_index].append(text)
+
+    by_column: dict[int, list[str]] = defaultdict(list)
+    for cell in cells:
+        if cell.row_index in header_rows:
+            continue
+        if text := cell.text.strip():
+            by_column[cell.column_index].append(text)
+
+    def profile(column: int) -> tuple[int, int]:
+        values = by_column.get(column) or []
+        numeric = sum(1 for text in values if _HEADER_NUMBER_RE.match(text))
+        wordy = sum(
+            1 for text in values
+            if _HEADER_TEXT_RE.search(text) and not _HEADER_NUMBER_RE.match(text)
+        )
+        return numeric, wordy
+
+    for column in sorted(by_column):
+        numeric, wordy = profile(column)
+        if numeric or not wordy:
+            continue
+        header_text = " ".join(own_header.get(column) or [])
+        if not header_text or not _NUMERIC_HEADER_HINT_RE.search(header_text):
+            continue
+        # 条件 2：右侧要有"表头不像数值量、数据却全是数值"的列 —— 那正是被
+        # 挤过去的真数据列（`342` 落在 `η_inh (DMSO)` 名下）。缺了这条就只是
+        # 一个空的数值列（论文没测），不是错位，不该整片放弃。
+        shifted = any(
+            profile(later)[0] and not profile(later)[1]
+            and not _NUMERIC_HEADER_HINT_RE.search(" ".join(own_header.get(later) or []))
+            for later in by_column
+            if later > column
+        )
+        if shifted:
+            return set(range(column, max(by_column) + 1))
+    return set()
+
+
+# 表头里出现这些就说明该列本该是数值：温度/模量/强度等带单位或符号的写法。
+# 注意别写成会嵌进普通词里的片段 —— `M\.?P\.?` 会match "Sa(mp)le"、"co(mp)ound"，
+# 把每张表的样品名列都判成错位。所以带字母的项一律加词边界并要求真的有点号。
+_NUMERIC_HEADER_HINT_RE = re.compile(
+    r"°\s*[cCkK]|\bK\b|MPa|GPa|kPa|S\s*/\s*cm|Ω|ohm|J\s*/\s*[gm]|dL\s*/\s*g|"
+    r"\bPMT\b|\bM\.P\.|\bT_?[gmdc]\b|\bη",
+    re.IGNORECASE,
+)
+
+
 def recover_document(
     stage0: Stage0Document,
     stage2: Mapping[str, Any],
@@ -410,9 +516,19 @@ def recover_document(
         if table is None:
             continue
         cells = table_cells_for(table)
+        bad_columns = misaligned_header_columns(cells, _infer_header_rows(cells))
         for cell in table_report.get("missing_property_cells") or []:
             cell_id = str(cell["cell_id"])
             if cell_id in existing_cells:
+                continue
+            if int(cell["column_index"]) in bad_columns:
+                skipped.append({
+                    "cell_id": cell_id,
+                    "table_id": table_id,
+                    "property_name_normalized": cell.get("property_name_normalized"),
+                    "value_raw": cell.get("text"),
+                    "reason": "misaligned_table_header",
+                })
                 continue
             if not str(cell.get("role_reason") or "").startswith("property_header:"):
                 skipped.append({
