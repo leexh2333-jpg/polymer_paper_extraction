@@ -1,0 +1,234 @@
+{
+  "schema_version": "1.0",
+  "document_id": "reference_no_0042367",
+  "characterizations": [
+    {
+      "characterization_id": "char001",
+      "method_raw": "Attenuated total reflectance Fourier transform infrared spectroscopy (ATR-FTIR)",
+      "method_normalized": "FTIR",
+      "sample_ids": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006",
+        "s007",
+        "s008",
+        "s009",
+        "s010",
+        "s011",
+        "s012",
+        "s013",
+        "s014",
+        "s015"
+      ],
+      "sample_resolution_status": "multi_resolved",
+      "instrument": "Nicolet Avator 360 FTIR",
+      "parameters": {
+        "scan_count": "32 scan per sample cycle"
+      },
+      "result_summary": "No new peaks were observed in the IR spectra of the polymer blends, all detected peaks correspond to the characteristic IR bands of the base polymers PCL, PDLLA and PLGA.",
+      "derived_property_ids": [],
+      "evidence": [
+        {
+          "block_id": "P_2_34",
+          "page": 2,
+          "bbox": [
+            501.0,
+            383.0,
+            854.0,
+            414.0
+          ],
+          "source_type": "title",
+          "source_sentence": "Attenuated Total Reflectance Fourier Transform Infrared Spectroscopy"
+        },
+        {
+          "block_id": "P_2_35",
+          "page": 2,
+          "bbox": [
+            501.0,
+            414.0,
+            921.0,
+            477.0
+          ],
+          "source_type": "text",
+          "source_sentence": "Attenuated total reflectance Fourier transform infrared spectroscopy (ATR-FTIR) was carried out on rectangular samples using a Nicolet Avator 360 FTIR, with a 32 scan per sample cycle."
+        },
+        {
+          "block_id": "P_3_55",
+          "page": 3,
+          "bbox": [
+            504.0,
+            715.0,
+            883.0,
+            731.0
+          ],
+          "source_type": "title",
+          "source_sentence": "Infrared Spectroscopy of Thin Film Polymer Blends"
+        },
+        {
+          "block_id": "P_3_56",
+          "page": 3,
+          "bbox": [
+            504.0,
+            732.0,
+            926.0,
+            900.0
+          ],
+          "source_type": "text",
+          "source_sentence": "In this study, the IR peaks for the compression moulded PCL, PDLLA and PLGA samples were in good agreement with the characteristic bands reported by Coleman and Zarian (1979), Garlotta (2001), Vey et al. (2008) and Choi et al. (2008) for these homopolymers<sup>[15–18]</sup>."
+        },
+        {
+          "block_id": "P_4_62",
+          "page": 4,
+          "bbox": [
+            71.0,
+            439.0,
+            491.0,
+            607.0
+          ],
+          "source_type": "text",
+          "source_sentence": "Throughout this study, there were no peaks present in the IR spectra of the blends that could not be explained by the characteristic IR bands of the base polymers."
+        }
+      ],
+      "confidence": {
+        "score": 0.85
+      }
+    },
+    {
+      "characterization_id": "char002",
+      "method_raw": "Differential scanning calorimetry (DSC)",
+      "method_normalized": "DSC",
+      "sample_ids": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006",
+        "s007",
+        "s008",
+        "s009",
+        "s010",
+        "s011",
+        "s012",
+        "s013",
+        "s014",
+        "s015"
+      ],
+      "sample_resolution_status": "multi_resolved",
+      "instrument": "Perkin-Elmer, Pyris 6 DSC",
+      "parameters": {
+        "sample_weight_range": "9.3–10.3 mg",
+        "pan_type": "crimped non-hermetic aluminium pans",
+        "calibration_standard": "High-purity indium"
+      },
+      "result_summary": "DSC analysis was conducted to determine Tg, Tm and crystallinity of base polymers and blends; PDLLA/PLGA blends showed single Tg indicating miscibility, while Tg of PDLLA and PLGA in PCL-containing blends was masked by PCL's Tm, and crystallinity of PCL decreased with increasing PDLLA/PLGA content.",
+      "derived_property_ids": [],
+      "evidence": [
+        {
+          "block_id": "P_2_36",
+          "page": 2,
+          "bbox": [
+            503.0,
+            488.0,
+            753.0,
+            505.0
+          ],
+          "source_type": "title",
+          "source_sentence": "Differential Scanning Calorimetry"
+        },
+        {
+          "block_id": "P_2_37",
+          "page": 2,
+          "bbox": [
+            500.0,
+            505.0,
+            921.0,
+            750.0
+          ],
+          "source_type": "text",
+          "source_sentence": "Differential scanning calorimetry (DSC) analysis was carried out using a Perkin-Elmer, Pyris 6 DSC. Samples of between 9.3–10.3 mg were prepared from the base polymers and polymer blends. All measurements were conducted in crimped non-hermetic aluminium pans with an empty crimped aluminium pan being used as the reference cell. To assess the melting points and miscibility of the polymer(s), the samples were heated from a temperature of $2 0 \\mathrm { { } ^ { \\circ } C }$to $2 0 0 ^ { \\circ } \\mathrm { C }$at a rate of $1 0 ^ { \\circ } \\mathrm { C }$per minute. For investigation of the crystalline interactions, samples were heated from a temperature of $2 0 \\mathrm { { } ^ { \\circ } C }$to $2 0 0 ^ { \\circ } \\mathrm { C }$at a rate of $1 0 ^ { \\circ } \\mathbf { C }$per minute and held isothermal for a 5-min period. The samples were then cooled down from 200<sup>\u0001</sup>C to 20<sup>\u0001</sup>C at a rate of 2<sup>\u0001</sup>C per minute. All DSC tests were carried out under a 20 ml=min flow of nitrogen to prevent oxidation. High-purity indium was used to calibrate the DSC cell."
+        },
+        {
+          "block_id": "P_4_63",
+          "page": 4,
+          "bbox": [
+            73.0,
+            625.0,
+            323.0,
+            640.0
+          ],
+          "source_type": "title",
+          "source_sentence": "Differential Scanning Calorimetry"
+        },
+        {
+          "block_id": "P_4_64",
+          "page": 4,
+          "bbox": [
+            71.0,
+            640.0,
+            491.0,
+            900.0
+          ],
+          "source_type": "text",
+          "source_sentence": "DSC was used to analyse the effect that blending of the polymers had on the endothermic $( T _ { g }$and $T _ { m } )$peaks of the constituent polymers and to assess what impact blending PDLLA and PLGA with PCL had on the crystallinity of the samples."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    }
+  ],
+  "properties": [],
+  "provenance": {
+    "stage": "stage5_characterization",
+    "provider": "dmx",
+    "model": "doubao-seed-2.0-pro",
+    "models": [
+      "doubao-seed-2.0-pro"
+    ],
+    "prompt_id": "polymer.stage5.characterization",
+    "prompt_version": "1.6.2",
+    "prompt_sha256": "5f918eb9d0dcbe0a4dc60a70d83c4e9f144f9a87bf68905d0a38ad22c000ee5c",
+    "vocabulary_sha256": "3e9d85e4915a729edf0f0a53821f3ee6edf32874e1da6972457417e4f13a1510",
+    "input_hash": "1a4d8b870ba15ad1ad03422183b7f5469b74b676dc54180784f91dd6497e6915",
+    "model_config_hash": "7e14aff06827af47a7b1a797111258e33d5972d1c072111440c3b2aae020f3ce",
+    "cache_key": "532dcc7478ea87d934021d8bd3b67f9e37c853e6a0ab97512cd68a7d19cc8464",
+    "output_schema_version": "characterization_schema.v4",
+    "implementation_version": "1.7.1",
+    "context_block_count": 69,
+    "context_chars": 46072,
+    "call_count": 1,
+    "usage": {
+      "input_tokens": 20827,
+      "output_tokens": 4902,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "billable_input_tokens": 20827,
+      "total_tokens": 25729
+    },
+    "cost": {
+      "status": "calculated",
+      "currency": "CNY",
+      "input_per_million": "4.32",
+      "output_per_million": "29.15",
+      "input_cost": "0.08997264",
+      "output_cost": "0.1428933",
+      "total_cost": "0.23286594"
+    },
+    "status": "success"
+  },
+  "warnings": [
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_characterization_details_cleared",
+      "message": "Preview 模式已清空无对象 evidence 支撑的可选表征细节",
+      "field_path": "characterizations[1]",
+      "fields": [
+        "parameters"
+      ]
+    }
+  ]
+}

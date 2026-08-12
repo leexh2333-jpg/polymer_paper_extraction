@@ -1,0 +1,27 @@
+{
+  "stage": "stage4r_table_recovery",
+  "implementation_version": "0.1.0",
+  "document_id": "reference_no_0043955",
+  "audit_summary": {
+    "table_count": 3,
+    "tables_with_numeric_cells": 3,
+    "numeric_cell_count": 156,
+    "represented_numeric_cell_count": 8,
+    "representation_ratio": 0.051282,
+    "role_counts": {
+      "coordinate_candidate": 117,
+      "unknown": 39
+    },
+    "property_value_candidate_count": 0,
+    "covered_property_value_candidate_count": 0,
+    "missing_property_value_candidate_count": 0,
+    "property_value_ratio": null,
+    "gap_table_count": 0,
+    "numeric_zero_coverage_table_count": 2,
+    "property_zero_coverage_table_count": 0
+  },
+  "recovered_count": 0,
+  "skipped_ambiguous_count": 0,
+  "recovered": [],
+  "skipped_ambiguous": []
+}

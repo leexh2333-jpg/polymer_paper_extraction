@@ -1,0 +1,50 @@
+{
+  "stage": "stage4r_table_recovery",
+  "implementation_version": "0.1.0",
+  "document_id": "reference_no_0021296",
+  "audit_summary": {
+    "table_count": 7,
+    "tables_with_numeric_cells": 6,
+    "numeric_cell_count": 92,
+    "represented_numeric_cell_count": 42,
+    "representation_ratio": 0.456522,
+    "role_counts": {
+      "coordinate_candidate": 4,
+      "property_value_candidate": 19,
+      "unknown": 69
+    },
+    "property_value_candidate_count": 19,
+    "covered_property_value_candidate_count": 16,
+    "missing_property_value_candidate_count": 3,
+    "property_value_ratio": 0.842105,
+    "gap_table_count": 1,
+    "numeric_zero_coverage_table_count": 2,
+    "property_zero_coverage_table_count": 1
+  },
+  "recovered_count": 0,
+  "skipped_ambiguous_count": 3,
+  "recovered": [],
+  "skipped_ambiguous": [
+    {
+      "cell_id": "T_1_11:r0003:c0001",
+      "table_id": "T_1_11",
+      "property_name_normalized": "melting_temperature",
+      "value_raw": "113",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_1_11:r0003:c0002",
+      "table_id": "T_1_11",
+      "property_name_normalized": "melting_temperature",
+      "value_raw": "64, 85",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_1_11:r0003:c0003",
+      "table_id": "T_1_11",
+      "property_name_normalized": "melting_temperature",
+      "value_raw": "132",
+      "reason": "entity_ambiguous"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "schema_version": "1.0",
+  "document_id": "reference_no_0037921",
+  "measurement_conditions": [
+    {
+      "condition_id": "mc001",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {},
+      "other_condition_evidence": {},
+      "condition_status": "not_reported",
+      "evidence": {
+        "block_id": "P_2_35",
+        "page": 2,
+        "bbox": [
+          161.0,
+          710.0,
+          836.0,
+          802.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The $\\eta _ { \\mathrm { i n h } }$of the flexible polyimide film was 1.3 dL/g.",
+        "table_locator": null
+      },
+      "confidence": {
+        "score": 0.5
+      }
+    }
+  ],
+  "properties": [
+    {
+      "property_id": "prop001",
+      "sample_id": "s003",
+      "property_name_raw": "$\\eta _ { \\mathrm { i n h } }$",
+      "property_name_normalized": "intrinsic_viscosity",
+      "property_code": "P6120",
+      "property_category": "dilute_solution_property",
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "1.3",
+      "value_min": 1.3,
+      "value_max": 1.3,
+      "unit_raw": "dL/g",
+      "unit_normalized": "dL/g",
+      "measurement_condition_id": "mc001",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_2_35",
+          "page": 2,
+          "bbox": [
+            161.0,
+            710.0,
+            836.0,
+            802.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The $\\eta _ { \\mathrm { i n h } }$of the flexible polyimide film was 1.3 dL/g.",
+          "table_locator": null
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    }
+  ],
+  "unresolved_properties": [],
+  "property_series": [],
+  "provenance": {
+    "stage": "stage4_property",
+    "provider": "dmx",
+    "model": "doubao-seed-2.0-pro",
+    "models": [
+      "doubao-seed-2.0-pro"
+    ],
+    "prompt_id": "polymer.stage4.property",
+    "prompt_version": "1.7.2",
+    "prompt_sha256": "ec79fe3bf47539cab4ba239c611d1ab17d75dc0038cda85020caca580f7987a5",
+    "vocabulary_sha256": "3e9d85e4915a729edf0f0a53821f3ee6edf32874e1da6972457417e4f13a1510",
+    "input_hash": "9f229d826fd8c3fa0556741fd9e09e1fd731002f3746ba5236bc7f73ccaacd81",
+    "model_config_hash": "cc96eaab20bd380ae90f3ba1dfa638bd40f111e3e72ca185255fb71b459d40ea",
+    "cache_key": "8244e22246ea2d79730e73447282666c00874ab1b57feadf637c62d8be4270bb",
+    "output_schema_version": "property_observation_schema.v7",
+    "implementation_version": "1.7.10",
+    "context_block_count": 39,
+    "context_chars": 21339,
+    "call_count": 1,
+    "usage": {
+      "input_tokens": 20802,
+      "output_tokens": 8369,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "billable_input_tokens": 20802,
+      "total_tokens": 29171
+    },
+    "cost": {
+      "status": "calculated",
+      "currency": "CNY",
+      "input_per_million": "4.32",
+      "output_per_million": "29.15",
+      "input_cost": "0.08986464",
+      "output_cost": "0.24395635",
+      "total_cost": "0.33382099"
+    },
+    "status": "success"
+  },
+  "warnings": [
+    {
+      "stage": "stage4_property",
+      "code": "dropped_unused_conditions",
+      "message": "未被任何 PropertyObservation 引用的 MeasurementCondition 已舍弃",
+      "candidate_condition_ids": [
+        "mc001",
+        "mc002",
+        "mc003",
+        "mc004"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3211 @@
+{
+  "schema_version": "1.6",
+  "document_id": "reference_no_0033617",
+  "paper": {
+    "ref_no": "reference_no_0033617",
+    "pdf_filename": "83da083f-aeaf-49bf-9c59-3353b1deec92_origin.pdf",
+    "source_pdf_path": "mineru_output/reference_no_0033617/83da083f-aeaf-49bf-9c59-3353b1deec92_origin.pdf",
+    "organized_pdf_path": "wenxian/reference_no_0033617/origin.pdf",
+    "doi": "10.1016/j.eurpolymj.2006.03.011",
+    "title": "Synthesis, characterization and electrochromic properties of copolymer of 3-{[4-(thien-3-yl-methoxy)phenoxy]methyl} thiophene with thiophene",
+    "authors": [
+      "Ayc¸a Erden",
+      "Elif Sahin",
+      "Mustafa Gu¨ llu¨",
+      "Levent Toppare"
+    ],
+    "journal": "European Polymer Journal",
+    "year": 2006,
+    "metadata_status": "complete",
+    "metadata_extraction": {
+      "method": "llm",
+      "provider": "volcengine",
+      "model": "doubao-seed-2-0-pro-260215",
+      "prompt_file": "prompts/meta_extract.md",
+      "prompt_sha256": "96d91fd20308fdaa013aaef055c4b873880414f84228b8c5983246b74d21271b",
+      "source_pages": [
+        0,
+        1
+      ],
+      "status": "success"
+    }
+  },
+  "material_mentions": [
+    {
+      "mention_id": "m001",
+      "text": "P(TTMT-co-Th)",
+      "mention_role": "abbreviation",
+      "evidence_ids": [
+        "ev001"
+      ],
+      "confidence": {
+        "score": 0.94
+      }
+    },
+    {
+      "mention_id": "m002",
+      "text": "P(TMPMT-co-Th)",
+      "mention_role": "abbreviation",
+      "evidence_ids": [
+        "ev002"
+      ],
+      "confidence": {
+        "score": 0.98
+      }
+    },
+    {
+      "mention_id": "m003",
+      "text": "poly(3,4-ethylenedioxythiophene)",
+      "mention_role": "polymer_name",
+      "evidence_ids": [
+        "ev002"
+      ],
+      "confidence": {
+        "score": 0.99
+      }
+    },
+    {
+      "mention_id": "m004",
+      "text": "PEDOT",
+      "mention_role": "abbreviation",
+      "evidence_ids": [
+        "ev002"
+      ],
+      "confidence": {
+        "score": 0.99
+      }
+    },
+    {
+      "mention_id": "m005",
+      "text": "P(TMPMT-co-PTh)",
+      "mention_role": "abbreviation",
+      "evidence_ids": [
+        "ev003"
+      ],
+      "confidence": {
+        "score": 0.97
+      }
+    },
+    {
+      "mention_id": "m006",
+      "text": "P(TMPMT-co-Th)",
+      "mention_role": "polymer_name",
+      "evidence_ids": [
+        "ev004"
+      ],
+      "confidence": {
+        "score": 0.99
+      }
+    },
+    {
+      "mention_id": "m007",
+      "text": "PEDOT",
+      "mention_role": "abbreviation",
+      "evidence_ids": [
+        "ev005"
+      ],
+      "confidence": {
+        "score": 0.99
+      }
+    },
+    {
+      "mention_id": "m008",
+      "text": "PTh",
+      "mention_role": "abbreviation",
+      "evidence_ids": [
+        "ev006"
+      ],
+      "confidence": {
+        "score": 0.88
+      }
+    },
+    {
+      "mention_id": "m009",
+      "text": "P(TMPMT-co-Th)",
+      "mention_role": "polymer_name",
+      "evidence_ids": [
+        "ev007"
+      ],
+      "confidence": {
+        "score": 0.99
+      }
+    },
+    {
+      "mention_id": "m010",
+      "text": "P(TMPMTco-Th)",
+      "mention_role": "polymer_name",
+      "evidence_ids": [
+        "ev008"
+      ],
+      "confidence": {
+        "score": 0.93
+      }
+    },
+    {
+      "mention_id": "m011",
+      "text": "polythiophene",
+      "mention_role": "polymer_name",
+      "evidence_ids": [
+        "ev009"
+      ],
+      "confidence": {
+        "score": 0.98
+      }
+    },
+    {
+      "mention_id": "m012",
+      "text": "conjugated polymers",
+      "mention_role": "polymer_name",
+      "evidence_ids": [
+        "ev010"
+      ],
+      "confidence": {
+        "score": 0.92
+      }
+    },
+    {
+      "mention_id": "m013",
+      "text": "P(TMPMT-co-Th)",
+      "mention_role": "polymer_name",
+      "evidence_ids": [
+        "ev011"
+      ],
+      "confidence": {
+        "score": 0.99
+      }
+    },
+    {
+      "mention_id": "m014",
+      "text": "P(TMPMT-co-Th)",
+      "mention_role": "abbreviation",
+      "evidence_ids": [
+        "ev012"
+      ],
+      "confidence": {
+        "score": 0.98
+      }
+    },
+    {
+      "mention_id": "m015",
+      "text": "PTh",
+      "mention_role": "abbreviation",
+      "evidence_ids": [
+        "ev012"
+      ],
+      "confidence": {
+        "score": 0.97
+      }
+    },
+    {
+      "mention_id": "m016",
+      "text": "P(TMPMT-co-Th)/PEDOT",
+      "mention_role": "sample_label",
+      "evidence_ids": [
+        "ev013"
+      ],
+      "confidence": {
+        "score": 0.96
+      }
+    },
+    {
+      "mention_id": "m017",
+      "text": "P(TMPMT-co-Th)/PEDOT",
+      "mention_role": "sample_label",
+      "evidence_ids": [
+        "ev014"
+      ],
+      "confidence": {
+        "score": 0.94
+      }
+    },
+    {
+      "mention_id": "m018",
+      "text": "P(TMPMTco-Th)/PEDOT",
+      "mention_role": "sample_label",
+      "evidence_ids": [
+        "ev015"
+      ],
+      "confidence": {
+        "score": 0.91
+      }
+    },
+    {
+      "mention_id": "m019",
+      "text": "PEDOT",
+      "mention_role": "abbreviation",
+      "evidence_ids": [
+        "ev014"
+      ],
+      "confidence": {
+        "score": 0.96
+      }
+    },
+    {
+      "mention_id": "m020",
+      "text": "P(TMPMT-co-Th)/PEDOT",
+      "mention_role": "sample_label",
+      "evidence_ids": [
+        "ev016"
+      ],
+      "confidence": {
+        "score": 0.95
+      }
+    },
+    {
+      "mention_id": "m021",
+      "text": "P(TMPMT-co-Th)/PEDOT",
+      "mention_role": "sample_label",
+      "evidence_ids": [
+        "ev017"
+      ],
+      "confidence": {
+        "score": 0.95
+      }
+    }
+  ],
+  "polymer_entities": [
+    {
+      "entity_id": "pe001",
+      "polymer_name": "P(TTMT-co-Th)",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "P(TTMT-co-Th)"
+      ],
+      "resolved_from_mentions": [
+        "m001"
+      ],
+      "evidence_ids": [
+        "ev001"
+      ],
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.78
+      }
+    },
+    {
+      "entity_id": "pe002",
+      "polymer_name": "P(TMPMT-co-Th)",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "P(TMPMT-co-Th)",
+        "P(TMPMTco-Th)"
+      ],
+      "resolved_from_mentions": [
+        "m002",
+        "m006",
+        "m009",
+        "m010",
+        "m013",
+        "m014"
+      ],
+      "evidence_ids": [
+        "ev004"
+      ],
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.91
+      }
+    },
+    {
+      "entity_id": "pe003",
+      "polymer_name": "poly(3,4-ethylenedioxythiophene)",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "poly(3,4-ethylenedioxythiophene)",
+        "PEDOT"
+      ],
+      "resolved_from_mentions": [
+        "m003",
+        "m004",
+        "m007",
+        "m019"
+      ],
+      "evidence_ids": [
+        "ev002"
+      ],
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.96
+      }
+    },
+    {
+      "entity_id": "pe004",
+      "polymer_name": "P(TMPMT-co-PTh)",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "P(TMPMT-co-PTh)"
+      ],
+      "resolved_from_mentions": [
+        "m005"
+      ],
+      "evidence_ids": [
+        "ev018"
+      ],
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.68
+      }
+    },
+    {
+      "entity_id": "pe005",
+      "polymer_name": "polythiophene",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "PTh",
+        "polythiophene"
+      ],
+      "resolved_from_mentions": [
+        "m008",
+        "m011",
+        "m015"
+      ],
+      "evidence_ids": [
+        "ev009"
+      ],
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.86
+      }
+    },
+    {
+      "entity_id": "pe006",
+      "polymer_name": "P(TMPMT-co-Th)/PEDOT",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "P(TMPMT-co-Th)/PEDOT",
+        "P(TMPMTco-Th)/PEDOT"
+      ],
+      "resolved_from_mentions": [
+        "m016",
+        "m017",
+        "m018",
+        "m020",
+        "m021"
+      ],
+      "evidence_ids": [
+        "ev014"
+      ],
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.83
+      }
+    }
+  ],
+  "unresolved_mention_ids": [
+    "m012"
+  ],
+  "samples": [
+    {
+      "sample_id": "s001",
+      "sample_kind": "synthesis_batch",
+      "refers_to_entity": "pe001",
+      "polymer_name": "P(TTMT-co-Th)",
+      "sample_label_raw": "P(TTMT-co-Th)",
+      "intended_use": [],
+      "evidence_ids": [
+        "ev001"
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "sample_id": "s002",
+      "sample_kind": "synthesis_batch",
+      "refers_to_entity": "pe002",
+      "polymer_name": "P(TMPMT-co-Th)",
+      "state_description": "free standing films",
+      "intended_use": [],
+      "evidence_ids": [
+        "ev019"
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "sample_id": "s003",
+      "sample_kind": "synthesis_batch",
+      "refers_to_entity": "pe004",
+      "polymer_name": "P(TMPMT-co-PTh)",
+      "sample_label_raw": "P(TMPMT-co-PTh)",
+      "intended_use": [
+        "spectroelectrochemical studies"
+      ],
+      "evidence_ids": [
+        "ev018"
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "sample_id": "s004",
+      "sample_kind": "synthesis_batch",
+      "refers_to_entity": "pe003",
+      "polymer_name": "poly(3,4-ethylenedioxythiophene)",
+      "sample_label_raw": "PEDOT",
+      "intended_use": [],
+      "evidence_ids": [
+        "ev020"
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "sample_id": "s005",
+      "sample_kind": "synthesis_batch",
+      "refers_to_entity": "pe005",
+      "polymer_name": "polythiophene",
+      "sample_label_raw": "pristine polythiophene",
+      "intended_use": [],
+      "evidence_ids": [
+        "ev021"
+      ],
+      "confidence": {
+        "score": 0.8
+      }
+    },
+    {
+      "sample_id": "s006",
+      "sample_kind": "processed_material",
+      "refers_to_entity": "pe002",
+      "polymer_name": "P(TMPMT-co-Th)",
+      "sample_label_raw": "P(TMPMT-co-Th)",
+      "state_description": "potentiodynamically deposited on ITO",
+      "intended_use": [],
+      "evidence_ids": [
+        "ev004"
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "sample_id": "s007",
+      "sample_kind": "processed_material",
+      "refers_to_entity": "pe003",
+      "polymer_name": "poly(3,4-ethylenedioxythiophene)",
+      "sample_label_raw": "PEDOT",
+      "intended_use": [],
+      "evidence_ids": [
+        "ev020"
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "sample_id": "s008",
+      "sample_kind": "test_specimen",
+      "refers_to_entity": "pe006",
+      "polymer_name": "P(TMPMT-co-Th)/PEDOT",
+      "state_description": "Dual type electrochromic device (ECD)",
+      "intended_use": [],
+      "evidence_ids": [
+        "ev002"
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    }
+  ],
+  "process_steps": [
+    {
+      "step_id": "ps001",
+      "process_type": "copolymerization",
+      "input_sample_ids": [],
+      "output_sample_ids": [
+        "s001"
+      ],
+      "parameters": {
+        "supporting electrolyte": "TBAFB",
+        "solvent mixture": "AN/BFEE"
+      },
+      "evidence_ids": [
+        "ev022"
+      ],
+      "confidence": {
+        "score": 0.8
+      }
+    },
+    {
+      "step_id": "ps002",
+      "process_type": "copolymerization",
+      "input_sample_ids": [],
+      "output_sample_ids": [
+        "s002"
+      ],
+      "parameters": {
+        "TMPMT amount": "40 mg",
+        "TBAFB concentration": "0.1 M",
+        "solvent": "AN/BFEE",
+        "potential": "1.5 V",
+        "time": "60 min",
+        "atmosphere": "inert",
+        "washing solvent": "AN"
+      },
+      "evidence_ids": [
+        "ev019"
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "step_id": "ps003",
+      "process_type": "copolymerization",
+      "input_sample_ids": [],
+      "output_sample_ids": [
+        "s003"
+      ],
+      "parameters": {
+        "TMPMT amount": "40 mg",
+        "TBAFB concentration": "0.1 M",
+        "BFEE:AN ratio": "8:2, v/v",
+        "potential": "1.5 V",
+        "working electrode": "ITO"
+      },
+      "evidence_ids": [
+        "ev018"
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "step_id": "ps004",
+      "process_type": "polymerization",
+      "input_sample_ids": [],
+      "output_sample_ids": [
+        "s004"
+      ],
+      "parameters": {
+        "EDOT concentration": "0.01 M",
+        "TBABF4 concentration": "0.1 M",
+        "solvent": "AN"
+      },
+      "evidence_ids": [
+        "ev020"
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "step_id": "ps005",
+      "process_type": "coating",
+      "input_sample_ids": [
+        "s002"
+      ],
+      "output_sample_ids": [
+        "s006"
+      ],
+      "parameters": {
+        "solvent-electrolyte": "0.1 M TBAFB/ AN:BFEE",
+        "potential range": "0.0 V and +1.5 V"
+      },
+      "evidence_ids": [
+        "ev004"
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "step_id": "ps006",
+      "process_type": "coating",
+      "input_sample_ids": [
+        "s004"
+      ],
+      "output_sample_ids": [
+        "s007"
+      ],
+      "parameters": {},
+      "evidence_ids": [
+        "ev020"
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "step_id": "ps007",
+      "process_type": "specimen_preparation",
+      "input_sample_ids": [
+        "s006",
+        "s007"
+      ],
+      "output_sample_ids": [
+        "s008"
+      ],
+      "parameters": {
+        "separator": "gel electrolyte"
+      },
+      "evidence_ids": [
+        "ev023"
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    }
+  ],
+  "unresolved_entity_ids": [],
+  "property_observations": [
+    {
+      "property_id": "prop001",
+      "sample_id": "s006",
+      "property_name_raw": "conductivity",
+      "property_name_normalized": "electric_conductivity",
+      "property_code": "P4130",
+      "property_category": "electrical_property",
+      "determination_method_raw": "four-probe technique",
+      "observation_role": "single",
+      "value_raw": "1.7 · 10^-2",
+      "value_min": 0.017,
+      "value_max": 0.017,
+      "unit_raw": "S/cm",
+      "unit_normalized": "S/cm",
+      "measurement_condition_id": "mc001",
+      "measurement_context": {
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_type": "text",
+      "evidence_ids": [
+        "ev024"
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop002",
+      "sample_id": "s006",
+      "property_name_raw": "band gap",
+      "determination_method_raw": "UV–Vis spectroscopy",
+      "observation_role": "single",
+      "value_raw": "2.20",
+      "value_min": 2.2,
+      "value_max": 2.2,
+      "unit_raw": "eV",
+      "unit_normalized": "eV",
+      "measurement_condition_id": "mc002",
+      "measurement_context": {
+        "temperature": {
+          "raw": "room temperature",
+          "evidence": [],
+          "evidence_ids": [
+            "ev025"
+          ]
+        },
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "source_type": "text",
+      "evidence_ids": [
+        "ev001",
+        "ev031"
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop003",
+      "sample_id": "s006",
+      "property_name_raw": "λ_max",
+      "determination_method_raw": "UV–Vis spectroscopy",
+      "observation_role": "single",
+      "value_raw": "427",
+      "value_min": 427.0,
+      "value_max": 427.0,
+      "unit_raw": "nm",
+      "unit_normalized": "nm",
+      "measurement_condition_id": "mc002",
+      "measurement_context": {
+        "temperature": {
+          "raw": "room temperature",
+          "evidence": [],
+          "evidence_ids": [
+            "ev025"
+          ]
+        },
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "source_type": "text",
+      "evidence_ids": [
+        "ev001",
+        "ev031"
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop004",
+      "sample_id": "s006",
+      "property_name_raw": "% optical contrast",
+      "determination_method_raw": "squarewave potential step method coupled with optical spectroscopy",
+      "observation_role": "single",
+      "value_raw": "7.6",
+      "value_min": 7.6,
+      "value_max": 7.6,
+      "unit_raw": "%",
+      "unit_normalized": "%",
+      "measurement_condition_id": "mc003",
+      "measurement_context": {
+        "wavelength": {
+          "raw": "427 nm",
+          "value": 427.0,
+          "unit": "nm",
+          "evidence": [],
+          "evidence_ids": [
+            "ev026"
+          ]
+        },
+        "other_conditions": {
+          "applied_potential_range": "0.0 to +1.0 V"
+        },
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {
+          "applied_potential_range": [
+            "ev026"
+          ]
+        },
+        "condition_status": "reported"
+      },
+      "source_type": "text",
+      "evidence_ids": [
+        "ev032"
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop005",
+      "sample_id": "s006",
+      "property_name_raw": "% optical contrast",
+      "determination_method_raw": "squarewave potential step method coupled with optical spectroscopy",
+      "observation_role": "single",
+      "value_raw": "8",
+      "value_min": 8.0,
+      "value_max": 8.0,
+      "unit_raw": "%",
+      "unit_normalized": "%",
+      "measurement_condition_id": "mc003",
+      "measurement_context": {
+        "wavelength": {
+          "raw": "427 nm",
+          "value": 427.0,
+          "unit": "nm",
+          "evidence": [],
+          "evidence_ids": [
+            "ev026"
+          ]
+        },
+        "other_conditions": {
+          "applied_potential_range": "0.0 to +1.0 V"
+        },
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {
+          "applied_potential_range": [
+            "ev026"
+          ]
+        },
+        "condition_status": "reported"
+      },
+      "source_type": "text",
+      "evidence_ids": [
+        "ev033"
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop006",
+      "sample_id": "s006",
+      "property_name_raw": "switching time",
+      "determination_method_raw": "squarewave potential step method coupled with optical spectroscopy",
+      "observation_role": "single",
+      "value_raw": "2.0",
+      "value_min": 2.0,
+      "value_max": 2.0,
+      "unit_raw": "s",
+      "unit_normalized": "s",
+      "measurement_condition_id": "mc003",
+      "measurement_context": {
+        "wavelength": {
+          "raw": "427 nm",
+          "value": 427.0,
+          "unit": "nm",
+          "evidence": [],
+          "evidence_ids": [
+            "ev026"
+          ]
+        },
+        "other_conditions": {
+          "applied_potential_range": "0.0 to +1.0 V"
+        },
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {
+          "applied_potential_range": [
+            "ev026"
+          ]
+        },
+        "condition_status": "reported"
+      },
+      "source_type": "text",
+      "evidence_ids": [
+        "ev032",
+        "ev034"
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop007",
+      "sample_id": "s008",
+      "property_name_raw": "% optical contrast",
+      "determination_method_raw": "squarewave potential step method coupled with optical spectroscopy",
+      "observation_role": "single",
+      "value_raw": "2",
+      "value_min": 2.0,
+      "value_max": 2.0,
+      "unit_raw": "%",
+      "unit_normalized": "%",
+      "measurement_condition_id": "mc004",
+      "measurement_context": {
+        "wavelength": {
+          "raw": "445 nm",
+          "value": 445.0,
+          "unit": "nm",
+          "evidence": [],
+          "evidence_ids": [
+            "ev028"
+          ]
+        },
+        "other_conditions": {
+          "applied_potential_range": "0.0 V and +2.8 V",
+          "residence_time": "5 s"
+        },
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {
+          "applied_potential_range": [
+            "ev027"
+          ],
+          "residence_time": [
+            "ev027"
+          ]
+        },
+        "condition_status": "reported"
+      },
+      "source_type": "text",
+      "evidence_ids": [
+        "ev028"
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop008",
+      "sample_id": "s008",
+      "property_name_raw": "switching time",
+      "determination_method_raw": "squarewave potential step method coupled with optical spectroscopy",
+      "observation_role": "single",
+      "value_raw": "1.4",
+      "value_min": 1.4,
+      "value_max": 1.4,
+      "unit_raw": "s",
+      "unit_normalized": "s",
+      "measurement_condition_id": "mc004",
+      "measurement_context": {
+        "wavelength": {
+          "raw": "445 nm",
+          "value": 445.0,
+          "unit": "nm",
+          "evidence": [],
+          "evidence_ids": [
+            "ev028"
+          ]
+        },
+        "other_conditions": {
+          "applied_potential_range": "0.0 V and +2.8 V",
+          "residence_time": "5 s"
+        },
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {
+          "applied_potential_range": [
+            "ev027"
+          ],
+          "residence_time": [
+            "ev027"
+          ]
+        },
+        "condition_status": "reported"
+      },
+      "source_type": "text",
+      "evidence_ids": [
+        "ev035",
+        "ev036"
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop009",
+      "sample_id": "s008",
+      "property_name_raw": "electroactivity retention after 500 cycles",
+      "determination_method_raw": "cyclic voltammetry",
+      "observation_role": "single",
+      "value_raw": "85",
+      "value_min": 85.0,
+      "value_max": 85.0,
+      "unit_raw": "%",
+      "unit_normalized": "%",
+      "measurement_condition_id": "mc005",
+      "measurement_context": {
+        "other_conditions": {
+          "scan_rate": "500 mV/s",
+          "potential_range": "0.0 V and 2.8 V"
+        },
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {
+          "scan_rate": [
+            "ev029"
+          ],
+          "potential_range": [
+            "ev029"
+          ]
+        },
+        "condition_status": "reported"
+      },
+      "source_type": "text",
+      "evidence_ids": [
+        "ev037"
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop010",
+      "sample_id": "s008",
+      "property_name_raw": "λ_max",
+      "determination_method_raw": "UV–Vis spectroscopy",
+      "observation_role": "single",
+      "value_raw": "445",
+      "value_min": 445.0,
+      "value_max": 445.0,
+      "unit_raw": "nm",
+      "unit_normalized": "nm",
+      "measurement_condition_id": "mc006",
+      "measurement_context": {
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_type": "text",
+      "evidence_ids": [
+        "ev030"
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop011",
+      "sample_id": "s008",
+      "property_name_raw": "absorbance peak wavelength",
+      "determination_method_raw": "UV–Vis spectroscopy",
+      "observation_role": "single",
+      "value_raw": "628",
+      "value_min": 628.0,
+      "value_max": 628.0,
+      "unit_raw": "nm",
+      "unit_normalized": "nm",
+      "measurement_condition_id": "mc006",
+      "measurement_context": {
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_type": "text",
+      "evidence_ids": [
+        "ev038"
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_001",
+      "characterization_id": "char001",
+      "sample_id": "s002",
+      "entity_id": "pe002",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "1697",
+      "property_name_normalized": "ftir_peak_wavenumber",
+      "property_category": "composition_structure",
+      "value_raw": "1697",
+      "value_min": 1697.0,
+      "value_max": 1697.0,
+      "spectral_assignment": "conjugation along the chain",
+      "source_stage": "stage5",
+      "source_type": "text",
+      "evidence_ids": [
+        "ev007"
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    }
+  ],
+  "measurement_conditions": [
+    {
+      "condition_id": "mc001",
+      "other_conditions": {},
+      "other_condition_evidence_ids": {},
+      "condition_status": "not_reported",
+      "evidence_ids": [
+        "ev024"
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "condition_id": "mc002",
+      "temperature": {
+        "raw": "room temperature",
+        "evidence": [],
+        "evidence_ids": [
+          "ev025"
+        ]
+      },
+      "other_conditions": {},
+      "other_condition_evidence_ids": {},
+      "condition_status": "reported",
+      "evidence_ids": [
+        "ev025"
+      ],
+      "confidence": {
+        "score": 0.8
+      }
+    },
+    {
+      "condition_id": "mc003",
+      "wavelength": {
+        "raw": "427 nm",
+        "value": 427.0,
+        "unit": "nm",
+        "evidence": [],
+        "evidence_ids": [
+          "ev026"
+        ]
+      },
+      "other_conditions": {
+        "applied_potential_range": "0.0 to +1.0 V"
+      },
+      "other_condition_evidence_ids": {
+        "applied_potential_range": [
+          "ev026"
+        ]
+      },
+      "condition_status": "reported",
+      "evidence_ids": [
+        "ev026"
+      ],
+      "confidence": {
+        "score": 0.8
+      }
+    },
+    {
+      "condition_id": "mc004",
+      "wavelength": {
+        "raw": "445 nm",
+        "value": 445.0,
+        "unit": "nm",
+        "evidence": [],
+        "evidence_ids": [
+          "ev028"
+        ]
+      },
+      "other_conditions": {
+        "applied_potential_range": "0.0 V and +2.8 V",
+        "residence_time": "5 s"
+      },
+      "other_condition_evidence_ids": {
+        "applied_potential_range": [
+          "ev027"
+        ],
+        "residence_time": [
+          "ev027"
+        ]
+      },
+      "condition_status": "reported",
+      "evidence_ids": [
+        "ev027"
+      ],
+      "confidence": {
+        "score": 0.8
+      }
+    },
+    {
+      "condition_id": "mc005",
+      "other_conditions": {
+        "scan_rate": "500 mV/s",
+        "potential_range": "0.0 V and 2.8 V"
+      },
+      "other_condition_evidence_ids": {
+        "scan_rate": [
+          "ev029"
+        ],
+        "potential_range": [
+          "ev029"
+        ]
+      },
+      "condition_status": "reported",
+      "evidence_ids": [
+        "ev029"
+      ],
+      "confidence": {
+        "score": 0.8
+      }
+    },
+    {
+      "condition_id": "mc006",
+      "other_conditions": {},
+      "other_condition_evidence_ids": {},
+      "condition_status": "not_reported",
+      "evidence_ids": [
+        "ev030"
+      ],
+      "confidence": {
+        "score": 0.8
+      }
+    }
+  ],
+  "unresolved_property_observations": [],
+  "property_series": [
+    {
+      "series_id": "series001",
+      "sample_resolution_status": "unresolved",
+      "property_name_raw": "L",
+      "measurement_context": {
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "points": [
+        {
+          "point_id": "pt001",
+          "observation_role": "series_point",
+          "sample_id": "s006",
+          "entity_id": "pe002",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "L",
+              "value_raw": "Ox",
+              "evidence_ids": [
+                "ev039"
+              ]
+            }
+          ],
+          "value_raw": "47",
+          "value_min": 47.0,
+          "value_max": 47.0,
+          "measurement_context": {
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence_ids": [
+            "ev039"
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt002",
+          "observation_role": "series_point",
+          "sample_id": "s006",
+          "entity_id": "pe002",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "L",
+              "value_raw": "Red",
+              "evidence_ids": [
+                "ev040"
+              ]
+            }
+          ],
+          "value_raw": "53",
+          "value_min": 53.0,
+          "value_max": 53.0,
+          "measurement_context": {
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence_ids": [
+            "ev040"
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt003",
+          "observation_role": "series_point",
+          "sample_id": "s008",
+          "entity_id": "pe006",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "L",
+              "value_raw": "Ox",
+              "evidence_ids": [
+                "ev041"
+              ]
+            }
+          ],
+          "value_raw": "53",
+          "value_min": 53.0,
+          "value_max": 53.0,
+          "measurement_context": {
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence_ids": [
+            "ev041"
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt004",
+          "observation_role": "series_point",
+          "sample_id": "s008",
+          "entity_id": "pe006",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "L",
+              "value_raw": "Red",
+              "evidence_ids": [
+                "ev042"
+              ]
+            }
+          ],
+          "value_raw": "62",
+          "value_min": 62.0,
+          "value_max": 62.0,
+          "measurement_context": {
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence_ids": [
+            "ev042"
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        }
+      ],
+      "coverage": {
+        "expected": 4,
+        "covered": 4,
+        "missing": 0,
+        "not_applicable": 0,
+        "ratio": 1.0
+      },
+      "evidence_ids": [
+        "ev039",
+        "ev040",
+        "ev041",
+        "ev042"
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "series_id": "series002",
+      "sample_resolution_status": "unresolved",
+      "property_name_raw": "a",
+      "measurement_context": {
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "points": [
+        {
+          "point_id": "pt005",
+          "observation_role": "series_point",
+          "sample_id": "s006",
+          "entity_id": "pe002",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "a",
+              "value_raw": "Ox",
+              "evidence_ids": [
+                "ev043"
+              ]
+            }
+          ],
+          "value_raw": "-4",
+          "value_min": -4.0,
+          "value_max": -4.0,
+          "measurement_context": {
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence_ids": [
+            "ev043"
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt006",
+          "observation_role": "series_point",
+          "sample_id": "s006",
+          "entity_id": "pe002",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "a",
+              "value_raw": "Red",
+              "evidence_ids": [
+                "ev044"
+              ]
+            }
+          ],
+          "value_raw": "1",
+          "value_min": 1.0,
+          "value_max": 1.0,
+          "measurement_context": {
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence_ids": [
+            "ev044"
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt007",
+          "observation_role": "series_point",
+          "sample_id": "s008",
+          "entity_id": "pe006",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "a",
+              "value_raw": "Ox",
+              "evidence_ids": [
+                "ev045"
+              ]
+            }
+          ],
+          "value_raw": "-3",
+          "value_min": -3.0,
+          "value_max": -3.0,
+          "measurement_context": {
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence_ids": [
+            "ev045"
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt008",
+          "observation_role": "series_point",
+          "sample_id": "s008",
+          "entity_id": "pe006",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "a",
+              "value_raw": "Red",
+              "evidence_ids": [
+                "ev046"
+              ]
+            }
+          ],
+          "value_raw": "-2",
+          "value_min": -2.0,
+          "value_max": -2.0,
+          "measurement_context": {
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence_ids": [
+            "ev046"
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        }
+      ],
+      "coverage": {
+        "expected": 4,
+        "covered": 4,
+        "missing": 0,
+        "not_applicable": 0,
+        "ratio": 1.0
+      },
+      "evidence_ids": [
+        "ev043",
+        "ev044",
+        "ev045",
+        "ev046"
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "series_id": "series003",
+      "sample_resolution_status": "unresolved",
+      "property_name_raw": "b",
+      "measurement_context": {
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "points": [
+        {
+          "point_id": "pt009",
+          "observation_role": "series_point",
+          "sample_id": "s006",
+          "entity_id": "pe002",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "b",
+              "value_raw": "Ox",
+              "evidence_ids": [
+                "ev047"
+              ]
+            }
+          ],
+          "value_raw": "8",
+          "value_min": 8.0,
+          "value_max": 8.0,
+          "measurement_context": {
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence_ids": [
+            "ev047"
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt010",
+          "observation_role": "series_point",
+          "sample_id": "s006",
+          "entity_id": "pe002",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "b",
+              "value_raw": "Red",
+              "evidence_ids": [
+                "ev048"
+              ]
+            }
+          ],
+          "value_raw": "21",
+          "value_min": 21.0,
+          "value_max": 21.0,
+          "measurement_context": {
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence_ids": [
+            "ev048"
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt011",
+          "observation_role": "series_point",
+          "sample_id": "s008",
+          "entity_id": "pe006",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "b",
+              "value_raw": "Ox",
+              "evidence_ids": [
+                "ev049"
+              ]
+            }
+          ],
+          "value_raw": "-13",
+          "value_min": -13.0,
+          "value_max": -13.0,
+          "measurement_context": {
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence_ids": [
+            "ev049"
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt012",
+          "observation_role": "series_point",
+          "sample_id": "s008",
+          "entity_id": "pe006",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "b",
+              "value_raw": "Red",
+              "evidence_ids": [
+                "ev050"
+              ]
+            }
+          ],
+          "value_raw": "4",
+          "value_min": 4.0,
+          "value_max": 4.0,
+          "measurement_context": {
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence_ids": [
+            "ev050"
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        }
+      ],
+      "coverage": {
+        "expected": 4,
+        "covered": 4,
+        "missing": 0,
+        "not_applicable": 0,
+        "ratio": 1.0
+      },
+      "evidence_ids": [
+        "ev047",
+        "ev048",
+        "ev049",
+        "ev050"
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    }
+  ],
+  "characterizations": [
+    {
+      "characterization_id": "char001",
+      "method_raw": "Fourier transform infrared spectroscopy (FTIR)",
+      "method_normalized": "FTIR",
+      "sample_id": "s002",
+      "entity_id": "pe002",
+      "sample_resolution_status": "resolved",
+      "instrument": "Nicolet 510 FTIR spectrometer",
+      "parameters": {
+        "sample_preparation": "dispersed in KBr"
+      },
+      "result_summary": "FTIR spectra of P(TMPMT-co-Th) show characteristic peaks corresponding to chain conjugation, C-O-C stretching, and PF₆⁻ dopant anion.",
+      "derived_property_ids": [
+        "prop_s5_001"
+      ],
+      "evidence_ids": [
+        "ev051",
+        "ev052"
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "characterization_id": "char002",
+      "method_raw": "scanning electron microscopy (SEM)",
+      "method_normalized": "SEM",
+      "sample_id": "s002",
+      "entity_id": "pe002",
+      "sample_resolution_status": "resolved",
+      "instrument": "JEOL JSM-6400",
+      "parameters": {},
+      "result_summary": "SEM micrograph of P(TMPMT-co-Th) film reveals homogenous compact granular structures.",
+      "derived_property_ids": [],
+      "evidence_ids": [
+        "ev053",
+        "ev054",
+        "ev055"
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "characterization_id": "char003",
+      "method_raw": "UV–Vis spectroscopy",
+      "method_normalized": "UV-Vis",
+      "sample_ids": [
+        "s002",
+        "s008"
+      ],
+      "entity_ids": [
+        "pe002",
+        "pe006"
+      ],
+      "sample_resolution_status": "multi_resolved",
+      "instrument": "HP8453A UV–Vis spectrophotometer",
+      "parameters": {},
+      "result_summary": "UV-Vis spectroscopy was used for spectroelectrochemical and kinetic studies of P(TMPMT-co-Th) copolymer and P(TMPMT-co-Th)/PEDOT electrochromic device.",
+      "derived_property_ids": [],
+      "evidence_ids": [
+        "ev053",
+        "ev056"
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "block_id": "P_0_6",
+      "page": 0,
+      "bbox": [
+        69.0,
+        471.0,
+        935.0,
+        694.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Spectroelectrochemical analysis of the copolymer [P(TTMT-co-Th)] revealed that p–p<sup>\\*</sup> electronic transition occurs at 427 nm with a band gap value of 2.20 eV.",
+      "evidence_id": "ev001"
+    },
+    {
+      "block_id": "P_0_6",
+      "page": 0,
+      "bbox": [
+        69.0,
+        471.0,
+        935.0,
+        694.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Dual type electrochromic device (ECD) of P(TMPMT-co-Th) and poly(3,4-ethylenedioxythiophene) (PEDOT) was constructed.",
+      "evidence_id": "ev002"
+    },
+    {
+      "block_id": "P_2_34",
+      "page": 2,
+      "bbox": [
+        68.0,
+        762.0,
+        485.0,
+        925.0
+      ],
+      "source_type": "text",
+      "source_sentence": "For the spectroelectrochemical studies, P(TMPMT-co-PTh) was synthesized in the presence of 40 mg TMPMT, $1 .",
+      "evidence_id": "ev003"
+    },
+    {
+      "block_id": "P_2_37",
+      "page": 2,
+      "bbox": [
+        518.0,
+        633.0,
+        937.0,
+        925.0
+      ],
+      "source_type": "text",
+      "source_sentence": "In this study, P(TMPMT-co-Th) was potentiodynamically deposited on ITO in 0.1 M TBAFB/ AN:BFEE at 0.0 V and +1.5 V.",
+      "evidence_id": "ev004"
+    },
+    {
+      "block_id": "P_2_37",
+      "page": 2,
+      "bbox": [
+        518.0,
+        633.0,
+        937.0,
+        925.0
+      ],
+      "source_type": "text",
+      "source_sentence": "0.01 M solution of EDOT in 0.1 M $\\mathrm { T B A B F _ { 4 } / A N }$was used to deposit the PEDOT film onto ITO electrode at $+ 1 .",
+      "evidence_id": "ev005"
+    },
+    {
+      "block_id": "P_3_45",
+      "page": 3,
+      "bbox": [
+        509.0,
+        86.0,
+        928.0,
+        216.0
+      ],
+      "source_type": "text",
+      "source_sentence": "This diferent behavior from pure PTh may serve as an indication for the copolymer formation.",
+      "evidence_id": "ev006"
+    },
+    {
+      "block_id": "P_3_47",
+      "page": 3,
+      "bbox": [
+        509.0,
+        262.0,
+        928.0,
+        540.0
+      ],
+      "source_type": "text",
+      "source_sentence": "In the infrared spectrum of P(TMPMT-co-Th) 1697 $\\mathrm { c m } ^ { - 1 }$stands for the conjugation along the chain.",
+      "evidence_id": "ev007"
+    },
+    {
+      "block_id": "P_4_55",
+      "page": 4,
+      "bbox": [
+        68.0,
+        524.0,
+        485.0,
+        623.0
+      ],
+      "source_type": "text",
+      "source_sentence": "SEM micrograph of solution side of P(TMPMTco-Th) film showed homogenous compact structures in granular form (Fig.",
+      "evidence_id": "ev008"
+    },
+    {
+      "block_id": "P_4_55",
+      "page": 4,
+      "bbox": [
+        68.0,
+        524.0,
+        485.0,
+        623.0
+      ],
+      "source_type": "text",
+      "source_sentence": "The solution side of film was significantly diferent than that of pristine polythiophene (Fig.",
+      "evidence_id": "ev009"
+    },
+    {
+      "block_id": "P_4_59",
+      "page": 4,
+      "bbox": [
+        68.0,
+        811.0,
+        485.0,
+        925.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Spectroelectrochemistry experiments reveal the unique and important properties of conjugated polymers, such as band gap $( E _ { \\mathrm { g } } )$and $\\lambda _ { \\mathrm { m a x } } .$The film deposited onto ITO coated glass electrode was placed in a UV cuvette for UV–Vis experiment after it is washed with monomer free electrolyte solution.",
+      "evidence_id": "ev010"
+    },
+    {
+      "block_id": "P_4_59",
+      "page": 4,
+      "bbox": [
+        68.0,
+        811.0,
+        485.0,
+        925.0
+      ],
+      "source_type": "text",
+      "source_sentence": "P(TMPMT-co-Th) has an absorbance at 427 nm $\\left( \\lambda _ { \\mathrm { m a x } } \\right)$with a band gap (the onset energy for the $\\pi { - } \\pi ^ { * }$transition) $( E _ { \\mathrm { g } } )$of 2.20 eV.",
+      "evidence_id": "ev011"
+    },
+    {
+      "block_id": "T_5_64",
+      "page": 5,
+      "bbox": [
+        62.0,
+        451.0,
+        474.0,
+        530.0
+      ],
+      "source_type": "table",
+      "source_sentence": "Electrochromic Properties of P(TMPMT-co-Th) and PTh",
+      "evidence_id": "ev012"
+    },
+    {
+      "block_id": "T_5_64",
+      "page": 5,
+      "bbox": [
+        62.0,
+        451.0,
+        474.0,
+        530.0
+      ],
+      "source_type": "table",
+      "source_sentence": "P(TMPMT-co-Th)/PEDOT",
+      "evidence_id": "ev013"
+    },
+    {
+      "block_id": "P_5_70",
+      "page": 5,
+      "bbox": [
+        509.0,
+        634.0,
+        928.0,
+        925.0
+      ],
+      "source_type": "text",
+      "source_sentence": "To examine the optical changes of the P(TMPMT-co-Th)/PEDOT device during doping and dedoping cycles, spectroelectrochemistry studies were carried out.",
+      "evidence_id": "ev014"
+    },
+    {
+      "block_id": "P_5_70",
+      "page": 5,
+      "bbox": [
+        509.0,
+        634.0,
+        928.0,
+        925.0
+      ],
+      "source_type": "text",
+      "source_sentence": "The spectra of P(TMPMTco-Th)/PEDOT device at voltages between 0.0 and +2.8 V are shown in Fig.",
+      "evidence_id": "ev015"
+    },
+    {
+      "block_id": "P_6_77",
+      "page": 6,
+      "bbox": [
+        68.0,
+        793.0,
+        485.0,
+        925.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Kinetic studies were done in order to determine the response time needed to perform switching between the two colored states and the optical contrast of P(TMPMT-co-Th)/PEDOT device.",
+      "evidence_id": "ev016"
+    },
+    {
+      "block_id": "P_6_80",
+      "page": 6,
+      "bbox": [
+        516.0,
+        809.0,
+        937.0,
+        925.0
+      ],
+      "source_type": "text",
+      "source_sentence": "8, P(TMPMT-co-Th)/PEDOT could be repeatedly switched up to 500 cycles retaining most (85%) of its electroactivity.",
+      "evidence_id": "ev017"
+    },
+    {
+      "block_id": "P_2_34",
+      "page": 2,
+      "bbox": [
+        68.0,
+        762.0,
+        485.0,
+        925.0
+      ],
+      "source_type": "text",
+      "source_sentence": "For the spectroelectrochemical studies, P(TMPMT-co-PTh) was synthesized in the presence of 40 mg TMPMT, $1 . 2 \\times \\mathrm { \\dot { 1 } 0 } ^ { - 3 } \\mathrm { M }$thiophene, 0.1 M TBAFB/ borontrifloride ethylether (BFEE) (8:2, v/v) in AN at 1.5 V, in a UV-cuvette equipped with ITO working and Pt counter electrodes with $\\mathbf { A } \\mathbf { g } /$${ \\bf A } { \\bf g } ^ { + }$reference electrode via constant potential electrolysis.",
+      "evidence_id": "ev018"
+    },
+    {
+      "block_id": "P_2_33",
+      "page": 2,
+      "bbox": [
+        68.0,
+        584.0,
+        485.0,
+        762.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Polymerizations were performed with 40 mg TMPMT, $1 . 2 \\times 1 0 ^ { - 3 } \\mathrm { M }$thiophene in 0.1 M TBAFB/AN/BFEE, in an UV–cell equipped with Pt working and counter electrodes and an $\\mathrm { \\mathbf { A g } / A g ^ { + } }$reference electrode. Constant potential electrolyses were run at 1.5 V for 60 min at room temperature under inert atmosphere. The free standing films were vigorously washed with AN to remove unreacted monomer.",
+      "evidence_id": "ev019"
+    },
+    {
+      "block_id": "P_2_37",
+      "page": 2,
+      "bbox": [
+        518.0,
+        633.0,
+        937.0,
+        925.0
+      ],
+      "source_type": "text",
+      "source_sentence": "0.01 M solution of EDOT in 0.1 M $\\mathrm { T B A B F _ { 4 } / A N }$was used to deposit the PEDOT film onto ITO electrode at $+ 1 . 5 \\mathrm { V ~ v s . ~ A g / A g ^ { + } }$.",
+      "evidence_id": "ev020"
+    },
+    {
+      "block_id": "P_4_55",
+      "page": 4,
+      "bbox": [
+        68.0,
+        524.0,
+        485.0,
+        623.0
+      ],
+      "source_type": "text",
+      "source_sentence": "The solution side of film was significantly diferent than that of pristine polythiophene (Fig. 3(b)) which might be considered as a further proof of copolymerization.",
+      "evidence_id": "ev021"
+    },
+    {
+      "block_id": "P_0_6",
+      "page": 0,
+      "bbox": [
+        69.0,
+        471.0,
+        935.0,
+        694.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Electrochemical copolymerization of TMPMT with thiophene in acetonitrile/boron trifluoride diethyl etherate (AN/BFEE) solvent mixture was achieved using tetrabutylammonium tetrafluoroborate (TBAFB) as the supporting electrolyte.",
+      "evidence_id": "ev022"
+    },
+    {
+      "block_id": "P_2_37",
+      "page": 2,
+      "bbox": [
+        518.0,
+        633.0,
+        937.0,
+        925.0
+      ],
+      "source_type": "text",
+      "source_sentence": "ECDs were built by arranging two electrochromic polymer films (one oxidized, the other neutral) facing each other separated by a gel electrolyte.",
+      "evidence_id": "ev023"
+    },
+    {
+      "block_id": "P_4_57",
+      "page": 4,
+      "bbox": [
+        69.0,
+        668.0,
+        485.0,
+        749.0
+      ],
+      "source_type": "text",
+      "source_sentence": "For $\\mathrm { B F _ { 4 } ^ { - } }$doped copolymer film, the conductivity of the both solution and electrode sides were measured by the standard four-probe technique. The conductivity of copolymer was found as 1.7 · $1 0 ^ { - 2 } \\mathrm { S } / \\mathrm { cm }$",
+      "evidence_id": "ev024"
+    },
+    {
+      "block_id": "P_1_25",
+      "page": 1,
+      "bbox": [
+        60.0,
+        890.0,
+        477.0,
+        925.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Measurements were carried out at room temperature under nitrogen atmosphere.",
+      "evidence_id": "ev025"
+    },
+    {
+      "block_id": "P_5_67",
+      "page": 5,
+      "bbox": [
+        60.0,
+        793.0,
+        477.0,
+        925.0
+      ],
+      "source_type": "text",
+      "source_sentence": "%T is monitored at 427 nm while the potential was switched from 0.0 to +1.0 V.",
+      "evidence_id": "ev026"
+    },
+    {
+      "block_id": "P_6_77",
+      "page": 6,
+      "bbox": [
+        68.0,
+        793.0,
+        485.0,
+        925.0
+      ],
+      "source_type": "text",
+      "source_sentence": "the potential was stepped between 0.0 V and +2.8 V with a residence time of 5 s at each potential.",
+      "evidence_id": "ev027"
+    },
+    {
+      "block_id": "P_6_77",
+      "page": 6,
+      "bbox": [
+        68.0,
+        793.0,
+        485.0,
+        925.0
+      ],
+      "source_type": "text",
+      "source_sentence": "the optical contrast, monitored at 445 nm, was calculated as 2%.",
+      "evidence_id": "ev028"
+    },
+    {
+      "block_id": "P_6_80",
+      "page": 6,
+      "bbox": [
+        516.0,
+        809.0,
+        937.0,
+        925.0
+      ],
+      "source_type": "text",
+      "source_sentence": "The voltage of the device was continuously swept between 0.0 V and 2.8 V with 500 mV/s scan rate and cyclic voltammetry was monitored.",
+      "evidence_id": "ev029"
+    },
+    {
+      "block_id": "P_5_70",
+      "page": 5,
+      "bbox": [
+        509.0,
+        634.0,
+        928.0,
+        925.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Due to $\\pi { - } \\pi ^ { * }$ electronic transition, a maximum absorbance at 445 nm is observed.",
+      "evidence_id": "ev030"
+    },
+    {
+      "block_id": "P_4_59",
+      "page": 4,
+      "bbox": [
+        68.0,
+        811.0,
+        485.0,
+        925.0
+      ],
+      "source_type": "text",
+      "source_sentence": "P(TMPMT-co-Th) has an absorbance at 427 nm $\\left( \\lambda _ { \\mathrm { m a x } } \\right)$ with a band gap (the onset energy for the $\\pi { - } \\pi ^ { * }$ transition) $( E _ { \\mathrm { g } } )$ of 2.20 eV.",
+      "evidence_id": "ev031"
+    },
+    {
+      "block_id": "P_0_6",
+      "page": 0,
+      "bbox": [
+        69.0,
+        471.0,
+        935.0,
+        694.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Kinetic studies were carried out at the maximum contrast wavelength upon measuring the percent transmittance, T% (7.6%) and switching time (2.0 s) to examine the switching ability of the copolymer.",
+      "evidence_id": "ev032"
+    },
+    {
+      "block_id": "P_5_67",
+      "page": 5,
+      "bbox": [
+        60.0,
+        793.0,
+        477.0,
+        925.0
+      ],
+      "source_type": "text",
+      "source_sentence": "The contrast between the reduced and oxidized states was found as 8% (Fig. 5).",
+      "evidence_id": "ev033"
+    },
+    {
+      "block_id": "P_5_67",
+      "page": 5,
+      "bbox": [
+        60.0,
+        793.0,
+        477.0,
+        925.0
+      ],
+      "source_type": "text",
+      "source_sentence": "The switching time between the two states was 2.0 s.",
+      "evidence_id": "ev034"
+    },
+    {
+      "block_id": "P_0_6",
+      "page": 0,
+      "bbox": [
+        69.0,
+        471.0,
+        935.0,
+        694.0
+      ],
+      "source_type": "text",
+      "source_sentence": "The device switches between brown and blue at switching voltages of 0.0 V and 2.8 V with a short switching time of 1.4 s.",
+      "evidence_id": "ev035"
+    },
+    {
+      "block_id": "P_6_77",
+      "page": 6,
+      "bbox": [
+        68.0,
+        793.0,
+        485.0,
+        925.0
+      ],
+      "source_type": "text",
+      "source_sentence": "The switching time was calculated as 1.4 s at 95% of the maximum transmittance",
+      "evidence_id": "ev036"
+    },
+    {
+      "block_id": "P_6_80",
+      "page": 6,
+      "bbox": [
+        516.0,
+        809.0,
+        937.0,
+        925.0
+      ],
+      "source_type": "text",
+      "source_sentence": "As seen in Fig. 8, P(TMPMT-co-Th)/PEDOT could be repeatedly switched up to 500 cycles retaining most (85%) of its electroactivity.",
+      "evidence_id": "ev037"
+    },
+    {
+      "block_id": "P_5_70",
+      "page": 5,
+      "bbox": [
+        509.0,
+        634.0,
+        928.0,
+        925.0
+      ],
+      "source_type": "text",
+      "source_sentence": "evolution of a new peak at around 628 nm due to $\\pi { - } \\pi ^ { * }$ transition was monitored.",
+      "evidence_id": "ev038"
+    },
+    {
+      "block_id": "T_5_64",
+      "page": 5,
+      "bbox": [
+        62.0,
+        451.0,
+        474.0,
+        530.0
+      ],
+      "source_type": "table",
+      "source_sentence": "<td>Ox = 47</td>",
+      "table_locator": {
+        "table_id": "T_5_64",
+        "row_label": "P(TMPMT-co-Th)",
+        "column_label": "L",
+        "cell_value": "Ox = 47",
+        "cell_id": "T_5_64:r0001:c0001",
+        "row_index": 1,
+        "column_index": 1
+      },
+      "evidence_id": "ev039"
+    },
+    {
+      "block_id": "T_5_64",
+      "page": 5,
+      "bbox": [
+        62.0,
+        451.0,
+        474.0,
+        530.0
+      ],
+      "source_type": "table",
+      "source_sentence": "<td>Red = 53</td>",
+      "table_locator": {
+        "table_id": "T_5_64",
+        "row_label": "P(TMPMT-co-Th)",
+        "column_label": "L",
+        "cell_value": "Red = 53",
+        "cell_id": "T_5_64:r0002:c0001",
+        "row_index": 2,
+        "column_index": 1
+      },
+      "evidence_id": "ev040"
+    },
+    {
+      "block_id": "T_5_64",
+      "page": 5,
+      "bbox": [
+        62.0,
+        451.0,
+        474.0,
+        530.0
+      ],
+      "source_type": "table",
+      "source_sentence": "<td>Ox = 53</td>",
+      "table_locator": {
+        "table_id": "T_5_64",
+        "row_label": "P(TMPMT-co-Th)/PEDOT",
+        "column_label": "L",
+        "cell_value": "Ox = 53",
+        "cell_id": "T_5_64:r0003:c0001",
+        "row_index": 3,
+        "column_index": 1
+      },
+      "evidence_id": "ev041"
+    },
+    {
+      "block_id": "T_5_64",
+      "page": 5,
+      "bbox": [
+        62.0,
+        451.0,
+        474.0,
+        530.0
+      ],
+      "source_type": "table",
+      "source_sentence": "<td>Red = 62</td>",
+      "table_locator": {
+        "table_id": "T_5_64",
+        "row_label": "P(TMPMT-co-Th)/PEDOT",
+        "column_label": "L",
+        "cell_value": "Red = 62",
+        "cell_id": "T_5_64:r0004:c0001",
+        "row_index": 4,
+        "column_index": 1
+      },
+      "evidence_id": "ev042"
+    },
+    {
+      "block_id": "T_5_64",
+      "page": 5,
+      "bbox": [
+        62.0,
+        451.0,
+        474.0,
+        530.0
+      ],
+      "source_type": "table",
+      "source_sentence": "<td>Ox = -4</td>",
+      "table_locator": {
+        "table_id": "T_5_64",
+        "row_label": "P(TMPMT-co-Th)",
+        "column_label": "a",
+        "cell_value": "Ox = -4",
+        "cell_id": "T_5_64:r0001:c0002",
+        "row_index": 1,
+        "column_index": 2
+      },
+      "evidence_id": "ev043"
+    },
+    {
+      "block_id": "T_5_64",
+      "page": 5,
+      "bbox": [
+        62.0,
+        451.0,
+        474.0,
+        530.0
+      ],
+      "source_type": "table",
+      "source_sentence": "<td>Red = 1</td>",
+      "table_locator": {
+        "table_id": "T_5_64",
+        "row_label": "P(TMPMT-co-Th)",
+        "column_label": "a",
+        "cell_value": "Red = 1",
+        "cell_id": "T_5_64:r0002:c0002",
+        "row_index": 2,
+        "column_index": 2
+      },
+      "evidence_id": "ev044"
+    },
+    {
+      "block_id": "T_5_64",
+      "page": 5,
+      "bbox": [
+        62.0,
+        451.0,
+        474.0,
+        530.0
+      ],
+      "source_type": "table",
+      "source_sentence": "<td>Ox = -3</td>",
+      "table_locator": {
+        "table_id": "T_5_64",
+        "row_label": "P(TMPMT-co-Th)/PEDOT",
+        "column_label": "a",
+        "cell_value": "Ox = -3",
+        "cell_id": "T_5_64:r0003:c0002",
+        "row_index": 3,
+        "column_index": 2
+      },
+      "evidence_id": "ev045"
+    },
+    {
+      "block_id": "T_5_64",
+      "page": 5,
+      "bbox": [
+        62.0,
+        451.0,
+        474.0,
+        530.0
+      ],
+      "source_type": "table",
+      "source_sentence": "<td>Red = -2</td>",
+      "table_locator": {
+        "table_id": "T_5_64",
+        "row_label": "P(TMPMT-co-Th)/PEDOT",
+        "column_label": "a",
+        "cell_value": "Red = -2",
+        "cell_id": "T_5_64:r0004:c0002",
+        "row_index": 4,
+        "column_index": 2
+      },
+      "evidence_id": "ev046"
+    },
+    {
+      "block_id": "T_5_64",
+      "page": 5,
+      "bbox": [
+        62.0,
+        451.0,
+        474.0,
+        530.0
+      ],
+      "source_type": "table",
+      "source_sentence": "<td>Ox = 8</td>",
+      "table_locator": {
+        "table_id": "T_5_64",
+        "row_label": "P(TMPMT-co-Th)",
+        "column_label": "b",
+        "cell_value": "Ox = 8",
+        "cell_id": "T_5_64:r0001:c0003",
+        "row_index": 1,
+        "column_index": 3
+      },
+      "evidence_id": "ev047"
+    },
+    {
+      "block_id": "T_5_64",
+      "page": 5,
+      "bbox": [
+        62.0,
+        451.0,
+        474.0,
+        530.0
+      ],
+      "source_type": "table",
+      "source_sentence": "<td>Red = 21</td>",
+      "table_locator": {
+        "table_id": "T_5_64",
+        "row_label": "P(TMPMT-co-Th)",
+        "column_label": "b",
+        "cell_value": "Red = 21",
+        "cell_id": "T_5_64:r0002:c0003",
+        "row_index": 2,
+        "column_index": 3
+      },
+      "evidence_id": "ev048"
+    },
+    {
+      "block_id": "T_5_64",
+      "page": 5,
+      "bbox": [
+        62.0,
+        451.0,
+        474.0,
+        530.0
+      ],
+      "source_type": "table",
+      "source_sentence": "<td>Ox = -13</td>",
+      "table_locator": {
+        "table_id": "T_5_64",
+        "row_label": "P(TMPMT-co-Th)/PEDOT",
+        "column_label": "b",
+        "cell_value": "Ox = -13",
+        "cell_id": "T_5_64:r0003:c0003",
+        "row_index": 3,
+        "column_index": 3
+      },
+      "evidence_id": "ev049"
+    },
+    {
+      "block_id": "T_5_64",
+      "page": 5,
+      "bbox": [
+        62.0,
+        451.0,
+        474.0,
+        530.0
+      ],
+      "source_type": "table",
+      "source_sentence": "<td>Red = 4</td>",
+      "table_locator": {
+        "table_id": "T_5_64",
+        "row_label": "P(TMPMT-co-Th)/PEDOT",
+        "column_label": "b",
+        "cell_value": "Red = 4",
+        "cell_id": "T_5_64:r0004:c0003",
+        "row_index": 4,
+        "column_index": 3
+      },
+      "evidence_id": "ev050"
+    },
+    {
+      "block_id": "P_0_6",
+      "page": 0,
+      "bbox": [
+        69.0,
+        471.0,
+        935.0,
+        694.0
+      ],
+      "source_type": "text",
+      "source_sentence": "(3-{[4-(Thien-3-yl-methoxy)phenoxy]methyl}thiophene) (TMPMT) was synthesized via the reaction of 3-bromomethylthiophene with hydroquinone and characterized by nuclear magnetic resonance (NMR) and Fourier transform infrared spectroscopy (FTIR).",
+      "evidence_id": "ev051"
+    },
+    {
+      "block_id": "P_1_25",
+      "page": 1,
+      "bbox": [
+        60.0,
+        890.0,
+        477.0,
+        925.0
+      ],
+      "source_type": "text",
+      "source_sentence": "The IR spectrum was recorded on a Nicolet 510 FTIR spectrometer, where samples were dispersed in KBr.",
+      "evidence_id": "ev052"
+    },
+    {
+      "block_id": "P_0_6",
+      "page": 0,
+      "bbox": [
+        69.0,
+        471.0,
+        935.0,
+        694.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Resulting copolymer was characterized via cyclic voltammetry (CV), Fourier transform infrared spectroscopy (FTIR), scanning electron microscopy (SEM), four probe technique conductivity measurement and UV–Vis spectroscopy.",
+      "evidence_id": "ev053"
+    },
+    {
+      "block_id": "P_1_25",
+      "page": 1,
+      "bbox": [
+        60.0,
+        890.0,
+        477.0,
+        925.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Scanning electron microscopy (SEM) studies were performed by JEOL JSM-6400.",
+      "evidence_id": "ev054"
+    },
+    {
+      "block_id": "P_4_55",
+      "page": 4,
+      "bbox": [
+        68.0,
+        524.0,
+        485.0,
+        623.0
+      ],
+      "source_type": "text",
+      "source_sentence": "SEM micrograph of solution side of P(TMPMTco-Th) film showed homogenous compact structures in granular form (Fig. 3(a)).",
+      "evidence_id": "ev055"
+    },
+    {
+      "block_id": "P_1_25",
+      "page": 1,
+      "bbox": [
+        60.0,
+        890.0,
+        477.0,
+        925.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Spectroelectrochemical and kinetic studies were performed on Solartron 1285 potentiostat/galvanostat and a HP8453A UV–Vis spectrophotometer.",
+      "evidence_id": "ev056"
+    }
+  ],
+  "provenance": [
+    {
+      "stage": "ocr",
+      "engine": "mineru",
+      "batch_id": "a2fa80d8-bb3d-43a9-a298-6438abdeb41a",
+      "model_version": "vlm",
+      "ocr_enabled": null,
+      "language": null,
+      "page_ranges": null,
+      "enable_formula": null,
+      "enable_table": null,
+      "extra_formats": null,
+      "status": "done",
+      "manifest_file": "batch_a2fa80d8-bb3d-43a9-a298-6438abdeb41a_manifest.json",
+      "status_file": "batch_a2fa80d8-bb3d-43a9-a298-6438abdeb41a_status.json"
+    },
+    {
+      "stage": "stage1_material_mention",
+      "provider": "dmx",
+      "model": "gpt-5.6-terra-2026-07-09",
+      "models": [
+        "gpt-5.6-terra-2026-07-09"
+      ],
+      "prompt_id": "polymer.stage1.material_mention",
+      "prompt_version": "1.2.1",
+      "prompt_sha256": "af2a070da70b7754d6ae45eeebe3bf42cf2eb2dcd039e11acdb837a06c461fb9",
+      "input_hash": "dbbdcce6251eeca3f07cd0c268bb57f7f38477ae0821afa4566ede57ae2a169d",
+      "model_config_hash": "e075727883d2926c6e33e8497fe72c20e1e5addc7dfd2a90d973701ccfece7ad",
+      "cache_key": "fe824aef8e3fd6a625cae002252631878afee13b4b368fcc695c4f2fede2d365",
+      "output_schema_version": "material_mention_schema.v2",
+      "implementation_version": "1.2.6",
+      "chunk_count": 3,
+      "usage": {
+        "input_tokens": 10247,
+        "output_tokens": 2021,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "billable_input_tokens": 10247,
+        "total_tokens": 12268
+      },
+      "cost": {
+        "status": "calculated",
+        "currency": "CNY",
+        "input_per_million": "17",
+        "output_per_million": "101",
+        "input_cost": "0.174199",
+        "output_cost": "0.204121",
+        "total_cost": "0.378320"
+      },
+      "status": "success"
+    },
+    {
+      "stage": "stage2_polymer_entity",
+      "provider": "dmx",
+      "model": "gpt-5.6-terra-2026-07-09",
+      "models": [
+        "gpt-5.6-terra-2026-07-09"
+      ],
+      "prompt_id": "polymer.stage2.polymer_entity",
+      "prompt_version": "1.2.0",
+      "prompt_sha256": "8293a9f30517fa564eb1fd5e3af02ea721f9ac48554f50edf089bcb9cec63801",
+      "input_hash": "1d9a1b6d437f7f35cd69e933f7723b66cdc7b1420a7c7d74549f6034bc7d7f4d",
+      "model_config_hash": "c9e96c2514956e7b4b65eae3d327d34f95b7a33876cec6d4aa56f95eb79a9b50",
+      "cache_key": "4a07c8e30ec7c30c26792a0f22d773c028d1b8a4092a02ecf687798b90ebea22",
+      "output_schema_version": "polymer_entity_schema.v2",
+      "implementation_version": "1.3.3",
+      "context_block_count": 52,
+      "context_chars": 24969,
+      "call_count": 1,
+      "usage": {
+        "input_tokens": 11505,
+        "output_tokens": 2028,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "billable_input_tokens": 11505,
+        "total_tokens": 13533
+      },
+      "cost": {
+        "status": "calculated",
+        "currency": "CNY",
+        "input_per_million": "17",
+        "output_per_million": "101",
+        "input_cost": "0.195585",
+        "output_cost": "0.204828",
+        "total_cost": "0.400413"
+      },
+      "status": "success"
+    },
+    {
+      "stage": "stage3_sample_process",
+      "provider": "dmx",
+      "model": "doubao-seed-2.0-pro",
+      "models": [
+        "doubao-seed-2.0-pro"
+      ],
+      "prompt_id": "polymer.stage3.sample_process",
+      "prompt_version": "1.2.2",
+      "prompt_sha256": "ce2e2c59006b08286a1d41f8c6e5b8c9523abd65f8162c90b636eab35c5b263e",
+      "input_hash": "91a3701e0a63076ca4bfc704951bb64a4999e123c04c373cc51d6138fbba8063",
+      "model_config_hash": "7a389959b1eae8cb35e4c5e5702559631666e759a9891cf98687a5b37dd5d1ad",
+      "cache_key": "c04d14a69b2cecf0ce26db0908d13fb0cf22b380e675755753ce430f2910e43a",
+      "output_schema_version": "sample_process_schema.v2",
+      "implementation_version": "1.3.6",
+      "context_block_count": 16,
+      "context_chars": 11396,
+      "call_count": 1,
+      "usage": {
+        "input_tokens": 7463,
+        "output_tokens": 7352,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "billable_input_tokens": 7463,
+        "total_tokens": 14815
+      },
+      "cost": {
+        "status": "calculated",
+        "currency": "CNY",
+        "input_per_million": "4.32",
+        "output_per_million": "29.15",
+        "input_cost": "0.03224016",
+        "output_cost": "0.2143108",
+        "total_cost": "0.24655096"
+      },
+      "status": "success"
+    },
+    {
+      "stage": "stage4_property",
+      "provider": "dmx",
+      "model": "doubao-seed-2.0-pro",
+      "models": [
+        "doubao-seed-2.0-pro"
+      ],
+      "prompt_id": "polymer.stage4.property",
+      "prompt_version": "1.7.2",
+      "prompt_sha256": "ec79fe3bf47539cab4ba239c611d1ab17d75dc0038cda85020caca580f7987a5",
+      "vocabulary_sha256": "3e9d85e4915a729edf0f0a53821f3ee6edf32874e1da6972457417e4f13a1510",
+      "input_hash": "a1c73c0362aef5d8e96c2d3761546c9fc687754d5246af911ff7f905fd9709ae",
+      "model_config_hash": "cc96eaab20bd380ae90f3ba1dfa638bd40f111e3e72ca185255fb71b459d40ea",
+      "cache_key": "a9ce035e1e64e5217d29c04d6bf976ba7ba537de8cf14712005adf9869254562",
+      "output_schema_version": "property_observation_schema.v7",
+      "implementation_version": "1.7.10",
+      "context_block_count": 50,
+      "context_chars": 27649,
+      "call_count": 1,
+      "usage": {
+        "input_tokens": 23095,
+        "output_tokens": 13347,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 10040,
+        "billable_input_tokens": 33135,
+        "total_tokens": 46482
+      },
+      "cost": {
+        "status": "calculated",
+        "currency": "CNY",
+        "input_per_million": "4.32",
+        "output_per_million": "29.15",
+        "input_cost": "0.1431432",
+        "output_cost": "0.38906505",
+        "total_cost": "0.53220825"
+      },
+      "status": "success"
+    },
+    {
+      "stage": "stage5_characterization",
+      "provider": "dmx",
+      "model": "doubao-seed-2.0-pro",
+      "models": [
+        "doubao-seed-2.0-pro"
+      ],
+      "prompt_id": "polymer.stage5.characterization",
+      "prompt_version": "1.6.2",
+      "prompt_sha256": "5f918eb9d0dcbe0a4dc60a70d83c4e9f144f9a87bf68905d0a38ad22c000ee5c",
+      "vocabulary_sha256": "3e9d85e4915a729edf0f0a53821f3ee6edf32874e1da6972457417e4f13a1510",
+      "input_hash": "016f6db8f1cc6c48c2480474f202a743f58dd259d94a7b390a36c652cef9eb48",
+      "model_config_hash": "7e14aff06827af47a7b1a797111258e33d5972d1c072111440c3b2aae020f3ce",
+      "cache_key": "16e9f69249490323e36513b754517245166fa204d9a7c3342f6604927b771895",
+      "output_schema_version": "characterization_schema.v4",
+      "implementation_version": "1.7.1",
+      "context_block_count": 50,
+      "context_chars": 27649,
+      "call_count": 1,
+      "usage": {
+        "input_tokens": 15263,
+        "output_tokens": 7677,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 4920,
+        "billable_input_tokens": 20183,
+        "total_tokens": 27860
+      },
+      "cost": {
+        "status": "calculated",
+        "currency": "CNY",
+        "input_per_million": "4.32",
+        "output_per_million": "29.15",
+        "input_cost": "0.08719056",
+        "output_cost": "0.22378455",
+        "total_cost": "0.31097511"
+      },
+      "status": "success"
+    }
+  ],
+  "warnings": [
+    {
+      "stage": "stage0",
+      "code": "legacy_manifest_missing_options",
+      "message": "旧 manifest 缺少 OCR 选项，已按 null 保留：ocr_enabled, language, page_ranges, enable_formula, enable_table, extra_formats"
+    },
+    {
+      "stage": "stage2_polymer_entity",
+      "code": "preview_nested_mentions_split_retained",
+      "message": "Preview 模式已保留无法确定合并关系的嵌套 mention 拆分；需在正式数据中复核"
+    },
+    {
+      "stage": "stage2_polymer_entity",
+      "code": "unresolved_mentions",
+      "message": "1 个 mention 未解析为实体，已原样保留引用"
+    },
+    {
+      "stage": "stage2_polymer_entity",
+      "code": "offline_entity_names_enriched_from_resolved_mentions",
+      "message": "Preview 结果离线修正：样品代号或缩写已替换为同一实体中有原文证据的具体聚合物名称；原代号保留在 source_names 或 sample_label_raw。"
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "unsupported_state_descriptions_dropped",
+      "message": "已有有效 sample_label_raw；删除无法逐字定位的 state_description"
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "unsupported_intended_uses_dropped",
+      "message": "Sample 已由逐字标签或状态锚定；删除无法在 evidence 中逐字定位的 intended_use"
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "unsupported_sample_labels_dropped",
+      "message": "sample_label_raw 无法在 evidence 中定位；已有逐字 state_description，故删除无依据标签"
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "parameters_not_in_source",
+      "message": "无法定位到 evidence 原文的参数已舍弃"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "preview_point_locator_recovered_from_unique_table_row",
+      "message": "Preview 模式已用唯一完整表格行、唯一列头及一致 value_raw 补全 Series point 的稳定坐标"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "multi_subject_series_normalized",
+      "message": "PropertySeries 的 points 明确属于多个 Sample/PolymerEntity；已清除错误的单一顶层主体，主体关系保留在各 point"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "preview_semantic_validation_bypassed",
+      "message": "Preview 已保留 Schema 合法候选，并跳过原文/evidence 语义对应校验；Strict 模式仍会报错"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "preview_objects_salvaged",
+      "message": "Preview 已逐对象保留可安全物化的数据；坏字段、坏对象或失效引用已局部删除，Strict 模式仍会报错"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unlocatable_additional_evidence_removed",
+      "message": "Preview 模式已移除无法回定位到 Stage 0 block 的附加 Characterization evidence"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_property_removed",
+      "message": "Preview 模式已移除 value_raw 无原文支撑的 Stage 5 性质"
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "orphan_sample",
+      "message": "Sample 未被工艺、性质或表征引用",
+      "object_id": "s005"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "missing_characterization",
+      "message": "Stage 4 property 已报告测定方法，但缺少同一样品的 Characterization 回链",
+      "object_id": "prop001"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "missing_characterization",
+      "message": "Stage 4 property 已报告测定方法，但缺少同一样品的 Characterization 回链",
+      "object_id": "prop002"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "missing_characterization",
+      "message": "Stage 4 property 已报告测定方法，但缺少同一样品的 Characterization 回链",
+      "object_id": "prop003"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "missing_characterization",
+      "message": "Stage 4 property 已报告测定方法，但缺少同一样品的 Characterization 回链",
+      "object_id": "prop004"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "missing_characterization",
+      "message": "Stage 4 property 已报告测定方法，但缺少同一样品的 Characterization 回链",
+      "object_id": "prop005"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "missing_characterization",
+      "message": "Stage 4 property 已报告测定方法，但缺少同一样品的 Characterization 回链",
+      "object_id": "prop006"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "missing_characterization",
+      "message": "Stage 4 property 已报告测定方法，但缺少同一样品的 Characterization 回链",
+      "object_id": "prop007"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "missing_characterization",
+      "message": "Stage 4 property 已报告测定方法，但缺少同一样品的 Characterization 回链",
+      "object_id": "prop008"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "missing_characterization",
+      "message": "Stage 4 property 已报告测定方法，但缺少同一样品的 Characterization 回链",
+      "object_id": "prop009"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "missing_characterization",
+      "message": "Stage 4 property 已报告测定方法，但缺少同一样品的 Characterization 回链",
+      "object_id": "prop010"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "missing_characterization",
+      "message": "Stage 4 property 已报告测定方法，但缺少同一样品的 Characterization 回链",
+      "object_id": "prop011"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "evidence_matched_after_block_recovery",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：词覆盖率仅 97.4%，疑似跨块或被截断，建议人工确认",
+      "object_id": "mc001"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "evidence_matched_after_normalization",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：归一化后子串命中",
+      "object_id": "mc006"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "evidence_matched_after_normalization",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：归一化后子串命中",
+      "object_id": "prop002"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "evidence_matched_after_normalization",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：归一化后子串命中",
+      "object_id": "prop011"
+    }
+  ],
+  "validation_summary": {
+    "status": "passed_with_warnings",
+    "error_count": 0,
+    "warning_count": 31,
+    "validation_mode": "preview",
+    "validation_status": "degraded",
+    "degraded_codes": [
+      "evidence_matched_after_block_recovery",
+      "evidence_matched_after_normalization"
+    ]
+  },
+  "cost_summary": {
+    "currency": "CNY",
+    "status": "partial",
+    "stages": [
+      {
+        "stage": "stage_minus1_reorganize_mineru",
+        "call_count": 0,
+        "cost": {
+          "status": "not_applicable",
+          "currency": "CNY",
+          "input_cost": "0",
+          "output_cost": "0",
+          "total_cost": "0"
+        }
+      },
+      {
+        "stage": "meta_extract",
+        "provider": "volcengine",
+        "model": "doubao-seed-2-0-pro-260215",
+        "cost": {
+          "status": "unavailable",
+          "currency": "CNY"
+        }
+      },
+      {
+        "stage": "stage0_load_document",
+        "call_count": 0,
+        "cost": {
+          "status": "not_applicable",
+          "currency": "CNY",
+          "input_cost": "0",
+          "output_cost": "0",
+          "total_cost": "0"
+        }
+      },
+      {
+        "stage": "stage1_material_mention",
+        "provider": "dmx",
+        "model": "gpt-5.6-terra-2026-07-09",
+        "call_count": 3,
+        "usage": {
+          "input_tokens": 10247,
+          "output_tokens": 2021,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "billable_input_tokens": 10247,
+          "total_tokens": 12268
+        },
+        "cost": {
+          "status": "calculated",
+          "currency": "CNY",
+          "input_per_million": "17",
+          "output_per_million": "101",
+          "input_cost": "0.174199",
+          "output_cost": "0.204121",
+          "total_cost": "0.378320"
+        }
+      },
+      {
+        "stage": "stage2_polymer_entity",
+        "provider": "dmx",
+        "model": "gpt-5.6-terra-2026-07-09",
+        "call_count": 1,
+        "usage": {
+          "input_tokens": 11505,
+          "output_tokens": 2028,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "billable_input_tokens": 11505,
+          "total_tokens": 13533
+        },
+        "cost": {
+          "status": "calculated",
+          "currency": "CNY",
+          "input_per_million": "17",
+          "output_per_million": "101",
+          "input_cost": "0.195585",
+          "output_cost": "0.204828",
+          "total_cost": "0.400413"
+        }
+      },
+      {
+        "stage": "stage3_sample_process",
+        "provider": "dmx",
+        "model": "doubao-seed-2.0-pro",
+        "call_count": 1,
+        "usage": {
+          "input_tokens": 7463,
+          "output_tokens": 7352,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "billable_input_tokens": 7463,
+          "total_tokens": 14815
+        },
+        "cost": {
+          "status": "calculated",
+          "currency": "CNY",
+          "input_per_million": "4.32",
+          "output_per_million": "29.15",
+          "input_cost": "0.03224016",
+          "output_cost": "0.2143108",
+          "total_cost": "0.24655096"
+        }
+      },
+      {
+        "stage": "stage4_property",
+        "provider": "dmx",
+        "model": "doubao-seed-2.0-pro",
+        "call_count": 1,
+        "usage": {
+          "input_tokens": 23095,
+          "output_tokens": 13347,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 10040,
+          "billable_input_tokens": 33135,
+          "total_tokens": 46482
+        },
+        "cost": {
+          "status": "calculated",
+          "currency": "CNY",
+          "input_per_million": "4.32",
+          "output_per_million": "29.15",
+          "input_cost": "0.1431432",
+          "output_cost": "0.38906505",
+          "total_cost": "0.53220825"
+        }
+      },
+      {
+        "stage": "stage5_characterization",
+        "provider": "dmx",
+        "model": "doubao-seed-2.0-pro",
+        "call_count": 1,
+        "usage": {
+          "input_tokens": 15263,
+          "output_tokens": 7677,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 4920,
+          "billable_input_tokens": 20183,
+          "total_tokens": 27860
+        },
+        "cost": {
+          "status": "calculated",
+          "currency": "CNY",
+          "input_per_million": "4.32",
+          "output_per_million": "29.15",
+          "input_cost": "0.08719056",
+          "output_cost": "0.22378455",
+          "total_cost": "0.31097511"
+        }
+      },
+      {
+        "stage": "stage6_validate_merge",
+        "call_count": 0,
+        "cost": {
+          "status": "not_applicable",
+          "currency": "CNY",
+          "input_cost": "0",
+          "output_cost": "0",
+          "total_cost": "0"
+        }
+      },
+      {
+        "stage": "report_html",
+        "call_count": 0,
+        "cost": {
+          "status": "not_applicable",
+          "currency": "CNY",
+          "input_cost": "0",
+          "output_cost": "0",
+          "total_cost": "0"
+        }
+      }
+    ],
+    "total_cost": "1.86846732"
+  },
+  "quality_metrics": {
+    "properties_with_units": {
+      "complete": 11,
+      "total": 24,
+      "ratio": 0.4583333333333333
+    },
+    "standard_process_steps": {
+      "complete": 7,
+      "total": 7,
+      "ratio": 1.0
+    },
+    "stage4_methods_with_characterization": {
+      "complete": 0,
+      "total": 11,
+      "ratio": 0.0
+    },
+    "objects_with_confidence": {
+      "complete": 78,
+      "total": 78,
+      "ratio": 1.0
+    },
+    "series_points_covered": {
+      "complete": 12,
+      "total": 12,
+      "ratio": 1.0
+    }
+  },
+  "rejected_objects": [],
+  "preview_publication_summary": {
+    "input_counts": {
+      "characterization": 3,
+      "material_mention": 21,
+      "measurement_condition": 6,
+      "polymer_entity": 6,
+      "process_step": 7,
+      "property": 12,
+      "property_series": 3,
+      "property_series_point": 12,
+      "sample": 8,
+      "unresolved_property": 0
+    },
+    "published_counts": {
+      "characterization": 3,
+      "material_mention": 21,
+      "measurement_condition": 6,
+      "polymer_entity": 6,
+      "process_step": 7,
+      "property": 12,
+      "property_series": 3,
+      "property_series_point": 12,
+      "sample": 8,
+      "unresolved_property": 0
+    },
+    "rejected_counts": {},
+    "reference_cleanup_count": 0,
+    "conservation_passed": true
+  },
+  "validation_mode": "preview"
+}

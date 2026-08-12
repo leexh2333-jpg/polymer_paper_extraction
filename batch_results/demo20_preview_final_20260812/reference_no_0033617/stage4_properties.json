@@ -1,0 +1,2594 @@
+{
+  "schema_version": "1.0",
+  "document_id": "reference_no_0033617",
+  "measurement_conditions": [
+    {
+      "condition_id": "mc001",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {},
+      "other_condition_evidence": {},
+      "condition_status": "not_reported",
+      "evidence": {
+        "block_id": "P_4_57",
+        "page": 4,
+        "bbox": [
+          69.0,
+          668.0,
+          485.0,
+          749.0
+        ],
+        "source_type": "text",
+        "source_sentence": "For $\\mathrm { B F _ { 4 } ^ { - } }$doped copolymer film, the conductivity of the both solution and electrode sides were measured by the standard four-probe technique. The conductivity of copolymer was found as 1.7 · $1 0 ^ { - 2 } \\mathrm { S } / \\mathrm { cm }$",
+        "table_locator": null
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "condition_id": "mc002",
+      "temperature": {
+        "raw": "room temperature",
+        "value": null,
+        "unit": null,
+        "evidence": [
+          {
+            "block_id": "P_1_25",
+            "page": 1,
+            "bbox": [
+              60.0,
+              890.0,
+              477.0,
+              925.0
+            ],
+            "source_type": "text",
+            "source_sentence": "Measurements were carried out at room temperature under nitrogen atmosphere.",
+            "table_locator": null
+          }
+        ],
+        "evidence_ids": []
+      },
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {},
+      "other_condition_evidence": {},
+      "condition_status": "reported",
+      "evidence": {
+        "block_id": "P_1_25",
+        "page": 1,
+        "bbox": [
+          60.0,
+          890.0,
+          477.0,
+          925.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Measurements were carried out at room temperature under nitrogen atmosphere.",
+        "table_locator": null
+      },
+      "confidence": {
+        "score": 0.8
+      }
+    },
+    {
+      "condition_id": "mc003",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": {
+        "raw": "427 nm",
+        "value": 427.0,
+        "unit": "nm",
+        "evidence": [
+          {
+            "block_id": "P_5_67",
+            "page": 5,
+            "bbox": [
+              60.0,
+              793.0,
+              477.0,
+              925.0
+            ],
+            "source_type": "text",
+            "source_sentence": "%T is monitored at 427 nm while the potential was switched from 0.0 to +1.0 V.",
+            "table_locator": null
+          }
+        ],
+        "evidence_ids": []
+      },
+      "other_conditions": {
+        "applied_potential_range": "0.0 to +1.0 V"
+      },
+      "other_condition_evidence": {
+        "applied_potential_range": [
+          {
+            "block_id": "P_5_67",
+            "page": 5,
+            "bbox": [
+              60.0,
+              793.0,
+              477.0,
+              925.0
+            ],
+            "source_type": "text",
+            "source_sentence": "%T is monitored at 427 nm while the potential was switched from 0.0 to +1.0 V.",
+            "table_locator": null
+          }
+        ]
+      },
+      "condition_status": "reported",
+      "evidence": {
+        "block_id": "P_5_67",
+        "page": 5,
+        "bbox": [
+          60.0,
+          793.0,
+          477.0,
+          925.0
+        ],
+        "source_type": "text",
+        "source_sentence": "%T is monitored at 427 nm while the potential was switched from 0.0 to +1.0 V.",
+        "table_locator": null
+      },
+      "confidence": {
+        "score": 0.8
+      }
+    },
+    {
+      "condition_id": "mc004",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": {
+        "raw": "445 nm",
+        "value": 445.0,
+        "unit": "nm",
+        "evidence": [
+          {
+            "block_id": "P_6_77",
+            "page": 6,
+            "bbox": [
+              68.0,
+              793.0,
+              485.0,
+              925.0
+            ],
+            "source_type": "text",
+            "source_sentence": "the optical contrast, monitored at 445 nm, was calculated as 2%.",
+            "table_locator": null
+          }
+        ],
+        "evidence_ids": []
+      },
+      "other_conditions": {
+        "applied_potential_range": "0.0 V and +2.8 V",
+        "residence_time": "5 s"
+      },
+      "other_condition_evidence": {
+        "applied_potential_range": [
+          {
+            "block_id": "P_6_77",
+            "page": 6,
+            "bbox": [
+              68.0,
+              793.0,
+              485.0,
+              925.0
+            ],
+            "source_type": "text",
+            "source_sentence": "the potential was stepped between 0.0 V and +2.8 V with a residence time of 5 s at each potential.",
+            "table_locator": null
+          }
+        ],
+        "residence_time": [
+          {
+            "block_id": "P_6_77",
+            "page": 6,
+            "bbox": [
+              68.0,
+              793.0,
+              485.0,
+              925.0
+            ],
+            "source_type": "text",
+            "source_sentence": "the potential was stepped between 0.0 V and +2.8 V with a residence time of 5 s at each potential.",
+            "table_locator": null
+          }
+        ]
+      },
+      "condition_status": "reported",
+      "evidence": {
+        "block_id": "P_6_77",
+        "page": 6,
+        "bbox": [
+          68.0,
+          793.0,
+          485.0,
+          925.0
+        ],
+        "source_type": "text",
+        "source_sentence": "the potential was stepped between 0.0 V and +2.8 V with a residence time of 5 s at each potential.",
+        "table_locator": null
+      },
+      "confidence": {
+        "score": 0.8
+      }
+    },
+    {
+      "condition_id": "mc005",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {
+        "scan_rate": "500 mV/s",
+        "potential_range": "0.0 V and 2.8 V"
+      },
+      "other_condition_evidence": {
+        "scan_rate": [
+          {
+            "block_id": "P_6_80",
+            "page": 6,
+            "bbox": [
+              516.0,
+              809.0,
+              937.0,
+              925.0
+            ],
+            "source_type": "text",
+            "source_sentence": "The voltage of the device was continuously swept between 0.0 V and 2.8 V with 500 mV/s scan rate and cyclic voltammetry was monitored.",
+            "table_locator": null
+          }
+        ],
+        "potential_range": [
+          {
+            "block_id": "P_6_80",
+            "page": 6,
+            "bbox": [
+              516.0,
+              809.0,
+              937.0,
+              925.0
+            ],
+            "source_type": "text",
+            "source_sentence": "The voltage of the device was continuously swept between 0.0 V and 2.8 V with 500 mV/s scan rate and cyclic voltammetry was monitored.",
+            "table_locator": null
+          }
+        ]
+      },
+      "condition_status": "reported",
+      "evidence": {
+        "block_id": "P_6_80",
+        "page": 6,
+        "bbox": [
+          516.0,
+          809.0,
+          937.0,
+          925.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The voltage of the device was continuously swept between 0.0 V and 2.8 V with 500 mV/s scan rate and cyclic voltammetry was monitored.",
+        "table_locator": null
+      },
+      "confidence": {
+        "score": 0.8
+      }
+    },
+    {
+      "condition_id": "mc006",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {},
+      "other_condition_evidence": {},
+      "condition_status": "not_reported",
+      "evidence": {
+        "block_id": "P_5_70",
+        "page": 5,
+        "bbox": [
+          509.0,
+          634.0,
+          928.0,
+          925.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Due to $\\pi { - } \\pi ^ { * }$ electronic transition, a maximum absorbance at 445 nm is observed.",
+        "table_locator": null
+      },
+      "confidence": {
+        "score": 0.8
+      }
+    }
+  ],
+  "properties": [
+    {
+      "property_id": "prop001",
+      "sample_id": "s006",
+      "property_name_raw": "conductivity",
+      "property_name_normalized": "electric_conductivity",
+      "property_code": "P4130",
+      "property_category": "electrical_property",
+      "molecular_weight_type": null,
+      "determination_method_raw": "four-probe technique",
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "1.7 · 10^-2",
+      "value_min": 0.017,
+      "value_max": 0.017,
+      "unit_raw": "S/cm",
+      "unit_normalized": "S/cm",
+      "measurement_condition_id": "mc001",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_4_57",
+          "page": 4,
+          "bbox": [
+            69.0,
+            668.0,
+            485.0,
+            749.0
+          ],
+          "source_type": "text",
+          "source_sentence": "For $\\mathrm { B F _ { 4 } ^ { - } }$doped copolymer film, the conductivity of the both solution and electrode sides were measured by the standard four-probe technique. The conductivity of copolymer was found as 1.7 · $1 0 ^ { - 2 } \\mathrm { S } / \\mathrm { cm }$",
+          "table_locator": null
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop002",
+      "sample_id": "s006",
+      "property_name_raw": "band gap",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": "UV–Vis spectroscopy",
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "2.20",
+      "value_min": 2.2,
+      "value_max": 2.2,
+      "unit_raw": "eV",
+      "unit_normalized": "eV",
+      "measurement_condition_id": "mc002",
+      "measurement_context": {
+        "temperature": {
+          "raw": "room temperature",
+          "value": null,
+          "unit": null,
+          "evidence": [
+            {
+              "block_id": "P_1_25",
+              "page": 1,
+              "bbox": [
+                60.0,
+                890.0,
+                477.0,
+                925.0
+              ],
+              "source_type": "text",
+              "source_sentence": "Measurements were carried out at room temperature under nitrogen atmosphere.",
+              "table_locator": null
+            }
+          ],
+          "evidence_ids": []
+        },
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_0_6",
+          "page": 0,
+          "bbox": [
+            69.0,
+            471.0,
+            935.0,
+            694.0
+          ],
+          "source_type": "text",
+          "source_sentence": "Spectroelectrochemical analysis of the copolymer [P(TTMT-co-Th)] revealed that p–p<sup>\\*</sup> electronic transition occurs at 427 nm with a band gap value of 2.20 eV.",
+          "table_locator": null
+        },
+        {
+          "block_id": "P_4_59",
+          "page": 4,
+          "bbox": [
+            68.0,
+            811.0,
+            485.0,
+            925.0
+          ],
+          "source_type": "text",
+          "source_sentence": "P(TMPMT-co-Th) has an absorbance at 427 nm $\\left( \\lambda _ { \\mathrm { m a x } } \\right)$ with a band gap (the onset energy for the $\\pi { - } \\pi ^ { * }$ transition) $( E _ { \\mathrm { g } } )$ of 2.20 eV.",
+          "table_locator": null
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop003",
+      "sample_id": "s006",
+      "property_name_raw": "λ_max",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": "UV–Vis spectroscopy",
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "427",
+      "value_min": 427.0,
+      "value_max": 427.0,
+      "unit_raw": "nm",
+      "unit_normalized": "nm",
+      "measurement_condition_id": "mc002",
+      "measurement_context": {
+        "temperature": {
+          "raw": "room temperature",
+          "value": null,
+          "unit": null,
+          "evidence": [
+            {
+              "block_id": "P_1_25",
+              "page": 1,
+              "bbox": [
+                60.0,
+                890.0,
+                477.0,
+                925.0
+              ],
+              "source_type": "text",
+              "source_sentence": "Measurements were carried out at room temperature under nitrogen atmosphere.",
+              "table_locator": null
+            }
+          ],
+          "evidence_ids": []
+        },
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_0_6",
+          "page": 0,
+          "bbox": [
+            69.0,
+            471.0,
+            935.0,
+            694.0
+          ],
+          "source_type": "text",
+          "source_sentence": "Spectroelectrochemical analysis of the copolymer [P(TTMT-co-Th)] revealed that p–p<sup>\\*</sup> electronic transition occurs at 427 nm with a band gap value of 2.20 eV.",
+          "table_locator": null
+        },
+        {
+          "block_id": "P_4_59",
+          "page": 4,
+          "bbox": [
+            68.0,
+            811.0,
+            485.0,
+            925.0
+          ],
+          "source_type": "text",
+          "source_sentence": "P(TMPMT-co-Th) has an absorbance at 427 nm $\\left( \\lambda _ { \\mathrm { m a x } } \\right)$ with a band gap (the onset energy for the $\\pi { - } \\pi ^ { * }$ transition) $( E _ { \\mathrm { g } } )$ of 2.20 eV.",
+          "table_locator": null
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop004",
+      "sample_id": "s006",
+      "property_name_raw": "% optical contrast",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": "squarewave potential step method coupled with optical spectroscopy",
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "7.6",
+      "value_min": 7.6,
+      "value_max": 7.6,
+      "unit_raw": "%",
+      "unit_normalized": "%",
+      "measurement_condition_id": "mc003",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": {
+          "raw": "427 nm",
+          "value": 427.0,
+          "unit": "nm",
+          "evidence": [
+            {
+              "block_id": "P_5_67",
+              "page": 5,
+              "bbox": [
+                60.0,
+                793.0,
+                477.0,
+                925.0
+              ],
+              "source_type": "text",
+              "source_sentence": "%T is monitored at 427 nm while the potential was switched from 0.0 to +1.0 V.",
+              "table_locator": null
+            }
+          ],
+          "evidence_ids": []
+        },
+        "other_conditions": {
+          "applied_potential_range": "0.0 to +1.0 V"
+        },
+        "other_condition_evidence": {
+          "applied_potential_range": [
+            {
+              "block_id": "P_5_67",
+              "page": 5,
+              "bbox": [
+                60.0,
+                793.0,
+                477.0,
+                925.0
+              ],
+              "source_type": "text",
+              "source_sentence": "%T is monitored at 427 nm while the potential was switched from 0.0 to +1.0 V.",
+              "table_locator": null
+            }
+          ]
+        },
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_0_6",
+          "page": 0,
+          "bbox": [
+            69.0,
+            471.0,
+            935.0,
+            694.0
+          ],
+          "source_type": "text",
+          "source_sentence": "Kinetic studies were carried out at the maximum contrast wavelength upon measuring the percent transmittance, T% (7.6%) and switching time (2.0 s) to examine the switching ability of the copolymer.",
+          "table_locator": null
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop005",
+      "sample_id": "s006",
+      "property_name_raw": "% optical contrast",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": "squarewave potential step method coupled with optical spectroscopy",
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "8",
+      "value_min": 8.0,
+      "value_max": 8.0,
+      "unit_raw": "%",
+      "unit_normalized": "%",
+      "measurement_condition_id": "mc003",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": {
+          "raw": "427 nm",
+          "value": 427.0,
+          "unit": "nm",
+          "evidence": [
+            {
+              "block_id": "P_5_67",
+              "page": 5,
+              "bbox": [
+                60.0,
+                793.0,
+                477.0,
+                925.0
+              ],
+              "source_type": "text",
+              "source_sentence": "%T is monitored at 427 nm while the potential was switched from 0.0 to +1.0 V.",
+              "table_locator": null
+            }
+          ],
+          "evidence_ids": []
+        },
+        "other_conditions": {
+          "applied_potential_range": "0.0 to +1.0 V"
+        },
+        "other_condition_evidence": {
+          "applied_potential_range": [
+            {
+              "block_id": "P_5_67",
+              "page": 5,
+              "bbox": [
+                60.0,
+                793.0,
+                477.0,
+                925.0
+              ],
+              "source_type": "text",
+              "source_sentence": "%T is monitored at 427 nm while the potential was switched from 0.0 to +1.0 V.",
+              "table_locator": null
+            }
+          ]
+        },
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_5_67",
+          "page": 5,
+          "bbox": [
+            60.0,
+            793.0,
+            477.0,
+            925.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The contrast between the reduced and oxidized states was found as 8% (Fig. 5).",
+          "table_locator": null
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop006",
+      "sample_id": "s006",
+      "property_name_raw": "switching time",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": "squarewave potential step method coupled with optical spectroscopy",
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "2.0",
+      "value_min": 2.0,
+      "value_max": 2.0,
+      "unit_raw": "s",
+      "unit_normalized": "s",
+      "measurement_condition_id": "mc003",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": {
+          "raw": "427 nm",
+          "value": 427.0,
+          "unit": "nm",
+          "evidence": [
+            {
+              "block_id": "P_5_67",
+              "page": 5,
+              "bbox": [
+                60.0,
+                793.0,
+                477.0,
+                925.0
+              ],
+              "source_type": "text",
+              "source_sentence": "%T is monitored at 427 nm while the potential was switched from 0.0 to +1.0 V.",
+              "table_locator": null
+            }
+          ],
+          "evidence_ids": []
+        },
+        "other_conditions": {
+          "applied_potential_range": "0.0 to +1.0 V"
+        },
+        "other_condition_evidence": {
+          "applied_potential_range": [
+            {
+              "block_id": "P_5_67",
+              "page": 5,
+              "bbox": [
+                60.0,
+                793.0,
+                477.0,
+                925.0
+              ],
+              "source_type": "text",
+              "source_sentence": "%T is monitored at 427 nm while the potential was switched from 0.0 to +1.0 V.",
+              "table_locator": null
+            }
+          ]
+        },
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_0_6",
+          "page": 0,
+          "bbox": [
+            69.0,
+            471.0,
+            935.0,
+            694.0
+          ],
+          "source_type": "text",
+          "source_sentence": "Kinetic studies were carried out at the maximum contrast wavelength upon measuring the percent transmittance, T% (7.6%) and switching time (2.0 s) to examine the switching ability of the copolymer.",
+          "table_locator": null
+        },
+        {
+          "block_id": "P_5_67",
+          "page": 5,
+          "bbox": [
+            60.0,
+            793.0,
+            477.0,
+            925.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The switching time between the two states was 2.0 s.",
+          "table_locator": null
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop007",
+      "sample_id": "s008",
+      "property_name_raw": "% optical contrast",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": "squarewave potential step method coupled with optical spectroscopy",
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "2",
+      "value_min": 2.0,
+      "value_max": 2.0,
+      "unit_raw": "%",
+      "unit_normalized": "%",
+      "measurement_condition_id": "mc004",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": {
+          "raw": "445 nm",
+          "value": 445.0,
+          "unit": "nm",
+          "evidence": [
+            {
+              "block_id": "P_6_77",
+              "page": 6,
+              "bbox": [
+                68.0,
+                793.0,
+                485.0,
+                925.0
+              ],
+              "source_type": "text",
+              "source_sentence": "the optical contrast, monitored at 445 nm, was calculated as 2%.",
+              "table_locator": null
+            }
+          ],
+          "evidence_ids": []
+        },
+        "other_conditions": {
+          "applied_potential_range": "0.0 V and +2.8 V",
+          "residence_time": "5 s"
+        },
+        "other_condition_evidence": {
+          "applied_potential_range": [
+            {
+              "block_id": "P_6_77",
+              "page": 6,
+              "bbox": [
+                68.0,
+                793.0,
+                485.0,
+                925.0
+              ],
+              "source_type": "text",
+              "source_sentence": "the potential was stepped between 0.0 V and +2.8 V with a residence time of 5 s at each potential.",
+              "table_locator": null
+            }
+          ],
+          "residence_time": [
+            {
+              "block_id": "P_6_77",
+              "page": 6,
+              "bbox": [
+                68.0,
+                793.0,
+                485.0,
+                925.0
+              ],
+              "source_type": "text",
+              "source_sentence": "the potential was stepped between 0.0 V and +2.8 V with a residence time of 5 s at each potential.",
+              "table_locator": null
+            }
+          ]
+        },
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_6_77",
+          "page": 6,
+          "bbox": [
+            68.0,
+            793.0,
+            485.0,
+            925.0
+          ],
+          "source_type": "text",
+          "source_sentence": "the optical contrast, monitored at 445 nm, was calculated as 2%.",
+          "table_locator": null
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop008",
+      "sample_id": "s008",
+      "property_name_raw": "switching time",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": "squarewave potential step method coupled with optical spectroscopy",
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "1.4",
+      "value_min": 1.4,
+      "value_max": 1.4,
+      "unit_raw": "s",
+      "unit_normalized": "s",
+      "measurement_condition_id": "mc004",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": {
+          "raw": "445 nm",
+          "value": 445.0,
+          "unit": "nm",
+          "evidence": [
+            {
+              "block_id": "P_6_77",
+              "page": 6,
+              "bbox": [
+                68.0,
+                793.0,
+                485.0,
+                925.0
+              ],
+              "source_type": "text",
+              "source_sentence": "the optical contrast, monitored at 445 nm, was calculated as 2%.",
+              "table_locator": null
+            }
+          ],
+          "evidence_ids": []
+        },
+        "other_conditions": {
+          "applied_potential_range": "0.0 V and +2.8 V",
+          "residence_time": "5 s"
+        },
+        "other_condition_evidence": {
+          "applied_potential_range": [
+            {
+              "block_id": "P_6_77",
+              "page": 6,
+              "bbox": [
+                68.0,
+                793.0,
+                485.0,
+                925.0
+              ],
+              "source_type": "text",
+              "source_sentence": "the potential was stepped between 0.0 V and +2.8 V with a residence time of 5 s at each potential.",
+              "table_locator": null
+            }
+          ],
+          "residence_time": [
+            {
+              "block_id": "P_6_77",
+              "page": 6,
+              "bbox": [
+                68.0,
+                793.0,
+                485.0,
+                925.0
+              ],
+              "source_type": "text",
+              "source_sentence": "the potential was stepped between 0.0 V and +2.8 V with a residence time of 5 s at each potential.",
+              "table_locator": null
+            }
+          ]
+        },
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_0_6",
+          "page": 0,
+          "bbox": [
+            69.0,
+            471.0,
+            935.0,
+            694.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The device switches between brown and blue at switching voltages of 0.0 V and 2.8 V with a short switching time of 1.4 s.",
+          "table_locator": null
+        },
+        {
+          "block_id": "P_6_77",
+          "page": 6,
+          "bbox": [
+            68.0,
+            793.0,
+            485.0,
+            925.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The switching time was calculated as 1.4 s at 95% of the maximum transmittance",
+          "table_locator": null
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop009",
+      "sample_id": "s008",
+      "property_name_raw": "electroactivity retention after 500 cycles",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": "cyclic voltammetry",
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "85",
+      "value_min": 85.0,
+      "value_max": 85.0,
+      "unit_raw": "%",
+      "unit_normalized": "%",
+      "measurement_condition_id": "mc005",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {
+          "scan_rate": "500 mV/s",
+          "potential_range": "0.0 V and 2.8 V"
+        },
+        "other_condition_evidence": {
+          "scan_rate": [
+            {
+              "block_id": "P_6_80",
+              "page": 6,
+              "bbox": [
+                516.0,
+                809.0,
+                937.0,
+                925.0
+              ],
+              "source_type": "text",
+              "source_sentence": "The voltage of the device was continuously swept between 0.0 V and 2.8 V with 500 mV/s scan rate and cyclic voltammetry was monitored.",
+              "table_locator": null
+            }
+          ],
+          "potential_range": [
+            {
+              "block_id": "P_6_80",
+              "page": 6,
+              "bbox": [
+                516.0,
+                809.0,
+                937.0,
+                925.0
+              ],
+              "source_type": "text",
+              "source_sentence": "The voltage of the device was continuously swept between 0.0 V and 2.8 V with 500 mV/s scan rate and cyclic voltammetry was monitored.",
+              "table_locator": null
+            }
+          ]
+        },
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_6_80",
+          "page": 6,
+          "bbox": [
+            516.0,
+            809.0,
+            937.0,
+            925.0
+          ],
+          "source_type": "text",
+          "source_sentence": "As seen in Fig. 8, P(TMPMT-co-Th)/PEDOT could be repeatedly switched up to 500 cycles retaining most (85%) of its electroactivity.",
+          "table_locator": null
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop010",
+      "sample_id": "s008",
+      "property_name_raw": "λ_max",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": "UV–Vis spectroscopy",
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "445",
+      "value_min": 445.0,
+      "value_max": 445.0,
+      "unit_raw": "nm",
+      "unit_normalized": "nm",
+      "measurement_condition_id": "mc006",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_5_70",
+          "page": 5,
+          "bbox": [
+            509.0,
+            634.0,
+            928.0,
+            925.0
+          ],
+          "source_type": "text",
+          "source_sentence": "Due to $\\pi { - } \\pi ^ { * }$ electronic transition, a maximum absorbance at 445 nm is observed.",
+          "table_locator": null
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop011",
+      "sample_id": "s008",
+      "property_name_raw": "absorbance peak wavelength",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": "UV–Vis spectroscopy",
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "628",
+      "value_min": 628.0,
+      "value_max": 628.0,
+      "unit_raw": "nm",
+      "unit_normalized": "nm",
+      "measurement_condition_id": "mc006",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_5_70",
+          "page": 5,
+          "bbox": [
+            509.0,
+            634.0,
+            928.0,
+            925.0
+          ],
+          "source_type": "text",
+          "source_sentence": "evolution of a new peak at around 628 nm due to $\\pi { - } \\pi ^ { * }$ transition was monitored.",
+          "table_locator": null
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    }
+  ],
+  "unresolved_properties": [],
+  "property_series": [
+    {
+      "series_id": "series001",
+      "sample_id": null,
+      "entity_id": null,
+      "sample_resolution_status": "unresolved",
+      "property_name_raw": "L",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "unit_raw": null,
+      "unit_normalized": null,
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "points": [
+        {
+          "point_id": "pt001",
+          "observation_role": "series_point",
+          "sample_id": "s006",
+          "entity_id": "pe002",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "L",
+              "value_raw": "Ox",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_5_64",
+                "page": 5,
+                "bbox": [
+                  62.0,
+                  451.0,
+                  474.0,
+                  530.0
+                ],
+                "source_type": "table",
+                "source_sentence": "<td>Ox = 47</td>",
+                "table_locator": {
+                  "table_id": "T_5_64",
+                  "row_label": "P(TMPMT-co-Th)",
+                  "column_label": "L",
+                  "cell_value": "Ox = 47",
+                  "cell_id": "T_5_64:r0001:c0001",
+                  "row_index": 1,
+                  "column_index": 1
+                }
+              }
+            }
+          ],
+          "value_raw": "47",
+          "value_min": 47.0,
+          "value_max": 47.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_5_64",
+              "page": 5,
+              "bbox": [
+                62.0,
+                451.0,
+                474.0,
+                530.0
+              ],
+              "source_type": "table",
+              "source_sentence": "<td>Ox = 47</td>",
+              "table_locator": {
+                "table_id": "T_5_64",
+                "row_label": "P(TMPMT-co-Th)",
+                "column_label": "L",
+                "cell_value": "Ox = 47",
+                "cell_id": "T_5_64:r0001:c0001",
+                "row_index": 1,
+                "column_index": 1
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt002",
+          "observation_role": "series_point",
+          "sample_id": "s006",
+          "entity_id": "pe002",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "L",
+              "value_raw": "Red",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_5_64",
+                "page": 5,
+                "bbox": [
+                  62.0,
+                  451.0,
+                  474.0,
+                  530.0
+                ],
+                "source_type": "table",
+                "source_sentence": "<td>Red = 53</td>",
+                "table_locator": {
+                  "table_id": "T_5_64",
+                  "row_label": "P(TMPMT-co-Th)",
+                  "column_label": "L",
+                  "cell_value": "Red = 53",
+                  "cell_id": "T_5_64:r0002:c0001",
+                  "row_index": 2,
+                  "column_index": 1
+                }
+              }
+            }
+          ],
+          "value_raw": "53",
+          "value_min": 53.0,
+          "value_max": 53.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_5_64",
+              "page": 5,
+              "bbox": [
+                62.0,
+                451.0,
+                474.0,
+                530.0
+              ],
+              "source_type": "table",
+              "source_sentence": "<td>Red = 53</td>",
+              "table_locator": {
+                "table_id": "T_5_64",
+                "row_label": "P(TMPMT-co-Th)",
+                "column_label": "L",
+                "cell_value": "Red = 53",
+                "cell_id": "T_5_64:r0002:c0001",
+                "row_index": 2,
+                "column_index": 1
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt003",
+          "observation_role": "series_point",
+          "sample_id": "s008",
+          "entity_id": "pe006",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "L",
+              "value_raw": "Ox",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_5_64",
+                "page": 5,
+                "bbox": [
+                  62.0,
+                  451.0,
+                  474.0,
+                  530.0
+                ],
+                "source_type": "table",
+                "source_sentence": "<td>Ox = 53</td>",
+                "table_locator": {
+                  "table_id": "T_5_64",
+                  "row_label": "P(TMPMT-co-Th)/PEDOT",
+                  "column_label": "L",
+                  "cell_value": "Ox = 53",
+                  "cell_id": "T_5_64:r0003:c0001",
+                  "row_index": 3,
+                  "column_index": 1
+                }
+              }
+            }
+          ],
+          "value_raw": "53",
+          "value_min": 53.0,
+          "value_max": 53.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_5_64",
+              "page": 5,
+              "bbox": [
+                62.0,
+                451.0,
+                474.0,
+                530.0
+              ],
+              "source_type": "table",
+              "source_sentence": "<td>Ox = 53</td>",
+              "table_locator": {
+                "table_id": "T_5_64",
+                "row_label": "P(TMPMT-co-Th)/PEDOT",
+                "column_label": "L",
+                "cell_value": "Ox = 53",
+                "cell_id": "T_5_64:r0003:c0001",
+                "row_index": 3,
+                "column_index": 1
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt004",
+          "observation_role": "series_point",
+          "sample_id": "s008",
+          "entity_id": "pe006",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "L",
+              "value_raw": "Red",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_5_64",
+                "page": 5,
+                "bbox": [
+                  62.0,
+                  451.0,
+                  474.0,
+                  530.0
+                ],
+                "source_type": "table",
+                "source_sentence": "<td>Red = 62</td>",
+                "table_locator": {
+                  "table_id": "T_5_64",
+                  "row_label": "P(TMPMT-co-Th)/PEDOT",
+                  "column_label": "L",
+                  "cell_value": "Red = 62",
+                  "cell_id": "T_5_64:r0004:c0001",
+                  "row_index": 4,
+                  "column_index": 1
+                }
+              }
+            }
+          ],
+          "value_raw": "62",
+          "value_min": 62.0,
+          "value_max": 62.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_5_64",
+              "page": 5,
+              "bbox": [
+                62.0,
+                451.0,
+                474.0,
+                530.0
+              ],
+              "source_type": "table",
+              "source_sentence": "<td>Red = 62</td>",
+              "table_locator": {
+                "table_id": "T_5_64",
+                "row_label": "P(TMPMT-co-Th)/PEDOT",
+                "column_label": "L",
+                "cell_value": "Red = 62",
+                "cell_id": "T_5_64:r0004:c0001",
+                "row_index": 4,
+                "column_index": 1
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        }
+      ],
+      "coverage": {
+        "expected": 4,
+        "covered": 4,
+        "missing": 0,
+        "not_applicable": 0,
+        "ratio": 1.0
+      },
+      "evidence": [
+        {
+          "block_id": "T_5_64",
+          "page": 5,
+          "bbox": [
+            62.0,
+            451.0,
+            474.0,
+            530.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<td>Ox = 47</td>",
+          "table_locator": {
+            "table_id": "T_5_64",
+            "row_label": "P(TMPMT-co-Th)",
+            "column_label": "L",
+            "cell_value": "Ox = 47",
+            "cell_id": "T_5_64:r0001:c0001",
+            "row_index": 1,
+            "column_index": 1
+          }
+        },
+        {
+          "block_id": "T_5_64",
+          "page": 5,
+          "bbox": [
+            62.0,
+            451.0,
+            474.0,
+            530.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<td>Red = 53</td>",
+          "table_locator": {
+            "table_id": "T_5_64",
+            "row_label": "P(TMPMT-co-Th)",
+            "column_label": "L",
+            "cell_value": "Red = 53",
+            "cell_id": "T_5_64:r0002:c0001",
+            "row_index": 2,
+            "column_index": 1
+          }
+        },
+        {
+          "block_id": "T_5_64",
+          "page": 5,
+          "bbox": [
+            62.0,
+            451.0,
+            474.0,
+            530.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<td>Ox = 53</td>",
+          "table_locator": {
+            "table_id": "T_5_64",
+            "row_label": "P(TMPMT-co-Th)/PEDOT",
+            "column_label": "L",
+            "cell_value": "Ox = 53",
+            "cell_id": "T_5_64:r0003:c0001",
+            "row_index": 3,
+            "column_index": 1
+          }
+        },
+        {
+          "block_id": "T_5_64",
+          "page": 5,
+          "bbox": [
+            62.0,
+            451.0,
+            474.0,
+            530.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<td>Red = 62</td>",
+          "table_locator": {
+            "table_id": "T_5_64",
+            "row_label": "P(TMPMT-co-Th)/PEDOT",
+            "column_label": "L",
+            "cell_value": "Red = 62",
+            "cell_id": "T_5_64:r0004:c0001",
+            "row_index": 4,
+            "column_index": 1
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "series_id": "series002",
+      "sample_id": null,
+      "entity_id": null,
+      "sample_resolution_status": "unresolved",
+      "property_name_raw": "a",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "unit_raw": null,
+      "unit_normalized": null,
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "points": [
+        {
+          "point_id": "pt005",
+          "observation_role": "series_point",
+          "sample_id": "s006",
+          "entity_id": "pe002",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "a",
+              "value_raw": "Ox",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_5_64",
+                "page": 5,
+                "bbox": [
+                  62.0,
+                  451.0,
+                  474.0,
+                  530.0
+                ],
+                "source_type": "table",
+                "source_sentence": "<td>Ox = -4</td>",
+                "table_locator": {
+                  "table_id": "T_5_64",
+                  "row_label": "P(TMPMT-co-Th)",
+                  "column_label": "a",
+                  "cell_value": "Ox = -4",
+                  "cell_id": "T_5_64:r0001:c0002",
+                  "row_index": 1,
+                  "column_index": 2
+                }
+              }
+            }
+          ],
+          "value_raw": "-4",
+          "value_min": -4.0,
+          "value_max": -4.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_5_64",
+              "page": 5,
+              "bbox": [
+                62.0,
+                451.0,
+                474.0,
+                530.0
+              ],
+              "source_type": "table",
+              "source_sentence": "<td>Ox = -4</td>",
+              "table_locator": {
+                "table_id": "T_5_64",
+                "row_label": "P(TMPMT-co-Th)",
+                "column_label": "a",
+                "cell_value": "Ox = -4",
+                "cell_id": "T_5_64:r0001:c0002",
+                "row_index": 1,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt006",
+          "observation_role": "series_point",
+          "sample_id": "s006",
+          "entity_id": "pe002",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "a",
+              "value_raw": "Red",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_5_64",
+                "page": 5,
+                "bbox": [
+                  62.0,
+                  451.0,
+                  474.0,
+                  530.0
+                ],
+                "source_type": "table",
+                "source_sentence": "<td>Red = 1</td>",
+                "table_locator": {
+                  "table_id": "T_5_64",
+                  "row_label": "P(TMPMT-co-Th)",
+                  "column_label": "a",
+                  "cell_value": "Red = 1",
+                  "cell_id": "T_5_64:r0002:c0002",
+                  "row_index": 2,
+                  "column_index": 2
+                }
+              }
+            }
+          ],
+          "value_raw": "1",
+          "value_min": 1.0,
+          "value_max": 1.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_5_64",
+              "page": 5,
+              "bbox": [
+                62.0,
+                451.0,
+                474.0,
+                530.0
+              ],
+              "source_type": "table",
+              "source_sentence": "<td>Red = 1</td>",
+              "table_locator": {
+                "table_id": "T_5_64",
+                "row_label": "P(TMPMT-co-Th)",
+                "column_label": "a",
+                "cell_value": "Red = 1",
+                "cell_id": "T_5_64:r0002:c0002",
+                "row_index": 2,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt007",
+          "observation_role": "series_point",
+          "sample_id": "s008",
+          "entity_id": "pe006",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "a",
+              "value_raw": "Ox",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_5_64",
+                "page": 5,
+                "bbox": [
+                  62.0,
+                  451.0,
+                  474.0,
+                  530.0
+                ],
+                "source_type": "table",
+                "source_sentence": "<td>Ox = -3</td>",
+                "table_locator": {
+                  "table_id": "T_5_64",
+                  "row_label": "P(TMPMT-co-Th)/PEDOT",
+                  "column_label": "a",
+                  "cell_value": "Ox = -3",
+                  "cell_id": "T_5_64:r0003:c0002",
+                  "row_index": 3,
+                  "column_index": 2
+                }
+              }
+            }
+          ],
+          "value_raw": "-3",
+          "value_min": -3.0,
+          "value_max": -3.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_5_64",
+              "page": 5,
+              "bbox": [
+                62.0,
+                451.0,
+                474.0,
+                530.0
+              ],
+              "source_type": "table",
+              "source_sentence": "<td>Ox = -3</td>",
+              "table_locator": {
+                "table_id": "T_5_64",
+                "row_label": "P(TMPMT-co-Th)/PEDOT",
+                "column_label": "a",
+                "cell_value": "Ox = -3",
+                "cell_id": "T_5_64:r0003:c0002",
+                "row_index": 3,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt008",
+          "observation_role": "series_point",
+          "sample_id": "s008",
+          "entity_id": "pe006",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "a",
+              "value_raw": "Red",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_5_64",
+                "page": 5,
+                "bbox": [
+                  62.0,
+                  451.0,
+                  474.0,
+                  530.0
+                ],
+                "source_type": "table",
+                "source_sentence": "<td>Red = -2</td>",
+                "table_locator": {
+                  "table_id": "T_5_64",
+                  "row_label": "P(TMPMT-co-Th)/PEDOT",
+                  "column_label": "a",
+                  "cell_value": "Red = -2",
+                  "cell_id": "T_5_64:r0004:c0002",
+                  "row_index": 4,
+                  "column_index": 2
+                }
+              }
+            }
+          ],
+          "value_raw": "-2",
+          "value_min": -2.0,
+          "value_max": -2.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_5_64",
+              "page": 5,
+              "bbox": [
+                62.0,
+                451.0,
+                474.0,
+                530.0
+              ],
+              "source_type": "table",
+              "source_sentence": "<td>Red = -2</td>",
+              "table_locator": {
+                "table_id": "T_5_64",
+                "row_label": "P(TMPMT-co-Th)/PEDOT",
+                "column_label": "a",
+                "cell_value": "Red = -2",
+                "cell_id": "T_5_64:r0004:c0002",
+                "row_index": 4,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        }
+      ],
+      "coverage": {
+        "expected": 4,
+        "covered": 4,
+        "missing": 0,
+        "not_applicable": 0,
+        "ratio": 1.0
+      },
+      "evidence": [
+        {
+          "block_id": "T_5_64",
+          "page": 5,
+          "bbox": [
+            62.0,
+            451.0,
+            474.0,
+            530.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<td>Ox = -4</td>",
+          "table_locator": {
+            "table_id": "T_5_64",
+            "row_label": "P(TMPMT-co-Th)",
+            "column_label": "a",
+            "cell_value": "Ox = -4",
+            "cell_id": "T_5_64:r0001:c0002",
+            "row_index": 1,
+            "column_index": 2
+          }
+        },
+        {
+          "block_id": "T_5_64",
+          "page": 5,
+          "bbox": [
+            62.0,
+            451.0,
+            474.0,
+            530.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<td>Red = 1</td>",
+          "table_locator": {
+            "table_id": "T_5_64",
+            "row_label": "P(TMPMT-co-Th)",
+            "column_label": "a",
+            "cell_value": "Red = 1",
+            "cell_id": "T_5_64:r0002:c0002",
+            "row_index": 2,
+            "column_index": 2
+          }
+        },
+        {
+          "block_id": "T_5_64",
+          "page": 5,
+          "bbox": [
+            62.0,
+            451.0,
+            474.0,
+            530.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<td>Ox = -3</td>",
+          "table_locator": {
+            "table_id": "T_5_64",
+            "row_label": "P(TMPMT-co-Th)/PEDOT",
+            "column_label": "a",
+            "cell_value": "Ox = -3",
+            "cell_id": "T_5_64:r0003:c0002",
+            "row_index": 3,
+            "column_index": 2
+          }
+        },
+        {
+          "block_id": "T_5_64",
+          "page": 5,
+          "bbox": [
+            62.0,
+            451.0,
+            474.0,
+            530.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<td>Red = -2</td>",
+          "table_locator": {
+            "table_id": "T_5_64",
+            "row_label": "P(TMPMT-co-Th)/PEDOT",
+            "column_label": "a",
+            "cell_value": "Red = -2",
+            "cell_id": "T_5_64:r0004:c0002",
+            "row_index": 4,
+            "column_index": 2
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "series_id": "series003",
+      "sample_id": null,
+      "entity_id": null,
+      "sample_resolution_status": "unresolved",
+      "property_name_raw": "b",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "unit_raw": null,
+      "unit_normalized": null,
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "points": [
+        {
+          "point_id": "pt009",
+          "observation_role": "series_point",
+          "sample_id": "s006",
+          "entity_id": "pe002",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "b",
+              "value_raw": "Ox",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_5_64",
+                "page": 5,
+                "bbox": [
+                  62.0,
+                  451.0,
+                  474.0,
+                  530.0
+                ],
+                "source_type": "table",
+                "source_sentence": "<td>Ox = 8</td>",
+                "table_locator": {
+                  "table_id": "T_5_64",
+                  "row_label": "P(TMPMT-co-Th)",
+                  "column_label": "b",
+                  "cell_value": "Ox = 8",
+                  "cell_id": "T_5_64:r0001:c0003",
+                  "row_index": 1,
+                  "column_index": 3
+                }
+              }
+            }
+          ],
+          "value_raw": "8",
+          "value_min": 8.0,
+          "value_max": 8.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_5_64",
+              "page": 5,
+              "bbox": [
+                62.0,
+                451.0,
+                474.0,
+                530.0
+              ],
+              "source_type": "table",
+              "source_sentence": "<td>Ox = 8</td>",
+              "table_locator": {
+                "table_id": "T_5_64",
+                "row_label": "P(TMPMT-co-Th)",
+                "column_label": "b",
+                "cell_value": "Ox = 8",
+                "cell_id": "T_5_64:r0001:c0003",
+                "row_index": 1,
+                "column_index": 3
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt010",
+          "observation_role": "series_point",
+          "sample_id": "s006",
+          "entity_id": "pe002",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "b",
+              "value_raw": "Red",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_5_64",
+                "page": 5,
+                "bbox": [
+                  62.0,
+                  451.0,
+                  474.0,
+                  530.0
+                ],
+                "source_type": "table",
+                "source_sentence": "<td>Red = 21</td>",
+                "table_locator": {
+                  "table_id": "T_5_64",
+                  "row_label": "P(TMPMT-co-Th)",
+                  "column_label": "b",
+                  "cell_value": "Red = 21",
+                  "cell_id": "T_5_64:r0002:c0003",
+                  "row_index": 2,
+                  "column_index": 3
+                }
+              }
+            }
+          ],
+          "value_raw": "21",
+          "value_min": 21.0,
+          "value_max": 21.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_5_64",
+              "page": 5,
+              "bbox": [
+                62.0,
+                451.0,
+                474.0,
+                530.0
+              ],
+              "source_type": "table",
+              "source_sentence": "<td>Red = 21</td>",
+              "table_locator": {
+                "table_id": "T_5_64",
+                "row_label": "P(TMPMT-co-Th)",
+                "column_label": "b",
+                "cell_value": "Red = 21",
+                "cell_id": "T_5_64:r0002:c0003",
+                "row_index": 2,
+                "column_index": 3
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt011",
+          "observation_role": "series_point",
+          "sample_id": "s008",
+          "entity_id": "pe006",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "b",
+              "value_raw": "Ox",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_5_64",
+                "page": 5,
+                "bbox": [
+                  62.0,
+                  451.0,
+                  474.0,
+                  530.0
+                ],
+                "source_type": "table",
+                "source_sentence": "<td>Ox = -13</td>",
+                "table_locator": {
+                  "table_id": "T_5_64",
+                  "row_label": "P(TMPMT-co-Th)/PEDOT",
+                  "column_label": "b",
+                  "cell_value": "Ox = -13",
+                  "cell_id": "T_5_64:r0003:c0003",
+                  "row_index": 3,
+                  "column_index": 3
+                }
+              }
+            }
+          ],
+          "value_raw": "-13",
+          "value_min": -13.0,
+          "value_max": -13.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_5_64",
+              "page": 5,
+              "bbox": [
+                62.0,
+                451.0,
+                474.0,
+                530.0
+              ],
+              "source_type": "table",
+              "source_sentence": "<td>Ox = -13</td>",
+              "table_locator": {
+                "table_id": "T_5_64",
+                "row_label": "P(TMPMT-co-Th)/PEDOT",
+                "column_label": "b",
+                "cell_value": "Ox = -13",
+                "cell_id": "T_5_64:r0003:c0003",
+                "row_index": 3,
+                "column_index": 3
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt012",
+          "observation_role": "series_point",
+          "sample_id": "s008",
+          "entity_id": "pe006",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "b",
+              "value_raw": "Red",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_5_64",
+                "page": 5,
+                "bbox": [
+                  62.0,
+                  451.0,
+                  474.0,
+                  530.0
+                ],
+                "source_type": "table",
+                "source_sentence": "<td>Red = 4</td>",
+                "table_locator": {
+                  "table_id": "T_5_64",
+                  "row_label": "P(TMPMT-co-Th)/PEDOT",
+                  "column_label": "b",
+                  "cell_value": "Red = 4",
+                  "cell_id": "T_5_64:r0004:c0003",
+                  "row_index": 4,
+                  "column_index": 3
+                }
+              }
+            }
+          ],
+          "value_raw": "4",
+          "value_min": 4.0,
+          "value_max": 4.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_5_64",
+              "page": 5,
+              "bbox": [
+                62.0,
+                451.0,
+                474.0,
+                530.0
+              ],
+              "source_type": "table",
+              "source_sentence": "<td>Red = 4</td>",
+              "table_locator": {
+                "table_id": "T_5_64",
+                "row_label": "P(TMPMT-co-Th)/PEDOT",
+                "column_label": "b",
+                "cell_value": "Red = 4",
+                "cell_id": "T_5_64:r0004:c0003",
+                "row_index": 4,
+                "column_index": 3
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        }
+      ],
+      "coverage": {
+        "expected": 4,
+        "covered": 4,
+        "missing": 0,
+        "not_applicable": 0,
+        "ratio": 1.0
+      },
+      "evidence": [
+        {
+          "block_id": "T_5_64",
+          "page": 5,
+          "bbox": [
+            62.0,
+            451.0,
+            474.0,
+            530.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<td>Ox = 8</td>",
+          "table_locator": {
+            "table_id": "T_5_64",
+            "row_label": "P(TMPMT-co-Th)",
+            "column_label": "b",
+            "cell_value": "Ox = 8",
+            "cell_id": "T_5_64:r0001:c0003",
+            "row_index": 1,
+            "column_index": 3
+          }
+        },
+        {
+          "block_id": "T_5_64",
+          "page": 5,
+          "bbox": [
+            62.0,
+            451.0,
+            474.0,
+            530.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<td>Red = 21</td>",
+          "table_locator": {
+            "table_id": "T_5_64",
+            "row_label": "P(TMPMT-co-Th)",
+            "column_label": "b",
+            "cell_value": "Red = 21",
+            "cell_id": "T_5_64:r0002:c0003",
+            "row_index": 2,
+            "column_index": 3
+          }
+        },
+        {
+          "block_id": "T_5_64",
+          "page": 5,
+          "bbox": [
+            62.0,
+            451.0,
+            474.0,
+            530.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<td>Ox = -13</td>",
+          "table_locator": {
+            "table_id": "T_5_64",
+            "row_label": "P(TMPMT-co-Th)/PEDOT",
+            "column_label": "b",
+            "cell_value": "Ox = -13",
+            "cell_id": "T_5_64:r0003:c0003",
+            "row_index": 3,
+            "column_index": 3
+          }
+        },
+        {
+          "block_id": "T_5_64",
+          "page": 5,
+          "bbox": [
+            62.0,
+            451.0,
+            474.0,
+            530.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<td>Red = 4</td>",
+          "table_locator": {
+            "table_id": "T_5_64",
+            "row_label": "P(TMPMT-co-Th)/PEDOT",
+            "column_label": "b",
+            "cell_value": "Red = 4",
+            "cell_id": "T_5_64:r0004:c0003",
+            "row_index": 4,
+            "column_index": 3
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    }
+  ],
+  "provenance": {
+    "stage": "stage4_property",
+    "provider": "dmx",
+    "model": "doubao-seed-2.0-pro",
+    "models": [
+      "doubao-seed-2.0-pro"
+    ],
+    "prompt_id": "polymer.stage4.property",
+    "prompt_version": "1.7.2",
+    "prompt_sha256": "ec79fe3bf47539cab4ba239c611d1ab17d75dc0038cda85020caca580f7987a5",
+    "vocabulary_sha256": "3e9d85e4915a729edf0f0a53821f3ee6edf32874e1da6972457417e4f13a1510",
+    "input_hash": "a1c73c0362aef5d8e96c2d3761546c9fc687754d5246af911ff7f905fd9709ae",
+    "model_config_hash": "cc96eaab20bd380ae90f3ba1dfa638bd40f111e3e72ca185255fb71b459d40ea",
+    "cache_key": "a9ce035e1e64e5217d29c04d6bf976ba7ba537de8cf14712005adf9869254562",
+    "output_schema_version": "property_observation_schema.v7",
+    "implementation_version": "1.7.10",
+    "context_block_count": 50,
+    "context_chars": 27649,
+    "call_count": 1,
+    "usage": {
+      "input_tokens": 23095,
+      "output_tokens": 13347,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 10040,
+      "billable_input_tokens": 33135,
+      "total_tokens": 46482
+    },
+    "cost": {
+      "status": "calculated",
+      "currency": "CNY",
+      "input_per_million": "4.32",
+      "output_per_million": "29.15",
+      "input_cost": "0.1431432",
+      "output_cost": "0.38906505",
+      "total_cost": "0.53220825"
+    },
+    "status": "success"
+  },
+  "warnings": [
+    {
+      "stage": "stage4_property",
+      "code": "preview_point_locator_recovered_from_unique_table_row",
+      "message": "Preview 模式已用唯一完整表格行、唯一列头及一致 value_raw 补全 Series point 的稳定坐标",
+      "points": 12
+    },
+    {
+      "stage": "stage4_property",
+      "code": "multi_subject_series_normalized",
+      "message": "PropertySeries 的 points 明确属于多个 Sample/PolymerEntity；已清除错误的单一顶层主体，主体关系保留在各 point",
+      "series": 3
+    },
+    {
+      "stage": "stage4_property",
+      "code": "preview_semantic_validation_bypassed",
+      "message": "Preview 已保留 Schema 合法候选，并跳过原文/evidence 语义对应校验；Strict 模式仍会报错",
+      "reason": "prop003.property_name_raw='λ_max' 不是任一 evidence block 的原文子串"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "preview_objects_salvaged",
+      "message": "Preview 已逐对象保留可安全物化的数据；坏字段、坏对象或失效引用已局部删除，Strict 模式仍会报错",
+      "details": {
+        "dropped_conditions": [],
+        "dropped_properties": [],
+        "dropped_unresolved_properties": [],
+        "dropped_series": [],
+        "dropped_points": [],
+        "dropped_evidence": 0,
+        "dropped_coordinates": 0
+      }
+    }
+  ]
+}

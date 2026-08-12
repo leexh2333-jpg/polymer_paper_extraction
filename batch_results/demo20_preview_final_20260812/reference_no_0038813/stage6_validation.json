@@ -1,0 +1,228 @@
+{
+  "schema_version": "1.0",
+  "document_id": "reference_no_0038813",
+  "status": "passed_with_warnings",
+  "error_count": 0,
+  "warning_count": 33,
+  "errors": [],
+  "warnings": [
+    {
+      "stage": "stage0",
+      "code": "metadata_extraction_failed",
+      "message": "未配置统一 LLM 元数据提取器；document JSON 已继续生成"
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "parameters_not_in_source",
+      "message": "无法定位到 evidence 原文的参数已舍弃"
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "unresolved_entities",
+      "message": "6 个 entity 未解析到实际样品"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "failure_response_replayed",
+      "message": "已离线回放保存的 Stage 4 响应，未请求模型"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "multi_subject_series_normalized",
+      "message": "PropertySeries 的 points 明确属于多个 Sample/PolymerEntity；已清除错误的单一顶层主体，主体关系保留在各 point"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "empty_reported_context_downgraded",
+      "message": "measurement_context 标记为 reported 但没有任何条件值；已确定性改为 not_reported"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "candidate_table_locator_surface_repaired",
+      "message": "模型 locator 表面文本不在表格原文；已用 property raw 与 determination method 中唯一匹配的 Stage 0 表头恢复"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "coordinate_table_locators_synthesized",
+      "message": "已按 coordinate 原文值与表头生成稳定单元格定位"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "point_locators_aligned_to_coordinates",
+      "message": "重复值单元格已按同一 point 的唯一坐标行绑定"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "series_method_evidence_supplemented",
+      "message": "Series determination method 不在 point 表格 evidence；已补入全文中唯一的完全匹配原文 block"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "series_context_evidence_supplemented",
+      "message": "Series/point measurement context 不在数值表格 evidence；已补入全文中唯一的完全匹配原文 block"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "preview_series_unsupported_fields_removed",
+      "message": "PropertySeries 包含仅适用于标量性质的字段；Preview 已删除该字段，Strict 模式仍会报错"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "preview_singleton_coordinate_evidence_unwrapped",
+      "message": "PropertySeriesCoordinate evidence 误输出为单项数组；Preview 已确定性解包为唯一 evidence 对象，Strict 模式仍会报错"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "preview_semantic_validation_bypassed",
+      "message": "Preview 已保留 Schema 合法候选，并跳过原文/evidence 语义对应校验；Strict 模式仍会报错"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "preview_objects_salvaged",
+      "message": "Preview 已逐对象保留可安全物化的数据；坏字段、坏对象或失效引用已局部删除，Strict 模式仍会报错"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "unresolved_properties",
+      "message": "6 条性质无法可靠关联具体 Sample"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_subject_scope_normalized",
+      "message": "Preview 模式已将冲突或空的主体字段收敛为单一合法范围"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_incomplete_table_evidence_removed",
+      "message": "Preview 模式已移除缺少 table_locator 的附加表格 evidence；同一对象仍保留其他原文 evidence"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_characterization_details_cleared",
+      "message": "Preview 模式已清空无对象 evidence 支撑的可选表征细节"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_property_subject_scope_aligned",
+      "message": "Preview 模式已将冲突的派生性质主体对齐到所属 Characterization"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_semantic_validation_bypassed",
+      "message": "Preview 已保留 Schema 合法候选，并跳过原文/evidence 语义对应校验；Strict 模式仍会报错"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "unresolved_characterizations",
+      "message": "9 条表征无法可靠关联具体 Sample"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "unresolved_stage5_properties",
+      "message": "7 条 Stage 5 性质无法可靠关联具体 Sample"
+    },
+    {
+      "stage": "meta_extract",
+      "code": "paper_metadata_incomplete",
+      "message": "Paper metadata_status=failed，需人工复核"
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "orphan_sample",
+      "message": "Sample 未被工艺、性质或表征引用",
+      "object_id": "s001"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "evidence_matched_after_block_recovery",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：词覆盖率仅 96.6%，疑似跨块或被截断，建议人工确认",
+      "object_id": "pt045"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "evidence_matched_after_normalization",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：归一化后子串命中",
+      "object_id": "char002"
+    },
+    {
+      "stage": "stage6_validate_merge",
+      "code": "preview_reference_pruned",
+      "message": "Preview 删除 char001.derived_property_ids 中的悬空引用：['prop003', 'prop004', 'prop005']",
+      "object_id": "char001"
+    },
+    {
+      "stage": "stage6_validate_merge",
+      "code": "preview_reference_pruned",
+      "message": "Preview 删除 char002.derived_property_ids 中的悬空引用：['prop002']",
+      "object_id": "char002"
+    },
+    {
+      "stage": "stage6_validate_merge",
+      "code": "preview_reference_pruned",
+      "message": "Preview 删除 char003.derived_property_ids 中的悬空引用：['prop006']",
+      "object_id": "char003"
+    },
+    {
+      "stage": "stage6_validate_merge",
+      "code": "preview_reference_pruned",
+      "message": "Preview 删除 char004.derived_property_ids 中的悬空引用：['prop007', 'prop008', 'prop009', 'prop010']",
+      "object_id": "char004"
+    },
+    {
+      "stage": "stage6_validate_merge",
+      "code": "preview_reference_pruned",
+      "message": "Preview 删除 char009.derived_property_ids 中的悬空引用：['prop011']",
+      "object_id": "char009"
+    }
+  ],
+  "checked_counts": {
+    "stage0_blocks": 77,
+    "material_mentions": 59,
+    "polymer_entities": 15,
+    "samples": 9,
+    "process_steps": 1,
+    "measurement_conditions": 0,
+    "stage4_properties": 0,
+    "unresolved_properties": 6,
+    "property_series": 15,
+    "property_series_points": 156,
+    "characterizations": 9,
+    "stage5_properties": 7,
+    "evidence": 242,
+    "preview_published_objects": 277,
+    "preview_rejected_objects": 0,
+    "preview_reference_cleanup_count": 10
+  },
+  "quality_metrics": {
+    "properties_with_units": {
+      "complete": 93,
+      "total": 169,
+      "ratio": 0.5502958579881657
+    },
+    "standard_process_steps": {
+      "complete": 1,
+      "total": 1,
+      "ratio": 1.0
+    },
+    "stage4_methods_with_characterization": {
+      "complete": 0,
+      "total": 0,
+      "ratio": 1.0
+    },
+    "objects_with_confidence": {
+      "complete": 277,
+      "total": 277,
+      "ratio": 1.0
+    },
+    "series_points_covered": {
+      "complete": 156,
+      "total": 156,
+      "ratio": 1.0
+    }
+  }
+}

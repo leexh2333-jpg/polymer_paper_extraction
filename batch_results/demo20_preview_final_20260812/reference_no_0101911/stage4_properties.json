@@ -1,0 +1,5812 @@
+{
+  "schema_version": "1.0",
+  "document_id": "reference_no_0101911",
+  "measurement_conditions": [
+    {
+      "condition_id": "mc001",
+      "temperature": {
+        "raw": "23°C",
+        "value": 23.0,
+        "unit": "°C",
+        "evidence": [
+          {
+            "block_id": "P_1_33",
+            "page": 1,
+            "bbox": [
+              507.0,
+              581.0,
+              926.0,
+              656.0
+            ],
+            "source_type": "text",
+            "source_sentence": "The tensile test was conducted under ASTM D638-2000 at $2 3 ^ { \\circ } \\mathrm { C }$ using an Instron tester with a crosshead speed of 50 mm/ min.",
+            "table_locator": null
+          }
+        ],
+        "evidence_ids": []
+      },
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {
+        "crosshead speed": "50 mm/min"
+      },
+      "other_condition_evidence": {
+        "crosshead speed": [
+          {
+            "block_id": "P_1_33",
+            "page": 1,
+            "bbox": [
+              507.0,
+              581.0,
+              926.0,
+              656.0
+            ],
+            "source_type": "text",
+            "source_sentence": "The tensile test was conducted under ASTM D638-2000 at $2 3 ^ { \\circ } \\mathrm { C }$ using an Instron tester with a crosshead speed of 50 mm/ min.",
+            "table_locator": null
+          }
+        ]
+      },
+      "condition_status": "reported",
+      "evidence": {
+        "block_id": "P_1_33",
+        "page": 1,
+        "bbox": [
+          507.0,
+          581.0,
+          926.0,
+          656.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The tensile test was conducted under ASTM D638-2000 at $2 3 ^ { \\circ } \\mathrm { C }$ using an Instron tester with a crosshead speed of 50 mm/ min.",
+        "table_locator": null
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "condition_id": "mc002",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {},
+      "other_condition_evidence": {},
+      "condition_status": "not_reported",
+      "evidence": {
+        "block_id": "P_1_33",
+        "page": 1,
+        "bbox": [
+          507.0,
+          581.0,
+          926.0,
+          656.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The notched impact strength test complies with ASTM D-256-2010 (Model AJU-22, Chengde Tester Machinery Factory, China).",
+        "table_locator": null
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "condition_id": "mc003",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {
+        "heating rate": "50°C/h",
+        "force": "50 N",
+        "method": "B50"
+      },
+      "other_condition_evidence": {
+        "heating rate": [
+          {
+            "block_id": "P_2_44",
+            "page": 2,
+            "bbox": [
+              68.0,
+              186.0,
+              487.0,
+              289.0
+            ],
+            "source_type": "text",
+            "source_sentence": "heated up at a heating rate of $5 0 ^ { \\circ } \\mathrm { C } / \\mathrm { h }$",
+            "table_locator": null
+          }
+        ],
+        "force": [
+          {
+            "block_id": "P_2_44",
+            "page": 2,
+            "bbox": [
+              68.0,
+              186.0,
+              487.0,
+              289.0
+            ],
+            "source_type": "text",
+            "source_sentence": "The force was set as 50 N",
+            "table_locator": null
+          }
+        ],
+        "method": [
+          {
+            "block_id": "P_2_44",
+            "page": 2,
+            "bbox": [
+              68.0,
+              186.0,
+              487.0,
+              289.0
+            ],
+            "source_type": "text",
+            "source_sentence": "the B50 method was used for measurement",
+            "table_locator": null
+          }
+        ]
+      },
+      "condition_status": "reported",
+      "evidence": {
+        "block_id": "P_2_44",
+        "page": 2,
+        "bbox": [
+          68.0,
+          186.0,
+          487.0,
+          289.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The 3.2 mm sheet obtained by molding was placed on the Vicat softening tester (WKT-VST400, China) and heated up at a heating rate of $5 0 ^ { \\circ } \\mathrm { C } / \\mathrm { h }$. The temperature of a standard compression needle was recorded when it pierced the surface of a thermoplastic resin to a depth of 1 mm under standard loading conditions. The force was set as 50 N, and the B50 method was used for measurement.",
+        "table_locator": null
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "condition_id": "mc004",
+      "temperature": null,
+      "frequency": {
+        "raw": "1 Hz",
+        "value": 1.0,
+        "unit": "Hz",
+        "evidence": [
+          {
+            "block_id": "P_1_35",
+            "page": 1,
+            "bbox": [
+              507.0,
+              714.0,
+              926.0,
+              804.0
+            ],
+            "source_type": "text",
+            "source_sentence": "at 1 Hz frequency",
+            "table_locator": null
+          }
+        ],
+        "evidence_ids": []
+      },
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {
+        "heating rate": "3°C/min",
+        "test mode": "tensile",
+        "sample dimension": "30×10×1 mm³",
+        "temperature range": "30°C to 160°C"
+      },
+      "other_condition_evidence": {
+        "heating rate": [
+          {
+            "block_id": "P_1_35",
+            "page": 1,
+            "bbox": [
+              507.0,
+              714.0,
+              926.0,
+              804.0
+            ],
+            "source_type": "text",
+            "source_sentence": "heating rate of $3 ^ { \\circ } \\mathrm { C } /$ min",
+            "table_locator": null
+          }
+        ],
+        "test mode": [
+          {
+            "block_id": "P_1_35",
+            "page": 1,
+            "bbox": [
+              507.0,
+              714.0,
+              926.0,
+              804.0
+            ],
+            "source_type": "text",
+            "source_sentence": "under the tensile mode",
+            "table_locator": null
+          }
+        ],
+        "sample dimension": [
+          {
+            "block_id": "P_1_35",
+            "page": 1,
+            "bbox": [
+              507.0,
+              714.0,
+              926.0,
+              804.0
+            ],
+            "source_type": "text",
+            "source_sentence": "All of the samples had the following dimension $3 0 \\times 1 0 \\times 1 \\mathrm { m m } ^ { 3 }$",
+            "table_locator": null
+          }
+        ],
+        "temperature range": [
+          {
+            "block_id": "P_1_35",
+            "page": 1,
+            "bbox": [
+              507.0,
+              714.0,
+              926.0,
+              804.0
+            ],
+            "source_type": "text",
+            "source_sentence": "temperature range from $3 0 ^ { \\circ } \\mathrm { C }$ to $1 6 0 ^ { \\circ } \\mathrm { C }$",
+            "table_locator": null
+          }
+        ]
+      },
+      "condition_status": "reported",
+      "evidence": {
+        "block_id": "P_1_35",
+        "page": 1,
+        "bbox": [
+          507.0,
+          714.0,
+          926.0,
+          804.0
+        ],
+        "source_type": "text",
+        "source_sentence": "DMA for the PVC/ABS/SMIA blends was performed on a DMA apparatus (Diamond-DMA, PerkinElmer, USA). The tests were carried out under the tensile mode, at 1 Hz frequency and a heating rate of $3 ^ { \\circ } \\mathrm { C } /$ min with a temperature range from $3 0 ^ { \\circ } \\mathrm { C }$ to $1 6 0 ^ { \\circ } \\mathrm { C }.$ All of the samples had the following dimension $3 0 \\times 1 0 \\times 1 \\mathrm { m m } ^ { 3 }$",
+        "table_locator": null
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "condition_id": "mc005",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {},
+      "other_condition_evidence": {},
+      "condition_status": "not_reported",
+      "evidence": {
+        "block_id": "P_4_75",
+        "page": 4,
+        "bbox": [
+          505.0,
+          900.0,
+          926.0,
+          930.0
+        ],
+        "source_type": "text",
+        "source_sentence": "To confirm the thermal stability, we conducted the TGA curves of PVC, SMIA, and PVC/ABS/SMIA composites (Figure 10).",
+        "table_locator": null
+      },
+      "confidence": {
+        "score": 0.8
+      }
+    },
+    {
+      "condition_id": "mc006",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {},
+      "other_condition_evidence": {},
+      "condition_status": "not_reported",
+      "evidence": {
+        "block_id": "P_2_49",
+        "page": 2,
+        "bbox": [
+          505.0,
+          38.0,
+          927.0,
+          129.0
+        ],
+        "source_type": "text",
+        "source_sentence": "To verify there is no homopolymerization for St, the DSC curves were recorded.",
+        "table_locator": null
+      },
+      "confidence": {
+        "score": 0.8
+      }
+    }
+  ],
+  "properties": [
+    {
+      "property_id": "prop001",
+      "sample_id": "s003",
+      "property_name_raw": "Tg",
+      "property_name_normalized": "glass_transition_temperature",
+      "property_code": "P3110",
+      "property_category": "thermal_property",
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "123.5°C",
+      "value_min": 123.5,
+      "value_max": 123.5,
+      "unit_raw": "°C",
+      "unit_normalized": "°C",
+      "measurement_condition_id": "mc006",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_2_49",
+          "page": 2,
+          "bbox": [
+            505.0,
+            38.0,
+            927.0,
+            129.0
+          ],
+          "source_type": "text",
+          "source_sentence": "only one single Tg appeared at 123.5°C in the DSC curves of the terpolymer SMIA",
+          "table_locator": null
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop002",
+      "sample_id": "s001",
+      "property_name_raw": "T_i",
+      "property_name_normalized": "thermal_decomposition_temperature",
+      "property_code": "P3170",
+      "property_category": "thermal_property",
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "261°C",
+      "value_min": 261.0,
+      "value_max": 261.0,
+      "unit_raw": "°C",
+      "unit_normalized": "°C",
+      "measurement_condition_id": "mc005",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_5_80",
+          "page": 5,
+          "bbox": [
+            68.0,
+            684.0,
+            489.0,
+            818.0
+          ],
+          "source_type": "text",
+          "source_sentence": "When ABS (10 phr) was added to PVC, T and $\\mathrm { T } _ { 5 0 }$ increased from $2 6 1 ^ { \\circ } \\mathrm { C }$ and 304°C to $2 7 3 ^ { \\circ } \\mathrm { C }$ and $3 2 8 ^ { \\circ } \\mathrm { C }$ respectively.",
+          "table_locator": null
+        }
+      ],
+      "confidence": {
+        "score": 0.8
+      }
+    },
+    {
+      "property_id": "prop003",
+      "sample_id": "s001",
+      "property_name_raw": "T_50",
+      "property_name_normalized": "thermal_decomposition_temperature",
+      "property_code": "P3170",
+      "property_category": "thermal_property",
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "304°C",
+      "value_min": 304.0,
+      "value_max": 304.0,
+      "unit_raw": "°C",
+      "unit_normalized": "°C",
+      "measurement_condition_id": "mc005",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_5_80",
+          "page": 5,
+          "bbox": [
+            68.0,
+            684.0,
+            489.0,
+            818.0
+          ],
+          "source_type": "text",
+          "source_sentence": "When ABS (10 phr) was added to PVC, T and $\\mathrm { T } _ { 5 0 }$ increased from $2 6 1 ^ { \\circ } \\mathrm { C }$ and 304°C to $2 7 3 ^ { \\circ } \\mathrm { C }$ and $3 2 8 ^ { \\circ } \\mathrm { C }$ respectively.",
+          "table_locator": null
+        }
+      ],
+      "confidence": {
+        "score": 0.8
+      }
+    },
+    {
+      "property_id": "prop004",
+      "sample_id": "s004",
+      "property_name_raw": "T_i",
+      "property_name_normalized": "thermal_decomposition_temperature",
+      "property_code": "P3170",
+      "property_category": "thermal_property",
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "273°C",
+      "value_min": 273.0,
+      "value_max": 273.0,
+      "unit_raw": "°C",
+      "unit_normalized": "°C",
+      "measurement_condition_id": "mc005",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_5_80",
+          "page": 5,
+          "bbox": [
+            68.0,
+            684.0,
+            489.0,
+            818.0
+          ],
+          "source_type": "text",
+          "source_sentence": "When ABS (10 phr) was added to PVC, T and $\\mathrm { T } _ { 5 0 }$ increased from $2 6 1 ^ { \\circ } \\mathrm { C }$ and 304°C to $2 7 3 ^ { \\circ } \\mathrm { C }$ and $3 2 8 ^ { \\circ } \\mathrm { C }$ respectively.",
+          "table_locator": null
+        }
+      ],
+      "confidence": {
+        "score": 0.8
+      }
+    },
+    {
+      "property_id": "prop005",
+      "sample_id": "s004",
+      "property_name_raw": "T_50",
+      "property_name_normalized": "thermal_decomposition_temperature",
+      "property_code": "P3170",
+      "property_category": "thermal_property",
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "328°C",
+      "value_min": 328.0,
+      "value_max": 328.0,
+      "unit_raw": "°C",
+      "unit_normalized": "°C",
+      "measurement_condition_id": "mc005",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_5_80",
+          "page": 5,
+          "bbox": [
+            68.0,
+            684.0,
+            489.0,
+            818.0
+          ],
+          "source_type": "text",
+          "source_sentence": "When ABS (10 phr) was added to PVC, T and $\\mathrm { T } _ { 5 0 }$ increased from $2 6 1 ^ { \\circ } \\mathrm { C }$ and 304°C to $2 7 3 ^ { \\circ } \\mathrm { C }$ and $3 2 8 ^ { \\circ } \\mathrm { C }$ respectively.",
+          "table_locator": null
+        }
+      ],
+      "confidence": {
+        "score": 0.8
+      }
+    },
+    {
+      "property_id": "prop006",
+      "sample_id": "s005",
+      "property_name_raw": "T_i",
+      "property_name_normalized": "thermal_decomposition_temperature",
+      "property_code": "P3170",
+      "property_category": "thermal_property",
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "280°C",
+      "value_min": 280.0,
+      "value_max": 280.0,
+      "unit_raw": "°C",
+      "unit_normalized": "°C",
+      "measurement_condition_id": "mc005",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_5_80",
+          "page": 5,
+          "bbox": [
+            68.0,
+            684.0,
+            489.0,
+            818.0
+          ],
+          "source_type": "text",
+          "source_sentence": "Importantly, $\\mathrm { T _ { i } }$ and $\\mathrm { T } _ { 5 0 }$ increased to $2 8 0 ^ { \\circ } \\mathrm { C }$ and $4 0 8 ^ { \\circ } \\mathrm { C }$ with the addition of SMIA.",
+          "table_locator": null
+        }
+      ],
+      "confidence": {
+        "score": 0.8
+      }
+    },
+    {
+      "property_id": "prop007",
+      "sample_id": "s005",
+      "property_name_raw": "T_50",
+      "property_name_normalized": "thermal_decomposition_temperature",
+      "property_code": "P3170",
+      "property_category": "thermal_property",
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "408°C",
+      "value_min": 408.0,
+      "value_max": 408.0,
+      "unit_raw": "°C",
+      "unit_normalized": "°C",
+      "measurement_condition_id": "mc005",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_5_80",
+          "page": 5,
+          "bbox": [
+            68.0,
+            684.0,
+            489.0,
+            818.0
+          ],
+          "source_type": "text",
+          "source_sentence": "Importantly, $\\mathrm { T _ { i } }$ and $\\mathrm { T } _ { 5 0 }$ increased to $2 8 0 ^ { \\circ } \\mathrm { C }$ and $4 0 8 ^ { \\circ } \\mathrm { C }$ with the addition of SMIA.",
+          "table_locator": null
+        }
+      ],
+      "confidence": {
+        "score": 0.8
+      }
+    },
+    {
+      "property_id": "prop008",
+      "sample_id": "s004",
+      "property_name_raw": "Impact strength",
+      "property_name_normalized": "izod_impact",
+      "property_code": "P8550",
+      "property_category": "impact_strength",
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "aggregate",
+      "series_id": "series001",
+      "series_ids": null,
+      "value_raw": "1350.60 J/m",
+      "value_min": 1350.6,
+      "value_max": 1350.6,
+      "unit_raw": "J/m",
+      "unit_normalized": "J/m",
+      "measurement_condition_id": "mc002",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_2_51",
+          "page": 2,
+          "bbox": [
+            505.0,
+            200.0,
+            927.0,
+            556.0
+          ],
+          "source_type": "text",
+          "source_sentence": "It revealed a transition from brittle to ductile materials and a maximum value of 1350.60 J/m occurs at 10 phr.",
+          "table_locator": null
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop009",
+      "sample_id": "s005",
+      "property_name_raw": "Vicat softening temperature increase",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "3.1°C",
+      "value_min": 3.1,
+      "value_max": 3.1,
+      "unit_raw": "°C",
+      "unit_normalized": null,
+      "measurement_condition_id": "mc003",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {
+          "heating rate": "50°C/h",
+          "force": "50 N",
+          "method": "B50"
+        },
+        "other_condition_evidence": {
+          "heating rate": [
+            {
+              "block_id": "P_2_44",
+              "page": 2,
+              "bbox": [
+                68.0,
+                186.0,
+                487.0,
+                289.0
+              ],
+              "source_type": "text",
+              "source_sentence": "heated up at a heating rate of $5 0 ^ { \\circ } \\mathrm { C } / \\mathrm { h }$",
+              "table_locator": null
+            }
+          ],
+          "force": [
+            {
+              "block_id": "P_2_44",
+              "page": 2,
+              "bbox": [
+                68.0,
+                186.0,
+                487.0,
+                289.0
+              ],
+              "source_type": "text",
+              "source_sentence": "The force was set as 50 N",
+              "table_locator": null
+            }
+          ],
+          "method": [
+            {
+              "block_id": "P_2_44",
+              "page": 2,
+              "bbox": [
+                68.0,
+                186.0,
+                487.0,
+                289.0
+              ],
+              "source_type": "text",
+              "source_sentence": "the B50 method was used for measurement",
+              "table_locator": null
+            }
+          ]
+        },
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_4_72",
+          "page": 4,
+          "bbox": [
+            68.0,
+            900.0,
+            489.0,
+            930.0
+          ],
+          "source_type": "text",
+          "source_sentence": "Relying on merely 20 phr addition of SMIA, the VST of the blends increases by $3 . 1 ^ { \\circ } \\mathrm { C }$ compared to that of the one without SMIA.",
+          "table_locator": null
+        }
+      ],
+      "confidence": {
+        "score": 0.8
+      }
+    },
+    {
+      "property_id": "prop010",
+      "sample_id": "s005",
+      "property_name_raw": "Vicat softening temperature increase",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "3°C",
+      "value_min": 3.0,
+      "value_max": 3.0,
+      "unit_raw": "°C",
+      "unit_normalized": null,
+      "measurement_condition_id": "mc003",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {
+          "heating rate": "50°C/h",
+          "force": "50 N",
+          "method": "B50"
+        },
+        "other_condition_evidence": {
+          "heating rate": [
+            {
+              "block_id": "P_2_44",
+              "page": 2,
+              "bbox": [
+                68.0,
+                186.0,
+                487.0,
+                289.0
+              ],
+              "source_type": "text",
+              "source_sentence": "heated up at a heating rate of $5 0 ^ { \\circ } \\mathrm { C } / \\mathrm { h }$",
+              "table_locator": null
+            }
+          ],
+          "force": [
+            {
+              "block_id": "P_2_44",
+              "page": 2,
+              "bbox": [
+                68.0,
+                186.0,
+                487.0,
+                289.0
+              ],
+              "source_type": "text",
+              "source_sentence": "The force was set as 50 N",
+              "table_locator": null
+            }
+          ],
+          "method": [
+            {
+              "block_id": "P_2_44",
+              "page": 2,
+              "bbox": [
+                68.0,
+                186.0,
+                487.0,
+                289.0
+              ],
+              "source_type": "text",
+              "source_sentence": "the B50 method was used for measurement",
+              "table_locator": null
+            }
+          ]
+        },
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_5_82",
+          "page": 5,
+          "bbox": [
+            68.0,
+            875.0,
+            487.0,
+            936.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The VST, $\\mathrm { T _ { i } } ,$ and $\\mathrm { T } _ { 5 0 }$ increased by $3 ^ { \\circ } \\mathrm { C } , 7 ^ { \\circ } \\mathrm { C } ,$, and $8 0 ^ { \\circ } \\mathrm { C } ,$, respectively, when the SMIA was at 20 phr.",
+          "table_locator": null
+        }
+      ],
+      "confidence": {
+        "score": 0.7
+      }
+    },
+    {
+      "property_id": "prop011",
+      "sample_id": "s005",
+      "property_name_raw": "initial decomposition temperature increase",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "19°C",
+      "value_min": 19.0,
+      "value_max": 19.0,
+      "unit_raw": "°C",
+      "unit_normalized": null,
+      "measurement_condition_id": "mc005",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_0_8",
+          "page": 0,
+          "bbox": [
+            80.0,
+            502.0,
+            915.0,
+            702.0
+          ],
+          "source_type": "text",
+          "source_sentence": "the initial decomposition temperature increased by $1 9 ^ { \\circ } \\mathrm { C } .$.",
+          "table_locator": null
+        }
+      ],
+      "confidence": {
+        "score": 0.7
+      }
+    }
+  ],
+  "unresolved_properties": [],
+  "property_series": [
+    {
+      "series_id": "series001",
+      "sample_id": "s004",
+      "entity_id": "pe010",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "Impact strength",
+      "property_name_normalized": "izod_impact",
+      "property_code": "P8550",
+      "property_category": "impact_strength",
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "unit_raw": "J/m",
+      "unit_normalized": "J/m",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "points": [
+        {
+          "point_id": "pt001",
+          "observation_role": "series_point",
+          "sample_id": "s004",
+          "entity_id": "pe010",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "ABS content",
+              "value_raw": "0",
+              "unit_raw": "phr",
+              "evidence": {
+                "block_id": "T_3_58",
+                "page": 3,
+                "bbox": [
+                  73.0,
+                  714.0,
+                  484.0,
+                  875.0
+                ],
+                "source_type": "table",
+                "source_sentence": "0",
+                "table_locator": {
+                  "table_id": "T_3_58",
+                  "row_label": "0",
+                  "column_label": "ABS content (phr)",
+                  "cell_value": "0",
+                  "cell_id": "T_3_58:r0001:c0000",
+                  "row_index": 1,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "62.14 ± 3.93",
+          "value_min": 62.14,
+          "value_max": 62.14,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_3_58",
+              "page": 3,
+              "bbox": [
+                73.0,
+                714.0,
+                484.0,
+                875.0
+              ],
+              "source_type": "table",
+              "source_sentence": "62.14 ± 3.93",
+              "table_locator": {
+                "table_id": "T_3_58",
+                "row_label": "0",
+                "column_label": "Impact strength (J/m)",
+                "cell_value": "62.14 ± 3.93",
+                "cell_id": "T_3_58:r0001:c0001",
+                "row_index": 1,
+                "column_index": 1
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt002",
+          "observation_role": "series_point",
+          "sample_id": "s004",
+          "entity_id": "pe010",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "ABS content",
+              "value_raw": "6",
+              "unit_raw": "phr",
+              "evidence": {
+                "block_id": "T_3_58",
+                "page": 3,
+                "bbox": [
+                  73.0,
+                  714.0,
+                  484.0,
+                  875.0
+                ],
+                "source_type": "table",
+                "source_sentence": "6",
+                "table_locator": {
+                  "table_id": "T_3_58",
+                  "row_label": "6",
+                  "column_label": "ABS content (phr)",
+                  "cell_value": "6",
+                  "cell_id": "T_3_58:r0002:c0000",
+                  "row_index": 2,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "193.21 ± 38.92",
+          "value_min": 193.21,
+          "value_max": 193.21,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_3_58",
+              "page": 3,
+              "bbox": [
+                73.0,
+                714.0,
+                484.0,
+                875.0
+              ],
+              "source_type": "table",
+              "source_sentence": "193.21 ± 38.92",
+              "table_locator": {
+                "table_id": "T_3_58",
+                "row_label": "6",
+                "column_label": "Impact strength (J/m)",
+                "cell_value": "193.21 ± 38.92",
+                "cell_id": "T_3_58:r0002:c0001",
+                "row_index": 2,
+                "column_index": 1
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt003",
+          "observation_role": "series_point",
+          "sample_id": "s004",
+          "entity_id": "pe010",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "ABS content",
+              "value_raw": "8",
+              "unit_raw": "phr",
+              "evidence": {
+                "block_id": "T_3_58",
+                "page": 3,
+                "bbox": [
+                  73.0,
+                  714.0,
+                  484.0,
+                  875.0
+                ],
+                "source_type": "table",
+                "source_sentence": "8",
+                "table_locator": {
+                  "table_id": "T_3_58",
+                  "row_label": "8",
+                  "column_label": "ABS content (phr)",
+                  "cell_value": "8",
+                  "cell_id": "T_3_58:r0003:c0000",
+                  "row_index": 3,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "1118.93 ± 41.49",
+          "value_min": 1118.93,
+          "value_max": 1118.93,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_3_58",
+              "page": 3,
+              "bbox": [
+                73.0,
+                714.0,
+                484.0,
+                875.0
+              ],
+              "source_type": "table",
+              "source_sentence": "1118.93 ± 41.49",
+              "table_locator": {
+                "table_id": "T_3_58",
+                "row_label": "8",
+                "column_label": "Impact strength (J/m)",
+                "cell_value": "1118.93 ± 41.49",
+                "cell_id": "T_3_58:r0003:c0001",
+                "row_index": 3,
+                "column_index": 1
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt004",
+          "observation_role": "series_point",
+          "sample_id": "s004",
+          "entity_id": "pe010",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "ABS content",
+              "value_raw": "10",
+              "unit_raw": "phr",
+              "evidence": {
+                "block_id": "T_3_58",
+                "page": 3,
+                "bbox": [
+                  73.0,
+                  714.0,
+                  484.0,
+                  875.0
+                ],
+                "source_type": "table",
+                "source_sentence": "10",
+                "table_locator": {
+                  "table_id": "T_3_58",
+                  "row_label": "10",
+                  "column_label": "ABS content (phr)",
+                  "cell_value": "10",
+                  "cell_id": "T_3_58:r0004:c0000",
+                  "row_index": 4,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "1350.60 ± 23.10",
+          "value_min": 1350.6,
+          "value_max": 1350.6,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_3_58",
+              "page": 3,
+              "bbox": [
+                73.0,
+                714.0,
+                484.0,
+                875.0
+              ],
+              "source_type": "table",
+              "source_sentence": "1350.60 ± 23.10",
+              "table_locator": {
+                "table_id": "T_3_58",
+                "row_label": "10",
+                "column_label": "Impact strength (J/m)",
+                "cell_value": "1350.60 ± 23.10",
+                "cell_id": "T_3_58:r0004:c0001",
+                "row_index": 4,
+                "column_index": 1
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt005",
+          "observation_role": "series_point",
+          "sample_id": "s004",
+          "entity_id": "pe010",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "ABS content",
+              "value_raw": "12",
+              "unit_raw": "phr",
+              "evidence": {
+                "block_id": "T_3_58",
+                "page": 3,
+                "bbox": [
+                  73.0,
+                  714.0,
+                  484.0,
+                  875.0
+                ],
+                "source_type": "table",
+                "source_sentence": "12",
+                "table_locator": {
+                  "table_id": "T_3_58",
+                  "row_label": "12",
+                  "column_label": "ABS content (phr)",
+                  "cell_value": "12",
+                  "cell_id": "T_3_58:r0005:c0000",
+                  "row_index": 5,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "1263.75 ± 18.75",
+          "value_min": 1263.75,
+          "value_max": 1263.75,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_3_58",
+              "page": 3,
+              "bbox": [
+                73.0,
+                714.0,
+                484.0,
+                875.0
+              ],
+              "source_type": "table",
+              "source_sentence": "1263.75 ± 18.75",
+              "table_locator": {
+                "table_id": "T_3_58",
+                "row_label": "12",
+                "column_label": "Impact strength (J/m)",
+                "cell_value": "1263.75 ± 18.75",
+                "cell_id": "T_3_58:r0005:c0001",
+                "row_index": 5,
+                "column_index": 1
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        }
+      ],
+      "coverage": {
+        "expected": 5,
+        "covered": 5,
+        "missing": 0,
+        "not_applicable": 0,
+        "ratio": 1.0
+      },
+      "evidence": [
+        {
+          "block_id": "T_3_58",
+          "page": 3,
+          "bbox": [
+            73.0,
+            714.0,
+            484.0,
+            875.0
+          ],
+          "source_type": "table",
+          "source_sentence": "62.14 ± 3.93",
+          "table_locator": {
+            "table_id": "T_3_58",
+            "row_label": "0",
+            "column_label": "Impact strength (J/m)",
+            "cell_value": "62.14 ± 3.93",
+            "cell_id": "T_3_58:r0001:c0001",
+            "row_index": 1,
+            "column_index": 1
+          }
+        },
+        {
+          "block_id": "T_3_58",
+          "page": 3,
+          "bbox": [
+            73.0,
+            714.0,
+            484.0,
+            875.0
+          ],
+          "source_type": "table",
+          "source_sentence": "193.21 ± 38.92",
+          "table_locator": {
+            "table_id": "T_3_58",
+            "row_label": "6",
+            "column_label": "Impact strength (J/m)",
+            "cell_value": "193.21 ± 38.92",
+            "cell_id": "T_3_58:r0002:c0001",
+            "row_index": 2,
+            "column_index": 1
+          }
+        },
+        {
+          "block_id": "T_3_58",
+          "page": 3,
+          "bbox": [
+            73.0,
+            714.0,
+            484.0,
+            875.0
+          ],
+          "source_type": "table",
+          "source_sentence": "1118.93 ± 41.49",
+          "table_locator": {
+            "table_id": "T_3_58",
+            "row_label": "8",
+            "column_label": "Impact strength (J/m)",
+            "cell_value": "1118.93 ± 41.49",
+            "cell_id": "T_3_58:r0003:c0001",
+            "row_index": 3,
+            "column_index": 1
+          }
+        },
+        {
+          "block_id": "T_3_58",
+          "page": 3,
+          "bbox": [
+            73.0,
+            714.0,
+            484.0,
+            875.0
+          ],
+          "source_type": "table",
+          "source_sentence": "1350.60 ± 23.10",
+          "table_locator": {
+            "table_id": "T_3_58",
+            "row_label": "10",
+            "column_label": "Impact strength (J/m)",
+            "cell_value": "1350.60 ± 23.10",
+            "cell_id": "T_3_58:r0004:c0001",
+            "row_index": 4,
+            "column_index": 1
+          }
+        },
+        {
+          "block_id": "T_3_58",
+          "page": 3,
+          "bbox": [
+            73.0,
+            714.0,
+            484.0,
+            875.0
+          ],
+          "source_type": "table",
+          "source_sentence": "1263.75 ± 18.75",
+          "table_locator": {
+            "table_id": "T_3_58",
+            "row_label": "12",
+            "column_label": "Impact strength (J/m)",
+            "cell_value": "1263.75 ± 18.75",
+            "cell_id": "T_3_58:r0005:c0001",
+            "row_index": 5,
+            "column_index": 1
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "series_id": "series002",
+      "sample_id": "s004",
+      "entity_id": "pe010",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "Tensile strength",
+      "property_name_normalized": "tensile_stress_at_break",
+      "property_code": "P8110",
+      "property_category": "tensile_property",
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "unit_raw": "MPa",
+      "unit_normalized": "MPa",
+      "measurement_context": {
+        "temperature": {
+          "raw": "23°C",
+          "value": 23.0,
+          "unit": "°C",
+          "evidence": [
+            {
+              "block_id": "P_1_33",
+              "page": 1,
+              "bbox": [
+                507.0,
+                581.0,
+                926.0,
+                656.0
+              ],
+              "source_type": "text",
+              "source_sentence": "The tensile test was conducted under ASTM D638-2000 at $2 3 ^ { \\circ } \\mathrm { C }$ using an Instron tester with a crosshead speed of 50 mm/ min.",
+              "table_locator": null
+            }
+          ],
+          "evidence_ids": []
+        },
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "points": [
+        {
+          "point_id": "pt006",
+          "observation_role": "series_point",
+          "sample_id": "s004",
+          "entity_id": "pe010",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "ABS content",
+              "value_raw": "0",
+              "unit_raw": "phr",
+              "evidence": {
+                "block_id": "T_3_58",
+                "page": 3,
+                "bbox": [
+                  73.0,
+                  714.0,
+                  484.0,
+                  875.0
+                ],
+                "source_type": "table",
+                "source_sentence": "0",
+                "table_locator": {
+                  "table_id": "T_3_58",
+                  "row_label": "0",
+                  "column_label": "ABS content (phr)",
+                  "cell_value": "0",
+                  "cell_id": "T_3_58:r0001:c0000",
+                  "row_index": 1,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "51.66 ± 0.55",
+          "value_min": 51.66,
+          "value_max": 51.66,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": {
+              "raw": "23°C",
+              "value": 23.0,
+              "unit": "°C",
+              "evidence": [
+                {
+                  "block_id": "P_1_33",
+                  "page": 1,
+                  "bbox": [
+                    507.0,
+                    581.0,
+                    926.0,
+                    656.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "The tensile test was conducted under ASTM D638-2000 at $2 3 ^ { \\circ } \\mathrm { C }$ using an Instron tester with a crosshead speed of 50 mm/ min.",
+                  "table_locator": null
+                }
+              ],
+              "evidence_ids": []
+            },
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_3_58",
+              "page": 3,
+              "bbox": [
+                73.0,
+                714.0,
+                484.0,
+                875.0
+              ],
+              "source_type": "table",
+              "source_sentence": "51.66 ± 0.55",
+              "table_locator": {
+                "table_id": "T_3_58",
+                "row_label": "0",
+                "column_label": "Tensile strength (MPa)",
+                "cell_value": "51.66 ± 0.55",
+                "cell_id": "T_3_58:r0001:c0002",
+                "row_index": 1,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt007",
+          "observation_role": "series_point",
+          "sample_id": "s004",
+          "entity_id": "pe010",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "ABS content",
+              "value_raw": "6",
+              "unit_raw": "phr",
+              "evidence": {
+                "block_id": "T_3_58",
+                "page": 3,
+                "bbox": [
+                  73.0,
+                  714.0,
+                  484.0,
+                  875.0
+                ],
+                "source_type": "table",
+                "source_sentence": "6",
+                "table_locator": {
+                  "table_id": "T_3_58",
+                  "row_label": "6",
+                  "column_label": "ABS content (phr)",
+                  "cell_value": "6",
+                  "cell_id": "T_3_58:r0002:c0000",
+                  "row_index": 2,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "50.56 ± 1.48",
+          "value_min": 50.56,
+          "value_max": 50.56,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": {
+              "raw": "23°C",
+              "value": 23.0,
+              "unit": "°C",
+              "evidence": [
+                {
+                  "block_id": "P_1_33",
+                  "page": 1,
+                  "bbox": [
+                    507.0,
+                    581.0,
+                    926.0,
+                    656.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "The tensile test was conducted under ASTM D638-2000 at $2 3 ^ { \\circ } \\mathrm { C }$ using an Instron tester with a crosshead speed of 50 mm/ min.",
+                  "table_locator": null
+                }
+              ],
+              "evidence_ids": []
+            },
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_3_58",
+              "page": 3,
+              "bbox": [
+                73.0,
+                714.0,
+                484.0,
+                875.0
+              ],
+              "source_type": "table",
+              "source_sentence": "50.56 ± 1.48",
+              "table_locator": {
+                "table_id": "T_3_58",
+                "row_label": "6",
+                "column_label": "Tensile strength (MPa)",
+                "cell_value": "50.56 ± 1.48",
+                "cell_id": "T_3_58:r0002:c0002",
+                "row_index": 2,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt008",
+          "observation_role": "series_point",
+          "sample_id": "s004",
+          "entity_id": "pe010",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "ABS content",
+              "value_raw": "8",
+              "unit_raw": "phr",
+              "evidence": {
+                "block_id": "T_3_58",
+                "page": 3,
+                "bbox": [
+                  73.0,
+                  714.0,
+                  484.0,
+                  875.0
+                ],
+                "source_type": "table",
+                "source_sentence": "8",
+                "table_locator": {
+                  "table_id": "T_3_58",
+                  "row_label": "8",
+                  "column_label": "ABS content (phr)",
+                  "cell_value": "8",
+                  "cell_id": "T_3_58:r0003:c0000",
+                  "row_index": 3,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "50.19 ± 1.56",
+          "value_min": 50.19,
+          "value_max": 50.19,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": {
+              "raw": "23°C",
+              "value": 23.0,
+              "unit": "°C",
+              "evidence": [
+                {
+                  "block_id": "P_1_33",
+                  "page": 1,
+                  "bbox": [
+                    507.0,
+                    581.0,
+                    926.0,
+                    656.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "The tensile test was conducted under ASTM D638-2000 at $2 3 ^ { \\circ } \\mathrm { C }$ using an Instron tester with a crosshead speed of 50 mm/ min.",
+                  "table_locator": null
+                }
+              ],
+              "evidence_ids": []
+            },
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_3_58",
+              "page": 3,
+              "bbox": [
+                73.0,
+                714.0,
+                484.0,
+                875.0
+              ],
+              "source_type": "table",
+              "source_sentence": "50.19 ± 1.56",
+              "table_locator": {
+                "table_id": "T_3_58",
+                "row_label": "8",
+                "column_label": "Tensile strength (MPa)",
+                "cell_value": "50.19 ± 1.56",
+                "cell_id": "T_3_58:r0003:c0002",
+                "row_index": 3,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt009",
+          "observation_role": "series_point",
+          "sample_id": "s004",
+          "entity_id": "pe010",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "ABS content",
+              "value_raw": "10",
+              "unit_raw": "phr",
+              "evidence": {
+                "block_id": "T_3_58",
+                "page": 3,
+                "bbox": [
+                  73.0,
+                  714.0,
+                  484.0,
+                  875.0
+                ],
+                "source_type": "table",
+                "source_sentence": "10",
+                "table_locator": {
+                  "table_id": "T_3_58",
+                  "row_label": "10",
+                  "column_label": "ABS content (phr)",
+                  "cell_value": "10",
+                  "cell_id": "T_3_58:r0004:c0000",
+                  "row_index": 4,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "48.02 ± 1.25",
+          "value_min": 48.02,
+          "value_max": 48.02,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": {
+              "raw": "23°C",
+              "value": 23.0,
+              "unit": "°C",
+              "evidence": [
+                {
+                  "block_id": "P_1_33",
+                  "page": 1,
+                  "bbox": [
+                    507.0,
+                    581.0,
+                    926.0,
+                    656.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "The tensile test was conducted under ASTM D638-2000 at $2 3 ^ { \\circ } \\mathrm { C }$ using an Instron tester with a crosshead speed of 50 mm/ min.",
+                  "table_locator": null
+                }
+              ],
+              "evidence_ids": []
+            },
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_3_58",
+              "page": 3,
+              "bbox": [
+                73.0,
+                714.0,
+                484.0,
+                875.0
+              ],
+              "source_type": "table",
+              "source_sentence": "48.02 ± 1.25",
+              "table_locator": {
+                "table_id": "T_3_58",
+                "row_label": "10",
+                "column_label": "Tensile strength (MPa)",
+                "cell_value": "48.02 ± 1.25",
+                "cell_id": "T_3_58:r0004:c0002",
+                "row_index": 4,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt010",
+          "observation_role": "series_point",
+          "sample_id": "s004",
+          "entity_id": "pe010",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "ABS content",
+              "value_raw": "12",
+              "unit_raw": "phr",
+              "evidence": {
+                "block_id": "T_3_58",
+                "page": 3,
+                "bbox": [
+                  73.0,
+                  714.0,
+                  484.0,
+                  875.0
+                ],
+                "source_type": "table",
+                "source_sentence": "12",
+                "table_locator": {
+                  "table_id": "T_3_58",
+                  "row_label": "12",
+                  "column_label": "ABS content (phr)",
+                  "cell_value": "12",
+                  "cell_id": "T_3_58:r0005:c0000",
+                  "row_index": 5,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "47.41 ± 4.19",
+          "value_min": 47.41,
+          "value_max": 47.41,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": {
+              "raw": "23°C",
+              "value": 23.0,
+              "unit": "°C",
+              "evidence": [
+                {
+                  "block_id": "P_1_33",
+                  "page": 1,
+                  "bbox": [
+                    507.0,
+                    581.0,
+                    926.0,
+                    656.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "The tensile test was conducted under ASTM D638-2000 at $2 3 ^ { \\circ } \\mathrm { C }$ using an Instron tester with a crosshead speed of 50 mm/ min.",
+                  "table_locator": null
+                }
+              ],
+              "evidence_ids": []
+            },
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_3_58",
+              "page": 3,
+              "bbox": [
+                73.0,
+                714.0,
+                484.0,
+                875.0
+              ],
+              "source_type": "table",
+              "source_sentence": "47.41 ± 4.19",
+              "table_locator": {
+                "table_id": "T_3_58",
+                "row_label": "12",
+                "column_label": "Tensile strength (MPa)",
+                "cell_value": "47.41 ± 4.19",
+                "cell_id": "T_3_58:r0005:c0002",
+                "row_index": 5,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        }
+      ],
+      "coverage": {
+        "expected": 5,
+        "covered": 5,
+        "missing": 0,
+        "not_applicable": 0,
+        "ratio": 1.0
+      },
+      "evidence": [
+        {
+          "block_id": "P_1_33",
+          "page": 1,
+          "bbox": [
+            507.0,
+            581.0,
+            926.0,
+            656.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The tensile test was conducted under ASTM D638-2000 at $2 3 ^ { \\circ } \\mathrm { C }$using an Instron tester with a crosshead speed of 50 mm/ min.",
+          "table_locator": null
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "series_id": "series003",
+      "sample_id": "s004",
+      "entity_id": "pe010",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "Elongation at break",
+      "property_name_normalized": "elongation_at_break",
+      "property_code": "P8110",
+      "property_category": "tensile_property",
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "unit_raw": "%",
+      "unit_normalized": "%",
+      "measurement_context": {
+        "temperature": {
+          "raw": "23°C",
+          "value": 23.0,
+          "unit": "°C",
+          "evidence": [
+            {
+              "block_id": "P_1_33",
+              "page": 1,
+              "bbox": [
+                507.0,
+                581.0,
+                926.0,
+                656.0
+              ],
+              "source_type": "text",
+              "source_sentence": "The tensile test was conducted under ASTM D638-2000 at $2 3 ^ { \\circ } \\mathrm { C }$ using an Instron tester with a crosshead speed of 50 mm/ min.",
+              "table_locator": null
+            }
+          ],
+          "evidence_ids": []
+        },
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "points": [
+        {
+          "point_id": "pt011",
+          "observation_role": "series_point",
+          "sample_id": "s004",
+          "entity_id": "pe010",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "ABS content",
+              "value_raw": "0",
+              "unit_raw": "phr",
+              "evidence": {
+                "block_id": "T_3_58",
+                "page": 3,
+                "bbox": [
+                  73.0,
+                  714.0,
+                  484.0,
+                  875.0
+                ],
+                "source_type": "table",
+                "source_sentence": "0",
+                "table_locator": {
+                  "table_id": "T_3_58",
+                  "row_label": "0",
+                  "column_label": "ABS content (phr)",
+                  "cell_value": "0",
+                  "cell_id": "T_3_58:r0001:c0000",
+                  "row_index": 1,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "81.72 ± 5.35",
+          "value_min": 81.72,
+          "value_max": 81.72,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": {
+              "raw": "23°C",
+              "value": 23.0,
+              "unit": "°C",
+              "evidence": [
+                {
+                  "block_id": "P_1_33",
+                  "page": 1,
+                  "bbox": [
+                    507.0,
+                    581.0,
+                    926.0,
+                    656.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "The tensile test was conducted under ASTM D638-2000 at $2 3 ^ { \\circ } \\mathrm { C }$ using an Instron tester with a crosshead speed of 50 mm/ min.",
+                  "table_locator": null
+                }
+              ],
+              "evidence_ids": []
+            },
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_3_58",
+              "page": 3,
+              "bbox": [
+                73.0,
+                714.0,
+                484.0,
+                875.0
+              ],
+              "source_type": "table",
+              "source_sentence": "81.72 ± 5.35",
+              "table_locator": {
+                "table_id": "T_3_58",
+                "row_label": "0",
+                "column_label": "Elongation at break (%)",
+                "cell_value": "81.72 ± 5.35",
+                "cell_id": "T_3_58:r0001:c0003",
+                "row_index": 1,
+                "column_index": 3
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt012",
+          "observation_role": "series_point",
+          "sample_id": "s004",
+          "entity_id": "pe010",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "ABS content",
+              "value_raw": "6",
+              "unit_raw": "phr",
+              "evidence": {
+                "block_id": "T_3_58",
+                "page": 3,
+                "bbox": [
+                  73.0,
+                  714.0,
+                  484.0,
+                  875.0
+                ],
+                "source_type": "table",
+                "source_sentence": "6",
+                "table_locator": {
+                  "table_id": "T_3_58",
+                  "row_label": "6",
+                  "column_label": "ABS content (phr)",
+                  "cell_value": "6",
+                  "cell_id": "T_3_58:r0002:c0000",
+                  "row_index": 2,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "94.25 ± 4.32",
+          "value_min": 94.25,
+          "value_max": 94.25,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": {
+              "raw": "23°C",
+              "value": 23.0,
+              "unit": "°C",
+              "evidence": [
+                {
+                  "block_id": "P_1_33",
+                  "page": 1,
+                  "bbox": [
+                    507.0,
+                    581.0,
+                    926.0,
+                    656.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "The tensile test was conducted under ASTM D638-2000 at $2 3 ^ { \\circ } \\mathrm { C }$ using an Instron tester with a crosshead speed of 50 mm/ min.",
+                  "table_locator": null
+                }
+              ],
+              "evidence_ids": []
+            },
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_3_58",
+              "page": 3,
+              "bbox": [
+                73.0,
+                714.0,
+                484.0,
+                875.0
+              ],
+              "source_type": "table",
+              "source_sentence": "94.25 ± 4.32",
+              "table_locator": {
+                "table_id": "T_3_58",
+                "row_label": "6",
+                "column_label": "Elongation at break (%)",
+                "cell_value": "94.25 ± 4.32",
+                "cell_id": "T_3_58:r0002:c0003",
+                "row_index": 2,
+                "column_index": 3
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt013",
+          "observation_role": "series_point",
+          "sample_id": "s004",
+          "entity_id": "pe010",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "ABS content",
+              "value_raw": "8",
+              "unit_raw": "phr",
+              "evidence": {
+                "block_id": "T_3_58",
+                "page": 3,
+                "bbox": [
+                  73.0,
+                  714.0,
+                  484.0,
+                  875.0
+                ],
+                "source_type": "table",
+                "source_sentence": "8",
+                "table_locator": {
+                  "table_id": "T_3_58",
+                  "row_label": "8",
+                  "column_label": "ABS content (phr)",
+                  "cell_value": "8",
+                  "cell_id": "T_3_58:r0003:c0000",
+                  "row_index": 3,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "156.30 ± 8.08",
+          "value_min": 156.3,
+          "value_max": 156.3,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": {
+              "raw": "23°C",
+              "value": 23.0,
+              "unit": "°C",
+              "evidence": [
+                {
+                  "block_id": "P_1_33",
+                  "page": 1,
+                  "bbox": [
+                    507.0,
+                    581.0,
+                    926.0,
+                    656.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "The tensile test was conducted under ASTM D638-2000 at $2 3 ^ { \\circ } \\mathrm { C }$ using an Instron tester with a crosshead speed of 50 mm/ min.",
+                  "table_locator": null
+                }
+              ],
+              "evidence_ids": []
+            },
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_3_58",
+              "page": 3,
+              "bbox": [
+                73.0,
+                714.0,
+                484.0,
+                875.0
+              ],
+              "source_type": "table",
+              "source_sentence": "156.30 ± 8.08",
+              "table_locator": {
+                "table_id": "T_3_58",
+                "row_label": "8",
+                "column_label": "Elongation at break (%)",
+                "cell_value": "156.30 ± 8.08",
+                "cell_id": "T_3_58:r0003:c0003",
+                "row_index": 3,
+                "column_index": 3
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt014",
+          "observation_role": "series_point",
+          "sample_id": "s004",
+          "entity_id": "pe010",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "ABS content",
+              "value_raw": "10",
+              "unit_raw": "phr",
+              "evidence": {
+                "block_id": "T_3_58",
+                "page": 3,
+                "bbox": [
+                  73.0,
+                  714.0,
+                  484.0,
+                  875.0
+                ],
+                "source_type": "table",
+                "source_sentence": "10",
+                "table_locator": {
+                  "table_id": "T_3_58",
+                  "row_label": "10",
+                  "column_label": "ABS content (phr)",
+                  "cell_value": "10",
+                  "cell_id": "T_3_58:r0004:c0000",
+                  "row_index": 4,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "140.14 ± 18.22",
+          "value_min": 140.14,
+          "value_max": 140.14,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": {
+              "raw": "23°C",
+              "value": 23.0,
+              "unit": "°C",
+              "evidence": [
+                {
+                  "block_id": "P_1_33",
+                  "page": 1,
+                  "bbox": [
+                    507.0,
+                    581.0,
+                    926.0,
+                    656.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "The tensile test was conducted under ASTM D638-2000 at $2 3 ^ { \\circ } \\mathrm { C }$ using an Instron tester with a crosshead speed of 50 mm/ min.",
+                  "table_locator": null
+                }
+              ],
+              "evidence_ids": []
+            },
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_3_58",
+              "page": 3,
+              "bbox": [
+                73.0,
+                714.0,
+                484.0,
+                875.0
+              ],
+              "source_type": "table",
+              "source_sentence": "140.14 ± 18.22",
+              "table_locator": {
+                "table_id": "T_3_58",
+                "row_label": "10",
+                "column_label": "Elongation at break (%)",
+                "cell_value": "140.14 ± 18.22",
+                "cell_id": "T_3_58:r0004:c0003",
+                "row_index": 4,
+                "column_index": 3
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt015",
+          "observation_role": "series_point",
+          "sample_id": "s004",
+          "entity_id": "pe010",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "ABS content",
+              "value_raw": "12",
+              "unit_raw": "phr",
+              "evidence": {
+                "block_id": "T_3_58",
+                "page": 3,
+                "bbox": [
+                  73.0,
+                  714.0,
+                  484.0,
+                  875.0
+                ],
+                "source_type": "table",
+                "source_sentence": "12",
+                "table_locator": {
+                  "table_id": "T_3_58",
+                  "row_label": "12",
+                  "column_label": "ABS content (phr)",
+                  "cell_value": "12",
+                  "cell_id": "T_3_58:r0005:c0000",
+                  "row_index": 5,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "158.67 ± 11.98",
+          "value_min": 158.67,
+          "value_max": 158.67,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": {
+              "raw": "23°C",
+              "value": 23.0,
+              "unit": "°C",
+              "evidence": [
+                {
+                  "block_id": "P_1_33",
+                  "page": 1,
+                  "bbox": [
+                    507.0,
+                    581.0,
+                    926.0,
+                    656.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "The tensile test was conducted under ASTM D638-2000 at $2 3 ^ { \\circ } \\mathrm { C }$ using an Instron tester with a crosshead speed of 50 mm/ min.",
+                  "table_locator": null
+                }
+              ],
+              "evidence_ids": []
+            },
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_3_58",
+              "page": 3,
+              "bbox": [
+                73.0,
+                714.0,
+                484.0,
+                875.0
+              ],
+              "source_type": "table",
+              "source_sentence": "158.67 ± 11.98",
+              "table_locator": {
+                "table_id": "T_3_58",
+                "row_label": "12",
+                "column_label": "Elongation at break (%)",
+                "cell_value": "158.67 ± 11.98",
+                "cell_id": "T_3_58:r0005:c0003",
+                "row_index": 5,
+                "column_index": 3
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        }
+      ],
+      "coverage": {
+        "expected": 5,
+        "covered": 5,
+        "missing": 0,
+        "not_applicable": 0,
+        "ratio": 1.0
+      },
+      "evidence": [
+        {
+          "block_id": "P_1_33",
+          "page": 1,
+          "bbox": [
+            507.0,
+            581.0,
+            926.0,
+            656.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The tensile test was conducted under ASTM D638-2000 at $2 3 ^ { \\circ } \\mathrm { C }$using an Instron tester with a crosshead speed of 50 mm/ min.",
+          "table_locator": null
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "series_id": "series004",
+      "sample_id": "s005",
+      "entity_id": "pe011",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "Impact strength",
+      "property_name_normalized": "izod_impact",
+      "property_code": "P8550",
+      "property_category": "impact_strength",
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "unit_raw": "J/m",
+      "unit_normalized": "J/m",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "points": [
+        {
+          "point_id": "pt016",
+          "observation_role": "series_point",
+          "sample_id": "s005",
+          "entity_id": "pe011",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "SMIA content",
+              "value_raw": "0",
+              "unit_raw": "phr",
+              "evidence": {
+                "block_id": "T_4_70",
+                "page": 4,
+                "bbox": [
+                  73.0,
+                  453.0,
+                  484.0,
+                  615.0
+                ],
+                "source_type": "table",
+                "source_sentence": "0",
+                "table_locator": {
+                  "table_id": "T_4_70",
+                  "row_label": "0",
+                  "column_label": "SMIA content (phr)",
+                  "cell_value": "0",
+                  "cell_id": "T_4_70:r0001:c0000",
+                  "row_index": 1,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "1350.60 ± 23.10",
+          "value_min": 1350.6,
+          "value_max": 1350.6,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_4_70",
+              "page": 4,
+              "bbox": [
+                73.0,
+                453.0,
+                484.0,
+                615.0
+              ],
+              "source_type": "table",
+              "source_sentence": "1350.60 ± 23.10",
+              "table_locator": {
+                "table_id": "T_4_70",
+                "row_label": "0",
+                "column_label": "Impact strength (J/m)",
+                "cell_value": "1350.60 ± 23.10",
+                "cell_id": "T_4_70:r0001:c0001",
+                "row_index": 1,
+                "column_index": 1
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt017",
+          "observation_role": "series_point",
+          "sample_id": "s005",
+          "entity_id": "pe011",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "SMIA content",
+              "value_raw": "5",
+              "unit_raw": "phr",
+              "evidence": {
+                "block_id": "T_4_70",
+                "page": 4,
+                "bbox": [
+                  73.0,
+                  453.0,
+                  484.0,
+                  615.0
+                ],
+                "source_type": "table",
+                "source_sentence": "5",
+                "table_locator": {
+                  "table_id": "T_4_70",
+                  "row_label": "5",
+                  "column_label": "SMIA content (phr)",
+                  "cell_value": "5",
+                  "cell_id": "T_4_70:r0002:c0000",
+                  "row_index": 2,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "1266.25 ± 15.18",
+          "value_min": 1266.25,
+          "value_max": 1266.25,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_4_70",
+              "page": 4,
+              "bbox": [
+                73.0,
+                453.0,
+                484.0,
+                615.0
+              ],
+              "source_type": "table",
+              "source_sentence": "1266.25 ± 15.18",
+              "table_locator": {
+                "table_id": "T_4_70",
+                "row_label": "5",
+                "column_label": "Impact strength (J/m)",
+                "cell_value": "1266.25 ± 15.18",
+                "cell_id": "T_4_70:r0002:c0001",
+                "row_index": 2,
+                "column_index": 1
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt018",
+          "observation_role": "series_point",
+          "sample_id": "s005",
+          "entity_id": "pe011",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "SMIA content",
+              "value_raw": "10",
+              "unit_raw": "phr",
+              "evidence": {
+                "block_id": "T_4_70",
+                "page": 4,
+                "bbox": [
+                  73.0,
+                  453.0,
+                  484.0,
+                  615.0
+                ],
+                "source_type": "table",
+                "source_sentence": "10",
+                "table_locator": {
+                  "table_id": "T_4_70",
+                  "row_label": "10",
+                  "column_label": "SMIA content (phr)",
+                  "cell_value": "10",
+                  "cell_id": "T_4_70:r0003:c0000",
+                  "row_index": 3,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "1031.61 ± 39.46",
+          "value_min": 1031.61,
+          "value_max": 1031.61,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_4_70",
+              "page": 4,
+              "bbox": [
+                73.0,
+                453.0,
+                484.0,
+                615.0
+              ],
+              "source_type": "table",
+              "source_sentence": "1031.61 ± 39.46",
+              "table_locator": {
+                "table_id": "T_4_70",
+                "row_label": "10",
+                "column_label": "Impact strength (J/m)",
+                "cell_value": "1031.61 ± 39.46",
+                "cell_id": "T_4_70:r0003:c0001",
+                "row_index": 3,
+                "column_index": 1
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt019",
+          "observation_role": "series_point",
+          "sample_id": "s005",
+          "entity_id": "pe011",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "SMIA content",
+              "value_raw": "15",
+              "unit_raw": "phr",
+              "evidence": {
+                "block_id": "T_4_70",
+                "page": 4,
+                "bbox": [
+                  73.0,
+                  453.0,
+                  484.0,
+                  615.0
+                ],
+                "source_type": "table",
+                "source_sentence": "15",
+                "table_locator": {
+                  "table_id": "T_4_70",
+                  "row_label": "15",
+                  "column_label": "SMIA content (phr)",
+                  "cell_value": "15",
+                  "cell_id": "T_4_70:r0004:c0000",
+                  "row_index": 4,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "651.9 ± 39.66",
+          "value_min": 651.9,
+          "value_max": 651.9,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_4_70",
+              "page": 4,
+              "bbox": [
+                73.0,
+                453.0,
+                484.0,
+                615.0
+              ],
+              "source_type": "table",
+              "source_sentence": "651.9 ± 39.66",
+              "table_locator": {
+                "table_id": "T_4_70",
+                "row_label": "15",
+                "column_label": "Impact strength (J/m)",
+                "cell_value": "651.9 ± 39.66",
+                "cell_id": "T_4_70:r0004:c0001",
+                "row_index": 4,
+                "column_index": 1
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt020",
+          "observation_role": "series_point",
+          "sample_id": "s005",
+          "entity_id": "pe011",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "SMIA content",
+              "value_raw": "20",
+              "unit_raw": "phr",
+              "evidence": {
+                "block_id": "T_4_70",
+                "page": 4,
+                "bbox": [
+                  73.0,
+                  453.0,
+                  484.0,
+                  615.0
+                ],
+                "source_type": "table",
+                "source_sentence": "20",
+                "table_locator": {
+                  "table_id": "T_4_70",
+                  "row_label": "20",
+                  "column_label": "SMIA content (phr)",
+                  "cell_value": "20",
+                  "cell_id": "T_4_70:r0005:c0000",
+                  "row_index": 5,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "397.14 ± 7.07",
+          "value_min": 397.14,
+          "value_max": 397.14,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_4_70",
+              "page": 4,
+              "bbox": [
+                73.0,
+                453.0,
+                484.0,
+                615.0
+              ],
+              "source_type": "table",
+              "source_sentence": "397.14 ± 7.07",
+              "table_locator": {
+                "table_id": "T_4_70",
+                "row_label": "20",
+                "column_label": "Impact strength (J/m)",
+                "cell_value": "397.14 ± 7.07",
+                "cell_id": "T_4_70:r0005:c0001",
+                "row_index": 5,
+                "column_index": 1
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        }
+      ],
+      "coverage": {
+        "expected": 5,
+        "covered": 5,
+        "missing": 0,
+        "not_applicable": 0,
+        "ratio": 1.0
+      },
+      "evidence": [
+        {
+          "block_id": "T_4_70",
+          "page": 4,
+          "bbox": [
+            73.0,
+            453.0,
+            484.0,
+            615.0
+          ],
+          "source_type": "table",
+          "source_sentence": "1350.60 ± 23.10",
+          "table_locator": {
+            "table_id": "T_4_70",
+            "row_label": "0",
+            "column_label": "Impact strength (J/m)",
+            "cell_value": "1350.60 ± 23.10",
+            "cell_id": "T_4_70:r0001:c0001",
+            "row_index": 1,
+            "column_index": 1
+          }
+        },
+        {
+          "block_id": "T_4_70",
+          "page": 4,
+          "bbox": [
+            73.0,
+            453.0,
+            484.0,
+            615.0
+          ],
+          "source_type": "table",
+          "source_sentence": "1266.25 ± 15.18",
+          "table_locator": {
+            "table_id": "T_4_70",
+            "row_label": "5",
+            "column_label": "Impact strength (J/m)",
+            "cell_value": "1266.25 ± 15.18",
+            "cell_id": "T_4_70:r0002:c0001",
+            "row_index": 2,
+            "column_index": 1
+          }
+        },
+        {
+          "block_id": "T_4_70",
+          "page": 4,
+          "bbox": [
+            73.0,
+            453.0,
+            484.0,
+            615.0
+          ],
+          "source_type": "table",
+          "source_sentence": "1031.61 ± 39.46",
+          "table_locator": {
+            "table_id": "T_4_70",
+            "row_label": "10",
+            "column_label": "Impact strength (J/m)",
+            "cell_value": "1031.61 ± 39.46",
+            "cell_id": "T_4_70:r0003:c0001",
+            "row_index": 3,
+            "column_index": 1
+          }
+        },
+        {
+          "block_id": "T_4_70",
+          "page": 4,
+          "bbox": [
+            73.0,
+            453.0,
+            484.0,
+            615.0
+          ],
+          "source_type": "table",
+          "source_sentence": "651.9 ± 39.66",
+          "table_locator": {
+            "table_id": "T_4_70",
+            "row_label": "15",
+            "column_label": "Impact strength (J/m)",
+            "cell_value": "651.9 ± 39.66",
+            "cell_id": "T_4_70:r0004:c0001",
+            "row_index": 4,
+            "column_index": 1
+          }
+        },
+        {
+          "block_id": "T_4_70",
+          "page": 4,
+          "bbox": [
+            73.0,
+            453.0,
+            484.0,
+            615.0
+          ],
+          "source_type": "table",
+          "source_sentence": "397.14 ± 7.07",
+          "table_locator": {
+            "table_id": "T_4_70",
+            "row_label": "20",
+            "column_label": "Impact strength (J/m)",
+            "cell_value": "397.14 ± 7.07",
+            "cell_id": "T_4_70:r0005:c0001",
+            "row_index": 5,
+            "column_index": 1
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "series_id": "series005",
+      "sample_id": "s005",
+      "entity_id": "pe011",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "Tensile strength",
+      "property_name_normalized": "tensile_stress_at_break",
+      "property_code": "P8110",
+      "property_category": "tensile_property",
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "unit_raw": "MPa",
+      "unit_normalized": "MPa",
+      "measurement_context": {
+        "temperature": {
+          "raw": "23°C",
+          "value": 23.0,
+          "unit": "°C",
+          "evidence": [
+            {
+              "block_id": "P_1_33",
+              "page": 1,
+              "bbox": [
+                507.0,
+                581.0,
+                926.0,
+                656.0
+              ],
+              "source_type": "text",
+              "source_sentence": "The tensile test was conducted under ASTM D638-2000 at $2 3 ^ { \\circ } \\mathrm { C }$ using an Instron tester with a crosshead speed of 50 mm/ min.",
+              "table_locator": null
+            }
+          ],
+          "evidence_ids": []
+        },
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "points": [
+        {
+          "point_id": "pt021",
+          "observation_role": "series_point",
+          "sample_id": "s005",
+          "entity_id": "pe011",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "SMIA content",
+              "value_raw": "0",
+              "unit_raw": "phr",
+              "evidence": {
+                "block_id": "T_4_70",
+                "page": 4,
+                "bbox": [
+                  73.0,
+                  453.0,
+                  484.0,
+                  615.0
+                ],
+                "source_type": "table",
+                "source_sentence": "0",
+                "table_locator": {
+                  "table_id": "T_4_70",
+                  "row_label": "0",
+                  "column_label": "SMIA content (phr)",
+                  "cell_value": "0",
+                  "cell_id": "T_4_70:r0001:c0000",
+                  "row_index": 1,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "48.02 ± 1.25",
+          "value_min": 48.02,
+          "value_max": 48.02,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": {
+              "raw": "23°C",
+              "value": 23.0,
+              "unit": "°C",
+              "evidence": [
+                {
+                  "block_id": "P_1_33",
+                  "page": 1,
+                  "bbox": [
+                    507.0,
+                    581.0,
+                    926.0,
+                    656.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "The tensile test was conducted under ASTM D638-2000 at $2 3 ^ { \\circ } \\mathrm { C }$ using an Instron tester with a crosshead speed of 50 mm/ min.",
+                  "table_locator": null
+                }
+              ],
+              "evidence_ids": []
+            },
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_4_70",
+              "page": 4,
+              "bbox": [
+                73.0,
+                453.0,
+                484.0,
+                615.0
+              ],
+              "source_type": "table",
+              "source_sentence": "48.02 ± 1.25",
+              "table_locator": {
+                "table_id": "T_4_70",
+                "row_label": "0",
+                "column_label": "Tensile strength (MPa)",
+                "cell_value": "48.02 ± 1.25",
+                "cell_id": "T_4_70:r0001:c0002",
+                "row_index": 1,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt022",
+          "observation_role": "series_point",
+          "sample_id": "s005",
+          "entity_id": "pe011",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "SMIA content",
+              "value_raw": "5",
+              "unit_raw": "phr",
+              "evidence": {
+                "block_id": "T_4_70",
+                "page": 4,
+                "bbox": [
+                  73.0,
+                  453.0,
+                  484.0,
+                  615.0
+                ],
+                "source_type": "table",
+                "source_sentence": "5",
+                "table_locator": {
+                  "table_id": "T_4_70",
+                  "row_label": "5",
+                  "column_label": "SMIA content (phr)",
+                  "cell_value": "5",
+                  "cell_id": "T_4_70:r0002:c0000",
+                  "row_index": 2,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "42.63 ± 1.31",
+          "value_min": 42.63,
+          "value_max": 42.63,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": {
+              "raw": "23°C",
+              "value": 23.0,
+              "unit": "°C",
+              "evidence": [
+                {
+                  "block_id": "P_1_33",
+                  "page": 1,
+                  "bbox": [
+                    507.0,
+                    581.0,
+                    926.0,
+                    656.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "The tensile test was conducted under ASTM D638-2000 at $2 3 ^ { \\circ } \\mathrm { C }$ using an Instron tester with a crosshead speed of 50 mm/ min.",
+                  "table_locator": null
+                }
+              ],
+              "evidence_ids": []
+            },
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_4_70",
+              "page": 4,
+              "bbox": [
+                73.0,
+                453.0,
+                484.0,
+                615.0
+              ],
+              "source_type": "table",
+              "source_sentence": "42.63 ± 1.31",
+              "table_locator": {
+                "table_id": "T_4_70",
+                "row_label": "5",
+                "column_label": "Tensile strength (MPa)",
+                "cell_value": "42.63 ± 1.31",
+                "cell_id": "T_4_70:r0002:c0002",
+                "row_index": 2,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt023",
+          "observation_role": "series_point",
+          "sample_id": "s005",
+          "entity_id": "pe011",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "SMIA content",
+              "value_raw": "10",
+              "unit_raw": "phr",
+              "evidence": {
+                "block_id": "T_4_70",
+                "page": 4,
+                "bbox": [
+                  73.0,
+                  453.0,
+                  484.0,
+                  615.0
+                ],
+                "source_type": "table",
+                "source_sentence": "10",
+                "table_locator": {
+                  "table_id": "T_4_70",
+                  "row_label": "10",
+                  "column_label": "SMIA content (phr)",
+                  "cell_value": "10",
+                  "cell_id": "T_4_70:r0003:c0000",
+                  "row_index": 3,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "44.45 ± 1.48",
+          "value_min": 44.45,
+          "value_max": 44.45,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": {
+              "raw": "23°C",
+              "value": 23.0,
+              "unit": "°C",
+              "evidence": [
+                {
+                  "block_id": "P_1_33",
+                  "page": 1,
+                  "bbox": [
+                    507.0,
+                    581.0,
+                    926.0,
+                    656.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "The tensile test was conducted under ASTM D638-2000 at $2 3 ^ { \\circ } \\mathrm { C }$ using an Instron tester with a crosshead speed of 50 mm/ min.",
+                  "table_locator": null
+                }
+              ],
+              "evidence_ids": []
+            },
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_4_70",
+              "page": 4,
+              "bbox": [
+                73.0,
+                453.0,
+                484.0,
+                615.0
+              ],
+              "source_type": "table",
+              "source_sentence": "44.45 ± 1.48",
+              "table_locator": {
+                "table_id": "T_4_70",
+                "row_label": "10",
+                "column_label": "Tensile strength (MPa)",
+                "cell_value": "44.45 ± 1.48",
+                "cell_id": "T_4_70:r0003:c0002",
+                "row_index": 3,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt024",
+          "observation_role": "series_point",
+          "sample_id": "s005",
+          "entity_id": "pe011",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "SMIA content",
+              "value_raw": "15",
+              "unit_raw": "phr",
+              "evidence": {
+                "block_id": "T_4_70",
+                "page": 4,
+                "bbox": [
+                  73.0,
+                  453.0,
+                  484.0,
+                  615.0
+                ],
+                "source_type": "table",
+                "source_sentence": "15",
+                "table_locator": {
+                  "table_id": "T_4_70",
+                  "row_label": "15",
+                  "column_label": "SMIA content (phr)",
+                  "cell_value": "15",
+                  "cell_id": "T_4_70:r0004:c0000",
+                  "row_index": 4,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "44.80 ± 1.62",
+          "value_min": 44.8,
+          "value_max": 44.8,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": {
+              "raw": "23°C",
+              "value": 23.0,
+              "unit": "°C",
+              "evidence": [
+                {
+                  "block_id": "P_1_33",
+                  "page": 1,
+                  "bbox": [
+                    507.0,
+                    581.0,
+                    926.0,
+                    656.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "The tensile test was conducted under ASTM D638-2000 at $2 3 ^ { \\circ } \\mathrm { C }$ using an Instron tester with a crosshead speed of 50 mm/ min.",
+                  "table_locator": null
+                }
+              ],
+              "evidence_ids": []
+            },
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_4_70",
+              "page": 4,
+              "bbox": [
+                73.0,
+                453.0,
+                484.0,
+                615.0
+              ],
+              "source_type": "table",
+              "source_sentence": "44.80 ± 1.62",
+              "table_locator": {
+                "table_id": "T_4_70",
+                "row_label": "15",
+                "column_label": "Tensile strength (MPa)",
+                "cell_value": "44.80 ± 1.62",
+                "cell_id": "T_4_70:r0004:c0002",
+                "row_index": 4,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt025",
+          "observation_role": "series_point",
+          "sample_id": "s005",
+          "entity_id": "pe011",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "SMIA content",
+              "value_raw": "20",
+              "unit_raw": "phr",
+              "evidence": {
+                "block_id": "T_4_70",
+                "page": 4,
+                "bbox": [
+                  73.0,
+                  453.0,
+                  484.0,
+                  615.0
+                ],
+                "source_type": "table",
+                "source_sentence": "20",
+                "table_locator": {
+                  "table_id": "T_4_70",
+                  "row_label": "20",
+                  "column_label": "SMIA content (phr)",
+                  "cell_value": "20",
+                  "cell_id": "T_4_70:r0005:c0000",
+                  "row_index": 5,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "45.58 ± 1.21",
+          "value_min": 45.58,
+          "value_max": 45.58,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": {
+              "raw": "23°C",
+              "value": 23.0,
+              "unit": "°C",
+              "evidence": [
+                {
+                  "block_id": "P_1_33",
+                  "page": 1,
+                  "bbox": [
+                    507.0,
+                    581.0,
+                    926.0,
+                    656.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "The tensile test was conducted under ASTM D638-2000 at $2 3 ^ { \\circ } \\mathrm { C }$ using an Instron tester with a crosshead speed of 50 mm/ min.",
+                  "table_locator": null
+                }
+              ],
+              "evidence_ids": []
+            },
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_4_70",
+              "page": 4,
+              "bbox": [
+                73.0,
+                453.0,
+                484.0,
+                615.0
+              ],
+              "source_type": "table",
+              "source_sentence": "45.58 ± 1.21",
+              "table_locator": {
+                "table_id": "T_4_70",
+                "row_label": "20",
+                "column_label": "Tensile strength (MPa)",
+                "cell_value": "45.58 ± 1.21",
+                "cell_id": "T_4_70:r0005:c0002",
+                "row_index": 5,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        }
+      ],
+      "coverage": {
+        "expected": 5,
+        "covered": 5,
+        "missing": 0,
+        "not_applicable": 0,
+        "ratio": 1.0
+      },
+      "evidence": [
+        {
+          "block_id": "P_1_33",
+          "page": 1,
+          "bbox": [
+            507.0,
+            581.0,
+            926.0,
+            656.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The tensile test was conducted under ASTM D638-2000 at $2 3 ^ { \\circ } \\mathrm { C }$using an Instron tester with a crosshead speed of 50 mm/ min.",
+          "table_locator": null
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "series_id": "series006",
+      "sample_id": "s005",
+      "entity_id": "pe011",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "Elongation at break",
+      "property_name_normalized": "elongation_at_break",
+      "property_code": "P8110",
+      "property_category": "tensile_property",
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "unit_raw": "%",
+      "unit_normalized": "%",
+      "measurement_context": {
+        "temperature": {
+          "raw": "23°C",
+          "value": 23.0,
+          "unit": "°C",
+          "evidence": [
+            {
+              "block_id": "P_1_33",
+              "page": 1,
+              "bbox": [
+                507.0,
+                581.0,
+                926.0,
+                656.0
+              ],
+              "source_type": "text",
+              "source_sentence": "The tensile test was conducted under ASTM D638-2000 at $2 3 ^ { \\circ } \\mathrm { C }$ using an Instron tester with a crosshead speed of 50 mm/ min.",
+              "table_locator": null
+            }
+          ],
+          "evidence_ids": []
+        },
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "points": [
+        {
+          "point_id": "pt026",
+          "observation_role": "series_point",
+          "sample_id": "s005",
+          "entity_id": "pe011",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "SMIA content",
+              "value_raw": "0",
+              "unit_raw": "phr",
+              "evidence": {
+                "block_id": "T_4_70",
+                "page": 4,
+                "bbox": [
+                  73.0,
+                  453.0,
+                  484.0,
+                  615.0
+                ],
+                "source_type": "table",
+                "source_sentence": "0",
+                "table_locator": {
+                  "table_id": "T_4_70",
+                  "row_label": "0",
+                  "column_label": "SMIA content (phr)",
+                  "cell_value": "0",
+                  "cell_id": "T_4_70:r0001:c0000",
+                  "row_index": 1,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "140.14 ± 18.22",
+          "value_min": 140.14,
+          "value_max": 140.14,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": {
+              "raw": "23°C",
+              "value": 23.0,
+              "unit": "°C",
+              "evidence": [
+                {
+                  "block_id": "P_1_33",
+                  "page": 1,
+                  "bbox": [
+                    507.0,
+                    581.0,
+                    926.0,
+                    656.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "The tensile test was conducted under ASTM D638-2000 at $2 3 ^ { \\circ } \\mathrm { C }$ using an Instron tester with a crosshead speed of 50 mm/ min.",
+                  "table_locator": null
+                }
+              ],
+              "evidence_ids": []
+            },
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_4_70",
+              "page": 4,
+              "bbox": [
+                73.0,
+                453.0,
+                484.0,
+                615.0
+              ],
+              "source_type": "table",
+              "source_sentence": "140.14 ± 18.22",
+              "table_locator": {
+                "table_id": "T_4_70",
+                "row_label": "0",
+                "column_label": "Elongation at break (%)",
+                "cell_value": "140.14 ± 18.22",
+                "cell_id": "T_4_70:r0001:c0003",
+                "row_index": 1,
+                "column_index": 3
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt027",
+          "observation_role": "series_point",
+          "sample_id": "s005",
+          "entity_id": "pe011",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "SMIA content",
+              "value_raw": "5",
+              "unit_raw": "phr",
+              "evidence": {
+                "block_id": "T_4_70",
+                "page": 4,
+                "bbox": [
+                  73.0,
+                  453.0,
+                  484.0,
+                  615.0
+                ],
+                "source_type": "table",
+                "source_sentence": "5",
+                "table_locator": {
+                  "table_id": "T_4_70",
+                  "row_label": "5",
+                  "column_label": "SMIA content (phr)",
+                  "cell_value": "5",
+                  "cell_id": "T_4_70:r0002:c0000",
+                  "row_index": 2,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "133.86 ± 9.07",
+          "value_min": 133.86,
+          "value_max": 133.86,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": {
+              "raw": "23°C",
+              "value": 23.0,
+              "unit": "°C",
+              "evidence": [
+                {
+                  "block_id": "P_1_33",
+                  "page": 1,
+                  "bbox": [
+                    507.0,
+                    581.0,
+                    926.0,
+                    656.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "The tensile test was conducted under ASTM D638-2000 at $2 3 ^ { \\circ } \\mathrm { C }$ using an Instron tester with a crosshead speed of 50 mm/ min.",
+                  "table_locator": null
+                }
+              ],
+              "evidence_ids": []
+            },
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_4_70",
+              "page": 4,
+              "bbox": [
+                73.0,
+                453.0,
+                484.0,
+                615.0
+              ],
+              "source_type": "table",
+              "source_sentence": "133.86 ± 9.07",
+              "table_locator": {
+                "table_id": "T_4_70",
+                "row_label": "5",
+                "column_label": "Elongation at break (%)",
+                "cell_value": "133.86 ± 9.07",
+                "cell_id": "T_4_70:r0002:c0003",
+                "row_index": 2,
+                "column_index": 3
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt028",
+          "observation_role": "series_point",
+          "sample_id": "s005",
+          "entity_id": "pe011",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "SMIA content",
+              "value_raw": "10",
+              "unit_raw": "phr",
+              "evidence": {
+                "block_id": "T_4_70",
+                "page": 4,
+                "bbox": [
+                  73.0,
+                  453.0,
+                  484.0,
+                  615.0
+                ],
+                "source_type": "table",
+                "source_sentence": "10",
+                "table_locator": {
+                  "table_id": "T_4_70",
+                  "row_label": "10",
+                  "column_label": "SMIA content (phr)",
+                  "cell_value": "10",
+                  "cell_id": "T_4_70:r0003:c0000",
+                  "row_index": 3,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "69.06 ± 4.24",
+          "value_min": 69.06,
+          "value_max": 69.06,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": {
+              "raw": "23°C",
+              "value": 23.0,
+              "unit": "°C",
+              "evidence": [
+                {
+                  "block_id": "P_1_33",
+                  "page": 1,
+                  "bbox": [
+                    507.0,
+                    581.0,
+                    926.0,
+                    656.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "The tensile test was conducted under ASTM D638-2000 at $2 3 ^ { \\circ } \\mathrm { C }$ using an Instron tester with a crosshead speed of 50 mm/ min.",
+                  "table_locator": null
+                }
+              ],
+              "evidence_ids": []
+            },
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_4_70",
+              "page": 4,
+              "bbox": [
+                73.0,
+                453.0,
+                484.0,
+                615.0
+              ],
+              "source_type": "table",
+              "source_sentence": "69.06 ± 4.24",
+              "table_locator": {
+                "table_id": "T_4_70",
+                "row_label": "10",
+                "column_label": "Elongation at break (%)",
+                "cell_value": "69.06 ± 4.24",
+                "cell_id": "T_4_70:r0003:c0003",
+                "row_index": 3,
+                "column_index": 3
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt029",
+          "observation_role": "series_point",
+          "sample_id": "s005",
+          "entity_id": "pe011",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "SMIA content",
+              "value_raw": "15",
+              "unit_raw": "phr",
+              "evidence": {
+                "block_id": "T_4_70",
+                "page": 4,
+                "bbox": [
+                  73.0,
+                  453.0,
+                  484.0,
+                  615.0
+                ],
+                "source_type": "table",
+                "source_sentence": "15",
+                "table_locator": {
+                  "table_id": "T_4_70",
+                  "row_label": "15",
+                  "column_label": "SMIA content (phr)",
+                  "cell_value": "15",
+                  "cell_id": "T_4_70:r0004:c0000",
+                  "row_index": 4,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "43.89 ± 2.85",
+          "value_min": 43.89,
+          "value_max": 43.89,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": {
+              "raw": "23°C",
+              "value": 23.0,
+              "unit": "°C",
+              "evidence": [
+                {
+                  "block_id": "P_1_33",
+                  "page": 1,
+                  "bbox": [
+                    507.0,
+                    581.0,
+                    926.0,
+                    656.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "The tensile test was conducted under ASTM D638-2000 at $2 3 ^ { \\circ } \\mathrm { C }$ using an Instron tester with a crosshead speed of 50 mm/ min.",
+                  "table_locator": null
+                }
+              ],
+              "evidence_ids": []
+            },
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_4_70",
+              "page": 4,
+              "bbox": [
+                73.0,
+                453.0,
+                484.0,
+                615.0
+              ],
+              "source_type": "table",
+              "source_sentence": "43.89 ± 2.85",
+              "table_locator": {
+                "table_id": "T_4_70",
+                "row_label": "15",
+                "column_label": "Elongation at break (%)",
+                "cell_value": "43.89 ± 2.85",
+                "cell_id": "T_4_70:r0004:c0003",
+                "row_index": 4,
+                "column_index": 3
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt030",
+          "observation_role": "series_point",
+          "sample_id": "s005",
+          "entity_id": "pe011",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "SMIA content",
+              "value_raw": "20",
+              "unit_raw": "phr",
+              "evidence": {
+                "block_id": "T_4_70",
+                "page": 4,
+                "bbox": [
+                  73.0,
+                  453.0,
+                  484.0,
+                  615.0
+                ],
+                "source_type": "table",
+                "source_sentence": "20",
+                "table_locator": {
+                  "table_id": "T_4_70",
+                  "row_label": "20",
+                  "column_label": "SMIA content (phr)",
+                  "cell_value": "20",
+                  "cell_id": "T_4_70:r0005:c0000",
+                  "row_index": 5,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "30.03 ± 3.67",
+          "value_min": 30.03,
+          "value_max": 30.03,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": {
+              "raw": "23°C",
+              "value": 23.0,
+              "unit": "°C",
+              "evidence": [
+                {
+                  "block_id": "P_1_33",
+                  "page": 1,
+                  "bbox": [
+                    507.0,
+                    581.0,
+                    926.0,
+                    656.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "The tensile test was conducted under ASTM D638-2000 at $2 3 ^ { \\circ } \\mathrm { C }$ using an Instron tester with a crosshead speed of 50 mm/ min.",
+                  "table_locator": null
+                }
+              ],
+              "evidence_ids": []
+            },
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_4_70",
+              "page": 4,
+              "bbox": [
+                73.0,
+                453.0,
+                484.0,
+                615.0
+              ],
+              "source_type": "table",
+              "source_sentence": "30.03 ± 3.67",
+              "table_locator": {
+                "table_id": "T_4_70",
+                "row_label": "20",
+                "column_label": "Elongation at break (%)",
+                "cell_value": "30.03 ± 3.67",
+                "cell_id": "T_4_70:r0005:c0003",
+                "row_index": 5,
+                "column_index": 3
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        }
+      ],
+      "coverage": {
+        "expected": 5,
+        "covered": 5,
+        "missing": 0,
+        "not_applicable": 0,
+        "ratio": 1.0
+      },
+      "evidence": [
+        {
+          "block_id": "P_1_33",
+          "page": 1,
+          "bbox": [
+            507.0,
+            581.0,
+            926.0,
+            656.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The tensile test was conducted under ASTM D638-2000 at $2 3 ^ { \\circ } \\mathrm { C }$using an Instron tester with a crosshead speed of 50 mm/ min.",
+          "table_locator": null
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "series_id": "series007",
+      "sample_id": null,
+      "entity_id": null,
+      "sample_resolution_status": "unresolved",
+      "property_name_raw": "Tg1",
+      "property_name_normalized": "glass_transition_temperature",
+      "property_code": "P3110",
+      "property_category": "thermal_property",
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "unit_raw": "°C",
+      "unit_normalized": "°C",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": {
+          "raw": "1 Hz",
+          "value": 1.0,
+          "unit": "Hz",
+          "evidence": [
+            {
+              "block_id": "P_1_35",
+              "page": 1,
+              "bbox": [
+                507.0,
+                714.0,
+                926.0,
+                804.0
+              ],
+              "source_type": "text",
+              "source_sentence": "at 1 Hz frequency",
+              "table_locator": null
+            }
+          ],
+          "evidence_ids": []
+        },
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "points": [
+        {
+          "point_id": "pt031",
+          "observation_role": "series_point",
+          "sample_id": "s005",
+          "entity_id": "pe011",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "SMIA content",
+              "value_raw": "0",
+              "unit_raw": "phr",
+              "evidence": {
+                "block_id": "T_5_83",
+                "page": 5,
+                "bbox": [
+                  510.0,
+                  384.0,
+                  922.0,
+                  514.0
+                ],
+                "source_type": "table",
+                "source_sentence": "0",
+                "table_locator": {
+                  "table_id": "T_5_83",
+                  "row_label": "0",
+                  "column_label": "SMIA content (phr)",
+                  "cell_value": "0",
+                  "cell_id": "T_5_83:r0002:c0000",
+                  "row_index": 2,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "91.20",
+          "value_min": 91.2,
+          "value_max": 91.2,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": {
+              "raw": "1 Hz",
+              "value": 1.0,
+              "unit": "Hz",
+              "evidence": [
+                {
+                  "block_id": "P_1_35",
+                  "page": 1,
+                  "bbox": [
+                    507.0,
+                    714.0,
+                    926.0,
+                    804.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "at 1 Hz frequency",
+                  "table_locator": null
+                }
+              ],
+              "evidence_ids": []
+            },
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_5_83",
+              "page": 5,
+              "bbox": [
+                510.0,
+                384.0,
+                922.0,
+                514.0
+              ],
+              "source_type": "table",
+              "source_sentence": "91.20",
+              "table_locator": {
+                "table_id": "T_5_83",
+                "row_label": "0",
+                "column_label": "$Tg_1$ (°C)",
+                "cell_value": "91.20",
+                "cell_id": "T_5_83:r0002:c0001",
+                "row_index": 2,
+                "column_index": 1
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt032",
+          "observation_role": "series_point",
+          "sample_id": "s005",
+          "entity_id": "pe011",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "SMIA content",
+              "value_raw": "10",
+              "unit_raw": "phr",
+              "evidence": {
+                "block_id": "T_5_83",
+                "page": 5,
+                "bbox": [
+                  510.0,
+                  384.0,
+                  922.0,
+                  514.0
+                ],
+                "source_type": "table",
+                "source_sentence": "10",
+                "table_locator": {
+                  "table_id": "T_5_83",
+                  "row_label": "10",
+                  "column_label": "SMIA content (phr)",
+                  "cell_value": "10",
+                  "cell_id": "T_5_83:r0003:c0000",
+                  "row_index": 3,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "89.30",
+          "value_min": 89.3,
+          "value_max": 89.3,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": {
+              "raw": "1 Hz",
+              "value": 1.0,
+              "unit": "Hz",
+              "evidence": [
+                {
+                  "block_id": "P_1_35",
+                  "page": 1,
+                  "bbox": [
+                    507.0,
+                    714.0,
+                    926.0,
+                    804.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "at 1 Hz frequency",
+                  "table_locator": null
+                }
+              ],
+              "evidence_ids": []
+            },
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_5_83",
+              "page": 5,
+              "bbox": [
+                510.0,
+                384.0,
+                922.0,
+                514.0
+              ],
+              "source_type": "table",
+              "source_sentence": "89.30",
+              "table_locator": {
+                "table_id": "T_5_83",
+                "row_label": "10",
+                "column_label": "$Tg_1$ (°C)",
+                "cell_value": "89.30",
+                "cell_id": "T_5_83:r0003:c0001",
+                "row_index": 3,
+                "column_index": 1
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt033",
+          "observation_role": "series_point",
+          "sample_id": "s005",
+          "entity_id": "pe011",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "SMIA content",
+              "value_raw": "20",
+              "unit_raw": "phr",
+              "evidence": {
+                "block_id": "T_5_83",
+                "page": 5,
+                "bbox": [
+                  510.0,
+                  384.0,
+                  922.0,
+                  514.0
+                ],
+                "source_type": "table",
+                "source_sentence": "20",
+                "table_locator": {
+                  "table_id": "T_5_83",
+                  "row_label": "20",
+                  "column_label": "SMIA content (phr)",
+                  "cell_value": "20",
+                  "cell_id": "T_5_83:r0004:c0000",
+                  "row_index": 4,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "89.60",
+          "value_min": 89.6,
+          "value_max": 89.6,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": {
+              "raw": "1 Hz",
+              "value": 1.0,
+              "unit": "Hz",
+              "evidence": [
+                {
+                  "block_id": "P_1_35",
+                  "page": 1,
+                  "bbox": [
+                    507.0,
+                    714.0,
+                    926.0,
+                    804.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "at 1 Hz frequency",
+                  "table_locator": null
+                }
+              ],
+              "evidence_ids": []
+            },
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_5_83",
+              "page": 5,
+              "bbox": [
+                510.0,
+                384.0,
+                922.0,
+                514.0
+              ],
+              "source_type": "table",
+              "source_sentence": "89.60",
+              "table_locator": {
+                "table_id": "T_5_83",
+                "row_label": "20",
+                "column_label": "$Tg_1$ (°C)",
+                "cell_value": "89.60",
+                "cell_id": "T_5_83:r0004:c0001",
+                "row_index": 4,
+                "column_index": 1
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt034",
+          "observation_role": "series_point",
+          "sample_id": "s003",
+          "entity_id": "pe003",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "SMIA content",
+              "value_raw": "SMIA",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_5_83",
+                "page": 5,
+                "bbox": [
+                  510.0,
+                  384.0,
+                  922.0,
+                  514.0
+                ],
+                "source_type": "table",
+                "source_sentence": "SMIA",
+                "table_locator": {
+                  "table_id": "T_5_83",
+                  "row_label": "SMIA",
+                  "column_label": "SMIA content (phr)",
+                  "cell_value": "SMIA",
+                  "cell_id": "T_5_83:r0005:c0000",
+                  "row_index": 5,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "—",
+          "value_min": null,
+          "value_max": null,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": {
+              "raw": "1 Hz",
+              "value": 1.0,
+              "unit": "Hz",
+              "evidence": [
+                {
+                  "block_id": "P_1_35",
+                  "page": 1,
+                  "bbox": [
+                    507.0,
+                    714.0,
+                    926.0,
+                    804.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "at 1 Hz frequency",
+                  "table_locator": null
+                }
+              ],
+              "evidence_ids": []
+            },
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "not_applicable",
+          "evidence": [
+            {
+              "block_id": "T_5_83",
+              "page": 5,
+              "bbox": [
+                510.0,
+                384.0,
+                922.0,
+                514.0
+              ],
+              "source_type": "table",
+              "source_sentence": "—",
+              "table_locator": {
+                "table_id": "T_5_83",
+                "row_label": "SMIA",
+                "column_label": "$Tg_1$ (°C)",
+                "cell_value": "—",
+                "cell_id": "T_5_83:r0005:c0001",
+                "row_index": 5,
+                "column_index": 1
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        }
+      ],
+      "coverage": {
+        "expected": 3,
+        "covered": 3,
+        "missing": 0,
+        "not_applicable": 1,
+        "ratio": 1.0
+      },
+      "evidence": [
+        {
+          "block_id": "P_1_35",
+          "page": 1,
+          "bbox": [
+            507.0,
+            714.0,
+            926.0,
+            804.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The tests were carried out under the tensile mode, at 1 Hz frequency and a heating rate of $3 ^ { \\circ } \\mathrm { C } /$min with a temperature range from $3 0 ^ { \\circ } \\mathrm { C }$to $1 6 0 ^ { \\circ } \\mathrm { C } .$.",
+          "table_locator": null
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "series_id": "series008",
+      "sample_id": null,
+      "entity_id": null,
+      "sample_resolution_status": "unresolved",
+      "property_name_raw": "Tg2",
+      "property_name_normalized": "glass_transition_temperature",
+      "property_code": "P3110",
+      "property_category": "thermal_property",
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "unit_raw": "°C",
+      "unit_normalized": "°C",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": {
+          "raw": "1 Hz",
+          "value": 1.0,
+          "unit": "Hz",
+          "evidence": [
+            {
+              "block_id": "P_1_35",
+              "page": 1,
+              "bbox": [
+                507.0,
+                714.0,
+                926.0,
+                804.0
+              ],
+              "source_type": "text",
+              "source_sentence": "at 1 Hz frequency",
+              "table_locator": null
+            }
+          ],
+          "evidence_ids": []
+        },
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "points": [
+        {
+          "point_id": "pt035",
+          "observation_role": "series_point",
+          "sample_id": "s005",
+          "entity_id": "pe011",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "SMIA content",
+              "value_raw": "0",
+              "unit_raw": "phr",
+              "evidence": {
+                "block_id": "T_5_83",
+                "page": 5,
+                "bbox": [
+                  510.0,
+                  384.0,
+                  922.0,
+                  514.0
+                ],
+                "source_type": "table",
+                "source_sentence": "0",
+                "table_locator": {
+                  "table_id": "T_5_83",
+                  "row_label": "0",
+                  "column_label": "SMIA content (phr)",
+                  "cell_value": "0",
+                  "cell_id": "T_5_83:r0002:c0000",
+                  "row_index": 2,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "—",
+          "value_min": null,
+          "value_max": null,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": {
+              "raw": "1 Hz",
+              "value": 1.0,
+              "unit": "Hz",
+              "evidence": [
+                {
+                  "block_id": "P_1_35",
+                  "page": 1,
+                  "bbox": [
+                    507.0,
+                    714.0,
+                    926.0,
+                    804.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "at 1 Hz frequency",
+                  "table_locator": null
+                }
+              ],
+              "evidence_ids": []
+            },
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "not_applicable",
+          "evidence": [
+            {
+              "block_id": "T_5_83",
+              "page": 5,
+              "bbox": [
+                510.0,
+                384.0,
+                922.0,
+                514.0
+              ],
+              "source_type": "table",
+              "source_sentence": "—",
+              "table_locator": {
+                "table_id": "T_5_83",
+                "row_label": "0",
+                "column_label": "$Tg_2$ (°C)",
+                "cell_value": "—",
+                "cell_id": "T_5_83:r0002:c0002",
+                "row_index": 2,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt036",
+          "observation_role": "series_point",
+          "sample_id": "s005",
+          "entity_id": "pe011",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "SMIA content",
+              "value_raw": "10",
+              "unit_raw": "phr",
+              "evidence": {
+                "block_id": "T_5_83",
+                "page": 5,
+                "bbox": [
+                  510.0,
+                  384.0,
+                  922.0,
+                  514.0
+                ],
+                "source_type": "table",
+                "source_sentence": "10",
+                "table_locator": {
+                  "table_id": "T_5_83",
+                  "row_label": "10",
+                  "column_label": "SMIA content (phr)",
+                  "cell_value": "10",
+                  "cell_id": "T_5_83:r0003:c0000",
+                  "row_index": 3,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "129.80",
+          "value_min": 129.8,
+          "value_max": 129.8,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": {
+              "raw": "1 Hz",
+              "value": 1.0,
+              "unit": "Hz",
+              "evidence": [
+                {
+                  "block_id": "P_1_35",
+                  "page": 1,
+                  "bbox": [
+                    507.0,
+                    714.0,
+                    926.0,
+                    804.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "at 1 Hz frequency",
+                  "table_locator": null
+                }
+              ],
+              "evidence_ids": []
+            },
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_5_83",
+              "page": 5,
+              "bbox": [
+                510.0,
+                384.0,
+                922.0,
+                514.0
+              ],
+              "source_type": "table",
+              "source_sentence": "129.80",
+              "table_locator": {
+                "table_id": "T_5_83",
+                "row_label": "10",
+                "column_label": "$Tg_2$ (°C)",
+                "cell_value": "129.80",
+                "cell_id": "T_5_83:r0003:c0002",
+                "row_index": 3,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt037",
+          "observation_role": "series_point",
+          "sample_id": "s005",
+          "entity_id": "pe011",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "SMIA content",
+              "value_raw": "20",
+              "unit_raw": "phr",
+              "evidence": {
+                "block_id": "T_5_83",
+                "page": 5,
+                "bbox": [
+                  510.0,
+                  384.0,
+                  922.0,
+                  514.0
+                ],
+                "source_type": "table",
+                "source_sentence": "20",
+                "table_locator": {
+                  "table_id": "T_5_83",
+                  "row_label": "20",
+                  "column_label": "SMIA content (phr)",
+                  "cell_value": "20",
+                  "cell_id": "T_5_83:r0004:c0000",
+                  "row_index": 4,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "131.90",
+          "value_min": 131.9,
+          "value_max": 131.9,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": {
+              "raw": "1 Hz",
+              "value": 1.0,
+              "unit": "Hz",
+              "evidence": [
+                {
+                  "block_id": "P_1_35",
+                  "page": 1,
+                  "bbox": [
+                    507.0,
+                    714.0,
+                    926.0,
+                    804.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "at 1 Hz frequency",
+                  "table_locator": null
+                }
+              ],
+              "evidence_ids": []
+            },
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_5_83",
+              "page": 5,
+              "bbox": [
+                510.0,
+                384.0,
+                922.0,
+                514.0
+              ],
+              "source_type": "table",
+              "source_sentence": "131.90",
+              "table_locator": {
+                "table_id": "T_5_83",
+                "row_label": "20",
+                "column_label": "$Tg_2$ (°C)",
+                "cell_value": "131.90",
+                "cell_id": "T_5_83:r0004:c0002",
+                "row_index": 4,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt038",
+          "observation_role": "series_point",
+          "sample_id": "s003",
+          "entity_id": "pe003",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "SMIA content",
+              "value_raw": "SMIA",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_5_83",
+                "page": 5,
+                "bbox": [
+                  510.0,
+                  384.0,
+                  922.0,
+                  514.0
+                ],
+                "source_type": "table",
+                "source_sentence": "SMIA",
+                "table_locator": {
+                  "table_id": "T_5_83",
+                  "row_label": "SMIA",
+                  "column_label": "SMIA content (phr)",
+                  "cell_value": "SMIA",
+                  "cell_id": "T_5_83:r0005:c0000",
+                  "row_index": 5,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "132.00",
+          "value_min": 132.0,
+          "value_max": 132.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": {
+              "raw": "1 Hz",
+              "value": 1.0,
+              "unit": "Hz",
+              "evidence": [
+                {
+                  "block_id": "P_1_35",
+                  "page": 1,
+                  "bbox": [
+                    507.0,
+                    714.0,
+                    926.0,
+                    804.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "at 1 Hz frequency",
+                  "table_locator": null
+                }
+              ],
+              "evidence_ids": []
+            },
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_5_83",
+              "page": 5,
+              "bbox": [
+                510.0,
+                384.0,
+                922.0,
+                514.0
+              ],
+              "source_type": "table",
+              "source_sentence": "132.00",
+              "table_locator": {
+                "table_id": "T_5_83",
+                "row_label": "SMIA",
+                "column_label": "$Tg_2$ (°C)",
+                "cell_value": "132.00",
+                "cell_id": "T_5_83:r0005:c0002",
+                "row_index": 5,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        }
+      ],
+      "coverage": {
+        "expected": 3,
+        "covered": 3,
+        "missing": 0,
+        "not_applicable": 1,
+        "ratio": 1.0
+      },
+      "evidence": [
+        {
+          "block_id": "P_1_35",
+          "page": 1,
+          "bbox": [
+            507.0,
+            714.0,
+            926.0,
+            804.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The tests were carried out under the tensile mode, at 1 Hz frequency and a heating rate of $3 ^ { \\circ } \\mathrm { C } /$min with a temperature range from $3 0 ^ { \\circ } \\mathrm { C }$to $1 6 0 ^ { \\circ } \\mathrm { C } .$.",
+          "table_locator": null
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "series_id": "series009",
+      "sample_id": null,
+      "entity_id": null,
+      "sample_resolution_status": "unresolved",
+      "property_name_raw": "ΔT",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "unit_raw": "°C",
+      "unit_normalized": null,
+      "measurement_context": {
+        "temperature": null,
+        "frequency": {
+          "raw": "1 Hz",
+          "value": 1.0,
+          "unit": "Hz",
+          "evidence": [
+            {
+              "block_id": "P_1_35",
+              "page": 1,
+              "bbox": [
+                507.0,
+                714.0,
+                926.0,
+                804.0
+              ],
+              "source_type": "text",
+              "source_sentence": "at 1 Hz frequency",
+              "table_locator": null
+            }
+          ],
+          "evidence_ids": []
+        },
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "points": [
+        {
+          "point_id": "pt039",
+          "observation_role": "series_point",
+          "sample_id": "s005",
+          "entity_id": "pe011",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "SMIA content",
+              "value_raw": "0",
+              "unit_raw": "phr",
+              "evidence": {
+                "block_id": "T_5_83",
+                "page": 5,
+                "bbox": [
+                  510.0,
+                  384.0,
+                  922.0,
+                  514.0
+                ],
+                "source_type": "table",
+                "source_sentence": "0",
+                "table_locator": {
+                  "table_id": "T_5_83",
+                  "row_label": "0",
+                  "column_label": "SMIA content (phr)",
+                  "cell_value": "0",
+                  "cell_id": "T_5_83:r0002:c0000",
+                  "row_index": 2,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "—",
+          "value_min": null,
+          "value_max": null,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": {
+              "raw": "1 Hz",
+              "value": 1.0,
+              "unit": "Hz",
+              "evidence": [
+                {
+                  "block_id": "P_1_35",
+                  "page": 1,
+                  "bbox": [
+                    507.0,
+                    714.0,
+                    926.0,
+                    804.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "at 1 Hz frequency",
+                  "table_locator": null
+                }
+              ],
+              "evidence_ids": []
+            },
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "not_applicable",
+          "evidence": [
+            {
+              "block_id": "T_5_83",
+              "page": 5,
+              "bbox": [
+                510.0,
+                384.0,
+                922.0,
+                514.0
+              ],
+              "source_type": "table",
+              "source_sentence": "—",
+              "table_locator": {
+                "table_id": "T_5_83",
+                "row_label": "0",
+                "column_label": "ΔT (°C)",
+                "cell_value": "—",
+                "cell_id": null,
+                "row_index": null,
+                "column_index": null
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.8
+          }
+        },
+        {
+          "point_id": "pt040",
+          "observation_role": "series_point",
+          "sample_id": "s005",
+          "entity_id": "pe011",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "SMIA content",
+              "value_raw": "10",
+              "unit_raw": "phr",
+              "evidence": {
+                "block_id": "T_5_83",
+                "page": 5,
+                "bbox": [
+                  510.0,
+                  384.0,
+                  922.0,
+                  514.0
+                ],
+                "source_type": "table",
+                "source_sentence": "10",
+                "table_locator": {
+                  "table_id": "T_5_83",
+                  "row_label": "10",
+                  "column_label": "SMIA content (phr)",
+                  "cell_value": "10",
+                  "cell_id": "T_5_83:r0003:c0000",
+                  "row_index": 3,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "40.50",
+          "value_min": 40.5,
+          "value_max": 40.5,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": {
+              "raw": "1 Hz",
+              "value": 1.0,
+              "unit": "Hz",
+              "evidence": [
+                {
+                  "block_id": "P_1_35",
+                  "page": 1,
+                  "bbox": [
+                    507.0,
+                    714.0,
+                    926.0,
+                    804.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "at 1 Hz frequency",
+                  "table_locator": null
+                }
+              ],
+              "evidence_ids": []
+            },
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_5_83",
+              "page": 5,
+              "bbox": [
+                510.0,
+                384.0,
+                922.0,
+                514.0
+              ],
+              "source_type": "table",
+              "source_sentence": "40.50",
+              "table_locator": {
+                "table_id": "T_5_83",
+                "row_label": "10",
+                "column_label": "$\\Delta T$ (°C)",
+                "cell_value": "40.50",
+                "cell_id": "T_5_83:r0003:c0003",
+                "row_index": 3,
+                "column_index": 3
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.8
+          }
+        },
+        {
+          "point_id": "pt041",
+          "observation_role": "series_point",
+          "sample_id": "s005",
+          "entity_id": "pe011",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "SMIA content",
+              "value_raw": "20",
+              "unit_raw": "phr",
+              "evidence": {
+                "block_id": "T_5_83",
+                "page": 5,
+                "bbox": [
+                  510.0,
+                  384.0,
+                  922.0,
+                  514.0
+                ],
+                "source_type": "table",
+                "source_sentence": "20",
+                "table_locator": {
+                  "table_id": "T_5_83",
+                  "row_label": "20",
+                  "column_label": "SMIA content (phr)",
+                  "cell_value": "20",
+                  "cell_id": "T_5_83:r0004:c0000",
+                  "row_index": 4,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "42.30",
+          "value_min": 42.3,
+          "value_max": 42.3,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": {
+              "raw": "1 Hz",
+              "value": 1.0,
+              "unit": "Hz",
+              "evidence": [
+                {
+                  "block_id": "P_1_35",
+                  "page": 1,
+                  "bbox": [
+                    507.0,
+                    714.0,
+                    926.0,
+                    804.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "at 1 Hz frequency",
+                  "table_locator": null
+                }
+              ],
+              "evidence_ids": []
+            },
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_5_83",
+              "page": 5,
+              "bbox": [
+                510.0,
+                384.0,
+                922.0,
+                514.0
+              ],
+              "source_type": "table",
+              "source_sentence": "42.30",
+              "table_locator": {
+                "table_id": "T_5_83",
+                "row_label": "20",
+                "column_label": "$\\Delta T$ (°C)",
+                "cell_value": "42.30",
+                "cell_id": "T_5_83:r0004:c0003",
+                "row_index": 4,
+                "column_index": 3
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.8
+          }
+        },
+        {
+          "point_id": "pt042",
+          "observation_role": "series_point",
+          "sample_id": "s003",
+          "entity_id": "pe003",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "SMIA content",
+              "value_raw": "SMIA",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_5_83",
+                "page": 5,
+                "bbox": [
+                  510.0,
+                  384.0,
+                  922.0,
+                  514.0
+                ],
+                "source_type": "table",
+                "source_sentence": "SMIA",
+                "table_locator": {
+                  "table_id": "T_5_83",
+                  "row_label": "SMIA",
+                  "column_label": "SMIA content (phr)",
+                  "cell_value": "SMIA",
+                  "cell_id": "T_5_83:r0005:c0000",
+                  "row_index": 5,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "—",
+          "value_min": null,
+          "value_max": null,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": {
+              "raw": "1 Hz",
+              "value": 1.0,
+              "unit": "Hz",
+              "evidence": [
+                {
+                  "block_id": "P_1_35",
+                  "page": 1,
+                  "bbox": [
+                    507.0,
+                    714.0,
+                    926.0,
+                    804.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "at 1 Hz frequency",
+                  "table_locator": null
+                }
+              ],
+              "evidence_ids": []
+            },
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "not_applicable",
+          "evidence": [
+            {
+              "block_id": "T_5_83",
+              "page": 5,
+              "bbox": [
+                510.0,
+                384.0,
+                922.0,
+                514.0
+              ],
+              "source_type": "table",
+              "source_sentence": "—",
+              "table_locator": {
+                "table_id": "T_5_83",
+                "row_label": "SMIA",
+                "column_label": "ΔT (°C)",
+                "cell_value": "—",
+                "cell_id": null,
+                "row_index": null,
+                "column_index": null
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.8
+          }
+        }
+      ],
+      "coverage": {
+        "expected": 2,
+        "covered": 2,
+        "missing": 0,
+        "not_applicable": 2,
+        "ratio": 1.0
+      },
+      "evidence": [
+        {
+          "block_id": "P_1_35",
+          "page": 1,
+          "bbox": [
+            507.0,
+            714.0,
+            926.0,
+            804.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The tests were carried out under the tensile mode, at 1 Hz frequency and a heating rate of $3 ^ { \\circ } \\mathrm { C } /$min with a temperature range from $3 0 ^ { \\circ } \\mathrm { C }$to $1 6 0 ^ { \\circ } \\mathrm { C } .$.",
+          "table_locator": null
+        }
+      ],
+      "confidence": {
+        "score": 0.8
+      }
+    }
+  ],
+  "provenance": {
+    "stage": "stage4_property",
+    "provider": "dmx",
+    "model": "doubao-seed-2.0-pro",
+    "models": [
+      "doubao-seed-2.0-pro"
+    ],
+    "prompt_id": "polymer.stage4.property",
+    "prompt_version": "1.7.2",
+    "prompt_sha256": "ec79fe3bf47539cab4ba239c611d1ab17d75dc0038cda85020caca580f7987a5",
+    "vocabulary_sha256": "3e9d85e4915a729edf0f0a53821f3ee6edf32874e1da6972457417e4f13a1510",
+    "input_hash": "89ebd4e496c5a214005e56099d041fda838f45d4c3c5c2861ad110400f75cd33",
+    "model_config_hash": "cc96eaab20bd380ae90f3ba1dfa638bd40f111e3e72ca185255fb71b459d40ea",
+    "cache_key": "9b9aeb5e778657566bdaf49b89e7b9fb0b8e596c2b19e47b57a6b8a805e63bc2",
+    "output_schema_version": "property_observation_schema.v7",
+    "implementation_version": "1.7.10",
+    "context_block_count": 79,
+    "context_chars": 44870,
+    "call_count": 1,
+    "usage": {
+      "input_tokens": 27375,
+      "output_tokens": 27010,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "billable_input_tokens": 27375,
+      "total_tokens": 54385
+    },
+    "cost": {
+      "status": "calculated",
+      "currency": "CNY",
+      "input_per_million": "4.32",
+      "output_per_million": "29.15",
+      "input_cost": "0.11826",
+      "output_cost": "0.7873415",
+      "total_cost": "0.9056015"
+    },
+    "status": "success"
+  },
+  "warnings": [
+    {
+      "stage": "stage4_property",
+      "code": "section_fallback",
+      "message": "Methods/Results 为空，已回落使用全部非 References 正文与全部表格；结果需人工复核",
+      "fallback_block_count": 79
+    },
+    {
+      "stage": "stage4_property",
+      "code": "all_tables_included",
+      "message": "已将目标 section 之外的非空表格一并加入 Stage 4 输入",
+      "table_block_ids": [
+        "T_3_58",
+        "T_4_70",
+        "T_5_83"
+      ]
+    },
+    {
+      "stage": "stage4_property",
+      "code": "preview_point_locator_recovered_from_unique_table_row",
+      "message": "Preview 模式已用唯一完整表格行、唯一列头及一致 value_raw 补全 Series point 的稳定坐标",
+      "points": 36
+    },
+    {
+      "stage": "stage4_property",
+      "code": "series_entity_relinked_to_sample",
+      "message": "PropertySeries/point 的 entity_id 与已解析 Sample 冲突；已按 Stage 3 Sample.refers_to_entity 确定性纠正",
+      "series": 9,
+      "points": 3
+    },
+    {
+      "stage": "stage4_property",
+      "code": "multi_subject_series_normalized",
+      "message": "PropertySeries 的 points 明确属于多个 Sample/PolymerEntity；已清除错误的单一顶层主体，主体关系保留在各 point",
+      "series": 3
+    },
+    {
+      "stage": "stage4_property",
+      "code": "candidate_table_locator_surface_repaired",
+      "message": "模型 locator 表面文本不在表格原文；已用 property raw 与 determination method 中唯一匹配的 Stage 0 表头恢复",
+      "evidence": 10
+    },
+    {
+      "stage": "stage4_property",
+      "code": "series_context_evidence_supplemented",
+      "message": "Series/point measurement context 不在数值表格 evidence；已补入全文中唯一的完全匹配原文 block",
+      "series_evidence": 7
+    },
+    {
+      "stage": "stage4_property",
+      "code": "preview_semantic_validation_bypassed",
+      "message": "Preview 已保留 Schema 合法候选，并跳过原文/evidence 语义对应校验；Strict 模式仍会报错",
+      "reason": "prop009.property_name_raw='Vicat softening temperature increase' 不是任一 evidence block 的原文子串"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "preview_objects_salvaged",
+      "message": "Preview 已逐对象保留可安全物化的数据；坏字段、坏对象或失效引用已局部删除，Strict 模式仍会报错",
+      "details": {
+        "dropped_conditions": [],
+        "dropped_properties": [],
+        "dropped_unresolved_properties": [],
+        "dropped_series": [],
+        "dropped_points": [],
+        "dropped_evidence": 0,
+        "dropped_coordinates": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,342 @@
+{
+  "stage": "stage4r_table_recovery",
+  "implementation_version": "0.1.0",
+  "document_id": "reference_no_0073324",
+  "audit_summary": {
+    "table_count": 3,
+    "tables_with_numeric_cells": 3,
+    "numeric_cell_count": 138,
+    "represented_numeric_cell_count": 3,
+    "representation_ratio": 0.021739,
+    "role_counts": {
+      "condition_candidate": 1,
+      "coordinate_candidate": 15,
+      "property_value_candidate": 46,
+      "unknown": 76
+    },
+    "property_value_candidate_count": 46,
+    "covered_property_value_candidate_count": 3,
+    "missing_property_value_candidate_count": 43,
+    "property_value_ratio": 0.065217,
+    "gap_table_count": 3,
+    "numeric_zero_coverage_table_count": 2,
+    "property_zero_coverage_table_count": 2
+  },
+  "recovered_count": 10,
+  "skipped_ambiguous_count": 33,
+  "recovered": [
+    {
+      "unresolved_id": "uprop005",
+      "entity_id": "pe017",
+      "property_name_raw": "melting_temperature",
+      "value_raw": "300c",
+      "cell_id": "T_3_34:r0019:c0009",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop006",
+      "entity_id": "pe004",
+      "property_name_raw": "intrinsic_viscosity",
+      "value_raw": "342",
+      "cell_id": "T_4_37:r0002:c0008",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop007",
+      "entity_id": "pe024",
+      "property_name_raw": "intrinsic_viscosity",
+      "value_raw": "350",
+      "cell_id": "T_4_37:r0009:c0008",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop008",
+      "entity_id": "pe025",
+      "property_name_raw": "intrinsic_viscosity",
+      "value_raw": "380",
+      "cell_id": "T_4_37:r0010:c0008",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop009",
+      "entity_id": "pe026",
+      "property_name_raw": "intrinsic_viscosity",
+      "value_raw": "290",
+      "cell_id": "T_4_37:r0011:c0008",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop010",
+      "entity_id": "pe027",
+      "property_name_raw": "intrinsic_viscosity",
+      "value_raw": "300",
+      "cell_id": "T_4_37:r0012:c0008",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop011",
+      "entity_id": "pe028",
+      "property_name_raw": "intrinsic_viscosity",
+      "value_raw": "320",
+      "cell_id": "T_4_37:r0014:c0008",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop012",
+      "entity_id": "pe029",
+      "property_name_raw": "intrinsic_viscosity",
+      "value_raw": "260",
+      "cell_id": "T_4_37:r0015:c0008",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop013",
+      "entity_id": "pe030",
+      "property_name_raw": "intrinsic_viscosity",
+      "value_raw": "320",
+      "cell_id": "T_4_37:r0016:c0008",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop014",
+      "entity_id": "pe031",
+      "property_name_raw": "intrinsic_viscosity",
+      "value_raw": "310",
+      "cell_id": "T_4_37:r0017:c0008",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    }
+  ],
+  "skipped_ambiguous": [
+    {
+      "cell_id": "T_3_34:r0003:c0009",
+      "table_id": "T_3_34",
+      "property_name_normalized": "melting_temperature",
+      "value_raw": "285c",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_3_34:r0006:c0009",
+      "table_id": "T_3_34",
+      "property_name_normalized": "melting_temperature",
+      "value_raw": "265c",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_3_34:r0007:c0008",
+      "table_id": "T_3_34",
+      "property_name_normalized": "melting_temperature",
+      "value_raw": "295",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_3_34:r0008:c0008",
+      "table_id": "T_3_34",
+      "property_name_normalized": "melting_temperature",
+      "value_raw": "320",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_3_34:r0009:c0008",
+      "table_id": "T_3_34",
+      "property_name_normalized": "melting_temperature",
+      "value_raw": "300",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_3_34:r0010:c0008",
+      "table_id": "T_3_34",
+      "property_name_normalized": "melting_temperature",
+      "value_raw": "300",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_3_34:r0011:c0009",
+      "table_id": "T_3_34",
+      "property_name_normalized": "melting_temperature",
+      "value_raw": "285c",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_3_34:r0012:c0009",
+      "table_id": "T_3_34",
+      "property_name_normalized": "melting_temperature",
+      "value_raw": "300c",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_3_34:r0013:c0008",
+      "table_id": "T_3_34",
+      "property_name_normalized": "melting_temperature",
+      "value_raw": "328",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_3_34:r0014:c0009",
+      "table_id": "T_3_34",
+      "property_name_normalized": "melting_temperature",
+      "value_raw": "300c",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_3_34:r0015:c0008",
+      "table_id": "T_3_34",
+      "property_name_normalized": "melting_temperature",
+      "value_raw": "318",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_3_34:r0016:c0009",
+      "table_id": "T_3_34",
+      "property_name_normalized": "melting_temperature",
+      "value_raw": "295c",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_3_34:r0017:c0008",
+      "table_id": "T_3_34",
+      "property_name_normalized": "melting_temperature",
+      "value_raw": "325",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_3_34:r0018:c0008",
+      "table_id": "T_3_34",
+      "property_name_normalized": "melting_temperature",
+      "value_raw": "308",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_3_34:r0020:c0009",
+      "table_id": "T_3_34",
+      "property_name_normalized": "melting_temperature",
+      "value_raw": "215c",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_3_34:r0021:c0008",
+      "table_id": "T_3_34",
+      "property_name_normalized": "melting_temperature",
+      "value_raw": "280",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_3_34:r0022:c0008",
+      "table_id": "T_3_34",
+      "property_name_normalized": "melting_temperature",
+      "value_raw": "280",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_3_34:r0023:c0009",
+      "table_id": "T_3_34",
+      "property_name_normalized": "melting_temperature",
+      "value_raw": "185d",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_4_37:r0003:c0008",
+      "table_id": "T_4_37",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "290",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_4_37:r0004:c0008",
+      "table_id": "T_4_37",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "310",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_4_37:r0005:c0008",
+      "table_id": "T_4_37",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "250",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_4_37:r0006:c0008",
+      "table_id": "T_4_37",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "240",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_4_37:r0007:c0008",
+      "table_id": "T_4_37",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "270",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_4_37:r0008:c0008",
+      "table_id": "T_4_37",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "210",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_4_37:r0013:c0008",
+      "table_id": "T_4_37",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "315",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_6_50:r0002:c0002",
+      "table_id": "T_6_50",
+      "property_name_normalized": "melting_temperature",
+      "value_raw": "290",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_6_50:r0003:c0002",
+      "table_id": "T_6_50",
+      "property_name_normalized": "melting_temperature",
+      "value_raw": "293",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_6_50:r0004:c0001",
+      "table_id": "T_6_50",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "0.45",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_6_50:r0004:c0002",
+      "table_id": "T_6_50",
+      "property_name_normalized": "melting_temperature",
+      "value_raw": "322",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_6_50:r0005:c0001",
+      "table_id": "T_6_50",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "0.49",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_6_50:r0005:c0002",
+      "table_id": "T_6_50",
+      "property_name_normalized": "melting_temperature",
+      "value_raw": "342",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_6_50:r0006:c0001",
+      "table_id": "T_6_50",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "1.00",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_6_50:r0006:c0002",
+      "table_id": "T_6_50",
+      "property_name_normalized": "melting_temperature",
+      "value_raw": "380",
+      "reason": "entity_ambiguous"
+    }
+  ]
+}

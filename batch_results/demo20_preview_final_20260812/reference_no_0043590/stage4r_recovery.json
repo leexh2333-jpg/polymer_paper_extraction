@@ -1,0 +1,98 @@
+{
+  "stage": "stage4r_table_recovery",
+  "implementation_version": "0.1.0",
+  "document_id": "reference_no_0043590",
+  "audit_summary": {
+    "table_count": 4,
+    "tables_with_numeric_cells": 4,
+    "numeric_cell_count": 86,
+    "represented_numeric_cell_count": 8,
+    "representation_ratio": 0.093023,
+    "role_counts": {
+      "coordinate_candidate": 11,
+      "property_value_candidate": 11,
+      "unknown": 64
+    },
+    "property_value_candidate_count": 11,
+    "covered_property_value_candidate_count": 2,
+    "missing_property_value_candidate_count": 9,
+    "property_value_ratio": 0.181818,
+    "gap_table_count": 2,
+    "numeric_zero_coverage_table_count": 2,
+    "property_zero_coverage_table_count": 1
+  },
+  "recovered_count": 5,
+  "skipped_ambiguous_count": 4,
+  "recovered": [
+    {
+      "unresolved_id": "uprop002",
+      "entity_id": "pe001",
+      "property_name_raw": "density",
+      "value_raw": "2.3",
+      "cell_id": "T_2_42:r0002:c0002",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop003",
+      "entity_id": "pe001",
+      "property_name_raw": "density",
+      "value_raw": "1.0",
+      "cell_id": "T_2_42:r0003:c0002",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop004",
+      "entity_id": "pe001",
+      "property_name_raw": "density",
+      "value_raw": "5.0",
+      "cell_id": "T_2_42:r0004:c0002",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop005",
+      "entity_id": "pe001",
+      "property_name_raw": "density",
+      "value_raw": "2.6",
+      "cell_id": "T_2_42:r0005:c0002",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop006",
+      "entity_id": "pe001",
+      "property_name_raw": "density",
+      "value_raw": "2.5",
+      "cell_id": "T_2_42:r0006:c0002",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    }
+  ],
+  "skipped_ambiguous": [
+    {
+      "cell_id": "T_1_19:r0001:c0002",
+      "table_id": "T_1_19",
+      "property_name_normalized": "electric_conductivity",
+      "value_raw": "10–100",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_1_19:r0001:c0003",
+      "table_id": "T_1_19",
+      "property_name_normalized": "electric_conductivity",
+      "value_raw": "625",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_1_19:r0003:c0002",
+      "table_id": "T_1_19",
+      "property_name_normalized": "density",
+      "value_raw": "100–120",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_1_19:r0003:c0003",
+      "table_id": "T_1_19",
+      "property_name_normalized": "density",
+      "value_raw": "360",
+      "reason": "entity_ambiguous"
+    }
+  ]
+}

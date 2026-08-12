@@ -1,0 +1,148 @@
+{
+  "stage": "stage4r_table_recovery",
+  "implementation_version": "0.1.0",
+  "document_id": "reference_no_0042246",
+  "audit_summary": {
+    "table_count": 1,
+    "tables_with_numeric_cells": 1,
+    "numeric_cell_count": 33,
+    "represented_numeric_cell_count": 13,
+    "representation_ratio": 0.393939,
+    "role_counts": {
+      "coordinate_candidate": 1,
+      "property_value_candidate": 28,
+      "unknown": 4
+    },
+    "property_value_candidate_count": 28,
+    "covered_property_value_candidate_count": 13,
+    "missing_property_value_candidate_count": 15,
+    "property_value_ratio": 0.464286,
+    "gap_table_count": 1,
+    "numeric_zero_coverage_table_count": 0,
+    "property_zero_coverage_table_count": 0
+  },
+  "recovered_count": 13,
+  "skipped_ambiguous_count": 2,
+  "recovered": [
+    {
+      "unresolved_id": "uprop002",
+      "entity_id": "pe002",
+      "property_name_raw": "dynamic_tensile_properties",
+      "value_raw": "1.3",
+      "cell_id": "T_3_62:r0001:c0005",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop003",
+      "entity_id": "pe003",
+      "property_name_raw": "dynamic_tensile_properties",
+      "value_raw": "2.8",
+      "cell_id": "T_3_62:r0002:c0005",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop004",
+      "entity_id": "pe007",
+      "property_name_raw": "dynamic_tensile_properties",
+      "value_raw": "216.8",
+      "cell_id": "T_3_62:r0003:c0005",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop005",
+      "entity_id": "pe009",
+      "property_name_raw": "dynamic_tensile_properties",
+      "value_raw": "5.3",
+      "cell_id": "T_3_62:r0004:c0005",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop006",
+      "entity_id": "pe011",
+      "property_name_raw": "dynamic_tensile_properties",
+      "value_raw": "0.5",
+      "cell_id": "T_3_62:r0005:c0005",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop007",
+      "entity_id": "pe011",
+      "property_name_raw": "electric_conductivity",
+      "value_raw": "$1.1 \\times 10^{-6}$",
+      "cell_id": "T_3_62:r0005:c0006",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop008",
+      "entity_id": "pe024",
+      "property_name_raw": "glass_transition_temperature",
+      "value_raw": "-70",
+      "cell_id": "T_3_62:r0006:c0002",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop009",
+      "entity_id": "pe024",
+      "property_name_raw": "dynamic_tensile_properties",
+      "value_raw": "13.6",
+      "cell_id": "T_3_62:r0006:c0005",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop010",
+      "entity_id": "pe008",
+      "property_name_raw": "glass_transition_temperature",
+      "value_raw": "-70",
+      "cell_id": "T_3_62:r0007:c0002",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop011",
+      "entity_id": "pe008",
+      "property_name_raw": "dynamic_tensile_properties",
+      "value_raw": "2.5",
+      "cell_id": "T_3_62:r0007:c0005",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop012",
+      "entity_id": "pe023",
+      "property_name_raw": "dynamic_tensile_properties",
+      "value_raw": "1.5",
+      "cell_id": "T_3_62:r0010:c0005",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop013",
+      "entity_id": "pe023",
+      "property_name_raw": "electric_conductivity",
+      "value_raw": "$4.5 \\times 10^{-6}$",
+      "cell_id": "T_3_62:r0010:c0006",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop014",
+      "entity_id": "pe023",
+      "property_name_raw": "electric_conductivity",
+      "value_raw": "$6.7 \\times 10^{-6}$",
+      "cell_id": "T_3_62:r0011:c0006",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    }
+  ],
+  "skipped_ambiguous": [
+    {
+      "cell_id": "T_3_62:r0008:c0005",
+      "table_id": "T_3_62",
+      "property_name_normalized": "dynamic_tensile_properties",
+      "value_raw": "1.1",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_3_62:r0009:c0005",
+      "table_id": "T_3_62",
+      "property_name_normalized": "dynamic_tensile_properties",
+      "value_raw": "0.8",
+      "reason": "entity_ambiguous"
+    }
+  ]
+}

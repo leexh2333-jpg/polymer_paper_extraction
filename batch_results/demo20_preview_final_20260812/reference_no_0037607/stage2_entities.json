@@ -1,0 +1,537 @@
+{
+  "schema_version": "1.0",
+  "document_id": "reference_no_0037607",
+  "polymer_entities": [
+    {
+      "entity_id": "pe001",
+      "polymer_name": "8a",
+      "variant_of": "pe003",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "8a"
+      ],
+      "resolved_from_mentions": [
+        "m001",
+        "m003",
+        "m005",
+        "m020",
+        "m032",
+        "m040",
+        "m042",
+        "m046",
+        "m050",
+        "m059"
+      ],
+      "evidence": {
+        "block_id": "P_7_111",
+        "page": 7,
+        "bbox": [
+          65.0,
+          629.0,
+          469.0,
+          918.0
+        ],
+        "source_type": "text",
+        "source_sentence": "As an example, in Figure 5(B) the UV-vis and fluorescence spectra of the dye-labeled poly(4-vinyltriphenylamine) 8a and polystyrene 9a are compared."
+      },
+      "source_image_refs": [
+        {
+          "block_id": "I_2_44",
+          "page": 2,
+          "bbox": [
+            170.0,
+            398.0,
+            866.0,
+            890.0
+          ],
+          "image_path": "organized/reference_no_0037607/images/3850828154e977123a0ad00e72c701581b0642c97671f2d2150935dd5c674ff5.jpg",
+          "caption": "Scheme 1. Synthetic scheme of perylene bisimide-labeled polymers 8–12 via NMRP."
+        }
+      ],
+      "confidence": {
+        "score": 0.94
+      }
+    },
+    {
+      "entity_id": "pe002",
+      "polymer_name": "poly(4-vinyltriphenylamine)",
+      "variant_of": "pe003",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "8b",
+        "poly(4-vinyltriphenylamine)"
+      ],
+      "resolved_from_mentions": [
+        "m002",
+        "m004",
+        "m006",
+        "m021",
+        "m033",
+        "m038",
+        "m039",
+        "m041",
+        "m043",
+        "m047",
+        "m051",
+        "m060"
+      ],
+      "evidence": {
+        "block_id": "P_6_97",
+        "page": 6,
+        "bbox": [
+          101.0,
+          391.0,
+          508.0,
+          691.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The $T _ { \\mathrm { g } }$varies from $- 4 8 ^ { \\circ } \\mathrm { C }$for the poly(butyl acrylate) 11 to $1 3 3 ^ { \\circ } \\mathrm { C }$for the poly(4-vinyltriphenylamine) 8b."
+      },
+      "source_image_refs": [
+        {
+          "block_id": "I_2_44",
+          "page": 2,
+          "bbox": [
+            170.0,
+            398.0,
+            866.0,
+            890.0
+          ],
+          "image_path": "organized/reference_no_0037607/images/3850828154e977123a0ad00e72c701581b0642c97671f2d2150935dd5c674ff5.jpg",
+          "caption": "Scheme 1. Synthetic scheme of perylene bisimide-labeled polymers 8–12 via NMRP."
+        }
+      ],
+      "confidence": {
+        "score": 0.94
+      }
+    },
+    {
+      "entity_id": "pe003",
+      "polymer_name": "poly(4-vinyltriphenylamine)s",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "poly(4-vinyltriphenylamine)s",
+        "poly(4-vinyltriphenylamine)"
+      ],
+      "resolved_from_mentions": [
+        "m049",
+        "m052"
+      ],
+      "evidence": {
+        "block_id": "P_7_111",
+        "page": 7,
+        "bbox": [
+          65.0,
+          629.0,
+          469.0,
+          918.0
+        ],
+        "source_type": "text",
+        "source_sentence": "well understood if we take into consideration the fact that among all the polymers studied, only poly(4-vinyltriphenylamine)s 8a and 8b are capable of exhibiting any energy or electron transfer processes with the acceptor dye unit."
+      },
+      "source_image_refs": [
+        {
+          "block_id": "I_2_44",
+          "page": 2,
+          "bbox": [
+            170.0,
+            398.0,
+            866.0,
+            890.0
+          ],
+          "image_path": "organized/reference_no_0037607/images/3850828154e977123a0ad00e72c701581b0642c97671f2d2150935dd5c674ff5.jpg",
+          "caption": "Scheme 1. Synthetic scheme of perylene bisimide-labeled polymers 8–12 via NMRP."
+        }
+      ],
+      "confidence": {
+        "score": 0.87
+      }
+    },
+    {
+      "entity_id": "pe004",
+      "polymer_name": "polystyrene",
+      "variant_of": "pe006",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "9a",
+        "polystyrene"
+      ],
+      "resolved_from_mentions": [
+        "m007",
+        "m009",
+        "m011",
+        "m022",
+        "m030",
+        "m048",
+        "m053",
+        "m054"
+      ],
+      "evidence": {
+        "block_id": "P_7_111",
+        "page": 7,
+        "bbox": [
+          65.0,
+          629.0,
+          469.0,
+          918.0
+        ],
+        "source_type": "text",
+        "source_sentence": "As an example, in Figure 5(B) the UV-vis and fluorescence spectra of the dye-labeled poly(4-vinyltriphenylamine) 8a and polystyrene 9a are compared."
+      },
+      "source_image_refs": [
+        {
+          "block_id": "I_2_44",
+          "page": 2,
+          "bbox": [
+            170.0,
+            398.0,
+            866.0,
+            890.0
+          ],
+          "image_path": "organized/reference_no_0037607/images/3850828154e977123a0ad00e72c701581b0642c97671f2d2150935dd5c674ff5.jpg",
+          "caption": "Scheme 1. Synthetic scheme of perylene bisimide-labeled polymers 8–12 via NMRP."
+        }
+      ],
+      "confidence": {
+        "score": 0.95
+      }
+    },
+    {
+      "entity_id": "pe005",
+      "polymer_name": "9b",
+      "variant_of": "pe006",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "9b"
+      ],
+      "resolved_from_mentions": [
+        "m008",
+        "m010",
+        "m012",
+        "m023",
+        "m031"
+      ],
+      "evidence": {
+        "block_id": "P_4_73",
+        "page": 4,
+        "bbox": [
+          527.0,
+          196.0,
+          932.0,
+          301.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Different batches of perylene bisimide-labeled polystyrene were prepared by varying the reaction time. For example, after 1 h of polymerization we obtained a dye-labeled polymer 9a with number-average molecular weight $\\overline { { M } } _ { \\mathrm { n } }$of $9 5 6 0 ~ \\mathrm { \\ g \\cdot m o l ^ { - 1 } }$and PDI of 1.15, whereas after 4 h a polymer (9b) resulted with an $\\overline { { M } } _ { \\mathrm { n } }$of $1 7 9 5 0 ~ \\mathrm { g \\cdot m o l ^ { - 1 } }$and a PDI of 1.10."
+      },
+      "source_image_refs": [
+        {
+          "block_id": "I_2_44",
+          "page": 2,
+          "bbox": [
+            170.0,
+            398.0,
+            866.0,
+            890.0
+          ],
+          "image_path": "organized/reference_no_0037607/images/3850828154e977123a0ad00e72c701581b0642c97671f2d2150935dd5c674ff5.jpg",
+          "caption": "Scheme 1. Synthetic scheme of perylene bisimide-labeled polymers 8–12 via NMRP."
+        }
+      ],
+      "confidence": {
+        "score": 0.94
+      }
+    },
+    {
+      "entity_id": "pe006",
+      "polymer_name": "perylene bisimide-labeled polystyrene",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "perylene bisimide-labeled polystyrene",
+        "polystyrene"
+      ],
+      "resolved_from_mentions": [
+        "m029",
+        "m035",
+        "m045"
+      ],
+      "evidence": {
+        "block_id": "P_4_73",
+        "page": 4,
+        "bbox": [
+          527.0,
+          196.0,
+          932.0,
+          301.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Different batches of perylene bisimide-labeled polystyrene were prepared by varying the reaction time."
+      },
+      "source_image_refs": [
+        {
+          "block_id": "I_2_44",
+          "page": 2,
+          "bbox": [
+            170.0,
+            398.0,
+            866.0,
+            890.0
+          ],
+          "image_path": "organized/reference_no_0037607/images/3850828154e977123a0ad00e72c701581b0642c97671f2d2150935dd5c674ff5.jpg",
+          "caption": "Scheme 1. Synthetic scheme of perylene bisimide-labeled polymers 8–12 via NMRP."
+        }
+      ],
+      "confidence": {
+        "score": 0.86
+      }
+    },
+    {
+      "entity_id": "pe007",
+      "polymer_name": "10",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "10"
+      ],
+      "resolved_from_mentions": [
+        "m013",
+        "m016",
+        "m019",
+        "m024"
+      ],
+      "evidence": {
+        "block_id": "P_3_56",
+        "page": 3,
+        "bbox": [
+          488.0,
+          112.0,
+          893.0,
+          250.0
+        ],
+        "source_type": "text",
+        "source_sentence": "A mixture of the PerInit 6 (46.9 mg, 0.05 mmol), the nitroxide 7 (2.5 mmol as a stock solution from the corresponding acrylate), the acrylate (t-butyl acrylate: 1 602 mg, 12.5 mmol; butyl acrylate: 1 602 mg, 12.5 mmol and undecyl acrylate: 2 830 mg, 12.5 mmol) were degassed by three freeze- pumpthaw cycles, sealed under argon, and heated at $1 2 5 ^ { \\circ } \\mathrm { C }$for 18 h. The viscous mixture was dissolved in THF and precipitated in methanol. The polymers 10, 11, and 12 were collected and dried (10: 1.02 g, yield 62%, 11: 633 mg, yield 38% and 12: 945 mg, yield 39%)."
+      },
+      "source_image_refs": [
+        {
+          "block_id": "I_2_44",
+          "page": 2,
+          "bbox": [
+            170.0,
+            398.0,
+            866.0,
+            890.0
+          ],
+          "image_path": "organized/reference_no_0037607/images/3850828154e977123a0ad00e72c701581b0642c97671f2d2150935dd5c674ff5.jpg",
+          "caption": "Scheme 1. Synthetic scheme of perylene bisimide-labeled polymers 8–12 via NMRP."
+        }
+      ],
+      "confidence": {
+        "score": 0.76
+      }
+    },
+    {
+      "entity_id": "pe008",
+      "polymer_name": "poly(butyl acrylate)",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "11",
+        "poly(butyl acrylate)"
+      ],
+      "resolved_from_mentions": [
+        "m014",
+        "m017",
+        "m025",
+        "m027",
+        "m036",
+        "m037"
+      ],
+      "evidence": {
+        "block_id": "P_6_97",
+        "page": 6,
+        "bbox": [
+          101.0,
+          391.0,
+          508.0,
+          691.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The $T _ { \\mathrm { g } }$varies from $- 4 8 ^ { \\circ } \\mathrm { C }$for the poly(butyl acrylate) 11 to $1 3 3 ^ { \\circ } \\mathrm { C }$for the poly(4-vinyltriphenylamine) 8b."
+      },
+      "source_image_refs": [
+        {
+          "block_id": "I_2_44",
+          "page": 2,
+          "bbox": [
+            170.0,
+            398.0,
+            866.0,
+            890.0
+          ],
+          "image_path": "organized/reference_no_0037607/images/3850828154e977123a0ad00e72c701581b0642c97671f2d2150935dd5c674ff5.jpg",
+          "caption": "Scheme 1. Synthetic scheme of perylene bisimide-labeled polymers 8–12 via NMRP."
+        }
+      ],
+      "confidence": {
+        "score": 0.96
+      }
+    },
+    {
+      "entity_id": "pe009",
+      "polymer_name": "poly(undecyl acrylate)",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "12",
+        "poly(undecyl acrylate)"
+      ],
+      "resolved_from_mentions": [
+        "m015",
+        "m018",
+        "m026",
+        "m028",
+        "m055",
+        "m056"
+      ],
+      "evidence": {
+        "block_id": "P_7_113",
+        "page": 7,
+        "bbox": [
+          488.0,
+          151.0,
+          893.0,
+          347.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The perylene bisimide initiator 6 and the perylene bisimide-labeled polymer poly(undecyl acrylate) 12, (in which there is no complexity of charge transfer) as an example were studied by cyclic voltammetry."
+      },
+      "source_image_refs": [
+        {
+          "block_id": "I_2_44",
+          "page": 2,
+          "bbox": [
+            170.0,
+            398.0,
+            866.0,
+            890.0
+          ],
+          "image_path": "organized/reference_no_0037607/images/3850828154e977123a0ad00e72c701581b0642c97671f2d2150935dd5c674ff5.jpg",
+          "caption": "Scheme 1. Synthetic scheme of perylene bisimide-labeled polymers 8–12 via NMRP."
+        }
+      ],
+      "confidence": {
+        "score": 0.97
+      }
+    },
+    {
+      "entity_id": "pe010",
+      "polymer_name": "poly(4-vinyltriphenylamine)",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "poly(4-vinyltriphenylamine)"
+      ],
+      "resolved_from_mentions": [
+        "m057"
+      ],
+      "evidence": {
+        "block_id": "P_7_113",
+        "page": 7,
+        "bbox": [
+          488.0,
+          151.0,
+          893.0,
+          347.0
+        ],
+        "source_type": "text",
+        "source_sentence": "We also measured the CV of a reference polymer, poly(4-vinyltriphenylamine), which do not carry any dye unit."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.92
+      }
+    }
+  ],
+  "unresolved_mention_ids": [
+    "m034",
+    "m044",
+    "m058"
+  ],
+  "provenance": {
+    "stage": "stage2_polymer_entity",
+    "provider": "dmx",
+    "model": "gpt-5.6-terra-2026-07-09",
+    "models": [
+      "gpt-5.6-terra-2026-07-09"
+    ],
+    "prompt_id": "polymer.stage2.polymer_entity",
+    "prompt_version": "1.2.0",
+    "prompt_sha256": "8293a9f30517fa564eb1fd5e3af02ea721f9ac48554f50edf089bcb9cec63801",
+    "input_hash": "c0674b1cd283f10f094d6aec8e846ccabcb8bbd44ea499abecd79e3f04df5c45",
+    "model_config_hash": "c9e96c2514956e7b4b65eae3d327d34f95b7a33876cec6d4aa56f95eb79a9b50",
+    "cache_key": "c68028a1bc0f482bede1731b8bae8099a938ae4a0ef9a95bd1ba319ca533d5b4",
+    "output_schema_version": "polymer_entity_schema.v2",
+    "implementation_version": "1.3.3",
+    "context_block_count": 50,
+    "context_chars": 31373,
+    "call_count": 1,
+    "usage": {
+      "input_tokens": 20047,
+      "output_tokens": 3599,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "billable_input_tokens": 20047,
+      "total_tokens": 23646
+    },
+    "cost": {
+      "status": "calculated",
+      "currency": "CNY",
+      "input_per_million": "17",
+      "output_per_million": "101",
+      "input_cost": "0.340799",
+      "output_cost": "0.363499",
+      "total_cost": "0.704298"
+    },
+    "status": "success"
+  },
+  "warnings": [
+    {
+      "stage": "stage2_polymer_entity",
+      "code": "unresolved_mentions",
+      "message": "3 个 mention 未解析为实体，已原样保留引用",
+      "mention_ids": [
+        "m034",
+        "m044",
+        "m058"
+      ]
+    },
+    {
+      "stage": "stage2_polymer_entity",
+      "code": "offline_entity_names_enriched_from_resolved_mentions",
+      "message": "Preview 结果离线修正：样品代号或缩写已替换为同一实体中有原文证据的具体聚合物名称；原代号保留在 source_names 或 sample_label_raw。",
+      "items": [
+        {
+          "entity_id": "pe002",
+          "previous_name": "8b",
+          "polymer_name": "poly(4-vinyltriphenylamine)",
+          "derivation": "resolved_polymer_name_mention",
+          "mention_id": "m038",
+          "evidence_block_id": "P_6_97"
+        },
+        {
+          "entity_id": "pe004",
+          "previous_name": "9a",
+          "polymer_name": "polystyrene",
+          "derivation": "resolved_polymer_name_mention",
+          "mention_id": "m053",
+          "evidence_block_id": "P_7_111"
+        }
+      ]
+    }
+  ]
+}

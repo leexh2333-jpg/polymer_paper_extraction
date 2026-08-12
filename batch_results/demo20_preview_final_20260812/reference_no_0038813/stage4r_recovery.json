@@ -1,0 +1,43 @@
+{
+  "stage": "stage4r_table_recovery",
+  "implementation_version": "0.1.0",
+  "document_id": "reference_no_0038813",
+  "audit_summary": {
+    "table_count": 5,
+    "tables_with_numeric_cells": 4,
+    "numeric_cell_count": 168,
+    "represented_numeric_cell_count": 108,
+    "representation_ratio": 0.642857,
+    "role_counts": {
+      "coordinate_candidate": 8,
+      "property_value_candidate": 24,
+      "unknown": 136
+    },
+    "property_value_candidate_count": 24,
+    "covered_property_value_candidate_count": 22,
+    "missing_property_value_candidate_count": 2,
+    "property_value_ratio": 0.916667,
+    "gap_table_count": 1,
+    "numeric_zero_coverage_table_count": 0,
+    "property_zero_coverage_table_count": 0
+  },
+  "recovered_count": 0,
+  "skipped_ambiguous_count": 2,
+  "recovered": [],
+  "skipped_ambiguous": [
+    {
+      "cell_id": "T_5_78:r0007:c0004",
+      "table_id": "T_5_78",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "0.64",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_5_78:r0013:c0004",
+      "table_id": "T_5_78",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "0.64",
+      "reason": "entity_ambiguous"
+    }
+  ]
+}

@@ -1,0 +1,816 @@
+{
+  "schema_version": "1.0",
+  "document_id": "reference_no_0021296",
+  "status": "passed_with_warnings",
+  "error_count": 0,
+  "warning_count": 130,
+  "errors": [],
+  "warnings": [
+    {
+      "stage": "stage0",
+      "code": "metadata_extraction_failed",
+      "message": "未配置统一 LLM 元数据提取器；document JSON 已继续生成"
+    },
+    {
+      "stage": "stage2_polymer_entity",
+      "code": "unresolved_mentions",
+      "message": "1 个 mention 未解析为实体，已原样保留引用"
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "state_description_replaced_with_evidence",
+      "message": "无标签 Sample 的 state_description 无法逐字定位；已使用验证后的完整 evidence.source_sentence"
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "parameters_not_in_source",
+      "message": "无法定位到 evidence 原文的参数已舍弃"
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "unresolved_entities",
+      "message": "4 个 entity 未解析到实际样品"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "all_tables_included",
+      "message": "已将目标 section 之外的非空表格一并加入 Stage 4 输入"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "multi_subject_series_normalized",
+      "message": "PropertySeries 的 points 明确属于多个 Sample/PolymerEntity；已清除错误的单一顶层主体，主体关系保留在各 point"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "candidate_table_locator_surface_repaired",
+      "message": "模型 locator 表面文本不在表格原文；已用 property raw 与 determination method 中唯一匹配的 Stage 0 表头恢复"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "series_context_evidence_supplemented",
+      "message": "Series/point measurement context 不在数值表格 evidence；已补入全文中唯一的完全匹配原文 block"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "preview_semantic_validation_bypassed",
+      "message": "Preview 已保留 Schema 合法候选，并跳过原文/evidence 语义对应校验；Strict 模式仍会报错"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "preview_objects_salvaged",
+      "message": "Preview 已逐对象保留可安全物化的数据；坏字段、坏对象或失效引用已局部删除，Strict 模式仍会报错"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_incomplete_table_evidence_removed",
+      "message": "Preview 模式已移除缺少 table_locator 的附加表格 evidence；同一对象仍保留其他原文 evidence"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unlocatable_additional_evidence_removed",
+      "message": "Preview 模式已移除无法回定位到 Stage 0 block 的附加 Characterization evidence"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_characterization_details_cleared",
+      "message": "Preview 模式已清空无对象 evidence 支撑的可选表征细节"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_property_removed",
+      "message": "Preview 模式已移除 value_raw 无原文支撑的 Stage 5 性质"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_semantic_validation_bypassed",
+      "message": "Preview 已保留 Schema 合法候选，并跳过原文/evidence 语义对应校验；Strict 模式仍会报错"
+    },
+    {
+      "stage": "meta_extract",
+      "code": "paper_metadata_incomplete",
+      "message": "Paper metadata_status=failed，需人工复核"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "unused_measurement_condition",
+      "message": "MeasurementCondition 未被性质引用：['mc001', 'mc002', 'mc003', 'mc004', 'mc005']"
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "generic_process_type",
+      "message": "ProcessStep 使用了通用 process_type=other",
+      "object_id": "ps003"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "evidence_matched_after_normalization",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：词覆盖率 100.0%，内容在本块内但字符被打散",
+      "object_id": "mc001"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "evidence_matched_after_block_recovery",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：词覆盖率仅 95.2%，疑似跨块或被截断，建议人工确认",
+      "object_id": "mc002"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "evidence_matched_after_normalization",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：词覆盖率 98.0%，内容在本块内但字符被打散",
+      "object_id": "mc002"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "evidence_matched_after_normalization",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：词覆盖率 100.0%，内容在本块内但字符被打散",
+      "object_id": "mc005"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "evidence_matched_after_block_recovery",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：词覆盖率仅 92.0%，疑似跨块或被截断，建议人工确认",
+      "object_id": "mc006"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "evidence_matched",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：按 cell_id 精确命中",
+      "object_id": "pt001"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "evidence_matched",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：按 cell_id 精确命中",
+      "object_id": "pt002"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "evidence_matched",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：按 cell_id 精确命中",
+      "object_id": "pt003"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "evidence_matched",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：按 cell_id 精确命中",
+      "object_id": "pt004"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "evidence_matched_after_normalization",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：词覆盖率 100.0%，内容在本块内但字符被打散",
+      "object_id": "pt004"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "evidence_matched",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：按 cell_id 精确命中",
+      "object_id": "pt005"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "evidence_matched_after_normalization",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：词覆盖率 100.0%，内容在本块内但字符被打散",
+      "object_id": "pt005"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "evidence_matched",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：按 cell_id 精确命中",
+      "object_id": "pt006"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "evidence_matched",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：按 cell_id 精确命中",
+      "object_id": "pt007"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "evidence_matched",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：按 cell_id 精确命中",
+      "object_id": "pt008"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "evidence_matched",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：按 cell_id 精确命中",
+      "object_id": "pt009"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "evidence_matched_after_normalization",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：词覆盖率 100.0%，内容在本块内但字符被打散",
+      "object_id": "series002"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "evidence_matched",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：按 cell_id 精确命中",
+      "object_id": "pt010"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "evidence_matched",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：按 cell_id 精确命中",
+      "object_id": "pt011"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "evidence_matched",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：按 cell_id 精确命中",
+      "object_id": "pt012"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "evidence_matched",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：按 cell_id 精确命中",
+      "object_id": "pt013"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "evidence_matched",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：按 cell_id 精确命中",
+      "object_id": "pt014"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "evidence_matched",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：按 cell_id 精确命中",
+      "object_id": "pt015"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "evidence_matched",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：按 cell_id 精确命中",
+      "object_id": "pt016"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "evidence_matched",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：按 cell_id 精确命中",
+      "object_id": "pt017"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "evidence_matched",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：按 cell_id 精确命中",
+      "object_id": "pt018"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "evidence_matched",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：按 cell_id 精确命中",
+      "object_id": "pt019"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "evidence_matched",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：按 cell_id 精确命中",
+      "object_id": "pt020"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "evidence_matched",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：按 cell_id 精确命中",
+      "object_id": "pt021"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "evidence_matched",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：按 cell_id 精确命中",
+      "object_id": "pt022"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "evidence_matched",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：按 cell_id 精确命中",
+      "object_id": "pt023"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "evidence_matched",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：按 cell_id 精确命中",
+      "object_id": "pt024"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "evidence_matched",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：按 cell_id 精确命中",
+      "object_id": "pt025"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "evidence_matched",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：按 cell_id 精确命中",
+      "object_id": "pt026"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "evidence_matched",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：按 cell_id 精确命中",
+      "object_id": "pt027"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "evidence_matched",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：按 cell_id 精确命中",
+      "object_id": "pt028"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "evidence_matched",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：按 cell_id 精确命中",
+      "object_id": "pt029"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "evidence_matched",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：按 cell_id 精确命中",
+      "object_id": "pt030"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "evidence_matched",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：按 cell_id 精确命中",
+      "object_id": "pt031"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "evidence_matched",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：按 cell_id 精确命中",
+      "object_id": "pt032"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "evidence_matched",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：按 cell_id 精确命中",
+      "object_id": "pt033"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "evidence_matched",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：按 cell_id 精确命中",
+      "object_id": "pt034"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "evidence_matched",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：按 cell_id 精确命中",
+      "object_id": "pt035"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "evidence_matched",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：按 cell_id 精确命中",
+      "object_id": "pt036"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "evidence_matched_after_block_recovery",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：词覆盖率仅 90.0%，疑似跨块或被截断，建议人工确认",
+      "object_id": "pt036"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "evidence_matched",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：按 cell_id 精确命中",
+      "object_id": "pt037"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "evidence_matched_after_normalization",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：词覆盖率 100.0%，内容在本块内但字符被打散",
+      "object_id": "series009"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "evidence_matched",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：按 cell_id 精确命中",
+      "object_id": "pt038"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "table_locator_stable_cell_unresolved",
+      "message": "table_locator 无法唯一解析到稳定 cell_id；保留原行列文字定位",
+      "object_id": "pt039"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "table_locator_stable_cell_unresolved",
+      "message": "table_locator 无法唯一解析到稳定 cell_id；保留原行列文字定位",
+      "object_id": "pt040"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "evidence_matched",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：按 cell_id 精确命中",
+      "object_id": "pt041"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "evidence_matched",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：按 cell_id 精确命中",
+      "object_id": "pt042"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "evidence_matched",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：按 cell_id 精确命中",
+      "object_id": "pt043"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "evidence_matched",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：按 cell_id 精确命中",
+      "object_id": "pt044"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "evidence_matched",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：按 cell_id 精确命中",
+      "object_id": "pt045"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "evidence_matched",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：按 cell_id 精确命中",
+      "object_id": "pt046"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "evidence_matched",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：按 cell_id 精确命中",
+      "object_id": "pt047"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "evidence_matched",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：按 cell_id 精确命中",
+      "object_id": "pt048"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "evidence_matched",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：按 cell_id 精确命中",
+      "object_id": "pt049"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "table_locator_table_scope_accepted",
+      "message": "Preview 接受 Characterization 的表级 locator",
+      "object_id": "char001"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "evidence_matched_after_normalization",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：词覆盖率 98.0%，内容在本块内但字符被打散",
+      "object_id": "char002"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "evidence_matched_after_block_recovery",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：词覆盖率仅 96.7%，疑似跨块或被截断，建议人工确认",
+      "object_id": "char003"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "evidence_matched_after_block_recovery",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：词覆盖率仅 97.0%，疑似跨块或被截断，建议人工确认",
+      "object_id": "prop_s5_001"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "evidence_matched_after_block_recovery",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：词覆盖率仅 95.7%，疑似跨块或被截断，建议人工确认",
+      "object_id": "prop_s5_004"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "evidence_matched_after_block_recovery",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：词覆盖率仅 90.0%，疑似跨块或被截断，建议人工确认",
+      "object_id": "prop_s5_006"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "evidence_matched",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：按 cell_id 精确命中",
+      "object_id": "prop_s5_008"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "table_locator_matched",
+      "message": "table_locator.row_label='HS row 1' 与表格原文表示不同，但单元格可确定性定位：按 cell_id 精确命中",
+      "object_id": "prop_s5_008"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "table_locator_matched",
+      "message": "table_locator.column_label='2θ°' 与表格原文表示不同，但单元格可确定性定位：按 cell_id 精确命中",
+      "object_id": "prop_s5_008"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "evidence_matched",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：按 cell_id 精确命中",
+      "object_id": "prop_s5_009"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "table_locator_matched",
+      "message": "table_locator.row_label='HS row 2' 与表格原文表示不同，但单元格可确定性定位：按 cell_id 精确命中",
+      "object_id": "prop_s5_009"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "table_locator_matched",
+      "message": "table_locator.column_label='2θ°' 与表格原文表示不同，但单元格可确定性定位：按 cell_id 精确命中",
+      "object_id": "prop_s5_009"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "table_locator_stable_cell_unresolved",
+      "message": "table_locator 无法唯一解析到稳定 cell_id；保留原行列文字定位",
+      "object_id": "prop_s5_010"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "evidence_matched_after_block_recovery",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：词覆盖率仅 94.7%，疑似跨块或被截断，建议人工确认",
+      "object_id": "prop_s5_010"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "evidence_matched",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：按 cell_id 精确命中",
+      "object_id": "prop_s5_011"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "table_locator_matched",
+      "message": "table_locator.row_label='HI row 1' 与表格原文表示不同，但单元格可确定性定位：按 cell_id 精确命中",
+      "object_id": "prop_s5_011"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "table_locator_matched",
+      "message": "table_locator.column_label='2θ°' 与表格原文表示不同，但单元格可确定性定位：按 cell_id 精确命中",
+      "object_id": "prop_s5_011"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "evidence_matched",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：按 cell_id 精确命中",
+      "object_id": "prop_s5_012"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "table_locator_matched",
+      "message": "table_locator.row_label='HI row 2' 与表格原文表示不同，但单元格可确定性定位：按 cell_id 精确命中",
+      "object_id": "prop_s5_012"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "table_locator_matched",
+      "message": "table_locator.column_label='2θ°' 与表格原文表示不同，但单元格可确定性定位：按 cell_id 精确命中",
+      "object_id": "prop_s5_012"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "table_locator_stable_cell_unresolved",
+      "message": "table_locator 无法唯一解析到稳定 cell_id；保留原行列文字定位",
+      "object_id": "prop_s5_013"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "evidence_matched_after_block_recovery",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：词覆盖率仅 94.7%，疑似跨块或被截断，建议人工确认",
+      "object_id": "prop_s5_013"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "evidence_matched",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：按 cell_id 精确命中",
+      "object_id": "prop_s5_014"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "table_locator_matched",
+      "message": "table_locator.row_label='HT row 1' 与表格原文表示不同，但单元格可确定性定位：按 cell_id 精确命中",
+      "object_id": "prop_s5_014"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "table_locator_matched",
+      "message": "table_locator.column_label='2θ°' 与表格原文表示不同，但单元格可确定性定位：按 cell_id 精确命中",
+      "object_id": "prop_s5_014"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "evidence_matched",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：按 cell_id 精确命中",
+      "object_id": "prop_s5_015"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "table_locator_matched",
+      "message": "table_locator.row_label='HT row 2' 与表格原文表示不同，但单元格可确定性定位：按 cell_id 精确命中",
+      "object_id": "prop_s5_015"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "table_locator_matched",
+      "message": "table_locator.column_label='2θ°' 与表格原文表示不同，但单元格可确定性定位：按 cell_id 精确命中",
+      "object_id": "prop_s5_015"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "evidence_matched",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：按 cell_id 精确命中",
+      "object_id": "prop_s5_016"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "table_locator_matched",
+      "message": "table_locator.row_label='HT row 3' 与表格原文表示不同，但单元格可确定性定位：按 cell_id 精确命中",
+      "object_id": "prop_s5_016"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "table_locator_matched",
+      "message": "table_locator.column_label='2θ°' 与表格原文表示不同，但单元格可确定性定位：按 cell_id 精确命中",
+      "object_id": "prop_s5_016"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "evidence_matched",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：按 cell_id 精确命中",
+      "object_id": "prop_s5_017"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "table_locator_matched",
+      "message": "table_locator.row_label='OT(2) row 1' 与表格原文表示不同，但单元格可确定性定位：按 cell_id 精确命中",
+      "object_id": "prop_s5_017"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "table_locator_matched",
+      "message": "table_locator.column_label='2θ°' 与表格原文表示不同，但单元格可确定性定位：按 cell_id 精确命中",
+      "object_id": "prop_s5_017"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "evidence_matched",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：按 cell_id 精确命中",
+      "object_id": "prop_s5_018"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "table_locator_matched",
+      "message": "table_locator.row_label='OT(2) row 2' 与表格原文表示不同，但单元格可确定性定位：按 cell_id 精确命中",
+      "object_id": "prop_s5_018"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "table_locator_matched",
+      "message": "table_locator.column_label='2θ°' 与表格原文表示不同，但单元格可确定性定位：按 cell_id 精确命中",
+      "object_id": "prop_s5_018"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "evidence_matched",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：按 cell_id 精确命中",
+      "object_id": "prop_s5_019"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "table_locator_matched",
+      "message": "table_locator.row_label='OT(2) row 3' 与表格原文表示不同，但单元格可确定性定位：按 cell_id 精确命中",
+      "object_id": "prop_s5_019"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "table_locator_matched",
+      "message": "table_locator.column_label='2θ°' 与表格原文表示不同，但单元格可确定性定位：按 cell_id 精确命中",
+      "object_id": "prop_s5_019"
+    },
+    {
+      "stage": "stage6_validate_merge",
+      "code": "preview_reference_pruned",
+      "message": "Preview 删除 char001.derived_property_ids 中的悬空引用：['prop011', 'prop012', 'prop013', 'prop014', 'prop015']",
+      "object_id": "char001"
+    },
+    {
+      "stage": "stage6_validate_merge",
+      "code": "preview_reference_pruned",
+      "message": "Preview 删除 char002.derived_property_ids 中的悬空引用：['prop016', 'prop017', 'prop018', 'prop019', 'prop020', 'prop021', 'prop022', 'prop023', 'prop024', 'prop025', 'prop026', 'prop027']",
+      "object_id": "char002"
+    },
+    {
+      "stage": "stage6_validate_merge",
+      "code": "preview_reference_pruned",
+      "message": "Preview 删除 char003.derived_property_ids 中的悬空引用：['prop028', 'prop029', 'prop030', 'prop031', 'prop032', 'prop033', 'prop034', 'prop035', 'prop036', 'prop037', 'prop038', 'prop039', 'prop040', 'prop041', 'prop042', 'prop043', 'prop044', 'prop045']",
+      "object_id": "char003"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "preview_object_rejected_evidence_not_in_source",
+      "message": "Preview 已隔离对象；原错误：Evidence.source_sentence 不是 Stage 0 原文子串（词覆盖率 84.6%，内容不在该 block 内）",
+      "object_id": "pt035"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "preview_object_rejected_evidence_not_in_source",
+      "message": "Preview 已隔离对象；原错误：Evidence.source_sentence 不是 Stage 0 原文子串（cell_value='—' 在该表命中 2 个格子，无法唯一定位）",
+      "object_id": "pt039"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "preview_object_rejected_evidence_not_in_source",
+      "message": "Preview 已隔离对象；原错误：Evidence.source_sentence 不是 Stage 0 原文子串（cell_value='—' 在该表命中 2 个格子，无法唯一定位）",
+      "object_id": "pt040"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_object_rejected_evidence_not_in_source",
+      "message": "Preview 已隔离对象；原错误：Evidence.source_sentence 不是 Stage 0 原文子串（词覆盖率 88.9%，内容不在该 block 内）",
+      "object_id": "prop_s5_005"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_object_rejected_table_locator_not_in_source",
+      "message": "Preview 已隔离对象；原错误：table_locator.row_label 不是表格原文",
+      "object_id": "prop_s5_010"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_object_rejected_table_locator_not_in_source",
+      "message": "Preview 已隔离对象；原错误：table_locator.column_label 不是表格原文",
+      "object_id": "prop_s5_010"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_object_rejected_table_locator_not_in_source",
+      "message": "Preview 已隔离对象；原错误：table_locator.row_label 不是表格原文",
+      "object_id": "prop_s5_013"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_object_rejected_table_locator_not_in_source",
+      "message": "Preview 已隔离对象；原错误：table_locator.column_label 不是表格原文",
+      "object_id": "prop_s5_013"
+    }
+  ],
+  "checked_counts": {
+    "stage0_blocks": 81,
+    "material_mentions": 116,
+    "polymer_entities": 9,
+    "samples": 11,
+    "process_steps": 4,
+    "measurement_conditions": 6,
+    "stage4_properties": 2,
+    "unresolved_properties": 0,
+    "property_series": 11,
+    "property_series_points": 49,
+    "characterizations": 6,
+    "stage5_properties": 19,
+    "evidence": 161,
+    "preview_published_objects": 227,
+    "preview_rejected_objects": 6,
+    "preview_reference_cleanup_count": 38
+  },
+  "quality_metrics": {
+    "properties_with_units": {
+      "complete": 2,
+      "total": 63,
+      "ratio": 0.031746031746031744
+    },
+    "standard_process_steps": {
+      "complete": 3,
+      "total": 4,
+      "ratio": 0.75
+    },
+    "stage4_methods_with_characterization": {
+      "complete": 0,
+      "total": 0,
+      "ratio": 1.0
+    },
+    "objects_with_confidence": {
+      "complete": 233,
+      "total": 233,
+      "ratio": 1.0
+    },
+    "series_points_covered": {
+      "complete": 42,
+      "total": 42,
+      "ratio": 1.0
+    }
+  }
+}

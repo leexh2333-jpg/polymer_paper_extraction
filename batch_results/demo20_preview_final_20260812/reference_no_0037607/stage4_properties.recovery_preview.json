@@ -1,0 +1,3219 @@
+{
+  "schema_version": "1.0",
+  "document_id": "reference_no_0037607",
+  "measurement_conditions": [
+    {
+      "condition_id": "mc001",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {
+        "solvent": "THF",
+        "calibration_standard": "polystyrene"
+      },
+      "other_condition_evidence": {
+        "solvent": [
+          {
+            "block_id": "T_3_58",
+            "page": 3,
+            "bbox": [
+              65.0,
+              361.0,
+              888.0,
+              880.0
+            ],
+            "source_type": "table",
+            "source_sentence": "polydispersity and $\\overline { { M } } _ { \\mathfrak { n } }$ were determined by GPC with polystyrene standards using THF as solvent.",
+            "table_locator": null
+          }
+        ],
+        "calibration_standard": [
+          {
+            "block_id": "T_3_58",
+            "page": 3,
+            "bbox": [
+              65.0,
+              361.0,
+              888.0,
+              880.0
+            ],
+            "source_type": "table",
+            "source_sentence": "polydispersity and $\\overline { { M } } _ { \\mathfrak { n } }$ were determined by GPC with polystyrene standards using THF as solvent.",
+            "table_locator": null
+          }
+        ]
+      },
+      "condition_status": "reported",
+      "evidence": {
+        "block_id": "T_3_58",
+        "page": 3,
+        "bbox": [
+          65.0,
+          361.0,
+          888.0,
+          880.0
+        ],
+        "source_type": "table",
+        "source_sentence": "polydispersity and $\\overline { { M } } _ { \\mathfrak { n } }$ were determined by GPC with polystyrene standards using THF as solvent.",
+        "table_locator": {
+          "table_id": "T_3_58",
+          "row_label": "h",
+          "column_label": "h",
+          "cell_value": "h",
+          "cell_id": "T_3_58:r0001:c0003",
+          "row_index": 1,
+          "column_index": 3
+        }
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "condition_id": "mc002",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {
+        "DSC_cycle": "second heating"
+      },
+      "other_condition_evidence": {
+        "DSC_cycle": [
+          {
+            "block_id": "I_5_83",
+            "page": 5,
+            "bbox": [
+              70.0,
+              87.0,
+              464.0,
+              306.0
+            ],
+            "source_type": "image",
+            "source_sentence": "Figure 3. DSC curves of different dye-labeled polymers 8a, 8b, 9b, and 11 (second heating curves at $1 0 \\mathrm { K } \\cdot \\mathrm { m i n } ^ { - 1 } )$",
+            "table_locator": null
+          },
+          {
+            "block_id": "P_6_97",
+            "page": 6,
+            "bbox": [
+              101.0,
+              391.0,
+              508.0,
+              691.0
+            ],
+            "source_type": "text",
+            "source_sentence": "The DSC curves (for the second heating cycle at $1 0 \\mathrm { K } \\cdot \\mathrm { m i n } ^ { - 1 } )$of different polymers carrying a single perylene bisimide dye unit are given in Figure 3.",
+            "table_locator": null
+          }
+        ]
+      },
+      "condition_status": "reported",
+      "evidence": {
+        "block_id": "T_3_58",
+        "page": 3,
+        "bbox": [
+          65.0,
+          361.0,
+          888.0,
+          880.0
+        ],
+        "source_type": "table",
+        "source_sentence": "thermal properties (from DSC and TGA) of the dye-labeled polymers",
+        "table_locator": null
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    }
+  ],
+  "properties": [],
+  "unresolved_properties": [
+    {
+      "unresolved_id": "uprop001",
+      "entity_id": "pe006",
+      "sample_id": null,
+      "property_name_raw": "$\\overline{M}_{n}$",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "17800",
+      "value_min": null,
+      "value_max": null,
+      "unit_raw": null,
+      "unit_normalized": null,
+      "measurement_condition_id": null,
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "reason": "sample_not_found",
+      "evidence": [
+        {
+          "block_id": "P_4_70",
+          "page": 4,
+          "bbox": [
+            103.0,
+            558.0,
+            506.0,
+            680.0
+          ],
+          "source_type": "text",
+          "source_sentence": "After 3 h of reaction, a molecular weight of $1 7 8 0 0 \\ \\mathrm { g \\cdot m o l ^ { - 1 } }$was achieved which only marginally increased afterwards.",
+          "table_locator": null
+        }
+      ],
+      "confidence": {
+        "score": 0.8
+      }
+    },
+    {
+      "unresolved_id": "uprop002",
+      "entity_id": "pe006",
+      "sample_id": null,
+      "property_name_raw": "PDI",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "below 1.2",
+      "value_min": null,
+      "value_max": null,
+      "unit_raw": null,
+      "unit_normalized": null,
+      "measurement_condition_id": null,
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "reason": "sample_not_found",
+      "evidence": [
+        {
+          "block_id": "P_4_70",
+          "page": 4,
+          "bbox": [
+            103.0,
+            558.0,
+            506.0,
+            680.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The polydispersity in all samples was below 1.2.",
+          "table_locator": null
+        }
+      ],
+      "confidence": {
+        "score": 0.8
+      }
+    }
+  ],
+  "property_series": [
+    {
+      "series_id": "series001",
+      "sample_id": null,
+      "entity_id": null,
+      "sample_resolution_status": "unresolved",
+      "property_name_raw": "$\\overline{M}_{n}$",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "unit_raw": "g·mol⁻¹",
+      "unit_normalized": null,
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {
+          "solvent": "THF",
+          "calibration_standard": "polystyrene"
+        },
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "points": [
+        {
+          "point_id": "pt001",
+          "observation_role": "series_point",
+          "sample_id": "s001",
+          "entity_id": "pe001",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "Polymer",
+              "value_raw": "8a",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_3_58",
+                "page": 3,
+                "bbox": [
+                  65.0,
+                  361.0,
+                  888.0,
+                  880.0
+                ],
+                "source_type": "table",
+                "source_sentence": "<tr><td>8a</td><td><img src=\"images/aed0319943f23ae764e25d692dd97531e97619beac126015f206265f13cf0f47.jpg\"/></td><td>0.05</td><td>0.5</td><td>3050</td><td>1.10</td><td>114</td><td>331</td></tr>",
+                "table_locator": {
+                  "table_id": "T_3_58",
+                  "row_label": "8a",
+                  "column_label": "Polymer",
+                  "cell_value": "8a",
+                  "cell_id": "T_3_58:r0002:c0000",
+                  "row_index": 2,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "3050",
+          "value_min": 3050.0,
+          "value_max": 3050.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "solvent": "THF",
+              "calibration_standard": "polystyrene"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_3_58",
+              "page": 3,
+              "bbox": [
+                65.0,
+                361.0,
+                888.0,
+                880.0
+              ],
+              "source_type": "table",
+              "source_sentence": "<tr><td>8a</td><td><img src=\"images/aed0319943f23ae764e25d692dd97531e97619beac126015f206265f13cf0f47.jpg\"/></td><td>0.05</td><td>0.5</td><td>3050</td><td>1.10</td><td>114</td><td>331</td></tr>",
+              "table_locator": {
+                "table_id": "T_3_58",
+                "row_label": "8a",
+                "column_label": "$g·mol^{-1}$",
+                "cell_value": "3050",
+                "cell_id": "T_3_58:r0002:c0004",
+                "row_index": 2,
+                "column_index": 4
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt002",
+          "observation_role": "series_point",
+          "sample_id": "s002",
+          "entity_id": "pe002",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "Polymer",
+              "value_raw": "8b",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_3_58",
+                "page": 3,
+                "bbox": [
+                  65.0,
+                  361.0,
+                  888.0,
+                  880.0
+                ],
+                "source_type": "table",
+                "source_sentence": "<tr><td>8b</td><td><img src=\"images/f6f582f7c828db52f8bed7545b34763f861aa9fb72acf5913545355b2cca640c.jpg\"/></td><td>0.05</td><td>1</td><td>7510</td><td>1.23</td><td>133</td><td>355</td></tr>",
+                "table_locator": {
+                  "table_id": "T_3_58",
+                  "row_label": "8b",
+                  "column_label": "Polymer",
+                  "cell_value": "8b",
+                  "cell_id": "T_3_58:r0003:c0000",
+                  "row_index": 3,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "7510",
+          "value_min": 7510.0,
+          "value_max": 7510.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "solvent": "THF",
+              "calibration_standard": "polystyrene"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_3_58",
+              "page": 3,
+              "bbox": [
+                65.0,
+                361.0,
+                888.0,
+                880.0
+              ],
+              "source_type": "table",
+              "source_sentence": "<tr><td>8b</td><td><img src=\"images/f6f582f7c828db52f8bed7545b34763f861aa9fb72acf5913545355b2cca640c.jpg\"/></td><td>0.05</td><td>1</td><td>7510</td><td>1.23</td><td>133</td><td>355</td></tr>",
+              "table_locator": {
+                "table_id": "T_3_58",
+                "row_label": "8b",
+                "column_label": "$g·mol^{-1}$",
+                "cell_value": "7510",
+                "cell_id": "T_3_58:r0003:c0004",
+                "row_index": 3,
+                "column_index": 4
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt003",
+          "observation_role": "series_point",
+          "sample_id": "s004",
+          "entity_id": "pe004",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "Polymer",
+              "value_raw": "9a",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_3_58",
+                "page": 3,
+                "bbox": [
+                  65.0,
+                  361.0,
+                  888.0,
+                  880.0
+                ],
+                "source_type": "table",
+                "source_sentence": "<tr><td>9a</td><td><img src=\"images/2602d0d407a6b1915035472483bfe799b69c8d15314408457aac74fa61027132.jpg\"/></td><td>-</td><td>1</td><td>9560</td><td>1.15</td><td>97</td><td>344</td></tr>",
+                "table_locator": {
+                  "table_id": "T_3_58",
+                  "row_label": "9a",
+                  "column_label": "Polymer",
+                  "cell_value": "9a",
+                  "cell_id": "T_3_58:r0004:c0000",
+                  "row_index": 4,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "9560",
+          "value_min": 9560.0,
+          "value_max": 9560.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "solvent": "THF",
+              "calibration_standard": "polystyrene"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_3_58",
+              "page": 3,
+              "bbox": [
+                65.0,
+                361.0,
+                888.0,
+                880.0
+              ],
+              "source_type": "table",
+              "source_sentence": "<tr><td>9a</td><td><img src=\"images/2602d0d407a6b1915035472483bfe799b69c8d15314408457aac74fa61027132.jpg\"/></td><td>-</td><td>1</td><td>9560</td><td>1.15</td><td>97</td><td>344</td></tr>",
+              "table_locator": {
+                "table_id": "T_3_58",
+                "row_label": "9a",
+                "column_label": "$g·mol^{-1}$",
+                "cell_value": "9560",
+                "cell_id": "T_3_58:r0004:c0004",
+                "row_index": 4,
+                "column_index": 4
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt004",
+          "observation_role": "series_point",
+          "sample_id": "s005",
+          "entity_id": "pe005",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "Polymer",
+              "value_raw": "9b",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_3_58",
+                "page": 3,
+                "bbox": [
+                  65.0,
+                  361.0,
+                  888.0,
+                  880.0
+                ],
+                "source_type": "table",
+                "source_sentence": "<tr><td>9b</td><td><img src=\"images/0c73d0e963bca8f78cae406151adbb1831eff648fa55fe8ee8ebfecb8be40c68.jpg\"/></td><td>-</td><td>4</td><td>17950</td><td>1.10</td><td>99</td><td>352</td></tr>",
+                "table_locator": {
+                  "table_id": "T_3_58",
+                  "row_label": "9b",
+                  "column_label": "Polymer",
+                  "cell_value": "9b",
+                  "cell_id": "T_3_58:r0005:c0000",
+                  "row_index": 5,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "17950",
+          "value_min": 17950.0,
+          "value_max": 17950.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "solvent": "THF",
+              "calibration_standard": "polystyrene"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_3_58",
+              "page": 3,
+              "bbox": [
+                65.0,
+                361.0,
+                888.0,
+                880.0
+              ],
+              "source_type": "table",
+              "source_sentence": "<tr><td>9b</td><td><img src=\"images/0c73d0e963bca8f78cae406151adbb1831eff648fa55fe8ee8ebfecb8be40c68.jpg\"/></td><td>-</td><td>4</td><td>17950</td><td>1.10</td><td>99</td><td>352</td></tr>",
+              "table_locator": {
+                "table_id": "T_3_58",
+                "row_label": "9b",
+                "column_label": "$g·mol^{-1}$",
+                "cell_value": "17950",
+                "cell_id": "T_3_58:r0005:c0004",
+                "row_index": 5,
+                "column_index": 4
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt005",
+          "observation_role": "series_point",
+          "sample_id": "s006",
+          "entity_id": "pe007",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "Polymer",
+              "value_raw": "10",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_3_58",
+                "page": 3,
+                "bbox": [
+                  65.0,
+                  361.0,
+                  888.0,
+                  880.0
+                ],
+                "source_type": "table",
+                "source_sentence": "<tr><td>10</td><td><img src=\"images/5349ff5d2a3ed50992f0673daf9df14f4bbf854dedfe68e80acc1ab6018eb2e7.jpg\"/></td><td>0.05</td><td>18</td><td>25740</td><td>1.30</td><td>46</td><td>241</td></tr>",
+                "table_locator": {
+                  "table_id": "T_3_58",
+                  "row_label": "10",
+                  "column_label": "Polymer",
+                  "cell_value": "10",
+                  "cell_id": "T_3_58:r0006:c0000",
+                  "row_index": 6,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "25740",
+          "value_min": 25740.0,
+          "value_max": 25740.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "solvent": "THF",
+              "calibration_standard": "polystyrene"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_3_58",
+              "page": 3,
+              "bbox": [
+                65.0,
+                361.0,
+                888.0,
+                880.0
+              ],
+              "source_type": "table",
+              "source_sentence": "<tr><td>10</td><td><img src=\"images/5349ff5d2a3ed50992f0673daf9df14f4bbf854dedfe68e80acc1ab6018eb2e7.jpg\"/></td><td>0.05</td><td>18</td><td>25740</td><td>1.30</td><td>46</td><td>241</td></tr>",
+              "table_locator": {
+                "table_id": "T_3_58",
+                "row_label": "10",
+                "column_label": "$g·mol^{-1}$",
+                "cell_value": "25740",
+                "cell_id": "T_3_58:r0006:c0004",
+                "row_index": 6,
+                "column_index": 4
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt006",
+          "observation_role": "series_point",
+          "sample_id": "s007",
+          "entity_id": "pe008",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "Polymer",
+              "value_raw": "11",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_3_58",
+                "page": 3,
+                "bbox": [
+                  65.0,
+                  361.0,
+                  888.0,
+                  880.0
+                ],
+                "source_type": "table",
+                "source_sentence": "<tr><td>11</td><td><img src=\"images/f19d333244257d51ac0b894cec68e14b964972809ba3c3d7fa1f77e8212becda.jpg\"/></td><td>0.05</td><td>18</td><td>21950</td><td>1.19</td><td>-48</td><td>309</td></tr>",
+                "table_locator": {
+                  "table_id": "T_3_58",
+                  "row_label": "11",
+                  "column_label": "Polymer",
+                  "cell_value": "11",
+                  "cell_id": "T_3_58:r0007:c0000",
+                  "row_index": 7,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "21950",
+          "value_min": 21950.0,
+          "value_max": 21950.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "solvent": "THF",
+              "calibration_standard": "polystyrene"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_3_58",
+              "page": 3,
+              "bbox": [
+                65.0,
+                361.0,
+                888.0,
+                880.0
+              ],
+              "source_type": "table",
+              "source_sentence": "<tr><td>11</td><td><img src=\"images/f19d333244257d51ac0b894cec68e14b964972809ba3c3d7fa1f77e8212becda.jpg\"/></td><td>0.05</td><td>18</td><td>21950</td><td>1.19</td><td>-48</td><td>309</td></tr>",
+              "table_locator": {
+                "table_id": "T_3_58",
+                "row_label": "11",
+                "column_label": "$g·mol^{-1}$",
+                "cell_value": "21950",
+                "cell_id": "T_3_58:r0007:c0004",
+                "row_index": 7,
+                "column_index": 4
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt007",
+          "observation_role": "series_point",
+          "sample_id": "s008",
+          "entity_id": "pe009",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "Polymer",
+              "value_raw": "12",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_3_58",
+                "page": 3,
+                "bbox": [
+                  65.0,
+                  361.0,
+                  888.0,
+                  880.0
+                ],
+                "source_type": "table",
+                "source_sentence": "<tr><td>12</td><td><img src=\"images/b7cb9f651ebe6a3b2501120a1633bfcf7a13614a3a49f83fb15055ba30ed295d.jpg\"/></td><td>0.05</td><td>18</td><td>8300</td><td>1.19</td><td>-a)</td><td>336</td></tr>",
+                "table_locator": {
+                  "table_id": "T_3_58",
+                  "row_label": "12",
+                  "column_label": "Polymer",
+                  "cell_value": "12",
+                  "cell_id": "T_3_58:r0008:c0000",
+                  "row_index": 8,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "8300",
+          "value_min": 8300.0,
+          "value_max": 8300.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "solvent": "THF",
+              "calibration_standard": "polystyrene"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_3_58",
+              "page": 3,
+              "bbox": [
+                65.0,
+                361.0,
+                888.0,
+                880.0
+              ],
+              "source_type": "table",
+              "source_sentence": "<tr><td>12</td><td><img src=\"images/b7cb9f651ebe6a3b2501120a1633bfcf7a13614a3a49f83fb15055ba30ed295d.jpg\"/></td><td>0.05</td><td>18</td><td>8300</td><td>1.19</td><td>-a)</td><td>336</td></tr>",
+              "table_locator": {
+                "table_id": "T_3_58",
+                "row_label": "12",
+                "column_label": "$g·mol^{-1}$",
+                "cell_value": "8300",
+                "cell_id": "T_3_58:r0008:c0004",
+                "row_index": 8,
+                "column_index": 4
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        }
+      ],
+      "coverage": {
+        "expected": 7,
+        "covered": 7,
+        "missing": 0,
+        "not_applicable": 0,
+        "ratio": 1.0
+      },
+      "evidence": [
+        {
+          "block_id": "T_3_58",
+          "page": 3,
+          "bbox": [
+            65.0,
+            361.0,
+            888.0,
+            880.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<tr><td>8a</td><td><img src=\"images/aed0319943f23ae764e25d692dd97531e97619beac126015f206265f13cf0f47.jpg\"/></td><td>0.05</td><td>0.5</td><td>3050</td><td>1.10</td><td>114</td><td>331</td></tr>",
+          "table_locator": {
+            "table_id": "T_3_58",
+            "row_label": "8a",
+            "column_label": "$g·mol^{-1}$",
+            "cell_value": "3050",
+            "cell_id": "T_3_58:r0002:c0004",
+            "row_index": 2,
+            "column_index": 4
+          }
+        },
+        {
+          "block_id": "T_3_58",
+          "page": 3,
+          "bbox": [
+            65.0,
+            361.0,
+            888.0,
+            880.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<tr><td>8b</td><td><img src=\"images/f6f582f7c828db52f8bed7545b34763f861aa9fb72acf5913545355b2cca640c.jpg\"/></td><td>0.05</td><td>1</td><td>7510</td><td>1.23</td><td>133</td><td>355</td></tr>",
+          "table_locator": {
+            "table_id": "T_3_58",
+            "row_label": "8b",
+            "column_label": "$g·mol^{-1}$",
+            "cell_value": "7510",
+            "cell_id": "T_3_58:r0003:c0004",
+            "row_index": 3,
+            "column_index": 4
+          }
+        },
+        {
+          "block_id": "T_3_58",
+          "page": 3,
+          "bbox": [
+            65.0,
+            361.0,
+            888.0,
+            880.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<tr><td>9a</td><td><img src=\"images/2602d0d407a6b1915035472483bfe799b69c8d15314408457aac74fa61027132.jpg\"/></td><td>-</td><td>1</td><td>9560</td><td>1.15</td><td>97</td><td>344</td></tr>",
+          "table_locator": {
+            "table_id": "T_3_58",
+            "row_label": "9a",
+            "column_label": "$g·mol^{-1}$",
+            "cell_value": "9560",
+            "cell_id": "T_3_58:r0004:c0004",
+            "row_index": 4,
+            "column_index": 4
+          }
+        },
+        {
+          "block_id": "T_3_58",
+          "page": 3,
+          "bbox": [
+            65.0,
+            361.0,
+            888.0,
+            880.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<tr><td>9b</td><td><img src=\"images/0c73d0e963bca8f78cae406151adbb1831eff648fa55fe8ee8ebfecb8be40c68.jpg\"/></td><td>-</td><td>4</td><td>17950</td><td>1.10</td><td>99</td><td>352</td></tr>",
+          "table_locator": {
+            "table_id": "T_3_58",
+            "row_label": "9b",
+            "column_label": "$g·mol^{-1}$",
+            "cell_value": "17950",
+            "cell_id": "T_3_58:r0005:c0004",
+            "row_index": 5,
+            "column_index": 4
+          }
+        },
+        {
+          "block_id": "T_3_58",
+          "page": 3,
+          "bbox": [
+            65.0,
+            361.0,
+            888.0,
+            880.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<tr><td>10</td><td><img src=\"images/5349ff5d2a3ed50992f0673daf9df14f4bbf854dedfe68e80acc1ab6018eb2e7.jpg\"/></td><td>0.05</td><td>18</td><td>25740</td><td>1.30</td><td>46</td><td>241</td></tr>",
+          "table_locator": {
+            "table_id": "T_3_58",
+            "row_label": "10",
+            "column_label": "$g·mol^{-1}$",
+            "cell_value": "25740",
+            "cell_id": "T_3_58:r0006:c0004",
+            "row_index": 6,
+            "column_index": 4
+          }
+        },
+        {
+          "block_id": "T_3_58",
+          "page": 3,
+          "bbox": [
+            65.0,
+            361.0,
+            888.0,
+            880.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<tr><td>11</td><td><img src=\"images/f19d333244257d51ac0b894cec68e14b964972809ba3c3d7fa1f77e8212becda.jpg\"/></td><td>0.05</td><td>18</td><td>21950</td><td>1.19</td><td>-48</td><td>309</td></tr>",
+          "table_locator": {
+            "table_id": "T_3_58",
+            "row_label": "11",
+            "column_label": "$g·mol^{-1}$",
+            "cell_value": "21950",
+            "cell_id": "T_3_58:r0007:c0004",
+            "row_index": 7,
+            "column_index": 4
+          }
+        },
+        {
+          "block_id": "T_3_58",
+          "page": 3,
+          "bbox": [
+            65.0,
+            361.0,
+            888.0,
+            880.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<tr><td>12</td><td><img src=\"images/b7cb9f651ebe6a3b2501120a1633bfcf7a13614a3a49f83fb15055ba30ed295d.jpg\"/></td><td>0.05</td><td>18</td><td>8300</td><td>1.19</td><td>-a)</td><td>336</td></tr>",
+          "table_locator": {
+            "table_id": "T_3_58",
+            "row_label": "12",
+            "column_label": "$g·mol^{-1}$",
+            "cell_value": "8300",
+            "cell_id": "T_3_58:r0008:c0004",
+            "row_index": 8,
+            "column_index": 4
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "series_id": "series002",
+      "sample_id": null,
+      "entity_id": null,
+      "sample_resolution_status": "unresolved",
+      "property_name_raw": "PDI",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "unit_raw": null,
+      "unit_normalized": null,
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {
+          "solvent": "THF",
+          "calibration_standard": "polystyrene"
+        },
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "points": [
+        {
+          "point_id": "pt008",
+          "observation_role": "series_point",
+          "sample_id": "s001",
+          "entity_id": "pe001",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "Polymer",
+              "value_raw": "8a",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_3_58",
+                "page": 3,
+                "bbox": [
+                  65.0,
+                  361.0,
+                  888.0,
+                  880.0
+                ],
+                "source_type": "table",
+                "source_sentence": "<tr><td>8a</td><td><img src=\"images/aed0319943f23ae764e25d692dd97531e97619beac126015f206265f13cf0f47.jpg\"/></td><td>0.05</td><td>0.5</td><td>3050</td><td>1.10</td><td>114</td><td>331</td></tr>",
+                "table_locator": {
+                  "table_id": "T_3_58",
+                  "row_label": "8a",
+                  "column_label": "Polymer",
+                  "cell_value": "8a",
+                  "cell_id": "T_3_58:r0002:c0000",
+                  "row_index": 2,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "1.10",
+          "value_min": 1.1,
+          "value_max": 1.1,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "solvent": "THF",
+              "calibration_standard": "polystyrene"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_3_58",
+              "page": 3,
+              "bbox": [
+                65.0,
+                361.0,
+                888.0,
+                880.0
+              ],
+              "source_type": "table",
+              "source_sentence": "<tr><td>8a</td><td><img src=\"images/aed0319943f23ae764e25d692dd97531e97619beac126015f206265f13cf0f47.jpg\"/></td><td>0.05</td><td>0.5</td><td>3050</td><td>1.10</td><td>114</td><td>331</td></tr>",
+              "table_locator": {
+                "table_id": "T_3_58",
+                "row_label": "8a",
+                "column_label": "PDI",
+                "cell_value": "1.10",
+                "cell_id": "T_3_58:r0002:c0005",
+                "row_index": 2,
+                "column_index": 5
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt009",
+          "observation_role": "series_point",
+          "sample_id": "s002",
+          "entity_id": "pe002",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "Polymer",
+              "value_raw": "8b",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_3_58",
+                "page": 3,
+                "bbox": [
+                  65.0,
+                  361.0,
+                  888.0,
+                  880.0
+                ],
+                "source_type": "table",
+                "source_sentence": "<tr><td>8b</td><td><img src=\"images/f6f582f7c828db52f8bed7545b34763f861aa9fb72acf5913545355b2cca640c.jpg\"/></td><td>0.05</td><td>1</td><td>7510</td><td>1.23</td><td>133</td><td>355</td></tr>",
+                "table_locator": {
+                  "table_id": "T_3_58",
+                  "row_label": "8b",
+                  "column_label": "Polymer",
+                  "cell_value": "8b",
+                  "cell_id": "T_3_58:r0003:c0000",
+                  "row_index": 3,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "1.23",
+          "value_min": 1.23,
+          "value_max": 1.23,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "solvent": "THF",
+              "calibration_standard": "polystyrene"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_3_58",
+              "page": 3,
+              "bbox": [
+                65.0,
+                361.0,
+                888.0,
+                880.0
+              ],
+              "source_type": "table",
+              "source_sentence": "<tr><td>8b</td><td><img src=\"images/f6f582f7c828db52f8bed7545b34763f861aa9fb72acf5913545355b2cca640c.jpg\"/></td><td>0.05</td><td>1</td><td>7510</td><td>1.23</td><td>133</td><td>355</td></tr>",
+              "table_locator": {
+                "table_id": "T_3_58",
+                "row_label": "8b",
+                "column_label": "PDI",
+                "cell_value": "1.23",
+                "cell_id": "T_3_58:r0003:c0005",
+                "row_index": 3,
+                "column_index": 5
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt010",
+          "observation_role": "series_point",
+          "sample_id": "s004",
+          "entity_id": "pe004",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "Polymer",
+              "value_raw": "9a",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_3_58",
+                "page": 3,
+                "bbox": [
+                  65.0,
+                  361.0,
+                  888.0,
+                  880.0
+                ],
+                "source_type": "table",
+                "source_sentence": "<tr><td>9a</td><td><img src=\"images/2602d0d407a6b1915035472483bfe799b69c8d15314408457aac74fa61027132.jpg\"/></td><td>-</td><td>1</td><td>9560</td><td>1.15</td><td>97</td><td>344</td></tr>",
+                "table_locator": {
+                  "table_id": "T_3_58",
+                  "row_label": "9a",
+                  "column_label": "Polymer",
+                  "cell_value": "9a",
+                  "cell_id": "T_3_58:r0004:c0000",
+                  "row_index": 4,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "1.15",
+          "value_min": 1.15,
+          "value_max": 1.15,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "solvent": "THF",
+              "calibration_standard": "polystyrene"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_3_58",
+              "page": 3,
+              "bbox": [
+                65.0,
+                361.0,
+                888.0,
+                880.0
+              ],
+              "source_type": "table",
+              "source_sentence": "<tr><td>9a</td><td><img src=\"images/2602d0d407a6b1915035472483bfe799b69c8d15314408457aac74fa61027132.jpg\"/></td><td>-</td><td>1</td><td>9560</td><td>1.15</td><td>97</td><td>344</td></tr>",
+              "table_locator": {
+                "table_id": "T_3_58",
+                "row_label": "9a",
+                "column_label": "PDI",
+                "cell_value": "1.15",
+                "cell_id": "T_3_58:r0004:c0005",
+                "row_index": 4,
+                "column_index": 5
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt011",
+          "observation_role": "series_point",
+          "sample_id": "s005",
+          "entity_id": "pe005",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "Polymer",
+              "value_raw": "9b",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_3_58",
+                "page": 3,
+                "bbox": [
+                  65.0,
+                  361.0,
+                  888.0,
+                  880.0
+                ],
+                "source_type": "table",
+                "source_sentence": "<tr><td>9b</td><td><img src=\"images/0c73d0e963bca8f78cae406151adbb1831eff648fa55fe8ee8ebfecb8be40c68.jpg\"/></td><td>-</td><td>4</td><td>17950</td><td>1.10</td><td>99</td><td>352</td></tr>",
+                "table_locator": {
+                  "table_id": "T_3_58",
+                  "row_label": "9b",
+                  "column_label": "Polymer",
+                  "cell_value": "9b",
+                  "cell_id": "T_3_58:r0005:c0000",
+                  "row_index": 5,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "1.10",
+          "value_min": 1.1,
+          "value_max": 1.1,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "solvent": "THF",
+              "calibration_standard": "polystyrene"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_3_58",
+              "page": 3,
+              "bbox": [
+                65.0,
+                361.0,
+                888.0,
+                880.0
+              ],
+              "source_type": "table",
+              "source_sentence": "<tr><td>9b</td><td><img src=\"images/0c73d0e963bca8f78cae406151adbb1831eff648fa55fe8ee8ebfecb8be40c68.jpg\"/></td><td>-</td><td>4</td><td>17950</td><td>1.10</td><td>99</td><td>352</td></tr>",
+              "table_locator": {
+                "table_id": "T_3_58",
+                "row_label": "9b",
+                "column_label": "PDI",
+                "cell_value": "1.10",
+                "cell_id": "T_3_58:r0005:c0005",
+                "row_index": 5,
+                "column_index": 5
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt012",
+          "observation_role": "series_point",
+          "sample_id": "s006",
+          "entity_id": "pe007",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "Polymer",
+              "value_raw": "10",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_3_58",
+                "page": 3,
+                "bbox": [
+                  65.0,
+                  361.0,
+                  888.0,
+                  880.0
+                ],
+                "source_type": "table",
+                "source_sentence": "<tr><td>10</td><td><img src=\"images/5349ff5d2a3ed50992f0673daf9df14f4bbf854dedfe68e80acc1ab6018eb2e7.jpg\"/></td><td>0.05</td><td>18</td><td>25740</td><td>1.30</td><td>46</td><td>241</td></tr>",
+                "table_locator": {
+                  "table_id": "T_3_58",
+                  "row_label": "10",
+                  "column_label": "Polymer",
+                  "cell_value": "10",
+                  "cell_id": "T_3_58:r0006:c0000",
+                  "row_index": 6,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "1.30",
+          "value_min": 1.3,
+          "value_max": 1.3,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "solvent": "THF",
+              "calibration_standard": "polystyrene"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_3_58",
+              "page": 3,
+              "bbox": [
+                65.0,
+                361.0,
+                888.0,
+                880.0
+              ],
+              "source_type": "table",
+              "source_sentence": "<tr><td>10</td><td><img src=\"images/5349ff5d2a3ed50992f0673daf9df14f4bbf854dedfe68e80acc1ab6018eb2e7.jpg\"/></td><td>0.05</td><td>18</td><td>25740</td><td>1.30</td><td>46</td><td>241</td></tr>",
+              "table_locator": {
+                "table_id": "T_3_58",
+                "row_label": "10",
+                "column_label": "PDI",
+                "cell_value": "1.30",
+                "cell_id": "T_3_58:r0006:c0005",
+                "row_index": 6,
+                "column_index": 5
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt013",
+          "observation_role": "series_point",
+          "sample_id": "s007",
+          "entity_id": "pe008",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "Polymer",
+              "value_raw": "11",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_3_58",
+                "page": 3,
+                "bbox": [
+                  65.0,
+                  361.0,
+                  888.0,
+                  880.0
+                ],
+                "source_type": "table",
+                "source_sentence": "<tr><td>11</td><td><img src=\"images/f19d333244257d51ac0b894cec68e14b964972809ba3c3d7fa1f77e8212becda.jpg\"/></td><td>0.05</td><td>18</td><td>21950</td><td>1.19</td><td>-48</td><td>309</td></tr>",
+                "table_locator": {
+                  "table_id": "T_3_58",
+                  "row_label": "11",
+                  "column_label": "Polymer",
+                  "cell_value": "11",
+                  "cell_id": "T_3_58:r0007:c0000",
+                  "row_index": 7,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "1.19",
+          "value_min": 1.19,
+          "value_max": 1.19,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "solvent": "THF",
+              "calibration_standard": "polystyrene"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_3_58",
+              "page": 3,
+              "bbox": [
+                65.0,
+                361.0,
+                888.0,
+                880.0
+              ],
+              "source_type": "table",
+              "source_sentence": "<tr><td>11</td><td><img src=\"images/f19d333244257d51ac0b894cec68e14b964972809ba3c3d7fa1f77e8212becda.jpg\"/></td><td>0.05</td><td>18</td><td>21950</td><td>1.19</td><td>-48</td><td>309</td></tr>",
+              "table_locator": {
+                "table_id": "T_3_58",
+                "row_label": "11",
+                "column_label": "PDI",
+                "cell_value": "1.19",
+                "cell_id": "T_3_58:r0007:c0005",
+                "row_index": 7,
+                "column_index": 5
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt014",
+          "observation_role": "series_point",
+          "sample_id": "s008",
+          "entity_id": "pe009",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "Polymer",
+              "value_raw": "12",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_3_58",
+                "page": 3,
+                "bbox": [
+                  65.0,
+                  361.0,
+                  888.0,
+                  880.0
+                ],
+                "source_type": "table",
+                "source_sentence": "<tr><td>12</td><td><img src=\"images/b7cb9f651ebe6a3b2501120a1633bfcf7a13614a3a49f83fb15055ba30ed295d.jpg\"/></td><td>0.05</td><td>18</td><td>8300</td><td>1.19</td><td>-a)</td><td>336</td></tr>",
+                "table_locator": {
+                  "table_id": "T_3_58",
+                  "row_label": "12",
+                  "column_label": "Polymer",
+                  "cell_value": "12",
+                  "cell_id": "T_3_58:r0008:c0000",
+                  "row_index": 8,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "1.19",
+          "value_min": 1.19,
+          "value_max": 1.19,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "solvent": "THF",
+              "calibration_standard": "polystyrene"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_3_58",
+              "page": 3,
+              "bbox": [
+                65.0,
+                361.0,
+                888.0,
+                880.0
+              ],
+              "source_type": "table",
+              "source_sentence": "<tr><td>12</td><td><img src=\"images/b7cb9f651ebe6a3b2501120a1633bfcf7a13614a3a49f83fb15055ba30ed295d.jpg\"/></td><td>0.05</td><td>18</td><td>8300</td><td>1.19</td><td>-a)</td><td>336</td></tr>",
+              "table_locator": {
+                "table_id": "T_3_58",
+                "row_label": "12",
+                "column_label": "PDI",
+                "cell_value": "1.19",
+                "cell_id": "T_3_58:r0008:c0005",
+                "row_index": 8,
+                "column_index": 5
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        }
+      ],
+      "coverage": {
+        "expected": 7,
+        "covered": 7,
+        "missing": 0,
+        "not_applicable": 0,
+        "ratio": 1.0
+      },
+      "evidence": [
+        {
+          "block_id": "T_3_58",
+          "page": 3,
+          "bbox": [
+            65.0,
+            361.0,
+            888.0,
+            880.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<tr><td>8a</td><td><img src=\"images/aed0319943f23ae764e25d692dd97531e97619beac126015f206265f13cf0f47.jpg\"/></td><td>0.05</td><td>0.5</td><td>3050</td><td>1.10</td><td>114</td><td>331</td></tr>",
+          "table_locator": {
+            "table_id": "T_3_58",
+            "row_label": "8a",
+            "column_label": "PDI",
+            "cell_value": "1.10",
+            "cell_id": "T_3_58:r0002:c0005",
+            "row_index": 2,
+            "column_index": 5
+          }
+        },
+        {
+          "block_id": "T_3_58",
+          "page": 3,
+          "bbox": [
+            65.0,
+            361.0,
+            888.0,
+            880.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<tr><td>8b</td><td><img src=\"images/f6f582f7c828db52f8bed7545b34763f861aa9fb72acf5913545355b2cca640c.jpg\"/></td><td>0.05</td><td>1</td><td>7510</td><td>1.23</td><td>133</td><td>355</td></tr>",
+          "table_locator": {
+            "table_id": "T_3_58",
+            "row_label": "8b",
+            "column_label": "PDI",
+            "cell_value": "1.23",
+            "cell_id": "T_3_58:r0003:c0005",
+            "row_index": 3,
+            "column_index": 5
+          }
+        },
+        {
+          "block_id": "T_3_58",
+          "page": 3,
+          "bbox": [
+            65.0,
+            361.0,
+            888.0,
+            880.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<tr><td>9a</td><td><img src=\"images/2602d0d407a6b1915035472483bfe799b69c8d15314408457aac74fa61027132.jpg\"/></td><td>-</td><td>1</td><td>9560</td><td>1.15</td><td>97</td><td>344</td></tr>",
+          "table_locator": {
+            "table_id": "T_3_58",
+            "row_label": "9a",
+            "column_label": "PDI",
+            "cell_value": "1.15",
+            "cell_id": "T_3_58:r0004:c0005",
+            "row_index": 4,
+            "column_index": 5
+          }
+        },
+        {
+          "block_id": "T_3_58",
+          "page": 3,
+          "bbox": [
+            65.0,
+            361.0,
+            888.0,
+            880.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<tr><td>9b</td><td><img src=\"images/0c73d0e963bca8f78cae406151adbb1831eff648fa55fe8ee8ebfecb8be40c68.jpg\"/></td><td>-</td><td>4</td><td>17950</td><td>1.10</td><td>99</td><td>352</td></tr>",
+          "table_locator": {
+            "table_id": "T_3_58",
+            "row_label": "9b",
+            "column_label": "PDI",
+            "cell_value": "1.10",
+            "cell_id": "T_3_58:r0005:c0005",
+            "row_index": 5,
+            "column_index": 5
+          }
+        },
+        {
+          "block_id": "T_3_58",
+          "page": 3,
+          "bbox": [
+            65.0,
+            361.0,
+            888.0,
+            880.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<tr><td>10</td><td><img src=\"images/5349ff5d2a3ed50992f0673daf9df14f4bbf854dedfe68e80acc1ab6018eb2e7.jpg\"/></td><td>0.05</td><td>18</td><td>25740</td><td>1.30</td><td>46</td><td>241</td></tr>",
+          "table_locator": {
+            "table_id": "T_3_58",
+            "row_label": "10",
+            "column_label": "PDI",
+            "cell_value": "1.30",
+            "cell_id": "T_3_58:r0006:c0005",
+            "row_index": 6,
+            "column_index": 5
+          }
+        },
+        {
+          "block_id": "T_3_58",
+          "page": 3,
+          "bbox": [
+            65.0,
+            361.0,
+            888.0,
+            880.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<tr><td>11</td><td><img src=\"images/f19d333244257d51ac0b894cec68e14b964972809ba3c3d7fa1f77e8212becda.jpg\"/></td><td>0.05</td><td>18</td><td>21950</td><td>1.19</td><td>-48</td><td>309</td></tr>",
+          "table_locator": {
+            "table_id": "T_3_58",
+            "row_label": "11",
+            "column_label": "PDI",
+            "cell_value": "1.19",
+            "cell_id": "T_3_58:r0007:c0005",
+            "row_index": 7,
+            "column_index": 5
+          }
+        },
+        {
+          "block_id": "T_3_58",
+          "page": 3,
+          "bbox": [
+            65.0,
+            361.0,
+            888.0,
+            880.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<tr><td>12</td><td><img src=\"images/b7cb9f651ebe6a3b2501120a1633bfcf7a13614a3a49f83fb15055ba30ed295d.jpg\"/></td><td>0.05</td><td>18</td><td>8300</td><td>1.19</td><td>-a)</td><td>336</td></tr>",
+          "table_locator": {
+            "table_id": "T_3_58",
+            "row_label": "12",
+            "column_label": "PDI",
+            "cell_value": "1.19",
+            "cell_id": "T_3_58:r0008:c0005",
+            "row_index": 8,
+            "column_index": 5
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "series_id": "series003",
+      "sample_id": null,
+      "entity_id": null,
+      "sample_resolution_status": "unresolved",
+      "property_name_raw": "T_g",
+      "property_name_normalized": "glass_transition_temperature",
+      "property_code": "P3110",
+      "property_category": "thermal_property",
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "unit_raw": "°C",
+      "unit_normalized": "°C",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {
+          "DSC_heating_rate": "10 K·min⁻¹",
+          "DSC_cycle": "second heating"
+        },
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "points": [
+        {
+          "point_id": "pt015",
+          "observation_role": "series_point",
+          "sample_id": "s001",
+          "entity_id": "pe001",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "Polymer",
+              "value_raw": "8a",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_3_58",
+                "page": 3,
+                "bbox": [
+                  65.0,
+                  361.0,
+                  888.0,
+                  880.0
+                ],
+                "source_type": "table",
+                "source_sentence": "<tr><td>8a</td><td><img src=\"images/aed0319943f23ae764e25d692dd97531e97619beac126015f206265f13cf0f47.jpg\"/></td><td>0.05</td><td>0.5</td><td>3050</td><td>1.10</td><td>114</td><td>331</td></tr>",
+                "table_locator": {
+                  "table_id": "T_3_58",
+                  "row_label": "8a",
+                  "column_label": "Polymer",
+                  "cell_value": "8a",
+                  "cell_id": "T_3_58:r0002:c0000",
+                  "row_index": 2,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "114",
+          "value_min": 114.0,
+          "value_max": 114.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "DSC_heating_rate": "10 K·min⁻¹",
+              "DSC_cycle": "second heating"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_3_58",
+              "page": 3,
+              "bbox": [
+                65.0,
+                361.0,
+                888.0,
+                880.0
+              ],
+              "source_type": "table",
+              "source_sentence": "<tr><td>8a</td><td><img src=\"images/aed0319943f23ae764e25d692dd97531e97619beac126015f206265f13cf0f47.jpg\"/></td><td>0.05</td><td>0.5</td><td>3050</td><td>1.10</td><td>114</td><td>331</td></tr>",
+              "table_locator": {
+                "table_id": "T_3_58",
+                "row_label": "8a",
+                "column_label": "°C",
+                "cell_value": "114",
+                "cell_id": "T_3_58:r0002:c0006",
+                "row_index": 2,
+                "column_index": 6
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt016",
+          "observation_role": "series_point",
+          "sample_id": "s002",
+          "entity_id": "pe002",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "Polymer",
+              "value_raw": "8b",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_3_58",
+                "page": 3,
+                "bbox": [
+                  65.0,
+                  361.0,
+                  888.0,
+                  880.0
+                ],
+                "source_type": "table",
+                "source_sentence": "<tr><td>8b</td><td><img src=\"images/f6f582f7c828db52f8bed7545b34763f861aa9fb72acf5913545355b2cca640c.jpg\"/></td><td>0.05</td><td>1</td><td>7510</td><td>1.23</td><td>133</td><td>355</td></tr>",
+                "table_locator": {
+                  "table_id": "T_3_58",
+                  "row_label": "8b",
+                  "column_label": "Polymer",
+                  "cell_value": "8b",
+                  "cell_id": "T_3_58:r0003:c0000",
+                  "row_index": 3,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "133",
+          "value_min": 133.0,
+          "value_max": 133.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "DSC_heating_rate": "10 K·min⁻¹",
+              "DSC_cycle": "second heating"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_3_58",
+              "page": 3,
+              "bbox": [
+                65.0,
+                361.0,
+                888.0,
+                880.0
+              ],
+              "source_type": "table",
+              "source_sentence": "<tr><td>8b</td><td><img src=\"images/f6f582f7c828db52f8bed7545b34763f861aa9fb72acf5913545355b2cca640c.jpg\"/></td><td>0.05</td><td>1</td><td>7510</td><td>1.23</td><td>133</td><td>355</td></tr>",
+              "table_locator": {
+                "table_id": "T_3_58",
+                "row_label": "8b",
+                "column_label": "°C",
+                "cell_value": "133",
+                "cell_id": "T_3_58:r0003:c0006",
+                "row_index": 3,
+                "column_index": 6
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt017",
+          "observation_role": "series_point",
+          "sample_id": "s004",
+          "entity_id": "pe004",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "Polymer",
+              "value_raw": "9a",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_3_58",
+                "page": 3,
+                "bbox": [
+                  65.0,
+                  361.0,
+                  888.0,
+                  880.0
+                ],
+                "source_type": "table",
+                "source_sentence": "<tr><td>9a</td><td><img src=\"images/2602d0d407a6b1915035472483bfe799b69c8d15314408457aac74fa61027132.jpg\"/></td><td>-</td><td>1</td><td>9560</td><td>1.15</td><td>97</td><td>344</td></tr>",
+                "table_locator": {
+                  "table_id": "T_3_58",
+                  "row_label": "9a",
+                  "column_label": "Polymer",
+                  "cell_value": "9a",
+                  "cell_id": "T_3_58:r0004:c0000",
+                  "row_index": 4,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "97",
+          "value_min": 97.0,
+          "value_max": 97.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "DSC_heating_rate": "10 K·min⁻¹",
+              "DSC_cycle": "second heating"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_3_58",
+              "page": 3,
+              "bbox": [
+                65.0,
+                361.0,
+                888.0,
+                880.0
+              ],
+              "source_type": "table",
+              "source_sentence": "<tr><td>9a</td><td><img src=\"images/2602d0d407a6b1915035472483bfe799b69c8d15314408457aac74fa61027132.jpg\"/></td><td>-</td><td>1</td><td>9560</td><td>1.15</td><td>97</td><td>344</td></tr>",
+              "table_locator": {
+                "table_id": "T_3_58",
+                "row_label": "9a",
+                "column_label": "°C",
+                "cell_value": "97",
+                "cell_id": "T_3_58:r0004:c0006",
+                "row_index": 4,
+                "column_index": 6
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt018",
+          "observation_role": "series_point",
+          "sample_id": "s005",
+          "entity_id": "pe005",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "Polymer",
+              "value_raw": "9b",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_3_58",
+                "page": 3,
+                "bbox": [
+                  65.0,
+                  361.0,
+                  888.0,
+                  880.0
+                ],
+                "source_type": "table",
+                "source_sentence": "<tr><td>9b</td><td><img src=\"images/0c73d0e963bca8f78cae406151adbb1831eff648fa55fe8ee8ebfecb8be40c68.jpg\"/></td><td>-</td><td>4</td><td>17950</td><td>1.10</td><td>99</td><td>352</td></tr>",
+                "table_locator": {
+                  "table_id": "T_3_58",
+                  "row_label": "9b",
+                  "column_label": "Polymer",
+                  "cell_value": "9b",
+                  "cell_id": "T_3_58:r0005:c0000",
+                  "row_index": 5,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "99",
+          "value_min": 99.0,
+          "value_max": 99.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "DSC_heating_rate": "10 K·min⁻¹",
+              "DSC_cycle": "second heating"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_3_58",
+              "page": 3,
+              "bbox": [
+                65.0,
+                361.0,
+                888.0,
+                880.0
+              ],
+              "source_type": "table",
+              "source_sentence": "<tr><td>9b</td><td><img src=\"images/0c73d0e963bca8f78cae406151adbb1831eff648fa55fe8ee8ebfecb8be40c68.jpg\"/></td><td>-</td><td>4</td><td>17950</td><td>1.10</td><td>99</td><td>352</td></tr>",
+              "table_locator": {
+                "table_id": "T_3_58",
+                "row_label": "9b",
+                "column_label": "°C",
+                "cell_value": "99",
+                "cell_id": "T_3_58:r0005:c0006",
+                "row_index": 5,
+                "column_index": 6
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt019",
+          "observation_role": "series_point",
+          "sample_id": "s006",
+          "entity_id": "pe007",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "Polymer",
+              "value_raw": "10",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_3_58",
+                "page": 3,
+                "bbox": [
+                  65.0,
+                  361.0,
+                  888.0,
+                  880.0
+                ],
+                "source_type": "table",
+                "source_sentence": "<tr><td>10</td><td><img src=\"images/5349ff5d2a3ed50992f0673daf9df14f4bbf854dedfe68e80acc1ab6018eb2e7.jpg\"/></td><td>0.05</td><td>18</td><td>25740</td><td>1.30</td><td>46</td><td>241</td></tr>",
+                "table_locator": {
+                  "table_id": "T_3_58",
+                  "row_label": "10",
+                  "column_label": "Polymer",
+                  "cell_value": "10",
+                  "cell_id": "T_3_58:r0006:c0000",
+                  "row_index": 6,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "46",
+          "value_min": 46.0,
+          "value_max": 46.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "DSC_heating_rate": "10 K·min⁻¹",
+              "DSC_cycle": "second heating"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_3_58",
+              "page": 3,
+              "bbox": [
+                65.0,
+                361.0,
+                888.0,
+                880.0
+              ],
+              "source_type": "table",
+              "source_sentence": "<tr><td>10</td><td><img src=\"images/5349ff5d2a3ed50992f0673daf9df14f4bbf854dedfe68e80acc1ab6018eb2e7.jpg\"/></td><td>0.05</td><td>18</td><td>25740</td><td>1.30</td><td>46</td><td>241</td></tr>",
+              "table_locator": {
+                "table_id": "T_3_58",
+                "row_label": "10",
+                "column_label": "°C",
+                "cell_value": "46",
+                "cell_id": "T_3_58:r0006:c0006",
+                "row_index": 6,
+                "column_index": 6
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt020",
+          "observation_role": "series_point",
+          "sample_id": "s007",
+          "entity_id": "pe008",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "Polymer",
+              "value_raw": "11",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_3_58",
+                "page": 3,
+                "bbox": [
+                  65.0,
+                  361.0,
+                  888.0,
+                  880.0
+                ],
+                "source_type": "table",
+                "source_sentence": "<tr><td>11</td><td><img src=\"images/f19d333244257d51ac0b894cec68e14b964972809ba3c3d7fa1f77e8212becda.jpg\"/></td><td>0.05</td><td>18</td><td>21950</td><td>1.19</td><td>-48</td><td>309</td></tr>",
+                "table_locator": {
+                  "table_id": "T_3_58",
+                  "row_label": "11",
+                  "column_label": "Polymer",
+                  "cell_value": "11",
+                  "cell_id": "T_3_58:r0007:c0000",
+                  "row_index": 7,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "-48",
+          "value_min": -48.0,
+          "value_max": -48.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "DSC_heating_rate": "10 K·min⁻¹",
+              "DSC_cycle": "second heating"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_3_58",
+              "page": 3,
+              "bbox": [
+                65.0,
+                361.0,
+                888.0,
+                880.0
+              ],
+              "source_type": "table",
+              "source_sentence": "<tr><td>11</td><td><img src=\"images/f19d333244257d51ac0b894cec68e14b964972809ba3c3d7fa1f77e8212becda.jpg\"/></td><td>0.05</td><td>18</td><td>21950</td><td>1.19</td><td>-48</td><td>309</td></tr>",
+              "table_locator": {
+                "table_id": "T_3_58",
+                "row_label": "11",
+                "column_label": "°C",
+                "cell_value": "-48",
+                "cell_id": "T_3_58:r0007:c0006",
+                "row_index": 7,
+                "column_index": 6
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt021",
+          "observation_role": "series_point",
+          "sample_id": "s008",
+          "entity_id": "pe009",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "Polymer",
+              "value_raw": "12",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_3_58",
+                "page": 3,
+                "bbox": [
+                  65.0,
+                  361.0,
+                  888.0,
+                  880.0
+                ],
+                "source_type": "table",
+                "source_sentence": "<tr><td>12</td><td><img src=\"images/b7cb9f651ebe6a3b2501120a1633bfcf7a13614a3a49f83fb15055ba30ed295d.jpg\"/></td><td>0.05</td><td>18</td><td>8300</td><td>1.19</td><td>-a)</td><td>336</td></tr>",
+                "table_locator": {
+                  "table_id": "T_3_58",
+                  "row_label": "12",
+                  "column_label": "Polymer",
+                  "cell_value": "12",
+                  "cell_id": "T_3_58:r0008:c0000",
+                  "row_index": 8,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "-a)",
+          "value_min": null,
+          "value_max": null,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "DSC_heating_rate": "10 K·min⁻¹",
+              "DSC_cycle": "second heating"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "missing",
+          "evidence": [
+            {
+              "block_id": "T_3_58",
+              "page": 3,
+              "bbox": [
+                65.0,
+                361.0,
+                888.0,
+                880.0
+              ],
+              "source_type": "table",
+              "source_sentence": "<tr><td>12</td><td><img src=\"images/b7cb9f651ebe6a3b2501120a1633bfcf7a13614a3a49f83fb15055ba30ed295d.jpg\"/></td><td>0.05</td><td>18</td><td>8300</td><td>1.19</td><td>-a)</td><td>336</td></tr>",
+              "table_locator": {
+                "table_id": "T_3_58",
+                "row_label": "12",
+                "column_label": "°C",
+                "cell_value": "-a)",
+                "cell_id": "T_3_58:r0008:c0006",
+                "row_index": 8,
+                "column_index": 6
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.7
+          }
+        }
+      ],
+      "coverage": {
+        "expected": 7,
+        "covered": 6,
+        "missing": 1,
+        "not_applicable": 0,
+        "ratio": 0.8571428571428571
+      },
+      "evidence": [
+        {
+          "block_id": "P_6_97",
+          "page": 6,
+          "bbox": [
+            101.0,
+            391.0,
+            508.0,
+            691.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The DSC curves (for the second heating cycle at $1 0 \\mathrm { K } \\cdot \\mathrm { m i n } ^ { - 1 } )$of different polymers carrying a single perylene bisimide dye unit are given in Figure 3.",
+          "table_locator": null
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "series_id": "series004",
+      "sample_id": null,
+      "entity_id": null,
+      "sample_resolution_status": "unresolved",
+      "property_name_raw": "TGA-5%",
+      "property_name_normalized": "thermal_decomposition_temperature",
+      "property_code": "P3170",
+      "property_category": "thermal_property",
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "unit_raw": "°C",
+      "unit_normalized": "°C",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "points": [
+        {
+          "point_id": "pt022",
+          "observation_role": "series_point",
+          "sample_id": "s001",
+          "entity_id": "pe001",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "Polymer",
+              "value_raw": "8a",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_3_58",
+                "page": 3,
+                "bbox": [
+                  65.0,
+                  361.0,
+                  888.0,
+                  880.0
+                ],
+                "source_type": "table",
+                "source_sentence": "<tr><td>8a</td><td><img src=\"images/aed0319943f23ae764e25d692dd97531e97619beac126015f206265f13cf0f47.jpg\"/></td><td>0.05</td><td>0.5</td><td>3050</td><td>1.10</td><td>114</td><td>331</td></tr>",
+                "table_locator": {
+                  "table_id": "T_3_58",
+                  "row_label": "8a",
+                  "column_label": "Polymer",
+                  "cell_value": "8a",
+                  "cell_id": "T_3_58:r0002:c0000",
+                  "row_index": 2,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "331",
+          "value_min": 331.0,
+          "value_max": 331.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_3_58",
+              "page": 3,
+              "bbox": [
+                65.0,
+                361.0,
+                888.0,
+                880.0
+              ],
+              "source_type": "table",
+              "source_sentence": "<tr><td>8a</td><td><img src=\"images/aed0319943f23ae764e25d692dd97531e97619beac126015f206265f13cf0f47.jpg\"/></td><td>0.05</td><td>0.5</td><td>3050</td><td>1.10</td><td>114</td><td>331</td></tr>",
+              "table_locator": {
+                "table_id": "T_3_58",
+                "row_label": "8a",
+                "column_label": "°C",
+                "cell_value": "331",
+                "cell_id": "T_3_58:r0002:c0007",
+                "row_index": 2,
+                "column_index": 7
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt023",
+          "observation_role": "series_point",
+          "sample_id": "s002",
+          "entity_id": "pe002",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "Polymer",
+              "value_raw": "8b",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_3_58",
+                "page": 3,
+                "bbox": [
+                  65.0,
+                  361.0,
+                  888.0,
+                  880.0
+                ],
+                "source_type": "table",
+                "source_sentence": "<tr><td>8b</td><td><img src=\"images/f6f582f7c828db52f8bed7545b34763f861aa9fb72acf5913545355b2cca640c.jpg\"/></td><td>0.05</td><td>1</td><td>7510</td><td>1.23</td><td>133</td><td>355</td></tr>",
+                "table_locator": {
+                  "table_id": "T_3_58",
+                  "row_label": "8b",
+                  "column_label": "Polymer",
+                  "cell_value": "8b",
+                  "cell_id": "T_3_58:r0003:c0000",
+                  "row_index": 3,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "355",
+          "value_min": 355.0,
+          "value_max": 355.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_3_58",
+              "page": 3,
+              "bbox": [
+                65.0,
+                361.0,
+                888.0,
+                880.0
+              ],
+              "source_type": "table",
+              "source_sentence": "<tr><td>8b</td><td><img src=\"images/f6f582f7c828db52f8bed7545b34763f861aa9fb72acf5913545355b2cca640c.jpg\"/></td><td>0.05</td><td>1</td><td>7510</td><td>1.23</td><td>133</td><td>355</td></tr>",
+              "table_locator": {
+                "table_id": "T_3_58",
+                "row_label": "8b",
+                "column_label": "°C",
+                "cell_value": "355",
+                "cell_id": "T_3_58:r0003:c0007",
+                "row_index": 3,
+                "column_index": 7
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt024",
+          "observation_role": "series_point",
+          "sample_id": "s004",
+          "entity_id": "pe004",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "Polymer",
+              "value_raw": "9a",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_3_58",
+                "page": 3,
+                "bbox": [
+                  65.0,
+                  361.0,
+                  888.0,
+                  880.0
+                ],
+                "source_type": "table",
+                "source_sentence": "<tr><td>9a</td><td><img src=\"images/2602d0d407a6b1915035472483bfe799b69c8d15314408457aac74fa61027132.jpg\"/></td><td>-</td><td>1</td><td>9560</td><td>1.15</td><td>97</td><td>344</td></tr>",
+                "table_locator": {
+                  "table_id": "T_3_58",
+                  "row_label": "9a",
+                  "column_label": "Polymer",
+                  "cell_value": "9a",
+                  "cell_id": "T_3_58:r0004:c0000",
+                  "row_index": 4,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "344",
+          "value_min": 344.0,
+          "value_max": 344.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_3_58",
+              "page": 3,
+              "bbox": [
+                65.0,
+                361.0,
+                888.0,
+                880.0
+              ],
+              "source_type": "table",
+              "source_sentence": "<tr><td>9a</td><td><img src=\"images/2602d0d407a6b1915035472483bfe799b69c8d15314408457aac74fa61027132.jpg\"/></td><td>-</td><td>1</td><td>9560</td><td>1.15</td><td>97</td><td>344</td></tr>",
+              "table_locator": {
+                "table_id": "T_3_58",
+                "row_label": "9a",
+                "column_label": "°C",
+                "cell_value": "344",
+                "cell_id": "T_3_58:r0004:c0007",
+                "row_index": 4,
+                "column_index": 7
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt025",
+          "observation_role": "series_point",
+          "sample_id": "s005",
+          "entity_id": "pe005",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "Polymer",
+              "value_raw": "9b",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_3_58",
+                "page": 3,
+                "bbox": [
+                  65.0,
+                  361.0,
+                  888.0,
+                  880.0
+                ],
+                "source_type": "table",
+                "source_sentence": "<tr><td>9b</td><td><img src=\"images/0c73d0e963bca8f78cae406151adbb1831eff648fa55fe8ee8ebfecb8be40c68.jpg\"/></td><td>-</td><td>4</td><td>17950</td><td>1.10</td><td>99</td><td>352</td></tr>",
+                "table_locator": {
+                  "table_id": "T_3_58",
+                  "row_label": "9b",
+                  "column_label": "Polymer",
+                  "cell_value": "9b",
+                  "cell_id": "T_3_58:r0005:c0000",
+                  "row_index": 5,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "352",
+          "value_min": 352.0,
+          "value_max": 352.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_3_58",
+              "page": 3,
+              "bbox": [
+                65.0,
+                361.0,
+                888.0,
+                880.0
+              ],
+              "source_type": "table",
+              "source_sentence": "<tr><td>9b</td><td><img src=\"images/0c73d0e963bca8f78cae406151adbb1831eff648fa55fe8ee8ebfecb8be40c68.jpg\"/></td><td>-</td><td>4</td><td>17950</td><td>1.10</td><td>99</td><td>352</td></tr>",
+              "table_locator": {
+                "table_id": "T_3_58",
+                "row_label": "9b",
+                "column_label": "°C",
+                "cell_value": "352",
+                "cell_id": "T_3_58:r0005:c0007",
+                "row_index": 5,
+                "column_index": 7
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt026",
+          "observation_role": "series_point",
+          "sample_id": "s006",
+          "entity_id": "pe007",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "Polymer",
+              "value_raw": "10",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_3_58",
+                "page": 3,
+                "bbox": [
+                  65.0,
+                  361.0,
+                  888.0,
+                  880.0
+                ],
+                "source_type": "table",
+                "source_sentence": "<tr><td>10</td><td><img src=\"images/5349ff5d2a3ed50992f0673daf9df14f4bbf854dedfe68e80acc1ab6018eb2e7.jpg\"/></td><td>0.05</td><td>18</td><td>25740</td><td>1.30</td><td>46</td><td>241</td></tr>",
+                "table_locator": {
+                  "table_id": "T_3_58",
+                  "row_label": "10",
+                  "column_label": "Polymer",
+                  "cell_value": "10",
+                  "cell_id": "T_3_58:r0006:c0000",
+                  "row_index": 6,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "241",
+          "value_min": 241.0,
+          "value_max": 241.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_3_58",
+              "page": 3,
+              "bbox": [
+                65.0,
+                361.0,
+                888.0,
+                880.0
+              ],
+              "source_type": "table",
+              "source_sentence": "<tr><td>10</td><td><img src=\"images/5349ff5d2a3ed50992f0673daf9df14f4bbf854dedfe68e80acc1ab6018eb2e7.jpg\"/></td><td>0.05</td><td>18</td><td>25740</td><td>1.30</td><td>46</td><td>241</td></tr>",
+              "table_locator": {
+                "table_id": "T_3_58",
+                "row_label": "10",
+                "column_label": "°C",
+                "cell_value": "241",
+                "cell_id": "T_3_58:r0006:c0007",
+                "row_index": 6,
+                "column_index": 7
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt027",
+          "observation_role": "series_point",
+          "sample_id": "s007",
+          "entity_id": "pe008",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "Polymer",
+              "value_raw": "11",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_3_58",
+                "page": 3,
+                "bbox": [
+                  65.0,
+                  361.0,
+                  888.0,
+                  880.0
+                ],
+                "source_type": "table",
+                "source_sentence": "<tr><td>11</td><td><img src=\"images/f19d333244257d51ac0b894cec68e14b964972809ba3c3d7fa1f77e8212becda.jpg\"/></td><td>0.05</td><td>18</td><td>21950</td><td>1.19</td><td>-48</td><td>309</td></tr>",
+                "table_locator": {
+                  "table_id": "T_3_58",
+                  "row_label": "11",
+                  "column_label": "Polymer",
+                  "cell_value": "11",
+                  "cell_id": "T_3_58:r0007:c0000",
+                  "row_index": 7,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "309",
+          "value_min": 309.0,
+          "value_max": 309.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_3_58",
+              "page": 3,
+              "bbox": [
+                65.0,
+                361.0,
+                888.0,
+                880.0
+              ],
+              "source_type": "table",
+              "source_sentence": "<tr><td>11</td><td><img src=\"images/f19d333244257d51ac0b894cec68e14b964972809ba3c3d7fa1f77e8212becda.jpg\"/></td><td>0.05</td><td>18</td><td>21950</td><td>1.19</td><td>-48</td><td>309</td></tr>",
+              "table_locator": {
+                "table_id": "T_3_58",
+                "row_label": "11",
+                "column_label": "°C",
+                "cell_value": "309",
+                "cell_id": "T_3_58:r0007:c0007",
+                "row_index": 7,
+                "column_index": 7
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt028",
+          "observation_role": "series_point",
+          "sample_id": "s008",
+          "entity_id": "pe009",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "Polymer",
+              "value_raw": "12",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_3_58",
+                "page": 3,
+                "bbox": [
+                  65.0,
+                  361.0,
+                  888.0,
+                  880.0
+                ],
+                "source_type": "table",
+                "source_sentence": "<tr><td>12</td><td><img src=\"images/b7cb9f651ebe6a3b2501120a1633bfcf7a13614a3a49f83fb15055ba30ed295d.jpg\"/></td><td>0.05</td><td>18</td><td>8300</td><td>1.19</td><td>-a)</td><td>336</td></tr>",
+                "table_locator": {
+                  "table_id": "T_3_58",
+                  "row_label": "12",
+                  "column_label": "Polymer",
+                  "cell_value": "12",
+                  "cell_id": "T_3_58:r0008:c0000",
+                  "row_index": 8,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "336",
+          "value_min": 336.0,
+          "value_max": 336.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_3_58",
+              "page": 3,
+              "bbox": [
+                65.0,
+                361.0,
+                888.0,
+                880.0
+              ],
+              "source_type": "table",
+              "source_sentence": "<tr><td>12</td><td><img src=\"images/b7cb9f651ebe6a3b2501120a1633bfcf7a13614a3a49f83fb15055ba30ed295d.jpg\"/></td><td>0.05</td><td>18</td><td>8300</td><td>1.19</td><td>-a)</td><td>336</td></tr>",
+              "table_locator": {
+                "table_id": "T_3_58",
+                "row_label": "12",
+                "column_label": "°C",
+                "cell_value": "336",
+                "cell_id": "T_3_58:r0008:c0007",
+                "row_index": 8,
+                "column_index": 7
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        }
+      ],
+      "coverage": {
+        "expected": 7,
+        "covered": 7,
+        "missing": 0,
+        "not_applicable": 0,
+        "ratio": 1.0
+      },
+      "evidence": [
+        {
+          "block_id": "T_3_58",
+          "page": 3,
+          "bbox": [
+            65.0,
+            361.0,
+            888.0,
+            880.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<tr><td>8a</td><td><img src=\"images/aed0319943f23ae764e25d692dd97531e97619beac126015f206265f13cf0f47.jpg\"/></td><td>0.05</td><td>0.5</td><td>3050</td><td>1.10</td><td>114</td><td>331</td></tr>",
+          "table_locator": {
+            "table_id": "T_3_58",
+            "row_label": "8a",
+            "column_label": "°C",
+            "cell_value": "331",
+            "cell_id": "T_3_58:r0002:c0007",
+            "row_index": 2,
+            "column_index": 7
+          }
+        },
+        {
+          "block_id": "T_3_58",
+          "page": 3,
+          "bbox": [
+            65.0,
+            361.0,
+            888.0,
+            880.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<tr><td>8b</td><td><img src=\"images/f6f582f7c828db52f8bed7545b34763f861aa9fb72acf5913545355b2cca640c.jpg\"/></td><td>0.05</td><td>1</td><td>7510</td><td>1.23</td><td>133</td><td>355</td></tr>",
+          "table_locator": {
+            "table_id": "T_3_58",
+            "row_label": "8b",
+            "column_label": "°C",
+            "cell_value": "355",
+            "cell_id": "T_3_58:r0003:c0007",
+            "row_index": 3,
+            "column_index": 7
+          }
+        },
+        {
+          "block_id": "T_3_58",
+          "page": 3,
+          "bbox": [
+            65.0,
+            361.0,
+            888.0,
+            880.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<tr><td>9a</td><td><img src=\"images/2602d0d407a6b1915035472483bfe799b69c8d15314408457aac74fa61027132.jpg\"/></td><td>-</td><td>1</td><td>9560</td><td>1.15</td><td>97</td><td>344</td></tr>",
+          "table_locator": {
+            "table_id": "T_3_58",
+            "row_label": "9a",
+            "column_label": "°C",
+            "cell_value": "344",
+            "cell_id": "T_3_58:r0004:c0007",
+            "row_index": 4,
+            "column_index": 7
+          }
+        },
+        {
+          "block_id": "T_3_58",
+          "page": 3,
+          "bbox": [
+            65.0,
+            361.0,
+            888.0,
+            880.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<tr><td>9b</td><td><img src=\"images/0c73d0e963bca8f78cae406151adbb1831eff648fa55fe8ee8ebfecb8be40c68.jpg\"/></td><td>-</td><td>4</td><td>17950</td><td>1.10</td><td>99</td><td>352</td></tr>",
+          "table_locator": {
+            "table_id": "T_3_58",
+            "row_label": "9b",
+            "column_label": "°C",
+            "cell_value": "352",
+            "cell_id": "T_3_58:r0005:c0007",
+            "row_index": 5,
+            "column_index": 7
+          }
+        },
+        {
+          "block_id": "T_3_58",
+          "page": 3,
+          "bbox": [
+            65.0,
+            361.0,
+            888.0,
+            880.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<tr><td>10</td><td><img src=\"images/5349ff5d2a3ed50992f0673daf9df14f4bbf854dedfe68e80acc1ab6018eb2e7.jpg\"/></td><td>0.05</td><td>18</td><td>25740</td><td>1.30</td><td>46</td><td>241</td></tr>",
+          "table_locator": {
+            "table_id": "T_3_58",
+            "row_label": "10",
+            "column_label": "°C",
+            "cell_value": "241",
+            "cell_id": "T_3_58:r0006:c0007",
+            "row_index": 6,
+            "column_index": 7
+          }
+        },
+        {
+          "block_id": "T_3_58",
+          "page": 3,
+          "bbox": [
+            65.0,
+            361.0,
+            888.0,
+            880.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<tr><td>11</td><td><img src=\"images/f19d333244257d51ac0b894cec68e14b964972809ba3c3d7fa1f77e8212becda.jpg\"/></td><td>0.05</td><td>18</td><td>21950</td><td>1.19</td><td>-48</td><td>309</td></tr>",
+          "table_locator": {
+            "table_id": "T_3_58",
+            "row_label": "11",
+            "column_label": "°C",
+            "cell_value": "309",
+            "cell_id": "T_3_58:r0007:c0007",
+            "row_index": 7,
+            "column_index": 7
+          }
+        },
+        {
+          "block_id": "T_3_58",
+          "page": 3,
+          "bbox": [
+            65.0,
+            361.0,
+            888.0,
+            880.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<tr><td>12</td><td><img src=\"images/b7cb9f651ebe6a3b2501120a1633bfcf7a13614a3a49f83fb15055ba30ed295d.jpg\"/></td><td>0.05</td><td>18</td><td>8300</td><td>1.19</td><td>-a)</td><td>336</td></tr>",
+          "table_locator": {
+            "table_id": "T_3_58",
+            "row_label": "12",
+            "column_label": "°C",
+            "cell_value": "336",
+            "cell_id": "T_3_58:r0008:c0007",
+            "row_index": 8,
+            "column_index": 7
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    }
+  ],
+  "provenance": {
+    "stage": "stage4_property",
+    "provider": "dmx",
+    "model": "doubao-seed-2.0-pro",
+    "models": [
+      "doubao-seed-2.0-pro"
+    ],
+    "prompt_id": "polymer.stage4.property",
+    "prompt_version": "1.7.2",
+    "prompt_sha256": "ec79fe3bf47539cab4ba239c611d1ab17d75dc0038cda85020caca580f7987a5",
+    "vocabulary_sha256": "3e9d85e4915a729edf0f0a53821f3ee6edf32874e1da6972457417e4f13a1510",
+    "input_hash": "80850db72d4c242c5e6cb7b110464a2958a6f47170e64989a36e58611ddcc4fc",
+    "model_config_hash": "cc96eaab20bd380ae90f3ba1dfa638bd40f111e3e72ca185255fb71b459d40ea",
+    "cache_key": "e92d5258ca7b5b0f8b1df451bfe495e0ee25ed783e64015b0f06680ae254649d",
+    "output_schema_version": "property_observation_schema.v7",
+    "implementation_version": "1.7.10",
+    "context_block_count": 44,
+    "context_chars": 33053,
+    "call_count": 1,
+    "usage": {
+      "input_tokens": 26712,
+      "output_tokens": 33170,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "billable_input_tokens": 26712,
+      "total_tokens": 59882
+    },
+    "cost": {
+      "status": "calculated",
+      "currency": "CNY",
+      "input_per_million": "4.32",
+      "output_per_million": "29.15",
+      "input_cost": "0.11539584",
+      "output_cost": "0.9669055",
+      "total_cost": "1.08230134"
+    },
+    "status": "success"
+  },
+  "warnings": [
+    {
+      "stage": "stage4_property",
+      "code": "preview_point_locator_recovered_from_unique_table_row",
+      "message": "Preview 模式已用唯一完整表格行、唯一列头及一致 value_raw 补全 Series point 的稳定坐标",
+      "points": 28
+    },
+    {
+      "stage": "stage4_property",
+      "code": "multi_subject_series_normalized",
+      "message": "PropertySeries 的 points 明确属于多个 Sample/PolymerEntity；已清除错误的单一顶层主体，主体关系保留在各 point",
+      "series": 4
+    },
+    {
+      "stage": "stage4_property",
+      "code": "empty_reported_context_downgraded",
+      "message": "measurement_context 标记为 reported 但没有任何条件值；已确定性改为 not_reported",
+      "contexts": 1
+    },
+    {
+      "stage": "stage4_property",
+      "code": "candidate_table_locator_surface_repaired",
+      "message": "模型 locator 表面文本不在表格原文；已用 property raw 与 determination method 中唯一匹配的 Stage 0 表头恢复",
+      "evidence": 42
+    },
+    {
+      "stage": "stage4_property",
+      "code": "condition_table_locators_synthesized",
+      "message": "已将唯一包含条件 raw 的表头单元格绑定为条件 evidence",
+      "evidence": 1
+    },
+    {
+      "stage": "stage4_property",
+      "code": "series_context_evidence_supplemented",
+      "message": "Series/point measurement context 不在数值表格 evidence；已补入全文中唯一的完全匹配原文 block",
+      "series_evidence": 1
+    },
+    {
+      "stage": "stage4_property",
+      "code": "preview_semantic_validation_bypassed",
+      "message": "Preview 已保留 Schema 合法候选，并跳过原文/evidence 语义对应校验；Strict 模式仍会报错",
+      "reason": "uprop001 没有可保留的 evidence"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "preview_objects_salvaged",
+      "message": "Preview 已逐对象保留可安全物化的数据；坏字段、坏对象或失效引用已局部删除，Strict 模式仍会报错",
+      "details": {
+        "dropped_conditions": [],
+        "dropped_properties": [],
+        "dropped_unresolved_properties": [],
+        "dropped_series": [],
+        "dropped_points": [],
+        "dropped_evidence": 0,
+        "dropped_coordinates": 0
+      }
+    },
+    {
+      "stage": "stage4_property",
+      "code": "unresolved_properties",
+      "message": "2 条性质无法可靠关联具体 Sample",
+      "unresolved_ids": [
+        "uprop001",
+        "uprop002"
+      ]
+    },
+    {
+      "stage": "stage4_property",
+      "code": "property_series_incomplete",
+      "message": "1 个 PropertySeries 存在缺失数据点",
+      "series_ids": [
+        "series003"
+      ]
+    }
+  ]
+}

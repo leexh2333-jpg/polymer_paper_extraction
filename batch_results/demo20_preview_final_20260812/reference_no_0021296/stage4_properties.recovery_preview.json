@@ -1,0 +1,4605 @@
+{
+  "schema_version": "1.0",
+  "document_id": "reference_no_0021296",
+  "measurement_conditions": [
+    {
+      "condition_id": "mc001",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {
+        "solvent": "m-cresol",
+        "viscometer_type": "Ubbelohde-type"
+      },
+      "other_condition_evidence": {
+        "solvent": [
+          {
+            "block_id": "P_3_39",
+            "page": 3,
+            "bbox": [
+              117.0,
+              739.0,
+              501.0,
+              909.0
+            ],
+            "source_type": "text",
+            "source_sentence": "The dilute solution in m-cresol was charged into a Ubbelohde-type viscometer for testing.",
+            "table_locator": null
+          }
+        ],
+        "viscometer_type": [
+          {
+            "block_id": "P_3_39",
+            "page": 3,
+            "bbox": [
+              117.0,
+              739.0,
+              501.0,
+              909.0
+            ],
+            "source_type": "text",
+            "source_sentence": "The dilute solution in m-cresol was charged into a Ubbelohde-type viscometer for testing.",
+            "table_locator": null
+          }
+        ]
+      },
+      "condition_status": "reported",
+      "evidence": {
+        "block_id": "P_3_39",
+        "page": 3,
+        "bbox": [
+          117.0,
+          739.0,
+          501.0,
+          909.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The measurements of the intrinsic viscosities were made in a thermostat bath regulated to 25 ± 0.02 °C. The dilute solution in m-cresol was charged into a Ubbelohde-type viscometer for testing.",
+        "table_locator": null
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "condition_id": "mc002",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {
+        "atmosphere": "nitrogen",
+        "heating_rate": "10°C/min",
+        "temperature_range": "room temperature to 800°C"
+      },
+      "other_condition_evidence": {
+        "atmosphere": [
+          {
+            "block_id": "P_2_30",
+            "page": 2,
+            "bbox": [
+              527.0,
+              460.0,
+              913.0,
+              814.0
+            ],
+            "source_type": "text",
+            "source_sentence": "run under both nitrogen and air atmosphere from room temperature to 800 °C at a heating rate of 10°C/min.",
+            "table_locator": null
+          }
+        ],
+        "heating_rate": [
+          {
+            "block_id": "P_2_30",
+            "page": 2,
+            "bbox": [
+              527.0,
+              460.0,
+              913.0,
+              814.0
+            ],
+            "source_type": "text",
+            "source_sentence": "run under both nitrogen and air atmosphere from room temperature to 800 °C at a heating rate of 10°C/min.",
+            "table_locator": null
+          }
+        ],
+        "temperature_range": [
+          {
+            "block_id": "P_2_30",
+            "page": 2,
+            "bbox": [
+              527.0,
+              460.0,
+              913.0,
+              814.0
+            ],
+            "source_type": "text",
+            "source_sentence": "run under both nitrogen and air atmosphere from room temperature to 800 °C at a heating rate of 10°C/min.",
+            "table_locator": null
+          }
+        ]
+      },
+      "condition_status": "reported",
+      "evidence": {
+        "block_id": "P_2_30",
+        "page": 2,
+        "bbox": [
+          527.0,
+          460.0,
+          913.0,
+          814.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Thermogravimetric analysis (TGA) was performed using a TA Instruments of Hi-res TGA 2950 Thermogravimetric Analyzer. A sample of about 20 mg was put into a clean platinum pan and run under both nitrogen and air atmosphere from room temperature to 800 °C at a heating rate of 10°C/min.",
+        "table_locator": null
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "condition_id": "mc003",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {
+        "atmosphere": "air",
+        "heating_rate": "10°C/min",
+        "temperature_range": "room temperature to 800°C"
+      },
+      "other_condition_evidence": {
+        "atmosphere": [
+          {
+            "block_id": "P_2_30",
+            "page": 2,
+            "bbox": [
+              527.0,
+              460.0,
+              913.0,
+              814.0
+            ],
+            "source_type": "text",
+            "source_sentence": "run under both nitrogen and air atmosphere from room temperature to 800 °C at a heating rate of 10°C/min.",
+            "table_locator": null
+          }
+        ],
+        "heating_rate": [
+          {
+            "block_id": "P_2_30",
+            "page": 2,
+            "bbox": [
+              527.0,
+              460.0,
+              913.0,
+              814.0
+            ],
+            "source_type": "text",
+            "source_sentence": "run under both nitrogen and air atmosphere from room temperature to 800 °C at a heating rate of 10°C/min.",
+            "table_locator": null
+          }
+        ],
+        "temperature_range": [
+          {
+            "block_id": "P_2_30",
+            "page": 2,
+            "bbox": [
+              527.0,
+              460.0,
+              913.0,
+              814.0
+            ],
+            "source_type": "text",
+            "source_sentence": "run under both nitrogen and air atmosphere from room temperature to 800 °C at a heating rate of 10°C/min.",
+            "table_locator": null
+          }
+        ]
+      },
+      "condition_status": "reported",
+      "evidence": {
+        "block_id": "P_2_30",
+        "page": 2,
+        "bbox": [
+          527.0,
+          460.0,
+          913.0,
+          814.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Thermogravimetric analysis (TGA) was performed using a TA Instruments of Hi-res TGA 2950 Thermogravimetric Analyzer. A sample of about 20 mg was put into a clean platinum pan and run under both nitrogen and air atmosphere from room temperature to 800 °C at a heating rate of 10°C/min.",
+        "table_locator": null
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "condition_id": "mc004",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {
+        "atmosphere": "nitrogen",
+        "heating_rate": "10°C/min",
+        "temperature_range": "40 to 250°C"
+      },
+      "other_condition_evidence": {
+        "atmosphere": [
+          {
+            "block_id": "P_2_30",
+            "page": 2,
+            "bbox": [
+              527.0,
+              460.0,
+              913.0,
+              814.0
+            ],
+            "source_type": "text",
+            "source_sentence": "All DA-polyesters were analyzed from 40 to 250°C under nitrogen purge at the heating rate of 10°C/min.",
+            "table_locator": null
+          }
+        ],
+        "heating_rate": [
+          {
+            "block_id": "P_2_30",
+            "page": 2,
+            "bbox": [
+              527.0,
+              460.0,
+              913.0,
+              814.0
+            ],
+            "source_type": "text",
+            "source_sentence": "All DA-polyesters were analyzed from 40 to 250°C under nitrogen purge at the heating rate of 10°C/min.",
+            "table_locator": null
+          }
+        ],
+        "temperature_range": [
+          {
+            "block_id": "P_2_30",
+            "page": 2,
+            "bbox": [
+              527.0,
+              460.0,
+              913.0,
+              814.0
+            ],
+            "source_type": "text",
+            "source_sentence": "All DA-polyesters were analyzed from 40 to 250°C under nitrogen purge at the heating rate of 10°C/min.",
+            "table_locator": null
+          }
+        ]
+      },
+      "condition_status": "reported",
+      "evidence": {
+        "block_id": "P_2_30",
+        "page": 2,
+        "bbox": [
+          527.0,
+          460.0,
+          913.0,
+          814.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Differential scanning calorimetry (DSC) analysis was carried out employing a Perkin–Elmer DSC-7. All DA-polyesters were analyzed from 40 to 250°C under nitrogen purge at the heating rate of 10°C/min.",
+        "table_locator": null
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "condition_id": "mc005",
+      "temperature": null,
+      "frequency": {
+        "raw": "1 Hz",
+        "value": 1.0,
+        "unit": "Hz",
+        "evidence": [
+          {
+            "block_id": "P_2_30",
+            "page": 2,
+            "bbox": [
+              527.0,
+              460.0,
+              913.0,
+              814.0
+            ],
+            "source_type": "text",
+            "source_sentence": "The measurement was performed at a heating rate of 3°C/min and a frequency of 1 Hz in air.",
+            "table_locator": null
+          }
+        ],
+        "evidence_ids": []
+      },
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {
+        "heating_rate": "3°C/min",
+        "atmosphere": "air"
+      },
+      "other_condition_evidence": {
+        "heating_rate": [
+          {
+            "block_id": "P_2_30",
+            "page": 2,
+            "bbox": [
+              527.0,
+              460.0,
+              913.0,
+              814.0
+            ],
+            "source_type": "text",
+            "source_sentence": "The measurement was performed at a heating rate of 3°C/min and a frequency of 1 Hz in air.",
+            "table_locator": null
+          }
+        ],
+        "atmosphere": [
+          {
+            "block_id": "P_2_30",
+            "page": 2,
+            "bbox": [
+              527.0,
+              460.0,
+              913.0,
+              814.0
+            ],
+            "source_type": "text",
+            "source_sentence": "The measurement was performed at a heating rate of 3°C/min and a frequency of 1 Hz in air.",
+            "table_locator": null
+          }
+        ]
+      },
+      "condition_status": "reported",
+      "evidence": {
+        "block_id": "P_2_30",
+        "page": 2,
+        "bbox": [
+          527.0,
+          460.0,
+          913.0,
+          814.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Dynamic mechanical analysis (DMA) data were collected through a TA Instruments Dynamic Mechanical Analyzer 2980. The measurement was performed at a heating rate of 3°C/min and a frequency of 1 Hz in air. The peak tan d temperature is taken as the glass transition temperature Tg.",
+        "table_locator": null
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "condition_id": "mc006",
+      "temperature": {
+        "raw": "80 °C",
+        "value": 80.0,
+        "unit": "°C",
+        "evidence": [
+          {
+            "block_id": "P_2_30",
+            "page": 2,
+            "bbox": [
+              527.0,
+              460.0,
+              913.0,
+              814.0
+            ],
+            "source_type": "text",
+            "source_sentence": "Isothermal DSC analysis was also carried out by first heating the sample to the annealing temperature (80 °C) at a rate of 30 °C/min.",
+            "table_locator": null
+          }
+        ],
+        "evidence_ids": []
+      },
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {
+        "heating_rate_to_anneal": "30°C/min"
+      },
+      "other_condition_evidence": {
+        "heating_rate_to_anneal": [
+          {
+            "block_id": "P_2_30",
+            "page": 2,
+            "bbox": [
+              527.0,
+              460.0,
+              913.0,
+              814.0
+            ],
+            "source_type": "text",
+            "source_sentence": "Isothermal DSC analysis was also carried out by first heating the sample to the annealing temperature (80 °C) at a rate of 30 °C/min.",
+            "table_locator": null
+          }
+        ]
+      },
+      "condition_status": "reported",
+      "evidence": {
+        "block_id": "P_2_30",
+        "page": 2,
+        "bbox": [
+          527.0,
+          460.0,
+          913.0,
+          814.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Isothermal DSC analysis was also carried out by first heating the sample to the annealing temperature (80 °C) at a rate of 30 °C/min.",
+        "table_locator": null
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    }
+  ],
+  "properties": [
+    {
+      "property_id": "prop001",
+      "sample_id": "s001",
+      "property_name_raw": "isothermal DSC exotherm enthalpy",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "410 J/g",
+      "value_min": 410.0,
+      "value_max": 410.0,
+      "unit_raw": "J/g",
+      "unit_normalized": null,
+      "measurement_condition_id": "mc006",
+      "measurement_context": {
+        "temperature": {
+          "raw": "80 °C",
+          "value": 80.0,
+          "unit": "°C",
+          "evidence": [
+            {
+              "block_id": "P_2_30",
+              "page": 2,
+              "bbox": [
+                527.0,
+                460.0,
+                913.0,
+                814.0
+              ],
+              "source_type": "text",
+              "source_sentence": "Isothermal DSC analysis was also carried out by first heating the sample to the annealing temperature (80 °C) at a rate of 30 °C/min.",
+              "table_locator": null
+            }
+          ],
+          "evidence_ids": []
+        },
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {
+          "heating_rate_to_anneal": "30°C/min"
+        },
+        "other_condition_evidence": {
+          "heating_rate_to_anneal": [
+            {
+              "block_id": "P_2_30",
+              "page": 2,
+              "bbox": [
+                527.0,
+                460.0,
+                913.0,
+                814.0
+              ],
+              "source_type": "text",
+              "source_sentence": "Isothermal DSC analysis was also carried out by first heating the sample to the annealing temperature (80 °C) at a rate of 30 °C/min.",
+              "table_locator": null
+            }
+          ]
+        },
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_7_79",
+          "page": 7,
+          "bbox": [
+            529.0,
+            148.0,
+            913.0,
+            469.0
+          ],
+          "source_type": "text",
+          "source_sentence": "However, the isothermal DSC trace at the same temperature shows a large distinct exotherm of 410 J/g, which peaks at 165 min, for the aliphatic HS, as seen in Figure 6.",
+          "table_locator": null
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop002",
+      "sample_id": "s001",
+      "property_name_raw": "isothermal DSC exotherm peak time",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "165 min",
+      "value_min": 165.0,
+      "value_max": 165.0,
+      "unit_raw": "min",
+      "unit_normalized": null,
+      "measurement_condition_id": "mc006",
+      "measurement_context": {
+        "temperature": {
+          "raw": "80 °C",
+          "value": 80.0,
+          "unit": "°C",
+          "evidence": [
+            {
+              "block_id": "P_2_30",
+              "page": 2,
+              "bbox": [
+                527.0,
+                460.0,
+                913.0,
+                814.0
+              ],
+              "source_type": "text",
+              "source_sentence": "Isothermal DSC analysis was also carried out by first heating the sample to the annealing temperature (80 °C) at a rate of 30 °C/min.",
+              "table_locator": null
+            }
+          ],
+          "evidence_ids": []
+        },
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {
+          "heating_rate_to_anneal": "30°C/min"
+        },
+        "other_condition_evidence": {
+          "heating_rate_to_anneal": [
+            {
+              "block_id": "P_2_30",
+              "page": 2,
+              "bbox": [
+                527.0,
+                460.0,
+                913.0,
+                814.0
+              ],
+              "source_type": "text",
+              "source_sentence": "Isothermal DSC analysis was also carried out by first heating the sample to the annealing temperature (80 °C) at a rate of 30 °C/min.",
+              "table_locator": null
+            }
+          ]
+        },
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_7_79",
+          "page": 7,
+          "bbox": [
+            529.0,
+            148.0,
+            913.0,
+            469.0
+          ],
+          "source_type": "text",
+          "source_sentence": "However, the isothermal DSC trace at the same temperature shows a large distinct exotherm of 410 J/g, which peaks at 165 min, for the aliphatic HS, as seen in Figure 6.",
+          "table_locator": null
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    }
+  ],
+  "unresolved_properties": [],
+  "property_series": [
+    {
+      "series_id": "series001",
+      "sample_id": null,
+      "entity_id": null,
+      "sample_resolution_status": "unresolved",
+      "property_name_raw": "Intrinsic viscosity",
+      "property_name_normalized": "intrinsic_viscosity",
+      "property_code": "P6120",
+      "property_category": "dilute_solution_property",
+      "determination_method_raw": "Ubbelohde-type viscometer in m-cresol at 25 ± 0.02 °C",
+      "observation_group_id": null,
+      "unit_raw": null,
+      "unit_normalized": null,
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {
+          "solvent": "m-cresol",
+          "viscometer_type": "Ubbelohde-type"
+        },
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "points": [
+        {
+          "point_id": "pt001",
+          "observation_role": "series_point",
+          "sample_id": "s001",
+          "entity_id": "pe002",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "0.089",
+          "value_min": 0.089,
+          "value_max": 0.089,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "solvent": "m-cresol",
+              "viscometer_type": "Ubbelohde-type"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_3_36",
+              "page": 3,
+              "bbox": [
+                120.0,
+                106.0,
+                911.0,
+                189.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Intrinsic viscosity row, HS column, cell value 0.089",
+              "table_locator": {
+                "table_id": "T_3_36",
+                "row_label": "Intrinsic viscosity",
+                "column_label": "HS",
+                "cell_value": "0.089",
+                "cell_id": "T_3_36:r0003:c0001",
+                "row_index": 3,
+                "column_index": 1
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt002",
+          "observation_role": "series_point",
+          "sample_id": "s002",
+          "entity_id": "pe003",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "0.096",
+          "value_min": 0.096,
+          "value_max": 0.096,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "solvent": "m-cresol",
+              "viscometer_type": "Ubbelohde-type"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_3_36",
+              "page": 3,
+              "bbox": [
+                120.0,
+                106.0,
+                911.0,
+                189.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Intrinsic viscosity row, HI column, cell value 0.096",
+              "table_locator": {
+                "table_id": "T_3_36",
+                "row_label": "Intrinsic viscosity",
+                "column_label": "HI",
+                "cell_value": "0.096",
+                "cell_id": "T_3_36:r0003:c0002",
+                "row_index": 3,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt003",
+          "observation_role": "series_point",
+          "sample_id": "s004",
+          "entity_id": "pe005",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "—",
+          "value_min": null,
+          "value_max": null,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "solvent": "m-cresol",
+              "viscometer_type": "Ubbelohde-type"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "not_applicable",
+          "evidence": [
+            {
+              "block_id": "T_3_36",
+              "page": 3,
+              "bbox": [
+                120.0,
+                106.0,
+                911.0,
+                189.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Intrinsic viscosity row, HP column, cell value —",
+              "table_locator": {
+                "table_id": "T_3_36",
+                "row_label": "Intrinsic viscosity",
+                "column_label": "HP",
+                "cell_value": "—",
+                "cell_id": "T_3_36:r0003:c0003",
+                "row_index": 3,
+                "column_index": 3
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt004",
+          "observation_role": "series_point",
+          "sample_id": "s003",
+          "entity_id": "pe004",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "0.422",
+          "value_min": 0.422,
+          "value_max": 0.422,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "solvent": "m-cresol",
+              "viscometer_type": "Ubbelohde-type"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_3_36",
+              "page": 3,
+              "bbox": [
+                120.0,
+                106.0,
+                911.0,
+                189.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Intrinsic viscosity row, HT column, cell value 0.422",
+              "table_locator": {
+                "table_id": "T_3_36",
+                "row_label": "Intrinsic viscosity",
+                "column_label": "HT",
+                "cell_value": "0.422",
+                "cell_id": "T_3_36:r0003:c0004",
+                "row_index": 3,
+                "column_index": 4
+              }
+            },
+            {
+              "block_id": "P_3_39",
+              "page": 3,
+              "bbox": [
+                117.0,
+                739.0,
+                501.0,
+                909.0
+              ],
+              "source_type": "text",
+              "source_sentence": "the molar molecular weight of HT ([η] = 0.422) should be much higher than others ([η] < 0.1)",
+              "table_locator": null
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt005",
+          "observation_role": "series_point",
+          "sample_id": "s005",
+          "entity_id": "pe006",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "0.063",
+          "value_min": 0.063,
+          "value_max": 0.063,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "solvent": "m-cresol",
+              "viscometer_type": "Ubbelohde-type"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_3_36",
+              "page": 3,
+              "bbox": [
+                120.0,
+                106.0,
+                911.0,
+                189.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Intrinsic viscosity row, OT(2) column, cell value 0.063",
+              "table_locator": {
+                "table_id": "T_3_36",
+                "row_label": "Intrinsic viscosity",
+                "column_label": "OT(2)",
+                "cell_value": "0.063",
+                "cell_id": "T_3_36:r0003:c0005",
+                "row_index": 3,
+                "column_index": 5
+              }
+            },
+            {
+              "block_id": "P_3_39",
+              "page": 3,
+              "bbox": [
+                117.0,
+                739.0,
+                501.0,
+                909.0
+              ],
+              "source_type": "text",
+              "source_sentence": "that of OT(2) is the lowest among these four DA-polyesters ([η] = 0.063)",
+              "table_locator": null
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        }
+      ],
+      "coverage": {
+        "expected": 4,
+        "covered": 4,
+        "missing": 0,
+        "not_applicable": 1,
+        "ratio": 1.0
+      },
+      "evidence": [
+        {
+          "block_id": "T_3_36",
+          "page": 3,
+          "bbox": [
+            120.0,
+            106.0,
+            911.0,
+            189.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table III. Yields, Appearance and Intrinsic Viscosities of the as-Synthesised DA-Polyesters",
+          "table_locator": null
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "series_id": "series002",
+      "sample_id": null,
+      "entity_id": null,
+      "sample_resolution_status": "unresolved",
+      "property_name_raw": "T_{3%} (N_2)",
+      "property_name_normalized": "thermal_decomposition_temperature",
+      "property_code": "P3170",
+      "property_category": "thermal_property",
+      "determination_method_raw": "TGA under nitrogen atmosphere",
+      "observation_group_id": null,
+      "unit_raw": "°C",
+      "unit_normalized": "°C",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {
+          "atmosphere": "nitrogen",
+          "heating_rate": "10°C/min",
+          "temperature_range": "room temperature to 800°C"
+        },
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "points": [
+        {
+          "point_id": "pt006",
+          "observation_role": "series_point",
+          "sample_id": "s001",
+          "entity_id": "pe002",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "188",
+          "value_min": 188.0,
+          "value_max": 188.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "atmosphere": "nitrogen",
+              "heating_rate": "10°C/min",
+              "temperature_range": "room temperature to 800°C"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_6_64",
+              "page": 6,
+              "bbox": [
+                120.0,
+                119.0,
+                500.0,
+                217.0
+              ],
+              "source_type": "table",
+              "source_sentence": "T_{3%} (N_2) row, HS column, cell value 188",
+              "table_locator": {
+                "table_id": "T_6_64",
+                "row_label": "$T_{3\\%} (N_2)$",
+                "column_label": "HS",
+                "cell_value": "188",
+                "cell_id": "T_6_64:r0001:c0001",
+                "row_index": 1,
+                "column_index": 1
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt007",
+          "observation_role": "series_point",
+          "sample_id": "s002",
+          "entity_id": "pe003",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "256",
+          "value_min": 256.0,
+          "value_max": 256.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "atmosphere": "nitrogen",
+              "heating_rate": "10°C/min",
+              "temperature_range": "room temperature to 800°C"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_6_64",
+              "page": 6,
+              "bbox": [
+                120.0,
+                119.0,
+                500.0,
+                217.0
+              ],
+              "source_type": "table",
+              "source_sentence": "T_{3%} (N_2) row, HI column, cell value 256",
+              "table_locator": {
+                "table_id": "T_6_64",
+                "row_label": "$T_{3\\%} (N_2)$",
+                "column_label": "HI",
+                "cell_value": "256",
+                "cell_id": "T_6_64:r0001:c0002",
+                "row_index": 1,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt008",
+          "observation_role": "series_point",
+          "sample_id": "s003",
+          "entity_id": "pe004",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "276",
+          "value_min": 276.0,
+          "value_max": 276.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "atmosphere": "nitrogen",
+              "heating_rate": "10°C/min",
+              "temperature_range": "room temperature to 800°C"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_6_64",
+              "page": 6,
+              "bbox": [
+                120.0,
+                119.0,
+                500.0,
+                217.0
+              ],
+              "source_type": "table",
+              "source_sentence": "T_{3%} (N_2) row, HT column, cell value 276",
+              "table_locator": {
+                "table_id": "T_6_64",
+                "row_label": "$T_{3\\%} (N_2)$",
+                "column_label": "HT",
+                "cell_value": "276",
+                "cell_id": "T_6_64:r0001:c0003",
+                "row_index": 1,
+                "column_index": 3
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt009",
+          "observation_role": "series_point",
+          "sample_id": "s005",
+          "entity_id": "pe006",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "225",
+          "value_min": 225.0,
+          "value_max": 225.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "atmosphere": "nitrogen",
+              "heating_rate": "10°C/min",
+              "temperature_range": "room temperature to 800°C"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_6_64",
+              "page": 6,
+              "bbox": [
+                120.0,
+                119.0,
+                500.0,
+                217.0
+              ],
+              "source_type": "table",
+              "source_sentence": "T_{3%} (N_2) row, OT(2) column, cell value 225",
+              "table_locator": {
+                "table_id": "T_6_64",
+                "row_label": "$T_{3\\%} (N_2)$",
+                "column_label": "OT(2)",
+                "cell_value": "225",
+                "cell_id": "T_6_64:r0001:c0004",
+                "row_index": 1,
+                "column_index": 4
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        }
+      ],
+      "coverage": {
+        "expected": 4,
+        "covered": 4,
+        "missing": 0,
+        "not_applicable": 0,
+        "ratio": 1.0
+      },
+      "evidence": [
+        {
+          "block_id": "T_6_64",
+          "page": 6,
+          "bbox": [
+            120.0,
+            119.0,
+            500.0,
+            217.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table V. List of T_{3%} and Percentage of Residue Data for the DA-Polyesters",
+          "table_locator": null
+        },
+        {
+          "block_id": "P_2_30",
+          "page": 2,
+          "bbox": [
+            527.0,
+            460.0,
+            913.0,
+            814.0
+          ],
+          "source_type": "text",
+          "source_sentence": "A sample of about 20 mg was put into a clean platinum pan and run under both nitrogen and air atmosphere from room temperature to $8 0 0 ^ { \\circ } \\mathrm { C }$at a heating rate of 10°C/min.",
+          "table_locator": null
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "series_id": "series003",
+      "sample_id": null,
+      "entity_id": null,
+      "sample_resolution_status": "unresolved",
+      "property_name_raw": "T_{3%} (air)",
+      "property_name_normalized": "thermal_decomposition_temperature",
+      "property_code": "P3170",
+      "property_category": "thermal_property",
+      "determination_method_raw": "TGA under air atmosphere",
+      "observation_group_id": null,
+      "unit_raw": "°C",
+      "unit_normalized": "°C",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {
+          "atmosphere": "air",
+          "heating_rate": "10°C/min",
+          "temperature_range": "room temperature to 800°C"
+        },
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "points": [
+        {
+          "point_id": "pt010",
+          "observation_role": "series_point",
+          "sample_id": "s001",
+          "entity_id": "pe002",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "201",
+          "value_min": 201.0,
+          "value_max": 201.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "atmosphere": "air",
+              "heating_rate": "10°C/min",
+              "temperature_range": "room temperature to 800°C"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_6_64",
+              "page": 6,
+              "bbox": [
+                120.0,
+                119.0,
+                500.0,
+                217.0
+              ],
+              "source_type": "table",
+              "source_sentence": "T_{3%} (air) row, HS column, cell value 201",
+              "table_locator": {
+                "table_id": "T_6_64",
+                "row_label": "$T_{3\\%} (air)$",
+                "column_label": "HS",
+                "cell_value": "201",
+                "cell_id": "T_6_64:r0002:c0001",
+                "row_index": 2,
+                "column_index": 1
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt011",
+          "observation_role": "series_point",
+          "sample_id": "s002",
+          "entity_id": "pe003",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "266",
+          "value_min": 266.0,
+          "value_max": 266.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "atmosphere": "air",
+              "heating_rate": "10°C/min",
+              "temperature_range": "room temperature to 800°C"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_6_64",
+              "page": 6,
+              "bbox": [
+                120.0,
+                119.0,
+                500.0,
+                217.0
+              ],
+              "source_type": "table",
+              "source_sentence": "T_{3%} (air) row, HI column, cell value 266",
+              "table_locator": {
+                "table_id": "T_6_64",
+                "row_label": "$T_{3\\%} (air)$",
+                "column_label": "HI",
+                "cell_value": "266",
+                "cell_id": "T_6_64:r0002:c0002",
+                "row_index": 2,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt012",
+          "observation_role": "series_point",
+          "sample_id": "s003",
+          "entity_id": "pe004",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "280",
+          "value_min": 280.0,
+          "value_max": 280.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "atmosphere": "air",
+              "heating_rate": "10°C/min",
+              "temperature_range": "room temperature to 800°C"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_6_64",
+              "page": 6,
+              "bbox": [
+                120.0,
+                119.0,
+                500.0,
+                217.0
+              ],
+              "source_type": "table",
+              "source_sentence": "T_{3%} (air) row, HT column, cell value 280",
+              "table_locator": {
+                "table_id": "T_6_64",
+                "row_label": "$T_{3\\%} (air)$",
+                "column_label": "HT",
+                "cell_value": "280",
+                "cell_id": "T_6_64:r0002:c0003",
+                "row_index": 2,
+                "column_index": 3
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt013",
+          "observation_role": "series_point",
+          "sample_id": "s005",
+          "entity_id": "pe006",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "230",
+          "value_min": 230.0,
+          "value_max": 230.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "atmosphere": "air",
+              "heating_rate": "10°C/min",
+              "temperature_range": "room temperature to 800°C"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_6_64",
+              "page": 6,
+              "bbox": [
+                120.0,
+                119.0,
+                500.0,
+                217.0
+              ],
+              "source_type": "table",
+              "source_sentence": "T_{3%} (air) row, OT(2) column, cell value 230",
+              "table_locator": {
+                "table_id": "T_6_64",
+                "row_label": "$T_{3\\%} (air)$",
+                "column_label": "OT(2)",
+                "cell_value": "230",
+                "cell_id": "T_6_64:r0002:c0004",
+                "row_index": 2,
+                "column_index": 4
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        }
+      ],
+      "coverage": {
+        "expected": 4,
+        "covered": 4,
+        "missing": 0,
+        "not_applicable": 0,
+        "ratio": 1.0
+      },
+      "evidence": [
+        {
+          "block_id": "T_6_64",
+          "page": 6,
+          "bbox": [
+            120.0,
+            119.0,
+            500.0,
+            217.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table V. List of T_{3%} and Percentage of Residue Data for the DA-Polyesters",
+          "table_locator": null
+        },
+        {
+          "block_id": "P_2_30",
+          "page": 2,
+          "bbox": [
+            527.0,
+            460.0,
+            913.0,
+            814.0
+          ],
+          "source_type": "text",
+          "source_sentence": "A sample of about 20 mg was put into a clean platinum pan and run under both nitrogen and air atmosphere from room temperature to $8 0 0 ^ { \\circ } \\mathrm { C }$at a heating rate of 10°C/min.",
+          "table_locator": null
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "series_id": "series004",
+      "sample_id": null,
+      "entity_id": null,
+      "sample_resolution_status": "unresolved",
+      "property_name_raw": "% residue (N2) at 800°C",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "unit_raw": "%",
+      "unit_normalized": null,
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {
+          "atmosphere": "nitrogen",
+          "heating_rate": "10°C/min",
+          "temperature_range": "room temperature to 800°C"
+        },
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "points": [
+        {
+          "point_id": "pt014",
+          "observation_role": "series_point",
+          "sample_id": "s001",
+          "entity_id": "pe002",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "34.0",
+          "value_min": 34.0,
+          "value_max": 34.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "atmosphere": "nitrogen",
+              "heating_rate": "10°C/min",
+              "temperature_range": "room temperature to 800°C"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_6_64",
+              "page": 6,
+              "bbox": [
+                120.0,
+                119.0,
+                500.0,
+                217.0
+              ],
+              "source_type": "table",
+              "source_sentence": "% residue (N2) at 800°C row, HS column, cell value 34.0",
+              "table_locator": {
+                "table_id": "T_6_64",
+                "row_label": "% residue (N2) at 800°C",
+                "column_label": "HS",
+                "cell_value": "34.0",
+                "cell_id": "T_6_64:r0003:c0001",
+                "row_index": 3,
+                "column_index": 1
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt015",
+          "observation_role": "series_point",
+          "sample_id": "s002",
+          "entity_id": "pe003",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "34.1",
+          "value_min": 34.1,
+          "value_max": 34.1,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "atmosphere": "nitrogen",
+              "heating_rate": "10°C/min",
+              "temperature_range": "room temperature to 800°C"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_6_64",
+              "page": 6,
+              "bbox": [
+                120.0,
+                119.0,
+                500.0,
+                217.0
+              ],
+              "source_type": "table",
+              "source_sentence": "% residue (N2) at 800°C row, HI column, cell value 34.1",
+              "table_locator": {
+                "table_id": "T_6_64",
+                "row_label": "% residue (N2) at 800°C",
+                "column_label": "HI",
+                "cell_value": "34.1",
+                "cell_id": "T_6_64:r0003:c0002",
+                "row_index": 3,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt016",
+          "observation_role": "series_point",
+          "sample_id": "s003",
+          "entity_id": "pe004",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "39.7",
+          "value_min": 39.7,
+          "value_max": 39.7,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "atmosphere": "nitrogen",
+              "heating_rate": "10°C/min",
+              "temperature_range": "room temperature to 800°C"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_6_64",
+              "page": 6,
+              "bbox": [
+                120.0,
+                119.0,
+                500.0,
+                217.0
+              ],
+              "source_type": "table",
+              "source_sentence": "% residue (N2) at 800°C row, HT column, cell value 39.7",
+              "table_locator": {
+                "table_id": "T_6_64",
+                "row_label": "% residue (N2) at 800°C",
+                "column_label": "HT",
+                "cell_value": "39.7",
+                "cell_id": "T_6_64:r0003:c0003",
+                "row_index": 3,
+                "column_index": 3
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt017",
+          "observation_role": "series_point",
+          "sample_id": "s005",
+          "entity_id": "pe006",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "33.2",
+          "value_min": 33.2,
+          "value_max": 33.2,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "atmosphere": "nitrogen",
+              "heating_rate": "10°C/min",
+              "temperature_range": "room temperature to 800°C"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_6_64",
+              "page": 6,
+              "bbox": [
+                120.0,
+                119.0,
+                500.0,
+                217.0
+              ],
+              "source_type": "table",
+              "source_sentence": "% residue (N2) at 800°C row, OT(2) column, cell value 33.2",
+              "table_locator": {
+                "table_id": "T_6_64",
+                "row_label": "% residue (N2) at 800°C",
+                "column_label": "OT(2)",
+                "cell_value": "33.2",
+                "cell_id": "T_6_64:r0003:c0004",
+                "row_index": 3,
+                "column_index": 4
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        }
+      ],
+      "coverage": {
+        "expected": 4,
+        "covered": 4,
+        "missing": 0,
+        "not_applicable": 0,
+        "ratio": 1.0
+      },
+      "evidence": [
+        {
+          "block_id": "T_6_64",
+          "page": 6,
+          "bbox": [
+            120.0,
+            119.0,
+            500.0,
+            217.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table V. List of T_{3%} and Percentage of Residue Data for the DA-Polyesters",
+          "table_locator": null
+        },
+        {
+          "block_id": "P_2_30",
+          "page": 2,
+          "bbox": [
+            527.0,
+            460.0,
+            913.0,
+            814.0
+          ],
+          "source_type": "text",
+          "source_sentence": "A sample of about 20 mg was put into a clean platinum pan and run under both nitrogen and air atmosphere from room temperature to $8 0 0 ^ { \\circ } \\mathrm { C }$at a heating rate of 10°C/min.",
+          "table_locator": null
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "series_id": "series005",
+      "sample_id": null,
+      "entity_id": null,
+      "sample_resolution_status": "unresolved",
+      "property_name_raw": "T_{m}",
+      "property_name_normalized": "melting_temperature",
+      "property_code": "P3120",
+      "property_category": "thermal_property",
+      "determination_method_raw": "DSC under nitrogen purge",
+      "observation_group_id": null,
+      "unit_raw": "°C",
+      "unit_normalized": "°C",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {
+          "atmosphere": "nitrogen",
+          "heating_rate": "10°C/min",
+          "temperature_range": "40 to 250°C"
+        },
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "points": [
+        {
+          "point_id": "pt018",
+          "observation_role": "series_point",
+          "sample_id": "s001",
+          "entity_id": "pe002",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "103",
+          "value_min": 103.0,
+          "value_max": 103.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "atmosphere": "nitrogen",
+              "heating_rate": "10°C/min",
+              "temperature_range": "40 to 250°C"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_7_77",
+              "page": 7,
+              "bbox": [
+                120.0,
+                776.0,
+                498.0,
+                873.0
+              ],
+              "source_type": "table",
+              "source_sentence": "T_{m} (°C) row, HS column, cell value 103",
+              "table_locator": {
+                "table_id": "T_7_77",
+                "row_label": "$T_{m}$ (°C)",
+                "column_label": "HS",
+                "cell_value": "103",
+                "cell_id": "T_7_77:r0001:c0001",
+                "row_index": 1,
+                "column_index": 1
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt019",
+          "observation_role": "series_point",
+          "sample_id": "s002",
+          "entity_id": "pe003",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "—a",
+          "value_min": null,
+          "value_max": null,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "atmosphere": "nitrogen",
+              "heating_rate": "10°C/min",
+              "temperature_range": "40 to 250°C"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "not_applicable",
+          "evidence": [
+            {
+              "block_id": "T_7_77",
+              "page": 7,
+              "bbox": [
+                120.0,
+                776.0,
+                498.0,
+                873.0
+              ],
+              "source_type": "table",
+              "source_sentence": "T_{m} (°C) row, HI column, cell value —a",
+              "table_locator": {
+                "table_id": "T_7_77",
+                "row_label": "$T_{m}$ (°C)",
+                "column_label": "HI",
+                "cell_value": "—a",
+                "cell_id": "T_7_77:r0001:c0002",
+                "row_index": 1,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt020",
+          "observation_role": "series_point",
+          "sample_id": "s003",
+          "entity_id": "pe004",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "—b",
+          "value_min": null,
+          "value_max": null,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "atmosphere": "nitrogen",
+              "heating_rate": "10°C/min",
+              "temperature_range": "40 to 250°C"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "not_applicable",
+          "evidence": [
+            {
+              "block_id": "T_7_77",
+              "page": 7,
+              "bbox": [
+                120.0,
+                776.0,
+                498.0,
+                873.0
+              ],
+              "source_type": "table",
+              "source_sentence": "T_{m} (°C) row, HT column, cell value —b",
+              "table_locator": {
+                "table_id": "T_7_77",
+                "row_label": "$T_{m}$ (°C)",
+                "column_label": "HT",
+                "cell_value": "—b",
+                "cell_id": "T_7_77:r0001:c0003",
+                "row_index": 1,
+                "column_index": 3
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt021",
+          "observation_role": "series_point",
+          "sample_id": "s005",
+          "entity_id": "pe006",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "156",
+          "value_min": 156.0,
+          "value_max": 156.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "atmosphere": "nitrogen",
+              "heating_rate": "10°C/min",
+              "temperature_range": "40 to 250°C"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_7_77",
+              "page": 7,
+              "bbox": [
+                120.0,
+                776.0,
+                498.0,
+                873.0
+              ],
+              "source_type": "table",
+              "source_sentence": "T_{m} (°C) row, OT(2) column, cell value 156",
+              "table_locator": {
+                "table_id": "T_7_77",
+                "row_label": "$T_{m}$ (°C)",
+                "column_label": "OT(2)",
+                "cell_value": "156",
+                "cell_id": "T_7_77:r0001:c0004",
+                "row_index": 1,
+                "column_index": 4
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        }
+      ],
+      "coverage": {
+        "expected": 2,
+        "covered": 2,
+        "missing": 0,
+        "not_applicable": 2,
+        "ratio": 1.0
+      },
+      "evidence": [
+        {
+          "block_id": "T_7_77",
+          "page": 7,
+          "bbox": [
+            120.0,
+            776.0,
+            498.0,
+            873.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table VI. DSC Results of the Synthesised DA-Polyesters",
+          "table_locator": null
+        },
+        {
+          "block_id": "P_2_30",
+          "page": 2,
+          "bbox": [
+            527.0,
+            460.0,
+            913.0,
+            814.0
+          ],
+          "source_type": "text",
+          "source_sentence": "A sample of about 20 mg was put into a clean platinum pan and run under both nitrogen and air atmosphere from room temperature to $8 0 0 ^ { \\circ } \\mathrm { C }$at a heating rate of 10°C/min.",
+          "table_locator": null
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "series_id": "series006",
+      "sample_id": null,
+      "entity_id": null,
+      "sample_resolution_status": "unresolved",
+      "property_name_raw": "ΔH_{m}",
+      "property_name_normalized": "heat_of_fusion",
+      "property_code": "P3130",
+      "property_category": "thermal_property",
+      "determination_method_raw": "DSC under nitrogen purge",
+      "observation_group_id": null,
+      "unit_raw": "J/g",
+      "unit_normalized": "J/g",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {
+          "atmosphere": "nitrogen",
+          "heating_rate": "10°C/min",
+          "temperature_range": "40 to 250°C"
+        },
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "points": [
+        {
+          "point_id": "pt022",
+          "observation_role": "series_point",
+          "sample_id": "s001",
+          "entity_id": "pe002",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "36.0",
+          "value_min": 36.0,
+          "value_max": 36.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "atmosphere": "nitrogen",
+              "heating_rate": "10°C/min",
+              "temperature_range": "40 to 250°C"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_7_77",
+              "page": 7,
+              "bbox": [
+                120.0,
+                776.0,
+                498.0,
+                873.0
+              ],
+              "source_type": "table",
+              "source_sentence": "ΔH_{m} (J/g) row, HS column, cell value 36.0",
+              "table_locator": {
+                "table_id": "T_7_77",
+                "row_label": "$\\Delta H_{m}$ (J/g)",
+                "column_label": "HS",
+                "cell_value": "36.0",
+                "cell_id": "T_7_77:r0002:c0001",
+                "row_index": 2,
+                "column_index": 1
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt023",
+          "observation_role": "series_point",
+          "sample_id": "s003",
+          "entity_id": "pe004",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "—a",
+          "value_min": null,
+          "value_max": null,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "atmosphere": "nitrogen",
+              "heating_rate": "10°C/min",
+              "temperature_range": "40 to 250°C"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "not_applicable",
+          "evidence": [
+            {
+              "block_id": "T_7_77",
+              "page": 7,
+              "bbox": [
+                120.0,
+                776.0,
+                498.0,
+                873.0
+              ],
+              "source_type": "table",
+              "source_sentence": "ΔH_{m} (J/g) row, HT column, cell value —a",
+              "table_locator": {
+                "table_id": "T_7_77",
+                "row_label": "$\\Delta H_{m}$ (J/g)",
+                "column_label": "HT",
+                "cell_value": "—a",
+                "cell_id": "T_7_77:r0002:c0003",
+                "row_index": 2,
+                "column_index": 3
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt024",
+          "observation_role": "series_point",
+          "sample_id": "s005",
+          "entity_id": "pe006",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "12.0",
+          "value_min": 12.0,
+          "value_max": 12.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "atmosphere": "nitrogen",
+              "heating_rate": "10°C/min",
+              "temperature_range": "40 to 250°C"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_7_77",
+              "page": 7,
+              "bbox": [
+                120.0,
+                776.0,
+                498.0,
+                873.0
+              ],
+              "source_type": "table",
+              "source_sentence": "ΔH_{m} (J/g) row, OT(2) column, cell value 12.0",
+              "table_locator": {
+                "table_id": "T_7_77",
+                "row_label": "$\\Delta H_{m}$ (J/g)",
+                "column_label": "OT(2)",
+                "cell_value": "12.0",
+                "cell_id": "T_7_77:r0002:c0004",
+                "row_index": 2,
+                "column_index": 4
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        }
+      ],
+      "coverage": {
+        "expected": 2,
+        "covered": 2,
+        "missing": 0,
+        "not_applicable": 1,
+        "ratio": 1.0
+      },
+      "evidence": [
+        {
+          "block_id": "T_7_77",
+          "page": 7,
+          "bbox": [
+            120.0,
+            776.0,
+            498.0,
+            873.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table VI. DSC Results of the Synthesised DA-Polyesters",
+          "table_locator": null
+        },
+        {
+          "block_id": "P_2_30",
+          "page": 2,
+          "bbox": [
+            527.0,
+            460.0,
+            913.0,
+            814.0
+          ],
+          "source_type": "text",
+          "source_sentence": "A sample of about 20 mg was put into a clean platinum pan and run under both nitrogen and air atmosphere from room temperature to $8 0 0 ^ { \\circ } \\mathrm { C }$at a heating rate of 10°C/min.",
+          "table_locator": null
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "series_id": "series007",
+      "sample_id": null,
+      "entity_id": null,
+      "sample_resolution_status": "unresolved",
+      "property_name_raw": "T_{exo}",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "determination_method_raw": "DSC under nitrogen purge",
+      "observation_group_id": null,
+      "unit_raw": "°C",
+      "unit_normalized": null,
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {
+          "atmosphere": "nitrogen",
+          "heating_rate": "10°C/min",
+          "temperature_range": "40 to 250°C"
+        },
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "points": [
+        {
+          "point_id": "pt025",
+          "observation_role": "series_point",
+          "sample_id": "s001",
+          "entity_id": "pe002",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "165",
+          "value_min": 165.0,
+          "value_max": 165.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "atmosphere": "nitrogen",
+              "heating_rate": "10°C/min",
+              "temperature_range": "40 to 250°C"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_7_77",
+              "page": 7,
+              "bbox": [
+                120.0,
+                776.0,
+                498.0,
+                873.0
+              ],
+              "source_type": "table",
+              "source_sentence": "T_{exo} (°C) row, HS column, cell value 165",
+              "table_locator": {
+                "table_id": "T_7_77",
+                "row_label": "$T_{exo}$ (°C)",
+                "column_label": "HS",
+                "cell_value": "165",
+                "cell_id": "T_7_77:r0003:c0001",
+                "row_index": 3,
+                "column_index": 1
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt026",
+          "observation_role": "series_point",
+          "sample_id": "s002",
+          "entity_id": "pe003",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "145",
+          "value_min": 145.0,
+          "value_max": 145.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "atmosphere": "nitrogen",
+              "heating_rate": "10°C/min",
+              "temperature_range": "40 to 250°C"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_7_77",
+              "page": 7,
+              "bbox": [
+                120.0,
+                776.0,
+                498.0,
+                873.0
+              ],
+              "source_type": "table",
+              "source_sentence": "T_{exo} (°C) row, HI column, cell value 145",
+              "table_locator": {
+                "table_id": "T_7_77",
+                "row_label": "$T_{exo}$ (°C)",
+                "column_label": "HI",
+                "cell_value": "145",
+                "cell_id": "T_7_77:r0003:c0002",
+                "row_index": 3,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt027",
+          "observation_role": "series_point",
+          "sample_id": "s003",
+          "entity_id": "pe004",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "155, 191",
+          "value_min": 155.0,
+          "value_max": 191.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "atmosphere": "nitrogen",
+              "heating_rate": "10°C/min",
+              "temperature_range": "40 to 250°C"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_7_77",
+              "page": 7,
+              "bbox": [
+                120.0,
+                776.0,
+                498.0,
+                873.0
+              ],
+              "source_type": "table",
+              "source_sentence": "T_{exo} (°C) row, HT column, cell value 155, 191",
+              "table_locator": {
+                "table_id": "T_7_77",
+                "row_label": "$T_{exo}$ (°C)",
+                "column_label": "HT",
+                "cell_value": "155, 191",
+                "cell_id": "T_7_77:r0003:c0003",
+                "row_index": 3,
+                "column_index": 3
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt028",
+          "observation_role": "series_point",
+          "sample_id": "s005",
+          "entity_id": "pe006",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "226, 250",
+          "value_min": 226.0,
+          "value_max": 250.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "atmosphere": "nitrogen",
+              "heating_rate": "10°C/min",
+              "temperature_range": "40 to 250°C"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_7_77",
+              "page": 7,
+              "bbox": [
+                120.0,
+                776.0,
+                498.0,
+                873.0
+              ],
+              "source_type": "table",
+              "source_sentence": "T_{exo} (°C) row, OT(2) column, cell value 226, 250",
+              "table_locator": {
+                "table_id": "T_7_77",
+                "row_label": "$T_{exo}$ (°C)",
+                "column_label": "OT(2)",
+                "cell_value": "226, 250",
+                "cell_id": "T_7_77:r0003:c0004",
+                "row_index": 3,
+                "column_index": 4
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        }
+      ],
+      "coverage": {
+        "expected": 4,
+        "covered": 4,
+        "missing": 0,
+        "not_applicable": 0,
+        "ratio": 1.0
+      },
+      "evidence": [
+        {
+          "block_id": "T_7_77",
+          "page": 7,
+          "bbox": [
+            120.0,
+            776.0,
+            498.0,
+            873.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table VI. DSC Results of the Synthesised DA-Polyesters",
+          "table_locator": null
+        },
+        {
+          "block_id": "P_2_30",
+          "page": 2,
+          "bbox": [
+            527.0,
+            460.0,
+            913.0,
+            814.0
+          ],
+          "source_type": "text",
+          "source_sentence": "A sample of about 20 mg was put into a clean platinum pan and run under both nitrogen and air atmosphere from room temperature to $8 0 0 ^ { \\circ } \\mathrm { C }$at a heating rate of 10°C/min.",
+          "table_locator": null
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "series_id": "series008",
+      "sample_id": null,
+      "entity_id": null,
+      "sample_resolution_status": "unresolved",
+      "property_name_raw": "ΔH_{exo}",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "determination_method_raw": "DSC under nitrogen purge",
+      "observation_group_id": null,
+      "unit_raw": "J/g",
+      "unit_normalized": null,
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {
+          "atmosphere": "nitrogen",
+          "heating_rate": "10°C/min",
+          "temperature_range": "40 to 250°C"
+        },
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "points": [
+        {
+          "point_id": "pt029",
+          "observation_role": "series_point",
+          "sample_id": "s001",
+          "entity_id": "pe002",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "450",
+          "value_min": 450.0,
+          "value_max": 450.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "atmosphere": "nitrogen",
+              "heating_rate": "10°C/min",
+              "temperature_range": "40 to 250°C"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_7_77",
+              "page": 7,
+              "bbox": [
+                120.0,
+                776.0,
+                498.0,
+                873.0
+              ],
+              "source_type": "table",
+              "source_sentence": "ΔH_{exo} (J/g) row, HS column, cell value 450",
+              "table_locator": {
+                "table_id": "T_7_77",
+                "row_label": "$\\Delta H_{exo}$ (J/g)",
+                "column_label": "HS",
+                "cell_value": "450",
+                "cell_id": "T_7_77:r0004:c0001",
+                "row_index": 4,
+                "column_index": 1
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt030",
+          "observation_role": "series_point",
+          "sample_id": "s002",
+          "entity_id": "pe003",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "210",
+          "value_min": 210.0,
+          "value_max": 210.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "atmosphere": "nitrogen",
+              "heating_rate": "10°C/min",
+              "temperature_range": "40 to 250°C"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_7_77",
+              "page": 7,
+              "bbox": [
+                120.0,
+                776.0,
+                498.0,
+                873.0
+              ],
+              "source_type": "table",
+              "source_sentence": "ΔH_{exo} (J/g) row, HI column, cell value 210",
+              "table_locator": {
+                "table_id": "T_7_77",
+                "row_label": "$\\Delta H_{exo}$ (J/g)",
+                "column_label": "HI",
+                "cell_value": "210",
+                "cell_id": "T_7_77:r0004:c0002",
+                "row_index": 4,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt031",
+          "observation_role": "series_point",
+          "sample_id": "s005",
+          "entity_id": "pe006",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "—b",
+          "value_min": null,
+          "value_max": null,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "atmosphere": "nitrogen",
+              "heating_rate": "10°C/min",
+              "temperature_range": "40 to 250°C"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "not_applicable",
+          "evidence": [
+            {
+              "block_id": "T_7_77",
+              "page": 7,
+              "bbox": [
+                120.0,
+                776.0,
+                498.0,
+                873.0
+              ],
+              "source_type": "table",
+              "source_sentence": "ΔH_{exo} (J/g) row, OT(2) column, cell value —b",
+              "table_locator": {
+                "table_id": "T_7_77",
+                "row_label": "$\\Delta H_{exo}$ (J/g)",
+                "column_label": "OT(2)",
+                "cell_value": "—b",
+                "cell_id": "T_7_77:r0004:c0004",
+                "row_index": 4,
+                "column_index": 4
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        }
+      ],
+      "coverage": {
+        "expected": 2,
+        "covered": 2,
+        "missing": 0,
+        "not_applicable": 1,
+        "ratio": 1.0
+      },
+      "evidence": [
+        {
+          "block_id": "T_7_77",
+          "page": 7,
+          "bbox": [
+            120.0,
+            776.0,
+            498.0,
+            873.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table VI. DSC Results of the Synthesised DA-Polyesters",
+          "table_locator": null
+        },
+        {
+          "block_id": "P_2_30",
+          "page": 2,
+          "bbox": [
+            527.0,
+            460.0,
+            913.0,
+            814.0
+          ],
+          "source_type": "text",
+          "source_sentence": "A sample of about 20 mg was put into a clean platinum pan and run under both nitrogen and air atmosphere from room temperature to $8 0 0 ^ { \\circ } \\mathrm { C }$at a heating rate of 10°C/min.",
+          "table_locator": null
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "series_id": "series009",
+      "sample_id": null,
+      "entity_id": null,
+      "sample_resolution_status": "unresolved",
+      "property_name_raw": "T_g",
+      "property_name_normalized": "glass_transition_temperature",
+      "property_code": "P3110",
+      "property_category": "thermal_property",
+      "determination_method_raw": "DMA, peak tan d temperature",
+      "observation_group_id": null,
+      "unit_raw": "°C",
+      "unit_normalized": "°C",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": {
+          "raw": "1 Hz",
+          "value": 1.0,
+          "unit": "Hz",
+          "evidence": [
+            {
+              "block_id": "P_2_30",
+              "page": 2,
+              "bbox": [
+                527.0,
+                460.0,
+                913.0,
+                814.0
+              ],
+              "source_type": "text",
+              "source_sentence": "The measurement was performed at a heating rate of 3°C/min and a frequency of 1 Hz in air.",
+              "table_locator": null
+            }
+          ],
+          "evidence_ids": []
+        },
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {
+          "heating_rate": "3°C/min",
+          "atmosphere": "air"
+        },
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "points": [
+        {
+          "point_id": "pt032",
+          "observation_role": "series_point",
+          "sample_id": "s006",
+          "entity_id": "pe004",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "143",
+          "value_min": 143.0,
+          "value_max": 143.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": {
+              "raw": "1 Hz",
+              "value": 1.0,
+              "unit": "Hz",
+              "evidence": [
+                {
+                  "block_id": "P_2_30",
+                  "page": 2,
+                  "bbox": [
+                    527.0,
+                    460.0,
+                    913.0,
+                    814.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "The measurement was performed at a heating rate of 3°C/min and a frequency of 1 Hz in air.",
+                  "table_locator": null
+                }
+              ],
+              "evidence_ids": []
+            },
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "heating_rate": "3°C/min",
+              "atmosphere": "air"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_8_91",
+              "page": 8,
+              "bbox": [
+                119.0,
+                746.0,
+                910.0,
+                885.0
+              ],
+              "source_type": "table",
+              "source_sentence": "T_g (°C) row, HT as-Cast column, cell value 143",
+              "table_locator": {
+                "table_id": "T_8_91",
+                "row_label": "$T_g$ (°C)",
+                "column_label": "as-Cast",
+                "cell_value": "143",
+                "cell_id": "T_8_91:r0002:c0001",
+                "row_index": 2,
+                "column_index": 1
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt033",
+          "observation_role": "series_point",
+          "sample_id": "s010",
+          "entity_id": "pe004",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": ">220",
+          "value_min": 220.0,
+          "value_max": null,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": {
+              "raw": "1 Hz",
+              "value": 1.0,
+              "unit": "Hz",
+              "evidence": [
+                {
+                  "block_id": "P_2_30",
+                  "page": 2,
+                  "bbox": [
+                    527.0,
+                    460.0,
+                    913.0,
+                    814.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "The measurement was performed at a heating rate of 3°C/min and a frequency of 1 Hz in air.",
+                  "table_locator": null
+                }
+              ],
+              "evidence_ids": []
+            },
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "heating_rate": "3°C/min",
+              "atmosphere": "air"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_8_91",
+              "page": 8,
+              "bbox": [
+                119.0,
+                746.0,
+                910.0,
+                885.0
+              ],
+              "source_type": "table",
+              "source_sentence": "T_g (°C) row, HT Treated @ 170°C for 2 hrs^a column, cell value >220",
+              "table_locator": {
+                "table_id": "T_8_91",
+                "row_label": "$T_g$ (°C)",
+                "column_label": "Treated @ 170°C for 2 $hrs^a$",
+                "cell_value": ">220",
+                "cell_id": "T_8_91:r0002:c0002",
+                "row_index": 2,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt034",
+          "observation_role": "series_point",
+          "sample_id": "s010",
+          "entity_id": "pe004",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": ">220",
+          "value_min": 220.0,
+          "value_max": null,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": {
+              "raw": "1 Hz",
+              "value": 1.0,
+              "unit": "Hz",
+              "evidence": [
+                {
+                  "block_id": "P_2_30",
+                  "page": 2,
+                  "bbox": [
+                    527.0,
+                    460.0,
+                    913.0,
+                    814.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "The measurement was performed at a heating rate of 3°C/min and a frequency of 1 Hz in air.",
+                  "table_locator": null
+                }
+              ],
+              "evidence_ids": []
+            },
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "heating_rate": "3°C/min",
+              "atmosphere": "air"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_8_91",
+              "page": 8,
+              "bbox": [
+                119.0,
+                746.0,
+                910.0,
+                885.0
+              ],
+              "source_type": "table",
+              "source_sentence": "T_g (°C) row, HT Second Run of the Treated HT^a column, cell value >220",
+              "table_locator": {
+                "table_id": "T_8_91",
+                "row_label": "$T_g$ (°C)",
+                "column_label": "Second Run of the Treated $HT^a$",
+                "cell_value": ">220",
+                "cell_id": "T_8_91:r0002:c0003",
+                "row_index": 2,
+                "column_index": 3
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt035",
+          "observation_role": "series_point",
+          "sample_id": "s007",
+          "entity_id": "pe006",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "133",
+          "value_min": 133.0,
+          "value_max": 133.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": {
+              "raw": "1 Hz",
+              "value": 1.0,
+              "unit": "Hz",
+              "evidence": [
+                {
+                  "block_id": "P_2_30",
+                  "page": 2,
+                  "bbox": [
+                    527.0,
+                    460.0,
+                    913.0,
+                    814.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "The measurement was performed at a heating rate of 3°C/min and a frequency of 1 Hz in air.",
+                  "table_locator": null
+                }
+              ],
+              "evidence_ids": []
+            },
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "heating_rate": "3°C/min",
+              "atmosphere": "air"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_8_91",
+              "page": 8,
+              "bbox": [
+                119.0,
+                746.0,
+                910.0,
+                885.0
+              ],
+              "source_type": "table",
+              "source_sentence": "T_g (°C) row, OT(2) as-Processed column, cell value 133",
+              "table_locator": {
+                "table_id": "T_8_91",
+                "row_label": "$T_g$ (°C)",
+                "column_label": "as-Processed",
+                "cell_value": "133",
+                "cell_id": "T_8_91:r0002:c0004",
+                "row_index": 2,
+                "column_index": 4
+              }
+            },
+            {
+              "block_id": "P_8_88",
+              "page": 8,
+              "bbox": [
+                529.0,
+                315.0,
+                913.0,
+                590.0
+              ],
+              "source_type": "text",
+              "source_sentence": "the Tg of OT(2) increased from 133°C for the as-processed",
+              "table_locator": null
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt036",
+          "observation_role": "series_point",
+          "sample_id": "s011",
+          "entity_id": "pe006",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "198",
+          "value_min": 198.0,
+          "value_max": 198.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": {
+              "raw": "1 Hz",
+              "value": 1.0,
+              "unit": "Hz",
+              "evidence": [
+                {
+                  "block_id": "P_2_30",
+                  "page": 2,
+                  "bbox": [
+                    527.0,
+                    460.0,
+                    913.0,
+                    814.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "The measurement was performed at a heating rate of 3°C/min and a frequency of 1 Hz in air.",
+                  "table_locator": null
+                }
+              ],
+              "evidence_ids": []
+            },
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "heating_rate": "3°C/min",
+              "atmosphere": "air"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_8_91",
+              "page": 8,
+              "bbox": [
+                119.0,
+                746.0,
+                910.0,
+                885.0
+              ],
+              "source_type": "table",
+              "source_sentence": "T_g (°C) row, OT(2) Treated @ 170°C for 2 hrs column, cell value 198",
+              "table_locator": {
+                "table_id": "T_8_91",
+                "row_label": "$T_g$ (°C)",
+                "column_label": "Treated @ 170°C for 2 hrs",
+                "cell_value": "198",
+                "cell_id": "T_8_91:r0002:c0005",
+                "row_index": 2,
+                "column_index": 5
+              }
+            },
+            {
+              "block_id": "P_8_88",
+              "page": 8,
+              "bbox": [
+                529.0,
+                315.0,
+                913.0,
+                590.0
+              ],
+              "source_type": "text",
+              "source_sentence": "to 198°C for the thermal treated at 170°C",
+              "table_locator": null
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt037",
+          "observation_role": "series_point",
+          "sample_id": "s011",
+          "entity_id": "pe006",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "218",
+          "value_min": 218.0,
+          "value_max": 218.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": {
+              "raw": "1 Hz",
+              "value": 1.0,
+              "unit": "Hz",
+              "evidence": [
+                {
+                  "block_id": "P_2_30",
+                  "page": 2,
+                  "bbox": [
+                    527.0,
+                    460.0,
+                    913.0,
+                    814.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "The measurement was performed at a heating rate of 3°C/min and a frequency of 1 Hz in air.",
+                  "table_locator": null
+                }
+              ],
+              "evidence_ids": []
+            },
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "heating_rate": "3°C/min",
+              "atmosphere": "air"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_8_91",
+              "page": 8,
+              "bbox": [
+                119.0,
+                746.0,
+                910.0,
+                885.0
+              ],
+              "source_type": "table",
+              "source_sentence": "T_g (°C) row, OT(2) Second Run of the Treated OT(2) column, cell value 218",
+              "table_locator": {
+                "table_id": "T_8_91",
+                "row_label": "$T_g$ (°C)",
+                "column_label": "Second Run of the Treated OT(2)",
+                "cell_value": "218",
+                "cell_id": "T_8_91:r0002:c0006",
+                "row_index": 2,
+                "column_index": 6
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        }
+      ],
+      "coverage": {
+        "expected": 6,
+        "covered": 6,
+        "missing": 0,
+        "not_applicable": 0,
+        "ratio": 1.0
+      },
+      "evidence": [
+        {
+          "block_id": "T_8_91",
+          "page": 8,
+          "bbox": [
+            119.0,
+            746.0,
+            910.0,
+            885.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table VII. Summary of DMA Results of HT and OT(2) Showing T_g, Peak tan d Values and Room Temperature Storage Moduli of the as-Processed and Thermally Treated Samples",
+          "table_locator": null
+        },
+        {
+          "block_id": "P_2_30",
+          "page": 2,
+          "bbox": [
+            527.0,
+            460.0,
+            913.0,
+            814.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The measurement was performed at a heating rate of 3°C/min and a frequency of 1 Hz in air.",
+          "table_locator": null
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "series_id": "series010",
+      "sample_id": null,
+      "entity_id": null,
+      "sample_resolution_status": "unresolved",
+      "property_name_raw": "Tan δ",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "determination_method_raw": "DMA",
+      "observation_group_id": null,
+      "unit_raw": null,
+      "unit_normalized": null,
+      "measurement_context": {
+        "temperature": null,
+        "frequency": {
+          "raw": "1 Hz",
+          "value": 1.0,
+          "unit": "Hz",
+          "evidence": [
+            {
+              "block_id": "P_2_30",
+              "page": 2,
+              "bbox": [
+                527.0,
+                460.0,
+                913.0,
+                814.0
+              ],
+              "source_type": "text",
+              "source_sentence": "The measurement was performed at a heating rate of 3°C/min and a frequency of 1 Hz in air.",
+              "table_locator": null
+            }
+          ],
+          "evidence_ids": []
+        },
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {
+          "heating_rate": "3°C/min",
+          "atmosphere": "air"
+        },
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "points": [
+        {
+          "point_id": "pt038",
+          "observation_role": "series_point",
+          "sample_id": "s006",
+          "entity_id": "pe004",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "0.22",
+          "value_min": 0.22,
+          "value_max": 0.22,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": {
+              "raw": "1 Hz",
+              "value": 1.0,
+              "unit": "Hz",
+              "evidence": [
+                {
+                  "block_id": "P_2_30",
+                  "page": 2,
+                  "bbox": [
+                    527.0,
+                    460.0,
+                    913.0,
+                    814.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "The measurement was performed at a heating rate of 3°C/min and a frequency of 1 Hz in air.",
+                  "table_locator": null
+                }
+              ],
+              "evidence_ids": []
+            },
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "heating_rate": "3°C/min",
+              "atmosphere": "air"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_8_91",
+              "page": 8,
+              "bbox": [
+                119.0,
+                746.0,
+                910.0,
+                885.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Tan δ row, HT as-Cast column, cell value 0.22",
+              "table_locator": {
+                "table_id": "T_8_91",
+                "row_label": "Tan δ",
+                "column_label": "as-Cast",
+                "cell_value": "0.22",
+                "cell_id": "T_8_91:r0003:c0001",
+                "row_index": 3,
+                "column_index": 1
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt039",
+          "observation_role": "series_point",
+          "sample_id": "s010",
+          "entity_id": "pe004",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "—",
+          "value_min": null,
+          "value_max": null,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": {
+              "raw": "1 Hz",
+              "value": 1.0,
+              "unit": "Hz",
+              "evidence": [
+                {
+                  "block_id": "P_2_30",
+                  "page": 2,
+                  "bbox": [
+                    527.0,
+                    460.0,
+                    913.0,
+                    814.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "The measurement was performed at a heating rate of 3°C/min and a frequency of 1 Hz in air.",
+                  "table_locator": null
+                }
+              ],
+              "evidence_ids": []
+            },
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "heating_rate": "3°C/min",
+              "atmosphere": "air"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "not_applicable",
+          "evidence": [
+            {
+              "block_id": "T_8_91",
+              "page": 8,
+              "bbox": [
+                119.0,
+                746.0,
+                910.0,
+                885.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Tan δ row, HT Treated @ 170°C for 2 hrs^a column, cell value —",
+              "table_locator": {
+                "table_id": "T_8_91",
+                "row_label": "Tan δ",
+                "column_label": "Tan δ",
+                "cell_value": "—",
+                "cell_id": null,
+                "row_index": null,
+                "column_index": null
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt040",
+          "observation_role": "series_point",
+          "sample_id": "s010",
+          "entity_id": "pe004",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "—",
+          "value_min": null,
+          "value_max": null,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": {
+              "raw": "1 Hz",
+              "value": 1.0,
+              "unit": "Hz",
+              "evidence": [
+                {
+                  "block_id": "P_2_30",
+                  "page": 2,
+                  "bbox": [
+                    527.0,
+                    460.0,
+                    913.0,
+                    814.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "The measurement was performed at a heating rate of 3°C/min and a frequency of 1 Hz in air.",
+                  "table_locator": null
+                }
+              ],
+              "evidence_ids": []
+            },
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "heating_rate": "3°C/min",
+              "atmosphere": "air"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "not_applicable",
+          "evidence": [
+            {
+              "block_id": "T_8_91",
+              "page": 8,
+              "bbox": [
+                119.0,
+                746.0,
+                910.0,
+                885.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Tan δ row, HT Second Run of the Treated HT^a column, cell value —",
+              "table_locator": {
+                "table_id": "T_8_91",
+                "row_label": "Tan δ",
+                "column_label": "Tan δ",
+                "cell_value": "—",
+                "cell_id": null,
+                "row_index": null,
+                "column_index": null
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt041",
+          "observation_role": "series_point",
+          "sample_id": "s007",
+          "entity_id": "pe006",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "1.06",
+          "value_min": 1.06,
+          "value_max": 1.06,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": {
+              "raw": "1 Hz",
+              "value": 1.0,
+              "unit": "Hz",
+              "evidence": [
+                {
+                  "block_id": "P_2_30",
+                  "page": 2,
+                  "bbox": [
+                    527.0,
+                    460.0,
+                    913.0,
+                    814.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "The measurement was performed at a heating rate of 3°C/min and a frequency of 1 Hz in air.",
+                  "table_locator": null
+                }
+              ],
+              "evidence_ids": []
+            },
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "heating_rate": "3°C/min",
+              "atmosphere": "air"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_8_91",
+              "page": 8,
+              "bbox": [
+                119.0,
+                746.0,
+                910.0,
+                885.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Tan δ row, OT(2) as-Processed column, cell value 1.06",
+              "table_locator": {
+                "table_id": "T_8_91",
+                "row_label": "Tan δ",
+                "column_label": "as-Processed",
+                "cell_value": "1.06",
+                "cell_id": "T_8_91:r0003:c0004",
+                "row_index": 3,
+                "column_index": 4
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt042",
+          "observation_role": "series_point",
+          "sample_id": "s011",
+          "entity_id": "pe006",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "0.21",
+          "value_min": 0.21,
+          "value_max": 0.21,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": {
+              "raw": "1 Hz",
+              "value": 1.0,
+              "unit": "Hz",
+              "evidence": [
+                {
+                  "block_id": "P_2_30",
+                  "page": 2,
+                  "bbox": [
+                    527.0,
+                    460.0,
+                    913.0,
+                    814.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "The measurement was performed at a heating rate of 3°C/min and a frequency of 1 Hz in air.",
+                  "table_locator": null
+                }
+              ],
+              "evidence_ids": []
+            },
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "heating_rate": "3°C/min",
+              "atmosphere": "air"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_8_91",
+              "page": 8,
+              "bbox": [
+                119.0,
+                746.0,
+                910.0,
+                885.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Tan δ row, OT(2) Treated @ 170°C for 2 hrs column, cell value 0.21",
+              "table_locator": {
+                "table_id": "T_8_91",
+                "row_label": "Tan δ",
+                "column_label": "Treated @ 170°C for 2 hrs",
+                "cell_value": "0.21",
+                "cell_id": "T_8_91:r0003:c0005",
+                "row_index": 3,
+                "column_index": 5
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt043",
+          "observation_role": "series_point",
+          "sample_id": "s011",
+          "entity_id": "pe006",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "0.15",
+          "value_min": 0.15,
+          "value_max": 0.15,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": {
+              "raw": "1 Hz",
+              "value": 1.0,
+              "unit": "Hz",
+              "evidence": [
+                {
+                  "block_id": "P_2_30",
+                  "page": 2,
+                  "bbox": [
+                    527.0,
+                    460.0,
+                    913.0,
+                    814.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "The measurement was performed at a heating rate of 3°C/min and a frequency of 1 Hz in air.",
+                  "table_locator": null
+                }
+              ],
+              "evidence_ids": []
+            },
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "heating_rate": "3°C/min",
+              "atmosphere": "air"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_8_91",
+              "page": 8,
+              "bbox": [
+                119.0,
+                746.0,
+                910.0,
+                885.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Tan δ row, OT(2) Second Run of the Treated OT(2) column, cell value 0.15",
+              "table_locator": {
+                "table_id": "T_8_91",
+                "row_label": "Tan δ",
+                "column_label": "Second Run of the Treated OT(2)",
+                "cell_value": "0.15",
+                "cell_id": "T_8_91:r0003:c0006",
+                "row_index": 3,
+                "column_index": 6
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        }
+      ],
+      "coverage": {
+        "expected": 4,
+        "covered": 4,
+        "missing": 0,
+        "not_applicable": 2,
+        "ratio": 1.0
+      },
+      "evidence": [
+        {
+          "block_id": "T_8_91",
+          "page": 8,
+          "bbox": [
+            119.0,
+            746.0,
+            910.0,
+            885.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table VII. Summary of DMA Results of HT and OT(2) Showing T_g, Peak tan d Values and Room Temperature Storage Moduli of the as-Processed and Thermally Treated Samples",
+          "table_locator": null
+        },
+        {
+          "block_id": "P_2_30",
+          "page": 2,
+          "bbox": [
+            527.0,
+            460.0,
+            913.0,
+            814.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The measurement was performed at a heating rate of 3°C/min and a frequency of 1 Hz in air.",
+          "table_locator": null
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "series_id": "series011",
+      "sample_id": null,
+      "entity_id": null,
+      "sample_resolution_status": "unresolved",
+      "property_name_raw": "E' (GPa) @ 25°C",
+      "property_name_normalized": "dynamic_tensile_properties",
+      "property_code": "P8130",
+      "property_category": "tensile_property",
+      "determination_method_raw": "DMA",
+      "observation_group_id": null,
+      "unit_raw": "GPa",
+      "unit_normalized": "GPa",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": {
+          "raw": "1 Hz",
+          "value": 1.0,
+          "unit": "Hz",
+          "evidence": [
+            {
+              "block_id": "P_2_30",
+              "page": 2,
+              "bbox": [
+                527.0,
+                460.0,
+                913.0,
+                814.0
+              ],
+              "source_type": "text",
+              "source_sentence": "The measurement was performed at a heating rate of 3°C/min and a frequency of 1 Hz in air.",
+              "table_locator": null
+            }
+          ],
+          "evidence_ids": []
+        },
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {
+          "heating_rate": "3°C/min",
+          "atmosphere": "air",
+          "test_temperature": "25°C"
+        },
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "points": [
+        {
+          "point_id": "pt044",
+          "observation_role": "series_point",
+          "sample_id": "s006",
+          "entity_id": "pe004",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "0.66",
+          "value_min": 0.66,
+          "value_max": 0.66,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": {
+              "raw": "1 Hz",
+              "value": 1.0,
+              "unit": "Hz",
+              "evidence": [
+                {
+                  "block_id": "P_2_30",
+                  "page": 2,
+                  "bbox": [
+                    527.0,
+                    460.0,
+                    913.0,
+                    814.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "The measurement was performed at a heating rate of 3°C/min and a frequency of 1 Hz in air.",
+                  "table_locator": null
+                }
+              ],
+              "evidence_ids": []
+            },
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "heating_rate": "3°C/min",
+              "atmosphere": "air",
+              "test_temperature": "25°C"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_8_91",
+              "page": 8,
+              "bbox": [
+                119.0,
+                746.0,
+                910.0,
+                885.0
+              ],
+              "source_type": "table",
+              "source_sentence": "E' (GPa) @ 25°C row, HT as-Cast column, cell value 0.66",
+              "table_locator": {
+                "table_id": "T_8_91",
+                "row_label": "E' (GPa) @ 25°C",
+                "column_label": "as-Cast",
+                "cell_value": "0.66",
+                "cell_id": "T_8_91:r0004:c0001",
+                "row_index": 4,
+                "column_index": 1
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt045",
+          "observation_role": "series_point",
+          "sample_id": "s010",
+          "entity_id": "pe004",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "1.63",
+          "value_min": 1.63,
+          "value_max": 1.63,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": {
+              "raw": "1 Hz",
+              "value": 1.0,
+              "unit": "Hz",
+              "evidence": [
+                {
+                  "block_id": "P_2_30",
+                  "page": 2,
+                  "bbox": [
+                    527.0,
+                    460.0,
+                    913.0,
+                    814.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "The measurement was performed at a heating rate of 3°C/min and a frequency of 1 Hz in air.",
+                  "table_locator": null
+                }
+              ],
+              "evidence_ids": []
+            },
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "heating_rate": "3°C/min",
+              "atmosphere": "air",
+              "test_temperature": "25°C"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_8_91",
+              "page": 8,
+              "bbox": [
+                119.0,
+                746.0,
+                910.0,
+                885.0
+              ],
+              "source_type": "table",
+              "source_sentence": "E' (GPa) @ 25°C row, HT Treated @ 170°C for 2 hrs^a column, cell value 1.63",
+              "table_locator": {
+                "table_id": "T_8_91",
+                "row_label": "E' (GPa) @ 25°C",
+                "column_label": "Treated @ 170°C for 2 $hrs^a$",
+                "cell_value": "1.63",
+                "cell_id": "T_8_91:r0004:c0002",
+                "row_index": 4,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt046",
+          "observation_role": "series_point",
+          "sample_id": "s010",
+          "entity_id": "pe004",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "2.44",
+          "value_min": 2.44,
+          "value_max": 2.44,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": {
+              "raw": "1 Hz",
+              "value": 1.0,
+              "unit": "Hz",
+              "evidence": [
+                {
+                  "block_id": "P_2_30",
+                  "page": 2,
+                  "bbox": [
+                    527.0,
+                    460.0,
+                    913.0,
+                    814.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "The measurement was performed at a heating rate of 3°C/min and a frequency of 1 Hz in air.",
+                  "table_locator": null
+                }
+              ],
+              "evidence_ids": []
+            },
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "heating_rate": "3°C/min",
+              "atmosphere": "air",
+              "test_temperature": "25°C"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_8_91",
+              "page": 8,
+              "bbox": [
+                119.0,
+                746.0,
+                910.0,
+                885.0
+              ],
+              "source_type": "table",
+              "source_sentence": "E' (GPa) @ 25°C row, HT Second Run of the Treated HT^a column, cell value 2.44",
+              "table_locator": {
+                "table_id": "T_8_91",
+                "row_label": "E' (GPa) @ 25°C",
+                "column_label": "Second Run of the Treated $HT^a$",
+                "cell_value": "2.44",
+                "cell_id": "T_8_91:r0004:c0003",
+                "row_index": 4,
+                "column_index": 3
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt047",
+          "observation_role": "series_point",
+          "sample_id": "s007",
+          "entity_id": "pe006",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "0.46",
+          "value_min": 0.46,
+          "value_max": 0.46,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": {
+              "raw": "1 Hz",
+              "value": 1.0,
+              "unit": "Hz",
+              "evidence": [
+                {
+                  "block_id": "P_2_30",
+                  "page": 2,
+                  "bbox": [
+                    527.0,
+                    460.0,
+                    913.0,
+                    814.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "The measurement was performed at a heating rate of 3°C/min and a frequency of 1 Hz in air.",
+                  "table_locator": null
+                }
+              ],
+              "evidence_ids": []
+            },
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "heating_rate": "3°C/min",
+              "atmosphere": "air",
+              "test_temperature": "25°C"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_8_91",
+              "page": 8,
+              "bbox": [
+                119.0,
+                746.0,
+                910.0,
+                885.0
+              ],
+              "source_type": "table",
+              "source_sentence": "E' (GPa) @ 25°C row, OT(2) as-Processed column, cell value 0.46",
+              "table_locator": {
+                "table_id": "T_8_91",
+                "row_label": "E' (GPa) @ 25°C",
+                "column_label": "as-Processed",
+                "cell_value": "0.46",
+                "cell_id": "T_8_91:r0004:c0004",
+                "row_index": 4,
+                "column_index": 4
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt048",
+          "observation_role": "series_point",
+          "sample_id": "s011",
+          "entity_id": "pe006",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "1.07",
+          "value_min": 1.07,
+          "value_max": 1.07,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": {
+              "raw": "1 Hz",
+              "value": 1.0,
+              "unit": "Hz",
+              "evidence": [
+                {
+                  "block_id": "P_2_30",
+                  "page": 2,
+                  "bbox": [
+                    527.0,
+                    460.0,
+                    913.0,
+                    814.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "The measurement was performed at a heating rate of 3°C/min and a frequency of 1 Hz in air.",
+                  "table_locator": null
+                }
+              ],
+              "evidence_ids": []
+            },
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "heating_rate": "3°C/min",
+              "atmosphere": "air",
+              "test_temperature": "25°C"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_8_91",
+              "page": 8,
+              "bbox": [
+                119.0,
+                746.0,
+                910.0,
+                885.0
+              ],
+              "source_type": "table",
+              "source_sentence": "E' (GPa) @ 25°C row, OT(2) Treated @ 170°C for 2 hrs column, cell value 1.07",
+              "table_locator": {
+                "table_id": "T_8_91",
+                "row_label": "E' (GPa) @ 25°C",
+                "column_label": "Treated @ 170°C for 2 hrs",
+                "cell_value": "1.07",
+                "cell_id": "T_8_91:r0004:c0005",
+                "row_index": 4,
+                "column_index": 5
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt049",
+          "observation_role": "series_point",
+          "sample_id": "s011",
+          "entity_id": "pe006",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "1.71",
+          "value_min": 1.71,
+          "value_max": 1.71,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": {
+              "raw": "1 Hz",
+              "value": 1.0,
+              "unit": "Hz",
+              "evidence": [
+                {
+                  "block_id": "P_2_30",
+                  "page": 2,
+                  "bbox": [
+                    527.0,
+                    460.0,
+                    913.0,
+                    814.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "The measurement was performed at a heating rate of 3°C/min and a frequency of 1 Hz in air.",
+                  "table_locator": null
+                }
+              ],
+              "evidence_ids": []
+            },
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "heating_rate": "3°C/min",
+              "atmosphere": "air",
+              "test_temperature": "25°C"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_8_91",
+              "page": 8,
+              "bbox": [
+                119.0,
+                746.0,
+                910.0,
+                885.0
+              ],
+              "source_type": "table",
+              "source_sentence": "E' (GPa) @ 25°C row, OT(2) Second Run of the Treated OT(2) column, cell value 1.71",
+              "table_locator": {
+                "table_id": "T_8_91",
+                "row_label": "E' (GPa) @ 25°C",
+                "column_label": "Second Run of the Treated OT(2)",
+                "cell_value": "1.71",
+                "cell_id": "T_8_91:r0004:c0006",
+                "row_index": 4,
+                "column_index": 6
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        }
+      ],
+      "coverage": {
+        "expected": 6,
+        "covered": 6,
+        "missing": 0,
+        "not_applicable": 0,
+        "ratio": 1.0
+      },
+      "evidence": [
+        {
+          "block_id": "T_8_91",
+          "page": 8,
+          "bbox": [
+            119.0,
+            746.0,
+            910.0,
+            885.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table VII. Summary of DMA Results of HT and OT(2) Showing T_g, Peak tan d Values and Room Temperature Storage Moduli of the as-Processed and Thermally Treated Samples",
+          "table_locator": null
+        },
+        {
+          "block_id": "P_2_30",
+          "page": 2,
+          "bbox": [
+            527.0,
+            460.0,
+            913.0,
+            814.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The measurement was performed at a heating rate of 3°C/min and a frequency of 1 Hz in air.",
+          "table_locator": null
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    }
+  ],
+  "provenance": {
+    "stage": "stage4_property",
+    "provider": "dmx",
+    "model": "doubao-seed-2.0-pro",
+    "models": [
+      "doubao-seed-2.0-pro"
+    ],
+    "prompt_id": "polymer.stage4.property",
+    "prompt_version": "1.7.2",
+    "prompt_sha256": "ec79fe3bf47539cab4ba239c611d1ab17d75dc0038cda85020caca580f7987a5",
+    "vocabulary_sha256": "3e9d85e4915a729edf0f0a53821f3ee6edf32874e1da6972457417e4f13a1510",
+    "input_hash": "8e1f227f93883d4072912a4f4c6f08c8a09ce1ffe65f688ff2111281dbde350f",
+    "model_config_hash": "cc96eaab20bd380ae90f3ba1dfa638bd40f111e3e72ca185255fb71b459d40ea",
+    "cache_key": "89a87859c3b43fc1aaf5f026ef90026bfc8740c46182528f806e09c4348204fc",
+    "output_schema_version": "property_observation_schema.v7",
+    "implementation_version": "1.7.10",
+    "context_block_count": 51,
+    "context_chars": 38839,
+    "call_count": 1,
+    "usage": {
+      "input_tokens": 26872,
+      "output_tokens": 23467,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "billable_input_tokens": 26872,
+      "total_tokens": 50339
+    },
+    "cost": {
+      "status": "calculated",
+      "currency": "CNY",
+      "input_per_million": "4.32",
+      "output_per_million": "29.15",
+      "input_cost": "0.11608704",
+      "output_cost": "0.68406305",
+      "total_cost": "0.80015009"
+    },
+    "status": "success"
+  },
+  "warnings": [
+    {
+      "stage": "stage4_property",
+      "code": "all_tables_included",
+      "message": "已将目标 section 之外的非空表格一并加入 Stage 4 输入",
+      "table_block_ids": [
+        "T_1_11",
+        "T_8_91"
+      ]
+    },
+    {
+      "stage": "stage4_property",
+      "code": "multi_subject_series_normalized",
+      "message": "PropertySeries 的 points 明确属于多个 Sample/PolymerEntity；已清除错误的单一顶层主体，主体关系保留在各 point",
+      "series": 11
+    },
+    {
+      "stage": "stage4_property",
+      "code": "candidate_table_locator_surface_repaired",
+      "message": "模型 locator 表面文本不在表格原文；已用 property raw 与 determination method 中唯一匹配的 Stage 0 表头恢复",
+      "evidence": 40
+    },
+    {
+      "stage": "stage4_property",
+      "code": "series_context_evidence_supplemented",
+      "message": "Series/point measurement context 不在数值表格 evidence；已补入全文中唯一的完全匹配原文 block",
+      "series_evidence": 10
+    },
+    {
+      "stage": "stage4_property",
+      "code": "preview_semantic_validation_bypassed",
+      "message": "Preview 已保留 Schema 合法候选，并跳过原文/evidence 语义对应校验；Strict 模式仍会报错",
+      "reason": "prop001.property_name_raw='isothermal DSC exotherm enthalpy' 不是任一 evidence block 的原文子串"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "preview_objects_salvaged",
+      "message": "Preview 已逐对象保留可安全物化的数据；坏字段、坏对象或失效引用已局部删除，Strict 模式仍会报错",
+      "details": {
+        "dropped_conditions": [],
+        "dropped_properties": [],
+        "dropped_unresolved_properties": [],
+        "dropped_series": [],
+        "dropped_points": [],
+        "dropped_evidence": 0,
+        "dropped_coordinates": 0
+      }
+    }
+  ]
+}

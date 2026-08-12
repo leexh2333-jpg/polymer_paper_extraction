@@ -19,7 +19,7 @@
 >
 > **2026-08-11 Stage 6 Preview 更新：** Preview 现在会执行 Stage 6（带 `--preview-relaxed`），产出 `final.json` 和 `report.html`，此前 Preview 直接跳过 Stage 6。新增 `extraction/stages/evidence_matcher.py`：Stage 0 存 HTML 表格和 LaTeX，Stage 4R 写管道渲染行，Stage 4/5 写可读文本，三者指同一处原文但字面互不包含，旧版按字面子串判定会误报。Preview 下这类**表示层**差异经确定性定位确认后降级为 warning；**科学语义校验没有放宽**，定位不上的证据、指错单元格的 locator、引用不存在 property 的 `derived_property_ids` 一律仍判 error。**Strict 分支代码未改动，判定结果逐条不变。**
 >
-> **2026-08-12 Preview 完整发布更新：** Stage 6 新增逐对象隔离和引用清扫。坏对象进入 `rejected_objects`，合法对象继续进入 `final.json`；悬空 `derived_property_ids` 只剪枝、不猜 ID。Characterization 允许表级 locator，Property 和 Series Point 仍要求单元格级定位。Stage 4R 的 evidence 直接保存稳定 `cell_id` 对应的 Stage 0 单元格文本，不再重新拼接管道行。Stage 3 同时新增 `polymer_type` 和 `material_type`。Strict 的校验规则和失败语义保持不变。
+> **2026-08-12 Preview 完整发布更新：** Stage 6 新增逐对象隔离和引用清扫。坏对象进入 `rejected_objects`，合法对象继续进入 `final.json`；悬空 `derived_property_ids` 只剪枝、不猜 ID。Characterization 允许表级 locator，Property 和 Series Point 仍要求单元格级定位。Stage 4R 的 evidence 直接保存稳定 `cell_id` 对应的 Stage 0 单元格文本，不再重新拼接管道行。Stage 3 同时新增 `polymer_type` 和 `material_type`。Strict 的校验规则和失败语义保持不变。最新规范化 20 篇结果位于 `batch_results/demo20_preview_final_20260812/`。
 
 ## 1. 交付包目录总览
 
@@ -37,6 +37,7 @@ polymer_extraction_delivery_20260807/
 ├─ acceptance/                         历史验收摘要与报告
 ├─ batch_results/demo20_20260807/      2026-08-07 历史跑批结果
 ├─ batch_results/demo20_preview_20260809/  2026-08-09 Preview 修复验证结果
+├─ batch_results/demo20_preview_final_20260812/  2026-08-12 Preview 最终发布结果
 ├─ docs/                               项目和风险说明
 ├─ .env.example                        密钥占位模板，不含真实密钥
 ├─ requirements.txt                    运行依赖
@@ -733,8 +734,8 @@ candidate（`candidate_partial`），这是 Preview 的既定设计。
 - 清扫悬空引用：`78`；
 - 对象守恒：`20/20` 通过。
 
-完整测试：`513 passed`。本轮先提交代码；规范化后的 20 篇结果作为独立
-`batch_results` 数据提交发布，避免把代码变更和批次数据混在同一提交中。
+完整测试：`513 passed`。规范化后的 20 篇结果已作为独立数据提交发布到
+`batch_results/demo20_preview_final_20260812/`，没有与功能代码提交混合。
 
 新增 5 个用例（`preview/tests/test_publish_candidate.py`），并通过移除守卫的
 反向对照确认这些用例确实能捕获该缺陷。

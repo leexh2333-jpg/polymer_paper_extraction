@@ -1,0 +1,259 @@
+{
+  "schema_version": "1.0",
+  "document_id": "reference_no_0033617",
+  "characterizations": [
+    {
+      "characterization_id": "char001",
+      "method_raw": "Fourier transform infrared spectroscopy (FTIR)",
+      "method_normalized": "FTIR",
+      "sample_id": "s002",
+      "entity_id": "pe002",
+      "sample_resolution_status": "resolved",
+      "instrument": "Nicolet 510 FTIR spectrometer",
+      "parameters": {
+        "sample_preparation": "dispersed in KBr"
+      },
+      "result_summary": "FTIR spectra of P(TMPMT-co-Th) show characteristic peaks corresponding to chain conjugation, C-O-C stretching, and PF₆⁻ dopant anion.",
+      "derived_property_ids": [
+        "prop_s5_001"
+      ],
+      "evidence": [
+        {
+          "block_id": "P_0_6",
+          "page": 0,
+          "bbox": [
+            69.0,
+            471.0,
+            935.0,
+            694.0
+          ],
+          "source_type": "text",
+          "source_sentence": "(3-{[4-(Thien-3-yl-methoxy)phenoxy]methyl}thiophene) (TMPMT) was synthesized via the reaction of 3-bromomethylthiophene with hydroquinone and characterized by nuclear magnetic resonance (NMR) and Fourier transform infrared spectroscopy (FTIR)."
+        },
+        {
+          "block_id": "P_1_25",
+          "page": 1,
+          "bbox": [
+            60.0,
+            890.0,
+            477.0,
+            925.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The IR spectrum was recorded on a Nicolet 510 FTIR spectrometer, where samples were dispersed in KBr."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "characterization_id": "char002",
+      "method_raw": "scanning electron microscopy (SEM)",
+      "method_normalized": "SEM",
+      "sample_id": "s002",
+      "entity_id": "pe002",
+      "sample_resolution_status": "resolved",
+      "instrument": "JEOL JSM-6400",
+      "parameters": {},
+      "result_summary": "SEM micrograph of P(TMPMT-co-Th) film reveals homogenous compact granular structures.",
+      "derived_property_ids": [],
+      "evidence": [
+        {
+          "block_id": "P_0_6",
+          "page": 0,
+          "bbox": [
+            69.0,
+            471.0,
+            935.0,
+            694.0
+          ],
+          "source_type": "text",
+          "source_sentence": "Resulting copolymer was characterized via cyclic voltammetry (CV), Fourier transform infrared spectroscopy (FTIR), scanning electron microscopy (SEM), four probe technique conductivity measurement and UV–Vis spectroscopy."
+        },
+        {
+          "block_id": "P_1_25",
+          "page": 1,
+          "bbox": [
+            60.0,
+            890.0,
+            477.0,
+            925.0
+          ],
+          "source_type": "text",
+          "source_sentence": "Scanning electron microscopy (SEM) studies were performed by JEOL JSM-6400."
+        },
+        {
+          "block_id": "P_4_55",
+          "page": 4,
+          "bbox": [
+            68.0,
+            524.0,
+            485.0,
+            623.0
+          ],
+          "source_type": "text",
+          "source_sentence": "SEM micrograph of solution side of P(TMPMTco-Th) film showed homogenous compact structures in granular form (Fig. 3(a))."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "characterization_id": "char003",
+      "method_raw": "UV–Vis spectroscopy",
+      "method_normalized": "UV-Vis",
+      "sample_ids": [
+        "s002",
+        "s008"
+      ],
+      "entity_ids": [
+        "pe002",
+        "pe006"
+      ],
+      "sample_resolution_status": "multi_resolved",
+      "instrument": "HP8453A UV–Vis spectrophotometer",
+      "parameters": {},
+      "result_summary": "UV-Vis spectroscopy was used for spectroelectrochemical and kinetic studies of P(TMPMT-co-Th) copolymer and P(TMPMT-co-Th)/PEDOT electrochromic device.",
+      "derived_property_ids": [],
+      "evidence": [
+        {
+          "block_id": "P_0_6",
+          "page": 0,
+          "bbox": [
+            69.0,
+            471.0,
+            935.0,
+            694.0
+          ],
+          "source_type": "text",
+          "source_sentence": "Resulting copolymer was characterized via cyclic voltammetry (CV), Fourier transform infrared spectroscopy (FTIR), scanning electron microscopy (SEM), four probe technique conductivity measurement and UV–Vis spectroscopy."
+        },
+        {
+          "block_id": "P_1_25",
+          "page": 1,
+          "bbox": [
+            60.0,
+            890.0,
+            477.0,
+            925.0
+          ],
+          "source_type": "text",
+          "source_sentence": "Spectroelectrochemical and kinetic studies were performed on Solartron 1285 potentiostat/galvanostat and a HP8453A UV–Vis spectrophotometer."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    }
+  ],
+  "properties": [
+    {
+      "property_id": "prop_s5_001",
+      "characterization_id": "char001",
+      "sample_id": "s002",
+      "entity_id": "pe002",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "1697",
+      "property_name_normalized": "ftir_peak_wavenumber",
+      "property_category": "composition_structure",
+      "value_raw": "1697",
+      "value_min": 1697.0,
+      "value_max": 1697.0,
+      "spectral_assignment": "conjugation along the chain",
+      "source_stage": "stage5",
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_3_47",
+          "page": 3,
+          "bbox": [
+            509.0,
+            262.0,
+            928.0,
+            540.0
+          ],
+          "source_type": "text",
+          "source_sentence": "In the infrared spectrum of P(TMPMT-co-Th) 1697 $\\mathrm { c m } ^ { - 1 }$stands for the conjugation along the chain."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    }
+  ],
+  "provenance": {
+    "stage": "stage5_characterization",
+    "provider": "dmx",
+    "model": "doubao-seed-2.0-pro",
+    "models": [
+      "doubao-seed-2.0-pro"
+    ],
+    "prompt_id": "polymer.stage5.characterization",
+    "prompt_version": "1.6.2",
+    "prompt_sha256": "5f918eb9d0dcbe0a4dc60a70d83c4e9f144f9a87bf68905d0a38ad22c000ee5c",
+    "vocabulary_sha256": "3e9d85e4915a729edf0f0a53821f3ee6edf32874e1da6972457417e4f13a1510",
+    "input_hash": "016f6db8f1cc6c48c2480474f202a743f58dd259d94a7b390a36c652cef9eb48",
+    "model_config_hash": "7e14aff06827af47a7b1a797111258e33d5972d1c072111440c3b2aae020f3ce",
+    "cache_key": "16e9f69249490323e36513b754517245166fa204d9a7c3342f6604927b771895",
+    "output_schema_version": "characterization_schema.v4",
+    "implementation_version": "1.7.1",
+    "context_block_count": 50,
+    "context_chars": 27649,
+    "call_count": 1,
+    "usage": {
+      "input_tokens": 15263,
+      "output_tokens": 7677,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 4920,
+      "billable_input_tokens": 20183,
+      "total_tokens": 27860
+    },
+    "cost": {
+      "status": "calculated",
+      "currency": "CNY",
+      "input_per_million": "4.32",
+      "output_per_million": "29.15",
+      "input_cost": "0.08719056",
+      "output_cost": "0.22378455",
+      "total_cost": "0.31097511"
+    },
+    "status": "success"
+  },
+  "warnings": [
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unlocatable_additional_evidence_removed",
+      "message": "Preview 模式已移除无法回定位到 Stage 0 block 的附加 Characterization evidence",
+      "field_path": "characterizations[0].evidence",
+      "block_ids": [
+        "P_3_47"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[0]",
+      "property_id": "prop_s5_001",
+      "fields": [
+        "unit_raw"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_property_removed",
+      "message": "Preview 模式已移除 value_raw 无原文支撑的 Stage 5 性质",
+      "field_path": "properties[1].value_raw",
+      "property_id": "prop_s5_002"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_property_removed",
+      "message": "Preview 模式已移除 value_raw 无原文支撑的 Stage 5 性质",
+      "field_path": "properties[2].value_raw",
+      "property_id": "prop_s5_003"
+    }
+  ]
+}

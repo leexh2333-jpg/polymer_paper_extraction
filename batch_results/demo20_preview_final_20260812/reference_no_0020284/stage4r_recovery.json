@@ -1,0 +1,493 @@
+{
+  "stage": "stage4r_table_recovery",
+  "implementation_version": "0.1.0",
+  "document_id": "reference_no_0020284",
+  "audit_summary": {
+    "table_count": 8,
+    "tables_with_numeric_cells": 7,
+    "numeric_cell_count": 211,
+    "represented_numeric_cell_count": 36,
+    "representation_ratio": 0.170616,
+    "role_counts": {
+      "coordinate_candidate": 13,
+      "property_value_candidate": 80,
+      "unknown": 118
+    },
+    "property_value_candidate_count": 80,
+    "covered_property_value_candidate_count": 18,
+    "missing_property_value_candidate_count": 62,
+    "property_value_ratio": 0.225,
+    "gap_table_count": 3,
+    "numeric_zero_coverage_table_count": 3,
+    "property_zero_coverage_table_count": 2
+  },
+  "recovered_count": 29,
+  "skipped_ambiguous_count": 33,
+  "recovered": [
+    {
+      "unresolved_id": "uprop001",
+      "entity_id": "pe001",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "value_raw": "446",
+      "cell_id": "T_6_81:r0001:c0002",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop002",
+      "entity_id": "pe001",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "value_raw": "473",
+      "cell_id": "T_6_81:r0001:c0003",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop003",
+      "entity_id": "pe001",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "value_raw": "491",
+      "cell_id": "T_6_81:r0001:c0004",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop004",
+      "entity_id": "pe001",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "value_raw": "506",
+      "cell_id": "T_6_81:r0001:c0005",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop005",
+      "entity_id": "pe001",
+      "property_name_raw": "glass_transition_temperature",
+      "value_raw": "$146^{d}$",
+      "cell_id": "T_6_81:r0001:c0007",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop006",
+      "entity_id": "pe002",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "value_raw": "403",
+      "cell_id": "T_6_81:r0002:c0002",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop007",
+      "entity_id": "pe002",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "value_raw": "422",
+      "cell_id": "T_6_81:r0002:c0003",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop008",
+      "entity_id": "pe002",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "value_raw": "431",
+      "cell_id": "T_6_81:r0002:c0004",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop009",
+      "entity_id": "pe002",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "value_raw": "447",
+      "cell_id": "T_6_81:r0002:c0005",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop010",
+      "entity_id": "pe003",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "value_raw": "462",
+      "cell_id": "T_6_81:r0003:c0002",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop011",
+      "entity_id": "pe003",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "value_raw": "476",
+      "cell_id": "T_6_81:r0003:c0003",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop012",
+      "entity_id": "pe003",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "value_raw": "491",
+      "cell_id": "T_6_81:r0003:c0004",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop013",
+      "entity_id": "pe003",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "value_raw": "520",
+      "cell_id": "T_6_81:r0003:c0005",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop014",
+      "entity_id": "pe003",
+      "property_name_raw": "glass_transition_temperature",
+      "value_raw": "$164^{d}$",
+      "cell_id": "T_6_81:r0003:c0007",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop015",
+      "entity_id": "pe004",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "value_raw": "442",
+      "cell_id": "T_6_81:r0004:c0002",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop016",
+      "entity_id": "pe004",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "value_raw": "480",
+      "cell_id": "T_6_81:r0004:c0003",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop017",
+      "entity_id": "pe004",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "value_raw": "495",
+      "cell_id": "T_6_81:r0004:c0004",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop018",
+      "entity_id": "pe004",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "value_raw": "514",
+      "cell_id": "T_6_81:r0004:c0005",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop019",
+      "entity_id": "pe004",
+      "property_name_raw": "glass_transition_temperature",
+      "value_raw": "$202^{d}$",
+      "cell_id": "T_6_81:r0004:c0007",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop020",
+      "entity_id": "pe005",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "value_raw": "396",
+      "cell_id": "T_6_81:r0005:c0002",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop021",
+      "entity_id": "pe005",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "value_raw": "450",
+      "cell_id": "T_6_81:r0005:c0003",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop022",
+      "entity_id": "pe005",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "value_raw": "468",
+      "cell_id": "T_6_81:r0005:c0004",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop023",
+      "entity_id": "pe005",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "value_raw": "511",
+      "cell_id": "T_6_81:r0005:c0005",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop024",
+      "entity_id": "pe005",
+      "property_name_raw": "glass_transition_temperature",
+      "value_raw": "$196^{e}$",
+      "cell_id": "T_6_81:r0005:c0007",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop025",
+      "entity_id": "pe006",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "value_raw": "477",
+      "cell_id": "T_6_81:r0006:c0002",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop026",
+      "entity_id": "pe006",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "value_raw": "494",
+      "cell_id": "T_6_81:r0006:c0003",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop027",
+      "entity_id": "pe006",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "value_raw": "505",
+      "cell_id": "T_6_81:r0006:c0004",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop028",
+      "entity_id": "pe006",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "value_raw": "540",
+      "cell_id": "T_6_81:r0006:c0005",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop029",
+      "entity_id": "pe006",
+      "property_name_raw": "glass_transition_temperature",
+      "value_raw": "$206^{d}$",
+      "cell_id": "T_6_81:r0006:c0007",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    }
+  ],
+  "skipped_ambiguous": [
+    {
+      "cell_id": "T_4_61:r0002:c0004",
+      "table_id": "T_4_61",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "0.21",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_4_61:r0003:c0004",
+      "table_id": "T_4_61",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "0.10",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_4_61:r0004:c0004",
+      "table_id": "T_4_61",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "0.13",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_4_61:r0005:c0004",
+      "table_id": "T_4_61",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "0.20",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_4_61:r0006:c0004",
+      "table_id": "T_4_61",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "0.11",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_4_61:r0007:c0004",
+      "table_id": "T_4_61",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "0.12",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_4_61:r0008:c0004",
+      "table_id": "T_4_61",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "0.28",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_4_61:r0009:c0004",
+      "table_id": "T_4_61",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "0.12",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_4_61:r0010:c0004",
+      "table_id": "T_4_61",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "0.32",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_4_61:r0011:c0004",
+      "table_id": "T_4_61",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "0.21",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_4_61:r0012:c0004",
+      "table_id": "T_4_61",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "0.17",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_4_61:r0013:c0004",
+      "table_id": "T_4_61",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "0.11",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_4_61:r0014:c0004",
+      "table_id": "T_4_61",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "0.19",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_8_102:r0002:c0003",
+      "table_id": "T_8_102",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "0.32",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_8_102:r0002:c0006",
+      "table_id": "T_8_102",
+      "property_name_normalized": "thermal_decomposition_temperature",
+      "value_raw": "403",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_8_102:r0003:c0003",
+      "table_id": "T_8_102",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "0.36",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_8_102:r0003:c0005",
+      "table_id": "T_8_102",
+      "property_name_normalized": "glass_transition_temperature",
+      "value_raw": "166.8",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_8_102:r0003:c0006",
+      "table_id": "T_8_102",
+      "property_name_normalized": "thermal_decomposition_temperature",
+      "value_raw": "424",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_8_102:r0004:c0003",
+      "table_id": "T_8_102",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "0.28",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_8_102:r0004:c0005",
+      "table_id": "T_8_102",
+      "property_name_normalized": "glass_transition_temperature",
+      "value_raw": "128.6",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_8_102:r0004:c0006",
+      "table_id": "T_8_102",
+      "property_name_normalized": "thermal_decomposition_temperature",
+      "value_raw": "427",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_8_102:r0005:c0003",
+      "table_id": "T_8_102",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "0.35",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_8_102:r0005:c0005",
+      "table_id": "T_8_102",
+      "property_name_normalized": "glass_transition_temperature",
+      "value_raw": "128.4",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_8_102:r0005:c0006",
+      "table_id": "T_8_102",
+      "property_name_normalized": "thermal_decomposition_temperature",
+      "value_raw": "429",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_8_102:r0006:c0003",
+      "table_id": "T_8_102",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "0.34",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_8_102:r0006:c0005",
+      "table_id": "T_8_102",
+      "property_name_normalized": "glass_transition_temperature",
+      "value_raw": "119.2",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_8_102:r0006:c0006",
+      "table_id": "T_8_102",
+      "property_name_normalized": "thermal_decomposition_temperature",
+      "value_raw": "433",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_8_102:r0007:c0003",
+      "table_id": "T_8_102",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "0.38",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_8_102:r0007:c0005",
+      "table_id": "T_8_102",
+      "property_name_normalized": "glass_transition_temperature",
+      "value_raw": "112.8",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_8_102:r0007:c0006",
+      "table_id": "T_8_102",
+      "property_name_normalized": "thermal_decomposition_temperature",
+      "value_raw": "435",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_8_102:r0008:c0003",
+      "table_id": "T_8_102",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "0.44",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_8_102:r0008:c0005",
+      "table_id": "T_8_102",
+      "property_name_normalized": "glass_transition_temperature",
+      "value_raw": "108.5",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_8_102:r0008:c0006",
+      "table_id": "T_8_102",
+      "property_name_normalized": "thermal_decomposition_temperature",
+      "value_raw": "445",
+      "reason": "entity_ambiguous"
+    }
+  ]
+}

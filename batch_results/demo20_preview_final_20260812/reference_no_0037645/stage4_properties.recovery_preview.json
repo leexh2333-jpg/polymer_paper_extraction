@@ -1,0 +1,2193 @@
+{
+  "schema_version": "1.0",
+  "document_id": "reference_no_0037645",
+  "measurement_conditions": [
+    {
+      "condition_id": "mc001",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {
+        "solvent": "THF"
+      },
+      "other_condition_evidence": {
+        "solvent": [
+          {
+            "block_id": "P_2_29",
+            "page": 2,
+            "bbox": [
+              81.0,
+              651.0,
+              483.0,
+              929.0
+            ],
+            "source_type": "text",
+            "source_sentence": "The new quinolate polymers were subjected to gel permeation chromatography (GPC) analysis in THF for determination of the molecular weights using refractive index (RI) and multiangle laser light scattering (MALLS) detectors (Table 1).",
+            "table_locator": null
+          }
+        ]
+      },
+      "condition_status": "reported",
+      "evidence": {
+        "block_id": "T_2_27",
+        "page": 2,
+        "bbox": [
+          86.0,
+          366.0,
+          475.0,
+          477.0
+        ],
+        "source_type": "table",
+        "source_sentence": "Table 1. Data from Gel Permeation Chromatography Analysis in Line with Multiangle Laser Light Scattering (GPC-MALLS)",
+        "table_locator": null
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "condition_id": "mc002",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {
+        "atmosphere": "nitrogen"
+      },
+      "other_condition_evidence": {
+        "atmosphere": [
+          {
+            "block_id": "P_2_33",
+            "page": 2,
+            "bbox": [
+              511.0,
+              731.0,
+              915.0,
+              898.0
+            ],
+            "source_type": "text",
+            "source_sentence": "After the polymers were heated under nitrogen to $8 0 0 ^ { \\circ } \\mathrm { C } ,$significant amounts of residual material (up to 30%) were observed for all polymers",
+            "table_locator": null
+          }
+        ]
+      },
+      "condition_status": "reported",
+      "evidence": {
+        "block_id": "T_3_38",
+        "page": 3,
+        "bbox": [
+          88.0,
+          71.0,
+          908.0,
+          128.0
+        ],
+        "source_type": "table",
+        "source_sentence": "Table 2. Differential Scanning Calorimetry (DSC) and Thermogravimetric Analysis (TGA) Data for the Boron Quinolate Polymers",
+        "table_locator": null
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "condition_id": "mc003",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {
+        "solvent": "THF",
+        "concentration": "ca. $2 \\times 1 0 ^ { - 5 }$ M"
+      },
+      "other_condition_evidence": {
+        "solvent": [
+          {
+            "block_id": "T_3_44",
+            "page": 3,
+            "bbox": [
+              514.0,
+              452.0,
+              908.0,
+              570.0
+            ],
+            "source_type": "table",
+            "source_sentence": "<th colspan=\"4\">THF</th>",
+            "table_locator": null
+          }
+        ],
+        "concentration": [
+          {
+            "block_id": "I_3_40",
+            "page": 3,
+            "bbox": [
+              531.0,
+              171.0,
+              888.0,
+              356.0
+            ],
+            "source_type": "image",
+            "source_sentence": "The functional group concentration was estimated to ca. $2 \\times 1 0 ^ { - 5 }$ M in THF on the basis of the repeat units assuming 100% functionalization",
+            "table_locator": null
+          }
+        ]
+      },
+      "condition_status": "reported",
+      "evidence": {
+        "block_id": "T_3_44",
+        "page": 3,
+        "bbox": [
+          514.0,
+          452.0,
+          908.0,
+          570.0
+        ],
+        "source_type": "table",
+        "source_sentence": "Table 3. Photophysical Data of the Organoboron Quinolate Polymers",
+        "table_locator": null
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "condition_id": "mc004",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {
+        "cast_from": "toluene (or chlorobenzene)"
+      },
+      "other_condition_evidence": {
+        "cast_from": [
+          {
+            "block_id": "P_4_52",
+            "page": 4,
+            "bbox": [
+              83.0,
+              787.0,
+              483.0,
+              898.0
+            ],
+            "source_type": "text",
+            "source_sentence": "To assess the propensity for inter-polymer interactions, a comparison of the photophysical data of thin films cast from toluene (or chlorobenzene) with the solution properties is instructive (Table 3).",
+            "table_locator": null
+          }
+        ]
+      },
+      "condition_status": "reported",
+      "evidence": {
+        "block_id": "T_3_44",
+        "page": 3,
+        "bbox": [
+          514.0,
+          452.0,
+          908.0,
+          570.0
+        ],
+        "source_type": "table",
+        "source_sentence": "<th colspan=\"2\">thin  $film^d$ </th>",
+        "table_locator": null
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "condition_id": "mc005",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {},
+      "other_condition_evidence": {},
+      "condition_status": "not_reported",
+      "evidence": {
+        "block_id": "P_4_51",
+        "page": 4,
+        "bbox": [
+          81.0,
+          371.0,
+          483.0,
+          789.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The degree of functionalization for the isolated copolymer PSBPhQ-H-co-PSSiMe was calculated to be 10.5% according to <sup>1</sup>H NMR integration and 12.8% according to GPC-MALLS",
+        "table_locator": null
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    }
+  ],
+  "properties": [
+    {
+      "property_id": "prop001",
+      "sample_id": "s011",
+      "property_name_raw": "degree of functionalization",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": "<sup>1</sup>H NMR integration",
+      "observation_group_id": "pog001",
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "10.5%",
+      "value_min": 10.5,
+      "value_max": 10.5,
+      "unit_raw": "%",
+      "unit_normalized": null,
+      "measurement_condition_id": "mc005",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_4_51",
+          "page": 4,
+          "bbox": [
+            81.0,
+            371.0,
+            483.0,
+            789.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The degree of functionalization for the isolated copolymer PSBPhQ-H-co-PSSiMe was calculated to be 10.5% according to <sup>1</sup>H NMR integration and 12.8% according to GPC-MALLS",
+          "table_locator": null
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop002",
+      "sample_id": "s011",
+      "property_name_raw": "degree of functionalization",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": "GPC-MALLS",
+      "observation_group_id": "pog001",
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "12.8%",
+      "value_min": 12.8,
+      "value_max": 12.8,
+      "unit_raw": "%",
+      "unit_normalized": null,
+      "measurement_condition_id": "mc001",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {
+          "solvent": "THF"
+        },
+        "other_condition_evidence": {
+          "solvent": [
+            {
+              "block_id": "P_2_29",
+              "page": 2,
+              "bbox": [
+                81.0,
+                651.0,
+                483.0,
+                929.0
+              ],
+              "source_type": "text",
+              "source_sentence": "The new quinolate polymers were subjected to gel permeation chromatography (GPC) analysis in THF for determination of the molecular weights using refractive index (RI) and multiangle laser light scattering (MALLS) detectors (Table 1).",
+              "table_locator": null
+            }
+          ]
+        },
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_4_51",
+          "page": 4,
+          "bbox": [
+            81.0,
+            371.0,
+            483.0,
+            789.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The degree of functionalization for the isolated copolymer PSBPhQ-H-co-PSSiMe was calculated to be 10.5% according to <sup>1</sup>H NMR integration and 12.8% according to GPC-MALLS",
+          "table_locator": null
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop003",
+      "sample_id": "s011",
+      "property_name_raw": "quantum efficiency",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "0.18",
+      "value_min": 0.18,
+      "value_max": 0.18,
+      "unit_raw": null,
+      "unit_normalized": null,
+      "measurement_condition_id": "mc003",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {
+          "solvent": "THF",
+          "concentration": "ca. $2 \\times 1 0 ^ { - 5 }$ M"
+        },
+        "other_condition_evidence": {
+          "solvent": [
+            {
+              "block_id": "T_3_44",
+              "page": 3,
+              "bbox": [
+                514.0,
+                452.0,
+                908.0,
+                570.0
+              ],
+              "source_type": "table",
+              "source_sentence": "<th colspan=\"4\">THF</th>",
+              "table_locator": null
+            }
+          ],
+          "concentration": [
+            {
+              "block_id": "I_3_40",
+              "page": 3,
+              "bbox": [
+                531.0,
+                171.0,
+                888.0,
+                356.0
+              ],
+              "source_type": "image",
+              "source_sentence": "The functional group concentration was estimated to ca. $2 \\times 1 0 ^ { - 5 }$ M in THF on the basis of the repeat units assuming 100% functionalization",
+              "table_locator": null
+            }
+          ]
+        },
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_4_51",
+          "page": 4,
+          "bbox": [
+            81.0,
+            371.0,
+            483.0,
+            789.0
+          ],
+          "source_type": "text",
+          "source_sentence": "the quantum efficiency of 0.18 for PSBPhQ-H-co-PSSiMe<sub>3</sub> matches very well with that of 0.17 determined for PSBPhQ-H.",
+          "table_locator": null
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    }
+  ],
+  "unresolved_properties": [
+    {
+      "unresolved_id": "uprop001",
+      "entity_id": "pe007",
+      "sample_id": null,
+      "property_name_raw": "glass transition temperatures",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "210 to 275 °C",
+      "value_min": null,
+      "value_max": null,
+      "unit_raw": "°C",
+      "unit_normalized": null,
+      "measurement_condition_id": null,
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "reason": "sample_ambiguous",
+      "evidence": [
+        {
+          "block_id": "P_2_33",
+          "page": 2,
+          "bbox": [
+            511.0,
+            731.0,
+            915.0,
+            898.0
+          ],
+          "source_type": "text",
+          "source_sentence": "DSC analysis revealed high glass transition temperatures (ranging from 210 to $2 7 5 \\ ^ { \\circ } \\mathrm { C } )$for the quinolate polymers",
+          "table_locator": null
+        }
+      ],
+      "confidence": {
+        "score": 0.8
+      }
+    },
+    {
+      "unresolved_id": "uprop002",
+      "entity_id": "pe007",
+      "sample_id": null,
+      "property_name_raw": "decomposition temperatures",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "over 300 °C",
+      "value_min": null,
+      "value_max": null,
+      "unit_raw": "°C",
+      "unit_normalized": null,
+      "measurement_condition_id": null,
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "reason": "sample_ambiguous",
+      "evidence": [
+        {
+          "block_id": "P_2_33",
+          "page": 2,
+          "bbox": [
+            511.0,
+            731.0,
+            915.0,
+            898.0
+          ],
+          "source_type": "text",
+          "source_sentence": "the TGA plots confirmed high thermal stability with decomposition temperatures over $3 0 0 ~ ^ { \\circ } \\mathrm { C } .$",
+          "table_locator": null
+        }
+      ],
+      "confidence": {
+        "score": 0.8
+      }
+    }
+  ],
+  "property_series": [
+    {
+      "series_id": "series001",
+      "sample_id": null,
+      "entity_id": null,
+      "sample_resolution_status": "unresolved",
+      "property_name_raw": "$M_{\\text{w}}$",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "determination_method_raw": "Gel Permeation Chromatography Analysis in Line with Multiangle Laser Light Scattering (GPC-MALLS)",
+      "observation_group_id": null,
+      "unit_raw": null,
+      "unit_normalized": null,
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {
+          "solvent": "THF"
+        },
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "points": [
+        {
+          "point_id": "pt001",
+          "observation_role": "series_point",
+          "sample_id": "s001",
+          "entity_id": "pe001",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "59 540",
+          "value_min": 59540.0,
+          "value_max": 59540.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "solvent": "THF"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_2_27",
+              "page": 2,
+              "bbox": [
+                86.0,
+                366.0,
+                475.0,
+                477.0
+              ],
+              "source_type": "table",
+              "source_sentence": "<tr><td>PSSiMe $_{3}$ </td><td>59 540</td><td>338</td><td>1.12</td><td>0.148</td><td>2</td></tr>",
+              "table_locator": {
+                "table_id": "T_2_27",
+                "row_label": "PSSiMe $_{3}$",
+                "column_label": "$M_{\\text{w}}^{b}$",
+                "cell_value": "59 540",
+                "cell_id": "T_2_27:r0001:c0001",
+                "row_index": 1,
+                "column_index": 1
+              }
+            },
+            {
+              "block_id": "P_1_19",
+              "page": 1,
+              "bbox": [
+                81.0,
+                594.0,
+                483.0,
+                959.0
+              ],
+              "source_type": "text",
+              "source_sentence": "The silyl-functionalized polymer poly-(4-trimethylsilyl styrene) (PSSiMe<sub>3</sub>) with $M _ { \\mathrm { w } } = 5 9 ~ 5 4 0$and PDI $= 1 . 1 2$was prepared by atom transfer radical polymerization (ATRP)<sup>20</sup>",
+              "table_locator": null
+            }
+          ],
+          "confidence": {
+            "score": 1.0
+          }
+        },
+        {
+          "point_id": "pt002",
+          "observation_role": "series_point",
+          "sample_id": "s005",
+          "entity_id": "pe008",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "172 700",
+          "value_min": 172700.0,
+          "value_max": 172700.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "solvent": "THF"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_2_27",
+              "page": 2,
+              "bbox": [
+                86.0,
+                366.0,
+                475.0,
+                477.0
+              ],
+              "source_type": "table",
+              "source_sentence": "<tr><td>PSBPhQ-Bpin</td><td>172 700</td><td>334</td><td>1.15</td><td>0.177</td><td>7</td></tr>",
+              "table_locator": {
+                "table_id": "T_2_27",
+                "row_label": "PSBPhQ-Bpin",
+                "column_label": "$M_{\\text{w}}^{b}$",
+                "cell_value": "172 700",
+                "cell_id": "T_2_27:r0002:c0001",
+                "row_index": 2,
+                "column_index": 1
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt003",
+          "observation_role": "series_point",
+          "sample_id": "s006",
+          "entity_id": "pe009",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "189 200",
+          "value_min": 189200.0,
+          "value_max": 189200.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "solvent": "THF"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_2_27",
+              "page": 2,
+              "bbox": [
+                86.0,
+                366.0,
+                475.0,
+                477.0
+              ],
+              "source_type": "table",
+              "source_sentence": "<tr><td>PSBPhQ-C $_{6}$ F $_{5}$ </td><td>189 200</td><td>339</td><td>1.18</td><td>0.163</td><td>7</td></tr>",
+              "table_locator": {
+                "table_id": "T_2_27",
+                "row_label": "PSBPhQ-C $_{6}$ F $_{5}$",
+                "column_label": "$M_{\\text{w}}^{b}$",
+                "cell_value": "189 200",
+                "cell_id": "T_2_27:r0003:c0001",
+                "row_index": 3,
+                "column_index": 1
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt004",
+          "observation_role": "series_point",
+          "sample_id": "s007",
+          "entity_id": "pe010",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "135 700",
+          "value_min": 135700.0,
+          "value_max": 135700.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "solvent": "THF"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_2_27",
+              "page": 2,
+              "bbox": [
+                86.0,
+                366.0,
+                475.0,
+                477.0
+              ],
+              "source_type": "table",
+              "source_sentence": "<tr><td>PSBPhQ-H</td><td>135 700</td><td>347</td><td>1.14</td><td>0.194</td><td>6</td></tr>",
+              "table_locator": {
+                "table_id": "T_2_27",
+                "row_label": "PSBPhQ-H",
+                "column_label": "$M_{\\text{w}}^{b}$",
+                "cell_value": "135 700",
+                "cell_id": "T_2_27:r0004:c0001",
+                "row_index": 4,
+                "column_index": 1
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt005",
+          "observation_role": "series_point",
+          "sample_id": "s008",
+          "entity_id": "pe011",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "144 100",
+          "value_min": 144100.0,
+          "value_max": 144100.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "solvent": "THF"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_2_27",
+              "page": 2,
+              "bbox": [
+                86.0,
+                366.0,
+                475.0,
+                477.0
+              ],
+              "source_type": "table",
+              "source_sentence": "<tr><td>PSBPhQ-Cl</td><td>144 100</td><td>338</td><td>1.13</td><td>0.190</td><td>7</td></tr>",
+              "table_locator": {
+                "table_id": "T_2_27",
+                "row_label": "PSBPhQ-Cl",
+                "column_label": "$M_{\\text{w}}^{b}$",
+                "cell_value": "144 100",
+                "cell_id": "T_2_27:r0005:c0001",
+                "row_index": 5,
+                "column_index": 1
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt006",
+          "observation_role": "series_point",
+          "sample_id": "s009",
+          "entity_id": "pe012",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "169 800",
+          "value_min": 169800.0,
+          "value_max": 169800.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "solvent": "THF"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_2_27",
+              "page": 2,
+              "bbox": [
+                86.0,
+                366.0,
+                475.0,
+                477.0
+              ],
+              "source_type": "table",
+              "source_sentence": "<tr><td>PSBPhQ-C $_{6}$ H $_{4}$ OMe</td><td>169 800</td><td>341</td><td>1.13</td><td>0.208</td><td>7</td></tr>",
+              "table_locator": {
+                "table_id": "T_2_27",
+                "row_label": "PSBPhQ-C $_{6}$ H $_{4}$ OMe",
+                "column_label": "$M_{\\text{w}}^{b}$",
+                "cell_value": "169 800",
+                "cell_id": "T_2_27:r0006:c0001",
+                "row_index": 6,
+                "column_index": 1
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt007",
+          "observation_role": "series_point",
+          "sample_id": "s010",
+          "entity_id": "pe013",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "178 900",
+          "value_min": 178900.0,
+          "value_max": 178900.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "additive": "0.2 wt % [Bu<sub>4</sub>N]Br"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_2_27",
+              "page": 2,
+              "bbox": [
+                86.0,
+                366.0,
+                475.0,
+                477.0
+              ],
+              "source_type": "table",
+              "source_sentence": "<tr><td>PSBPhQ-C $_{6}$ H $_{4}$ NMe $_{2}$  $^{c}$ </td><td>178 900</td><td>350</td><td>1.11</td><td>0.229</td><td>7</td></tr>",
+              "table_locator": {
+                "table_id": "T_2_27",
+                "row_label": "PSBPhQ-C $_{6}$ H $_{4}$ NMe $_{2}$ $^{c}$",
+                "column_label": "$M_{\\text{w}}^{b}$",
+                "cell_value": "178 900",
+                "cell_id": "T_2_27:r0007:c0001",
+                "row_index": 7,
+                "column_index": 1
+              }
+            },
+            {
+              "block_id": "P_2_29",
+              "page": 2,
+              "bbox": [
+                81.0,
+                651.0,
+                483.0,
+                929.0
+              ],
+              "source_type": "text",
+              "source_sentence": "A small amount of [Bu<sub>4</sub>N]Br (0.2 wt %) was added to the solvent to effectively prevent polymer aggregation and interaction with the column material",
+              "table_locator": null
+            }
+          ],
+          "confidence": {
+            "score": 0.8
+          }
+        }
+      ],
+      "coverage": {
+        "expected": 7,
+        "covered": 7,
+        "missing": 0,
+        "not_applicable": 0,
+        "ratio": 1.0
+      },
+      "evidence": [
+        {
+          "block_id": "T_2_27",
+          "page": 2,
+          "bbox": [
+            86.0,
+            366.0,
+            475.0,
+            477.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<tr><td>PSSiMe $_{3}$ </td><td>59 540</td><td>338</td><td>1.12</td><td>0.148</td><td>2</td></tr>",
+          "table_locator": {
+            "table_id": "T_2_27",
+            "row_label": "PSSiMe $_{3}$",
+            "column_label": "$M_{\\text{w}}^{b}$",
+            "cell_value": "59 540",
+            "cell_id": "T_2_27:r0001:c0001",
+            "row_index": 1,
+            "column_index": 1
+          }
+        },
+        {
+          "block_id": "P_1_19",
+          "page": 1,
+          "bbox": [
+            81.0,
+            594.0,
+            483.0,
+            959.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The silyl-functionalized polymer poly-(4-trimethylsilyl styrene) (PSSiMe<sub>3</sub>) with $M _ { \\mathrm { w } } = 5 9 ~ 5 4 0$and PDI $= 1 . 1 2$was prepared by atom transfer radical polymerization (ATRP)<sup>20</sup>",
+          "table_locator": null
+        },
+        {
+          "block_id": "T_2_27",
+          "page": 2,
+          "bbox": [
+            86.0,
+            366.0,
+            475.0,
+            477.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<tr><td>PSBPhQ-Bpin</td><td>172 700</td><td>334</td><td>1.15</td><td>0.177</td><td>7</td></tr>",
+          "table_locator": {
+            "table_id": "T_2_27",
+            "row_label": "PSBPhQ-Bpin",
+            "column_label": "$M_{\\text{w}}^{b}$",
+            "cell_value": "172 700",
+            "cell_id": "T_2_27:r0002:c0001",
+            "row_index": 2,
+            "column_index": 1
+          }
+        },
+        {
+          "block_id": "T_2_27",
+          "page": 2,
+          "bbox": [
+            86.0,
+            366.0,
+            475.0,
+            477.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<tr><td>PSBPhQ-C $_{6}$ F $_{5}$ </td><td>189 200</td><td>339</td><td>1.18</td><td>0.163</td><td>7</td></tr>",
+          "table_locator": {
+            "table_id": "T_2_27",
+            "row_label": "PSBPhQ-C $_{6}$ F $_{5}$",
+            "column_label": "$M_{\\text{w}}^{b}$",
+            "cell_value": "189 200",
+            "cell_id": "T_2_27:r0003:c0001",
+            "row_index": 3,
+            "column_index": 1
+          }
+        },
+        {
+          "block_id": "T_2_27",
+          "page": 2,
+          "bbox": [
+            86.0,
+            366.0,
+            475.0,
+            477.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<tr><td>PSBPhQ-H</td><td>135 700</td><td>347</td><td>1.14</td><td>0.194</td><td>6</td></tr>",
+          "table_locator": {
+            "table_id": "T_2_27",
+            "row_label": "PSBPhQ-H",
+            "column_label": "$M_{\\text{w}}^{b}$",
+            "cell_value": "135 700",
+            "cell_id": "T_2_27:r0004:c0001",
+            "row_index": 4,
+            "column_index": 1
+          }
+        },
+        {
+          "block_id": "T_2_27",
+          "page": 2,
+          "bbox": [
+            86.0,
+            366.0,
+            475.0,
+            477.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<tr><td>PSBPhQ-Cl</td><td>144 100</td><td>338</td><td>1.13</td><td>0.190</td><td>7</td></tr>",
+          "table_locator": {
+            "table_id": "T_2_27",
+            "row_label": "PSBPhQ-Cl",
+            "column_label": "$M_{\\text{w}}^{b}$",
+            "cell_value": "144 100",
+            "cell_id": "T_2_27:r0005:c0001",
+            "row_index": 5,
+            "column_index": 1
+          }
+        },
+        {
+          "block_id": "T_2_27",
+          "page": 2,
+          "bbox": [
+            86.0,
+            366.0,
+            475.0,
+            477.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<tr><td>PSBPhQ-C $_{6}$ H $_{4}$ OMe</td><td>169 800</td><td>341</td><td>1.13</td><td>0.208</td><td>7</td></tr>",
+          "table_locator": {
+            "table_id": "T_2_27",
+            "row_label": "PSBPhQ-C $_{6}$ H $_{4}$ OMe",
+            "column_label": "$M_{\\text{w}}^{b}$",
+            "cell_value": "169 800",
+            "cell_id": "T_2_27:r0006:c0001",
+            "row_index": 6,
+            "column_index": 1
+          }
+        },
+        {
+          "block_id": "T_2_27",
+          "page": 2,
+          "bbox": [
+            86.0,
+            366.0,
+            475.0,
+            477.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<tr><td>PSBPhQ-C $_{6}$ H $_{4}$ NMe $_{2}$  $^{c}$ </td><td>178 900</td><td>350</td><td>1.11</td><td>0.229</td><td>7</td></tr>",
+          "table_locator": {
+            "table_id": "T_2_27",
+            "row_label": "PSBPhQ-C $_{6}$ H $_{4}$ NMe $_{2}$ $^{c}$",
+            "column_label": "$M_{\\text{w}}^{b}$",
+            "cell_value": "178 900",
+            "cell_id": "T_2_27:r0007:c0001",
+            "row_index": 7,
+            "column_index": 1
+          }
+        },
+        {
+          "block_id": "P_2_29",
+          "page": 2,
+          "bbox": [
+            81.0,
+            651.0,
+            483.0,
+            929.0
+          ],
+          "source_type": "text",
+          "source_sentence": "A small amount of [Bu<sub>4</sub>N]Br (0.2 wt %) was added to the solvent to effectively prevent polymer aggregation and interaction with the column material",
+          "table_locator": null
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "series_id": "series002",
+      "sample_id": null,
+      "entity_id": null,
+      "sample_resolution_status": "unresolved",
+      "property_name_raw": "DP",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "determination_method_raw": "Gel Permeation Chromatography Analysis in Line with Multiangle Laser Light Scattering (GPC-MALLS)",
+      "observation_group_id": null,
+      "unit_raw": null,
+      "unit_normalized": null,
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {
+          "solvent": "THF"
+        },
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "points": [
+        {
+          "point_id": "pt008",
+          "observation_role": "series_point",
+          "sample_id": "s001",
+          "entity_id": "pe001",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "338",
+          "value_min": 338.0,
+          "value_max": 338.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "solvent": "THF"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_2_27",
+              "page": 2,
+              "bbox": [
+                86.0,
+                366.0,
+                475.0,
+                477.0
+              ],
+              "source_type": "table",
+              "source_sentence": "<tr><td>PSSiMe $_{3}$ </td><td>59 540</td><td>338</td><td>1.12</td><td>0.148</td><td>2</td></tr>",
+              "table_locator": {
+                "table_id": "T_2_27",
+                "row_label": "PSSiMe $_{3}$",
+                "column_label": "DP $^{d}$",
+                "cell_value": "338",
+                "cell_id": "T_2_27:r0001:c0002",
+                "row_index": 1,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 1.0
+          }
+        },
+        {
+          "point_id": "pt009",
+          "observation_role": "series_point",
+          "sample_id": "s005",
+          "entity_id": "pe008",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "334",
+          "value_min": 334.0,
+          "value_max": 334.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "solvent": "THF"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_2_27",
+              "page": 2,
+              "bbox": [
+                86.0,
+                366.0,
+                475.0,
+                477.0
+              ],
+              "source_type": "table",
+              "source_sentence": "<tr><td>PSBPhQ-Bpin</td><td>172 700</td><td>334</td><td>1.15</td><td>0.177</td><td>7</td></tr>",
+              "table_locator": {
+                "table_id": "T_2_27",
+                "row_label": "PSBPhQ-Bpin",
+                "column_label": "DP $^{d}$",
+                "cell_value": "334",
+                "cell_id": "T_2_27:r0002:c0002",
+                "row_index": 2,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt010",
+          "observation_role": "series_point",
+          "sample_id": "s006",
+          "entity_id": "pe009",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "339",
+          "value_min": 339.0,
+          "value_max": 339.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "solvent": "THF"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_2_27",
+              "page": 2,
+              "bbox": [
+                86.0,
+                366.0,
+                475.0,
+                477.0
+              ],
+              "source_type": "table",
+              "source_sentence": "<tr><td>PSBPhQ-C $_{6}$ F $_{5}$ </td><td>189 200</td><td>339</td><td>1.18</td><td>0.163</td><td>7</td></tr>",
+              "table_locator": {
+                "table_id": "T_2_27",
+                "row_label": "PSBPhQ-C $_{6}$ F $_{5}$",
+                "column_label": "DP $^{d}$",
+                "cell_value": "339",
+                "cell_id": "T_2_27:r0003:c0002",
+                "row_index": 3,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt011",
+          "observation_role": "series_point",
+          "sample_id": "s007",
+          "entity_id": "pe010",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "347",
+          "value_min": 347.0,
+          "value_max": 347.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "solvent": "THF"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_2_27",
+              "page": 2,
+              "bbox": [
+                86.0,
+                366.0,
+                475.0,
+                477.0
+              ],
+              "source_type": "table",
+              "source_sentence": "<tr><td>PSBPhQ-H</td><td>135 700</td><td>347</td><td>1.14</td><td>0.194</td><td>6</td></tr>",
+              "table_locator": {
+                "table_id": "T_2_27",
+                "row_label": "PSBPhQ-H",
+                "column_label": "DP $^{d}$",
+                "cell_value": "347",
+                "cell_id": "T_2_27:r0004:c0002",
+                "row_index": 4,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt012",
+          "observation_role": "series_point",
+          "sample_id": "s008",
+          "entity_id": "pe011",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "338",
+          "value_min": 338.0,
+          "value_max": 338.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "solvent": "THF"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_2_27",
+              "page": 2,
+              "bbox": [
+                86.0,
+                366.0,
+                475.0,
+                477.0
+              ],
+              "source_type": "table",
+              "source_sentence": "<tr><td>PSBPhQ-Cl</td><td>144 100</td><td>338</td><td>1.13</td><td>0.190</td><td>7</td></tr>",
+              "table_locator": {
+                "table_id": "T_2_27",
+                "row_label": "PSBPhQ-Cl",
+                "column_label": "DP $^{d}$",
+                "cell_value": "338",
+                "cell_id": "T_2_27:r0005:c0002",
+                "row_index": 5,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt013",
+          "observation_role": "series_point",
+          "sample_id": "s009",
+          "entity_id": "pe012",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "341",
+          "value_min": 341.0,
+          "value_max": 341.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "solvent": "THF"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_2_27",
+              "page": 2,
+              "bbox": [
+                86.0,
+                366.0,
+                475.0,
+                477.0
+              ],
+              "source_type": "table",
+              "source_sentence": "<tr><td>PSBPhQ-C $_{6}$ H $_{4}$ OMe</td><td>169 800</td><td>341</td><td>1.13</td><td>0.208</td><td>7</td></tr>",
+              "table_locator": {
+                "table_id": "T_2_27",
+                "row_label": "PSBPhQ-C $_{6}$ H $_{4}$ OMe",
+                "column_label": "DP $^{d}$",
+                "cell_value": "341",
+                "cell_id": "T_2_27:r0006:c0002",
+                "row_index": 6,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt014",
+          "observation_role": "series_point",
+          "sample_id": "s010",
+          "entity_id": "pe013",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "350",
+          "value_min": 350.0,
+          "value_max": 350.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "additive": "0.2 wt % [Bu<sub>4</sub>N]Br"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_2_27",
+              "page": 2,
+              "bbox": [
+                86.0,
+                366.0,
+                475.0,
+                477.0
+              ],
+              "source_type": "table",
+              "source_sentence": "<tr><td>PSBPhQ-C $_{6}$ H $_{4}$ NMe $_{2}$  $^{c}$ </td><td>178 900</td><td>350</td><td>1.11</td><td>0.229</td><td>7</td></tr>",
+              "table_locator": {
+                "table_id": "T_2_27",
+                "row_label": "PSBPhQ-C $_{6}$ H $_{4}$ NMe $_{2}$ $^{c}$",
+                "column_label": "DP $^{d}$",
+                "cell_value": "350",
+                "cell_id": "T_2_27:r0007:c0002",
+                "row_index": 7,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.8
+          }
+        }
+      ],
+      "coverage": {
+        "expected": 7,
+        "covered": 7,
+        "missing": 0,
+        "not_applicable": 0,
+        "ratio": 1.0
+      },
+      "evidence": [
+        {
+          "block_id": "T_2_27",
+          "page": 2,
+          "bbox": [
+            86.0,
+            366.0,
+            475.0,
+            477.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<tr><td>PSSiMe $_{3}$ </td><td>59 540</td><td>338</td><td>1.12</td><td>0.148</td><td>2</td></tr>",
+          "table_locator": {
+            "table_id": "T_2_27",
+            "row_label": "PSSiMe $_{3}$",
+            "column_label": "DP $^{d}$",
+            "cell_value": "338",
+            "cell_id": "T_2_27:r0001:c0002",
+            "row_index": 1,
+            "column_index": 2
+          }
+        },
+        {
+          "block_id": "T_2_27",
+          "page": 2,
+          "bbox": [
+            86.0,
+            366.0,
+            475.0,
+            477.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<tr><td>PSBPhQ-Bpin</td><td>172 700</td><td>334</td><td>1.15</td><td>0.177</td><td>7</td></tr>",
+          "table_locator": {
+            "table_id": "T_2_27",
+            "row_label": "PSBPhQ-Bpin",
+            "column_label": "DP $^{d}$",
+            "cell_value": "334",
+            "cell_id": "T_2_27:r0002:c0002",
+            "row_index": 2,
+            "column_index": 2
+          }
+        },
+        {
+          "block_id": "T_2_27",
+          "page": 2,
+          "bbox": [
+            86.0,
+            366.0,
+            475.0,
+            477.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<tr><td>PSBPhQ-C $_{6}$ F $_{5}$ </td><td>189 200</td><td>339</td><td>1.18</td><td>0.163</td><td>7</td></tr>",
+          "table_locator": {
+            "table_id": "T_2_27",
+            "row_label": "PSBPhQ-C $_{6}$ F $_{5}$",
+            "column_label": "DP $^{d}$",
+            "cell_value": "339",
+            "cell_id": "T_2_27:r0003:c0002",
+            "row_index": 3,
+            "column_index": 2
+          }
+        },
+        {
+          "block_id": "T_2_27",
+          "page": 2,
+          "bbox": [
+            86.0,
+            366.0,
+            475.0,
+            477.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<tr><td>PSBPhQ-H</td><td>135 700</td><td>347</td><td>1.14</td><td>0.194</td><td>6</td></tr>",
+          "table_locator": {
+            "table_id": "T_2_27",
+            "row_label": "PSBPhQ-H",
+            "column_label": "DP $^{d}$",
+            "cell_value": "347",
+            "cell_id": "T_2_27:r0004:c0002",
+            "row_index": 4,
+            "column_index": 2
+          }
+        },
+        {
+          "block_id": "T_2_27",
+          "page": 2,
+          "bbox": [
+            86.0,
+            366.0,
+            475.0,
+            477.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<tr><td>PSBPhQ-Cl</td><td>144 100</td><td>338</td><td>1.13</td><td>0.190</td><td>7</td></tr>",
+          "table_locator": {
+            "table_id": "T_2_27",
+            "row_label": "PSBPhQ-Cl",
+            "column_label": "DP $^{d}$",
+            "cell_value": "338",
+            "cell_id": "T_2_27:r0005:c0002",
+            "row_index": 5,
+            "column_index": 2
+          }
+        },
+        {
+          "block_id": "T_2_27",
+          "page": 2,
+          "bbox": [
+            86.0,
+            366.0,
+            475.0,
+            477.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<tr><td>PSBPhQ-C $_{6}$ H $_{4}$ OMe</td><td>169 800</td><td>341</td><td>1.13</td><td>0.208</td><td>7</td></tr>",
+          "table_locator": {
+            "table_id": "T_2_27",
+            "row_label": "PSBPhQ-C $_{6}$ H $_{4}$ OMe",
+            "column_label": "DP $^{d}$",
+            "cell_value": "341",
+            "cell_id": "T_2_27:r0006:c0002",
+            "row_index": 6,
+            "column_index": 2
+          }
+        },
+        {
+          "block_id": "T_2_27",
+          "page": 2,
+          "bbox": [
+            86.0,
+            366.0,
+            475.0,
+            477.0
+          ],
+          "source_type": "table",
+          "source_sentence": "<tr><td>PSBPhQ-C $_{6}$ H $_{4}$ NMe $_{2}$  $^{c}$ </td><td>178 900</td><td>350</td><td>1.11</td><td>0.229</td><td>7</td></tr>",
+          "table_locator": {
+            "table_id": "T_2_27",
+            "row_label": "PSBPhQ-C $_{6}$ H $_{4}$ NMe $_{2}$ $^{c}$",
+            "column_label": "DP $^{d}$",
+            "cell_value": "350",
+            "cell_id": "T_2_27:r0007:c0002",
+            "row_index": 7,
+            "column_index": 2
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "series_id": "series003",
+      "sample_id": null,
+      "entity_id": null,
+      "sample_resolution_status": "unresolved",
+      "property_name_raw": "$T_{\\text{g}}$",
+      "property_name_normalized": "glass_transition_temperature",
+      "property_code": "P3110",
+      "property_category": "thermal_property",
+      "determination_method_raw": "Differential Scanning Calorimetry (DSC)",
+      "observation_group_id": null,
+      "unit_raw": "°C",
+      "unit_normalized": null,
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {
+          "atmosphere": "nitrogen"
+        },
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "points": [
+        {
+          "point_id": "pt015",
+          "observation_role": "series_point",
+          "sample_id": "s005",
+          "entity_id": "pe008",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "275",
+          "value_min": 275.0,
+          "value_max": 275.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "atmosphere": "nitrogen"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_3_38",
+              "page": 3,
+              "bbox": [
+                88.0,
+                71.0,
+                908.0,
+                128.0
+              ],
+              "source_type": "table",
+              "source_sentence": "<tr><td> $T_{\\text{g}}$  (°C)a</td><td>275</td><td>245</td><td>240</td><td>238</td><td>220</td><td>230</td></tr>",
+              "table_locator": {
+                "table_id": "T_3_38",
+                "row_label": "$T_{\\text{g}}$ (°C)a",
+                "column_label": "PSBPhQ-Bpin",
+                "cell_value": "275",
+                "cell_id": "T_3_38:r0001:c0001",
+                "row_index": 1,
+                "column_index": 1
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt016",
+          "observation_role": "series_point",
+          "sample_id": "s006",
+          "entity_id": "pe009",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "245",
+          "value_min": 245.0,
+          "value_max": 245.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "atmosphere": "nitrogen"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_3_38",
+              "page": 3,
+              "bbox": [
+                88.0,
+                71.0,
+                908.0,
+                128.0
+              ],
+              "source_type": "table",
+              "source_sentence": "<tr><td> $T_{\\text{g}}$  (°C)a</td><td>275</td><td>245</td><td>240</td><td>238</td><td>220</td><td>230</td></tr>",
+              "table_locator": {
+                "table_id": "T_3_38",
+                "row_label": "$T_{\\text{g}}$ (°C)a",
+                "column_label": "PSBPhQ-C6F5",
+                "cell_value": "245",
+                "cell_id": "T_3_38:r0001:c0002",
+                "row_index": 1,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt017",
+          "observation_role": "series_point",
+          "sample_id": "s007",
+          "entity_id": "pe010",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "240",
+          "value_min": 240.0,
+          "value_max": 240.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "atmosphere": "nitrogen"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_3_38",
+              "page": 3,
+              "bbox": [
+                88.0,
+                71.0,
+                908.0,
+                128.0
+              ],
+              "source_type": "table",
+              "source_sentence": "<tr><td> $T_{\\text{g}}$  (°C)a</td><td>275</td><td>245</td><td>240</td><td>238</td><td>220</td><td>230</td></tr>",
+              "table_locator": {
+                "table_id": "T_3_38",
+                "row_label": "$T_{\\text{g}}$ (°C)a",
+                "column_label": "PSBPhQ-H",
+                "cell_value": "240",
+                "cell_id": "T_3_38:r0001:c0003",
+                "row_index": 1,
+                "column_index": 3
+              }
+            },
+            {
+              "block_id": "P_2_33",
+              "page": 2,
+              "bbox": [
+                511.0,
+                731.0,
+                915.0,
+                898.0
+              ],
+              "source_type": "text",
+              "source_sentence": "DSC analysis revealed high glass transition temperatures (ranging from 210 to $2 7 5 \\ ^ { \\circ } \\mathrm { C } )$for the quinolate polymers",
+              "table_locator": null
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt018",
+          "observation_role": "series_point",
+          "sample_id": "s008",
+          "entity_id": "pe011",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "238",
+          "value_min": 238.0,
+          "value_max": 238.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "atmosphere": "nitrogen"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_3_38",
+              "page": 3,
+              "bbox": [
+                88.0,
+                71.0,
+                908.0,
+                128.0
+              ],
+              "source_type": "table",
+              "source_sentence": "<tr><td> $T_{\\text{g}}$  (°C)a</td><td>275</td><td>245</td><td>240</td><td>238</td><td>220</td><td>230</td></tr>",
+              "table_locator": {
+                "table_id": "T_3_38",
+                "row_label": "$T_{\\text{g}}$ (°C)a",
+                "column_label": "PSBPhQ-Cl",
+                "cell_value": "238",
+                "cell_id": "T_3_38:r0001:c0004",
+                "row_index": 1,
+                "column_index": 4
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt019",
+          "observation_role": "series_point",
+          "sample_id": "s009",
+          "entity_id": "pe012",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "220",
+          "value_min": 220.0,
+          "value_max": 220.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "atmosphere": "nitrogen"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_3_38",
+              "page": 3,
+              "bbox": [
+                88.0,
+                71.0,
+                908.0,
+                128.0
+              ],
+              "source_type": "table",
+              "source_sentence": "<tr><td> $T_{\\text{g}}$  (°C)a</td><td>275</td><td>245</td><td>240</td><td>238</td><td>220</td><td>230</td></tr>",
+              "table_locator": {
+                "table_id": "T_3_38",
+                "row_label": "$T_{\\text{g}}$ (°C)a",
+                "column_label": "PSBPhQ-C6H4OMe",
+                "cell_value": "220",
+                "cell_id": "T_3_38:r0001:c0005",
+                "row_index": 1,
+                "column_index": 5
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt020",
+          "observation_role": "series_point",
+          "sample_id": "s010",
+          "entity_id": "pe013",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "230",
+          "value_min": 230.0,
+          "value_max": 230.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "atmosphere": "nitrogen"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_3_38",
+              "page": 3,
+              "bbox": [
+                88.0,
+                71.0,
+                908.0,
+                128.0
+              ],
+              "source_type": "table",
+              "source_sentence": "<tr><td> $T_{\\text{g}}$  (°C)a</td><td>275</td><td>245</td><td>240</td><td>238</td><td>220</td><td>230</td></tr>",
+              "table_locator": {
+                "table_id": "T_3_38",
+                "row_label": "$T_{\\text{g}}$ (°C)a",
+                "column_label": "PSBPhQ-C6H4NMe2",
+                "cell_value": "230",
+                "cell_id": "T_3_38:r0001:c0006",
+                "row_index": 1,
+                "column_index": 6
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        }
+      ],
+      "coverage": {
+        "expected": 6,
+        "covered": 6,
+        "missing": 0,
+        "not_applicable": 0,
+        "ratio": 1.0
+      },
+      "evidence": [
+        {
+          "block_id": "P_2_33",
+          "page": 2,
+          "bbox": [
+            511.0,
+            731.0,
+            915.0,
+            898.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The thermal properties of the quinolate polymers were evaluated by differential scanning calorimetry (DSC) and thermogravimetric analysis (TGA) (Table 2).",
+          "table_locator": null
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    }
+  ],
+  "provenance": {
+    "stage": "stage4_property",
+    "provider": "dmx",
+    "model": "doubao-seed-2.0-pro",
+    "models": [
+      "doubao-seed-2.0-pro"
+    ],
+    "prompt_id": "polymer.stage4.property",
+    "prompt_version": "1.7.2",
+    "prompt_sha256": "ec79fe3bf47539cab4ba239c611d1ab17d75dc0038cda85020caca580f7987a5",
+    "vocabulary_sha256": "3e9d85e4915a729edf0f0a53821f3ee6edf32874e1da6972457417e4f13a1510",
+    "input_hash": "94508f3a89a614d3dfb363149440e5d7419c46885053961d9edb15dd0bc9fd21",
+    "model_config_hash": "cc96eaab20bd380ae90f3ba1dfa638bd40f111e3e72ca185255fb71b459d40ea",
+    "cache_key": "7b5388cb2d4e3198b773de45ea15cb7cde867254cf2d8636abde7838c4648903",
+    "output_schema_version": "property_observation_schema.v7",
+    "implementation_version": "1.7.10",
+    "context_block_count": 19,
+    "context_chars": 23663,
+    "call_count": 1,
+    "usage": {
+      "input_tokens": 23421,
+      "output_tokens": 13976,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "billable_input_tokens": 23421,
+      "total_tokens": 37397
+    },
+    "cost": {
+      "status": "calculated",
+      "currency": "CNY",
+      "input_per_million": "4.32",
+      "output_per_million": "29.15",
+      "input_cost": "0.10117872",
+      "output_cost": "0.4074004",
+      "total_cost": "0.50857912"
+    },
+    "status": "success"
+  },
+  "warnings": [
+    {
+      "stage": "stage4_property",
+      "code": "preview_point_locator_recovered_from_unique_table_row",
+      "message": "Preview 模式已用唯一完整表格行、唯一列头及一致 value_raw 补全 Series point 的稳定坐标",
+      "points": 20
+    },
+    {
+      "stage": "stage4_property",
+      "code": "multi_subject_series_normalized",
+      "message": "PropertySeries 的 points 明确属于多个 Sample/PolymerEntity；已清除错误的单一顶层主体，主体关系保留在各 point",
+      "series": 3
+    },
+    {
+      "stage": "stage4_property",
+      "code": "empty_reported_context_downgraded",
+      "message": "measurement_context 标记为 reported 但没有任何条件值；已确定性改为 not_reported",
+      "contexts": 1
+    },
+    {
+      "stage": "stage4_property",
+      "code": "candidate_table_locator_surface_repaired",
+      "message": "模型 locator 表面文本不在表格原文；已用 property raw 与 determination method 中唯一匹配的 Stage 0 表头恢复",
+      "evidence": 8
+    },
+    {
+      "stage": "stage4_property",
+      "code": "series_method_evidence_supplemented",
+      "message": "Series determination method 不在 point 表格 evidence；已补入全文中唯一的完全匹配原文 block",
+      "series": 1
+    },
+    {
+      "stage": "stage4_property",
+      "code": "preview_semantic_validation_bypassed",
+      "message": "Preview 已保留 Schema 合法候选，并跳过原文/evidence 语义对应校验；Strict 模式仍会报错",
+      "reason": "mc001 的 condition raw 无法与关联 property 建立可定位关系：condition_raw=['THF'], evidence_block='T_2_27', linked_properties=[{'property_id': 'prop002', 'property_name_raw': 'degree of functionalization', 'value_raw': '12.8%', 'determination_method_raw': 'GPC-MALLS', 'evidence_blocks': ['P_4_51']}]"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "preview_objects_salvaged",
+      "message": "Preview 已逐对象保留可安全物化的数据；坏字段、坏对象或失效引用已局部删除，Strict 模式仍会报错",
+      "details": {
+        "dropped_conditions": [],
+        "dropped_properties": [],
+        "dropped_unresolved_properties": [],
+        "dropped_series": [],
+        "dropped_points": [],
+        "dropped_evidence": 0,
+        "dropped_coordinates": 0
+      }
+    },
+    {
+      "stage": "stage4_property",
+      "code": "unresolved_properties",
+      "message": "2 条性质无法可靠关联具体 Sample",
+      "unresolved_ids": [
+        "uprop001",
+        "uprop002"
+      ]
+    }
+  ]
+}

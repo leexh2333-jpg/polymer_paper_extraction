@@ -1,0 +1,132 @@
+{
+  "schema_version": "1.0",
+  "document_id": "reference_no_0037921",
+  "status": "passed_with_warnings",
+  "error_count": 0,
+  "warning_count": 15,
+  "errors": [],
+  "warnings": [
+    {
+      "stage": "stage0",
+      "code": "metadata_extraction_failed",
+      "message": "未配置统一 LLM 元数据提取器；document JSON 已继续生成"
+    },
+    {
+      "stage": "stage2_polymer_entity",
+      "code": "unresolved_mentions",
+      "message": "1 个 mention 未解析为实体，已原样保留引用"
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "state_description_replaced_with_evidence",
+      "message": "无标签 Sample 的 state_description 无法逐字定位；已使用验证后的完整 evidence.source_sentence"
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "sample_evidence_relinked",
+      "message": "样品标签仅在一个输入 block 中出现，已重定位 evidence"
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "parameters_not_in_source",
+      "message": "无法定位到 evidence 原文的参数已舍弃"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "dropped_unused_conditions",
+      "message": "未被任何 PropertyObservation 引用的 MeasurementCondition 已舍弃"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_characterization_method_surface_recovered",
+      "message": "Preview 模式已将表征方法恢复为 evidence 中唯一匹配的原文词形"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_characterization_details_cleared",
+      "message": "Preview 模式已清空无对象 evidence 支撑的可选表征细节"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_property_removed",
+      "message": "Preview 模式已移除 value_raw 无原文支撑的 Stage 5 性质"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_property_subject_scope_aligned",
+      "message": "Preview 模式已将冲突的派生性质主体对齐到所属 Characterization"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_semantic_validation_bypassed",
+      "message": "Preview 已保留 Schema 合法候选，并跳过原文/evidence 语义对应校验；Strict 模式仍会报错"
+    },
+    {
+      "stage": "meta_extract",
+      "code": "paper_metadata_incomplete",
+      "message": "Paper metadata_status=failed，需人工复核"
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "generic_process_type",
+      "message": "ProcessStep 使用了通用 process_type=other",
+      "object_id": "ps003"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "evidence_matched_after_normalization",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：归一化后子串命中",
+      "object_id": "char005"
+    }
+  ],
+  "checked_counts": {
+    "stage0_blocks": 71,
+    "material_mentions": 19,
+    "polymer_entities": 2,
+    "samples": 4,
+    "process_steps": 4,
+    "measurement_conditions": 1,
+    "stage4_properties": 1,
+    "unresolved_properties": 0,
+    "property_series": 0,
+    "property_series_points": 0,
+    "characterizations": 5,
+    "stage5_properties": 1,
+    "evidence": 30,
+    "preview_published_objects": 37,
+    "preview_rejected_objects": 0,
+    "preview_reference_cleanup_count": 0
+  },
+  "quality_metrics": {
+    "properties_with_units": {
+      "complete": 1,
+      "total": 2,
+      "ratio": 0.5
+    },
+    "standard_process_steps": {
+      "complete": 3,
+      "total": 4,
+      "ratio": 0.75
+    },
+    "stage4_methods_with_characterization": {
+      "complete": 0,
+      "total": 0,
+      "ratio": 1.0
+    },
+    "objects_with_confidence": {
+      "complete": 37,
+      "total": 37,
+      "ratio": 1.0
+    },
+    "series_points_covered": {
+      "complete": 0,
+      "total": 0,
+      "ratio": 1.0
+    }
+  }
+}

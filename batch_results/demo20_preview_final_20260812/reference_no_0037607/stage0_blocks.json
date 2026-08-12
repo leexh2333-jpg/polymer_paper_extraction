@@ -1,0 +1,1964 @@
+{
+  "schema_version": "1.1",
+  "source_document_schema_version": "1.0",
+  "document_id": "reference_no_0037607",
+  "paper": {
+    "ref_no": "reference_no_0037607",
+    "pdf_filename": "f5afd197-28c3-4270-9a7b-473ffed2b491_origin.pdf",
+    "source_pdf_path": "mineru/reference_no_0037607/f5afd197-28c3-4270-9a7b-473ffed2b491_origin.pdf",
+    "organized_pdf_path": "organized/reference_no_0037607/origin.pdf",
+    "doi": null,
+    "title": null,
+    "authors": null,
+    "journal": null,
+    "year": null,
+    "metadata_status": "failed",
+    "metadata_extraction": {
+      "method": "llm",
+      "provider": null,
+      "model": null,
+      "prompt_file": "prompts/meta_extract.md",
+      "prompt_sha256": "98252486e4f9cdfd1b42ea02b7e01440d6be99c99d18720dc71c95aa1643fcd4",
+      "source_pages": [
+        0,
+        1
+      ],
+      "status": "failed",
+      "error_type": "MetaExtractorUnavailable"
+    }
+  },
+  "source_files": {
+    "markdown": "reference_no_0037607.md",
+    "content_v1": "content.json",
+    "content_v2": "content_v2.json",
+    "pdf": "origin.pdf"
+  },
+  "ocr": {
+    "engine": "mineru",
+    "batch_id": "122ff743-eb66-4583-986f-6c8015953309",
+    "model_version": "vlm",
+    "ocr_enabled": false,
+    "language": null,
+    "page_ranges": null,
+    "enable_formula": true,
+    "enable_table": true,
+    "extra_formats": [],
+    "status": "done",
+    "manifest_file": "batch_122ff743-eb66-4583-986f-6c8015953309_manifest.json",
+    "status_file": "batch_122ff743-eb66-4583-986f-6c8015953309_status.json"
+  },
+  "elements": [
+    {
+      "block_id": "P_0_0",
+      "type": "text",
+      "text": "Summary: An alkoxyamine initiator carrying a perylene bisimide unit suitable for the nitroxide mediated controlled radical polymerization of different monomers was synthesized. The synthesis, characterization, and properties of a series of polymers obtained from monomers such as 4- vinyltriphenylamine, styrene, and different acrylates using this initiator are described. The controlled nature of the polymerization was demonstrated by time-dependent measurements of the conversion and the molecular weight. The incorporation of the single fluorescent unit to the polymer chain end was verified by MALDI-TOF MS. The perylene bisimide acts as an electron acceptor with a strong fluorescence. Since 4-vinyltriphenylamine is a donor monomer, the resulting polymers exhibit photoluminescence quenching due to electron transfer between the donor polymer chain and the acceptor moiety. The perylene bisimide moiety shows aggregation via p-p stacking which was studied using UV-vis and fluorescence spectroscopy. By controlling the polymer chain length, the stacking of the perylene bisimide can be controlled. The LUMO and HOMO levels of the perylene bisimide initiator and the dye-labeled polymer were determined by cyclic voltammetry as \u00013.7 and \u00016.0 eV, respectively. With this approach tailor-made fluorescent dyelabeled polymers with desired architecture, low polydispersity, and controlled molecular weight can be obtained as model systems for electron and energy transfer studies.",
+      "page": 0,
+      "bbox": [
+        113.0,
+        92.0,
+        508.0,
+        265.0
+      ],
+      "source_block_index": 0,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_0_1",
+      "type": "text",
+      "text": "",
+      "page": 0,
+      "bbox": [
+        527.0,
+        92.0,
+        922.0,
+        265.0
+      ],
+      "source_block_index": 1,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "I_0_2",
+      "type": "image",
+      "page": 0,
+      "bbox": [
+        265.0,
+        274.0,
+        771.0,
+        504.0
+      ],
+      "source_block_index": 2,
+      "alignment_status": "matched",
+      "image_path": "organized/reference_no_0037607/images/b02b79463f58d462aaef2f89c135a8aad001946c4938dd202ce5c3f87c8081cb.jpg",
+      "image_kind": "image"
+    },
+    {
+      "block_id": "P_0_3",
+      "type": "title",
+      "section": "DocumentTitle",
+      "text": "Fluorescent Dye-Labeled Polymers Carrying Triphenylamine, Styrene, or Acrylate Pendant Groups",
+      "page": 0,
+      "bbox": [
+        104.0,
+        583.0,
+        787.0,
+        678.0
+      ],
+      "source_block_index": 3,
+      "alignment_status": "matched",
+      "title_level": 1
+    },
+    {
+      "block_id": "P_0_4",
+      "type": "text",
+      "text": "Stefan M. Lindner, Mukundan Thelakkat<sup>\\*</sup>",
+      "page": 0,
+      "bbox": [
+        104.0,
+        706.0,
+        398.0,
+        722.0
+      ],
+      "source_block_index": 4,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_0_5",
+      "type": "text",
+      "text": "Angewandte Funktionspolymere, Universita¨t Bayreuth, Universita¨tsstrasse 30, 95440 Bayreuth, Germany Fax: þ49 921 55 3206; E-mail: mukundan.thelakkat@uni-bayreuth.de",
+      "page": 0,
+      "bbox": [
+        104.0,
+        728.0,
+        798.0,
+        759.0
+      ],
+      "source_block_index": 5,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_0_6",
+      "type": "text",
+      "text": "Received: July 27, 2006; Accepted: September 12, 2006; DOI: 10.1002/macp.200600385",
+      "page": 0,
+      "bbox": [
+        104.0,
+        789.0,
+        697.0,
+        806.0
+      ],
+      "source_block_index": 6,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_0_7",
+      "type": "text",
+      "text": "Keywords: controlled radical polymerization; dye-labeled polymer; electrochemistry; luminescence; MALDI-TOF MS",
+      "page": 0,
+      "bbox": [
+        104.0,
+        811.0,
+        854.0,
+        829.0
+      ],
+      "source_block_index": 7,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_1_15",
+      "type": "title",
+      "section": "Introduction",
+      "text": "Introduction",
+      "page": 1,
+      "bbox": [
+        65.0,
+        90.0,
+        179.0,
+        106.0
+      ],
+      "source_block_index": 15,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_1_16",
+      "type": "text",
+      "section": "Introduction",
+      "text": "The control of the molecular structure of the polymer chain is an important topic for all aspects of materials science. Especially, for creating structures on a nanometer scale, well-defined polymer synthesis is essential. Factors like molecular weight, polydispersity index (PDI), chain ends, and architecture influence the performance of the materials. To achieve these goals, living polymerization techniques are required. Living (controlled) radical polymerization has not only the advantage of the controlled character of the polymerization, but also the versatility and compatibility with a wide variety of functional groups. We used the nitroxide-mediated controlled radical polymerization (NMRP)<sup>[1]</sup> as it is a metal-free method, which is of advantage for preparing materials for opto-electronic applications.",
+      "page": 1,
+      "bbox": [
+        64.0,
+        112.0,
+        469.0,
+        324.0
+      ],
+      "source_block_index": 16,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_1_17",
+      "type": "text",
+      "section": "Introduction",
+      "text": "In this paper we present an alkoxyamine initiator with a covalently attached perylene bisimide, which is an electron acceptor fluorescent dye to be used in NMRP. Perylene bisimides<sup>[2]</sup> were used due to their outstanding thermal, chemical, and photochemical stability. Besides the conventional use of perylene derivatives as important dyes and pigments, they are also used as optical switches,<sup>[3]</sup> for singlemolecule spectroscopy,<sup>[4]</sup> in organic field-effect transistors,<sup>[5]</sup> in lasers,<sup>[6]</sup> in solar cells,<sup>[7]</sup> and as interesting markers/ labels for the study of polymer diffusion<sup>[8]</sup> and imaging.<sup>[9]</sup> These outstanding electro-optical properties are combined with the fact that they easily crystallize via p-p stacking to form supramolecular architectures.<sup>[10]</sup> As monomers we used triphenylamines which act as electron donors to get an electron donating polymer chain with one covalently attached electron acceptor. We also used monomers that are electronically inactive such as styrene or acrylates, to study and compare the different photophysical properties of the resulting polymers. Perylene bisimide dye-labeled polymers containing such electronically inactive monomers for the purpose of single-molecule imaging have been reported in literature.<sup>[9]</sup> These polymers carrying a fluorescent dye unit at the polymer chain end and hole transport pendant groups can be used as model systems to study energy or electron transfer which are fundamental processes in organic light-emitting diodes (OLED) and organic solar cells.",
+      "page": 1,
+      "bbox": [
+        64.0,
+        323.0,
+        469.0,
+        716.0
+      ],
+      "source_block_index": 17,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_1_18",
+      "type": "title",
+      "section": "Introduction",
+      "text": "Experimental Part",
+      "page": 1,
+      "bbox": [
+        65.0,
+        734.0,
+        229.0,
+        751.0
+      ],
+      "source_block_index": 18,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_1_19",
+      "type": "title",
+      "section": "Introduction",
+      "text": "Materials",
+      "page": 1,
+      "bbox": [
+        65.0,
+        759.0,
+        138.0,
+        774.0
+      ],
+      "source_block_index": 19,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_1_20",
+      "type": "text",
+      "section": "Introduction",
+      "text": "All solvents were distilled prior to use. Styrene and the acrylates were distilled over CaH under vacuum. The chloromethylsubstituted initiator 5 and the free nitroxide 7 were prepared according to literature procedure,<sup>[11]</sup> the 4-vinyltriphenylamine according to literature<sup>[12]</sup> and 3 according to literature.<sup>[13]</sup>",
+      "page": 1,
+      "bbox": [
+        64.0,
+        781.0,
+        469.0,
+        853.0
+      ],
+      "source_block_index": 20,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_1_21",
+      "type": "title",
+      "section": "Introduction",
+      "text": "Instrumentation",
+      "page": 1,
+      "bbox": [
+        65.0,
+        865.0,
+        177.0,
+        880.0
+      ],
+      "source_block_index": 21,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_1_22",
+      "type": "text",
+      "section": "Introduction",
+      "text": "<sup>1</sup>H NMR and $^ { 1 3 } \\mathrm { C }$NMR spectra were acquired on a Bruker AC 250 spectrometer (250 MHz). The conversion was determined by using <sup>1</sup>H NMR. Gel permeation chromatography (GPC) was performed with two Polymer Labs Mixed-C columns, a Waters 410 differential refractometer (used for the determination o ${ \\cdot } \\overline { { M } } _ { \\mathrm { n } }$and PDI) and a Waters 486 UVabsorbance detector employing tetrahydrofuran (THF) as the mobile phase with a flow rate of 0.5 mL - min<sup>\u00011</sup>. Polystyrene standards were used for calibration. UV-vis spectra were recorded using a Hitachi U-3000 spectrometer and fluorescence spectra were recorded using a Shimadzu RF-5301 PC spectrofluorophotometer. IR spectroscopy was carried out in thin films on silicon wafers with a BioRad Digilab FTS-40 (FTIR). Thermal degradation of polymers was studied using a Mettler Toledo TGA/SDTA 851<sup>e</sup> with a heating rate of 10 K - min<sup>\u00011</sup> under $\\Nu _ { 2 }$atmosphere and DSC was carried out with a Perkin Elmer Diamond DSC with a heating rate of 10 K - min<sup>\u00011</sup> under $\\Nu _ { 2 }$atmosphere. Matrix-assisted laser desorption/ionization time-of flight mass spectrometry (MALDI-TOF MS) was performed on a Bruker Daltonics Reflex 3 with a N laser (337 nm) with a 20 kV acceleration voltage. The spectra were measured in reflectron mode with the matrix 2-{(2E)-3-[4-(tert-butyl)phenyl]-2- methylprop-2-enylidine}malononitrile (DTCB) and silver triflate as additive. For the cyclic voltammetry experiments a three-electrode assembly with a $\\mathrm { A g / A g N O _ { 3 } }$electrode was used. $\\mathrm { C H } _ { 2 } \\mathrm { C l } _ { 2 }$containing 0.1 M tetrabutylammonium hexafluorophosphate was used as a solvent and each measurement was calibrated with ferrocene as internal standard.",
+      "page": 1,
+      "bbox": [
+        65.0,
+        885.0,
+        469.0,
+        917.0
+      ],
+      "source_block_index": 22,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_1_22",
+        "V2_1_7_1",
+        "V2_1_7_3",
+        "V2_1_7_5",
+        "V2_1_7_7",
+        "V2_1_7_9",
+        "V2_1_7_11"
+      ]
+    },
+    {
+      "block_id": "P_1_23",
+      "type": "text",
+      "section": "Introduction",
+      "text": "",
+      "page": 1,
+      "bbox": [
+        488.0,
+        89.0,
+        895.0,
+        450.0
+      ],
+      "source_block_index": 23,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_1_24",
+      "type": "title",
+      "section": "Methods",
+      "text": "Synthesis",
+      "page": 1,
+      "bbox": [
+        489.0,
+        489.0,
+        559.0,
+        504.0
+      ],
+      "source_block_index": 24,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_1_25",
+      "type": "title",
+      "section": "Methods",
+      "text": "N-(1-Heptyloctyl)-perylene-3,4:9,10-tetracarboxylic bisimide (4)",
+      "page": 1,
+      "bbox": [
+        489.0,
+        518.0,
+        834.0,
+        548.0
+      ],
+      "source_block_index": 25,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_1_26",
+      "type": "text",
+      "section": "Methods",
+      "text": "Perylene-3,4:9,10-tetracarboxylic monoanhydride monoimide (3) (3.13 g, 8 mmol), 8-aminopentadecane (2.91 g, 12.8 mg), imidazole (30 g), and quinoline (5 mL) were stirred under argon (160 8C, 2 h). After cooling, the mixture was dissolved in THF and precipitated in 400 mL of a mixture of ethanol and 2 N HCl (1:1). The precipitate was collected by vacuum filtration, treated with boiling aqueous ${ \\mathrm { K } } _ { 2 } { \\mathrm { C O } } _ { 3 }$solution (100 mL, 10%, 1 h), washed with distilled water, and dried under vacuum. The dye was purified by extractive recrystallization. Traces of N, N<sup>0</sup>- di(1-heptyloctyl)-perylene-3,4:9,10-tetracarboxylic bisimide was removed by extraction with hexane to yield a red solid (3.64 g, 77%). <sup>1</sup>H NMR (CDCl ): d ¼ 8.59 (s, 1H), 8.56 (m, 8H), 5.16 (m, 1H), 2.21 (m, 2H), 1.87 (m, 2H), 1.28 (m, 20H), 0.81 (m, 6H). IR (Si): 3 067 (w), 2 958 (m), 2 927 (m), 2 855 (m), 1 698 (s), 1 659 (s), 1 594 (s), 1 432 (m), 1 403 (m), 1 343 (s), 1 269 (m), 1 179 (w), 810 (w), 741 (w), 655 (m) cm<sup>\u00011</sup>. MS (EI, 70 eV): m/z ¼ 600 [M<sup>þ</sup>].",
+      "page": 1,
+      "bbox": [
+        488.0,
+        555.0,
+        893.0,
+        791.0
+      ],
+      "source_block_index": 26,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_1_26",
+        "V2_1_11_1"
+      ]
+    },
+    {
+      "block_id": "P_1_27",
+      "type": "title",
+      "section": "Methods",
+      "text": "PerInit (6)",
+      "page": 1,
+      "bbox": [
+        489.0,
+        796.0,
+        567.0,
+        811.0
+      ],
+      "source_block_index": 27,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_1_28",
+      "type": "text",
+      "section": "Methods",
+      "text": "N-(1-Heptyloctyl)-perylene-3,4:9,10-tetracarboxylic bisimide (4) (1.40 g, 3.75 mmol), 2,2,5-trimethyl-3-[1-(4<sup>0</sup>- chloromethyl)phenylethoxy]-4-phenyl-3-azahexane (5) (1.80 g, 3 mmol), K CO (0.75 g, 5.4 mmol) and some crystals of NaI were stirred in 30 mL of DMF at 40 8C over night. The reaction mixture was poured into a mixture of 300 mL of methanol and 100 mL water. The precipitate was collected by vacuum filtration, dried and purified by column chromatography (silica gel, hexane/ THF ¼ 5:1) to yield 6 (2.31 g, 82%).",
+      "page": 1,
+      "bbox": [
+        488.0,
+        818.0,
+        893.0,
+        918.0
+      ],
+      "source_block_index": 28,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_2_35",
+      "type": "text",
+      "section": "Methods",
+      "text": "",
+      "page": 2,
+      "bbox": [
+        104.0,
+        90.0,
+        506.0,
+        117.0
+      ],
+      "source_block_index": 35,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_2_36",
+      "type": "text",
+      "section": "Methods",
+      "text": "<sup>1</sup>H NMR (CDCl<sub>3</sub>): d ¼ 8.6–8.0 (m, 8H þ 8H, both diastereomers), 7.6–7.0 (m, 9H þ 9H, both diastereomers), 5.27 (m, 2H þ 2H, both diastereomers), 5.12 (m, 1H þ 1H, both diastereomers), 4.81 (m, 1H þ 1H, both diastereomers), 3.30 (d, 1H, minor diastereomer), 3.19 (d, 1H, major diastereomer), 2.21 (m, 5H), 1.85 (m, 5H), 1.49 (d, 3H, minor diastereomer), 1.41 (d, 3H, major diastereomer), 1.35–1.0 (m, 40H), 0.88 (s, 9H, major diastereomer), 0.8–0.5 (m, 18H), 0.67 (d, 9H, minor diastereomer), 0.43 (d, 3H, major diastereomer), 0.08 (d, 3H, major diastereomer).",
+      "page": 2,
+      "bbox": [
+        104.0,
+        117.0,
+        506.0,
+        255.0
+      ],
+      "source_block_index": 36,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_2_37",
+      "type": "text",
+      "section": "Methods",
+      "text": "<sup>13</sup>C NMR (CDCl ): d ¼ 162.93, 145.25, 144.42, 142.16, 134.23, 133.81, 131.07, 130.92, 130.82, 129.27,129.15, 129.04, 128.93, 127.82, 127.12, 127.03, 126.27, 126.18, 126.06, 125.90, 122.81, 122.57, 82.14, 72.11, 60.46, 60.40, 54.85, 32.36, 31.79, 31.65, 29.52, 29.20, 28.34, 28.19, 27.02, 24.74, 23.04, 22.58, 22.11, 21.85, 21.04, 14.04.",
+      "page": 2,
+      "bbox": [
+        104.0,
+        254.0,
+        506.0,
+        338.0
+      ],
+      "source_block_index": 37,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_2_38",
+      "type": "text",
+      "section": "Methods",
+      "text": "IR (Si): 2 958 (m), 2 927 (m), 2 859 (m), 1 699 (s), 1 660 (s), 1 596 (s), 1 435 (m), 1 405 (m), 1 356 (w), 1 337 (m), 1 254 (w), 1 214 (w), 1 171 (w), 1 059 (w), 853 (m), 810 (s), 743 (s) cm<sup>\u00011</sup>.",
+      "page": 2,
+      "bbox": [
+        104.0,
+        337.0,
+        506.0,
+        393.0
+      ],
+      "source_block_index": 38,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_2_39",
+      "type": "text",
+      "section": "Methods",
+      "text": "UV (THF): l<sub>max</sub> (e) ¼ 456 (17 900), 487 (49 600), 523 (81 800 L - mol<sup>\u00011</sup> - cm<sup>\u00011</sup>)",
+      "page": 2,
+      "bbox": [
+        528.0,
+        89.0,
+        930.0,
+        119.0
+      ],
+      "source_block_index": 39,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_2_40",
+      "type": "title",
+      "section": "Methods",
+      "text": "Polymerization of 4-Vinyltriphenylamine 8a, 8b",
+      "page": 2,
+      "bbox": [
+        528.0,
+        132.0,
+        851.0,
+        149.0
+      ],
+      "source_block_index": 40,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_2_41",
+      "type": "text",
+      "section": "Methods",
+      "text": "A mixture of the PerInit 6 (46.9 mg, 0.05 mmol), the nitroxide 7 (2.5 mmol as a stock solution from o-dichlorobenzene) and 4-vinyltriphenylamine (678 mg, 2.5 mmol) in 100 mL odichlorobenzene was degassed by three freeze-pump-thaw cycles, sealed under argon, and heated at 125 8C for 30 and 60 min for 8a and 8b respectively. The solidified mixture was dissolved in THF and precipitated twice in hexane. The polymers were collected by vacuum filtration and dried (8a: 89 mg, yield 12%; 8b 465 mg, yield 64%).",
+      "page": 2,
+      "bbox": [
+        527.0,
+        156.0,
+        932.0,
+        279.0
+      ],
+      "source_block_index": 41,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_2_42",
+      "type": "text",
+      "section": "Methods",
+      "text": "8a: <sup>1</sup>H NMR (CDCl<sub>3</sub>): d ¼ 8.62 (m, 0.68H), 6.90 (m, 15.45H), 6.58 (m, 2.00H), 5.28 (m, 0.25), 1.99 (m, 1.81H), 1.60 (m, 2.19H), 1.19 (m, 1.99H), 0.80 (m, 0.83H).",
+      "page": 2,
+      "bbox": [
+        528.0,
+        279.0,
+        930.0,
+        322.0
+      ],
+      "source_block_index": 42,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_2_43",
+      "type": "text",
+      "section": "Methods",
+      "text": "8b: <sup>1</sup>H NMR (CDCl , 250 MHz): d ¼ 8.63 (m, 0.18H), 6.87 (m, 12.64H), 6.54 (m, 2.00H), 5.28 (m, 0.09), 1.98 (m, 1.23H), 1.60 (m, 1.82H), 1.19 (m, 0.71H), 0.80 (m, 0.29H). IR (Si): 3 058, 3 027, 2 926, 2 857, 1 698, 1 659, 1 593, 1 508, 1 493, 1 451, 1 314, 1 278, 1 177, 1 073, 1 030 cm<sup>\u00011</sup>.",
+      "page": 2,
+      "bbox": [
+        528.0,
+        321.0,
+        930.0,
+        391.0
+      ],
+      "source_block_index": 43,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "I_2_44",
+      "type": "image",
+      "section": "Methods",
+      "page": 2,
+      "bbox": [
+        170.0,
+        398.0,
+        866.0,
+        890.0
+      ],
+      "source_block_index": 44,
+      "alignment_status": "matched",
+      "caption": "Scheme 1. Synthetic scheme of perylene bisimide-labeled polymers 8–12 via NMRP.",
+      "image_path": "organized/reference_no_0037607/images/3850828154e977123a0ad00e72c701581b0642c97671f2d2150935dd5c674ff5.jpg",
+      "image_kind": "image"
+    },
+    {
+      "block_id": "P_3_51",
+      "type": "title",
+      "section": "Methods",
+      "text": "Styrene Polymerization 9a, 9b",
+      "page": 3,
+      "bbox": [
+        65.0,
+        89.0,
+        273.0,
+        105.0
+      ],
+      "source_block_index": 51,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_3_52",
+      "type": "text",
+      "section": "Methods",
+      "text": "A mixture of the PerInit 6 (46.9 mg, 0.05 mmol) and styrene (1 302 mg, 12.5 mmol) was degassed by three freeze-pumpthaw cycles, sealed under argon, and heated at $1 2 5 ^ { \\circ } \\mathrm { C } .$(1 h for 9a and 4 h for 9b). The solidified mixture was dissolved in CHCl<sub>3</sub> and precipitated three times in isopropyl alcohol. The polymers 9a and 9b were collected by vacuum filtration and dried (9a: 351 mg, yield 26%; 9b:1.03 g, yield 76%).",
+      "page": 3,
+      "bbox": [
+        65.0,
+        112.0,
+        469.0,
+        209.0
+      ],
+      "source_block_index": 52,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_3_52",
+        "V2_3_1_1"
+      ]
+    },
+    {
+      "block_id": "P_3_53",
+      "type": "text",
+      "section": "Methods",
+      "text": "9a: <sup>1</sup>H NMR (CDCl ): d ¼ 8.61 (m, 0.10H), 7.03 (m, 3.10H), 6.56 (m, 2.00H), 1.83 (m, 1.04H), 1.41 (m, 2.33H), 0.81 (m, 0.15H).",
+      "page": 3,
+      "bbox": [
+        65.0,
+        209.0,
+        467.0,
+        250.0
+      ],
+      "source_block_index": 53,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_3_54",
+      "type": "text",
+      "section": "Methods",
+      "text": "9b: <sup>1</sup>H NMR (CDCl<sub>3</sub>): d ¼ 8.62 (m, 0.05H), 7.06 (m, 3.03H), 6.57 (m, 2.00H), 1.83 (m, 1.00H), 1.42 (m, 2.14H), 0.81 (m, 0.08H). IR (Si): 3 028, 2 927. 2 855, 1 698, 1 659, 1 597, 1 494, 1 449, 1 154, 1 026, 764 cm<sup>\u00011</sup>.",
+      "page": 3,
+      "bbox": [
+        65.0,
+        250.0,
+        467.0,
+        307.0
+      ],
+      "source_block_index": 54,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_3_55",
+      "type": "title",
+      "section": "Methods",
+      "text": "Polymerization of Acrylates 10, 11, 12",
+      "page": 3,
+      "bbox": [
+        489.0,
+        89.0,
+        755.0,
+        105.0
+      ],
+      "source_block_index": 55,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_3_56",
+      "type": "text",
+      "section": "Methods",
+      "text": "A mixture of the PerInit 6 (46.9 mg, 0.05 mmol), the nitroxide 7 (2.5 mmol as a stock solution from the corresponding acrylate), the acrylate (t-butyl acrylate: 1 602 mg, 12.5 mmol; butyl acrylate: 1 602 mg, 12.5 mmol and undecyl acrylate: 2 830 mg, 12.5 mmol) were degassed by three freeze- pumpthaw cycles, sealed under argon, and heated at $1 2 5 ^ { \\circ } \\mathrm { C }$for 18 h. The viscous mixture was dissolved in THF and precipitated in methanol. The polymers 10, 11, and 12 were collected and dried (10: 1.02 g, yield 62%, 11: 633 mg, yield 38% and 12: 945 mg, yield 39%).",
+      "page": 3,
+      "bbox": [
+        488.0,
+        112.0,
+        893.0,
+        250.0
+      ],
+      "source_block_index": 56,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_3_56",
+        "V2_3_5_1"
+      ]
+    },
+    {
+      "block_id": "P_3_57",
+      "type": "text",
+      "section": "Methods",
+      "text": "10: <sup>1</sup>H NMR (CDCl<sub>3</sub>): d ¼ 8.64 (m, 0.05H), 2.20 (m, 1.00H), 1.79 (m, 0.44H), 1.45 (m, 9.96H). IR (Si): 2 978, 2 933, 1 731, 1 659, 1 594, 1 481, 1 459, 1 447, 1 394, 1 369, 1 259, 1 152, 847 cm<sup>\u00011</sup>.",
+      "page": 3,
+      "bbox": [
+        489.0,
+        249.0,
+        893.0,
+        307.0
+      ],
+      "source_block_index": 57,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "T_3_58",
+      "type": "table",
+      "section": "Methods",
+      "page": 3,
+      "bbox": [
+        65.0,
+        361.0,
+        888.0,
+        880.0
+      ],
+      "source_block_index": 58,
+      "alignment_status": "matched",
+      "caption": "Table 1. Polymerization conditions of different monomers, polymer data, and thermal properties (from DSC and TGA) of the dye-labeled polymers; polydispersity and $\\overline { { M } } _ { \\mathfrak { n } }$ were determined by GPC with polystyrene standards using THF as solvent.",
+      "table_body": "<table><tr><td rowspan=\"2\">Polymer</td><td rowspan=\"2\">Monomer</td><td>Nitroxide 7</td><td>Reaction time</td><td> $\\overline{M}_{n}$ </td><td rowspan=\"2\">PDI</td><td> $T_{g}$ </td><td>TGA-5%</td></tr><tr><td>mol-%</td><td>h</td><td> $g·mol^{-1}$ </td><td>°C</td><td>°C</td></tr><tr><td>8a</td><td><img src=\"images/aed0319943f23ae764e25d692dd97531e97619beac126015f206265f13cf0f47.jpg\"/></td><td>0.05</td><td>0.5</td><td>3050</td><td>1.10</td><td>114</td><td>331</td></tr><tr><td>8b</td><td><img src=\"images/f6f582f7c828db52f8bed7545b34763f861aa9fb72acf5913545355b2cca640c.jpg\"/></td><td>0.05</td><td>1</td><td>7510</td><td>1.23</td><td>133</td><td>355</td></tr><tr><td>9a</td><td><img src=\"images/2602d0d407a6b1915035472483bfe799b69c8d15314408457aac74fa61027132.jpg\"/></td><td>-</td><td>1</td><td>9560</td><td>1.15</td><td>97</td><td>344</td></tr><tr><td>9b</td><td><img src=\"images/0c73d0e963bca8f78cae406151adbb1831eff648fa55fe8ee8ebfecb8be40c68.jpg\"/></td><td>-</td><td>4</td><td>17950</td><td>1.10</td><td>99</td><td>352</td></tr><tr><td>10</td><td><img src=\"images/5349ff5d2a3ed50992f0673daf9df14f4bbf854dedfe68e80acc1ab6018eb2e7.jpg\"/></td><td>0.05</td><td>18</td><td>25740</td><td>1.30</td><td>46</td><td>241</td></tr><tr><td>11</td><td><img src=\"images/f19d333244257d51ac0b894cec68e14b964972809ba3c3d7fa1f77e8212becda.jpg\"/></td><td>0.05</td><td>18</td><td>21950</td><td>1.19</td><td>-48</td><td>309</td></tr><tr><td>12</td><td><img src=\"images/b7cb9f651ebe6a3b2501120a1633bfcf7a13614a3a49f83fb15055ba30ed295d.jpg\"/></td><td>0.05</td><td>18</td><td>8300</td><td>1.19</td><td>-a)</td><td>336</td></tr></table>",
+      "table_cells": [
+        {
+          "cell_id": "T_3_58:r0000:c0000",
+          "row_index": 0,
+          "column_index": 0,
+          "row_span": 2,
+          "column_span": 1,
+          "text": "Polymer",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0000:c0001",
+          "row_index": 0,
+          "column_index": 1,
+          "row_span": 2,
+          "column_span": 1,
+          "text": "Monomer",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0000:c0002",
+          "row_index": 0,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Nitroxide 7",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0000:c0003",
+          "row_index": 0,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Reaction time",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0000:c0004",
+          "row_index": 0,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$\\overline{M}_{n}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0000:c0005",
+          "row_index": 0,
+          "column_index": 5,
+          "row_span": 2,
+          "column_span": 1,
+          "text": "PDI",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0000:c0006",
+          "row_index": 0,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$T_{g}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0000:c0007",
+          "row_index": 0,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "TGA-5%",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0001:c0002",
+          "row_index": 1,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "mol-%",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0001:c0003",
+          "row_index": 1,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "h",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0001:c0004",
+          "row_index": 1,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$g·mol^{-1}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0001:c0006",
+          "row_index": 1,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "°C",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0001:c0007",
+          "row_index": 1,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "°C",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0002:c0000",
+          "row_index": 2,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "8a",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0002:c0001",
+          "row_index": 2,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0002:c0002",
+          "row_index": 2,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.05",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0002:c0003",
+          "row_index": 2,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.5",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0002:c0004",
+          "row_index": 2,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "3050",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0002:c0005",
+          "row_index": 2,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1.10",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0002:c0006",
+          "row_index": 2,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "114",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0002:c0007",
+          "row_index": 2,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "331",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0003:c0000",
+          "row_index": 3,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "8b",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0003:c0001",
+          "row_index": 3,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0003:c0002",
+          "row_index": 3,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.05",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0003:c0003",
+          "row_index": 3,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0003:c0004",
+          "row_index": 3,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "7510",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0003:c0005",
+          "row_index": 3,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1.23",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0003:c0006",
+          "row_index": 3,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "133",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0003:c0007",
+          "row_index": 3,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "355",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0004:c0000",
+          "row_index": 4,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "9a",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0004:c0001",
+          "row_index": 4,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0004:c0002",
+          "row_index": 4,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0004:c0003",
+          "row_index": 4,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0004:c0004",
+          "row_index": 4,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "9560",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0004:c0005",
+          "row_index": 4,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1.15",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0004:c0006",
+          "row_index": 4,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "97",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0004:c0007",
+          "row_index": 4,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "344",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0005:c0000",
+          "row_index": 5,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "9b",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0005:c0001",
+          "row_index": 5,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0005:c0002",
+          "row_index": 5,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0005:c0003",
+          "row_index": 5,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "4",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0005:c0004",
+          "row_index": 5,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "17950",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0005:c0005",
+          "row_index": 5,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1.10",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0005:c0006",
+          "row_index": 5,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "99",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0005:c0007",
+          "row_index": 5,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "352",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0006:c0000",
+          "row_index": 6,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "10",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0006:c0001",
+          "row_index": 6,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0006:c0002",
+          "row_index": 6,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.05",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0006:c0003",
+          "row_index": 6,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "18",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0006:c0004",
+          "row_index": 6,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "25740",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0006:c0005",
+          "row_index": 6,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1.30",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0006:c0006",
+          "row_index": 6,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "46",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0006:c0007",
+          "row_index": 6,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "241",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0007:c0000",
+          "row_index": 7,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "11",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0007:c0001",
+          "row_index": 7,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0007:c0002",
+          "row_index": 7,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.05",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0007:c0003",
+          "row_index": 7,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "18",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0007:c0004",
+          "row_index": 7,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "21950",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0007:c0005",
+          "row_index": 7,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1.19",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0007:c0006",
+          "row_index": 7,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-48",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0007:c0007",
+          "row_index": 7,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "309",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0008:c0000",
+          "row_index": 8,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "12",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0008:c0001",
+          "row_index": 8,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0008:c0002",
+          "row_index": 8,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.05",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0008:c0003",
+          "row_index": 8,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "18",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0008:c0004",
+          "row_index": 8,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "8300",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0008:c0005",
+          "row_index": 8,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1.19",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0008:c0006",
+          "row_index": 8,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-a)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0008:c0007",
+          "row_index": 8,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "336",
+          "is_header": false
+        }
+      ],
+      "image_path": "organized/reference_no_0037607/images/c3f1c0986e9d7404e547ad4cc02a2feda8d1c41697cacb8df8e962e74c6cee2c.jpg"
+    },
+    {
+      "block_id": "P_3_59",
+      "type": "text",
+      "section": "Methods",
+      "text": "<sup>a)</sup> Only the melting point $\\mathrm { a t } - 1 7 ^ { \\circ } \\mathrm { C }$could be detected.",
+      "page": 3,
+      "bbox": [
+        65.0,
+        900.0,
+        413.0,
+        917.0
+      ],
+      "source_block_index": 59,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_3_59",
+        "V2_3_8_1"
+      ]
+    },
+    {
+      "block_id": "P_4_66",
+      "type": "text",
+      "section": "Methods",
+      "text": "11: <sup>1</sup>H NMR (CDCl ): d ¼ 8.62 (m, 0.06H), 4.01 (m, 2.00H), 2.25 (m, 1.01H), 1.87 (m, 0.51H), 1.58 (m, 3.23H), 1.36 (m, 2.60H), 0.91 (m, 3.18H). IR (Si): 2 960, 2 875, 1 737, 1 696, 1 659, 1 594, 1 457, 1 403, 1 262, 1 174, $1 1 2 1 ~ \\mathrm { { c m } ^ { - 1 } }$",
+      "page": 4,
+      "bbox": [
+        104.0,
+        89.0,
+        506.0,
+        158.0
+      ],
+      "source_block_index": 66,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_4_66",
+        "V2_4_0_1"
+      ]
+    },
+    {
+      "block_id": "P_4_67",
+      "type": "text",
+      "section": "Methods",
+      "text": "12: <sup>1</sup>H NMR (CDCl ): d ¼ 8.62 (m, 0.20H), 7.45 (m, 0.09H), 7.05 (m, 0.11H), 5.34 (m, 0.06H), 3.98 (m, 2.00H), 2.25 (m, 1.05H), 1.86 (m, 0.59H), 1.57 (m, 3.33H), 1.24 (m, 17.17H), 0.86 (m, 3.60H). IR (Si): 2 928, 2 857, 1 738, 1 702, 1 696, 1 653, 1 596, 1 470, 1 170 cm<sup>\u00011</sup>.",
+      "page": 4,
+      "bbox": [
+        104.0,
+        158.0,
+        506.0,
+        229.0
+      ],
+      "source_block_index": 67,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_4_68",
+      "type": "title",
+      "section": "Results",
+      "text": "Results and Discussion",
+      "page": 4,
+      "bbox": [
+        104.0,
+        265.0,
+        302.0,
+        281.0
+      ],
+      "source_block_index": 68,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_4_69",
+      "type": "text",
+      "section": "Results",
+      "text": "The initiator used here is a second-generation alkoxyamine initiator for NMRP that can not only polymerize styrene, but also acrylates and dienes. This initiator is covalently attached to a perylene bisimide as shown in Scheme 1. The first step of the synthesis is the opening of one of the anhydride groups in the perylene-3,4:9,10-tetracarboxylic dianhydride 1 to form the mono potassium salt $2 . ^ { [ 1 \\breve { 3 } , 1 4 ] }$With ammonia the ring is closed again to get a monoanhydride monoimide 3. This imide group is stable against basic and acidic reactions. Due to this stability of the imide group only the anhydride group reacts in the next step with 8-aminopentadecane, which builds together a so-called swallow-tail substituent. Swallow-tail substituted perylene bisimides are in contrast to most of the well-known perylene bisimides highly soluble in organic solvents.<sup>[15]</sup> Finally the initiator 6 (PerInit) was prepared by coupling of a chloromethyl functionalized initiator $\\pmb { 5 } ^ { [ 1 \\tilde { 1 } ] }$with the unsymmetrical perylene bisimide 4.",
+      "page": 4,
+      "bbox": [
+        101.0,
+        288.0,
+        508.0,
+        559.0
+      ],
+      "source_block_index": 69,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_4_69",
+        "V2_4_3_1",
+        "V2_4_3_3"
+      ]
+    },
+    {
+      "block_id": "P_4_70",
+      "type": "text",
+      "section": "Results",
+      "text": "Using this initiator 4-vinyltriphenylamine, styrene as well as different acrylates were polymerized (see Table 1). The controlled character of the bulk polymerization of styrene was studied by monitoring the evolution of molecular weights for various times of polymerization. Styrene was polymerized with PerInit 6 (monomer: initiator ¼ 250: 1 molar ratio) at $1 2 5 ^ { \\circ } \\mathrm { C } .$At different time intervals samples were taken from the reaction mixture and the conversion, the molecular weight and the PDI were determined using GPC. The controlled nature of the polymerization can be seen by the linear increase of the molecular weight with conversion (see Figure 1). After 3 h of reaction, a molecular weight of $1 7 8 0 0 \\ \\mathrm { g \\cdot m o l ^ { - 1 } }$was achieved which only marginally increased afterwards. The polydispersity in all samples was below 1.2.",
+      "page": 4,
+      "bbox": [
+        103.0,
+        558.0,
+        506.0,
+        680.0
+      ],
+      "source_block_index": 70,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_4_70",
+        "V2_4_4_1",
+        "V2_4_4_3"
+      ]
+    },
+    {
+      "block_id": "I_4_71",
+      "type": "image",
+      "section": "Results",
+      "page": 4,
+      "bbox": [
+        106.0,
+        691.0,
+        501.0,
+        869.0
+      ],
+      "source_block_index": 71,
+      "alignment_status": "matched",
+      "caption": "Figure 1. Evolution of $\\overline { { M } } _ { \\mathfrak { n } }$ with conversion for the polymerization of styrene with the initiator 6 ([styrene]:[initiator] ¼ 250:1; $T = 1 2 5 ^ { \\circ } \\dot { \\mathbf { C } } )$",
+      "image_path": "organized/reference_no_0037607/images/d3249acec946a297ec22b9ff8633cd65a23d713c699ad91935a95f2f62c43f59.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "P_4_72",
+      "type": "text",
+      "section": "Results",
+      "text": "",
+      "page": 4,
+      "bbox": [
+        527.0,
+        91.0,
+        932.0,
+        196.0
+      ],
+      "source_block_index": 72,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_4_73",
+      "type": "text",
+      "section": "Results",
+      "text": "Different batches of perylene bisimide-labeled polystyrene were prepared by varying the reaction time. For example, after 1 h of polymerization we obtained a dye-labeled polymer 9a with number-average molecular weight $\\overline { { M } } _ { \\mathrm { n } }$of $9 5 6 0 ~ \\mathrm { \\ g \\cdot m o l ^ { - 1 } }$and PDI of 1.15, whereas after 4 h a polymer (9b) resulted with an $\\overline { { M } } _ { \\mathrm { n } }$of $1 7 9 5 0 ~ \\mathrm { g \\cdot m o l ^ { - 1 } }$and a PDI of 1.10.",
+      "page": 4,
+      "bbox": [
+        527.0,
+        196.0,
+        932.0,
+        301.0
+      ],
+      "source_block_index": 73,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_4_73",
+        "V2_4_7_1",
+        "V2_4_7_3",
+        "V2_4_7_5",
+        "V2_4_7_7"
+      ]
+    },
+    {
+      "block_id": "P_4_74",
+      "type": "text",
+      "section": "Results",
+      "text": "It is of interest to analyze the endgroup fidelity of these polymers as the insertion of the initiator is a clear sign for controlled nature of the polymerization and it is important to get defined polymers with exactly one electron acceptor in the polymer chain. The insertion of initiators into the polymer chain can be for example investigated by UV-vis spectroscopy for $\\mathrm { d y e s } ^ { [ 1 6 ] }$or by potentiometric titration for amino-terminated polymers.<sup>[17]</sup> We used MALDI-TOF mass spectrometry as it is a very straightforward method and it shows the complete composition of the polymer. With this high-resolution mass spectrometry, measured in the reflectron mode, one can see the isotopic peaks of each polymer chain up to a molecular weight of approximately $2 0 0 0 0 \\ \\mathrm { g \\cdot m o l ^ { - 1 } }$. As can be seen in Figure 2(A) the MALDI-TOF-MS spectrum for the polymer consists of discrete peaks only. The peak separation corresponds exactly to one repeating unit (here: styrene) and no other peaks can be seen. In Figure 2(B) the magnified measured spectrum and the calculated spectrum of the polymer (25mer and 26mer) are shown. As the isotopic resolution fits very well with the calculated spectrum of the complete polymer including the initiator, it is obvious that both the perylene bisimide and the terminating fragment of the initiator are incorporated.",
+      "page": 4,
+      "bbox": [
+        527.0,
+        301.0,
+        932.0,
+        333.0
+      ],
+      "source_block_index": 74,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_4_74",
+        "V2_4_8_1",
+        "V2_4_8_3"
+      ]
+    },
+    {
+      "block_id": "I_4_75",
+      "type": "image",
+      "section": "Results",
+      "page": 4,
+      "bbox": [
+        533.0,
+        363.0,
+        927.0,
+        577.0
+      ],
+      "source_block_index": 75,
+      "alignment_status": "matched",
+      "image_path": "organized/reference_no_0037607/images/f8a6f659dcb79c3d15f9700b90dbd2f67f3b6e9edba1eb885699512fc1906667.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "I_4_76",
+      "type": "image",
+      "section": "Results",
+      "page": 4,
+      "bbox": [
+        533.0,
+        594.0,
+        923.0,
+        830.0
+      ],
+      "source_block_index": 76,
+      "alignment_status": "matched",
+      "caption": "Figure 2. (A) MALDI-TOF-mass spectra of a low molecular perylene bisimide-labeled polystyrene sample measured in reflectron mode. (B) Magnification of two measured peaks of the polymers, 25mer and the 26mer and the corresponding simulated spectra (!) of ${ \\mathrm { P e r P S } } _ { 2 5 }$ and ${ \\mathrm { P e r P S } } _ { 2 6 }$ . Recorded with DTCB as matrix and silver triflate.",
+      "image_path": "organized/reference_no_0037607/images/59b937bbfd4174fd7d3d55005e63cc9369c4c347fbb2aa4234099d6bface1fdd.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "I_5_83",
+      "type": "image",
+      "section": "Results",
+      "page": 5,
+      "bbox": [
+        70.0,
+        87.0,
+        464.0,
+        306.0
+      ],
+      "source_block_index": 83,
+      "alignment_status": "matched",
+      "caption": "Figure 3. DSC curves of different dye-labeled polymers 8a, 8b, 9b, and 11 (second heating curves at $1 0 \\mathrm { K } \\cdot \\mathrm { m i n } ^ { - 1 } )$",
+      "image_path": "organized/reference_no_0037607/images/e075b01755ae10733b4fafbf43ddf148b5ca0889152b68c9ae5d2f77f961e0cf.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "I_5_84",
+      "type": "image",
+      "section": "Results",
+      "page": 5,
+      "bbox": [
+        82.0,
+        370.0,
+        472.0,
+        598.0
+      ],
+      "source_block_index": 84,
+      "alignment_status": "matched",
+      "image_path": "organized/reference_no_0037607/images/03a5ed455411e91a7feaea08b1979304ebc61aff068f11cf35638bd38f3f202e.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "P_5_85",
+      "type": "text",
+      "section": "Results",
+      "text": "",
+      "page": 5,
+      "bbox": [
+        488.0,
+        91.0,
+        893.0,
+        362.0
+      ],
+      "source_block_index": 85,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "I_5_86",
+      "type": "image",
+      "section": "Results",
+      "page": 5,
+      "bbox": [
+        484.0,
+        368.0,
+        878.0,
+        599.0
+      ],
+      "source_block_index": 86,
+      "alignment_status": "matched",
+      "image_path": "organized/reference_no_0037607/images/1db19bf42e2e8f163e9d30299afbbbf6754a244142b88b0c55a9aee6f49b99b2.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "I_5_87",
+      "type": "image",
+      "section": "Results",
+      "page": 5,
+      "bbox": [
+        81.0,
+        616.0,
+        474.0,
+        844.0
+      ],
+      "source_block_index": 87,
+      "alignment_status": "matched",
+      "image_path": "organized/reference_no_0037607/images/00bea9f501e3fdb1efb327b96fb50a5e0f3cb2617769a93c0ec05d80fb96daa2.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "I_5_88",
+      "type": "image",
+      "section": "Results",
+      "page": 5,
+      "bbox": [
+        484.0,
+        619.0,
+        878.0,
+        841.0
+      ],
+      "source_block_index": 88,
+      "alignment_status": "matched",
+      "caption": "Figure 4. (A) UV-vis absorption spectra of PerInit 6 and the dye-labeled poly(4-vinyltriphenylamine) 8a in films. (B) $\\bf { S } _ { 0 }  – \\bf { S } _ { 1 }$ transition range of perylene bisimide in UV-vis spectra of PerInit 6 and the polymers 8a and 8b in films. Here, the UV-vis spectra are normalized with respect to first vibronic peak. (C) Dependence of $S _ { 0 } – S _ { 1 }$ transition of PerInit 6 on concentration in cyclohexane. (D) Change of the OP (quotient of the second and the first vibronic transition of $\\bf { S } _ { 0 }  – \\bf { S } _ { 1 }$ electronic transition) as a function of the concentration for PerInit 6 in cyclohexane.",
+      "image_path": "organized/reference_no_0037607/images/9ff716beb0534e033eed1c7537abee0e5159dfd9454d54a66945534ed3e3e136.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "P_6_95",
+      "type": "text",
+      "section": "Results",
+      "text": "",
+      "page": 6,
+      "bbox": [
+        101.0,
+        91.0,
+        506.0,
+        151.0
+      ],
+      "source_block_index": 95,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_6_96",
+      "type": "text",
+      "section": "Results",
+      "text": "Since with styrene the controlled insertion of the electron acceptor could be shown, the electron donating 4- vinyltriphenylamines were then used as monomers to get the polymers 8a and 8b. In the case of the polymerization of the 4-vinyltriphenylamines as well as later for the acrylates, 5 mol-% of the free nitroxide 7 was added to get well-defined polymers.<sup>[11]</sup> The chain length of the polymers and thereby the ratio of electron acceptor (perylene bisimide dye) to electron donor can be varied by varying the time of polymerization or by changing the ratio of initiator to monomer. From <sup>1</sup>H NMR spectroscopy the average number of the triphenylamine repeating units can be calculated as 14 for 8a and 44 for 8b. Also the thermal properties like the glass transition temperature $T _ { \\mathrm { g } }$can be varied by controlling the polymer chain length. Here the $T _ { \\mathrm { g } }$increases by $1 9 ^ { \\circ } \\mathrm { C }$from 8a to 8b.",
+      "page": 6,
+      "bbox": [
+        101.0,
+        151.0,
+        508.0,
+        391.0
+      ],
+      "source_block_index": 96,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_6_96",
+        "V2_6_1_1",
+        "V2_6_1_3",
+        "V2_6_1_5"
+      ]
+    },
+    {
+      "block_id": "P_6_97",
+      "type": "text",
+      "section": "Results",
+      "text": "A series of electronically non-active alkyl acrylates was also used as monomers to get polyacrylates carrying one single dye unit. In this way, a single perylene bisimide dye unit could be attached to a variety of polymers ranging from polystyrene to polyacrylates. The polarity and the thermal properties of the resulting polymers can be thus varied over a wide range (Table 1). The DSC curves (for the second heating cycle at $1 0 \\mathrm { K } \\cdot \\mathrm { m i n } ^ { - 1 } )$of different polymers carrying a single perylene bisimide dye unit are given in Figure 3. The $T _ { \\mathrm { g } }$varies from $- 4 8 ^ { \\circ } \\mathrm { C }$for the poly(butyl acrylate) 11 to $1 3 3 ^ { \\circ } \\mathrm { C }$for the poly(4-vinyltriphenylamine) 8b. For the polymerization of tert-butyl acrylate and butyl acrylate reasonably high molecular weights of 25 740 and $2 1 \\mathrm { \\dot { 9 } 5 0 \\ g \\cdot m o l ^ { - 1 } }$were achieved after 18 h of polymerization at $1 2 5 ^ { \\circ } \\mathrm { C }$But for the polymerization of undecyl acrylate with the same reaction conditions the obtained molecular weight was significantly lower. This can be explained as due to a dilution of the active acrylate group with the long alkyl chain. All the above results are summarized in Table 1.",
+      "page": 6,
+      "bbox": [
+        101.0,
+        391.0,
+        508.0,
+        691.0
+      ],
+      "source_block_index": 97,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_6_97",
+        "V2_6_2_1",
+        "V2_6_2_3",
+        "V2_6_2_5",
+        "V2_6_2_7",
+        "V2_6_2_9",
+        "V2_6_2_11"
+      ]
+    },
+    {
+      "block_id": "P_6_98",
+      "type": "text",
+      "section": "Results",
+      "text": "The incorporation of the dye in all the polymers can be clearly observed in UV-vis spectra. As an example Figure 4(A) shows UV-vis absorption spectra of PerInit 6 and the polymer 8a as measured in films. Both exhibit the vibronic fine structure of the electronic $\\bf { S } _ { 0 } { - } \\bf { S } _ { 1 }$transition in the range of 400–600 nm. In 8a and 8b the absorptions due to triarylamine at 310 nm could be observed additionally. The UV-vis spectroscopy is an important method to determine the aggregation of perylene bisimide dyes. In perylene bisimides, usually due to aggregation, the absorption peak maxima shifts and the ratio of peak intensities also vary. In order to compare peak shifts of perylene bisimides, the vibronic fine structure of the electronic $\\mathrm { S } _ { 0 } – \\mathrm { S }$transition in the range of 400–600 nm for 6, 8a, and 8b are depicted in Figure 4(B). The first vibronic transition is shifted from 544 nm in 6 to 529 nm for the polymer 8b and the second vibronic transition from 498 nm in 6 to 493 nm in polymer 8b. The corresponding peak shifts in 8a are less pronounced. This can be understood if we take into account the fact that 8a has less number of repeating units than 8b. Thus in 8b the dye is much more diluted than in 8a and therefore, the aggregation is stronger in 8a.",
+      "page": 6,
+      "bbox": [
+        101.0,
+        691.0,
+        508.0,
+        918.0
+      ],
+      "source_block_index": 98,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_6_98",
+        "V2_6_3_1",
+        "V2_6_3_3"
+      ]
+    },
+    {
+      "block_id": "P_6_99",
+      "type": "text",
+      "section": "Results",
+      "text": "",
+      "page": 6,
+      "bbox": [
+        525.0,
+        91.0,
+        932.0,
+        181.0
+      ],
+      "source_block_index": 99,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_6_100",
+      "type": "text",
+      "section": "Results",
+      "text": "Another possibility to monitor the aggregation of perylene bisimide dyes is to study the change in the intensity of the transitions.<sup>[18]</sup> In the highly aggregated state, the second vibronic band at about 490 nm is of maximum intensity among the three pronounced peaks usually observed in such perylene bisimide systems. On the other hand, at high dilutions, the non-aggregated species has maximum absorption for the first vibronic peak of about 530 nm. The quotient of the absorption at the second and first vibronic transition is therefore introduced as an order parameter (OP) for the degree of aggregation/order. First the aggregation behavior of 6 was studied by varying the concentration of 6 in cyclohexane solution. UV-vis spectra for a series of concentrations in the measurable range of $1 0 ^ { - 4 } { - } 1 0 ^ { - 6 } \\mathrm { { _ M } }$were measured and compared with that of the film [Figure 4(C)]. The ratio of the first two vibronic bands of the $\\bf { S } _ { 0 } { - } \\bf { S } _ { 1 }$electronic transition changes from 0.58 for low concentrations $( 1 0 ^ { - 5 } \\mathrm { \\textmu } )$to 0.83 for high concentrations $( 5 \\times 1 0 ^ { - 4 } \\mathrm { { ‰} }$[Figure 4(D)]. Finally a value of 1.68 is attained in film, where the perylene bisimide dye is in highly aggregated form.",
+      "page": 6,
+      "bbox": [
+        525.0,
+        181.0,
+        932.0,
+        496.0
+      ],
+      "source_block_index": 100,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_6_100",
+        "V2_6_5_1",
+        "V2_6_5_3",
+        "V2_6_5_5",
+        "V2_6_5_7"
+      ]
+    },
+    {
+      "block_id": "P_6_101",
+      "type": "text",
+      "section": "Results",
+      "text": "If one compares the quotient of absorption intensities in films, it changes from 1.68 for the PerInit 6 (highly aggregated) to 1.11 for 8a (medium aggregation) and 0.97 (least aggregation) for 8b. Thus, the degree of stacking of the dye moieties decrease from PerInit 6 molecule to 8a with 14 repeating units and to 8b with 44 repeating units. Therefore, the stacking properties of the perylene bisimide can be tailored by varying the length of the polymer chain. Similar aggregation behavior of the dye units is observed in the other dye-labeled polymers 9–12 as well.",
+      "page": 6,
+      "bbox": [
+        527.0,
+        496.0,
+        932.0,
+        646.0
+      ],
+      "source_block_index": 101,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_6_102",
+      "type": "text",
+      "section": "Results",
+      "text": "Also the fluorescence of the dye-labeled polystyrene is influenced by the stacking of the perylene bisimides. Generally, aggregation quenches the emission of perylene bisimides and therefore perylene bisimides exhibit only very weak fluorescence in bulk or films compared to very high fluorescence in dilute solutions. All the polymers except 8a and 8b (in which electronic interactions are possible between TPA and perylene bisimide) show very strong perylene emission in films indicating once again the low degree of aggregation in dye-labeled polymers. As an example, the UV-vis and fluorescence spectra of 6 and the polystyrene 9a are compared in Figure 5(A). The fluorescence peak is shifted from 605 nm for 9a to 619 nm in 6 and the intensity is significantly reduced for the perylenelabeled initiator 6, indicating strong aggregation in 6. The exceptional behavior of the polymers 8a and 8b, which do not exhibit any considerable fluorescence in the solid state corresponding to the emission of the dye, can be",
+      "page": 6,
+      "bbox": [
+        525.0,
+        646.0,
+        932.0,
+        918.0
+      ],
+      "source_block_index": 102,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "I_7_109",
+      "type": "image",
+      "section": "Results",
+      "page": 7,
+      "bbox": [
+        72.0,
+        87.0,
+        462.0,
+        299.0
+      ],
+      "source_block_index": 109,
+      "alignment_status": "matched",
+      "image_path": "organized/reference_no_0037607/images/749955ea8138d97c6bb819c8e0c53f0aecfabf8fd1ca2a41a615d332b3c73623.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "I_7_110",
+      "type": "image",
+      "section": "Results",
+      "page": 7,
+      "bbox": [
+        72.0,
+        319.0,
+        462.0,
+        531.0
+      ],
+      "source_block_index": 110,
+      "alignment_status": "matched",
+      "caption": "B) Figure 5. Comparison of (A) UV-vis and fluorescence spectra of PerInit 6 and the dye-labeled polystyrene 9a. (B) UV-vis and fluorescence spectra of the polymers 8a and 9a. The compared samples have the same optical density at the excitation wavelength of 490 nm. B)",
+      "image_path": "organized/reference_no_0037607/images/c9e446e82679177781056f1f5d0aa81cd80d4f6bab73d7ea2e988dae11d7bd59.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "P_7_111",
+      "type": "text",
+      "section": "Results",
+      "text": "well understood if we take into consideration the fact that among all the polymers studied, only poly(4-vinyltriphenylamine)s 8a and 8b are capable of exhibiting any energy or electron transfer processes with the acceptor dye unit. As an example, in Figure 5(B) the UV-vis and fluorescence spectra of the dye-labeled poly(4-vinyltriphenylamine) 8a and polystyrene 9a are compared. By excitation of the dye with a wavelength of 490 nm, where both films have the same optical density, the fluorescence was determined. For the polystyrene sample 9a an intense red fluorescence can be seen, whereas for the poly(4-vinyltriphenylamine) 8a the fluorescence is quenched completely. This quenching can be explained as due to electron transfer from the highest occupied molecular orbital (HOMO) of the electron donor to fill the hole created in the electron acceptor due to excitation. This electron transfer is an important step for photovoltaic cells. Recently it could be shown that block copolymers with similar donor and acceptor units could be used as novel materials for organic photovoltaics.<sup>[19,20]</sup> But polymers 8a and 8b are excellent model compounds suitable for studying the energy and electron transfer for defined polymer chain lengths under different conditions of aggregation.",
+      "page": 7,
+      "bbox": [
+        65.0,
+        629.0,
+        469.0,
+        918.0
+      ],
+      "source_block_index": 111,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_7_112",
+      "type": "text",
+      "section": "Results",
+      "text": "",
+      "page": 7,
+      "bbox": [
+        489.0,
+        90.0,
+        893.0,
+        151.0
+      ],
+      "source_block_index": 112,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_7_113",
+      "type": "text",
+      "section": "Results",
+      "text": "In order to elucidate the electronic energy levels, which determine the energy and electron transfer processes, the electronic properties were studied. The perylene bisimide initiator 6 and the perylene bisimide-labeled polymer poly(undecyl acrylate) 12, (in which there is no complexity of charge transfer) as an example were studied by cyclic voltammetry. We also measured the CV of a reference polymer, poly(4-vinyltriphenylamine), which do not carry any dye unit. The measurement was conducted on a glassy carbon electrode coupled with a $\\mathrm { A g / A g N O _ { 3 } }$reference electrode in a three-electrode assembly system. $\\mathrm { C H } _ { 2 } \\mathrm { C l } _ { 2 }$containing 0.1 M tetrabutylammonium hexafluorophosphate was used as a solvent. Perylene bisimide exhibits two reversible reduction peaks and one oxidation peak (Figure 6). From the data for 6 the lowest unoccupied molecular orbital (LUMO) value could be calculated as \u00013.74 eV and the HOMO as \u00016.01 eV with respect to the zero energy level. For the perylene bisimide-labeled acrylate polymer 12 the LUMO could be determined as \u00013.75 eV and the HOMO as \u00016.02 eV, showing that the electrochemical properties are preserved in the dye-labeled polymer. The HOMO of poly(4- vinyltriphenylamine)s is at about $- 5 . 2 \\mathrm { e V } . ^ { [ 2 1 ] }$This allows an electron transfer between the excited state of dye and the ground state of the poly(4-vinyltriphenylamine) resulting in quenching of the dye emission as observed in polymers 8a and 8b.",
+      "page": 7,
+      "bbox": [
+        488.0,
+        151.0,
+        893.0,
+        347.0
+      ],
+      "source_block_index": 113,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_7_113",
+        "V2_7_4_1",
+        "V2_7_4_3",
+        "V2_7_4_5"
+      ]
+    },
+    {
+      "block_id": "I_7_114",
+      "type": "image",
+      "section": "Results",
+      "page": 7,
+      "bbox": [
+        496.0,
+        372.0,
+        886.0,
+        611.0
+      ],
+      "source_block_index": 114,
+      "alignment_status": "matched",
+      "image_path": "organized/reference_no_0037607/images/1dbc46f2d869a13f47c50d3e7635d229d98978ab5039a390982cc1dcdb7dbd4d.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "I_7_115",
+      "type": "image",
+      "section": "Results",
+      "page": 7,
+      "bbox": [
+        494.0,
+        632.0,
+        886.0,
+        868.0
+      ],
+      "source_block_index": 115,
+      "alignment_status": "matched",
+      "caption": "Figure 6. Cyclic voltammograms of (A) PerInit 6 and (B) the dye-labeled polyacrylate 12 in CH Cl containing 0.1 M tetrabutylammonium hexafluorophosphate as a salt.",
+      "image_path": "organized/reference_no_0037607/images/ca92d0bfa64cfbeec55e89f8da5af572172dea1210637ead91d6d61f7c0ef66f.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "P_8_122",
+      "type": "text",
+      "section": "Results",
+      "text": "",
+      "page": 8,
+      "bbox": [
+        101.0,
+        91.0,
+        508.0,
+        286.0
+      ],
+      "source_block_index": 122,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_8_123",
+      "type": "title",
+      "section": "Conclusion",
+      "text": "Conclusion",
+      "page": 8,
+      "bbox": [
+        104.0,
+        314.0,
+        204.0,
+        331.0
+      ],
+      "source_block_index": 123,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_8_124",
+      "type": "text",
+      "section": "Conclusion",
+      "text": "A new perylene bisimide alkoxyamine initiator for the NMRP was utilized to synthesize different polymers. The resulting dye-labeled polymers were obtained with welldefined molecular weights and narrow polydispersities. Using hole transport monomers the electron transfer in this system could be studied whereas with electronically nonactive monomers such as styrene and acrylates an intense red fluorescence due to perylene bisimide could be seen. Therefore, these strong fluorescent polymers can be used for single-molecule investigations like imaging, spectroscopy, or diffusion experiments.<sup>[22]</sup> The aggregation of these polymers via p-p stacking can be tailored via tuning the length of the polymer chain. As perylene bisimides can be monitored using absorption and emission spectroscopy, the insertion of functional monomers such as 4- vinyltriphenylamine open up new concepts for model donoracceptor systems for ensemble and single molecule studies. Moreover, the flexibility of this synthetic strategy allows tailoring the optoelectronic properties of the acceptorlabeled polymers by using other hole transport monomers.",
+      "page": 8,
+      "bbox": [
+        101.0,
+        338.0,
+        508.0,
+        639.0
+      ],
+      "source_block_index": 124,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_8_125",
+      "type": "text",
+      "section": "Conclusion",
+      "text": "Acknowledgements: The financial support for this research work from the Deutsche Forschungsgemeinschaft (DFG/SFB",
+      "page": 8,
+      "bbox": [
+        104.0,
+        668.0,
+        506.0,
+        697.0
+      ],
+      "source_block_index": 125,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_8_126",
+      "type": "text",
+      "section": "Conclusion",
+      "text": "481) is kindly acknowledged. We also thank Markus Ba¨te, University of Bayreuth, for the MALDI-TOF MS analysis.",
+      "page": 8,
+      "bbox": [
+        528.0,
+        89.0,
+        930.0,
+        117.0
+      ],
+      "source_block_index": 126,
+      "alignment_status": "matched"
+    }
+  ],
+  "warnings": [
+    {
+      "code": "metadata_extraction_failed",
+      "message": "未配置统一 LLM 元数据提取器；document JSON 已继续生成"
+    }
+  ]
+}
