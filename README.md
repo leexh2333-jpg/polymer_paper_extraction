@@ -733,9 +733,8 @@ candidate（`candidate_partial`），这是 Preview 的既定设计。
 - 清扫悬空引用：`78`；
 - 对象守恒：`20/20` 通过。
 
-完整测试：`513 passed`。开发机验证结果位于
-`D:\1work\1_2026\polymer\testcode\batch_results\demo20_preview_final_20260812`；
-该目录未混入本次代码提交，避免扩大代码版本体积。
+完整测试：`513 passed`。本轮先提交代码；规范化后的 20 篇结果作为独立
+`batch_results` 数据提交发布，避免把代码变更和批次数据混在同一提交中。
 
 新增 5 个用例（`preview/tests/test_publish_candidate.py`），并通过移除守卫的
 反向对照确认这些用例确实能捕获该缺陷。

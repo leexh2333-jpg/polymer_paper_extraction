@@ -1,8 +1,8 @@
 {
   "package_name": "polymer_paper_extraction",
-  "generated_at": "2026-08-11",
-  "file_count": 503,
-  "total_bytes": 61711766,
+  "generated_at": "2026-08-12",
+  "file_count": 504,
+  "total_bytes": 61758272,
   "files": [
     {
       "path": ".env.example",
@@ -16,8 +16,8 @@
     },
     {
       "path": "README.md",
-      "size_bytes": 34738,
-      "sha256": "44d53c3c63f35127daf126120d7fbe4f17ddf426fc7c19c960c1610a7ef9b056"
+      "size_bytes": 37014,
+      "sha256": "152d30574e33a107d055d9b2f67dd366c9efb927811b00e83772ca48ce9ea31f"
     },
     {
       "path": "acceptance/ACCEPTANCE_SUMMARY.json",
@@ -1921,8 +1921,8 @@
     },
     {
       "path": "docs/Preview分支与开关说明.md",
-      "size_bytes": 8088,
-      "sha256": "aaf8f0b5149e15fd7f99a0b38eb772a963a6482b43f4f8f9a6beac45c8d1a132"
+      "size_bytes": 9222,
+      "sha256": "f9dc053a20bbb172157cde77c1ac4b736ca9bd1e2a91b027ec02de8ff4748a62"
     },
     {
       "path": "docs/extraction_pipeline_plain_guide.md",
@@ -1986,8 +1986,8 @@
     },
     {
       "path": "extraction/prompts/stage3_sample_process.md",
-      "size_bytes": 4458,
-      "sha256": "bb925689f2fba7390f97f45dc12d13f9b045e1462fdc5e2d6f9d4f5673c12d66"
+      "size_bytes": 5421,
+      "sha256": "4cdc823992ad65297a57750e26ac9e47ea90eaca4f062d9954f4b3d6d963686a"
     },
     {
       "path": "extraction/prompts/stage4_property.md",
@@ -2036,8 +2036,8 @@
     },
     {
       "path": "extraction/schema/polymer_schema.py",
-      "size_bytes": 103180,
-      "sha256": "aa1bffbb5d9f9ac6a6c1d8c5b02835aa33c0d57b8457efbaba4d79e59e117338"
+      "size_bytes": 105344,
+      "sha256": "4e51c77ec52b681e03cb81b8359ae3b63e8a804954365de87450066fe1c1d14c"
     },
     {
       "path": "extraction/stage_minus1_reorganize_mineru.py",
@@ -2066,8 +2066,8 @@
     },
     {
       "path": "extraction/stages/stage3_sample_process.py",
-      "size_bytes": 79431,
-      "sha256": "5e75305d8a33a4a4f0ebf2105ea35dd99bcd33362bb3b833dd1cdd4af18a4faf"
+      "size_bytes": 80782,
+      "sha256": "4cd37844cbd0037d0485d15512c49d2be894bfaa58b2518cf40b6f3b4dc2670b"
     },
     {
       "path": "extraction/stages/stage4_property.py",
@@ -2076,8 +2076,8 @@
     },
     {
       "path": "extraction/stages/stage4r_table_recovery.py",
-      "size_bytes": 31176,
-      "sha256": "ea79ff36e9cfc9086a7374760bd8458518fdd290f4360fea33fd017e1c091a36"
+      "size_bytes": 31541,
+      "sha256": "3a2e1c5c54dbc3b69a6265e71c44414096fede779f10c1a4d4c7683772671ead"
     },
     {
       "path": "extraction/stages/stage5_characterization.py",
@@ -2085,9 +2085,14 @@
       "sha256": "86cf997132111cf857d5b99d21945cfbcf14810747351866d3a08b05c1373d81"
     },
     {
+      "path": "extraction/stages/stage6_preview_salvage.py",
+      "size_bytes": 23919,
+      "sha256": "188b0ceae74bc950c695ff34f867858d245d5449c8586c1a54334ec1f8d0c52b"
+    },
+    {
       "path": "extraction/stages/stage6_validate_merge.py",
-      "size_bytes": 67380,
-      "sha256": "0fecc14d31b5f43c87d9cb252997304e830e8911c7b58fc67592d9ff920166d4"
+      "size_bytes": 71915,
+      "sha256": "82d9afdad72ed07c88638aadc7c84a441b272ebe4c35a9da1435a5b19c019644"
     },
     {
       "path": "extraction/stages/table_grid.py",
@@ -2161,8 +2166,8 @@
     },
     {
       "path": "extraction/tests/test_stage3_sample_process.py",
-      "size_bytes": 73792,
-      "sha256": "4ef2aeecfe36dda5877d649cee6bcd72ad9a853af4d06477f0e581d0e36174f0"
+      "size_bytes": 76043,
+      "sha256": "3998c7095d8eea956e8b60b7309f5844f8dfbd9f733f60cb78da9a67b17ea5ae"
     },
     {
       "path": "extraction/tests/test_stage4_property.py",
@@ -2171,8 +2176,8 @@
     },
     {
       "path": "extraction/tests/test_stage4r_table_recovery.py",
-      "size_bytes": 10244,
-      "sha256": "89d4abc55152c48aeb3ffd2be116922af7e9fe837b9aff82894a06c24a005f9a"
+      "size_bytes": 10405,
+      "sha256": "cd4daebcfeb42b7018357b6fe9c64ff1c2ca9477e18ce10e449c11cebeac9f78"
     },
     {
       "path": "extraction/tests/test_stage5_characterization.py",
@@ -2181,8 +2186,8 @@
     },
     {
       "path": "extraction/tests/test_stage6_validate_merge.py",
-      "size_bytes": 32213,
-      "sha256": "002f2f27f95ff371ddeac42c4ad2ce36f9702d30ee31236137cfa0b820aa046c"
+      "size_bytes": 39600,
+      "sha256": "f99cb08504c5fbb0cbdfd88d87b4191f204bebf7cc1191d3d5bf1d5a7b3d4876"
     },
     {
       "path": "extraction/tests/test_stage_minus1_reorganize_mineru.py",
