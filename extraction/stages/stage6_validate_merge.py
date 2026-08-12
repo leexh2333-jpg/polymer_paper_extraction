@@ -58,6 +58,7 @@ from stages.stage4_property import (
     write_json_atomic,
 )
 from stages import evidence_matcher
+from stages.stage6_preview_salvage import PreviewCollections, salvage_preview
 
 
 STAGE_ID = "stage6_validate_merge"
@@ -66,9 +67,12 @@ STAGE_ID = "stage6_validate_merge"
 # 各处，是为了 payload 里的 degraded_codes 永远和实际降级点保持一致。
 _PREVIEW_DEGRADED_PREFIXES = (
     "evidence_matched",
+    "preview_object_rejected_",
+    "preview_reference_pruned",
     "table_locator_matched",
     "table_locator_label_missing",
     "table_locator_blank_cell_recovered",
+    "table_locator_table_scope_accepted",
 )
 SENSITIVE_KEYS = {
     "api_key",
@@ -231,7 +235,7 @@ class EvidenceRegistry:
         self.preview = preview
         self._ids: dict[str, str] = {}
         self.items: list[FinalEvidence] = []
-        self._validated: set[str] = set()
+        self._validated: set[tuple[str, str]] = set()
         self._stable_warnings: set[str] = set()
         self._text_blocks: list[tuple[str, str]] | None = None
 
@@ -287,20 +291,24 @@ class EvidenceRegistry:
         *,
         stage: str,
         object_id: str,
+        locator_scope: str = "cell",
     ) -> str:
-        evidence = self._with_stable_table_locator(
-            evidence,
-            stage=stage,
-            object_id=object_id,
-        )
-        key = _evidence_key(evidence)
-        if key not in self._validated:
-            self._validate(
+        if not (self.preview and locator_scope == "table"):
+            evidence = self._with_stable_table_locator(
                 evidence,
                 stage=stage,
                 object_id=object_id,
             )
-            self._validated.add(key)
+        key = _evidence_key(evidence)
+        validation_key = (key, locator_scope)
+        if validation_key not in self._validated:
+            self._validate(
+                evidence,
+                stage=stage,
+                object_id=object_id,
+                locator_scope=locator_scope,
+            )
+            self._validated.add(validation_key)
         evidence_id = self._ids.get(key)
         if evidence_id is None:
             evidence_id = f"ev{len(self.items) + 1:03d}"
@@ -354,9 +362,15 @@ class EvidenceRegistry:
         *,
         stage: str,
         object_id: str,
+        locator_scope: str = "cell",
     ) -> list[str]:
         return [
-            self.add(item, stage=stage, object_id=object_id)
+            self.add(
+                item,
+                stage=stage,
+                object_id=object_id,
+                locator_scope=locator_scope,
+            )
             for item in evidence_items
         ]
 
@@ -366,6 +380,7 @@ class EvidenceRegistry:
         *,
         stage: str,
         object_id: str,
+        locator_scope: str = "cell",
     ) -> None:
         block = self.block_map.get(evidence.block_id)
         if block is None:
@@ -447,6 +462,33 @@ class EvidenceRegistry:
                 message="非 table Evidence 不得包含 table_locator",
                 object_id=object_id,
             )
+            return
+        if self.preview and locator_scope == "table":
+            table_id = locator.get("table_id")
+            if not isinstance(table_id, str) or not table_id.strip():
+                _add_issue(
+                    self.errors,
+                    stage=stage,
+                    code="invalid_table_locator",
+                    message="表级 table_locator 必须包含非空 table_id",
+                    object_id=object_id,
+                )
+            elif table_id != evidence.block_id:
+                _add_issue(
+                    self.errors,
+                    stage=stage,
+                    code="table_id_mismatch",
+                    message="table_locator.table_id 必须等于 block_id",
+                    object_id=object_id,
+                )
+            else:
+                _add_issue(
+                    self.warnings,
+                    stage=stage,
+                    code="table_locator_table_scope_accepted",
+                    message="Preview 接受 Characterization 的表级 locator",
+                    object_id=object_id,
+                )
             return
         required = ("table_id", "row_label", "column_label")
         missing = [
@@ -1643,6 +1685,7 @@ def validate_and_merge(
                 item.evidence,
                 stage="stage5_characterization",
                 object_id=item.characterization_id,
+                locator_scope="table",
             ),
         )
         for item in stage5.characterizations
@@ -1696,6 +1739,63 @@ def validate_and_merge(
         "stage5_properties": len(stage5.properties),
         "evidence": len(registry.items),
     }
+    rejected_objects = None
+    preview_publication_summary = None
+    if preview:
+        salvaged = salvage_preview(
+            PreviewCollections(
+                material_mentions=final_mentions,
+                polymer_entities=final_entities,
+                unresolved_mention_ids=stage2.unresolved_mention_ids,
+                samples=final_samples,
+                process_steps=final_steps,
+                unresolved_entity_ids=stage3.unresolved_entity_ids,
+                measurement_conditions=final_conditions,
+                property_observations=[
+                    *final_stage4_properties,
+                    *final_stage5_properties,
+                ],
+                unresolved_property_observations=final_unresolved,
+                property_series=final_series,
+                characterizations=final_characterizations,
+                evidence=registry.items,
+            ),
+            errors,
+            warnings,
+        )
+        final_mentions = salvaged.collections.material_mentions
+        final_entities = salvaged.collections.polymer_entities
+        final_unresolved_mention_ids = salvaged.collections.unresolved_mention_ids
+        final_samples = salvaged.collections.samples
+        final_steps = salvaged.collections.process_steps
+        final_unresolved_entity_ids = salvaged.collections.unresolved_entity_ids
+        final_conditions = salvaged.collections.measurement_conditions
+        final_properties = salvaged.collections.property_observations
+        final_unresolved = salvaged.collections.unresolved_property_observations
+        final_series = salvaged.collections.property_series
+        final_characterizations = salvaged.collections.characterizations
+        final_evidence = salvaged.collections.evidence
+        errors = salvaged.remaining_errors
+        warnings = salvaged.warnings
+        rejected_objects = salvaged.rejected_objects
+        preview_publication_summary = salvaged.summary
+        checked_counts.update({
+            "preview_published_objects": sum(
+                preview_publication_summary.published_counts.values()
+            ),
+            "preview_rejected_objects": len(rejected_objects),
+            "preview_reference_cleanup_count": (
+                preview_publication_summary.reference_cleanup_count
+            ),
+        })
+    else:
+        final_unresolved_mention_ids = stage2.unresolved_mention_ids
+        final_unresolved_entity_ids = stage3.unresolved_entity_ids
+        final_properties = [
+            *final_stage4_properties,
+            *final_stage5_properties,
+        ]
+        final_evidence = registry.items
     status = (
         "failed"
         if errors
@@ -1726,19 +1826,16 @@ def validate_and_merge(
         paper=stage0.paper,
         material_mentions=final_mentions,
         polymer_entities=final_entities,
-        unresolved_mention_ids=stage2.unresolved_mention_ids,
+        unresolved_mention_ids=final_unresolved_mention_ids,
         samples=final_samples,
         process_steps=final_steps,
-        unresolved_entity_ids=stage3.unresolved_entity_ids,
-        property_observations=[
-            *final_stage4_properties,
-            *final_stage5_properties,
-        ],
+        unresolved_entity_ids=final_unresolved_entity_ids,
+        property_observations=final_properties,
         measurement_conditions=final_conditions,
         unresolved_property_observations=final_unresolved,
         property_series=final_series,
         characterizations=final_characterizations,
-        evidence=registry.items,
+        evidence=final_evidence,
         provenance=provenance,
         warnings=warnings,
         validation_summary=summary,
@@ -1751,6 +1848,8 @@ def validate_and_merge(
             stage5,
         ),
         quality_metrics=quality_metrics,
+        rejected_objects=rejected_objects,
+        preview_publication_summary=preview_publication_summary,
     )
     raw_final = final.model_dump(mode="json")
     _scan_sensitive(raw_final, errors)
@@ -1839,9 +1938,9 @@ def run_stage6(
         exclude_none=False,
     )
     if preview:
-        # 标注这份产物是降级通过的：证据的表示层差异被接受成了 warning，
-        # 科学语义校验并未放宽。写在 payload 层而不是 schema 里，
-        # 是为了不改动 polymer_schema 的 FinalDocument 定义。
+        # 标注这份产物是 Preview 发布结果：表示差异可降级为 warning，
+        # 坏对象会进入 rejected_objects，悬空引用会被确定性清扫。
+        # 科学语义标准不放宽，无法发布的对象不会混入有效对象集合。
         payload["validation_mode"] = "preview"
         payload["validation_summary"] = {
             **payload.get("validation_summary", {}),

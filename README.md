@@ -2,7 +2,7 @@
 
 首次交付日期：2026-08-07
 
-最近更新日期：2026-08-11
+最近更新日期：2026-08-12
 
 固定数据集：20 篇文献
 
@@ -18,6 +18,8 @@
 > **2026-08-10 Stage 2 名称更新：** 同一实体同时包含具体聚合物名称和样品代号/缩写时，优先采用有原文 mention 支持的具体名称；原代号继续保留用于追溯。无法安全确定时保持原名称，不生成或猜测 canonical name。
 >
 > **2026-08-11 Stage 6 Preview 更新：** Preview 现在会执行 Stage 6（带 `--preview-relaxed`），产出 `final.json` 和 `report.html`，此前 Preview 直接跳过 Stage 6。新增 `extraction/stages/evidence_matcher.py`：Stage 0 存 HTML 表格和 LaTeX，Stage 4R 写管道渲染行，Stage 4/5 写可读文本，三者指同一处原文但字面互不包含，旧版按字面子串判定会误报。Preview 下这类**表示层**差异经确定性定位确认后降级为 warning；**科学语义校验没有放宽**，定位不上的证据、指错单元格的 locator、引用不存在 property 的 `derived_property_ids` 一律仍判 error。**Strict 分支代码未改动，判定结果逐条不变。**
+>
+> **2026-08-12 Preview 完整发布更新：** Stage 6 新增逐对象隔离和引用清扫。坏对象进入 `rejected_objects`，合法对象继续进入 `final.json`；悬空 `derived_property_ids` 只剪枝、不猜 ID。Characterization 允许表级 locator，Property 和 Series Point 仍要求单元格级定位。Stage 4R 的 evidence 直接保存稳定 `cell_id` 对应的 Stage 0 单元格文本，不再重新拼接管道行。Stage 3 同时新增 `polymer_type` 和 `material_type`。Strict 的校验规则和失败语义保持不变。
 
 ## 1. 交付包目录总览
 
@@ -134,7 +136,7 @@ preview/verify_demo20.py
 
 `candidate.json` 是聚合运行视图；`report_candidate.html` 是供人查看的候选报告。它们不替代各 Stage 原始 JSON。
 
-Preview 下 Stage 6 通过的文献另外产出 `final.json` 和 `report.html`（带降级标记，见 8.5）。Stage 6 未通过的文献仍会发布 `candidate.json`，状态记为 `candidate_partial`，不阻断整批推进——所以 `candidate.json` 是每篇都有的，`final.json` 只有 Stage 6 通过的才有。
+Preview 下 Stage 6 会隔离可定位到单个对象的错误，清扫悬空引用后产出 `final.json` 和 `report.html`（带降级标记，见 8.5）。只有文档级错误或无法安全隔离的错误仍会阻止 final；此时仍发布 `candidate.json`，状态记为 `candidate_partial`，不阻断整批推进。
 
 Strict 仍按 `Stage 0 → 1 → 2 → 3 → 4 → 5 → 6` 执行，不经过 Stage 4R。Preview 中 Stage 4R 会生成 `stage4r_recovery.json` 和 `stage4_properties.recovery_preview.json`，应用前的 Stage 4 保存在 `stage4_properties.pre_recovery.json`；补抽后的 `stage4_properties.json` 再交给 Stage 5 和候选发布器。
 
@@ -379,17 +381,23 @@ Preview 的原则是：不伪造事实、不修改数值和证据；局部对象
 - Stage 2：重复 mention 能唯一归属时自动修复，否则标记 unresolved；实体同时包含具体名称和样品代号时，优先采用有原文支持的具体名称；
 - Stage 3：结构和 Process 图合法时，局部 `sample_label_raw` evidence 定位问题可保留并 warning；
 - Stage 4/5：单个可选字段 evidence 无法定位时删除字段；对象整体不可信时删除对象；
-- Stage 6：证据的**表示层**差异（Stage 0 存 HTML/LaTeX、Stage 4R 写管道行、Stage 4/5 写可读文本）经 `evidence_matcher` 确定性定位确认后降级为 warning，仍产出 `final.json`；
+- Stage 6：证据的**表示层**差异经 `evidence_matcher` 确定性定位确认后降级为 warning；无法通过的单个对象进入 `rejected_objects`，不再连坐整篇；
+- Stage 6：删除对象后确定性清扫悬空引用，并输出 `preview_publication_summary` 做对象守恒检查；
+- Stage 6：Characterization 方法允许表级 locator；Property 和 Series Point 仍要求单元格级定位；
+- Stage 4R：恢复值的 evidence 直接使用稳定 `cell_id` 对应的 Stage 0 单元格文本；
+- Stage 3：Sample 新增 `polymer_type` 和 `material_type`，无证据时保持 `null`。
 - 非法 JSON：先做有限、确定性的语法修复；仍无法解析时保存原始响应，并生成 degraded 空运行视图；
 - 所有恢复、删除、unresolved 和空壳结果都必须写入 warning，不允许静默放行。
 
-Stage 6 的降级**只针对表示形态，不针对事实**。以下情况 Preview 一律仍判 error：
+Stage 6 不降低对象事实标准。以下情况不会作为有效对象发布：
 
 - 证据内容根本不在所引 block 里（按词多重集覆盖率判定，不做模糊数值替换——`44` 不会被原文的 `446` 顶掉）；
 - `cell_id` 指向的单元格与 `cell_value` 声明的值不符；
 - 同一个值在表里出现多次又没有 `cell_id`，无法唯一定位（判 `ambiguous`，不猜第一个）；
 - `table_locator` 指向整张表而不是某个单元格；
-- `derived_property_ids` 引用了任何 Stage 都不存在的 property。
+- Property / Series Point 只有整表级 locator、无法定位到具体格子。
+
+能够确定性清扫的反向悬空引用（例如不存在的 `derived_property_ids`）会被删除并记录 warning；不会猜测 `prop003 → prop_s5_003`。无法安全隔离的文档级错误仍会导致整篇失败。
 
 ### 8.3 “流程跑完”不等于“数据完整”
 
@@ -705,6 +713,29 @@ extraction 490 passed / ocr 13 passed / preview 18 passed
 
 不受影响的行为：目录存在、只是缺少某几个 Stage 文件时，仍按原样发布
 candidate（`candidate_partial`），这是 Preview 的既定设计。
+
+### 2026-08-12 A 期与 Stage 3 类型字段验证
+
+本次先完成 Preview A 期和 B 期第一项，不包含正文 fallback、Stage 4 Prompt 增强或 Caption 主体恢复：
+
+- Stage 6 Preview：逐对象隔离、引用清扫、对象守恒统计；
+- locator 分级：Characterization 可表级，Property / Series Point 保持单元格级；
+- Stage 4R：按稳定 `cell_id` 写入精确单元格 evidence；
+- Stage 3：新增 `polymer_type` / `material_type`，并升级 Stage 3 Schema、Prompt 和实现版本；旧 Stage 3 缓存不再静默复用。
+
+在开发机已有 20 篇 Stage 0–5 / Stage 4R 产物上，仅离线重跑 Stage 6（不调用模型）：
+
+- `final.json`：`20/20`；
+- `report.html`：`20/20`；
+- Stage 6 errors：每篇均为 `0`；
+- 发布对象：`3485`；
+- 隔离对象：`15`；
+- 清扫悬空引用：`78`；
+- 对象守恒：`20/20` 通过。
+
+完整测试：`513 passed`。开发机验证结果位于
+`D:\1work\1_2026\polymer\testcode\batch_results\demo20_preview_final_20260812`；
+该目录未混入本次代码提交，避免扩大代码版本体积。
 
 新增 5 个用例（`preview/tests/test_publish_candidate.py`），并通过移除守卫的
 反向对照确认这些用例确实能捕获该缺陷。

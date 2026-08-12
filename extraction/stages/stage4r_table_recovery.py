@@ -370,7 +370,17 @@ def build_unresolved_property(
     row_index = int(cell_report["row_index"])
     column_index = int(cell_report["column_index"])
     value_raw = str(cell_report["text"]).strip()
-    source_sentence = _row_sentence(cells, row_index) or value_raw
+    # Stage 4R 已经知道稳定 cell_id，不再把整行重新渲染成管道文本。
+    # 直接保存 Stage 0 的单元格文本，使 evidence 与 locator 指向同一来源。
+    source_sentence = next(
+        (
+            str(cell.text)
+            for cell in cells
+            if cell.row_index == row_index
+            and cell.column_index == column_index
+        ),
+        value_raw,
+    ) or value_raw
     bbox = list(table.bbox) if table.bbox is not None else None
     item = {
         "unresolved_id": unresolved_id,

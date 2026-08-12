@@ -30,6 +30,14 @@ PolymerType = Literal[
     "crosslinked_network",
     "blend",
 ]
+MaterialType = Literal[
+    "neat_resin",
+    "polymer_blend",
+    "polymer_composite",
+    "polymer_additive_system",
+    "polymer_solution",
+    "other",
+]
 StructuralFeatureTag = Literal[
     "sulfonic_acid_group",
     "aryl_ether_ketone_backbone",
@@ -275,7 +283,6 @@ class TokenUsageSummary(BaseModel):
         if self.total_tokens != expected_input + self.output_tokens:
             raise ValueError("total_tokens 与 token 明细不一致")
         return self
-
 
 class StageCost(BaseModel):
     model_config = ConfigDict(extra="forbid")
@@ -781,6 +788,8 @@ class SampleCandidate(ConfidenceCandidateModel):
     sample_id: str = Field(pattern=r"^s\d{3,}$")
     sample_kind: SampleKind
     refers_to_entity: str | None = Field(default=None, pattern=r"^pe\d{3,}$")
+    polymer_type: PolymerType | None = None
+    material_type: MaterialType | None = None
     sample_label_raw: str | None = Field(default=None, min_length=1)
     state_description: str | None = Field(default=None, min_length=1)
     intended_use: list[str] = Field(default_factory=list)
@@ -910,6 +919,8 @@ class Sample(BaseModel):
     sample_kind: SampleKind
     refers_to_entity: str | None = Field(default=None, pattern=r"^pe\d{3,}$")
     polymer_name: str = Field(min_length=1)
+    polymer_type: PolymerType | None = None
+    material_type: MaterialType | None = None
     sample_label_raw: str | None = None
     state_description: str | None = None
     intended_use: list[str] = Field(default_factory=list)
@@ -952,10 +963,12 @@ class Stage3Provenance(BaseModel):
     output_schema_version: Literal[
         "sample_process_schema.v1",
         "sample_process_schema.v2",
+        "sample_process_schema.v3",
     ]
     implementation_version: Literal[
         "1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.3.0", "1.3.1",
         "1.3.2", "1.3.3", "1.3.4", "1.3.5", "1.3.6", "1.3.7",
+        "1.4.0",
     ]
     context_block_count: NonNegativeInt
     context_chars: NonNegativeInt
@@ -2104,6 +2117,8 @@ class FinalSample(BaseModel):
     sample_kind: SampleKind
     refers_to_entity: str | None = Field(default=None, pattern=r"^pe\d{3,}$")
     polymer_name: str = Field(min_length=1)
+    polymer_type: PolymerType | None = None
+    material_type: MaterialType | None = None
     sample_label_raw: str | None = None
     state_description: str | None = None
     intended_use: list[str] = Field(default_factory=list)
@@ -2383,6 +2398,48 @@ class ValidationSummary(BaseModel):
     warning_count: NonNegativeInt
 
 
+class RejectedObject(BaseModel):
+    """Preview 发布时被逐对象隔离的原始对象。"""
+
+    model_config = ConfigDict(extra="forbid")
+
+    object_id: str = Field(min_length=1)
+    object_type: str = Field(min_length=1)
+    source_stage: str = Field(min_length=1)
+    error_codes: list[str] = Field(min_length=1)
+    messages: list[str] = Field(min_length=1)
+    raw_object: dict[str, Any]
+
+
+class PreviewPublicationSummary(BaseModel):
+    """Preview 逐对象发布的守恒统计。"""
+
+    model_config = ConfigDict(extra="forbid")
+
+    input_counts: dict[str, NonNegativeInt] = Field(default_factory=dict)
+    published_counts: dict[str, NonNegativeInt] = Field(default_factory=dict)
+    rejected_counts: dict[str, NonNegativeInt] = Field(default_factory=dict)
+    reference_cleanup_count: NonNegativeInt = 0
+    conservation_passed: bool
+
+    @model_validator(mode="after")
+    def validate_conservation(self) -> "PreviewPublicationSummary":
+        object_types = (
+            set(self.input_counts)
+            | set(self.published_counts)
+            | set(self.rejected_counts)
+        )
+        expected = all(
+            self.input_counts.get(object_type, 0)
+            == self.published_counts.get(object_type, 0)
+            + self.rejected_counts.get(object_type, 0)
+            for object_type in object_types
+        )
+        if self.conservation_passed != expected:
+            raise ValueError("conservation_passed 与对象计数不一致")
+        return self
+
+
 class CompletenessMetric(BaseModel):
     model_config = ConfigDict(extra="forbid")
 
@@ -2520,6 +2577,8 @@ class FinalDocument(BaseModel):
     validation_summary: ValidationSummary
     cost_summary: CostSummary
     quality_metrics: QualityMetrics
+    rejected_objects: list[RejectedObject] | None = None
+    preview_publication_summary: PreviewPublicationSummary | None = None
 
     @model_validator(mode="after")
     def validate_references(self) -> "FinalDocument":

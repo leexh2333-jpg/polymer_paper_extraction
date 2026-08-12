@@ -81,6 +81,10 @@ def test_build_uses_normalized_property_name_not_trailing_data_header() -> None:
     )
     assert item["property_name_raw"] == "dynamic_tensile_properties"
     assert item["property_name_raw"] not in {"2.8", "-"}
+    assert item["evidence"][0]["source_sentence"] == "1.5"
+    assert item["evidence"][0]["table_locator"]["cell_id"] == (
+        "T_1_1:r0003:c0001"
+    )
 
 
 

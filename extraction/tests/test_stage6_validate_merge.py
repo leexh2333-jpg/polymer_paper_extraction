@@ -811,8 +811,24 @@ class Stage6PreviewTests(unittest.TestCase):
         }
         stages = self._stages_with_table_evidence(locator, "446")
 
-        _, preview = validate_and_merge(*stages, preview=True)
-        self.assertIn("invalid_table_locator", self._codes(preview.errors))
+        final, preview = validate_and_merge(*stages, preview=True)
+        self.assertIsNotNone(final)
+        assert final is not None
+        self.assertNotIn("prop001", {
+            item.property_id for item in final.property_observations
+        })
+        self.assertIn("prop001", {
+            item.object_id for item in final.rejected_objects or []
+        })
+        self.assertIn(
+            "invalid_table_locator",
+            {
+                code
+                for item in final.rejected_objects or []
+                for code in item.error_codes
+            },
+        )
+        self.assertEqual(preview.errors, [])
 
     def test_preview_still_rejects_fabricated_sentence(self) -> None:
         """内容根本不在该 block 里，preview 也不能放行。"""
@@ -830,8 +846,180 @@ class Stage6PreviewTests(unittest.TestCase):
         )]
         stages[4] = stage4
 
-        _, preview = validate_and_merge(*stages, preview=True)
-        self.assertIn("evidence_not_in_source", self._codes(preview.errors))
+        strict_final, strict = validate_and_merge(*stages)
+        self.assertIsNone(strict_final)
+        self.assertIn("evidence_not_in_source", self._codes(strict.errors))
+
+        final, preview = validate_and_merge(*stages, preview=True)
+        self.assertIsNotNone(final)
+        assert final is not None
+        self.assertNotIn("prop001", {
+            item.property_id for item in final.property_observations
+        })
+        rejected = {
+            item.object_id: item for item in final.rejected_objects or []
+        }
+        self.assertIn("prop001", rejected)
+        self.assertIn("evidence_not_in_source", rejected["prop001"].error_codes)
+        self.assertTrue(final.preview_publication_summary.conservation_passed)
+        self.assertEqual(preview.errors, [])
+
+    def test_preview_prunes_unknown_derived_property_reference(self) -> None:
+        stages = list(all_stages())
+        stage5 = stages[5].model_copy(deep=True)
+        stage5.characterizations[0].derived_property_ids.append("prop999")
+        stages[5] = stage5
+
+        strict_final, strict = validate_and_merge(*stages)
+        self.assertIsNone(strict_final)
+        self.assertIn("unknown_property_reference", self._codes(strict.errors))
+
+        final, preview = validate_and_merge(*stages, preview=True)
+        self.assertIsNotNone(final)
+        assert final is not None
+        self.assertNotIn(
+            "prop999",
+            final.characterizations[0].derived_property_ids,
+        )
+        self.assertFalse(final.rejected_objects)
+        self.assertGreater(
+            final.preview_publication_summary.reference_cleanup_count,
+            0,
+        )
+        self.assertIn("preview_reference_pruned", self._codes(preview.warnings))
+
+    def test_preview_accepts_table_scope_locator_for_characterization(self) -> None:
+        stages = list(all_stages())
+        stage0 = stages[0].model_copy(deep=True)
+        stage0.elements.append(Stage0Element(
+            block_id="T_2_9",
+            type="table",
+            page=2,
+            bbox=(1, 2, 3, 4),
+            source_block_index=9,
+            table_body=self.TABLE_BODY,
+            table_cells=parse_table_cells(self.TABLE_BODY, "T_2_9"),
+        ))
+        stages[0] = stage0
+        stage5 = stages[5].model_copy(deep=True)
+        stage5.characterizations[0].evidence = [Evidence(
+            block_id="T_2_9",
+            page=2,
+            bbox=(1, 2, 3, 4),
+            source_type="table",
+            source_sentence="Sample",
+            table_locator={
+                "table_id": "T_2_9",
+                "row_label": "All polymers",
+                "column_label": "Tg, Tm, Ti",
+                "cell_value": None,
+                "cell_id": None,
+                "row_index": None,
+                "column_index": None,
+            },
+        )]
+        stages[5] = stage5
+
+        strict_final, strict = validate_and_merge(*stages)
+        self.assertIsNone(strict_final)
+        self.assertIn("invalid_table_locator", self._codes(strict.errors))
+
+        final, preview = validate_and_merge(*stages, preview=True)
+        self.assertIsNotNone(final)
+        assert final is not None
+        self.assertIn("char001", {
+            item.characterization_id for item in final.characterizations
+        })
+        self.assertIn(
+            "table_locator_table_scope_accepted",
+            self._codes(preview.warnings),
+        )
+
+    def test_preview_rejects_one_bad_series_point_and_recomputes_coverage(self) -> None:
+        stages = list(all_stages())
+        stage4 = stages[4].model_copy(deep=True)
+        valid_evidence = stage4.properties[0].evidence[0]
+        bad_evidence = Evidence(
+            block_id="P_2_0",
+            page=2,
+            bbox=(1, 2, 3, 4),
+            source_type="text",
+            source_sentence="This fabricated point evidence is absent from the paper.",
+        )
+        confidence = {"score": 0.8}
+        series = PropertySeries.model_validate({
+            "series_id": "series001",
+            "sample_id": "s001",
+            "entity_id": "pe001",
+            "sample_resolution_status": "resolved",
+            "property_name_raw": "stress",
+            "measurement_context": {"condition_status": "not_reported"},
+            "points": [
+                {
+                    "point_id": "pt001",
+                    "sample_id": "s001",
+                    "entity_id": "pe001",
+                    "sample_resolution_status": "resolved",
+                    "coordinates": [],
+                    "value_raw": "3.2",
+                    "coverage_status": "covered",
+                    "measurement_context": {"condition_status": "not_reported"},
+                    "evidence": [bad_evidence.model_dump(mode="python")],
+                    "confidence": confidence,
+                },
+                {
+                    "point_id": "pt002",
+                    "sample_id": "s001",
+                    "entity_id": "pe001",
+                    "sample_resolution_status": "resolved",
+                    "coordinates": [],
+                    "value_raw": "4.1",
+                    "coverage_status": "covered",
+                    "measurement_context": {"condition_status": "not_reported"},
+                    "evidence": [valid_evidence.model_dump(mode="python")],
+                    "confidence": confidence,
+                },
+            ],
+            "coverage": {
+                "expected": 2,
+                "covered": 2,
+                "missing": 0,
+                "not_applicable": 0,
+                "ratio": 1.0,
+            },
+            "evidence": [valid_evidence.model_dump(mode="python")],
+            "confidence": confidence,
+        })
+        stage4.property_series = [series]
+        original_point_count = len(series.points)
+        rejected_point_id = "pt001"
+        stages[4] = stage4
+
+        final, preview = validate_and_merge(*stages, preview=True)
+
+        self.assertIsNotNone(final)
+        assert final is not None
+        final_series = next(
+            item for item in final.property_series
+            if item.series_id == series.series_id
+        )
+        self.assertEqual(len(final_series.points), original_point_count - 1)
+        self.assertNotIn(
+            rejected_point_id,
+            {point.point_id for point in final_series.points},
+        )
+        self.assertEqual(
+            final_series.coverage.covered,
+            sum(point.coverage_status == "covered" for point in final_series.points),
+        )
+        self.assertEqual(
+            final_series.coverage.missing,
+            sum(point.coverage_status == "missing" for point in final_series.points),
+        )
+        self.assertIn(rejected_point_id, {
+            item.object_id for item in final.rejected_objects or []
+        })
+        self.assertEqual(preview.errors, [])
 
     def test_preview_metadata_written_to_final_json(self) -> None:
         locator = {

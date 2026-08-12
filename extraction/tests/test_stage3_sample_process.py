@@ -214,6 +214,25 @@ class FakeClient:
         )
 
 
+class SampleTypeClient(FakeClient):
+    def __init__(
+        self,
+        *,
+        polymer_type: str = "random_copolymer",
+        material_type: str = "neat_resin",
+    ) -> None:
+        super().__init__()
+        self.polymer_type = polymer_type
+        self.material_type = material_type
+
+    def call_json(self, *args, **kwargs) -> LLMJSONResponse:
+        response = super().call_json(*args, **kwargs)
+        for sample in response.data["samples"]:
+            sample["polymer_type"] = self.polymer_type
+            sample["material_type"] = self.material_type
+        return response
+
+
 class MissingEntityCoverageClient(FakeClient):
     def call_json(
         self,
@@ -893,7 +912,7 @@ def rendered_prompt():
         "polymer.stage3.sample_process",
         SampleProcessResponse,
         expected_stage="stage3_sample_process",
-        expected_output_schema="sample_process_schema.v2",
+        expected_output_schema="sample_process_schema.v3",
     )
 
 
@@ -1064,7 +1083,7 @@ class Stage3Tests(unittest.TestCase):
             )
         )
 
-    def test_previous_implementation_cache_is_reused(self) -> None:
+    def test_previous_implementation_cache_is_not_reused(self) -> None:
         document = stage0_document()
         entities = stage2_document()
         client = FakeClient()
@@ -1110,9 +1129,9 @@ class Stage3Tests(unittest.TestCase):
                 prompt,
             )
 
-            self.assertEqual(IMPLEMENTATION_VERSION, "1.3.7")
-            self.assertTrue(cached)
-            self.assertEqual(client.calls, calls_after_first)
+            self.assertEqual(IMPLEMENTATION_VERSION, "1.4.0")
+            self.assertFalse(cached)
+            self.assertEqual(client.calls, calls_after_first + 1)
     def test_sample_label_html_entity_is_recovered_with_warning(self) -> None:
         document_data = stage0_document().model_dump(mode="json")
         document_data["elements"][1]["text"] = (
@@ -1411,7 +1430,7 @@ class Stage3Tests(unittest.TestCase):
     def test_prompt_requires_verbatim_raw_fields(self) -> None:
         prompt = rendered_prompt()
 
-        self.assertEqual(prompt.version, "1.2.2")
+        self.assertEqual(prompt.version, "1.3.0")
         self.assertIn("不得翻译、概括、添加括号解释", prompt.text)
         self.assertIn("无法从 evidence 逐字复制时必须设为 `null`", prompt.text)
         self.assertIn("`intended_use` 只能放入", prompt.text)
@@ -1933,6 +1952,49 @@ class Stage3Tests(unittest.TestCase):
             result.samples[1].state_description,
             "dried at 60 °C for 6 h",
         )
+
+    def test_sample_types_are_preserved_when_entity_type_is_unknown(self) -> None:
+        result = extract_samples_processes(
+            stage0_document(),
+            stage2_document(),
+            SampleTypeClient(),
+            rendered_prompt(),
+            max_validation_retries=0,
+        )
+
+        self.assertTrue(all(
+            sample.polymer_type == "random_copolymer"
+            for sample in result.samples
+        ))
+        self.assertTrue(all(
+            sample.material_type == "neat_resin"
+            for sample in result.samples
+        ))
+
+    def test_entity_polymer_type_overrides_conflicting_sample_type(self) -> None:
+        entity_data = stage2_document().model_dump(mode="json")
+        entity_data["polymer_entities"][0]["polymer_type"] = "homopolymer"
+        entities = Stage2Document.model_validate(entity_data)
+
+        result = extract_samples_processes(
+            stage0_document(),
+            entities,
+            SampleTypeClient(polymer_type="random_copolymer"),
+            rendered_prompt(),
+            max_validation_retries=0,
+        )
+
+        self.assertTrue(all(
+            sample.polymer_type == "homopolymer"
+            for sample in result.samples
+        ))
+        warning = next(
+            item for item in result.warnings
+            if item["code"] == "sample_polymer_type_overridden"
+        )
+        self.assertEqual(len(warning["repairs"]), 2)
+        self.assertEqual(warning["repairs"][0]["model_value"], "random_copolymer")
+        self.assertEqual(warning["repairs"][0]["resolved_value"], "homopolymer")
 
     def test_case_changed_sample_name_is_mapped_to_source(self) -> None:
         result = extract_samples_processes(

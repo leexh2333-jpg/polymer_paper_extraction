@@ -52,11 +52,10 @@ from schema.polymer_schema import (
 
 
 STAGE_ID = "stage3_sample_process"
-OUTPUT_SCHEMA_VERSION = "sample_process_schema.v2"
-IMPLEMENTATION_VERSION = "1.3.7"
-COMPATIBLE_CACHE_IMPLEMENTATION_VERSIONS = (
-    "1.3.6", "1.3.5", "1.3.4", "1.3.3", "1.3.2"
-)
+OUTPUT_SCHEMA_VERSION = "sample_process_schema.v3"
+IMPLEMENTATION_VERSION = "1.4.0"
+# Sample 正式增加 polymer_type/material_type，旧缓存缺少这两个字段，不能复用。
+COMPATIBLE_CACHE_IMPLEMENTATION_VERSIONS: tuple[str, ...] = ()
 DEFAULT_INPUT_SECTIONS = ("Methods",)
 INITIAL_SAMPLE_KINDS = {"synthesis_batch", "commercial_batch"}
 SENTENCE_BOUNDARY_RE = re.compile(r"[.!?。！？]\s+|\n+")
@@ -1381,7 +1380,7 @@ def _materialize(
     parsed: SampleProcessResponse,
     blocks: list[Stage0Element],
     entities: Stage2Document,
-) -> tuple[list[Sample], list[ProcessStep]]:
+) -> tuple[list[Sample], list[ProcessStep], list[dict[str, Any]]]:
     block_map = {block.block_id: block for block in blocks}
     entity_map = {
         entity.entity_id: entity
@@ -1396,6 +1395,7 @@ def _materialize(
         for index, step in enumerate(parsed.process_steps, start=1)
     }
     samples: list[Sample] = []
+    polymer_type_overrides: list[dict[str, Any]] = []
     for candidate in parsed.samples:
         block = block_map[candidate.evidence.block_id]
         linked_entity = (
@@ -1412,11 +1412,26 @@ def _materialize(
             raise Stage3Error(
                 f"{candidate.sample_id} 无法生成兼容 polymer_name"
             )
+        polymer_type = candidate.polymer_type
+        if linked_entity is not None and linked_entity.polymer_type is not None:
+            if (
+                polymer_type is not None
+                and polymer_type != linked_entity.polymer_type
+            ):
+                polymer_type_overrides.append({
+                    "sample_id": sample_id_map[candidate.sample_id],
+                    "entity_id": linked_entity.entity_id,
+                    "model_value": polymer_type,
+                    "resolved_value": linked_entity.polymer_type,
+                })
+            polymer_type = linked_entity.polymer_type
         samples.append(Sample(
             sample_id=sample_id_map[candidate.sample_id],
             sample_kind=candidate.sample_kind,
             refers_to_entity=candidate.refers_to_entity,
             polymer_name=polymer_name,
+            polymer_type=polymer_type,
+            material_type=candidate.material_type,
             sample_label_raw=candidate.sample_label_raw,
             state_description=candidate.state_description,
             intended_use=candidate.intended_use,
@@ -1453,7 +1468,7 @@ def _materialize(
             ),
             confidence=candidate.confidence,
         ))
-    return samples, steps
+    return samples, steps, polymer_type_overrides
 
 
 def _cache_components(
@@ -1599,7 +1614,11 @@ def extract_samples_processes(
     else:
         parsed = SampleProcessResponse()
 
-    samples, process_steps = _materialize(parsed, blocks, entities)
+    samples, process_steps, polymer_type_overrides = _materialize(
+        parsed,
+        blocks,
+        entities,
+    )
     sample_id_map = {
         candidate.sample_id: samples[index].sample_id
         for index, candidate in enumerate(parsed.samples)
@@ -1624,6 +1643,16 @@ def extract_samples_processes(
                 "语义对应校验；Strict 模式仍会报错"
             ),
             "reason": preview_semantic_bypass_reason,
+        })
+    if polymer_type_overrides:
+        warnings.append({
+            "stage": STAGE_ID,
+            "code": "sample_polymer_type_overridden",
+            "message": (
+                "Sample.polymer_type 与已解析 PolymerEntity 冲突；"
+                "已确定性采用 Stage 2 entity 的明确类型"
+            ),
+            "repairs": polymer_type_overrides,
         })
     if consecutive_process_repairs:
         warnings.append({

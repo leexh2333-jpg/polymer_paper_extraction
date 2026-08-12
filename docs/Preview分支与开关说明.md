@@ -15,7 +15,10 @@
 | Stage 4R 表格恢复 | 不跑 | 跑，插在 Stage 4 和 Stage 5 之间 |
 | Stage 1–5 校验失败 | 直接判失败 | `--preview-relaxed`，可离线重放恢复 |
 | Stage 6 证据表示层差异 | 判 error | 经 `evidence_matcher` 确定性定位确认后降级为 warning |
-| Stage 6 科学语义校验 | 严格 | **一样严格，不放宽** |
+| Stage 6 对象错误 | 整篇失败 | 坏对象进入 `rejected_objects`，合法对象继续发布 |
+| Stage 6 引用错误 | 判 error | 可确定性剪枝的悬空反向引用删除并 warning；不猜 ID |
+| Stage 6 locator | 单元格级 | Characterization 可表级；Property / Point 仍要求单元格级 |
+| Stage 6 科学语义标准 | 严格 | **对象标准一样严格，不合格对象不进入有效集合** |
 | 产物 | `final.json` / `report.html` | 同左，外加 `candidate.json` / `report_candidate.html` |
 | 某篇跑不过 | 整篇失败 | 仍发布 candidate（状态 `candidate_partial`），不阻断整批 |
 
@@ -47,18 +50,21 @@ python extraction/stages/stage6_validate_merge.py --batch --preview-relaxed `
   --input-root ./output_preview --output-root ./output_preview
 ```
 
-`--preview-relaxed`：证据的**表示层**差异（Stage 0 存 HTML 表格和 LaTeX、Stage 4R 写管道
-渲染行、Stage 4/5 写 LaTeX 剥离后的可读文本——三者指同一处原文但字面互不包含）经
-`evidence_matcher` 确定性定位确认后降级为 warning，仍产出 `final.json` 和 `report.html`。
+`--preview-relaxed`：证据的**表示层**差异经 `evidence_matcher` 确定性定位确认后降级为
+warning。仍不能通过的单个对象进入 `rejected_objects`；删除对象后执行引用清扫并输出
+`preview_publication_summary`。只要没有文档级错误，仍产出 `final.json` 和 `report.html`。
 
-以下情况**照样判 error**，不受此开关影响：
+以下情况不会作为有效对象发布：
 
 - 证据内容根本不在所引 block 里（按词多重集覆盖率判定，不做模糊数值替换——
   `44` 不会被原文的 `446` 顶掉）；
 - `cell_id` 指向的单元格与 `cell_value` 声明的值不符；
 - 同一个值在表里出现多次又没有 `cell_id`，无法唯一定位（判 `ambiguous`，不猜第一个）；
-- `table_locator` 指向整张表而不是某个单元格；
-- `derived_property_ids` 引用了任何 Stage 都不存在的 property。
+- Property / Series Point 的 `table_locator` 只指向整张表而不是某个单元格。
+
+Characterization 方法可以描述整张表，因此 Preview 允许只提供有效 `table_id` 的表级
+locator。`derived_property_ids` 中不存在的 ID 会被删除并记录 warning；不会按编号猜测
+映射到其他 property。无法定位到具体对象的文档级错误仍会导致整篇失败。
 
 不带这个开关时，代码路径与本次改动前完全一致。
 
@@ -142,6 +148,14 @@ Preview 产出的 `final.json` 顶层带标记，Strict 产出的**没有**这�
       "evidence_matched_after_normalization",
       "table_locator_matched"
     ]
+  },
+  "rejected_objects": [],
+  "preview_publication_summary": {
+    "input_counts": {},
+    "published_counts": {},
+    "rejected_counts": {},
+    "reference_cleanup_count": 0,
+    "conservation_passed": true
   }
 }
 ```
@@ -156,6 +170,9 @@ Preview 产出的 `final.json` 顶层带标记，Strict 产出的**没有**这�
 | `table_locator_matched*` | locator 标签的渲染形态不同，但单元格可确定性定位 |
 | `table_locator_label_missing` | `row_label` 为 null（表格首列为空），但 `cell_id` 能定位到该格 |
 | `table_locator_blank_cell_recovered` | 空单元格 locator 未走稳定路径，但按坐标确认该格确实为空 |
+| `table_locator_table_scope_accepted` | Characterization 的表级 locator 已按方法对象标准接受 |
+| `preview_object_rejected_*` | 单个坏对象已隔离，原错误码保留在 `rejected_objects` |
+| `preview_reference_pruned` | 已确定性删除悬空引用，不进行猜测映射 |
 
 带 `validation_mode: preview` 的数据属于**候选**，未经科学语义人工确认，
 不得直接宣称可入库。

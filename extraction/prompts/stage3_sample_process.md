@@ -1,8 +1,8 @@
 ---
 prompt_id: polymer.stage3.sample_process
-version: 1.2.2
+version: 1.3.0
 stage: stage3_sample_process
-output_schema: sample_process_schema.v2
+output_schema: sample_process_schema.v3
 ---
 
 # Role
@@ -23,6 +23,17 @@ output_schema: sample_process_schema.v2
 - `conditioned_state`：经过有实验意义的预平衡、含水或持久状态处理的样品。
 - `test_specimen`：从材料制备出的明确试样。
 - `post_test_state`：测试后发生持久改变并被明确研究的样品。
+
+# Sample types
+
+- `polymer_type`：聚合物结构类型，只能填写
+  `homopolymer | random_copolymer | block_copolymer | graft_copolymer |
+  crosslinked_network | blend`。若所关联 PolymerEntity 已给出该字段，必须原样继承；
+  原文和实体均不能确定时为 `null`。
+- `material_type`：当前物理样品的材料组成类型，只能填写
+  `neat_resin | polymer_blend | polymer_composite | polymer_additive_system |
+  polymer_solution | other`。仅在样品组成、配方或工艺证据明确时填写；
+  未出现添加剂不等于 `neat_resin`，不能依靠缺失信息推断，不能确定时为 `null`。
 
 # Process types
 
@@ -67,6 +78,9 @@ surface_modification | plasma_treatment | other`
     `source_text`，并直接支持该 Sample 或 ProcessStep。
 13. 论文未给出足够的实际样品/工艺信息时，将 entity 保留为 unresolved，不生成
     假样品或假步骤。
+14. `polymer_type` 和 `material_type` 只用于描述已识别的 Sample。不得为了填写类型
+    新增、删除、拆分或合并 Sample，不得改变 `refers_to_entity`，也不得改变
+    ProcessStep DAG。
 
 # Confidence
 
