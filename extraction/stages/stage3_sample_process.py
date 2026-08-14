@@ -52,9 +52,9 @@ from schema.polymer_schema import (
 
 
 STAGE_ID = "stage3_sample_process"
-OUTPUT_SCHEMA_VERSION = "sample_process_schema.v3"
-IMPLEMENTATION_VERSION = "1.4.0"
-# Sample 正式增加 polymer_type/material_type，旧缓存缺少这两个字段，不能复用。
+OUTPUT_SCHEMA_VERSION = "sample_process_schema.v4"
+IMPLEMENTATION_VERSION = "1.7.0"
+# 类型推断与材料加工链继承已变化，旧缓存不能复用。
 COMPATIBLE_CACHE_IMPLEMENTATION_VERSIONS: tuple[str, ...] = ()
 DEFAULT_INPUT_SECTIONS = ("Methods",)
 INITIAL_SAMPLE_KINDS = {"synthesis_batch", "commercial_batch"}
@@ -63,6 +63,38 @@ HTML_CHARACTER_REFERENCE_RE = re.compile(
     r"&(?:#[0-9]+|#x[0-9a-f]+|[a-z][a-z0-9]+);",
     flags=re.IGNORECASE,
 )
+COMPOSITE_EVIDENCE_RE = re.compile(
+    r"\b(?:reinforced|reinforcement|filler|filled)\b|"
+    r"\bcarbon\s+(?:fibers?|fibres?|black)\b|\bcCF\b|"
+    r"\b\d+(?:\.\d+)?\s*(?:wt|vol)\s*%\s*CB\b|\b[A-Z]+/CB\d*\b",
+    re.IGNORECASE,
+)
+COMPOUND_EVIDENCE_RE = re.compile(
+    r"\b(?:dopant|doped|doping|plasticizer|plasticised|plasticized|additive|"
+    r"electrolyte(?:\s+salt)?|masterbatch)\b|"
+    r"\bLiClO\s*4\b|\blithium\s+perchlorate\b",
+    re.IGNORECASE,
+)
+AMBIGUOUS_COMPOSITION_RE = re.compile(
+    r"\b(?:blend(?:ed|s)?|mixture|compounded|formulation)\b",
+    re.IGNORECASE,
+)
+COMPOSITION_PRESERVING_PROCESS_TYPES = {
+    "casting",
+    "film_formation",
+    "extrusion",
+    "molding",
+    "pressing",
+    "annealing",
+    "hydration",
+    "drying",
+    "hot_pressing",
+    "electrospinning",
+    "specimen_preparation",
+    "cutting",
+    "punching",
+}
+COMPOSITION_CHANGING_PROCESS_TYPES = {"blending", "compounding", "mixing"}
 
 
 class Stage3Error(RuntimeError):
@@ -196,6 +228,15 @@ def write_json_atomic(path: Path, data: Any) -> None:
     temp_path.replace(path)
 
 
+def _stage3_output_payload(result: Stage3Document) -> dict[str, Any]:
+    payload = result.model_dump(mode="json", exclude_none=True)
+    for sample in payload.get("samples", []):
+        sample.setdefault("polymer_type", None)
+        sample.setdefault("copolymer_type", None)
+        sample.setdefault("material_type", None)
+    return payload
+
+
 def _load_model(path: Path, model: type[Any], label: str) -> Any:
     try:
         raw = json.loads(path.read_text(encoding="utf-8-sig"))
@@ -302,6 +343,7 @@ def _user_message(
             "entity_id": entity.entity_id,
             "polymer_name": entity.polymer_name,
             "polymer_type": entity.polymer_type,
+            "copolymer_type": entity.copolymer_type,
             "variant_of": entity.variant_of,
             "structural_features": entity.structural_features,
             "source_names": entity.source_names,
@@ -458,6 +500,125 @@ def _drop_unknown_confidence_fields(
 ) -> tuple[dict[str, Any], list[str], list[dict[str, Any]]]:
     cleaned, dropped = compact_confidence_payload(data)
     return cleaned, dropped, []
+
+
+def _repair_preview_evidence_key_typos(
+    data: dict[str, Any],
+) -> tuple[dict[str, Any], list[dict[str, Any]]]:
+    cleaned = copy.deepcopy(data)
+    repairs: list[dict[str, Any]] = []
+    for collection_name in ("samples", "process_steps"):
+        items = cleaned.get(collection_name)
+        if not isinstance(items, list):
+            continue
+        for index, item in enumerate(items):
+            if not isinstance(item, dict):
+                continue
+            evidence = item.get("evidence")
+            if not isinstance(evidence, dict) or "source_sentence:" not in evidence:
+                continue
+            typo_value = evidence.pop("source_sentence:")
+            if "source_sentence" not in evidence and isinstance(typo_value, str):
+                evidence["source_sentence"] = typo_value
+            repairs.append({
+                "collection": collection_name,
+                "index": index,
+                "field": "evidence.source_sentence",
+                "pattern": "trailing_colon_key_removed",
+            })
+    return cleaned, repairs
+
+
+def _normalize_preview_process_types(
+    data: dict[str, Any],
+) -> tuple[dict[str, Any], list[dict[str, Any]]]:
+    """Preview 下规范化已核实的工艺修饰词，其他未知类型仍交给 Schema 拒绝。"""
+    cleaned = copy.deepcopy(data)
+    repairs: list[dict[str, Any]] = []
+    steps = cleaned.get("process_steps")
+    if not isinstance(steps, list):
+        return cleaned, repairs
+    for step in steps:
+        if not isinstance(step, dict):
+            continue
+        process_type = step.get("process_type")
+        if (
+            not isinstance(process_type, str)
+            or process_type.strip().casefold() != "oxidative polymerization"
+        ):
+            continue
+        step["process_type"] = "polymerization"
+        repairs.append({
+            "pattern": "process_type_normalized",
+            "step_id": step.get("step_id"),
+            "original_value": process_type,
+            "resolved_value": "polymerization",
+        })
+    return cleaned, repairs
+
+
+def _remove_preview_ambiguous_producer_outputs(
+    data: dict[str, Any],
+) -> tuple[dict[str, Any], list[dict[str, Any]]]:
+    """Preview 下隔离无法唯一归属的多 producer Sample 关联。"""
+    cleaned = copy.deepcopy(data)
+    steps = cleaned.get("process_steps")
+    if not isinstance(steps, list):
+        return cleaned, []
+
+    producers: dict[str, list[str]] = {}
+    for step in steps:
+        if not isinstance(step, dict):
+            continue
+        step_id = step.get("step_id")
+        outputs = step.get("output_sample_ids")
+        if not isinstance(step_id, str) or not isinstance(outputs, list):
+            continue
+        for sample_id in dict.fromkeys(outputs):
+            if isinstance(sample_id, str):
+                producers.setdefault(sample_id, []).append(step_id)
+
+    conflicts = {
+        sample_id: step_ids
+        for sample_id, step_ids in producers.items()
+        if len(step_ids) > 1
+    }
+    if not conflicts:
+        return cleaned, []
+
+    retained_steps: list[Any] = []
+    modified_step_ids: list[str] = []
+    dropped_step_ids: list[str] = []
+    for step in steps:
+        if not isinstance(step, dict):
+            retained_steps.append(step)
+            continue
+        outputs = step.get("output_sample_ids")
+        if not isinstance(outputs, list):
+            retained_steps.append(step)
+            continue
+        remaining = [
+            sample_id for sample_id in outputs
+            if sample_id not in conflicts
+        ]
+        if remaining == outputs:
+            retained_steps.append(step)
+            continue
+        step_id = str(step.get("step_id") or "")
+        if remaining:
+            step["output_sample_ids"] = remaining
+            modified_step_ids.append(step_id)
+            retained_steps.append(step)
+        else:
+            dropped_step_ids.append(step_id)
+    cleaned["process_steps"] = retained_steps
+    return cleaned, [{
+        "pattern": "ambiguous_multiple_producers_removed",
+        "sample_ids": sorted(conflicts),
+        "producer_step_ids": conflicts,
+        "modified_step_ids": modified_step_ids,
+        "dropped_step_ids": dropped_step_ids,
+    }]
 
 
 def _remove_process_input_output_overlap(
@@ -998,12 +1159,27 @@ def _prepare_response_structure(
     preview_in_place_repairs: list[dict[str, Any]] = []
     preview_fraction_repairs: list[dict[str, Any]] = []
     if preview_relaxed:
+        cleaned_data, evidence_key_repairs = (
+            _repair_preview_evidence_key_typos(cleaned_data)
+        )
+        cleaned_data, process_type_repairs = (
+            _normalize_preview_process_types(cleaned_data)
+        )
         cleaned_data, preview_in_place_repairs = (
             _split_preview_in_place_postprocess_outputs(cleaned_data)
         )
+        preview_in_place_repairs = [
+            *evidence_key_repairs,
+            *process_type_repairs,
+            *preview_in_place_repairs,
+        ]
         cleaned_data, preview_fraction_repairs = (
             _remove_preview_duplicate_upstream_fraction_outputs(cleaned_data)
         )
+        cleaned_data, producer_conflict_repairs = (
+            _remove_preview_ambiguous_producer_outputs(cleaned_data)
+        )
+        preview_in_place_repairs.extend(producer_conflict_repairs)
     cleaned_data, process_input_repairs = (
         _remove_process_input_output_overlap(cleaned_data)
     )
@@ -1413,24 +1589,50 @@ def _materialize(
                 f"{candidate.sample_id} 无法生成兼容 polymer_name"
             )
         polymer_type = candidate.polymer_type
+        copolymer_type = candidate.copolymer_type
         if linked_entity is not None and linked_entity.polymer_type is not None:
             if (
                 polymer_type is not None
                 and polymer_type != linked_entity.polymer_type
             ):
                 polymer_type_overrides.append({
+                    "field": "polymer_type",
                     "sample_id": sample_id_map[candidate.sample_id],
                     "entity_id": linked_entity.entity_id,
                     "model_value": polymer_type,
                     "resolved_value": linked_entity.polymer_type,
                 })
             polymer_type = linked_entity.polymer_type
+            if linked_entity.polymer_type != "copolymer":
+                if copolymer_type is not None:
+                    polymer_type_overrides.append({
+                        "field": "copolymer_type",
+                        "sample_id": sample_id_map[candidate.sample_id],
+                        "entity_id": linked_entity.entity_id,
+                        "model_value": copolymer_type,
+                        "resolved_value": None,
+                    })
+                copolymer_type = None
+            elif linked_entity.copolymer_type is not None:
+                if (
+                    copolymer_type is not None
+                    and copolymer_type != linked_entity.copolymer_type
+                ):
+                    polymer_type_overrides.append({
+                        "field": "copolymer_type",
+                        "sample_id": sample_id_map[candidate.sample_id],
+                        "entity_id": linked_entity.entity_id,
+                        "model_value": copolymer_type,
+                        "resolved_value": linked_entity.copolymer_type,
+                    })
+                copolymer_type = linked_entity.copolymer_type
         samples.append(Sample(
             sample_id=sample_id_map[candidate.sample_id],
             sample_kind=candidate.sample_kind,
             refers_to_entity=candidate.refers_to_entity,
             polymer_name=polymer_name,
             polymer_type=polymer_type,
+            copolymer_type=copolymer_type,
             material_type=candidate.material_type,
             sample_label_raw=candidate.sample_label_raw,
             state_description=candidate.state_description,
@@ -1469,6 +1671,248 @@ def _materialize(
             confidence=candidate.confidence,
         ))
     return samples, steps, polymer_type_overrides
+
+
+def _sample_material_text(sample: Sample) -> str:
+    return "\n".join(
+        value
+        for value in (
+            sample.polymer_name,
+            sample.sample_label_raw,
+            sample.state_description,
+            sample.evidence.source_sentence,
+        )
+        if value
+    )
+
+
+def _compact_formula_text(value: str) -> str:
+    without_tags = re.sub(r"<[^>]+>", "", html.unescape(value))
+    without_latex_commands = re.sub(r"\\[A-Za-z]+", "", without_tags)
+    return re.sub(r"[^A-Za-z0-9]+", "", without_latex_commands).lower()
+
+
+def _apply_process_polymer_type_policy(
+    samples: list[Sample],
+    process_steps: list[ProcessStep],
+) -> tuple[list[Sample], list[dict[str, Any]]]:
+    """Infer blend outputs only from multiple distinct polymer inputs."""
+
+    by_id = {sample.sample_id: sample for sample in samples}
+    inferences: list[dict[str, Any]] = []
+    for step in process_steps:
+        if step.process_type not in COMPOSITION_CHANGING_PROCESS_TYPES:
+            continue
+        entity_ids = {
+            sample.refers_to_entity
+            for sample_id in step.input_sample_ids
+            if (sample := by_id.get(sample_id)) is not None
+            and sample.refers_to_entity is not None
+        }
+        if len(entity_ids) < 2:
+            continue
+        for sample_id in step.output_sample_ids:
+            output = by_id.get(sample_id)
+            if output is None or output.polymer_type is not None:
+                continue
+            by_id[sample_id] = output.model_copy(update={
+                "polymer_type": "polymer_blend",
+                "copolymer_type": None,
+            })
+            inferences.append({
+                "sample_id": sample_id,
+                "field": "polymer_type",
+                "value": "polymer_blend",
+                "step_id": step.step_id,
+                "process_type": step.process_type,
+                "input_entity_ids": sorted(entity_ids),
+                "reason": "配方步骤包含至少两个不同的聚合物实体输入",
+            })
+
+    changed = True
+    while changed:
+        changed = False
+        for step in process_steps:
+            if step.process_type not in COMPOSITION_PRESERVING_PROCESS_TYPES:
+                continue
+            input_types = [
+                by_id[sample_id].polymer_type
+                for sample_id in step.input_sample_ids
+                if sample_id in by_id
+            ]
+            if (
+                not input_types
+                or len(input_types) != len(step.input_sample_ids)
+                or any(value is None for value in input_types)
+                or len(set(input_types)) != 1
+            ):
+                continue
+            inherited = input_types[0]
+            for sample_id in step.output_sample_ids:
+                output = by_id.get(sample_id)
+                if output is None or output.polymer_type is not None:
+                    continue
+                by_id[sample_id] = output.model_copy(update={
+                    "polymer_type": inherited,
+                    "copolymer_type": None,
+                })
+                inferences.append({
+                    "sample_id": sample_id,
+                    "field": "polymer_type",
+                    "value": inherited,
+                    "step_id": step.step_id,
+                    "process_type": step.process_type,
+                    "input_sample_ids": step.input_sample_ids,
+                    "reason": "成分保持工艺的全部输入具有一致 polymer_type",
+                })
+                changed = True
+    return [by_id[sample.sample_id] for sample in samples], inferences
+
+
+def _apply_material_type_policy(
+    samples: list[Sample],
+    process_steps: list[ProcessStep],
+) -> tuple[
+    list[Sample],
+    list[dict[str, Any]],
+    list[dict[str, Any]],
+    list[dict[str, Any]],
+]:
+    """Infer evidence-backed types, inherit safe processes, then default neat resin."""
+
+    by_id = {sample.sample_id: sample for sample in samples}
+    evidence_inferences: list[dict[str, Any]] = []
+    inheritance_items: list[dict[str, Any]] = []
+    default_inferences: list[dict[str, Any]] = []
+
+    for sample_id, sample in list(by_id.items()):
+        if sample.material_type is not None:
+            continue
+        text = _sample_material_text(sample)
+        compact_text = _compact_formula_text(text)
+        inferred: str | None = None
+        reason: str | None = None
+        if COMPOSITE_EVIDENCE_RE.search(text):
+            inferred = "composite"
+            reason = "样品证据明确包含复合材料、增强体或填料"
+        elif COMPOUND_EVIDENCE_RE.search(text) or "liclo4" in compact_text:
+            inferred = "compound"
+            reason = "样品证据明确包含掺杂剂、电解质盐、增塑剂或其他配方组分"
+        if inferred is not None:
+            by_id[sample_id] = sample.model_copy(update={"material_type": inferred})
+            evidence_inferences.append({
+                "sample_id": sample_id,
+                "field": "material_type",
+                "value": inferred,
+                "reason": reason,
+            })
+
+    for step in process_steps:
+        if step.process_type not in COMPOSITION_CHANGING_PROCESS_TYPES:
+            continue
+        related = [
+            by_id[sample_id]
+            for sample_id in (*step.input_sample_ids, *step.output_sample_ids)
+            if sample_id in by_id
+        ]
+        process_text = "\n".join([
+            step.evidence.source_sentence,
+            *(_sample_material_text(sample) for sample in related),
+        ])
+        inferred = (
+            "composite"
+            if COMPOSITE_EVIDENCE_RE.search(process_text)
+            else "compound"
+        )
+        for sample_id in step.output_sample_ids:
+            output = by_id.get(sample_id)
+            if output is None:
+                continue
+            previous = output.material_type
+            should_update = previous is None or (
+                previous == "composite" and inferred == "compound"
+            )
+            if not should_update:
+                continue
+            by_id[sample_id] = output.model_copy(update={"material_type": inferred})
+            evidence_inferences.append({
+                "sample_id": sample_id,
+                "field": "material_type",
+                "previous_value": previous,
+                "value": inferred,
+                "step_id": step.step_id,
+                "process_type": step.process_type,
+                "reason": (
+                    "配方步骤包含明确填料或增强体"
+                    if inferred == "composite"
+                    else "多组分配方步骤无填料或增强体证据"
+                ),
+            })
+
+    changed = True
+    while changed:
+        changed = False
+        for step in process_steps:
+            if step.process_type not in COMPOSITION_PRESERVING_PROCESS_TYPES:
+                continue
+            input_types = [
+                by_id[sample_id].material_type
+                for sample_id in step.input_sample_ids
+                if sample_id in by_id
+            ]
+            if (
+                not input_types
+                or len(input_types) != len(step.input_sample_ids)
+                or any(value is None for value in input_types)
+                or len(set(input_types)) != 1
+            ):
+                continue
+            inherited = input_types[0]
+            for sample_id in step.output_sample_ids:
+                output = by_id.get(sample_id)
+                if output is None or output.material_type is not None:
+                    continue
+                by_id[sample_id] = output.model_copy(
+                    update={"material_type": inherited}
+                )
+                inheritance_items.append({
+                    "sample_id": sample_id,
+                    "field": "material_type",
+                    "value": inherited,
+                    "step_id": step.step_id,
+                    "process_type": step.process_type,
+                    "input_sample_ids": step.input_sample_ids,
+                })
+                changed = True
+
+    for sample_id, sample in list(by_id.items()):
+        if sample.material_type is not None:
+            continue
+        text = _sample_material_text(sample)
+        compact_text = _compact_formula_text(text)
+        has_contrary_evidence = bool(
+            sample.polymer_type not in {"homopolymer", "copolymer"}
+            or COMPOSITE_EVIDENCE_RE.search(text)
+            or COMPOUND_EVIDENCE_RE.search(text)
+            or "liclo4" in compact_text
+            or AMBIGUOUS_COMPOSITION_RE.search(text)
+        )
+        if has_contrary_evidence:
+            continue
+        by_id[sample_id] = sample.model_copy(update={"material_type": "neat_resin"})
+        default_inferences.append({
+            "sample_id": sample_id,
+            "field": "material_type",
+            "value": "neat_resin",
+            "reason": "已建立单一聚合物样品，且没有第二配方组分反证",
+        })
+
+    return (
+        [by_id[sample.sample_id] for sample in samples],
+        evidence_inferences,
+        inheritance_items,
+        default_inferences,
+    )
 
 
 def _cache_components(
@@ -1619,6 +2063,15 @@ def extract_samples_processes(
         blocks,
         entities,
     )
+    samples, process_polymer_type_inferences = (
+        _apply_process_polymer_type_policy(samples, process_steps)
+    )
+    (
+        samples,
+        material_type_evidence_inferences,
+        material_type_inheritance_items,
+        material_type_defaults,
+    ) = _apply_material_type_policy(samples, process_steps)
     sample_id_map = {
         candidate.sample_id: samples[index].sample_id
         for index, candidate in enumerate(parsed.samples)
@@ -1649,10 +2102,40 @@ def extract_samples_processes(
             "stage": STAGE_ID,
             "code": "sample_polymer_type_overridden",
             "message": (
-                "Sample.polymer_type 与已解析 PolymerEntity 冲突；"
-                "已确定性采用 Stage 2 entity 的明确类型"
+                "Sample 的聚合物分类与已解析 PolymerEntity 冲突；"
+                "已确定性采用 Stage 2 entity 的明确分类"
             ),
             "repairs": polymer_type_overrides,
+        })
+    if process_polymer_type_inferences:
+        warnings.append({
+            "stage": STAGE_ID,
+            "code": "sample_polymer_type_process_inferred",
+            "message": (
+                "已根据多聚合物配方步骤或成分保持工艺补全 polymer_type"
+            ),
+            "items": process_polymer_type_inferences,
+        })
+    if material_type_evidence_inferences:
+        warnings.append({
+            "stage": STAGE_ID,
+            "code": "material_type_evidence_inferred",
+            "message": "已根据样品中的明确配方或增强组分证据补全 material_type",
+            "items": material_type_evidence_inferences,
+        })
+    if material_type_inheritance_items:
+        warnings.append({
+            "stage": STAGE_ID,
+            "code": "material_type_process_inherited",
+            "message": "成分保持工艺的输出样品已继承一致的输入 material_type",
+            "items": material_type_inheritance_items,
+        })
+    if material_type_defaults:
+        warnings.append({
+            "stage": STAGE_ID,
+            "code": "material_type_default_inferred",
+            "message": "无第二配方组分反证的单一聚合物样品已推断为 neat_resin",
+            "items": material_type_defaults,
         })
     if consecutive_process_repairs:
         warnings.append({
@@ -1675,7 +2158,39 @@ def extract_samples_processes(
                 for item in consecutive_process_repairs
             ],
         })
-    if preview_in_place_repairs:
+    evidence_key_repairs = [
+        item for item in preview_in_place_repairs
+        if item.get("pattern") == "trailing_colon_key_removed"
+    ]
+    if evidence_key_repairs:
+        warnings.append({
+            "stage": STAGE_ID,
+            "code": "preview_evidence_key_repaired",
+            "message": (
+                "Preview 已确定性修复 evidence.source_sentence 的键名拼写；"
+                "Strict 模式仍会报错"
+            ),
+            "repairs": evidence_key_repairs,
+        })
+    process_type_repairs = [
+        item for item in preview_in_place_repairs
+        if item.get("pattern") == "process_type_normalized"
+    ]
+    if process_type_repairs:
+        warnings.append({
+            "stage": STAGE_ID,
+            "code": "preview_process_type_normalized",
+            "message": (
+                "Preview 已将明确的 oxidative polymerization 修饰词"
+                "规范为 polymerization；Strict 模式仍会报错"
+            ),
+            "repairs": process_type_repairs,
+        })
+    in_place_output_repairs = [
+        item for item in preview_in_place_repairs
+        if "step_id" in item and "final_sample_ids" in item
+    ]
+    if in_place_output_repairs:
         warnings.append({
             "stage": STAGE_ID,
             "code": "preview_in_place_postprocess_outputs_split",
@@ -1695,7 +2210,30 @@ def extract_samples_processes(
                         for sample_id in item["final_sample_ids"]
                     ],
                 }
-                for item in preview_in_place_repairs
+                for item in in_place_output_repairs
+            ],
+        })
+    producer_conflict_repairs = [
+        item for item in preview_in_place_repairs
+        if item.get("pattern") == "ambiguous_multiple_producers_removed"
+    ]
+    if producer_conflict_repairs:
+        warnings.append({
+            "stage": STAGE_ID,
+            "code": "preview_ambiguous_producer_links_removed",
+            "message": (
+                "Preview 下同一 Sample 存在多个 producer 且无法唯一归属；"
+                "已删除全部冲突生成关联，未猜测保留任一步骤"
+            ),
+            "repairs": [
+                {
+                    **item,
+                    "sample_ids": [
+                        sample_id_map[sample_id]
+                        for sample_id in item["sample_ids"]
+                    ],
+                }
+                for item in producer_conflict_repairs
             ],
         })
     if preview_fraction_repairs:
@@ -2021,7 +2559,7 @@ def run_stage3(
     )
     write_json_atomic(
         output_path,
-        result.model_dump(mode="json", exclude_none=True),
+        _stage3_output_payload(result),
     )
     return output_path, False
 

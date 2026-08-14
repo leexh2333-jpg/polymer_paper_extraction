@@ -126,6 +126,24 @@ PREVIEW_RECOVERABLE_FAILURES = {
 VALIDATE_EXISTING_INPUTS = tuple(
     name for spec in STAGES[:-1] for name in spec.output_names
 )
+START_STAGE_CHOICES = tuple(spec.stage_id for spec in STAGES)
+
+
+def strict_stage_window(
+    start_stage: str | None,
+) -> tuple[tuple[StageSpec, ...], tuple[str, ...]]:
+    if start_stage is None:
+        return STAGES, ()
+    try:
+        start_index = START_STAGE_CHOICES.index(start_stage)
+    except ValueError as exc:
+        raise BatchRunnerError(f"未知 start-stage：{start_stage}") from exc
+    required_outputs = tuple(
+        name
+        for spec in STAGES[:start_index]
+        for name in spec.output_names
+    )
+    return STAGES[start_index:], required_outputs
 
 
 class BatchRunnerError(RuntimeError):
@@ -536,7 +554,7 @@ def build_stage_command(
     if settings.force and spec.stage_id != "stage6_validate_merge":
         command.append("--force")
     if spec.stage_id == STAGE4R_PREVIEW_STAGE.stage_id:
-        command.append("--apply")
+        command.extend(["--apply", "--allow-filled-up-sample-binding"])
     if settings.preview and (
         spec.stage_id in PREVIEW_RECOVERABLE_FAILURES
         or spec.stage_id == "stage6_validate_merge"
@@ -1118,8 +1136,13 @@ def build_batch_acceptance(
     status_counts: dict[str, int],
     *,
     preview: bool,
+    validate_existing: bool = False,
 ) -> dict[str, Any]:
-    expected_status = "candidate_complete" if preview else "succeeded"
+    expected_status = (
+        "candidate_complete"
+        if preview and not validate_existing
+        else "succeeded"
+    )
     total = sum(int(value) for value in status_counts.values())
     accepted_count = int(status_counts.get(expected_status, 0))
     blocking_statuses = {
@@ -1250,6 +1273,7 @@ def build_run_summary(
     acceptance = build_batch_acceptance(
         document_statuses,
         preview=bool(settings.get("preview")),
+        validate_existing=bool(settings.get("validate_existing")),
     )
     return {
         "schema_version": "batch_summary.v1",
@@ -1319,7 +1343,10 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "--validate-existing",
         action="store_true",
-        help="仅使用 Stage 0-5 现有产物重新执行 Stage 6，不调用模型",
+        help=(
+            "仅使用 Stage 0-5 现有产物重新执行 Stage 6，不调用模型；"
+            "可与 --preview 组合使用宽松证据表示校验"
+        ),
     )
     parser.add_argument(
         "--preview",
@@ -1329,6 +1356,11 @@ def build_parser() -> argparse.ArgumentParser:
             "Stage 6 以降级校验产出 final.json/report.html，"
             "并始终发布 candidate.json 和 report_candidate.html"
         ),
+    )
+    parser.add_argument(
+        "--start-stage",
+        choices=START_STAGE_CHOICES,
+        help="从指定 Strict Stage 开始；所有更早 Stage 的现有产物必须完整",
     )
     parser.add_argument("--force", action="store_true")
     parser.add_argument("--status", action="store_true")
@@ -1362,8 +1394,14 @@ def main() -> int:
         raise BatchRunnerError("workers 和 llm-workers 必须大于 0")
     if args.validate_existing and args.force:
         raise BatchRunnerError("--validate-existing 不能与 --force 同时使用")
-    if args.validate_existing and args.preview:
-        raise BatchRunnerError("--validate-existing 不能与 --preview 同时使用")
+    if args.start_stage and (args.validate_existing or args.preview):
+        raise BatchRunnerError(
+            "--start-stage 不能与 --validate-existing 或 --preview 同时使用"
+        )
+    if args.start_stage and not (args.ref_no or args.ref_list):
+        raise BatchRunnerError(
+            "--start-stage 必须通过 --ref-no 或 --ref-list 明确选择文献"
+        )
     if args.validate_existing and not (args.ref_no or args.ref_list):
         raise BatchRunnerError(
             "--validate-existing 必须通过 --ref-no 或 --ref-list 明确选择文献"
@@ -1392,6 +1430,8 @@ def main() -> int:
     if args.dry_run:
         print(f"将登记 {len(document_paths)} 篇文献，doc workers={workers}，LLM workers={llm_workers}")
         print("运行模式：" + ("Preview Candidate" if args.preview else "Strict"))
+        if args.start_stage:
+            print(f"起始阶段：{args.start_stage}")
         if args.ref_no or args.ref_list:
             print("文献：" + ", ".join(path.name.removesuffix("_document.json") for path in document_paths))
         return 0
@@ -1425,13 +1465,12 @@ def main() -> int:
 
     if args.validate_existing:
         stage_specs = (STAGES[-1],)
+        required_existing_outputs = VALIDATE_EXISTING_INPUTS
     elif args.preview:
         stage_specs = PREVIEW_STAGES
+        required_existing_outputs = ()
     else:
-        stage_specs = STAGES
-    required_existing_outputs = (
-        VALIDATE_EXISTING_INPUTS if args.validate_existing else ()
-    )
+        stage_specs, required_existing_outputs = strict_stage_window(args.start_stage)
 
     settings = RunnerSettings(
         config_path=config_path,
@@ -1461,6 +1500,7 @@ def main() -> int:
         "recheck_completed": bool(args.recheck_completed),
         "validate_existing": bool(args.validate_existing),
         "preview": bool(args.preview),
+        "start_stage": args.start_stage,
         "selected_ref_nos": ref_nos,
     }
 

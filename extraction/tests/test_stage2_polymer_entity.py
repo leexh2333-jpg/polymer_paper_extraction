@@ -13,6 +13,7 @@ from llm_client import (
 )
 from prompt_loader import PromptLoader
 from schema.polymer_schema import (
+    PolymerEntity,
     PolymerEntityResponse,
     Stage0Document,
     Stage1Document,
@@ -20,6 +21,7 @@ from schema.polymer_schema import (
 from tests.helpers import add_model_confidence
 from stages.stage2_polymer_entity import (
     Stage2Error,
+    _apply_polymer_type_policy,
     _element_source_text,
     _failure_replay_client,
     _materialize_entities,
@@ -341,7 +343,7 @@ class BlendNestedSplitClient(FakeClient):
                     {
                         "entity_id": "pe002",
                         "polymer_name": "GUR 415–PIR",
-                        "polymer_type": "blend",
+                        "polymer_type": "polymer_blend",
                         "variant_of": None,
                         "structural_features": [],
                         "resolved_from_mentions": ["m002"],
@@ -401,16 +403,137 @@ class InvalidNameClient(SurfaceEvidenceClient):
         return response
 
 
+class DanglingVariantAfterPreviewRemovalClient(FakeClient):
+    def call_json(self, *args, **kwargs) -> LLMJSONResponse:
+        response = super().call_json(*args, **kwargs)
+        response.data["entities"][0]["polymer_name"] = "invented polymer"
+        return response
+
+
 def rendered_prompt():
     return PromptLoader().render_stage_prompt(
         "polymer.stage2.polymer_entity",
         PolymerEntityResponse,
         expected_stage="stage2_polymer_entity",
-        expected_output_schema="polymer_entity_schema.v2",
+        expected_output_schema="polymer_entity_schema.v3",
     )
 
 
 class Stage2Tests(unittest.TestCase):
+    @staticmethod
+    def _typed_entity(
+        *,
+        name: str,
+        polymer_type: str | None,
+        copolymer_type: str | None = None,
+        evidence: str | None = None,
+    ) -> PolymerEntity:
+        return PolymerEntity.model_validate({
+            "entity_id": "pe001",
+            "polymer_name": name,
+            "polymer_type": polymer_type,
+            "copolymer_type": copolymer_type,
+            "representation_status": "expert_review_required",
+            "structural_features": [],
+            "source_names": [name],
+            "resolved_from_mentions": ["m001"],
+            "evidence": {
+                "block_id": "P_0_0",
+                "page": 0,
+                "source_type": "text",
+                "source_sentence": evidence or name,
+            },
+            "source_image_refs": [],
+            "confidence": {"score": 0.8},
+        })
+
+    def test_missing_polymer_type_gets_auditable_homopolymer_default(self) -> None:
+        entities, defaults, repairs = _apply_polymer_type_policy([
+            self._typed_entity(name="polycarbonate", polymer_type=None),
+        ])
+
+        self.assertEqual(entities[0].polymer_type, "homopolymer")
+        self.assertEqual(defaults[0]["entity_id"], "pe001")
+        self.assertEqual(repairs, [])
+
+    def test_regioregular_alt_false_positive_is_repaired(self) -> None:
+        entities, defaults, repairs = _apply_polymer_type_policy([
+            self._typed_entity(
+                name="Rg(Th-5,4/8)",
+                polymer_type="copolymer",
+                copolymer_type="alt",
+                evidence="regioregular polymer with alternating side-chain subunits",
+            ),
+        ])
+
+        self.assertEqual(entities[0].polymer_type, "homopolymer")
+        self.assertIsNone(entities[0].copolymer_type)
+        self.assertEqual(defaults, [])
+        self.assertEqual(repairs[0]["previous_value"], "copolymer")
+
+    def test_ambiguous_blend_like_name_remains_unclassified(self) -> None:
+        entities, defaults, repairs = _apply_polymer_type_policy([
+            self._typed_entity(name="PCL/PLA", polymer_type=None),
+        ])
+
+        self.assertIsNone(entities[0].polymer_type)
+        self.assertEqual(defaults, [])
+        self.assertEqual(repairs, [])
+
+    def test_composite_formulation_is_not_defaulted_to_homopolymer(self) -> None:
+        entities, defaults, repairs = _apply_polymer_type_policy([
+            self._typed_entity(name="CB-COC composite", polymer_type=None),
+        ])
+
+        self.assertIsNone(entities[0].polymer_type)
+        self.assertEqual(defaults, [])
+        self.assertEqual(repairs, [])
+
+    def test_composite_formulation_homopolymer_is_repaired_to_unknown(self) -> None:
+        entities, defaults, repairs = _apply_polymer_type_policy([
+            self._typed_entity(
+                name="PVC composite",
+                polymer_type="homopolymer",
+            ),
+        ])
+
+        self.assertIsNone(entities[0].polymer_type)
+        self.assertEqual(defaults, [])
+        self.assertEqual(repairs[0]["previous_value"], "homopolymer")
+        self.assertIsNone(repairs[0]["value"])
+
+    def test_copolymer_subtype_requires_copolymer_and_crosslink_is_feature(
+        self,
+    ) -> None:
+        payload = {
+            "entities": [{
+                "entity_id": "pe001",
+                "polymer_name": "Polymer A",
+                "polymer_type": "homopolymer",
+                "copolymer_type": "stat",
+                "variant_of": None,
+                "structural_features": ["crosslinked_network"],
+                "resolved_from_mentions": ["m001"],
+                "evidence": {
+                    "block_id": "P_0_0",
+                    "source_sentence": "Polymer A",
+                },
+                "source_image_block_ids": [],
+                "confidence": {"score": 0.9},
+            }],
+            "unresolved_mention_ids": [],
+        }
+        with self.assertRaises(ValueError):
+            PolymerEntityResponse.model_validate(payload)
+
+        payload["entities"][0]["polymer_type"] = "copolymer"
+        result = PolymerEntityResponse.model_validate(payload)
+        self.assertEqual(result.entities[0].copolymer_type, "stat")
+        self.assertEqual(
+            result.entities[0].structural_features,
+            ["crosslinked_network"],
+        )
+
     def test_duplicate_mention_with_unique_evidence_owner_fails_strict(self) -> None:
         client = FakeClient()
         original_call = client.call_json
@@ -585,7 +708,7 @@ class Stage2Tests(unittest.TestCase):
                 "polymer.stage2.polymer_entity",
                 PolymerEntityResponse,
                 expected_stage="stage2_polymer_entity",
-                expected_output_schema="polymer_entity_schema.v2",
+                expected_output_schema="polymer_entity_schema.v3",
             ),
         )
 
@@ -873,6 +996,27 @@ class Stage2Tests(unittest.TestCase):
             for item in result.warnings
         ))
 
+    def test_preview_clears_variant_reference_to_removed_entity(self) -> None:
+        result = extract_polymer_entities(
+            stage0_document(),
+            stage1_document(),
+            DanglingVariantAfterPreviewRemovalClient(),
+            rendered_prompt(),
+            max_validation_retries=0,
+            preview_relaxed=True,
+        )
+
+        self.assertEqual(len(result.polymer_entities), 1)
+        self.assertIsNone(result.polymer_entities[0].variant_of)
+        warning = next(
+            item for item in result.warnings
+            if item["code"] == "preview_invalid_entities_removed"
+        )
+        self.assertTrue(any(
+            item.get("action") == "dangling_variant_reference_cleared"
+            for item in warning["items"]
+        ))
+
     def test_materialize_prefers_specific_name_over_code_label(self) -> None:
         document_data = stage0_document().model_dump(mode="json")
         document_data["elements"][0]["text"] = (
@@ -1103,6 +1247,9 @@ class Stage2Tests(unittest.TestCase):
             self.assertFalse(first_cached)
             self.assertTrue(second_cached)
             self.assertEqual(client.calls, calls_after_first)
+            written = json.loads(output_path.read_text(encoding="utf-8"))
+            self.assertIn("polymer_type", written["polymer_entities"][0])
+            self.assertIn("copolymer_type", written["polymer_entities"][0])
 
     def test_prompt_version_change_invalidates_cache(self) -> None:
         document = stage0_document()

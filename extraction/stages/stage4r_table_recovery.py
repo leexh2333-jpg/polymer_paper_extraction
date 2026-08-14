@@ -6,11 +6,12 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import re
 import shutil
 import sys
-from collections import defaultdict
+from collections import Counter, defaultdict
 from pathlib import Path
 from typing import Any, Mapping, Sequence
 
@@ -23,8 +24,10 @@ from stages.table_grid import table_cells_for
 from stages.table_recall_audit import _infer_header_rows, audit_documents
 
 STAGE_ID = "stage4r_table_recovery"
-IMPLEMENTATION_VERSION = "0.1.0"
+IMPLEMENTATION_VERSION = "0.2.0"
 _ID_RE = re.compile(r"^uprop(\d+)$")
+_PROPERTY_ID_RE = re.compile(r"^prop(\d+)$")
+_CONDITION_ID_RE = re.compile(r"^mc(\d+)$")
 
 
 def _norm(value: Any) -> str:
@@ -97,11 +100,11 @@ def _table_entities(stage4: Mapping[str, Any], sample_entities: Mapping[str, str
 
 
 
-def _row_label_candidates(
+def _row_label_candidates_with_basis(
     cells: Sequence[Any],
     row_index: int,
     column_index: int,
-) -> list[str]:
+) -> list[tuple[str, str]]:
     """取该行位于目标列左侧的所有单元格文本，作为样品标签候选。
 
     审计器的 row_headers 会把"看起来像数值"的格子剔掉，而不少论文的样品编码
@@ -127,8 +130,11 @@ def _row_label_candidates(
         if cell.row_index <= row_index < cell.row_index + cell.row_span
         and cell.column_index < column_index
     ]
-    out = [cell.text.strip() for cell in sorted(covering, key=lambda item: item.column_index)
-           if cell.text.strip()]
+    out = [
+        (cell.text.strip(), "row_cell_direct")
+        for cell in sorted(covering, key=lambda item: item.column_index)
+        if cell.text.strip()
+    ]
 
     filled = {cell.column_index for cell in covering if cell.text.strip()}
     for column in range(column_index):
@@ -142,8 +148,272 @@ def _row_label_candidates(
             and cell.text.strip()
         ]
         if above:
-            out.append(max(above, key=lambda item: item.row_index).text.strip())
+            out.append((
+                max(above, key=lambda item: item.row_index).text.strip(),
+                "row_cell_filled_up",
+            ))
     return out
+
+
+def _row_label_candidates(
+    cells: Sequence[Any],
+    row_index: int,
+    column_index: int,
+) -> list[str]:
+    return [
+        value
+        for value, _ in _row_label_candidates_with_basis(
+            cells,
+            row_index,
+            column_index,
+        )
+    ]
+
+
+def _sample_label_index(
+    samples: Sequence[Mapping[str, Any]],
+) -> dict[str, list[Mapping[str, Any]]]:
+    index: dict[str, list[Mapping[str, Any]]] = defaultdict(list)
+    for sample in samples:
+        label = _norm(sample.get("sample_label_raw"))
+        if label:
+            index[label].append(sample)
+    return index
+
+
+def _split_row_label(value: Any) -> list[str]:
+    if not isinstance(value, str):
+        return []
+    return [part.strip() for part in re.split(r"\s+/\s+", value) if part.strip()]
+
+
+def _resolve_unresolved_sample(
+    item: Mapping[str, Any],
+    *,
+    samples: Sequence[Mapping[str, Any]],
+    tables: Mapping[str, Any],
+    allow_filled_up: bool,
+) -> dict[str, Any]:
+    label_index = _sample_label_index(samples)
+    candidate_records: list[dict[str, Any]] = []
+    has_cell_locator = False
+    for evidence in item.get("evidence") or []:
+        if not isinstance(evidence, Mapping):
+            continue
+        locator = evidence.get("table_locator")
+        if not isinstance(locator, Mapping):
+            continue
+        cell_id = locator.get("cell_id")
+        if isinstance(cell_id, str) and cell_id:
+            has_cell_locator = True
+        for label in _split_row_label(locator.get("row_label")):
+            candidate_records.append({
+                "label": label,
+                "basis": "table_locator_row_label",
+                "cell_id": cell_id,
+            })
+        table_id = locator.get("table_id")
+        table = tables.get(str(table_id or ""))
+        row_index = locator.get("row_index")
+        column_index = locator.get("column_index")
+        if (
+            table is None
+            or not isinstance(row_index, int)
+            or not isinstance(column_index, int)
+        ):
+            continue
+        cells = table_cells_for(table)
+        for label, basis in _row_label_candidates_with_basis(
+            cells,
+            row_index,
+            column_index,
+        ):
+            candidate_records.append({
+                "label": label,
+                "basis": basis,
+                "cell_id": cell_id,
+            })
+
+    base = {
+        "unresolved_id": item.get("unresolved_id"),
+        "entity_id": item.get("entity_id"),
+    }
+    if not has_cell_locator:
+        return {**base, "status": "missing_cell_locator"}
+
+    matched_samples: dict[str, Mapping[str, Any]] = {}
+    matched_records: list[tuple[Mapping[str, Any], dict[str, Any]]] = []
+    for record in candidate_records:
+        for sample in label_index.get(_norm(record["label"]), []):
+            sample_id = str(sample.get("sample_id") or "")
+            if not sample_id:
+                continue
+            matched_samples[sample_id] = sample
+            matched_records.append((sample, record))
+    if not matched_samples:
+        return {**base, "status": "label_not_found"}
+    if len(matched_samples) != 1:
+        return {
+            **base,
+            "status": "ambiguous",
+            "sample_ids": sorted(matched_samples),
+        }
+
+    sample = next(iter(matched_samples.values()))
+    sample_entity = sample.get("refers_to_entity")
+    if item.get("entity_id") and sample_entity and item.get("entity_id") != sample_entity:
+        return {
+            **base,
+            "status": "entity_conflict",
+            "sample_id": sample.get("sample_id"),
+            "sample_entity_id": sample_entity,
+        }
+
+    priority = {
+        "table_locator_row_label": 0,
+        "row_cell_direct": 1,
+        "row_cell_filled_up": 2,
+    }
+    matching = [
+        record
+        for matched_sample, record in matched_records
+        if matched_sample.get("sample_id") == sample.get("sample_id")
+    ]
+    chosen = min(matching, key=lambda record: priority[record["basis"]])
+    if chosen["basis"] == "row_cell_filled_up" and not allow_filled_up:
+        return {
+            **base,
+            "status": "filled_up_pending_review",
+            "sample_id": sample.get("sample_id"),
+            "matched_label": sample.get("sample_label_raw"),
+            "cell_id": chosen.get("cell_id"),
+        }
+    return {
+        **base,
+        "status": "accepted",
+        "sample_id": sample.get("sample_id"),
+        "entity_id": sample_entity or item.get("entity_id"),
+        "resolution_basis": chosen["basis"],
+        "matched_label": sample.get("sample_label_raw"),
+        "cell_id": chosen.get("cell_id"),
+    }
+
+
+def _next_number(items: Sequence[Mapping[str, Any]], key: str, pattern: re.Pattern[str]) -> int:
+    numbers = []
+    for item in items:
+        match = pattern.fullmatch(str(item.get(key) or ""))
+        if match:
+            numbers.append(int(match.group(1)))
+    return max(numbers, default=0) + 1
+
+
+def _condition_payload(
+    condition_id: str,
+    item: Mapping[str, Any],
+) -> tuple[dict[str, Any], dict[str, Any]]:
+    context = dict(item.get("measurement_context") or {})
+    if not context:
+        context = {"condition_status": "not_reported"}
+    evidence = next(
+        (
+            dict(value)
+            for value in item.get("evidence") or []
+            if isinstance(value, Mapping)
+        ),
+        None,
+    )
+    if evidence is None:
+        raise ValueError(f"{item.get('unresolved_id')} 缺少 evidence")
+    condition = {
+        "condition_id": condition_id,
+        "temperature": context.get("temperature"),
+        "frequency": context.get("frequency"),
+        "humidity": context.get("humidity"),
+        "pressure": context.get("pressure"),
+        "wavelength": context.get("wavelength"),
+        "other_conditions": context.get("other_conditions") or {},
+        "other_condition_evidence": context.get("other_condition_evidence") or {},
+        "condition_status": context["condition_status"],
+        "evidence": evidence,
+        "confidence": item.get("confidence"),
+    }
+    return condition, context
+
+
+def _migrate_resolved_unresolved(
+    stage4: Mapping[str, Any],
+    resolutions: Sequence[Mapping[str, Any]],
+) -> tuple[dict[str, Any], list[dict[str, Any]]]:
+    payload = json.loads(json.dumps(stage4, ensure_ascii=False))
+    accepted = {
+        str(item["unresolved_id"]): item
+        for item in resolutions
+        if item.get("status") == "accepted"
+    }
+    if not accepted:
+        return payload, []
+
+    next_property = _next_number(
+        payload.get("properties") or [],
+        "property_id",
+        _PROPERTY_ID_RE,
+    )
+    next_condition = _next_number(
+        payload.get("measurement_conditions") or [],
+        "condition_id",
+        _CONDITION_ID_RE,
+    )
+    retained = []
+    migrations: list[dict[str, Any]] = []
+    for item in payload.get("unresolved_properties") or []:
+        resolution = accepted.get(str(item.get("unresolved_id") or ""))
+        if resolution is None:
+            retained.append(item)
+            continue
+        property_id = f"prop{next_property:03d}"
+        condition_id = f"mc{next_condition:03d}"
+        next_property += 1
+        next_condition += 1
+        condition, context = _condition_payload(condition_id, item)
+        payload["measurement_conditions"].append(condition)
+        evidence = [dict(value) for value in item.get("evidence") or []]
+        payload["properties"].append({
+            "property_id": property_id,
+            "sample_id": resolution["sample_id"],
+            "property_name_raw": item["property_name_raw"],
+            "property_name_normalized": item.get("property_name_normalized"),
+            "property_code": item.get("property_code"),
+            "property_category": item.get("property_category"),
+            "molecular_weight_type": item.get("molecular_weight_type"),
+            "determination_method_raw": item.get("determination_method_raw"),
+            "observation_group_id": item.get("observation_group_id"),
+            "observation_role": item.get("observation_role", "single"),
+            "series_id": item.get("series_id"),
+            "series_ids": item.get("series_ids"),
+            "value_raw": item["value_raw"],
+            "value_min": item.get("value_min"),
+            "value_max": item.get("value_max"),
+            "unit_raw": item.get("unit_raw"),
+            "unit_normalized": item.get("unit_normalized"),
+            "measurement_condition_id": condition_id,
+            "measurement_context": context,
+            "source_type": evidence[0]["source_type"],
+            "evidence": evidence,
+            "confidence": item.get("confidence"),
+        })
+        migrations.append({
+            "unresolved_id": item["unresolved_id"],
+            "property_id": property_id,
+            "measurement_condition_id": condition_id,
+            "sample_id": resolution["sample_id"],
+            "entity_id": resolution.get("entity_id"),
+            "resolution_basis": resolution["resolution_basis"],
+            "matched_label": resolution["matched_label"],
+            "cell_id": resolution.get("cell_id"),
+        })
+    payload["unresolved_properties"] = retained
+    return payload, migrations
 
 
 def infer_entity_id(
@@ -503,6 +773,7 @@ def recover_document(
     stage4: Mapping[str, Any],
     *,
     threshold: float = 0.8,
+    allow_filled_up_sample_binding: bool = False,
 ) -> tuple[Stage4Document, dict[str, Any]]:
     original = Stage4Document.model_validate(stage4)
     audit = audit_documents(stage0, stage4, threshold=threshold)
@@ -596,7 +867,34 @@ def recover_document(
             "recovered_cell_count": len(additions),
             "skipped_ambiguous_count": len(skipped),
         })
+    sample_resolutions = [
+        _resolve_unresolved_sample(
+            item,
+            samples=samples,
+            tables=tables,
+            allow_filled_up=allow_filled_up_sample_binding,
+        )
+        for item in payload["unresolved_properties"]
+    ]
+    payload, migrations = _migrate_resolved_unresolved(
+        payload,
+        sample_resolutions,
+    )
+    if migrations:
+        payload["warnings"].append({
+            "code": "stage4r_unique_sample_label_resolved",
+            "message": (
+                f"Stage 4R 按唯一 Stage 3 sample_label_raw 确定性归属 "
+                f"{len(migrations)} 条性质。"
+            ),
+            "resolved_count": len(migrations),
+            "filled_up_enabled": allow_filled_up_sample_binding,
+        })
     merged = Stage4Document.model_validate(payload)
+    resolution_summary = Counter(
+        str(item.get("status") or "unknown")
+        for item in sample_resolutions
+    )
     report = {
         "stage": STAGE_ID,
         "implementation_version": IMPLEMENTATION_VERSION,
@@ -616,6 +914,9 @@ def recover_document(
             for item in additions
         ],
         "skipped_ambiguous": skipped,
+        "sample_resolution_summary": dict(sorted(resolution_summary.items())),
+        "sample_resolution": sample_resolutions,
+        "property_id_migrations": migrations,
     }
     return merged, report
 
@@ -631,6 +932,42 @@ def _write_json(path: Path, value: Any) -> None:
     temp.replace(path)
 
 
+def _sha256_file(path: Path) -> str:
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def _sha256_json(value: Any) -> str:
+    canonical = json.dumps(
+        value,
+        ensure_ascii=False,
+        sort_keys=True,
+        separators=(",", ":"),
+    )
+    return hashlib.sha256(canonical.encode("utf-8")).hexdigest()
+
+
+def _cache_is_valid(
+    *,
+    report_path: Path,
+    preview_path: Path,
+    input_hashes: Mapping[str, str],
+    settings: Mapping[str, Any],
+) -> bool:
+    if not report_path.is_file() or not preview_path.is_file():
+        return False
+    try:
+        report = _load_json(report_path)
+        preview = _load_json(preview_path)
+    except (OSError, ValueError, json.JSONDecodeError):
+        return False
+    return (
+        report.get("implementation_version") == IMPLEMENTATION_VERSION
+        and report.get("input_hashes") == dict(input_hashes)
+        and report.get("settings") == dict(settings)
+        and report.get("output_sha256") == _sha256_json(preview)
+    )
+
+
 def _same_file_content(left: Path, right: Path) -> bool:
     return left.is_file() and right.is_file() and left.read_bytes() == right.read_bytes()
 
@@ -644,12 +981,15 @@ def _prepare_stage4_input(
     apply: bool,
     force: bool,
     in_place: bool,
+    cache_valid: bool = False,
 ) -> tuple[Path, bool]:
-    already_applied = apply and in_place and _same_file_content(stage4_path, preview_path)
-    if not force and report_path.is_file() and preview_path.is_file():
+    already_applied = in_place and _same_file_content(stage4_path, preview_path)
+    if not force and cache_valid:
         if not apply or already_applied:
             return stage4_path, True
     if not apply or not in_place:
+        if already_applied and backup_path.is_file():
+            return backup_path, False
         return stage4_path, False
     if already_applied and backup_path.is_file():
         return backup_path, False
@@ -666,6 +1006,11 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--threshold", type=float, default=0.8)
     parser.add_argument("--apply", action="store_true")
     parser.add_argument("--force", action="store_true")
+    parser.add_argument(
+        "--allow-filled-up-sample-binding",
+        action="store_true",
+        help="允许将向上填充得到的唯一标签用于 Sample 归属；默认仅报告待复核",
+    )
     return parser
 
 
@@ -681,6 +1026,32 @@ def main() -> int:
     preview_path = target / "stage4_properties.recovery_preview.json"
     report_path = target / "stage4r_recovery.json"
     backup_path = target / "stage4_properties.pre_recovery.json"
+    in_place = source.resolve() == target.resolve()
+    stage4_is_applied = in_place and _same_file_content(stage4_path, preview_path)
+    fingerprint_stage4 = (
+        backup_path
+        if stage4_is_applied and backup_path.is_file()
+        else stage4_path
+    )
+    input_hashes = {
+        "stage0_blocks.json": _sha256_file(source / "stage0_blocks.json"),
+        "stage2_entities.json": _sha256_file(source / "stage2_entities.json"),
+        "stage3_process.json": _sha256_file(source / "stage3_process.json"),
+        "stage4_properties.json": _sha256_file(fingerprint_stage4),
+    }
+    settings = {
+        "threshold": args.threshold,
+        "apply": bool(args.apply),
+        "allow_filled_up_sample_binding": bool(
+            args.allow_filled_up_sample_binding
+        ),
+    }
+    cache_valid = _cache_is_valid(
+        report_path=report_path,
+        preview_path=preview_path,
+        input_hashes=input_hashes,
+        settings=settings,
+    )
     stage4_input_path, cached = _prepare_stage4_input(
         stage4_path=stage4_path,
         preview_path=preview_path,
@@ -688,7 +1059,8 @@ def main() -> int:
         backup_path=backup_path,
         apply=bool(args.apply),
         force=bool(args.force),
-        in_place=source.resolve() == target.resolve(),
+        in_place=in_place,
+        cache_valid=cache_valid,
     )
     if cached:
         print(f"[cached] {ref_dir}: Stage 4R Preview 已存在")
@@ -697,7 +1069,19 @@ def main() -> int:
     stage2 = _load_json(source / "stage2_entities.json")
     stage3 = _load_json(source / "stage3_process.json")
     stage4 = _load_json(stage4_input_path)
-    merged, report = recover_document(stage0, stage2, stage3, stage4, threshold=args.threshold)
+    merged, report = recover_document(
+        stage0,
+        stage2,
+        stage3,
+        stage4,
+        threshold=args.threshold,
+        allow_filled_up_sample_binding=(
+            args.allow_filled_up_sample_binding
+        ),
+    )
+    report["input_hashes"] = input_hashes
+    report["settings"] = settings
+    report["output_sha256"] = _sha256_json(merged.model_dump(mode="json"))
     _write_json(report_path, report)
     _write_json(preview_path, merged.model_dump(mode="json"))
     if args.apply:

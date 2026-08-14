@@ -14,14 +14,14 @@ from typing import Any, Protocol
 
 
 SCRIPT_DIR = Path(__file__).resolve().parent
-CODE_ROOT = SCRIPT_DIR.parent
-PROJECT_ROOT = CODE_ROOT.parent
-DEFAULT_WORK_ROOT = CODE_ROOT / "work_pdf_pipeline"
+PACKAGE_ROOT = SCRIPT_DIR.parent
+EXTRACTION_ROOT = PACKAGE_ROOT / "extraction"
+DEFAULT_WORK_ROOT = PACKAGE_ROOT / "work_pdf_pipeline"
 DEFAULT_MINERU_OUTPUT = DEFAULT_WORK_ROOT / "mineru"
 DEFAULT_ORGANIZED_ROOT = DEFAULT_WORK_ROOT / "organized"
 DEFAULT_PROCESSED_OUTPUT = DEFAULT_WORK_ROOT / "processed"
-META_PROMPT_PATH = CODE_ROOT / "extraction" / "prompts" / "meta_extract.md"
-DEFAULT_PIPELINE_CONFIG = CODE_ROOT / "extraction" / "config" / "pipeline.yaml"
+META_PROMPT_PATH = EXTRACTION_ROOT / "prompts" / "meta_extract.md"
+DEFAULT_PIPELINE_CONFIG = EXTRACTION_ROOT / "config" / "pipeline.yaml"
 
 HTML_TABLE_RE = re.compile(r"<table\b.*?</table>", re.IGNORECASE | re.DOTALL)
 MARKDOWN_IMAGE_RE = re.compile(r"!\[[^\]]*]\((?P<path>[^)\s]+)")
@@ -74,8 +74,8 @@ class ConfiguredMetaExtractor:
     """把 extraction.llm_client 适配为预处理元数据接口。"""
 
     def __init__(self, config_path: Path) -> None:
-        if str(CODE_ROOT) not in sys.path:
-            sys.path.insert(0, str(CODE_ROOT))
+        if str(PACKAGE_ROOT) not in sys.path:
+            sys.path.insert(0, str(PACKAGE_ROOT))
         from extraction.llm_client import LLMClient
 
         self.client = LLMClient.from_pipeline_config(
@@ -654,9 +654,8 @@ def validate_meta_payload(payload: Any) -> dict[str, Any]:
 
 
 def validate_meta_confidence(payload: Any) -> dict[str, Any]:
-    code_root = PROJECT_ROOT / "code"
-    if str(code_root) not in sys.path:
-        sys.path.insert(0, str(code_root))
+    if str(PACKAGE_ROOT) not in sys.path:
+        sys.path.insert(0, str(PACKAGE_ROOT))
     from extraction.schema.polymer_schema import MetadataConfidence
 
     confidence = MetadataConfidence.model_validate(payload)

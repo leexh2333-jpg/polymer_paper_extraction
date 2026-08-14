@@ -21,6 +21,8 @@
 >
 > **2026-08-12 Preview 完整发布更新：** Stage 6 新增逐对象隔离和引用清扫。坏对象进入 `rejected_objects`，合法对象继续进入 `final.json`；悬空 `derived_property_ids` 只剪枝、不猜 ID。Characterization 允许表级 locator，Property 和 Series Point 仍要求单元格级定位。Stage 4R 的 evidence 直接保存稳定 `cell_id` 对应的 Stage 0 单元格文本，不再重新拼接管道行。Stage 3 同时新增 `polymer_type` 和 `material_type`。Strict 的校验规则和失败语义保持不变。最新规范化 20 篇结果位于 `batch_results/demo20_preview_final_20260812/`。
 
+> **2026-08-14 Preview 类型更新：** Stage 2/3 类型策略升级为可审计的确定性补全。材料配方中的 `composite` 不再被误当成 homopolymer 结构证据；Composite 必须有填料或增强体证据；无填料的多组分共混判为 Compound；成分保持加工会继承 `polymer_type` 和 `material_type`。JSON 与 HTML 始终显式展示 `polymer_type`、`copolymer_type`、`material_type`，未知值保留 `null` / `not specified`。新增固定 GT 评测、离线回填和正式批次发布校验工具。
+
 ## 1. 交付包目录总览
 
 ```text
@@ -116,6 +118,7 @@ polymer_extraction_delivery_20260807/
 | `preview/demo_latest_20_selection.json` | 20 篇选择过程的审计信息 |
 | `preview/publish_candidate.py` | 将 Stage 0–5 汇总为 `candidate.json` 和 `report_candidate.html` |
 | `preview/verify_demo20.py` | 验收 Stage 文件、candidate、HTML 和发布状态 |
+| `preview/validate_published_batches.py` | 发布前校验 2.0 索引、文件哈希、关系引用、敏感路径和 95 MB 上限 |
 | `preview/run_demo20.ps1` | 组件级 Preflight/Verify/Cached/Fresh 高级入口 |
 | `preview/tests/` | 候选发布和验收器测试 |
 
@@ -386,7 +389,10 @@ Preview 的原则是：不伪造事实、不修改数值和证据；局部对象
 - Stage 6：删除对象后确定性清扫悬空引用，并输出 `preview_publication_summary` 做对象守恒检查；
 - Stage 6：Characterization 方法允许表级 locator；Property 和 Series Point 仍要求单元格级定位；
 - Stage 4R：恢复值的 evidence 直接使用稳定 `cell_id` 对应的 Stage 0 单元格文本；
-- Stage 3：Sample 新增 `polymer_type` 和 `material_type`，无证据时保持 `null`。
+- Stage 2/3：保留模型明确类型；无共聚/共混反证的聚合物实体可审计地补为
+  `homopolymer`，但 composite/filler 等配方词不能作为结构证据。
+- Stage 3：Composite 必须有填料或增强体证据；添加剂、掺杂盐以及无填料的
+  多组分共混属于 Compound。成分保持加工继承输入类型；仍有疑义时保持 `null`。
 - 非法 JSON：先做有限、确定性的语法修复；仍无法解析时保存原始响应，并生成 degraded 空运行视图；
 - 所有恢复、删除、unresolved 和空壳结果都必须写入 warning，不允许静默放行。
 

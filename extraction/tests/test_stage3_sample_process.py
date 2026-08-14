@@ -12,6 +12,8 @@ from llm_client import (
 )
 from prompt_loader import PromptLoader
 from schema.polymer_schema import (
+    ProcessStep,
+    Sample,
     SampleProcessResponse,
     Stage0Document,
     Stage2Document,
@@ -21,7 +23,10 @@ from stages.stage3_sample_process import (
     IMPLEMENTATION_VERSION,
     Stage3Error,
     _cache_components,
+    _apply_material_type_policy,
+    _apply_process_polymer_type_policy,
     _remove_process_input_output_overlap,
+    _repair_preview_evidence_key_typos,
     _resolve_surface_text,
     _split_misbound_hot_pressing_drying_outputs,
     _split_consecutive_extraction_drying_outputs,
@@ -218,17 +223,20 @@ class SampleTypeClient(FakeClient):
     def __init__(
         self,
         *,
-        polymer_type: str = "random_copolymer",
+        polymer_type: str = "copolymer",
+        copolymer_type: str | None = "ran",
         material_type: str = "neat_resin",
     ) -> None:
         super().__init__()
         self.polymer_type = polymer_type
+        self.copolymer_type = copolymer_type
         self.material_type = material_type
 
     def call_json(self, *args, **kwargs) -> LLMJSONResponse:
         response = super().call_json(*args, **kwargs)
         for sample in response.data["samples"]:
             sample["polymer_type"] = self.polymer_type
+            sample["copolymer_type"] = self.copolymer_type
             sample["material_type"] = self.material_type
         return response
 
@@ -786,6 +794,15 @@ class ExpandedProcessTypeClient(FakeClient):
         return response
 
 
+class OxidativePolymerizationClient(FakeClient):
+    def call_json(self, *args, **kwargs) -> LLMJSONResponse:
+        response = super().call_json(*args, **kwargs)
+        response.data["process_steps"][0]["process_type"] = (
+            "oxidative polymerization"
+        )
+        return response
+
+
 class DerivedSampleNameClient(FakeClient):
     def call_json(
         self,
@@ -912,11 +929,252 @@ def rendered_prompt():
         "polymer.stage3.sample_process",
         SampleProcessResponse,
         expected_stage="stage3_sample_process",
-        expected_output_schema="sample_process_schema.v3",
+        expected_output_schema="sample_process_schema.v4",
     )
 
 
 class Stage3Tests(unittest.TestCase):
+    @staticmethod
+    def _material_sample(
+        sample_id: str,
+        name: str,
+        *,
+        material_type: str | None = None,
+        polymer_type: str | None = "homopolymer",
+        refers_to_entity: str | None = None,
+        evidence: str | None = None,
+    ) -> Sample:
+        return Sample.model_validate({
+            "sample_id": sample_id,
+            "sample_kind": "processed_material",
+            "polymer_name": name,
+            "refers_to_entity": refers_to_entity,
+            "polymer_type": polymer_type,
+            "material_type": material_type,
+            "intended_use": [],
+            "evidence": {
+                "block_id": "P_0_0",
+                "page": 0,
+                "source_type": "text",
+                "source_sentence": evidence or name,
+            },
+            "confidence": {"score": 0.8},
+        })
+
+    @staticmethod
+    def _material_step(
+        inputs: list[str],
+        outputs: list[str],
+        *,
+        process_type: str = "molding",
+        evidence: str = "Samples were molded.",
+    ) -> ProcessStep:
+        return ProcessStep.model_validate({
+            "step_id": "ps001",
+            "process_type": process_type,
+            "input_sample_ids": inputs,
+            "output_sample_ids": outputs,
+            "parameters": {},
+            "evidence": {
+                "block_id": "P_0_0",
+                "page": 0,
+                "source_type": "text",
+                "source_sentence": evidence,
+            },
+            "confidence": {"score": 0.8},
+        })
+
+    def test_liclo4_sample_is_inferred_as_compound(self) -> None:
+        samples, evidence, inherited, defaults = _apply_material_type_policy(
+            [
+                self._material_sample("s001", "PEO-LiClO<sub>4</sub>"),
+                self._material_sample(
+                    "s002",
+                    r"PEO-$\mathrm { L i C l O } _ { 4 }$",
+                ),
+            ],
+            [],
+        )
+
+        self.assertEqual(samples[0].material_type, "compound")
+        self.assertEqual(samples[1].material_type, "compound")
+        self.assertEqual(evidence[0]["sample_id"], "s001")
+        self.assertEqual(evidence[1]["sample_id"], "s002")
+        self.assertEqual(inherited, [])
+        self.assertEqual(defaults, [])
+
+    def test_composite_is_inherited_through_molding(self) -> None:
+        samples, evidence, inherited, defaults = _apply_material_type_policy(
+            [
+                self._material_sample("s001", "COC/cCF10", material_type="composite"),
+                self._material_sample("s002", "molded specimen"),
+            ],
+            [self._material_step(["s001"], ["s002"])],
+        )
+
+        self.assertEqual(samples[1].material_type, "composite")
+        self.assertEqual(evidence, [])
+        self.assertEqual(inherited[0]["step_id"], "ps001")
+        self.assertEqual(defaults, [])
+
+    def test_generic_composite_context_does_not_classify_raw_modifier(self) -> None:
+        samples, evidence, inherited, defaults = _apply_material_type_policy(
+            [self._material_sample(
+                "s001",
+                "SMIA",
+                polymer_type="copolymer",
+                evidence=(
+                    "SMIA was added to PVC/ABS to improve the heat resistance "
+                    "of the composite."
+                ),
+            )],
+            [],
+        )
+
+        self.assertEqual(samples[0].material_type, "neat_resin")
+        self.assertEqual(evidence, [])
+        self.assertEqual(inherited, [])
+        self.assertEqual(defaults[0]["sample_id"], "s001")
+
+    def test_polymer_blend_without_filler_is_compound(self) -> None:
+        samples, evidence, inherited, defaults = _apply_material_type_policy(
+            [
+                self._material_sample("s001", "PVC", refers_to_entity="pe001"),
+                self._material_sample("s002", "ABS", refers_to_entity="pe002"),
+                self._material_sample(
+                    "s003",
+                    "PVC/ABS composite material",
+                    material_type="composite",
+                    polymer_type="polymer_blend",
+                ),
+            ],
+            [self._material_step(
+                ["s001", "s002"],
+                ["s003"],
+                process_type="blending",
+                evidence="PVC and ABS were melt blended.",
+            )],
+        )
+
+        self.assertEqual(samples[2].material_type, "compound")
+        self.assertEqual(evidence[0]["previous_value"], "composite")
+        self.assertEqual(evidence[0]["step_id"], "ps001")
+        self.assertEqual(inherited, [])
+        self.assertEqual(
+            [item["sample_id"] for item in defaults],
+            ["s001", "s002"],
+        )
+
+    def test_filler_blend_remains_composite(self) -> None:
+        samples, evidence, inherited, defaults = _apply_material_type_policy(
+            [
+                self._material_sample("s001", "COC", refers_to_entity="pe001"),
+                self._material_sample("s002", "40 vol % carbon fibers in COC"),
+                self._material_sample(
+                    "s003",
+                    "COC/cCF10",
+                    material_type="composite",
+                    polymer_type=None,
+                ),
+            ],
+            [self._material_step(
+                ["s001", "s002"],
+                ["s003"],
+                process_type="blending",
+                evidence="The carbon fiber masterbatch was blended into COC.",
+            )],
+        )
+
+        self.assertEqual(samples[2].material_type, "composite")
+        self.assertEqual(inherited, [])
+        self.assertEqual(
+            [item["sample_id"] for item in defaults],
+            ["s001"],
+        )
+
+    def test_multiple_polymer_inputs_infer_blend_output(self) -> None:
+        samples, items = _apply_process_polymer_type_policy(
+            [
+                self._material_sample("s001", "COC", refers_to_entity="pe001"),
+                self._material_sample(
+                    "s002",
+                    "CBA masterbatch in polycarbonate",
+                    refers_to_entity="pe002",
+                ),
+                self._material_sample("s003", "COC/cCF10", polymer_type=None),
+            ],
+            [self._material_step(
+                ["s001", "s002"],
+                ["s003"],
+                process_type="blending",
+            )],
+        )
+
+        self.assertEqual(samples[2].polymer_type, "polymer_blend")
+        self.assertEqual(items[0]["input_entity_ids"], ["pe001", "pe002"])
+
+    def test_blend_type_is_inherited_through_molding(self) -> None:
+        samples, items = _apply_process_polymer_type_policy(
+            [
+                self._material_sample(
+                    "s001", "blend A", polymer_type="polymer_blend"
+                ),
+                self._material_sample(
+                    "s002", "blend B", polymer_type="polymer_blend"
+                ),
+                self._material_sample("s003", "molded A", polymer_type=None),
+                self._material_sample("s004", "molded B", polymer_type=None),
+            ],
+            [self._material_step(
+                ["s001", "s002"],
+                ["s003", "s004"],
+                process_type="molding",
+            )],
+        )
+
+        self.assertEqual(
+            [sample.polymer_type for sample in samples[2:]],
+            ["polymer_blend", "polymer_blend"],
+        )
+        self.assertEqual(
+            [item["sample_id"] for item in items],
+            ["s003", "s004"],
+        )
+
+    def test_single_polymer_sample_gets_neat_resin_default(self) -> None:
+        samples, evidence, inherited, defaults = _apply_material_type_policy(
+            [self._material_sample("s001", "polycarbonate")],
+            [],
+        )
+
+        self.assertEqual(samples[0].material_type, "neat_resin")
+        self.assertEqual(evidence, [])
+        self.assertEqual(inherited, [])
+        self.assertEqual(defaults[0]["sample_id"], "s001")
+
+    def test_old_material_type_is_rejected(self) -> None:
+        with self.assertRaises(ValueError):
+            SampleProcessResponse.model_validate({
+                "samples": [{
+                    "sample_id": "s001",
+                    "sample_kind": "processed_material",
+                    "refers_to_entity": None,
+                    "polymer_type": None,
+                    "copolymer_type": None,
+                    "material_type": "polymer_solution",
+                    "sample_label_raw": "solution A",
+                    "state_description": "solution A",
+                    "intended_use": [],
+                    "evidence": {
+                        "block_id": "P_0_0",
+                        "source_sentence": "solution A",
+                    },
+                    "confidence": {"score": 0.8},
+                }],
+                "process_steps": [],
+                "unresolved_entity_ids": [],
+            })
+
     def test_misbound_hot_pressing_drying_outputs_are_split(self) -> None:
         sentence = "The blend was hot pressed and then dried."
         payload = {
@@ -979,6 +1237,26 @@ class Stage3Tests(unittest.TestCase):
             _resolve_surface_text(source, "ib"),
             r"\mathbf { i b , }",
         )
+
+    def test_preview_repairs_trailing_colon_in_evidence_key(self) -> None:
+        payload = {
+            "samples": [{
+                "sample_id": "s001",
+                "evidence": {
+                    "block_id": "P_1",
+                    "source_sentence:": "S8",
+                },
+            }],
+            "process_steps": [],
+        }
+
+        repaired, repairs = _repair_preview_evidence_key_typos(payload)
+
+        evidence = repaired["samples"][0]["evidence"]
+        self.assertEqual(evidence["source_sentence"], "S8")
+        self.assertNotIn("source_sentence:", evidence)
+        self.assertEqual(repairs[0]["pattern"], "trailing_colon_key_removed")
+        self.assertIn("source_sentence:", payload["samples"][0]["evidence"])
 
     def test_duplicate_process_sample_references_are_deduplicated(self) -> None:
         repaired, repairs = _remove_process_input_output_overlap({
@@ -1129,7 +1407,7 @@ class Stage3Tests(unittest.TestCase):
                 prompt,
             )
 
-            self.assertEqual(IMPLEMENTATION_VERSION, "1.4.0")
+            self.assertEqual(IMPLEMENTATION_VERSION, "1.7.0")
             self.assertFalse(cached)
             self.assertEqual(client.calls, calls_after_first + 1)
     def test_sample_label_html_entity_is_recovered_with_warning(self) -> None:
@@ -1430,7 +1708,7 @@ class Stage3Tests(unittest.TestCase):
     def test_prompt_requires_verbatim_raw_fields(self) -> None:
         prompt = rendered_prompt()
 
-        self.assertEqual(prompt.version, "1.3.0")
+        self.assertEqual(prompt.version, "1.6.0")
         self.assertIn("不得翻译、概括、添加括号解释", prompt.text)
         self.assertIn("无法从 evidence 逐字复制时必须设为 `null`", prompt.text)
         self.assertIn("`intended_use` 只能放入", prompt.text)
@@ -1755,16 +2033,31 @@ class Stage3Tests(unittest.TestCase):
             }],
         )
 
-    def test_preview_does_not_guess_duplicate_fraction_without_anchor(self) -> None:
-        with self.assertRaises(Stage3Error):
-            extract_samples_processes(
-                stage0_document(),
-                stage2_document(),
-                AmbiguousDuplicateFractionProducerClient(),
-                rendered_prompt(),
-                max_validation_retries=0,
-                preview_relaxed=True,
-            )
+    def test_preview_removes_all_ambiguous_duplicate_producer_links(self) -> None:
+        result = extract_samples_processes(
+            stage0_document(),
+            stage2_document(),
+            AmbiguousDuplicateFractionProducerClient(),
+            rendered_prompt(),
+            max_validation_retries=0,
+            preview_relaxed=True,
+        )
+
+        self.assertEqual(len(result.process_steps), 1)
+        self.assertEqual(result.process_steps[0].output_sample_ids, ["s003"])
+        self.assertFalse(any(
+            "s002" in step.output_sample_ids
+            for step in result.process_steps
+        ))
+        warning = next(
+            item for item in result.warnings
+            if item["code"] == "preview_ambiguous_producer_links_removed"
+        )
+        self.assertEqual(warning["repairs"][0]["sample_ids"], ["s002"])
+        self.assertEqual(
+            warning["repairs"][0]["dropped_step_ids"],
+            ["ps020"],
+        )
 
     def test_preview_splits_in_place_drying_outputs(self) -> None:
         result = extract_samples_processes(
@@ -1935,6 +2228,34 @@ class Stage3Tests(unittest.TestCase):
             "specimen_preparation",
         )
 
+    def test_preview_normalizes_oxidative_polymerization_only(self) -> None:
+        with self.assertRaises(Stage3Error):
+            extract_samples_processes(
+                stage0_document(),
+                stage2_document(),
+                OxidativePolymerizationClient(),
+                rendered_prompt(),
+                max_validation_retries=0,
+            )
+
+        result = extract_samples_processes(
+            stage0_document(),
+            stage2_document(),
+            OxidativePolymerizationClient(),
+            rendered_prompt(),
+            max_validation_retries=0,
+            preview_relaxed=True,
+        )
+        self.assertEqual(result.process_steps[0].process_type, "polymerization")
+        warning = next(
+            item for item in result.warnings
+            if item["code"] == "preview_process_type_normalized"
+        )
+        self.assertEqual(
+            warning["repairs"][0]["original_value"],
+            "oxidative polymerization",
+        )
+
     def test_polymer_name_is_derived_from_linked_entity(self) -> None:
         result = extract_samples_processes(
             stage0_document(),
@@ -1963,7 +2284,11 @@ class Stage3Tests(unittest.TestCase):
         )
 
         self.assertTrue(all(
-            sample.polymer_type == "random_copolymer"
+            sample.polymer_type == "copolymer"
+            for sample in result.samples
+        ))
+        self.assertTrue(all(
+            sample.copolymer_type == "ran"
             for sample in result.samples
         ))
         self.assertTrue(all(
@@ -1979,7 +2304,7 @@ class Stage3Tests(unittest.TestCase):
         result = extract_samples_processes(
             stage0_document(),
             entities,
-            SampleTypeClient(polymer_type="random_copolymer"),
+            SampleTypeClient(polymer_type="copolymer", copolymer_type="ran"),
             rendered_prompt(),
             max_validation_retries=0,
         )
@@ -1988,13 +2313,59 @@ class Stage3Tests(unittest.TestCase):
             sample.polymer_type == "homopolymer"
             for sample in result.samples
         ))
+        self.assertTrue(all(
+            sample.copolymer_type is None
+            for sample in result.samples
+        ))
+        warning = next(
+            item for item in result.warnings
+            if item["code"] == "sample_polymer_type_overridden"
+        )
+        self.assertEqual(len(warning["repairs"]), 4)
+        self.assertEqual(
+            [item["field"] for item in warning["repairs"]],
+            [
+                "polymer_type",
+                "copolymer_type",
+                "polymer_type",
+                "copolymer_type",
+            ],
+        )
+        self.assertEqual(warning["repairs"][0]["model_value"], "copolymer")
+        self.assertEqual(warning["repairs"][0]["resolved_value"], "homopolymer")
+
+    def test_entity_copolymer_subtype_overrides_conflicting_sample_subtype(
+        self,
+    ) -> None:
+        entity_data = stage2_document().model_dump(mode="json")
+        entity = entity_data["polymer_entities"][0]
+        entity["polymer_type"] = "copolymer"
+        entity["copolymer_type"] = "stat"
+        entities = Stage2Document.model_validate(entity_data)
+
+        result = extract_samples_processes(
+            stage0_document(),
+            entities,
+            SampleTypeClient(polymer_type="copolymer", copolymer_type="ran"),
+            rendered_prompt(),
+            max_validation_retries=0,
+        )
+
+        self.assertTrue(all(
+            sample.polymer_type == "copolymer"
+            and sample.copolymer_type == "stat"
+            for sample in result.samples
+        ))
         warning = next(
             item for item in result.warnings
             if item["code"] == "sample_polymer_type_overridden"
         )
         self.assertEqual(len(warning["repairs"]), 2)
-        self.assertEqual(warning["repairs"][0]["model_value"], "random_copolymer")
-        self.assertEqual(warning["repairs"][0]["resolved_value"], "homopolymer")
+        self.assertTrue(all(
+            item["field"] == "copolymer_type"
+            for item in warning["repairs"]
+        ))
+        self.assertEqual(warning["repairs"][0]["resolved_value"], "stat")
 
     def test_case_changed_sample_name_is_mapped_to_source(self) -> None:
         result = extract_samples_processes(
@@ -2143,6 +2514,10 @@ class Stage3Tests(unittest.TestCase):
             self.assertFalse(first_cached)
             self.assertTrue(second_cached)
             self.assertEqual(client.calls, calls_after_first)
+            written = json.loads(output_path.read_text(encoding="utf-8"))
+            self.assertIn("polymer_type", written["samples"][0])
+            self.assertIn("copolymer_type", written["samples"][0])
+            self.assertIn("material_type", written["samples"][0])
 
     def test_failure_response_can_be_replayed_without_network(self) -> None:
         document = stage0_document()

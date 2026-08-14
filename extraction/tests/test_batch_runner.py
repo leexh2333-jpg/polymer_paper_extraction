@@ -13,6 +13,7 @@ from batch_runner import (
     PREVIEW_STAGES,
     STAGE4R_PREVIEW_STAGE,
     STAGES,
+    START_STAGE_CHOICES,
     VALIDATE_EXISTING_INPUTS,
     BatchStateStore,
     RunnerSettings,
@@ -23,7 +24,23 @@ from batch_runner import (
     run_document,
     run_stage_process,
     select_document_paths,
+    strict_stage_window,
 )
+
+
+class StageWindowTests(unittest.TestCase):
+    def test_stage2_window_requires_only_stage0_and_stage1_outputs(self) -> None:
+        stages, required = strict_stage_window("stage2_polymer_entity")
+
+        self.assertEqual(stages, STAGES[2:])
+        self.assertEqual(required, ("stage0_blocks.json", "stage1_mentions.json"))
+        self.assertIn("stage2_polymer_entity", START_STAGE_CHOICES)
+
+    def test_default_window_keeps_the_full_strict_pipeline(self) -> None:
+        stages, required = strict_stage_window(None)
+
+        self.assertEqual(stages, STAGES)
+        self.assertEqual(required, ())
 
 
 class BatchStateStoreTests(unittest.TestCase):
@@ -252,6 +269,7 @@ class StageCommandTests(unittest.TestCase):
         self.assertIn("--config", command)
         self.assertIn("--force", command)
         self.assertIn("--apply", command)
+        self.assertIn("--allow-filled-up-sample-binding", command)
 
     def test_preview_stage_uses_external_candidate_publisher(self) -> None:
         command = build_stage_command(
@@ -1080,6 +1098,16 @@ if __name__ == "__main__":
 
 
 class BatchAcceptanceTests(unittest.TestCase):
+    def test_preview_validate_existing_accepts_succeeded(self) -> None:
+        accepted = build_batch_acceptance(
+            {"succeeded": 20},
+            preview=True,
+            validate_existing=True,
+        )
+
+        self.assertTrue(accepted["accepted"])
+        self.assertEqual(accepted["expected_status"], "succeeded")
+
     def test_preview_accepts_only_all_candidate_complete(self) -> None:
         accepted = build_batch_acceptance(
             {"candidate_complete": 20},

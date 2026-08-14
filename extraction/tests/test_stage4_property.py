@@ -40,6 +40,7 @@ from stages.stage4_property import (
     _recover_grouped_table_methods,
     _repair_candidate_response_payload,
     _resolve_surface_text,
+    _resolve_vocabulary_path,
     _stage4_raw_response_artifact,
     _validate_required_table_series,
     extract_properties,
@@ -48,6 +49,26 @@ from stages.stage4_property import (
     select_context_blocks,
 )
 from stages.table_grid import parse_table_cells
+
+
+class VocabularyPathResolutionTests(unittest.TestCase):
+    def test_repository_relative_vocabulary_path_does_not_duplicate_extraction(self) -> None:
+        config_path = DEFAULT_CONFIG_PATH.resolve()
+        expected = DEFAULT_VOCABULARY_PATH.resolve()
+        self.assertEqual(
+            _resolve_vocabulary_path(
+                "extraction/config/polymer_schema.yaml",
+                config_path=config_path,
+            ),
+            expected,
+        )
+        self.assertEqual(
+            _resolve_vocabulary_path(
+                "config/polymer_schema.yaml",
+                config_path=config_path,
+            ),
+            expected,
+        )
 
 
 RESULT_SENTENCE = (
