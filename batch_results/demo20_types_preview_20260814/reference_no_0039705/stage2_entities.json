@@ -1,0 +1,503 @@
+{
+  "schema_version": "1.0",
+  "document_id": "reference_no_0039705",
+  "polymer_entities": [
+    {
+      "entity_id": "pe001",
+      "polymer_name": "Polymer Ia–IIc",
+      "polymer_type": "homopolymer",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "Polymer Ia–IIc",
+        "Ib–IIc",
+        "side-chain liquid crystalline polymethacrylates",
+        "Ia–IIc",
+        "Ia",
+        "IIc"
+      ],
+      "resolved_from_mentions": [
+        "m001",
+        "m003",
+        "m006",
+        "m015",
+        "m041",
+        "m042",
+        "m045"
+      ],
+      "evidence": {
+        "block_id": "P_3_58",
+        "page": 3,
+        "bbox": [
+          511.0,
+          233.0,
+          895.0,
+          471.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The polymers were synthesized by free-radical solution addition polymerization from the respective monomers using AIBN as an initiator in THF at $6 0 ~ ^ { \\circ } \\mathrm { C }$for 48 h. The typical procedure for the synthesis of polymer ia is as follows: The monomer ia (400 mg, 0.67 mol) and AIBN (2 wt %) were dissolved in dry THF (5 mL) and gentle steam ofnitrogen purged into the solution. The solution was kept in an oil bath at $6 0 ~ ^ { \\circ } \\mathrm { C }$for 48 h. Then, the solution was cooled and poured into excess of methanol to precipitate the product. The crude polymer thus obtained was represipitated twice using chloroform and methanol. The purified polymer was dried at $4 5 ~ ^ { \\circ } \\mathrm { C }$under vacuum for 48 h to afford yellow colored solid. The remaining Ib–IIc was also prepared by adopting similar procedure as of Ia."
+      },
+      "source_image_refs": [
+        {
+          "block_id": "I_4_65",
+          "page": 4,
+          "bbox": [
+            199.0,
+            102.0,
+            797.0,
+            630.0
+          ],
+          "image_path": "organized/reference_no_0039705/images/736e6df9af33f78e02e92e2093d5967891708e04e416804759f1f5dc501dd636.jpg",
+          "caption": "Scheme 1. Synthesis of polymers Ia–IIc."
+        }
+      ],
+      "confidence": {
+        "score": 0.91
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe002",
+      "polymer_name": "Ia–Ic",
+      "polymer_type": "homopolymer",
+      "variant_of": "pe001",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "Ia–Ic",
+        "Ia",
+        "I series polymers",
+        "methyl substituted polymers"
+      ],
+      "resolved_from_mentions": [
+        "m022",
+        "m024",
+        "m026",
+        "m028",
+        "m046",
+        "m049",
+        "m052"
+      ],
+      "evidence": {
+        "block_id": "P_6_85",
+        "page": 6,
+        "bbox": [
+          101.0,
+          277.0,
+          483.0,
+          679.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The methyl substituted polymers (Ia–Ic) shows higher thermal stability than butyl substituted polymers (IIa–IIc)."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.91
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe003",
+      "polymer_name": "IIa–IIc",
+      "polymer_type": "homopolymer",
+      "variant_of": "pe001",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "IIa–IIc",
+        "IIa",
+        "II series",
+        "butyl substituted polymers"
+      ],
+      "resolved_from_mentions": [
+        "m023",
+        "m025",
+        "m027",
+        "m029",
+        "m047",
+        "m050",
+        "m051"
+      ],
+      "evidence": {
+        "block_id": "P_6_85",
+        "page": 6,
+        "bbox": [
+          101.0,
+          277.0,
+          483.0,
+          679.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The methyl substituted polymers (Ia–Ic) shows higher thermal stability than butyl substituted polymers (IIa–IIc)."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.91
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe004",
+      "polymer_name": "polymer ia",
+      "polymer_type": "homopolymer",
+      "variant_of": "pe002",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "polymer ia",
+        "Ia"
+      ],
+      "resolved_from_mentions": [
+        "m002",
+        "m004",
+        "m008",
+        "m009",
+        "m016",
+        "m034"
+      ],
+      "evidence": {
+        "block_id": "P_3_58",
+        "page": 3,
+        "bbox": [
+          511.0,
+          233.0,
+          895.0,
+          471.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The polymers were synthesized by free-radical solution addition polymerization from the respective monomers using AIBN as an initiator in THF at $6 0 ~ ^ { \\circ } \\mathrm { C }$for 48 h. The typical procedure for the synthesis of polymer ia is as follows: The monomer ia (400 mg, 0.67 mol) and AIBN (2 wt %) were dissolved in dry THF (5 mL) and gentle steam ofnitrogen purged into the solution. The solution was kept in an oil bath at $6 0 ~ ^ { \\circ } \\mathrm { C }$for 48 h. Then, the solution was cooled and poured into excess of methanol to precipitate the product. The crude polymer thus obtained was represipitated twice using chloroform and methanol. The purified polymer was dried at $4 5 ~ ^ { \\circ } \\mathrm { C }$under vacuum for 48 h to afford yellow colored solid. The remaining Ib–IIc was also prepared by adopting similar procedure as of Ia."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.96
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe005",
+      "polymer_name": "Ib",
+      "polymer_type": "homopolymer",
+      "variant_of": "pe002",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "Ib"
+      ],
+      "resolved_from_mentions": [
+        "m010",
+        "m017",
+        "m031",
+        "m035",
+        "m053",
+        "m054",
+        "m056"
+      ],
+      "evidence": {
+        "block_id": "P_3_58",
+        "page": 3,
+        "bbox": [
+          511.0,
+          233.0,
+          895.0,
+          471.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The polymers were synthesized by free-radical solution addition polymerization from the respective monomers using AIBN as an initiator in THF at $6 0 ~ ^ { \\circ } \\mathrm { C }$for 48 h. The typical procedure for the synthesis of polymer ia is as follows: The monomer ia (400 mg, 0.67 mol) and AIBN (2 wt %) were dissolved in dry THF (5 mL) and gentle steam ofnitrogen purged into the solution. The solution was kept in an oil bath at $6 0 ~ ^ { \\circ } \\mathrm { C }$for 48 h. Then, the solution was cooled and poured into excess of methanol to precipitate the product. The crude polymer thus obtained was represipitated twice using chloroform and methanol. The purified polymer was dried at $4 5 ~ ^ { \\circ } \\mathrm { C }$under vacuum for 48 h to afford yellow colored solid. The remaining Ib–IIc was also prepared by adopting similar procedure as of Ia."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.94
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe006",
+      "polymer_name": "Ic",
+      "polymer_type": "homopolymer",
+      "variant_of": "pe002",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "Ic"
+      ],
+      "resolved_from_mentions": [
+        "m011",
+        "m018",
+        "m030",
+        "m036",
+        "m044"
+      ],
+      "evidence": {
+        "block_id": "P_3_58",
+        "page": 3,
+        "bbox": [
+          511.0,
+          233.0,
+          895.0,
+          471.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The polymers were synthesized by free-radical solution addition polymerization from the respective monomers using AIBN as an initiator in THF at $6 0 ~ ^ { \\circ } \\mathrm { C }$for 48 h. The typical procedure for the synthesis of polymer ia is as follows: The monomer ia (400 mg, 0.67 mol) and AIBN (2 wt %) were dissolved in dry THF (5 mL) and gentle steam ofnitrogen purged into the solution. The solution was kept in an oil bath at $6 0 ~ ^ { \\circ } \\mathrm { C }$for 48 h. Then, the solution was cooled and poured into excess of methanol to precipitate the product. The crude polymer thus obtained was represipitated twice using chloroform and methanol. The purified polymer was dried at $4 5 ~ ^ { \\circ } \\mathrm { C }$under vacuum for 48 h to afford yellow colored solid. The remaining Ib–IIc was also prepared by adopting similar procedure as of Ia."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.94
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe007",
+      "polymer_name": "IIa",
+      "polymer_type": "homopolymer",
+      "variant_of": "pe003",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "IIa"
+      ],
+      "resolved_from_mentions": [
+        "m005",
+        "m012",
+        "m019",
+        "m032",
+        "m037",
+        "m043"
+      ],
+      "evidence": {
+        "block_id": "P_3_60",
+        "page": 3,
+        "bbox": [
+          511.0,
+          633.0,
+          895.0,
+          813.0
+        ],
+        "source_type": "text",
+        "source_sentence": "IIa: FT-IR (KBr, $\\mathrm { c m } ^ { - 1 } ) { : }$2947 and 2878 $\\left( - \\mathrm { C H _ { 2 } } \\mathrm { - } \\right)$, 2931 and 3019 $\\mathrm { ( - C H _ { 3 } ) }$, 1599 (aromatic $- \\mathrm { C } \\mathrm { = } \\mathrm { C } - )$, 886 (o-substituted aromatic), <sup>1</sup>H NMR (400 MHz, CDCl )d: 8.11 (s, 4H, Ar), 7.71–6.96 (m, 10H, <sub>A</sub>CH CH<sub>A</sub>, Ar), 4.07 (s, 6H, $\\mathrm { A r { - } O { - } C H _ { 2 } } ,$$\\mathrm { - C H _ { 2 } \\mathrm { - C O O - , - N \\mathrm { - C H _ { 2 } \\mathrm { - ) , 2 . 5 2 ~ ( s , ~ 3 H , - C H _ { 3 } ) , } } } }$1.39–1.92 (m, 15H, $\\mathrm { - ( C H _ { 2 } ) _ { 4 } \\mathrm { - , - C H _ { 2 } \\mathrm { - C H _ { 2 } \\mathrm { - C H _ { 3 } ) _ { 4 } } } } }$$^ { 1 3 } \\mathrm { C }$NMR (400 MHz, CDCl )d: 183.1, 181.7 (carbonyl), 162.3, 161.7, 148.2, 143.2, 136.2, 135.9, 132.4, 129.9, 125.2, 123.6, 119.3, 118.5, 102.6 (aromatic), 68.3, 64.8 (<sub>A</sub>O<sub>A</sub>CH ), 34.9, 33.4, 25.3, 24.2, 18.3, 15.2, 11.3 (aliphatic)."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.95
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe008",
+      "polymer_name": "IIb",
+      "polymer_type": "homopolymer",
+      "variant_of": "pe003",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "IIb"
+      ],
+      "resolved_from_mentions": [
+        "m013",
+        "m020",
+        "m038",
+        "m055"
+      ],
+      "evidence": {
+        "block_id": "P_3_58",
+        "page": 3,
+        "bbox": [
+          511.0,
+          233.0,
+          895.0,
+          471.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The polymers were synthesized by free-radical solution addition polymerization from the respective monomers using AIBN as an initiator in THF at $6 0 ~ ^ { \\circ } \\mathrm { C }$for 48 h. The typical procedure for the synthesis of polymer ia is as follows: The monomer ia (400 mg, 0.67 mol) and AIBN (2 wt %) were dissolved in dry THF (5 mL) and gentle steam ofnitrogen purged into the solution. The solution was kept in an oil bath at $6 0 ~ ^ { \\circ } \\mathrm { C }$for 48 h. Then, the solution was cooled and poured into excess of methanol to precipitate the product. The crude polymer thus obtained was represipitated twice using chloroform and methanol. The purified polymer was dried at $4 5 ~ ^ { \\circ } \\mathrm { C }$under vacuum for 48 h to afford yellow colored solid. The remaining Ib–IIc was also prepared by adopting similar procedure as of Ia."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.94
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe009",
+      "polymer_name": "IIc",
+      "polymer_type": "homopolymer",
+      "variant_of": "pe003",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "IIc"
+      ],
+      "resolved_from_mentions": [
+        "m014",
+        "m021",
+        "m033",
+        "m039"
+      ],
+      "evidence": {
+        "block_id": "P_3_58",
+        "page": 3,
+        "bbox": [
+          511.0,
+          233.0,
+          895.0,
+          471.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The polymers were synthesized by free-radical solution addition polymerization from the respective monomers using AIBN as an initiator in THF at $6 0 ~ ^ { \\circ } \\mathrm { C }$for 48 h. The typical procedure for the synthesis of polymer ia is as follows: The monomer ia (400 mg, 0.67 mol) and AIBN (2 wt %) were dissolved in dry THF (5 mL) and gentle steam ofnitrogen purged into the solution. The solution was kept in an oil bath at $6 0 ~ ^ { \\circ } \\mathrm { C }$for 48 h. Then, the solution was cooled and poured into excess of methanol to precipitate the product. The crude polymer thus obtained was represipitated twice using chloroform and methanol. The purified polymer was dried at $4 5 ~ ^ { \\circ } \\mathrm { C }$under vacuum for 48 h to afford yellow colored solid. The remaining Ib–IIc was also prepared by adopting similar procedure as of Ia."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.94
+      },
+      "copolymer_type": null
+    }
+  ],
+  "unresolved_mention_ids": [
+    "m007",
+    "m040",
+    "m048"
+  ],
+  "provenance": {
+    "stage": "stage2_polymer_entity",
+    "provider": "dmx",
+    "model": "gpt-5.6-terra-2026-07-09",
+    "models": [
+      "gpt-5.6-terra-2026-07-09"
+    ],
+    "prompt_id": "polymer.stage2.polymer_entity",
+    "prompt_version": "1.3.0",
+    "prompt_sha256": "0d376da340b979a77fcd231e0148cc26c8b9d125f7209025c7055483abb7d7e1",
+    "input_hash": "fb3fbb91a3eb198080d41e1aa63ab9fb5d093061def23fbd4555f71746282f83",
+    "model_config_hash": "c9e96c2514956e7b4b65eae3d327d34f95b7a33876cec6d4aa56f95eb79a9b50",
+    "cache_key": "91f918c70bed711eb19f9ef09d3b2e4a9c6e0c85cae05850da14ddaacdd84a5f",
+    "output_schema_version": "polymer_entity_schema.v3",
+    "implementation_version": "1.4.0",
+    "context_block_count": 85,
+    "context_chars": 46437,
+    "call_count": 1,
+    "usage": {
+      "input_tokens": 23875,
+      "output_tokens": 4941,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "billable_input_tokens": 23875,
+      "total_tokens": 28816
+    },
+    "cost": {
+      "status": "calculated",
+      "currency": "CNY",
+      "input_per_million": "17",
+      "output_per_million": "101",
+      "input_cost": "0.405875",
+      "output_cost": "0.499041",
+      "total_cost": "0.904916"
+    },
+    "status": "success"
+  },
+  "warnings": [
+    {
+      "stage": "stage2_polymer_entity",
+      "code": "evidence_surface_whitespace_recovered",
+      "message": "仅按空白等价在同一 block 内恢复了原文 evidence 表面文本",
+      "items": [
+        {
+          "entity_id": "pe002",
+          "block_id": "P_6_85",
+          "field": "evidence.source_sentence"
+        },
+        {
+          "entity_id": "pe003",
+          "block_id": "P_6_85",
+          "field": "evidence.source_sentence"
+        }
+      ]
+    },
+    {
+      "stage": "stage2_polymer_entity",
+      "code": "preview_entity_evidence_inherited_from_mention",
+      "message": "Preview 模式已从同名、同 block 的 Stage 1 mention 继承逐字 evidence sentence",
+      "items": [
+        {
+          "entity_id": "pe002",
+          "mention_id": "m022",
+          "block_id": "P_6_85"
+        },
+        {
+          "entity_id": "pe003",
+          "mention_id": "m023",
+          "block_id": "P_6_85"
+        }
+      ]
+    },
+    {
+      "stage": "stage2_polymer_entity",
+      "code": "unresolved_mentions",
+      "message": "3 个 mention 未解析为实体，已原样保留引用",
+      "mention_ids": [
+        "m007",
+        "m040",
+        "m048"
+      ]
+    },
+    {
+      "stage": "stage2_polymer_entity",
+      "code": "polymer_type_default_inferred",
+      "message": "Backfill：无共聚或共混反证的实体已推断为 homopolymer",
+      "items": [
+        {
+          "entity_id": "pe001",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe002",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe003",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe004",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe005",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe006",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe007",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe008",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe009",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        }
+      ],
+      "backfill": true
+    }
+  ]
+}

@@ -1,0 +1,5757 @@
+{
+  "schema_version": "1.1",
+  "source_document_schema_version": "1.0",
+  "document_id": "reference_no_0020284",
+  "paper": {
+    "ref_no": "reference_no_0020284",
+    "pdf_filename": "a18b0fd9-7d5a-4895-adc2-08144e4e55e6_origin.pdf",
+    "source_pdf_path": "mineru/reference_no_0020284/a18b0fd9-7d5a-4895-adc2-08144e4e55e6_origin.pdf",
+    "organized_pdf_path": "organized/reference_no_0020284/origin.pdf",
+    "doi": null,
+    "title": null,
+    "authors": null,
+    "journal": null,
+    "year": null,
+    "metadata_status": "failed",
+    "metadata_extraction": {
+      "method": "llm",
+      "provider": null,
+      "model": null,
+      "prompt_file": "prompts/meta_extract.md",
+      "prompt_sha256": "98252486e4f9cdfd1b42ea02b7e01440d6be99c99d18720dc71c95aa1643fcd4",
+      "source_pages": [
+        0,
+        1
+      ],
+      "status": "failed",
+      "error_type": "MetaExtractorUnavailable"
+    }
+  },
+  "source_files": {
+    "markdown": "reference_no_0020284.md",
+    "content_v1": "content.json",
+    "content_v2": "content_v2.json",
+    "pdf": "origin.pdf"
+  },
+  "ocr": {
+    "engine": "mineru",
+    "batch_id": "3987e160-2691-40d5-bd52-f4279f35872d",
+    "model_version": "vlm",
+    "ocr_enabled": false,
+    "language": null,
+    "page_ranges": null,
+    "enable_formula": true,
+    "enable_table": true,
+    "extra_formats": [],
+    "status": "done",
+    "manifest_file": "batch_3987e160-2691-40d5-bd52-f4279f35872d_manifest.json",
+    "status_file": "batch_3987e160-2691-40d5-bd52-f4279f35872d_status.json"
+  },
+  "elements": [
+    {
+      "block_id": "P_0_0",
+      "type": "title",
+      "section": "DocumentTitle",
+      "text": "Synthesis and Characterization of Aromatic and Brominated Aromatic Polycarbonates by Two-Phase Phase-Transfer-Catalyzed Polycondensation of Bisphenols with Trichloromethyl Chloroformate",
+      "page": 0,
+      "bbox": [
+        100.0,
+        101.0,
+        880.0,
+        205.0
+      ],
+      "source_block_index": 0,
+      "alignment_status": "matched",
+      "title_level": 1
+    },
+    {
+      "block_id": "P_0_1",
+      "type": "text",
+      "text": "DER-JANG LIAW\\* and PING CHANG",
+      "page": 0,
+      "bbox": [
+        100.0,
+        236.0,
+        368.0,
+        252.0
+      ],
+      "source_block_index": 1,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_0_2",
+      "type": "text",
+      "text": "Department of Chemical Engineering, National Taiwan Institute of Technology, Taipei, Taiwan 106, Republic of China",
+      "page": 0,
+      "bbox": [
+        100.0,
+        263.0,
+        885.0,
+        280.0
+      ],
+      "source_block_index": 2,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_0_3",
+      "type": "title",
+      "section": "Abstract",
+      "text": "SYNOPSIS",
+      "page": 0,
+      "bbox": [
+        198.0,
+        344.0,
+        265.0,
+        357.0
+      ],
+      "source_block_index": 3,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_0_4",
+      "type": "text",
+      "section": "Abstract",
+      "text": "Aromatic and brominated aromatic homopolycarbonates were synthesized by the two-phase phase-transfer-catalyzed polycondensation of bisphenols with trichloromethyl chloroformate at 25°C. The infrared spectra, inherent viscosity, x-ray diffraction, solubility, contact angle, differential scanning calorimetry, thermogravimetric analysis, and limiting oxygen index (LOI) of all polycarbonates were measured. Polycarbonates of moderate or large molar mass with inherent viscosities up to 0.77 dL/g were obtained in high yields with tetrabutylammonium bromide (TBAB) as a catalyst, sodium hydroxide as a base, and 1,2-dichloroethane as solvent. The brominated polycarbonates have good flame retardency, as indicated by LOI values. The x-ray diffraction diagram showed that all polycarbonates were semicrystalline. The polycarbonate (PC-2) based on bisphenol S has greater crystallinity than the others because of the sulfonyl group, which has a small van der Waals radius. The incorporation of the bromine atoms (PC-4–PC-6) on the ring decreased the crystallinity. Almost all polymers were soluble in DMF, pyridine, and phenol, but insoluble in acetone and m-cresol. Solubility increased remarkably with bromine substitution. The contact angles of polycarbonates (PC-1–PC-3) lie in the range 82 to 97 degrees greater than that of brominated polycarbonates (PC-4–PC-6). The wettability of the homopolycarbonate based on bisphenol S is greater than that of polycarbonates derived from bisphenol A and bisphenol AF.   $T_{g}$  of polycarbonates lies in the range 141–206°C, although   $T_{g}$  of polycarbonate based on bisphenol S was not detected.   $T_{g}$  of brominated polycarbonates was remarkably greater than that of unbrominated polycarbonates. These polymers obtained from aromatic bisphenols lost no mass below 341°C, but 10% loss of mass was recorded above 396°C in nitrogen. © 1997 John Wiley & Sons, Inc.",
+      "page": 0,
+      "bbox": [
+        196.0,
+        364.0,
+        793.0,
+        670.0
+      ],
+      "source_block_index": 4,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_0_4",
+        "V2_0_4_1",
+        "V2_0_4_3",
+        "V2_0_4_5"
+      ]
+    },
+    {
+      "block_id": "P_0_5",
+      "type": "title",
+      "section": "Introduction",
+      "text": "INTRODUCTION",
+      "page": 0,
+      "bbox": [
+        100.0,
+        716.0,
+        247.0,
+        731.0
+      ],
+      "source_block_index": 5,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_0_6",
+      "type": "text",
+      "section": "Introduction",
+      "text": "Polycarbonates are important engineering thermoplastics with good mechanical and optical properties and with electrical and heat resistance useful for many engineering applications.  $^{1-3}$  Polycarbonates are produced commercially by interfacial polymerization and melt transesterification. The melt transesterification  $^{4-7}$ is carried out in bulk, with dihydroxydiaryls and diesters being employed as comonomers. A basic catalyst  $^{8}$ is used, and the equilibrium becomes shifted to the right on removing liberated phenol at decreased pressure to obtain polymers of large molar mass. At these temperatures, careful control of the reaction conditions is required to avoid side reactions, which can impart a yellowish color to the product. Interfacial polycondensation is the most important method to synthesize aromatic polycarbonates from both academic and practical points of view. This process has been subject to much research.  $^{8-13}$  Commercially, this polymerization utilizes phosgene, which is extremely toxic, and this preparative method is unattractive for polycarbonate synthesis on a laboratory scale.  $^{14}$",
+      "page": 0,
+      "bbox": [
+        98.0,
+        748.0,
+        478.0,
+        839.0
+      ],
+      "source_block_index": 6,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_0_6",
+        "V2_0_6_1",
+        "V2_0_6_3",
+        "V2_0_6_5",
+        "V2_0_6_7",
+        "V2_0_6_9"
+      ]
+    },
+    {
+      "block_id": "P_0_7",
+      "type": "text",
+      "section": "Introduction",
+      "text": "",
+      "page": 0,
+      "bbox": [
+        509.0,
+        717.0,
+        893.0,
+        900.0
+      ],
+      "source_block_index": 7,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "F_0_8",
+      "type": "footnote",
+      "section": "Introduction",
+      "text": "\\* To whom correspondence should be addressed.\nJournal of Applied Polymer Science, Vol. 63, 195–204 (1997)\n© 1997 John Wiley & Sons, Inc. CCC 0021-8995/97/020195-10",
+      "page": 0,
+      "bbox": [
+        100.0,
+        862.0,
+        478.0,
+        898.0
+      ],
+      "source_block_index": 8,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_1_10",
+      "type": "text",
+      "section": "Introduction",
+      "text": "",
+      "page": 1,
+      "bbox": [
+        114.0,
+        99.0,
+        493.0,
+        160.0
+      ],
+      "source_block_index": 10,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_1_11",
+      "type": "text",
+      "section": "Introduction",
+      "text": "Aromatic polycarbonates are prepared by the reaction of various bisphenols with various acid derivatives. The literature contains many experimental results for the polycarbonate synthesized from bisphenol A and phosgene  $^{15-20}$ but only a few for polycarbonates based on bisphenol S  $^{21-22}$ and bisphenol AF.  $^{14,23}$ The introduction of the sulfonyl group improves the glass transition temperature and thermal stability. However, no detailed properties, except thermal ones, of this polymer were disclosed. Polymers containing fluorine atoms have increased thermal stability, solubility, and water repellency.",
+      "page": 1,
+      "bbox": [
+        114.0,
+        160.0,
+        495.0,
+        354.0
+      ],
+      "source_block_index": 11,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_1_11",
+        "V2_1_1_1",
+        "V2_1_1_3",
+        "V2_1_1_5"
+      ]
+    },
+    {
+      "block_id": "P_1_12",
+      "type": "text",
+      "section": "Introduction",
+      "text": "Organic bromides are long recognized as effective flame retardants for polymeric materials, and there is much data in the literature on the topic. Many patents describe the preparation of flame-proofed aromatic polyesters on introducing bromine into the polymer chain,  $^{24-25}$ but only a few papers have reported flame-retardant polycarbonates.  $^{26-31}$",
+      "page": 1,
+      "bbox": [
+        114.0,
+        354.0,
+        493.0,
+        473.0
+      ],
+      "source_block_index": 12,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_1_12",
+        "V2_1_2_1",
+        "V2_1_2_3"
+      ]
+    },
+    {
+      "block_id": "P_1_13",
+      "type": "text",
+      "section": "Introduction",
+      "text": "In this work, brominated and unbrominated aromatic polycarbonates were synthesized via a two-phase phase-transfer-catalyzed polycondensation of bisphenol A, bisphenol S, and bisphenol AF with trichloromethyl chloroformate. The latter carbonylation agent, which is a liquid, is handled more conveniently than phosgene for laboratory polycarbonate syntheses.  $^{32}$  The effect of bromine atoms, bisphenol A, bisphenol S, and bisphenol AF content on physical properties of polycarbonates, such as solubility, surface properties, and thermal behavior, is discussed in detail.",
+      "page": 1,
+      "bbox": [
+        114.0,
+        474.0,
+        495.0,
+        655.0
+      ],
+      "source_block_index": 13,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_1_13",
+        "V2_1_3_1"
+      ]
+    },
+    {
+      "block_id": "P_1_14",
+      "type": "title",
+      "section": "Methods",
+      "text": "EXPERIMENTAL",
+      "page": 1,
+      "bbox": [
+        114.0,
+        674.0,
+        246.0,
+        690.0
+      ],
+      "source_block_index": 14,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_1_15",
+      "type": "title",
+      "section": "Methods",
+      "text": "Materials",
+      "page": 1,
+      "bbox": [
+        114.0,
+        705.0,
+        191.0,
+        720.0
+      ],
+      "source_block_index": 15,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_1_16",
+      "type": "text",
+      "section": "Methods",
+      "text": "Bisphenol S (Hailsun Chemical Co., Taiwan) was purified by recrystallization from a mixture of methanol and benzene (1:3 v/v) (1 g with 6 mL of solvent); m.p. 248°C (m.p. 248–249.5°C in the literature  $^{33}$ ). Bisphenol AF was recrystallized from benzene; m.p. 163–165°C (m.p. 163–164°C in the literature  $^{34}$ ). Commercial bisphenol A was also recrystallized from benzene; m.p. 155–156°C (m.p. 154–155°C in the literature  $^{35}$ ). Bromine (Merck Co.) and trichloromethyl chloroformate (Janssen Chemical) were purchased from the indicated suppliers. Quaternary ammonium salts, such as tetra-n-butylammonium bromide (TBAB), tetra-n-butylammonium chloride (TBAC), benzyl-triethylammonium bromide (BTEAB), and benzyltriethylammonium chloride (BTEAC) were used as purchased. All solvents were distilled before use.",
+      "page": 1,
+      "bbox": [
+        112.0,
+        728.0,
+        493.0,
+        911.0
+      ],
+      "source_block_index": 16,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_1_16",
+        "V2_1_6_1",
+        "V2_1_6_3",
+        "V2_1_6_5"
+      ]
+    },
+    {
+      "block_id": "P_1_17",
+      "type": "text",
+      "section": "Methods",
+      "text": "",
+      "page": 1,
+      "bbox": [
+        522.0,
+        99.0,
+        903.0,
+        190.0
+      ],
+      "source_block_index": 17,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_1_18",
+      "type": "title",
+      "section": "Methods",
+      "text": "Preparation of Monomers",
+      "page": 1,
+      "bbox": [
+        524.0,
+        210.0,
+        723.0,
+        228.0
+      ],
+      "source_block_index": 18,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_1_19",
+      "type": "title",
+      "section": "Methods",
+      "text": "Preparation of 3,3',5,5'-Tetrabromobisphenol S  $^{4}$",
+      "page": 1,
+      "bbox": [
+        524.0,
+        234.0,
+        890.0,
+        250.0
+      ],
+      "source_block_index": 19,
+      "alignment_status": "matched",
+      "title_level": 2,
+      "merged_source_block_ids": [
+        "P_1_19",
+        "V2_1_9_1"
+      ]
+    },
+    {
+      "block_id": "P_1_20",
+      "type": "text",
+      "section": "Methods",
+      "text": "A spherical flask (1 L) equipped with dropping funnel was charged with bisphenol S (54 g, 0.216 mol) and distilled water (300 mL). While the suspended mixture was heated from 30 to 90°C, bromine (139.3 g, 0.872 mol) was added to the reaction flask through the dropping funnel over 40 min. The flask was maintained at about 90°C for 4 h. When the reaction was completed, the crude product was washed with aqueous sodium sulfite solution and then with distilled water to remove residual hydrogen bromide. The final product was dried in vacuum at 60°C for 24 h. A white powder (m.p. 289°C) was obtained (m.p. 289°C in the literature  $^{36}$ ); the yield was 91%. The reaction took place according to eq. (1).",
+      "page": 1,
+      "bbox": [
+        522.0,
+        257.0,
+        903.0,
+        468.0
+      ],
+      "source_block_index": 20,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_1_20",
+        "V2_1_10_1"
+      ]
+    },
+    {
+      "block_id": "I_1_21",
+      "type": "image",
+      "section": "Methods",
+      "page": 1,
+      "bbox": [
+        524.0,
+        492.0,
+        861.0,
+        554.0
+      ],
+      "source_block_index": 21,
+      "alignment_status": "matched",
+      "image_path": "organized/reference_no_0020284/images/01b3aac83c91402c7276b80649030604cea84e37268afb616678f72f9f833e11.jpg",
+      "image_kind": "image"
+    },
+    {
+      "block_id": "I_1_22",
+      "type": "image",
+      "section": "Methods",
+      "page": 1,
+      "bbox": [
+        576.0,
+        561.0,
+        864.0,
+        637.0
+      ],
+      "source_block_index": 22,
+      "alignment_status": "matched",
+      "caption": "3,3',5,5'-tetrabromo bisphenol-S (TBS)",
+      "image_path": "organized/reference_no_0020284/images/b109e57076653c3b3dd0f745c454c4e74d42412a749178f1fcd02928b2b25ed2.jpg",
+      "image_kind": "image"
+    },
+    {
+      "block_id": "P_1_23",
+      "type": "text",
+      "section": "Methods",
+      "text": "(1)",
+      "page": 1,
+      "bbox": [
+        877.0,
+        590.0,
+        901.0,
+        606.0
+      ],
+      "source_block_index": 23,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_1_24",
+      "type": "text",
+      "section": "Methods",
+      "text": "(Anal. Calcd. for   $C_{12}H_{6}O_{4}SBr_{4}$ : C, 25.47%; H, 1.06%; O, 11.31%. Found: C, 25.62%; H, 1.16%; O, 11.28%.)",
+      "page": 1,
+      "bbox": [
+        522.0,
+        675.0,
+        901.0,
+        707.0
+      ],
+      "source_block_index": 24,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_1_24",
+        "V2_1_14_1"
+      ]
+    },
+    {
+      "block_id": "P_1_25",
+      "type": "title",
+      "section": "Methods",
+      "text": "Preparation of 3,3',5,5'-Tetrabromobisphenol A  $^{4}$",
+      "page": 1,
+      "bbox": [
+        522.0,
+        720.0,
+        890.0,
+        737.0
+      ],
+      "source_block_index": 25,
+      "alignment_status": "matched",
+      "title_level": 2,
+      "merged_source_block_ids": [
+        "P_1_25",
+        "V2_1_15_1"
+      ]
+    },
+    {
+      "block_id": "P_1_26",
+      "type": "text",
+      "section": "Methods",
+      "text": "A spherical flask (1 L) equipped with a dropping funnel was charged with bisphenol A (45 g, 0.216 mol) and distilled water (600 mL). While the suspended mixture was heated from 30 to 60°C, bromine (139.3 g, 0.872 mol) was added to the reaction flask through the dropping funnel over 40 min. The flask was maintained about 60–70°C for 5 h. When the reaction was completed, the crude product was washed with aqueous sodium sulfite solution and then with distilled water to remove residual hydrogen bromide. The final product was dried in vacuum at 60°C for 24 h. A white powder (m.p. 174–176°C) was obtained; the yield was 93.6%. The reaction took place according to eq. (2).",
+      "page": 1,
+      "bbox": [
+        521.0,
+        743.0,
+        901.0,
+        910.0
+      ],
+      "source_block_index": 26,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "I_2_29",
+      "type": "image",
+      "section": "Methods",
+      "page": 2,
+      "bbox": [
+        96.0,
+        145.0,
+        447.0,
+        316.0
+      ],
+      "source_block_index": 29,
+      "alignment_status": "matched",
+      "image_path": "organized/reference_no_0020284/images/694551270f7eaeee210b443ecd0a0dee8407d369e5defb1fb0770b74917c5072.jpg",
+      "image_kind": "image"
+    },
+    {
+      "block_id": "P_2_30",
+      "type": "text",
+      "section": "Methods",
+      "text": "",
+      "page": 2,
+      "bbox": [
+        96.0,
+        86.0,
+        473.0,
+        133.0
+      ],
+      "source_block_index": 30,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_2_31",
+      "type": "text",
+      "section": "Methods",
+      "text": "(2)",
+      "page": 2,
+      "bbox": [
+        450.0,
+        249.0,
+        472.0,
+        264.0
+      ],
+      "source_block_index": 31,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_2_32",
+      "type": "text",
+      "section": "Methods",
+      "text": "(Anal. Calcd. for   $C_{15}H_{12}O_{2}Br_{4}$ : C, 33.09%; H, 2.20%; O, 5.88%. Found: C, 33.08%; H, 2.21%; O, 5.88%.)",
+      "page": 2,
+      "bbox": [
+        96.0,
+        332.0,
+        473.0,
+        363.0
+      ],
+      "source_block_index": 32,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_2_32",
+        "V2_2_3_1"
+      ]
+    },
+    {
+      "block_id": "P_2_33",
+      "type": "title",
+      "section": "Methods",
+      "text": "Preparation of 3,3',5,5'-Tetrabromobisphenol AF  $^{4}$",
+      "page": 2,
+      "bbox": [
+        96.0,
+        377.0,
+        470.0,
+        394.0
+      ],
+      "source_block_index": 33,
+      "alignment_status": "matched",
+      "title_level": 2,
+      "merged_source_block_ids": [
+        "P_2_33",
+        "V2_2_4_1"
+      ]
+    },
+    {
+      "block_id": "P_2_34",
+      "type": "text",
+      "section": "Methods",
+      "text": "A spherical flask (1 L) equipped with a dropping funnel was charged with bisphenol AF (33.6 g, 0.1 mol) and distilled water (500 mL). While the mixture was heated from 30 to 80°C, bromine (65 g, 0.41 mol) was added to the reaction flask through the dropping funnel over 40 min. The flask was maintained about 80°C for 4 h. After the reaction was completed, the crude product was washed with aqueous sodium sulfite solution and distilled water to remove residual hydrogen bromide.",
+      "page": 2,
+      "bbox": [
+        96.0,
+        400.0,
+        473.0,
+        551.0
+      ],
+      "source_block_index": 34,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_2_35",
+      "type": "text",
+      "section": "Methods",
+      "text": "The final product was dried in vacuo at 60°C for 24 h. A white powder (m.p. 256°C) was obtained; the yield was 94%. The reaction took place according to eq. (3).",
+      "page": 2,
+      "bbox": [
+        96.0,
+        551.0,
+        475.0,
+        613.0
+      ],
+      "source_block_index": 35,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "I_2_36",
+      "type": "image",
+      "section": "Methods",
+      "page": 2,
+      "bbox": [
+        98.0,
+        629.0,
+        437.0,
+        780.0
+      ],
+      "source_block_index": 36,
+      "alignment_status": "matched",
+      "image_path": "organized/reference_no_0020284/images/0dcbf11135729c574ccfc09ce49a632cec9f38912d7faaa3a97c19226f3f035b.jpg",
+      "image_kind": "image"
+    },
+    {
+      "block_id": "P_2_37",
+      "type": "text",
+      "section": "Methods",
+      "text": "(3)",
+      "page": 2,
+      "bbox": [
+        450.0,
+        733.0,
+        472.0,
+        747.0
+      ],
+      "source_block_index": 37,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_2_38",
+      "type": "text",
+      "section": "Methods",
+      "text": "(Anal. Calcd. for   $C_{15}H_{6}O_{2}F_{6}$ : C, 27.6%; H, 0.9%. Found: C, 27.6%; H, 1.0%.)",
+      "page": 2,
+      "bbox": [
+        96.0,
+        793.0,
+        470.0,
+        825.0
+      ],
+      "source_block_index": 38,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_2_38",
+        "V2_2_9_1"
+      ]
+    },
+    {
+      "block_id": "P_2_39",
+      "type": "title",
+      "section": "Methods",
+      "text": "Homopolymerization",
+      "page": 2,
+      "bbox": [
+        96.0,
+        847.0,
+        259.0,
+        864.0
+      ],
+      "source_block_index": 39,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_2_40",
+      "type": "text",
+      "section": "Methods",
+      "text": "A typical homopolymerization proceeded as follows. In a flask, bisphenol S (1.25 g, 5.00 mmol), BTEAC (0.72 g, 3.15 mmol), and sodium hydroxide (1.14 g, 28.5 mmol) were dissolved in water (30 mL), then 1,2-dichloroethane (DCE, 30 mL) was added. To this solution, a solution of TCF (1.49 g, 7.5 mmol) in DCE (7.5 mL) was added dropwise over 10 min under vigorous agitation at 25°C. The two-phase mixture was stirred at that temperature for 2 h. The organic layer was separated, washed repeatedly with water, and then added dropwise into methanol (300 mL). The precipitated powdery polymer was collected, rinsed thoroughly with methanol, and dried; the yield was 86.5%. The reaction occurred according to Scheme I.",
+      "page": 2,
+      "bbox": [
+        96.0,
+        869.0,
+        473.0,
+        901.0
+      ],
+      "source_block_index": 40,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_2_41",
+      "type": "text",
+      "section": "Methods",
+      "text": "",
+      "page": 2,
+      "bbox": [
+        504.0,
+        86.0,
+        885.0,
+        283.0
+      ],
+      "source_block_index": 41,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_2_42",
+      "type": "title",
+      "section": "Methods",
+      "text": "Copolymerization",
+      "page": 2,
+      "bbox": [
+        506.0,
+        309.0,
+        647.0,
+        326.0
+      ],
+      "source_block_index": 42,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_2_43",
+      "type": "text",
+      "section": "Methods",
+      "text": "Copolymerization of bisphenol S and bisphenol A with trichloromethyl chloroformate at various feed ratios in DCE was carried out at 25°C for 2 h. A typical copolymerization of bisphenol S: bisphenol A (50: 50) proceeded as follows. In a flask was charged bisphenol S (0.625 g, 2.50 mmol), bisphenol A (0.57 g, 2.50 mmol), BTEAC (0.72 g, 3.15 mmol), sodium hydroxide (1.14 g, 28.5 mmol), water (30 mL), and DCE (30 mL). To the vigorously stirred mixture was added a solution of trichloromethyl",
+      "page": 2,
+      "bbox": [
+        504.0,
+        332.0,
+        887.0,
+        484.0
+      ],
+      "source_block_index": 43,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "I_2_44",
+      "type": "image",
+      "section": "Methods",
+      "page": 2,
+      "bbox": [
+        560.0,
+        525.0,
+        830.0,
+        621.0
+      ],
+      "source_block_index": 44,
+      "alignment_status": "matched",
+      "image_path": "organized/reference_no_0020284/images/0212426a1673d8cfdccb9fd714b773dc93c33d719dd0af6998033497fe0ea839.jpg",
+      "image_kind": "image"
+    },
+    {
+      "block_id": "P_2_45",
+      "type": "text",
+      "section": "Methods",
+      "text": "Ar =",
+      "page": 2,
+      "bbox": [
+        504.0,
+        667.0,
+        544.0,
+        681.0
+      ],
+      "source_block_index": 45,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "I_2_46",
+      "type": "image",
+      "section": "Methods",
+      "page": 2,
+      "bbox": [
+        516.0,
+        708.0,
+        883.0,
+        878.0
+      ],
+      "source_block_index": 46,
+      "alignment_status": "matched",
+      "caption": "Scheme I Synthesis of various polycarbonates.",
+      "image_path": "organized/reference_no_0020284/images/310e6e58d70ae11158a486db87431f465d065984a0f9e120464cd4479010f0e8.jpg",
+      "image_kind": "image"
+    },
+    {
+      "block_id": "T_3_49",
+      "type": "table",
+      "section": "Methods",
+      "page": 3,
+      "bbox": [
+        111.0,
+        135.0,
+        490.0,
+        275.0
+      ],
+      "source_block_index": 49,
+      "alignment_status": "matched",
+      "caption": "Table I Preparation of Polycarbonates by Two-phase Phase-transfer-catalyzed Polycondensation with TCF at 25°C for 2 h $^{a}$",
+      "table_body": "<table><tr><td>Polymer</td><td>Yield (%)</td><td> $\\eta_{\\text{inh}}^{\\text{b}}$  (dL/g)</td><td>Catalyst</td><td>State</td></tr><tr><td>PC-1</td><td>87.2</td><td>0.77</td><td>TBAB</td><td>solution</td></tr><tr><td>PC-2</td><td>86.5</td><td>0.32</td><td>BTEAC</td><td>ppt.</td></tr><tr><td>PC-3</td><td>86.9</td><td>0.36</td><td>TBAB</td><td>solution</td></tr><tr><td>PC-4</td><td>91.7</td><td>0.26</td><td>TBAB</td><td>solution</td></tr><tr><td>PC-5</td><td>72.3</td><td>0.18</td><td>BTEAC</td><td>ppt.</td></tr><tr><td>PC-6</td><td>90.2</td><td>0.31</td><td>TBAB</td><td>solution</td></tr></table>",
+      "table_cells": [
+        {
+          "cell_id": "T_3_49:r0000:c0000",
+          "row_index": 0,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Polymer",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_49:r0000:c0001",
+          "row_index": 0,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Yield (%)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_49:r0000:c0002",
+          "row_index": 0,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$\\eta_{\\text{inh}}^{\\text{b}}$ (dL/g)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_49:r0000:c0003",
+          "row_index": 0,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Catalyst",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_49:r0000:c0004",
+          "row_index": 0,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "State",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_49:r0001:c0000",
+          "row_index": 1,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "PC-1",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_49:r0001:c0001",
+          "row_index": 1,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "87.2",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_49:r0001:c0002",
+          "row_index": 1,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.77",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_49:r0001:c0003",
+          "row_index": 1,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "TBAB",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_49:r0001:c0004",
+          "row_index": 1,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "solution",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_49:r0002:c0000",
+          "row_index": 2,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "PC-2",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_49:r0002:c0001",
+          "row_index": 2,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "86.5",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_49:r0002:c0002",
+          "row_index": 2,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.32",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_49:r0002:c0003",
+          "row_index": 2,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "BTEAC",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_49:r0002:c0004",
+          "row_index": 2,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "ppt.",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_49:r0003:c0000",
+          "row_index": 3,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "PC-3",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_49:r0003:c0001",
+          "row_index": 3,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "86.9",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_49:r0003:c0002",
+          "row_index": 3,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.36",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_49:r0003:c0003",
+          "row_index": 3,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "TBAB",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_49:r0003:c0004",
+          "row_index": 3,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "solution",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_49:r0004:c0000",
+          "row_index": 4,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "PC-4",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_49:r0004:c0001",
+          "row_index": 4,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "91.7",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_49:r0004:c0002",
+          "row_index": 4,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.26",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_49:r0004:c0003",
+          "row_index": 4,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "TBAB",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_49:r0004:c0004",
+          "row_index": 4,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "solution",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_49:r0005:c0000",
+          "row_index": 5,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "PC-5",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_49:r0005:c0001",
+          "row_index": 5,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "72.3",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_49:r0005:c0002",
+          "row_index": 5,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.18",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_49:r0005:c0003",
+          "row_index": 5,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "BTEAC",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_49:r0005:c0004",
+          "row_index": 5,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "ppt.",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_49:r0006:c0000",
+          "row_index": 6,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "PC-6",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_49:r0006:c0001",
+          "row_index": 6,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "90.2",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_49:r0006:c0002",
+          "row_index": 6,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.31",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_49:r0006:c0003",
+          "row_index": 6,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "TBAB",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_49:r0006:c0004",
+          "row_index": 6,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "solution",
+          "is_header": false
+        }
+      ],
+      "image_path": "organized/reference_no_0020284/images/db2d9472ad45b503ec2319fea8e6d29009e6e55a2134086badce4d1b8354b09a.jpg"
+    },
+    {
+      "block_id": "P_3_50",
+      "type": "text",
+      "section": "Methods",
+      "text": "chloroformate (1.49 g, 7.50 mmol) in DCE (7.5 mL) in portions over 10 min at 25°C. After being stirred at that temperature for 2 h, the organic phase was collected and washed well with water. The powdery polymer was isolated on pouring the solution into methanol (300 mL) and dried under vacuum at 60°C for 24 h. The yield was 71%.",
+      "page": 3,
+      "bbox": [
+        106.0,
+        346.0,
+        490.0,
+        454.0
+      ],
+      "source_block_index": 50,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_3_51",
+      "type": "title",
+      "section": "Methods",
+      "text": "Measurements",
+      "page": 3,
+      "bbox": [
+        109.0,
+        475.0,
+        226.0,
+        489.0
+      ],
+      "source_block_index": 51,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_3_52",
+      "type": "text",
+      "section": "Methods",
+      "text": "Infrared (IR) spectra in the range 4000–400 cm  $^{-1}$ of the synthesized monomers and polymers in solid state were obtained for samples in KBr disks (JASCO IR-700 spectrometer). The inherent viscosities,  $\\eta_{inh}$, were measured with an Ubbelohde viscometer at a concentration 0.5 dL/g. Elemental analyses of the monomers were conducted on a Perkin-Elmer 2400 instrument. The x-ray diffraction diagram was recorded with a powder method with an x-ray diffractometer (Philips model PW 1710). The LOI was determined on a SUGA instrument according to ASTM D-2863-77. Contact angles of polymers were measured with a contact angle meter (Kernco, GIII). Static contact angles were measured at   $25^{\\circ}$ C and 65% relative humidity through use of a sessile drop of volume   $2 \\mu L$ .",
+      "page": 3,
+      "bbox": [
+        108.0,
+        496.0,
+        491.0,
+        681.0
+      ],
+      "source_block_index": 52,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_3_52",
+        "V2_3_3_1",
+        "V2_3_3_3",
+        "V2_3_3_5",
+        "V2_3_3_7"
+      ]
+    },
+    {
+      "block_id": "P_3_53",
+      "type": "text",
+      "section": "Methods",
+      "text": "",
+      "page": 3,
+      "bbox": [
+        521.0,
+        92.0,
+        903.0,
+        139.0
+      ],
+      "source_block_index": 53,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_3_54",
+      "type": "title",
+      "section": "Results",
+      "text": "RESULTS AND DISCUSSION",
+      "page": 3,
+      "bbox": [
+        521.0,
+        156.0,
+        768.0,
+        173.0
+      ],
+      "source_block_index": 54,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_3_55",
+      "type": "title",
+      "section": "Results",
+      "text": "Polymerization of Trichloromethyl Chloroformate with Bisphenols",
+      "page": 3,
+      "bbox": [
+        519.0,
+        187.0,
+        898.0,
+        220.0
+      ],
+      "source_block_index": 55,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_3_56",
+      "type": "text",
+      "section": "Results",
+      "text": "Several polycarbonates (PC-1–PC-6) were synthesized by two-phase polycondensation of bisphenols and brominated bisphenols with trichloromethyl chloroformate in a system of an organic solvent and aqueous alkaline solution with quaternary ammonium salts, such as TBAB and BTEAC, at 25°C. Dichloroethane served as organic medium. Aromatic diols such as (1) bis(4-hydroxyphenyl)-propane (BPA); (2) bis(4-hydroxyphenyl)-sulfone (BPS); (3) bis(4-hydroxyphenyl)-1,1,1,3,3,3-hexafluoropropane (BPAF); and brominated diols, such as (4) 3,3',5,5'-tetrabromobisphenol-A; (5) 3,3',5,5'-tetrabromobisphenol S; and (6) 3,3',5,5'-tetrabromobisphenol AF were used. The polymers from trichloromethyl chloroformate and various diols were characterized by elemental analysis, inherent viscosity, IR spectra, x-ray diffraction, solubility, thermogravimetric analysis (TGA), differential scanning calorimetry (DSC), contact angle, and limiting oxygen index (LOI).",
+      "page": 3,
+      "bbox": [
+        519.0,
+        225.0,
+        901.0,
+        527.0
+      ],
+      "source_block_index": 56,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_3_57",
+      "type": "text",
+      "section": "Results",
+      "text": "Table I presents inherent viscosity data of polycarbonates from two-phase phase-transfer-catalyzed polycondensation of bisphenols with TCF at 25°C. The inherent viscosities of all polymers were in the range of 0.77 to 0.18 dL/g. Bisphenol A (PC-1) favors the highest inherent viscosity; the reason may be that bisphenol A having an electron releasing group increases the nucleophilicity.  $^{37}$  Bisphenols such as bisphenol S (PC-2) and bisphenol AF (PC-3) gave less favorable results. This phenomenon may have resulted from the electron withdrawing characteristic of the sulfonyl and trifluoromethyl groups, which may decrease the nucleophilicity. Inherent viscosities of brominated bisphenols (PC-4–PC-6) gave the least favorable result, although yields were still high. This phenomenon may also have resulted from the electron withdrawing characteristic of the bromine atom, as well as increased steric hindrance due to the bromine substituents.  $^{39}$",
+      "page": 3,
+      "bbox": [
+        519.0,
+        527.0,
+        903.0,
+        681.0
+      ],
+      "source_block_index": 57,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_3_57",
+        "V2_3_8_1",
+        "V2_3_8_3"
+      ]
+    },
+    {
+      "block_id": "T_3_58",
+      "type": "table",
+      "section": "Results",
+      "page": 3,
+      "bbox": [
+        111.0,
+        720.0,
+        900.0,
+        903.0
+      ],
+      "source_block_index": 58,
+      "alignment_status": "matched",
+      "caption": "Table II Elemental Analysis and IR Data of Various Polycarbonates",
+      "table_body": "<table><tr><td rowspan=\"3\">Polymer</td><td colspan=\"4\">Elemental Analysis</td><td rowspan=\"2\" colspan=\"5\">IR (cm-1, in KBr)</td></tr><tr><td colspan=\"2\">C (%)</td><td colspan=\"2\">H %</td></tr><tr><td>Found</td><td>(Calcd.)</td><td>Found</td><td>(Calcd.)</td><td>C=O</td><td>C-O-C</td><td>CH3</td><td>SO2</td><td>Br</td></tr><tr><td>PC-1</td><td>75.50</td><td>75.59</td><td>5.54</td><td>5.51</td><td>1769</td><td>1226</td><td>2958</td><td>—</td><td>—</td></tr><tr><td>PC-2</td><td>56.51</td><td>56.52</td><td>2.89</td><td>2.90</td><td>1779</td><td>1219</td><td>—</td><td>1150, 1291</td><td>—</td></tr><tr><td>PC-3</td><td>52.84</td><td>53.03</td><td>2.26</td><td>2.21</td><td>1774</td><td>1224</td><td>—</td><td>—</td><td>—</td></tr><tr><td>PC-4</td><td>33.63</td><td>33.68</td><td>1.81</td><td>1.75</td><td>1788</td><td>1228</td><td>2960</td><td>—</td><td>798</td></tr><tr><td>PC-5</td><td>26.41</td><td>26.35</td><td>0.67</td><td>0.68</td><td>1788</td><td>1220</td><td>—</td><td>1150, 1291</td><td>794</td></tr><tr><td>PC-6</td><td>28.41</td><td>28.32</td><td>0.63</td><td>0.59</td><td>1793</td><td></td><td>—</td><td>—</td><td>793</td></tr></table>",
+      "table_cells": [
+        {
+          "cell_id": "T_3_58:r0000:c0000",
+          "row_index": 0,
+          "column_index": 0,
+          "row_span": 3,
+          "column_span": 1,
+          "text": "Polymer",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0000:c0001",
+          "row_index": 0,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 4,
+          "text": "Elemental Analysis",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0000:c0005",
+          "row_index": 0,
+          "column_index": 5,
+          "row_span": 2,
+          "column_span": 5,
+          "text": "IR (cm-1, in KBr)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0001:c0001",
+          "row_index": 1,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 2,
+          "text": "C (%)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0001:c0003",
+          "row_index": 1,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 2,
+          "text": "H %",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0002:c0001",
+          "row_index": 2,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Found",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0002:c0002",
+          "row_index": 2,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "(Calcd.)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0002:c0003",
+          "row_index": 2,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Found",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0002:c0004",
+          "row_index": 2,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "(Calcd.)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0002:c0005",
+          "row_index": 2,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "C=O",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0002:c0006",
+          "row_index": 2,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "C-O-C",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0002:c0007",
+          "row_index": 2,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "CH3",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0002:c0008",
+          "row_index": 2,
+          "column_index": 8,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "SO2",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0002:c0009",
+          "row_index": 2,
+          "column_index": 9,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Br",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0003:c0000",
+          "row_index": 3,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "PC-1",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0003:c0001",
+          "row_index": 3,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "75.50",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0003:c0002",
+          "row_index": 3,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "75.59",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0003:c0003",
+          "row_index": 3,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "5.54",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0003:c0004",
+          "row_index": 3,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "5.51",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0003:c0005",
+          "row_index": 3,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1769",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0003:c0006",
+          "row_index": 3,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1226",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0003:c0007",
+          "row_index": 3,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "2958",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0003:c0008",
+          "row_index": 3,
+          "column_index": 8,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "—",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0003:c0009",
+          "row_index": 3,
+          "column_index": 9,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "—",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0004:c0000",
+          "row_index": 4,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "PC-2",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0004:c0001",
+          "row_index": 4,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "56.51",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0004:c0002",
+          "row_index": 4,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "56.52",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0004:c0003",
+          "row_index": 4,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "2.89",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0004:c0004",
+          "row_index": 4,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "2.90",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0004:c0005",
+          "row_index": 4,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1779",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0004:c0006",
+          "row_index": 4,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1219",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0004:c0007",
+          "row_index": 4,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "—",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0004:c0008",
+          "row_index": 4,
+          "column_index": 8,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1150, 1291",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0004:c0009",
+          "row_index": 4,
+          "column_index": 9,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "—",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0005:c0000",
+          "row_index": 5,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "PC-3",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0005:c0001",
+          "row_index": 5,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "52.84",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0005:c0002",
+          "row_index": 5,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "53.03",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0005:c0003",
+          "row_index": 5,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "2.26",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0005:c0004",
+          "row_index": 5,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "2.21",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0005:c0005",
+          "row_index": 5,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1774",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0005:c0006",
+          "row_index": 5,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1224",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0005:c0007",
+          "row_index": 5,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "—",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0005:c0008",
+          "row_index": 5,
+          "column_index": 8,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "—",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0005:c0009",
+          "row_index": 5,
+          "column_index": 9,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "—",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0006:c0000",
+          "row_index": 6,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "PC-4",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0006:c0001",
+          "row_index": 6,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "33.63",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0006:c0002",
+          "row_index": 6,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "33.68",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0006:c0003",
+          "row_index": 6,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1.81",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0006:c0004",
+          "row_index": 6,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1.75",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0006:c0005",
+          "row_index": 6,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1788",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0006:c0006",
+          "row_index": 6,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1228",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0006:c0007",
+          "row_index": 6,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "2960",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0006:c0008",
+          "row_index": 6,
+          "column_index": 8,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "—",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0006:c0009",
+          "row_index": 6,
+          "column_index": 9,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "798",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0007:c0000",
+          "row_index": 7,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "PC-5",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0007:c0001",
+          "row_index": 7,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "26.41",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0007:c0002",
+          "row_index": 7,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "26.35",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0007:c0003",
+          "row_index": 7,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.67",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0007:c0004",
+          "row_index": 7,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.68",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0007:c0005",
+          "row_index": 7,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1788",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0007:c0006",
+          "row_index": 7,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1220",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0007:c0007",
+          "row_index": 7,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "—",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0007:c0008",
+          "row_index": 7,
+          "column_index": 8,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1150, 1291",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0007:c0009",
+          "row_index": 7,
+          "column_index": 9,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "794",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0008:c0000",
+          "row_index": 8,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "PC-6",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0008:c0001",
+          "row_index": 8,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "28.41",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0008:c0002",
+          "row_index": 8,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "28.32",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0008:c0003",
+          "row_index": 8,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.63",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0008:c0004",
+          "row_index": 8,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.59",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0008:c0005",
+          "row_index": 8,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1793",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0008:c0006",
+          "row_index": 8,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0008:c0007",
+          "row_index": 8,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "—",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0008:c0008",
+          "row_index": 8,
+          "column_index": 8,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "—",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0008:c0009",
+          "row_index": 8,
+          "column_index": 9,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "793",
+          "is_header": false
+        }
+      ],
+      "image_path": "organized/reference_no_0020284/images/12a317047dd88b703af826e567f48355a3882d4fa0f3e542cfd5645c33e9bace.jpg"
+    },
+    {
+      "block_id": "T_4_61",
+      "type": "table",
+      "section": "Results",
+      "page": 4,
+      "bbox": [
+        100.0,
+        127.0,
+        475.0,
+        407.0
+      ],
+      "source_block_index": 61,
+      "alignment_status": "matched",
+      "caption": "Table III Synthesis of Bisphenol S-based Homopolycarbonate by Two-phase Polycondensation $^{4}$",
+      "table_body": "<table><tr><td rowspan=\"2\">Run</td><td colspan=\"2\">Reaction Condition</td><td colspan=\"3\">Polymer</td></tr><tr><td>Solventb</td><td>Catalyst</td><td>Yield (%)</td><td> $η_{inh}^c/dL/g$ </td><td>State</td></tr><tr><td>1</td><td>DCM</td><td>TBAB</td><td>76.7</td><td>0.21</td><td>ppt.</td></tr><tr><td>2</td><td>DCM</td><td>TBAC</td><td>76.6</td><td>0.10</td><td>ppt.</td></tr><tr><td>3</td><td>DCM</td><td>BTEAC</td><td>78.7</td><td>0.13</td><td>ppt.</td></tr><tr><td>4</td><td>DCM</td><td>BTEAB</td><td>79.3</td><td>0.20</td><td>ppt.</td></tr><tr><td>5</td><td>TCM</td><td>TBAB</td><td>60.0</td><td>0.11</td><td>ppt.</td></tr><tr><td>6</td><td>TCM</td><td>BTEAC</td><td>83.4</td><td>0.12</td><td>ppt.</td></tr><tr><td>7</td><td>DCE</td><td>TBAB</td><td>88.9</td><td>0.28</td><td>ppt.</td></tr><tr><td>8</td><td>DCE</td><td>TBAC</td><td>76.4</td><td>0.12</td><td>ppt.</td></tr><tr><td>9</td><td>DCE</td><td>BTEAC</td><td>86.5</td><td>0.32</td><td>ppt.</td></tr><tr><td>10</td><td>DCE</td><td>BTEAB</td><td>89.3</td><td>0.21</td><td>ppt.</td></tr><tr><td>11</td><td>NB</td><td>TBAB</td><td>85.0</td><td>0.17</td><td>solution</td></tr><tr><td>12</td><td>NB</td><td>TBAC</td><td>90.6</td><td>0.11</td><td>solution</td></tr><tr><td>13</td><td>NB</td><td>BTEAC</td><td>92.2</td><td>0.19</td><td>solution</td></tr></table>",
+      "table_cells": [
+        {
+          "cell_id": "T_4_61:r0000:c0000",
+          "row_index": 0,
+          "column_index": 0,
+          "row_span": 2,
+          "column_span": 1,
+          "text": "Run",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0000:c0001",
+          "row_index": 0,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 2,
+          "text": "Reaction Condition",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0000:c0003",
+          "row_index": 0,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 3,
+          "text": "Polymer",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0001:c0001",
+          "row_index": 1,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Solventb",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0001:c0002",
+          "row_index": 1,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Catalyst",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0001:c0003",
+          "row_index": 1,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Yield (%)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0001:c0004",
+          "row_index": 1,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$η_{inh}^c/dL/g$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0001:c0005",
+          "row_index": 1,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "State",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0002:c0000",
+          "row_index": 2,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0002:c0001",
+          "row_index": 2,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "DCM",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0002:c0002",
+          "row_index": 2,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "TBAB",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0002:c0003",
+          "row_index": 2,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "76.7",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0002:c0004",
+          "row_index": 2,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.21",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0002:c0005",
+          "row_index": 2,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "ppt.",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0003:c0000",
+          "row_index": 3,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "2",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0003:c0001",
+          "row_index": 3,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "DCM",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0003:c0002",
+          "row_index": 3,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "TBAC",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0003:c0003",
+          "row_index": 3,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "76.6",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0003:c0004",
+          "row_index": 3,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.10",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0003:c0005",
+          "row_index": 3,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "ppt.",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0004:c0000",
+          "row_index": 4,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "3",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0004:c0001",
+          "row_index": 4,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "DCM",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0004:c0002",
+          "row_index": 4,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "BTEAC",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0004:c0003",
+          "row_index": 4,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "78.7",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0004:c0004",
+          "row_index": 4,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.13",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0004:c0005",
+          "row_index": 4,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "ppt.",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0005:c0000",
+          "row_index": 5,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "4",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0005:c0001",
+          "row_index": 5,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "DCM",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0005:c0002",
+          "row_index": 5,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "BTEAB",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0005:c0003",
+          "row_index": 5,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "79.3",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0005:c0004",
+          "row_index": 5,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.20",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0005:c0005",
+          "row_index": 5,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "ppt.",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0006:c0000",
+          "row_index": 6,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "5",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0006:c0001",
+          "row_index": 6,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "TCM",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0006:c0002",
+          "row_index": 6,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "TBAB",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0006:c0003",
+          "row_index": 6,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "60.0",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0006:c0004",
+          "row_index": 6,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.11",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0006:c0005",
+          "row_index": 6,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "ppt.",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0007:c0000",
+          "row_index": 7,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "6",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0007:c0001",
+          "row_index": 7,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "TCM",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0007:c0002",
+          "row_index": 7,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "BTEAC",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0007:c0003",
+          "row_index": 7,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "83.4",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0007:c0004",
+          "row_index": 7,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.12",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0007:c0005",
+          "row_index": 7,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "ppt.",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0008:c0000",
+          "row_index": 8,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "7",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0008:c0001",
+          "row_index": 8,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "DCE",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0008:c0002",
+          "row_index": 8,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "TBAB",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0008:c0003",
+          "row_index": 8,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "88.9",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0008:c0004",
+          "row_index": 8,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.28",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0008:c0005",
+          "row_index": 8,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "ppt.",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0009:c0000",
+          "row_index": 9,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "8",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0009:c0001",
+          "row_index": 9,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "DCE",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0009:c0002",
+          "row_index": 9,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "TBAC",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0009:c0003",
+          "row_index": 9,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "76.4",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0009:c0004",
+          "row_index": 9,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.12",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0009:c0005",
+          "row_index": 9,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "ppt.",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0010:c0000",
+          "row_index": 10,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "9",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0010:c0001",
+          "row_index": 10,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "DCE",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0010:c0002",
+          "row_index": 10,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "BTEAC",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0010:c0003",
+          "row_index": 10,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "86.5",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0010:c0004",
+          "row_index": 10,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.32",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0010:c0005",
+          "row_index": 10,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "ppt.",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0011:c0000",
+          "row_index": 11,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "10",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0011:c0001",
+          "row_index": 11,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "DCE",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0011:c0002",
+          "row_index": 11,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "BTEAB",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0011:c0003",
+          "row_index": 11,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "89.3",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0011:c0004",
+          "row_index": 11,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.21",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0011:c0005",
+          "row_index": 11,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "ppt.",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0012:c0000",
+          "row_index": 12,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "11",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0012:c0001",
+          "row_index": 12,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "NB",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0012:c0002",
+          "row_index": 12,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "TBAB",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0012:c0003",
+          "row_index": 12,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "85.0",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0012:c0004",
+          "row_index": 12,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.17",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0012:c0005",
+          "row_index": 12,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "solution",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0013:c0000",
+          "row_index": 13,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "12",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0013:c0001",
+          "row_index": 13,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "NB",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0013:c0002",
+          "row_index": 13,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "TBAC",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0013:c0003",
+          "row_index": 13,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "90.6",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0013:c0004",
+          "row_index": 13,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.11",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0013:c0005",
+          "row_index": 13,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "solution",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0014:c0000",
+          "row_index": 14,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "13",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0014:c0001",
+          "row_index": 14,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "NB",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0014:c0002",
+          "row_index": 14,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "BTEAC",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0014:c0003",
+          "row_index": 14,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "92.2",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0014:c0004",
+          "row_index": 14,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.19",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_61:r0014:c0005",
+          "row_index": 14,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "solution",
+          "is_header": false
+        }
+      ],
+      "image_path": "organized/reference_no_0020284/images/0c353df5ea24ede29af39cd0e778c69e41a0896ed7d84d78a471234d4581a462.jpg"
+    },
+    {
+      "block_id": "P_4_62",
+      "type": "text",
+      "section": "Results",
+      "text": "",
+      "page": 4,
+      "bbox": [
+        98.0,
+        523.0,
+        478.0,
+        658.0
+      ],
+      "source_block_index": 62,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_4_63",
+      "type": "text",
+      "section": "Results",
+      "text": "Table II presents results of elemental analysis and IR data of polycarbonates (PC-1–PC-6). The assignments of IR spectra of the corresponding products are listed in Table I. The results of elemental analysis agreed well with theoretical values. The IR spectrum of PC-1 showed absorption due to C=O at   $1769 \\, cm^{-1}$  and to —C—O—C— at   $1226 \\, cm^{-1}$ . The IR spectrum of PC-2 also shows the following characteristic valence vibrations:   $\\nu_{as}$  at   $1291 \\, cm^{-1}$ , and   $\\nu_{s}$  at   $1150 \\, cm^{-1}$ , which correspond to bending vibrations of the sulfonyl group.  $^{37}$  The lines of a brominated polycarbonate (PC-4) assigned to bromine appeared at   $798 \\, cm^{-1}$ .",
+      "page": 4,
+      "bbox": [
+        100.0,
+        658.0,
+        480.0,
+        855.0
+      ],
+      "source_block_index": 63,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_4_63",
+        "V2_4_2_1",
+        "V2_4_2_3",
+        "V2_4_2_5",
+        "V2_4_2_7",
+        "V2_4_2_9",
+        "V2_4_2_11",
+        "V2_4_2_13",
+        "V2_4_2_15"
+      ]
+    },
+    {
+      "block_id": "P_4_64",
+      "type": "text",
+      "section": "Results",
+      "text": "Bisphenol S-based homopolycarbonate was prepared from the two-phase polycondensation of bisphenol S with TCF in a system of organic solvent and aqueous alkaline solution with various quaternary ammonium salts, such as TBAB, TBAC, BTEAC, and BTEAB at room temperature. Chlo-",
+      "page": 4,
+      "bbox": [
+        100.0,
+        855.0,
+        481.0,
+        900.0
+      ],
+      "source_block_index": 64,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_4_65",
+      "type": "text",
+      "section": "Results",
+      "text": "",
+      "page": 4,
+      "bbox": [
+        506.0,
+        82.0,
+        888.0,
+        130.0
+      ],
+      "source_block_index": 65,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "I_4_66",
+      "type": "image",
+      "section": "Results",
+      "page": 4,
+      "bbox": [
+        534.0,
+        148.0,
+        860.0,
+        512.0
+      ],
+      "source_block_index": 66,
+      "alignment_status": "matched",
+      "image_path": "organized/reference_no_0020284/images/391c1c147e935306d99b0f32db0c9f04afe7a775449449e6323f08a62c1944d7.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "I_4_67",
+      "type": "image",
+      "section": "Results",
+      "page": 4,
+      "bbox": [
+        529.0,
+        518.0,
+        868.0,
+        865.0
+      ],
+      "source_block_index": 67,
+      "alignment_status": "matched",
+      "caption": "Figure 1 X-ray diffraction patterns of polycarbonates: (A) PC-1-PC-3; (B) PC-4-PC-6.",
+      "image_path": "organized/reference_no_0020284/images/1a0746636fe6aa4da6df0f0258b38f10c34f6dffddd993c8e456bd1af48b4ba3.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "T_5_70",
+      "type": "table",
+      "section": "Results",
+      "page": 5,
+      "bbox": [
+        113.0,
+        106.0,
+        901.0,
+        258.0
+      ],
+      "source_block_index": 70,
+      "alignment_status": "matched",
+      "caption": "Table IV Bragg Angle Position and X-ray Data of Various Polycarbonates",
+      "table_body": "<table><tr><td>Polymer</td><td>2θ Value (deg)</td><td>d-Spacing (Å)</td><td>Degree of Crystallinity (%)</td></tr><tr><td>PC-1</td><td>17.2, 25.8, 29.7, 42.4, 43.5, 49.2</td><td>5.13, 3.51, 3.00, 2.12, 2.07, 1.84</td><td>33.4</td></tr><tr><td>PC-2</td><td>17.0, 18.8, 20.8, 25.2, 26.3, 42.5, 43.5, 49.3</td><td>5.20, 4.70, 4.26, 3.53, 3.38, 2.12, 2.07, 1.84</td><td>40.3</td></tr><tr><td>PC-3</td><td>19.9, 28.4, 42.5, 43.5, 49.2</td><td>4.42, 3.14, 2.12, 2.07, 1.84</td><td>29.8</td></tr><tr><td>PC-4</td><td>42.2, 43.5</td><td>2.13, 2.07</td><td>28.8</td></tr><tr><td>PC-5</td><td>21.9, 42.5, 43.5</td><td>4.08, 2.12, 2.07</td><td>31.1</td></tr><tr><td>PC-6</td><td>42.4, 43.5, 49.2</td><td>2.12, 2.07, 1.84</td><td>25.4</td></tr></table>",
+      "table_cells": [
+        {
+          "cell_id": "T_5_70:r0000:c0000",
+          "row_index": 0,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Polymer",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_70:r0000:c0001",
+          "row_index": 0,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "2θ Value (deg)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_70:r0000:c0002",
+          "row_index": 0,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "d-Spacing (Å)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_70:r0000:c0003",
+          "row_index": 0,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Degree of Crystallinity (%)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_70:r0001:c0000",
+          "row_index": 1,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "PC-1",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_70:r0001:c0001",
+          "row_index": 1,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "17.2, 25.8, 29.7, 42.4, 43.5, 49.2",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_70:r0001:c0002",
+          "row_index": 1,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "5.13, 3.51, 3.00, 2.12, 2.07, 1.84",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_70:r0001:c0003",
+          "row_index": 1,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "33.4",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_70:r0002:c0000",
+          "row_index": 2,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "PC-2",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_70:r0002:c0001",
+          "row_index": 2,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "17.0, 18.8, 20.8, 25.2, 26.3, 42.5, 43.5, 49.3",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_70:r0002:c0002",
+          "row_index": 2,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "5.20, 4.70, 4.26, 3.53, 3.38, 2.12, 2.07, 1.84",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_70:r0002:c0003",
+          "row_index": 2,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "40.3",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_70:r0003:c0000",
+          "row_index": 3,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "PC-3",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_70:r0003:c0001",
+          "row_index": 3,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "19.9, 28.4, 42.5, 43.5, 49.2",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_70:r0003:c0002",
+          "row_index": 3,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "4.42, 3.14, 2.12, 2.07, 1.84",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_70:r0003:c0003",
+          "row_index": 3,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "29.8",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_70:r0004:c0000",
+          "row_index": 4,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "PC-4",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_70:r0004:c0001",
+          "row_index": 4,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "42.2, 43.5",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_70:r0004:c0002",
+          "row_index": 4,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "2.13, 2.07",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_70:r0004:c0003",
+          "row_index": 4,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "28.8",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_70:r0005:c0000",
+          "row_index": 5,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "PC-5",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_70:r0005:c0001",
+          "row_index": 5,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "21.9, 42.5, 43.5",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_70:r0005:c0002",
+          "row_index": 5,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "4.08, 2.12, 2.07",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_70:r0005:c0003",
+          "row_index": 5,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "31.1",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_70:r0006:c0000",
+          "row_index": 6,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "PC-6",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_70:r0006:c0001",
+          "row_index": 6,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "42.4, 43.5, 49.2",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_70:r0006:c0002",
+          "row_index": 6,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "2.12, 2.07, 1.84",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_70:r0006:c0003",
+          "row_index": 6,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "25.4",
+          "is_header": false
+        }
+      ],
+      "image_path": "organized/reference_no_0020284/images/5d60472a1d11067b954abb4dadb487fe3bd0041c83a2b545872dff4c56c510c3.jpg"
+    },
+    {
+      "block_id": "P_5_71",
+      "type": "text",
+      "section": "Results",
+      "text": "rinated hydrocarbons, such as dichloromethane (DCM), tetrachloromethane (TCM), and 1,2-dichloroethane (DCE), and nitrobenzene (NB) served as organic media. The reaction conditions and results are summarized in Table III. According to both the yield and inherent viscosity of these polymers, the use of BTEAC as a phase-transfer catalyst, sodium hydroxide as a base, and DCE as an organic medium was suitable to prepare a polycarbonate of large molar mass in high yield. The optimum reaction conditions involved 7.5 mmol of TCF, 3.15 mmol BTEAC, aqueous sodium hydroxide (1M, 30 mL, 28.5 mmol), 37.5 mL of DCE, and 5 mmol of bisphenol S, leading to synthesis of bisphenol S-based homopolycarbonate having inherent viscosity 0.32 dL/g in high yield at 25°C in 2 h. Although polymers with a high yield were obtained using NB as an organic solvent, the inherent viscosities were low. Polycarbonates (Run No. 1–10, Table III) were prepared by a two-phase condensation of TCF with bisphenol S. They precipitate from chlorinated hydrocarbon solvents such as DCM, TCM, and DCE during the reaction. X-ray diffraction patterns of various polycarbonates are shown in Figure 1 in terms of intensity versus 2θ; θ is the angle of diffraction (Bragg angle). The x-ray diffraction indicated that all polycarbonates (PC-1–PC-6) were semicrystalline. The polycarbonate (PC-2) based on bisphenol S has greater crystallinity than PC-1 and PC-3 because of the sulfonyl group. Liaw  $^{37}$  reported that polyesters containing a sulfonyl group, which has a small van der Waals radius, have relatively greater crystallinity. Brominated polycarbonates (PC-4–PC-6) have less crystallinity. Nagata et al.  $^{40}$  reported that polyamides incorporating halogen substituents on the ring led to decreased crystallinity due to their large van der Waals radius. The relative crystallinities and Bragg angle of polycarbonates estimated by x-ray diffraction patterns are presented in Table IV. The d-spacing was calculated according to the following equation:   $2d \\sin \\theta = \\lambda$ . Table V shows the qualitative solubility behavior of polycarbonates.",
+      "page": 5,
+      "bbox": [
+        111.0,
+        296.0,
+        496.0,
+        692.0
+      ],
+      "source_block_index": 71,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_5_71",
+        "V2_5_1_1",
+        "V2_5_1_3",
+        "V2_5_1_5"
+      ]
+    },
+    {
+      "block_id": "P_5_72",
+      "type": "text",
+      "section": "Results",
+      "text": "",
+      "page": 5,
+      "bbox": [
+        522.0,
+        296.0,
+        906.0,
+        554.0
+      ],
+      "source_block_index": 72,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_5_73",
+      "type": "text",
+      "section": "Results",
+      "text": "Almost all polycarbonates were soluble in NMP, DMF, pyridine, and phenol but insoluble in organic solvents such as acetone and m-cresol. The solubility of polycarbonate derived from bisphenol S (PC-2) is less than that of polycarbonate derived from bisphenol A or bisphenol AF. This phenomenon may be ascribed to the sulfonyl group of polycarbonate, which has a small van der Waals radius resulting in increased crystallinity. The fluorine-containing polycarbonates were much more soluble than bisphenol S- or bisphenol A-based homopolycarbonates. Saegusa et al. $^{14}$ reported that fluorine-containing polycarbonates are much more soluble than bisphenol A-based homopolycarbonates having no fluorine atom. $^{14}$ The solubility of brominated polycarbonates (PC-4–PC-6) is greater than that of unbrominated polycarbonates because the halogen substituents on the ring led to decreased crystallinity as shown in Table IV. In general, solubility decreased with increasing crystallinity. Nagata et al. $^{40}$ discovered that the solubility of polyamides increased remarkably on halogen substitution.",
+      "page": 5,
+      "bbox": [
+        522.0,
+        553.0,
+        908.0,
+        692.0
+      ],
+      "source_block_index": 73,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_5_73",
+        "V2_5_3_1",
+        "V2_5_3_3",
+        "V2_5_3_5"
+      ]
+    },
+    {
+      "block_id": "T_5_74",
+      "type": "table",
+      "section": "Results",
+      "page": 5,
+      "bbox": [
+        116.0,
+        741.0,
+        903.0,
+        871.0
+      ],
+      "source_block_index": 74,
+      "alignment_status": "matched",
+      "caption": "Table V Solubility of Polycarbonates $^{4}$",
+      "table_body": "<table><tr><td>Polymer</td><td>DMF</td><td>DMSO</td><td>THF</td><td>m-Cresol</td><td>Chloroform</td><td>Pyridine</td><td>Nitrobenzene</td><td>1,1,2,2-Tetrachloroethane</td><td>Acetone</td><td>NMPb</td><td>Phenol</td></tr><tr><td>PC-1</td><td>+</td><td>-</td><td>++</td><td>-</td><td>+</td><td>++</td><td>+</td><td>++</td><td>-</td><td>++</td><td>+</td></tr><tr><td>PC-2</td><td>+</td><td>-</td><td>-</td><td>+-</td><td>+-</td><td>+-</td><td>+-</td><td>+-</td><td>-</td><td>+-</td><td>+</td></tr><tr><td>PC-3</td><td>+</td><td>+-</td><td>++</td><td>+-</td><td>++</td><td>++</td><td>++</td><td>+-</td><td>++</td><td>++</td><td>+</td></tr><tr><td>PC-4</td><td>+</td><td>+</td><td>++</td><td>+-</td><td>++</td><td>++</td><td>++</td><td>++</td><td>+</td><td>++</td><td>+</td></tr><tr><td>PC-5</td><td>+</td><td>+-</td><td>+-</td><td>+-</td><td>+-</td><td>++</td><td>+-</td><td>+-</td><td>-</td><td>+-</td><td>+</td></tr><tr><td>PC-6</td><td>++</td><td>+-</td><td>++</td><td>+-</td><td>++</td><td>++</td><td>++</td><td>+</td><td>++</td><td>++</td><td>+</td></tr></table>",
+      "table_cells": [
+        {
+          "cell_id": "T_5_74:r0000:c0000",
+          "row_index": 0,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Polymer",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0000:c0001",
+          "row_index": 0,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "DMF",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0000:c0002",
+          "row_index": 0,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "DMSO",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0000:c0003",
+          "row_index": 0,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "THF",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0000:c0004",
+          "row_index": 0,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "m-Cresol",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0000:c0005",
+          "row_index": 0,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Chloroform",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0000:c0006",
+          "row_index": 0,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Pyridine",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0000:c0007",
+          "row_index": 0,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Nitrobenzene",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0000:c0008",
+          "row_index": 0,
+          "column_index": 8,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1,1,2,2-Tetrachloroethane",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0000:c0009",
+          "row_index": 0,
+          "column_index": 9,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Acetone",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0000:c0010",
+          "row_index": 0,
+          "column_index": 10,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "NMPb",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0000:c0011",
+          "row_index": 0,
+          "column_index": 11,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Phenol",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0001:c0000",
+          "row_index": 1,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "PC-1",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0001:c0001",
+          "row_index": 1,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "+",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0001:c0002",
+          "row_index": 1,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0001:c0003",
+          "row_index": 1,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "++",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0001:c0004",
+          "row_index": 1,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0001:c0005",
+          "row_index": 1,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "+",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0001:c0006",
+          "row_index": 1,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "++",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0001:c0007",
+          "row_index": 1,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "+",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0001:c0008",
+          "row_index": 1,
+          "column_index": 8,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "++",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0001:c0009",
+          "row_index": 1,
+          "column_index": 9,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0001:c0010",
+          "row_index": 1,
+          "column_index": 10,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "++",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0001:c0011",
+          "row_index": 1,
+          "column_index": 11,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "+",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0002:c0000",
+          "row_index": 2,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "PC-2",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0002:c0001",
+          "row_index": 2,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "+",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0002:c0002",
+          "row_index": 2,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0002:c0003",
+          "row_index": 2,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0002:c0004",
+          "row_index": 2,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "+-",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0002:c0005",
+          "row_index": 2,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "+-",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0002:c0006",
+          "row_index": 2,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "+-",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0002:c0007",
+          "row_index": 2,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "+-",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0002:c0008",
+          "row_index": 2,
+          "column_index": 8,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "+-",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0002:c0009",
+          "row_index": 2,
+          "column_index": 9,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0002:c0010",
+          "row_index": 2,
+          "column_index": 10,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "+-",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0002:c0011",
+          "row_index": 2,
+          "column_index": 11,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "+",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0003:c0000",
+          "row_index": 3,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "PC-3",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0003:c0001",
+          "row_index": 3,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "+",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0003:c0002",
+          "row_index": 3,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "+-",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0003:c0003",
+          "row_index": 3,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "++",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0003:c0004",
+          "row_index": 3,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "+-",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0003:c0005",
+          "row_index": 3,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "++",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0003:c0006",
+          "row_index": 3,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "++",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0003:c0007",
+          "row_index": 3,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "++",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0003:c0008",
+          "row_index": 3,
+          "column_index": 8,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "+-",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0003:c0009",
+          "row_index": 3,
+          "column_index": 9,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "++",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0003:c0010",
+          "row_index": 3,
+          "column_index": 10,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "++",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0003:c0011",
+          "row_index": 3,
+          "column_index": 11,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "+",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0004:c0000",
+          "row_index": 4,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "PC-4",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0004:c0001",
+          "row_index": 4,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "+",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0004:c0002",
+          "row_index": 4,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "+",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0004:c0003",
+          "row_index": 4,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "++",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0004:c0004",
+          "row_index": 4,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "+-",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0004:c0005",
+          "row_index": 4,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "++",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0004:c0006",
+          "row_index": 4,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "++",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0004:c0007",
+          "row_index": 4,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "++",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0004:c0008",
+          "row_index": 4,
+          "column_index": 8,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "++",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0004:c0009",
+          "row_index": 4,
+          "column_index": 9,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "+",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0004:c0010",
+          "row_index": 4,
+          "column_index": 10,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "++",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0004:c0011",
+          "row_index": 4,
+          "column_index": 11,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "+",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0005:c0000",
+          "row_index": 5,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "PC-5",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0005:c0001",
+          "row_index": 5,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "+",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0005:c0002",
+          "row_index": 5,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "+-",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0005:c0003",
+          "row_index": 5,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "+-",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0005:c0004",
+          "row_index": 5,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "+-",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0005:c0005",
+          "row_index": 5,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "+-",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0005:c0006",
+          "row_index": 5,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "++",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0005:c0007",
+          "row_index": 5,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "+-",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0005:c0008",
+          "row_index": 5,
+          "column_index": 8,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "+-",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0005:c0009",
+          "row_index": 5,
+          "column_index": 9,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0005:c0010",
+          "row_index": 5,
+          "column_index": 10,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "+-",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0005:c0011",
+          "row_index": 5,
+          "column_index": 11,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "+",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0006:c0000",
+          "row_index": 6,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "PC-6",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0006:c0001",
+          "row_index": 6,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "++",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0006:c0002",
+          "row_index": 6,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "+-",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0006:c0003",
+          "row_index": 6,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "++",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0006:c0004",
+          "row_index": 6,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "+-",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0006:c0005",
+          "row_index": 6,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "++",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0006:c0006",
+          "row_index": 6,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "++",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0006:c0007",
+          "row_index": 6,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "++",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0006:c0008",
+          "row_index": 6,
+          "column_index": 8,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "+",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0006:c0009",
+          "row_index": 6,
+          "column_index": 9,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "++",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0006:c0010",
+          "row_index": 6,
+          "column_index": 10,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "++",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_74:r0006:c0011",
+          "row_index": 6,
+          "column_index": 11,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "+",
+          "is_header": false
+        }
+      ],
+      "image_path": "organized/reference_no_0020284/images/095b1d5ec579c8dfc41c22052be1e896ecdaf69ef79e70b0da1647aa48a130f5.jpg"
+    },
+    {
+      "block_id": "I_6_77",
+      "type": "image",
+      "section": "Results",
+      "page": 6,
+      "bbox": [
+        245.0,
+        85.0,
+        742.0,
+        341.0
+      ],
+      "source_block_index": 77,
+      "alignment_status": "matched",
+      "caption": "Figure 2 TGA curves of PC-1 and PC-4 with a heating rate of $10^{\\circ}$ C/min.",
+      "image_path": "organized/reference_no_0020284/images/d3b584fb9f39f0dd29497b3bef40948ca0cdd38c32c0555fc1b15f3435460b23.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "P_6_78",
+      "type": "text",
+      "section": "Results",
+      "text": "",
+      "page": 6,
+      "bbox": [
+        100.0,
+        393.0,
+        480.0,
+        590.0
+      ],
+      "source_block_index": 78,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_6_79",
+      "type": "text",
+      "section": "Results",
+      "text": "The thermal behavior of polymers was evaluated by means of TGA and DSC. Figure 2 shows an example of polycarbonates at a heating rate   $10^{\\circ}$ C/min in nitrogen. Examples of TGA curves of polycarbonates (PC-1 and PC-4) indicate no loss of mass below 358°C in nitrogen (Fig. 2). TGA and DSC results of polycarbonates are summarized in Table VI. The thermal stability of polycarbonate based on bisphenol S (PC-2) is less than that of polycarbonates based on bisphenol A (PC-1) and bisphenol AF (PC-3) because the thermal stability of aromatic polycarbonates depends on the linking group between the aromatic rings. This phenomenon may reflect that bisphenol S has an electron withdrawing characteristic due to the sulfonyl group, which leads to decreased reactivity and inherent viscosity of polycarbonate (Table I, PC-2). The temperatures of 10% loss of mass ( $T_d^{10\\%}$) of brominated polycarbonates (PC-4–PC-6) are slightly less than those of unbrominated polycarbonates (PC-1–PC-3). This result may be explained by the fact that hydrogen bro mide is easily evolved from bromine-containing polymers during thermal degradation.  $^{38,39}$  The TGA curves of all polymers exhibited a residual mass of 27–37% at 600°C. According to Table VI, the thermal stability of the polymers was clearly improved on introducing fluorine (PC-3).  $^{14}$  Inspection of these TGA curves indicates that brominated aromatic polycarbonates are less stable than unbrominated ones, but with a greater char yield.  $^{39}$  The polycarbonates had glass transition temperatures in the range of 141 to 206°C.   $T_{g}$ s of brominated polycarbonates (PC-4–PC-6) were greater than those of polycarbonates (PC-1 and PC-3).  $^{23,26}$",
+      "page": 6,
+      "bbox": [
+        100.0,
+        589.0,
+        480.0,
+        651.0
+      ],
+      "source_block_index": 79,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_6_79",
+        "V2_6_2_1",
+        "V2_6_2_3",
+        "V2_6_2_5",
+        "V2_6_2_7",
+        "V2_6_2_9",
+        "V2_6_2_11",
+        "V2_6_2_13"
+      ]
+    },
+    {
+      "block_id": "P_6_80",
+      "type": "text",
+      "section": "Results",
+      "text": "",
+      "page": 6,
+      "bbox": [
+        509.0,
+        392.0,
+        893.0,
+        651.0
+      ],
+      "source_block_index": 80,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "T_6_81",
+      "type": "table",
+      "section": "Results",
+      "page": 6,
+      "bbox": [
+        100.0,
+        697.0,
+        888.0,
+        832.0
+      ],
+      "source_block_index": 81,
+      "alignment_status": "matched",
+      "caption": "Table VI Thermal Properties of Polycarbonates Based on Various Bisphenols $^{4}$",
+      "table_body": "<table><tr><td>Polymer</td><td> $T_{d}^{i}$  $(^{\\circ}\\text{C})^{b}$ </td><td> $T_{d}^{10\\%}$  $(^{\\circ}\\text{C})^{b}$ </td><td> $T_{d}^{20\\%}$  $(^{\\circ}\\text{C})$ </td><td> $T_{d}^{30\\%}$  $(^{\\circ}\\text{C})$ </td><td> $T_{d}^{50\\%}$  $(^{\\circ}\\text{C})$ </td><td> $RM$  $(\\%)^{c}$ </td><td> $T_{g}$  $(^{\\circ}\\text{C})$ </td></tr><tr><td>PC-1</td><td>394</td><td>446</td><td>473</td><td>491</td><td>506</td><td>27</td><td> $146^{d}$ </td></tr><tr><td>PC-2</td><td>369</td><td>403</td><td>422</td><td>431</td><td>447</td><td>29</td><td>—</td></tr><tr><td>PC-3</td><td>397</td><td>462</td><td>476</td><td>491</td><td>520</td><td>30</td><td> $164^{d}$ </td></tr><tr><td>PC-4</td><td>358</td><td>442</td><td>480</td><td>495</td><td>514</td><td>33</td><td> $202^{d}$ </td></tr><tr><td>PC-5</td><td>341</td><td>396</td><td>450</td><td>468</td><td>511</td><td>37</td><td> $196^{e}$ </td></tr><tr><td>PC-6</td><td>402</td><td>477</td><td>494</td><td>505</td><td>540</td><td>34</td><td> $206^{d}$ </td></tr></table>",
+      "table_cells": [
+        {
+          "cell_id": "T_6_81:r0000:c0000",
+          "row_index": 0,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Polymer",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_81:r0000:c0001",
+          "row_index": 0,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$T_{d}^{i}$ $(^{\\circ}\\text{C})^{b}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_81:r0000:c0002",
+          "row_index": 0,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$T_{d}^{10\\%}$ $(^{\\circ}\\text{C})^{b}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_81:r0000:c0003",
+          "row_index": 0,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$T_{d}^{20\\%}$ $(^{\\circ}\\text{C})$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_81:r0000:c0004",
+          "row_index": 0,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$T_{d}^{30\\%}$ $(^{\\circ}\\text{C})$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_81:r0000:c0005",
+          "row_index": 0,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$T_{d}^{50\\%}$ $(^{\\circ}\\text{C})$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_81:r0000:c0006",
+          "row_index": 0,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$RM$ $(\\%)^{c}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_81:r0000:c0007",
+          "row_index": 0,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$T_{g}$ $(^{\\circ}\\text{C})$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_81:r0001:c0000",
+          "row_index": 1,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "PC-1",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_81:r0001:c0001",
+          "row_index": 1,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "394",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_81:r0001:c0002",
+          "row_index": 1,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "446",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_81:r0001:c0003",
+          "row_index": 1,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "473",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_81:r0001:c0004",
+          "row_index": 1,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "491",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_81:r0001:c0005",
+          "row_index": 1,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "506",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_81:r0001:c0006",
+          "row_index": 1,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "27",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_81:r0001:c0007",
+          "row_index": 1,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$146^{d}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_81:r0002:c0000",
+          "row_index": 2,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "PC-2",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_81:r0002:c0001",
+          "row_index": 2,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "369",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_81:r0002:c0002",
+          "row_index": 2,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "403",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_81:r0002:c0003",
+          "row_index": 2,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "422",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_81:r0002:c0004",
+          "row_index": 2,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "431",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_81:r0002:c0005",
+          "row_index": 2,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "447",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_81:r0002:c0006",
+          "row_index": 2,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "29",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_81:r0002:c0007",
+          "row_index": 2,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "—",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_81:r0003:c0000",
+          "row_index": 3,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "PC-3",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_81:r0003:c0001",
+          "row_index": 3,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "397",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_81:r0003:c0002",
+          "row_index": 3,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "462",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_81:r0003:c0003",
+          "row_index": 3,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "476",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_81:r0003:c0004",
+          "row_index": 3,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "491",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_81:r0003:c0005",
+          "row_index": 3,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "520",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_81:r0003:c0006",
+          "row_index": 3,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "30",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_81:r0003:c0007",
+          "row_index": 3,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$164^{d}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_81:r0004:c0000",
+          "row_index": 4,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "PC-4",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_81:r0004:c0001",
+          "row_index": 4,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "358",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_81:r0004:c0002",
+          "row_index": 4,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "442",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_81:r0004:c0003",
+          "row_index": 4,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "480",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_81:r0004:c0004",
+          "row_index": 4,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "495",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_81:r0004:c0005",
+          "row_index": 4,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "514",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_81:r0004:c0006",
+          "row_index": 4,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "33",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_81:r0004:c0007",
+          "row_index": 4,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$202^{d}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_81:r0005:c0000",
+          "row_index": 5,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "PC-5",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_81:r0005:c0001",
+          "row_index": 5,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "341",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_81:r0005:c0002",
+          "row_index": 5,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "396",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_81:r0005:c0003",
+          "row_index": 5,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "450",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_81:r0005:c0004",
+          "row_index": 5,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "468",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_81:r0005:c0005",
+          "row_index": 5,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "511",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_81:r0005:c0006",
+          "row_index": 5,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "37",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_81:r0005:c0007",
+          "row_index": 5,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$196^{e}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_81:r0006:c0000",
+          "row_index": 6,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "PC-6",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_81:r0006:c0001",
+          "row_index": 6,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "402",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_81:r0006:c0002",
+          "row_index": 6,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "477",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_81:r0006:c0003",
+          "row_index": 6,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "494",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_81:r0006:c0004",
+          "row_index": 6,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "505",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_81:r0006:c0005",
+          "row_index": 6,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "540",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_81:r0006:c0006",
+          "row_index": 6,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "34",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_81:r0006:c0007",
+          "row_index": 6,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$206^{d}$",
+          "is_header": false
+        }
+      ],
+      "image_path": "organized/reference_no_0020284/images/fd2247307c8dc346ea28b857a990c190dabe79a035f0a478fa97b61e450e0cbd.jpg"
+    },
+    {
+      "block_id": "T_7_84",
+      "type": "table",
+      "section": "Results",
+      "page": 7,
+      "bbox": [
+        107.0,
+        133.0,
+        483.0,
+        272.0
+      ],
+      "source_block_index": 84,
+      "alignment_status": "matched",
+      "caption": "Table VII The Contact Angle and Limiting Oxygen Index of Polycarbonates",
+      "table_body": "<table><tr><td>Polymer</td><td>Contact Angle $(\\theta_w)^a$ </td><td>LOI</td><td>Br(%)</td></tr><tr><td>PC-1</td><td>88</td><td>26</td><td>0</td></tr><tr><td>PC-2</td><td>82</td><td>34</td><td>0</td></tr><tr><td>PC-3</td><td>97</td><td>34</td><td>0</td></tr><tr><td>PC-4</td><td>67</td><td>67</td><td>56</td></tr><tr><td>PC-5</td><td>60</td><td>70</td><td>54</td></tr><tr><td>PC-6</td><td>64</td><td>93</td><td>47</td></tr></table>",
+      "table_cells": [
+        {
+          "cell_id": "T_7_84:r0000:c0000",
+          "row_index": 0,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Polymer",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_84:r0000:c0001",
+          "row_index": 0,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Contact Angle $(\\theta_w)^a$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_84:r0000:c0002",
+          "row_index": 0,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "LOI",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_84:r0000:c0003",
+          "row_index": 0,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Br(%)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_84:r0001:c0000",
+          "row_index": 1,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "PC-1",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_84:r0001:c0001",
+          "row_index": 1,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "88",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_84:r0001:c0002",
+          "row_index": 1,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "26",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_84:r0001:c0003",
+          "row_index": 1,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_84:r0002:c0000",
+          "row_index": 2,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "PC-2",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_84:r0002:c0001",
+          "row_index": 2,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "82",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_84:r0002:c0002",
+          "row_index": 2,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "34",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_84:r0002:c0003",
+          "row_index": 2,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_84:r0003:c0000",
+          "row_index": 3,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "PC-3",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_84:r0003:c0001",
+          "row_index": 3,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "97",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_84:r0003:c0002",
+          "row_index": 3,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "34",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_84:r0003:c0003",
+          "row_index": 3,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_84:r0004:c0000",
+          "row_index": 4,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "PC-4",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_84:r0004:c0001",
+          "row_index": 4,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "67",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_84:r0004:c0002",
+          "row_index": 4,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "67",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_84:r0004:c0003",
+          "row_index": 4,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "56",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_84:r0005:c0000",
+          "row_index": 5,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "PC-5",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_84:r0005:c0001",
+          "row_index": 5,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "60",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_84:r0005:c0002",
+          "row_index": 5,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "70",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_84:r0005:c0003",
+          "row_index": 5,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "54",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_84:r0006:c0000",
+          "row_index": 6,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "PC-6",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_84:r0006:c0001",
+          "row_index": 6,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "64",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_84:r0006:c0002",
+          "row_index": 6,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "93",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_7_84:r0006:c0003",
+          "row_index": 6,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "47",
+          "is_header": false
+        }
+      ],
+      "image_path": "organized/reference_no_0020284/images/6ad503db8a654a8d56d07191ca03a60374e0a044d77be6aaa285e40fb8645f65.jpg"
+    },
+    {
+      "block_id": "P_7_85",
+      "type": "text",
+      "section": "Results",
+      "text": "",
+      "page": 7,
+      "bbox": [
+        104.0,
+        324.0,
+        486.0,
+        518.0
+      ],
+      "source_block_index": 85,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_7_86",
+      "type": "text",
+      "section": "Results",
+      "text": "The contact angles   $(\\theta_{w})$  of polycarbonates are listed in Table VII. The contact angles of fluorine-containing polycarbonates were the greatest.   $\\theta_{w}$  of a brominated polycarbonate was observed to be less than that of an unbrominated polycarbonate because bromination of the polymer increased the overall hydrophilicity.  $^{38,41}$  The flame resistance of each polymer was measured by its LOI value. As shown in Table VII, these values increase with the presence of bromine on the polymer backbone. PC-6, having both bromine and fluorine atoms, has the largest values (LOI over 90).",
+      "page": 7,
+      "bbox": [
+        107.0,
+        518.0,
+        486.0,
+        566.0
+      ],
+      "source_block_index": 86,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_7_86",
+        "V2_7_2_1",
+        "V2_7_2_3",
+        "V2_7_2_5"
+      ]
+    },
+    {
+      "block_id": "P_7_87",
+      "type": "text",
+      "section": "Results",
+      "text": "",
+      "page": 7,
+      "bbox": [
+        514.0,
+        103.0,
+        897.0,
+        239.0
+      ],
+      "source_block_index": 87,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_7_88",
+      "type": "title",
+      "section": "Results",
+      "text": "Copolymerization of Bisphenol A and Bisphenol S with Trichloromethyl Chloroformate",
+      "page": 7,
+      "bbox": [
+        514.0,
+        260.0,
+        893.0,
+        292.0
+      ],
+      "source_block_index": 88,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_7_89",
+      "type": "text",
+      "section": "Results",
+      "text": "Sulfone-containing random copolycarbonates were also synthesized by reacting the respective mixtures of bisphenol S : bisphenol A, with feed ratios 80 : 20, 60 : 40, 50 : 50, 40 : 60, 20 : 80, and 0 : 100, with TCF in the DCE-aqueous sodium hydroxide two-phase system with BTEAC as catalyst [eq. (4)].",
+      "page": 7,
+      "bbox": [
+        514.0,
+        299.0,
+        897.0,
+        406.0
+      ],
+      "source_block_index": 89,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "I_7_90",
+      "type": "image",
+      "section": "Results",
+      "page": 7,
+      "bbox": [
+        517.0,
+        415.0,
+        756.0,
+        482.0
+      ],
+      "source_block_index": 90,
+      "alignment_status": "matched",
+      "image_path": "organized/reference_no_0020284/images/2a1c4b8dfc2954ced4507d1ea308e080ca52214052dd59f770652018cbf4b4a9.jpg",
+      "image_kind": "image"
+    },
+    {
+      "block_id": "I_7_91",
+      "type": "image",
+      "section": "Results",
+      "page": 7,
+      "bbox": [
+        535.0,
+        489.0,
+        792.0,
+        565.0
+      ],
+      "source_block_index": 91,
+      "alignment_status": "matched",
+      "image_path": "organized/reference_no_0020284/images/5c9c7dc44d3cc0d2fab7d21cac2edb8f0f0f796ec84e5499369ba2786bcc5d2c.jpg",
+      "image_kind": "image"
+    },
+    {
+      "block_id": "I_7_92",
+      "type": "image",
+      "section": "Results",
+      "page": 7,
+      "bbox": [
+        269.0,
+        589.0,
+        728.0,
+        892.0
+      ],
+      "source_block_index": 92,
+      "alignment_status": "matched",
+      "caption": "Figure 3 IR spectra of bisphenol S/bisphenol A copolycarbonates.",
+      "image_path": "organized/reference_no_0020284/images/f6ed2f408dfa0b3e4fc70e6ddb9a16cceb50657c6bf370c3f90e29bcda215030.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "I_8_95",
+      "type": "image",
+      "section": "Results",
+      "page": 8,
+      "bbox": [
+        118.0,
+        83.0,
+        468.0,
+        312.0
+      ],
+      "source_block_index": 95,
+      "alignment_status": "matched",
+      "image_path": "organized/reference_no_0020284/images/36e84c5a294a63add47f0c8ce813a02450b1d6deeaf9ec4c7f856c28d8204fed.jpg",
+      "image_kind": "image"
+    },
+    {
+      "block_id": "P_8_96",
+      "type": "text",
+      "section": "Results",
+      "text": "(4)",
+      "page": 8,
+      "bbox": [
+        452.0,
+        266.0,
+        475.0,
+        282.0
+      ],
+      "source_block_index": 96,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_8_97",
+      "type": "text",
+      "section": "Results",
+      "text": "The formation of polycarbonates was confirmed by means of IR spectra and/or elemental analysis. Figure 3 shows IR spectra of three typical polycarbonates (bisphenol S: bisphenol A: 100: 0, 50: 50, and 0: 100). IR spectra of homopolycarbonates based on bisphenol S and bisphenol A indicated the characteristic carbonate absorptions at 1779 and 1765 cm  $^{-1}$ , respectively, due to carbonyl group. The absorption wave number is increased by the electron withdrawing characteristic of the sulfonyl group. The —CH  $_{3}$  absorptions of homopolycarbonate and copolycarbonates based on bisphenol A were measured at 2958 cm  $^{-1}$ . The —SO  $_{2}$ —absorptions of homopolymer and copolymers based on bisphenol S were measured at 1150 and 1291 cm  $^{-1}$ . The absorption attributed to hydroxy groups in the diols almost disappeared, which implies the formation of polymers of moderate to large molar mass. Results of elemental analyses of both homopolymers (Table VIII) were also in excellent agreement with the calculated ones for the proposed structures.",
+      "page": 8,
+      "bbox": [
+        96.0,
+        336.0,
+        478.0,
+        552.0
+      ],
+      "source_block_index": 97,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_8_97",
+        "V2_8_2_1",
+        "V2_8_2_3",
+        "V2_8_2_5",
+        "V2_8_2_7",
+        "V2_8_2_9"
+      ]
+    },
+    {
+      "block_id": "P_8_98",
+      "type": "text",
+      "section": "Results",
+      "text": "",
+      "page": 8,
+      "bbox": [
+        508.0,
+        83.0,
+        890.0,
+        190.0
+      ],
+      "source_block_index": 98,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_8_99",
+      "type": "text",
+      "section": "Results",
+      "text": "As can be seen in Table VIII, the viscosities of the copolycarbonates decreased markedly with increasing feed ratio of bisphenol S to bisphenol A, although the yields were still high. The reason is probably the decreased nucleophilicity of bisphenol S induced by strongly electron withdrawing sulfonyl groups at the para position relative to bisphenol A. TGA results of copolycarbonates are presented in Table VIII.   $T_{d}^{10\\%}$  increased with decreasing feed ratio of bisphenol S to bisphenol A. However, the residual mass at 600°C decreased with decreasing feed ratio of bisphenol S to bisphenol A.",
+      "page": 8,
+      "bbox": [
+        506.0,
+        189.0,
+        890.0,
+        374.0
+      ],
+      "source_block_index": 99,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_8_99",
+        "V2_8_4_1"
+      ]
+    },
+    {
+      "block_id": "P_8_100",
+      "type": "title",
+      "section": "Conclusion",
+      "text": "CONCLUSIONS",
+      "page": 8,
+      "bbox": [
+        509.0,
+        407.0,
+        647.0,
+        425.0
+      ],
+      "source_block_index": 100,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_8_101",
+      "type": "text",
+      "section": "Conclusion",
+      "text": "Aromatic and brominated aromatic polycarbonates were successfully synthesized on two-phase phase-transfer-catalyzed polycondensation of various bisphenols with trichloromethyl chloroformate at 25°C. Diols such as bisphenol A, having an electron releasing group, increased the nucleophilic properties of the phenolate anion, thus increasing the inherent viscosity of the polymer. Diols such as bisphenol S, bisphenol AF, and brominated diols, having an electron withdrawing group, gave less favorable results. The solubility of polycarbonate derived from bisphenol S is lower than that of polycarbonate derived from bisphenol A or bisphenol AF. Polycarbonates containing bromine atoms in the polymer chain increased the solubility. Polycarbonates based on bisphenol S are more wettable than polycarbonates based on bisphenol A and bisphenol AF. Moreover, brominated polycarbonates are more wettable than unbrominated ones. Brominated aromatic polycarbonates are less stable thermally than unbrominated ones. Brominated aromatic polycarbonates are more flame-resistant than unbrominated ones.",
+      "page": 8,
+      "bbox": [
+        506.0,
+        442.0,
+        890.0,
+        551.0
+      ],
+      "source_block_index": 101,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "T_8_102",
+      "type": "table",
+      "section": "Conclusion",
+      "page": 8,
+      "bbox": [
+        100.0,
+        607.0,
+        886.0,
+        787.0
+      ],
+      "source_block_index": 102,
+      "alignment_status": "matched",
+      "caption": "Table VIII Surface and Thermal Properties of Bisphenol S-based and/or Bisphenol A-based Homopolycarbonates and Copolycarbonates $^{4}$",
+      "table_body": "<table><tr><td rowspan=\"2\">Feed Ratio(Bisphenol S : Bisphenol A)</td><td colspan=\"2\">Polymer</td><td colspan=\"5\">Surface and Thermal Properties</td></tr><tr><td>Unit Ratio:(Bisphenol S : Bisphenol A) $^b$ </td><td>Yield(%) $^c$ </td><td> $η_{inh}$ (dL/g) $^d$ </td><td> $θ_w$ (Degrees) $^e$ </td><td> $T_g$ (°C) $^f$ </td><td> $T_d^{10\\%}$ (°C) $^g$ </td><td>RM(%) $^h$ </td></tr><tr><td>100 : 0</td><td>100 : 0</td><td>86.5</td><td>0.32</td><td>82.0</td><td>—</td><td>403</td><td>37.8</td></tr><tr><td>80 : 20</td><td>80 : 20</td><td>88.3</td><td>0.36</td><td>84.0</td><td>166.8</td><td>424</td><td>33.4</td></tr><tr><td>60 : 40</td><td>58 : 42</td><td>77.7</td><td>0.28</td><td>84.5</td><td>128.6</td><td>427</td><td>33.1</td></tr><tr><td>50 : 50</td><td>47 : 53</td><td>71.0</td><td>0.35</td><td>86.0</td><td>128.4</td><td>429</td><td>30.2</td></tr><tr><td>40 : 60</td><td>39 : 61</td><td>64.7</td><td>0.34</td><td>86.0</td><td>119.2</td><td>433</td><td>28.9</td></tr><tr><td>20 : 80</td><td>18 : 82</td><td>68.4</td><td>0.38</td><td>86.5</td><td>112.8</td><td>435</td><td>27.1</td></tr><tr><td>0 : 100</td><td>0 : 100</td><td>66.0</td><td>0.44</td><td>88.0</td><td>108.5</td><td>445</td><td>26.3</td></tr></table>",
+      "table_cells": [
+        {
+          "cell_id": "T_8_102:r0000:c0000",
+          "row_index": 0,
+          "column_index": 0,
+          "row_span": 2,
+          "column_span": 1,
+          "text": "Feed Ratio(Bisphenol S : Bisphenol A)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_102:r0000:c0001",
+          "row_index": 0,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 2,
+          "text": "Polymer",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_102:r0000:c0003",
+          "row_index": 0,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 5,
+          "text": "Surface and Thermal Properties",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_102:r0001:c0001",
+          "row_index": 1,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Unit Ratio:(Bisphenol S : Bisphenol A) $^b$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_102:r0001:c0002",
+          "row_index": 1,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Yield(%) $^c$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_102:r0001:c0003",
+          "row_index": 1,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$η_{inh}$ (dL/g) $^d$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_102:r0001:c0004",
+          "row_index": 1,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$θ_w$ (Degrees) $^e$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_102:r0001:c0005",
+          "row_index": 1,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$T_g$ (°C) $^f$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_102:r0001:c0006",
+          "row_index": 1,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$T_d^{10\\%}$ (°C) $^g$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_102:r0001:c0007",
+          "row_index": 1,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "RM(%) $^h$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_102:r0002:c0000",
+          "row_index": 2,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "100 : 0",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_102:r0002:c0001",
+          "row_index": 2,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "100 : 0",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_102:r0002:c0002",
+          "row_index": 2,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "86.5",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_102:r0002:c0003",
+          "row_index": 2,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.32",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_102:r0002:c0004",
+          "row_index": 2,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "82.0",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_102:r0002:c0005",
+          "row_index": 2,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "—",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_102:r0002:c0006",
+          "row_index": 2,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "403",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_102:r0002:c0007",
+          "row_index": 2,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "37.8",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_102:r0003:c0000",
+          "row_index": 3,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "80 : 20",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_102:r0003:c0001",
+          "row_index": 3,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "80 : 20",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_102:r0003:c0002",
+          "row_index": 3,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "88.3",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_102:r0003:c0003",
+          "row_index": 3,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.36",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_102:r0003:c0004",
+          "row_index": 3,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "84.0",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_102:r0003:c0005",
+          "row_index": 3,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "166.8",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_102:r0003:c0006",
+          "row_index": 3,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "424",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_102:r0003:c0007",
+          "row_index": 3,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "33.4",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_102:r0004:c0000",
+          "row_index": 4,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "60 : 40",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_102:r0004:c0001",
+          "row_index": 4,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "58 : 42",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_102:r0004:c0002",
+          "row_index": 4,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "77.7",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_102:r0004:c0003",
+          "row_index": 4,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.28",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_102:r0004:c0004",
+          "row_index": 4,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "84.5",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_102:r0004:c0005",
+          "row_index": 4,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "128.6",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_102:r0004:c0006",
+          "row_index": 4,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "427",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_102:r0004:c0007",
+          "row_index": 4,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "33.1",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_102:r0005:c0000",
+          "row_index": 5,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "50 : 50",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_102:r0005:c0001",
+          "row_index": 5,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "47 : 53",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_102:r0005:c0002",
+          "row_index": 5,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "71.0",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_102:r0005:c0003",
+          "row_index": 5,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.35",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_102:r0005:c0004",
+          "row_index": 5,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "86.0",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_102:r0005:c0005",
+          "row_index": 5,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "128.4",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_102:r0005:c0006",
+          "row_index": 5,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "429",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_102:r0005:c0007",
+          "row_index": 5,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "30.2",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_102:r0006:c0000",
+          "row_index": 6,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "40 : 60",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_102:r0006:c0001",
+          "row_index": 6,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "39 : 61",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_102:r0006:c0002",
+          "row_index": 6,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "64.7",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_102:r0006:c0003",
+          "row_index": 6,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.34",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_102:r0006:c0004",
+          "row_index": 6,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "86.0",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_102:r0006:c0005",
+          "row_index": 6,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "119.2",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_102:r0006:c0006",
+          "row_index": 6,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "433",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_102:r0006:c0007",
+          "row_index": 6,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "28.9",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_102:r0007:c0000",
+          "row_index": 7,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "20 : 80",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_102:r0007:c0001",
+          "row_index": 7,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "18 : 82",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_102:r0007:c0002",
+          "row_index": 7,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "68.4",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_102:r0007:c0003",
+          "row_index": 7,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.38",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_102:r0007:c0004",
+          "row_index": 7,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "86.5",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_102:r0007:c0005",
+          "row_index": 7,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "112.8",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_102:r0007:c0006",
+          "row_index": 7,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "435",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_102:r0007:c0007",
+          "row_index": 7,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "27.1",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_102:r0008:c0000",
+          "row_index": 8,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0 : 100",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_102:r0008:c0001",
+          "row_index": 8,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0 : 100",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_102:r0008:c0002",
+          "row_index": 8,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "66.0",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_102:r0008:c0003",
+          "row_index": 8,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.44",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_102:r0008:c0004",
+          "row_index": 8,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "88.0",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_102:r0008:c0005",
+          "row_index": 8,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "108.5",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_102:r0008:c0006",
+          "row_index": 8,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "445",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_8_102:r0008:c0007",
+          "row_index": 8,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "26.3",
+          "is_header": false
+        }
+      ],
+      "image_path": "organized/reference_no_0020284/images/886c7d8dbe743775a3e76f7fdca866b7a9e028c2b766485679e0f1910daaa7c3.jpg"
+    },
+    {
+      "block_id": "P_9_105",
+      "type": "text",
+      "section": "Conclusion",
+      "text": "",
+      "page": 9,
+      "bbox": [
+        96.0,
+        88.0,
+        477.0,
+        315.0
+      ],
+      "source_block_index": 105,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_9_106",
+      "type": "text",
+      "section": "Conclusion",
+      "text": "We thank the National Science Council of the Republic of China for support of this work under grant NSC 85-2216-E011-005.",
+      "page": 9,
+      "bbox": [
+        98.0,
+        327.0,
+        475.0,
+        369.0
+      ],
+      "source_block_index": 106,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_9_107",
+      "type": "title",
+      "section": "References",
+      "text": "REFERENCES",
+      "page": 9,
+      "bbox": [
+        98.0,
+        388.0,
+        205.0,
+        405.0
+      ],
+      "source_block_index": 107,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_9_149",
+      "type": "text",
+      "section": "References",
+      "text": "Received November 3, 1995",
+      "page": 9,
+      "bbox": [
+        509.0,
+        806.0,
+        691.0,
+        819.0
+      ],
+      "source_block_index": 149,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_9_150",
+      "type": "text",
+      "section": "References",
+      "text": "Accepted June 10, 1996",
+      "page": 9,
+      "bbox": [
+        508.0,
+        820.0,
+        669.0,
+        834.0
+      ],
+      "source_block_index": 150,
+      "alignment_status": "matched"
+    }
+  ],
+  "warnings": [
+    {
+      "code": "metadata_extraction_failed",
+      "message": "未配置统一 LLM 元数据提取器；document JSON 已继续生成"
+    }
+  ]
+}

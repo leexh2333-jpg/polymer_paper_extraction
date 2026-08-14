@@ -1,0 +1,263 @@
+{
+  "schema_version": "polymerlit-validation-summary/1.0",
+  "generated_at": "2026-08-14T15:43:56+08:00",
+  "collection_id": "demo20_types_preview_20260814",
+  "validation_status": "partially_validated",
+  "strict_compliance_claimed": false,
+  "manual_review": {
+    "document_count": 4,
+    "ratio": 0.2,
+    "scope": "targeted engineering rule and lineage checks",
+    "note": "Not an expert scientific semantic review."
+  },
+  "lineage": {
+    "source_collection": "demo20_types_samplefix_20260813_161437",
+    "stage0_stage1_stage4_stage4r_stage5_reused": true,
+    "stage2_stage3_deterministic_backfill": true,
+    "stage6_rerun": true,
+    "candidate_publish_rerun": true,
+    "llm_called": false,
+    "pdf_cold_start_verified": false,
+    "strict_compliance_claimed": false,
+    "source_stage_git_commit": null,
+    "note": "Source Stage artifacts have no reliable generation commit recorded; no SHA was invented."
+  },
+  "documents": {
+    "total": 20,
+    "candidate_complete": 20,
+    "final_generated": 20,
+    "report_generated": 20,
+    "candidate_report_generated": 20,
+    "stage6_error_documents": 0,
+    "conservation_passed": 20
+  },
+  "candidate_totals": {
+    "polymer_entities": 291,
+    "samples": 201,
+    "process_steps": 80,
+    "property_observations": 272,
+    "unresolved_property_observations": 79,
+    "property_series": 48,
+    "characterizations": 76,
+    "evidence": 2084
+  },
+  "preview_publication_totals": {
+    "input_objects": 3107,
+    "published_objects": 3090,
+    "rejected_objects": 17,
+    "reference_cleanup_count": 6,
+    "conservation_passed": 20,
+    "stage6_warning_count": 702
+  },
+  "stage4r_totals": {
+    "recovered": 147,
+    "skipped_ambiguous": 108
+  },
+  "rejected_error_codes": {
+    "evidence_not_in_source": 10,
+    "preview_missing_required_reference": 3,
+    "table_locator_not_in_source": 4
+  },
+  "stage6_warning_codes": {
+    "all_tables_included": 6,
+    "candidate_table_locator_surface_repaired": 13,
+    "component_blend_nested_mentions_split": 3,
+    "condition_evidence_surfaces_repaired": 3,
+    "condition_table_locators_synthesized": 4,
+    "coordinate_table_locators_synthesized": 1,
+    "derived_property_back_reference_completed": 3,
+    "empty_reported_context_downgraded": 6,
+    "evidence_matched": 13,
+    "evidence_matched_after_block_recovery": 22,
+    "evidence_matched_after_normalization": 36,
+    "evidence_surface_whitespace_recovered": 5,
+    "failure_response_replayed": 2,
+    "generic_process_type": 14,
+    "legacy_manifest_missing_options": 3,
+    "material_type_default_inferred": 20,
+    "material_type_evidence_inferred": 5,
+    "material_type_process_inherited": 3,
+    "mention_surface_recovered": 6,
+    "metadata_extraction_failed": 17,
+    "missing_characterization": 20,
+    "missing_mentions_marked_unresolved": 4,
+    "multi_subject_series_normalized": 15,
+    "orphan_noninitial_samples": 2,
+    "orphan_sample": 8,
+    "paper_metadata_incomplete": 17,
+    "parameters_not_in_source": 12,
+    "polymer_name_contamination": 6,
+    "polymer_name_preferred_over_sample_label": 3,
+    "polymer_type_default_inferred": 19,
+    "polymer_type_negative_rule_applied": 1,
+    "preview_characterization_method_surface_recovered": 7,
+    "preview_degraded_empty_shell": 6,
+    "preview_duplicate_mention_recovered": 1,
+    "preview_entity_evidence_inherited_from_mention": 3,
+    "preview_incomplete_table_evidence_removed": 5,
+    "preview_invalid_entities_removed": 1,
+    "preview_invalid_mentions_removed": 4,
+    "preview_missing_point_locator_recovered_from_unique_table_row": 1,
+    "preview_missing_point_recovered_from_unique_table_row": 1,
+    "preview_nested_mentions_split_retained": 8,
+    "preview_object_rejected_evidence_not_in_source": 10,
+    "preview_object_rejected_table_locator_not_in_source": 6,
+    "preview_objects_salvaged": 14,
+    "preview_point_locator_recovered_from_unique_table_row": 6,
+    "preview_process_type_normalized": 1,
+    "preview_property_subject_scope_aligned": 3,
+    "preview_property_subject_subscope_retained": 4,
+    "preview_semantic_validation_bypassed": 31,
+    "preview_series_unsupported_fields_removed": 1,
+    "preview_singleton_coordinate_evidence_unwrapped": 1,
+    "preview_unlocatable_additional_evidence_removed": 6,
+    "preview_unresolved_series_points_synthesized": 1,
+    "preview_unscoped_stage5_items_removed": 2,
+    "preview_unsupported_characterization_details_cleared": 15,
+    "preview_unsupported_stage5_optional_fields_cleared": 8,
+    "preview_unsupported_stage5_property_removed": 5,
+    "sample_evidence_relinked": 2,
+    "sample_polymer_type_backfilled_from_entity": 17,
+    "sample_polymer_type_process_inferred": 4,
+    "samples_without_entity": 9,
+    "section_fallback": 16,
+    "series_context_evidence_supplemented": 11,
+    "series_entity_relinked_to_sample": 8,
+    "series_method_evidence_supplemented": 5,
+    "series_multimethod_downgraded": 1,
+    "series_point_subject_scope_inherited": 3,
+    "stage4r_preview_table_recovery": 8,
+    "stage4r_unique_sample_label_resolved": 6,
+    "state_description_replaced_with_evidence": 5,
+    "table_locator_label_missing": 13,
+    "table_locator_matched": 52,
+    "table_locator_stable_cell_unresolved": 8,
+    "table_locator_table_scope_accepted": 3,
+    "unresolved_characterizations": 4,
+    "unresolved_entities": 15,
+    "unresolved_entities_completed": 2,
+    "unresolved_mentions": 10,
+    "unresolved_properties": 8,
+    "unsectioned_blocks_fallback": 2,
+    "unsupported_intended_uses_dropped": 3,
+    "unsupported_sample_labels_dropped": 5,
+    "unsupported_specific_value": 18,
+    "unsupported_state_descriptions_dropped": 6,
+    "unused_measurement_condition": 15
+  },
+  "type_evaluation": {
+    "ground_truth": {
+      "sample_rows": 222,
+      "unique_polymer_records": 137,
+      "polymer_type_rows": {
+        "Blend": 55,
+        "Copolymer": 28,
+        "Homopolymer": 139
+      },
+      "polymer_type_unique": {
+        "Blend": 14,
+        "Copolymer": 16,
+        "Homopolymer": 107
+      },
+      "material_type_labels": {
+        "Composite": 8,
+        "Compound": 37,
+        "Neat resin": 181
+      },
+      "material_type_label_total": 226
+    },
+    "totals": {
+      "predicted_entities": 291,
+      "predicted_samples": 201,
+      "entity_type_abstentions": 31,
+      "sample_material_type_abstentions": 28
+    },
+    "rates": {
+      "entity_type_abstention": 0.10652920962199312,
+      "sample_material_type_abstention": 0.13930348258706468,
+      "entity_to_gt_unique_granularity": 2.124087591240876,
+      "sample_to_gt_row_granularity": 0.9054054054054054
+    },
+    "class_counts": {
+      "gt_unique_polymer_types": {
+        "Blend": 14,
+        "Copolymer": 16,
+        "Homopolymer": 107
+      },
+      "predicted_entity_types": {
+        "Blend": 31,
+        "Copolymer": 27,
+        "Homopolymer": 202
+      },
+      "gt_material_type_labels": {
+        "Composite": 8,
+        "Compound": 37,
+        "Neat resin": 181
+      },
+      "predicted_sample_material_types": {
+        "Composite": 10,
+        "Compound": 27,
+        "Neat resin": 136
+      }
+    },
+    "majority_baselines": {
+      "polymer_type_homopolymer": 0.781021897810219,
+      "material_type_neat_resin": 0.8153153153153153
+    },
+    "blend_document_detection": {
+      "gt_documents": [
+        "reference_no_0037268",
+        "reference_no_0042246",
+        "reference_no_0042367",
+        "reference_no_0043590",
+        "reference_no_0101911"
+      ],
+      "predicted_documents": [
+        "reference_no_0037268",
+        "reference_no_0042246",
+        "reference_no_0042367",
+        "reference_no_0101911"
+      ],
+      "true_positive_documents": [
+        "reference_no_0037268",
+        "reference_no_0042246",
+        "reference_no_0042367",
+        "reference_no_0101911"
+      ],
+      "precision": 1.0,
+      "recall": 0.8
+    },
+    "blend_document_detection_entity_or_sample": {
+      "gt_documents": [
+        "reference_no_0037268",
+        "reference_no_0042246",
+        "reference_no_0042367",
+        "reference_no_0043590",
+        "reference_no_0101911"
+      ],
+      "predicted_documents": [
+        "reference_no_0037268",
+        "reference_no_0042246",
+        "reference_no_0042367",
+        "reference_no_0043590",
+        "reference_no_0101911"
+      ],
+      "true_positive_documents": [
+        "reference_no_0037268",
+        "reference_no_0042246",
+        "reference_no_0042367",
+        "reference_no_0043590",
+        "reference_no_0101911"
+      ],
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    "matching_scope": "No name-level matching; coverage, abstention and document-level detection only."
+  },
+  "known_limits": [
+    "Prediction and ground-truth granularities differ; no row-level or name-level accuracy is claimed.",
+    "Code-only labels remain labels when the article provides no explicit individual polymer name.",
+    "reference_no_0042246 Compound evidence remains under-covered relative to ground truth.",
+    "reference_no_0043590 Blend is recovered at Sample level but not at entity level."
+  ]
+}

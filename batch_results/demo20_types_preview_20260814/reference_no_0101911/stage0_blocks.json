@@ -1,0 +1,2145 @@
+{
+  "schema_version": "1.1",
+  "source_document_schema_version": "1.0",
+  "document_id": "reference_no_0101911",
+  "paper": {
+    "ref_no": "reference_no_0101911",
+    "pdf_filename": "e2802036-c767-462d-bc52-a82d50c461f0_origin.pdf",
+    "source_pdf_path": "mineru/reference_no_0101911/e2802036-c767-462d-bc52-a82d50c461f0_origin.pdf",
+    "organized_pdf_path": "organized/reference_no_0101911/origin.pdf",
+    "doi": null,
+    "title": null,
+    "authors": null,
+    "journal": null,
+    "year": null,
+    "metadata_status": "failed",
+    "metadata_extraction": {
+      "method": "llm",
+      "provider": null,
+      "model": null,
+      "prompt_file": "prompts/meta_extract.md",
+      "prompt_sha256": "98252486e4f9cdfd1b42ea02b7e01440d6be99c99d18720dc71c95aa1643fcd4",
+      "source_pages": [
+        0,
+        1
+      ],
+      "status": "failed",
+      "error_type": "MetaExtractorUnavailable"
+    }
+  },
+  "source_files": {
+    "markdown": "reference_no_0101911.md",
+    "content_v1": "content.json",
+    "content_v2": "content_v2.json",
+    "pdf": "origin.pdf"
+  },
+  "ocr": {
+    "engine": "mineru",
+    "batch_id": "122ff743-eb66-4583-986f-6c8015953309",
+    "model_version": "vlm",
+    "ocr_enabled": false,
+    "language": null,
+    "page_ranges": null,
+    "enable_formula": true,
+    "enable_table": true,
+    "extra_formats": [],
+    "status": "done",
+    "manifest_file": "batch_122ff743-eb66-4583-986f-6c8015953309_manifest.json",
+    "status_file": "batch_122ff743-eb66-4583-986f-6c8015953309_status.json"
+  },
+  "elements": [
+    {
+      "block_id": "P_0_0",
+      "type": "title",
+      "section": "DocumentTitle",
+      "text": "ABS and Styrene-N-Phenylmaleimide-Acrylonitrile Terpolymer Achieved Both Toughening and Boosting Heat Resistance of PVC",
+      "page": 0,
+      "bbox": [
+        70.0,
+        191.0,
+        902.0,
+        269.0
+      ],
+      "source_block_index": 0,
+      "alignment_status": "matched",
+      "title_level": 1
+    },
+    {
+      "block_id": "P_0_1",
+      "type": "text",
+      "text": "Penghao Zhang<sup>1,2,3,4</sup> | Jie Hou<sup>1,4</sup> | Baijun Liu<sup>1,4</sup> | Mingyao Zhang<sup>1,2,3</sup>",
+      "page": 0,
+      "bbox": [
+        70.0,
+        281.0,
+        554.0,
+        297.0
+      ],
+      "source_block_index": 1,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_0_2",
+      "type": "text",
+      "text": "<sup>1</sup>School of Materials Science and Engineering, Changchun University of Technology, Changchun, China | <sup>2</sup>Key Laboratory of Advanced Structural Materials, Ministry of Education, Changchun University of Technology, Changchun, China | <sup>3</sup>School of Chemical Engineering, Changchun University of Technology, Changchun, China | <sup>4</sup>Engineering Research Center of Synthetic Resin and Special Fiber, Ministry of Education, Changchun University of Technology, Changchun, China",
+      "page": 0,
+      "bbox": [
+        70.0,
+        309.0,
+        912.0,
+        365.0
+      ],
+      "source_block_index": 2,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_0_3",
+      "type": "text",
+      "text": "Correspondence: Mingyao Zhang (zmy@ccut.edu.cn)",
+      "page": 0,
+      "bbox": [
+        70.0,
+        375.0,
+        379.0,
+        390.0
+      ],
+      "source_block_index": 3,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_0_4",
+      "type": "text",
+      "text": "Received: 9 August 2024 | Revised: 24 October 2024 | Accepted: 17 November 2024",
+      "page": 0,
+      "bbox": [
+        70.0,
+        396.0,
+        556.0,
+        410.0
+      ],
+      "source_block_index": 4,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_0_5",
+      "type": "text",
+      "text": "Funding: This work was supported by National Natural Science Foundation of China, U21A2088 and Jilin Provincial Key Research and Development Plan Project, 20230201129GX.",
+      "page": 0,
+      "bbox": [
+        70.0,
+        416.0,
+        919.0,
+        443.0
+      ],
+      "source_block_index": 5,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_0_6",
+      "type": "text",
+      "text": "Keywords: blends | copolymers | Poly(vinyl chloride) | resins | structure-property relationships",
+      "page": 0,
+      "bbox": [
+        70.0,
+        450.0,
+        596.0,
+        465.0
+      ],
+      "source_block_index": 6,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_0_7",
+      "type": "title",
+      "section": "Abstract",
+      "text": "ABSTRACT",
+      "page": 0,
+      "bbox": [
+        85.0,
+        485.0,
+        186.0,
+        500.0
+      ],
+      "source_block_index": 7,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_0_8",
+      "type": "text",
+      "section": "Abstract",
+      "text": "The lack of toughness and heat resistance of polyvinyl chloride (PVC) limit its application in construction, transportation, packaging, and medical treatment. In this work, the core–shell structure polybutadiene grafted styrene and acrylonitrile copolymer (PB-g-SAN), named (ABS), was utilized to toughen PVC. The composite materials reached the brittle-ductile transition point at 10 phr. The heat-resistant modifier styrene-N-phenylmaleimide-acrylonitrile terpolymer (SMIA) synthesized by bulk polymerization was added to PVC/ABS to improve the heat resistance of the composite. The monomer N-phenylmaleimide with a large spatial site resistance is introduced into SMIA, which restricts the molecular chain movement. There are intermolecular forces between the nitrile group and PVC to enhance the composite compatibility. Phase separation was not observed in the scanning electron microscope images of composites, elucidating the outstanding compatibility of ABS, PVC, and SMIA. The brittle-ductile transition point was found to be 1350.60 J/m addition of 10 phr ABS. The Vicat softening temperature of the ternary functional composite (PVC/ABS/SMIA, 72:8:20) raised by $2 ^ { \\circ } \\mathrm { C } ,$, and the initial decomposition temperature increased by $1 9 ^ { \\circ } \\mathrm { C } .$. Furthermore, the impact strength elevated 6 times compared to that of PVC. The toughening and strengthening heat resistance of PVC are realized at the same time.",
+      "page": 0,
+      "bbox": [
+        80.0,
+        502.0,
+        915.0,
+        702.0
+      ],
+      "source_block_index": 8,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_0_8",
+        "V2_0_8_1",
+        "V2_0_8_3"
+      ]
+    },
+    {
+      "block_id": "P_0_9",
+      "type": "title",
+      "section": "Abstract",
+      "text": "1 | Introduction",
+      "page": 0,
+      "bbox": [
+        70.0,
+        728.0,
+        216.0,
+        745.0
+      ],
+      "source_block_index": 9,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_0_10",
+      "type": "text",
+      "section": "Abstract",
+      "text": "Polyvinyl chloride (PVC) resin has attracted wide attention in construction, transportation, packaging, and medical applications because of its low cost, corrosion resistance, and flame retardancy [1–3]. However, rigid PVC has some disadvantages such as low thermal stability, poor processing performance, and heat distortion temperature, which seriously limits efficient applications [4–6]. Blending PVC with other polymers is a feasible and effective way to enhance the toughness and heat resistance of PVC materials [7]. According to the characteristics and ratio of the supplementary polymer, the performance of composite materials is tunable [8–10]. In recent years, there have been abundant studies reported to improve the toughness of PVC by blending with core–shelltype impact modifiers [11]. The polybutadiene grafted styrene and acrylonitrile copolymer (PB-g-SAN), named (ABS), is a class of core–shell graft copolymer modifiers synthesized by emulsion polymerization, with polybutadiene (PBL) rubber as the core and polystyrene-co-acrylonitrile as the shell [12]. The core–shell structure of ABS affords it outstanding compatibility with other resins [13, 14]. Liu et al. prepared ABS graft copolymers, blended with PVC of different molecular weights, which showed that ABS has a toughening effect and good compatibility [15]. Zhang et al. prepared high-toughness PVC/poly(a-methylstyrene-acrylonitrile) (a-MSAN) and selected acrylic resin (ACR) as the toughening modifier. The brittle and ductile transition point was found to occur at an ACR content of 10phr, and the impact strength was about $7 3 \\mathrm { K J } / \\mathrm { m } ^ { 2 }$[16].",
+      "page": 0,
+      "bbox": [
+        68.0,
+        759.0,
+        489.0,
+        864.0
+      ],
+      "source_block_index": 10,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_0_10",
+        "V2_0_10_1"
+      ]
+    },
+    {
+      "block_id": "P_0_11",
+      "type": "text",
+      "section": "Abstract",
+      "text": "",
+      "page": 0,
+      "bbox": [
+        505.0,
+        728.0,
+        927.0,
+        864.0
+      ],
+      "source_block_index": 11,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "F_0_17",
+      "type": "footnote",
+      "section": "Abstract",
+      "text": "© 2024 Wiley Periodicals LLC",
+      "page": 0,
+      "bbox": [
+        70.0,
+        913.0,
+        211.0,
+        925.0
+      ],
+      "source_block_index": 17,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_1_20",
+      "type": "text",
+      "section": "Abstract",
+      "text": "",
+      "page": 1,
+      "bbox": [
+        68.0,
+        39.0,
+        489.0,
+        187.0
+      ],
+      "source_block_index": 20,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_1_21",
+      "type": "text",
+      "section": "Abstract",
+      "text": "Heat resistance is a vital element for practical applications. Blending with components possessing high glass transition temperature is a selectable method to elevate the heat resistance of PVC [17]. Wang et al. reported an α-MSAN, PVC, and ABS ternary composite material. With the addition of α-MSAN, the Vicat softening temperature (VST) was from $8 0 . 9 ^ { \\circ } \\mathrm { C }$for pure PVC to 104.3°C. By virtue of ABS, the punch and strength of the material obtained are vastly enhanced [18]. Furthermore, N-phenylmaleimide (NPMI) is a sort of universal heat-resistant modifier due to its rigidity structure as well as steric hindrance. NPMI can effectively raise the internal rotation resistance of the molecular chain by embed ding it into the polymer and then improving the softening point of the resin [19–21]. Hou et al. fabricated a-methylstyrene/NPMI acrylonitrile random copolymer, MSAMI, which dramatically improves the heat resistance of ABS [22]. Wang et  al. prepared monodisperse poly(N-phenylmaleimide)-acrylonitrile–styrene copolymers through the method of seeded microemulsion polym erization. By melt blending PVC with 50% copolymers, the glass transition temperature (Tg) of the composites was increased by 22.4°C [23]. However, there are fewer studies on the modification of PVC to toughen PVC while using NPMI copolymers to improve heat resistance.",
+      "page": 1,
+      "bbox": [
+        68.0,
+        200.0,
+        489.0,
+        525.0
+      ],
+      "source_block_index": 21,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_1_21",
+        "V2_1_1_1"
+      ]
+    },
+    {
+      "block_id": "P_1_22",
+      "type": "text",
+      "section": "Abstract",
+      "text": "Fewer studies have been reported on the modification of PVC resins using the styrene-N-phenylmaleimide-acrylonitrile terpolymer. In this work, the heat-resistant modifier styrene-N-phenylmaleimideacrylonitrile copolymer (SMIA) was synthesized. Core–shell graft copolymer ABS was selected as a toughening filler. A simple and convenient method of using additives that are compatible with PVC and simultaneously improve the toughness and heat resistance of PVC has been proposed. The ratio of additives can be adjusted according to different needs and there is no need to worry about compatibility. The structure, mechanical properties, dynamic mechanical properties, and morphology of the impact fracture were systematically analyzed. The results show that the heat resistance and toughness of PVC are significantly improved due to the incorporation of SMIA and ABS. An effective strategy is proposed, which can simultaneously improve the heat resistance and toughness of PVC.",
+      "page": 1,
+      "bbox": [
+        68.0,
+        539.0,
+        489.0,
+        774.0
+      ],
+      "source_block_index": 22,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_1_23",
+      "type": "title",
+      "section": "Abstract",
+      "text": "2 | Experimental",
+      "page": 1,
+      "bbox": [
+        70.0,
+        803.0,
+        223.0,
+        819.0
+      ],
+      "source_block_index": 23,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_1_24",
+      "type": "title",
+      "section": "Abstract",
+      "text": "2.1 | Materials",
+      "page": 1,
+      "bbox": [
+        70.0,
+        832.0,
+        205.0,
+        847.0
+      ],
+      "source_block_index": 24,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_1_25",
+      "type": "text",
+      "section": "Abstract",
+      "text": "Styrene (St, 97%) and acrylonitrile (AN, 97%) were provided by Sinopec Jilin oil products company. Polyvinyl chloride (PVC, SG-5, viscosity number 107–118 g/mL) was sourced from Xinjiang Tianye Co. The calcium-zinc compound heat stabilizer and processing aid ACR were acquired from Wenzhou",
+      "page": 1,
+      "bbox": [
+        68.0,
+        861.0,
+        489.0,
+        937.0
+      ],
+      "source_block_index": 25,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_1_26",
+      "type": "text",
+      "section": "Abstract",
+      "text": "Zhengbang Chemical Co. Organotin (dibutyltin dilaurate, DY-12, Sn content 18%–20%) was obtained from Tianjin Fuchen Chemical Reagent Co. N-phenylmaleimide (NPMI, 98%) and benzoyl peroxide (BPO, 99%) were purchased from Shanghai McLean Biochemical Science and Technology Co. Ltd. and ABS core–shell particles (240 nm, $\\mathrm { P D I } { = } 0 . 1 3 )$were purchased from Tianjin Dagu Chemical Co.",
+      "page": 1,
+      "bbox": [
+        507.0,
+        38.0,
+        926.0,
+        143.0
+      ],
+      "source_block_index": 26,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_1_26",
+        "V2_1_6_1"
+      ]
+    },
+    {
+      "block_id": "P_1_27",
+      "type": "title",
+      "section": "Abstract",
+      "text": "2.2 | Preparation of SMIA",
+      "page": 1,
+      "bbox": [
+        507.0,
+        171.0,
+        729.0,
+        187.0
+      ],
+      "source_block_index": 27,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_1_28",
+      "type": "text",
+      "section": "Abstract",
+      "text": "SMIA was prepared by the bulk polymerization method. NPMI (100 g), St (675 g), BPO (0.5 g), TDDM (2.5 g), and EB (100 g) were added to a vertical glass reactor under $\\Nu _ { 2 }$environment. Adopting a segmented heating mode, the polymerization was initiated at $8 0 ^ { \\circ } \\mathrm { C }$and gradually increased to $1 4 0 ^ { \\circ } \\mathrm { C }$with a speed of $2 0 ^ { \\circ } \\mathrm { C } / \\mathrm { h }$. After 5.5 h, the copolymer SMIA was obtained and dried in a vacuum drying chamber at $1 4 0 ^ { \\circ } \\mathrm { C }$under an $\\Nu _ { 2 }$atmosphere for the de-ashing process. The complete de-volatilization of the product was guaranteed by intermittently reducing the pressure.",
+      "page": 1,
+      "bbox": [
+        507.0,
+        200.0,
+        926.0,
+        349.0
+      ],
+      "source_block_index": 28,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_1_28",
+        "V2_1_8_1",
+        "V2_1_8_3",
+        "V2_1_8_5",
+        "V2_1_8_7",
+        "V2_1_8_9",
+        "V2_1_8_11"
+      ]
+    },
+    {
+      "block_id": "P_1_29",
+      "type": "title",
+      "section": "Abstract",
+      "text": "2.3 | Preparation of Composite Materials",
+      "page": 1,
+      "bbox": [
+        509.0,
+        375.0,
+        847.0,
+        393.0
+      ],
+      "source_block_index": 29,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_1_30",
+      "type": "text",
+      "section": "Abstract",
+      "text": "The dried ABS and PVC powder and the additives $\\mathrm { ( C a / Z n }$stabilizer (2.5wt%), ACR (1wt%), and organotin, 1 mL) were mixed in proportion. The PVC/ABS composite material was obtained by melting and mixing for 3 min using a two-roll kneader at $1 7 0 ^ { \\circ } \\mathrm { C }$The preparation of SMIA/PVC/ABS composites was similar to the aforementioned preparation of PVC/ABS composites.",
+      "page": 1,
+      "bbox": [
+        507.0,
+        406.0,
+        926.0,
+        496.0
+      ],
+      "source_block_index": 30,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_1_30",
+        "V2_1_10_1",
+        "V2_1_10_3"
+      ]
+    },
+    {
+      "block_id": "P_1_31",
+      "type": "title",
+      "section": "Abstract",
+      "text": "2.4 | Properties Characterization",
+      "page": 1,
+      "bbox": [
+        507.0,
+        523.0,
+        784.0,
+        539.0
+      ],
+      "source_block_index": 31,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_1_32",
+      "type": "title",
+      "section": "Abstract",
+      "text": "2.4.1 | Mechanical Properties",
+      "page": 1,
+      "bbox": [
+        509.0,
+        553.0,
+        739.0,
+        567.0
+      ],
+      "source_block_index": 32,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_1_33",
+      "type": "text",
+      "section": "Abstract",
+      "text": "The notched impact strength test complies with ASTM D-256-2010 (Model AJU-22, Chengde Tester Machinery Factory, China). The tensile test was conducted under ASTM D638-2000 at $2 3 ^ { \\circ } \\mathrm { C }$using an Instron tester with a crosshead speed of 50 mm/ min.",
+      "page": 1,
+      "bbox": [
+        507.0,
+        581.0,
+        926.0,
+        656.0
+      ],
+      "source_block_index": 33,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_1_33",
+        "V2_1_13_1"
+      ]
+    },
+    {
+      "block_id": "P_1_34",
+      "type": "title",
+      "section": "Abstract",
+      "text": "2.4.2 | Dynamic Mechanical Analysis (DMA)",
+      "page": 1,
+      "bbox": [
+        509.0,
+        686.0,
+        848.0,
+        700.0
+      ],
+      "source_block_index": 34,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_1_35",
+      "type": "text",
+      "section": "Abstract",
+      "text": "DMA for the PVC/ABS/SMIA blends was performed on a DMA apparatus (Diamond-DMA, PerkinElmer, USA). The tests were carried out under the tensile mode, at 1 Hz frequency and a heating rate of $3 ^ { \\circ } \\mathrm { C } /$min with a temperature range from $3 0 ^ { \\circ } \\mathrm { C }$to $1 6 0 ^ { \\circ } \\mathrm { C } .$. All of the samples had the following dimension $3 0 \\times 1 0 \\times 1 \\mathrm { m m } ^ { 3 }$",
+      "page": 1,
+      "bbox": [
+        507.0,
+        714.0,
+        926.0,
+        804.0
+      ],
+      "source_block_index": 35,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_1_35",
+        "V2_1_15_1",
+        "V2_1_15_3",
+        "V2_1_15_5",
+        "V2_1_15_7"
+      ]
+    },
+    {
+      "block_id": "P_1_36",
+      "type": "title",
+      "section": "Abstract",
+      "text": "2.4.3 | Fourier-Transform Infrared Spectra Analysis",
+      "page": 1,
+      "bbox": [
+        507.0,
+        833.0,
+        900.0,
+        847.0
+      ],
+      "source_block_index": 36,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_1_37",
+      "type": "text",
+      "section": "Abstract",
+      "text": "The structures of the SMIA copolymers and PVC/ABS/SMIA composite were analyzed by Fourier transform infrared spectroscopy (FTIR, Nicolet IS50, Thermo Fisher, Waltham, USA). The spectra were recorded at a spectral acquisition resolution of $4 \\mathrm { c m ^ { - 1 } }$and a scanning range of 4000–400 cm−<sup>1</sup>.",
+      "page": 1,
+      "bbox": [
+        505.0,
+        861.0,
+        926.0,
+        936.0
+      ],
+      "source_block_index": 37,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_1_37",
+        "V2_1_17_1"
+      ]
+    },
+    {
+      "block_id": "P_1_40",
+      "type": "text",
+      "section": "Abstract",
+      "text": "10974628, 2025, 10, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/app.56573 by Northwestern Polytechnic, Wiley Online Library on [21/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License",
+      "page": 1,
+      "bbox": [
+        966.0,
+        16.0,
+        983.0,
+        983.0
+      ],
+      "source_block_index": 40,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_2_41",
+      "type": "title",
+      "section": "Abstract",
+      "text": "2.4.4 | Scanning Electron Microscope (SEM)",
+      "page": 2,
+      "bbox": [
+        70.0,
+        39.0,
+        405.0,
+        54.0
+      ],
+      "source_block_index": 41,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_2_42",
+      "type": "text",
+      "section": "Abstract",
+      "text": "A SEM (JSM-6510, Japan, 15 kV) was used to examine the morphology of the impact fracture. Before observation, the fracture surface was coated with a thin platinum layer using Auto Fine Coater (JFC-1600, Japan).",
+      "page": 2,
+      "bbox": [
+        68.0,
+        67.0,
+        487.0,
+        127.0
+      ],
+      "source_block_index": 42,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_2_43",
+      "type": "title",
+      "section": "Abstract",
+      "text": "2.4.5 | Vicat Softening Temperature Test",
+      "page": 2,
+      "bbox": [
+        70.0,
+        157.0,
+        379.0,
+        172.0
+      ],
+      "source_block_index": 43,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_2_44",
+      "type": "text",
+      "section": "Abstract",
+      "text": "The 3.2 mm sheet obtained by molding was placed on the Vicat softening tester (WKT-VST400, China) and heated up at a heating rate of $5 0 ^ { \\circ } \\mathrm { C } / \\mathrm { h }$. The temperature of a standard compression needle was recorded when it pierced the surface of a thermoplastic resin to a depth of 1 mm under standard loading conditions. The force was set as 50 N, and the B50 method was used for measurement.",
+      "page": 2,
+      "bbox": [
+        68.0,
+        186.0,
+        487.0,
+        289.0
+      ],
+      "source_block_index": 44,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_2_44",
+        "V2_2_3_1"
+      ]
+    },
+    {
+      "block_id": "P_2_45",
+      "type": "title",
+      "section": "Abstract",
+      "text": "3 | Results and Discussion",
+      "page": 2,
+      "bbox": [
+        70.0,
+        317.0,
+        295.0,
+        333.0
+      ],
+      "source_block_index": 45,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_2_46",
+      "type": "title",
+      "section": "Abstract",
+      "text": "3.1 | Preparation and Characterization of the SMIA Copolymer",
+      "page": 2,
+      "bbox": [
+        70.0,
+        347.0,
+        393.0,
+        378.0
+      ],
+      "source_block_index": 46,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_2_47",
+      "type": "text",
+      "section": "Abstract",
+      "text": "SMIA was synthesized by the bulk method. The FTIR spectra of SMIA copolymers are shown in Figure 1. The characteristic absorption peak of NPMI at $1 3 8 1 \\mathrm { c m } ^ { - 1 }$is attributed to the imide five-membered ring structure. At 1709 and $1 1 8 0 \\mathrm { c m ^ { - 1 } }$are the characteristic absorption peaks for -C=O and -C-N bonds, respectively. The peaks at 1600, 1452, and $1 4 9 3 \\mathrm { c m } ^ { - 1 }$were associated with the phenyl groups in the NPMI and St units, reflecting the semicircle stretching and mixed -C–H bending of a monosubstituted benzene ring; $7 5 8 \\mathrm { c m ^ { - 1 } }$is the -C-H vibrational absorption peak on the benzene ring in the styrene unit; $6 9 8 \\mathrm { c m ^ { - 1 } }$is the -C-H vibrational absorption peak on the benzene ring in the NPMI unit, and the presence of St is confirmed by the stretching vibration of -CH at $2 9 2 3 \\mathrm { c m } ^ { - 1 }$. The absorption peak at 2237 cm−<sup>1</sup> belongs to the $\\mathbf { \\partial } _ { - } C \\equiv \\mathbf { N }$stretching vibration of the AN fragment. The results indicated that the SMIA copolymer was successfully obtained.",
+      "page": 2,
+      "bbox": [
+        68.0,
+        391.0,
+        489.0,
+        627.0
+      ],
+      "source_block_index": 47,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_2_47",
+        "V2_2_6_1",
+        "V2_2_6_3",
+        "V2_2_6_5",
+        "V2_2_6_7",
+        "V2_2_6_9",
+        "V2_2_6_11",
+        "V2_2_6_13"
+      ]
+    },
+    {
+      "block_id": "I_2_48",
+      "type": "image",
+      "section": "Abstract",
+      "page": 2,
+      "bbox": [
+        78.0,
+        647.0,
+        478.0,
+        901.0
+      ],
+      "source_block_index": 48,
+      "alignment_status": "matched",
+      "caption": "FIGURE 1 | FTIR spectra of the SMIA copolymer. [Color figure can be viewed at wileyonlinelibrary.com]",
+      "image_path": "organized/reference_no_0101911/images/79753b0adb198e111a3c4e20f2df959ec00052883dd018b78caf27fc6f53be7c.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "P_2_49",
+      "type": "text",
+      "section": "Abstract",
+      "text": "To verify there is no homopolymerization for St, the DSC curves were recorded. As displayed in Figure 2, only one single Tg appeared at 123.5°C in the DSC curves of the terpolymer SMIA, and the results agree with the empirical formula proposed by Fox et al. [20] which indicated that the structure of copolymer SMIA is relatively homogeneous.",
+      "page": 2,
+      "bbox": [
+        505.0,
+        38.0,
+        927.0,
+        129.0
+      ],
+      "source_block_index": 49,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_2_50",
+      "type": "title",
+      "section": "Abstract",
+      "text": "3.2 | The Brittle-Tough Transition and Characterization of PVC/ABS Composites",
+      "page": 2,
+      "bbox": [
+        507.0,
+        154.0,
+        875.0,
+        187.0
+      ],
+      "source_block_index": 50,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_2_51",
+      "type": "text",
+      "section": "Abstract",
+      "text": "The brittle-toughness fracture transition point of PVC resin toughened with ABS is crucial to the performance of composites, which was searched by adjusting the content of ABS core– shell toughened particles. The ABS core–shell ratio is 6:4, and the shell styrene-to-acrylonitrile ratio is 75:25. As depicted in Figure  3, significantly, the impact strength of the composite material is dramatically enhanced with 6–8 phr ABS core– shell particle addition. It revealed a transition from brittle to ductile materials and a maximum value of 1350.60 J/m occurs at 10 phr. The more ABS core–shell particles are doped, the more rubber particles are involved in the absorption of energy. The relative distance between the particles is closer and the probability of stress field interactions is promoted, contributing to the improvement of impact strength for the composite material. With the increase in the number of ABS core–shell particles, the number of rubber particles involved in the absorption of energy increases, the closer the relative distance between the particles, the higher the chances of the occurrence of stress field interactions. Nevertheless, the impact strength of the PVC/ABS composites fell slightly off at 12 phr ABS blended. The ABS core–shell particles are excess and sectional rubber particles stack. It disrupts the equilibrium system and hinders the formation of matrix shear bands, leading to declining impact strength [24].",
+      "page": 2,
+      "bbox": [
+        505.0,
+        200.0,
+        927.0,
+        556.0
+      ],
+      "source_block_index": 51,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_2_52",
+      "type": "text",
+      "section": "Abstract",
+      "text": "As shown in Table  1, the elongation at the break of the composites increases gradually to 156.3% with the incorporation of 0–8 phr ABS core–shell particles. The tensile strength displays a contrary tendency with the proportion of ABS core–shell particles, it decreased from 51.66 to 47.41 MPa. The reason for this phenomenon is that the rubbery phase can act as a stress concentration point and induce the polymer to yield at lower stresses. The cross-section begins to yield when the applied stress exceeds the yield limit of the matrix material. The yield limit of the composite cross-section decreases as the content of the rubber phase increases; hence, the tensile strength declines [25, 26].",
+      "page": 2,
+      "bbox": [
+        507.0,
+        567.0,
+        927.0,
+        746.0
+      ],
+      "source_block_index": 52,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_2_53",
+      "type": "text",
+      "section": "Abstract",
+      "text": "The field emission SEM was used to explore the micromorphology of the impact fracture surface. As displayed in Figure  4a, the impact section of the composite material presents relatively flat with the addition of 6 phr ABS. The impact section of the PVC/ABS composite material contains well-distributed voids when the ABS is increased to 10 phr (Figure 4c). Some tree-root-like yielding fibers appear, which is a typical characteristic of toughness fracture. The fracture surface is not uniform at 12 phr (Figure 4d). Both the matrix yielding caused by the obvious plastic deformation and a number of voids, and some of the more flat and smooth planes appear the characteristics of brittle fracture. That is why impact strength reduction [27]. ASA-modified PVC requires 13 phr to reach the brittle-tough transition point, and ABS requires less content and more impact strength improvement than",
+      "page": 2,
+      "bbox": [
+        505.0,
+        759.0,
+        927.0,
+        938.0
+      ],
+      "source_block_index": 53,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_2_55",
+      "type": "text",
+      "section": "Abstract",
+      "text": "10974628, 2025, 10. Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/app.56573 by Northwestern Polytechnic, Wiley Online Library on [21/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License",
+      "page": 2,
+      "bbox": [
+        966.0,
+        16.0,
+        983.0,
+        982.0
+      ],
+      "source_block_index": 55,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "I_3_56",
+      "type": "image",
+      "section": "Abstract",
+      "page": 3,
+      "bbox": [
+        75.0,
+        39.0,
+        480.0,
+        306.0
+      ],
+      "source_block_index": 56,
+      "alignment_status": "matched",
+      "caption": "FIGURE 2 | DSC curves for the SMIA copolymer. [Color figure can be viewed at wileyonlinelibrary.com]",
+      "image_path": "organized/reference_no_0101911/images/9c7f2c0dbe4e715ac7684142a4dd93bba3788ddf527d66eb647d8eae929aaef8.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "I_3_57",
+      "type": "image",
+      "section": "Abstract",
+      "page": 3,
+      "bbox": [
+        77.0,
+        359.0,
+        480.0,
+        607.0
+      ],
+      "source_block_index": 57,
+      "alignment_status": "matched",
+      "caption": "FIGURE 3 | Impact strength of PVC/ABS composites with different ABS core–shell particle contents. [Color figure can be viewed at wileyonlinelibrary.com]",
+      "image_path": "organized/reference_no_0101911/images/ac9f4dda6677cc7695cce2c46a06f6d93d7e3bb83bc9d3b3faf39750b88d5f0e.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "T_3_58",
+      "type": "table",
+      "section": "Abstract",
+      "page": 3,
+      "bbox": [
+        73.0,
+        714.0,
+        484.0,
+        875.0
+      ],
+      "source_block_index": 58,
+      "alignment_status": "matched",
+      "caption": "TABLE 1 | Mechanical properties of PVC/ABS blends with different ABS core–shell particle contents.",
+      "table_body": "<table><tr><td>ABS content (phr)</td><td>Impact strength (J/m)</td><td>Tensile strength (MPa)</td><td>Elongation at break (%)</td></tr><tr><td>0</td><td>62.14 ± 3.93</td><td>51.66 ± 0.55</td><td>81.72 ± 5.35</td></tr><tr><td>6</td><td>193.21 ± 38.92</td><td>50.56 ± 1.48</td><td>94.25 ± 4.32</td></tr><tr><td>8</td><td>1118.93 ± 41.49</td><td>50.19 ± 1.56</td><td>156.30 ± 8.08</td></tr><tr><td>10</td><td>1350.60 ± 23.10</td><td>48.02 ± 1.25</td><td>140.14 ± 18.22</td></tr><tr><td>12</td><td>1263.75 ± 18.75</td><td>47.41 ± 4.19</td><td>158.67 ± 11.98</td></tr></table>",
+      "table_cells": [
+        {
+          "cell_id": "T_3_58:r0000:c0000",
+          "row_index": 0,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "ABS content (phr)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0000:c0001",
+          "row_index": 0,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Impact strength (J/m)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0000:c0002",
+          "row_index": 0,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Tensile strength (MPa)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0000:c0003",
+          "row_index": 0,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Elongation at break (%)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0001:c0000",
+          "row_index": 1,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0001:c0001",
+          "row_index": 1,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "62.14 ± 3.93",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0001:c0002",
+          "row_index": 1,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "51.66 ± 0.55",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0001:c0003",
+          "row_index": 1,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "81.72 ± 5.35",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0002:c0000",
+          "row_index": 2,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "6",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0002:c0001",
+          "row_index": 2,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "193.21 ± 38.92",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0002:c0002",
+          "row_index": 2,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "50.56 ± 1.48",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0002:c0003",
+          "row_index": 2,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "94.25 ± 4.32",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0003:c0000",
+          "row_index": 3,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "8",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0003:c0001",
+          "row_index": 3,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1118.93 ± 41.49",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0003:c0002",
+          "row_index": 3,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "50.19 ± 1.56",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0003:c0003",
+          "row_index": 3,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "156.30 ± 8.08",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0004:c0000",
+          "row_index": 4,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "10",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0004:c0001",
+          "row_index": 4,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1350.60 ± 23.10",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0004:c0002",
+          "row_index": 4,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "48.02 ± 1.25",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0004:c0003",
+          "row_index": 4,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "140.14 ± 18.22",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0005:c0000",
+          "row_index": 5,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "12",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0005:c0001",
+          "row_index": 5,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1263.75 ± 18.75",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0005:c0002",
+          "row_index": 5,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "47.41 ± 4.19",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_3_58:r0005:c0003",
+          "row_index": 5,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "158.67 ± 11.98",
+          "is_header": false
+        }
+      ],
+      "image_path": "organized/reference_no_0101911/images/f1bd3dc11aef447e25f852a6b04a4564b2450e0553f76336fdd28773a94fc34c.jpg"
+    },
+    {
+      "block_id": "P_3_59",
+      "type": "text",
+      "section": "Abstract",
+      "text": "",
+      "page": 3,
+      "bbox": [
+        70.0,
+        891.0,
+        489.0,
+        938.0
+      ],
+      "source_block_index": 59,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_3_60",
+      "type": "text",
+      "section": "Abstract",
+      "text": "ASA [21]. To optimize heat resistance of the composite, PVC/ ABS (90: 10), which reached the highest impact strength, was blended with SMIA.",
+      "page": 3,
+      "bbox": [
+        507.0,
+        38.0,
+        926.0,
+        84.0
+      ],
+      "source_block_index": 60,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_3_61",
+      "type": "title",
+      "section": "Abstract",
+      "text": "3.3    |    Characterization of PVC/ABS/SMIA Composites",
+      "page": 3,
+      "bbox": [
+        507.0,
+        111.0,
+        850.0,
+        143.0
+      ],
+      "source_block_index": 61,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_3_62",
+      "type": "text",
+      "section": "Abstract",
+      "text": "To characterize the mechanical properties of PVC/ABS/SMIA composites, the impact strength was carried out, and the corresponding mechanical property data are listed in Table 2.",
+      "page": 3,
+      "bbox": [
+        507.0,
+        156.0,
+        926.0,
+        203.0
+      ],
+      "source_block_index": 62,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_3_63",
+      "type": "text",
+      "section": "Abstract",
+      "text": "As shown in Figure 5, the impact strength showed a decreasing trend from 1350.60 to 397.14 J/m with the increase of SMIA content. The ABS plays a role as a stress concentration point in the composite. The percentage of ABS core–shell particles in the composite gradually decreases with the increase of SMIA, leading to less silvering or shear banding, which reduces the impact strength [28]. It can be seen that the elongation at the break of the composites gradually decreases with the increase of SMIA content from 140.14% to 30.03%. The tensile strength first decreases and shows a minimum value at 5 phr and then gradually increases. The PVC/ABS/SMIA composites show a negligible decrease in comparison with PVC/ABS. Due to the increase of rigid structure SMIA, the content of rubber phase as the stress concentration point was reduced, so that the impact strength of the composite was reduced.",
+      "page": 3,
+      "bbox": [
+        507.0,
+        214.0,
+        927.0,
+        438.0
+      ],
+      "source_block_index": 63,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_3_64",
+      "type": "text",
+      "section": "Abstract",
+      "text": "To deeply understand the impact performance of PVC/ABS/ SMIA composites, SEM images were acquired. As shown in Figure $^ { 6 , }$the boundary between the two phases was not found, and no obvious phase separation occurred. The gradual decrease in the number of yielding fibers on the surface can be observed when the SMIA content is increased from 0 to 10 phr. As the SMIA content further increases, the degree of slatting increases, the surface becomes relatively smooth, and the number of micropores gradually decreases. The change of morphology indicates that less of the impact energy is dissipated, corresponding to the impact strength of the composites [29].",
+      "page": 3,
+      "bbox": [
+        507.0,
+        450.0,
+        927.0,
+        627.0
+      ],
+      "source_block_index": 64,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_3_64",
+        "V2_3_8_1"
+      ]
+    },
+    {
+      "block_id": "P_3_65",
+      "type": "text",
+      "section": "Abstract",
+      "text": "To confirm the variation of mechanical properties in correlation with compatibility, a DMA of PVC/ABS/SMIA composites was carried out. The peak temperature of the tanδ curve is defined as the $T _ { g }$value of each component. As seen in Figure 7 and Table  3, only one single glass transition temperature of the composite (PVC: ABS = 90: 10) was observed, indicating that PVC was fully compatible with the SAN shell of ABS in the composite [30]. However, two distinct peaks appeared in the curve after the addition of SMIA, demonstrating that the compatibility of the composites gradually deteriorated. The interaction between the nitrile group and the PVC molecular chain is hindered by the large spatial site resistance of NPMI on the molecular chain of SMIA, which is proved in the FTIR test. It is possibly the responsibility for the compatibility variation. The $\\Delta T _ { g }$gradually increased with the addition of SMIA content. The movement of the molecular chain was restricted by the introduction of rigid groups in the SMIA molecular chain and the interaction between the nitrile group and PVC, which synergistically ensured the improvement of heat resistance [31].",
+      "page": 3,
+      "bbox": [
+        505.0,
+        641.0,
+        927.0,
+        937.0
+      ],
+      "source_block_index": 65,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_3_65",
+        "V2_3_9_1",
+        "V2_3_9_3"
+      ]
+    },
+    {
+      "block_id": "P_3_68",
+      "type": "text",
+      "section": "Abstract",
+      "text": "10974628, 2025, 10, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/app-56573 by Northwestern Polytechnic, Wiley Online Library on [21/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License",
+      "page": 3,
+      "bbox": [
+        966.0,
+        17.0,
+        983.0,
+        982.0
+      ],
+      "source_block_index": 68,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "I_4_69",
+      "type": "image",
+      "section": "Abstract",
+      "page": 4,
+      "bbox": [
+        189.0,
+        42.0,
+        808.0,
+        379.0
+      ],
+      "source_block_index": 69,
+      "alignment_status": "matched",
+      "caption": "FIGURE 4 | Impact fracture surface morphology of PVC/ABS composites with different ABS core–shell particle contents (a) 6 phr, (b) 8 phr, (c) 10 phr, and (d) 12 phr.",
+      "image_path": "organized/reference_no_0101911/images/124d018e277661bc4feda794894d57bab129e386b66b42f4e2cc4f10524a810d.jpg",
+      "image_kind": "image"
+    },
+    {
+      "block_id": "T_4_70",
+      "type": "table",
+      "section": "Abstract",
+      "page": 4,
+      "bbox": [
+        73.0,
+        453.0,
+        484.0,
+        615.0
+      ],
+      "source_block_index": 70,
+      "alignment_status": "matched",
+      "caption": "TABLE 2 | Mechanical properties of PVC/ABS/SMIA composites.",
+      "table_body": "<table><tr><td>SMIA content (phr)</td><td>Impact strength (J/m)</td><td>Tensile strength (MPa)</td><td>Elongation at break (%)</td></tr><tr><td>0</td><td>1350.60 ± 23.10</td><td>48.02 ± 1.25</td><td>140.14 ± 18.22</td></tr><tr><td>5</td><td>1266.25 ± 15.18</td><td>42.63 ± 1.31</td><td>133.86 ± 9.07</td></tr><tr><td>10</td><td>1031.61 ± 39.46</td><td>44.45 ± 1.48</td><td>69.06 ± 4.24</td></tr><tr><td>15</td><td>651.9 ± 39.66</td><td>44.80 ± 1.62</td><td>43.89 ± 2.85</td></tr><tr><td>20</td><td>397.14 ± 7.07</td><td>45.58 ± 1.21</td><td>30.03 ± 3.67</td></tr></table>",
+      "table_cells": [
+        {
+          "cell_id": "T_4_70:r0000:c0000",
+          "row_index": 0,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "SMIA content (phr)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_70:r0000:c0001",
+          "row_index": 0,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Impact strength (J/m)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_70:r0000:c0002",
+          "row_index": 0,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Tensile strength (MPa)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_70:r0000:c0003",
+          "row_index": 0,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Elongation at break (%)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_70:r0001:c0000",
+          "row_index": 1,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_70:r0001:c0001",
+          "row_index": 1,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1350.60 ± 23.10",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_70:r0001:c0002",
+          "row_index": 1,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "48.02 ± 1.25",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_70:r0001:c0003",
+          "row_index": 1,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "140.14 ± 18.22",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_70:r0002:c0000",
+          "row_index": 2,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "5",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_70:r0002:c0001",
+          "row_index": 2,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1266.25 ± 15.18",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_70:r0002:c0002",
+          "row_index": 2,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "42.63 ± 1.31",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_70:r0002:c0003",
+          "row_index": 2,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "133.86 ± 9.07",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_70:r0003:c0000",
+          "row_index": 3,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "10",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_70:r0003:c0001",
+          "row_index": 3,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1031.61 ± 39.46",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_70:r0003:c0002",
+          "row_index": 3,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "44.45 ± 1.48",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_70:r0003:c0003",
+          "row_index": 3,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "69.06 ± 4.24",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_70:r0004:c0000",
+          "row_index": 4,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "15",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_70:r0004:c0001",
+          "row_index": 4,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "651.9 ± 39.66",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_70:r0004:c0002",
+          "row_index": 4,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "44.80 ± 1.62",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_70:r0004:c0003",
+          "row_index": 4,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "43.89 ± 2.85",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_70:r0005:c0000",
+          "row_index": 5,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "20",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_70:r0005:c0001",
+          "row_index": 5,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "397.14 ± 7.07",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_70:r0005:c0002",
+          "row_index": 5,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "45.58 ± 1.21",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_70:r0005:c0003",
+          "row_index": 5,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "30.03 ± 3.67",
+          "is_header": false
+        }
+      ],
+      "image_path": "organized/reference_no_0101911/images/d4566898e37e015d7ebd485720930fd6a81f186a6568f7bfd5132397c2fdebc5.jpg"
+    },
+    {
+      "block_id": "P_4_71",
+      "type": "text",
+      "section": "Abstract",
+      "text": "As displayed in Figure  8, no new absorption peaks were observed, reflecting that no new chemical bonds were formed during the blending process. However, zooming at the absorption peak of $2 2 4 0 \\mathrm { c m } ^ { - 1 }$, attributed to the polar nitrile groups, shifted to a longer wavenumber with the increase of the SMIA content. The structural composition of SMIA is similar to the shell layer SAN of ABS core–shell particles, and it is more inclined to be combined with ABS core–shell particles in the blends. Due to the relatively large steric hindrance of the NPMI part SMIA, the combination with the core–shell particles reduces the chances of the nitrile group combining with PVC and restricts the formation of the intermolecular hydrogen bonding, which leads to the frequency of the stretching vibration increased and the absorption peaks shift to a higher wavenumber. The presence of the aforementioned phenomenon verified the existence of intermolecular interaction between SMIA and the PVC matrix [26, 32].",
+      "page": 4,
+      "bbox": [
+        68.0,
+        650.0,
+        489.0,
+        887.0
+      ],
+      "source_block_index": 71,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_4_71",
+        "V2_4_2_1"
+      ]
+    },
+    {
+      "block_id": "P_4_72",
+      "type": "text",
+      "section": "Abstract",
+      "text": "To probe into the heat resistance and chain segment motility of the composites, the VST analysis was performed. Relying on merely 20 phr addition of SMIA, the VST of the blends increases by $3 . 1 ^ { \\circ } \\mathrm { C }$compared to that of the one without SMIA. On the one hand, the combination of SMIA-bearing rigid benzene rings and maleimide units reduces the flexibility of the chain segments. On the other hand, under the nitrile group, there is an intermolecular force between the molecules. Therefore, blending the SMIA is beneficial to the enhancement of VST and the improvement of heat resistance. It's worth noting that the VST and impact strength of 20 phr SMIA supplementary composites is higher than pure PVC. We paved an optional avenue for synthesizing excellent heat resistance and tough PVC (Figure 9).",
+      "page": 4,
+      "bbox": [
+        68.0,
+        900.0,
+        489.0,
+        930.0
+      ],
+      "source_block_index": 72,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_4_72",
+        "V2_4_3_1"
+      ]
+    },
+    {
+      "block_id": "I_4_73",
+      "type": "image",
+      "section": "Abstract",
+      "page": 4,
+      "bbox": [
+        524.0,
+        439.0,
+        910.0,
+        677.0
+      ],
+      "source_block_index": 73,
+      "alignment_status": "matched",
+      "caption": "FIGURE 5 | Impact strength of PVC/ABS/SMIA composites. [Color figure can be viewed at wileyonlinelibrary.com]",
+      "image_path": "organized/reference_no_0101911/images/63b426cf42ad8dcc29a26615578f8b5a29d8713b64fceadfa34debba95a633ed.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "P_4_74",
+      "type": "text",
+      "section": "Abstract",
+      "text": "",
+      "page": 4,
+      "bbox": [
+        505.0,
+        723.0,
+        926.0,
+        888.0
+      ],
+      "source_block_index": 74,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_4_75",
+      "type": "text",
+      "section": "Abstract",
+      "text": "To confirm the thermal stability, we conducted the TGA curves of PVC, SMIA, and PVC/ABS/SMIA composites (Figure  10).",
+      "page": 4,
+      "bbox": [
+        505.0,
+        900.0,
+        926.0,
+        930.0
+      ],
+      "source_block_index": 75,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_4_77",
+      "type": "text",
+      "section": "Abstract",
+      "text": "1097-4628, 2025, 10, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/app-56573 by Northwestern Polytechnic, Wiley Online Library on [21/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License",
+      "page": 4,
+      "bbox": [
+        966.0,
+        12.0,
+        983.0,
+        985.0
+      ],
+      "source_block_index": 77,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "I_5_78",
+      "type": "image",
+      "section": "Abstract",
+      "page": 5,
+      "bbox": [
+        139.0,
+        39.0,
+        857.0,
+        304.0
+      ],
+      "source_block_index": 78,
+      "alignment_status": "matched",
+      "caption": "FIGURE 6 | SEM of PVC/ABS/SMIA composites with SMIA content of (a) 0 phr, (b) 5 phr, (c) 10 phr, (d) 15 phr, and (e) 20 phr.",
+      "image_path": "organized/reference_no_0101911/images/736948cc00ae3ba5d7c39ce1597ed52190b4a72da366ef4df4bbb4b840cfab8e.jpg",
+      "image_kind": "image"
+    },
+    {
+      "block_id": "I_5_79",
+      "type": "image",
+      "section": "Abstract",
+      "page": 5,
+      "bbox": [
+        78.0,
+        354.0,
+        480.0,
+        613.0
+      ],
+      "source_block_index": 79,
+      "alignment_status": "matched",
+      "caption": "FIGURE 7 | DMA curve of PVC/ABS/SMIA composites. [Color fig ure can be viewed at wileyonlinelibrary.com]",
+      "image_path": "organized/reference_no_0101911/images/3433aed2169be9407cade6eb5899e01253f63ddd31cd36536258c277526f1d8c.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "P_5_80",
+      "type": "text",
+      "section": "Abstract",
+      "text": "As for SMIA, a one-step degradation process was observed from $3 5 0 ^ { \\circ } \\mathrm { C }$to $4 5 0 ^ { \\circ } \\mathrm { C } .$. The TGA curves of blends were similar to PVC, exhibiting a typical dehydrochlorination and carbon chain-breaking degradation process. When ABS (10 phr) was added to PVC, T and $\\mathrm { T } _ { 5 0 }$increased from $2 6 1 ^ { \\circ } \\mathrm { C }$and 304°C to $2 7 3 ^ { \\circ } \\mathrm { C }$and $3 2 8 ^ { \\circ } \\mathrm { C }$respectively. Importantly, $\\mathrm { T _ { i } }$and $\\mathrm { T } _ { 5 0 }$increased to $2 8 0 ^ { \\circ } \\mathrm { C }$and $4 0 8 ^ { \\circ } \\mathrm { C }$with the addition of SMIA. The thermal stability of the composites was significantly boosted by SMIA.",
+      "page": 5,
+      "bbox": [
+        68.0,
+        684.0,
+        489.0,
+        818.0
+      ],
+      "source_block_index": 80,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_5_80",
+        "V2_5_2_1",
+        "V2_5_2_3",
+        "V2_5_2_5",
+        "V2_5_2_7",
+        "V2_5_2_9",
+        "V2_5_2_11",
+        "V2_5_2_13",
+        "V2_5_2_15",
+        "V2_5_2_17",
+        "V2_5_2_19"
+      ]
+    },
+    {
+      "block_id": "P_5_81",
+      "type": "title",
+      "section": "Abstract",
+      "text": "4 | Conclusion",
+      "page": 5,
+      "bbox": [
+        70.0,
+        846.0,
+        205.0,
+        861.0
+      ],
+      "source_block_index": 81,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_5_82",
+      "type": "text",
+      "section": "Abstract",
+      "text": "ABS core–shell particles and SMIA were used to toughen and improve the heat resistance of PVC. ABS realized the highest toughness and reached the brittle-ductile transition point at 10 phr. The impact strength of PVC/ABS was 1350.60 J/m, which was 20 times higher than that of pure PVC. By virtue of a large steric hindrance and intermolecular interaction effect, the movement of the heat-resistant agent SMIA molecular chain was greatly limited. Therefore, the SMIA was selected to blend with PVC/ABS improving the heat resistance of PVC. The VST, $\\mathrm { T _ { i } } ,$and $\\mathrm { T } _ { 5 0 }$increased by $3 ^ { \\circ } \\mathrm { C } , 7 ^ { \\circ } \\mathrm { C } ,$, and $8 0 ^ { \\circ } \\mathrm { C } ,$, respectively, when the SMIA was at 20 phr. Although the impact strength of the composite material has been reduced to a certain extent, the impact strength remains at 397.14 J/m, which is higher than that of pure PVC. This study provides an effective method for preparing multifunctional polyvinyl chloride composites with excellent toughness and heat resistance, which is conducive to expanding its application to more fields.",
+      "page": 5,
+      "bbox": [
+        68.0,
+        875.0,
+        487.0,
+        936.0
+      ],
+      "source_block_index": 82,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_5_82",
+        "V2_5_4_1",
+        "V2_5_4_3",
+        "V2_5_4_5",
+        "V2_5_4_7"
+      ]
+    },
+    {
+      "block_id": "T_5_83",
+      "type": "table",
+      "section": "Abstract",
+      "page": 5,
+      "bbox": [
+        510.0,
+        384.0,
+        922.0,
+        514.0
+      ],
+      "source_block_index": 83,
+      "alignment_status": "matched",
+      "caption": "TABLE 3 | Glass transition temperatures of PVC/ABS/SMIA composites with different SMIA contents.",
+      "table_body": "<table><tr><td rowspan=\"2\">SMIA content (phr)</td><td colspan=\"3\">Temperature (°C)</td></tr><tr><td> $Tg_1$ (°C)</td><td> $Tg_2$ (°C)</td><td> $\\Delta T$ (°C)</td></tr><tr><td>0</td><td>91.20</td><td>—</td><td>—</td></tr><tr><td>10</td><td>89.30</td><td>129.80</td><td>40.50</td></tr><tr><td>20</td><td>89.60</td><td>131.90</td><td>42.30</td></tr><tr><td>SMIA</td><td>—</td><td>132.00</td><td>—</td></tr></table>",
+      "table_cells": [
+        {
+          "cell_id": "T_5_83:r0000:c0000",
+          "row_index": 0,
+          "column_index": 0,
+          "row_span": 2,
+          "column_span": 1,
+          "text": "SMIA content (phr)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_83:r0000:c0001",
+          "row_index": 0,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 3,
+          "text": "Temperature (°C)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_83:r0001:c0001",
+          "row_index": 1,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$Tg_1$ (°C)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_83:r0001:c0002",
+          "row_index": 1,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$Tg_2$ (°C)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_83:r0001:c0003",
+          "row_index": 1,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$\\Delta T$ (°C)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_83:r0002:c0000",
+          "row_index": 2,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_83:r0002:c0001",
+          "row_index": 2,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "91.20",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_83:r0002:c0002",
+          "row_index": 2,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "—",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_83:r0002:c0003",
+          "row_index": 2,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "—",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_83:r0003:c0000",
+          "row_index": 3,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "10",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_83:r0003:c0001",
+          "row_index": 3,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "89.30",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_83:r0003:c0002",
+          "row_index": 3,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "129.80",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_83:r0003:c0003",
+          "row_index": 3,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "40.50",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_83:r0004:c0000",
+          "row_index": 4,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "20",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_83:r0004:c0001",
+          "row_index": 4,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "89.60",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_83:r0004:c0002",
+          "row_index": 4,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "131.90",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_83:r0004:c0003",
+          "row_index": 4,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "42.30",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_83:r0005:c0000",
+          "row_index": 5,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "SMIA",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_83:r0005:c0001",
+          "row_index": 5,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "—",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_83:r0005:c0002",
+          "row_index": 5,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "132.00",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_5_83:r0005:c0003",
+          "row_index": 5,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "—",
+          "is_header": false
+        }
+      ],
+      "image_path": "organized/reference_no_0101911/images/8002f74328f4523019b89463fde2785cf247f7c6f5b97638fd37455cee0ea5be.jpg"
+    },
+    {
+      "block_id": "I_5_84",
+      "type": "image",
+      "section": "Abstract",
+      "page": 5,
+      "bbox": [
+        512.0,
+        544.0,
+        919.0,
+        760.0
+      ],
+      "source_block_index": 84,
+      "alignment_status": "matched",
+      "caption": "FIGURE 8 | FTIR curves of PVC/ABS/SMIA composites. [Color figure can be viewed at wileyonlinelibrary.com]",
+      "image_path": "organized/reference_no_0101911/images/2cfb32782291545448f64696e6fe45a98b948fe4d1b8cd891fb92482a0731253.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "P_5_85",
+      "type": "text",
+      "section": "Abstract",
+      "text": "",
+      "page": 5,
+      "bbox": [
+        505.0,
+        833.0,
+        927.0,
+        938.0
+      ],
+      "source_block_index": 85,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_5_88",
+      "type": "text",
+      "section": "Abstract",
+      "text": "10974628, 2025, 10. Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/app.56573 by Northwestern Polytechnic, Wiley Online Library on [21/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License",
+      "page": 5,
+      "bbox": [
+        966.0,
+        16.0,
+        983.0,
+        982.0
+      ],
+      "source_block_index": 88,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "I_6_89",
+      "type": "image",
+      "section": "Abstract",
+      "page": 6,
+      "bbox": [
+        78.0,
+        40.0,
+        478.0,
+        300.0
+      ],
+      "source_block_index": 89,
+      "alignment_status": "matched",
+      "caption": "FIGURE 9 | Vicat softening temperature of PVC/ABS/SMIA composites. [Color figure can be viewed at wileyonlinelibrary.com]",
+      "image_path": "organized/reference_no_0101911/images/ace082105b7f8b4fec3b72baa3e2cc9db0617307f6705bcc83963f7f95c9c375.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "I_6_90",
+      "type": "image",
+      "section": "Abstract",
+      "page": 6,
+      "bbox": [
+        72.0,
+        365.0,
+        480.0,
+        612.0
+      ],
+      "source_block_index": 90,
+      "alignment_status": "matched",
+      "caption": "FIGURE 10 | TGA of PVC/ABS/SMIA composites. [Color figure can be viewed at wileyonlinelibrary.com]",
+      "image_path": "organized/reference_no_0101911/images/424f563834dcb39fe18410570804f3a3920a5d962ecce069ddfbf2cb5e80d313.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "P_6_91",
+      "type": "text",
+      "section": "Abstract",
+      "text": "",
+      "page": 6,
+      "bbox": [
+        70.0,
+        663.0,
+        487.0,
+        751.0
+      ],
+      "source_block_index": 91,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_6_92",
+      "type": "title",
+      "section": "Abstract",
+      "text": "Author Contributions",
+      "page": 6,
+      "bbox": [
+        72.0,
+        786.0,
+        215.0,
+        800.0
+      ],
+      "source_block_index": 92,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_6_93",
+      "type": "text",
+      "section": "Abstract",
+      "text": "Penghao Zhang: data curation (lead), writing – original draft (lead). Jie Hou: data curation (equal). Baijun Liu: formal analysis (lead), supervision (lead). Mingyao Zhang: funding acquisition (supporting), writing – review and editing (lead).",
+      "page": 6,
+      "bbox": [
+        70.0,
+        806.0,
+        487.0,
+        858.0
+      ],
+      "source_block_index": 93,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_6_94",
+      "type": "title",
+      "section": "Abstract",
+      "text": "Acknowledgments",
+      "page": 6,
+      "bbox": [
+        72.0,
+        878.0,
+        196.0,
+        892.0
+      ],
+      "source_block_index": 94,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_6_95",
+      "type": "text",
+      "section": "Abstract",
+      "text": "The authors appreciate the financial support from the National Natural Scientific Foundation of China (No. U21A2088) and the Jilin Province Science and Technology Development Plan Project (20230201129GX).",
+      "page": 6,
+      "bbox": [
+        70.0,
+        896.0,
+        487.0,
+        937.0
+      ],
+      "source_block_index": 95,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_6_96",
+      "type": "title",
+      "section": "Abstract",
+      "text": "Conflicts of Interest",
+      "page": 6,
+      "bbox": [
+        509.0,
+        39.0,
+        643.0,
+        52.0
+      ],
+      "source_block_index": 96,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_6_97",
+      "type": "text",
+      "section": "Abstract",
+      "text": "The authors declare no conflicts of interest.",
+      "page": 6,
+      "bbox": [
+        509.0,
+        58.0,
+        764.0,
+        72.0
+      ],
+      "source_block_index": 97,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_6_98",
+      "type": "title",
+      "section": "Abstract",
+      "text": "Data Availability Statement",
+      "page": 6,
+      "bbox": [
+        509.0,
+        92.0,
+        689.0,
+        104.0
+      ],
+      "source_block_index": 98,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_6_99",
+      "type": "text",
+      "section": "Abstract",
+      "text": "The raw data supporting the conclusion of this article will be made available by the authors, without undue reservation.",
+      "page": 6,
+      "bbox": [
+        507.0,
+        111.0,
+        924.0,
+        138.0
+      ],
+      "source_block_index": 99,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_6_100",
+      "type": "title",
+      "section": "References",
+      "text": "References",
+      "page": 6,
+      "bbox": [
+        510.0,
+        163.0,
+        584.0,
+        177.0
+      ],
+      "source_block_index": 100,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_6_116",
+      "type": "text",
+      "section": "References",
+      "text": "10974628, 2025, 10, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/app.56573 by Northwestern Polytechnic, Wiley Online Library on [12/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License",
+      "page": 6,
+      "bbox": [
+        966.0,
+        16.0,
+        981.0,
+        980.0
+      ],
+      "source_block_index": 116,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_7_137",
+      "type": "text",
+      "section": "References",
+      "text": "10974628, 2025, 10, Downloaded from https://onlinelibrary.wiley.com/doi/10.1002/app.56573 by Northwestern Polytechnic, Wiley Online Library on [21/07/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License",
+      "page": 7,
+      "bbox": [
+        966.0,
+        17.0,
+        983.0,
+        980.0
+      ],
+      "source_block_index": 137,
+      "alignment_status": "matched"
+    }
+  ],
+  "warnings": [
+    {
+      "code": "metadata_extraction_failed",
+      "message": "未配置统一 LLM 元数据提取器；document JSON 已继续生成"
+    }
+  ]
+}

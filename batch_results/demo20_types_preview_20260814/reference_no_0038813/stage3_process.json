@@ -1,0 +1,752 @@
+{
+  "schema_version": "1.0",
+  "document_id": "reference_no_0038813",
+  "samples": [
+    {
+      "sample_id": "s001",
+      "sample_kind": "commercial_batch",
+      "refers_to_entity": "pe001",
+      "polymer_name": "polystyrene",
+      "polymer_type": "homopolymer",
+      "material_type": "neat_resin",
+      "sample_label_raw": "polystyrene standards",
+      "intended_use": [
+        "molecular weight calibration"
+      ],
+      "evidence": {
+        "block_id": "P_1_21",
+        "page": 1,
+        "bbox": [
+          53.0,
+          330.0,
+          467.0,
+          787.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The molecular weight calibration was carried out using polystyrene standards."
+      },
+      "confidence": {
+        "score": 0.9
+      },
+      "copolymer_type": null
+    },
+    {
+      "sample_id": "s002",
+      "sample_kind": "synthesis_batch",
+      "refers_to_entity": "pe006",
+      "polymer_name": "1AQA-PPDI",
+      "polymer_type": "homopolymer",
+      "material_type": "neat_resin",
+      "sample_label_raw": "1AQA-PPDI",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "T_5_77",
+        "page": 5,
+        "bbox": [
+          55.0,
+          80.0,
+          905.0,
+          522.0
+        ],
+        "source_type": "table",
+        "source_sentence": "1AQA-PPDI"
+      },
+      "confidence": {
+        "score": 0.95
+      },
+      "copolymer_type": null
+    },
+    {
+      "sample_id": "s003",
+      "sample_kind": "synthesis_batch",
+      "refers_to_entity": "pe007",
+      "polymer_name": "1AQA-NDI",
+      "polymer_type": "homopolymer",
+      "material_type": "neat_resin",
+      "sample_label_raw": "1AQA-NDI",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "T_5_77",
+        "page": 5,
+        "bbox": [
+          55.0,
+          80.0,
+          905.0,
+          522.0
+        ],
+        "source_type": "table",
+        "source_sentence": "1AQA-NDI"
+      },
+      "confidence": {
+        "score": 0.95
+      },
+      "copolymer_type": null
+    },
+    {
+      "sample_id": "s004",
+      "sample_kind": "synthesis_batch",
+      "refers_to_entity": "pe008",
+      "polymer_name": "1AQA-MDI",
+      "polymer_type": "homopolymer",
+      "material_type": "neat_resin",
+      "sample_label_raw": "1AQA-MDI",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "T_5_77",
+        "page": 5,
+        "bbox": [
+          55.0,
+          80.0,
+          905.0,
+          522.0
+        ],
+        "source_type": "table",
+        "source_sentence": "1AQA-MDI"
+      },
+      "confidence": {
+        "score": 0.95
+      },
+      "copolymer_type": null
+    },
+    {
+      "sample_id": "s005",
+      "sample_kind": "synthesis_batch",
+      "refers_to_entity": "pe009",
+      "polymer_name": "1AQA-H $_{12}$ MDI",
+      "polymer_type": "homopolymer",
+      "material_type": "neat_resin",
+      "sample_label_raw": "1AQA-H $_{12}$ MDI",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "T_5_77",
+        "page": 5,
+        "bbox": [
+          55.0,
+          80.0,
+          905.0,
+          522.0
+        ],
+        "source_type": "table",
+        "source_sentence": "1AQA-H $_{12}$ MDI"
+      },
+      "confidence": {
+        "score": 0.95
+      },
+      "copolymer_type": null
+    },
+    {
+      "sample_id": "s006",
+      "sample_kind": "synthesis_batch",
+      "refers_to_entity": "pe010",
+      "polymer_name": "2AQA-PPDI",
+      "polymer_type": "homopolymer",
+      "material_type": "neat_resin",
+      "sample_label_raw": "2AQA-PPDI",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "T_5_77",
+        "page": 5,
+        "bbox": [
+          55.0,
+          80.0,
+          905.0,
+          522.0
+        ],
+        "source_type": "table",
+        "source_sentence": "2AQA-PPDI"
+      },
+      "confidence": {
+        "score": 0.95
+      },
+      "copolymer_type": null
+    },
+    {
+      "sample_id": "s007",
+      "sample_kind": "synthesis_batch",
+      "refers_to_entity": "pe011",
+      "polymer_name": "2AQA-NDI",
+      "polymer_type": "homopolymer",
+      "material_type": "neat_resin",
+      "sample_label_raw": "2AQA-NDI",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "T_5_77",
+        "page": 5,
+        "bbox": [
+          55.0,
+          80.0,
+          905.0,
+          522.0
+        ],
+        "source_type": "table",
+        "source_sentence": "2AQA-NDI"
+      },
+      "confidence": {
+        "score": 0.95
+      },
+      "copolymer_type": null
+    },
+    {
+      "sample_id": "s008",
+      "sample_kind": "synthesis_batch",
+      "refers_to_entity": "pe012",
+      "polymer_name": "2AQA-MDI",
+      "polymer_type": "homopolymer",
+      "material_type": "neat_resin",
+      "sample_label_raw": "2AQA-MDI",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "T_5_77",
+        "page": 5,
+        "bbox": [
+          55.0,
+          80.0,
+          905.0,
+          522.0
+        ],
+        "source_type": "table",
+        "source_sentence": "2AQA-MDI"
+      },
+      "confidence": {
+        "score": 0.95
+      },
+      "copolymer_type": null
+    },
+    {
+      "sample_id": "s009",
+      "sample_kind": "synthesis_batch",
+      "refers_to_entity": "pe013",
+      "polymer_name": "2AQA-H $_{12}$ MDI",
+      "polymer_type": "homopolymer",
+      "material_type": "neat_resin",
+      "sample_label_raw": "2AQA-H $_{12}$ MDI",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "T_5_77",
+        "page": 5,
+        "bbox": [
+          55.0,
+          80.0,
+          905.0,
+          522.0
+        ],
+        "source_type": "table",
+        "source_sentence": "2AQA-H $_{12}$ MDI"
+      },
+      "confidence": {
+        "score": 0.95
+      },
+      "copolymer_type": null
+    },
+    {
+      "sample_id": "s010",
+      "sample_kind": "intermediate",
+      "polymer_name": "1AQN",
+      "sample_label_raw": "1AQN",
+      "state_description": "dinitro compound",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "P_1_23",
+        "page": 1,
+        "bbox": [
+          55.0,
+          830.0,
+          339.0,
+          845.0
+        ],
+        "source_type": "title",
+        "source_sentence": "Synthesis of dinitro compound 1AQN"
+      },
+      "confidence": {
+        "score": 0.9
+      },
+      "polymer_type": null,
+      "copolymer_type": null,
+      "material_type": null
+    },
+    {
+      "sample_id": "s011",
+      "sample_kind": "intermediate",
+      "polymer_name": "2AQN",
+      "sample_label_raw": "2AQN",
+      "state_description": "dinitro compound",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "P_1_27",
+        "page": 1,
+        "bbox": [
+          497.0,
+          501.0,
+          781.0,
+          516.0
+        ],
+        "source_type": "title",
+        "source_sentence": "Synthesis of dinitro compound 2AQN"
+      },
+      "confidence": {
+        "score": 0.9
+      },
+      "polymer_type": null,
+      "copolymer_type": null,
+      "material_type": null
+    },
+    {
+      "sample_id": "s012",
+      "sample_kind": "intermediate",
+      "polymer_name": "1AQA",
+      "sample_label_raw": "1AQA",
+      "state_description": "diamine compound",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "P_1_31",
+        "page": 1,
+        "bbox": [
+          497.0,
+          872.0,
+          786.0,
+          887.0
+        ],
+        "source_type": "title",
+        "source_sentence": "Synthesis of diamine compound 1AQA"
+      },
+      "confidence": {
+        "score": 0.9
+      },
+      "polymer_type": null,
+      "copolymer_type": null,
+      "material_type": null
+    },
+    {
+      "sample_id": "s013",
+      "sample_kind": "intermediate",
+      "polymer_name": "2AQA",
+      "sample_label_raw": "2AQA",
+      "state_description": "diamine compound",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "P_2_39",
+        "page": 2,
+        "bbox": [
+          90.0,
+          509.0,
+          379.0,
+          524.0
+        ],
+        "source_type": "title",
+        "source_sentence": "Synthesis of diamine compound 2AQA"
+      },
+      "confidence": {
+        "score": 0.9
+      },
+      "polymer_type": null,
+      "copolymer_type": null,
+      "material_type": null
+    }
+  ],
+  "process_steps": [
+    {
+      "step_id": "ps001",
+      "process_type": "other",
+      "input_sample_ids": [],
+      "output_sample_ids": [
+        "s010"
+      ],
+      "parameters": {
+        "yield": "92%",
+        "drying_temperature": "708C"
+      },
+      "evidence": {
+        "block_id": "P_1_24",
+        "page": 1,
+        "bbox": [
+          55.0,
+          845.0,
+          465.0,
+          916.0
+        ],
+        "source_type": "text",
+        "source_sentence": "A 100-ml, two-necked, round-bottomed flask equipped with a magnetic stirrer, nitrogen gas inlet tube, and calcium chloride drying tube was charged with 26 mmol of the 1-aminoanthraquinone and 75 ml of dry NMP. The mixture was stirred at $0 ^ { \\circ } \\mathrm { C }$for 0.5 hr. Then 21.6 ml of propylene oxide was added, and after about 3 min, 30 mmol of $^ { 3 , 5 \\cdot }$-dinitrobenzoyl chloride was added and the mixture was stirred at $0 ^ { \\circ } \\mathrm { C }$for 0.5 hr. The temperature was raised to room temperature and the solution was stirred for 6 hr. The product was precipitated by pouring the content of the flask into water. Then it was filtered, washed with hot water, and dried overnight under vacuum at 708C. The yield of the reaction was about 92%."
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "step_id": "ps002",
+      "process_type": "other",
+      "input_sample_ids": [],
+      "output_sample_ids": [
+        "s011"
+      ],
+      "parameters": {
+        "yield": "95%"
+      },
+      "evidence": {
+        "block_id": "P_1_28",
+        "page": 1,
+        "bbox": [
+          495.0,
+          516.0,
+          907.0,
+          574.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The aforementioned procedure was applied to the synthesis of the dinitro compound. However, 2-aminoanthraquinone was used instead of 1-aminoanthraquinone. The yield of the reaction was about 95%."
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "step_id": "ps003",
+      "process_type": "other",
+      "input_sample_ids": [
+        "s010"
+      ],
+      "output_sample_ids": [
+        "s012"
+      ],
+      "parameters": {
+        "yield": "92%"
+      },
+      "evidence": {
+        "block_id": "P_2_37",
+        "page": 2,
+        "bbox": [
+          87.0,
+          64.0,
+          500.0,
+          193.0
+        ],
+        "source_type": "text",
+        "source_sentence": "75 ml of hydrazine monohydrate was added dropwise over a period of 1 hr at 858C. After the complete addition, the reaction was continued at reflux temperature for another 12 hr. To the suspension, 80 ml of tetrahydrofuran (THF) was added to re-dissolve the precipitated product, and refluxing was continued for 3 hr. The mixture was filtered to remove the Pd–C and the filtrate was poured into water. The product was filtered off, washed with hot water, and dried. The yield of the reaction was about 92%."
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "step_id": "ps004",
+      "process_type": "other",
+      "input_sample_ids": [
+        "s011"
+      ],
+      "output_sample_ids": [
+        "s013"
+      ],
+      "parameters": {
+        "yield": "88%"
+      },
+      "evidence": {
+        "block_id": "P_2_40",
+        "page": 2,
+        "bbox": [
+          89.0,
+          524.0,
+          499.0,
+          568.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The aforementioned procedure was applied for the synthesis of the diamine. However 2AQN was used instead of 1AQN. The yield of the reaction was about 88%."
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "step_id": "ps005",
+      "process_type": "polymerization",
+      "input_sample_ids": [
+        "s012",
+        "s013"
+      ],
+      "output_sample_ids": [
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006",
+        "s007",
+        "s008",
+        "s009"
+      ],
+      "parameters": {
+        "drying_temperature": "$8 0 ^ { \\circ } \\mathrm { C }$"
+      },
+      "evidence": {
+        "block_id": "P_2_44",
+        "page": 2,
+        "bbox": [
+          529.0,
+          65.0,
+          942.0,
+          193.0
+        ],
+        "source_type": "text",
+        "source_sentence": "A round-bottomed flask equipped with an $\\Nu _ { 2 }$inlet tube, condenser, and thermometer was charged with 0.005 mol of diamine and 10 ml of dry NMP. Then a solution containing 0.005 mol of diisocyanate in 10 ml of dry NMP was added in one lot to the flask contents. The solution was stirred for 1 hr at room temperature and 4 hr at $7 0 ^ { \\circ } \\mathrm { C } ,$and then it was precipitated in water. The polymer was filtered, washed with hot water and methanol, and dried at vacuum oven at $8 0 ^ { \\circ } \\mathrm { C }$"
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    }
+  ],
+  "unresolved_entity_ids": [
+    "pe002",
+    "pe003",
+    "pe004",
+    "pe005",
+    "pe014",
+    "pe015",
+    "pe016"
+  ],
+  "provenance": {
+    "stage": "stage3_sample_process",
+    "provider": "dmx",
+    "model": "doubao-seed-2.0-pro",
+    "models": [
+      "doubao-seed-2.0-pro"
+    ],
+    "prompt_id": "polymer.stage3.sample_process",
+    "prompt_version": "1.4.0",
+    "prompt_sha256": "2fef2373a2f2e3883de6d7c0a91e886a87ba84f3ba7a74a86296c60d902f6cac",
+    "input_hash": "9af2f6e1fd737955be2dd70fd30feff01e5f7dcd41a5df9bbd85303c512837be",
+    "model_config_hash": "7a389959b1eae8cb35e4c5e5702559631666e759a9891cf98687a5b37dd5d1ad",
+    "cache_key": "dd747d2a088d983f4e28edb239083782e23b7b14171fc122a98128f377752e1a",
+    "output_schema_version": "sample_process_schema.v4",
+    "implementation_version": "1.5.0",
+    "context_block_count": 31,
+    "context_chars": 22731,
+    "call_count": 1,
+    "usage": {
+      "input_tokens": 15875,
+      "output_tokens": 7726,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "billable_input_tokens": 15875,
+      "total_tokens": 23601
+    },
+    "cost": {
+      "status": "calculated",
+      "currency": "CNY",
+      "input_per_million": "4.32",
+      "output_per_million": "29.15",
+      "input_cost": "0.06858",
+      "output_cost": "0.2252129",
+      "total_cost": "0.2937929"
+    },
+    "status": "success"
+  },
+  "warnings": [
+    {
+      "stage": "stage3_sample_process",
+      "code": "parameters_not_in_source",
+      "message": "无法定位到 evidence 原文的参数已舍弃",
+      "steps": [
+        {
+          "step_id": "ps001",
+          "parameter_keys": [
+            "reaction_temperature"
+          ]
+        },
+        {
+          "step_id": "ps003",
+          "parameter_keys": [
+            "reaction_temperature"
+          ]
+        },
+        {
+          "step_id": "ps005",
+          "parameter_keys": [
+            "reaction_temperature",
+            "reaction_time"
+          ]
+        }
+      ]
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "unresolved_entities",
+      "message": "7 个 entity 未解析到实际样品",
+      "entity_ids": [
+        "pe002",
+        "pe003",
+        "pe004",
+        "pe005",
+        "pe014",
+        "pe015",
+        "pe016"
+      ]
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "samples_without_entity",
+      "message": "部分样品无法可靠关联 PolymerEntity",
+      "sample_ids": [
+        "s010",
+        "s011",
+        "s012",
+        "s013"
+      ]
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "sample_polymer_type_backfilled_from_entity",
+      "message": "Backfill：Sample 已采用关联 PolymerEntity 的类型",
+      "items": [
+        {
+          "sample_id": "s001",
+          "entity_id": "pe001",
+          "fields": [
+            "polymer_type",
+            "copolymer_type"
+          ],
+          "polymer_type": "homopolymer",
+          "copolymer_type": null
+        },
+        {
+          "sample_id": "s002",
+          "entity_id": "pe006",
+          "fields": [
+            "polymer_type",
+            "copolymer_type"
+          ],
+          "polymer_type": "homopolymer",
+          "copolymer_type": null
+        },
+        {
+          "sample_id": "s003",
+          "entity_id": "pe007",
+          "fields": [
+            "polymer_type",
+            "copolymer_type"
+          ],
+          "polymer_type": "homopolymer",
+          "copolymer_type": null
+        },
+        {
+          "sample_id": "s004",
+          "entity_id": "pe008",
+          "fields": [
+            "polymer_type",
+            "copolymer_type"
+          ],
+          "polymer_type": "homopolymer",
+          "copolymer_type": null
+        },
+        {
+          "sample_id": "s005",
+          "entity_id": "pe009",
+          "fields": [
+            "polymer_type",
+            "copolymer_type"
+          ],
+          "polymer_type": "homopolymer",
+          "copolymer_type": null
+        },
+        {
+          "sample_id": "s006",
+          "entity_id": "pe010",
+          "fields": [
+            "polymer_type",
+            "copolymer_type"
+          ],
+          "polymer_type": "homopolymer",
+          "copolymer_type": null
+        },
+        {
+          "sample_id": "s007",
+          "entity_id": "pe011",
+          "fields": [
+            "polymer_type",
+            "copolymer_type"
+          ],
+          "polymer_type": "homopolymer",
+          "copolymer_type": null
+        },
+        {
+          "sample_id": "s008",
+          "entity_id": "pe012",
+          "fields": [
+            "polymer_type",
+            "copolymer_type"
+          ],
+          "polymer_type": "homopolymer",
+          "copolymer_type": null
+        },
+        {
+          "sample_id": "s009",
+          "entity_id": "pe013",
+          "fields": [
+            "polymer_type",
+            "copolymer_type"
+          ],
+          "polymer_type": "homopolymer",
+          "copolymer_type": null
+        }
+      ],
+      "backfill": true
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "material_type_default_inferred",
+      "message": "Backfill：无第二组分反证的样品已推断为 neat_resin",
+      "items": [
+        {
+          "sample_id": "s001",
+          "field": "material_type",
+          "value": "neat_resin",
+          "reason": "已建立单一聚合物样品，且没有第二配方组分反证"
+        },
+        {
+          "sample_id": "s002",
+          "field": "material_type",
+          "value": "neat_resin",
+          "reason": "已建立单一聚合物样品，且没有第二配方组分反证"
+        },
+        {
+          "sample_id": "s003",
+          "field": "material_type",
+          "value": "neat_resin",
+          "reason": "已建立单一聚合物样品，且没有第二配方组分反证"
+        },
+        {
+          "sample_id": "s004",
+          "field": "material_type",
+          "value": "neat_resin",
+          "reason": "已建立单一聚合物样品，且没有第二配方组分反证"
+        },
+        {
+          "sample_id": "s005",
+          "field": "material_type",
+          "value": "neat_resin",
+          "reason": "已建立单一聚合物样品，且没有第二配方组分反证"
+        },
+        {
+          "sample_id": "s006",
+          "field": "material_type",
+          "value": "neat_resin",
+          "reason": "已建立单一聚合物样品，且没有第二配方组分反证"
+        },
+        {
+          "sample_id": "s007",
+          "field": "material_type",
+          "value": "neat_resin",
+          "reason": "已建立单一聚合物样品，且没有第二配方组分反证"
+        },
+        {
+          "sample_id": "s008",
+          "field": "material_type",
+          "value": "neat_resin",
+          "reason": "已建立单一聚合物样品，且没有第二配方组分反证"
+        },
+        {
+          "sample_id": "s009",
+          "field": "material_type",
+          "value": "neat_resin",
+          "reason": "已建立单一聚合物样品，且没有第二配方组分反证"
+        }
+      ],
+      "backfill": true
+    }
+  ]
+}

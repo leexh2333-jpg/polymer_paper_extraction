@@ -1,0 +1,321 @@
+{
+  "schema_version": "1.0",
+  "document_id": "reference_no_0021296",
+  "status": "passed_with_warnings",
+  "error_count": 0,
+  "warning_count": 48,
+  "errors": [],
+  "warnings": [
+    {
+      "stage": "stage0",
+      "code": "metadata_extraction_failed",
+      "message": "未配置统一 LLM 元数据提取器；document JSON 已继续生成"
+    },
+    {
+      "stage": "stage2_polymer_entity",
+      "code": "preview_nested_mentions_split_retained",
+      "message": "Preview 模式已保留无法确定合并关系的嵌套 mention 拆分；需在正式数据中复核"
+    },
+    {
+      "stage": "stage2_polymer_entity",
+      "code": "polymer_type_default_inferred",
+      "message": "Backfill：无共聚或共混反证的实体已推断为 homopolymer"
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "state_description_replaced_with_evidence",
+      "message": "无标签 Sample 的 state_description 无法逐字定位；已使用验证后的完整 evidence.source_sentence"
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "parameters_not_in_source",
+      "message": "无法定位到 evidence 原文的参数已舍弃"
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "unresolved_entities",
+      "message": "5 个 entity 未解析到实际样品"
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "sample_polymer_type_backfilled_from_entity",
+      "message": "Backfill：Sample 已采用关联 PolymerEntity 的类型"
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "material_type_default_inferred",
+      "message": "Backfill：无第二组分反证的样品已推断为 neat_resin"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "all_tables_included",
+      "message": "已将目标 section 之外的非空表格一并加入 Stage 4 输入"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "multi_subject_series_normalized",
+      "message": "PropertySeries 的 points 明确属于多个 Sample/PolymerEntity；已清除错误的单一顶层主体，主体关系保留在各 point"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "candidate_table_locator_surface_repaired",
+      "message": "模型 locator 表面文本不在表格原文；已用 property raw 与 determination method 中唯一匹配的 Stage 0 表头恢复"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "coordinate_table_locators_synthesized",
+      "message": "已按 coordinate 原文值与表头生成稳定单元格定位"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "condition_table_locators_synthesized",
+      "message": "已将唯一包含条件 raw 的表头单元格绑定为条件 evidence"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "series_method_evidence_supplemented",
+      "message": "Series determination method 不在 point 表格 evidence；已补入全文中唯一的完全匹配原文 block"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "preview_singleton_coordinate_evidence_unwrapped",
+      "message": "PropertySeriesCoordinate evidence 误输出为单项数组；Preview 已确定性解包为唯一 evidence 对象，Strict 模式仍会报错"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "preview_degraded_empty_shell",
+      "message": "模型响应无法安全结构化，Preview 已生成 degraded 空壳结果"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_characterization_details_cleared",
+      "message": "Preview 模式已清空无对象 evidence 支撑的可选表征细节"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_property_removed",
+      "message": "Preview 模式已移除 value_raw 无原文支撑的 Stage 5 性质"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_property_subject_subscope_retained",
+      "message": "Preview 模式已保留多主体 Characterization 下的明确单主体性质；需在正式数据中复核"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_semantic_validation_bypassed",
+      "message": "Preview 已保留 Schema 合法候选，并跳过原文/evidence 语义对应校验；Strict 模式仍会报错"
+    },
+    {
+      "stage": "meta_extract",
+      "code": "paper_metadata_incomplete",
+      "message": "Paper metadata_status=failed，需人工复核"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "table_locator_matched",
+      "message": "table_locator.row_label='First data row (22.1, 4.02, 100 for HS)' 与表格原文表示不同，但单元格可确定性定位：按 cell_id 精确命中",
+      "object_id": "prop_s5_007"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "table_locator_matched",
+      "message": "table_locator.column_label='HS $2\\\\theta^{\\\\circ}$' 与表格原文表示不同，但单元格可确定性定位：按 cell_id 精确命中",
+      "object_id": "prop_s5_007"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "table_locator_matched",
+      "message": "table_locator.row_label='Second data row (24.3, 3.66, 72 for HS)' 与表格原文表示不同，但单元格可确定性定位：按 cell_id 精确命中",
+      "object_id": "prop_s5_008"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "table_locator_matched",
+      "message": "table_locator.column_label='HS $2\\\\theta^{\\\\circ}$' 与表格原文表示不同，但单元格可确定性定位：按 cell_id 精确命中",
+      "object_id": "prop_s5_008"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "table_locator_stable_cell_unresolved",
+      "message": "table_locator 无法唯一解析到稳定 cell_id；保留原行列文字定位",
+      "object_id": "prop_s5_009"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "table_locator_matched",
+      "message": "table_locator.row_label='First data row (13.0, 6.80, 100 for HI)' 与表格原文表示不同，但单元格可确定性定位：按 cell_id 精确命中",
+      "object_id": "prop_s5_010"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "table_locator_matched",
+      "message": "table_locator.column_label='HI $2\\\\theta^{\\\\circ}$' 与表格原文表示不同，但单元格可确定性定位：按 cell_id 精确命中",
+      "object_id": "prop_s5_010"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "table_locator_matched",
+      "message": "table_locator.row_label='Second data row (21.0, 4.24, 68 for HI)' 与表格原文表示不同，但单元格可确定性定位：按 cell_id 精确命中",
+      "object_id": "prop_s5_011"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "table_locator_matched",
+      "message": "table_locator.column_label='HI $2\\\\theta^{\\\\circ}$' 与表格原文表示不同，但单元格可确定性定位：按 cell_id 精确命中",
+      "object_id": "prop_s5_011"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "table_locator_stable_cell_unresolved",
+      "message": "table_locator 无法唯一解析到稳定 cell_id；保留原行列文字定位",
+      "object_id": "prop_s5_012"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "table_locator_matched",
+      "message": "table_locator.row_label='First data row (11.3, 7.86, 51 for HT)' 与表格原文表示不同，但单元格可确定性定位：按 cell_id 精确命中",
+      "object_id": "prop_s5_013"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "table_locator_matched",
+      "message": "table_locator.column_label='HT $2\\\\theta^{\\\\circ}$' 与表格原文表示不同，但单元格可确定性定位：按 cell_id 精确命中",
+      "object_id": "prop_s5_013"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "table_locator_matched",
+      "message": "table_locator.row_label='Second data row (19.0, 4.68, 100 for HT)' 与表格原文表示不同，但单元格可确定性定位：按 cell_id 精确命中",
+      "object_id": "prop_s5_014"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "table_locator_matched",
+      "message": "table_locator.column_label='HT $2\\\\theta^{\\\\circ}$' 与表格原文表示不同，但单元格可确定性定位：按 cell_id 精确命中",
+      "object_id": "prop_s5_014"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "table_locator_matched",
+      "message": "table_locator.row_label='Third data row (25.7, 3.46, 87 for HT)' 与表格原文表示不同，但单元格可确定性定位：按 cell_id 精确命中",
+      "object_id": "prop_s5_015"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "table_locator_matched",
+      "message": "table_locator.column_label='HT $2\\\\theta^{\\\\circ}$' 与表格原文表示不同，但单元格可确定性定位：按 cell_id 精确命中",
+      "object_id": "prop_s5_015"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "table_locator_matched",
+      "message": "table_locator.row_label='First data row (15.9, 5.57, 100 for OT(2))' 与表格原文表示不同，但单元格可确定性定位：按 cell_id 精确命中",
+      "object_id": "prop_s5_016"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "table_locator_matched",
+      "message": "table_locator.column_label='OT(2) $2\\\\theta^{\\\\circ}$' 与表格原文表示不同，但单元格可确定性定位：按 cell_id 精确命中",
+      "object_id": "prop_s5_016"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "table_locator_matched",
+      "message": "table_locator.row_label='Second data row (23.3, 3.81, 62 for OT(2))' 与表格原文表示不同，但单元格可确定性定位：按 cell_id 精确命中",
+      "object_id": "prop_s5_017"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "table_locator_matched",
+      "message": "table_locator.column_label='OT(2) $2\\\\theta^{\\\\circ}$' 与表格原文表示不同，但单元格可确定性定位：按 cell_id 精确命中",
+      "object_id": "prop_s5_017"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "table_locator_matched",
+      "message": "table_locator.row_label='Third data row (25.8, 3.46, 50 for OT(2))' 与表格原文表示不同，但单元格可确定性定位：按 cell_id 精确命中",
+      "object_id": "prop_s5_018"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "table_locator_matched",
+      "message": "table_locator.column_label='OT(2) $2\\\\theta^{\\\\circ}$' 与表格原文表示不同，但单元格可确定性定位：按 cell_id 精确命中",
+      "object_id": "prop_s5_018"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_object_rejected_table_locator_not_in_source",
+      "message": "Preview 已隔离对象；原错误：table_locator.row_label 不是表格原文",
+      "object_id": "prop_s5_009"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_object_rejected_table_locator_not_in_source",
+      "message": "Preview 已隔离对象；原错误：table_locator.column_label 不是表格原文",
+      "object_id": "prop_s5_009"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_object_rejected_table_locator_not_in_source",
+      "message": "Preview 已隔离对象；原错误：table_locator.row_label 不是表格原文",
+      "object_id": "prop_s5_012"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_object_rejected_table_locator_not_in_source",
+      "message": "Preview 已隔离对象；原错误：table_locator.column_label 不是表格原文",
+      "object_id": "prop_s5_012"
+    }
+  ],
+  "checked_counts": {
+    "stage0_blocks": 81,
+    "material_mentions": 116,
+    "polymer_entities": 10,
+    "samples": 10,
+    "process_steps": 3,
+    "measurement_conditions": 0,
+    "stage4_properties": 0,
+    "unresolved_properties": 0,
+    "property_series": 0,
+    "property_series_points": 0,
+    "characterizations": 7,
+    "stage5_properties": 18,
+    "evidence": 98,
+    "preview_published_objects": 162,
+    "preview_rejected_objects": 2,
+    "preview_reference_cleanup_count": 2
+  },
+  "quality_metrics": {
+    "properties_with_units": {
+      "complete": 0,
+      "total": 18,
+      "ratio": 0.0
+    },
+    "standard_process_steps": {
+      "complete": 3,
+      "total": 3,
+      "ratio": 1.0
+    },
+    "stage4_methods_with_characterization": {
+      "complete": 0,
+      "total": 0,
+      "ratio": 1.0
+    },
+    "objects_with_confidence": {
+      "complete": 164,
+      "total": 164,
+      "ratio": 1.0
+    },
+    "series_points_covered": {
+      "complete": 0,
+      "total": 0,
+      "ratio": 1.0
+    }
+  }
+}

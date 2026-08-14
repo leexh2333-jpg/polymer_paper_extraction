@@ -1,0 +1,225 @@
+{
+  "stage": "stage4r_table_recovery",
+  "implementation_version": "0.2.0",
+  "document_id": "reference_no_0039705",
+  "audit_summary": {
+    "table_count": 3,
+    "tables_with_numeric_cells": 3,
+    "numeric_cell_count": 92,
+    "represented_numeric_cell_count": 24,
+    "representation_ratio": 0.26087,
+    "role_counts": {
+      "property_value_candidate": 18,
+      "unknown": 74
+    },
+    "property_value_candidate_count": 18,
+    "covered_property_value_candidate_count": 6,
+    "missing_property_value_candidate_count": 12,
+    "property_value_ratio": 0.333333,
+    "gap_table_count": 1,
+    "numeric_zero_coverage_table_count": 1,
+    "property_zero_coverage_table_count": 0
+  },
+  "recovered_count": 6,
+  "skipped_ambiguous_count": 6,
+  "recovered": [
+    {
+      "unresolved_id": "uprop001",
+      "entity_id": "pe005",
+      "property_name_raw": "melting_temperature",
+      "value_raw": "188",
+      "cell_id": "T_7_93:r0003:c0002",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop002",
+      "entity_id": "pe005",
+      "property_name_raw": "melting_temperature",
+      "value_raw": "189",
+      "cell_id": "T_7_93:r0003:c0005",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop003",
+      "entity_id": "pe006",
+      "property_name_raw": "melting_temperature",
+      "value_raw": "169",
+      "cell_id": "T_7_93:r0004:c0002",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop004",
+      "entity_id": "pe006",
+      "property_name_raw": "melting_temperature",
+      "value_raw": "171",
+      "cell_id": "T_7_93:r0004:c0005",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop005",
+      "entity_id": "pe008",
+      "property_name_raw": "melting_temperature",
+      "value_raw": "179",
+      "cell_id": "T_7_93:r0006:c0002",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop006",
+      "entity_id": "pe008",
+      "property_name_raw": "melting_temperature",
+      "value_raw": "180",
+      "cell_id": "T_7_93:r0006:c0005",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    }
+  ],
+  "skipped_ambiguous": [
+    {
+      "cell_id": "T_7_93:r0002:c0002",
+      "table_id": "T_7_93",
+      "property_name_normalized": "melting_temperature",
+      "value_raw": "196",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_7_93:r0002:c0005",
+      "table_id": "T_7_93",
+      "property_name_normalized": "melting_temperature",
+      "value_raw": "198",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_7_93:r0005:c0002",
+      "table_id": "T_7_93",
+      "property_name_normalized": "melting_temperature",
+      "value_raw": "189",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_7_93:r0005:c0005",
+      "table_id": "T_7_93",
+      "property_name_normalized": "melting_temperature",
+      "value_raw": "192",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_7_93:r0007:c0002",
+      "table_id": "T_7_93",
+      "property_name_normalized": "melting_temperature",
+      "value_raw": "162",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_7_93:r0007:c0005",
+      "table_id": "T_7_93",
+      "property_name_normalized": "melting_temperature",
+      "value_raw": "164",
+      "reason": "entity_ambiguous"
+    }
+  ],
+  "sample_resolution_summary": {
+    "accepted": 4,
+    "label_not_found": 2
+  },
+  "sample_resolution": [
+    {
+      "unresolved_id": "uprop001",
+      "entity_id": "pe005",
+      "status": "accepted",
+      "sample_id": "s005",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "Ib",
+      "cell_id": "T_7_93:r0003:c0002"
+    },
+    {
+      "unresolved_id": "uprop002",
+      "entity_id": "pe005",
+      "status": "accepted",
+      "sample_id": "s005",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "Ib",
+      "cell_id": "T_7_93:r0003:c0005"
+    },
+    {
+      "unresolved_id": "uprop003",
+      "entity_id": "pe006",
+      "status": "accepted",
+      "sample_id": "s006",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "Ic",
+      "cell_id": "T_7_93:r0004:c0002"
+    },
+    {
+      "unresolved_id": "uprop004",
+      "entity_id": "pe006",
+      "status": "accepted",
+      "sample_id": "s006",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "Ic",
+      "cell_id": "T_7_93:r0004:c0005"
+    },
+    {
+      "unresolved_id": "uprop005",
+      "entity_id": "pe008",
+      "status": "label_not_found"
+    },
+    {
+      "unresolved_id": "uprop006",
+      "entity_id": "pe008",
+      "status": "label_not_found"
+    }
+  ],
+  "property_id_migrations": [
+    {
+      "unresolved_id": "uprop001",
+      "property_id": "prop002",
+      "measurement_condition_id": "mc005",
+      "sample_id": "s005",
+      "entity_id": "pe005",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "Ib",
+      "cell_id": "T_7_93:r0003:c0002"
+    },
+    {
+      "unresolved_id": "uprop002",
+      "property_id": "prop003",
+      "measurement_condition_id": "mc006",
+      "sample_id": "s005",
+      "entity_id": "pe005",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "Ib",
+      "cell_id": "T_7_93:r0003:c0005"
+    },
+    {
+      "unresolved_id": "uprop003",
+      "property_id": "prop004",
+      "measurement_condition_id": "mc007",
+      "sample_id": "s006",
+      "entity_id": "pe006",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "Ic",
+      "cell_id": "T_7_93:r0004:c0002"
+    },
+    {
+      "unresolved_id": "uprop004",
+      "property_id": "prop005",
+      "measurement_condition_id": "mc008",
+      "sample_id": "s006",
+      "entity_id": "pe006",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "Ic",
+      "cell_id": "T_7_93:r0004:c0005"
+    }
+  ],
+  "input_hashes": {
+    "stage0_blocks.json": "1c4e6c274fa4c31208685a0219d2c3d73706a127a24d278c6d670f8bea0ea9da",
+    "stage2_entities.json": "c992a93efb9cf60ecdeaca04929975b15a5435f6c6b3d2897f459655f14a0bac",
+    "stage3_process.json": "21a62ad72de3483f2c385ed243b4fb0ce97bb30716dda38f82bb5e594fecfe3b",
+    "stage4_properties.json": "104c78543be30affb4b6344a79060fe8dea39a10b8b99064245be8baa32f8bb4"
+  },
+  "settings": {
+    "threshold": 0.8,
+    "apply": true,
+    "allow_filled_up_sample_binding": true
+  },
+  "output_sha256": "63558acdcda24a86ceb9f8c56a7943ee65dcb39b8d489a38be0308d4f96eacc6"
+}

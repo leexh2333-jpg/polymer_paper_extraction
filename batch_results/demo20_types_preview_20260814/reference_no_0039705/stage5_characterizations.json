@@ -1,0 +1,562 @@
+{
+  "schema_version": "1.0",
+  "document_id": "reference_no_0039705",
+  "characterizations": [
+    {
+      "characterization_id": "char001",
+      "method_raw": "GPC",
+      "method_normalized": "GPC",
+      "sample_ids": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006",
+        "s007",
+        "s008",
+        "s009"
+      ],
+      "sample_resolution_status": "multi_resolved",
+      "series_ids": [
+        "series002",
+        "series003"
+      ],
+      "instrument": "PL-GPC model 210 chromatograph",
+      "measurement_context": {
+        "other_conditions": {
+          "eluent": "THF",
+          "calibration": "polystyrene standard"
+        },
+        "other_condition_evidence": {
+          "eluent": [
+            {
+              "block_id": "P_1_21",
+              "page": 1,
+              "bbox": [
+                511.0,
+                100.0,
+                897.0,
+                533.0
+              ],
+              "source_type": "text",
+              "source_sentence": "using THF as eluent"
+            }
+          ],
+          "calibration": [
+            {
+              "block_id": "P_1_21",
+              "page": 1,
+              "bbox": [
+                511.0,
+                100.0,
+                897.0,
+                533.0
+              ],
+              "source_type": "text",
+              "source_sentence": "calibrated with polystyrene standard"
+            }
+          ]
+        },
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "parameters": {
+        "eluent": "THF",
+        "calibration": "polystyrene standard"
+      },
+      "result_summary": "Measured number-average molecular weight, weight-average molecular weight and polydispersity index of all polymers, with PDI ranging from 1.09 to 1.28.",
+      "derived_property_ids": [
+        "prop001"
+      ],
+      "evidence": [
+        {
+          "block_id": "P_1_21",
+          "page": 1,
+          "bbox": [
+            511.0,
+            100.0,
+            897.0,
+            533.0
+          ],
+          "source_type": "text",
+          "source_sentence": "and polydispersity $( \\overline { { M _ { \\mathrm { w } } } } / \\overline { { M _ { \\mathrm { n } } } } )$of the polymers were obtained on a PL-GPC model 210 chromatograph using THF as eluent at $2 5 ~ ^ { \\circ } \\mathrm { C }$and calibrated with polystyrene standard."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "characterization_id": "char002",
+      "method_raw": "DSC",
+      "method_normalized": "DSC",
+      "sample_ids": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006",
+        "s007",
+        "s008",
+        "s009"
+      ],
+      "sample_resolution_status": "multi_resolved",
+      "series_id": "series004",
+      "measurement_context": {
+        "other_conditions": {
+          "heating_rate": "5 °C/min",
+          "atmosphere": "dry nitrogen"
+        },
+        "other_condition_evidence": {
+          "heating_rate": [
+            {
+              "block_id": "P_1_21",
+              "page": 1,
+              "bbox": [
+                511.0,
+                100.0,
+                897.0,
+                533.0
+              ],
+              "source_type": "text",
+              "source_sentence": "at a heating rate of 5 °C/min"
+            }
+          ],
+          "atmosphere": [
+            {
+              "block_id": "P_1_21",
+              "page": 1,
+              "bbox": [
+                511.0,
+                100.0,
+                897.0,
+                533.0
+              ],
+              "source_type": "text",
+              "source_sentence": "in dry nitrogen atmosphere"
+            }
+          ]
+        },
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "parameters": {
+        "atmosphere": "dry nitrogen"
+      },
+      "result_summary": "Measured glass transition temperature, melting temperature and isotropic transition temperature of all polymers.",
+      "derived_property_ids": [
+        "prop002",
+        "prop003",
+        "prop004",
+        "prop005",
+        "uprop005",
+        "uprop006"
+      ],
+      "evidence": [
+        {
+          "block_id": "P_1_21",
+          "page": 1,
+          "bbox": [
+            511.0,
+            100.0,
+            897.0,
+            533.0
+          ],
+          "source_type": "text",
+          "source_sentence": "DSC measurements were performed at a heating rate of 5 °C/min up to 400 $^ \\circ \\mathrm { C }$on sample taken in an aluminium pan with a pierced lid, in dry nitrogen atmosphere with an empty pan as reference."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "characterization_id": "char003",
+      "method_raw": "infrared spectra",
+      "method_normalized": "FTIR",
+      "sample_ids": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006",
+        "s007",
+        "s008",
+        "s009"
+      ],
+      "sample_resolution_status": "multi_resolved",
+      "instrument": "Bruker IFS 66V Fourier transform spectrometer",
+      "parameters": {
+        "sample_prep": "KBr pellets"
+      },
+      "result_summary": "Confirmed chemical structure of monomers and polymers, and monitored photocrosslinking reaction of chalcone moiety.",
+      "derived_property_ids": [
+        "prop_s5_001"
+      ],
+      "evidence": [
+        {
+          "block_id": "P_1_20",
+          "page": 1,
+          "bbox": [
+            99.0,
+            796.0,
+            483.0,
+            903.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The infrared spectra were obtained on a Bruker IFS 66V Fourier transform spectrometer using KBr pellets."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "characterization_id": "char004",
+      "method_raw": "NMR",
+      "method_normalized": "NMR",
+      "sample_ids": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006",
+        "s007",
+        "s008",
+        "s009"
+      ],
+      "sample_resolution_status": "multi_resolved",
+      "instrument": "Bruker 300 MHz spectrometer",
+      "measurement_context": {
+        "other_conditions": {
+          "internal_standard": "TMS"
+        },
+        "other_condition_evidence": {
+          "internal_standard": [
+            {
+              "block_id": "P_1_20",
+              "page": 1,
+              "bbox": [
+                99.0,
+                796.0,
+                483.0,
+                903.0
+              ],
+              "source_type": "text",
+              "source_sentence": "with TMS as an internal standard"
+            }
+          ]
+        },
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "parameters": {
+        "internal_standard": "TMS"
+      },
+      "result_summary": "Confirmed chemical structure of monomers and successful polymerization of methacrylic function.",
+      "derived_property_ids": [
+        "prop_s5_002"
+      ],
+      "evidence": [
+        {
+          "block_id": "P_1_20",
+          "page": 1,
+          "bbox": [
+            99.0,
+            796.0,
+            483.0,
+            903.0
+          ],
+          "source_type": "text",
+          "source_sentence": "High-resolution $^ { 1 } \\mathrm { H }$and $^ { 1 3 } \\mathrm { C }$NMR spectra were recorded on a Bruker 300 MHz spectrometer in $\\mathrm { C D C l _ { 3 } }$with TMS as an internal standard."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "characterization_id": "char005",
+      "method_raw": "TGA",
+      "method_normalized": "TGA",
+      "sample_ids": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006",
+        "s007",
+        "s008",
+        "s009"
+      ],
+      "sample_resolution_status": "multi_resolved",
+      "measurement_context": {
+        "other_conditions": {
+          "atmosphere": "nitrogen"
+        },
+        "other_condition_evidence": {
+          "atmosphere": [
+            {
+              "block_id": "P_6_85",
+              "page": 6,
+              "bbox": [
+                101.0,
+                277.0,
+                483.0,
+                679.0
+              ],
+              "source_type": "text",
+              "source_sentence": "under nitrogen atmosphere"
+            }
+          ]
+        },
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "parameters": {
+        "atmosphere": "nitrogen"
+      },
+      "result_summary": "Evaluated thermal stability of all polymers, showing two-stage decomposition above 250 °C.",
+      "derived_property_ids": [],
+      "evidence": [
+        {
+          "block_id": "P_6_85",
+          "page": 6,
+          "bbox": [
+            101.0,
+            277.0,
+            483.0,
+            679.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The thermal stability was estimated using TGA under nitrogen atmosphere at a heating rate of $1 0 ~ \\mathrm { { ^ { \\circ } C / m i n } }$."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    }
+  ],
+  "properties": [
+    {
+      "property_id": "prop_s5_001",
+      "characterization_id": "char003",
+      "sample_id": "s005",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "absorption band",
+      "property_name_normalized": "ftir_peak_wavenumber",
+      "property_category": "composition_structure",
+      "value_raw": "1653",
+      "value_min": 1653.0,
+      "value_max": 1653.0,
+      "measurement_context": {
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "spectral_assignment": "double bond of chalcone moiety",
+      "source_stage": "stage5",
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_9_111",
+          "page": 9,
+          "bbox": [
+            101.0,
+            648.0,
+            483.0,
+            709.0
+          ],
+          "source_type": "text",
+          "source_sentence": "IR spectra of Ib is shown in Figure 10, wherein, absorption band appeared at 1653 $\\mathrm { c m } ^ { - 1 }$corresponding to double bond of chalcone moiety was completely disappeared after UV irradiation."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_002",
+      "characterization_id": "char004",
+      "sample_id": "s004",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "resonance signal",
+      "property_name_normalized": "nmr_chemical_shift",
+      "property_category": "composition_structure",
+      "value_raw": "1.59",
+      "value_min": 1.59,
+      "value_max": 1.59,
+      "unit_raw": "ppm",
+      "unit_normalized": "ppm",
+      "measurement_context": {
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "spectral_assignment": "main-chain methylene protons",
+      "source_stage": "stage5",
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_4_70",
+          "page": 4,
+          "bbox": [
+            511.0,
+            677.0,
+            895.0,
+            903.0
+          ],
+          "source_type": "text",
+          "source_sentence": "After polymerization, the resonance signal at 2.21 ppm corresponding to a-methyl protons of monomer shifted up field by 0.5 ppm and merged with resonance signal of main-chain methylene protons in the polymers appeared at 1.59 ppm as broad signal."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    }
+  ],
+  "provenance": {
+    "stage": "stage5_characterization",
+    "provider": "dmx",
+    "model": "doubao-seed-2.0-pro",
+    "models": [
+      "doubao-seed-2.0-pro"
+    ],
+    "prompt_id": "polymer.stage5.characterization",
+    "prompt_version": "1.6.2",
+    "prompt_sha256": "5f918eb9d0dcbe0a4dc60a70d83c4e9f144f9a87bf68905d0a38ad22c000ee5c",
+    "vocabulary_sha256": "3e9d85e4915a729edf0f0a53821f3ee6edf32874e1da6972457417e4f13a1510",
+    "input_hash": "42da591047fa3889260c213e97898961c3e21fb6147db895de62620f9844d9b0",
+    "model_config_hash": "7e14aff06827af47a7b1a797111258e33d5972d1c072111440c3b2aae020f3ce",
+    "cache_key": "dcc736d9b0721c44b7bf9920125228f8444c30baae65d4a75368d40a03973aac",
+    "output_schema_version": "characterization_schema.v4",
+    "implementation_version": "1.7.1",
+    "context_block_count": 82,
+    "context_chars": 50947,
+    "call_count": 1,
+    "usage": {
+      "input_tokens": 25730,
+      "output_tokens": 6779,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "billable_input_tokens": 25730,
+      "total_tokens": 32509
+    },
+    "cost": {
+      "status": "calculated",
+      "currency": "CNY",
+      "input_per_million": "4.32",
+      "output_per_million": "29.15",
+      "input_cost": "0.1111536",
+      "output_cost": "0.19760785",
+      "total_cost": "0.30876145"
+    },
+    "status": "success"
+  },
+  "warnings": [
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_characterization_method_surface_recovered",
+      "message": "Preview 模式已将表征方法恢复为 evidence 中唯一匹配的原文词形",
+      "field_path": "characterizations[3].method_raw",
+      "method_normalized": "NMR"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_characterization_details_cleared",
+      "message": "Preview 模式已清空无对象 evidence 支撑的可选表征细节",
+      "field_path": "characterizations[0]",
+      "fields": [
+        "measurement_context.temperature"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_characterization_details_cleared",
+      "message": "Preview 模式已清空无对象 evidence 支撑的可选表征细节",
+      "field_path": "characterizations[1]",
+      "fields": [
+        "parameters",
+        "measurement_context.other_conditions"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_characterization_details_cleared",
+      "message": "Preview 模式已清空无对象 evidence 支撑的可选表征细节",
+      "field_path": "characterizations[2]",
+      "fields": [
+        "measurement_context"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_characterization_details_cleared",
+      "message": "Preview 模式已清空无对象 evidence 支撑的可选表征细节",
+      "field_path": "characterizations[3]",
+      "fields": [
+        "parameters",
+        "measurement_context.other_conditions"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_characterization_details_cleared",
+      "message": "Preview 模式已清空无对象 evidence 支撑的可选表征细节",
+      "field_path": "characterizations[4]",
+      "fields": [
+        "parameters",
+        "measurement_context.other_conditions"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[0]",
+      "property_id": "prop_s5_001",
+      "fields": [
+        "unit_raw"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[1]",
+      "property_id": "prop_s5_002",
+      "fields": [
+        "solvent"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "derived_property_back_reference_completed",
+      "message": "Stage 5 property 已明确引用唯一 Characterization；已补齐其 derived_property_ids 反向引用",
+      "field_path": "properties[0].characterization_id",
+      "characterization_id": "char003",
+      "property_id": "prop_s5_001"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "derived_property_back_reference_completed",
+      "message": "Stage 5 property 已明确引用唯一 Characterization；已补齐其 derived_property_ids 反向引用",
+      "field_path": "properties[1].characterization_id",
+      "characterization_id": "char004",
+      "property_id": "prop_s5_002"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_semantic_validation_bypassed",
+      "message": "Preview 已保留 Schema 合法候选，并跳过原文/evidence 语义对应校验；Strict 模式仍会报错",
+      "reason": "char002 跨实体引用 unresolved property：['uprop005', 'uprop006']"
+    }
+  ]
+}

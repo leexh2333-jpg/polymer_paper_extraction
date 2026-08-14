@@ -1,0 +1,72 @@
+{
+  "stage": "stage4r_table_recovery",
+  "implementation_version": "0.2.0",
+  "document_id": "reference_no_0043590",
+  "audit_summary": {
+    "table_count": 4,
+    "tables_with_numeric_cells": 4,
+    "numeric_cell_count": 86,
+    "represented_numeric_cell_count": 13,
+    "representation_ratio": 0.151163,
+    "role_counts": {
+      "coordinate_candidate": 11,
+      "property_value_candidate": 11,
+      "unknown": 64
+    },
+    "property_value_candidate_count": 11,
+    "covered_property_value_candidate_count": 7,
+    "missing_property_value_candidate_count": 4,
+    "property_value_ratio": 0.636364,
+    "gap_table_count": 1,
+    "numeric_zero_coverage_table_count": 2,
+    "property_zero_coverage_table_count": 0
+  },
+  "recovered_count": 0,
+  "skipped_ambiguous_count": 4,
+  "recovered": [],
+  "skipped_ambiguous": [
+    {
+      "cell_id": "T_1_19:r0001:c0002",
+      "table_id": "T_1_19",
+      "property_name_normalized": "electric_conductivity",
+      "value_raw": "10–100",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_1_19:r0001:c0003",
+      "table_id": "T_1_19",
+      "property_name_normalized": "electric_conductivity",
+      "value_raw": "625",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_1_19:r0003:c0002",
+      "table_id": "T_1_19",
+      "property_name_normalized": "density",
+      "value_raw": "100–120",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_1_19:r0003:c0003",
+      "table_id": "T_1_19",
+      "property_name_normalized": "density",
+      "value_raw": "360",
+      "reason": "entity_ambiguous"
+    }
+  ],
+  "sample_resolution_summary": {},
+  "sample_resolution": [],
+  "property_id_migrations": [],
+  "input_hashes": {
+    "stage0_blocks.json": "1adcbd2266168247efa49fff47542ca374015f7e337b11e00e8b6c7354d3cc4a",
+    "stage2_entities.json": "01a2ca624549e488e93efff42dc2ae62e8f4c9e5cc5eafb2b5b85845e137cc06",
+    "stage3_process.json": "b8f734d8a66bd023136f1be2aafa89d98bfa1ea8dd5ef2babb5494f3177994d5",
+    "stage4_properties.json": "e859f13902a2105f8dafa46c78e9460552a345446cd81d9bceb125b9fbc841d9"
+  },
+  "settings": {
+    "threshold": 0.8,
+    "apply": true,
+    "allow_filled_up_sample_binding": true
+  },
+  "output_sha256": "1986c21d6813668811ff18ba34c3fddce6c80be784f34acc8376ec7926376756"
+}

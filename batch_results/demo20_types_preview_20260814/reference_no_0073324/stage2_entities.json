@@ -1,0 +1,1652 @@
+{
+  "schema_version": "1.0",
+  "document_id": "reference_no_0073324",
+  "polymer_entities": [
+    {
+      "entity_id": "pe001",
+      "polymer_name": "polyhydrazides",
+      "polymer_type": "homopolymer",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "polyhydrazides",
+        "Polyhydrazides",
+        "Polyhydrazide"
+      ],
+      "resolved_from_mentions": [
+        "m001",
+        "m006",
+        "m008",
+        "m011",
+        "m017",
+        "m019",
+        "m046",
+        "m047",
+        "m049"
+      ],
+      "evidence": {
+        "block_id": "P_0_3",
+        "page": 0,
+        "bbox": [
+          106.0,
+          356.0,
+          863.0,
+          487.0
+        ],
+        "source_type": "text",
+        "source_sentence": "High molecular weight polyhydrazides have been prepared by a new low temperature polymerization technique from equimolar amounts of a dihydrazide and a dicarbonyl chloride in dialkyl amide solvents."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.94
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe002",
+      "polymer_name": "All-aliphatic polyhydrazides",
+      "polymer_type": "homopolymer",
+      "variant_of": "pe001",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "All-aliphatic polyhydrazides"
+      ],
+      "resolved_from_mentions": [
+        "m002",
+        "m009"
+      ],
+      "evidence": {
+        "block_id": "P_0_3",
+        "page": 0,
+        "bbox": [
+          106.0,
+          356.0,
+          863.0,
+          487.0
+        ],
+        "source_type": "text",
+        "source_sentence": "All-aliphatic polyhydrazides were insoluble in dimethyl sulfoxide, had polymer melt temperatures ranging from 200 to 300°C."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.96
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe003",
+      "polymer_name": "Aliphatic-aromatic and oxalic-aromatic polyhydrazides",
+      "polymer_type": "homopolymer",
+      "variant_of": "pe001",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "Aliphatic-aromatic and oxalic-aromatic polyhydrazides",
+        "Aliphatic-aromatic and oxalic aromatic polyhydrazides"
+      ],
+      "resolved_from_mentions": [
+        "m003",
+        "m010"
+      ],
+      "evidence": {
+        "block_id": "P_0_3",
+        "page": 0,
+        "bbox": [
+          106.0,
+          356.0,
+          863.0,
+          487.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Aliphatic-aromatic and oxalic-aromatic polyhydrazides which undergo dehydration at different rates had polymer melt temperatures ranging from 250 to 300°C."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.88
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe004",
+      "polymer_name": "aliphatic polyhydrazides",
+      "polymer_type": "homopolymer",
+      "variant_of": "pe001",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "aliphatic polyhydrazides",
+        "Aliphatic Polyhydrazides",
+        "Aliphatic polyhydrazides",
+        "polyhydrazides"
+      ],
+      "resolved_from_mentions": [
+        "m007",
+        "m013",
+        "m020",
+        "m053",
+        "m054"
+      ],
+      "evidence": {
+        "block_id": "P_2_21",
+        "page": 2,
+        "bbox": [
+          101.0,
+          186.0,
+          858.0,
+          239.0
+        ],
+        "source_type": "text",
+        "source_sentence": "McFarlane and Miller's method $^{13}$ was used without change for the preparation of aliphatic polyhydrazides."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.95
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe005",
+      "polymer_name": "aliphatic and mixed aliphatic-aromatic copolyhydrazides",
+      "polymer_type": "copolymer",
+      "variant_of": "pe001",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "aliphatic and mixed aliphatic-aromatic copolyhydrazides",
+        "Aliphatic and Mixed Copolyhydrazides"
+      ],
+      "resolved_from_mentions": [
+        "m012",
+        "m036"
+      ],
+      "evidence": {
+        "block_id": "P_2_27",
+        "page": 2,
+        "bbox": [
+          101.0,
+          518.0,
+          863.0,
+          620.0
+        ],
+        "source_type": "text",
+        "source_sentence": "McFarlane and Miller  $^{13}$ described a high temperature solution (HTS) polymerization technique for the preparation of aliphatic and mixed aliphatic-aromatic copolyhydrazides."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.83
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe006",
+      "polymer_name": "oxalic-aliphatic copolyhydrazides",
+      "polymer_type": "copolymer",
+      "variant_of": "pe001",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "oxalic-aliphatic copolyhydrazides"
+      ],
+      "resolved_from_mentions": [
+        "m014"
+      ],
+      "evidence": {
+        "block_id": "P_2_29",
+        "page": 2,
+        "bbox": [
+          101.0,
+          704.0,
+          863.0,
+          775.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The preparation of the heretofore unknown oxalic-aliphatic copolyhydrazides such as 0-2-0-6 (Table II, example 1b–1g) and the preparation of a series of aliphatic-aromatic polyhydrazides was attempted."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.95
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe007",
+      "polymer_name": "aliphatic-aromatic polyhydrazides",
+      "polymer_type": "homopolymer",
+      "variant_of": "pe001",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "aliphatic-aromatic polyhydrazides"
+      ],
+      "resolved_from_mentions": [
+        "m016"
+      ],
+      "evidence": {
+        "block_id": "P_2_29",
+        "page": 2,
+        "bbox": [
+          101.0,
+          704.0,
+          863.0,
+          775.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The preparation of the heretofore unknown oxalic-aliphatic copolyhydrazides such as 0-2-0-6 (Table II, example 1b–1g) and the preparation of a series of aliphatic-aromatic polyhydrazides was attempted."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.93
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe008",
+      "polymer_name": "condensation polymers",
+      "polymer_type": "homopolymer",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "condensation polymers"
+      ],
+      "resolved_from_mentions": [
+        "m018"
+      ],
+      "evidence": {
+        "block_id": "P_2_31",
+        "page": 2,
+        "bbox": [
+          101.0,
+          812.0,
+          865.0,
+          898.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Morgan, Tietz, and Sorenson, $^{17}$ as well as Campbell, Foldi, and Farago $^{12}$ have studied the use of amide solvents in the preparation of condensation polymers."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.9
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe009",
+      "polymer_name": "0-2",
+      "polymer_type": "homopolymer",
+      "variant_of": "pe004",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "0-2"
+      ],
+      "resolved_from_mentions": [
+        "m021"
+      ],
+      "evidence": {
+        "block_id": "T_3_34",
+        "page": 3,
+        "bbox": [
+          146.0,
+          113.0,
+          772.0,
+          896.0
+        ],
+        "source_type": "table",
+        "source_sentence": "°C.</td></tr><tr><td>No.</td><td>Codea</td><td>Acida</td><td>Chloridea</td><td>Esteraa</td><td>Hydrazidea</td></tr><tr><td>1</td><td>0-2</td><td></td><td></td><td>DiPh-2</td><td>2</td><td>HTS</td><td></td><td>380</td><td></td></tr><tr><td>1a</td><td>0-2-0-6</td><td></td><td></td><td>DiEt-2</td><td>6</td><td>HTS</td><td></td><td></td><td>285c</td></tr><tr><td>b</td><td></td><td></td><td></td><td>DiEt-2</td><td>6</td><td>HTS</td><td></td><td>300</td><td></td></tr><tr><td>c</td><td></td><td></td><t"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.84
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe010",
+      "polymer_name": "0-2-0-6",
+      "polymer_type": "copolymer",
+      "variant_of": "pe006",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "0-2-0-6"
+      ],
+      "resolved_from_mentions": [
+        "m015",
+        "m022"
+      ],
+      "evidence": {
+        "block_id": "P_2_29",
+        "page": 2,
+        "bbox": [
+          101.0,
+          704.0,
+          863.0,
+          775.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The preparation of the heretofore unknown oxalic-aliphatic copolyhydrazides such as 0-2-0-6 (Table II, example 1b–1g) and the preparation of a series of aliphatic-aromatic polyhydrazides was attempted."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.97
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe011",
+      "polymer_name": "0-2-0-9",
+      "polymer_type": "homopolymer",
+      "variant_of": "pe004",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "0-2-0-9"
+      ],
+      "resolved_from_mentions": [
+        "m023"
+      ],
+      "evidence": {
+        "block_id": "T_3_34",
+        "page": 3,
+        "bbox": [
+          146.0,
+          113.0,
+          772.0,
+          896.0
+        ],
+        "source_type": "table",
+        "source_sentence": "0-2-0-9"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.77
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe012",
+      "polymer_name": "0-2-0-10",
+      "polymer_type": "homopolymer",
+      "variant_of": "pe004",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "0-2-0-10"
+      ],
+      "resolved_from_mentions": [
+        "m024"
+      ],
+      "evidence": {
+        "block_id": "T_3_34",
+        "page": 3,
+        "bbox": [
+          146.0,
+          113.0,
+          772.0,
+          896.0
+        ],
+        "source_type": "table",
+        "source_sentence": "0-2-0-10"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.77
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe013",
+      "polymer_name": "0-4-0-6",
+      "polymer_type": "homopolymer",
+      "variant_of": "pe004",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "0-4-0-6"
+      ],
+      "resolved_from_mentions": [
+        "m025"
+      ],
+      "evidence": {
+        "block_id": "T_3_34",
+        "page": 3,
+        "bbox": [
+          146.0,
+          113.0,
+          772.0,
+          896.0
+        ],
+        "source_type": "table",
+        "source_sentence": "0-4-0-6"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.77
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe014",
+      "polymer_name": "0-4-0-10",
+      "polymer_type": "homopolymer",
+      "variant_of": "pe004",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "0-4-0-10"
+      ],
+      "resolved_from_mentions": [
+        "m026"
+      ],
+      "evidence": {
+        "block_id": "T_3_34",
+        "page": 3,
+        "bbox": [
+          146.0,
+          113.0,
+          772.0,
+          896.0
+        ],
+        "source_type": "table",
+        "source_sentence": "0-4-0-10"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.77
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe015",
+      "polymer_name": "0-6",
+      "polymer_type": "homopolymer",
+      "variant_of": "pe004",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "0-6"
+      ],
+      "resolved_from_mentions": [
+        "m027",
+        "m057"
+      ],
+      "evidence": {
+        "block_id": "P_6_49",
+        "page": 6,
+        "bbox": [
+          90.0,
+          114.0,
+          854.0,
+          303.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The melting point-composition curve indicates that 0-I and 0-6 are isomorphous."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.84
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe016",
+      "polymer_name": "0-6-0-9",
+      "polymer_type": "homopolymer",
+      "variant_of": "pe004",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "0-6-0-9"
+      ],
+      "resolved_from_mentions": [
+        "m028"
+      ],
+      "evidence": {
+        "block_id": "T_3_34",
+        "page": 3,
+        "bbox": [
+          146.0,
+          113.0,
+          772.0,
+          896.0
+        ],
+        "source_type": "table",
+        "source_sentence": "0-6-0-9"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.77
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe017",
+      "polymer_name": "0-6-0-10",
+      "polymer_type": "homopolymer",
+      "variant_of": "pe004",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "0-6-0-10"
+      ],
+      "resolved_from_mentions": [
+        "m029"
+      ],
+      "evidence": {
+        "block_id": "T_3_34",
+        "page": 3,
+        "bbox": [
+          146.0,
+          113.0,
+          772.0,
+          896.0
+        ],
+        "source_type": "table",
+        "source_sentence": "0-6-0-10"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.77
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe018",
+      "polymer_name": "0-6-0-HT",
+      "polymer_type": "homopolymer",
+      "variant_of": "pe004",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "0-6-0-HT"
+      ],
+      "resolved_from_mentions": [
+        "m030"
+      ],
+      "evidence": {
+        "block_id": "T_3_34",
+        "page": 3,
+        "bbox": [
+          146.0,
+          113.0,
+          772.0,
+          896.0
+        ],
+        "source_type": "table",
+        "source_sentence": "0-6-0-HT"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.77
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe019",
+      "polymer_name": "0-9",
+      "polymer_type": "homopolymer",
+      "variant_of": "pe004",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "0-9"
+      ],
+      "resolved_from_mentions": [
+        "m031"
+      ],
+      "evidence": {
+        "block_id": "T_3_34",
+        "page": 3,
+        "bbox": [
+          146.0,
+          113.0,
+          772.0,
+          896.0
+        ],
+        "source_type": "table",
+        "source_sentence": "></tr><tr><td>b</td><td></td><td></td><td></td><td>DiEt-2</td><td>6</td><td>HTS</td><td></td><td>300</td><td></td></tr><tr><td>c</td><td></td><td></td><td>6</td><td></td><td>2</td><td></td><td>LTS</td><td>295</td><td></td></tr><tr><td>2a</td><td>0-2-0-9</td><td>2</td><td></td><td></td><td>9</td><td>HTS</td><td></td><td></td><td>265c</td></tr><tr><td>b</td><td></td><td></td><td></td><td>DiEt-2</td><td>9</td><td>HTS</td><td></td><td>295</td><td></td></tr><tr><td>c</td><td></td><td>2</td><td></td><"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.76
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe020",
+      "polymer_name": "0-9-0-10",
+      "polymer_type": "homopolymer",
+      "variant_of": "pe004",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "0-9-0-10"
+      ],
+      "resolved_from_mentions": [
+        "m032"
+      ],
+      "evidence": {
+        "block_id": "T_3_34",
+        "page": 3,
+        "bbox": [
+          146.0,
+          113.0,
+          772.0,
+          896.0
+        ],
+        "source_type": "table",
+        "source_sentence": "0-9-0-10"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.77
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe021",
+      "polymer_name": "0-10",
+      "polymer_type": "homopolymer",
+      "variant_of": "pe004",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "0-10",
+        "0–10"
+      ],
+      "resolved_from_mentions": [
+        "m033",
+        "m064"
+      ],
+      "evidence": {
+        "block_id": "P_6_55",
+        "page": 6,
+        "bbox": [
+          92.0,
+          628.0,
+          856.0,
+          818.0
+        ],
+        "source_type": "text",
+        "source_sentence": "For example, the polyhydrazide from sebacyl chloride and sebacic dihydrazide, 0–10, showed a noticeable tendency to lose water of reaction and change, at least partially into a polyoxadiazole structure [eq. (2)] upon drying above 150°C. (N  $_{2}$ )."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.94
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe022",
+      "polymer_name": "0-13",
+      "polymer_type": "homopolymer",
+      "variant_of": "pe004",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "0-13"
+      ],
+      "resolved_from_mentions": [
+        "m034"
+      ],
+      "evidence": {
+        "block_id": "T_3_34",
+        "page": 3,
+        "bbox": [
+          146.0,
+          113.0,
+          772.0,
+          896.0
+        ],
+        "source_type": "table",
+        "source_sentence": "0-13"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.77
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe023",
+      "polymer_name": "0-18",
+      "polymer_type": "homopolymer",
+      "variant_of": "pe004",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "0-18"
+      ],
+      "resolved_from_mentions": [
+        "m035"
+      ],
+      "evidence": {
+        "block_id": "T_3_34",
+        "page": 3,
+        "bbox": [
+          146.0,
+          113.0,
+          772.0,
+          896.0
+        ],
+        "source_type": "table",
+        "source_sentence": "0-18"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.77
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe024",
+      "polymer_name": "ordered alternating polyhydrazide",
+      "polymer_type": "copolymer",
+      "copolymer_type": "alt",
+      "variant_of": "pe005",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "0-2-0-I",
+        "ordered alternating polyhydrazide",
+        "copolyhydrazide"
+      ],
+      "resolved_from_mentions": [
+        "m004",
+        "m005",
+        "m037",
+        "m050"
+      ],
+      "evidence": {
+        "block_id": "P_1_13",
+        "page": 1,
+        "bbox": [
+          113.0,
+          558.0,
+          879.0,
+          729.0
+        ],
+        "source_type": "text",
+        "source_sentence": "A polymer code such as 0-2-0-I would, therefore, represent the ordered alternating polyhydrazide derived from oxalic acid and isophthalic acid."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.96
+      }
+    },
+    {
+      "entity_id": "pe025",
+      "polymer_name": "0-2-0-DP",
+      "polymer_type": "homopolymer",
+      "variant_of": "pe005",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "0-2-0-DP"
+      ],
+      "resolved_from_mentions": [
+        "m038"
+      ],
+      "evidence": {
+        "block_id": "T_4_37",
+        "page": 4,
+        "bbox": [
+          245.0,
+          113.0,
+          714.0,
+          899.0
+        ],
+        "source_type": "table",
+        "source_sentence": "0-2-0-DP"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.78
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe026",
+      "polymer_name": "0-2-0-PY",
+      "polymer_type": "homopolymer",
+      "variant_of": "pe005",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "0-2-0-PY"
+      ],
+      "resolved_from_mentions": [
+        "m039"
+      ],
+      "evidence": {
+        "block_id": "T_4_37",
+        "page": 4,
+        "bbox": [
+          245.0,
+          113.0,
+          714.0,
+          899.0
+        ],
+        "source_type": "table",
+        "source_sentence": "0-2-0-PY"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.78
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe027",
+      "polymer_name": "0-6-0-I",
+      "polymer_type": "homopolymer",
+      "variant_of": "pe005",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "0-6-0-I"
+      ],
+      "resolved_from_mentions": [
+        "m040"
+      ],
+      "evidence": {
+        "block_id": "T_4_37",
+        "page": 4,
+        "bbox": [
+          245.0,
+          113.0,
+          714.0,
+          899.0
+        ],
+        "source_type": "table",
+        "source_sentence": "0-6-0-I"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.78
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe028",
+      "polymer_name": "0-6-0-T",
+      "polymer_type": "homopolymer",
+      "variant_of": "pe005",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "0-6-0-T"
+      ],
+      "resolved_from_mentions": [
+        "m041"
+      ],
+      "evidence": {
+        "block_id": "T_4_37",
+        "page": 4,
+        "bbox": [
+          245.0,
+          113.0,
+          714.0,
+          899.0
+        ],
+        "source_type": "table",
+        "source_sentence": "0-6-0-T"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.78
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe029",
+      "polymer_name": "0-9-0-T",
+      "polymer_type": "homopolymer",
+      "variant_of": "pe005",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "0-9-0-T"
+      ],
+      "resolved_from_mentions": [
+        "m042"
+      ],
+      "evidence": {
+        "block_id": "T_4_37",
+        "page": 4,
+        "bbox": [
+          245.0,
+          113.0,
+          714.0,
+          899.0
+        ],
+        "source_type": "table",
+        "source_sentence": "0-9-0-T"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.78
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe030",
+      "polymer_name": "0-10-0-I",
+      "polymer_type": "homopolymer",
+      "variant_of": "pe005",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "0-10-0-I"
+      ],
+      "resolved_from_mentions": [
+        "m043"
+      ],
+      "evidence": {
+        "block_id": "T_4_37",
+        "page": 4,
+        "bbox": [
+          245.0,
+          113.0,
+          714.0,
+          899.0
+        ],
+        "source_type": "table",
+        "source_sentence": "0-10-0-I"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.78
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe031",
+      "polymer_name": "0-HT-0-I",
+      "polymer_type": "homopolymer",
+      "variant_of": "pe005",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "0-HT-0-I"
+      ],
+      "resolved_from_mentions": [
+        "m044"
+      ],
+      "evidence": {
+        "block_id": "T_4_37",
+        "page": 4,
+        "bbox": [
+          245.0,
+          113.0,
+          714.0,
+          899.0
+        ],
+        "source_type": "table",
+        "source_sentence": "0-HT-0-I"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.78
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe032",
+      "polymer_name": "0-HI-0-I",
+      "polymer_type": "homopolymer",
+      "variant_of": "pe005",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "0-HI-0-I"
+      ],
+      "resolved_from_mentions": [
+        "m045"
+      ],
+      "evidence": {
+        "block_id": "T_4_37",
+        "page": 4,
+        "bbox": [
+          245.0,
+          113.0,
+          714.0,
+          899.0
+        ],
+        "source_type": "table",
+        "source_sentence": "0-HI-0-I"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.78
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe033",
+      "polymer_name": "copolyhydrazides",
+      "polymer_type": "copolymer",
+      "variant_of": "pe001",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "copolyhydrazides"
+      ],
+      "resolved_from_mentions": [
+        "m048"
+      ],
+      "evidence": {
+        "block_id": "P_5_43",
+        "page": 5,
+        "bbox": [
+          122.0,
+          436.0,
+          886.0,
+          641.0
+        ],
+        "source_type": "text",
+        "source_sentence": "In order to prepare copolyhydrazides with the radicals derived from oxalyl, malonyl, succinyl, and glutaryl chloride, it was necessary to prepare the corresponding dihydrazide and to react this with a diacid chloride."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.91
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe034",
+      "polymer_name": "aliphatic or mixed polyhydrazides",
+      "polymer_type": "homopolymer",
+      "variant_of": "pe001",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "aliphatic or mixed polyhydrazides"
+      ],
+      "resolved_from_mentions": [
+        "m051"
+      ],
+      "evidence": {
+        "block_id": "P_5_44",
+        "page": 5,
+        "bbox": [
+          122.0,
+          640.0,
+          886.0,
+          777.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Similarly, as shown in Table II, other film-forming aliphatic or mixed polyhydrazides were obtained only by the new synthesis."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.82
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe035",
+      "polymer_name": "copolyhydrazides",
+      "polymer_type": "copolymer",
+      "variant_of": "pe001",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "copolyhydrazides"
+      ],
+      "resolved_from_mentions": [
+        "m052"
+      ],
+      "evidence": {
+        "block_id": "P_5_46",
+        "page": 5,
+        "bbox": [
+          122.0,
+          812.0,
+          886.0,
+          898.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Generally all of the copolyhydrazides (aliphatic-aromatic and oxalic-aromatic) are soluble in hot, and many in cold dimethyl sulfoxide."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.84
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe036",
+      "polymer_name": "0-I/0-6",
+      "polymer_type": "copolymer",
+      "variant_of": "pe033",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "0-I/0-6"
+      ],
+      "resolved_from_mentions": [
+        "m055",
+        "m058"
+      ],
+      "evidence": {
+        "block_id": "P_6_49",
+        "page": 6,
+        "bbox": [
+          90.0,
+          114.0,
+          854.0,
+          303.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The polymer solubility in a series of copolyhydrazides of 0-I/0-6 ranging in mole composition from 0.00/1.00 to 1.00/0.00, was found to vary markedly as the composition was varied."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.94
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe037",
+      "polymer_name": "0-I",
+      "polymer_type": "homopolymer",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "0-I"
+      ],
+      "resolved_from_mentions": [
+        "m056"
+      ],
+      "evidence": {
+        "block_id": "P_6_49",
+        "page": 6,
+        "bbox": [
+          90.0,
+          114.0,
+          854.0,
+          303.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The melting point-composition curve indicates that 0-I and 0-6 are isomorphous."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.82
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe038",
+      "polymer_name": "oxalic-aromatic polyhydrazides",
+      "polymer_type": "homopolymer",
+      "variant_of": "pe001",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "oxalic-aromatic polyhydrazides"
+      ],
+      "resolved_from_mentions": [
+        "m059"
+      ],
+      "evidence": {
+        "block_id": "P_6_51",
+        "page": 6,
+        "bbox": [
+          94.0,
+          512.0,
+          851.0,
+          548.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Of structural interest are the oxalic-aromatic polyhydrazides."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.93
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe039",
+      "polymer_name": "monomeric polyhydrazides",
+      "polymer_type": "homopolymer",
+      "variant_of": "pe001",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "monomeric polyhydrazides",
+        "polyhydrazides"
+      ],
+      "resolved_from_mentions": [
+        "m060",
+        "m062"
+      ],
+      "evidence": {
+        "block_id": "P_6_55",
+        "page": 6,
+        "bbox": [
+          92.0,
+          628.0,
+          856.0,
+          818.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Dehydrations of a variety of monomeric polyhydrazides to give 2,5-disubstituted 1,3,4-oxadiazoles have been studied by Stolle."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.94
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe040",
+      "polymer_name": "poly(1,3,4-oxadiazoles)",
+      "polymer_type": "homopolymer",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "poly(1,3,4-oxadiazoles)"
+      ],
+      "resolved_from_mentions": [
+        "m061"
+      ],
+      "evidence": {
+        "block_id": "P_6_55",
+        "page": 6,
+        "bbox": [
+          92.0,
+          628.0,
+          856.0,
+          818.0
+        ],
+        "source_type": "text",
+        "source_sentence": "$^{1}$  We have applied this reaction quantitatively to prepare poly(1,3,4-oxadiazoles),  $^{14}$  but it seems appropriate to mention briefly the implications of this reaction which may occur as side reaction, when polyhydrazides are dried at elevated temperatures."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.92
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe041",
+      "polymer_name": "polyoxadiazole",
+      "polymer_type": "homopolymer",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "polyoxadiazole"
+      ],
+      "resolved_from_mentions": [
+        "m063",
+        "m066"
+      ],
+      "evidence": {
+        "block_id": "P_6_55",
+        "page": 6,
+        "bbox": [
+          92.0,
+          628.0,
+          856.0,
+          818.0
+        ],
+        "source_type": "text",
+        "source_sentence": "For example, the polyhydrazide from sebacyl chloride and sebacic dihydrazide, 0–10, showed a noticeable tendency to lose water of reaction and change, at least partially into a polyoxadiazole structure [eq. (2)] upon drying above 150°C. (N  $_{2}$ )."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.84
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe042",
+      "polymer_name": "oxalic acid containing polyhydrazides",
+      "polymer_type": "homopolymer",
+      "variant_of": "pe001",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "oxalic acid containing polyhydrazides"
+      ],
+      "resolved_from_mentions": [
+        "m065"
+      ],
+      "evidence": {
+        "block_id": "P_7_59",
+        "page": 7,
+        "bbox": [
+          131.0,
+          116.0,
+          891.0,
+          204.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Similar microanalytical evidence may be obtained for a change of oxalic acid containing polyhydrazides into the corresponding oxadiazoles."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.91
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe043",
+      "polymer_name": "aliphatic and aromatic polyhydrazides",
+      "polymer_type": "homopolymer",
+      "variant_of": "pe001",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "aliphatic and aromatic polyhydrazides"
+      ],
+      "resolved_from_mentions": [
+        "m067"
+      ],
+      "evidence": {
+        "block_id": "P_7_62",
+        "page": 7,
+        "bbox": [
+          129.0,
+          292.0,
+          891.0,
+          345.0
+        ],
+        "source_type": "text",
+        "source_sentence": "oxadiazole rings that separate the aliphatic or aromatic portion. This difference in reactivity and structure makes it advisable to distinguish aliphatic and aromatic polyhydrazides from those containing oxalic acid."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.82
+      },
+      "copolymer_type": null
+    }
+  ],
+  "unresolved_mention_ids": [],
+  "provenance": {
+    "stage": "stage2_polymer_entity",
+    "provider": "dmx",
+    "model": "gpt-5.6-terra-2026-07-09",
+    "models": [
+      "gpt-5.6-terra-2026-07-09"
+    ],
+    "prompt_id": "polymer.stage2.polymer_entity",
+    "prompt_version": "1.3.0",
+    "prompt_sha256": "0d376da340b979a77fcd231e0148cc26c8b9d125f7209025c7055483abb7d7e1",
+    "input_hash": "ba27e1a83f705acc0712d7caac2cbbdead4285116a2d5904e23bc35aa32a1ef2",
+    "model_config_hash": "c9e96c2514956e7b4b65eae3d327d34f95b7a33876cec6d4aa56f95eb79a9b50",
+    "cache_key": "04b2e747584cd9d0c9f7d3bc1091a546f4a49b0f336a97170d587f60f5e9e300",
+    "output_schema_version": "polymer_entity_schema.v3",
+    "implementation_version": "1.4.0",
+    "context_block_count": 39,
+    "context_chars": 22181,
+    "call_count": 1,
+    "usage": {
+      "input_tokens": 16271,
+      "output_tokens": 6666,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "billable_input_tokens": 16271,
+      "total_tokens": 22937
+    },
+    "cost": {
+      "status": "calculated",
+      "currency": "CNY",
+      "input_per_million": "17",
+      "output_per_million": "101",
+      "input_cost": "0.276607",
+      "output_cost": "0.673266",
+      "total_cost": "0.949873"
+    },
+    "status": "success"
+  },
+  "warnings": [
+    {
+      "stage": "stage2_polymer_entity",
+      "code": "preview_nested_mentions_split_retained",
+      "message": "Preview 模式已保留无法确定合并关系的嵌套 mention 拆分；需在正式数据中复核",
+      "items": [
+        {
+          "shorter_mention_id": "m056",
+          "longer_mention_id": "m055",
+          "shorter_assignment": "pe037",
+          "longer_assignment": "pe036"
+        },
+        {
+          "shorter_mention_id": "m057",
+          "longer_mention_id": "m055",
+          "shorter_assignment": "pe015",
+          "longer_assignment": "pe036"
+        }
+      ]
+    },
+    {
+      "stage": "stage2_polymer_entity",
+      "code": "polymer_type_default_inferred",
+      "message": "Backfill：无共聚或共混反证的实体已推断为 homopolymer",
+      "items": [
+        {
+          "entity_id": "pe001",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe002",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe003",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe004",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe007",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe008",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe009",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe011",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe012",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe013",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe014",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe015",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe016",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe017",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe018",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe019",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe020",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe021",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe022",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe023",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe025",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe026",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe027",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe028",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe029",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe030",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe031",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe032",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe034",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe037",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe038",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe039",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe040",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe041",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe042",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe043",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        }
+      ],
+      "backfill": true
+    }
+  ]
+}

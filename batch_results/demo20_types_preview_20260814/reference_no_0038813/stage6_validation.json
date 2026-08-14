@@ -1,0 +1,251 @@
+{
+  "schema_version": "1.0",
+  "document_id": "reference_no_0038813",
+  "status": "passed_with_warnings",
+  "error_count": 0,
+  "warning_count": 37,
+  "errors": [],
+  "warnings": [
+    {
+      "stage": "stage0",
+      "code": "metadata_extraction_failed",
+      "message": "未配置统一 LLM 元数据提取器；document JSON 已继续生成"
+    },
+    {
+      "stage": "stage2_polymer_entity",
+      "code": "polymer_type_default_inferred",
+      "message": "Backfill：无共聚或共混反证的实体已推断为 homopolymer"
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "parameters_not_in_source",
+      "message": "无法定位到 evidence 原文的参数已舍弃"
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "unresolved_entities",
+      "message": "7 个 entity 未解析到实际样品"
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "samples_without_entity",
+      "message": "部分样品无法可靠关联 PolymerEntity"
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "sample_polymer_type_backfilled_from_entity",
+      "message": "Backfill：Sample 已采用关联 PolymerEntity 的类型"
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "material_type_default_inferred",
+      "message": "Backfill：无第二组分反证的样品已推断为 neat_resin"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "multi_subject_series_normalized",
+      "message": "PropertySeries 的 points 明确属于多个 Sample/PolymerEntity；已清除错误的单一顶层主体，主体关系保留在各 point"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "candidate_table_locator_surface_repaired",
+      "message": "模型 locator 表面文本不在表格原文；已用 property raw 与 determination method 中唯一匹配的 Stage 0 表头恢复"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "condition_table_locators_synthesized",
+      "message": "已将唯一包含条件 raw 的表头单元格绑定为条件 evidence"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "series_method_evidence_supplemented",
+      "message": "Series determination method 不在 point 表格 evidence；已补入全文中唯一的完全匹配原文 block"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "series_multimethod_downgraded",
+      "message": "Series 跨多种测定方法，无法保存为单一逐字 raw 字段；已置 null 并保留方法原文证据"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "series_context_evidence_supplemented",
+      "message": "Series/point measurement context 不在数值表格 evidence；已补入全文中唯一的完全匹配原文 block"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "preview_semantic_validation_bypassed",
+      "message": "Preview 已保留 Schema 合法候选，并跳过原文/evidence 语义对应校验；Strict 模式仍会报错"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "preview_objects_salvaged",
+      "message": "Preview 已逐对象保留可安全物化的数据；坏字段、坏对象或失效引用已局部删除，Strict 模式仍会报错"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "unresolved_properties",
+      "message": "2 条性质无法可靠关联具体 Sample"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "stage4r_preview_table_recovery",
+      "message": "Stage 4R Preview 确定性补入 8 个表格性质格；样品归属保留 unresolved。"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "stage4r_unique_sample_label_resolved",
+      "message": "Stage 4R 按唯一 Stage 3 sample_label_raw 确定性归属 8 条性质。"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unlocatable_additional_evidence_removed",
+      "message": "Preview 模式已移除无法回定位到 Stage 0 block 的附加 Characterization evidence"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_characterization_details_cleared",
+      "message": "Preview 模式已清空无对象 evidence 支撑的可选表征细节"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "series_point_subject_scope_inherited",
+      "message": "Characterization 已从关联且主体范围一致的跨主体 Series points 继承完整主体范围"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "derived_property_back_reference_completed",
+      "message": "Stage 5 property 已明确引用唯一 Characterization；已补齐其 derived_property_ids 反向引用"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_semantic_validation_bypassed",
+      "message": "Preview 已保留 Schema 合法候选，并跳过原文/evidence 语义对应校验；Strict 模式仍会报错"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "unresolved_characterizations",
+      "message": "1 条表征无法可靠关联具体 Sample"
+    },
+    {
+      "stage": "meta_extract",
+      "code": "paper_metadata_incomplete",
+      "message": "Paper metadata_status=failed，需人工复核"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "unused_measurement_condition",
+      "message": "MeasurementCondition 未被性质引用：['mc001', 'mc002', 'mc003', 'mc004', 'mc005', 'mc006']"
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "orphan_sample",
+      "message": "Sample 未被工艺、性质或表征引用",
+      "object_id": "s001"
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "generic_process_type",
+      "message": "ProcessStep 使用了通用 process_type=other",
+      "object_id": "ps001"
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "generic_process_type",
+      "message": "ProcessStep 使用了通用 process_type=other",
+      "object_id": "ps002"
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "generic_process_type",
+      "message": "ProcessStep 使用了通用 process_type=other",
+      "object_id": "ps003"
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "generic_process_type",
+      "message": "ProcessStep 使用了通用 process_type=other",
+      "object_id": "ps004"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "evidence_matched_after_normalization",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：词覆盖率 100.0%，内容在本块内但字符被打散",
+      "object_id": "mc003"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "table_locator_table_scope_accepted",
+      "message": "Preview 接受 Characterization 的表级 locator",
+      "object_id": "char003"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "table_locator_table_scope_accepted",
+      "message": "Preview 接受 Characterization 的表级 locator",
+      "object_id": "char004"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "table_locator_table_scope_accepted",
+      "message": "Preview 接受 Characterization 的表级 locator",
+      "object_id": "char005"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "evidence_matched_after_normalization",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：归一化后子串命中",
+      "object_id": "char006"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "evidence_matched_after_normalization",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：归一化后子串命中",
+      "object_id": "char007"
+    }
+  ],
+  "checked_counts": {
+    "stage0_blocks": 77,
+    "material_mentions": 59,
+    "polymer_entities": 16,
+    "samples": 13,
+    "process_steps": 5,
+    "measurement_conditions": 14,
+    "stage4_properties": 8,
+    "unresolved_properties": 2,
+    "property_series": 3,
+    "property_series_points": 22,
+    "characterizations": 8,
+    "stage5_properties": 2,
+    "evidence": 134,
+    "preview_published_objects": 152,
+    "preview_rejected_objects": 0,
+    "preview_reference_cleanup_count": 0
+  },
+  "quality_metrics": {
+    "properties_with_units": {
+      "complete": 9,
+      "total": 34,
+      "ratio": 0.2647058823529412
+    },
+    "standard_process_steps": {
+      "complete": 1,
+      "total": 5,
+      "ratio": 0.2
+    },
+    "stage4_methods_with_characterization": {
+      "complete": 2,
+      "total": 2,
+      "ratio": 1.0
+    },
+    "objects_with_confidence": {
+      "complete": 136,
+      "total": 152,
+      "ratio": 0.8947368421052632
+    },
+    "series_points_covered": {
+      "complete": 22,
+      "total": 22,
+      "ratio": 1.0
+    }
+  }
+}

@@ -1,0 +1,1484 @@
+{
+  "schema_version": "1.0",
+  "document_id": "reference_no_0043955",
+  "characterizations": [
+    {
+      "characterization_id": "char001",
+      "method_raw": "gel permeation chromatography (GPC) system",
+      "method_normalized": "GPC",
+      "sample_id": "s001",
+      "entity_id": "pe002",
+      "sample_resolution_status": "resolved",
+      "parameters": {
+        "solvent": "THF",
+        "calibration": "monodisperse polystyrene standards"
+      },
+      "result_summary": "P1 Mw = 31800, Mw/Mn = 1.85",
+      "derived_property_ids": [
+        "prop001",
+        "prop002"
+      ],
+      "evidence": [
+        {
+          "block_id": "P_10_132",
+          "page": 10,
+          "bbox": [
+            80.0,
+            81.0,
+            484.0,
+            295.0
+          ],
+          "source_type": "text",
+          "source_sentence": "Molecular weights (M and $M _ { \\mathrm { n } } )$and polydispersity indexes (PDI, M /M ) ofthe polymers were estimated in THF by a Waters gel permeation chromatography (GPC) system. A set of monodisperse polystyrene standards covering molecular weight range of $1 0 ^ { 3 }  – 1 0 ^ { 7 }$was used for molecular weight calibration."
+        },
+        {
+          "block_id": "P_10_141",
+          "page": 10,
+          "bbox": [
+            512.0,
+            640.0,
+            915.0,
+            731.0
+          ],
+          "source_type": "text",
+          "source_sentence": "Characterization data for P1: orange-yellow powder; yield 75.0%. $M _ { \\mathrm { w } } \\mathrm { : }$31 800; $M _ { \\mathrm { w } } / M _ { \\mathrm { n } } \\mathrm { : }$1.85 (GPC, polystyrene calibration; Table 1, no. 2)."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "characterization_id": "char002",
+      "method_raw": "GPC, polystyrene calibration",
+      "method_normalized": "GPC",
+      "sample_ids": [
+        "s004",
+        "s005"
+      ],
+      "entity_ids": [
+        "pe006",
+        "pe007"
+      ],
+      "sample_resolution_status": "multi_resolved",
+      "series_id": "series001",
+      "parameters": {
+        "calibration": "polystyrene"
+      },
+      "derived_property_ids": [],
+      "evidence": [
+        {
+          "block_id": "P_10_141",
+          "page": 10,
+          "bbox": [
+            512.0,
+            640.0,
+            915.0,
+            731.0
+          ],
+          "source_type": "text",
+          "source_sentence": "M _ { \\mathrm { w } } \\mathrm { : }$31 800; $M _ { \\mathrm { w } } / M _ { \\mathrm { n } } \\mathrm { : }$1.85 (GPC, polystyrene calibration; Table 1, no. 2)."
+        }
+      ],
+      "confidence": {
+        "score": 0.8
+      }
+    },
+    {
+      "characterization_id": "char003",
+      "method_raw": "FTIR spectra",
+      "method_normalized": "FTIR",
+      "sample_id": "s001",
+      "entity_id": "pe002",
+      "sample_resolution_status": "resolved",
+      "instrument": "Perkin-Elmer 16 PC FT-IR spectrophotometer",
+      "parameters": {},
+      "result_summary": "P1 FTIR peaks detected at 1764, 1521, 1249, 1051, 1009 cm⁻¹",
+      "derived_property_ids": [
+        "prop_s5_001",
+        "prop_s5_002",
+        "prop_s5_003",
+        "prop_s5_004",
+        "prop_s5_005"
+      ],
+      "evidence": [
+        {
+          "block_id": "P_10_132",
+          "page": 10,
+          "bbox": [
+            80.0,
+            81.0,
+            484.0,
+            295.0
+          ],
+          "source_type": "text",
+          "source_sentence": "FTIR spectra were measured on a Perkin-Elmer 16 PC FT-IR spectrophotometer."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "characterization_id": "char004",
+      "method_raw": "IR spectrum",
+      "method_normalized": "FTIR",
+      "sample_ids": [
+        "s002",
+        "s006"
+      ],
+      "entity_ids": [
+        "pe003",
+        "pe008"
+      ],
+      "sample_resolution_status": "multi_resolved",
+      "parameters": {},
+      "result_summary": "P2 has ~1780 cm⁻¹ ester carbonyl peak; P2-C*Ph(L) has 1640 cm⁻¹ amide carbonyl and ~3292 cm⁻¹ NH peaks, confirming full ester substitution",
+      "derived_property_ids": [
+        "prop_s5_006"
+      ],
+      "evidence": [
+        {
+          "block_id": "P_4_64",
+          "page": 4,
+          "bbox": [
+            80.0,
+            820.0,
+            484.0,
+            932.0
+          ],
+          "source_type": "text",
+          "source_sentence": "A representative example ofthe IR spectrum ofP2-C*Ph(L) is shown in Figure 1C."
+        }
+      ],
+      "confidence": {
+        "score": 0.85
+      }
+    },
+    {
+      "characterization_id": "char005",
+      "method_raw": "NMR",
+      "method_normalized": "NMR",
+      "sample_id": "s001",
+      "entity_id": "pe002",
+      "sample_resolution_status": "resolved",
+      "instrument": "Bruker ARX 500 NMR spectrometer",
+      "parameters": {
+        "1H NMR frequency": "500 MHz",
+        "13C NMR frequency": "125 MHz",
+        "19F NMR frequency": "125 MHz"
+      },
+      "result_summary": "P1 1H NMR peaks at 7.80, 6.79, 5.97 ppm; 13C NMR peaks at 141.7, 139.2, 138.6, 137.0, 136.0, 134.0, 132.5, 129.6, 128.1, 124.5 ppm; 19F NMR peaks at 153.0, 157.1, 162.1 ppm",
+      "derived_property_ids": [
+        "prop_s5_007",
+        "prop_s5_008",
+        "prop_s5_009",
+        "prop_s5_010",
+        "prop_s5_011",
+        "prop_s5_012",
+        "prop_s5_013",
+        "prop_s5_014",
+        "prop_s5_015",
+        "prop_s5_016",
+        "prop_s5_017",
+        "prop_s5_018",
+        "prop_s5_019",
+        "prop_s5_020",
+        "prop_s5_021",
+        "prop_s5_022"
+      ],
+      "evidence": [
+        {
+          "block_id": "P_10_132",
+          "page": 10,
+          "bbox": [
+            80.0,
+            81.0,
+            484.0,
+            295.0
+          ],
+          "source_type": "text",
+          "source_sentence": "1 } \\mathrm { H } , { } ^ { 1 3 } \\mathrm { C } ,$and $^ { 1 9 } \\mathrm { F }$NMR spectra were measured on a Bruker ARX 500 NMR spectrometer using tetramethylsilane (TMS; δ = 0 ppm) as internal standard."
+        },
+        {
+          "block_id": "P_10_141",
+          "page": 10,
+          "bbox": [
+            512.0,
+            640.0,
+            915.0,
+            731.0
+          ],
+          "source_type": "text",
+          "source_sentence": "<sup>1</sup>H NMR (500 MHz, CDCl ), δ (TMS, ppm): 7.80, 6.79, 5.97. $^ { 1 3 } \\mathrm { C }$NMR (125 MHz, DMSO-d ), δ (TMS, ppm): 141.7, 139.2, 138.6, 137.0, 136.0, 134.0, 132.5, 129.6, 128.1, 124.5. ${ } ^ { \\mathrm { i 9 } } \\mathrm { F }$NMR (125 MHz, DMSO-d ), δ (TMS, ppm): 153.0, 157.1, 162.1."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    }
+  ],
+  "properties": [
+    {
+      "property_id": "prop_s5_001",
+      "characterization_id": "char003",
+      "sample_id": "s001",
+      "entity_id": "pe002",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "1764",
+      "property_name_normalized": "ftir_peak_wavenumber",
+      "property_category": "composition_structure",
+      "value_raw": "1764",
+      "value_min": 1764.0,
+      "value_max": 1764.0,
+      "measurement_context": {
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_stage": "stage5",
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_10_141",
+          "page": 10,
+          "bbox": [
+            512.0,
+            640.0,
+            915.0,
+            731.0
+          ],
+          "source_type": "text",
+          "source_sentence": "FTIR, ν (cm\u0001<sup>1</sup>, in KBr pellet): 1764 (OCdO), 1521, 1249, 1051, 1009."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_002",
+      "characterization_id": "char003",
+      "sample_id": "s001",
+      "entity_id": "pe002",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "1521",
+      "property_name_normalized": "ftir_peak_wavenumber",
+      "property_category": "composition_structure",
+      "value_raw": "1521",
+      "value_min": 1521.0,
+      "value_max": 1521.0,
+      "measurement_context": {
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_stage": "stage5",
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_10_141",
+          "page": 10,
+          "bbox": [
+            512.0,
+            640.0,
+            915.0,
+            731.0
+          ],
+          "source_type": "text",
+          "source_sentence": "FTIR, ν (cm\u0001<sup>1</sup>, in KBr pellet): 1764 (OCdO), 1521, 1249, 1051, 1009."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_003",
+      "characterization_id": "char003",
+      "sample_id": "s001",
+      "entity_id": "pe002",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "1249",
+      "property_name_normalized": "ftir_peak_wavenumber",
+      "property_category": "composition_structure",
+      "value_raw": "1249",
+      "value_min": 1249.0,
+      "value_max": 1249.0,
+      "measurement_context": {
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_stage": "stage5",
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_10_141",
+          "page": 10,
+          "bbox": [
+            512.0,
+            640.0,
+            915.0,
+            731.0
+          ],
+          "source_type": "text",
+          "source_sentence": "FTIR, ν (cm\u0001<sup>1</sup>, in KBr pellet): 1764 (OCdO), 1521, 1249, 1051, 1009."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_004",
+      "characterization_id": "char003",
+      "sample_id": "s001",
+      "entity_id": "pe002",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "1051",
+      "property_name_normalized": "ftir_peak_wavenumber",
+      "property_category": "composition_structure",
+      "value_raw": "1051",
+      "value_min": 1051.0,
+      "value_max": 1051.0,
+      "measurement_context": {
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_stage": "stage5",
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_10_141",
+          "page": 10,
+          "bbox": [
+            512.0,
+            640.0,
+            915.0,
+            731.0
+          ],
+          "source_type": "text",
+          "source_sentence": "FTIR, ν (cm\u0001<sup>1</sup>, in KBr pellet): 1764 (OCdO), 1521, 1249, 1051, 1009."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_005",
+      "characterization_id": "char003",
+      "sample_id": "s001",
+      "entity_id": "pe002",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "1009",
+      "property_name_normalized": "ftir_peak_wavenumber",
+      "property_category": "composition_structure",
+      "value_raw": "1009",
+      "value_min": 1009.0,
+      "value_max": 1009.0,
+      "measurement_context": {
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_stage": "stage5",
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_10_141",
+          "page": 10,
+          "bbox": [
+            512.0,
+            640.0,
+            915.0,
+            731.0
+          ],
+          "source_type": "text",
+          "source_sentence": "FTIR, ν (cm\u0001<sup>1</sup>, in KBr pellet): 1764 (OCdO), 1521, 1249, 1051, 1009."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_006",
+      "characterization_id": "char004",
+      "sample_id": "s006",
+      "entity_id": "pe008",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "1640",
+      "property_name_normalized": "ftir_peak_wavenumber",
+      "property_category": "composition_structure",
+      "value_raw": "1640",
+      "value_min": 1640.0,
+      "value_max": 1640.0,
+      "measurement_context": {
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_stage": "stage5",
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_4_64",
+          "page": 4,
+          "bbox": [
+            80.0,
+            820.0,
+            484.0,
+            932.0
+          ],
+          "source_type": "text",
+          "source_sentence": "Meanwhile, there emerges a new <sub>band</sub> <sub>at</sub> <sub>1640</sub> <sub>cm</sub>\u0001<sup>1</sup><sub>,</sub> <sub>corresponding</sub> <sub>to</sub> <sub>the</sub> <sub>stretching</sub> <sub>vibrations</sub> of the carbonyl group in amide group and a broad band at ${ \\sim } 3 2 9 2 ~ \\mathrm { c m } ^ { - 1 }$, which is assignable to the stretching vibrations of N H."
+        }
+      ],
+      "confidence": {
+        "score": 0.85
+      }
+    },
+    {
+      "property_id": "prop_s5_007",
+      "characterization_id": "char005",
+      "sample_id": "s001",
+      "entity_id": "pe002",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "7.80",
+      "property_name_normalized": "nmr_chemical_shift",
+      "property_category": "composition_structure",
+      "value_raw": "7.80",
+      "value_min": 7.8,
+      "value_max": 7.8,
+      "unit_raw": "ppm",
+      "unit_normalized": "ppm",
+      "measurement_context": {
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_stage": "stage5",
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_10_141",
+          "page": 10,
+          "bbox": [
+            512.0,
+            640.0,
+            915.0,
+            731.0
+          ],
+          "source_type": "text",
+          "source_sentence": "<sup>1</sup>H NMR (500 MHz, CDCl ), δ (TMS, ppm): 7.80, 6.79, 5.97."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_008",
+      "characterization_id": "char005",
+      "sample_id": "s001",
+      "entity_id": "pe002",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "6.79",
+      "property_name_normalized": "nmr_chemical_shift",
+      "property_category": "composition_structure",
+      "value_raw": "6.79",
+      "value_min": 6.79,
+      "value_max": 6.79,
+      "unit_raw": "ppm",
+      "unit_normalized": "ppm",
+      "measurement_context": {
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_stage": "stage5",
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_10_141",
+          "page": 10,
+          "bbox": [
+            512.0,
+            640.0,
+            915.0,
+            731.0
+          ],
+          "source_type": "text",
+          "source_sentence": "<sup>1</sup>H NMR (500 MHz, CDCl ), δ (TMS, ppm): 7.80, 6.79, 5.97."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_009",
+      "characterization_id": "char005",
+      "sample_id": "s001",
+      "entity_id": "pe002",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "5.97",
+      "property_name_normalized": "nmr_chemical_shift",
+      "property_category": "composition_structure",
+      "value_raw": "5.97",
+      "value_min": 5.97,
+      "value_max": 5.97,
+      "unit_raw": "ppm",
+      "unit_normalized": "ppm",
+      "measurement_context": {
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_stage": "stage5",
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_10_141",
+          "page": 10,
+          "bbox": [
+            512.0,
+            640.0,
+            915.0,
+            731.0
+          ],
+          "source_type": "text",
+          "source_sentence": "<sup>1</sup>H NMR (500 MHz, CDCl ), δ (TMS, ppm): 7.80, 6.79, 5.97."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_010",
+      "characterization_id": "char005",
+      "sample_id": "s001",
+      "entity_id": "pe002",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "141.7",
+      "property_name_normalized": "nmr_chemical_shift",
+      "property_category": "composition_structure",
+      "value_raw": "141.7",
+      "value_min": 141.7,
+      "value_max": 141.7,
+      "unit_raw": "ppm",
+      "unit_normalized": "ppm",
+      "measurement_context": {
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_stage": "stage5",
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_10_141",
+          "page": 10,
+          "bbox": [
+            512.0,
+            640.0,
+            915.0,
+            731.0
+          ],
+          "source_type": "text",
+          "source_sentence": "1 3 } \\mathrm { C }$NMR (125 MHz, DMSO-d ), δ (TMS, ppm): 141.7, 139.2, 138.6, 137.0, 136.0, 134.0, 132.5, 129.6, 128.1, 124.5."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_011",
+      "characterization_id": "char005",
+      "sample_id": "s001",
+      "entity_id": "pe002",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "139.2",
+      "property_name_normalized": "nmr_chemical_shift",
+      "property_category": "composition_structure",
+      "value_raw": "139.2",
+      "value_min": 139.2,
+      "value_max": 139.2,
+      "unit_raw": "ppm",
+      "unit_normalized": "ppm",
+      "measurement_context": {
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_stage": "stage5",
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_10_141",
+          "page": 10,
+          "bbox": [
+            512.0,
+            640.0,
+            915.0,
+            731.0
+          ],
+          "source_type": "text",
+          "source_sentence": "1 3 } \\mathrm { C }$NMR (125 MHz, DMSO-d ), δ (TMS, ppm): 141.7, 139.2, 138.6, 137.0, 136.0, 134.0, 132.5, 129.6, 128.1, 124.5."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_012",
+      "characterization_id": "char005",
+      "sample_id": "s001",
+      "entity_id": "pe002",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "138.6",
+      "property_name_normalized": "nmr_chemical_shift",
+      "property_category": "composition_structure",
+      "value_raw": "138.6",
+      "value_min": 138.6,
+      "value_max": 138.6,
+      "unit_raw": "ppm",
+      "unit_normalized": "ppm",
+      "measurement_context": {
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_stage": "stage5",
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_10_141",
+          "page": 10,
+          "bbox": [
+            512.0,
+            640.0,
+            915.0,
+            731.0
+          ],
+          "source_type": "text",
+          "source_sentence": "1 3 } \\mathrm { C }$NMR (125 MHz, DMSO-d ), δ (TMS, ppm): 141.7, 139.2, 138.6, 137.0, 136.0, 134.0, 132.5, 129.6, 128.1, 124.5."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_013",
+      "characterization_id": "char005",
+      "sample_id": "s001",
+      "entity_id": "pe002",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "137.0",
+      "property_name_normalized": "nmr_chemical_shift",
+      "property_category": "composition_structure",
+      "value_raw": "137.0",
+      "value_min": 137.0,
+      "value_max": 137.0,
+      "unit_raw": "ppm",
+      "unit_normalized": "ppm",
+      "measurement_context": {
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_stage": "stage5",
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_10_141",
+          "page": 10,
+          "bbox": [
+            512.0,
+            640.0,
+            915.0,
+            731.0
+          ],
+          "source_type": "text",
+          "source_sentence": "1 3 } \\mathrm { C }$NMR (125 MHz, DMSO-d ), δ (TMS, ppm): 141.7, 139.2, 138.6, 137.0, 136.0, 134.0, 132.5, 129.6, 128.1, 124.5."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_014",
+      "characterization_id": "char005",
+      "sample_id": "s001",
+      "entity_id": "pe002",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "136.0",
+      "property_name_normalized": "nmr_chemical_shift",
+      "property_category": "composition_structure",
+      "value_raw": "136.0",
+      "value_min": 136.0,
+      "value_max": 136.0,
+      "unit_raw": "ppm",
+      "unit_normalized": "ppm",
+      "measurement_context": {
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_stage": "stage5",
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_10_141",
+          "page": 10,
+          "bbox": [
+            512.0,
+            640.0,
+            915.0,
+            731.0
+          ],
+          "source_type": "text",
+          "source_sentence": "1 3 } \\mathrm { C }$NMR (125 MHz, DMSO-d ), δ (TMS, ppm): 141.7, 139.2, 138.6, 137.0, 136.0, 134.0, 132.5, 129.6, 128.1, 124.5."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_015",
+      "characterization_id": "char005",
+      "sample_id": "s001",
+      "entity_id": "pe002",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "134.0",
+      "property_name_normalized": "nmr_chemical_shift",
+      "property_category": "composition_structure",
+      "value_raw": "134.0",
+      "value_min": 134.0,
+      "value_max": 134.0,
+      "unit_raw": "ppm",
+      "unit_normalized": "ppm",
+      "measurement_context": {
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_stage": "stage5",
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_10_141",
+          "page": 10,
+          "bbox": [
+            512.0,
+            640.0,
+            915.0,
+            731.0
+          ],
+          "source_type": "text",
+          "source_sentence": "1 3 } \\mathrm { C }$NMR (125 MHz, DMSO-d ), δ (TMS, ppm): 141.7, 139.2, 138.6, 137.0, 136.0, 134.0, 132.5, 129.6, 128.1, 124.5."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_016",
+      "characterization_id": "char005",
+      "sample_id": "s001",
+      "entity_id": "pe002",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "132.5",
+      "property_name_normalized": "nmr_chemical_shift",
+      "property_category": "composition_structure",
+      "value_raw": "132.5",
+      "value_min": 132.5,
+      "value_max": 132.5,
+      "unit_raw": "ppm",
+      "unit_normalized": "ppm",
+      "measurement_context": {
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_stage": "stage5",
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_10_141",
+          "page": 10,
+          "bbox": [
+            512.0,
+            640.0,
+            915.0,
+            731.0
+          ],
+          "source_type": "text",
+          "source_sentence": "1 3 } \\mathrm { C }$NMR (125 MHz, DMSO-d ), δ (TMS, ppm): 141.7, 139.2, 138.6, 137.0, 136.0, 134.0, 132.5, 129.6, 128.1, 124.5."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_017",
+      "characterization_id": "char005",
+      "sample_id": "s001",
+      "entity_id": "pe002",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "129.6",
+      "property_name_normalized": "nmr_chemical_shift",
+      "property_category": "composition_structure",
+      "value_raw": "129.6",
+      "value_min": 129.6,
+      "value_max": 129.6,
+      "unit_raw": "ppm",
+      "unit_normalized": "ppm",
+      "measurement_context": {
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_stage": "stage5",
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_10_141",
+          "page": 10,
+          "bbox": [
+            512.0,
+            640.0,
+            915.0,
+            731.0
+          ],
+          "source_type": "text",
+          "source_sentence": "1 3 } \\mathrm { C }$NMR (125 MHz, DMSO-d ), δ (TMS, ppm): 141.7, 139.2, 138.6, 137.0, 136.0, 134.0, 132.5, 129.6, 128.1, 124.5."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_018",
+      "characterization_id": "char005",
+      "sample_id": "s001",
+      "entity_id": "pe002",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "128.1",
+      "property_name_normalized": "nmr_chemical_shift",
+      "property_category": "composition_structure",
+      "value_raw": "128.1",
+      "value_min": 128.1,
+      "value_max": 128.1,
+      "unit_raw": "ppm",
+      "unit_normalized": "ppm",
+      "measurement_context": {
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_stage": "stage5",
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_10_141",
+          "page": 10,
+          "bbox": [
+            512.0,
+            640.0,
+            915.0,
+            731.0
+          ],
+          "source_type": "text",
+          "source_sentence": "1 3 } \\mathrm { C }$NMR (125 MHz, DMSO-d ), δ (TMS, ppm): 141.7, 139.2, 138.6, 137.0, 136.0, 134.0, 132.5, 129.6, 128.1, 124.5."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_019",
+      "characterization_id": "char005",
+      "sample_id": "s001",
+      "entity_id": "pe002",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "124.5",
+      "property_name_normalized": "nmr_chemical_shift",
+      "property_category": "composition_structure",
+      "value_raw": "124.5",
+      "value_min": 124.5,
+      "value_max": 124.5,
+      "unit_raw": "ppm",
+      "unit_normalized": "ppm",
+      "measurement_context": {
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_stage": "stage5",
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_10_141",
+          "page": 10,
+          "bbox": [
+            512.0,
+            640.0,
+            915.0,
+            731.0
+          ],
+          "source_type": "text",
+          "source_sentence": "1 3 } \\mathrm { C }$NMR (125 MHz, DMSO-d ), δ (TMS, ppm): 141.7, 139.2, 138.6, 137.0, 136.0, 134.0, 132.5, 129.6, 128.1, 124.5."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_020",
+      "characterization_id": "char005",
+      "sample_id": "s001",
+      "entity_id": "pe002",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "153.0",
+      "property_name_normalized": "nmr_chemical_shift",
+      "property_category": "composition_structure",
+      "value_raw": "153.0",
+      "value_min": 153.0,
+      "value_max": 153.0,
+      "unit_raw": "ppm",
+      "unit_normalized": "ppm",
+      "measurement_context": {
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_stage": "stage5",
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_10_141",
+          "page": 10,
+          "bbox": [
+            512.0,
+            640.0,
+            915.0,
+            731.0
+          ],
+          "source_type": "text",
+          "source_sentence": "\\mathrm { i 9 } } \\mathrm { F }$NMR (125 MHz, DMSO-d ), δ (TMS, ppm): 153.0, 157.1, 162.1."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_021",
+      "characterization_id": "char005",
+      "sample_id": "s001",
+      "entity_id": "pe002",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "157.1",
+      "property_name_normalized": "nmr_chemical_shift",
+      "property_category": "composition_structure",
+      "value_raw": "157.1",
+      "value_min": 157.1,
+      "value_max": 157.1,
+      "unit_raw": "ppm",
+      "unit_normalized": "ppm",
+      "measurement_context": {
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_stage": "stage5",
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_10_141",
+          "page": 10,
+          "bbox": [
+            512.0,
+            640.0,
+            915.0,
+            731.0
+          ],
+          "source_type": "text",
+          "source_sentence": "\\mathrm { i 9 } } \\mathrm { F }$NMR (125 MHz, DMSO-d ), δ (TMS, ppm): 153.0, 157.1, 162.1."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_022",
+      "characterization_id": "char005",
+      "sample_id": "s001",
+      "entity_id": "pe002",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "162.1",
+      "property_name_normalized": "nmr_chemical_shift",
+      "property_category": "composition_structure",
+      "value_raw": "162.1",
+      "value_min": 162.1,
+      "value_max": 162.1,
+      "unit_raw": "ppm",
+      "unit_normalized": "ppm",
+      "measurement_context": {
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_stage": "stage5",
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_10_141",
+          "page": 10,
+          "bbox": [
+            512.0,
+            640.0,
+            915.0,
+            731.0
+          ],
+          "source_type": "text",
+          "source_sentence": "\\mathrm { i 9 } } \\mathrm { F }$NMR (125 MHz, DMSO-d ), δ (TMS, ppm): 153.0, 157.1, 162.1."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    }
+  ],
+  "provenance": {
+    "stage": "stage5_characterization",
+    "provider": "dmx",
+    "model": "doubao-seed-2.0-pro",
+    "models": [
+      "doubao-seed-2.0-pro"
+    ],
+    "prompt_id": "polymer.stage5.characterization",
+    "prompt_version": "1.6.2",
+    "prompt_sha256": "5f918eb9d0dcbe0a4dc60a70d83c4e9f144f9a87bf68905d0a38ad22c000ee5c",
+    "vocabulary_sha256": "3e9d85e4915a729edf0f0a53821f3ee6edf32874e1da6972457417e4f13a1510",
+    "input_hash": "31da8c83b0ea28ba7ef337a1a6c78ab8c260c53ade9ba195760e04cd5cb04e28",
+    "model_config_hash": "7e14aff06827af47a7b1a797111258e33d5972d1c072111440c3b2aae020f3ce",
+    "cache_key": "80794798082e347357e166647a7a9dcfd93ea68f7d476a78c0f90df630afaf49",
+    "output_schema_version": "characterization_schema.v4",
+    "implementation_version": "1.7.1",
+    "context_block_count": 17,
+    "context_chars": 24597,
+    "call_count": 1,
+    "usage": {
+      "input_tokens": 19397,
+      "output_tokens": 15238,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "billable_input_tokens": 19397,
+      "total_tokens": 34635
+    },
+    "cost": {
+      "status": "calculated",
+      "currency": "CNY",
+      "input_per_million": "4.32",
+      "output_per_million": "29.15",
+      "input_cost": "0.08379504",
+      "output_cost": "0.4441877",
+      "total_cost": "0.52798274"
+    },
+    "status": "success"
+  },
+  "warnings": [
+    {
+      "stage": "stage5_characterization",
+      "code": "section_fallback",
+      "message": "Methods/Results 为空，仅使用上游 evidence block；结果需人工复核"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unlocatable_additional_evidence_removed",
+      "message": "Preview 模式已移除无法回定位到 Stage 0 block 的附加 Characterization evidence",
+      "field_path": "characterizations[2].evidence",
+      "block_ids": [
+        "P_10_141"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_characterization_method_surface_recovered",
+      "message": "Preview 模式已将表征方法恢复为 evidence 中唯一匹配的原文词形",
+      "field_path": "characterizations[4].method_raw",
+      "method_normalized": "NMR"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_characterization_details_cleared",
+      "message": "Preview 模式已清空无对象 evidence 支撑的可选表征细节",
+      "field_path": "characterizations[0]",
+      "fields": [
+        "instrument",
+        "measurement_context"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_characterization_details_cleared",
+      "message": "Preview 模式已清空无对象 evidence 支撑的可选表征细节",
+      "field_path": "characterizations[1]",
+      "fields": [
+        "measurement_context"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_characterization_details_cleared",
+      "message": "Preview 模式已清空无对象 evidence 支撑的可选表征细节",
+      "field_path": "characterizations[2]",
+      "fields": [
+        "parameters",
+        "measurement_context"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_characterization_details_cleared",
+      "message": "Preview 模式已清空无对象 evidence 支撑的可选表征细节",
+      "field_path": "characterizations[3]",
+      "fields": [
+        "measurement_context"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_characterization_details_cleared",
+      "message": "Preview 模式已清空无对象 evidence 支撑的可选表征细节",
+      "field_path": "characterizations[4]",
+      "fields": [
+        "parameters",
+        "measurement_context"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_characterization_details_cleared",
+      "message": "Preview 模式已清空无对象 evidence 支撑的可选表征细节",
+      "field_path": "characterizations[5]",
+      "fields": [
+        "measurement_context.temperature"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[0]",
+      "property_id": "prop_s5_001",
+      "fields": [
+        "unit_raw",
+        "spectral_assignment"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[1]",
+      "property_id": "prop_s5_002",
+      "fields": [
+        "unit_raw"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[2]",
+      "property_id": "prop_s5_003",
+      "fields": [
+        "unit_raw"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[3]",
+      "property_id": "prop_s5_004",
+      "fields": [
+        "unit_raw"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[4]",
+      "property_id": "prop_s5_005",
+      "fields": [
+        "unit_raw"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_property_removed",
+      "message": "Preview 模式已移除 value_raw 无原文支撑的 Stage 5 性质",
+      "field_path": "properties[5].value_raw",
+      "property_id": "prop_s5_006"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[6]",
+      "property_id": "prop_s5_007",
+      "fields": [
+        "unit_raw",
+        "spectral_assignment"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_property_removed",
+      "message": "Preview 模式已移除 value_raw 无原文支撑的 Stage 5 性质",
+      "field_path": "properties[7].value_raw",
+      "property_id": "prop_s5_008"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[8]",
+      "property_id": "prop_s5_009",
+      "fields": [
+        "solvent"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[9]",
+      "property_id": "prop_s5_010",
+      "fields": [
+        "solvent"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[10]",
+      "property_id": "prop_s5_011",
+      "fields": [
+        "solvent"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[11]",
+      "property_id": "prop_s5_012",
+      "fields": [
+        "solvent"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[12]",
+      "property_id": "prop_s5_013",
+      "fields": [
+        "solvent"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[13]",
+      "property_id": "prop_s5_014",
+      "fields": [
+        "solvent"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[14]",
+      "property_id": "prop_s5_015",
+      "fields": [
+        "solvent"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[15]",
+      "property_id": "prop_s5_016",
+      "fields": [
+        "solvent"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[16]",
+      "property_id": "prop_s5_017",
+      "fields": [
+        "solvent"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[17]",
+      "property_id": "prop_s5_018",
+      "fields": [
+        "solvent"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[18]",
+      "property_id": "prop_s5_019",
+      "fields": [
+        "solvent"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[19]",
+      "property_id": "prop_s5_020",
+      "fields": [
+        "solvent"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[20]",
+      "property_id": "prop_s5_021",
+      "fields": [
+        "solvent"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[21]",
+      "property_id": "prop_s5_022",
+      "fields": [
+        "solvent"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[22]",
+      "property_id": "prop_s5_023",
+      "fields": [
+        "solvent"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[23]",
+      "property_id": "prop_s5_024",
+      "fields": [
+        "solvent"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "series_point_subject_scope_inherited",
+      "message": "Characterization 已从关联且主体范围一致的跨主体 Series points 继承完整主体范围",
+      "field_path": "characterizations[1]",
+      "series_ids": [
+        "series001"
+      ],
+      "sample_ids": [
+        "s004",
+        "s005"
+      ],
+      "entity_ids": [
+        "pe006",
+        "pe007"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unscoped_stage5_items_removed",
+      "message": "Preview 模式已移除无法唯一关联任何单/多主体的 Stage 5 表征及其派生性质；未猜测 entity_id",
+      "characterization_ids": [
+        "char006"
+      ],
+      "property_ids": []
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_property_subject_subscope_retained",
+      "message": "Preview 模式已保留多主体 Characterization 下的明确单主体性质；需在正式数据中复核",
+      "items": [
+        {
+          "property_id": "prop_s5_007",
+          "characterization_id": "char004",
+          "sample_id": "s006",
+          "entity_id": "pe008"
+        }
+      ]
+    }
+  ]
+}

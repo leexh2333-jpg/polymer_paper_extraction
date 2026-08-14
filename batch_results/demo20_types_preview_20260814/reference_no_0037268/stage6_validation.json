@@ -1,0 +1,252 @@
+{
+  "schema_version": "1.0",
+  "document_id": "reference_no_0037268",
+  "status": "passed_with_warnings",
+  "error_count": 0,
+  "warning_count": 37,
+  "errors": [],
+  "warnings": [
+    {
+      "stage": "stage0",
+      "code": "metadata_extraction_failed",
+      "message": "未配置统一 LLM 元数据提取器；document JSON 已继续生成"
+    },
+    {
+      "stage": "stage1_material_mention",
+      "code": "mention_surface_recovered",
+      "message": "mention 表面文本已恢复为 evidence 中的原文形式（唯一匹配，多候选时不修复）"
+    },
+    {
+      "stage": "stage2_polymer_entity",
+      "code": "component_blend_nested_mentions_split",
+      "message": "组分名称与包含该名称的 blend 实体已保留为不同实体"
+    },
+    {
+      "stage": "stage2_polymer_entity",
+      "code": "polymer_type_default_inferred",
+      "message": "Backfill：无共聚或共混反证的实体已推断为 homopolymer"
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "state_description_replaced_with_evidence",
+      "message": "无标签 Sample 的 state_description 无法逐字定位；已使用验证后的完整 evidence.source_sentence"
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "sample_evidence_relinked",
+      "message": "样品标签仅在一个输入 block 中出现，已重定位 evidence"
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "unsupported_sample_labels_dropped",
+      "message": "sample_label_raw 无法在 evidence 中定位；已有逐字 state_description，故删除无依据标签"
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "parameters_not_in_source",
+      "message": "无法定位到 evidence 原文的参数已舍弃"
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "unresolved_entities",
+      "message": "8 个 entity 未解析到实际样品"
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "unresolved_entities_completed",
+      "message": "模型遗漏了 entity 覆盖清单；已将没有任何 Sample 引用的已知 entity 确定性补入 unresolved_entity_ids"
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "samples_without_entity",
+      "message": "部分样品无法可靠关联 PolymerEntity"
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "sample_polymer_type_backfilled_from_entity",
+      "message": "Backfill：Sample 已采用关联 PolymerEntity 的类型"
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "sample_polymer_type_process_inferred",
+      "message": "Backfill：已按配方输入或成分保持工艺补全 polymer_type"
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "material_type_evidence_inferred",
+      "message": "Backfill：已按明确配方或增强组分证据补全 material_type"
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "material_type_process_inherited",
+      "message": "Backfill：成分保持工艺输出已继承一致输入 material_type"
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "material_type_default_inferred",
+      "message": "Backfill：无第二组分反证的样品已推断为 neat_resin"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "multi_subject_series_normalized",
+      "message": "PropertySeries 的 points 明确属于多个 Sample/PolymerEntity；已清除错误的单一顶层主体，主体关系保留在各 point"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "candidate_table_locator_surface_repaired",
+      "message": "模型 locator 表面文本不在表格原文；已用 property raw 与 determination method 中唯一匹配的 Stage 0 表头恢复"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "preview_semantic_validation_bypassed",
+      "message": "Preview 已保留 Schema 合法候选，并跳过原文/evidence 语义对应校验；Strict 模式仍会报错"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "preview_objects_salvaged",
+      "message": "Preview 已逐对象保留可安全物化的数据；坏字段、坏对象或失效引用已局部删除，Strict 模式仍会报错"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "unresolved_properties",
+      "message": "2 条性质无法可靠关联具体 Sample"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "stage4r_preview_table_recovery",
+      "message": "Stage 4R Preview 确定性补入 43 个表格性质格；样品归属保留 unresolved。"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "stage4r_unique_sample_label_resolved",
+      "message": "Stage 4R 按唯一 Stage 3 sample_label_raw 确定性归属 24 条性质。"
+    },
+    {
+      "stage": "meta_extract",
+      "code": "paper_metadata_incomplete",
+      "message": "Paper metadata_status=failed，需人工复核"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "unused_measurement_condition",
+      "message": "MeasurementCondition 未被性质引用：['mc003']"
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "orphan_sample",
+      "message": "Sample 未被工艺、性质或表征引用",
+      "object_id": "s008"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "missing_characterization",
+      "message": "Stage 4 property 已报告测定方法，但缺少同一样品的 Characterization 回链",
+      "object_id": "prop005"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "missing_characterization",
+      "message": "Unresolved Stage 4 property 已报告测定方法，但缺少同一实体的 Characterization 回链",
+      "object_id": "uprop001"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "missing_characterization",
+      "message": "Unresolved Stage 4 property 已报告测定方法，但缺少同一实体的 Characterization 回链",
+      "object_id": "uprop002"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "table_locator_matched",
+      "message": "table_locator.row_label='25-75% AP-PCL / ----' 与表格原文表示不同，但单元格可确定性定位：按 cell_id 精确命中",
+      "object_id": "mc004"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "table_locator_matched",
+      "message": "table_locator.row_label='25-75% AP-PCL / ----' 与表格原文表示不同，但单元格可确定性定位：按 cell_id 精确命中",
+      "object_id": "mc005"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "table_locator_matched",
+      "message": "table_locator.row_label='25-75% AP-PCL / ----' 与表格原文表示不同，但单元格可确定性定位：按 cell_id 精确命中",
+      "object_id": "mc006"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "table_locator_matched",
+      "message": "table_locator.row_label='75-25% AP-PCL / ----' 与表格原文表示不同，但单元格可确定性定位：按 cell_id 精确命中",
+      "object_id": "mc010"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "table_locator_matched",
+      "message": "table_locator.row_label='75-25% AP-PCL / ----' 与表格原文表示不同，但单元格可确定性定位：按 cell_id 精确命中",
+      "object_id": "mc011"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "table_locator_matched",
+      "message": "table_locator.row_label='75-25% AP-PCL / ----' 与表格原文表示不同，但单元格可确定性定位：按 cell_id 精确命中",
+      "object_id": "mc012"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "table_locator_matched",
+      "message": "table_locator.row_label='100% Poly (ε-caprolactone) (PCL) / ----' 与表格原文表示不同，但单元格可确定性定位：按 cell_id 精确命中",
+      "object_id": "uprop006"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "table_locator_matched",
+      "message": "table_locator.row_label='100% Poly (ε-caprolactone) (PCL) / ----' 与表格原文表示不同，但单元格可确定性定位：按 cell_id 精确命中",
+      "object_id": "uprop007"
+    }
+  ],
+  "checked_counts": {
+    "stage0_blocks": 126,
+    "material_mentions": 122,
+    "polymer_entities": 22,
+    "samples": 22,
+    "process_steps": 7,
+    "measurement_conditions": 27,
+    "stage4_properties": 29,
+    "unresolved_properties": 21,
+    "property_series": 1,
+    "property_series_points": 2,
+    "characterizations": 3,
+    "stage5_properties": 0,
+    "evidence": 151,
+    "preview_published_objects": 256,
+    "preview_rejected_objects": 0,
+    "preview_reference_cleanup_count": 0
+  },
+  "quality_metrics": {
+    "properties_with_units": {
+      "complete": 52,
+      "total": 52,
+      "ratio": 1.0
+    },
+    "standard_process_steps": {
+      "complete": 7,
+      "total": 7,
+      "ratio": 1.0
+    },
+    "stage4_methods_with_characterization": {
+      "complete": 4,
+      "total": 7,
+      "ratio": 0.5714285714285714
+    },
+    "objects_with_confidence": {
+      "complete": 189,
+      "total": 256,
+      "ratio": 0.73828125
+    },
+    "series_points_covered": {
+      "complete": 2,
+      "total": 2,
+      "ratio": 1.0
+    }
+  }
+}

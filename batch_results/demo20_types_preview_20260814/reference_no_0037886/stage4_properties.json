@@ -1,0 +1,1172 @@
+{
+  "schema_version": "1.0",
+  "document_id": "reference_no_0037886",
+  "measurement_conditions": [
+    {
+      "condition_id": "mc001",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {
+        "scan_rate": "20 K min-1",
+        "purge_gas": "nitrogen",
+        "temperature_range": "308–523 K"
+      },
+      "other_condition_evidence": {},
+      "condition_status": "reported",
+      "evidence": {
+        "block_id": "P_1_23",
+        "page": 1,
+        "bbox": [
+          526.0,
+          436.0,
+          922.0,
+          573.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The glass transition temperature $( T _ { \\mathrm { g } } )$of the pure polymer was measured with a Mettler 821 calorimetric system. Polymer sample was dried under reduced pressure in a vacuum oven prior to measurement. Dry nitrogen was used as purge gas and thermogram was measured in the range 308– 523 K at a scan rate of 20 $\\mathrm { K } \\mathrm { m i n } ^ { - 1 }$.",
+        "table_locator": null
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "condition_id": "mc002",
+      "temperature": {
+        "raw": "148 to 423 K in 5-K steps",
+        "value": null,
+        "unit": null,
+        "evidence": [
+          {
+            "block_id": "P_1_25",
+            "page": 1,
+            "bbox": [
+              526.0,
+              619.0,
+              922.0,
+              773.0
+            ],
+            "source_type": "text",
+            "source_sentence": "Isothermal measurements were carried out from 148 to 423 K in 5-K steps",
+            "table_locator": null
+          }
+        ],
+        "evidence_ids": []
+      },
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {
+        "instrument": "Novocontrol Broad Band Dielectric Spectrometer, Agilent 4991A RF analyzer"
+      },
+      "other_condition_evidence": {},
+      "condition_status": "reported",
+      "evidence": {
+        "block_id": "P_1_25",
+        "page": 1,
+        "bbox": [
+          526.0,
+          619.0,
+          922.0,
+          773.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Dielectric measurements were carried out by means of a Novocontrol Broad Band Dielectric Spectrometer made up of an Alpha analyzer to carry out measurement from $1 0 ^ { - 1 } ~ \\mathrm { t o } ~ 1 0 ^ { 6 }$Hz and an Agilent 4991A RF analyzer to perform measurements from ${ 1 0 } ^ { 6 }$to ${ 1 0 } ^ { 8 }$Hz, both devices being coupled with a Quatro temperature controller. Isothermal measurements were carried out from 148 to 423 K in 5-K steps on a molded, disc-shaped (diameter of 20 and 10 mm, respectively) sample.",
+        "table_locator": null
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "condition_id": "mc003",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {
+        "force_field": "MMX",
+        "software": "PCMODEL",
+        "dielectric_constant": "1.5"
+      },
+      "other_condition_evidence": {},
+      "condition_status": "reported",
+      "evidence": {
+        "block_id": "P_1_27",
+        "page": 1,
+        "bbox": [
+          526.0,
+          818.0,
+          922.0,
+          910.0
+        ],
+        "source_type": "text",
+        "source_sentence": "MM calculations were performed using the force field method developed by Allinger and coworkers.<sup>15–18</sup>. The PC-MODEL software<sup>19</sup> was employed to carry out the calculations. It is based on an empirical force field, called MMX that is derived from MM2(P).<sup>20</sup> Parameterization of MMX has been carried out, assuming an artificial dielectric constant of 1.5.",
+        "table_locator": null
+      },
+      "confidence": {
+        "score": 0.8
+      }
+    }
+  ],
+  "properties": [
+    {
+      "property_id": "prop001",
+      "sample_id": "s003",
+      "property_name_raw": "glass transition temperature",
+      "property_name_normalized": "glass_transition_temperature",
+      "property_code": "P3110",
+      "property_category": "thermal_property",
+      "molecular_weight_type": null,
+      "determination_method_raw": "Mettler 821 calorimetric system",
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "433 K",
+      "value_min": 433.0,
+      "value_max": 433.0,
+      "unit_raw": "K",
+      "unit_normalized": "K",
+      "measurement_condition_id": "mc001",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {
+          "scan_rate": "20 K min-1",
+          "purge_gas": "nitrogen",
+          "temperature_range": "308–523 K"
+        },
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_1_23",
+          "page": 1,
+          "bbox": [
+            526.0,
+            436.0,
+            922.0,
+            573.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The glass transition temperature obtained for the P4THPMA was 433 K.",
+          "table_locator": null
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop002",
+      "sample_id": "s004",
+      "property_name_raw": "activation energy of β-relaxation",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": "Arrhenius plot",
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "68.2 ± 0.6 kJ mol⁻¹",
+      "value_min": 67.6,
+      "value_max": 68.8,
+      "unit_raw": "kJ mol⁻¹",
+      "unit_normalized": "kJ mol⁻¹",
+      "measurement_condition_id": "mc002",
+      "measurement_context": {
+        "temperature": {
+          "raw": "148 to 423 K in 5-K steps",
+          "value": null,
+          "unit": null,
+          "evidence": [
+            {
+              "block_id": "P_1_25",
+              "page": 1,
+              "bbox": [
+                526.0,
+                619.0,
+                922.0,
+                773.0
+              ],
+              "source_type": "text",
+              "source_sentence": "Isothermal measurements were carried out from 148 to 423 K in 5-K steps",
+              "table_locator": null
+            }
+          ],
+          "evidence_ids": []
+        },
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {
+          "instrument": "Novocontrol Broad Band Dielectric Spectrometer, Agilent 4991A RF analyzer"
+        },
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_4_57",
+          "page": 4,
+          "bbox": [
+            526.0,
+            727.0,
+            922.0,
+            911.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The activation energies calculated from the Arrhenius plot for each process were $6 8 . 2 \\pm 0 . 6 \\mathrm { k J } \\mathrm { m o l } ^ { - 1 }$for $\\beta -$relaxation and 48.0 ± 0.3 kJ $\\mathrm { m o l ^ { - 1 } }$for γ-relaxation.",
+          "table_locator": null
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop003",
+      "sample_id": "s004",
+      "property_name_raw": "relative free volume at Tg",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "3.1%",
+      "value_min": 3.1,
+      "value_max": 3.1,
+      "unit_raw": "%",
+      "unit_normalized": "%",
+      "measurement_condition_id": "mc002",
+      "measurement_context": {
+        "temperature": {
+          "raw": "148 to 423 K in 5-K steps",
+          "value": null,
+          "unit": null,
+          "evidence": [
+            {
+              "block_id": "P_1_25",
+              "page": 1,
+              "bbox": [
+                526.0,
+                619.0,
+                922.0,
+                773.0
+              ],
+              "source_type": "text",
+              "source_sentence": "Isothermal measurements were carried out from 148 to 423 K in 5-K steps",
+              "table_locator": null
+            }
+          ],
+          "evidence_ids": []
+        },
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {
+          "instrument": "Novocontrol Broad Band Dielectric Spectrometer, Agilent 4991A RF analyzer"
+        },
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_5_80",
+          "page": 5,
+          "bbox": [
+            526.0,
+            833.0,
+            922.0,
+            910.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The obtained value for the free volume is 3.1%.",
+          "table_locator": null
+        }
+      ],
+      "confidence": {
+        "score": 0.8
+      }
+    }
+  ],
+  "unresolved_properties": [
+    {
+      "unresolved_id": "uprop001",
+      "entity_id": "pe002",
+      "sample_id": null,
+      "property_name_raw": "activation energy of δ-relaxation",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "25–35 kJ mol⁻¹",
+      "value_min": null,
+      "value_max": null,
+      "unit_raw": null,
+      "unit_normalized": null,
+      "measurement_condition_id": null,
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "reason": "sample_not_found",
+      "evidence": [
+        {
+          "block_id": "P_3_46",
+          "page": 3,
+          "bbox": [
+            104.0,
+            540.0,
+            498.0,
+            603.0
+          ],
+          "source_type": "text",
+          "source_sentence": "This value is close to that found for other polymers structurally related, for example, polycyclohexyl methacrylate<sup>1,2</sup> and polymethylcyclohexyl methacrylate<sup>6</sup> (25–35 kJ mol-<sup>1</sup>).",
+          "table_locator": null
+        }
+      ],
+      "confidence": {
+        "score": 0.7
+      }
+    },
+    {
+      "unresolved_id": "uprop002",
+      "entity_id": "pe007",
+      "sample_id": null,
+      "property_name_raw": "relative free volume at Tg",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "~4.4%",
+      "value_min": null,
+      "value_max": null,
+      "unit_raw": null,
+      "unit_normalized": null,
+      "measurement_condition_id": null,
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "reason": "sample_not_found",
+      "evidence": [
+        {
+          "block_id": "P_5_80",
+          "page": 5,
+          "bbox": [
+            526.0,
+            833.0,
+            922.0,
+            910.0
+          ],
+          "source_type": "text",
+          "source_sentence": "This value is lower than those reported for other related polymers, i.e., P2MCHMA ( 3.6%), P3MCHMA ( 4.0%), P4MCHMA ( 5.0%), and PDMA $( \\sim 4 . 4 \\% ) ^ { 6 , 1 0 }$and close to that obtained for PCHMA $( \\sim 3 \\% ) ^ { 2 }$",
+          "table_locator": null
+        }
+      ],
+      "confidence": {
+        "score": 0.7
+      }
+    },
+    {
+      "unresolved_id": "uprop003",
+      "entity_id": "pe001",
+      "sample_id": null,
+      "property_name_raw": "electric_conductivity",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "4.003 × 10-13± 1.2 × 10-14",
+      "value_min": null,
+      "value_max": null,
+      "unit_raw": "S/cm",
+      "unit_normalized": null,
+      "measurement_condition_id": null,
+      "measurement_context": null,
+      "reason": "sample_ambiguous",
+      "evidence": [
+        {
+          "block_id": "T_6_84",
+          "page": 6,
+          "bbox": [
+            178.0,
+            90.0,
+            442.0,
+            907.0
+          ],
+          "source_type": "table",
+          "source_sentence": "4.003 × 10-13± 1.2 × 10-14",
+          "table_locator": {
+            "table_id": "T_6_84",
+            "cell_id": "T_6_84:r0001:c0001",
+            "row_index": 1,
+            "column_index": 1,
+            "row_label": null,
+            "column_label": "σ [S/cm]",
+            "cell_value": "4.003 × 10-13± 1.2 × 10-14"
+          }
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "unresolved_id": "uprop004",
+      "entity_id": "pe001",
+      "sample_id": null,
+      "property_name_raw": "electric_conductivity",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "7.58 × 10-13± 1.5 × 10-14",
+      "value_min": null,
+      "value_max": null,
+      "unit_raw": "S/cm",
+      "unit_normalized": null,
+      "measurement_condition_id": null,
+      "measurement_context": null,
+      "reason": "sample_ambiguous",
+      "evidence": [
+        {
+          "block_id": "T_6_84",
+          "page": 6,
+          "bbox": [
+            178.0,
+            90.0,
+            442.0,
+            907.0
+          ],
+          "source_type": "table",
+          "source_sentence": "7.58 × 10-13± 1.5 × 10-14",
+          "table_locator": {
+            "table_id": "T_6_84",
+            "cell_id": "T_6_84:r0002:c0001",
+            "row_index": 2,
+            "column_index": 1,
+            "row_label": null,
+            "column_label": "σ [S/cm]",
+            "cell_value": "7.58 × 10-13± 1.5 × 10-14"
+          }
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "unresolved_id": "uprop005",
+      "entity_id": "pe001",
+      "sample_id": null,
+      "property_name_raw": "electric_conductivity",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "1.389 × 10-12± 2.3 × 10-14",
+      "value_min": null,
+      "value_max": null,
+      "unit_raw": "S/cm",
+      "unit_normalized": null,
+      "measurement_condition_id": null,
+      "measurement_context": null,
+      "reason": "sample_ambiguous",
+      "evidence": [
+        {
+          "block_id": "T_6_84",
+          "page": 6,
+          "bbox": [
+            178.0,
+            90.0,
+            442.0,
+            907.0
+          ],
+          "source_type": "table",
+          "source_sentence": "1.389 × 10-12± 2.3 × 10-14",
+          "table_locator": {
+            "table_id": "T_6_84",
+            "cell_id": "T_6_84:r0003:c0001",
+            "row_index": 3,
+            "column_index": 1,
+            "row_label": null,
+            "column_label": "σ [S/cm]",
+            "cell_value": "1.389 × 10-12± 2.3 × 10-14"
+          }
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "unresolved_id": "uprop006",
+      "entity_id": "pe001",
+      "sample_id": null,
+      "property_name_raw": "electric_conductivity",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "2.444 × 10-12± 1.8 × 10-14",
+      "value_min": null,
+      "value_max": null,
+      "unit_raw": "S/cm",
+      "unit_normalized": null,
+      "measurement_condition_id": null,
+      "measurement_context": null,
+      "reason": "sample_ambiguous",
+      "evidence": [
+        {
+          "block_id": "T_6_84",
+          "page": 6,
+          "bbox": [
+            178.0,
+            90.0,
+            442.0,
+            907.0
+          ],
+          "source_type": "table",
+          "source_sentence": "2.444 × 10-12± 1.8 × 10-14",
+          "table_locator": {
+            "table_id": "T_6_84",
+            "cell_id": "T_6_84:r0004:c0001",
+            "row_index": 4,
+            "column_index": 1,
+            "row_label": null,
+            "column_label": "σ [S/cm]",
+            "cell_value": "2.444 × 10-12± 1.8 × 10-14"
+          }
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "unresolved_id": "uprop007",
+      "entity_id": "pe001",
+      "sample_id": null,
+      "property_name_raw": "electric_conductivity",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "4.17 × 10-12± 8.6 × 10-14",
+      "value_min": null,
+      "value_max": null,
+      "unit_raw": "S/cm",
+      "unit_normalized": null,
+      "measurement_condition_id": null,
+      "measurement_context": null,
+      "reason": "sample_ambiguous",
+      "evidence": [
+        {
+          "block_id": "T_6_84",
+          "page": 6,
+          "bbox": [
+            178.0,
+            90.0,
+            442.0,
+            907.0
+          ],
+          "source_type": "table",
+          "source_sentence": "4.17 × 10-12± 8.6 × 10-14",
+          "table_locator": {
+            "table_id": "T_6_84",
+            "cell_id": "T_6_84:r0005:c0001",
+            "row_index": 5,
+            "column_index": 1,
+            "row_label": null,
+            "column_label": "σ [S/cm]",
+            "cell_value": "4.17 × 10-12± 8.6 × 10-14"
+          }
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "unresolved_id": "uprop008",
+      "entity_id": "pe001",
+      "sample_id": null,
+      "property_name_raw": "electric_conductivity",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "6.84 × 10-12± 9.3 × 10-14",
+      "value_min": null,
+      "value_max": null,
+      "unit_raw": "S/cm",
+      "unit_normalized": null,
+      "measurement_condition_id": null,
+      "measurement_context": null,
+      "reason": "sample_ambiguous",
+      "evidence": [
+        {
+          "block_id": "T_6_84",
+          "page": 6,
+          "bbox": [
+            178.0,
+            90.0,
+            442.0,
+            907.0
+          ],
+          "source_type": "table",
+          "source_sentence": "6.84 × 10-12± 9.3 × 10-14",
+          "table_locator": {
+            "table_id": "T_6_84",
+            "cell_id": "T_6_84:r0006:c0001",
+            "row_index": 6,
+            "column_index": 1,
+            "row_label": null,
+            "column_label": "σ [S/cm]",
+            "cell_value": "6.84 × 10-12± 9.3 × 10-14"
+          }
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "unresolved_id": "uprop009",
+      "entity_id": "pe001",
+      "sample_id": null,
+      "property_name_raw": "electric_conductivity",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "1.09 × 10-11± 1.6 × 10-13",
+      "value_min": null,
+      "value_max": null,
+      "unit_raw": "S/cm",
+      "unit_normalized": null,
+      "measurement_condition_id": null,
+      "measurement_context": null,
+      "reason": "sample_ambiguous",
+      "evidence": [
+        {
+          "block_id": "T_6_84",
+          "page": 6,
+          "bbox": [
+            178.0,
+            90.0,
+            442.0,
+            907.0
+          ],
+          "source_type": "table",
+          "source_sentence": "1.09 × 10-11± 1.6 × 10-13",
+          "table_locator": {
+            "table_id": "T_6_84",
+            "cell_id": "T_6_84:r0007:c0001",
+            "row_index": 7,
+            "column_index": 1,
+            "row_label": null,
+            "column_label": "σ [S/cm]",
+            "cell_value": "1.09 × 10-11± 1.6 × 10-13"
+          }
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "unresolved_id": "uprop010",
+      "entity_id": "pe001",
+      "sample_id": null,
+      "property_name_raw": "electric_conductivity",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "1.68 × 10-11± 2.5 × 10-13",
+      "value_min": null,
+      "value_max": null,
+      "unit_raw": "S/cm",
+      "unit_normalized": null,
+      "measurement_condition_id": null,
+      "measurement_context": null,
+      "reason": "sample_ambiguous",
+      "evidence": [
+        {
+          "block_id": "T_6_84",
+          "page": 6,
+          "bbox": [
+            178.0,
+            90.0,
+            442.0,
+            907.0
+          ],
+          "source_type": "table",
+          "source_sentence": "1.68 × 10-11± 2.5 × 10-13",
+          "table_locator": {
+            "table_id": "T_6_84",
+            "cell_id": "T_6_84:r0008:c0001",
+            "row_index": 8,
+            "column_index": 1,
+            "row_label": null,
+            "column_label": "σ [S/cm]",
+            "cell_value": "1.68 × 10-11± 2.5 × 10-13"
+          }
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "unresolved_id": "uprop011",
+      "entity_id": "pe001",
+      "sample_id": null,
+      "property_name_raw": "electric_conductivity",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "2.56 × 10-11± 4 × 10-13",
+      "value_min": null,
+      "value_max": null,
+      "unit_raw": "S/cm",
+      "unit_normalized": null,
+      "measurement_condition_id": null,
+      "measurement_context": null,
+      "reason": "sample_ambiguous",
+      "evidence": [
+        {
+          "block_id": "T_6_84",
+          "page": 6,
+          "bbox": [
+            178.0,
+            90.0,
+            442.0,
+            907.0
+          ],
+          "source_type": "table",
+          "source_sentence": "2.56 × 10-11± 4 × 10-13",
+          "table_locator": {
+            "table_id": "T_6_84",
+            "cell_id": "T_6_84:r0009:c0001",
+            "row_index": 9,
+            "column_index": 1,
+            "row_label": null,
+            "column_label": "σ [S/cm]",
+            "cell_value": "2.56 × 10-11± 4 × 10-13"
+          }
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "unresolved_id": "uprop012",
+      "entity_id": "pe001",
+      "sample_id": null,
+      "property_name_raw": "electric_conductivity",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "3.8 × 10-11± 6.2 × 10-13",
+      "value_min": null,
+      "value_max": null,
+      "unit_raw": "S/cm",
+      "unit_normalized": null,
+      "measurement_condition_id": null,
+      "measurement_context": null,
+      "reason": "sample_ambiguous",
+      "evidence": [
+        {
+          "block_id": "T_6_84",
+          "page": 6,
+          "bbox": [
+            178.0,
+            90.0,
+            442.0,
+            907.0
+          ],
+          "source_type": "table",
+          "source_sentence": "3.8 × 10-11± 6.2 × 10-13",
+          "table_locator": {
+            "table_id": "T_6_84",
+            "cell_id": "T_6_84:r0010:c0001",
+            "row_index": 10,
+            "column_index": 1,
+            "row_label": null,
+            "column_label": "σ [S/cm]",
+            "cell_value": "3.8 × 10-11± 6.2 × 10-13"
+          }
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "unresolved_id": "uprop013",
+      "entity_id": "pe001",
+      "sample_id": null,
+      "property_name_raw": "electric_conductivity",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "5.56 × 10-11± 9.5 × 10-13",
+      "value_min": null,
+      "value_max": null,
+      "unit_raw": "S/cm",
+      "unit_normalized": null,
+      "measurement_condition_id": null,
+      "measurement_context": null,
+      "reason": "sample_ambiguous",
+      "evidence": [
+        {
+          "block_id": "T_6_84",
+          "page": 6,
+          "bbox": [
+            178.0,
+            90.0,
+            442.0,
+            907.0
+          ],
+          "source_type": "table",
+          "source_sentence": "5.56 × 10-11± 9.5 × 10-13",
+          "table_locator": {
+            "table_id": "T_6_84",
+            "cell_id": "T_6_84:r0011:c0001",
+            "row_index": 11,
+            "column_index": 1,
+            "row_label": null,
+            "column_label": "σ [S/cm]",
+            "cell_value": "5.56 × 10-11± 9.5 × 10-13"
+          }
+        }
+      ],
+      "confidence": null
+    }
+  ],
+  "property_series": [
+    {
+      "series_id": "series001",
+      "sample_id": "s004",
+      "entity_id": "pe001",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "m_β",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "unit_raw": null,
+      "unit_normalized": null,
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "points": [
+        {
+          "point_id": "pt001",
+          "observation_role": "series_point",
+          "sample_id": "s004",
+          "entity_id": "pe001",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "f",
+              "value_raw": "52.2",
+              "unit_raw": "Hz",
+              "evidence": {
+                "block_id": "T_3_48",
+                "page": 3,
+                "bbox": [
+                  104.0,
+                  643.0,
+                  922.0,
+                  904.0
+                ],
+                "source_type": "table",
+                "source_sentence": "Table 1. Fuoss-Kirkwood Parameters ofSubvitreous Zone and the Relaxation Strengths Evaluated as $\\begin{array} { r } { \\Delta \\varepsilon _ { i } \\ = \\ \\frac { 2 \\varepsilon _ { \\mathrm { m a x } , i } ^ { \\prime \\prime } } { m _ { i } } . } \\end{array}$",
+                "table_locator": {
+                  "table_id": "T_3_48",
+                  "row_label": "52.2",
+                  "column_label": "$f$ (Hz)",
+                  "cell_value": "52.2",
+                  "cell_id": "T_3_48:r0001:c0000",
+                  "row_index": 1,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "0.156 ± 0.002",
+          "value_min": 0.154,
+          "value_max": 0.158,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_3_48",
+              "page": 3,
+              "bbox": [
+                104.0,
+                643.0,
+                922.0,
+                904.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 1. Fuoss-Kirkwood Parameters ofSubvitreous Zone and the Relaxation Strengths Evaluated as $\\begin{array} { r } { \\Delta \\varepsilon _ { i } \\ = \\ \\frac { 2 \\varepsilon _ { \\mathrm { m a x } , i } ^ { \\prime \\prime } } { m _ { i } } . } \\end{array}$",
+              "table_locator": {
+                "table_id": "T_3_48",
+                "row_label": "52.2",
+                "column_label": "$m_{\\beta}$",
+                "cell_value": "$0.156 \\pm 0.002$",
+                "cell_id": "T_3_48:r0001:c0002",
+                "row_index": 1,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        }
+      ],
+      "coverage": {
+        "expected": 1,
+        "covered": 1,
+        "missing": 0,
+        "not_applicable": 0,
+        "ratio": 1.0
+      },
+      "evidence": [
+        {
+          "block_id": "T_3_48",
+          "page": 3,
+          "bbox": [
+            104.0,
+            643.0,
+            922.0,
+            904.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table 1. Fuoss-Kirkwood Parameters ofSubvitreous Zone and the Relaxation Strengths Evaluated as $\\begin{array} { r } { \\Delta \\varepsilon _ { i } \\ = \\ \\frac { 2 \\varepsilon _ { \\mathrm { m a x } , i } ^ { \\prime \\prime } } { m _ { i } } . } \\end{array}$",
+          "table_locator": {
+            "table_id": "T_3_48",
+            "row_label": "52.2",
+            "column_label": "$m_{\\beta}$",
+            "cell_value": "$0.156 \\pm 0.002$",
+            "cell_id": "T_3_48:r0001:c0002",
+            "row_index": 1,
+            "column_index": 2
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.8
+      }
+    }
+  ],
+  "provenance": {
+    "stage": "stage4_property",
+    "provider": "dmx",
+    "model": "doubao-seed-2.0-pro",
+    "models": [
+      "doubao-seed-2.0-pro"
+    ],
+    "prompt_id": "polymer.stage4.property",
+    "prompt_version": "1.7.2",
+    "prompt_sha256": "ec79fe3bf47539cab4ba239c611d1ab17d75dc0038cda85020caca580f7987a5",
+    "vocabulary_sha256": "3e9d85e4915a729edf0f0a53821f3ee6edf32874e1da6972457417e4f13a1510",
+    "input_hash": "12d132a92356141bf94c5de9f174ee1f982a61afef0af8fb710736f0f9b4c665",
+    "model_config_hash": "cc96eaab20bd380ae90f3ba1dfa638bd40f111e3e72ca185255fb71b459d40ea",
+    "cache_key": "12c20c318173d95a77524f7c12f9b07d08476e2938188397af867e785daa690d",
+    "output_schema_version": "property_observation_schema.v7",
+    "implementation_version": "1.7.10",
+    "context_block_count": 74,
+    "context_chars": 56225,
+    "call_count": 1,
+    "usage": {
+      "input_tokens": 33932,
+      "output_tokens": 6269,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 10040,
+      "billable_input_tokens": 43972,
+      "total_tokens": 50241
+    },
+    "cost": {
+      "status": "calculated",
+      "currency": "CNY",
+      "input_per_million": "4.32",
+      "output_per_million": "29.15",
+      "input_cost": "0.18995904",
+      "output_cost": "0.18274135",
+      "total_cost": "0.37270039"
+    },
+    "status": "success"
+  },
+  "warnings": [
+    {
+      "stage": "stage4_property",
+      "code": "series_entity_relinked_to_sample",
+      "message": "PropertySeries/point 的 entity_id 与已解析 Sample 冲突；已按 Stage 3 Sample.refers_to_entity 确定性纠正",
+      "series": 1,
+      "points": 0
+    },
+    {
+      "stage": "stage4_property",
+      "code": "empty_reported_context_downgraded",
+      "message": "measurement_context 标记为 reported 但没有任何条件值；已确定性改为 not_reported",
+      "contexts": 1
+    },
+    {
+      "stage": "stage4_property",
+      "code": "candidate_table_locator_surface_repaired",
+      "message": "模型 locator 表面文本不在表格原文；已用 property raw 与 determination method 中唯一匹配的 Stage 0 表头恢复",
+      "evidence": 2
+    },
+    {
+      "stage": "stage4_property",
+      "code": "preview_semantic_validation_bypassed",
+      "message": "Preview 已保留 Schema 合法候选，并跳过原文/evidence 语义对应校验；Strict 模式仍会报错",
+      "reason": "mc001.other_conditions.scan_rate.raw 无法在对象 evidence中定位"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "preview_objects_salvaged",
+      "message": "Preview 已逐对象保留可安全物化的数据；坏字段、坏对象或失效引用已局部删除，Strict 模式仍会报错",
+      "details": {
+        "dropped_conditions": [],
+        "dropped_properties": [],
+        "dropped_unresolved_properties": [],
+        "dropped_series": [],
+        "dropped_points": [],
+        "dropped_evidence": 0,
+        "dropped_coordinates": 0
+      }
+    },
+    {
+      "stage": "stage4_property",
+      "code": "unresolved_properties",
+      "message": "2 条性质无法可靠关联具体 Sample",
+      "unresolved_ids": [
+        "uprop001",
+        "uprop002"
+      ]
+    },
+    {
+      "code": "stage4r_preview_table_recovery",
+      "message": "Stage 4R Preview 确定性补入 11 个表格性质格；样品归属保留 unresolved。",
+      "recovered_cell_count": 11,
+      "skipped_ambiguous_count": 0
+    }
+  ]
+}

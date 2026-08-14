@@ -1,0 +1,2690 @@
+{
+  "schema_version": "1.0",
+  "document_id": "reference_no_0039705",
+  "measurement_conditions": [
+    {
+      "condition_id": "mc001",
+      "temperature": {
+        "raw": "25 °C",
+        "value": 25.0,
+        "unit": "°C",
+        "evidence": [
+          {
+            "block_id": "P_1_21",
+            "page": 1,
+            "bbox": [
+              511.0,
+              100.0,
+              897.0,
+              533.0
+            ],
+            "source_type": "text",
+            "source_sentence": "using THF as eluent at $2 5 ~ ^ { \\circ } \\mathrm { C }$",
+            "table_locator": null
+          }
+        ],
+        "evidence_ids": []
+      },
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {
+        "eluent": "THF",
+        "calibration_standard": "polystyrene"
+      },
+      "other_condition_evidence": {
+        "eluent": [
+          {
+            "block_id": "P_1_21",
+            "page": 1,
+            "bbox": [
+              511.0,
+              100.0,
+              897.0,
+              533.0
+            ],
+            "source_type": "text",
+            "source_sentence": "using THF as eluent",
+            "table_locator": null
+          }
+        ],
+        "calibration_standard": [
+          {
+            "block_id": "P_1_21",
+            "page": 1,
+            "bbox": [
+              511.0,
+              100.0,
+              897.0,
+              533.0
+            ],
+            "source_type": "text",
+            "source_sentence": "calibrated with polystyrene standard",
+            "table_locator": null
+          }
+        ]
+      },
+      "condition_status": "reported",
+      "evidence": {
+        "block_id": "P_1_21",
+        "page": 1,
+        "bbox": [
+          511.0,
+          100.0,
+          897.0,
+          533.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The weight-average molecular weight $( \\overline { { M _ { \\mathrm { w } } } } )$, number-average molecular weight $( \\overline { { M _ { \\mathrm { n } } } } )$ and polydispersity $( \\overline { { M _ { \\mathrm { w } } } } / \\overline { { M _ { \\mathrm { n } } } } )$of the polymers were obtained on a PL-GPC model 210 chromatograph using THF as eluent at $2 5 ~ ^ { \\circ } \\mathrm { C }$and calibrated with polystyrene standard.",
+        "table_locator": null
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "condition_id": "mc002",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {
+        "atmosphere": "dry nitrogen"
+      },
+      "other_condition_evidence": {
+        "atmosphere": [
+          {
+            "block_id": "P_1_21",
+            "page": 1,
+            "bbox": [
+              511.0,
+              100.0,
+              897.0,
+              533.0
+            ],
+            "source_type": "text",
+            "source_sentence": "in dry nitrogen atmosphere",
+            "table_locator": null
+          }
+        ]
+      },
+      "condition_status": "reported",
+      "evidence": {
+        "block_id": "P_1_21",
+        "page": 1,
+        "bbox": [
+          511.0,
+          100.0,
+          897.0,
+          533.0
+        ],
+        "source_type": "text",
+        "source_sentence": "DSC measurements were performed at a heating rate of 5 °C/min up to 400 $^ \\circ \\mathrm { C }$on sample taken in an aluminium pan with a pierced lid, in dry nitrogen atmosphere with an empty pan as reference.",
+        "table_locator": null
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "condition_id": "mc003",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {
+        "atmosphere": "nitrogen"
+      },
+      "other_condition_evidence": {
+        "atmosphere": [
+          {
+            "block_id": "P_6_85",
+            "page": 6,
+            "bbox": [
+              101.0,
+              277.0,
+              483.0,
+              679.0
+            ],
+            "source_type": "text",
+            "source_sentence": "under nitrogen atmosphere",
+            "table_locator": null
+          }
+        ]
+      },
+      "condition_status": "reported",
+      "evidence": {
+        "block_id": "P_6_85",
+        "page": 6,
+        "bbox": [
+          101.0,
+          277.0,
+          483.0,
+          679.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The thermal stability was estimated using TGA under nitrogen atmosphere at a heating rate of $1 0 ~ \\mathrm { { ^ { \\circ } C / m i n } }$.",
+        "table_locator": null
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "condition_id": "mc004",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {},
+      "other_condition_evidence": {},
+      "condition_status": "not_reported",
+      "evidence": {
+        "block_id": "T_5_80",
+        "page": 5,
+        "bbox": [
+          200.0,
+          764.0,
+          795.0,
+          898.0
+        ],
+        "source_type": "table",
+        "source_sentence": "Table 1. Molecular Weight, Yield, and Absorption Maximum of Polymers",
+        "table_locator": {
+          "table_id": "T_5_80",
+          "row_label": "Polymer",
+          "column_label": "Polymer",
+          "cell_value": "Polymer",
+          "cell_id": "T_5_80:r0000:c0000",
+          "row_index": 0,
+          "column_index": 0
+        }
+      },
+      "confidence": {
+        "score": 0.95
+      }
+    },
+    {
+      "condition_id": "mc005",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {},
+      "other_condition_evidence": {},
+      "condition_status": "not_reported",
+      "evidence": {
+        "block_id": "T_7_93",
+        "page": 7,
+        "bbox": [
+          200.0,
+          117.0,
+          795.0,
+          267.0
+        ],
+        "source_type": "table",
+        "source_sentence": "188",
+        "table_locator": {
+          "table_id": "T_7_93",
+          "cell_id": "T_7_93:r0003:c0002",
+          "row_index": 3,
+          "column_index": 2,
+          "row_label": "Ib",
+          "column_label": "DSC (°C) / $T_m$",
+          "cell_value": "188"
+        }
+      },
+      "confidence": null
+    },
+    {
+      "condition_id": "mc006",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {},
+      "other_condition_evidence": {},
+      "condition_status": "not_reported",
+      "evidence": {
+        "block_id": "T_7_93",
+        "page": 7,
+        "bbox": [
+          200.0,
+          117.0,
+          795.0,
+          267.0
+        ],
+        "source_type": "table",
+        "source_sentence": "189",
+        "table_locator": {
+          "table_id": "T_7_93",
+          "cell_id": "T_7_93:r0003:c0005",
+          "row_index": 3,
+          "column_index": 5,
+          "row_label": "Ib",
+          "column_label": "HOPM (°C) / $T_m$",
+          "cell_value": "189"
+        }
+      },
+      "confidence": null
+    },
+    {
+      "condition_id": "mc007",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {},
+      "other_condition_evidence": {},
+      "condition_status": "not_reported",
+      "evidence": {
+        "block_id": "T_7_93",
+        "page": 7,
+        "bbox": [
+          200.0,
+          117.0,
+          795.0,
+          267.0
+        ],
+        "source_type": "table",
+        "source_sentence": "169",
+        "table_locator": {
+          "table_id": "T_7_93",
+          "cell_id": "T_7_93:r0004:c0002",
+          "row_index": 4,
+          "column_index": 2,
+          "row_label": "Ic",
+          "column_label": "DSC (°C) / $T_m$",
+          "cell_value": "169"
+        }
+      },
+      "confidence": null
+    },
+    {
+      "condition_id": "mc008",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {},
+      "other_condition_evidence": {},
+      "condition_status": "not_reported",
+      "evidence": {
+        "block_id": "T_7_93",
+        "page": 7,
+        "bbox": [
+          200.0,
+          117.0,
+          795.0,
+          267.0
+        ],
+        "source_type": "table",
+        "source_sentence": "171",
+        "table_locator": {
+          "table_id": "T_7_93",
+          "cell_id": "T_7_93:r0004:c0005",
+          "row_index": 4,
+          "column_index": 5,
+          "row_label": "Ic",
+          "column_label": "HOPM (°C) / $T_m$",
+          "cell_value": "171"
+        }
+      },
+      "confidence": null
+    }
+  ],
+  "properties": [
+    {
+      "property_id": "prop001",
+      "sample_id": "s001",
+      "property_name_raw": "polydispersity index range",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": "GPC",
+      "observation_group_id": null,
+      "observation_role": "aggregate",
+      "series_id": "series003",
+      "series_ids": null,
+      "value_raw": "1.09 and 1.28",
+      "value_min": 1.09,
+      "value_max": 1.28,
+      "unit_raw": null,
+      "unit_normalized": null,
+      "measurement_condition_id": "mc001",
+      "measurement_context": {
+        "temperature": {
+          "raw": "25 °C",
+          "value": 25.0,
+          "unit": "°C",
+          "evidence": [
+            {
+              "block_id": "P_1_21",
+              "page": 1,
+              "bbox": [
+                511.0,
+                100.0,
+                897.0,
+                533.0
+              ],
+              "source_type": "text",
+              "source_sentence": "using THF as eluent at $2 5 ~ ^ { \\circ } \\mathrm { C }$",
+              "table_locator": null
+            }
+          ],
+          "evidence_ids": []
+        },
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {
+          "eluent": "THF",
+          "calibration_standard": "polystyrene"
+        },
+        "other_condition_evidence": {
+          "eluent": [
+            {
+              "block_id": "P_1_21",
+              "page": 1,
+              "bbox": [
+                511.0,
+                100.0,
+                897.0,
+                533.0
+              ],
+              "source_type": "text",
+              "source_sentence": "using THF as eluent",
+              "table_locator": null
+            }
+          ],
+          "calibration_standard": [
+            {
+              "block_id": "P_1_21",
+              "page": 1,
+              "bbox": [
+                511.0,
+                100.0,
+                897.0,
+                533.0
+              ],
+              "source_type": "text",
+              "source_sentence": "calibrated with polystyrene standard",
+              "table_locator": null
+            }
+          ]
+        },
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_5_77",
+          "page": 5,
+          "bbox": [
+            511.0,
+            569.0,
+            895.0,
+            662.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The polydispersity index (PDI) was between 1.09 and 1.28 (Table 1).",
+          "table_locator": null
+        }
+      ],
+      "confidence": {
+        "score": 0.85
+      }
+    },
+    {
+      "property_id": "prop002",
+      "sample_id": "s005",
+      "property_name_raw": "melting_temperature",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "188",
+      "value_min": null,
+      "value_max": null,
+      "unit_raw": "°C",
+      "unit_normalized": null,
+      "measurement_condition_id": "mc005",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_7_93",
+          "page": 7,
+          "bbox": [
+            200.0,
+            117.0,
+            795.0,
+            267.0
+          ],
+          "source_type": "table",
+          "source_sentence": "188",
+          "table_locator": {
+            "table_id": "T_7_93",
+            "cell_id": "T_7_93:r0003:c0002",
+            "row_index": 3,
+            "column_index": 2,
+            "row_label": "Ib",
+            "column_label": "DSC (°C) / $T_m$",
+            "cell_value": "188"
+          }
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "property_id": "prop003",
+      "sample_id": "s005",
+      "property_name_raw": "melting_temperature",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "189",
+      "value_min": null,
+      "value_max": null,
+      "unit_raw": "°C",
+      "unit_normalized": null,
+      "measurement_condition_id": "mc006",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_7_93",
+          "page": 7,
+          "bbox": [
+            200.0,
+            117.0,
+            795.0,
+            267.0
+          ],
+          "source_type": "table",
+          "source_sentence": "189",
+          "table_locator": {
+            "table_id": "T_7_93",
+            "cell_id": "T_7_93:r0003:c0005",
+            "row_index": 3,
+            "column_index": 5,
+            "row_label": "Ib",
+            "column_label": "HOPM (°C) / $T_m$",
+            "cell_value": "189"
+          }
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "property_id": "prop004",
+      "sample_id": "s006",
+      "property_name_raw": "melting_temperature",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "169",
+      "value_min": null,
+      "value_max": null,
+      "unit_raw": "°C",
+      "unit_normalized": null,
+      "measurement_condition_id": "mc007",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_7_93",
+          "page": 7,
+          "bbox": [
+            200.0,
+            117.0,
+            795.0,
+            267.0
+          ],
+          "source_type": "table",
+          "source_sentence": "169",
+          "table_locator": {
+            "table_id": "T_7_93",
+            "cell_id": "T_7_93:r0004:c0002",
+            "row_index": 4,
+            "column_index": 2,
+            "row_label": "Ic",
+            "column_label": "DSC (°C) / $T_m$",
+            "cell_value": "169"
+          }
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "property_id": "prop005",
+      "sample_id": "s006",
+      "property_name_raw": "melting_temperature",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "171",
+      "value_min": null,
+      "value_max": null,
+      "unit_raw": "°C",
+      "unit_normalized": null,
+      "measurement_condition_id": "mc008",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_7_93",
+          "page": 7,
+          "bbox": [
+            200.0,
+            117.0,
+            795.0,
+            267.0
+          ],
+          "source_type": "table",
+          "source_sentence": "171",
+          "table_locator": {
+            "table_id": "T_7_93",
+            "cell_id": "T_7_93:r0004:c0005",
+            "row_index": 4,
+            "column_index": 5,
+            "row_label": "Ic",
+            "column_label": "HOPM (°C) / $T_m$",
+            "cell_value": "171"
+          }
+        }
+      ],
+      "confidence": null
+    }
+  ],
+  "unresolved_properties": [
+    {
+      "unresolved_id": "uprop005",
+      "entity_id": "pe008",
+      "sample_id": null,
+      "property_name_raw": "melting_temperature",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "179",
+      "value_min": null,
+      "value_max": null,
+      "unit_raw": "°C",
+      "unit_normalized": null,
+      "measurement_condition_id": null,
+      "measurement_context": null,
+      "reason": "sample_ambiguous",
+      "evidence": [
+        {
+          "block_id": "T_7_93",
+          "page": 7,
+          "bbox": [
+            200.0,
+            117.0,
+            795.0,
+            267.0
+          ],
+          "source_type": "table",
+          "source_sentence": "179",
+          "table_locator": {
+            "table_id": "T_7_93",
+            "cell_id": "T_7_93:r0006:c0002",
+            "row_index": 6,
+            "column_index": 2,
+            "row_label": "IIb",
+            "column_label": "DSC (°C) / $T_m$",
+            "cell_value": "179"
+          }
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "unresolved_id": "uprop006",
+      "entity_id": "pe008",
+      "sample_id": null,
+      "property_name_raw": "melting_temperature",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "180",
+      "value_min": null,
+      "value_max": null,
+      "unit_raw": "°C",
+      "unit_normalized": null,
+      "measurement_condition_id": null,
+      "measurement_context": null,
+      "reason": "sample_ambiguous",
+      "evidence": [
+        {
+          "block_id": "T_7_93",
+          "page": 7,
+          "bbox": [
+            200.0,
+            117.0,
+            795.0,
+            267.0
+          ],
+          "source_type": "table",
+          "source_sentence": "180",
+          "table_locator": {
+            "table_id": "T_7_93",
+            "cell_id": "T_7_93:r0006:c0005",
+            "row_index": 6,
+            "column_index": 5,
+            "row_label": "IIb",
+            "column_label": "HOPM (°C) / $T_m$",
+            "cell_value": "180"
+          }
+        }
+      ],
+      "confidence": null
+    }
+  ],
+  "property_series": [
+    {
+      "series_id": "series001",
+      "sample_id": null,
+      "entity_id": null,
+      "sample_resolution_status": "unresolved",
+      "property_name_raw": "Yield",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "unit_raw": "%",
+      "unit_normalized": "%",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "points": [
+        {
+          "point_id": "pt001",
+          "observation_role": "series_point",
+          "sample_id": "s004",
+          "entity_id": "pe004",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "67",
+          "value_min": 67.0,
+          "value_max": 67.0,
+          "unit_raw": "%",
+          "unit_normalized": "%",
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_5_80",
+              "page": 5,
+              "bbox": [
+                200.0,
+                764.0,
+                795.0,
+                898.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 1. Molecular Weight, Yield, and Absorption Maximum of Polymers",
+              "table_locator": {
+                "table_id": "T_5_80",
+                "row_label": "Ia",
+                "column_label": "Yield (%)",
+                "cell_value": "67",
+                "cell_id": "T_5_80:r0001:c0001",
+                "row_index": 1,
+                "column_index": 1
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.95
+          }
+        },
+        {
+          "point_id": "pt002",
+          "observation_role": "series_point",
+          "sample_id": "s005",
+          "entity_id": "pe005",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "66",
+          "value_min": 66.0,
+          "value_max": 66.0,
+          "unit_raw": "%",
+          "unit_normalized": "%",
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_5_80",
+              "page": 5,
+              "bbox": [
+                200.0,
+                764.0,
+                795.0,
+                898.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 1. Molecular Weight, Yield, and Absorption Maximum of Polymers",
+              "table_locator": {
+                "table_id": "T_5_80",
+                "row_label": "Ib",
+                "column_label": "Yield (%)",
+                "cell_value": "66",
+                "cell_id": "T_5_80:r0002:c0001",
+                "row_index": 2,
+                "column_index": 1
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.95
+          }
+        },
+        {
+          "point_id": "pt003",
+          "observation_role": "series_point",
+          "sample_id": "s006",
+          "entity_id": "pe006",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "71",
+          "value_min": 71.0,
+          "value_max": 71.0,
+          "unit_raw": "%",
+          "unit_normalized": "%",
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_5_80",
+              "page": 5,
+              "bbox": [
+                200.0,
+                764.0,
+                795.0,
+                898.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 1. Molecular Weight, Yield, and Absorption Maximum of Polymers",
+              "table_locator": {
+                "table_id": "T_5_80",
+                "row_label": "Ic",
+                "column_label": "Yield (%)",
+                "cell_value": "71",
+                "cell_id": "T_5_80:r0003:c0001",
+                "row_index": 3,
+                "column_index": 1
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.95
+          }
+        },
+        {
+          "point_id": "pt004",
+          "observation_role": "series_point",
+          "sample_id": "s007",
+          "entity_id": "pe007",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "62",
+          "value_min": 62.0,
+          "value_max": 62.0,
+          "unit_raw": "%",
+          "unit_normalized": "%",
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_5_80",
+              "page": 5,
+              "bbox": [
+                200.0,
+                764.0,
+                795.0,
+                898.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 1. Molecular Weight, Yield, and Absorption Maximum of Polymers",
+              "table_locator": {
+                "table_id": "T_5_80",
+                "row_label": "IIa",
+                "column_label": "Yield (%)",
+                "cell_value": "62",
+                "cell_id": "T_5_80:r0004:c0001",
+                "row_index": 4,
+                "column_index": 1
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.95
+          }
+        },
+        {
+          "point_id": "pt005",
+          "observation_role": "series_point",
+          "sample_id": "s008",
+          "entity_id": "pe008",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "65",
+          "value_min": 65.0,
+          "value_max": 65.0,
+          "unit_raw": "%",
+          "unit_normalized": "%",
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_5_80",
+              "page": 5,
+              "bbox": [
+                200.0,
+                764.0,
+                795.0,
+                898.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 1. Molecular Weight, Yield, and Absorption Maximum of Polymers",
+              "table_locator": {
+                "table_id": "T_5_80",
+                "row_label": "IIb",
+                "column_label": "Yield (%)",
+                "cell_value": "65",
+                "cell_id": "T_5_80:r0005:c0001",
+                "row_index": 5,
+                "column_index": 1
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.95
+          }
+        },
+        {
+          "point_id": "pt006",
+          "observation_role": "series_point",
+          "sample_id": "s009",
+          "entity_id": "pe009",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "63",
+          "value_min": 63.0,
+          "value_max": 63.0,
+          "unit_raw": "%",
+          "unit_normalized": "%",
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_5_80",
+              "page": 5,
+              "bbox": [
+                200.0,
+                764.0,
+                795.0,
+                898.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 1. Molecular Weight, Yield, and Absorption Maximum of Polymers",
+              "table_locator": {
+                "table_id": "T_5_80",
+                "row_label": "IIc",
+                "column_label": "Yield (%)",
+                "cell_value": "63",
+                "cell_id": "T_5_80:r0006:c0001",
+                "row_index": 6,
+                "column_index": 1
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.95
+          }
+        }
+      ],
+      "coverage": {
+        "expected": 6,
+        "covered": 6,
+        "missing": 0,
+        "not_applicable": 0,
+        "ratio": 1.0
+      },
+      "evidence": [
+        {
+          "block_id": "T_5_80",
+          "page": 5,
+          "bbox": [
+            200.0,
+            764.0,
+            795.0,
+            898.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table 1. Molecular Weight, Yield, and Absorption Maximum of Polymers",
+          "table_locator": {
+            "table_id": "T_5_80",
+            "row_label": "Ia",
+            "column_label": "Yield (%)",
+            "cell_value": "67",
+            "cell_id": "T_5_80:r0001:c0001",
+            "row_index": 1,
+            "column_index": 1
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "series_id": "series002",
+      "sample_id": null,
+      "entity_id": null,
+      "sample_resolution_status": "unresolved",
+      "property_name_raw": "$\\overline{M_n}$",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "determination_method_raw": "GPC",
+      "observation_group_id": null,
+      "unit_raw": null,
+      "unit_normalized": null,
+      "measurement_context": {
+        "temperature": {
+          "raw": "25 °C",
+          "value": 25.0,
+          "unit": "°C",
+          "evidence": [
+            {
+              "block_id": "P_1_21",
+              "page": 1,
+              "bbox": [
+                511.0,
+                100.0,
+                897.0,
+                533.0
+              ],
+              "source_type": "text",
+              "source_sentence": "using THF as eluent at $2 5 ~ ^ { \\circ } \\mathrm { C }$",
+              "table_locator": null
+            }
+          ],
+          "evidence_ids": []
+        },
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {
+          "eluent": "THF",
+          "calibration_standard": "polystyrene"
+        },
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "points": [
+        {
+          "point_id": "pt007",
+          "observation_role": "series_point",
+          "sample_id": "s004",
+          "entity_id": "pe004",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "42,600",
+          "value_min": 42600.0,
+          "value_max": 42600.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": {
+              "raw": "25 °C",
+              "value": 25.0,
+              "unit": "°C",
+              "evidence": [
+                {
+                  "block_id": "P_1_21",
+                  "page": 1,
+                  "bbox": [
+                    511.0,
+                    100.0,
+                    897.0,
+                    533.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "using THF as eluent at $2 5 ~ ^ { \\circ } \\mathrm { C }$",
+                  "table_locator": null
+                }
+              ],
+              "evidence_ids": []
+            },
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "eluent": "THF",
+              "calibration_standard": "polystyrene"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_5_80",
+              "page": 5,
+              "bbox": [
+                200.0,
+                764.0,
+                795.0,
+                898.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 1. Molecular Weight, Yield, and Absorption Maximum of Polymers",
+              "table_locator": {
+                "table_id": "T_5_80",
+                "row_label": "Ia",
+                "column_label": "$\\overline{M_n}$",
+                "cell_value": "42,600",
+                "cell_id": "T_5_80:r0001:c0002",
+                "row_index": 1,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.95
+          }
+        },
+        {
+          "point_id": "pt008",
+          "observation_role": "series_point",
+          "sample_id": "s005",
+          "entity_id": "pe005",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "41,300",
+          "value_min": 41300.0,
+          "value_max": 41300.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": {
+              "raw": "25 °C",
+              "value": 25.0,
+              "unit": "°C",
+              "evidence": [
+                {
+                  "block_id": "P_1_21",
+                  "page": 1,
+                  "bbox": [
+                    511.0,
+                    100.0,
+                    897.0,
+                    533.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "using THF as eluent at $2 5 ~ ^ { \\circ } \\mathrm { C }$",
+                  "table_locator": null
+                }
+              ],
+              "evidence_ids": []
+            },
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "eluent": "THF",
+              "calibration_standard": "polystyrene"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_5_80",
+              "page": 5,
+              "bbox": [
+                200.0,
+                764.0,
+                795.0,
+                898.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 1. Molecular Weight, Yield, and Absorption Maximum of Polymers",
+              "table_locator": {
+                "table_id": "T_5_80",
+                "row_label": "Ib",
+                "column_label": "$\\overline{M_n}$",
+                "cell_value": "41,300",
+                "cell_id": "T_5_80:r0002:c0002",
+                "row_index": 2,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.95
+          }
+        },
+        {
+          "point_id": "pt009",
+          "observation_role": "series_point",
+          "sample_id": "s006",
+          "entity_id": "pe006",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "49,200",
+          "value_min": 49200.0,
+          "value_max": 49200.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": {
+              "raw": "25 °C",
+              "value": 25.0,
+              "unit": "°C",
+              "evidence": [
+                {
+                  "block_id": "P_1_21",
+                  "page": 1,
+                  "bbox": [
+                    511.0,
+                    100.0,
+                    897.0,
+                    533.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "using THF as eluent at $2 5 ~ ^ { \\circ } \\mathrm { C }$",
+                  "table_locator": null
+                }
+              ],
+              "evidence_ids": []
+            },
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "eluent": "THF",
+              "calibration_standard": "polystyrene"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_5_80",
+              "page": 5,
+              "bbox": [
+                200.0,
+                764.0,
+                795.0,
+                898.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 1. Molecular Weight, Yield, and Absorption Maximum of Polymers",
+              "table_locator": {
+                "table_id": "T_5_80",
+                "row_label": "Ic",
+                "column_label": "$\\overline{M_n}$",
+                "cell_value": "49,200",
+                "cell_id": "T_5_80:r0003:c0002",
+                "row_index": 3,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.95
+          }
+        },
+        {
+          "point_id": "pt010",
+          "observation_role": "series_point",
+          "sample_id": "s007",
+          "entity_id": "pe007",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "32,975",
+          "value_min": 32975.0,
+          "value_max": 32975.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": {
+              "raw": "25 °C",
+              "value": 25.0,
+              "unit": "°C",
+              "evidence": [
+                {
+                  "block_id": "P_1_21",
+                  "page": 1,
+                  "bbox": [
+                    511.0,
+                    100.0,
+                    897.0,
+                    533.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "using THF as eluent at $2 5 ~ ^ { \\circ } \\mathrm { C }$",
+                  "table_locator": null
+                }
+              ],
+              "evidence_ids": []
+            },
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "eluent": "THF",
+              "calibration_standard": "polystyrene"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_5_80",
+              "page": 5,
+              "bbox": [
+                200.0,
+                764.0,
+                795.0,
+                898.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 1. Molecular Weight, Yield, and Absorption Maximum of Polymers",
+              "table_locator": {
+                "table_id": "T_5_80",
+                "row_label": "IIa",
+                "column_label": "$\\overline{M_n}$",
+                "cell_value": "32,975",
+                "cell_id": "T_5_80:r0004:c0002",
+                "row_index": 4,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.95
+          }
+        },
+        {
+          "point_id": "pt011",
+          "observation_role": "series_point",
+          "sample_id": "s008",
+          "entity_id": "pe008",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "36,254",
+          "value_min": 36254.0,
+          "value_max": 36254.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": {
+              "raw": "25 °C",
+              "value": 25.0,
+              "unit": "°C",
+              "evidence": [
+                {
+                  "block_id": "P_1_21",
+                  "page": 1,
+                  "bbox": [
+                    511.0,
+                    100.0,
+                    897.0,
+                    533.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "using THF as eluent at $2 5 ~ ^ { \\circ } \\mathrm { C }$",
+                  "table_locator": null
+                }
+              ],
+              "evidence_ids": []
+            },
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "eluent": "THF",
+              "calibration_standard": "polystyrene"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_5_80",
+              "page": 5,
+              "bbox": [
+                200.0,
+                764.0,
+                795.0,
+                898.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 1. Molecular Weight, Yield, and Absorption Maximum of Polymers",
+              "table_locator": {
+                "table_id": "T_5_80",
+                "row_label": "IIb",
+                "column_label": "$\\overline{M_n}$",
+                "cell_value": "36,254",
+                "cell_id": "T_5_80:r0005:c0002",
+                "row_index": 5,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.95
+          }
+        },
+        {
+          "point_id": "pt012",
+          "observation_role": "series_point",
+          "sample_id": "s009",
+          "entity_id": "pe009",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "29,721",
+          "value_min": 29721.0,
+          "value_max": 29721.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": {
+              "raw": "25 °C",
+              "value": 25.0,
+              "unit": "°C",
+              "evidence": [
+                {
+                  "block_id": "P_1_21",
+                  "page": 1,
+                  "bbox": [
+                    511.0,
+                    100.0,
+                    897.0,
+                    533.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "using THF as eluent at $2 5 ~ ^ { \\circ } \\mathrm { C }$",
+                  "table_locator": null
+                }
+              ],
+              "evidence_ids": []
+            },
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "eluent": "THF",
+              "calibration_standard": "polystyrene"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_5_80",
+              "page": 5,
+              "bbox": [
+                200.0,
+                764.0,
+                795.0,
+                898.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 1. Molecular Weight, Yield, and Absorption Maximum of Polymers",
+              "table_locator": {
+                "table_id": "T_5_80",
+                "row_label": "IIc",
+                "column_label": "$\\overline{M_n}$",
+                "cell_value": "29,721",
+                "cell_id": "T_5_80:r0006:c0002",
+                "row_index": 6,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.95
+          }
+        }
+      ],
+      "coverage": {
+        "expected": 6,
+        "covered": 6,
+        "missing": 0,
+        "not_applicable": 0,
+        "ratio": 1.0
+      },
+      "evidence": [
+        {
+          "block_id": "P_1_21",
+          "page": 1,
+          "bbox": [
+            511.0,
+            100.0,
+            897.0,
+            533.0
+          ],
+          "source_type": "text",
+          "source_sentence": "and polydispersity $( \\overline { { M _ { \\mathrm { w } } } } / \\overline { { M _ { \\mathrm { n } } } } )$of the polymers were obtained on a PL-GPC model 210 chromatograph using THF as eluent at $2 5 ~ ^ { \\circ } \\mathrm { C }$and calibrated with polystyrene standard.",
+          "table_locator": null
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "series_id": "series003",
+      "sample_id": null,
+      "entity_id": null,
+      "sample_resolution_status": "unresolved",
+      "property_name_raw": "$\\overline{M_n}/\\overline{M_w}$",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "determination_method_raw": "GPC",
+      "observation_group_id": null,
+      "unit_raw": null,
+      "unit_normalized": null,
+      "measurement_context": {
+        "temperature": {
+          "raw": "25 °C",
+          "value": 25.0,
+          "unit": "°C",
+          "evidence": [
+            {
+              "block_id": "P_1_21",
+              "page": 1,
+              "bbox": [
+                511.0,
+                100.0,
+                897.0,
+                533.0
+              ],
+              "source_type": "text",
+              "source_sentence": "using THF as eluent at $2 5 ~ ^ { \\circ } \\mathrm { C }$",
+              "table_locator": null
+            }
+          ],
+          "evidence_ids": []
+        },
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {
+          "eluent": "THF",
+          "calibration_standard": "polystyrene"
+        },
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "points": [
+        {
+          "point_id": "pt013",
+          "observation_role": "series_point",
+          "sample_id": "s004",
+          "entity_id": "pe004",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "1.21",
+          "value_min": 1.21,
+          "value_max": 1.21,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": {
+              "raw": "25 °C",
+              "value": 25.0,
+              "unit": "°C",
+              "evidence": [
+                {
+                  "block_id": "P_1_21",
+                  "page": 1,
+                  "bbox": [
+                    511.0,
+                    100.0,
+                    897.0,
+                    533.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "using THF as eluent at $2 5 ~ ^ { \\circ } \\mathrm { C }$",
+                  "table_locator": null
+                }
+              ],
+              "evidence_ids": []
+            },
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "eluent": "THF",
+              "calibration_standard": "polystyrene"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_5_80",
+              "page": 5,
+              "bbox": [
+                200.0,
+                764.0,
+                795.0,
+                898.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 1. Molecular Weight, Yield, and Absorption Maximum of Polymers",
+              "table_locator": {
+                "table_id": "T_5_80",
+                "row_label": "Ia",
+                "column_label": "$\\overline{M_n}/\\overline{M_w}$",
+                "cell_value": "1.21",
+                "cell_id": "T_5_80:r0001:c0003",
+                "row_index": 1,
+                "column_index": 3
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.95
+          }
+        },
+        {
+          "point_id": "pt014",
+          "observation_role": "series_point",
+          "sample_id": "s005",
+          "entity_id": "pe005",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "1.09",
+          "value_min": 1.09,
+          "value_max": 1.09,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": {
+              "raw": "25 °C",
+              "value": 25.0,
+              "unit": "°C",
+              "evidence": [
+                {
+                  "block_id": "P_1_21",
+                  "page": 1,
+                  "bbox": [
+                    511.0,
+                    100.0,
+                    897.0,
+                    533.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "using THF as eluent at $2 5 ~ ^ { \\circ } \\mathrm { C }$",
+                  "table_locator": null
+                }
+              ],
+              "evidence_ids": []
+            },
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "eluent": "THF",
+              "calibration_standard": "polystyrene"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_5_80",
+              "page": 5,
+              "bbox": [
+                200.0,
+                764.0,
+                795.0,
+                898.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 1. Molecular Weight, Yield, and Absorption Maximum of Polymers",
+              "table_locator": {
+                "table_id": "T_5_80",
+                "row_label": "Ib",
+                "column_label": "$\\overline{M_n}/\\overline{M_w}$",
+                "cell_value": "1.09",
+                "cell_id": "T_5_80:r0002:c0003",
+                "row_index": 2,
+                "column_index": 3
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.95
+          }
+        },
+        {
+          "point_id": "pt015",
+          "observation_role": "series_point",
+          "sample_id": "s006",
+          "entity_id": "pe006",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "1.18",
+          "value_min": 1.18,
+          "value_max": 1.18,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": {
+              "raw": "25 °C",
+              "value": 25.0,
+              "unit": "°C",
+              "evidence": [
+                {
+                  "block_id": "P_1_21",
+                  "page": 1,
+                  "bbox": [
+                    511.0,
+                    100.0,
+                    897.0,
+                    533.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "using THF as eluent at $2 5 ~ ^ { \\circ } \\mathrm { C }$",
+                  "table_locator": null
+                }
+              ],
+              "evidence_ids": []
+            },
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "eluent": "THF",
+              "calibration_standard": "polystyrene"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_5_80",
+              "page": 5,
+              "bbox": [
+                200.0,
+                764.0,
+                795.0,
+                898.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 1. Molecular Weight, Yield, and Absorption Maximum of Polymers",
+              "table_locator": {
+                "table_id": "T_5_80",
+                "row_label": "Ic",
+                "column_label": "$\\overline{M_n}/\\overline{M_w}$",
+                "cell_value": "1.18",
+                "cell_id": "T_5_80:r0003:c0003",
+                "row_index": 3,
+                "column_index": 3
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.95
+          }
+        },
+        {
+          "point_id": "pt016",
+          "observation_role": "series_point",
+          "sample_id": "s007",
+          "entity_id": "pe007",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "1.28",
+          "value_min": 1.28,
+          "value_max": 1.28,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": {
+              "raw": "25 °C",
+              "value": 25.0,
+              "unit": "°C",
+              "evidence": [
+                {
+                  "block_id": "P_1_21",
+                  "page": 1,
+                  "bbox": [
+                    511.0,
+                    100.0,
+                    897.0,
+                    533.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "using THF as eluent at $2 5 ~ ^ { \\circ } \\mathrm { C }$",
+                  "table_locator": null
+                }
+              ],
+              "evidence_ids": []
+            },
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "eluent": "THF",
+              "calibration_standard": "polystyrene"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_5_80",
+              "page": 5,
+              "bbox": [
+                200.0,
+                764.0,
+                795.0,
+                898.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 1. Molecular Weight, Yield, and Absorption Maximum of Polymers",
+              "table_locator": {
+                "table_id": "T_5_80",
+                "row_label": "IIa",
+                "column_label": "$\\overline{M_n}/\\overline{M_w}$",
+                "cell_value": "1.28",
+                "cell_id": "T_5_80:r0004:c0003",
+                "row_index": 4,
+                "column_index": 3
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.95
+          }
+        },
+        {
+          "point_id": "pt017",
+          "observation_role": "series_point",
+          "sample_id": "s008",
+          "entity_id": "pe008",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "1.17",
+          "value_min": 1.17,
+          "value_max": 1.17,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": {
+              "raw": "25 °C",
+              "value": 25.0,
+              "unit": "°C",
+              "evidence": [
+                {
+                  "block_id": "P_1_21",
+                  "page": 1,
+                  "bbox": [
+                    511.0,
+                    100.0,
+                    897.0,
+                    533.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "using THF as eluent at $2 5 ~ ^ { \\circ } \\mathrm { C }$",
+                  "table_locator": null
+                }
+              ],
+              "evidence_ids": []
+            },
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "eluent": "THF",
+              "calibration_standard": "polystyrene"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_5_80",
+              "page": 5,
+              "bbox": [
+                200.0,
+                764.0,
+                795.0,
+                898.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 1. Molecular Weight, Yield, and Absorption Maximum of Polymers",
+              "table_locator": {
+                "table_id": "T_5_80",
+                "row_label": "IIb",
+                "column_label": "$\\overline{M_n}/\\overline{M_w}$",
+                "cell_value": "1.17",
+                "cell_id": "T_5_80:r0005:c0003",
+                "row_index": 5,
+                "column_index": 3
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.95
+          }
+        },
+        {
+          "point_id": "pt018",
+          "observation_role": "series_point",
+          "sample_id": "s009",
+          "entity_id": "pe009",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "1.21",
+          "value_min": 1.21,
+          "value_max": 1.21,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": {
+              "raw": "25 °C",
+              "value": 25.0,
+              "unit": "°C",
+              "evidence": [
+                {
+                  "block_id": "P_1_21",
+                  "page": 1,
+                  "bbox": [
+                    511.0,
+                    100.0,
+                    897.0,
+                    533.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "using THF as eluent at $2 5 ~ ^ { \\circ } \\mathrm { C }$",
+                  "table_locator": null
+                }
+              ],
+              "evidence_ids": []
+            },
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "eluent": "THF",
+              "calibration_standard": "polystyrene"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_5_80",
+              "page": 5,
+              "bbox": [
+                200.0,
+                764.0,
+                795.0,
+                898.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 1. Molecular Weight, Yield, and Absorption Maximum of Polymers",
+              "table_locator": {
+                "table_id": "T_5_80",
+                "row_label": "IIc",
+                "column_label": "$\\overline{M_n}/\\overline{M_w}$",
+                "cell_value": "1.21",
+                "cell_id": "T_5_80:r0006:c0003",
+                "row_index": 6,
+                "column_index": 3
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.95
+          }
+        }
+      ],
+      "coverage": {
+        "expected": 6,
+        "covered": 6,
+        "missing": 0,
+        "not_applicable": 0,
+        "ratio": 1.0
+      },
+      "evidence": [
+        {
+          "block_id": "P_1_21",
+          "page": 1,
+          "bbox": [
+            511.0,
+            100.0,
+            897.0,
+            533.0
+          ],
+          "source_type": "text",
+          "source_sentence": "and polydispersity $( \\overline { { M _ { \\mathrm { w } } } } / \\overline { { M _ { \\mathrm { n } } } } )$of the polymers were obtained on a PL-GPC model 210 chromatograph using THF as eluent at $2 5 ~ ^ { \\circ } \\mathrm { C }$and calibrated with polystyrene standard.",
+          "table_locator": null
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "series_id": "series004",
+      "sample_id": null,
+      "entity_id": null,
+      "sample_resolution_status": "unresolved",
+      "property_name_raw": "$T_g$",
+      "property_name_normalized": "glass_transition_temperature",
+      "property_code": "P3110",
+      "property_category": "thermal_property",
+      "determination_method_raw": "DSC",
+      "observation_group_id": null,
+      "unit_raw": "°C",
+      "unit_normalized": "°C",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {
+          "heating_rate": "5 °C/min",
+          "atmosphere": "dry nitrogen"
+        },
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "points": [
+        {
+          "point_id": "pt019",
+          "observation_role": "series_point",
+          "sample_id": "s004",
+          "entity_id": "pe004",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "98",
+          "value_min": 98.0,
+          "value_max": 98.0,
+          "unit_raw": "°C",
+          "unit_normalized": "°C",
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "heating_rate": "5 °C/min",
+              "atmosphere": "dry nitrogen"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_7_93",
+              "page": 7,
+              "bbox": [
+                200.0,
+                117.0,
+                795.0,
+                267.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 3. Liquid Crystalline and Thermal Properties of Polymers",
+              "table_locator": {
+                "table_id": "T_7_93",
+                "row_label": "Ia",
+                "column_label": "$T_g$ (°C)",
+                "cell_value": "98",
+                "cell_id": "T_7_93:r0002:c0001",
+                "row_index": 2,
+                "column_index": 1
+              }
+            },
+            {
+              "block_id": "P_6_86",
+              "page": 6,
+              "bbox": [
+                101.0,
+                679.0,
+                483.0,
+                903.0
+              ],
+              "source_type": "text",
+              "source_sentence": "The DSC curve of Ia and IIa shows $T _ { \\mathrm { g } }$ at $9 8 ~ ^ { \\circ } \\mathrm { C }$ and $8 5 \\ { } ^ { \\circ } \\mathrm { C } ,$ respectively.",
+              "table_locator": null
+            }
+          ],
+          "confidence": {
+            "score": 0.95
+          }
+        },
+        {
+          "point_id": "pt020",
+          "observation_role": "series_point",
+          "sample_id": "s005",
+          "entity_id": "pe005",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "75",
+          "value_min": 75.0,
+          "value_max": 75.0,
+          "unit_raw": "°C",
+          "unit_normalized": "°C",
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "heating_rate": "5 °C/min",
+              "atmosphere": "dry nitrogen"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_7_93",
+              "page": 7,
+              "bbox": [
+                200.0,
+                117.0,
+                795.0,
+                267.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 3. Liquid Crystalline and Thermal Properties of Polymers",
+              "table_locator": {
+                "table_id": "T_7_93",
+                "row_label": "Ib",
+                "column_label": "$T_g$ (°C)",
+                "cell_value": "75",
+                "cell_id": "T_7_93:r0003:c0001",
+                "row_index": 3,
+                "column_index": 1
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.95
+          }
+        },
+        {
+          "point_id": "pt021",
+          "observation_role": "series_point",
+          "sample_id": "s006",
+          "entity_id": "pe006",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "72",
+          "value_min": 72.0,
+          "value_max": 72.0,
+          "unit_raw": "°C",
+          "unit_normalized": "°C",
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "heating_rate": "5 °C/min",
+              "atmosphere": "dry nitrogen"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_7_93",
+              "page": 7,
+              "bbox": [
+                200.0,
+                117.0,
+                795.0,
+                267.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 3. Liquid Crystalline and Thermal Properties of Polymers",
+              "table_locator": {
+                "table_id": "T_7_93",
+                "row_label": "Ic",
+                "column_label": "$T_g$ (°C)",
+                "cell_value": "72",
+                "cell_id": "T_7_93:r0004:c0001",
+                "row_index": 4,
+                "column_index": 1
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.95
+          }
+        },
+        {
+          "point_id": "pt022",
+          "observation_role": "series_point",
+          "sample_id": "s007",
+          "entity_id": "pe007",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "85",
+          "value_min": 85.0,
+          "value_max": 85.0,
+          "unit_raw": "°C",
+          "unit_normalized": "°C",
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "heating_rate": "5 °C/min",
+              "atmosphere": "dry nitrogen"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_7_93",
+              "page": 7,
+              "bbox": [
+                200.0,
+                117.0,
+                795.0,
+                267.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 3. Liquid Crystalline and Thermal Properties of Polymers",
+              "table_locator": {
+                "table_id": "T_7_93",
+                "row_label": "IIa",
+                "column_label": "$T_g$ (°C)",
+                "cell_value": "85",
+                "cell_id": "T_7_93:r0005:c0001",
+                "row_index": 5,
+                "column_index": 1
+              }
+            },
+            {
+              "block_id": "P_6_86",
+              "page": 6,
+              "bbox": [
+                101.0,
+                679.0,
+                483.0,
+                903.0
+              ],
+              "source_type": "text",
+              "source_sentence": "The DSC curve of Ia and IIa shows $T _ { \\mathrm { g } }$ at $9 8 ~ ^ { \\circ } \\mathrm { C }$ and $8 5 \\ { } ^ { \\circ } \\mathrm { C } ,$ respectively.",
+              "table_locator": null
+            }
+          ],
+          "confidence": {
+            "score": 0.95
+          }
+        },
+        {
+          "point_id": "pt023",
+          "observation_role": "series_point",
+          "sample_id": "s008",
+          "entity_id": "pe008",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "69",
+          "value_min": 69.0,
+          "value_max": 69.0,
+          "unit_raw": "°C",
+          "unit_normalized": "°C",
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "heating_rate": "5 °C/min",
+              "atmosphere": "dry nitrogen"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_7_93",
+              "page": 7,
+              "bbox": [
+                200.0,
+                117.0,
+                795.0,
+                267.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 3. Liquid Crystalline and Thermal Properties of Polymers",
+              "table_locator": {
+                "table_id": "T_7_93",
+                "row_label": "IIb",
+                "column_label": "$T_g$ (°C)",
+                "cell_value": "69",
+                "cell_id": "T_7_93:r0006:c0001",
+                "row_index": 6,
+                "column_index": 1
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.95
+          }
+        },
+        {
+          "point_id": "pt024",
+          "observation_role": "series_point",
+          "sample_id": "s009",
+          "entity_id": "pe009",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "57",
+          "value_min": 57.0,
+          "value_max": 57.0,
+          "unit_raw": "°C",
+          "unit_normalized": "°C",
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "heating_rate": "5 °C/min",
+              "atmosphere": "dry nitrogen"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_7_93",
+              "page": 7,
+              "bbox": [
+                200.0,
+                117.0,
+                795.0,
+                267.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 3. Liquid Crystalline and Thermal Properties of Polymers",
+              "table_locator": {
+                "table_id": "T_7_93",
+                "row_label": "IIc",
+                "column_label": "$T_g$ (°C)",
+                "cell_value": "57",
+                "cell_id": "T_7_93:r0007:c0001",
+                "row_index": 7,
+                "column_index": 1
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.95
+          }
+        }
+      ],
+      "coverage": {
+        "expected": 6,
+        "covered": 6,
+        "missing": 0,
+        "not_applicable": 0,
+        "ratio": 1.0
+      },
+      "evidence": [
+        {
+          "block_id": "P_1_21",
+          "page": 1,
+          "bbox": [
+            511.0,
+            100.0,
+            897.0,
+            533.0
+          ],
+          "source_type": "text",
+          "source_sentence": "DSC measurements were performed at a heating rate of 5 \u0001C/min up to 400 $^ \\circ \\mathrm { C }$on sample taken in an aluminium pan with a pierced lid, in dry nitrogen atmosphere with an empty pan as reference.",
+          "table_locator": null
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    }
+  ],
+  "provenance": {
+    "stage": "stage4_property",
+    "provider": "dmx",
+    "model": "doubao-seed-2.0-pro",
+    "models": [
+      "doubao-seed-2.0-pro"
+    ],
+    "prompt_id": "polymer.stage4.property",
+    "prompt_version": "1.7.2",
+    "prompt_sha256": "ec79fe3bf47539cab4ba239c611d1ab17d75dc0038cda85020caca580f7987a5",
+    "vocabulary_sha256": "3e9d85e4915a729edf0f0a53821f3ee6edf32874e1da6972457417e4f13a1510",
+    "input_hash": "f73679cb714fdd894c5fbe5a75e6998c9a00093bce1e72e627d1574281c06022",
+    "model_config_hash": "cc96eaab20bd380ae90f3ba1dfa638bd40f111e3e72ca185255fb71b459d40ea",
+    "cache_key": "f375b281c3d5fe055d7e2a0fd2358c4a924c655f5666a3e46a302a08cf24b837",
+    "output_schema_version": "property_observation_schema.v7",
+    "implementation_version": "1.7.10",
+    "context_block_count": 82,
+    "context_chars": 50947,
+    "call_count": 1,
+    "usage": {
+      "input_tokens": 32346,
+      "output_tokens": 11741,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "billable_input_tokens": 32346,
+      "total_tokens": 44087
+    },
+    "cost": {
+      "status": "calculated",
+      "currency": "CNY",
+      "input_per_million": "4.32",
+      "output_per_million": "29.15",
+      "input_cost": "0.13973472",
+      "output_cost": "0.34225015",
+      "total_cost": "0.48198487"
+    },
+    "status": "success"
+  },
+  "warnings": [
+    {
+      "stage": "stage4_property",
+      "code": "series_entity_relinked_to_sample",
+      "message": "PropertySeries/point 的 entity_id 与已解析 Sample 冲突；已按 Stage 3 Sample.refers_to_entity 确定性纠正",
+      "series": 0,
+      "points": 18
+    },
+    {
+      "stage": "stage4_property",
+      "code": "multi_subject_series_normalized",
+      "message": "PropertySeries 的 points 明确属于多个 Sample/PolymerEntity；已清除错误的单一顶层主体，主体关系保留在各 point",
+      "series": 4
+    },
+    {
+      "stage": "stage4_property",
+      "code": "condition_table_locators_synthesized",
+      "message": "已将唯一包含条件 raw 的表头单元格绑定为条件 evidence",
+      "evidence": 1
+    },
+    {
+      "stage": "stage4_property",
+      "code": "series_method_evidence_supplemented",
+      "message": "Series determination method 不在 point 表格 evidence；已补入全文中唯一的完全匹配原文 block",
+      "series": 2
+    },
+    {
+      "stage": "stage4_property",
+      "code": "series_context_evidence_supplemented",
+      "message": "Series/point measurement context 不在数值表格 evidence；已补入全文中唯一的完全匹配原文 block",
+      "series_evidence": 1
+    },
+    {
+      "stage": "stage4_property",
+      "code": "preview_series_unsupported_fields_removed",
+      "message": "PropertySeries 包含仅适用于标量性质的字段；Preview 已删除该字段，Strict 模式仍会报错",
+      "fields": 1
+    },
+    {
+      "stage": "stage4_property",
+      "code": "preview_semantic_validation_bypassed",
+      "message": "Preview 已保留 Schema 合法候选，并跳过原文/evidence 语义对应校验；Strict 模式仍会报错",
+      "reason": "prop002.property_name_raw='polydispersity index range' 不是任一 evidence block 的原文子串"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "preview_objects_salvaged",
+      "message": "Preview 已逐对象保留可安全物化的数据；坏字段、坏对象或失效引用已局部删除，Strict 模式仍会报错",
+      "details": {
+        "dropped_conditions": [],
+        "dropped_properties": [],
+        "dropped_unresolved_properties": [],
+        "dropped_series": [],
+        "dropped_points": [],
+        "dropped_evidence": 0,
+        "dropped_coordinates": 0
+      }
+    },
+    {
+      "code": "stage4r_preview_table_recovery",
+      "message": "Stage 4R Preview 确定性补入 6 个表格性质格；样品归属保留 unresolved。",
+      "recovered_cell_count": 6,
+      "skipped_ambiguous_count": 6
+    },
+    {
+      "code": "stage4r_unique_sample_label_resolved",
+      "message": "Stage 4R 按唯一 Stage 3 sample_label_raw 确定性归属 4 条性质。",
+      "resolved_count": 4,
+      "filled_up_enabled": true
+    }
+  ]
+}

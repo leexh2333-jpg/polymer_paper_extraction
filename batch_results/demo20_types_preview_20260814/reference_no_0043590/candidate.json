@@ -1,0 +1,5344 @@
+{
+  "schema_version": "candidate.v1",
+  "document_id": "reference_no_0043590",
+  "publication": {
+    "kind": "candidate",
+    "status": "complete",
+    "validation_status": "not_validated",
+    "message": "Stage 0-5 已完成；未经完整科学语义校验，仅用于预览模型抽取结果。",
+    "completed_stages": [
+      "stage0",
+      "stage1",
+      "stage2",
+      "stage3",
+      "stage4",
+      "stage5"
+    ],
+    "candidate_stages": [],
+    "failed_stages": []
+  },
+  "paper": {
+    "ref_no": "reference_no_0043590",
+    "pdf_filename": "8fd43c94-53a2-4638-83c1-4f5fb64cce98_origin.pdf",
+    "source_pdf_path": "mineru_output/reference_no_0043590/8fd43c94-53a2-4638-83c1-4f5fb64cce98_origin.pdf",
+    "organized_pdf_path": "wenxian/reference_no_0043590/origin.pdf",
+    "doi": "10.1002/app.30177",
+    "title": "Multiple Percolation in a Carbon-Filled Polymer Composites via Foaming",
+    "authors": [
+      "M. R. Thompson",
+      "G. H. Motlagh",
+      "K. J. Oxby",
+      "A. N. Hrymak"
+    ],
+    "journal": "Journal of Applied Polymer Science",
+    "year": 2010,
+    "metadata_status": "complete",
+    "metadata_extraction": {
+      "method": "llm",
+      "provider": "volcengine",
+      "model": "doubao-seed-2-0-pro-260215",
+      "prompt_file": "prompts/meta_extract.md",
+      "prompt_sha256": "96d91fd20308fdaa013aaef055c4b873880414f84228b8c5983246b74d21271b",
+      "source_pages": [
+        0,
+        1
+      ],
+      "status": "success"
+    }
+  },
+  "material_mentions": [
+    {
+      "mention_id": "m001",
+      "text": "Cyclic olefin copolymer",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_0_15",
+        "page": 0,
+        "bbox": [
+          507.0,
+          904.0,
+          898.0,
+          951.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Cyclic olefin copolymer (COC), an amorphous copolymer of ethylene and norbornene, (Topas 6013S-04 supplied by Ticona, MFR 14 g/10 min at 260-C,"
+      },
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00001"
+      ]
+    },
+    {
+      "mention_id": "m002",
+      "text": "COC",
+      "mention_role": "abbreviation",
+      "evidence": {
+        "block_id": "P_0_15",
+        "page": 0,
+        "bbox": [
+          507.0,
+          904.0,
+          898.0,
+          951.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Cyclic olefin copolymer (COC), an amorphous copolymer of ethylene and norbornene, (Topas 6013S-04 supplied by Ticona, MFR 14 g/10 min at 260-C,"
+      },
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00001"
+      ]
+    },
+    {
+      "mention_id": "m003",
+      "text": "Topas 6013S-04",
+      "mention_role": "commercial_name",
+      "evidence": {
+        "block_id": "P_0_15",
+        "page": 0,
+        "bbox": [
+          507.0,
+          904.0,
+          898.0,
+          951.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Cyclic olefin copolymer (COC), an amorphous copolymer of ethylene and norbornene, (Topas 6013S-04 supplied by Ticona, MFR 14 g/10 min at 260-C,"
+      },
+      "confidence": {
+        "score": 0.96
+      },
+      "evidence_ids": [
+        "ev00001"
+      ]
+    },
+    {
+      "mention_id": "m004",
+      "text": "COC",
+      "mention_role": "abbreviation",
+      "evidence": {
+        "block_id": "T_1_19",
+        "page": 1,
+        "bbox": [
+          100.0,
+          133.0,
+          485.0,
+          261.0
+        ],
+        "source_type": "table",
+        "source_sentence": "COC"
+      },
+      "confidence": {
+        "score": 0.98
+      },
+      "evidence_ids": [
+        "ev00002"
+      ]
+    },
+    {
+      "mention_id": "m005",
+      "text": "polycarbonate",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_1_20",
+        "page": 1,
+        "bbox": [
+          96.0,
+          300.0,
+          488.0,
+          480.0
+        ],
+        "source_type": "text",
+        "source_sentence": "A masterbatch exothermic chemical blowing agent (CBA, IM 2240) containing 20 wt % 5-phenyl tetrazol in polycarbonate was supplied by Dempsey Corporation."
+      },
+      "confidence": {
+        "score": 0.98
+      },
+      "evidence_ids": [
+        "ev00003"
+      ]
+    },
+    {
+      "mention_id": "m006",
+      "text": "COC",
+      "mention_role": "abbreviation",
+      "evidence": {
+        "block_id": "P_1_22",
+        "page": 1,
+        "bbox": [
+          96.0,
+          534.0,
+          488.0,
+          802.0
+        ],
+        "source_type": "text",
+        "source_sentence": "To probe the influence of foaming on the filler-produced electron pathways within our composite materials, a series of formulations were created using prepared masterbatches of 8 vol % CB in COC from a twin-screw extruder (Leistritz ZSE 27) and 40 vol % carbon fibers in COC using a single screw extruder (50 mm Davis-Standard)."
+      },
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00004"
+      ]
+    },
+    {
+      "mention_id": "m007",
+      "text": "COC/cCF10",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_1_23",
+        "page": 1,
+        "bbox": [
+          96.0,
+          801.0,
+          488.0,
+          951.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Single filler composites were prepared containing either 10 vol % cCF (COC/cCF10), or 3 vol % CB (COC/CB3)."
+      },
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00005"
+      ]
+    },
+    {
+      "mention_id": "m008",
+      "text": "COC/CB3",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_1_23",
+        "page": 1,
+        "bbox": [
+          96.0,
+          801.0,
+          488.0,
+          951.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Single filler composites were prepared containing either 10 vol % cCF (COC/cCF10), or 3 vol % CB (COC/CB3)."
+      },
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00005"
+      ]
+    },
+    {
+      "mention_id": "m009",
+      "text": "COC/cCF10-CB1",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_1_23",
+        "page": 1,
+        "bbox": [
+          96.0,
+          801.0,
+          488.0,
+          951.0
+        ],
+        "source_type": "text",
+        "source_sentence": "For example, COC/cCF10-CB1 corresponds to the material with 10 vol % cCF and 1 vol % CB mixed into COC."
+      },
+      "confidence": {
+        "score": 0.99
+      },
+      "evidence_ids": [
+        "ev00006"
+      ]
+    },
+    {
+      "mention_id": "m010",
+      "text": "COC",
+      "mention_role": "abbreviation",
+      "evidence": {
+        "block_id": "P_1_23",
+        "page": 1,
+        "bbox": [
+          96.0,
+          801.0,
+          488.0,
+          951.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Single filler composites were prepared containing either 10 vol % cCF (COC/cCF10), or 3 vol % CB (COC/CB3)."
+      },
+      "confidence": {
+        "score": 0.98
+      },
+      "evidence_ids": [
+        "ev00005"
+      ]
+    },
+    {
+      "mention_id": "m011",
+      "text": "COC",
+      "mention_role": "abbreviation",
+      "evidence": {
+        "block_id": "P_2_39",
+        "page": 2,
+        "bbox": [
+          506.0,
+          358.0,
+          900.0,
+          643.0
+        ],
+        "source_type": "text",
+        "source_sentence": "With the addition of CBA to the different COC formulations, a porosity of 11–16% was achieved."
+      },
+      "confidence": {
+        "score": 0.96
+      },
+      "evidence_ids": [
+        "ev00007"
+      ]
+    },
+    {
+      "mention_id": "m012",
+      "text": "COC/CB3",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_2_39",
+        "page": 2,
+        "bbox": [
+          506.0,
+          358.0,
+          900.0,
+          643.0
+        ],
+        "source_type": "text",
+        "source_sentence": "SEM micrographs giving a cross-sectional view of the molded part for the foamed COC as well as COC/CB3 and COC/cCF10 are shown in Figure 3."
+      },
+      "confidence": {
+        "score": 0.91
+      },
+      "evidence_ids": [
+        "ev00008"
+      ]
+    },
+    {
+      "mention_id": "m013",
+      "text": "COC/cCF10",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_2_39",
+        "page": 2,
+        "bbox": [
+          506.0,
+          358.0,
+          900.0,
+          643.0
+        ],
+        "source_type": "text",
+        "source_sentence": "SEM micrographs giving a cross-sectional view of the molded part for the foamed COC as well as COC/CB3 and COC/cCF10 are shown in Figure 3."
+      },
+      "confidence": {
+        "score": 0.91
+      },
+      "evidence_ids": [
+        "ev00008"
+      ]
+    },
+    {
+      "mention_id": "m014",
+      "text": "CB-COC composite",
+      "mention_role": "polymer_name",
+      "evidence": {
+        "block_id": "P_2_40",
+        "page": 2,
+        "bbox": [
+          509.0,
+          664.0,
+          660.0,
+          681.0
+        ],
+        "source_type": "title",
+        "source_sentence": "CB-COC composite"
+      },
+      "confidence": {
+        "score": 0.82
+      },
+      "evidence_ids": [
+        "ev00009"
+      ]
+    },
+    {
+      "mention_id": "m015",
+      "text": "COC",
+      "mention_role": "abbreviation",
+      "evidence": {
+        "block_id": "P_2_41",
+        "page": 2,
+        "bbox": [
+          506.0,
+          686.0,
+          900.0,
+          793.0
+        ],
+        "source_type": "text",
+        "source_sentence": "For the foamed composite with 3 vol % CB in the COC matrix, Table II noted that its average cell size was slightly reduced and there was a significant decrease in cell density compared with the foamed COC."
+      },
+      "confidence": {
+        "score": 0.97
+      },
+      "evidence_ids": [
+        "ev00010"
+      ]
+    },
+    {
+      "mention_id": "m016",
+      "text": "COC/ CB3",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_2_41",
+        "page": 2,
+        "bbox": [
+          506.0,
+          686.0,
+          900.0,
+          793.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Comparing SEM micrographs of the foamed and nonfoamed COC/ CB3, as seen in Figure 4, there was no detectable difference in CB dispersion caused by the foaming agent."
+      },
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00011"
+      ]
+    },
+    {
+      "mention_id": "m017",
+      "text": "COC/CB3",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_2_41",
+        "page": 2,
+        "bbox": [
+          506.0,
+          686.0,
+          900.0,
+          793.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The largest aggregates of CB found were 0.5 lm in both micrographs in comparison with the nominal cell diameter of 60 lm found in COC/CB3."
+      },
+      "confidence": {
+        "score": 0.94
+      },
+      "evidence_ids": [
+        "ev00012"
+      ]
+    },
+    {
+      "mention_id": "m018",
+      "text": "COC",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "T_2_42",
+        "page": 2,
+        "bbox": [
+          509.0,
+          835.0,
+          896.0,
+          944.0
+        ],
+        "source_type": "table",
+        "source_sentence": "COC"
+      },
+      "confidence": {
+        "score": 0.96
+      },
+      "evidence_ids": [
+        "ev00013"
+      ]
+    },
+    {
+      "mention_id": "m019",
+      "text": "CB3",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "T_2_42",
+        "page": 2,
+        "bbox": [
+          509.0,
+          835.0,
+          896.0,
+          944.0
+        ],
+        "source_type": "table",
+        "source_sentence": "ntent (%)</td><td rowspan=\"2\">Cell Density (×106cells/cm3)</td><td colspan=\"3\">Cell Size (μm)</td></tr><tr><td> $D_n$ </td><td> $D_w$ </td><td> $D_{max}$ </td></tr><tr><td>COC</td><td>11</td><td>2.3</td><td>45</td><td>72</td><td>540</td></tr><tr><td>CB3</td><td>15</td><td>1.0</td><td>57</td><td>64</td><td>400</td></tr><tr><td>cCF10</td><td>15</td><td>5.0</td><td>30</td><td>35</td><td>200</td></tr><tr><td>cCF10-CB1</td><td>14</td><td>2.6</td><td>23</td><td>27</td><td>52</td></tr><tr><td>cCF10-CB3"
+      },
+      "confidence": {
+        "score": 0.95
+      },
+      "evidence_ids": [
+        "ev00014"
+      ]
+    },
+    {
+      "mention_id": "m020",
+      "text": "cCF10",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "T_2_42",
+        "page": 2,
+        "bbox": [
+          509.0,
+          835.0,
+          896.0,
+          944.0
+        ],
+        "source_type": "table",
+        "source_sentence": "=\"3\">Cell Size (μm)</td></tr><tr><td> $D_n$ </td><td> $D_w$ </td><td> $D_{max}$ </td></tr><tr><td>COC</td><td>11</td><td>2.3</td><td>45</td><td>72</td><td>540</td></tr><tr><td>CB3</td><td>15</td><td>1.0</td><td>57</td><td>64</td><td>400</td></tr><tr><td>cCF10</td><td>15</td><td>5.0</td><td>30</td><td>35</td><td>200</td></tr><tr><td>cCF10-CB1</td><td>14</td><td>2.6</td><td>23</td><td>27</td><td>52</td></tr><tr><td>cCF10-CB3</td><td>16</td><td>2.5</td><td>28</td><td>35</td><td>72</td></tr></table>"
+      },
+      "confidence": {
+        "score": 0.95
+      },
+      "evidence_ids": [
+        "ev00015"
+      ]
+    },
+    {
+      "mention_id": "m021",
+      "text": "cCF10-CB1",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "T_2_42",
+        "page": 2,
+        "bbox": [
+          509.0,
+          835.0,
+          896.0,
+          944.0
+        ],
+        "source_type": "table",
+        "source_sentence": "cCF10-CB1"
+      },
+      "confidence": {
+        "score": 0.96
+      },
+      "evidence_ids": [
+        "ev00016"
+      ]
+    },
+    {
+      "mention_id": "m022",
+      "text": "cCF10-CB3",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "T_2_42",
+        "page": 2,
+        "bbox": [
+          509.0,
+          835.0,
+          896.0,
+          944.0
+        ],
+        "source_type": "table",
+        "source_sentence": "cCF10-CB3"
+      },
+      "confidence": {
+        "score": 0.96
+      },
+      "evidence_ids": [
+        "ev00017"
+      ]
+    },
+    {
+      "mention_id": "m023",
+      "text": "COC",
+      "mention_role": "abbreviation",
+      "evidence": {
+        "block_id": "P_3_50",
+        "page": 3,
+        "bbox": [
+          506.0,
+          239.0,
+          898.0,
+          374.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Neat COC was not included in this measurement as its conductivity lies below the resolution of our instrument."
+      },
+      "confidence": {
+        "score": 0.94
+      },
+      "evidence_ids": [
+        "ev00018"
+      ]
+    },
+    {
+      "mention_id": "m024",
+      "text": "COC/CB3",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_3_50",
+        "page": 3,
+        "bbox": [
+          506.0,
+          239.0,
+          898.0,
+          374.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Conductivity was increased in all measured planes for the foamed COC/CB3 material, although most notably in the through-plane direction."
+      },
+      "confidence": {
+        "score": 0.97
+      },
+      "evidence_ids": [
+        "ev00019"
+      ]
+    },
+    {
+      "mention_id": "m025",
+      "text": "COC/CB3",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_4_58",
+        "page": 4,
+        "bbox": [
+          96.0,
+          756.0,
+          488.0,
+          951.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The observed enhancement in conductivity for the foamed COC/CB3 indicated a more segregated network of CB aggregates in the matrix due to the volume excluded by the gas phase."
+      },
+      "confidence": {
+        "score": 0.97
+      },
+      "evidence_ids": [
+        "ev00020"
+      ]
+    },
+    {
+      "mention_id": "m026",
+      "text": "COC",
+      "mention_role": "abbreviation",
+      "evidence": {
+        "block_id": "P_4_60",
+        "page": 4,
+        "bbox": [
+          507.0,
+          162.0,
+          730.0,
+          177.0
+        ],
+        "source_type": "title",
+        "source_sentence": "Carbon fiber-COC composite"
+      },
+      "confidence": {
+        "score": 0.92
+      },
+      "evidence_ids": [
+        "ev00021"
+      ]
+    },
+    {
+      "mention_id": "m027",
+      "text": "COC/CB3",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_4_61",
+        "page": 4,
+        "bbox": [
+          506.0,
+          183.0,
+          900.0,
+          555.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The porosity and cell size of the foamed composite containing 10 vol % cCF was found to be similar to the foamed COC/CB3 composite, as noted in Table II."
+      },
+      "confidence": {
+        "score": 0.97
+      },
+      "evidence_ids": [
+        "ev00022"
+      ]
+    },
+    {
+      "mention_id": "m028",
+      "text": "COC/cCF10",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_4_61",
+        "page": 4,
+        "bbox": [
+          506.0,
+          183.0,
+          900.0,
+          555.0
+        ],
+        "source_type": "text",
+        "source_sentence": "It appears that foaming had no significant effect on the degree of fiber breakage occurring as COC/cCF10 was being processed."
+      },
+      "confidence": {
+        "score": 0.97
+      },
+      "evidence_ids": [
+        "ev00023"
+      ]
+    },
+    {
+      "mention_id": "m029",
+      "text": "COC/cCF10",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_4_62",
+        "page": 4,
+        "bbox": [
+          506.0,
+          555.0,
+          900.0,
+          795.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Limiting our analysis for this section to the COC/cCF10 composite, it can be seen that no significant differences in fiber orientation were noted between foamed and nonfoamed samples, and very little difference was found in the morphology between the core and skin regions."
+      },
+      "confidence": {
+        "score": 0.97
+      },
+      "evidence_ids": [
+        "ev00024"
+      ]
+    },
+    {
+      "mention_id": "m030",
+      "text": "cCF10",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "T_4_63",
+        "page": 4,
+        "bbox": [
+          507.0,
+          837.0,
+          896.0,
+          914.0
+        ],
+        "source_type": "table",
+        "source_sentence": "Average Length ( $\\mu m$ ) $^{a}$ </td></tr><tr><td>cCF10</td><td>Nonfoamed</td><td>172</td></tr><tr><td>cCF10</td><td>Foamed</td><td>181</td></tr><tr><td>cCF10-CB3</td><td>Nonfoamed</td><td>188</td></tr><tr><td>cCF10-CB3</td><td>Foamed</td><td>207</td></tr></table>"
+      },
+      "confidence": {
+        "score": 0.98
+      },
+      "evidence_ids": [
+        "ev00025"
+      ]
+    },
+    {
+      "mention_id": "m031",
+      "text": "cCF10-CB3",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "T_4_63",
+        "page": 4,
+        "bbox": [
+          507.0,
+          837.0,
+          896.0,
+          914.0
+        ],
+        "source_type": "table",
+        "source_sentence": "Average Length ( $\\mu m$ ) $^{a}$ </td></tr><tr><td>cCF10</td><td>Nonfoamed</td><td>172</td></tr><tr><td>cCF10</td><td>Foamed</td><td>181</td></tr><tr><td>cCF10-CB3</td><td>Nonfoamed</td><td>188</td></tr><tr><td>cCF10-CB3</td><td>Foamed</td><td>207</td></tr></table>"
+      },
+      "confidence": {
+        "score": 0.98
+      },
+      "evidence_ids": [
+        "ev00025"
+      ]
+    },
+    {
+      "mention_id": "m032",
+      "text": "cCF10",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "T_5_67",
+        "page": 5,
+        "bbox": [
+          100.0,
+          144.0,
+          485.0,
+          337.0
+        ],
+        "source_type": "table",
+        "source_sentence": "<table><tr><td>Sample</td><td>Void Content (%)</td><td>Location</td><td> $f_T$ </td><td> $f_L$ </td><td> $f_W$ </td></tr><tr><td rowspan=\"4\">cCF10</td><td rowspan=\"2\">0</td><td>Core</td><td>0.12</td><td>0.50</td><td>0.39</td></tr><tr><td>Skin</td><td>0.04</td><td>0.61</td><td>0.35</td></tr><tr><td rowspan=\"2\">15</td><td>Core</td><td>0.105</td><td>0.585</td><td>0.310</td></tr><tr><td>Skin</td><td>0.040</td><td>0.610</td><td>0.347</td></tr><tr><td rowspan=\"4\">cCF10CB1</td><td rowspan=\"2\">0</td><td"
+      },
+      "confidence": {
+        "score": 0.98
+      },
+      "evidence_ids": [
+        "ev00026"
+      ]
+    },
+    {
+      "mention_id": "m033",
+      "text": "cCF10CB1",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "T_5_67",
+        "page": 5,
+        "bbox": [
+          100.0,
+          144.0,
+          485.0,
+          337.0
+        ],
+        "source_type": "table",
+        "source_sentence": "cCF10CB1"
+      },
+      "confidence": {
+        "score": 0.98
+      },
+      "evidence_ids": [
+        "ev00027"
+      ]
+    },
+    {
+      "mention_id": "m034",
+      "text": "cCF10CB3",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "T_5_67",
+        "page": 5,
+        "bbox": [
+          100.0,
+          144.0,
+          485.0,
+          337.0
+        ],
+        "source_type": "table",
+        "source_sentence": "cCF10CB3"
+      },
+      "confidence": {
+        "score": 0.98
+      },
+      "evidence_ids": [
+        "ev00028"
+      ]
+    },
+    {
+      "mention_id": "m035",
+      "text": "COC",
+      "mention_role": "abbreviation",
+      "evidence": {
+        "block_id": "P_5_69",
+        "page": 5,
+        "bbox": [
+          96.0,
+          416.0,
+          488.0,
+          758.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Figure 6 shows the electrical conductivities for nonfoamed and foamed injection-molded samples with the COC/cCF10 composite, both in their original state and after their skin layers were removed."
+      },
+      "confidence": {
+        "score": 0.94
+      },
+      "evidence_ids": [
+        "ev00029"
+      ]
+    },
+    {
+      "mention_id": "m036",
+      "text": "COC/cCF10",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_5_69",
+        "page": 5,
+        "bbox": [
+          96.0,
+          416.0,
+          488.0,
+          758.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Figure 6 shows the electrical conductivities for nonfoamed and foamed injection-molded samples with the COC/cCF10 composite, both in their original state and after their skin layers were removed."
+      },
+      "confidence": {
+        "score": 0.96
+      },
+      "evidence_ids": [
+        "ev00029"
+      ]
+    },
+    {
+      "mention_id": "m037",
+      "text": "COC",
+      "mention_role": "abbreviation",
+      "evidence": {
+        "block_id": "P_5_72",
+        "page": 5,
+        "bbox": [
+          507.0,
+          218.0,
+          809.0,
+          234.0
+        ],
+        "source_type": "title",
+        "source_sentence": "Hybrid carbon fiber/CB-COC composite"
+      },
+      "confidence": {
+        "score": 0.92
+      },
+      "evidence_ids": [
+        "ev00030"
+      ]
+    },
+    {
+      "mention_id": "m038",
+      "text": "COC",
+      "mention_role": "abbreviation",
+      "evidence": {
+        "block_id": "P_5_73",
+        "page": 5,
+        "bbox": [
+          506.0,
+          240.0,
+          900.0,
+          477.0
+        ],
+        "source_type": "text",
+        "source_sentence": "As with COC/CB3 and COC/cCF10, the bubble size was similar in scale to the fibers yet much larger than the CB aggregates."
+      },
+      "confidence": {
+        "score": 0.95
+      },
+      "evidence_ids": [
+        "ev00031"
+      ]
+    },
+    {
+      "mention_id": "m039",
+      "text": "COC/CB3",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_5_73",
+        "page": 5,
+        "bbox": [
+          506.0,
+          240.0,
+          900.0,
+          477.0
+        ],
+        "source_type": "text",
+        "source_sentence": "As with COC/CB3 and COC/cCF10, the bubble size was similar in scale to the fibers yet much larger than the CB aggregates."
+      },
+      "confidence": {
+        "score": 0.96
+      },
+      "evidence_ids": [
+        "ev00031"
+      ]
+    },
+    {
+      "mention_id": "m040",
+      "text": "COC/cCF10",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_5_73",
+        "page": 5,
+        "bbox": [
+          506.0,
+          240.0,
+          900.0,
+          477.0
+        ],
+        "source_type": "text",
+        "source_sentence": "As with COC/CB3 and COC/cCF10, the bubble size was similar in scale to the fibers yet much larger than the CB aggregates."
+      },
+      "confidence": {
+        "score": 0.96
+      },
+      "evidence_ids": [
+        "ev00031"
+      ]
+    },
+    {
+      "mention_id": "m041",
+      "text": "COC",
+      "mention_role": "abbreviation",
+      "evidence": {
+        "block_id": "P_5_74",
+        "page": 5,
+        "bbox": [
+          506.0,
+          477.0,
+          900.0,
+          687.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Despite its comparatively high viscosity, the fiber length of the nonfoamed COC/cCF10-CB3 was comparable with COC/cCF10, as reported in Table III."
+      },
+      "confidence": {
+        "score": 0.95
+      },
+      "evidence_ids": [
+        "ev00032"
+      ]
+    },
+    {
+      "mention_id": "m042",
+      "text": "COC/cCF10-CB3",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_5_74",
+        "page": 5,
+        "bbox": [
+          506.0,
+          477.0,
+          900.0,
+          687.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Despite its comparatively high viscosity, the fiber length of the nonfoamed COC/cCF10-CB3 was comparable with COC/cCF10, as reported in Table III."
+      },
+      "confidence": {
+        "score": 0.97
+      },
+      "evidence_ids": [
+        "ev00032"
+      ]
+    },
+    {
+      "mention_id": "m043",
+      "text": "COC/cCF10",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_5_74",
+        "page": 5,
+        "bbox": [
+          506.0,
+          477.0,
+          900.0,
+          687.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Despite its comparatively high viscosity, the fiber length of the nonfoamed COC/cCF10-CB3 was comparable with COC/cCF10, as reported in Table III."
+      },
+      "confidence": {
+        "score": 0.96
+      },
+      "evidence_ids": [
+        "ev00032"
+      ]
+    },
+    {
+      "mention_id": "m044",
+      "text": "COC",
+      "mention_role": "abbreviation",
+      "evidence": {
+        "block_id": "P_6_80",
+        "page": 6,
+        "bbox": [
+          96.0,
+          253.0,
+          488.0,
+          580.0
+        ],
+        "source_type": "text",
+        "source_sentence": "For both composites, COC/ cCF10-CB1 and COC/cCF10-CB3, the fibers in-plane were found to be more preferentially oriented in the direction of flow as noted by the lower $f _ { W }$and higher f<sub>L</sub>values shown in the table compared with COC/cCF10."
+      },
+      "confidence": {
+        "score": 0.95
+      },
+      "evidence_ids": [
+        "ev00033"
+      ]
+    },
+    {
+      "mention_id": "m045",
+      "text": "COC/ cCF10-CB1",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_6_80",
+        "page": 6,
+        "bbox": [
+          96.0,
+          253.0,
+          488.0,
+          580.0
+        ],
+        "source_type": "text",
+        "source_sentence": "For both composites, COC/ cCF10-CB1 and COC/cCF10-CB3, the fibers in-plane were found to be more preferentially oriented in the direction of flow as noted by the lower $f _ { W }$and higher f<sub>L</sub>values shown in the table compared with COC/cCF10."
+      },
+      "confidence": {
+        "score": 0.96
+      },
+      "evidence_ids": [
+        "ev00033"
+      ]
+    },
+    {
+      "mention_id": "m046",
+      "text": "COC/cCF10-CB3",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_6_80",
+        "page": 6,
+        "bbox": [
+          96.0,
+          253.0,
+          488.0,
+          580.0
+        ],
+        "source_type": "text",
+        "source_sentence": "For both composites, COC/ cCF10-CB1 and COC/cCF10-CB3, the fibers in-plane were found to be more preferentially oriented in the direction of flow as noted by the lower $f _ { W }$and higher f<sub>L</sub>values shown in the table compared with COC/cCF10."
+      },
+      "confidence": {
+        "score": 0.97
+      },
+      "evidence_ids": [
+        "ev00033"
+      ]
+    },
+    {
+      "mention_id": "m047",
+      "text": "COC/cCF10",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_6_80",
+        "page": 6,
+        "bbox": [
+          96.0,
+          253.0,
+          488.0,
+          580.0
+        ],
+        "source_type": "text",
+        "source_sentence": "For both composites, COC/ cCF10-CB1 and COC/cCF10-CB3, the fibers in-plane were found to be more preferentially oriented in the direction of flow as noted by the lower $f _ { W }$and higher f<sub>L</sub>values shown in the table compared with COC/cCF10."
+      },
+      "confidence": {
+        "score": 0.96
+      },
+      "evidence_ids": [
+        "ev00033"
+      ]
+    },
+    {
+      "mention_id": "m048",
+      "text": "COC/ cCF10-CB3",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_6_80",
+        "page": 6,
+        "bbox": [
+          96.0,
+          253.0,
+          488.0,
+          580.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The data in Table IV also show that $f _ { L }$decreased and $f _ { W }$increased for the foamed sample of COC/ cCF10-CB3 indicating the influence of bubble growth on fiber orientation were seen in all planes."
+      },
+      "confidence": {
+        "score": 0.96
+      },
+      "evidence_ids": [
+        "ev00034"
+      ]
+    },
+    {
+      "mention_id": "m049",
+      "text": "COC",
+      "mention_role": "abbreviation",
+      "evidence": {
+        "block_id": "P_6_81",
+        "page": 6,
+        "bbox": [
+          96.0,
+          579.0,
+          488.0,
+          951.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The measured electrical conductivities of the COC/ cCF-CB composites are plotted in Figure 7."
+      },
+      "confidence": {
+        "score": 0.91
+      },
+      "evidence_ids": [
+        "ev00035"
+      ]
+    },
+    {
+      "mention_id": "m050",
+      "text": "COC/ cCF-CB",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_6_81",
+        "page": 6,
+        "bbox": [
+          96.0,
+          579.0,
+          488.0,
+          951.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The measured electrical conductivities of the COC/ cCF-CB composites are plotted in Figure 7."
+      },
+      "confidence": {
+        "score": 0.88
+      },
+      "evidence_ids": [
+        "ev00035"
+      ]
+    },
+    {
+      "mention_id": "m051",
+      "text": "COC/cCF10",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_6_81",
+        "page": 6,
+        "bbox": [
+          96.0,
+          579.0,
+          488.0,
+          951.0
+        ],
+        "source_type": "text",
+        "source_sentence": "For the hybrid containing 1 vol % CB, the conductivities in both L and T directions were similar to the carbon fiber containing composite (COC/cCF10)."
+      },
+      "confidence": {
+        "score": 0.95
+      },
+      "evidence_ids": [
+        "ev00036"
+      ]
+    },
+    {
+      "mention_id": "m052",
+      "text": "COC/cCF10-CB3",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_6_81",
+        "page": 6,
+        "bbox": [
+          96.0,
+          579.0,
+          488.0,
+          951.0
+        ],
+        "source_type": "text",
+        "source_sentence": "When the CB content exceeded its percolation threshold, the conductivities of the hybrid (COC/cCF10-CB3) more closely resembled the CB containing composite (COC/CB3), although being one order of magnitude higher in both L and T directions."
+      },
+      "confidence": {
+        "score": 0.96
+      },
+      "evidence_ids": [
+        "ev00037"
+      ]
+    },
+    {
+      "mention_id": "m053",
+      "text": "COC/CB3",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_6_81",
+        "page": 6,
+        "bbox": [
+          96.0,
+          579.0,
+          488.0,
+          951.0
+        ],
+        "source_type": "text",
+        "source_sentence": "When the CB content exceeded its percolation threshold, the conductivities of the hybrid (COC/cCF10-CB3) more closely resembled the CB containing composite (COC/CB3), although being one order of magnitude higher in both L and T directions."
+      },
+      "confidence": {
+        "score": 0.96
+      },
+      "evidence_ids": [
+        "ev00037"
+      ]
+    },
+    {
+      "mention_id": "m054",
+      "text": "COC",
+      "mention_role": "abbreviation",
+      "evidence": {
+        "block_id": "P_7_92",
+        "page": 7,
+        "bbox": [
+          96.0,
+          550.0,
+          490.0,
+          951.0
+        ],
+        "source_type": "text",
+        "source_sentence": "In fact, crystallization can similarly provide this multiple percolation effect because the filler will be excluded from the crystals; an issue purposely avoided in this work by selecting the amorphous COC for the study."
+      },
+      "confidence": {
+        "score": 0.95
+      },
+      "evidence_ids": [
+        "ev00038"
+      ]
+    },
+    {
+      "mention_id": "m055",
+      "text": "COC/CB3",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_7_92",
+        "page": 7,
+        "bbox": [
+          96.0,
+          550.0,
+          490.0,
+          951.0
+        ],
+        "source_type": "text",
+        "source_sentence": "In the case of CB as seen in the foamed COC/CB3, the CB-rich polymer phase created by foaming showed increased electrical conductivity in all directions."
+      },
+      "confidence": {
+        "score": 0.96
+      },
+      "evidence_ids": [
+        "ev00039"
+      ]
+    },
+    {
+      "mention_id": "m056",
+      "text": "COC/cCF10",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_7_92",
+        "page": 7,
+        "bbox": [
+          96.0,
+          550.0,
+          490.0,
+          951.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Carbon fibers, such as in foamed COC/cCF10, did not demonstrate the same beneficial gain in electrical conductivity as CB and this was likely attributed to their relatively large dimensions."
+      },
+      "confidence": {
+        "score": 0.96
+      },
+      "evidence_ids": [
+        "ev00040"
+      ]
+    },
+    {
+      "mention_id": "m057",
+      "text": "COC",
+      "mention_role": "abbreviation",
+      "evidence": {
+        "block_id": "P_7_94",
+        "page": 7,
+        "bbox": [
+          506.0,
+          445.0,
+          900.0,
+          596.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The small improvement in out of plane reorientation of fibers due to bubble growth in COC/cCF10-CB3 likely made a minor contribution to the enhanced conductivity and demonstrated a unique possibility for foaming to create more randomly oriented fiber filled structures if the phenomenon can be properly understood and controlled."
+      },
+      "confidence": {
+        "score": 0.93
+      },
+      "evidence_ids": [
+        "ev00041"
+      ]
+    },
+    {
+      "mention_id": "m058",
+      "text": "COC/cCF10-CB3",
+      "mention_role": "sample_label",
+      "evidence": {
+        "block_id": "P_7_94",
+        "page": 7,
+        "bbox": [
+          506.0,
+          445.0,
+          900.0,
+          596.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The small improvement in out of plane reorientation of fibers due to bubble growth in COC/cCF10-CB3 likely made a minor contribution to the enhanced conductivity and demonstrated a unique possibility for foaming to create more randomly oriented fiber filled structures if the phenomenon can be properly understood and controlled."
+      },
+      "confidence": {
+        "score": 0.96
+      },
+      "evidence_ids": [
+        "ev00041"
+      ]
+    }
+  ],
+  "polymer_entities": [
+    {
+      "entity_id": "pe001",
+      "polymer_name": "Cyclic olefin copolymer",
+      "polymer_type": "copolymer",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "Cyclic olefin copolymer",
+        "COC",
+        "Topas 6013S-04"
+      ],
+      "resolved_from_mentions": [
+        "m001",
+        "m002",
+        "m003",
+        "m004",
+        "m006",
+        "m010",
+        "m011",
+        "m015",
+        "m018",
+        "m023",
+        "m026",
+        "m035",
+        "m037",
+        "m038",
+        "m041",
+        "m044",
+        "m049",
+        "m054",
+        "m057"
+      ],
+      "evidence": {
+        "block_id": "P_0_15",
+        "page": 0,
+        "bbox": [
+          507.0,
+          904.0,
+          898.0,
+          951.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Cyclic olefin copolymer (COC), an amorphous copolymer of ethylene and norbornene, (Topas 6013S-04 supplied by Ticona, MFR 14 g/10 min at 260-C,"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.98
+      },
+      "evidence_ids": [
+        "ev00001"
+      ]
+    },
+    {
+      "entity_id": "pe002",
+      "polymer_name": "polycarbonate",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "polycarbonate"
+      ],
+      "resolved_from_mentions": [
+        "m005"
+      ],
+      "evidence": {
+        "block_id": "P_1_20",
+        "page": 1,
+        "bbox": [
+          96.0,
+          300.0,
+          488.0,
+          480.0
+        ],
+        "source_type": "text",
+        "source_sentence": "A masterbatch exothermic chemical blowing agent (CBA, IM 2240) containing 20 wt % 5-phenyl tetrazol in polycarbonate was supplied by Dempsey Corporation."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.94
+      },
+      "evidence_ids": [
+        "ev00003"
+      ]
+    },
+    {
+      "entity_id": "pe003",
+      "polymer_name": "CB-COC composite",
+      "variant_of": "pe001",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "COC/CB3",
+        "CB-COC composite",
+        "COC/ CB3",
+        "CB3"
+      ],
+      "resolved_from_mentions": [
+        "m008",
+        "m012",
+        "m014",
+        "m016",
+        "m017",
+        "m019",
+        "m024",
+        "m025",
+        "m027",
+        "m039",
+        "m053",
+        "m055"
+      ],
+      "evidence": {
+        "block_id": "P_2_40",
+        "page": 2,
+        "bbox": [
+          509.0,
+          664.0,
+          660.0,
+          681.0
+        ],
+        "source_type": "title",
+        "source_sentence": "CB-COC composite"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.95
+      },
+      "evidence_ids": [
+        "ev00009"
+      ]
+    },
+    {
+      "entity_id": "pe004",
+      "polymer_name": "COC/cCF10",
+      "variant_of": "pe001",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "COC/cCF10",
+        "cCF10"
+      ],
+      "resolved_from_mentions": [
+        "m007",
+        "m013",
+        "m020",
+        "m028",
+        "m029",
+        "m030",
+        "m032",
+        "m036",
+        "m040",
+        "m043",
+        "m047",
+        "m051",
+        "m056"
+      ],
+      "evidence": {
+        "block_id": "P_1_23",
+        "page": 1,
+        "bbox": [
+          96.0,
+          801.0,
+          488.0,
+          951.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Single filler composites were prepared containing either 10 vol % cCF (COC/cCF10), or 3 vol % CB (COC/CB3)."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.96
+      },
+      "evidence_ids": [
+        "ev00005"
+      ]
+    },
+    {
+      "entity_id": "pe005",
+      "polymer_name": "COC/cCF10-CB1",
+      "variant_of": "pe001",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "COC/cCF10-CB1",
+        "cCF10-CB1",
+        "cCF10CB1",
+        "COC/ cCF10-CB1"
+      ],
+      "resolved_from_mentions": [
+        "m009",
+        "m021",
+        "m033",
+        "m045"
+      ],
+      "evidence": {
+        "block_id": "P_1_23",
+        "page": 1,
+        "bbox": [
+          96.0,
+          801.0,
+          488.0,
+          951.0
+        ],
+        "source_type": "text",
+        "source_sentence": "For example, COC/cCF10-CB1 corresponds to the material with 10 vol % cCF and 1 vol % CB mixed into COC."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00006"
+      ]
+    },
+    {
+      "entity_id": "pe006",
+      "polymer_name": "COC/cCF10-CB3",
+      "variant_of": "pe001",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "cCF10-CB3",
+        "cCF10CB3",
+        "COC/cCF10-CB3",
+        "COC/ cCF10-CB3"
+      ],
+      "resolved_from_mentions": [
+        "m022",
+        "m031",
+        "m034",
+        "m042",
+        "m046",
+        "m048",
+        "m052",
+        "m058"
+      ],
+      "evidence": {
+        "block_id": "P_5_74",
+        "page": 5,
+        "bbox": [
+          506.0,
+          477.0,
+          900.0,
+          687.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Despite its comparatively high viscosity, the fiber length of the nonfoamed COC/cCF10-CB3 was comparable with COC/cCF10, as reported in Table III."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.91
+      },
+      "evidence_ids": [
+        "ev00032"
+      ]
+    },
+    {
+      "entity_id": "pe007",
+      "polymer_name": "COC/ cCF-CB",
+      "variant_of": "pe001",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "COC/ cCF-CB"
+      ],
+      "resolved_from_mentions": [
+        "m050"
+      ],
+      "evidence": {
+        "block_id": "P_6_81",
+        "page": 6,
+        "bbox": [
+          96.0,
+          579.0,
+          488.0,
+          951.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The measured electrical conductivities of the COC/ cCF-CB composites are plotted in Figure 7."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.72
+      },
+      "evidence_ids": [
+        "ev00035"
+      ]
+    }
+  ],
+  "unresolved_mention_ids": [],
+  "samples": [
+    {
+      "sample_id": "s001",
+      "sample_kind": "commercial_batch",
+      "refers_to_entity": "pe001",
+      "polymer_name": "Cyclic olefin copolymer",
+      "polymer_type": "copolymer",
+      "sample_label_raw": "Topas 6013S-04",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "P_0_15",
+        "page": 0,
+        "bbox": [
+          507.0,
+          904.0,
+          898.0,
+          951.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Cyclic olefin copolymer (COC), an amorphous copolymer of ethylene and norbornene, (Topas 6013S-04 supplied by Ticona, MFR 14 g/10 min at 260-C,"
+      },
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00001"
+      ]
+    },
+    {
+      "sample_id": "s002",
+      "sample_kind": "commercial_batch",
+      "refers_to_entity": "pe002",
+      "polymer_name": "polycarbonate",
+      "sample_label_raw": "IM 2240",
+      "state_description": "masterbatch exothermic chemical blowing agent containing 20 wt % 5-phenyl tetrazol in polycarbonate",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "P_1_20",
+        "page": 1,
+        "bbox": [
+          96.0,
+          300.0,
+          488.0,
+          480.0
+        ],
+        "source_type": "text",
+        "source_sentence": "A masterbatch exothermic chemical blowing agent (CBA, IM 2240) containing 20 wt % 5-phenyl tetrazol in polycarbonate was supplied by Dempsey Corporation."
+      },
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00003"
+      ]
+    },
+    {
+      "sample_id": "s003",
+      "sample_kind": "intermediate",
+      "polymer_name": "8 vol % CB in COC masterbatch",
+      "state_description": "8 vol % CB in COC masterbatch",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "P_1_22",
+        "page": 1,
+        "bbox": [
+          96.0,
+          534.0,
+          488.0,
+          802.0
+        ],
+        "source_type": "text",
+        "source_sentence": "prepared masterbatches of 8 vol % CB in COC from a twin-screw extruder (Leistritz ZSE 27) and 40 vol % carbon fibers in COC using a single screw extruder (50 mm Davis-Standard)."
+      },
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00042"
+      ]
+    },
+    {
+      "sample_id": "s004",
+      "sample_kind": "intermediate",
+      "polymer_name": "40 vol % carbon fibers in COC masterbatch",
+      "state_description": "40 vol % carbon fibers in COC masterbatch",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "P_1_22",
+        "page": 1,
+        "bbox": [
+          96.0,
+          534.0,
+          488.0,
+          802.0
+        ],
+        "source_type": "text",
+        "source_sentence": "prepared masterbatches of 8 vol % CB in COC from a twin-screw extruder (Leistritz ZSE 27) and 40 vol % carbon fibers in COC using a single screw extruder (50 mm Davis-Standard)."
+      },
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00042"
+      ]
+    },
+    {
+      "sample_id": "s005",
+      "sample_kind": "processed_material",
+      "refers_to_entity": "pe004",
+      "polymer_name": "COC/cCF10",
+      "material_type": "composite",
+      "sample_label_raw": "COC/cCF10",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "P_1_23",
+        "page": 1,
+        "bbox": [
+          96.0,
+          801.0,
+          488.0,
+          951.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Single filler composites were prepared containing either 10 vol % cCF (COC/cCF10), or 3 vol % CB (COC/CB3)."
+      },
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00005"
+      ]
+    },
+    {
+      "sample_id": "s006",
+      "sample_kind": "processed_material",
+      "refers_to_entity": "pe003",
+      "polymer_name": "CB-COC composite",
+      "material_type": "composite",
+      "sample_label_raw": "COC/CB3",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "P_1_23",
+        "page": 1,
+        "bbox": [
+          96.0,
+          801.0,
+          488.0,
+          951.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Single filler composites were prepared containing either 10 vol % cCF (COC/cCF10), or 3 vol % CB (COC/CB3)."
+      },
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00005"
+      ]
+    },
+    {
+      "sample_id": "s007",
+      "sample_kind": "processed_material",
+      "refers_to_entity": "pe005",
+      "polymer_name": "COC/cCF10-CB1",
+      "material_type": "composite",
+      "sample_label_raw": "COC/cCF10-CB1",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "P_1_23",
+        "page": 1,
+        "bbox": [
+          96.0,
+          801.0,
+          488.0,
+          951.0
+        ],
+        "source_type": "text",
+        "source_sentence": "For example, COC/cCF10-CB1 corresponds to the material with 10 vol % cCF and 1 vol % CB mixed into COC."
+      },
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00006"
+      ]
+    },
+    {
+      "sample_id": "s008",
+      "sample_kind": "processed_material",
+      "refers_to_entity": "pe006",
+      "polymer_name": "COC/cCF10-CB3",
+      "material_type": "composite",
+      "sample_label_raw": "COC/cCF10-CB3",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "P_5_74",
+        "page": 5,
+        "bbox": [
+          506.0,
+          477.0,
+          900.0,
+          687.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Despite its comparatively high viscosity, the fiber length of the nonfoamed COC/cCF10-CB3 was comparable with COC/cCF10, as reported in Table III."
+      },
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00032"
+      ]
+    },
+    {
+      "sample_id": "s009",
+      "sample_kind": "test_specimen",
+      "refers_to_entity": "pe004",
+      "polymer_name": "COC/cCF10",
+      "state_description": "COC/cCF10 molded sample",
+      "intended_use": [
+        "electrical conductivity measurement"
+      ],
+      "evidence": {
+        "block_id": "P_1_26",
+        "page": 1,
+        "bbox": [
+          506.0,
+          330.0,
+          900.0,
+          496.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Molded samples from the prepared materials were produced using an Arburg 55 ton injection molding machine with a rectangular center-gated mold."
+      },
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00043"
+      ]
+    },
+    {
+      "sample_id": "s010",
+      "sample_kind": "test_specimen",
+      "refers_to_entity": "pe003",
+      "polymer_name": "CB-COC composite",
+      "state_description": "COC/CB3 molded sample",
+      "intended_use": [
+        "electrical conductivity measurement"
+      ],
+      "evidence": {
+        "block_id": "P_1_26",
+        "page": 1,
+        "bbox": [
+          506.0,
+          330.0,
+          900.0,
+          496.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Molded samples from the prepared materials were produced using an Arburg 55 ton injection molding machine with a rectangular center-gated mold."
+      },
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00043"
+      ]
+    },
+    {
+      "sample_id": "s011",
+      "sample_kind": "test_specimen",
+      "refers_to_entity": "pe005",
+      "polymer_name": "COC/cCF10-CB1",
+      "state_description": "COC/cCF10-CB1 molded sample",
+      "intended_use": [
+        "electrical conductivity measurement"
+      ],
+      "evidence": {
+        "block_id": "P_1_26",
+        "page": 1,
+        "bbox": [
+          506.0,
+          330.0,
+          900.0,
+          496.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Molded samples from the prepared materials were produced using an Arburg 55 ton injection molding machine with a rectangular center-gated mold."
+      },
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00043"
+      ]
+    },
+    {
+      "sample_id": "s012",
+      "sample_kind": "test_specimen",
+      "refers_to_entity": "pe006",
+      "polymer_name": "COC/cCF10-CB3",
+      "state_description": "COC/cCF10-CB3 molded sample",
+      "intended_use": [
+        "electrical conductivity measurement"
+      ],
+      "evidence": {
+        "block_id": "P_1_26",
+        "page": 1,
+        "bbox": [
+          506.0,
+          330.0,
+          900.0,
+          496.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Molded samples from the prepared materials were produced using an Arburg 55 ton injection molding machine with a rectangular center-gated mold."
+      },
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00043"
+      ]
+    }
+  ],
+  "process_steps": [
+    {
+      "step_id": "ps001",
+      "process_type": "compounding",
+      "input_sample_ids": [
+        "s001"
+      ],
+      "output_sample_ids": [
+        "s003"
+      ],
+      "parameters": {
+        "filler": "CB",
+        "filler content": "8 vol %",
+        "extruder": "twin-screw extruder (Leistritz ZSE 27)",
+        "temperature": "260-C",
+        "RPM": "100"
+      },
+      "evidence": {
+        "block_id": "P_1_22",
+        "page": 1,
+        "bbox": [
+          96.0,
+          534.0,
+          488.0,
+          802.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The twin-screw extruder operated at a nominal temperature of 260-C and 100 RPM with CB introduced into the melt by a side feeder half way down the length of the machine to minimize agglomeration."
+      },
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00044"
+      ]
+    },
+    {
+      "step_id": "ps002",
+      "process_type": "compounding",
+      "input_sample_ids": [
+        "s001"
+      ],
+      "output_sample_ids": [
+        "s004"
+      ],
+      "parameters": {
+        "filler": "carbon fibers",
+        "filler content": "40 vol %",
+        "extruder": "single screw extruder (50 mm Davis-Standard)",
+        "temperature": "260-C",
+        "RPM": "20"
+      },
+      "evidence": {
+        "block_id": "P_1_22",
+        "page": 1,
+        "bbox": [
+          96.0,
+          534.0,
+          488.0,
+          802.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The single screw extruder operated at a nominal temperature of 260-C fitted with a deep channel, zero compression screw rotating at 20 RPM."
+      },
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00045"
+      ]
+    },
+    {
+      "step_id": "ps003",
+      "process_type": "blending",
+      "input_sample_ids": [
+        "s001",
+        "s004",
+        "s002"
+      ],
+      "output_sample_ids": [
+        "s005"
+      ],
+      "parameters": {
+        "cCF content": "10 vol %",
+        "foaming agent content": "5 wt %"
+      },
+      "evidence": {
+        "block_id": "P_1_22",
+        "page": 1,
+        "bbox": [
+          96.0,
+          534.0,
+          488.0,
+          802.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The stated formulations below were then produced by dry blending these masterbatch materials with COC in the injection molding machine, along with 5 wt % of the foaming agent."
+      },
+      "confidence": {
+        "score": 0.8
+      },
+      "evidence_ids": [
+        "ev00046"
+      ]
+    },
+    {
+      "step_id": "ps004",
+      "process_type": "blending",
+      "input_sample_ids": [
+        "s001",
+        "s003",
+        "s002"
+      ],
+      "output_sample_ids": [
+        "s006"
+      ],
+      "parameters": {
+        "CB content": "3 vol %",
+        "foaming agent content": "5 wt %"
+      },
+      "evidence": {
+        "block_id": "P_1_22",
+        "page": 1,
+        "bbox": [
+          96.0,
+          534.0,
+          488.0,
+          802.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The stated formulations below were then produced by dry blending these masterbatch materials with COC in the injection molding machine, along with 5 wt % of the foaming agent."
+      },
+      "confidence": {
+        "score": 0.8
+      },
+      "evidence_ids": [
+        "ev00046"
+      ]
+    },
+    {
+      "step_id": "ps005",
+      "process_type": "blending",
+      "input_sample_ids": [
+        "s001",
+        "s003",
+        "s004",
+        "s002"
+      ],
+      "output_sample_ids": [
+        "s007"
+      ],
+      "parameters": {
+        "cCF content": "10 vol %",
+        "CB content": "1 vol %",
+        "foaming agent content": "5 wt %"
+      },
+      "evidence": {
+        "block_id": "P_1_22",
+        "page": 1,
+        "bbox": [
+          96.0,
+          534.0,
+          488.0,
+          802.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The stated formulations below were then produced by dry blending these masterbatch materials with COC in the injection molding machine, along with 5 wt % of the foaming agent."
+      },
+      "confidence": {
+        "score": 0.8
+      },
+      "evidence_ids": [
+        "ev00046"
+      ]
+    },
+    {
+      "step_id": "ps006",
+      "process_type": "blending",
+      "input_sample_ids": [
+        "s001",
+        "s003",
+        "s004",
+        "s002"
+      ],
+      "output_sample_ids": [
+        "s008"
+      ],
+      "parameters": {
+        "cCF content": "10 vol %",
+        "CB content": "3 vol %",
+        "foaming agent content": "5 wt %"
+      },
+      "evidence": {
+        "block_id": "P_1_22",
+        "page": 1,
+        "bbox": [
+          96.0,
+          534.0,
+          488.0,
+          802.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The stated formulations below were then produced by dry blending these masterbatch materials with COC in the injection molding machine, along with 5 wt % of the foaming agent."
+      },
+      "confidence": {
+        "score": 0.8
+      },
+      "evidence_ids": [
+        "ev00046"
+      ]
+    },
+    {
+      "step_id": "ps007",
+      "process_type": "molding",
+      "input_sample_ids": [
+        "s005",
+        "s006",
+        "s007",
+        "s008"
+      ],
+      "output_sample_ids": [
+        "s009",
+        "s010",
+        "s011",
+        "s012"
+      ],
+      "parameters": {
+        "injection molding machine": "Arburg 55 ton",
+        "shot size": "85% mold fill",
+        "temperature profile": "30, 210, 210, 250, 290, and 300-C"
+      },
+      "evidence": {
+        "block_id": "P_1_26",
+        "page": 1,
+        "bbox": [
+          506.0,
+          330.0,
+          900.0,
+          496.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Molded samples from the prepared materials were produced using an Arburg 55 ton injection molding machine with a rectangular center-gated mold. The shot size was controlled to 85% mold fill to allow for foam growth. The temperature profile of the plasticating unit and nozzle were set at 30, 210, 210, 250, 290, and 300-C, respectively, from the hopper to the nozzle so to prevent premature decomposition of CBA."
+      },
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00047"
+      ]
+    }
+  ],
+  "unresolved_entity_ids": [
+    "pe007"
+  ],
+  "property_observations": [
+    {
+      "property_id": "prop001",
+      "sample_id": "s001",
+      "property_name_raw": "MFR",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "14",
+      "value_min": 14.0,
+      "value_max": 14.0,
+      "unit_raw": "g/10 min",
+      "unit_normalized": null,
+      "measurement_condition_id": "mc002",
+      "measurement_context": {
+        "temperature": {
+          "raw": "260-C",
+          "value": 260.0,
+          "unit": "°C",
+          "evidence": [
+            {
+              "block_id": "P_0_15",
+              "page": 0,
+              "bbox": [
+                507.0,
+                904.0,
+                898.0,
+                951.0
+              ],
+              "source_type": "text",
+              "source_sentence": "260-C",
+              "table_locator": null
+            }
+          ],
+          "evidence_ids": [
+            "ev00050"
+          ]
+        },
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_0_15",
+          "page": 0,
+          "bbox": [
+            507.0,
+            904.0,
+            898.0,
+            951.0
+          ],
+          "source_type": "text",
+          "source_sentence": "MFR 14 g/10 min at 260-C,",
+          "table_locator": null
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00055"
+      ]
+    },
+    {
+      "property_id": "prop002",
+      "sample_id": "s001",
+      "property_name_raw": "Electrical conductivity",
+      "property_name_normalized": "electric_conductivity",
+      "property_code": "P4130",
+      "property_category": "electrical_property",
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "<10^{-16}",
+      "value_min": null,
+      "value_max": 1e-16,
+      "unit_raw": "S/cm",
+      "unit_normalized": "S/cm",
+      "measurement_condition_id": "mc001",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_1_19",
+          "page": 1,
+          "bbox": [
+            100.0,
+            133.0,
+            485.0,
+            261.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Electrical conductivity (S/cm) <10^{-16}",
+          "table_locator": {
+            "table_id": "T_1_19",
+            "row_label": "Electrical conductivity (S/cm)",
+            "column_label": "$<10^{-16}$",
+            "cell_value": "$<10^{-16}$",
+            "cell_id": "T_1_19:r0001:c0001",
+            "row_index": 1,
+            "column_index": 1
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00056"
+      ]
+    },
+    {
+      "property_id": "prop003",
+      "sample_id": "s001",
+      "property_name_raw": "Specific gravity",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "1.02",
+      "value_min": 1.02,
+      "value_max": 1.02,
+      "unit_raw": null,
+      "unit_normalized": null,
+      "measurement_condition_id": "mc001",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_1_19",
+          "page": 1,
+          "bbox": [
+            100.0,
+            133.0,
+            485.0,
+            261.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Specific gravity 1.02",
+          "table_locator": {
+            "table_id": "T_1_19",
+            "row_label": "Specific gravity",
+            "column_label": "$<10^{-16}$",
+            "cell_value": "1.02",
+            "cell_id": "T_1_19:r0002:c0001",
+            "row_index": 2,
+            "column_index": 1
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00057"
+      ]
+    },
+    {
+      "property_id": "prop004",
+      "sample_id": "s001",
+      "property_name_raw": "Bulk density",
+      "property_name_normalized": "density",
+      "property_code": "P1110",
+      "property_category": "physical_property",
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "510",
+      "value_min": 510.0,
+      "value_max": 510.0,
+      "unit_raw": "kg/m3",
+      "unit_normalized": "kg/m³",
+      "measurement_condition_id": "mc001",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_1_19",
+          "page": 1,
+          "bbox": [
+            100.0,
+            133.0,
+            485.0,
+            261.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Bulk density (kg/m3) 510",
+          "table_locator": {
+            "table_id": "T_1_19",
+            "row_label": "Bulk density (kg/m3)",
+            "column_label": "$<10^{-16}$",
+            "cell_value": "510",
+            "cell_id": "T_1_19:r0003:c0001",
+            "row_index": 3,
+            "column_index": 1
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00058"
+      ]
+    },
+    {
+      "property_id": "prop005",
+      "sample_id": "s006",
+      "property_name_raw": "σ_L",
+      "property_name_normalized": "electric_conductivity",
+      "property_code": "P4130",
+      "property_category": "electrical_property",
+      "molecular_weight_type": null,
+      "determination_method_raw": "four-probe method",
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "10^{-2}",
+      "value_min": 0.01,
+      "value_max": 0.01,
+      "unit_raw": "S/cm",
+      "unit_normalized": "S/cm",
+      "measurement_condition_id": "mc006",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {
+          "through_plane_test_method": "two-probe method",
+          "voltage_range": "0.5–1 VDC",
+          "compressive_pressure": "10 MPa"
+        },
+        "other_condition_evidence": {
+          "through_plane_test_method": [
+            {
+              "block_id": "P_1_28",
+              "page": 1,
+              "bbox": [
+                506.0,
+                541.0,
+                900.0,
+                679.0
+              ],
+              "source_type": "text",
+              "source_sentence": "the two-probe method was used to measure electrical conductivity in the T direction $( \\sigma _ { T } ,$through plane)",
+              "table_locator": null
+            }
+          ],
+          "voltage_range": [
+            {
+              "block_id": "P_1_28",
+              "page": 1,
+              "bbox": [
+                506.0,
+                541.0,
+                900.0,
+                679.0
+              ],
+              "source_type": "text",
+              "source_sentence": "0.5–1 VDC",
+              "table_locator": null
+            }
+          ],
+          "compressive_pressure": [
+            {
+              "block_id": "P_1_28",
+              "page": 1,
+              "bbox": [
+                506.0,
+                541.0,
+                900.0,
+                679.0
+              ],
+              "source_type": "text",
+              "source_sentence": "10 MPa",
+              "table_locator": null
+            }
+          ]
+        },
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_3_50",
+          "page": 3,
+          "bbox": [
+            506.0,
+            239.0,
+            898.0,
+            374.0
+          ],
+          "source_type": "text",
+          "source_sentence": "For the nonfoamed composite, $\\sigma _ { L }$was larger $( 1 0 ^ { - 2 } \\ \\mathrm { S / c m } )$than r<sub>T</sub> by almost three orders of magnitude with the skin in place",
+          "table_locator": null
+        }
+      ],
+      "confidence": {
+        "score": 0.8
+      },
+      "evidence_ids": [
+        "ev00059"
+      ]
+    },
+    {
+      "property_id": "prop_s5_001",
+      "characterization_id": "char001",
+      "sample_ids": [
+        "s001",
+        "s005",
+        "s006"
+      ],
+      "sample_resolution_status": "multi_resolved",
+      "property_name_raw": "largest aggregates of CB",
+      "property_name_normalized": "morphology_particle_size",
+      "property_category": "morphology",
+      "value_raw": "0.5",
+      "value_min": 0.5,
+      "value_max": 0.5,
+      "source_stage": "stage5",
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_2_41",
+          "page": 2,
+          "bbox": [
+            506.0,
+            686.0,
+            900.0,
+            793.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The largest aggregates of CB found were 0.5 lm in both micrographs in comparison with the nominal cell diameter of 60 lm found in COC/CB3."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00012"
+      ]
+    },
+    {
+      "property_id": "prop_s5_002",
+      "characterization_id": "char001",
+      "sample_ids": [
+        "s001",
+        "s005",
+        "s006"
+      ],
+      "sample_resolution_status": "multi_resolved",
+      "property_name_raw": "nominal cell diameter",
+      "property_name_normalized": "morphology_domain_size",
+      "property_category": "morphology",
+      "value_raw": "60",
+      "value_min": 60.0,
+      "value_max": 60.0,
+      "source_stage": "stage5",
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_2_41",
+          "page": 2,
+          "bbox": [
+            506.0,
+            686.0,
+            900.0,
+            793.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The largest aggregates of CB found were 0.5 lm in both micrographs in comparison with the nominal cell diameter of 60 lm found in COC/CB3."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00012"
+      ]
+    }
+  ],
+  "measurement_conditions": [
+    {
+      "condition_id": "mc001",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {},
+      "other_condition_evidence": {},
+      "condition_status": "not_reported",
+      "evidence": {
+        "block_id": "T_1_19",
+        "page": 1,
+        "bbox": [
+          100.0,
+          133.0,
+          485.0,
+          261.0
+        ],
+        "source_type": "table",
+        "source_sentence": "TABLE I Properties of the Matrix Polymer and Conductive fillers",
+        "table_locator": {
+          "table_id": "T_1_19",
+          "row_label": "Properties",
+          "column_label": "Properties",
+          "cell_value": "Properties",
+          "cell_id": "T_1_19:r0000:c0000",
+          "row_index": 0,
+          "column_index": 0
+        }
+      },
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00048"
+      ]
+    },
+    {
+      "condition_id": "mc002",
+      "temperature": {
+        "raw": "260-C",
+        "value": 260.0,
+        "unit": "°C",
+        "evidence": [
+          {
+            "block_id": "P_0_15",
+            "page": 0,
+            "bbox": [
+              507.0,
+              904.0,
+              898.0,
+              951.0
+            ],
+            "source_type": "text",
+            "source_sentence": "260-C",
+            "table_locator": null
+          }
+        ],
+        "evidence_ids": [
+          "ev00050"
+        ]
+      },
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {},
+      "other_condition_evidence": {},
+      "condition_status": "reported",
+      "evidence": {
+        "block_id": "P_0_15",
+        "page": 0,
+        "bbox": [
+          507.0,
+          904.0,
+          898.0,
+          951.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Cyclic olefin copolymer (COC), an amorphous copolymer of ethylene and norbornene, (Topas 6013S-04 supplied by Ticona, MFR 14 g/10 min at 260-C,",
+        "table_locator": null
+      },
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00049"
+      ]
+    },
+    {
+      "condition_id": "mc003",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {},
+      "other_condition_evidence": {},
+      "condition_status": "not_reported",
+      "evidence": {
+        "block_id": "T_2_42",
+        "page": 2,
+        "bbox": [
+          509.0,
+          835.0,
+          896.0,
+          944.0
+        ],
+        "source_type": "table",
+        "source_sentence": "TABLE II Cell Size of the Foam Injection molded Composites",
+        "table_locator": null
+      },
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00051"
+      ]
+    },
+    {
+      "condition_id": "mc004",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {},
+      "other_condition_evidence": {},
+      "condition_status": "not_reported",
+      "evidence": {
+        "block_id": "T_4_63",
+        "page": 4,
+        "bbox": [
+          507.0,
+          837.0,
+          896.0,
+          914.0
+        ],
+        "source_type": "table",
+        "source_sentence": "TABLE III Fiber Length in Carbon Fiber Filled Composites",
+        "table_locator": null
+      },
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00052"
+      ]
+    },
+    {
+      "condition_id": "mc005",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {},
+      "other_condition_evidence": {},
+      "condition_status": "not_reported",
+      "evidence": {
+        "block_id": "T_5_67",
+        "page": 5,
+        "bbox": [
+          100.0,
+          144.0,
+          485.0,
+          337.0
+        ],
+        "source_type": "table",
+        "source_sentence": "TABLE IV Fiber Orientation factors of the Injection molded Composites",
+        "table_locator": {
+          "table_id": "T_5_67",
+          "row_label": "$f_T$",
+          "column_label": "$f_T$",
+          "cell_value": "$f_T$",
+          "cell_id": "T_5_67:r0000:c0003",
+          "row_index": 0,
+          "column_index": 3
+        }
+      },
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00053"
+      ]
+    },
+    {
+      "condition_id": "mc006",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {
+        "through_plane_test_method": "two-probe method",
+        "voltage_range": "0.5–1 VDC",
+        "compressive_pressure": "10 MPa"
+      },
+      "other_condition_evidence": {
+        "through_plane_test_method": [
+          {
+            "block_id": "P_1_28",
+            "page": 1,
+            "bbox": [
+              506.0,
+              541.0,
+              900.0,
+              679.0
+            ],
+            "source_type": "text",
+            "source_sentence": "the two-probe method was used to measure electrical conductivity in the T direction $( \\sigma _ { T } ,$through plane)",
+            "table_locator": null
+          }
+        ],
+        "voltage_range": [
+          {
+            "block_id": "P_1_28",
+            "page": 1,
+            "bbox": [
+              506.0,
+              541.0,
+              900.0,
+              679.0
+            ],
+            "source_type": "text",
+            "source_sentence": "0.5–1 VDC",
+            "table_locator": null
+          }
+        ],
+        "compressive_pressure": [
+          {
+            "block_id": "P_1_28",
+            "page": 1,
+            "bbox": [
+              506.0,
+              541.0,
+              900.0,
+              679.0
+            ],
+            "source_type": "text",
+            "source_sentence": "10 MPa",
+            "table_locator": null
+          }
+        ]
+      },
+      "condition_status": "reported",
+      "evidence": {
+        "block_id": "P_1_28",
+        "page": 1,
+        "bbox": [
+          506.0,
+          541.0,
+          900.0,
+          679.0
+        ],
+        "source_type": "text",
+        "source_sentence": "In-plane measurements in the L direction $( \\sigma _ { L } )$were carried out by the four-probe method, whereas the two-probe method was used to measure electrical conductivity in the T direction $( \\sigma _ { T } ,$through plane). The voltage range used for these analyses was kept as close to 0.5–1 VDC as possible, to minimize the occurrence of joule heating. Through-plane measurement of electrical conductivity was done between two gold-plated copper electrodes. Constant DC current was applied while the sample was kept under a constant compressive pressure of 10 MPa and the potential drop was measured between the two electrodes.",
+        "table_locator": null
+      },
+      "confidence": {
+        "score": 0.8
+      },
+      "evidence_ids": [
+        "ev00054"
+      ]
+    }
+  ],
+  "unresolved_property_observations": [],
+  "property_series": [
+    {
+      "series_id": "series001",
+      "sample_id": null,
+      "entity_id": null,
+      "sample_resolution_status": "unresolved",
+      "property_name_raw": "Void Content",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "determination_method_raw": "buoyancy method",
+      "observation_group_id": null,
+      "unit_raw": "%",
+      "unit_normalized": "%",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "points": [
+        {
+          "point_id": "pt001",
+          "observation_role": "series_point",
+          "sample_id": "s001",
+          "entity_id": "pe001",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "11",
+          "value_min": 11.0,
+          "value_max": 11.0,
+          "unit_raw": "%",
+          "unit_normalized": "%",
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_2_42",
+              "page": 2,
+              "bbox": [
+                509.0,
+                835.0,
+                896.0,
+                944.0
+              ],
+              "source_type": "table",
+              "source_sentence": "COC 11",
+              "table_locator": {
+                "table_id": "T_2_42",
+                "row_label": "COC",
+                "column_label": "Void Content (%)",
+                "cell_value": "11",
+                "cell_id": "T_2_42:r0002:c0001",
+                "row_index": 2,
+                "column_index": 1
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          },
+          "evidence_ids": [
+            "ev00061"
+          ]
+        },
+        {
+          "point_id": "pt002",
+          "observation_role": "series_point",
+          "sample_id": "s010",
+          "entity_id": "pe003",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "15",
+          "value_min": 15.0,
+          "value_max": 15.0,
+          "unit_raw": "%",
+          "unit_normalized": "%",
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_2_42",
+              "page": 2,
+              "bbox": [
+                509.0,
+                835.0,
+                896.0,
+                944.0
+              ],
+              "source_type": "table",
+              "source_sentence": "CB3 15",
+              "table_locator": {
+                "table_id": "T_2_42",
+                "row_label": "CB3",
+                "column_label": "Void Content (%)",
+                "cell_value": "15",
+                "cell_id": "T_2_42:r0003:c0001",
+                "row_index": 3,
+                "column_index": 1
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          },
+          "evidence_ids": [
+            "ev00062"
+          ]
+        },
+        {
+          "point_id": "pt003",
+          "observation_role": "series_point",
+          "sample_id": "s009",
+          "entity_id": "pe004",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "15",
+          "value_min": 15.0,
+          "value_max": 15.0,
+          "unit_raw": "%",
+          "unit_normalized": "%",
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_2_42",
+              "page": 2,
+              "bbox": [
+                509.0,
+                835.0,
+                896.0,
+                944.0
+              ],
+              "source_type": "table",
+              "source_sentence": "cCF10 15",
+              "table_locator": {
+                "table_id": "T_2_42",
+                "row_label": "cCF10",
+                "column_label": "Void Content (%)",
+                "cell_value": "15",
+                "cell_id": "T_2_42:r0004:c0001",
+                "row_index": 4,
+                "column_index": 1
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          },
+          "evidence_ids": [
+            "ev00063"
+          ]
+        },
+        {
+          "point_id": "pt004",
+          "observation_role": "series_point",
+          "sample_id": "s011",
+          "entity_id": "pe005",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "14",
+          "value_min": 14.0,
+          "value_max": 14.0,
+          "unit_raw": "%",
+          "unit_normalized": "%",
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_2_42",
+              "page": 2,
+              "bbox": [
+                509.0,
+                835.0,
+                896.0,
+                944.0
+              ],
+              "source_type": "table",
+              "source_sentence": "cCF10-CB1 14",
+              "table_locator": {
+                "table_id": "T_2_42",
+                "row_label": "cCF10-CB1",
+                "column_label": "Void Content (%)",
+                "cell_value": "14",
+                "cell_id": "T_2_42:r0005:c0001",
+                "row_index": 5,
+                "column_index": 1
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          },
+          "evidence_ids": [
+            "ev00064"
+          ]
+        },
+        {
+          "point_id": "pt005",
+          "observation_role": "series_point",
+          "sample_id": "s012",
+          "entity_id": "pe006",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "16",
+          "value_min": 16.0,
+          "value_max": 16.0,
+          "unit_raw": "%",
+          "unit_normalized": "%",
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_2_42",
+              "page": 2,
+              "bbox": [
+                509.0,
+                835.0,
+                896.0,
+                944.0
+              ],
+              "source_type": "table",
+              "source_sentence": "cCF10-CB3 16",
+              "table_locator": {
+                "table_id": "T_2_42",
+                "row_label": "cCF10-CB3",
+                "column_label": "Void Content (%)",
+                "cell_value": "16",
+                "cell_id": "T_2_42:r0006:c0001",
+                "row_index": 6,
+                "column_index": 1
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          },
+          "evidence_ids": [
+            "ev00065"
+          ]
+        }
+      ],
+      "coverage": {
+        "expected": 5,
+        "covered": 5,
+        "missing": 0,
+        "not_applicable": 0,
+        "ratio": 1.0
+      },
+      "evidence": [
+        {
+          "block_id": "P_1_28",
+          "page": 1,
+          "bbox": [
+            506.0,
+            541.0,
+            900.0,
+            679.0
+          ],
+          "source_type": "text",
+          "source_sentence": "Apparent density (and hence porosity) was determined by the buoyancy method.",
+          "table_locator": null
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00060"
+      ]
+    },
+    {
+      "series_id": "series002",
+      "sample_id": null,
+      "entity_id": null,
+      "sample_resolution_status": "unresolved",
+      "property_name_raw": "Cell Density",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "unit_raw": "×10^6 cells/cm³",
+      "unit_normalized": "10^6 cells/cm³",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "points": [
+        {
+          "point_id": "pt006",
+          "observation_role": "series_point",
+          "sample_id": "s001",
+          "entity_id": "pe001",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "2.3",
+          "value_min": 2.3,
+          "value_max": 2.3,
+          "unit_raw": "×106cells/cm3",
+          "unit_normalized": "10^6 cells/cm³",
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_2_42",
+              "page": 2,
+              "bbox": [
+                509.0,
+                835.0,
+                896.0,
+                944.0
+              ],
+              "source_type": "table",
+              "source_sentence": "COC 2.3",
+              "table_locator": {
+                "table_id": "T_2_42",
+                "row_label": "COC",
+                "column_label": "Cell Density (×106cells/cm3)",
+                "cell_value": "2.3",
+                "cell_id": "T_2_42:r0002:c0002",
+                "row_index": 2,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          },
+          "evidence_ids": [
+            "ev00066"
+          ]
+        },
+        {
+          "point_id": "pt007",
+          "observation_role": "series_point",
+          "sample_id": "s010",
+          "entity_id": "pe003",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "1.0",
+          "value_min": 1.0,
+          "value_max": 1.0,
+          "unit_raw": "×106cells/cm3",
+          "unit_normalized": "10^6 cells/cm³",
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_2_42",
+              "page": 2,
+              "bbox": [
+                509.0,
+                835.0,
+                896.0,
+                944.0
+              ],
+              "source_type": "table",
+              "source_sentence": "CB3 1.0",
+              "table_locator": {
+                "table_id": "T_2_42",
+                "row_label": "CB3",
+                "column_label": "Cell Density (×106cells/cm3)",
+                "cell_value": "1.0",
+                "cell_id": "T_2_42:r0003:c0002",
+                "row_index": 3,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          },
+          "evidence_ids": [
+            "ev00067"
+          ]
+        },
+        {
+          "point_id": "pt008",
+          "observation_role": "series_point",
+          "sample_id": "s009",
+          "entity_id": "pe004",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "5.0",
+          "value_min": 5.0,
+          "value_max": 5.0,
+          "unit_raw": "×106cells/cm3",
+          "unit_normalized": "10^6 cells/cm³",
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_2_42",
+              "page": 2,
+              "bbox": [
+                509.0,
+                835.0,
+                896.0,
+                944.0
+              ],
+              "source_type": "table",
+              "source_sentence": "cCF10 5.0",
+              "table_locator": {
+                "table_id": "T_2_42",
+                "row_label": "cCF10",
+                "column_label": "Cell Density (×106cells/cm3)",
+                "cell_value": "5.0",
+                "cell_id": "T_2_42:r0004:c0002",
+                "row_index": 4,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          },
+          "evidence_ids": [
+            "ev00068"
+          ]
+        },
+        {
+          "point_id": "pt009",
+          "observation_role": "series_point",
+          "sample_id": "s011",
+          "entity_id": "pe005",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "2.6",
+          "value_min": 2.6,
+          "value_max": 2.6,
+          "unit_raw": "×106cells/cm3",
+          "unit_normalized": "10^6 cells/cm³",
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_2_42",
+              "page": 2,
+              "bbox": [
+                509.0,
+                835.0,
+                896.0,
+                944.0
+              ],
+              "source_type": "table",
+              "source_sentence": "cCF10-CB1 2.6",
+              "table_locator": {
+                "table_id": "T_2_42",
+                "row_label": "cCF10-CB1",
+                "column_label": "Cell Density (×106cells/cm3)",
+                "cell_value": "2.6",
+                "cell_id": "T_2_42:r0005:c0002",
+                "row_index": 5,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          },
+          "evidence_ids": [
+            "ev00069"
+          ]
+        },
+        {
+          "point_id": "pt010",
+          "observation_role": "series_point",
+          "sample_id": "s012",
+          "entity_id": "pe006",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "2.5",
+          "value_min": 2.5,
+          "value_max": 2.5,
+          "unit_raw": "×106cells/cm3",
+          "unit_normalized": "10^6 cells/cm³",
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_2_42",
+              "page": 2,
+              "bbox": [
+                509.0,
+                835.0,
+                896.0,
+                944.0
+              ],
+              "source_type": "table",
+              "source_sentence": "cCF10-CB3 2.5",
+              "table_locator": {
+                "table_id": "T_2_42",
+                "row_label": "cCF10-CB3",
+                "column_label": "Cell Density (×106cells/cm3)",
+                "cell_value": "2.5",
+                "cell_id": "T_2_42:r0006:c0002",
+                "row_index": 6,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          },
+          "evidence_ids": [
+            "ev00070"
+          ]
+        }
+      ],
+      "coverage": {
+        "expected": 5,
+        "covered": 5,
+        "missing": 0,
+        "not_applicable": 0,
+        "ratio": 1.0
+      },
+      "evidence": [
+        {
+          "block_id": "T_2_42",
+          "page": 2,
+          "bbox": [
+            509.0,
+            835.0,
+            896.0,
+            944.0
+          ],
+          "source_type": "table",
+          "source_sentence": "COC 2.3",
+          "table_locator": {
+            "table_id": "T_2_42",
+            "row_label": "COC",
+            "column_label": "Cell Density (×106cells/cm3)",
+            "cell_value": "2.3",
+            "cell_id": "T_2_42:r0002:c0002",
+            "row_index": 2,
+            "column_index": 2
+          }
+        },
+        {
+          "block_id": "T_2_42",
+          "page": 2,
+          "bbox": [
+            509.0,
+            835.0,
+            896.0,
+            944.0
+          ],
+          "source_type": "table",
+          "source_sentence": "CB3 1.0",
+          "table_locator": {
+            "table_id": "T_2_42",
+            "row_label": "CB3",
+            "column_label": "Cell Density (×106cells/cm3)",
+            "cell_value": "1.0",
+            "cell_id": "T_2_42:r0003:c0002",
+            "row_index": 3,
+            "column_index": 2
+          }
+        },
+        {
+          "block_id": "T_2_42",
+          "page": 2,
+          "bbox": [
+            509.0,
+            835.0,
+            896.0,
+            944.0
+          ],
+          "source_type": "table",
+          "source_sentence": "cCF10 5.0",
+          "table_locator": {
+            "table_id": "T_2_42",
+            "row_label": "cCF10",
+            "column_label": "Cell Density (×106cells/cm3)",
+            "cell_value": "5.0",
+            "cell_id": "T_2_42:r0004:c0002",
+            "row_index": 4,
+            "column_index": 2
+          }
+        },
+        {
+          "block_id": "T_2_42",
+          "page": 2,
+          "bbox": [
+            509.0,
+            835.0,
+            896.0,
+            944.0
+          ],
+          "source_type": "table",
+          "source_sentence": "cCF10-CB1 2.6",
+          "table_locator": {
+            "table_id": "T_2_42",
+            "row_label": "cCF10-CB1",
+            "column_label": "Cell Density (×106cells/cm3)",
+            "cell_value": "2.6",
+            "cell_id": "T_2_42:r0005:c0002",
+            "row_index": 5,
+            "column_index": 2
+          }
+        },
+        {
+          "block_id": "T_2_42",
+          "page": 2,
+          "bbox": [
+            509.0,
+            835.0,
+            896.0,
+            944.0
+          ],
+          "source_type": "table",
+          "source_sentence": "cCF10-CB3 2.5",
+          "table_locator": {
+            "table_id": "T_2_42",
+            "row_label": "cCF10-CB3",
+            "column_label": "Cell Density (×106cells/cm3)",
+            "cell_value": "2.5",
+            "cell_id": "T_2_42:r0006:c0002",
+            "row_index": 6,
+            "column_index": 2
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00066",
+        "ev00067",
+        "ev00068",
+        "ev00069",
+        "ev00070"
+      ]
+    }
+  ],
+  "characterizations": [
+    {
+      "characterization_id": "char001",
+      "method_raw": "SEM",
+      "method_normalized": "SEM",
+      "sample_ids": [
+        "s001",
+        "s005",
+        "s006"
+      ],
+      "sample_resolution_status": "multi_resolved",
+      "parameters": {},
+      "result_summary": "SEM used to characterize foam cell morphology and CB aggregate size in COC, COC/CB3, and COC/cCF10 composites",
+      "derived_property_ids": [
+        "prop_s5_001",
+        "prop_s5_002"
+      ],
+      "evidence": [
+        {
+          "block_id": "P_2_39",
+          "page": 2,
+          "bbox": [
+            506.0,
+            358.0,
+            900.0,
+            643.0
+          ],
+          "source_type": "text",
+          "source_sentence": "SEM micrographs giving a cross-sectional view of the molded part for the foamed COC as well as COC/CB3 and COC/cCF10 are shown in Figure 3."
+        },
+        {
+          "block_id": "P_2_41",
+          "page": 2,
+          "bbox": [
+            506.0,
+            686.0,
+            900.0,
+            793.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The largest aggregates of CB found were 0.5 lm in both micrographs in comparison with the nominal cell diameter of 60 lm found in COC/CB3."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      },
+      "evidence_ids": [
+        "ev00008",
+        "ev00012"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "block_id": "P_0_15",
+      "page": 0,
+      "bbox": [
+        507.0,
+        904.0,
+        898.0,
+        951.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Cyclic olefin copolymer (COC), an amorphous copolymer of ethylene and norbornene, (Topas 6013S-04 supplied by Ticona, MFR 14 g/10 min at 260-C,",
+      "evidence_id": "ev00001",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m001"
+    },
+    {
+      "block_id": "T_1_19",
+      "page": 1,
+      "bbox": [
+        100.0,
+        133.0,
+        485.0,
+        261.0
+      ],
+      "source_type": "table",
+      "source_sentence": "COC",
+      "evidence_id": "ev00002",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m004"
+    },
+    {
+      "block_id": "P_1_20",
+      "page": 1,
+      "bbox": [
+        96.0,
+        300.0,
+        488.0,
+        480.0
+      ],
+      "source_type": "text",
+      "source_sentence": "A masterbatch exothermic chemical blowing agent (CBA, IM 2240) containing 20 wt % 5-phenyl tetrazol in polycarbonate was supplied by Dempsey Corporation.",
+      "evidence_id": "ev00003",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m005"
+    },
+    {
+      "block_id": "P_1_22",
+      "page": 1,
+      "bbox": [
+        96.0,
+        534.0,
+        488.0,
+        802.0
+      ],
+      "source_type": "text",
+      "source_sentence": "To probe the influence of foaming on the filler-produced electron pathways within our composite materials, a series of formulations were created using prepared masterbatches of 8 vol % CB in COC from a twin-screw extruder (Leistritz ZSE 27) and 40 vol % carbon fibers in COC using a single screw extruder (50 mm Davis-Standard).",
+      "evidence_id": "ev00004",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m006"
+    },
+    {
+      "block_id": "P_1_23",
+      "page": 1,
+      "bbox": [
+        96.0,
+        801.0,
+        488.0,
+        951.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Single filler composites were prepared containing either 10 vol % cCF (COC/cCF10), or 3 vol % CB (COC/CB3).",
+      "evidence_id": "ev00005",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m007"
+    },
+    {
+      "block_id": "P_1_23",
+      "page": 1,
+      "bbox": [
+        96.0,
+        801.0,
+        488.0,
+        951.0
+      ],
+      "source_type": "text",
+      "source_sentence": "For example, COC/cCF10-CB1 corresponds to the material with 10 vol % cCF and 1 vol % CB mixed into COC.",
+      "evidence_id": "ev00006",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m009"
+    },
+    {
+      "block_id": "P_2_39",
+      "page": 2,
+      "bbox": [
+        506.0,
+        358.0,
+        900.0,
+        643.0
+      ],
+      "source_type": "text",
+      "source_sentence": "With the addition of CBA to the different COC formulations, a porosity of 11–16% was achieved.",
+      "evidence_id": "ev00007",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m011"
+    },
+    {
+      "block_id": "P_2_39",
+      "page": 2,
+      "bbox": [
+        506.0,
+        358.0,
+        900.0,
+        643.0
+      ],
+      "source_type": "text",
+      "source_sentence": "SEM micrographs giving a cross-sectional view of the molded part for the foamed COC as well as COC/CB3 and COC/cCF10 are shown in Figure 3.",
+      "evidence_id": "ev00008",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m012"
+    },
+    {
+      "block_id": "P_2_40",
+      "page": 2,
+      "bbox": [
+        509.0,
+        664.0,
+        660.0,
+        681.0
+      ],
+      "source_type": "title",
+      "source_sentence": "CB-COC composite",
+      "evidence_id": "ev00009",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m014"
+    },
+    {
+      "block_id": "P_2_41",
+      "page": 2,
+      "bbox": [
+        506.0,
+        686.0,
+        900.0,
+        793.0
+      ],
+      "source_type": "text",
+      "source_sentence": "For the foamed composite with 3 vol % CB in the COC matrix, Table II noted that its average cell size was slightly reduced and there was a significant decrease in cell density compared with the foamed COC.",
+      "evidence_id": "ev00010",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m015"
+    },
+    {
+      "block_id": "P_2_41",
+      "page": 2,
+      "bbox": [
+        506.0,
+        686.0,
+        900.0,
+        793.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Comparing SEM micrographs of the foamed and nonfoamed COC/ CB3, as seen in Figure 4, there was no detectable difference in CB dispersion caused by the foaming agent.",
+      "evidence_id": "ev00011",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m016"
+    },
+    {
+      "block_id": "P_2_41",
+      "page": 2,
+      "bbox": [
+        506.0,
+        686.0,
+        900.0,
+        793.0
+      ],
+      "source_type": "text",
+      "source_sentence": "The largest aggregates of CB found were 0.5 lm in both micrographs in comparison with the nominal cell diameter of 60 lm found in COC/CB3.",
+      "evidence_id": "ev00012",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m017"
+    },
+    {
+      "block_id": "T_2_42",
+      "page": 2,
+      "bbox": [
+        509.0,
+        835.0,
+        896.0,
+        944.0
+      ],
+      "source_type": "table",
+      "source_sentence": "COC",
+      "evidence_id": "ev00013",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m018"
+    },
+    {
+      "block_id": "T_2_42",
+      "page": 2,
+      "bbox": [
+        509.0,
+        835.0,
+        896.0,
+        944.0
+      ],
+      "source_type": "table",
+      "source_sentence": "ntent (%)</td><td rowspan=\"2\">Cell Density (×106cells/cm3)</td><td colspan=\"3\">Cell Size (μm)</td></tr><tr><td> $D_n$ </td><td> $D_w$ </td><td> $D_{max}$ </td></tr><tr><td>COC</td><td>11</td><td>2.3</td><td>45</td><td>72</td><td>540</td></tr><tr><td>CB3</td><td>15</td><td>1.0</td><td>57</td><td>64</td><td>400</td></tr><tr><td>cCF10</td><td>15</td><td>5.0</td><td>30</td><td>35</td><td>200</td></tr><tr><td>cCF10-CB1</td><td>14</td><td>2.6</td><td>23</td><td>27</td><td>52</td></tr><tr><td>cCF10-CB3",
+      "evidence_id": "ev00014",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m019"
+    },
+    {
+      "block_id": "T_2_42",
+      "page": 2,
+      "bbox": [
+        509.0,
+        835.0,
+        896.0,
+        944.0
+      ],
+      "source_type": "table",
+      "source_sentence": "=\"3\">Cell Size (μm)</td></tr><tr><td> $D_n$ </td><td> $D_w$ </td><td> $D_{max}$ </td></tr><tr><td>COC</td><td>11</td><td>2.3</td><td>45</td><td>72</td><td>540</td></tr><tr><td>CB3</td><td>15</td><td>1.0</td><td>57</td><td>64</td><td>400</td></tr><tr><td>cCF10</td><td>15</td><td>5.0</td><td>30</td><td>35</td><td>200</td></tr><tr><td>cCF10-CB1</td><td>14</td><td>2.6</td><td>23</td><td>27</td><td>52</td></tr><tr><td>cCF10-CB3</td><td>16</td><td>2.5</td><td>28</td><td>35</td><td>72</td></tr></table>",
+      "evidence_id": "ev00015",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m020"
+    },
+    {
+      "block_id": "T_2_42",
+      "page": 2,
+      "bbox": [
+        509.0,
+        835.0,
+        896.0,
+        944.0
+      ],
+      "source_type": "table",
+      "source_sentence": "cCF10-CB1",
+      "evidence_id": "ev00016",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m021"
+    },
+    {
+      "block_id": "T_2_42",
+      "page": 2,
+      "bbox": [
+        509.0,
+        835.0,
+        896.0,
+        944.0
+      ],
+      "source_type": "table",
+      "source_sentence": "cCF10-CB3",
+      "evidence_id": "ev00017",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m022"
+    },
+    {
+      "block_id": "P_3_50",
+      "page": 3,
+      "bbox": [
+        506.0,
+        239.0,
+        898.0,
+        374.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Neat COC was not included in this measurement as its conductivity lies below the resolution of our instrument.",
+      "evidence_id": "ev00018",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m023"
+    },
+    {
+      "block_id": "P_3_50",
+      "page": 3,
+      "bbox": [
+        506.0,
+        239.0,
+        898.0,
+        374.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Conductivity was increased in all measured planes for the foamed COC/CB3 material, although most notably in the through-plane direction.",
+      "evidence_id": "ev00019",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m024"
+    },
+    {
+      "block_id": "P_4_58",
+      "page": 4,
+      "bbox": [
+        96.0,
+        756.0,
+        488.0,
+        951.0
+      ],
+      "source_type": "text",
+      "source_sentence": "The observed enhancement in conductivity for the foamed COC/CB3 indicated a more segregated network of CB aggregates in the matrix due to the volume excluded by the gas phase.",
+      "evidence_id": "ev00020",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m025"
+    },
+    {
+      "block_id": "P_4_60",
+      "page": 4,
+      "bbox": [
+        507.0,
+        162.0,
+        730.0,
+        177.0
+      ],
+      "source_type": "title",
+      "source_sentence": "Carbon fiber-COC composite",
+      "evidence_id": "ev00021",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m026"
+    },
+    {
+      "block_id": "P_4_61",
+      "page": 4,
+      "bbox": [
+        506.0,
+        183.0,
+        900.0,
+        555.0
+      ],
+      "source_type": "text",
+      "source_sentence": "The porosity and cell size of the foamed composite containing 10 vol % cCF was found to be similar to the foamed COC/CB3 composite, as noted in Table II.",
+      "evidence_id": "ev00022",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m027"
+    },
+    {
+      "block_id": "P_4_61",
+      "page": 4,
+      "bbox": [
+        506.0,
+        183.0,
+        900.0,
+        555.0
+      ],
+      "source_type": "text",
+      "source_sentence": "It appears that foaming had no significant effect on the degree of fiber breakage occurring as COC/cCF10 was being processed.",
+      "evidence_id": "ev00023",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m028"
+    },
+    {
+      "block_id": "P_4_62",
+      "page": 4,
+      "bbox": [
+        506.0,
+        555.0,
+        900.0,
+        795.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Limiting our analysis for this section to the COC/cCF10 composite, it can be seen that no significant differences in fiber orientation were noted between foamed and nonfoamed samples, and very little difference was found in the morphology between the core and skin regions.",
+      "evidence_id": "ev00024",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m029"
+    },
+    {
+      "block_id": "T_4_63",
+      "page": 4,
+      "bbox": [
+        507.0,
+        837.0,
+        896.0,
+        914.0
+      ],
+      "source_type": "table",
+      "source_sentence": "Average Length ( $\\mu m$ ) $^{a}$ </td></tr><tr><td>cCF10</td><td>Nonfoamed</td><td>172</td></tr><tr><td>cCF10</td><td>Foamed</td><td>181</td></tr><tr><td>cCF10-CB3</td><td>Nonfoamed</td><td>188</td></tr><tr><td>cCF10-CB3</td><td>Foamed</td><td>207</td></tr></table>",
+      "evidence_id": "ev00025",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m030"
+    },
+    {
+      "block_id": "T_5_67",
+      "page": 5,
+      "bbox": [
+        100.0,
+        144.0,
+        485.0,
+        337.0
+      ],
+      "source_type": "table",
+      "source_sentence": "<table><tr><td>Sample</td><td>Void Content (%)</td><td>Location</td><td> $f_T$ </td><td> $f_L$ </td><td> $f_W$ </td></tr><tr><td rowspan=\"4\">cCF10</td><td rowspan=\"2\">0</td><td>Core</td><td>0.12</td><td>0.50</td><td>0.39</td></tr><tr><td>Skin</td><td>0.04</td><td>0.61</td><td>0.35</td></tr><tr><td rowspan=\"2\">15</td><td>Core</td><td>0.105</td><td>0.585</td><td>0.310</td></tr><tr><td>Skin</td><td>0.040</td><td>0.610</td><td>0.347</td></tr><tr><td rowspan=\"4\">cCF10CB1</td><td rowspan=\"2\">0</td><td",
+      "evidence_id": "ev00026",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m032"
+    },
+    {
+      "block_id": "T_5_67",
+      "page": 5,
+      "bbox": [
+        100.0,
+        144.0,
+        485.0,
+        337.0
+      ],
+      "source_type": "table",
+      "source_sentence": "cCF10CB1",
+      "evidence_id": "ev00027",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m033"
+    },
+    {
+      "block_id": "T_5_67",
+      "page": 5,
+      "bbox": [
+        100.0,
+        144.0,
+        485.0,
+        337.0
+      ],
+      "source_type": "table",
+      "source_sentence": "cCF10CB3",
+      "evidence_id": "ev00028",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m034"
+    },
+    {
+      "block_id": "P_5_69",
+      "page": 5,
+      "bbox": [
+        96.0,
+        416.0,
+        488.0,
+        758.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Figure 6 shows the electrical conductivities for nonfoamed and foamed injection-molded samples with the COC/cCF10 composite, both in their original state and after their skin layers were removed.",
+      "evidence_id": "ev00029",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m035"
+    },
+    {
+      "block_id": "P_5_72",
+      "page": 5,
+      "bbox": [
+        507.0,
+        218.0,
+        809.0,
+        234.0
+      ],
+      "source_type": "title",
+      "source_sentence": "Hybrid carbon fiber/CB-COC composite",
+      "evidence_id": "ev00030",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m037"
+    },
+    {
+      "block_id": "P_5_73",
+      "page": 5,
+      "bbox": [
+        506.0,
+        240.0,
+        900.0,
+        477.0
+      ],
+      "source_type": "text",
+      "source_sentence": "As with COC/CB3 and COC/cCF10, the bubble size was similar in scale to the fibers yet much larger than the CB aggregates.",
+      "evidence_id": "ev00031",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m038"
+    },
+    {
+      "block_id": "P_5_74",
+      "page": 5,
+      "bbox": [
+        506.0,
+        477.0,
+        900.0,
+        687.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Despite its comparatively high viscosity, the fiber length of the nonfoamed COC/cCF10-CB3 was comparable with COC/cCF10, as reported in Table III.",
+      "evidence_id": "ev00032",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m041"
+    },
+    {
+      "block_id": "P_6_80",
+      "page": 6,
+      "bbox": [
+        96.0,
+        253.0,
+        488.0,
+        580.0
+      ],
+      "source_type": "text",
+      "source_sentence": "For both composites, COC/ cCF10-CB1 and COC/cCF10-CB3, the fibers in-plane were found to be more preferentially oriented in the direction of flow as noted by the lower $f _ { W }$and higher f<sub>L</sub>values shown in the table compared with COC/cCF10.",
+      "evidence_id": "ev00033",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m044"
+    },
+    {
+      "block_id": "P_6_80",
+      "page": 6,
+      "bbox": [
+        96.0,
+        253.0,
+        488.0,
+        580.0
+      ],
+      "source_type": "text",
+      "source_sentence": "The data in Table IV also show that $f _ { L }$decreased and $f _ { W }$increased for the foamed sample of COC/ cCF10-CB3 indicating the influence of bubble growth on fiber orientation were seen in all planes.",
+      "evidence_id": "ev00034",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m048"
+    },
+    {
+      "block_id": "P_6_81",
+      "page": 6,
+      "bbox": [
+        96.0,
+        579.0,
+        488.0,
+        951.0
+      ],
+      "source_type": "text",
+      "source_sentence": "The measured electrical conductivities of the COC/ cCF-CB composites are plotted in Figure 7.",
+      "evidence_id": "ev00035",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m049"
+    },
+    {
+      "block_id": "P_6_81",
+      "page": 6,
+      "bbox": [
+        96.0,
+        579.0,
+        488.0,
+        951.0
+      ],
+      "source_type": "text",
+      "source_sentence": "For the hybrid containing 1 vol % CB, the conductivities in both L and T directions were similar to the carbon fiber containing composite (COC/cCF10).",
+      "evidence_id": "ev00036",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m051"
+    },
+    {
+      "block_id": "P_6_81",
+      "page": 6,
+      "bbox": [
+        96.0,
+        579.0,
+        488.0,
+        951.0
+      ],
+      "source_type": "text",
+      "source_sentence": "When the CB content exceeded its percolation threshold, the conductivities of the hybrid (COC/cCF10-CB3) more closely resembled the CB containing composite (COC/CB3), although being one order of magnitude higher in both L and T directions.",
+      "evidence_id": "ev00037",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m052"
+    },
+    {
+      "block_id": "P_7_92",
+      "page": 7,
+      "bbox": [
+        96.0,
+        550.0,
+        490.0,
+        951.0
+      ],
+      "source_type": "text",
+      "source_sentence": "In fact, crystallization can similarly provide this multiple percolation effect because the filler will be excluded from the crystals; an issue purposely avoided in this work by selecting the amorphous COC for the study.",
+      "evidence_id": "ev00038",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m054"
+    },
+    {
+      "block_id": "P_7_92",
+      "page": 7,
+      "bbox": [
+        96.0,
+        550.0,
+        490.0,
+        951.0
+      ],
+      "source_type": "text",
+      "source_sentence": "In the case of CB as seen in the foamed COC/CB3, the CB-rich polymer phase created by foaming showed increased electrical conductivity in all directions.",
+      "evidence_id": "ev00039",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m055"
+    },
+    {
+      "block_id": "P_7_92",
+      "page": 7,
+      "bbox": [
+        96.0,
+        550.0,
+        490.0,
+        951.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Carbon fibers, such as in foamed COC/cCF10, did not demonstrate the same beneficial gain in electrical conductivity as CB and this was likely attributed to their relatively large dimensions.",
+      "evidence_id": "ev00040",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m056"
+    },
+    {
+      "block_id": "P_7_94",
+      "page": 7,
+      "bbox": [
+        506.0,
+        445.0,
+        900.0,
+        596.0
+      ],
+      "source_type": "text",
+      "source_sentence": "The small improvement in out of plane reorientation of fibers due to bubble growth in COC/cCF10-CB3 likely made a minor contribution to the enhanced conductivity and demonstrated a unique possibility for foaming to create more randomly oriented fiber filled structures if the phenomenon can be properly understood and controlled.",
+      "evidence_id": "ev00041",
+      "source_stage": "stage1_material_mention",
+      "object_id": "m057"
+    },
+    {
+      "block_id": "P_1_22",
+      "page": 1,
+      "bbox": [
+        96.0,
+        534.0,
+        488.0,
+        802.0
+      ],
+      "source_type": "text",
+      "source_sentence": "prepared masterbatches of 8 vol % CB in COC from a twin-screw extruder (Leistritz ZSE 27) and 40 vol % carbon fibers in COC using a single screw extruder (50 mm Davis-Standard).",
+      "evidence_id": "ev00042",
+      "source_stage": "stage3_sample_process",
+      "object_id": "s003"
+    },
+    {
+      "block_id": "P_1_26",
+      "page": 1,
+      "bbox": [
+        506.0,
+        330.0,
+        900.0,
+        496.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Molded samples from the prepared materials were produced using an Arburg 55 ton injection molding machine with a rectangular center-gated mold.",
+      "evidence_id": "ev00043",
+      "source_stage": "stage3_sample_process",
+      "object_id": "s009"
+    },
+    {
+      "block_id": "P_1_22",
+      "page": 1,
+      "bbox": [
+        96.0,
+        534.0,
+        488.0,
+        802.0
+      ],
+      "source_type": "text",
+      "source_sentence": "The twin-screw extruder operated at a nominal temperature of 260-C and 100 RPM with CB introduced into the melt by a side feeder half way down the length of the machine to minimize agglomeration.",
+      "evidence_id": "ev00044",
+      "source_stage": "stage3_sample_process",
+      "object_id": "ps001"
+    },
+    {
+      "block_id": "P_1_22",
+      "page": 1,
+      "bbox": [
+        96.0,
+        534.0,
+        488.0,
+        802.0
+      ],
+      "source_type": "text",
+      "source_sentence": "The single screw extruder operated at a nominal temperature of 260-C fitted with a deep channel, zero compression screw rotating at 20 RPM.",
+      "evidence_id": "ev00045",
+      "source_stage": "stage3_sample_process",
+      "object_id": "ps002"
+    },
+    {
+      "block_id": "P_1_22",
+      "page": 1,
+      "bbox": [
+        96.0,
+        534.0,
+        488.0,
+        802.0
+      ],
+      "source_type": "text",
+      "source_sentence": "The stated formulations below were then produced by dry blending these masterbatch materials with COC in the injection molding machine, along with 5 wt % of the foaming agent.",
+      "evidence_id": "ev00046",
+      "source_stage": "stage3_sample_process",
+      "object_id": "ps003"
+    },
+    {
+      "block_id": "P_1_26",
+      "page": 1,
+      "bbox": [
+        506.0,
+        330.0,
+        900.0,
+        496.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Molded samples from the prepared materials were produced using an Arburg 55 ton injection molding machine with a rectangular center-gated mold. The shot size was controlled to 85% mold fill to allow for foam growth. The temperature profile of the plasticating unit and nozzle were set at 30, 210, 210, 250, 290, and 300-C, respectively, from the hopper to the nozzle so to prevent premature decomposition of CBA.",
+      "evidence_id": "ev00047",
+      "source_stage": "stage3_sample_process",
+      "object_id": "ps007"
+    },
+    {
+      "block_id": "T_1_19",
+      "page": 1,
+      "bbox": [
+        100.0,
+        133.0,
+        485.0,
+        261.0
+      ],
+      "source_type": "table",
+      "source_sentence": "TABLE I Properties of the Matrix Polymer and Conductive fillers",
+      "table_locator": {
+        "table_id": "T_1_19",
+        "row_label": "Properties",
+        "column_label": "Properties",
+        "cell_value": "Properties",
+        "cell_id": "T_1_19:r0000:c0000",
+        "row_index": 0,
+        "column_index": 0
+      },
+      "evidence_id": "ev00048",
+      "source_stage": "stage4_property",
+      "object_id": "mc001"
+    },
+    {
+      "block_id": "P_0_15",
+      "page": 0,
+      "bbox": [
+        507.0,
+        904.0,
+        898.0,
+        951.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Cyclic olefin copolymer (COC), an amorphous copolymer of ethylene and norbornene, (Topas 6013S-04 supplied by Ticona, MFR 14 g/10 min at 260-C,",
+      "table_locator": null,
+      "evidence_id": "ev00049",
+      "source_stage": "stage4_property",
+      "object_id": "mc002"
+    },
+    {
+      "block_id": "P_0_15",
+      "page": 0,
+      "bbox": [
+        507.0,
+        904.0,
+        898.0,
+        951.0
+      ],
+      "source_type": "text",
+      "source_sentence": "260-C",
+      "table_locator": null,
+      "evidence_id": "ev00050",
+      "source_stage": "stage4_property",
+      "object_id": "mc002"
+    },
+    {
+      "block_id": "T_2_42",
+      "page": 2,
+      "bbox": [
+        509.0,
+        835.0,
+        896.0,
+        944.0
+      ],
+      "source_type": "table",
+      "source_sentence": "TABLE II Cell Size of the Foam Injection molded Composites",
+      "table_locator": null,
+      "evidence_id": "ev00051",
+      "source_stage": "stage4_property",
+      "object_id": "mc003"
+    },
+    {
+      "block_id": "T_4_63",
+      "page": 4,
+      "bbox": [
+        507.0,
+        837.0,
+        896.0,
+        914.0
+      ],
+      "source_type": "table",
+      "source_sentence": "TABLE III Fiber Length in Carbon Fiber Filled Composites",
+      "table_locator": null,
+      "evidence_id": "ev00052",
+      "source_stage": "stage4_property",
+      "object_id": "mc004"
+    },
+    {
+      "block_id": "T_5_67",
+      "page": 5,
+      "bbox": [
+        100.0,
+        144.0,
+        485.0,
+        337.0
+      ],
+      "source_type": "table",
+      "source_sentence": "TABLE IV Fiber Orientation factors of the Injection molded Composites",
+      "table_locator": {
+        "table_id": "T_5_67",
+        "row_label": "$f_T$",
+        "column_label": "$f_T$",
+        "cell_value": "$f_T$",
+        "cell_id": "T_5_67:r0000:c0003",
+        "row_index": 0,
+        "column_index": 3
+      },
+      "evidence_id": "ev00053",
+      "source_stage": "stage4_property",
+      "object_id": "mc005"
+    },
+    {
+      "block_id": "P_1_28",
+      "page": 1,
+      "bbox": [
+        506.0,
+        541.0,
+        900.0,
+        679.0
+      ],
+      "source_type": "text",
+      "source_sentence": "In-plane measurements in the L direction $( \\sigma _ { L } )$were carried out by the four-probe method, whereas the two-probe method was used to measure electrical conductivity in the T direction $( \\sigma _ { T } ,$through plane). The voltage range used for these analyses was kept as close to 0.5–1 VDC as possible, to minimize the occurrence of joule heating. Through-plane measurement of electrical conductivity was done between two gold-plated copper electrodes. Constant DC current was applied while the sample was kept under a constant compressive pressure of 10 MPa and the potential drop was measured between the two electrodes.",
+      "table_locator": null,
+      "evidence_id": "ev00054",
+      "source_stage": "stage4_property",
+      "object_id": "mc006"
+    },
+    {
+      "block_id": "P_0_15",
+      "page": 0,
+      "bbox": [
+        507.0,
+        904.0,
+        898.0,
+        951.0
+      ],
+      "source_type": "text",
+      "source_sentence": "MFR 14 g/10 min at 260-C,",
+      "table_locator": null,
+      "evidence_id": "ev00055",
+      "source_stage": "stage4_property",
+      "object_id": "s001"
+    },
+    {
+      "block_id": "T_1_19",
+      "page": 1,
+      "bbox": [
+        100.0,
+        133.0,
+        485.0,
+        261.0
+      ],
+      "source_type": "table",
+      "source_sentence": "Electrical conductivity (S/cm) <10^{-16}",
+      "table_locator": {
+        "table_id": "T_1_19",
+        "row_label": "Electrical conductivity (S/cm)",
+        "column_label": "$<10^{-16}$",
+        "cell_value": "$<10^{-16}$",
+        "cell_id": "T_1_19:r0001:c0001",
+        "row_index": 1,
+        "column_index": 1
+      },
+      "evidence_id": "ev00056",
+      "source_stage": "stage4_property",
+      "object_id": "s001"
+    },
+    {
+      "block_id": "T_1_19",
+      "page": 1,
+      "bbox": [
+        100.0,
+        133.0,
+        485.0,
+        261.0
+      ],
+      "source_type": "table",
+      "source_sentence": "Specific gravity 1.02",
+      "table_locator": {
+        "table_id": "T_1_19",
+        "row_label": "Specific gravity",
+        "column_label": "$<10^{-16}$",
+        "cell_value": "1.02",
+        "cell_id": "T_1_19:r0002:c0001",
+        "row_index": 2,
+        "column_index": 1
+      },
+      "evidence_id": "ev00057",
+      "source_stage": "stage4_property",
+      "object_id": "s001"
+    },
+    {
+      "block_id": "T_1_19",
+      "page": 1,
+      "bbox": [
+        100.0,
+        133.0,
+        485.0,
+        261.0
+      ],
+      "source_type": "table",
+      "source_sentence": "Bulk density (kg/m3) 510",
+      "table_locator": {
+        "table_id": "T_1_19",
+        "row_label": "Bulk density (kg/m3)",
+        "column_label": "$<10^{-16}$",
+        "cell_value": "510",
+        "cell_id": "T_1_19:r0003:c0001",
+        "row_index": 3,
+        "column_index": 1
+      },
+      "evidence_id": "ev00058",
+      "source_stage": "stage4_property",
+      "object_id": "s001"
+    },
+    {
+      "block_id": "P_3_50",
+      "page": 3,
+      "bbox": [
+        506.0,
+        239.0,
+        898.0,
+        374.0
+      ],
+      "source_type": "text",
+      "source_sentence": "For the nonfoamed composite, $\\sigma _ { L }$was larger $( 1 0 ^ { - 2 } \\ \\mathrm { S / c m } )$than r<sub>T</sub> by almost three orders of magnitude with the skin in place",
+      "table_locator": null,
+      "evidence_id": "ev00059",
+      "source_stage": "stage4_property",
+      "object_id": "s006"
+    },
+    {
+      "block_id": "P_1_28",
+      "page": 1,
+      "bbox": [
+        506.0,
+        541.0,
+        900.0,
+        679.0
+      ],
+      "source_type": "text",
+      "source_sentence": "Apparent density (and hence porosity) was determined by the buoyancy method.",
+      "table_locator": null,
+      "evidence_id": "ev00060",
+      "source_stage": "stage4_property",
+      "object_id": "series001"
+    },
+    {
+      "block_id": "T_2_42",
+      "page": 2,
+      "bbox": [
+        509.0,
+        835.0,
+        896.0,
+        944.0
+      ],
+      "source_type": "table",
+      "source_sentence": "COC 11",
+      "table_locator": {
+        "table_id": "T_2_42",
+        "row_label": "COC",
+        "column_label": "Void Content (%)",
+        "cell_value": "11",
+        "cell_id": "T_2_42:r0002:c0001",
+        "row_index": 2,
+        "column_index": 1
+      },
+      "evidence_id": "ev00061",
+      "source_stage": "stage4_property",
+      "object_id": "pe001"
+    },
+    {
+      "block_id": "T_2_42",
+      "page": 2,
+      "bbox": [
+        509.0,
+        835.0,
+        896.0,
+        944.0
+      ],
+      "source_type": "table",
+      "source_sentence": "CB3 15",
+      "table_locator": {
+        "table_id": "T_2_42",
+        "row_label": "CB3",
+        "column_label": "Void Content (%)",
+        "cell_value": "15",
+        "cell_id": "T_2_42:r0003:c0001",
+        "row_index": 3,
+        "column_index": 1
+      },
+      "evidence_id": "ev00062",
+      "source_stage": "stage4_property",
+      "object_id": "pe003"
+    },
+    {
+      "block_id": "T_2_42",
+      "page": 2,
+      "bbox": [
+        509.0,
+        835.0,
+        896.0,
+        944.0
+      ],
+      "source_type": "table",
+      "source_sentence": "cCF10 15",
+      "table_locator": {
+        "table_id": "T_2_42",
+        "row_label": "cCF10",
+        "column_label": "Void Content (%)",
+        "cell_value": "15",
+        "cell_id": "T_2_42:r0004:c0001",
+        "row_index": 4,
+        "column_index": 1
+      },
+      "evidence_id": "ev00063",
+      "source_stage": "stage4_property",
+      "object_id": "pe004"
+    },
+    {
+      "block_id": "T_2_42",
+      "page": 2,
+      "bbox": [
+        509.0,
+        835.0,
+        896.0,
+        944.0
+      ],
+      "source_type": "table",
+      "source_sentence": "cCF10-CB1 14",
+      "table_locator": {
+        "table_id": "T_2_42",
+        "row_label": "cCF10-CB1",
+        "column_label": "Void Content (%)",
+        "cell_value": "14",
+        "cell_id": "T_2_42:r0005:c0001",
+        "row_index": 5,
+        "column_index": 1
+      },
+      "evidence_id": "ev00064",
+      "source_stage": "stage4_property",
+      "object_id": "pe005"
+    },
+    {
+      "block_id": "T_2_42",
+      "page": 2,
+      "bbox": [
+        509.0,
+        835.0,
+        896.0,
+        944.0
+      ],
+      "source_type": "table",
+      "source_sentence": "cCF10-CB3 16",
+      "table_locator": {
+        "table_id": "T_2_42",
+        "row_label": "cCF10-CB3",
+        "column_label": "Void Content (%)",
+        "cell_value": "16",
+        "cell_id": "T_2_42:r0006:c0001",
+        "row_index": 6,
+        "column_index": 1
+      },
+      "evidence_id": "ev00065",
+      "source_stage": "stage4_property",
+      "object_id": "pe006"
+    },
+    {
+      "block_id": "T_2_42",
+      "page": 2,
+      "bbox": [
+        509.0,
+        835.0,
+        896.0,
+        944.0
+      ],
+      "source_type": "table",
+      "source_sentence": "COC 2.3",
+      "table_locator": {
+        "table_id": "T_2_42",
+        "row_label": "COC",
+        "column_label": "Cell Density (×106cells/cm3)",
+        "cell_value": "2.3",
+        "cell_id": "T_2_42:r0002:c0002",
+        "row_index": 2,
+        "column_index": 2
+      },
+      "evidence_id": "ev00066",
+      "source_stage": "stage4_property",
+      "object_id": "series002"
+    },
+    {
+      "block_id": "T_2_42",
+      "page": 2,
+      "bbox": [
+        509.0,
+        835.0,
+        896.0,
+        944.0
+      ],
+      "source_type": "table",
+      "source_sentence": "CB3 1.0",
+      "table_locator": {
+        "table_id": "T_2_42",
+        "row_label": "CB3",
+        "column_label": "Cell Density (×106cells/cm3)",
+        "cell_value": "1.0",
+        "cell_id": "T_2_42:r0003:c0002",
+        "row_index": 3,
+        "column_index": 2
+      },
+      "evidence_id": "ev00067",
+      "source_stage": "stage4_property",
+      "object_id": "series002"
+    },
+    {
+      "block_id": "T_2_42",
+      "page": 2,
+      "bbox": [
+        509.0,
+        835.0,
+        896.0,
+        944.0
+      ],
+      "source_type": "table",
+      "source_sentence": "cCF10 5.0",
+      "table_locator": {
+        "table_id": "T_2_42",
+        "row_label": "cCF10",
+        "column_label": "Cell Density (×106cells/cm3)",
+        "cell_value": "5.0",
+        "cell_id": "T_2_42:r0004:c0002",
+        "row_index": 4,
+        "column_index": 2
+      },
+      "evidence_id": "ev00068",
+      "source_stage": "stage4_property",
+      "object_id": "series002"
+    },
+    {
+      "block_id": "T_2_42",
+      "page": 2,
+      "bbox": [
+        509.0,
+        835.0,
+        896.0,
+        944.0
+      ],
+      "source_type": "table",
+      "source_sentence": "cCF10-CB1 2.6",
+      "table_locator": {
+        "table_id": "T_2_42",
+        "row_label": "cCF10-CB1",
+        "column_label": "Cell Density (×106cells/cm3)",
+        "cell_value": "2.6",
+        "cell_id": "T_2_42:r0005:c0002",
+        "row_index": 5,
+        "column_index": 2
+      },
+      "evidence_id": "ev00069",
+      "source_stage": "stage4_property",
+      "object_id": "series002"
+    },
+    {
+      "block_id": "T_2_42",
+      "page": 2,
+      "bbox": [
+        509.0,
+        835.0,
+        896.0,
+        944.0
+      ],
+      "source_type": "table",
+      "source_sentence": "cCF10-CB3 2.5",
+      "table_locator": {
+        "table_id": "T_2_42",
+        "row_label": "cCF10-CB3",
+        "column_label": "Cell Density (×106cells/cm3)",
+        "cell_value": "2.5",
+        "cell_id": "T_2_42:r0006:c0002",
+        "row_index": 6,
+        "column_index": 2
+      },
+      "evidence_id": "ev00070",
+      "source_stage": "stage4_property",
+      "object_id": "series002"
+    }
+  ],
+  "provenance": [
+    {
+      "stage": "ocr",
+      "engine": "mineru",
+      "batch_id": "a2fa80d8-bb3d-43a9-a298-6438abdeb41a",
+      "model_version": "vlm",
+      "ocr_enabled": null,
+      "language": null,
+      "page_ranges": null,
+      "enable_formula": null,
+      "enable_table": null,
+      "extra_formats": null,
+      "status": "done",
+      "manifest_file": "batch_a2fa80d8-bb3d-43a9-a298-6438abdeb41a_manifest.json",
+      "status_file": "batch_a2fa80d8-bb3d-43a9-a298-6438abdeb41a_status.json"
+    },
+    {
+      "stage": "stage1_material_mention",
+      "provider": "dmx",
+      "model": "gpt-5.6-terra-2026-07-09",
+      "models": [
+        "gpt-5.6-terra-2026-07-09"
+      ],
+      "prompt_id": "polymer.stage1.material_mention",
+      "prompt_version": "1.2.1",
+      "prompt_sha256": "af2a070da70b7754d6ae45eeebe3bf42cf2eb2dcd039e11acdb837a06c461fb9",
+      "input_hash": "c3859ae2927b10f8bf670e5cd07d8905033d7fa4effddf11f498e78a922a745a",
+      "model_config_hash": "e075727883d2926c6e33e8497fe72c20e1e5addc7dfd2a90d973701ccfece7ad",
+      "cache_key": "4b0037a99a7744a50de9e36f3314faa66a4a55def9112d7db565ae28d32f8a81",
+      "output_schema_version": "material_mention_schema.v2",
+      "implementation_version": "1.2.6",
+      "chunk_count": 5,
+      "usage": {
+        "input_tokens": 14521,
+        "output_tokens": 4060,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "billable_input_tokens": 14521,
+        "total_tokens": 18581
+      },
+      "cost": {
+        "status": "calculated",
+        "currency": "CNY",
+        "input_per_million": "17",
+        "output_per_million": "101",
+        "input_cost": "0.246857",
+        "output_cost": "0.410060",
+        "total_cost": "0.656917"
+      },
+      "status": "success"
+    },
+    {
+      "stage": "stage2_polymer_entity",
+      "provider": "dmx",
+      "model": "gpt-5.6-terra-2026-07-09",
+      "models": [
+        "gpt-5.6-terra-2026-07-09"
+      ],
+      "prompt_id": "polymer.stage2.polymer_entity",
+      "prompt_version": "1.3.0",
+      "prompt_sha256": "0d376da340b979a77fcd231e0148cc26c8b9d125f7209025c7055483abb7d7e1",
+      "input_hash": "3eb95d9d8ef9247ca302f578a16dbb17aa8408fbd548ffe8ac26d24ba7522f96",
+      "model_config_hash": "c9e96c2514956e7b4b65eae3d327d34f95b7a33876cec6d4aa56f95eb79a9b50",
+      "cache_key": "319d6cccf0d6f5ae338f6401accdab7a247182ee25526dc39c90fb296d15b71b",
+      "output_schema_version": "polymer_entity_schema.v3",
+      "implementation_version": "1.4.0",
+      "context_block_count": 50,
+      "context_chars": 37076,
+      "call_count": 1,
+      "usage": {
+        "input_tokens": 18001,
+        "output_tokens": 2012,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "billable_input_tokens": 18001,
+        "total_tokens": 20013
+      },
+      "cost": {
+        "status": "calculated",
+        "currency": "CNY",
+        "input_per_million": "17",
+        "output_per_million": "101",
+        "input_cost": "0.306017",
+        "output_cost": "0.203212",
+        "total_cost": "0.509229"
+      },
+      "status": "success"
+    },
+    {
+      "stage": "stage3_sample_process",
+      "provider": "dmx",
+      "model": "doubao-seed-2.0-pro",
+      "models": [
+        "doubao-seed-2.0-pro"
+      ],
+      "prompt_id": "polymer.stage3.sample_process",
+      "prompt_version": "1.4.0",
+      "prompt_sha256": "2fef2373a2f2e3883de6d7c0a91e886a87ba84f3ba7a74a86296c60d902f6cac",
+      "input_hash": "fc0606b60cbddc2c45ff8d14d45426539337edd5f37f87ea997f81f97aecdcc2",
+      "model_config_hash": "7a389959b1eae8cb35e4c5e5702559631666e759a9891cf98687a5b37dd5d1ad",
+      "cache_key": "bcdab902b2b35f79c166dd6124ffc5a2a6969b7fafd30d391c71890e195debc4",
+      "output_schema_version": "sample_process_schema.v4",
+      "implementation_version": "1.5.0",
+      "context_block_count": 19,
+      "context_chars": 13579,
+      "call_count": 1,
+      "usage": {
+        "input_tokens": 8908,
+        "output_tokens": 8206,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "billable_input_tokens": 8908,
+        "total_tokens": 17114
+      },
+      "cost": {
+        "status": "calculated",
+        "currency": "CNY",
+        "input_per_million": "4.32",
+        "output_per_million": "29.15",
+        "input_cost": "0.03848256",
+        "output_cost": "0.2392049",
+        "total_cost": "0.27768746"
+      },
+      "status": "success"
+    },
+    {
+      "stage": "stage4_property",
+      "provider": "dmx",
+      "model": "doubao-seed-2.0-pro",
+      "models": [
+        "doubao-seed-2.0-pro"
+      ],
+      "prompt_id": "polymer.stage4.property",
+      "prompt_version": "1.7.2",
+      "prompt_sha256": "ec79fe3bf47539cab4ba239c611d1ab17d75dc0038cda85020caca580f7987a5",
+      "vocabulary_sha256": "3e9d85e4915a729edf0f0a53821f3ee6edf32874e1da6972457417e4f13a1510",
+      "input_hash": "2f33f67baae0f214f7fd06f15555c263ad873ba9fed2dfe37807cc28081425db",
+      "model_config_hash": "cc96eaab20bd380ae90f3ba1dfa638bd40f111e3e72ca185255fb71b459d40ea",
+      "cache_key": "ed9035e6e613b10050715df97c1ce5e2f63e23ae1f921f39a6160b5fecfcb5ae",
+      "output_schema_version": "property_observation_schema.v7",
+      "implementation_version": "1.7.10",
+      "context_block_count": 48,
+      "context_chars": 39885,
+      "call_count": 1,
+      "usage": {
+        "input_tokens": 25786,
+        "output_tokens": 11795,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "billable_input_tokens": 25786,
+        "total_tokens": 37581
+      },
+      "cost": {
+        "status": "calculated",
+        "currency": "CNY",
+        "input_per_million": "4.32",
+        "output_per_million": "29.15",
+        "input_cost": "0.11139552",
+        "output_cost": "0.34382425",
+        "total_cost": "0.45521977"
+      },
+      "status": "success"
+    },
+    {
+      "stage": "stage5_characterization",
+      "provider": "dmx",
+      "model": "doubao-seed-2.0-pro",
+      "models": [
+        "doubao-seed-2.0-pro"
+      ],
+      "prompt_id": "polymer.stage5.characterization",
+      "prompt_version": "1.6.2",
+      "prompt_sha256": "5f918eb9d0dcbe0a4dc60a70d83c4e9f144f9a87bf68905d0a38ad22c000ee5c",
+      "vocabulary_sha256": "3e9d85e4915a729edf0f0a53821f3ee6edf32874e1da6972457417e4f13a1510",
+      "input_hash": "0c8b1df217d61b58aab8f05b2749ce38d357e0742f79e29e35b0c9db631d76c9",
+      "model_config_hash": "7e14aff06827af47a7b1a797111258e33d5972d1c072111440c3b2aae020f3ce",
+      "cache_key": "243d1bac6f62dd5ec652a7638145a7e35ce0a4bab4d5306d0e8e1aabe8e9cd23",
+      "output_schema_version": "characterization_schema.v4",
+      "implementation_version": "1.7.1",
+      "context_block_count": 48,
+      "context_chars": 39885,
+      "call_count": 1,
+      "usage": {
+        "input_tokens": 18558,
+        "output_tokens": 3899,
+        "cache_creation_input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "billable_input_tokens": 18558,
+        "total_tokens": 22457
+      },
+      "cost": {
+        "status": "calculated",
+        "currency": "CNY",
+        "input_per_million": "4.32",
+        "output_per_million": "29.15",
+        "input_cost": "0.08017056",
+        "output_cost": "0.11365585",
+        "total_cost": "0.19382641"
+      },
+      "status": "success"
+    }
+  ],
+  "warnings": [
+    {
+      "code": "legacy_manifest_missing_options",
+      "message": "旧 manifest 缺少 OCR 选项，已按 null 保留：ocr_enabled, language, page_ranges, enable_formula, enable_table, extra_formats",
+      "stage": "stage0"
+    },
+    {
+      "stage": "stage2_polymer_entity",
+      "code": "polymer_name_preferred_over_sample_label",
+      "message": "实体同时包含具体聚合物名称和样品代号时，已优先采用有原文 mention 支持的具体名称",
+      "items": [
+        {
+          "entity_id": "pe003",
+          "previous_name": "COC/CB3",
+          "polymer_name": "CB-COC composite",
+          "mention_id": "m014"
+        }
+      ]
+    },
+    {
+      "stage": "stage2_polymer_entity",
+      "code": "preview_nested_mentions_split_retained",
+      "message": "Preview 模式已保留无法确定合并关系的嵌套 mention 拆分；需在正式数据中复核",
+      "items": [
+        {
+          "shorter_mention_id": "m049",
+          "longer_mention_id": "m050",
+          "shorter_assignment": "pe001",
+          "longer_assignment": "pe007"
+        },
+        {
+          "shorter_mention_id": "m057",
+          "longer_mention_id": "m058",
+          "shorter_assignment": "pe001",
+          "longer_assignment": "pe006"
+        },
+        {
+          "shorter_mention_id": "m041",
+          "longer_mention_id": "m043",
+          "shorter_assignment": "pe001",
+          "longer_assignment": "pe004"
+        },
+        {
+          "shorter_mention_id": "m035",
+          "longer_mention_id": "m036",
+          "shorter_assignment": "pe001",
+          "longer_assignment": "pe004"
+        }
+      ]
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "preview_semantic_validation_bypassed",
+      "message": "Preview 已保留 Schema/Process 图合法候选，并跳过原文/evidence 语义对应校验；Strict 模式仍会报错",
+      "reason": "s009.intended_use 不是 evidence 原文子串：'electrical conductivity measurement'"
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "unresolved_entities",
+      "message": "1 个 entity 未解析到实际样品",
+      "entity_ids": [
+        "pe007"
+      ]
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "samples_without_entity",
+      "message": "部分样品无法可靠关联 PolymerEntity",
+      "sample_ids": [
+        "s003",
+        "s004"
+      ]
+    },
+    {
+      "stage": "stage4_property",
+      "code": "series_entity_relinked_to_sample",
+      "message": "PropertySeries/point 的 entity_id 与已解析 Sample 冲突；已按 Stage 3 Sample.refers_to_entity 确定性纠正",
+      "series": 0,
+      "points": 10
+    },
+    {
+      "stage": "stage4_property",
+      "code": "multi_subject_series_normalized",
+      "message": "PropertySeries 的 points 明确属于多个 Sample/PolymerEntity；已清除错误的单一顶层主体，主体关系保留在各 point",
+      "series": 2
+    },
+    {
+      "stage": "stage4_property",
+      "code": "candidate_table_locator_surface_repaired",
+      "message": "模型 locator 表面文本不在表格原文；已用 property raw 与 determination method 中唯一匹配的 Stage 0 表头恢复",
+      "evidence": 3
+    },
+    {
+      "stage": "stage4_property",
+      "code": "condition_table_locators_synthesized",
+      "message": "已将唯一包含条件 raw 的表头单元格绑定为条件 evidence",
+      "evidence": 2
+    },
+    {
+      "stage": "stage4_property",
+      "code": "series_method_evidence_supplemented",
+      "message": "Series determination method 不在 point 表格 evidence；已补入全文中唯一的完全匹配原文 block",
+      "series": 1
+    },
+    {
+      "stage": "stage4_property",
+      "code": "preview_semantic_validation_bypassed",
+      "message": "Preview 已保留 Schema 合法候选，并跳过原文/evidence 语义对应校验；Strict 模式仍会报错",
+      "reason": "prop005.property_name_raw='σ_L' 不是任一 evidence block 的原文子串"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "preview_objects_salvaged",
+      "message": "Preview 已逐对象保留可安全物化的数据；坏字段、坏对象或失效引用已局部删除，Strict 模式仍会报错",
+      "details": {
+        "dropped_conditions": [],
+        "dropped_properties": [],
+        "dropped_unresolved_properties": [],
+        "dropped_series": [],
+        "dropped_points": [],
+        "dropped_evidence": 0,
+        "dropped_coordinates": 0
+      }
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[0]",
+      "property_id": "prop_s5_001",
+      "fields": [
+        "unit_raw"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[1]",
+      "property_id": "prop_s5_002",
+      "fields": [
+        "unit_raw"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unscoped_stage5_items_removed",
+      "message": "Preview 模式已移除无法唯一关联任何单/多主体的 Stage 5 表征及其派生性质；未猜测 entity_id",
+      "characterization_ids": [
+        "char001"
+      ],
+      "property_ids": []
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_property_subject_scope_aligned",
+      "message": "Preview 模式已将冲突的派生性质主体对齐到所属 Characterization",
+      "field_path": "properties[0]",
+      "characterization_id": "char002"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_property_subject_scope_aligned",
+      "message": "Preview 模式已将冲突的派生性质主体对齐到所属 Characterization",
+      "field_path": "properties[1]",
+      "characterization_id": "char002"
+    }
+  ],
+  "stage_failures": [],
+  "raw_stage_candidates": {},
+  "validation_summary": {
+    "status": "not_validated",
+    "error_count": 0,
+    "warning_count": 18
+  },
+  "source_stage_versions": {
+    "stage0": "1.1",
+    "stage1": "1.0",
+    "stage2": "1.0",
+    "stage3": "1.0",
+    "stage4": "1.0",
+    "stage5": "1.0"
+  }
+}

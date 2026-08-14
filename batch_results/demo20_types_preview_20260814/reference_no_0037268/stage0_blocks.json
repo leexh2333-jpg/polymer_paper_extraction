@@ -1,0 +1,4786 @@
+{
+  "schema_version": "1.1",
+  "source_document_schema_version": "1.0",
+  "document_id": "reference_no_0037268",
+  "paper": {
+    "ref_no": "reference_no_0037268",
+    "pdf_filename": "30045008-bad9-4bf0-a10f-58f3482a31db_origin.pdf",
+    "source_pdf_path": "mineru/reference_no_0037268/30045008-bad9-4bf0-a10f-58f3482a31db_origin.pdf",
+    "organized_pdf_path": "organized/reference_no_0037268/origin.pdf",
+    "doi": null,
+    "title": null,
+    "authors": null,
+    "journal": null,
+    "year": null,
+    "metadata_status": "failed",
+    "metadata_extraction": {
+      "method": "llm",
+      "provider": null,
+      "model": null,
+      "prompt_file": "prompts/meta_extract.md",
+      "prompt_sha256": "98252486e4f9cdfd1b42ea02b7e01440d6be99c99d18720dc71c95aa1643fcd4",
+      "source_pages": [
+        0,
+        1
+      ],
+      "status": "failed",
+      "error_type": "MetaExtractorUnavailable"
+    }
+  },
+  "source_files": {
+    "markdown": "reference_no_0037268.md",
+    "content_v1": "content.json",
+    "content_v2": "content_v2.json",
+    "pdf": "origin.pdf"
+  },
+  "ocr": {
+    "engine": "mineru",
+    "batch_id": "122ff743-eb66-4583-986f-6c8015953309",
+    "model_version": "vlm",
+    "ocr_enabled": false,
+    "language": null,
+    "page_ranges": null,
+    "enable_formula": true,
+    "enable_table": true,
+    "extra_formats": [],
+    "status": "done",
+    "manifest_file": "batch_122ff743-eb66-4583-986f-6c8015953309_manifest.json",
+    "status_file": "batch_122ff743-eb66-4583-986f-6c8015953309_status.json"
+  },
+  "elements": [
+    {
+      "block_id": "P_0_0",
+      "type": "title",
+      "section": "DocumentTitle",
+      "text": "Characterization of Biodegradable Polymer Blends by Inverse Gas Chromatography: Amylopectin and Its Blends",
+      "page": 0,
+      "bbox": [
+        136.0,
+        157.0,
+        858.0,
+        234.0
+      ],
+      "source_block_index": 0,
+      "alignment_status": "matched",
+      "title_level": 1
+    },
+    {
+      "block_id": "P_0_1",
+      "type": "text",
+      "text": "Zeki Y. Al-Saigh",
+      "page": 0,
+      "bbox": [
+        402.0,
+        262.0,
+        592.0,
+        283.0
+      ],
+      "source_block_index": 1,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_0_2",
+      "type": "text",
+      "text": "Department of Chemistry, State University of New York, Buffalo State College, 1300 Elmwood Avenue, Buffalo, NY 14222",
+      "page": 0,
+      "bbox": [
+        143.0,
+        300.0,
+        851.0,
+        339.0
+      ],
+      "source_block_index": 2,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_0_3",
+      "type": "text",
+      "text": "Amylopectin (AP), as a potato starch based polymer, with a molar mass of six million gram/mol was blended with several biodegradable polymers: poly(ε-caprolactone) (PCL), Poly (3-hydroxy butyric acid) (PHBA), poly (DL-lactide-co-glycolide) (PLG) and three different molar mass of poly (acrylic acid) (PAA). All pure polymers and the blends were characterized using the Inverse Gas Chromatography Method (IGC), Differential Scanning Calorimetry (DSC) and X-Ray Diffraction (XRD) over a wide range of temperatures (80-260 °C). Nineteen solutes (solvents) were injected into five chromatographic columns containing AP-biodegradable polymer blends. These solutes probed the dispersive, dipole-dipole, H-bonding interactions, acid-base characteristics, the wettability and water uptake of AP-PCL blends. Retention diagrams of these solutes in a temperature range of 80-260 °C revealed at least two zones, crystalline and amorphous. T $_{g}$ and T $_{m}$ of the pure polymers and the blends were measured using these zones. The two zones were used to calculate the degree of crystallinity of the pure AP and its blends below the melting temperature which ranged from 81% at 104 °C to 0% at the T $_{m}$ values. IGC has complimented the DSC method in obtaining the T $_{g}$ and T $_{m}$ values of the pure AP and the AP-PCL blends.",
+      "page": 0,
+      "bbox": [
+        201.0,
+        412.0,
+        798.0,
+        822.0
+      ],
+      "source_block_index": 3,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_0_3",
+        "V2_0_3_1",
+        "V2_0_3_3",
+        "V2_0_3_5",
+        "V2_0_3_7",
+        "V2_0_3_9"
+      ]
+    },
+    {
+      "block_id": "P_0_4",
+      "type": "text",
+      "text": "Downloaded by UNIV OF CALIFORNIA SAN DIEGO on March 8, 2016 | http://pubs.acs.org\nPublication Date: September 23, 2006 | doi: 10.1021/bk-2006-0939.ch020",
+      "page": 0,
+      "bbox": [
+        0.0,
+        260.0,
+        46.0,
+        737.0
+      ],
+      "source_block_index": 4,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_1_9",
+      "type": "text",
+      "text": "These values were unexpectedly elevated for the blends from that of the pure AP, and ranged from 105 °C to 152 °C for   $T_{g}$  values, and 166°C to 210 °C for   $T_{m}$  values. The   $T_{m}$  values agreed well with the XRD analysis data. This elevation in   $T_{g}$  and   $T_{m}$  values may be due to the change in heat capacity at   $T_{g}$, and the dependence of   $T_{g}$  on various variables including molar mass, and the blend composition. Tg values for AP- PHBA, PLG and PAA were also elevated in contrary to the Tm values which showed a depression in the melting points.",
+      "page": 1,
+      "bbox": [
+        201.0,
+        118.0,
+        796.0,
+        285.0
+      ],
+      "source_block_index": 9,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_1_9",
+        "V2_1_0_1",
+        "V2_1_0_3",
+        "V2_1_0_5",
+        "V2_1_0_7",
+        "V2_1_0_9",
+        "V2_1_0_11",
+        "V2_1_0_13"
+      ]
+    },
+    {
+      "block_id": "P_1_10",
+      "type": "text",
+      "text": "Polymer blend–solvent interaction parameters were measured using a variety of solutes at a wide range of temperatures which determined the solubility of the blends in these solutes. It was also able to determine the blends compatibility over a wide range of temperatures and weight fractions.   $\\chi_{23}$  and   $B_{23}$  parameters agreed well on the partial miscibility of the blends studied. The dispersive component of the surface energy of the pure polymers and the blends were measured using alkanes which ranged from 16.00 mJ/m  $^{2}$  for the pure AP to 55.46 mJ/m  $^{2}$  when AP was mixed with PHBA in a 50-50% ratio. This reveals the increase of the surface energy of AP when it was blended with other biodegradable polymers. IGC was effective and versatile in measuring the degree of crystallinity of the pure polymers and the blends at any single temperature below AP's T  $_{m}$ , unlike the DSC method which provides a range of the degree of crystallinity.",
+      "page": 1,
+      "bbox": [
+        201.0,
+        285.0,
+        798.0,
+        586.0
+      ],
+      "source_block_index": 10,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_1_10",
+        "V2_1_1_1",
+        "V2_1_1_3",
+        "V2_1_1_5",
+        "V2_1_1_7",
+        "V2_1_1_9"
+      ]
+    },
+    {
+      "block_id": "P_1_11",
+      "type": "title",
+      "section": "Introduction",
+      "text": "Introduction",
+      "page": 1,
+      "bbox": [
+        418.0,
+        621.0,
+        578.0,
+        641.0
+      ],
+      "source_block_index": 11,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_1_12",
+      "type": "text",
+      "section": "Introduction",
+      "text": "Most of the physico-chemical knowledge of macromolecules comes from studies in dilute solution where the polymer molecules are more or less isolated from each other. Since the viscosity of polymers is high, most practical applications of polymers, the polymer is highly concentrated and usually represents 90% or more of the bulk phase. In particular, when two polymers are mixed to form a polymer blend, the resulting mixture is highly viscous. Experimental techniques developed for dilute solution studies are often inapplicable under these conditions. Furthermore, there is a category of polymers that insoluble, or partially soluble in known solvents and hence cannot be studied at all in a dilute solution. The inverse gas chromatographic procedure (IGC) (sometimes called the molecular probe technique) eliminates both of these difficulties. Gas chromatographic equipment is generally available at a reasonable cost, the experimental simplicity, and the ease which large amounts of data can be collected using the IGC, is becoming the method of choice for the study of thermodynamic interactions of small molecules with polymers in the solid phase. It can also be used to measure surface areas and adsorption isotherms, glass and other solid phase transitions in polymers, degrees of crystallinity, crosslink density and diffusion constants for small molecules in polymeric materials. Since 1969, Inverse Gas Chromatography (IGC) has been used for the characterization of polymers, blends and materials. During this period, it has undergone extensive development and received considerable interest in its application to polymers and blends (1-12). The IGC technique utilizes conventional gas chromatography, with minor modifications, to measure the interaction between pure solute (mobile phase) and the polymers or blends (stationary phase) in terms of the retention time of the solute. The term \"solute\" is used to represent the low-molar mass volatile solvent that is usually injected onto the chromatographic column. Solute is dispersed in a mobile phase and the polymer blend is stationary in the column as a liquid phase. Volatility of solutes insures the availability of a vanishing small amount of solute in the mobile phase which leads to fast establishment of equilibrium between the gas and the stationary phases. The term \"inverse\" refers to the fact that the stationary phase (the polymeric system) is the phase to be studied in IGC experiments, in contrast to the objective of the separation of components in traditional gas chromatography (GC). The stationary phase is prepared by dissolving the polymer or polymer blend in the appropriate solvent and depositing the resulting mixture onto a solid support using a specific technique developed by us (1). There have been excellent reviews on IGC during the past three decades outlining the methodology and technique. Reviews on this work have been given by Guillet and co-workers (3,4), Munk (5), Al-Saigh (2,14), and Guillet and Al-Saigh (13).",
+      "page": 1,
+      "bbox": [
+        115.0,
+        660.0,
+        881.0,
+        942.0
+      ],
+      "source_block_index": 12,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_1_13",
+      "type": "text",
+      "section": "Introduction",
+      "text": "Downloaded by UNIV OF CALIFORNIA SAN DIEGO on March 8, 2016 | http://pubs.acs.org\nPublication Date: September 23, 2006 | doi: 10.1021/bk-2006-0939.ch020",
+      "page": 1,
+      "bbox": [
+        0.0,
+        260.0,
+        46.0,
+        736.0
+      ],
+      "source_block_index": 13,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_2_16",
+      "type": "text",
+      "section": "Introduction",
+      "text": "",
+      "page": 2,
+      "bbox": [
+        115.0,
+        118.0,
+        884.0,
+        581.0
+      ],
+      "source_block_index": 16,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_2_17",
+      "type": "text",
+      "section": "Introduction",
+      "text": "There have been several applications of IGC to the determination of surface interactions (15-24). In particular, IGC was applied to several studies of natural polymers. Among them are: cellulose (25), wood (26), potato starch as Amylopectin (27) and lignocellosic surfaces (28). In these studies, the surface thermodynamic characteristic of wood fiber and its relationship to the fiber's water vapor adsorption was determined by IGC (26). Also, the surface energy, surface acid-base free energy, enthalpy of desorption of acid-base probes, surface acid-base acceptors, and donor parameters were determined by IGC (26). Cellulose was also found by IGC to be sensitive to the presence of adsorbed water which possibly disorders its surface structure.",
+      "page": 2,
+      "bbox": [
+        113.0,
+        581.0,
+        881.0,
+        768.0
+      ],
+      "source_block_index": 17,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_2_18",
+      "type": "text",
+      "section": "Introduction",
+      "text": "Starch and its blends have attracted much attention as environmentally biodegradable polymers (29-31). However they suffer from disadvantages as compared with conventional polymers and blends such as brittleness and a narrow processability window (32). The thermal behavior and phase morphology of starch-blend systems have been studied by differential scanning calorimetry (DSC), Fourier Transform Infrared (FTIR) spectroscopy, scanning electron microscopy solvent extraction, X-ray diffraction, optical rotation, nuclear magnetic resonance (NMR) and polarizing optical microscopy (33-36). Like polymer blends wide applications starch-based blends have the potential to be used in the environmental and biomedical fields as they are easily obtained in a large quantity by an inexpensive route and are totally biodegradable. New areas of applications of starch-based blends in the biomedical field are emerging such as drug delivery systems, hydrogels, bone cements and bone replacements. Most of these applications require accurate control of polymer water up-take ability, degradation rate and mechanical performance in various media. To improve these properties of starch-based polymers, blending the natural polymer with a homo biodegradable polymer can be utilized, and the characterization of the new resulting properties will be the subject of this chapter. Special attention will be devoted to surface, physical, and chemical properties of the new blends. The blending process is expected to have an impact on the surface and mechanical properties of the blends. The mechanical properties of such materials with two or more components are strongly influenced by the properties of the components and by the properties of the interface. In case there is no chemical bonding within the components, and the surface of the material is smooth, the interaction between the components is of a physical nature and the strength of dispersive and acid base interaction forces is essential for the adhesion between the components and, therefore, the properties of the material. From studies carried out in the past decades, we believe that blends of biodegradable polymers can combine highly mechanical properties along with the physical properties such as: stability, low gas permeability, environmental safety and easy processing and modeling. Since the properties of starch-based polymers depend on the compatibility of the blend and the structure of the system, the thermodynamic and energetic characteristics of the interaction of the starch with synthetic polymers within the blend and the structure of such blends need further exploration. It has been shown (37) by Bertuzzi et al. that when corn starch film was blended with glycerol, a negative exponential dependence on the blend's concentration had occurred. In addition, a decrease in in tensile strength (TS) from 26.84 MPa to 1.52 MPA was observed. In another study, Ramkumar and Bhattacharya (38) showed that when a starch was blended with a synthetic polymer such as polyolefin, the tensile properties of the blend increased and the crystallinity of the starch was considerably decreased. Even if the starch is not compatible with the synthetic polymer, the mechanical properties can be significantly improved by adding a functional group, such as maleic acid, or phenolic group on the synthetic polymer. It has been reported that the blending process resulted in inferior mechanical properties, and the biodegradability of the blend was increased (39). Averous et al. (40) observed a significant improvement in the properties of the blend due to the presence of PCL which decreased the material modulus but the impact resistance improved.",
+      "page": 2,
+      "bbox": [
+        111.0,
+        768.0,
+        881.0,
+        936.0
+      ],
+      "source_block_index": 18,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_2_19",
+      "type": "text",
+      "section": "Introduction",
+      "text": "Downloaded by UNIV OF CALIFORNIA SAN DIEGO on March 8, 2016 | http://pubs.acs.org\nPublication Date: September 23, 2006 | doi: 10.1021/bk-2006-0939.ch020",
+      "page": 2,
+      "bbox": [
+        0.0,
+        260.0,
+        46.0,
+        736.0
+      ],
+      "source_block_index": 19,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_3_22",
+      "type": "text",
+      "section": "Introduction",
+      "text": "",
+      "page": 3,
+      "bbox": [
+        115.0,
+        117.0,
+        881.0,
+        844.0
+      ],
+      "source_block_index": 22,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_3_23",
+      "type": "text",
+      "section": "Introduction",
+      "text": "This chapter will explore the characterization of several Amylopectin-biodegradable polymer blends using the IGC method. These blends are: Amylopectin–Poly(ε-caprolactone) (PCL), Amylopectin-Poly(DL-lactide-Coglycolide) (PLG), Amylopectin-Poly(3-hydroxy butyric acid) (PHBA), and Amylopectin-Poly (acrylic acid) (PAA). A series of molar mass of PAA will be used ranging from 2,000 to 750,000 g/mol. This series will explore the dependence of the molar mass of the polymer diluent (PAA in this case) on the interaction of the two polymers melting and glass transition temperatures, the degree of crystallinity and the surface energy. Blending two biodegradable polymers is a cost effective method. The rate of biodegradation is correlated with morphology, crystallinity, surface area, and additives. To accomplish this goal, the physical properties of the blends need to be investigated with precision. Such properties will evolve the determination of the blend's compatibility over a range of temperatures and compositions.",
+      "page": 3,
+      "bbox": [
+        115.0,
+        842.0,
+        881.0,
+        938.0
+      ],
+      "source_block_index": 23,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_3_24",
+      "type": "text",
+      "section": "Introduction",
+      "text": "Downloaded by UNIV OF CALIFORNIA SAN DIEGO on March 8, 2016 | http://pubs.acs.org\nPublication Date: September 23, 2006 | doi: 10.1021/bk-2006-0939.ch020",
+      "page": 3,
+      "bbox": [
+        0.0,
+        260.0,
+        46.0,
+        736.0
+      ],
+      "source_block_index": 24,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_4_27",
+      "type": "text",
+      "section": "Introduction",
+      "text": "",
+      "page": 4,
+      "bbox": [
+        111.0,
+        115.0,
+        879.0,
+        285.0
+      ],
+      "source_block_index": 27,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_4_28",
+      "type": "title",
+      "section": "Introduction",
+      "text": "Analysis of Polymer Blends",
+      "page": 4,
+      "bbox": [
+        115.0,
+        311.0,
+        395.0,
+        331.0
+      ],
+      "source_block_index": 28,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_4_29",
+      "type": "text",
+      "section": "Introduction",
+      "text": "A series of pure low molar mass solutes with different polarities, such as alkanes, acetates, alcohols, formic acid, dimethyl amine and water were injected into the chromatographic column that contains the polymer blend. Their interaction with the stationary phase will reveal the effect of the chemical nature of the injected solutes on their miscibility with the blend. Several chromatographic quantities, illustrated in Equation 1 are precisely measured directly from the IGC experiment. These quantities will yield the specific retention volume,   $V_{g}^{o}$ .   $V_{g}^{o}$  is the key term in the calculation of thermodynamic parameters and is commonly used to describe the chromatographic elution behavior of solutes. It is defined as:",
+      "page": 4,
+      "bbox": [
+        113.0,
+        348.0,
+        881.0,
+        535.0
+      ],
+      "source_block_index": 29,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_4_29",
+        "V2_4_2_1",
+        "V2_4_2_3"
+      ]
+    },
+    {
+      "block_id": "E_4_30",
+      "type": "equation",
+      "section": "Introduction",
+      "text": "$$\nV _ {g} ^ {o} = \\frac {2 7 3 . 1 5 \\Delta t F J}{w T _ {\\text { room }}}\\tag{1}\n$$",
+      "page": 4,
+      "bbox": [
+        393.0,
+        552.0,
+        599.0,
+        606.0
+      ],
+      "source_block_index": 30,
+      "alignment_status": "matched",
+      "equation_kind": "display"
+    },
+    {
+      "block_id": "P_4_31",
+      "type": "text",
+      "section": "Introduction",
+      "text": "Here,   $\\Delta t = t_{p} - t_{m}$  is the difference between the retention time of the solute,   $t_{p}$  and of the marker,   $t_{m}$ . Air is usually used as a marker, when the Thermal Conductivity (TC) detector is used, to account for the dead volume in the chromatographic column. The retention time of the marker has to be subtracted from the solute retention time to reflect the absolute value of the solute retention time as   $t_{p}$ . F is the flow rate of the carrier gas measured at room temperature   $T_{r}$ , w is the mass of the stationary phase, and J is a pressure correction factor which depends on   $P_{i}$  and   $P_{o}$ , the inlet and outlet pressures respectively.   $P_{i}$  and   $P_{o}$  are measured using electronic transducers which are interfaced at the inlet and outlet of the column. These transducers are usually calibrated using a mercury manometer. To calculate the interaction parameter,   $\\chi_{12}$ , of the polymer-solute system,   $V_{g}^{o}$  from Eqn 1 is utilized as follows:",
+      "page": 4,
+      "bbox": [
+        115.0,
+        625.0,
+        881.0,
+        853.0
+      ],
+      "source_block_index": 31,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_4_31",
+        "V2_4_4_1",
+        "V2_4_4_3",
+        "V2_4_4_5",
+        "V2_4_4_7",
+        "V2_4_4_9",
+        "V2_4_4_11",
+        "V2_4_4_13",
+        "V2_4_4_15",
+        "V2_4_4_17",
+        "V2_4_4_19",
+        "V2_4_4_21"
+      ]
+    },
+    {
+      "block_id": "E_4_32",
+      "type": "equation",
+      "section": "Introduction",
+      "text": "$$\n\\chi_ {1 2} = \\ln \\left[ \\frac {2 7 3 . 1 5 R v _ {2}}{V _ {g} ^ {o} V _ {1} P _ {1} ^ {o}} \\right] - 1 + \\frac {V _ {1}}{M _ {2} v _ {2}} - \\frac {B _ {1 1} - V _ {1}}{R T} P _ {1} ^ {o}\\tag{2}\n$$",
+      "page": 4,
+      "bbox": [
+        284.0,
+        868.0,
+        715.0,
+        913.0
+      ],
+      "source_block_index": 32,
+      "alignment_status": "matched",
+      "equation_kind": "display"
+    },
+    {
+      "block_id": "P_4_33",
+      "type": "text",
+      "section": "Introduction",
+      "text": "Downloaded by UNIV OF CALIFORNIA SAN DIEGO on March 8, 2016 | http://pubs.acs.org\nPublication Date: September 23, 2006 | doi: 10.1021/bk-2006-0939.ch020",
+      "page": 4,
+      "bbox": [
+        0.0,
+        262.0,
+        46.0,
+        736.0
+      ],
+      "source_block_index": 33,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_5_36",
+      "type": "text",
+      "section": "Introduction",
+      "text": "1 denotes the solute and 2 denotes the polymer;  $v_{2}$ is the specific volume of the polymer at the column temperature  $T$;  $M_{I}$ is the molar mass of the solute;  $P_{I}^{o}$ is the saturated vapor pressure of the solute;  $V_{I}$ is the molar volume of the solute;  $R$ is the gas constant; and  $B_{II}$ is the second virial coefficient of the solute in the gaseous state. For polymer blend systems, the key term in the miscibility of a polymer-polymer pair is the free energy of mixing,  $\\Delta G_{m}$ as",
+      "page": 5,
+      "bbox": [
+        115.0,
+        117.0,
+        881.0,
+        231.0
+      ],
+      "source_block_index": 36,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_5_36",
+        "V2_5_0_1",
+        "V2_5_0_3",
+        "V2_5_0_5",
+        "V2_5_0_7",
+        "V2_5_0_9",
+        "V2_5_0_11",
+        "V2_5_0_13",
+        "V2_5_0_15"
+      ]
+    },
+    {
+      "block_id": "E_5_37",
+      "type": "equation",
+      "section": "Introduction",
+      "text": "$$\n\\Delta G _ {\\mathrm{m}} = \\Delta H _ {\\mathrm{m}} - \\mathrm{T} \\Delta S _ {\\mathrm{m}}\\tag{3}\n$$",
+      "page": 5,
+      "bbox": [
+        402.0,
+        246.0,
+        597.0,
+        266.0
+      ],
+      "source_block_index": 37,
+      "alignment_status": "matched",
+      "equation_kind": "display"
+    },
+    {
+      "block_id": "P_5_38",
+      "type": "text",
+      "section": "Introduction",
+      "text": "where   $\\Delta S_{m}$  is the combinatorial entropy of mixing and   $\\Delta H_{m}$  is the molar heat of mixing. A complete analysis of the thermodynamics of polymer blends was given in our earlier publications (1). Utilizing the specific retention volume,   $V_{g}^{0}$ , the polymer-polymer interaction coefficient,   $\\chi_{23}$  can be derived. When a polymer pair is used as a stationary (liquid) phase in a chromatographic column, subscripts 2 and 3 will be used to represent polymers 2 and 3, respectively. Subscript 1 refers to the test solute. The interaction between two polymers is expressed in terms of the free energy of mixing   $\\Delta G_{mix}$  in Equation 4. Subscripts 2 and 3 refer to polymer 1 and 2, respectively. The first two (entropic) terms in this equation are negligible for polymer blends. Thus, for the polymer blend to be miscible (  $\\Delta G_{mix}$  being negative),   $\\chi_{23}$  must be negative. When considering the IGC of polymer blends, the free energy of mixing must be written for a three-component system. It is usually expressed as",
+      "page": 5,
+      "bbox": [
+        115.0,
+        283.0,
+        881.0,
+        527.0
+      ],
+      "source_block_index": 38,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_5_38",
+        "V2_5_2_1",
+        "V2_5_2_3",
+        "V2_5_2_5",
+        "V2_5_2_7",
+        "V2_5_2_9",
+        "V2_5_2_11",
+        "V2_5_2_13"
+      ]
+    },
+    {
+      "block_id": "E_5_39",
+      "type": "equation",
+      "section": "Introduction",
+      "text": "$$\n\\begin{array}{l} \\Delta G _ {m i x} = \\mathrm{RT} \\left[ n _ {1} \\ln \\phi_ {1} + n _ {2} \\ln \\phi_ {2} + n _ {3} \\ln \\phi_ {3} + n _ {1} \\phi_ {2} \\chi_ {1 2} + n _ {1} \\phi_ {3} \\chi_ {1 3} + \\right. \\\\ \\left. n _ {2} \\phi_ {3} \\chi_ {2 3} \\right] \\end{array} \\tag {4}\n$$",
+      "page": 5,
+      "bbox": [
+        120.0,
+        547.0,
+        881.0,
+        603.0
+      ],
+      "source_block_index": 39,
+      "alignment_status": "matched",
+      "equation_kind": "display"
+    },
+    {
+      "block_id": "P_5_40",
+      "type": "text",
+      "section": "Introduction",
+      "text": "Recognizing that for a polymer blend containing polymer 2 and polymer 3,   $v_{2}$  in Eqn 2 should be replaced by   $(w_{2} \\upsilon_{2} + w_{3} \\upsilon_{3})$ , where   $w_{2}$  and   $w_{3}$  are the weight fractions and   $v_{2}$  and   $v_{3}$  are the specific volumes of the two polymers in the blend. Thus one can Easily derive Equation 5:",
+      "page": 5,
+      "bbox": [
+        118.0,
+        621.0,
+        881.0,
+        697.0
+      ],
+      "source_block_index": 40,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_5_40",
+        "V2_5_4_1",
+        "V2_5_4_3",
+        "V2_5_4_5",
+        "V2_5_4_7",
+        "V2_5_4_9",
+        "V2_5_4_11"
+      ]
+    },
+    {
+      "block_id": "E_5_41",
+      "type": "equation",
+      "section": "Introduction",
+      "text": "$$\n\\begin{array}{l} \\ln \\frac {2 7 3 . 1 5 R (w _ {2} v _ {2} + w _ {3} v _ {3})}{V _ {\\mathrm{g}} ^ {o} V _ {1} P _ {1} ^ {o}} - 1 - \\frac {B _ {1 1} - V _ {1}}{R T} P _ {1} ^ {o} = \\phi_ {2} \\left[ \\chi_ {1 2} - \\frac {V _ {1}}{M _ {2} v _ {2}} \\right] + \\phi_ {3} \\left[ \\chi_ {1 3} - \\frac {V _ {1}}{M _ {3} v _ {3}} \\right] - \\\\ \\frac {V _ {1}}{V _ {2}} \\phi_ {2} \\phi_ {3} \\chi_ {2 3} \\end{array}\\tag{5}\n$$",
+      "page": 5,
+      "bbox": [
+        120.0,
+        731.0,
+        833.0,
+        828.0
+      ],
+      "source_block_index": 41,
+      "alignment_status": "matched",
+      "equation_kind": "display"
+    },
+    {
+      "block_id": "P_5_42",
+      "type": "text",
+      "section": "Introduction",
+      "text": "where   $\\varphi_{2}$  and   $\\varphi_{3}$  are the volume fractions of the two polymers in the blend. Comparison of Equations 2 and 5 suggest that to obtain   $\\chi_{23}$  for a polymer blend, utilizing IGC,   $\\chi_{12}$  and   $\\chi_{13}$  have to be known. Three columns are usually prepared; two from the homopolymers and the third prepared from a blend of the two samples used for the homopolymer columns. A further three columns containing different compositions of the blend can also be prepared if the effect of the weight fraction of the blend on miscibility needs to be explored. These columns should be studied under identical conditions of column temperature, carrier gas flow rate and inlet pressure of the carrier gas, and with the same solutes. This keeps all auxiliary parameters (  $P_{1}^{\\circ}$ , T,   $M_{2}$ ,   $M_{3}$ ,   $V_{1}$ ,   $v_{2}$ ,   $v_{3}$  and   $B_{11}$ ) identical for the three experiments, and a combination of Equation 2 (taken twice for two homopolymers) and Equation 5 for the blend, the parameter   $\\chi_{23}$  can be derived",
+      "page": 5,
+      "bbox": [
+        118.0,
+        848.0,
+        881.0,
+        925.0
+      ],
+      "source_block_index": 42,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_5_42",
+        "V2_5_6_1",
+        "V2_5_6_3",
+        "V2_5_6_5",
+        "V2_5_6_7",
+        "V2_5_6_9",
+        "V2_5_6_11",
+        "V2_5_6_13",
+        "V2_5_6_15",
+        "V2_5_6_17",
+        "V2_5_6_19",
+        "V2_5_6_21",
+        "V2_5_6_23",
+        "V2_5_6_25"
+      ]
+    },
+    {
+      "block_id": "P_5_43",
+      "type": "text",
+      "section": "Introduction",
+      "text": "Downloaded by UNIV OF CALIFORNIA SAN DIEGO on March 8, 2016 | http://pubs.acs.org\nPublication Date: September 23, 2006 | doi: 10.1021/bk-2006-0939.ch020",
+      "page": 5,
+      "bbox": [
+        0.0,
+        260.0,
+        46.0,
+        736.0
+      ],
+      "source_block_index": 43,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_6_46",
+      "type": "text",
+      "section": "Introduction",
+      "text": "",
+      "page": 6,
+      "bbox": [
+        111.0,
+        117.0,
+        881.0,
+        268.0
+      ],
+      "source_block_index": 46,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "E_6_47",
+      "type": "equation",
+      "section": "Introduction",
+      "text": "$$\n\\chi_ {2 3} = \\frac {\\ln \\frac {V _ {g , b l e n d} ^ {o}}{W _ {2} v _ {2} + W _ {3} v _ {3}} - \\phi_ {2} \\ln \\frac {V _ {g , 2} ^ {o}}{v _ {2}} - \\phi_ {3} \\ln \\frac {V _ {g , 3} ^ {o}}{v _ {3}}}{\\phi_ {2} \\phi_ {3}}\\tag{6}\n$$",
+      "page": 6,
+      "bbox": [
+        293.0,
+        302.0,
+        701.0,
+        365.0
+      ],
+      "source_block_index": 47,
+      "alignment_status": "matched",
+      "equation_kind": "display"
+    },
+    {
+      "block_id": "P_6_48",
+      "type": "text",
+      "section": "Introduction",
+      "text": "Equation 6 is routinely used in IGC experiments particularly when for solutes for which the Parameters   $P_{1}^{0}$ ,   $V_{1}$  and   $B_{11}$  are not known with sufficient accuracy.   $\\chi_{23}$  can also be related to   $B_{23}$  which is another indicator of the blend miscibility with negative value being necessary for mixing.",
+      "page": 6,
+      "bbox": [
+        115.0,
+        385.0,
+        881.0,
+        462.0
+      ],
+      "source_block_index": 48,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_6_48",
+        "V2_6_2_1",
+        "V2_6_2_3",
+        "V2_6_2_5",
+        "V2_6_2_7",
+        "V2_6_2_9"
+      ]
+    },
+    {
+      "block_id": "E_6_49",
+      "type": "equation",
+      "section": "Introduction",
+      "text": "$$\nB _ {2 3} = R T \\left(\\frac {\\chi_ {2 3}}{V _ {1}}\\right)\\tag{7}\n$$",
+      "page": 6,
+      "bbox": [
+        423.0,
+        496.0,
+        576.0,
+        544.0
+      ],
+      "source_block_index": 49,
+      "alignment_status": "matched",
+      "equation_kind": "display"
+    },
+    {
+      "block_id": "P_6_50",
+      "type": "text",
+      "section": "Introduction",
+      "text": "For high molar mass polymer, The second term in Equation become negligible, and the equation can be reduced to a better practical form that can be used routinely in IGC experiments.",
+      "page": 6,
+      "bbox": [
+        115.0,
+        564.0,
+        881.0,
+        625.0
+      ],
+      "source_block_index": 50,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "E_6_51",
+      "type": "equation",
+      "section": "Introduction",
+      "text": "$$\n\\chi_ {1 2} = \\ln \\left[ \\frac {2 7 3 . 1 5 R v _ {2}}{V _ {g} ^ {o} V _ {1} P _ {1} ^ {o}} \\right] - 1 - \\frac {B _ {1 1} - V _ {1}}{R T} P _ {1} ^ {o}\\tag{8}\n$$",
+      "page": 6,
+      "bbox": [
+        319.0,
+        658.0,
+        680.0,
+        703.0
+      ],
+      "source_block_index": 51,
+      "alignment_status": "matched",
+      "equation_kind": "display"
+    },
+    {
+      "block_id": "P_6_52",
+      "type": "title",
+      "section": "Introduction",
+      "text": "Analysis of Semicrystalline Polymer-Containing Blends",
+      "page": 6,
+      "bbox": [
+        118.0,
+        743.0,
+        675.0,
+        763.0
+      ],
+      "source_block_index": 52,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_6_53",
+      "type": "text",
+      "section": "Introduction",
+      "text": "For polymer blends containing complex mixtures such as amylopectin and semicrystalline homopolymers, the morphology of the blend will be more complex as compared with the amorphous-amorphous polymer pair. In this case, it is possible to obtain the polymer-polymer interaction coefficient   $\\chi_{23}$  and the interaction energy parameter (  $B_{23}$ ) experimentally by measuring the melting point-depression of a polymer mixture (blend) experimentally in a different way than explained earlier. This technique involves measuring the melting point depression of a polymer mixture (blend) containing a semicrystalline polymer to quantify the heat of mixing of the polymer pair. When crystals of the semicrystalline polymer are in equilibrium with the amorphous part of the semicrystalline and the amorphous counter-polymer, the melting point of the semicrystalline polymer is lower than when the equilibrium is with the amorphous part of the semicrystalline polymer only. This is known as a melting point depression, resulting in mixing amorphous polymer with a semicrystalline polymer. In most cases, the amount of the depression of the melting point depends on the weight fraction of the diluent polymer. The melting point depression can be used as an indicator for the polymer blend miscibility. Most of the work performed thus far using melting point depression is based on calorimetry, and there have only been a few studies using IGC (41). The thermodynamic analysis of polymer-polymer mixtures using melting point depression can be based on Flory-Huggins theory (41,43). Information can only be obtained a temperature close to the pure semicrystalline polymer melting point. However, a number of factors influence the measured melting point (perfection, size, and environment of crystals) which must be accounted for. The depression in the melting point can be used as an indicator for the polymer blend miscibility. Equation 9 is usually used for the calculation of the melting point depression:",
+      "page": 6,
+      "bbox": [
+        115.0,
+        780.0,
+        884.0,
+        913.0
+      ],
+      "source_block_index": 53,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_6_53",
+        "V2_6_7_1",
+        "V2_6_7_3"
+      ]
+    },
+    {
+      "block_id": "P_6_54",
+      "type": "text",
+      "section": "Introduction",
+      "text": "Downloaded by UNIV OF CALIFORNIA SAN DIEGO on March 8, 2016 | http://pubs.acs.org\nPublication Date: September 23, 2006 | doi: 10.1021/bk-2006-0939.ch020",
+      "page": 6,
+      "bbox": [
+        0.0,
+        262.0,
+        46.0,
+        736.0
+      ],
+      "source_block_index": 54,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_7_57",
+      "type": "text",
+      "section": "Introduction",
+      "text": "",
+      "page": 7,
+      "bbox": [
+        115.0,
+        117.0,
+        881.0,
+        492.0
+      ],
+      "source_block_index": 57,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "E_7_58",
+      "type": "equation",
+      "section": "Introduction",
+      "text": "$$\n\\frac {1}{T _ {m}} - \\frac {1}{T _ {m} ^ {o}} = - R \\left(\\frac {V _ {2 u}}{\\Delta H _ {2 u}}\\right) \\left[ \\frac {\\rho_ {2} \\ln \\phi_ {2}}{M _ {2}} + \\left(\\frac {\\rho_ {2}}{M _ {2}} - \\frac {\\rho_ {3}}{M _ {3}}\\right) \\nu_ {3} + \\left(\\frac {B _ {2 3}}{R T _ {m}}\\right) \\phi_ {3} ^ {2} \\right]\\tag{9}\n$$",
+      "page": 7,
+      "bbox": [
+        231.0,
+        516.0,
+        768.0,
+        563.0
+      ],
+      "source_block_index": 58,
+      "alignment_status": "matched",
+      "equation_kind": "display"
+    },
+    {
+      "block_id": "P_7_59",
+      "type": "text",
+      "section": "Introduction",
+      "text": "The quantities  $\\varphi_{2},\\varphi_{3},\\rho_{2},\\rho_{3},M_{2}$ and  $M_3$ are the volume fractions, densities and molar masses of the semicrystalline (2) and the diluent amorphous polymer (3), respectively, in the blend.  $T_{m}^{o}$ is the melting point of the pure semicrystalline polymer before mixing.  $T_{m}$ is the melting point of the semicrystalline polymer after mixing. The quantity.  $H_{2u}/V_{2u}$ is the heat of fusion of the semicrystalline polymer (2), (u being the symbol for the fusion). The first two terms in Equation 9 are the entropic contribution to the mixing process while the third term is the enthalpic contribution. If the molar mass of the semicrystalline (amylopectin in this case) and the diluent polymers are high, then the entropic contribution represents less than  $1^{\\circ}\\mathrm{C}$ which would play a minor role in the melting point depression. Therefore, the values of the first two terms can be neglected and Equation 9 can be reduced to the following form:",
+      "page": 7,
+      "bbox": [
+        115.0,
+        592.0,
+        881.0,
+        819.0
+      ],
+      "source_block_index": 59,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_7_59",
+        "V2_7_2_1",
+        "V2_7_2_3",
+        "V2_7_2_5",
+        "V2_7_2_7",
+        "V2_7_2_9",
+        "V2_7_2_11"
+      ]
+    },
+    {
+      "block_id": "E_7_60",
+      "type": "equation",
+      "section": "Introduction",
+      "text": "$$\n\\frac {1}{T _ {m}} - \\frac {1}{T _ {m} ^ {o}} = - \\left(\\frac {V _ {2 u}}{\\Delta H _ {2 u}}\\right) \\left(\\frac {B _ {2 3}}{T _ {m}}\\right) \\phi_ {3} ^ {2}\\tag{10}\n$$",
+      "page": 7,
+      "bbox": [
+        365.0,
+        853.0,
+        631.0,
+        902.0
+      ],
+      "source_block_index": 60,
+      "alignment_status": "matched",
+      "equation_kind": "display"
+    },
+    {
+      "block_id": "P_7_61",
+      "type": "text",
+      "section": "Introduction",
+      "text": "Downloaded by UNIV OF CALIFORNIA SAN DIEGO on March 8, 2016 | http://pubs.acs.org\nPublication Date: September 23, 2006 | doi: 10.1021/bk-2006-0939.ch020",
+      "page": 7,
+      "bbox": [
+        0.0,
+        260.0,
+        46.0,
+        736.0
+      ],
+      "source_block_index": 61,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_8_64",
+      "type": "text",
+      "section": "Introduction",
+      "text": "Where   $T_{m}$  is the depression in the melting point of the semicrystalline polymer.   $B_{23}$ , as defined above, is related to the Flory-Huggins interaction parameter   $\\chi_{23}$  as in the following equation:",
+      "page": 8,
+      "bbox": [
+        115.0,
+        117.0,
+        881.0,
+        175.0
+      ],
+      "source_block_index": 64,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_8_64",
+        "V2_8_0_1",
+        "V2_8_0_3",
+        "V2_8_0_5"
+      ]
+    },
+    {
+      "block_id": "E_8_65",
+      "type": "equation",
+      "section": "Introduction",
+      "text": "$$\nB _ {2 3} = R T _ {m} ^ {o} \\left(\\frac {\\chi_ {2 3}}{V _ {3}}\\right)\\tag{11}\n$$",
+      "page": 8,
+      "bbox": [
+        400.0,
+        192.0,
+        601.0,
+        250.0
+      ],
+      "source_block_index": 65,
+      "alignment_status": "matched",
+      "equation_kind": "display"
+    },
+    {
+      "block_id": "P_8_66",
+      "type": "text",
+      "section": "Introduction",
+      "text": "Where   $V_{3}$  is the molar volume of the diluent polymer. Equation 10 can be rearranged to reflect the depression in the melting point as follows:",
+      "page": 8,
+      "bbox": [
+        115.0,
+        291.0,
+        881.0,
+        331.0
+      ],
+      "source_block_index": 66,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_8_66",
+        "V2_8_2_1"
+      ]
+    },
+    {
+      "block_id": "E_8_67",
+      "type": "equation",
+      "section": "Introduction",
+      "text": "$$\n\\Delta T = T _ {m} ^ {o} - T _ {m} = - T _ {m} ^ {o} \\left[ \\frac {V _ {2 u}}{\\Delta H _ {2 u}} \\right] B _ {2 3} \\phi_ {3} ^ {2}\\tag{12}\n$$",
+      "page": 8,
+      "bbox": [
+        324.0,
+        347.0,
+        675.0,
+        396.0
+      ],
+      "source_block_index": 67,
+      "alignment_status": "matched",
+      "equation_kind": "display"
+    },
+    {
+      "block_id": "P_8_68",
+      "type": "text",
+      "section": "Introduction",
+      "text": "Equation 12 will be used routinely in IGC experiment as an indicator of the blends miscibility.   $B_{23}$  can be obtained by plotting   $\\Delta T$  versus   $\\varphi_{3}^{2}$  of the diluent polymer.",
+      "page": 8,
+      "bbox": [
+        115.0,
+        419.0,
+        881.0,
+        476.0
+      ],
+      "source_block_index": 68,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_8_68",
+        "V2_8_4_1",
+        "V2_8_4_3",
+        "V2_8_4_5"
+      ]
+    },
+    {
+      "block_id": "P_8_69",
+      "type": "title",
+      "section": "Introduction",
+      "text": "Surface Energy of Polymers",
+      "page": 8,
+      "bbox": [
+        115.0,
+        530.0,
+        405.0,
+        550.0
+      ],
+      "source_block_index": 69,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_8_70",
+      "type": "text",
+      "section": "Introduction",
+      "text": "For the case of bulk absorption, when the retention volume is independent of probe sample size, the equilibrium concentrations of the probe in the polymer and gas phase are linearly related for low concentrations of the sample. When surface adsorption is present, the isotherm relating these two concentrations is often curved due to surface teterogeneity and saturation of available sites. In addition, the experimental concentrations used may not be low enough to ensure a linear isotherm. Under these conditions the shape of the isotherm can be used to investigate the adsorbate - adsorbant interaction. There are two approaches using GC to reveal adsorption isotherms. The “frontal” technique takes into account kinetic factors and gas phase volume changes due to vapor adsorption. Here the sample is continuously fed into the column. For substances with a Langmuir isotherm (adsorption) the result is a single sharp step, produced at the first exit of the substance. From the time needed for breakthrough, the amount of substance retained can be determined. The second approach is the “elution” technique, where a pulse of material is injected and the shape of the isotherm is found from a single unsymmetrical peak. Using the gas phase concentration of eluted probe vapor, the retention volume may be calculated.",
+      "page": 8,
+      "bbox": [
+        115.0,
+        567.0,
+        884.0,
+        887.0
+      ],
+      "source_block_index": 70,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_8_71",
+      "type": "text",
+      "section": "Introduction",
+      "text": "Downloaded by UNIV OF CALIFORNIA SAN DIEGO on March 8, 2016 | http://pubs.acs.org\nPublication Date: September 23, 2006 | doi: 10.1021/bk-2006-0939.ch020",
+      "page": 8,
+      "bbox": [
+        0.0,
+        262.0,
+        46.0,
+        736.0
+      ],
+      "source_block_index": 71,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_9_74",
+      "type": "text",
+      "section": "Introduction",
+      "text": "To quantify the interaction of solute in the gaseous form with the polymer blend layer, the surface energy,   $\\gamma_{s}$ , may be obtained. The dispersive component of the surface energy describes the interactions due to dispersive forces or a combination of dispersive forces with H-bonding or with dipole-dipole forces. Fowkes (44) first reported this method of characterization. Fowkes (44) determined the surface energy of several components. Generally, the contribution of dispersive forces and all other types of forces can be expressed as the energy of adhesion, as follows:",
+      "page": 9,
+      "bbox": [
+        113.0,
+        117.0,
+        879.0,
+        268.0
+      ],
+      "source_block_index": 74,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_9_74",
+        "V2_9_0_1"
+      ]
+    },
+    {
+      "block_id": "E_9_75",
+      "type": "equation",
+      "section": "Introduction",
+      "text": "$$\n\\gamma_ {a} = \\gamma^ {d} + \\gamma^ {s p}\\tag{13}\n$$",
+      "page": 9,
+      "bbox": [
+        418.0,
+        285.0,
+        574.0,
+        311.0
+      ],
+      "source_block_index": 75,
+      "alignment_status": "matched",
+      "equation_kind": "display"
+    },
+    {
+      "block_id": "P_9_76",
+      "type": "text",
+      "section": "Introduction",
+      "text": "Where   $\\gamma^{d}$  is the contribution of dispersive forces and   $\\gamma^{sp}$  is the contribution of specific interaction forces such as H-bonding, dipole-dipole, acid-base, etc. The IGC method was successfully applied in recent years to determine the surface properties of divided solids (45,46). From gas chromatographic measurements,   $V_{g}^{\\circ}$  is determined by using equation (1).   $V_{g}^{\\circ}$  relates to the equilibrium constant K between the adsorbed solute and the polymer surface as follows:",
+      "page": 9,
+      "bbox": [
+        115.0,
+        331.0,
+        881.0,
+        445.0
+      ],
+      "source_block_index": 76,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_9_76",
+        "V2_9_2_1",
+        "V2_9_2_3",
+        "V2_9_2_5",
+        "V2_9_2_7"
+      ]
+    },
+    {
+      "block_id": "E_9_77",
+      "type": "equation",
+      "section": "Introduction",
+      "text": "$$\n\\mathrm{V} _ {\\mathrm{g}} ^ {\\mathrm{o}} = \\mathrm{KA}\\tag{14}\n$$",
+      "page": 9,
+      "bbox": [
+        442.0,
+        461.0,
+        555.0,
+        484.0
+      ],
+      "source_block_index": 77,
+      "alignment_status": "matched",
+      "equation_kind": "display"
+    },
+    {
+      "block_id": "P_9_78",
+      "type": "text",
+      "section": "Introduction",
+      "text": "Where K is the surface partition coefficient and A is the total surface area of the polymer powder in the chromatographic column. Thermodynamically, the molar free energy of adsorption,   $\\Delta G_{1}^{a}$ , of solute on the polymer layer can be related to   $V_{g}^{o}$  by the following relationship:",
+      "page": 9,
+      "bbox": [
+        115.0,
+        500.0,
+        879.0,
+        577.0
+      ],
+      "source_block_index": 78,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_9_78",
+        "V2_9_4_1",
+        "V2_9_4_3"
+      ]
+    },
+    {
+      "block_id": "E_9_79",
+      "type": "equation",
+      "section": "Introduction",
+      "text": "$$\n\\Delta \\mathrm{G} _ {1} ^ {\\mathrm{a}} = - \\mathrm{RT} \\ln \\mathrm{V} _ {\\mathrm{g}} ^ {\\mathrm{o}} + \\mathrm{C}\\tag{15}\n$$",
+      "page": 9,
+      "bbox": [
+        381.0,
+        589.0,
+        615.0,
+        612.0
+      ],
+      "source_block_index": 79,
+      "alignment_status": "matched",
+      "equation_kind": "display"
+    },
+    {
+      "block_id": "P_9_80",
+      "type": "text",
+      "section": "Introduction",
+      "text": "Where C is a constant depending on A. Equation (16) relates the energy of adhesion to the free energy of adsorption as follows:",
+      "page": 9,
+      "bbox": [
+        115.0,
+        629.0,
+        881.0,
+        669.0
+      ],
+      "source_block_index": 80,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "E_9_81",
+      "type": "equation",
+      "section": "Introduction",
+      "text": "$$\nR T \\ln V _ {g} ^ {o} + C = 2 N a \\sqrt {\\gamma_ {s} ^ {d} \\gamma_ {i} ^ {d}}\\tag{16}\n$$",
+      "page": 9,
+      "bbox": [
+        337.0,
+        686.0,
+        655.0,
+        720.0
+      ],
+      "source_block_index": 81,
+      "alignment_status": "matched",
+      "equation_kind": "display"
+    },
+    {
+      "block_id": "P_9_82",
+      "type": "text",
+      "section": "Introduction",
+      "text": "Where   $\\gamma_{s}^{d}$  and   $\\gamma_{i}^{d}$  are the dispersive components of the solid surface and the interactive solutes phase, respectively. N is Avogadro's number and a is the area of the adsorbed molecules (solutes). In IGC experiments a series of interactive solutes, such as alkanes, can be injected into the chromatographic column in order to determine the dispersive surface energy,   $\\gamma_{s}^{d}$ . A plot of   $\\Delta G_{1}^{a}$  or (RT ln   $V_{g}^{0}$ ) versus the number of carbons in the alkane chain can be meaningful, since such a plot is linear and the slope of the straight line will account for the incremental contribution of   $\\Delta G_{1}^{a}$ . The molar enthalpy of adsorption can also be calculated from   $\\Delta G_{1}^{a}$  as follows:",
+      "page": 9,
+      "bbox": [
+        115.0,
+        740.0,
+        881.0,
+        910.0
+      ],
+      "source_block_index": 82,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_9_82",
+        "V2_9_8_1",
+        "V2_9_8_3",
+        "V2_9_8_5",
+        "V2_9_8_7",
+        "V2_9_8_9",
+        "V2_9_8_11",
+        "V2_9_8_13"
+      ]
+    },
+    {
+      "block_id": "P_9_83",
+      "type": "text",
+      "section": "Introduction",
+      "text": "Downloaded by UNIV OF CALIFORNIA SAN DIEGO on March 8, 2016 | http://pubs.acs.org\nPublication Date: September 23, 2006 | doi: 10.1021/bk-2006-0939.ch020",
+      "page": 9,
+      "bbox": [
+        0.0,
+        262.0,
+        46.0,
+        736.0
+      ],
+      "source_block_index": 83,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "E_10_86",
+      "type": "equation",
+      "section": "Introduction",
+      "text": "$$\n\\Delta H _ {1} ^ {a} = - T ^ {2} \\left(\\frac {\\partial}{\\partial \\mathrm{T}} ^ {\\left(\\frac {\\Delta G _ {1} ^ {a}}{T}\\right)}\\right)\\tag{17}\n$$",
+      "page": 10,
+      "bbox": [
+        361.0,
+        118.0,
+        629.0,
+        166.0
+      ],
+      "source_block_index": 86,
+      "alignment_status": "matched",
+      "equation_kind": "display"
+    },
+    {
+      "block_id": "P_10_87",
+      "type": "text",
+      "section": "Introduction",
+      "text": "Combining equations (16) and (17) yield the dispersive surface energy as follows:",
+      "page": 10,
+      "bbox": [
+        113.0,
+        186.0,
+        879.0,
+        226.0
+      ],
+      "source_block_index": 87,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "E_10_88",
+      "type": "equation",
+      "section": "Introduction",
+      "text": "$$\n\\gamma \\mathrm{s} ^ {\\mathrm{d}} = \\left[ \\frac {1}{4 \\gamma \\mathrm{CH} _ {2}} \\right] \\left[ \\frac {(\\Delta G _ {a} ^ {\\mathrm{CH2}}) ^ {2}}{(N . a _ {C H _ {2}}) ^ {2}} \\right]\\tag{18}\n$$",
+      "page": 10,
+      "bbox": [
+        326.0,
+        245.0,
+        666.0,
+        291.0
+      ],
+      "source_block_index": 88,
+      "alignment_status": "matched",
+      "equation_kind": "display"
+    },
+    {
+      "block_id": "P_10_89",
+      "type": "text",
+      "section": "Introduction",
+      "text": "Where   $\\gamma_{CH2}$  is the surface energy of a hydrocarbon consisting only of n-alkanes,   $a_{CH2}$  is the area of one -CH2- group. Equation (18) usually tests the IGC method for obtaining the dispersive surface energy of polymers.",
+      "page": 10,
+      "bbox": [
+        113.0,
+        314.0,
+        879.0,
+        375.0
+      ],
+      "source_block_index": 89,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_10_89",
+        "V2_10_3_1",
+        "V2_10_3_3"
+      ]
+    },
+    {
+      "block_id": "P_10_90",
+      "type": "title",
+      "section": "Methods",
+      "text": "Experimental",
+      "page": 10,
+      "bbox": [
+        414.0,
+        427.0,
+        585.0,
+        450.0
+      ],
+      "source_block_index": 90,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_10_91",
+      "type": "text",
+      "section": "Methods",
+      "text": "MATERIALS: Amylopectin (AP) and four biodegradable polymers (poly(ε-caprolactone) (PCL), poly(DL-lactide-Co-glycolide) (PLG), poly(3-hydroxy butyric acid) (PHBA), and poly(acrylic acid)(PAA)) were selected for this study. Blends of AP and the selected biodegradable polymers were made in the laboratory. In order to establish the strength of the solubility (compatibility) of AP-Polymer blends and the type of interaction forces between the blends and the gaseous mobile phase we have selected a series of chemically different families of solutes in addition to formic acid, dimethyl amine and water to interact with the blends. Vanishing small amounts (0.02 μL) of a series of the selected solutes were injected into the chromatographic column. These solutes will probe the dispersive, dipole, hydrogen bonding, acid-base interactions as well as the wettability of the blends. A total of nineteen solutes, chromatographic grade, were purchased as HPLC grade. Their purity was checked by gas chromatography prior to use. AP was obtained from Aldrich Chemical Co. in a powder form. Its molar mass was determined as 6.60 million gram/mol. The four selected biodegradable polymers mentioned above were also purchased from Aldrich and their average molar masses are listed in Table I. Chromatographic support, Chromosorb W (AW-DMCS treated, 60/80 mesh) was obtained from Analabs. Chromatographic columns were made in the laboratory from 5-ft-long, copper tubing, 1/4 inch in o.d. All copper columns were washed with methanol and annealed for several hours before use. Fifteen chromatographic columns were prepared, eight of which were blends of AP-biodegradable polymer and seven were pure biodegradable polymers including AP. Five weight fractions of each blend were prepared, ranging from 0 to 100% amylopectin. The resulting load of the blend on the column was maintained at 7% in all columns. Blending was achieved by dissolving a certain amount of AP and a certain amount of biodegradable polymer in the appropriate solvent and then depositing the solution onto the solid support using the method reported earlier (1). Table I shows the description of each polymer used with their amounts, solvents, column loading and the average molar mass.",
+      "page": 10,
+      "bbox": [
+        115.0,
+        467.0,
+        884.0,
+        899.0
+      ],
+      "source_block_index": 91,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_10_92",
+      "type": "text",
+      "section": "Methods",
+      "text": "Downloaded by UNIV OF CALIFORNIA SAN DIEGO on March 8, 2016 | http://pubs.acs.org\nPublication Date: September 23, 2006 | doi: 10.1021/bk-2006-0939.ch020",
+      "page": 10,
+      "bbox": [
+        0.0,
+        262.0,
+        46.0,
+        736.0
+      ],
+      "source_block_index": 92,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "T_11_95",
+      "type": "table",
+      "section": "Methods",
+      "page": 11,
+      "bbox": [
+        120.0,
+        141.0,
+        877.0,
+        753.0
+      ],
+      "source_block_index": 95,
+      "alignment_status": "matched",
+      "caption": "Table I. Description of Biodegradable Polymers and Blends Studied",
+      "table_body": "<table><tr><td>Polymer or Blend</td><td>Amount Used, g</td><td>Dissolved in</td><td>Column Loading</td><td>Av. Molar Mass, g/mol</td></tr><tr><td>100% Amylopectin</td><td>0.4870</td><td>Hot Water</td><td>7</td><td> $6.6 \\times 10^{6}$ </td></tr><tr><td>100% Poly(ε-caprolactone) (PCL)</td><td>0.4680</td><td>Hot Water</td><td>7</td><td> $80.0 \\times 10^{3}$ </td></tr><tr><td>25 - 75% AP-PCL</td><td>0.125/0.375</td><td>Hot Water</td><td>7</td><td> $6.6 \\times 106/80.0 \\times 10^{3}$ </td></tr><tr><td>50 -50% AP-PCL</td><td>0.249/0.250</td><td>Hot Water</td><td>7</td><td> $6.6 \\times 106/80.0 \\times 10^{3}$ </td></tr><tr><td>75 - 25% AP-PCL</td><td>0.369/0.126</td><td>Hot Water</td><td>7</td><td> $6.6 \\times 106/80.0 \\times 10^{3}$ </td></tr><tr><td>100% Poly(DL-lactide-Co-glycolide) (PGL)</td><td>0.4000</td><td>Acentonitrile</td><td>7</td><td> $1.00 \\times 10^{5}$ </td></tr><tr><td>50 - 50% AP-PLG</td><td>0.200/0.200</td><td>Water/Acetonitrile</td><td>7</td><td> $6.6 \\times 106/1.00 \\times 10^{5}$ </td></tr><tr><td>100% Poly(3-hydroxy butyric acid) (PHBA)</td><td>0.4000</td><td>Hot Chloroform</td><td>7</td><td> $4.37 \\times 10^{4}$ </td></tr><tr><td>50 - 50% AP-PHBA</td><td>0.20/0.20</td><td>Hot Chloroform</td><td>7</td><td> $6.6 \\times 106/4.37 \\times 10^{4}$ </td></tr><tr><td>100% Polyacrylic Acid (2000)(PAA)</td><td>0.4980</td><td>Methanol</td><td>7</td><td> $2.00 \\times 10^{3}$ </td></tr><tr><td>100% Polyacrylic Acid (450000)(PAA)</td><td>0.4980</td><td>Methanol</td><td>7</td><td> $4.5 \\times 10^{5}$ </td></tr><tr><td>100% Polyacrylic Acid (750000)(PAA)</td><td>0.4980</td><td>Methanol</td><td>7</td><td> $7.5 \\times 10^{5}$ </td></tr><tr><td>50 - 50% AP-PAA (2000)</td><td>0.249/0.252</td><td>Methanol</td><td>7</td><td> $6.6 \\times 10^{6}/4.50 \\times 10^{3}$ </td></tr><tr><td>50 - 50% AP-PAA (450000)</td><td>0.249/0.246</td><td>Methanol</td><td>7</td><td> $6.6 \\times 10^{6}/4.5 \\times 10^{5}$ </td></tr><tr><td>50 - 50% AP-PAA (750000)</td><td>0.250/0.251</td><td>Methanol</td><td>7</td><td> $6.6 \\times 10^{6}/7.5 \\times 10^{5}$ </td></tr></table>",
+      "table_cells": [
+        {
+          "cell_id": "T_11_95:r0000:c0000",
+          "row_index": 0,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Polymer or Blend",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0000:c0001",
+          "row_index": 0,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Amount Used, g",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0000:c0002",
+          "row_index": 0,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Dissolved in",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0000:c0003",
+          "row_index": 0,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Column Loading",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0000:c0004",
+          "row_index": 0,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Av. Molar Mass, g/mol",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0001:c0000",
+          "row_index": 1,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "100% Amylopectin",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0001:c0001",
+          "row_index": 1,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.4870",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0001:c0002",
+          "row_index": 1,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Hot Water",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0001:c0003",
+          "row_index": 1,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "7",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0001:c0004",
+          "row_index": 1,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$6.6 \\times 10^{6}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0002:c0000",
+          "row_index": 2,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "100% Poly(ε-caprolactone) (PCL)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0002:c0001",
+          "row_index": 2,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.4680",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0002:c0002",
+          "row_index": 2,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Hot Water",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0002:c0003",
+          "row_index": 2,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "7",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0002:c0004",
+          "row_index": 2,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$80.0 \\times 10^{3}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0003:c0000",
+          "row_index": 3,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "25 - 75% AP-PCL",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0003:c0001",
+          "row_index": 3,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.125/0.375",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0003:c0002",
+          "row_index": 3,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Hot Water",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0003:c0003",
+          "row_index": 3,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "7",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0003:c0004",
+          "row_index": 3,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$6.6 \\times 106/80.0 \\times 10^{3}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0004:c0000",
+          "row_index": 4,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "50 -50% AP-PCL",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0004:c0001",
+          "row_index": 4,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.249/0.250",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0004:c0002",
+          "row_index": 4,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Hot Water",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0004:c0003",
+          "row_index": 4,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "7",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0004:c0004",
+          "row_index": 4,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$6.6 \\times 106/80.0 \\times 10^{3}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0005:c0000",
+          "row_index": 5,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "75 - 25% AP-PCL",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0005:c0001",
+          "row_index": 5,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.369/0.126",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0005:c0002",
+          "row_index": 5,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Hot Water",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0005:c0003",
+          "row_index": 5,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "7",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0005:c0004",
+          "row_index": 5,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$6.6 \\times 106/80.0 \\times 10^{3}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0006:c0000",
+          "row_index": 6,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "100% Poly(DL-lactide-Co-glycolide) (PGL)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0006:c0001",
+          "row_index": 6,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.4000",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0006:c0002",
+          "row_index": 6,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Acentonitrile",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0006:c0003",
+          "row_index": 6,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "7",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0006:c0004",
+          "row_index": 6,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$1.00 \\times 10^{5}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0007:c0000",
+          "row_index": 7,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "50 - 50% AP-PLG",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0007:c0001",
+          "row_index": 7,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.200/0.200",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0007:c0002",
+          "row_index": 7,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Water/Acetonitrile",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0007:c0003",
+          "row_index": 7,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "7",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0007:c0004",
+          "row_index": 7,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$6.6 \\times 106/1.00 \\times 10^{5}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0008:c0000",
+          "row_index": 8,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "100% Poly(3-hydroxy butyric acid) (PHBA)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0008:c0001",
+          "row_index": 8,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.4000",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0008:c0002",
+          "row_index": 8,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Hot Chloroform",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0008:c0003",
+          "row_index": 8,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "7",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0008:c0004",
+          "row_index": 8,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$4.37 \\times 10^{4}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0009:c0000",
+          "row_index": 9,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "50 - 50% AP-PHBA",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0009:c0001",
+          "row_index": 9,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.20/0.20",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0009:c0002",
+          "row_index": 9,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Hot Chloroform",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0009:c0003",
+          "row_index": 9,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "7",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0009:c0004",
+          "row_index": 9,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$6.6 \\times 106/4.37 \\times 10^{4}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0010:c0000",
+          "row_index": 10,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "100% Polyacrylic Acid (2000)(PAA)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0010:c0001",
+          "row_index": 10,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.4980",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0010:c0002",
+          "row_index": 10,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Methanol",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0010:c0003",
+          "row_index": 10,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "7",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0010:c0004",
+          "row_index": 10,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$2.00 \\times 10^{3}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0011:c0000",
+          "row_index": 11,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "100% Polyacrylic Acid (450000)(PAA)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0011:c0001",
+          "row_index": 11,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.4980",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0011:c0002",
+          "row_index": 11,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Methanol",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0011:c0003",
+          "row_index": 11,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "7",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0011:c0004",
+          "row_index": 11,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$4.5 \\times 10^{5}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0012:c0000",
+          "row_index": 12,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "100% Polyacrylic Acid (750000)(PAA)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0012:c0001",
+          "row_index": 12,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.4980",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0012:c0002",
+          "row_index": 12,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Methanol",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0012:c0003",
+          "row_index": 12,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "7",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0012:c0004",
+          "row_index": 12,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$7.5 \\times 10^{5}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0013:c0000",
+          "row_index": 13,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "50 - 50% AP-PAA (2000)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0013:c0001",
+          "row_index": 13,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.249/0.252",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0013:c0002",
+          "row_index": 13,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Methanol",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0013:c0003",
+          "row_index": 13,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "7",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0013:c0004",
+          "row_index": 13,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$6.6 \\times 10^{6}/4.50 \\times 10^{3}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0014:c0000",
+          "row_index": 14,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "50 - 50% AP-PAA (450000)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0014:c0001",
+          "row_index": 14,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.249/0.246",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0014:c0002",
+          "row_index": 14,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Methanol",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0014:c0003",
+          "row_index": 14,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "7",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0014:c0004",
+          "row_index": 14,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$6.6 \\times 10^{6}/4.5 \\times 10^{5}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0015:c0000",
+          "row_index": 15,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "50 - 50% AP-PAA (750000)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0015:c0001",
+          "row_index": 15,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.250/0.251",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0015:c0002",
+          "row_index": 15,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Methanol",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0015:c0003",
+          "row_index": 15,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "7",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_11_95:r0015:c0004",
+          "row_index": 15,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$6.6 \\times 10^{6}/7.5 \\times 10^{5}$",
+          "is_header": false
+        }
+      ],
+      "image_path": "organized/reference_no_0037268/images/60eac3a7bc7cdfea9ad1b99f12a63b8e0dae601017803187211040693593b2fc.jpg"
+    },
+    {
+      "block_id": "P_11_96",
+      "type": "text",
+      "section": "Methods",
+      "text": "",
+      "page": 11,
+      "bbox": [
+        115.0,
+        791.0,
+        881.0,
+        890.0
+      ],
+      "source_block_index": 96,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_11_97",
+      "type": "text",
+      "section": "Methods",
+      "text": "Downloaded by UNIV OF CALIFORNIA SAN DIEGO on March 8, 2016 | http://pubs.acs.org\nPublication Date: September 23, 2006 | doi: 10.1021/bk-2006-0939.ch020",
+      "page": 11,
+      "bbox": [
+        0.0,
+        262.0,
+        46.0,
+        736.0
+      ],
+      "source_block_index": 97,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_12_100",
+      "type": "text",
+      "section": "Methods",
+      "text": "",
+      "page": 12,
+      "bbox": [
+        111.0,
+        115.0,
+        877.0,
+        155.0
+      ],
+      "source_block_index": 100,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_12_101",
+      "type": "title",
+      "section": "Methods",
+      "text": "Instrumentation and Procedure",
+      "page": 12,
+      "bbox": [
+        113.0,
+        192.0,
+        439.0,
+        211.0
+      ],
+      "source_block_index": 101,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_12_102",
+      "type": "text",
+      "section": "Methods",
+      "text": "Chromatographic measurements were made using three IGC Stations. Each IGC station includes two modified Hewlett Packard GC's (model 5890) and one Varian 3800 gas chromatograph equipped with a thermal conductivity detector. The three chromatographs were modified to allow continuous monitoring of the carrier gas flow rate, the inlet and outlet pressure, and the column temperature. These modifications, along with the complete chromatographic procedure and IGC setup were reported in our earlier publication (1, 33). Continuous monitoring is important because it reduces experimental error significantly in the four measurable parameters mentioned in equation (1). This procedure yielded better controlled measurable quantities. The monitored parameters are usually measured over a period of seven hours and then their values are averaged. Each IGC station is equipped with an electronic monitoring device for an accurate determination of the flow rate, the inlet and the outlet pressure. Varian 3800 GC is further equipped with the capability of correcting the flow rate electronically should a fluctuation occur. In addition, the flow rate and the inlet pressure will be checked and calibrated periodically using external conventional devices. Since the blend used in this study contains semicrystalline AP, every effort was made to avoid recrystallization of AP by keeping the chromatograph operational at all times. During the course of the experiments, the oven temperature was uniformly increased until a complete set of data were obtained. Control of the mass of the blend in the stationary phase has been modified and a new method for coating the polymer was developed and recently reported (1). A flow rate of 8 ml/minute will be used throughout this work in order to eliminate the effect of flow rate (kinetic) on   $V_{g}^{\\circ}$  values. From our previous experiments, it has been demonstrated that the flow rate of the carrier gas, helium, between 0 - 10 ml/minute had no significant effect on the retention volumes. Flow rates above 10 ml/minute may cause a considerable error in the retention volumes, particularly if helium is used as a carrier gas (47).",
+      "page": 12,
+      "bbox": [
+        113.0,
+        226.0,
+        881.0,
+        746.0
+      ],
+      "source_block_index": 102,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_12_102",
+        "V2_12_2_1"
+      ]
+    },
+    {
+      "block_id": "P_12_103",
+      "type": "text",
+      "section": "Methods",
+      "text": "Seven pure polymer and eight blend solutions were made, one blend solution was made with different weight fractions. The seven solutions contain only pure (100%) AP, PCL, PLG, PHBA and a series of different molar mass of PAA, while the other eight solutions contain a composition of the blend ranging from 0% to 100% by weight. A total of fifteen chromatographic columns were prepared which yielded information regarding the effect of the weight fraction of each polymer on the miscibility of the polymer blend. The proposed blends were prepared by weighing the appropriate amount of polymer components, as illustrated in Table I, at ratios of 0/100, 25/75, 50/50, 75/25 and 100/0 APcounter biodegradable polymer. These mixtures were prepared by dissolving the proposed blends in the appropriate solvent and the resulting mixtures were deposited onto the solid support using the soaking method developed by us (1). After evaporating the solvent, blends were dried under a vacuum for 48 hours prior to use. To obtain information about the miscibility of solvents on these chromatographic columns, a series of pure solvents with a different chemical nature (such as alkanes, acetates, alcohols, formic acid, ethylamine and water) were injected onto these columns. Their retention times were measured as an indicator of their interactions with the pure polymers and blends.",
+      "page": 12,
+      "bbox": [
+        113.0,
+        746.0,
+        884.0,
+        915.0
+      ],
+      "source_block_index": 103,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_12_104",
+      "type": "text",
+      "section": "Methods",
+      "text": "Downloaded by UNIV OF CALIFORNIA SAN DIEGO on March 8, 2016 | http://pubs.acs.org\nPublication Date: September 23, 2006 | doi: 10.1021/bk-2006-0939.ch020",
+      "page": 12,
+      "bbox": [
+        0.0,
+        262.0,
+        46.0,
+        736.0
+      ],
+      "source_block_index": 104,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_13_107",
+      "type": "text",
+      "section": "Methods",
+      "text": "",
+      "page": 13,
+      "bbox": [
+        115.0,
+        115.0,
+        881.0,
+        285.0
+      ],
+      "source_block_index": 107,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_13_108",
+      "type": "title",
+      "section": "Methods",
+      "text": "Thermal Analysis",
+      "page": 13,
+      "bbox": [
+        118.0,
+        300.0,
+        291.0,
+        320.0
+      ],
+      "source_block_index": 108,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_13_109",
+      "type": "text",
+      "section": "Methods",
+      "text": "Potato starch containing amylopectin (AP) was purchased from Aldrich with an estimated molar mass of 6.60 million g/mol. It is estimated to contain 25% of amylose. The branching in the starch molecule may contain on the average, twenty glucose residues (48). Amylopectin molecules also form helices; the shorter side chains form double helices (49,50). Amylopectin was thermally characterized by the melting point determination of DSC and TGA methods. These analyses were carried out by the USDA Forest Service in Madison, WI. The polymer was decomposed at approximately 343 °C with approximately 80% weight loss. The polymer also showed two transitions at approximately 105 °C, accompanied by 6% weight loss and at approximately 166 °C with no measurable weight loss. The temperature of 166 °C was later identified to be the   $T_{m}$  and 105 °C to be the   $T_{g}$  of Amylopectin. IGC has confirmed the findings of the DSC technique.",
+      "page": 13,
+      "bbox": [
+        115.0,
+        337.0,
+        881.0,
+        581.0
+      ],
+      "source_block_index": 109,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_13_109",
+        "V2_13_2_1",
+        "V2_13_2_3"
+      ]
+    },
+    {
+      "block_id": "P_13_110",
+      "type": "title",
+      "section": "Methods",
+      "text": "Retention Diagrams",
+      "page": 13,
+      "bbox": [
+        120.0,
+        597.0,
+        314.0,
+        617.0
+      ],
+      "source_block_index": 110,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_13_111",
+      "type": "text",
+      "section": "Methods",
+      "text": "Nineteen solutes were injected into fifteen separate chromatographic columns containing AP and its blends. From chromatographic retention times of solutes, the specific retention volumes   $V_{g}^{0}$  of all solutes were calculated according to Equation (1). From   $V_{g}^{0}$  values, retention diagrams for all solutes were generated by plotting in   $V_{g}^{0}$  versus 1/T, similar to Figures 1 (AP-PCL blends using acetates series as solutes). Curvatures in phase diagrams were observed, indicating the change in the morphology of the polymers used as a function of temperature. A minimum of two regions were identified: crystalline (region D) and amorphous (region A-B). A third region (A) can also be identified above 235 °C, as the polymer starts to decompose. The alkane series showed an isotherm with a maximum of 160 °C which can be identified as the melting point of AP, in agreement with the DSC data. Above 160 °C, a straight line (region A-B) can be observed due to the establishment of the equilibrium between the solutes and the AP, an indication that the polymer is in an amorphous state. This region, represents the next transition that occurs in crystalline polymers – the melting process. Since the crystalline phase (region C-D) is usually impermeable, this section of the plot can give information about the size, shape and distribution of crystalline regions. The final, linear section of the plot represents the wholly amorphous polymer. Extrapolation of this line to lower temperatures and comparison of these values with the true experimental values gives information about the percentage crystallinity of the sample at any temperature, reflected by the difference in specific volume (due to bulk sorption) between a totally amorphous and partially crystalline product.",
+      "page": 13,
+      "bbox": [
+        115.0,
+        635.0,
+        881.0,
+        896.0
+      ],
+      "source_block_index": 111,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_13_111",
+        "V2_13_4_1",
+        "V2_13_4_3",
+        "V2_13_4_5"
+      ]
+    },
+    {
+      "block_id": "P_13_112",
+      "type": "text",
+      "section": "Methods",
+      "text": "Downloaded by UNIV OF CALIFORNIA SAN DIEGO on March 8, 2016 | http://pubs.acs.org\nPublication Date: September 23, 2006 | doi: 10.1021/bk-2006-0939.ch020",
+      "page": 13,
+      "bbox": [
+        0.0,
+        260.0,
+        46.0,
+        736.0
+      ],
+      "source_block_index": 112,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "I_14_115",
+      "type": "image",
+      "section": "Methods",
+      "page": 14,
+      "bbox": [
+        150.0,
+        358.0,
+        803.0,
+        689.0
+      ],
+      "source_block_index": 115,
+      "alignment_status": "matched",
+      "caption": "■ Ethyl Acetate ▲ Propyl Acetate ○ Butyl Acetate Figure 1: Retention Diagram, Blend of 50-50% AP-PCL-Acetate Systems at (80 - 260 °C)",
+      "image_path": "organized/reference_no_0037268/images/6cc2ecbeaea25f1401d62d04d328eda32d55b03cf8b8231c3c1b906e3fced719.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "P_14_116",
+      "type": "text",
+      "section": "Methods",
+      "text": "Downloaded by UNIV OF CALIFORNIA SAN DIEGO on March 8, 2016 | http://pubs.acs.org\nPublication Date: September 23, 2006 | doi: 10.1021/bk-2006-0939.ch020",
+      "page": 14,
+      "bbox": [
+        0.0,
+        260.0,
+        48.0,
+        737.0
+      ],
+      "source_block_index": 116,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_15_119",
+      "type": "text",
+      "section": "Methods",
+      "text": "",
+      "page": 15,
+      "bbox": [
+        115.0,
+        115.0,
+        881.0,
+        283.0
+      ],
+      "source_block_index": 119,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_15_120",
+      "type": "text",
+      "section": "Methods",
+      "text": "Below 160 °C (region B-D), AP and its blends are mostly crystalline and, in some cases, the isotherm could not clearly identify the glass transition temperature (  $T_{g}$ ) (C). Retention of the solute in this region arises from condensation and adsorption onto the next region, corresponding to a change in the slope of the diagram, and represents a non-equilibrium absorption of the solute into the bulk phase. The diffusion rate is slow in this region, hence the molecules injected as a pulse at this temperature would not penetrate through the entire bulk of the polymer during the time of passage of the solute peak. The solute does not have time to reach an equilibrium partition between polymer and carrier gas, hence the   $V_{g}$  value obtained is flow rate dependent. Bulk contribution to the retention volume increases as temperature increases toward the melting point (C-B), which is a function of the film thickness. This maximum temperature is reached when the increase in bulk sorption due to the increase in the probe diffusion constant is balanced by the decrease in retention due to increased volatility of the probe. In this non-equilibrium region it is possible to obtain information about the probe diffusion coefficient and its dependence on temperature. For pure AP, when solutes changed from alkanes to more interactive solutes such as alcohols and diethyl amine,   $T_{m}$  is shifted from 160 °C to 151.50 °C. This is due to the strong hydrogen bonding developed between these solutes and AP. It is interesting to note that alcohols, acetates, formic acid, and water did not exit the 100% AP column in a period of 20 minutes. This can be explained by the strong interaction of these probes with the polymer surface and may lead to a chemical reaction in the column. It is also interesting to note that the retention volumes of water are very high; an indication of the strong interaction, as expected, with the polymer surface.",
+      "page": 15,
+      "bbox": [
+        115.0,
+        280.0,
+        881.0,
+        746.0
+      ],
+      "source_block_index": 120,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_15_120",
+        "V2_15_1_1",
+        "V2_15_1_3",
+        "V2_15_1_5"
+      ]
+    },
+    {
+      "block_id": "P_15_121",
+      "type": "text",
+      "section": "Methods",
+      "text": "When AP was blended with PCL, PLG and a series of different molar mass of PAA, both   $T_{m}$  and   $T_{g}$  values were shifted from the equilibrium values of pure AP. Table II shows the values of both   $T_{m}$  and   $T_{g}$  of all pure polymers and the blends used. These values for AP-PCL showed an interesting trend, an elevation, rather than the expected depression.   $T_{g}$  values ranged from 152 °C for 25-75%, 148 °C for 50-50% to 120 °C for 75-25% AP-PCL.   $T_{m}$  values for the same blends ranged from 210 °C for 25-75%, 181 °C for 50-50 and 185 °C for 75-25% AP-PCL. The   $T_{m}$  values agreed well with the XRD analysis data (Figure 2).   $T_{m}$  values were consistent among all retention diagrams of all AP-PCL compositions and were clearly recognizable due to the sharp change in the isotherms. These high values are unexpected as compared with those of the pure AP. The blends behavior can be explained by Gibbs-DiMarzio theory that offers predictions including the change in heat capacity at   $T_{g}$ , and the dependence of   $T_{g}$  on various variables including molar mass, cross-link density, mechanical deformation, plasticizer content and the blend composition (47,51). It has been shown that an unusual compositional variation of miscible polymer blends with strong specific interaction Tg. Painter and co-workers (52) had proposed a modified classical thermodynamics theory to explain such behavior around Tg with numerous composition.",
+      "page": 15,
+      "bbox": [
+        115.0,
+        745.0,
+        881.0,
+        933.0
+      ],
+      "source_block_index": 121,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_15_121",
+        "V2_15_2_1",
+        "V2_15_2_3",
+        "V2_15_2_5",
+        "V2_15_2_7",
+        "V2_15_2_9",
+        "V2_15_2_11",
+        "V2_15_2_13",
+        "V2_15_2_15",
+        "V2_15_2_17",
+        "V2_15_2_19"
+      ]
+    },
+    {
+      "block_id": "P_15_122",
+      "type": "text",
+      "section": "Methods",
+      "text": "Downloaded by UNIV OF CALIFORNIA SAN DIEGO on March 8, 2016 | http://pubs.acs.org\nPublication Date: September 23, 2006 | doi: 10.1021/bk-2006-0939.ch020",
+      "page": 15,
+      "bbox": [
+        0.0,
+        260.0,
+        46.0,
+        736.0
+      ],
+      "source_block_index": 122,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_16_125",
+      "type": "text",
+      "section": "Methods",
+      "text": "",
+      "page": 16,
+      "bbox": [
+        113.0,
+        115.0,
+        879.0,
+        283.0
+      ],
+      "source_block_index": 125,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_16_126",
+      "type": "text",
+      "section": "Methods",
+      "text": "Where * in Table II denotes parameters measured by the IGC, others are reported by the suppliers. When AP was blended with PLG and PHBA the   $T_{g}$  values were elevated while the   $T_{m}$  values showed a depression. Blends containing AP and various MW of PAA showed a similar trend, a depression in the   $T_{m}$  values while the   $T_{g}$  values were elevated.",
+      "page": 16,
+      "bbox": [
+        113.0,
+        283.0,
+        881.0,
+        379.0
+      ],
+      "source_block_index": 126,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_16_126",
+        "V2_16_1_1",
+        "V2_16_1_3",
+        "V2_16_1_5",
+        "V2_16_1_7"
+      ]
+    },
+    {
+      "block_id": "P_16_127",
+      "type": "title",
+      "section": "Methods",
+      "text": "Polymer-Solute Interaction Parameters",
+      "page": 16,
+      "bbox": [
+        115.0,
+        413.0,
+        486.0,
+        432.0
+      ],
+      "source_block_index": 127,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_16_128",
+      "type": "text",
+      "section": "Methods",
+      "text": "Interaction parameters,   $\\chi_{12}$ , of all pure biodegradable polymers-solute and some blends-solute systems were calculated using Equation (8). Table III shows the values of   $\\chi_{12}$  for selected solutes. Only alkanes and alcohols were used for   $\\chi_{23}$  calculations, other solutes could not be used due to the lack of Antoine constants in the literature. Generally,   $\\chi_{12}$  showed more exothermic values as a number of carbons (n) in both alkane, acetate and alcohol series increased. Dodecane, butyl acetate and butanol showed the most exothermic values among alkanes, acetates and alcohols. Values of   $\\chi_{12}$  become more exothermic as temperature increased as expected. The exothermic values are indicators for the solubility of these polymers in solutes. The dispersive forces among the three families played a major role in determining the solubility.",
+      "page": 16,
+      "bbox": [
+        115.0,
+        450.0,
+        881.0,
+        655.0
+      ],
+      "source_block_index": 128,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_16_128",
+        "V2_16_3_1",
+        "V2_16_3_3",
+        "V2_16_3_5",
+        "V2_16_3_7",
+        "V2_16_3_9"
+      ]
+    },
+    {
+      "block_id": "P_16_129",
+      "type": "title",
+      "section": "Methods",
+      "text": "Polymer-Polymer Interaction Parameters",
+      "page": 16,
+      "bbox": [
+        118.0,
+        691.0,
+        506.0,
+        709.0
+      ],
+      "source_block_index": 129,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_16_130",
+      "type": "text",
+      "section": "Methods",
+      "text": "Polymer-Polymer Interaction Parameters,   $\\chi_{23}$ , for blend systems were calculated using IGC and equation (6) at a temperature range of 80 -160 °C.   $\\chi_{23}$  revealed mixed results, partially negative values for AP-PCL at a range of weight fractions (0 -100% AP), extremely exothermic for AP-PAA (for all molar mass).",
+      "page": 16,
+      "bbox": [
+        115.0,
+        726.0,
+        881.0,
+        802.0
+      ],
+      "source_block_index": 130,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_16_130",
+        "V2_16_5_1",
+        "V2_16_5_3"
+      ]
+    },
+    {
+      "block_id": "P_16_131",
+      "type": "text",
+      "section": "Methods",
+      "text": "Downloaded by UNIV OF CALIFORNIA SAN DIEGO on March 8, 2016 | http://pubs.acs.org\nPublication Date: September 23, 2006 | doi: 10.1021/bk-2006-0939.ch020",
+      "page": 16,
+      "bbox": [
+        0.0,
+        262.0,
+        46.0,
+        736.0
+      ],
+      "source_block_index": 131,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "T_17_134",
+      "type": "table",
+      "section": "Methods",
+      "page": 17,
+      "bbox": [
+        120.0,
+        171.0,
+        879.0,
+        845.0
+      ],
+      "source_block_index": 134,
+      "alignment_status": "matched",
+      "caption": "Table II. Measured Physical parameters of Biodegradable polymers and their Blends",
+      "table_body": "<table><tr><td>Name of Polymers or Blends</td><td> $\\Delta Hs, KJ/mol$ </td><td> $T_g^oC$ </td><td> $T_m^oC$ </td><td>Degree of Crystal-linity at 110 °C</td><td>Surface Energy,  $mJ/m^2$  (160 °C)</td></tr><tr><td>100% Amylopectin (AP)</td><td>-40.87</td><td>105*</td><td>166*</td><td>81</td><td>16.00</td></tr><tr><td>100% Poly (ε-caprolactone) (PCL)</td><td>----</td><td>-62</td><td>60</td><td>----</td><td>----</td></tr><tr><td>100% Poly (3-hydroxy butyric acid) (PHBA)</td><td>-47.23</td><td>48</td><td>130*</td><td>93</td><td>----</td></tr><tr><td>100% Poly( DL-lactide-Co-glycolide) (PLG)</td><td>-59.59</td><td>119*</td><td>172</td><td>45</td><td>48.90</td></tr><tr><td>25-75% AP-PCL</td><td>----</td><td>152*</td><td>210*</td><td>40</td><td>18.55</td></tr><tr><td>50-50% AP-PCL</td><td>-20.04</td><td>148*</td><td>181*</td><td>86</td><td>38.26</td></tr><tr><td>75-25% AP-PCL</td><td>----</td><td>120*</td><td>185*</td><td>75</td><td>6.50</td></tr><tr><td>50-50% AP-PLG</td><td>-51.68</td><td>140*</td><td>150*</td><td>77</td><td>46.30</td></tr><tr><td>50-50% AP-PHBA</td><td>-19.38</td><td>120*</td><td>130*</td><td>78</td><td>55.46</td></tr><tr><td>Poly acrylic acid (PAA) (MW:2000)</td><td>-14.52</td><td>105</td><td>124*</td><td>69</td><td>19.08</td></tr><tr><td>Poly acrylic acid (PAA) (MW:450000)</td><td>-12.07</td><td>105</td><td>133*</td><td>67</td><td>36.54</td></tr><tr><td>Poly acrylic acid (PAA) (MW:750000)</td><td>-7.50</td><td>105</td><td>129*</td><td>74</td><td>42.36</td></tr><tr><td>50-50% AP-PAA (2000)</td><td>-6.60</td><td>126*</td><td>138*</td><td>73</td><td>31.89</td></tr><tr><td>50-50% AP-PAA (450000)</td><td>-5.90</td><td>117*</td><td>142*</td><td>71</td><td>36.54</td></tr><tr><td>50-50% AP-PAA (750000)</td><td>-4.5</td><td>117*</td><td>141*</td><td>59</td><td>42.36</td></tr></table>",
+      "table_cells": [
+        {
+          "cell_id": "T_17_134:r0000:c0000",
+          "row_index": 0,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Name of Polymers or Blends",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0000:c0001",
+          "row_index": 0,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$\\Delta Hs, KJ/mol$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0000:c0002",
+          "row_index": 0,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$T_g^oC$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0000:c0003",
+          "row_index": 0,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$T_m^oC$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0000:c0004",
+          "row_index": 0,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Degree of Crystal-linity at 110 °C",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0000:c0005",
+          "row_index": 0,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Surface Energy, $mJ/m^2$ (160 °C)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0001:c0000",
+          "row_index": 1,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "100% Amylopectin (AP)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0001:c0001",
+          "row_index": 1,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-40.87",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0001:c0002",
+          "row_index": 1,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "105*",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0001:c0003",
+          "row_index": 1,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "166*",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0001:c0004",
+          "row_index": 1,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "81",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0001:c0005",
+          "row_index": 1,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "16.00",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0002:c0000",
+          "row_index": 2,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "100% Poly (ε-caprolactone) (PCL)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0002:c0001",
+          "row_index": 2,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "----",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0002:c0002",
+          "row_index": 2,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-62",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0002:c0003",
+          "row_index": 2,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "60",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0002:c0004",
+          "row_index": 2,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "----",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0002:c0005",
+          "row_index": 2,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "----",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0003:c0000",
+          "row_index": 3,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "100% Poly (3-hydroxy butyric acid) (PHBA)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0003:c0001",
+          "row_index": 3,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-47.23",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0003:c0002",
+          "row_index": 3,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "48",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0003:c0003",
+          "row_index": 3,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "130*",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0003:c0004",
+          "row_index": 3,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "93",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0003:c0005",
+          "row_index": 3,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "----",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0004:c0000",
+          "row_index": 4,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "100% Poly( DL-lactide-Co-glycolide) (PLG)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0004:c0001",
+          "row_index": 4,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-59.59",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0004:c0002",
+          "row_index": 4,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "119*",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0004:c0003",
+          "row_index": 4,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "172",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0004:c0004",
+          "row_index": 4,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "45",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0004:c0005",
+          "row_index": 4,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "48.90",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0005:c0000",
+          "row_index": 5,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "25-75% AP-PCL",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0005:c0001",
+          "row_index": 5,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "----",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0005:c0002",
+          "row_index": 5,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "152*",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0005:c0003",
+          "row_index": 5,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "210*",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0005:c0004",
+          "row_index": 5,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "40",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0005:c0005",
+          "row_index": 5,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "18.55",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0006:c0000",
+          "row_index": 6,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "50-50% AP-PCL",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0006:c0001",
+          "row_index": 6,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-20.04",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0006:c0002",
+          "row_index": 6,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "148*",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0006:c0003",
+          "row_index": 6,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "181*",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0006:c0004",
+          "row_index": 6,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "86",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0006:c0005",
+          "row_index": 6,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "38.26",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0007:c0000",
+          "row_index": 7,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "75-25% AP-PCL",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0007:c0001",
+          "row_index": 7,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "----",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0007:c0002",
+          "row_index": 7,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "120*",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0007:c0003",
+          "row_index": 7,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "185*",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0007:c0004",
+          "row_index": 7,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "75",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0007:c0005",
+          "row_index": 7,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "6.50",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0008:c0000",
+          "row_index": 8,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "50-50% AP-PLG",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0008:c0001",
+          "row_index": 8,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-51.68",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0008:c0002",
+          "row_index": 8,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "140*",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0008:c0003",
+          "row_index": 8,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "150*",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0008:c0004",
+          "row_index": 8,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "77",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0008:c0005",
+          "row_index": 8,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "46.30",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0009:c0000",
+          "row_index": 9,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "50-50% AP-PHBA",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0009:c0001",
+          "row_index": 9,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-19.38",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0009:c0002",
+          "row_index": 9,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "120*",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0009:c0003",
+          "row_index": 9,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "130*",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0009:c0004",
+          "row_index": 9,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "78",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0009:c0005",
+          "row_index": 9,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "55.46",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0010:c0000",
+          "row_index": 10,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Poly acrylic acid (PAA) (MW:2000)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0010:c0001",
+          "row_index": 10,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-14.52",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0010:c0002",
+          "row_index": 10,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "105",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0010:c0003",
+          "row_index": 10,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "124*",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0010:c0004",
+          "row_index": 10,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "69",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0010:c0005",
+          "row_index": 10,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "19.08",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0011:c0000",
+          "row_index": 11,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Poly acrylic acid (PAA) (MW:450000)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0011:c0001",
+          "row_index": 11,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-12.07",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0011:c0002",
+          "row_index": 11,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "105",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0011:c0003",
+          "row_index": 11,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "133*",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0011:c0004",
+          "row_index": 11,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "67",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0011:c0005",
+          "row_index": 11,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "36.54",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0012:c0000",
+          "row_index": 12,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Poly acrylic acid (PAA) (MW:750000)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0012:c0001",
+          "row_index": 12,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-7.50",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0012:c0002",
+          "row_index": 12,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "105",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0012:c0003",
+          "row_index": 12,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "129*",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0012:c0004",
+          "row_index": 12,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "74",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0012:c0005",
+          "row_index": 12,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "42.36",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0013:c0000",
+          "row_index": 13,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "50-50% AP-PAA (2000)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0013:c0001",
+          "row_index": 13,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-6.60",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0013:c0002",
+          "row_index": 13,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "126*",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0013:c0003",
+          "row_index": 13,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "138*",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0013:c0004",
+          "row_index": 13,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "73",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0013:c0005",
+          "row_index": 13,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "31.89",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0014:c0000",
+          "row_index": 14,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "50-50% AP-PAA (450000)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0014:c0001",
+          "row_index": 14,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-5.90",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0014:c0002",
+          "row_index": 14,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "117*",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0014:c0003",
+          "row_index": 14,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "142*",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0014:c0004",
+          "row_index": 14,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "71",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0014:c0005",
+          "row_index": 14,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "36.54",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0015:c0000",
+          "row_index": 15,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "50-50% AP-PAA (750000)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0015:c0001",
+          "row_index": 15,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-4.5",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0015:c0002",
+          "row_index": 15,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "117*",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0015:c0003",
+          "row_index": 15,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "141*",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0015:c0004",
+          "row_index": 15,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "59",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_17_134:r0015:c0005",
+          "row_index": 15,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "42.36",
+          "is_header": false
+        }
+      ],
+      "image_path": "organized/reference_no_0037268/images/08d1be9bba9765c09a77d2180ab803b74558274d80f4af69ef4061c6f23358cf.jpg"
+    },
+    {
+      "block_id": "P_17_135",
+      "type": "text",
+      "section": "Methods",
+      "text": "Downloaded by UNIV OF CALIFORNIA SAN DIEGO on March 8, 2016 | http://pubs.acs.org\nPublication Date: September 23, 2006 | doi: 10.1021/bk-2006-0939.ch020",
+      "page": 17,
+      "bbox": [
+        0.0,
+        260.0,
+        46.0,
+        736.0
+      ],
+      "source_block_index": 135,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "I_18_138",
+      "type": "image",
+      "section": "Methods",
+      "page": 18,
+      "bbox": [
+        212.0,
+        233.0,
+        745.0,
+        787.0
+      ],
+      "source_block_index": 138,
+      "alignment_status": "matched",
+      "caption": "Figure 2. XRD spectra of Amylopectin (AP), Poly(e-caprolactone) (PCL) and Blends of AP and PCL",
+      "image_path": "organized/reference_no_0037268/images/90bab5d77f07b0e77b5987cb417758a45385b10be113af61c9a03a54035231ce.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "P_18_140",
+      "type": "text",
+      "section": "Methods",
+      "text": "Downloaded by UNIV OF CALIFORNIA SAN DIEGO on March 8, 2016 | http://pubs.acs.org\nPublication Date: September 23, 2006 | doi: 10.1021/bk-2006-0939.ch020",
+      "page": 18,
+      "bbox": [
+        0.0,
+        260.0,
+        46.0,
+        737.0
+      ],
+      "source_block_index": 140,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "T_19_142",
+      "type": "table",
+      "section": "Methods",
+      "page": 19,
+      "bbox": [
+        134.0,
+        219.0,
+        861.0,
+        811.0
+      ],
+      "source_block_index": 142,
+      "alignment_status": "matched",
+      "caption": "Table III. Polymer-Solvent and Polymer-Polymer Interaction Coefficients",
+      "table_body": "<table><tr><td>Polymer or Blends</td><td>Solute</td><td> $\\chi_{12}$ </td><td> $\\chi_{23}$ </td></tr><tr><td rowspan=\"3\">Poly acrylic acid (PAA)(MW:2000)</td><td>Pentane</td><td>0.52</td><td></td></tr><tr><td>Dodecane</td><td>-0.46</td><td></td></tr><tr><td>Methyl Acetate</td><td>-0.24</td><td></td></tr><tr><td rowspan=\"2\">Poly acrylic acid (PAA)(MW:450000)</td><td>Pentane</td><td>4.45</td><td></td></tr><tr><td>Dodecane</td><td>-10.37</td><td></td></tr><tr><td rowspan=\"2\">Poly acrylic acid (PAA)(MW:750000)</td><td>Pentane</td><td>3.17</td><td></td></tr><tr><td>Dodecane</td><td>-10.33</td><td></td></tr><tr><td rowspan=\"4\">50-50% AP-PAA (2000)</td><td>Pentane</td><td>2.22</td><td>-2.86</td></tr><tr><td>Dodecane</td><td>-9.97</td><td>-2.06</td></tr><tr><td>Methyl Acetate</td><td>1.06</td><td>-3.29</td></tr><tr><td>Butyl Acetate</td><td>-2.54</td><td>-4.55</td></tr><tr><td rowspan=\"4\">50-50% AP-PAA (450000)</td><td>Pentane</td><td>4.95</td><td>2.25</td></tr><tr><td>Dodecane</td><td>-9.36</td><td>-10.01</td></tr><tr><td>Methyl Acetate</td><td>1.25</td><td>-1.14</td></tr><tr><td>Butyl Acetate</td><td>-2.22</td><td>-5.53</td></tr><tr><td rowspan=\"4\">50-50% AP-PAA (750000)</td><td>Pentane</td><td>2.37</td><td>2.04</td></tr><tr><td>Dodecane</td><td>-9.64</td><td>-9.61</td></tr><tr><td>Methyl Acetate</td><td>1.52</td><td>-1.78</td></tr><tr><td>Butyl Acetate</td><td>-2.49</td><td>-5.39</td></tr><tr><td rowspan=\"2\">Amylopectin (AP)</td><td>Pentane</td><td>-1.56</td><td></td></tr><tr><td>Heptane</td><td>0.36</td><td></td></tr><tr><td rowspan=\"3\">25-75% AP-PCL</td><td>Heptane</td><td></td><td>-0.15</td></tr><tr><td>Methyl Alcohol</td><td></td><td>-1.42</td></tr><tr><td>Butyl Alcohol</td><td></td><td>-1.39</td></tr><tr><td rowspan=\"3\">50-50% AP-PCL</td><td>Heptane</td><td></td><td>-0.18</td></tr><tr><td>Methyl Alcohol</td><td></td><td>-0.29</td></tr><tr><td>Butyl Alcohol</td><td></td><td>-0.05</td></tr><tr><td rowspan=\"3\">75-25% AP-PCL</td><td>Heptane</td><td></td><td>-0.26</td></tr><tr><td>Methyl Alcohol</td><td></td><td>-0.33</td></tr><tr><td>Butyl Alcohol</td><td></td><td>-0.26</td></tr></table>",
+      "table_cells": [
+        {
+          "cell_id": "T_19_142:r0000:c0000",
+          "row_index": 0,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Polymer or Blends",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0000:c0001",
+          "row_index": 0,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Solute",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0000:c0002",
+          "row_index": 0,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$\\chi_{12}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0000:c0003",
+          "row_index": 0,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$\\chi_{23}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0001:c0000",
+          "row_index": 1,
+          "column_index": 0,
+          "row_span": 3,
+          "column_span": 1,
+          "text": "Poly acrylic acid (PAA)(MW:2000)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0001:c0001",
+          "row_index": 1,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Pentane",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0001:c0002",
+          "row_index": 1,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.52",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0001:c0003",
+          "row_index": 1,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0002:c0001",
+          "row_index": 2,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Dodecane",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0002:c0002",
+          "row_index": 2,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-0.46",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0002:c0003",
+          "row_index": 2,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0003:c0001",
+          "row_index": 3,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Methyl Acetate",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0003:c0002",
+          "row_index": 3,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-0.24",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0003:c0003",
+          "row_index": 3,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0004:c0000",
+          "row_index": 4,
+          "column_index": 0,
+          "row_span": 2,
+          "column_span": 1,
+          "text": "Poly acrylic acid (PAA)(MW:450000)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0004:c0001",
+          "row_index": 4,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Pentane",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0004:c0002",
+          "row_index": 4,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "4.45",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0004:c0003",
+          "row_index": 4,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0005:c0001",
+          "row_index": 5,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Dodecane",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0005:c0002",
+          "row_index": 5,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-10.37",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0005:c0003",
+          "row_index": 5,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0006:c0000",
+          "row_index": 6,
+          "column_index": 0,
+          "row_span": 2,
+          "column_span": 1,
+          "text": "Poly acrylic acid (PAA)(MW:750000)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0006:c0001",
+          "row_index": 6,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Pentane",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0006:c0002",
+          "row_index": 6,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "3.17",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0006:c0003",
+          "row_index": 6,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0007:c0001",
+          "row_index": 7,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Dodecane",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0007:c0002",
+          "row_index": 7,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-10.33",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0007:c0003",
+          "row_index": 7,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0008:c0000",
+          "row_index": 8,
+          "column_index": 0,
+          "row_span": 4,
+          "column_span": 1,
+          "text": "50-50% AP-PAA (2000)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0008:c0001",
+          "row_index": 8,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Pentane",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0008:c0002",
+          "row_index": 8,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "2.22",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0008:c0003",
+          "row_index": 8,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-2.86",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0009:c0001",
+          "row_index": 9,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Dodecane",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0009:c0002",
+          "row_index": 9,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-9.97",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0009:c0003",
+          "row_index": 9,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-2.06",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0010:c0001",
+          "row_index": 10,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Methyl Acetate",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0010:c0002",
+          "row_index": 10,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1.06",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0010:c0003",
+          "row_index": 10,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-3.29",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0011:c0001",
+          "row_index": 11,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Butyl Acetate",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0011:c0002",
+          "row_index": 11,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-2.54",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0011:c0003",
+          "row_index": 11,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-4.55",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0012:c0000",
+          "row_index": 12,
+          "column_index": 0,
+          "row_span": 4,
+          "column_span": 1,
+          "text": "50-50% AP-PAA (450000)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0012:c0001",
+          "row_index": 12,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Pentane",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0012:c0002",
+          "row_index": 12,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "4.95",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0012:c0003",
+          "row_index": 12,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "2.25",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0013:c0001",
+          "row_index": 13,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Dodecane",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0013:c0002",
+          "row_index": 13,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-9.36",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0013:c0003",
+          "row_index": 13,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-10.01",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0014:c0001",
+          "row_index": 14,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Methyl Acetate",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0014:c0002",
+          "row_index": 14,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1.25",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0014:c0003",
+          "row_index": 14,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-1.14",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0015:c0001",
+          "row_index": 15,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Butyl Acetate",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0015:c0002",
+          "row_index": 15,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-2.22",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0015:c0003",
+          "row_index": 15,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-5.53",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0016:c0000",
+          "row_index": 16,
+          "column_index": 0,
+          "row_span": 4,
+          "column_span": 1,
+          "text": "50-50% AP-PAA (750000)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0016:c0001",
+          "row_index": 16,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Pentane",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0016:c0002",
+          "row_index": 16,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "2.37",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0016:c0003",
+          "row_index": 16,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "2.04",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0017:c0001",
+          "row_index": 17,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Dodecane",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0017:c0002",
+          "row_index": 17,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-9.64",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0017:c0003",
+          "row_index": 17,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-9.61",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0018:c0001",
+          "row_index": 18,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Methyl Acetate",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0018:c0002",
+          "row_index": 18,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1.52",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0018:c0003",
+          "row_index": 18,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-1.78",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0019:c0001",
+          "row_index": 19,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Butyl Acetate",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0019:c0002",
+          "row_index": 19,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-2.49",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0019:c0003",
+          "row_index": 19,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-5.39",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0020:c0000",
+          "row_index": 20,
+          "column_index": 0,
+          "row_span": 2,
+          "column_span": 1,
+          "text": "Amylopectin (AP)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0020:c0001",
+          "row_index": 20,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Pentane",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0020:c0002",
+          "row_index": 20,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-1.56",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0020:c0003",
+          "row_index": 20,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0021:c0001",
+          "row_index": 21,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Heptane",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0021:c0002",
+          "row_index": 21,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.36",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0021:c0003",
+          "row_index": 21,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0022:c0000",
+          "row_index": 22,
+          "column_index": 0,
+          "row_span": 3,
+          "column_span": 1,
+          "text": "25-75% AP-PCL",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0022:c0001",
+          "row_index": 22,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Heptane",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0022:c0002",
+          "row_index": 22,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0022:c0003",
+          "row_index": 22,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-0.15",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0023:c0001",
+          "row_index": 23,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Methyl Alcohol",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0023:c0002",
+          "row_index": 23,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0023:c0003",
+          "row_index": 23,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-1.42",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0024:c0001",
+          "row_index": 24,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Butyl Alcohol",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0024:c0002",
+          "row_index": 24,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0024:c0003",
+          "row_index": 24,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-1.39",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0025:c0000",
+          "row_index": 25,
+          "column_index": 0,
+          "row_span": 3,
+          "column_span": 1,
+          "text": "50-50% AP-PCL",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0025:c0001",
+          "row_index": 25,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Heptane",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0025:c0002",
+          "row_index": 25,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0025:c0003",
+          "row_index": 25,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-0.18",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0026:c0001",
+          "row_index": 26,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Methyl Alcohol",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0026:c0002",
+          "row_index": 26,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0026:c0003",
+          "row_index": 26,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-0.29",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0027:c0001",
+          "row_index": 27,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Butyl Alcohol",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0027:c0002",
+          "row_index": 27,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0027:c0003",
+          "row_index": 27,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-0.05",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0028:c0000",
+          "row_index": 28,
+          "column_index": 0,
+          "row_span": 3,
+          "column_span": 1,
+          "text": "75-25% AP-PCL",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0028:c0001",
+          "row_index": 28,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Heptane",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0028:c0002",
+          "row_index": 28,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0028:c0003",
+          "row_index": 28,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-0.26",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0029:c0001",
+          "row_index": 29,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Methyl Alcohol",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0029:c0002",
+          "row_index": 29,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0029:c0003",
+          "row_index": 29,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-0.33",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0030:c0001",
+          "row_index": 30,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Butyl Alcohol",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0030:c0002",
+          "row_index": 30,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_19_142:r0030:c0003",
+          "row_index": 30,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-0.26",
+          "is_header": false
+        }
+      ],
+      "image_path": "organized/reference_no_0037268/images/adaff7efe2f641aad00c53cf74228f599f3e1a362a47efb93c38b6e7b32be563.jpg"
+    },
+    {
+      "block_id": "P_19_143",
+      "type": "text",
+      "section": "Methods",
+      "text": "Downloaded by UNIV OF CALIFORNIA SAN DIEGO on March 8, 2016 | http://pubs.acs.org\nPublication Date: September 23, 2006 | doi: 10.1021/bk-2006-0939.ch020",
+      "page": 19,
+      "bbox": [
+        0.0,
+        260.0,
+        46.0,
+        736.0
+      ],
+      "source_block_index": 143,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_20_146",
+      "type": "text",
+      "section": "Methods",
+      "text": "$\\chi_{23}$  were not calculated for AP-PLG and AP-PHBA. Table III shows the values of   $\\chi_{23}$  of three AP-PCL blends with compositions of 25-75%, 50-50% and 75-25%. The negative values obtained varied with the weight fraction from close to zero to -1.42. These values indicate a partial compatibility of AP and PCL. However, in case of 50-50% AP and PAA (all molar masses) showed more exothermic   $\\chi_{23}$  values, an indication of a strong compatibility of AP and PAA for all molar masses and at 50-50% composition. The effect of the molar mass of PAA did not show any marked affect on the compatibility of the two polymers, however, the compatibility becomes more exothermic as temperature increased as expected. It is also interesting to note that   $\\chi_{23}$  values become more exothermic, as number of carbons in the alkanes and acetates series increased, demonstrating again the effect of the dispersive forces on the polymer-polymer compatibility. Inspection of Table III confirms our previous observation (53),   $\\chi_{23}$  values depended on the chemical nature of the solutes. Similar observations were made by several IGC researchers in the past and it was attributed to the deficiency of Flory-Huggins theory. Prolongo et al (54) reported that the equation of state does not yield the true polymer-polymer parameters for polymer blend systems. They developed a method that took into account several types of interactions, such as dispersive forces, dipole-dipole and H-bonding, to obtain polymer-polymer parameters independent of the chemical nature of the solute. The reported results were in agreement with those obtained from other methods used for polymer characterization.",
+      "page": 20,
+      "bbox": [
+        111.0,
+        117.0,
+        881.0,
+        526.0
+      ],
+      "source_block_index": 146,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_20_146",
+        "V2_20_0_0",
+        "V2_20_0_2",
+        "V2_20_0_4",
+        "V2_20_0_6",
+        "V2_20_0_8"
+      ]
+    },
+    {
+      "block_id": "P_20_147",
+      "type": "title",
+      "section": "Methods",
+      "text": "Crystallinity",
+      "page": 20,
+      "bbox": [
+        115.0,
+        560.0,
+        240.0,
+        581.0
+      ],
+      "source_block_index": 147,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_20_148",
+      "type": "text",
+      "section": "Methods",
+      "text": "Measurements of polymer crystallinity can be readily made using the IGC method. However, with many polymers, the thermal history of the coating process may alter the crystallinity of the sample. In this case, cryogenic grinding of the polymer, followed by screening to remove particles larger than about 0.1 mm will give particles which can be blended mechanically with the support prior to packing the chromatography column. Also, the chromatograph is kept continuously running for the entire studies and the temperature was raised in increments to avoid the re-crystallization of the polymer, and thus, the change in morphology. The degree of crystallinity of all pure biodegradable polymers and blends in the temperature range of 80 – 220 °C was achieved by extrapolating the linear portion of the retention diagrams (similar to figure 3) to the crystalline region, two retention volumes can be measured:   $V_{g,sample}$  is the retention volume of the solute along the curvature line in the crystalline region, and   $V_{g,amorphous}$  is the retention volume of the solute along the extrapolated line of the amorphous region. By using the following relationship, the degree of the crystallinity was assessed.",
+      "page": 20,
+      "bbox": [
+        115.0,
+        595.0,
+        881.0,
+        896.0
+      ],
+      "source_block_index": 148,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_20_148",
+        "V2_20_2_1",
+        "V2_20_2_3"
+      ]
+    },
+    {
+      "block_id": "P_20_149",
+      "type": "text",
+      "section": "Methods",
+      "text": "Downloaded by UNIV OF CALIFORNIA SAN DIEGO on March 8, 2016 | http://pubs.acs.org\nPublication Date: September 23, 2006 | doi: 10.1021/bk-2006-0939.ch020",
+      "page": 20,
+      "bbox": [
+        0.0,
+        260.0,
+        46.0,
+        736.0
+      ],
+      "source_block_index": 149,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "I_21_152",
+      "type": "image",
+      "section": "Methods",
+      "page": 21,
+      "bbox": [
+        175.0,
+        237.0,
+        750.0,
+        808.0
+      ],
+      "source_block_index": 152,
+      "alignment_status": "matched",
+      "caption": "Figure 3: Retention Diagram of Poly Acrylic Acid (MW;2000)-Pentane System Downloaded by UNIV OF CALIFORNIA SAN DIEGO on March 8, 2016 | http://pubs.acs.org\nPublication Date: September 23, 2006 | doi: 10.1021/bk-2006-0939.ch020",
+      "image_path": "organized/reference_no_0037268/images/6b4e5dc1f1d927e6358d4d2909a47387824b733397a110241ece61a0e602aecc.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "E_22_155",
+      "type": "equation",
+      "section": "Methods",
+      "text": "$$\n\\% X _ {c} = 100 \\left(1 - \\left(\\frac {V _ {g , \\text {sample}}}{V _ {g , \\text {amorphous}}}\\right)\\right)\\tag{19}\n$$",
+      "page": 22,
+      "bbox": [
+        335.0,
+        115.0,
+        650.0,
+        180.0
+      ],
+      "source_block_index": 155,
+      "alignment_status": "matched",
+      "equation_kind": "display"
+    },
+    {
+      "block_id": "P_22_156",
+      "type": "text",
+      "section": "Methods",
+      "text": "Table II shows the degree of crystallinity of all polymers and blends below the melting temperature. Figure (4) shows the degree of crystallinity of AP-PCL blends which also can easily determine the melting point of these blends as the intersection of the curve with the X-axis (Table II). Figure (4) shows the versatility of the IGC method by determining the degree of crystallinity at any single temperature below the   $T_{m}$  value, unlike the DSC method. It has been shown (44) a significant reduction in the degree of crystallinity when corn starch was blended with ethylene-co-vinyl acetates. The degree of crystallinity observed for 50-50% and 75-25% AP-PCL blend did not show any reduction as compared to that of the pure AP. This observation is unusual which caused an elevation in   $T_{m}$  and   $T_{g}$  values. IGC has agreed with XRD measurements in regards to the degree of crystallinity and   $T_{m}$  and   $T_{g}$  values of the blends. However, when AP was blended with PLG, PHBA and different molar masses of PAA, a slight reduction in the degree of crystallinity of AP was observed. The %Xc ranged from 59 – 78% at 110 °C as compared to 81% for the pure AP.",
+      "page": 22,
+      "bbox": [
+        111.0,
+        200.0,
+        881.0,
+        478.0
+      ],
+      "source_block_index": 156,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_22_156",
+        "V2_22_1_1",
+        "V2_22_1_3",
+        "V2_22_1_5",
+        "V2_22_1_7",
+        "V2_22_1_9"
+      ]
+    },
+    {
+      "block_id": "P_22_157",
+      "type": "text",
+      "section": "Methods",
+      "text": "For polymer blends containing complex mixtures such as amylopectin and semicrystalline biodegradable polymers like PCL, the morphology of the blend will be more complex as compared with the amorphous-amorphous polymer pair. In this case, it is possible to obtain the polymer-polymer interaction",
+      "page": 22,
+      "bbox": [
+        115.0,
+        478.0,
+        881.0,
+        552.0
+      ],
+      "source_block_index": 157,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_22_158",
+      "type": "text",
+      "section": "Methods",
+      "text": "coefficient   $\\chi_{23}$  and the interaction energy parameter (  $B_{23}$ ) experimentally by measuring the melting point-depression (or elevation) of a polymer mixture (blend) (Equations 11 and 12). In the past (I), we related the depression in the melting point of PVF  $_{2}$ -PEMA blend to the polymer blend miscibility successfully.",
+      "page": 22,
+      "bbox": [
+        113.0,
+        550.0,
+        881.0,
+        643.0
+      ],
+      "source_block_index": 158,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_22_158",
+        "V2_22_3_1",
+        "V2_22_3_3",
+        "V2_22_3_5"
+      ]
+    },
+    {
+      "block_id": "P_22_159",
+      "type": "text",
+      "section": "Methods",
+      "text": "$\\Delta H_{2u}/V_{2u}$ is the heat of fusion of the AP (2) (Equation 9), (u being the symbol for the fusion). It was taken from reference (55) as 35.90 cal/g or 45.23 cal/mL. The first two terms in Equation (9) are the entropic contribution, and the third term is the enthalpic contribution. Since the molar mass of both AP and PCL is above 80,000 g/mol, the entropic contribution is envisioned to play a minor role in the melting point depression. A plot of  $\\Delta T_{m}$ versus the volume fraction of PCL ( $\\varphi^{2}$) yielded a straight line (Figure 5). The slope of the line yielded a value of  $B_{23}$ of +9.84 Cal/mL and an intercept of +10.31 °C. This intercept may be attributed to an entropic contribution to the mixing process. Thus, we can conclude the mixing of AP and PCL was driven by enthalpic and entropic effects and the first two terms in Equation (9) have a role in the mixing process. The values of  $B_{23}$ and the intercept suggest the partial incompatibility of AP and PCL. These values explain the fact that  $\\chi_{23}$ values were partially exothermic; values were close to zero, except for 25-75% AP-PCI composition.",
+      "page": 22,
+      "bbox": [
+        113.0,
+        643.0,
+        884.0,
+        905.0
+      ],
+      "source_block_index": 159,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_22_159",
+        "V2_22_4_0",
+        "V2_22_4_2",
+        "V2_22_4_4",
+        "V2_22_4_6",
+        "V2_22_4_8",
+        "V2_22_4_10"
+      ]
+    },
+    {
+      "block_id": "P_22_160",
+      "type": "text",
+      "section": "Methods",
+      "text": "Downloaded by UNIV OF CALIFORNIA SAN DIEGO on March 8, 2016 | http://pubs.acs.org\nPublication Date: September 23, 2006 | doi: 10.1021/bk-2006-0939.ch020",
+      "page": 22,
+      "bbox": [
+        0.0,
+        260.0,
+        46.0,
+        736.0
+      ],
+      "source_block_index": 160,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "I_23_163",
+      "type": "image",
+      "section": "Methods",
+      "page": 23,
+      "bbox": [
+        196.0,
+        191.0,
+        761.0,
+        819.0
+      ],
+      "source_block_index": 163,
+      "alignment_status": "matched",
+      "caption": "Figure 4: Degree of Crystallinity of Amylopectin and Blends (0 - 100% AP) (105 -210 °C) Downloaded by UNIV OF CALIFORNIA SAN DIEGO on March 8, 2016 | http://pubs.acs.org\nPublication Date: September 23, 2006 | doi: 10.1021/bk-2006-0939.ch020",
+      "image_path": "organized/reference_no_0037268/images/857dbda64fe128086b5d34f2d5a814c178ad1cbb534e6a4352b09c44fa586837.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "I_24_166",
+      "type": "image",
+      "section": "Methods",
+      "page": 24,
+      "bbox": [
+        199.0,
+        200.0,
+        833.0,
+        822.0
+      ],
+      "source_block_index": 166,
+      "alignment_status": "matched",
+      "caption": "Elevation in Melting Point, Blend of AP-PCL Downloaded by UNIV OF CALIFORNIA SAN DIEGO on March 8, 2016 | http://pubs.acs.org\nPublication Date: September 23, 2006 | doi: 10.1021/bk-2006-0939.ch020",
+      "image_path": "organized/reference_no_0037268/images/39b7af303f73ff910e92db7e0d73ad903e5e1df88626fc31e67a205ed7fbc2ef.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "P_25_169",
+      "type": "text",
+      "section": "Methods",
+      "text": "mixing process of AP and PCL is a significant molar mass dependent. The sizes and shapes of the two polymers may generate a small ratio of molecular volumes which affect the free volume variation with blending the two polymers which may cause an entropy contribution to the mixing process (56). The entropic effect on the mixing process may explain the observed elevation in   $T_{m}$  and   $T_{g}$  values of the blend. This implies the change in entropy of mixing at the glass transition of the blend in relation to the changes in heat capacities of the blend at   $T_{g}$ .",
+      "page": 25,
+      "bbox": [
+        115.0,
+        117.0,
+        881.0,
+        268.0
+      ],
+      "source_block_index": 169,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_25_169",
+        "V2_25_0_1",
+        "V2_25_0_3",
+        "V2_25_0_5"
+      ]
+    },
+    {
+      "block_id": "P_25_170",
+      "type": "title",
+      "section": "Methods",
+      "text": "Surface Energy",
+      "page": 25,
+      "bbox": [
+        118.0,
+        302.0,
+        270.0,
+        322.0
+      ],
+      "source_block_index": 170,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_25_171",
+      "type": "text",
+      "section": "Methods",
+      "text": "The dispersive component of the surface energy of AP and its blends was calculated using only the alkane series in the temperature range of 80 – 200 °C. According to equation (16), plots of (RT ln Vg°) versus the number of carbons in the alkane series were generated for each temperature. A linear relationship was obtained in all of these plots and the slopes of the straight lines were computed as the free energy of desorption of a CH₂ group, ΔGₐ CH₂. Utilizing equation (18), the dispersive component of the surface energy of these two polymers was calculated as a function of temperature. The cross-sectional area of an adsorbed CH₂ group, aCH₂ is estimated to be 6 (A°) (21). The surface-free energy of a solid containing only CH₂ groups, γCH₂, is computed as a function of temperature as follows:",
+      "page": 25,
+      "bbox": [
+        115.0,
+        339.0,
+        881.0,
+        544.0
+      ],
+      "source_block_index": 171,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "E_25_172",
+      "type": "equation",
+      "section": "Methods",
+      "text": "$$\n\\gamma_ {\\mathrm{CH2}} = 3 6. 8 0 - 0. 0 5 8 \\mathrm{T}\\tag{20}\n$$",
+      "page": 25,
+      "bbox": [
+        375.0,
+        570.0,
+        625.0,
+        591.0
+      ],
+      "source_block_index": 172,
+      "alignment_status": "matched",
+      "equation_kind": "display"
+    },
+    {
+      "block_id": "P_25_173",
+      "type": "text",
+      "section": "Methods",
+      "text": "Where T is the temperature in °C. Table II shows the dispersive component of the dispersive surface energy of the AP and its blends.   $\\gamma^{s}_{d}$  ranged from 6.50 mJ/m  $^{2}$  to 55.46 mJ/m  $^{2}$  at 160 °C. The low values of   $\\gamma^{s}_{d}$  for the pure AP is expected, since AP surface is highly crystalline below 160 °C and mechanically weak. An increase in temperature lowered the values of   $\\gamma^{s}_{d}$  significantly which may be caused by the expansion of the surface above the melt. Blending AP with PCL resulted in doubling the value of   $\\gamma^{s}_{d}$  when the composition of the blend is at 50 – 50 %. At a composition of 25 – 75% of the blend, the   $\\gamma^{s}_{d}$  value was slightly increased. This slight increase in   $\\gamma^{s}_{d}$  values reveal the contribution of PCL to the surface energy upon mixing. However, when the composition of the blend is mostly AP (75-25%), the value of   $\\gamma^{s}_{d}$  was considerably decreased, contrary to the 25 -75% composition. Blending AP with PLG, PHBA and PAA has resulted in an increase in   $\\gamma^{s}_{d}$  values, particularly for AP-PHBA.",
+      "page": 25,
+      "bbox": [
+        115.0,
+        617.0,
+        881.0,
+        861.0
+      ],
+      "source_block_index": 173,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_25_173",
+        "V2_25_4_1",
+        "V2_25_4_3",
+        "V2_25_4_5",
+        "V2_25_4_7",
+        "V2_25_4_9",
+        "V2_25_4_11",
+        "V2_25_4_13",
+        "V2_25_4_15",
+        "V2_25_4_17",
+        "V2_25_4_19"
+      ]
+    },
+    {
+      "block_id": "P_25_174",
+      "type": "text",
+      "section": "Methods",
+      "text": "Downloaded by UNIV OF CALIFORNIA SAN DIEGO on March 8, 2016 | http://pubs.acs.org\nPublication Date: September 23, 2006 | doi: 10.1021/bk-2006-0939.ch020",
+      "page": 25,
+      "bbox": [
+        0.0,
+        262.0,
+        46.0,
+        736.0
+      ],
+      "source_block_index": 174,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_26_197",
+      "type": "text",
+      "section": "Methods",
+      "text": "Downloaded by UNIV OF CALIFORNIA SAN DIEGO on March 8, 2016 | http://pubs.acs.org\nPublication Date: September 23, 2006 | doi: 10.1021/bk-2006-0939.ch020",
+      "page": 26,
+      "bbox": [
+        0.0,
+        260.0,
+        46.0,
+        736.0
+      ],
+      "source_block_index": 197,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_27_228",
+      "type": "text",
+      "section": "Methods",
+      "text": "Downloaded by UNIV OF CALIFORNIA SAN DIEGO on March 8, 2016 | http://pubs.acs.org\nPublication Date: September 23, 2006 | doi: 10.1021/bk-2006-0939.ch020",
+      "page": 27,
+      "bbox": [
+        0.0,
+        260.0,
+        46.0,
+        736.0
+      ],
+      "source_block_index": 228,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_28_240",
+      "type": "text",
+      "section": "Methods",
+      "text": "Downloaded by UNIV OF CALIFORNIA SAN DIEGO on March 8, 2016 | http://pubs.acs.org\nPublication Date: September 23, 2006 | doi: 10.1021/bk-2006-0939.ch020",
+      "page": 28,
+      "bbox": [
+        0.0,
+        262.0,
+        46.0,
+        736.0
+      ],
+      "source_block_index": 240,
+      "alignment_status": "matched"
+    }
+  ],
+  "warnings": [
+    {
+      "code": "metadata_extraction_failed",
+      "message": "未配置统一 LLM 元数据提取器；document JSON 已继续生成"
+    }
+  ]
+}

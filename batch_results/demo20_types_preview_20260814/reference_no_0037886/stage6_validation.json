@@ -1,0 +1,235 @@
+{
+  "schema_version": "1.0",
+  "document_id": "reference_no_0037886",
+  "status": "passed_with_warnings",
+  "error_count": 0,
+  "warning_count": 33,
+  "errors": [],
+  "warnings": [
+    {
+      "stage": "stage0",
+      "code": "metadata_extraction_failed",
+      "message": "未配置统一 LLM 元数据提取器；document JSON 已继续生成"
+    },
+    {
+      "stage": "stage1_material_mention",
+      "code": "preview_invalid_mentions_removed",
+      "message": "Preview 模式已丢弃无法恢复为原文子串的 mention 候选"
+    },
+    {
+      "stage": "stage2_polymer_entity",
+      "code": "polymer_name_preferred_over_sample_label",
+      "message": "实体同时包含具体聚合物名称和样品代号时，已优先采用有原文 mention 支持的具体名称"
+    },
+    {
+      "stage": "stage2_polymer_entity",
+      "code": "polymer_type_default_inferred",
+      "message": "Backfill：无共聚或共混反证的实体已推断为 homopolymer"
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "preview_semantic_validation_bypassed",
+      "message": "Preview 已保留 Schema/Process 图合法候选，并跳过原文/evidence 语义对应校验；Strict 模式仍会报错"
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "unresolved_entities",
+      "message": "12 个 entity 未解析到实际样品"
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "sample_polymer_type_backfilled_from_entity",
+      "message": "Backfill：Sample 已采用关联 PolymerEntity 的类型"
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "material_type_default_inferred",
+      "message": "Backfill：无第二组分反证的样品已推断为 neat_resin"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "series_entity_relinked_to_sample",
+      "message": "PropertySeries/point 的 entity_id 与已解析 Sample 冲突；已按 Stage 3 Sample.refers_to_entity 确定性纠正"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "empty_reported_context_downgraded",
+      "message": "measurement_context 标记为 reported 但没有任何条件值；已确定性改为 not_reported"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "candidate_table_locator_surface_repaired",
+      "message": "模型 locator 表面文本不在表格原文；已用 property raw 与 determination method 中唯一匹配的 Stage 0 表头恢复"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "preview_semantic_validation_bypassed",
+      "message": "Preview 已保留 Schema 合法候选，并跳过原文/evidence 语义对应校验；Strict 模式仍会报错"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "preview_objects_salvaged",
+      "message": "Preview 已逐对象保留可安全物化的数据；坏字段、坏对象或失效引用已局部删除，Strict 模式仍会报错"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "unresolved_properties",
+      "message": "2 条性质无法可靠关联具体 Sample"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "stage4r_preview_table_recovery",
+      "message": "Stage 4R Preview 确定性补入 11 个表格性质格；样品归属保留 unresolved。"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_characterization_details_cleared",
+      "message": "Preview 模式已清空无对象 evidence 支撑的可选表征细节"
+    },
+    {
+      "stage": "meta_extract",
+      "code": "paper_metadata_incomplete",
+      "message": "Paper metadata_status=failed，需人工复核"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "unused_measurement_condition",
+      "message": "MeasurementCondition 未被性质引用：['mc003']"
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "unsupported_specific_value",
+      "message": "ProcessStep 参数无法在 evidence 原文定位：['AIBN concentration']",
+      "object_id": "ps001"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "missing_characterization",
+      "message": "Stage 4 property 已报告测定方法，但缺少同一样品的 Characterization 回链",
+      "object_id": "prop002"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "evidence_matched_after_block_recovery",
+      "message": "Evidence.source_sentence 与 Stage 0 原文表示不同，已按等价表示接受：词覆盖率仅 94.6%，疑似跨块或被截断，建议人工确认",
+      "object_id": "prop002"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "table_locator_label_missing",
+      "message": "table_locator 缺少 row_label，但单元格可确定性定位：按 cell_id 精确命中",
+      "object_id": "uprop003"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "table_locator_label_missing",
+      "message": "table_locator 缺少 row_label，但单元格可确定性定位：按 cell_id 精确命中",
+      "object_id": "uprop004"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "table_locator_label_missing",
+      "message": "table_locator 缺少 row_label，但单元格可确定性定位：按 cell_id 精确命中",
+      "object_id": "uprop005"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "table_locator_label_missing",
+      "message": "table_locator 缺少 row_label，但单元格可确定性定位：按 cell_id 精确命中",
+      "object_id": "uprop006"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "table_locator_label_missing",
+      "message": "table_locator 缺少 row_label，但单元格可确定性定位：按 cell_id 精确命中",
+      "object_id": "uprop007"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "table_locator_label_missing",
+      "message": "table_locator 缺少 row_label，但单元格可确定性定位：按 cell_id 精确命中",
+      "object_id": "uprop008"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "table_locator_label_missing",
+      "message": "table_locator 缺少 row_label，但单元格可确定性定位：按 cell_id 精确命中",
+      "object_id": "uprop009"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "table_locator_label_missing",
+      "message": "table_locator 缺少 row_label，但单元格可确定性定位：按 cell_id 精确命中",
+      "object_id": "uprop010"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "table_locator_label_missing",
+      "message": "table_locator 缺少 row_label，但单元格可确定性定位：按 cell_id 精确命中",
+      "object_id": "uprop011"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "table_locator_label_missing",
+      "message": "table_locator 缺少 row_label，但单元格可确定性定位：按 cell_id 精确命中",
+      "object_id": "uprop012"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "table_locator_label_missing",
+      "message": "table_locator 缺少 row_label，但单元格可确定性定位：按 cell_id 精确命中",
+      "object_id": "uprop013"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "preview_object_rejected_evidence_not_in_source",
+      "message": "Preview 已隔离对象；原错误：Evidence.source_sentence 不是 Stage 0 原文子串（词覆盖率 48.3%，内容不在该 block 内）",
+      "object_id": "mc003"
+    }
+  ],
+  "checked_counts": {
+    "stage0_blocks": 115,
+    "material_mentions": 47,
+    "polymer_entities": 13,
+    "samples": 4,
+    "process_steps": 4,
+    "measurement_conditions": 3,
+    "stage4_properties": 3,
+    "unresolved_properties": 13,
+    "property_series": 1,
+    "property_series_points": 1,
+    "characterizations": 1,
+    "stage5_properties": 0,
+    "evidence": 61,
+    "preview_published_objects": 89,
+    "preview_rejected_objects": 1,
+    "preview_reference_cleanup_count": 0
+  },
+  "quality_metrics": {
+    "properties_with_units": {
+      "complete": 14,
+      "total": 17,
+      "ratio": 0.8235294117647058
+    },
+    "standard_process_steps": {
+      "complete": 4,
+      "total": 4,
+      "ratio": 1.0
+    },
+    "stage4_methods_with_characterization": {
+      "complete": 1,
+      "total": 2,
+      "ratio": 0.5
+    },
+    "objects_with_confidence": {
+      "complete": 79,
+      "total": 90,
+      "ratio": 0.8777777777777778
+    },
+    "series_points_covered": {
+      "complete": 1,
+      "total": 1,
+      "ratio": 1.0
+    }
+  }
+}

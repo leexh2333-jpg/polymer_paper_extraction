@@ -1,0 +1,575 @@
+{
+  "stage": "stage4r_table_recovery",
+  "implementation_version": "0.2.0",
+  "document_id": "reference_no_0073324",
+  "audit_summary": {
+    "table_count": 3,
+    "tables_with_numeric_cells": 3,
+    "numeric_cell_count": 138,
+    "represented_numeric_cell_count": 0,
+    "representation_ratio": 0.0,
+    "role_counts": {
+      "condition_candidate": 1,
+      "coordinate_candidate": 15,
+      "property_value_candidate": 46,
+      "unknown": 76
+    },
+    "property_value_candidate_count": 46,
+    "covered_property_value_candidate_count": 0,
+    "missing_property_value_candidate_count": 46,
+    "property_value_ratio": 0.0,
+    "gap_table_count": 3,
+    "numeric_zero_coverage_table_count": 3,
+    "property_zero_coverage_table_count": 3
+  },
+  "recovered_count": 22,
+  "skipped_ambiguous_count": 24,
+  "recovered": [
+    {
+      "unresolved_id": "uprop001",
+      "entity_id": "pe009",
+      "property_name_raw": "melting_temperature",
+      "value_raw": "380",
+      "cell_id": "T_3_34:r0002:c0008",
+      "entity_resolution_basis": "row_cell_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop002",
+      "entity_id": "pe010",
+      "property_name_raw": "melting_temperature",
+      "value_raw": "285c",
+      "cell_id": "T_3_34:r0003:c0009",
+      "entity_resolution_basis": "row_cell_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop003",
+      "entity_id": "pe010",
+      "property_name_raw": "melting_temperature",
+      "value_raw": "300",
+      "cell_id": "T_3_34:r0004:c0008",
+      "entity_resolution_basis": "row_cell_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop004",
+      "entity_id": "pe010",
+      "property_name_raw": "melting_temperature",
+      "value_raw": "295",
+      "cell_id": "T_3_34:r0005:c0008",
+      "entity_resolution_basis": "row_cell_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop005",
+      "entity_id": "pe011",
+      "property_name_raw": "melting_temperature",
+      "value_raw": "265c",
+      "cell_id": "T_3_34:r0006:c0009",
+      "entity_resolution_basis": "row_cell_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop006",
+      "entity_id": "pe011",
+      "property_name_raw": "melting_temperature",
+      "value_raw": "295",
+      "cell_id": "T_3_34:r0007:c0008",
+      "entity_resolution_basis": "row_cell_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop007",
+      "entity_id": "pe011",
+      "property_name_raw": "melting_temperature",
+      "value_raw": "320",
+      "cell_id": "T_3_34:r0008:c0008",
+      "entity_resolution_basis": "row_cell_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop008",
+      "entity_id": "pe011",
+      "property_name_raw": "melting_temperature",
+      "value_raw": "300",
+      "cell_id": "T_3_34:r0009:c0008",
+      "entity_resolution_basis": "row_cell_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop009",
+      "entity_id": "pe012",
+      "property_name_raw": "melting_temperature",
+      "value_raw": "300",
+      "cell_id": "T_3_34:r0010:c0008",
+      "entity_resolution_basis": "row_cell_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop010",
+      "entity_id": "pe013",
+      "property_name_raw": "melting_temperature",
+      "value_raw": "285c",
+      "cell_id": "T_3_34:r0011:c0009",
+      "entity_resolution_basis": "row_cell_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop011",
+      "entity_id": "pe014",
+      "property_name_raw": "melting_temperature",
+      "value_raw": "300c",
+      "cell_id": "T_3_34:r0012:c0009",
+      "entity_resolution_basis": "row_cell_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop012",
+      "entity_id": "pe015",
+      "property_name_raw": "melting_temperature",
+      "value_raw": "328",
+      "cell_id": "T_3_34:r0013:c0008",
+      "entity_resolution_basis": "row_cell_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop013",
+      "entity_id": "pe016",
+      "property_name_raw": "melting_temperature",
+      "value_raw": "300c",
+      "cell_id": "T_3_34:r0014:c0009",
+      "entity_resolution_basis": "row_cell_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop014",
+      "entity_id": "pe016",
+      "property_name_raw": "melting_temperature",
+      "value_raw": "318",
+      "cell_id": "T_3_34:r0015:c0008",
+      "entity_resolution_basis": "row_cell_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop015",
+      "entity_id": "pe017",
+      "property_name_raw": "melting_temperature",
+      "value_raw": "295c",
+      "cell_id": "T_3_34:r0016:c0009",
+      "entity_resolution_basis": "row_cell_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop016",
+      "entity_id": "pe017",
+      "property_name_raw": "melting_temperature",
+      "value_raw": "325",
+      "cell_id": "T_3_34:r0017:c0008",
+      "entity_resolution_basis": "row_cell_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop017",
+      "entity_id": "pe017",
+      "property_name_raw": "melting_temperature",
+      "value_raw": "308",
+      "cell_id": "T_3_34:r0018:c0008",
+      "entity_resolution_basis": "row_cell_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop018",
+      "entity_id": "pe018",
+      "property_name_raw": "melting_temperature",
+      "value_raw": "300c",
+      "cell_id": "T_3_34:r0019:c0009",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop019",
+      "entity_id": "pe019",
+      "property_name_raw": "melting_temperature",
+      "value_raw": "215c",
+      "cell_id": "T_3_34:r0020:c0009",
+      "entity_resolution_basis": "row_cell_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop020",
+      "entity_id": "pe020",
+      "property_name_raw": "melting_temperature",
+      "value_raw": "280",
+      "cell_id": "T_3_34:r0021:c0008",
+      "entity_resolution_basis": "row_cell_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop021",
+      "entity_id": "pe021",
+      "property_name_raw": "melting_temperature",
+      "value_raw": "280",
+      "cell_id": "T_3_34:r0022:c0008",
+      "entity_resolution_basis": "row_cell_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop022",
+      "entity_id": "pe022",
+      "property_name_raw": "melting_temperature",
+      "value_raw": "185d",
+      "cell_id": "T_3_34:r0023:c0009",
+      "entity_resolution_basis": "row_cell_exact_entity_alias"
+    }
+  ],
+  "skipped_ambiguous": [
+    {
+      "cell_id": "T_4_37:r0002:c0008",
+      "table_id": "T_4_37",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "342",
+      "reason": "misaligned_table_header"
+    },
+    {
+      "cell_id": "T_4_37:r0003:c0008",
+      "table_id": "T_4_37",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "290",
+      "reason": "misaligned_table_header"
+    },
+    {
+      "cell_id": "T_4_37:r0004:c0008",
+      "table_id": "T_4_37",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "310",
+      "reason": "misaligned_table_header"
+    },
+    {
+      "cell_id": "T_4_37:r0005:c0008",
+      "table_id": "T_4_37",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "250",
+      "reason": "misaligned_table_header"
+    },
+    {
+      "cell_id": "T_4_37:r0006:c0008",
+      "table_id": "T_4_37",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "240",
+      "reason": "misaligned_table_header"
+    },
+    {
+      "cell_id": "T_4_37:r0007:c0008",
+      "table_id": "T_4_37",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "270",
+      "reason": "misaligned_table_header"
+    },
+    {
+      "cell_id": "T_4_37:r0008:c0008",
+      "table_id": "T_4_37",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "210",
+      "reason": "misaligned_table_header"
+    },
+    {
+      "cell_id": "T_4_37:r0009:c0008",
+      "table_id": "T_4_37",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "350",
+      "reason": "misaligned_table_header"
+    },
+    {
+      "cell_id": "T_4_37:r0010:c0008",
+      "table_id": "T_4_37",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "380",
+      "reason": "misaligned_table_header"
+    },
+    {
+      "cell_id": "T_4_37:r0011:c0008",
+      "table_id": "T_4_37",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "290",
+      "reason": "misaligned_table_header"
+    },
+    {
+      "cell_id": "T_4_37:r0012:c0008",
+      "table_id": "T_4_37",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "300",
+      "reason": "misaligned_table_header"
+    },
+    {
+      "cell_id": "T_4_37:r0013:c0008",
+      "table_id": "T_4_37",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "315",
+      "reason": "misaligned_table_header"
+    },
+    {
+      "cell_id": "T_4_37:r0014:c0008",
+      "table_id": "T_4_37",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "320",
+      "reason": "misaligned_table_header"
+    },
+    {
+      "cell_id": "T_4_37:r0015:c0008",
+      "table_id": "T_4_37",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "260",
+      "reason": "misaligned_table_header"
+    },
+    {
+      "cell_id": "T_4_37:r0016:c0008",
+      "table_id": "T_4_37",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "320",
+      "reason": "misaligned_table_header"
+    },
+    {
+      "cell_id": "T_4_37:r0017:c0008",
+      "table_id": "T_4_37",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "310",
+      "reason": "misaligned_table_header"
+    },
+    {
+      "cell_id": "T_6_50:r0002:c0002",
+      "table_id": "T_6_50",
+      "property_name_normalized": "melting_temperature",
+      "value_raw": "290",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_6_50:r0003:c0002",
+      "table_id": "T_6_50",
+      "property_name_normalized": "melting_temperature",
+      "value_raw": "293",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_6_50:r0004:c0001",
+      "table_id": "T_6_50",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "0.45",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_6_50:r0004:c0002",
+      "table_id": "T_6_50",
+      "property_name_normalized": "melting_temperature",
+      "value_raw": "322",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_6_50:r0005:c0001",
+      "table_id": "T_6_50",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "0.49",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_6_50:r0005:c0002",
+      "table_id": "T_6_50",
+      "property_name_normalized": "melting_temperature",
+      "value_raw": "342",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_6_50:r0006:c0001",
+      "table_id": "T_6_50",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "1.00",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_6_50:r0006:c0002",
+      "table_id": "T_6_50",
+      "property_name_normalized": "melting_temperature",
+      "value_raw": "380",
+      "reason": "entity_ambiguous"
+    }
+  ],
+  "sample_resolution_summary": {
+    "accepted": 5,
+    "label_not_found": 17
+  },
+  "sample_resolution": [
+    {
+      "unresolved_id": "uprop001",
+      "entity_id": "pe009",
+      "status": "accepted",
+      "sample_id": "s001",
+      "resolution_basis": "row_cell_direct",
+      "matched_label": "0-2",
+      "cell_id": "T_3_34:r0002:c0008"
+    },
+    {
+      "unresolved_id": "uprop002",
+      "entity_id": "pe010",
+      "status": "accepted",
+      "sample_id": "s002",
+      "resolution_basis": "row_cell_direct",
+      "matched_label": "0-2-0-6",
+      "cell_id": "T_3_34:r0003:c0009"
+    },
+    {
+      "unresolved_id": "uprop003",
+      "entity_id": "pe010",
+      "status": "accepted",
+      "sample_id": "s002",
+      "resolution_basis": "row_cell_filled_up",
+      "matched_label": "0-2-0-6",
+      "cell_id": "T_3_34:r0004:c0008"
+    },
+    {
+      "unresolved_id": "uprop004",
+      "entity_id": "pe010",
+      "status": "accepted",
+      "sample_id": "s002",
+      "resolution_basis": "row_cell_filled_up",
+      "matched_label": "0-2-0-6",
+      "cell_id": "T_3_34:r0005:c0008"
+    },
+    {
+      "unresolved_id": "uprop005",
+      "entity_id": "pe011",
+      "status": "label_not_found"
+    },
+    {
+      "unresolved_id": "uprop006",
+      "entity_id": "pe011",
+      "status": "label_not_found"
+    },
+    {
+      "unresolved_id": "uprop007",
+      "entity_id": "pe011",
+      "status": "label_not_found"
+    },
+    {
+      "unresolved_id": "uprop008",
+      "entity_id": "pe011",
+      "status": "label_not_found"
+    },
+    {
+      "unresolved_id": "uprop009",
+      "entity_id": "pe012",
+      "status": "label_not_found"
+    },
+    {
+      "unresolved_id": "uprop010",
+      "entity_id": "pe013",
+      "status": "label_not_found"
+    },
+    {
+      "unresolved_id": "uprop011",
+      "entity_id": "pe014",
+      "status": "label_not_found"
+    },
+    {
+      "unresolved_id": "uprop012",
+      "entity_id": "pe015",
+      "status": "label_not_found"
+    },
+    {
+      "unresolved_id": "uprop013",
+      "entity_id": "pe016",
+      "status": "label_not_found"
+    },
+    {
+      "unresolved_id": "uprop014",
+      "entity_id": "pe016",
+      "status": "label_not_found"
+    },
+    {
+      "unresolved_id": "uprop015",
+      "entity_id": "pe017",
+      "status": "label_not_found"
+    },
+    {
+      "unresolved_id": "uprop016",
+      "entity_id": "pe017",
+      "status": "label_not_found"
+    },
+    {
+      "unresolved_id": "uprop017",
+      "entity_id": "pe017",
+      "status": "label_not_found"
+    },
+    {
+      "unresolved_id": "uprop018",
+      "entity_id": "pe018",
+      "status": "label_not_found"
+    },
+    {
+      "unresolved_id": "uprop019",
+      "entity_id": "pe019",
+      "status": "label_not_found"
+    },
+    {
+      "unresolved_id": "uprop020",
+      "entity_id": "pe020",
+      "status": "label_not_found"
+    },
+    {
+      "unresolved_id": "uprop021",
+      "entity_id": "pe021",
+      "status": "accepted",
+      "sample_id": "s006",
+      "resolution_basis": "row_cell_direct",
+      "matched_label": "0–10",
+      "cell_id": "T_3_34:r0022:c0008"
+    },
+    {
+      "unresolved_id": "uprop022",
+      "entity_id": "pe022",
+      "status": "label_not_found"
+    }
+  ],
+  "property_id_migrations": [
+    {
+      "unresolved_id": "uprop001",
+      "property_id": "prop001",
+      "measurement_condition_id": "mc001",
+      "sample_id": "s001",
+      "entity_id": "pe009",
+      "resolution_basis": "row_cell_direct",
+      "matched_label": "0-2",
+      "cell_id": "T_3_34:r0002:c0008"
+    },
+    {
+      "unresolved_id": "uprop002",
+      "property_id": "prop002",
+      "measurement_condition_id": "mc002",
+      "sample_id": "s002",
+      "entity_id": "pe010",
+      "resolution_basis": "row_cell_direct",
+      "matched_label": "0-2-0-6",
+      "cell_id": "T_3_34:r0003:c0009"
+    },
+    {
+      "unresolved_id": "uprop003",
+      "property_id": "prop003",
+      "measurement_condition_id": "mc003",
+      "sample_id": "s002",
+      "entity_id": "pe010",
+      "resolution_basis": "row_cell_filled_up",
+      "matched_label": "0-2-0-6",
+      "cell_id": "T_3_34:r0004:c0008"
+    },
+    {
+      "unresolved_id": "uprop004",
+      "property_id": "prop004",
+      "measurement_condition_id": "mc004",
+      "sample_id": "s002",
+      "entity_id": "pe010",
+      "resolution_basis": "row_cell_filled_up",
+      "matched_label": "0-2-0-6",
+      "cell_id": "T_3_34:r0005:c0008"
+    },
+    {
+      "unresolved_id": "uprop021",
+      "property_id": "prop005",
+      "measurement_condition_id": "mc005",
+      "sample_id": "s006",
+      "entity_id": "pe021",
+      "resolution_basis": "row_cell_direct",
+      "matched_label": "0–10",
+      "cell_id": "T_3_34:r0022:c0008"
+    }
+  ],
+  "input_hashes": {
+    "stage0_blocks.json": "7665068afe658bbd32eeb6214f81fd7bfa1d09c9d8a8c63b658254c1c8075ad7",
+    "stage2_entities.json": "24141e09065e5a69b12d392fe8f28038945cf1caf93c2f373a10c40a22d80870",
+    "stage3_process.json": "13b234f40957f4b3d5ee0c0758c5b9c0b5c90c8bea0860cc03f89de197558d50",
+    "stage4_properties.json": "38b8e4f6ad6e89cdecf404f8bdff30a148cc395186fd90639bca0bde02e950dd"
+  },
+  "settings": {
+    "threshold": 0.8,
+    "apply": true,
+    "allow_filled_up_sample_binding": true
+  },
+  "output_sha256": "c0d976e041b24f94d970657541ebdad901e8b9318e47d56e4a44c02409a83d80"
+}
