@@ -1,0 +1,200 @@
+{
+  "stage": "stage4r_table_recovery",
+  "implementation_version": "0.2.0",
+  "document_id": "reference_no_0037886",
+  "audit_summary": {
+    "table_count": 5,
+    "tables_with_numeric_cells": 5,
+    "numeric_cell_count": 305,
+    "represented_numeric_cell_count": 2,
+    "representation_ratio": 0.006557,
+    "role_counts": {
+      "property_value_candidate": 11,
+      "unknown": 294
+    },
+    "property_value_candidate_count": 11,
+    "covered_property_value_candidate_count": 0,
+    "missing_property_value_candidate_count": 11,
+    "property_value_ratio": 0.0,
+    "gap_table_count": 1,
+    "numeric_zero_coverage_table_count": 4,
+    "property_zero_coverage_table_count": 1
+  },
+  "recovered_count": 11,
+  "skipped_ambiguous_count": 0,
+  "recovered": [
+    {
+      "unresolved_id": "uprop003",
+      "entity_id": "pe001",
+      "property_name_raw": "electric_conductivity",
+      "value_raw": "4.003 × 10-13± 1.2 × 10-14",
+      "cell_id": "T_6_84:r0001:c0001",
+      "entity_resolution_basis": "document_samples_single_entity"
+    },
+    {
+      "unresolved_id": "uprop004",
+      "entity_id": "pe001",
+      "property_name_raw": "electric_conductivity",
+      "value_raw": "7.58 × 10-13± 1.5 × 10-14",
+      "cell_id": "T_6_84:r0002:c0001",
+      "entity_resolution_basis": "document_samples_single_entity"
+    },
+    {
+      "unresolved_id": "uprop005",
+      "entity_id": "pe001",
+      "property_name_raw": "electric_conductivity",
+      "value_raw": "1.389 × 10-12± 2.3 × 10-14",
+      "cell_id": "T_6_84:r0003:c0001",
+      "entity_resolution_basis": "document_samples_single_entity"
+    },
+    {
+      "unresolved_id": "uprop006",
+      "entity_id": "pe001",
+      "property_name_raw": "electric_conductivity",
+      "value_raw": "2.444 × 10-12± 1.8 × 10-14",
+      "cell_id": "T_6_84:r0004:c0001",
+      "entity_resolution_basis": "document_samples_single_entity"
+    },
+    {
+      "unresolved_id": "uprop007",
+      "entity_id": "pe001",
+      "property_name_raw": "electric_conductivity",
+      "value_raw": "4.17 × 10-12± 8.6 × 10-14",
+      "cell_id": "T_6_84:r0005:c0001",
+      "entity_resolution_basis": "document_samples_single_entity"
+    },
+    {
+      "unresolved_id": "uprop008",
+      "entity_id": "pe001",
+      "property_name_raw": "electric_conductivity",
+      "value_raw": "6.84 × 10-12± 9.3 × 10-14",
+      "cell_id": "T_6_84:r0006:c0001",
+      "entity_resolution_basis": "document_samples_single_entity"
+    },
+    {
+      "unresolved_id": "uprop009",
+      "entity_id": "pe001",
+      "property_name_raw": "electric_conductivity",
+      "value_raw": "1.09 × 10-11± 1.6 × 10-13",
+      "cell_id": "T_6_84:r0007:c0001",
+      "entity_resolution_basis": "document_samples_single_entity"
+    },
+    {
+      "unresolved_id": "uprop010",
+      "entity_id": "pe001",
+      "property_name_raw": "electric_conductivity",
+      "value_raw": "1.68 × 10-11± 2.5 × 10-13",
+      "cell_id": "T_6_84:r0008:c0001",
+      "entity_resolution_basis": "document_samples_single_entity"
+    },
+    {
+      "unresolved_id": "uprop011",
+      "entity_id": "pe001",
+      "property_name_raw": "electric_conductivity",
+      "value_raw": "2.56 × 10-11± 4 × 10-13",
+      "cell_id": "T_6_84:r0009:c0001",
+      "entity_resolution_basis": "document_samples_single_entity"
+    },
+    {
+      "unresolved_id": "uprop012",
+      "entity_id": "pe001",
+      "property_name_raw": "electric_conductivity",
+      "value_raw": "3.8 × 10-11± 6.2 × 10-13",
+      "cell_id": "T_6_84:r0010:c0001",
+      "entity_resolution_basis": "document_samples_single_entity"
+    },
+    {
+      "unresolved_id": "uprop013",
+      "entity_id": "pe001",
+      "property_name_raw": "electric_conductivity",
+      "value_raw": "5.56 × 10-11± 9.5 × 10-13",
+      "cell_id": "T_6_84:r0011:c0001",
+      "entity_resolution_basis": "document_samples_single_entity"
+    }
+  ],
+  "skipped_ambiguous": [],
+  "sample_resolution_summary": {
+    "label_not_found": 11,
+    "missing_cell_locator": 2
+  },
+  "sample_resolution": [
+    {
+      "unresolved_id": "uprop001",
+      "entity_id": "pe002",
+      "status": "missing_cell_locator"
+    },
+    {
+      "unresolved_id": "uprop002",
+      "entity_id": "pe007",
+      "status": "missing_cell_locator"
+    },
+    {
+      "unresolved_id": "uprop003",
+      "entity_id": "pe001",
+      "status": "label_not_found"
+    },
+    {
+      "unresolved_id": "uprop004",
+      "entity_id": "pe001",
+      "status": "label_not_found"
+    },
+    {
+      "unresolved_id": "uprop005",
+      "entity_id": "pe001",
+      "status": "label_not_found"
+    },
+    {
+      "unresolved_id": "uprop006",
+      "entity_id": "pe001",
+      "status": "label_not_found"
+    },
+    {
+      "unresolved_id": "uprop007",
+      "entity_id": "pe001",
+      "status": "label_not_found"
+    },
+    {
+      "unresolved_id": "uprop008",
+      "entity_id": "pe001",
+      "status": "label_not_found"
+    },
+    {
+      "unresolved_id": "uprop009",
+      "entity_id": "pe001",
+      "status": "label_not_found"
+    },
+    {
+      "unresolved_id": "uprop010",
+      "entity_id": "pe001",
+      "status": "label_not_found"
+    },
+    {
+      "unresolved_id": "uprop011",
+      "entity_id": "pe001",
+      "status": "label_not_found"
+    },
+    {
+      "unresolved_id": "uprop012",
+      "entity_id": "pe001",
+      "status": "label_not_found"
+    },
+    {
+      "unresolved_id": "uprop013",
+      "entity_id": "pe001",
+      "status": "label_not_found"
+    }
+  ],
+  "property_id_migrations": [],
+  "input_hashes": {
+    "stage0_blocks.json": "3cb1af029fec74226c3b937001258495c7fb8d6be991c35ab75139c7daf79440",
+    "stage2_entities.json": "3c6f8bb92d30bdca4922d7647a9db5361f2fecd1a097cab1e2caccd605de0aa9",
+    "stage3_process.json": "daae73ce3ce1b04a452b8fd0fba0a97758a8f4a5d7a3a8ea774b3da8c1e1f901",
+    "stage4_properties.json": "4d3d1bb947c3c9fd7629f040f40d7c047b0976e85fb3dada7a1491aa382cc641"
+  },
+  "settings": {
+    "threshold": 0.8,
+    "apply": true,
+    "allow_filled_up_sample_binding": true
+  },
+  "output_sha256": "01341d42359c35575b28d4f7362ccb249aab7254f238c436d6207dd310eb63a0"
+}

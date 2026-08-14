@@ -1,0 +1,100 @@
+{
+  "schema_version": "1.0",
+  "document_id": "reference_no_0037886",
+  "characterizations": [
+    {
+      "characterization_id": "char001",
+      "method_raw": "DSC",
+      "method_normalized": "DSC",
+      "sample_id": "s003",
+      "entity_id": "pe001",
+      "sample_resolution_status": "resolved",
+      "instrument": "Mettler 821 calorimetric system",
+      "parameters": {},
+      "result_summary": "The glass transition temperature obtained for P4THPMA was 433 K.",
+      "derived_property_ids": [
+        "prop001"
+      ],
+      "evidence": [
+        {
+          "block_id": "P_1_23",
+          "page": 1,
+          "bbox": [
+            526.0,
+            436.0,
+            922.0,
+            573.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The glass transition temperature $( T _ { \\mathrm { g } } )$of the pure polymer was measured with a Mettler 821 calorimetric system."
+        },
+        {
+          "block_id": "I_10_130",
+          "page": 10,
+          "bbox": [
+            531.0,
+            618.0,
+            917.0,
+            832.0
+          ],
+          "source_type": "image",
+          "source_sentence": "Arrows show the calorimetric glass transition temperature $( T _ { \\mathrm { g } } ) _ { \\mathrm { : } }$ measured by DSC."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    }
+  ],
+  "properties": [],
+  "provenance": {
+    "stage": "stage5_characterization",
+    "provider": "dmx",
+    "model": "doubao-seed-2.0-pro",
+    "models": [
+      "doubao-seed-2.0-pro"
+    ],
+    "prompt_id": "polymer.stage5.characterization",
+    "prompt_version": "1.6.2",
+    "prompt_sha256": "5f918eb9d0dcbe0a4dc60a70d83c4e9f144f9a87bf68905d0a38ad22c000ee5c",
+    "vocabulary_sha256": "3e9d85e4915a729edf0f0a53821f3ee6edf32874e1da6972457417e4f13a1510",
+    "input_hash": "5555fe815c960c585f36d40a9c964da44c0712f6ab99d63cc0b96ca056ad1523",
+    "model_config_hash": "7e14aff06827af47a7b1a797111258e33d5972d1c072111440c3b2aae020f3ce",
+    "cache_key": "01423986df39aeac63e725cb25207f6b4ab18d81979eb8042c9f81a82c8c6e16",
+    "output_schema_version": "characterization_schema.v4",
+    "implementation_version": "1.7.1",
+    "context_block_count": 74,
+    "context_chars": 56225,
+    "call_count": 1,
+    "usage": {
+      "input_tokens": 28443,
+      "output_tokens": 2309,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "billable_input_tokens": 28443,
+      "total_tokens": 30752
+    },
+    "cost": {
+      "status": "calculated",
+      "currency": "CNY",
+      "input_per_million": "4.32",
+      "output_per_million": "29.15",
+      "input_cost": "0.12287376",
+      "output_cost": "0.06730735",
+      "total_cost": "0.19018111"
+    },
+    "status": "success"
+  },
+  "warnings": [
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_characterization_details_cleared",
+      "message": "Preview 模式已清空无对象 evidence 支撑的可选表征细节",
+      "field_path": "characterizations[0]",
+      "fields": [
+        "measurement_context.other_conditions",
+        "measurement_context"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1207 @@
+{
+  "schema_version": "1.0",
+  "document_id": "reference_no_0042246",
+  "polymer_entities": [
+    {
+      "entity_id": "pe001",
+      "polymer_name": "アクリロニトリル-ブタジエンゴム",
+      "polymer_type": "homopolymer",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "NBR",
+        "アクリロニトリル-ブタジエンゴム"
+      ],
+      "resolved_from_mentions": [
+        "m001",
+        "m003",
+        "m007",
+        "m017",
+        "m018",
+        "m020",
+        "m023",
+        "m036",
+        "m038",
+        "m040",
+        "m044",
+        "m049",
+        "m051",
+        "m063",
+        "m067",
+        "m085",
+        "m091",
+        "m098",
+        "m102",
+        "m106",
+        "m107",
+        "m112",
+        "m115",
+        "m123",
+        "m124"
+      ],
+      "evidence": {
+        "block_id": "P_1_21",
+        "page": 1,
+        "bbox": [
+          68.0,
+          435.0,
+          480.0,
+          673.0
+        ],
+        "source_type": "text",
+        "source_sentence": "そこで著者らは，非ポリエーテル系エラストマーの利用およびSPEとのブレンド化による湿度依存性の低減，さらには高いイオン伝導度を実現できる新しいコンセプトの材料開発を目的とした<sup>8―</sup> <sup>10）</sup>．エラストマーは，固体（ゴム）状態で優れた加工性や機械強度を有し，かつ局所的には極めて高い分子運動性を示す唯一の高分子であり，SPEとしての利用は非常に魅力的である．本研究では，用いるエラストマーとして比較的低いガラス転移温度 $( T _ { \\mathrm { g } } )$）と高い極性を併せ持つアクリロニトリル-ブタジエンゴム（NBR）に着目した．NBRのSPEへの研究例は既に幾つか報告されているが<sup>11，12）</sup>，ほとんどは液体電解質を利用した混合系（ゲル）であり，NBR本来の特性を活かした“ドライな”SPEの開発には至っていない"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.93
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe002",
+      "polymer_name": "NBR18",
+      "polymer_type": "homopolymer",
+      "variant_of": "pe001",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "NBR18"
+      ],
+      "resolved_from_mentions": [
+        "m024",
+        "m053",
+        "m057",
+        "m061",
+        "m065",
+        "m068",
+        "m084",
+        "m087",
+        "m094",
+        "m099",
+        "m103"
+      ],
+      "evidence": {
+        "block_id": "P_1_26",
+        "page": 1,
+        "bbox": [
+          68.0,
+          863.0,
+          478.0,
+          932.0
+        ],
+        "source_type": "text",
+        "source_sentence": "ベースエラストマーには，日本ゼオンのブタジエンゴム（ムーニー粘度 $\\left( M L _ { 1 + 4 } \\left( 1 0 0 \\mathrm { ~ \\textcircled { ~ } C ~ } \\right) \\right) = 5 6 )$）およびNBRを用いた．NBRには，アクリロニトリル（AN）成分が少ない低ニトリル（NBR18, ムーニー粘度＝32），およびAN成分が多"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.88
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe003",
+      "polymer_name": "NBR43",
+      "polymer_type": "homopolymer",
+      "variant_of": "pe001",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "NBR43",
+        "NBR43/PM (EO/PO)mono"
+      ],
+      "resolved_from_mentions": [
+        "m010",
+        "m026",
+        "m055",
+        "m060",
+        "m066",
+        "m069",
+        "m078",
+        "m119",
+        "m121",
+        "m129"
+      ],
+      "evidence": {
+        "block_id": "P_1_31",
+        "page": 1,
+        "bbox": [
+          515.0,
+          287.0,
+          929.0,
+          562.0
+        ],
+        "source_type": "text",
+        "source_sentence": "い高ニトリル（NBR43, ムーニー粘度＝78）のものをそれぞれ用いた．また，本論文中のブタジエンゴムについては，他のニトリルゴムと表記を統一させるため，略号にNBR0を用いることとする．ポリエーテルには，平均分子量50万のPEO（和光純薬），日本ゼオンのエチレンオキシド（EO）/プロピレンオキシド（PO）共重合体（P（EO/PO），EO成分量88 mol％），ポリ［（オリゴEO/PO）グラフト型メタクリラート］（PM（EO/PO））をそれぞれ用いた．各種ポリエーテルの構造をFigure 1に示す．PM（EO/PO）の合成には，日油のブレンマー 50PEP-300（（オリゴEO/PO）グラフト型メタクリラートモノマー（M（EO/PO）），側鎖の繰り返し数；EO=3，PO=4（<sup>1</sup>H-NMR））を用いた．重合開始剤にはα,α’-アゾビスイソブチロニトリル（AIBN, 関東化学）を，アルカリ金属塩には過塩素酸リチ $\\mathrm { \\Delta \\ l b { ' } \\Delta \\ L i C l O _ { 4 } , }$，無水98％，関東化学）を用いた"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.9
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe004",
+      "polymer_name": "ブタジエンゴム",
+      "polymer_type": "homopolymer",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "ブタジエンゴム",
+        "NBR0",
+        "BR"
+      ],
+      "resolved_from_mentions": [
+        "m022",
+        "m027",
+        "m029",
+        "m054",
+        "m117",
+        "m118"
+      ],
+      "evidence": {
+        "block_id": "P_1_31",
+        "page": 1,
+        "bbox": [
+          515.0,
+          287.0,
+          929.0,
+          562.0
+        ],
+        "source_type": "text",
+        "source_sentence": "い高ニトリル（NBR43, ムーニー粘度＝78）のものをそれぞれ用いた．また，本論文中のブタジエンゴムについては，他のニトリルゴムと表記を統一させるため，略号にNBR0を用いることとする．ポリエーテルには，平均分子量50万のPEO（和光純薬），日本ゼオンのエチレンオキシド（EO）/プロピレンオキシド（PO）共重合体（P（EO/PO），EO成分量88 mol％），ポリ［（オリゴEO/PO）グラフト型メタクリラート］（PM（EO/PO））をそれぞれ用いた．各種ポリエーテルの構造をFigure 1に示す．PM（EO/PO）の合成には，日油のブレンマー 50PEP-300（（オリゴEO/PO）グラフト型メタクリラートモノマー（M（EO/PO）），側鎖の繰り返し数；EO=3，PO=4（<sup>1</sup>H-NMR））を用いた．重合開始剤にはα,α’-アゾビスイソブチロニトリル（AIBN, 関東化学）を，アルカリ金属塩には過塩素酸リチ $\\mathrm { \\Delta \\ l b { ' } \\Delta \\ L i C l O _ { 4 } , }$，無水98％，関東化学）を用いた"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.88
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe005",
+      "polymer_name": "ポリエチレンオキシド",
+      "polymer_type": "homopolymer",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "ポリエチレンオキシド",
+        "PEO"
+      ],
+      "resolved_from_mentions": [
+        "m012",
+        "m013",
+        "m025",
+        "m031",
+        "m037",
+        "m039",
+        "m043",
+        "m081",
+        "m088",
+        "m095",
+        "m096",
+        "m101"
+      ],
+      "evidence": {
+        "block_id": "P_0_10",
+        "page": 0,
+        "bbox": [
+          67.0,
+          695.0,
+          478.0,
+          859.0
+        ],
+        "source_type": "text",
+        "source_sentence": "ポリエチレンオキシド（PEO）などのアルキレンオキシド型ポリエーテル類にアルカリ金属塩を溶解させた高分子<sup>1）</sup>は，半結晶性固体やゴム状固体中でもイオン伝導性を発現させることができる新しいソフトイオニクス材料<sup>2）</sup>である．このようなエチレンオキシド（EO）型高分子をベースとする一連の固体高分子電解質（SPE）は，無機や液体電解質に代わる次世代イオン伝導材料であり，高分子型リチウム電池や帯電防止材など，新しい電気･電子材料やデバイスへの応用が期待されている<sup>3―</sup> <sup>6）</sup>．一般的に，電解質材料は無機系と有機系に大別され，それらはさらに固体と液体にそれぞれ分けられる．有機系材料では，プロピレンカルボナートなど高極性の有機溶媒がベースとなった液体材料が主流であり，そこにLi塩を溶解させた電解質溶液がLi二次電池などへ既に実用化されている．高分子を用いた系としては，電解質溶液に使われるような有機溶媒を含浸させたゲル型電解質が実用段階まで来ており，一部はすでにノート型PC用電池などへ実用化されている．しかし，ゲル型電解質"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.96
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe006",
+      "polymer_name": "PEO-LiClO4",
+      "polymer_type": "homopolymer",
+      "variant_of": "pe005",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "PEO-LiClO4",
+        "PEO-$\\mathrm { L i C l O _ { 4 } }$"
+      ],
+      "resolved_from_mentions": [
+        "m070",
+        "m097"
+      ],
+      "evidence": {
+        "block_id": "T_3_62",
+        "page": 3,
+        "bbox": [
+          220.0,
+          109.0,
+          778.0,
+          294.0
+        ],
+        "source_type": "table",
+        "source_sentence": "PEO-LiClO4"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.87
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe007",
+      "polymer_name": "エチレンオキシド（EO）/プロピレンオキシド（PO）共重合体",
+      "polymer_type": "copolymer",
+      "copolymer_type": "ran",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "エチレンオキシド（EO）/プロピレンオキシド（PO）共重合体",
+        "P（EO/PO）"
+      ],
+      "resolved_from_mentions": [
+        "m032",
+        "m033",
+        "m041",
+        "m042",
+        "m082",
+        "m089",
+        "m100"
+      ],
+      "evidence": {
+        "block_id": "P_4_78",
+        "page": 4,
+        "bbox": [
+          515.0,
+          546.0,
+          927.0,
+          840.0
+        ],
+        "source_type": "text",
+        "source_sentence": "NBR18系 $F V \\mathcal { \\succ } \\vdash \\vdash \\mathcal { O } )$伝導度と電解質（P（EO/PO）-LiClO ）成分量の関係をFigure 5に示す．P（EO/PO）は，非晶性のPO構造がランダムに結合した共重合体であり，PEOと比較すると結晶性が大幅に減少している．また，PO部はEO部よりもエーテル酸素部分の双極子モーメントが小さいため，塩溶解性（カチオンとの静電的相互作用力）が弱く，EO部よりも疎水的であるため，NBRのブタ $\\therefore I = 2$部分などに対する相溶性が増す可能性がある．その結果は，P$\\mathrm { ( E O / P O ) . L i C l O _ { 4 } }$単体の $\\sigma _ { \\mathrm { d r y } }$はPEO系よりも高く， $\\sigma _ { \\mathrm { w e t } }$との差異もFigure 4と比較して大きく低減することが分かった．また，各組成 $\\textcircled { 1 }  r \\nu :$ド体においても， $\\sigma _ { \\mathrm { d r y } }$に対する $\\sigma _ { \\mathrm { w e t } } \\phi$上昇幅は大きく抑制されている．例えば50/50ブレンドでは， $\\sigma _ { \\mathrm { d r y } }$が約 $6 \\times 1 0 ^ { - 8 }$S $\\mathrm { c m } ^ { - 1 } \\overline { { \\mathrm { c } } }$あり， $\\sigma _ { \\mathrm { w e t } }$は $\\sigma _ { \\mathrm { d r y } }$の4倍程度である．さらに，これらの伝導度は $1 0 ^ { - 8 }$S $\\mathrm { c m } ^ { - 1 }$以上のレベルにあり，帯電防止材料<sup>10）</sup>としての要件は十分に満たしていることも分かった"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.92
+      }
+    },
+    {
+      "entity_id": "pe008",
+      "polymer_name": "P (EO/PO)-LiClO4",
+      "polymer_type": "copolymer",
+      "copolymer_type": "ran",
+      "variant_of": "pe007",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "P (EO/PO)-LiClO4"
+      ],
+      "resolved_from_mentions": [
+        "m071"
+      ],
+      "evidence": {
+        "block_id": "T_3_62",
+        "page": 3,
+        "bbox": [
+          220.0,
+          109.0,
+          778.0,
+          294.0
+        ],
+        "source_type": "table",
+        "source_sentence": "P (EO/PO)-LiClO4"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.84
+      }
+    },
+    {
+      "entity_id": "pe009",
+      "polymer_name": "ポリ［（オリゴEO/PO）グラフト型メタクリラート］",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "ポリ［（オリゴEO/PO）グラフト型メタクリラート］",
+        "PM（EO/PO）",
+        "PM",
+        "PM（ $\\mathrm { ( E O / P O"
+      ],
+      "resolved_from_mentions": [
+        "m034",
+        "m035",
+        "m045",
+        "m046",
+        "m052",
+        "m058",
+        "m062",
+        "m083",
+        "m090",
+        "m092",
+        "m104",
+        "m109",
+        "m113",
+        "m116"
+      ],
+      "evidence": {
+        "block_id": "P_1_31",
+        "page": 1,
+        "bbox": [
+          515.0,
+          287.0,
+          929.0,
+          562.0
+        ],
+        "source_type": "text",
+        "source_sentence": "い高ニトリル（NBR43, ムーニー粘度＝78）のものをそれぞれ用いた．また，本論文中のブタジエンゴムについては，他のニトリルゴムと表記を統一させるため，略号にNBR0を用いることとする．ポリエーテルには，平均分子量50万のPEO（和光純薬），日本ゼオンのエチレンオキシド（EO）/プロピレンオキシド（PO）共重合体（P（EO/PO），EO成分量88 mol％），ポリ［（オリゴEO/PO）グラフト型メタクリラート］（PM（EO/PO））をそれぞれ用いた．各種ポリエーテルの構造をFigure 1に示す．PM（EO/PO）の合成には，日油のブレンマー 50PEP-300（（オリゴEO/PO）グラフト型メタクリラートモノマー（M（EO/PO）），側鎖の繰り返し数；EO=3，PO=4（<sup>1</sup>H-NMR））を用いた．重合開始剤にはα,α’-アゾビスイソブチロニトリル（AIBN, 関東化学）を，アルカリ金属塩には過塩素酸リチ $\\mathrm { \\Delta \\ l b { ' } \\Delta \\ L i C l O _ { 4 } , }$，無水98％，関東化学）を用いた"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.93
+      },
+      "polymer_type": null,
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe010",
+      "polymer_name": "PM（EO/PO）-LiClO<sub>4</sub>",
+      "variant_of": "pe009",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "$\\mathrm { P M ( E O / P O ) } \\mathrm { - L i C l O _ { 4 } }$",
+        "PM（EO/PO）-LiClO<sub>4</sub>",
+        "PM（EO/PO）-$\\mathrm { L i C l O _ { 4 } }$",
+        "PM（EO/PO）-LiClO",
+        "PM (EO/PO)-LiClO4"
+      ],
+      "resolved_from_mentions": [
+        "m009",
+        "m047",
+        "m048",
+        "m059",
+        "m072",
+        "m108",
+        "m122",
+        "m130"
+      ],
+      "evidence": {
+        "block_id": "P_2_42",
+        "page": 2,
+        "bbox": [
+          67.0,
+          64.0,
+          478.0,
+          319.0
+        ],
+        "source_type": "text",
+        "source_sentence": "$\\mathrm { L i C l O _ { 4 } }$をシャーレ上にキャストし，100 ℃のホットプレート上で乾燥 $\\mathrm { N _ { 2 } }$ガスをフローしながら6時間保持して重合させた．得られた電解質（PM（EO/PO）-LiClO ）は，さらに18時間100 ℃で真空乾燥した．PM（EO/PO）-LiClO<sub>4</sub>は，膜形状を保持できる透明な高分子であるが，力学的にはもろく，柔らかい寒天状であった．得られたPM（EO/PO）-$\\mathrm { L i C l O _ { 4 } }$は，細かく砕いて粉状にした．NBRを二軸オープ$ \\cup \\sqsubset  \\pi -  \\pi$を用 $\\textsf { V } ^ { 1 } \\textsf { C } 3 5$℃で5分間素練りし，そこに所定量の粉状PM（ $\\mathrm { ( E O P O ) . L i C l O _ { 4 } }$を5分かけて加え，続いて約80分混練した．以降， $= 0 . 7 V = K$方法により得られた試料を，NBR18/PM（EO/PO）<sub>poly</sub>-LiClO<sub>4</sub>と表記する．混練後のブレンド体を60 ℃，20 MPaの条件で3分間圧縮成形し，24時間真空乾燥して厚さ約500～600μmの均一な膜を得た"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.88
+      },
+      "polymer_type": null,
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe011",
+      "polymer_name": "ポリエーテル電解質",
+      "polymer_type": "homopolymer",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "ポリエーテル電解質",
+        "Polyether Electrolyte"
+      ],
+      "resolved_from_mentions": [
+        "m002",
+        "m004",
+        "m021",
+        "m064",
+        "m080"
+      ],
+      "evidence": {
+        "block_id": "P_1_22",
+        "page": 1,
+        "bbox": [
+          68.0,
+          677.0,
+          480.0,
+          784.0
+        ],
+        "source_type": "text",
+        "source_sentence": "本報告では，様々な組成のNBR/ポリエーテル電解質ブレンドを作製し，それらのイオン伝導性に及ぼす湿度の影響について，ポリエーテルの構造，ブレンド方法，NBR中のアクリロニトリル量，の観点から明らかにした．また，ブレンド体の相分離構造についても解析を行い，イオン伝導度との関連性について検討した"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.91
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe012",
+      "polymer_name": "polyether-based solid polymer electrolyte",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "polyether-based solid polymer electrolyte",
+        "SPE"
+      ],
+      "resolved_from_mentions": [
+        "m005",
+        "m006"
+      ],
+      "evidence": {
+        "block_id": "P_0_4",
+        "page": 0,
+        "bbox": [
+          65.0,
+          373.0,
+          927.0,
+          557.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Novel ion-conductive elastomer blends containing polyether-based solid polymer electrolyte (SPE) were prepared by the radical polymerization of oligo[(ethylene oxide)-co-(propylene oxide)] methacrylate (M(EO/PO)) monomer with $\\mathrm { L i C l O _ { 4 } }$in NBR."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.89
+      },
+      "polymer_type": null,
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe013",
+      "polymer_name": "Solid Polymer Electrolytes",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "Solid Polymer Electrolytes",
+        "SPE"
+      ],
+      "resolved_from_mentions": [
+        "m011",
+        "m016",
+        "m019",
+        "m131"
+      ],
+      "evidence": {
+        "block_id": "P_0_7",
+        "page": 0,
+        "bbox": [
+          67.0,
+          587.0,
+          922.0,
+          617.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Key Words ：Elastomer Blends, Solid Polymer Electrolytes, Lithium Salts, Ionic Conductivity, Morphology, Sea-Island Phase Separation"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.8
+      },
+      "polymer_type": null,
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe014",
+      "polymer_name": "アルキレンオキシド型ポリエーテル類",
+      "polymer_type": "homopolymer",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "アルキレンオキシド型ポリエーテル類"
+      ],
+      "resolved_from_mentions": [
+        "m014"
+      ],
+      "evidence": {
+        "block_id": "P_0_10",
+        "page": 0,
+        "bbox": [
+          67.0,
+          695.0,
+          478.0,
+          859.0
+        ],
+        "source_type": "text",
+        "source_sentence": "ポリエチレンオキシド（PEO）などのアルキレンオキシド型ポリエーテル類にアルカリ金属塩を溶解させた高分子<sup>1）</sup>は，半結晶性固体やゴム状固体中でもイオン伝導性を発現させることができる新しいソフトイオニクス材料<sup>2）</sup>である．このようなエチレンオキシド（EO）型高分子をベースとする一連の固体高分子電解質（SPE）は，無機や液体電解質に代わる次世代イオン伝導材料であり，高分子型リチウム電池や帯電防止材など，新しい電気･電子材料やデバイスへの応用が期待されている<sup>3―</sup> <sup>6）</sup>．一般的に，電解質材料は無機系と有機系に大別され，それらはさらに固体と液体にそれぞれ分けられる．有機系材料では，プロピレンカルボナートなど高極性の有機溶媒がベースとなった液体材料が主流であり，そこにLi塩を溶解させた電解質溶液がLi二次電池などへ既に実用化されている．高分子を用いた系としては，電解質溶液に使われるような有機溶媒を含浸させたゲル型電解質が実用段階まで来ており，一部はすでにノート型PC用電池などへ実用化されている．しかし，ゲル型電解質"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.78
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe015",
+      "polymer_name": "エチレンオキシド（EO）型高分子",
+      "polymer_type": "homopolymer",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "エチレンオキシド（EO）型高分子"
+      ],
+      "resolved_from_mentions": [
+        "m015"
+      ],
+      "evidence": {
+        "block_id": "P_0_10",
+        "page": 0,
+        "bbox": [
+          67.0,
+          695.0,
+          478.0,
+          859.0
+        ],
+        "source_type": "text",
+        "source_sentence": "ポリエチレンオキシド（PEO）などのアルキレンオキシド型ポリエーテル類にアルカリ金属塩を溶解させた高分子<sup>1）</sup>は，半結晶性固体やゴム状固体中でもイオン伝導性を発現させることができる新しいソフトイオニクス材料<sup>2）</sup>である．このようなエチレンオキシド（EO）型高分子をベースとする一連の固体高分子電解質（SPE）は，無機や液体電解質に代わる次世代イオン伝導材料であり，高分子型リチウム電池や帯電防止材など，新しい電気･電子材料やデバイスへの応用が期待されている<sup>3―</sup> <sup>6）</sup>．一般的に，電解質材料は無機系と有機系に大別され，それらはさらに固体と液体にそれぞれ分けられる．有機系材料では，プロピレンカルボナートなど高極性の有機溶媒がベースとなった液体材料が主流であり，そこにLi塩を溶解させた電解質溶液がLi二次電池などへ既に実用化されている．高分子を用いた系としては，電解質溶液に使われるような有機溶媒を含浸させたゲル型電解質が実用段階まで来ており，一部はすでにノート型PC用電池などへ実用化されている．しかし，ゲル型電解質"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.78
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe016",
+      "polymer_name": "ニトリルゴム",
+      "polymer_type": "homopolymer",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "ニトリルゴム"
+      ],
+      "resolved_from_mentions": [
+        "m028",
+        "m132"
+      ],
+      "evidence": {
+        "block_id": "P_7_108",
+        "page": 7,
+        "bbox": [
+          515.0,
+          287.0,
+          927.0,
+          338.0
+        ],
+        "source_type": "text",
+        "source_sentence": "本研究で使用しました各種ニトリルゴム，ゼオスパン，ブレンマーをご提供頂きました，日本ゼオン㈱，日油㈱に厚く御礼申し上げます"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.74
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe017",
+      "polymer_name": "ポリエーテル",
+      "polymer_type": "homopolymer",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "ポリエーテル"
+      ],
+      "resolved_from_mentions": [
+        "m030"
+      ],
+      "evidence": {
+        "block_id": "P_1_31",
+        "page": 1,
+        "bbox": [
+          515.0,
+          287.0,
+          929.0,
+          562.0
+        ],
+        "source_type": "text",
+        "source_sentence": "い高ニトリル（NBR43, ムーニー粘度＝78）のものをそれぞれ用いた．また，本論文中のブタジエンゴムについては，他のニトリルゴムと表記を統一させるため，略号にNBR0を用いることとする．ポリエーテルには，平均分子量50万のPEO（和光純薬），日本ゼオンのエチレンオキシド（EO）/プロピレンオキシド（PO）共重合体（P（EO/PO），EO成分量88 mol％），ポリ［（オリゴEO/PO）グラフト型メタクリラート］（PM（EO/PO））をそれぞれ用いた．各種ポリエーテルの構造をFigure 1に示す．PM（EO/PO）の合成には，日油のブレンマー 50PEP-300（（オリゴEO/PO）グラフト型メタクリラートモノマー（M（EO/PO）），側鎖の繰り返し数；EO=3，PO=4（<sup>1</sup>H-NMR））を用いた．重合開始剤にはα,α’-アゾビスイソブチロニトリル（AIBN, 関東化学）を，アルカリ金属塩には過塩素酸リチ $\\mathrm { \\Delta \\ l b { ' } \\Delta \\ L i C l O _ { 4 } , }$，無水98％，関東化学）を用いた"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.74
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe018",
+      "polymer_name": "NBR18/PM（EO/PO）<sub>poly</sub>-LiClO<sub>4</sub>",
+      "polymer_type": "polymer_blend",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "NBR18/PM（EO/PO）<sub>poly</sub>-LiClO<sub>4</sub>",
+        "/PM (EO/PO)poly"
+      ],
+      "resolved_from_mentions": [
+        "m050",
+        "m076"
+      ],
+      "evidence": {
+        "block_id": "P_2_42",
+        "page": 2,
+        "bbox": [
+          67.0,
+          64.0,
+          478.0,
+          319.0
+        ],
+        "source_type": "text",
+        "source_sentence": "$\\mathrm { L i C l O _ { 4 } }$をシャーレ上にキャストし，100 ℃のホットプレート上で乾燥 $\\mathrm { N _ { 2 } }$ガスをフローしながら6時間保持して重合させた．得られた電解質（PM（EO/PO）-LiClO ）は，さらに18時間100 ℃で真空乾燥した．PM（EO/PO）-LiClO<sub>4</sub>は，膜形状を保持できる透明な高分子であるが，力学的にはもろく，柔らかい寒天状であった．得られたPM（EO/PO）-$\\mathrm { L i C l O _ { 4 } }$は，細かく砕いて粉状にした．NBRを二軸オープ$ \\cup \\sqsubset  \\pi -  \\pi$を用 $\\textsf { V } ^ { 1 } \\textsf { C } 3 5$℃で5分間素練りし，そこに所定量の粉状PM（ $\\mathrm { ( E O P O ) . L i C l O _ { 4 } }$を5分かけて加え，続いて約80分混練した．以降， $= 0 . 7 V = K$方法により得られた試料を，NBR18/PM（EO/PO）<sub>poly</sub>-LiClO<sub>4</sub>と表記する．混練後のブレンド体を60 ℃，20 MPaの条件で3分間圧縮成形し，24時間真空乾燥して厚さ約500～600μmの均一な膜を得た"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.86
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe019",
+      "polymer_name": "NBR/$\\mathrm { P M ( E O / P O ) } _ { \\mathrm { m o n o } ^ { - } } \\mathrm { L i C l O } _ { 4 }$",
+      "polymer_type": "polymer_blend",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "$\\mathrm { N B R 1 8 / P M ( E O / P O ) _ { m o n o } \\mathrm { - L i C l O _ { 4 } 5 0 / 5 0 } }$",
+        "NBR/$\\mathrm { P M ( E O / P O ) } _ { \\mathrm { m o n o } ^ { - } } \\mathrm { L i C l O } _ { 4 }$",
+        "/PM (EO/PO)mono"
+      ],
+      "resolved_from_mentions": [
+        "m008",
+        "m056",
+        "m077"
+      ],
+      "evidence": {
+        "block_id": "P_2_44",
+        "page": 2,
+        "bbox": [
+          67.0,
+          342.0,
+          478.0,
+          562.0
+        ],
+        "source_type": "text",
+        "source_sentence": "所定量の重量比のNBR18（またはNBR0, NBR43）およびM（EO/PO）を，LiClO（［Li<sup>+</sup>］/［EO］［PO］＝1/20）およびAIBN（モノマーに対して1 mol％）とともに脱水THFに加え，均一な溶液を作製した．テフロン<sup>獏</sup>シャーレに注いだTHF溶液を減圧下で4時間脱溶媒し，得られた粘性液体（NBR/M（EO/PO）-LiClO ）を室温で24時間真空乾燥したシャーレ上のNBR混合物を，そのまま100 ℃のホットプレート上で乾燥 $\\mathrm { N _ { 2 } }$ガスをフローしながら6時間保持して重合させた．得られた電解質膜を，さらに18時間100 ℃で真空乾燥させて，厚さ約500～800μmの均一な膜を得た以降，このブレンド方法により得られた試料を，NBR/$\\mathrm { P M ( E O / P O ) } _ { \\mathrm { m o n o } ^ { - } } \\mathrm { L i C l O } _ { 4 }$と表記する"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.81
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe020",
+      "polymer_name": "NBR43/PM（EO/PO）<sub>mono</sub>-LiClO<sub>4</sub>",
+      "polymer_type": "polymer_blend",
+      "variant_of": "pe019",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "NBR43/PM（EO/PO）<sub>mono</sub>-LiClO<sub>4</sub>"
+      ],
+      "resolved_from_mentions": [
+        "m128"
+      ],
+      "evidence": {
+        "block_id": "P_7_105",
+        "page": 7,
+        "bbox": [
+          68.0,
+          546.0,
+          480.0,
+          933.0
+        ],
+        "source_type": "text",
+        "source_sentence": "本研究では，NBRおよびポリエーテル系電解質をベースとするエラストマーブレンドを作製し，直流イオン伝導度に及ぼす湿度環境の影響を明らかにした．また，DSC，TEM，およびDMAによる物性測定を行い，ブレンド組成との関係を解析した．その結果，NBR系ブレンドの湿度変化に対する伝導度の安定性に関しては，（1）疎水的なPO部を含むポリエーテル鎖（EO/PO共重合鎖）の導入，（2）電解質成分が島相となる海-島相分離構造の形成，（3）（2）の微細化および均一化，（4）ベースとなるNBRの高ニトリル化，が必要であることが分かった．これらの条件を満たすNBR43/PM（EO/PO）<sub>mono</sub>-LiClO<sub>4</sub>は，吸湿状態と乾燥状態の伝導度に差異がほとんど見られず，湿度環境に対する伝導度の安定性の向上が達成できた．50/50ブレンドのTEM測定の結果からは，電解質成分の球形島相が200～300 nmのオーダーでNBR海相中に均一に分散している様子が見られた．NBR43系ブレンドの複素インピーダンス測定からは，一部の組成の試料が電解質単体（PM（EO/PO）-LiClO ）よりも高いイオン伝導度を発現できることが分かり，NBR43/電解質ブレンド比が30/70では，25 ℃で6.7×10<sup>―</sup> <sup>6</sup> S cm<sup>―</sup> <sup>1</sup>を示した．NBR43系ブレンドでは，NBR/電解質界面におけるイオン移動抵抗は観測されず，多数のニトリル基の存在によるLiイオンとの静電的相互作用の影響や，それに伴う界面などの局所的な領域におけるイオン解離の促進やイオン伝導パスの発現が，イオン伝導度の上昇につながったものと考察した．今回のイオン伝導度の測定からは，これまでのSPEの限界である10<sup>―</sup> <sup>4</sup> Scm<sup>―</sup> <sup>1</sup>以上を達成することはできなかったが，ブレンド体で用いているSPEの単体を上回る値を発現させることに成功した．今後は，最適なエラストマーやモノマーの選択，ブレンド方法の確立，などによって更なるソフトイオニクス材料の発展と用途開拓を目指したい"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.94
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe021",
+      "polymer_name": "NBR18/PEO system",
+      "polymer_type": "polymer_blend",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "50/50 Blend",
+        "NBR18/PEO system",
+        "/P (EO/PO)"
+      ],
+      "resolved_from_mentions": [
+        "m073",
+        "m074",
+        "m075"
+      ],
+      "evidence": {
+        "block_id": "T_3_62",
+        "page": 3,
+        "bbox": [
+          220.0,
+          109.0,
+          778.0,
+          294.0
+        ],
+        "source_type": "table",
+        "source_sentence": "td colspan=\"2\">PM (EO/PO)-LiClO4</td><td>-49</td><td>-</td><td>-</td><td>0.5</td><td> $1.1 \\times 10^{-6}$ </td></tr><tr><td rowspan=\"5\">50/50 Blend</td><td>NBR18/PEO system</td><td>-70</td><td>62</td><td>5.15</td><td>13.6</td><td>-</td></tr><tr><td>/P (EO/PO)</td><td>-70</td><td>40, (12)</td><td>1.74</td><td>2.5</td><td>-</td></tr><tr><td>/PM (EO/PO)poly</td><td>-59</td><td>-</td><td>-</td><td>1.1</td><td>-</td></tr><tr><td>/PM (EO/PO)mono</td><td>-62</td><td>-</td><td>-</td><td>0.8</td><td>-</"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.63
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe022",
+      "polymer_name": "NBR18系50/50ブレンド試料",
+      "polymer_type": "polymer_blend",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "NBR18系50/50ブレンド試料",
+        "NBR18系ブレンド"
+      ],
+      "resolved_from_mentions": [
+        "m086",
+        "m093"
+      ],
+      "evidence": {
+        "block_id": "P_3_66",
+        "page": 3,
+        "bbox": [
+          515.0,
+          658.0,
+          929.0,
+          933.0
+        ],
+        "source_type": "text",
+        "source_sentence": "次に，各種ブレンド体の吸湿に伴う重量変化を評価したセルに組み込む前のNBR18系50/50ブレンド試料について，サ $\\yen 7$みをガラスデシケーター中に静置して $\\sigma _ { \\mathrm { w e t } }$測定と同じ条件下で十分に吸湿させた後，直ちに大気中に取り出して重量を測定した．このブレンド体の乾燥状態か$\\dot { 5 } \\textcircled { \\scriptsize { \\cdot } }$重量変化を測定したところ，電解質成分がPEO系では58.4％，P（EO/PO）系では38.7％，PM $\\mathrm { ( E O / P O ) _ { p o l y } }$系では37.1％， $\\mathrm { P M } \\left( \\mathrm { E O } / \\mathrm { P O } \\right) _ { \\mathrm { m o n o } }$系では31.7％の増加を示した．各ポリエーテル電解質単体の重量変化は，PEO-$\\mathrm { L i C l O _ { 4 } }$が 107.9 ％， $\\math"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.61
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe023",
+      "polymer_name": "ポリ塩化ビニル",
+      "polymer_type": "homopolymer",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "ポリ塩化ビニル",
+        "PVC"
+      ],
+      "resolved_from_mentions": [
+        "m110",
+        "m111",
+        "m114"
+      ],
+      "evidence": {
+        "block_id": "P_5_86",
+        "page": 5,
+        "bbox": [
+          68.0,
+          769.0,
+          480.0,
+          933.0
+        ],
+        "source_type": "text",
+        "source_sentence": "このような傾向を示す要因として，ブレンド体の作製法によるモルホロジーの変化が影響しているのではないかと考え，TEM測定によるNBR/電解質間の相構造の違いを観察した．その結果をFigure 8に示す．（a）のNBR/高分子ブレンド（ロール混練）では，グレーのNBR海相に対してサイズや形状が不均一な白色のPM（EO/PO）-LiClO（電解質）破砕片（島相）がサブマイクロからマイクロメートルオーダーで粗雑に分散しているのが分かる．一方，（b）のNBR/モノマー混合物の後重合ブレンドでは，（a）とは大きく異なり極めて小さなサイズ（100～200 nm程度）の球形の島相が，NBRドメイン相に均一分散した海―島相分離構造を有することが明らかとなった．（b）を拡大してみると，（c）のように20 nm前後のより小さい電解質島相がわずかに点在している様子も確認された．したがって，Fig-ure 6, 7に見られるような湿度環境による伝導度の変化を抑制する要因としては，（b）や（c）のように電解質成分が島相となるようなモルホロジーの形成にあることが分かった．さらに，単純に電解質が島相を形成するだけではなく，より微細な電解質島相が均一に分散したミクロ（or ナノ）相分離構造を形成することが，伝導度の湿度に対する安定性の向上には極めて有効であることを示唆した．重合後のPM（EO/PO）-LiClO<sub>4</sub>はほとんどの有機溶媒に不溶であり，NBRとのブレンドにはロールで混練する必要があった（a）からは，巨視的にはよく混ざっているように見えても微視的には相分離している様子が観察される．一方で，（b）や（c）のようなブレンドは，NBRとM（EO/PO）モノマーの混合物の段階では，既に相溶化した状態にあったのではないかと推察される．過去の研究例では，例えばAN量が23～45％のNBRは，ポリ塩化ビニル（PVC）と相溶することが知られており<sup>14）</sup>，PVCの衝撃強度を改善するための高分子可塑剤として既に実用化されている．NBR/PVCブレ"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.91
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe024",
+      "polymer_name": "ポリアクリロニトリル",
+      "polymer_type": "homopolymer",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "ポリアクリロニトリル"
+      ],
+      "resolved_from_mentions": [
+        "m120"
+      ],
+      "evidence": {
+        "block_id": "P_6_95",
+        "page": 6,
+        "bbox": [
+          65.0,
+          473.0,
+          478.0,
+          933.0
+        ],
+        "source_type": "text",
+        "source_sentence": "続いて，Figure 7 と同様の NBR/PM（EO/PO）<sub>mono</sub>-$\\mathrm { L i C l O _ { 4 } } \\supset V \\supset$ドに及ぼすNBRのAN量の影響を検討したNBR0およびNBR43系ブレンドの伝導度と電解質量の関係をFigure 9にまとめた．NBR0（BR）系ブレンドは，電解質量が50wt％以下では吸湿による伝導度の影響は5～10倍程度に抑制されているが，その値は $1 0 ^ { - 1 2 } \\sim 1 0 ^ { - 1 1 }$S$\\mathrm { c m } ^ { - 1 }$オーダーと著しく低く，NBR0単体と比較しても大きな上昇は見られない．NBR0中にはニトリル $\\mathrm { ( - C H _ { 2 } C N ) }$基が存在せず，そのため電解質相中の解離イオンはNBR相中を移動することができないため，伝導度が低い値にとどまったものと考えられる．電解質の相対量が増加してくるとイオン伝導度は急激に上昇する傾向が見られ，50/50ブレンド付近からは $1 0 ^ { - 1 0 }$S cm<sup>―</sup> <sup>1</sup>を上回っている．ところが， $3 0 / 7 0 > r \\nu >$ドでは， $\\sigma _ { \\mathrm { w e t } }$は $\\sigma _ { \\mathrm { d r y } }$よりも100倍以上高い値を示しており，電解質島相が大きくなっているか，もしくはNBR海相と共連続型のような相分離構造を形成している可能性がある．一方，AN量の多いNBR43系ブレンドでは，吸湿による伝導度の増加が極めて小さく抑えられており，50/50ブレンドではほぼ同じ値（ $( \\sigma _ { \\mathrm { w e t } } / \\sigma _ { \\mathrm { d r y } } =$1.04）となった．NBR43系ブレンドにおいても，Figure 8（b）のNBR18系と同じような微細相分離構造を有することがTEM観察の結果から示唆されており，海―島相分離構造の形成および微細化が吸湿による重量増加や伝導度の変化に及ぼす影響を抑制していると考えられる．さらに，NBR43系ブレンドはNBR0やNBR18のような低ニトリル系ブレンドよりも高い伝導度を発現し，電解質量の増加に伴い直線的に上昇することが分かった．一般的に，電解質材料中におけるニトリル基は，CN部の強い電子吸引性の影響でカチオン（本研究ではLiイオン）との間に強固なルイス酸-塩基相互作用を形成させることができるため，NBR<sup>12）</sup>やポリアクリロニトリル<sup>16）</sup>中（ゲル状態）で金属塩の解離やイオン輸送を発現させることができる．NBR43系ブレンドの高い伝導性は，解離イオンが電解質相中だけでなく，NBR海相中やNBR/電解質界面でも速いイオン移動が発現していることを示唆している．さらに，ニトリル基の増加はカチオンを介した静電的相互作用によってNBRと電解質の相溶性を更に増加させることにもつながると考えられ，Figure 9のような伝導度の上昇と湿度に対する安定性の向上を両立できたのではないかと考察している"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.88
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe025",
+      "polymer_name": "ポリエーテル系電解質",
+      "polymer_type": "homopolymer",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "ポリエーテル系電解質"
+      ],
+      "resolved_from_mentions": [
+        "m125"
+      ],
+      "evidence": {
+        "block_id": "P_7_105",
+        "page": 7,
+        "bbox": [
+          68.0,
+          546.0,
+          480.0,
+          933.0
+        ],
+        "source_type": "text",
+        "source_sentence": "本研究では，NBRおよびポリエーテル系電解質をベースとするエラストマーブレンドを作製し，直流イオン伝導度に及ぼす湿度環境の影響を明らかにした．また，DSC，TEM，およびDMAによる物性測定を行い，ブレンド組成との関係を解析した．その結果，NBR系ブレンドの湿度変化に対する伝導度の安定性に関しては，（1）疎水的なPO部を含むポリエーテル鎖（EO/PO共重合鎖）の導入，（2）電解質成分が島相となる海-島相分離構造の形成，（3）（2）の微細化および均一化，（4）ベースとなるNBRの高ニトリル化，が必要であることが分かった．これらの条件を満たすNBR43/PM（EO/PO）<sub>mono</sub>-LiClO<sub>4</sub>は，吸湿状態と乾燥状態の伝導度に差異がほとんど見られず，湿度環境に対する伝導度の安定性の向上が達成できた．50/50ブレンドのTEM測定の結果からは，電解質成分の球形島相が200～300 nmのオーダーでNBR海相中に均一に分散している様子が見られた．NBR43系ブレンドの複素インピーダンス測定からは，一部の組成の試料が電解質単体（PM（EO/PO）-LiClO ）よりも高いイオン伝導度を発現できることが分かり，NBR43/電解質ブレンド比が30/70では，25 ℃で6.7×10<sup>―</sup> <sup>6</sup> S cm<sup>―</sup> <sup>1</sup>を示した．NBR43系ブレンドでは，NBR/電解質界面におけるイオン移動抵抗は観測されず，多数のニトリル基の存在によるLiイオンとの静電的相互作用の影響や，それに伴う界面などの局所的な領域におけるイオン解離の促進やイオン伝導パスの発現が，イオン伝導度の上昇につながったものと考察した．今回のイオン伝導度の測定からは，これまでのSPEの限界である10<sup>―</sup> <sup>4</sup> Scm<sup>―</sup> <sup>1</sup>以上を達成することはできなかったが，ブレンド体で用いているSPEの単体を上回る値を発現させることに成功した．今後は，最適なエラストマーやモノマーの選択，ブレンド方法の確立，などによって更なるソフトイオニクス材料の発展と用途開拓を目指したい"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.77
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe026",
+      "polymer_name": "ポリエーテル鎖",
+      "polymer_type": "homopolymer",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "ポリエーテル鎖"
+      ],
+      "resolved_from_mentions": [
+        "m126"
+      ],
+      "evidence": {
+        "block_id": "P_7_105",
+        "page": 7,
+        "bbox": [
+          68.0,
+          546.0,
+          480.0,
+          933.0
+        ],
+        "source_type": "text",
+        "source_sentence": "本研究では，NBRおよびポリエーテル系電解質をベースとするエラストマーブレンドを作製し，直流イオン伝導度に及ぼす湿度環境の影響を明らかにした．また，DSC，TEM，およびDMAによる物性測定を行い，ブレンド組成との関係を解析した．その結果，NBR系ブレンドの湿度変化に対する伝導度の安定性に関しては，（1）疎水的なPO部を含むポリエーテル鎖（EO/PO共重合鎖）の導入，（2）電解質成分が島相となる海-島相分離構造の形成，（3）（2）の微細化および均一化，（4）ベースとなるNBRの高ニトリル化，が必要であることが分かった．これらの条件を満たすNBR43/PM（EO/PO）<sub>mono</sub>-LiClO<sub>4</sub>は，吸湿状態と乾燥状態の伝導度に差異がほとんど見られず，湿度環境に対する伝導度の安定性の向上が達成できた．50/50ブレンドのTEM測定の結果からは，電解質成分の球形島相が200～300 nmのオーダーでNBR海相中に均一に分散している様子が見られた．NBR43系ブレンドの複素インピーダンス測定からは，一部の組成の試料が電解質単体（PM（EO/PO）-LiClO ）よりも高いイオン伝導度を発現できることが分かり，NBR43/電解質ブレンド比が30/70では，25 ℃で6.7×10<sup>―</sup> <sup>6</sup> S cm<sup>―</sup> <sup>1</sup>を示した．NBR43系ブレンドでは，NBR/電解質界面におけるイオン移動抵抗は観測されず，多数のニトリル基の存在によるLiイオンとの静電的相互作用の影響や，それに伴う界面などの局所的な領域におけるイオン解離の促進やイオン伝導パスの発現が，イオン伝導度の上昇につながったものと考察した．今回のイオン伝導度の測定からは，これまでのSPEの限界である10<sup>―</sup> <sup>4</sup> Scm<sup>―</sup> <sup>1</sup>以上を達成することはできなかったが，ブレンド体で用いているSPEの単体を上回る値を発現させることに成功した．今後は，最適なエラストマーやモノマーの選択，ブレンド方法の確立，などによって更なるソフトイオニクス材料の発展と用途開拓を目指したい"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.72
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe027",
+      "polymer_name": "EO/PO共重合鎖",
+      "polymer_type": "copolymer",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "EO/PO共重合鎖"
+      ],
+      "resolved_from_mentions": [
+        "m127"
+      ],
+      "evidence": {
+        "block_id": "P_7_105",
+        "page": 7,
+        "bbox": [
+          68.0,
+          546.0,
+          480.0,
+          933.0
+        ],
+        "source_type": "text",
+        "source_sentence": "本研究では，NBRおよびポリエーテル系電解質をベースとするエラストマーブレンドを作製し，直流イオン伝導度に及ぼす湿度環境の影響を明らかにした．また，DSC，TEM，およびDMAによる物性測定を行い，ブレンド組成との関係を解析した．その結果，NBR系ブレンドの湿度変化に対する伝導度の安定性に関しては，（1）疎水的なPO部を含むポリエーテル鎖（EO/PO共重合鎖）の導入，（2）電解質成分が島相となる海-島相分離構造の形成，（3）（2）の微細化および均一化，（4）ベースとなるNBRの高ニトリル化，が必要であることが分かった．これらの条件を満たすNBR43/PM（EO/PO）<sub>mono</sub>-LiClO<sub>4</sub>は，吸湿状態と乾燥状態の伝導度に差異がほとんど見られず，湿度環境に対する伝導度の安定性の向上が達成できた．50/50ブレンドのTEM測定の結果からは，電解質成分の球形島相が200～300 nmのオーダーでNBR海相中に均一に分散している様子が見られた．NBR43系ブレンドの複素インピーダンス測定からは，一部の組成の試料が電解質単体（PM（EO/PO）-LiClO ）よりも高いイオン伝導度を発現できることが分かり，NBR43/電解質ブレンド比が30/70では，25 ℃で6.7×10<sup>―</sup> <sup>6</sup> S cm<sup>―</sup> <sup>1</sup>を示した．NBR43系ブレンドでは，NBR/電解質界面におけるイオン移動抵抗は観測されず，多数のニトリル基の存在によるLiイオンとの静電的相互作用の影響や，それに伴う界面などの局所的な領域におけるイオン解離の促進やイオン伝導パスの発現が，イオン伝導度の上昇につながったものと考察した．今回のイオン伝導度の測定からは，これまでのSPEの限界である10<sup>―</sup> <sup>4</sup> Scm<sup>―</sup> <sup>1</sup>以上を達成することはできなかったが，ブレンド体で用いているSPEの単体を上回る値を発現させることに成功した．今後は，最適なエラストマーやモノマーの選択，ブレンド方法の確立，などによって更なるソフトイオニクス材料の発展と用途開拓を目指したい"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.75
+      },
+      "copolymer_type": null
+    }
+  ],
+  "unresolved_mention_ids": [
+    "m133",
+    "m134",
+    "m079",
+    "m105"
+  ],
+  "provenance": {
+    "stage": "stage2_polymer_entity",
+    "provider": "dmx",
+    "model": "gpt-5.6-terra-2026-07-09",
+    "models": [
+      "gpt-5.6-terra-2026-07-09"
+    ],
+    "prompt_id": "polymer.stage2.polymer_entity",
+    "prompt_version": "1.3.0",
+    "prompt_sha256": "0d376da340b979a77fcd231e0148cc26c8b9d125f7209025c7055483abb7d7e1",
+    "input_hash": "9f0557beb5845ea22e719ce635832b9c6bb3a11f9ba27a1c19dc4a93859f38fc",
+    "model_config_hash": "c9e96c2514956e7b4b65eae3d327d34f95b7a33876cec6d4aa56f95eb79a9b50",
+    "cache_key": "5b0983d0cda22dbbba7d0acfc9a5f985b8e0ce5670d09b505c0cb9901f4c9436",
+    "output_schema_version": "polymer_entity_schema.v3",
+    "implementation_version": "1.4.0",
+    "context_block_count": 36,
+    "context_chars": 26699,
+    "call_count": 1,
+    "usage": {
+      "input_tokens": 55365,
+      "output_tokens": 13731,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "billable_input_tokens": 55365,
+      "total_tokens": 69096
+    },
+    "cost": {
+      "status": "calculated",
+      "currency": "CNY",
+      "input_per_million": "17",
+      "output_per_million": "101",
+      "input_cost": "0.941205",
+      "output_cost": "1.386831",
+      "total_cost": "2.328036"
+    },
+    "status": "success"
+  },
+  "warnings": [
+    {
+      "stage": "stage2_polymer_entity",
+      "code": "section_fallback",
+      "message": "Methods/Results 为空，仅使用 Stage 1 mention 的 evidence block；结果需人工复核"
+    },
+    {
+      "stage": "stage2_polymer_entity",
+      "code": "evidence_surface_whitespace_recovered",
+      "message": "仅按空白等价在同一 block 内恢复了原文 evidence 表面文本",
+      "items": [
+        {
+          "entity_id": "pe003",
+          "block_id": "P_1_31",
+          "field": "evidence.source_sentence"
+        },
+        {
+          "entity_id": "pe004",
+          "block_id": "P_1_31",
+          "field": "evidence.source_sentence"
+        },
+        {
+          "entity_id": "pe009",
+          "block_id": "P_1_31",
+          "field": "evidence.source_sentence"
+        },
+        {
+          "entity_id": "pe017",
+          "block_id": "P_1_31",
+          "field": "evidence.source_sentence"
+        },
+        {
+          "entity_id": "pe022",
+          "block_id": "P_3_66",
+          "field": "evidence.source_sentence"
+        }
+      ]
+    },
+    {
+      "stage": "stage2_polymer_entity",
+      "code": "component_blend_nested_mentions_split",
+      "message": "组分名称与包含该名称的 blend 实体已保留为不同实体",
+      "items": [
+        {
+          "shorter_mention_id": "m087",
+          "longer_mention_id": "m086",
+          "component_entity_id": "pe002",
+          "blend_entity_id": "pe022"
+        }
+      ]
+    },
+    {
+      "stage": "stage2_polymer_entity",
+      "code": "preview_nested_mentions_split_retained",
+      "message": "Preview 模式已保留无法确定合并关系的嵌套 mention 拆分；需在正式数据中复核",
+      "items": [
+        {
+          "shorter_mention_id": "m109",
+          "longer_mention_id": "m108",
+          "shorter_assignment": "pe009",
+          "longer_assignment": "pe010"
+        }
+      ]
+    },
+    {
+      "stage": "stage2_polymer_entity",
+      "code": "preview_entity_evidence_inherited_from_mention",
+      "message": "Preview 模式已从同名、同 block 的 Stage 1 mention 继承逐字 evidence sentence",
+      "items": [
+        {
+          "entity_id": "pe003",
+          "mention_id": "m026",
+          "block_id": "P_1_31"
+        },
+        {
+          "entity_id": "pe004",
+          "mention_id": "m027",
+          "block_id": "P_1_31"
+        },
+        {
+          "entity_id": "pe009",
+          "mention_id": "m034",
+          "block_id": "P_1_31"
+        },
+        {
+          "entity_id": "pe017",
+          "mention_id": "m030",
+          "block_id": "P_1_31"
+        },
+        {
+          "entity_id": "pe022",
+          "mention_id": "m086",
+          "block_id": "P_3_66"
+        }
+      ]
+    },
+    {
+      "stage": "stage2_polymer_entity",
+      "code": "missing_mentions_marked_unresolved",
+      "message": "模型漏覆盖的 mention 已保守标记为 unresolved",
+      "mention_ids": [
+        "m079",
+        "m105"
+      ]
+    },
+    {
+      "stage": "stage2_polymer_entity",
+      "code": "unresolved_mentions",
+      "message": "4 个 mention 未解析为实体，已原样保留引用",
+      "mention_ids": [
+        "m133",
+        "m134",
+        "m079",
+        "m105"
+      ]
+    },
+    {
+      "stage": "stage2_polymer_entity",
+      "code": "polymer_type_default_inferred",
+      "message": "Backfill：无共聚或共混反证的实体已推断为 homopolymer",
+      "items": [
+        {
+          "entity_id": "pe001",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe002",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe003",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe004",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe005",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe006",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe011",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe014",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe015",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe016",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe017",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe023",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe024",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe025",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe026",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        }
+      ],
+      "backfill": true
+    }
+  ]
+}

@@ -1,0 +1,2179 @@
+{
+  "schema_version": "1.0",
+  "document_id": "reference_no_0038813",
+  "measurement_conditions": [
+    {
+      "condition_id": "mc001",
+      "temperature": {
+        "raw": "30 ^ { \\circ } \\mathrm { C }",
+        "value": 30.0,
+        "unit": "°C",
+        "evidence": [
+          {
+            "block_id": "P_1_21",
+            "page": 1,
+            "bbox": [
+              53.0,
+              330.0,
+              467.0,
+              787.0
+            ],
+            "source_type": "text",
+            "source_sentence": "Inherent viscosities were measured using an Ubbelohde viscometer at a concentration of 0.5 g/dl in NMP at $3 0 ^ { \\circ } \\mathrm { C }$"
+          }
+        ],
+        "evidence_ids": []
+      },
+      "other_conditions": {
+        "solvent": "NMP",
+        "concentration": "0.5 g/dl"
+      },
+      "other_condition_evidence": {
+        "solvent": [
+          {
+            "block_id": "P_1_21",
+            "page": 1,
+            "bbox": [
+              53.0,
+              330.0,
+              467.0,
+              787.0
+            ],
+            "source_type": "text",
+            "source_sentence": "Inherent viscosities were measured using an Ubbelohde viscometer at a concentration of 0.5 g/dl in NMP at $3 0 ^ { \\circ } \\mathrm { C }$"
+          }
+        ],
+        "concentration": [
+          {
+            "block_id": "P_1_21",
+            "page": 1,
+            "bbox": [
+              53.0,
+              330.0,
+              467.0,
+              787.0
+            ],
+            "source_type": "text",
+            "source_sentence": "Inherent viscosities were measured using an Ubbelohde viscometer at a concentration of 0.5 g/dl in NMP at $3 0 ^ { \\circ } \\mathrm { C }$"
+          }
+        ]
+      },
+      "condition_status": "reported",
+      "evidence": {
+        "block_id": "P_1_21",
+        "page": 1,
+        "bbox": [
+          53.0,
+          330.0,
+          467.0,
+          787.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Inherent viscosities were measured using an Ubbelohde viscometer at a concentration of 0.5 g/dl in NMP at $3 0 ^ { \\circ } \\mathrm { C }$"
+      },
+      "confidence": {
+        "score": 0.95
+      }
+    },
+    {
+      "condition_id": "mc002",
+      "other_conditions": {
+        "solvent": "DMF",
+        "flow_rate": "1 ml/min",
+        "calibration_standard": "polystyrene"
+      },
+      "other_condition_evidence": {
+        "solvent": [
+          {
+            "block_id": "P_1_21",
+            "page": 1,
+            "bbox": [
+              53.0,
+              330.0,
+              467.0,
+              787.0
+            ],
+            "source_type": "text",
+            "source_sentence": "dimethylformamide (DMF) was used as a solvent"
+          }
+        ],
+        "flow_rate": [
+          {
+            "block_id": "P_1_21",
+            "page": 1,
+            "bbox": [
+              53.0,
+              330.0,
+              467.0,
+              787.0
+            ],
+            "source_type": "text",
+            "source_sentence": "flow rate of 1 ml/min"
+          }
+        ],
+        "calibration_standard": [
+          {
+            "block_id": "P_1_21",
+            "page": 1,
+            "bbox": [
+              53.0,
+              330.0,
+              467.0,
+              787.0
+            ],
+            "source_type": "text",
+            "source_sentence": "molecular weight calibration was carried out using polystyrene standards"
+          }
+        ]
+      },
+      "condition_status": "reported",
+      "evidence": {
+        "block_id": "P_1_21",
+        "page": 1,
+        "bbox": [
+          53.0,
+          330.0,
+          467.0,
+          787.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Gel permeation chromatography (GPC) was performed on a Waters 150-C instrument using Styragel columns and a differential refractometer detector. The molecular weight calibration was carried out using polystyrene standards. Calibration and measurements were made at a flow rate of 1 ml/min, and dimethylformamide (DMF) was used as a solvent."
+      },
+      "confidence": {
+        "score": 0.95
+      }
+    },
+    {
+      "condition_id": "mc003",
+      "frequency": {
+        "raw": "1 Hz",
+        "value": 1.0,
+        "unit": "Hz",
+        "evidence": [
+          {
+            "block_id": "P_1_21",
+            "page": 1,
+            "bbox": [
+              53.0,
+              330.0,
+              467.0,
+              787.0
+            ],
+            "source_type": "text",
+            "source_sentence": "at 1 Hz"
+          }
+        ],
+        "evidence_ids": []
+      },
+      "other_conditions": {
+        "DSC_atmosphere": "air",
+        "DMTA_temperature_range": "25-300 °C",
+        "TGA_atmosphere": "air"
+      },
+      "other_condition_evidence": {
+        "DSC_atmosphere": [
+          {
+            "block_id": "P_1_21",
+            "page": 1,
+            "bbox": [
+              53.0,
+              330.0,
+              467.0,
+              787.0
+            ],
+            "source_type": "text",
+            "source_sentence": "in air"
+          }
+        ],
+        "DMTA_temperature_range": [
+          {
+            "block_id": "P_1_21",
+            "page": 1,
+            "bbox": [
+              53.0,
+              330.0,
+              467.0,
+              787.0
+            ],
+            "source_type": "text",
+            "source_sentence": "temperature range of $2 5 { - } 3 0 0 ^ { \\circ } \\mathrm { C }$"
+          }
+        ],
+        "TGA_atmosphere": [
+          {
+            "block_id": "P_1_21",
+            "page": 1,
+            "bbox": [
+              53.0,
+              330.0,
+              467.0,
+              787.0
+            ],
+            "source_type": "text",
+            "source_sentence": "in air"
+          }
+        ]
+      },
+      "condition_status": "reported",
+      "evidence": {
+        "block_id": "P_1_21",
+        "page": 1,
+        "bbox": [
+          53.0,
+          330.0,
+          467.0,
+          787.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Differential scanning calorimetry (DSC) and thermogravimetric analysis (TGA) were recorded duplicate on a Stanton Redcraft STA-780 (London, UK) in air at a heating rate of 108C/min. The dynamic mechanical measurements were recorded on a Polymer Laboratories dynamic mechanical thermal analyzer over a temperature range of $2 5 { - } 3 0 0 ^ { \\circ } \\mathrm { C }$ at 1 Hz and a heating rate of 58C/min (Surrey, UK)."
+      },
+      "confidence": {
+        "score": 0.95
+      }
+    },
+    {
+      "condition_id": "mc004",
+      "other_conditions": {
+        "solvent": "NMP"
+      },
+      "other_condition_evidence": {
+        "solvent": [
+          {
+            "block_id": "P_6_89",
+            "page": 6,
+            "bbox": [
+              529.0,
+              391.0,
+              942.0,
+              477.0
+            ],
+            "source_type": "text",
+            "source_sentence": "in NMP solution"
+          }
+        ]
+      },
+      "condition_status": "reported",
+      "evidence": {
+        "block_id": "P_6_89",
+        "page": 6,
+        "bbox": [
+          529.0,
+          391.0,
+          942.0,
+          477.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The optical properties of polymers were investigated by measuring ultraviolet–visible (UV–Vis) absorption in NMP solution."
+      },
+      "confidence": {
+        "score": 0.95
+      }
+    },
+    {
+      "condition_id": "mc005",
+      "other_conditions": {},
+      "other_condition_evidence": {},
+      "condition_status": "not_reported",
+      "evidence": {
+        "block_id": "T_7_98",
+        "page": 7,
+        "bbox": [
+          55.0,
+          223.0,
+          463.0,
+          345.0
+        ],
+        "source_type": "table",
+        "source_sentence": "Table 5. Solubility of poly(amide-urea)s"
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "condition_id": "mc006",
+      "other_conditions": {},
+      "other_condition_evidence": {},
+      "condition_status": "not_reported",
+      "evidence": {
+        "block_id": "T_5_77",
+        "page": 5,
+        "bbox": [
+          55.0,
+          80.0,
+          905.0,
+          522.0
+        ],
+        "source_type": "table",
+        "source_sentence": "Table 1. Characterization of polymers",
+        "table_locator": {
+          "table_id": "T_5_77",
+          "row_label": "Polymer",
+          "column_label": "Polymer",
+          "cell_value": "Polymer",
+          "cell_id": "T_5_77:r0000:c0000",
+          "row_index": 0,
+          "column_index": 0
+        }
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    }
+  ],
+  "properties": [],
+  "unresolved_properties": [
+    {
+      "unresolved_id": "uprop001",
+      "entity_id": "pe002",
+      "property_name_raw": "$M_n$",
+      "determination_method_raw": "GPC",
+      "observation_role": "single",
+      "value_raw": "14,200 to 22,000",
+      "measurement_context": {
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "reason": "sample_ambiguous",
+      "evidence": [
+        {
+          "block_id": "P_6_83",
+          "page": 6,
+          "bbox": [
+            87.0,
+            93.0,
+            500.0,
+            249.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The numerous molecular weights $\\left( M _ { \\mathrm { n } } \\right)$ranged from 14,200 to 22,000 corresponding to a degree of polymerization between 25 and 42."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "unresolved_id": "uprop002",
+      "entity_id": "pe002",
+      "property_name_raw": "$M_w$",
+      "determination_method_raw": "GPC",
+      "observation_role": "single",
+      "value_raw": "35,700 to 48,500",
+      "measurement_context": {
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "reason": "sample_ambiguous",
+      "evidence": [
+        {
+          "block_id": "P_6_83",
+          "page": 6,
+          "bbox": [
+            87.0,
+            93.0,
+            500.0,
+            249.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The $M _ { \\mathrm { w } }$values were about 35,700–48,500 which means that the ratio of $M _ { \\mathrm { w } } / M _ { \\mathrm { n } }$was between 2.20 and 2.51."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    }
+  ],
+  "property_series": [
+    {
+      "series_id": "series001",
+      "sample_resolution_status": "unresolved",
+      "property_name_raw": "Yield",
+      "unit_raw": "%",
+      "unit_normalized": "%",
+      "measurement_context": {
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "points": [
+        {
+          "point_id": "pt001",
+          "observation_role": "series_point",
+          "sample_id": "s002",
+          "entity_id": "pe006",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "92",
+          "value_min": 92.0,
+          "value_max": 92.0,
+          "measurement_context": {
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_5_77",
+              "page": 5,
+              "bbox": [
+                55.0,
+                80.0,
+                905.0,
+                522.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 1. Characterization of polymers",
+              "table_locator": {
+                "table_id": "T_5_77",
+                "row_label": "1AQA-PPDI",
+                "column_label": "Yield (%)",
+                "cell_value": "92",
+                "cell_id": "T_5_77:r0001:c0003",
+                "row_index": 1,
+                "column_index": 3
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt002",
+          "observation_role": "series_point",
+          "sample_id": "s003",
+          "entity_id": "pe007",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "89",
+          "value_min": 89.0,
+          "value_max": 89.0,
+          "measurement_context": {
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_5_77",
+              "page": 5,
+              "bbox": [
+                55.0,
+                80.0,
+                905.0,
+                522.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 1. Characterization of polymers",
+              "table_locator": {
+                "table_id": "T_5_77",
+                "row_label": "1AQA-NDI",
+                "column_label": "Yield (%)",
+                "cell_value": "89",
+                "cell_id": "T_5_77:r0005:c0003",
+                "row_index": 5,
+                "column_index": 3
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt003",
+          "observation_role": "series_point",
+          "sample_id": "s004",
+          "entity_id": "pe008",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "93",
+          "value_min": 93.0,
+          "value_max": 93.0,
+          "measurement_context": {
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_5_77",
+              "page": 5,
+              "bbox": [
+                55.0,
+                80.0,
+                905.0,
+                522.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 1. Characterization of polymers",
+              "table_locator": {
+                "table_id": "T_5_77",
+                "row_label": "1AQA-MDI",
+                "column_label": "Yield (%)",
+                "cell_value": "93",
+                "cell_id": "T_5_77:r0009:c0003",
+                "row_index": 9,
+                "column_index": 3
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt004",
+          "observation_role": "series_point",
+          "sample_id": "s005",
+          "entity_id": "pe009",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "88",
+          "value_min": 88.0,
+          "value_max": 88.0,
+          "measurement_context": {
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_5_77",
+              "page": 5,
+              "bbox": [
+                55.0,
+                80.0,
+                905.0,
+                522.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 1. Characterization of polymers",
+              "table_locator": {
+                "table_id": "T_5_77",
+                "row_label": "1AQA-H $_{12}$ MDI",
+                "column_label": "Yield (%)",
+                "cell_value": "88",
+                "cell_id": "T_5_77:r0013:c0003",
+                "row_index": 13,
+                "column_index": 3
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt005",
+          "observation_role": "series_point",
+          "sample_id": "s006",
+          "entity_id": "pe010",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "87",
+          "value_min": 87.0,
+          "value_max": 87.0,
+          "measurement_context": {
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_5_77",
+              "page": 5,
+              "bbox": [
+                55.0,
+                80.0,
+                905.0,
+                522.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 1. Characterization of polymers",
+              "table_locator": {
+                "table_id": "T_5_77",
+                "row_label": "2AQA-PPDI",
+                "column_label": "Yield (%)",
+                "cell_value": "87",
+                "cell_id": "T_5_77:r0017:c0003",
+                "row_index": 17,
+                "column_index": 3
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt006",
+          "observation_role": "series_point",
+          "sample_id": "s007",
+          "entity_id": "pe011",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "91",
+          "value_min": 91.0,
+          "value_max": 91.0,
+          "measurement_context": {
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_5_77",
+              "page": 5,
+              "bbox": [
+                55.0,
+                80.0,
+                905.0,
+                522.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 1. Characterization of polymers",
+              "table_locator": {
+                "table_id": "T_5_77",
+                "row_label": "2AQA-NDI",
+                "column_label": "Yield (%)",
+                "cell_value": "91",
+                "cell_id": "T_5_77:r0021:c0003",
+                "row_index": 21,
+                "column_index": 3
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt007",
+          "observation_role": "series_point",
+          "sample_id": "s008",
+          "entity_id": "pe012",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "90",
+          "value_min": 90.0,
+          "value_max": 90.0,
+          "measurement_context": {
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_5_77",
+              "page": 5,
+              "bbox": [
+                55.0,
+                80.0,
+                905.0,
+                522.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 1. Characterization of polymers",
+              "table_locator": {
+                "table_id": "T_5_77",
+                "row_label": "2AQA-MDI",
+                "column_label": "Yield (%)",
+                "cell_value": "90",
+                "cell_id": "T_5_77:r0025:c0003",
+                "row_index": 25,
+                "column_index": 3
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt008",
+          "observation_role": "series_point",
+          "sample_id": "s009",
+          "entity_id": "pe013",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "89",
+          "value_min": 89.0,
+          "value_max": 89.0,
+          "measurement_context": {
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_5_77",
+              "page": 5,
+              "bbox": [
+                55.0,
+                80.0,
+                905.0,
+                522.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 1. Characterization of polymers",
+              "table_locator": {
+                "table_id": "T_5_77",
+                "row_label": "2AQA-H $_{12}$ MDI",
+                "column_label": "Yield (%)",
+                "cell_value": "89",
+                "cell_id": "T_5_77:r0029:c0003",
+                "row_index": 29,
+                "column_index": 3
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        }
+      ],
+      "coverage": {
+        "expected": 8,
+        "covered": 8,
+        "missing": 0,
+        "not_applicable": 0,
+        "ratio": 1.0
+      },
+      "evidence": [
+        {
+          "block_id": "T_5_77",
+          "page": 5,
+          "bbox": [
+            55.0,
+            80.0,
+            905.0,
+            522.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table 1. Characterization of polymers",
+          "table_locator": {
+            "table_id": "T_5_77",
+            "row_label": "1AQA-PPDI",
+            "column_label": "Yield (%)",
+            "cell_value": "92",
+            "cell_id": "T_5_77:r0001:c0003",
+            "row_index": 1,
+            "column_index": 3
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "series_id": "series002",
+      "sample_resolution_status": "unresolved",
+      "property_name_raw": "$\\eta_{\\text{inh}}$",
+      "property_name_normalized": "intrinsic_viscosity",
+      "property_code": "P6120",
+      "property_category": "dilute_solution_property",
+      "determination_method_raw": "Ubbelohde viscometer",
+      "unit_raw": "dl/g",
+      "unit_normalized": "dl/g",
+      "measurement_context": {
+        "temperature": {
+          "raw": "30 ^ { \\circ } \\mathrm { C }",
+          "value": 30.0,
+          "unit": "°C",
+          "evidence": [
+            {
+              "block_id": "P_1_21",
+              "page": 1,
+              "bbox": [
+                53.0,
+                330.0,
+                467.0,
+                787.0
+              ],
+              "source_type": "text",
+              "source_sentence": "Inherent viscosities were measured using an Ubbelohde viscometer at a concentration of 0.5 g/dl in NMP at $3 0 ^ { \\circ } \\mathrm { C }$"
+            }
+          ],
+          "evidence_ids": []
+        },
+        "other_conditions": {
+          "solvent": "NMP",
+          "concentration": "0.5 g/dl"
+        },
+        "other_condition_evidence": {
+          "solvent": [
+            {
+              "block_id": "P_1_21",
+              "page": 1,
+              "bbox": [
+                53.0,
+                330.0,
+                467.0,
+                787.0
+              ],
+              "source_type": "text",
+              "source_sentence": "Inherent viscosities were measured using an Ubbelohde viscometer at a concentration of 0.5 g/dl in NMP at $3 0 ^ { \\circ } \\mathrm { C }$"
+            }
+          ],
+          "concentration": [
+            {
+              "block_id": "P_1_21",
+              "page": 1,
+              "bbox": [
+                53.0,
+                330.0,
+                467.0,
+                787.0
+              ],
+              "source_type": "text",
+              "source_sentence": "Inherent viscosities were measured using an Ubbelohde viscometer at a concentration of 0.5 g/dl in NMP at $3 0 ^ { \\circ } \\mathrm { C }$"
+            }
+          ]
+        },
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "points": [
+        {
+          "point_id": "pt009",
+          "observation_role": "series_point",
+          "sample_id": "s002",
+          "entity_id": "pe006",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "0.73",
+          "value_min": 0.73,
+          "value_max": 0.73,
+          "measurement_context": {
+            "temperature": {
+              "raw": "30 ^ { \\circ } \\mathrm { C }",
+              "value": 30.0,
+              "unit": "°C",
+              "evidence": [
+                {
+                  "block_id": "P_1_21",
+                  "page": 1,
+                  "bbox": [
+                    53.0,
+                    330.0,
+                    467.0,
+                    787.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "Inherent viscosities were measured using an Ubbelohde viscometer at a concentration of 0.5 g/dl in NMP at $3 0 ^ { \\circ } \\mathrm { C }$"
+                }
+              ],
+              "evidence_ids": []
+            },
+            "other_conditions": {
+              "solvent": "NMP",
+              "concentration": "0.5 g/dl"
+            },
+            "other_condition_evidence": {
+              "solvent": [
+                {
+                  "block_id": "P_1_21",
+                  "page": 1,
+                  "bbox": [
+                    53.0,
+                    330.0,
+                    467.0,
+                    787.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "Inherent viscosities were measured using an Ubbelohde viscometer at a concentration of 0.5 g/dl in NMP at $3 0 ^ { \\circ } \\mathrm { C }$"
+                }
+              ],
+              "concentration": [
+                {
+                  "block_id": "P_1_21",
+                  "page": 1,
+                  "bbox": [
+                    53.0,
+                    330.0,
+                    467.0,
+                    787.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "Inherent viscosities were measured using an Ubbelohde viscometer at a concentration of 0.5 g/dl in NMP at $3 0 ^ { \\circ } \\mathrm { C }$"
+                }
+              ]
+            },
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_5_78",
+              "page": 5,
+              "bbox": [
+                55.0,
+                581.0,
+                905.0,
+                899.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 2. Elemental analysis, viscosity, and molecular weights of polymers",
+              "table_locator": {
+                "table_id": "T_5_78",
+                "row_label": "Found",
+                "column_label": "$\\eta_{\\text{inh}}$ (dl/g) $^a$",
+                "cell_value": "0.73",
+                "cell_id": "T_5_78:r0004:c0004",
+                "row_index": 4,
+                "column_index": 4
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.95
+          }
+        },
+        {
+          "point_id": "pt010",
+          "observation_role": "series_point",
+          "sample_id": "s004",
+          "entity_id": "pe008",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "0.66",
+          "value_min": 0.66,
+          "value_max": 0.66,
+          "measurement_context": {
+            "temperature": {
+              "raw": "30 ^ { \\circ } \\mathrm { C }",
+              "value": 30.0,
+              "unit": "°C",
+              "evidence": [
+                {
+                  "block_id": "P_1_21",
+                  "page": 1,
+                  "bbox": [
+                    53.0,
+                    330.0,
+                    467.0,
+                    787.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "Inherent viscosities were measured using an Ubbelohde viscometer at a concentration of 0.5 g/dl in NMP at $3 0 ^ { \\circ } \\mathrm { C }$"
+                }
+              ],
+              "evidence_ids": []
+            },
+            "other_conditions": {
+              "solvent": "NMP",
+              "concentration": "0.5 g/dl"
+            },
+            "other_condition_evidence": {
+              "solvent": [
+                {
+                  "block_id": "P_1_21",
+                  "page": 1,
+                  "bbox": [
+                    53.0,
+                    330.0,
+                    467.0,
+                    787.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "Inherent viscosities were measured using an Ubbelohde viscometer at a concentration of 0.5 g/dl in NMP at $3 0 ^ { \\circ } \\mathrm { C }$"
+                }
+              ],
+              "concentration": [
+                {
+                  "block_id": "P_1_21",
+                  "page": 1,
+                  "bbox": [
+                    53.0,
+                    330.0,
+                    467.0,
+                    787.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "Inherent viscosities were measured using an Ubbelohde viscometer at a concentration of 0.5 g/dl in NMP at $3 0 ^ { \\circ } \\mathrm { C }$"
+                }
+              ]
+            },
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_5_78",
+              "page": 5,
+              "bbox": [
+                55.0,
+                581.0,
+                905.0,
+                899.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 2. Elemental analysis, viscosity, and molecular weights of polymers",
+              "table_locator": {
+                "table_id": "T_5_78",
+                "row_label": "Found",
+                "column_label": "$\\eta_{\\text{inh}}$ (dl/g) $^a$",
+                "cell_value": "0.66",
+                "cell_id": "T_5_78:r0010:c0004",
+                "row_index": 10,
+                "column_index": 4
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.95
+          }
+        },
+        {
+          "point_id": "pt011",
+          "observation_role": "series_point",
+          "sample_id": "s006",
+          "entity_id": "pe010",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "0.62",
+          "value_min": 0.62,
+          "value_max": 0.62,
+          "measurement_context": {
+            "temperature": {
+              "raw": "30 ^ { \\circ } \\mathrm { C }",
+              "value": 30.0,
+              "unit": "°C",
+              "evidence": [
+                {
+                  "block_id": "P_1_21",
+                  "page": 1,
+                  "bbox": [
+                    53.0,
+                    330.0,
+                    467.0,
+                    787.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "Inherent viscosities were measured using an Ubbelohde viscometer at a concentration of 0.5 g/dl in NMP at $3 0 ^ { \\circ } \\mathrm { C }$"
+                }
+              ],
+              "evidence_ids": []
+            },
+            "other_conditions": {
+              "solvent": "NMP",
+              "concentration": "0.5 g/dl"
+            },
+            "other_condition_evidence": {
+              "solvent": [
+                {
+                  "block_id": "P_1_21",
+                  "page": 1,
+                  "bbox": [
+                    53.0,
+                    330.0,
+                    467.0,
+                    787.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "Inherent viscosities were measured using an Ubbelohde viscometer at a concentration of 0.5 g/dl in NMP at $3 0 ^ { \\circ } \\mathrm { C }$"
+                }
+              ],
+              "concentration": [
+                {
+                  "block_id": "P_1_21",
+                  "page": 1,
+                  "bbox": [
+                    53.0,
+                    330.0,
+                    467.0,
+                    787.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "Inherent viscosities were measured using an Ubbelohde viscometer at a concentration of 0.5 g/dl in NMP at $3 0 ^ { \\circ } \\mathrm { C }$"
+                }
+              ]
+            },
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_5_78",
+              "page": 5,
+              "bbox": [
+                55.0,
+                581.0,
+                905.0,
+                899.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 2. Elemental analysis, viscosity, and molecular weights of polymers",
+              "table_locator": {
+                "table_id": "T_5_78",
+                "row_label": "Found",
+                "column_label": "$\\eta_{\\text{inh}}$ (dl/g) $^a$",
+                "cell_value": "0.62",
+                "cell_id": "T_5_78:r0016:c0004",
+                "row_index": 16,
+                "column_index": 4
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.95
+          }
+        },
+        {
+          "point_id": "pt012",
+          "observation_role": "series_point",
+          "sample_id": "s007",
+          "entity_id": "pe011",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "0.54",
+          "value_min": 0.54,
+          "value_max": 0.54,
+          "measurement_context": {
+            "temperature": {
+              "raw": "30 ^ { \\circ } \\mathrm { C }",
+              "value": 30.0,
+              "unit": "°C",
+              "evidence": [
+                {
+                  "block_id": "P_1_21",
+                  "page": 1,
+                  "bbox": [
+                    53.0,
+                    330.0,
+                    467.0,
+                    787.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "Inherent viscosities were measured using an Ubbelohde viscometer at a concentration of 0.5 g/dl in NMP at $3 0 ^ { \\circ } \\mathrm { C }$"
+                }
+              ],
+              "evidence_ids": []
+            },
+            "other_conditions": {
+              "solvent": "NMP",
+              "concentration": "0.5 g/dl"
+            },
+            "other_condition_evidence": {
+              "solvent": [
+                {
+                  "block_id": "P_1_21",
+                  "page": 1,
+                  "bbox": [
+                    53.0,
+                    330.0,
+                    467.0,
+                    787.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "Inherent viscosities were measured using an Ubbelohde viscometer at a concentration of 0.5 g/dl in NMP at $3 0 ^ { \\circ } \\mathrm { C }$"
+                }
+              ],
+              "concentration": [
+                {
+                  "block_id": "P_1_21",
+                  "page": 1,
+                  "bbox": [
+                    53.0,
+                    330.0,
+                    467.0,
+                    787.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "Inherent viscosities were measured using an Ubbelohde viscometer at a concentration of 0.5 g/dl in NMP at $3 0 ^ { \\circ } \\mathrm { C }$"
+                }
+              ]
+            },
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_5_78",
+              "page": 5,
+              "bbox": [
+                55.0,
+                581.0,
+                905.0,
+                899.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 2. Elemental analysis, viscosity, and molecular weights of polymers",
+              "table_locator": {
+                "table_id": "T_5_78",
+                "row_label": "Found",
+                "column_label": "$\\eta_{\\text{inh}}$ (dl/g) $^a$",
+                "cell_value": "0.54",
+                "cell_id": "T_5_78:r0019:c0004",
+                "row_index": 19,
+                "column_index": 4
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.95
+          }
+        },
+        {
+          "point_id": "pt013",
+          "observation_role": "series_point",
+          "sample_id": "s008",
+          "entity_id": "pe012",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "0.55",
+          "value_min": 0.55,
+          "value_max": 0.55,
+          "measurement_context": {
+            "temperature": {
+              "raw": "30 ^ { \\circ } \\mathrm { C }",
+              "value": 30.0,
+              "unit": "°C",
+              "evidence": [
+                {
+                  "block_id": "P_1_21",
+                  "page": 1,
+                  "bbox": [
+                    53.0,
+                    330.0,
+                    467.0,
+                    787.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "Inherent viscosities were measured using an Ubbelohde viscometer at a concentration of 0.5 g/dl in NMP at $3 0 ^ { \\circ } \\mathrm { C }$"
+                }
+              ],
+              "evidence_ids": []
+            },
+            "other_conditions": {
+              "solvent": "NMP",
+              "concentration": "0.5 g/dl"
+            },
+            "other_condition_evidence": {
+              "solvent": [
+                {
+                  "block_id": "P_1_21",
+                  "page": 1,
+                  "bbox": [
+                    53.0,
+                    330.0,
+                    467.0,
+                    787.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "Inherent viscosities were measured using an Ubbelohde viscometer at a concentration of 0.5 g/dl in NMP at $3 0 ^ { \\circ } \\mathrm { C }$"
+                }
+              ],
+              "concentration": [
+                {
+                  "block_id": "P_1_21",
+                  "page": 1,
+                  "bbox": [
+                    53.0,
+                    330.0,
+                    467.0,
+                    787.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "Inherent viscosities were measured using an Ubbelohde viscometer at a concentration of 0.5 g/dl in NMP at $3 0 ^ { \\circ } \\mathrm { C }$"
+                }
+              ]
+            },
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_5_78",
+              "page": 5,
+              "bbox": [
+                55.0,
+                581.0,
+                905.0,
+                899.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 2. Elemental analysis, viscosity, and molecular weights of polymers",
+              "table_locator": {
+                "table_id": "T_5_78",
+                "row_label": "Found",
+                "column_label": "$\\eta_{\\text{inh}}$ (dl/g) $^a$",
+                "cell_value": "0.55",
+                "cell_id": "T_5_78:r0022:c0004",
+                "row_index": 22,
+                "column_index": 4
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.95
+          }
+        },
+        {
+          "point_id": "pt014",
+          "observation_role": "series_point",
+          "sample_id": "s009",
+          "entity_id": "pe013",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "0.56",
+          "value_min": 0.56,
+          "value_max": 0.56,
+          "measurement_context": {
+            "temperature": {
+              "raw": "30 ^ { \\circ } \\mathrm { C }",
+              "value": 30.0,
+              "unit": "°C",
+              "evidence": [
+                {
+                  "block_id": "P_1_21",
+                  "page": 1,
+                  "bbox": [
+                    53.0,
+                    330.0,
+                    467.0,
+                    787.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "Inherent viscosities were measured using an Ubbelohde viscometer at a concentration of 0.5 g/dl in NMP at $3 0 ^ { \\circ } \\mathrm { C }$"
+                }
+              ],
+              "evidence_ids": []
+            },
+            "other_conditions": {
+              "solvent": "NMP",
+              "concentration": "0.5 g/dl"
+            },
+            "other_condition_evidence": {
+              "solvent": [
+                {
+                  "block_id": "P_1_21",
+                  "page": 1,
+                  "bbox": [
+                    53.0,
+                    330.0,
+                    467.0,
+                    787.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "Inherent viscosities were measured using an Ubbelohde viscometer at a concentration of 0.5 g/dl in NMP at $3 0 ^ { \\circ } \\mathrm { C }$"
+                }
+              ],
+              "concentration": [
+                {
+                  "block_id": "P_1_21",
+                  "page": 1,
+                  "bbox": [
+                    53.0,
+                    330.0,
+                    467.0,
+                    787.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "Inherent viscosities were measured using an Ubbelohde viscometer at a concentration of 0.5 g/dl in NMP at $3 0 ^ { \\circ } \\mathrm { C }$"
+                }
+              ]
+            },
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_5_78",
+              "page": 5,
+              "bbox": [
+                55.0,
+                581.0,
+                905.0,
+                899.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 2. Elemental analysis, viscosity, and molecular weights of polymers",
+              "table_locator": {
+                "table_id": "T_5_78",
+                "row_label": "Found",
+                "column_label": "$\\eta_{\\text{inh}}$ (dl/g) $^a$",
+                "cell_value": "0.56",
+                "cell_id": "T_5_78:r0025:c0004",
+                "row_index": 25,
+                "column_index": 4
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.95
+          }
+        }
+      ],
+      "coverage": {
+        "expected": 6,
+        "covered": 6,
+        "missing": 0,
+        "not_applicable": 0,
+        "ratio": 1.0
+      },
+      "evidence": [
+        {
+          "block_id": "P_1_21",
+          "page": 1,
+          "bbox": [
+            53.0,
+            330.0,
+            467.0,
+            787.0
+          ],
+          "source_type": "text",
+          "source_sentence": "Inherent viscosities were measured using an Ubbelohde viscometer at a concentration of 0.5 g/dl in NMP at $3 0 ^ { \\circ } \\mathrm { C }$."
+        }
+      ],
+      "confidence": {
+        "score": 0.95
+      }
+    },
+    {
+      "series_id": "series003",
+      "sample_resolution_status": "unresolved",
+      "property_name_raw": "$T_{g}$",
+      "property_name_normalized": "glass_transition_temperature",
+      "property_code": "P3110",
+      "property_category": "thermal_property",
+      "unit_raw": "°C",
+      "unit_normalized": "°C",
+      "measurement_context": {
+        "frequency": {
+          "raw": "1 Hz",
+          "value": 1.0,
+          "unit": "Hz",
+          "evidence": [
+            {
+              "block_id": "P_1_21",
+              "page": 1,
+              "bbox": [
+                53.0,
+                330.0,
+                467.0,
+                787.0
+              ],
+              "source_type": "text",
+              "source_sentence": "at 1 Hz"
+            }
+          ],
+          "evidence_ids": []
+        },
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "points": [
+        {
+          "point_id": "pt015",
+          "observation_role": "series_point",
+          "sample_id": "s002",
+          "entity_id": "pe006",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "190",
+          "value_min": 190.0,
+          "value_max": 190.0,
+          "measurement_context": {
+            "frequency": {
+              "raw": "1 Hz",
+              "value": 1.0,
+              "unit": "Hz",
+              "evidence": [
+                {
+                  "block_id": "P_1_21",
+                  "page": 1,
+                  "bbox": [
+                    53.0,
+                    330.0,
+                    467.0,
+                    787.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "at 1 Hz"
+                }
+              ],
+              "evidence_ids": []
+            },
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_6_86",
+              "page": 6,
+              "bbox": [
+                90.0,
+                742.0,
+                510.0,
+                863.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 3. Thermal analysis of the polymers",
+              "table_locator": {
+                "table_id": "T_6_86",
+                "row_label": "1AQA-PPDI",
+                "column_label": "$T_{g}$ (°C)",
+                "cell_value": "190",
+                "cell_id": "T_6_86:r0001:c0001",
+                "row_index": 1,
+                "column_index": 1
+              }
+            },
+            {
+              "block_id": "P_6_84",
+              "page": 6,
+              "bbox": [
+                87.0,
+                249.0,
+                500.0,
+                476.0
+              ],
+              "source_type": "text",
+              "source_sentence": "the representative curves of DMTA for 1AQA-PPDI $( T _ { \\mathrm { g } } =$1908C)"
+            }
+          ],
+          "confidence": {
+            "score": 0.95
+          }
+        },
+        {
+          "point_id": "pt016",
+          "observation_role": "series_point",
+          "sample_id": "s003",
+          "entity_id": "pe007",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "185",
+          "value_min": 185.0,
+          "value_max": 185.0,
+          "measurement_context": {
+            "frequency": {
+              "raw": "1 Hz",
+              "value": 1.0,
+              "unit": "Hz",
+              "evidence": [
+                {
+                  "block_id": "P_1_21",
+                  "page": 1,
+                  "bbox": [
+                    53.0,
+                    330.0,
+                    467.0,
+                    787.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "at 1 Hz"
+                }
+              ],
+              "evidence_ids": []
+            },
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_6_86",
+              "page": 6,
+              "bbox": [
+                90.0,
+                742.0,
+                510.0,
+                863.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 3. Thermal analysis of the polymers",
+              "table_locator": {
+                "table_id": "T_6_86",
+                "row_label": "1AQA-NDI",
+                "column_label": "$T_{g}$ (°C)",
+                "cell_value": "185",
+                "cell_id": "T_6_86:r0002:c0001",
+                "row_index": 2,
+                "column_index": 1
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt017",
+          "observation_role": "series_point",
+          "sample_id": "s004",
+          "entity_id": "pe008",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "178",
+          "value_min": 178.0,
+          "value_max": 178.0,
+          "measurement_context": {
+            "frequency": {
+              "raw": "1 Hz",
+              "value": 1.0,
+              "unit": "Hz",
+              "evidence": [
+                {
+                  "block_id": "P_1_21",
+                  "page": 1,
+                  "bbox": [
+                    53.0,
+                    330.0,
+                    467.0,
+                    787.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "at 1 Hz"
+                }
+              ],
+              "evidence_ids": []
+            },
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_6_86",
+              "page": 6,
+              "bbox": [
+                90.0,
+                742.0,
+                510.0,
+                863.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 3. Thermal analysis of the polymers",
+              "table_locator": {
+                "table_id": "T_6_86",
+                "row_label": "1AQA-MDI",
+                "column_label": "$T_{g}$ (°C)",
+                "cell_value": "178",
+                "cell_id": "T_6_86:r0003:c0001",
+                "row_index": 3,
+                "column_index": 1
+              }
+            },
+            {
+              "block_id": "P_6_84",
+              "page": 6,
+              "bbox": [
+                87.0,
+                249.0,
+                500.0,
+                476.0
+              ],
+              "source_type": "text",
+              "source_sentence": "DSC for 1AQA-MDI $( T _ { \\mathrm { g } } { = } 1 7 8 ^ { \\circ } \\mathrm { C } )$"
+            }
+          ],
+          "confidence": {
+            "score": 0.95
+          }
+        },
+        {
+          "point_id": "pt018",
+          "observation_role": "series_point",
+          "sample_id": "s005",
+          "entity_id": "pe009",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "156",
+          "value_min": 156.0,
+          "value_max": 156.0,
+          "measurement_context": {
+            "frequency": {
+              "raw": "1 Hz",
+              "value": 1.0,
+              "unit": "Hz",
+              "evidence": [
+                {
+                  "block_id": "P_1_21",
+                  "page": 1,
+                  "bbox": [
+                    53.0,
+                    330.0,
+                    467.0,
+                    787.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "at 1 Hz"
+                }
+              ],
+              "evidence_ids": []
+            },
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_6_86",
+              "page": 6,
+              "bbox": [
+                90.0,
+                742.0,
+                510.0,
+                863.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 3. Thermal analysis of the polymers",
+              "table_locator": {
+                "table_id": "T_6_86",
+                "row_label": "1AQA-H $_{12}$ MDI",
+                "column_label": "$T_{g}$ (°C)",
+                "cell_value": "156",
+                "cell_id": "T_6_86:r0004:c0001",
+                "row_index": 4,
+                "column_index": 1
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt019",
+          "observation_role": "series_point",
+          "sample_id": "s006",
+          "entity_id": "pe010",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "184",
+          "value_min": 184.0,
+          "value_max": 184.0,
+          "measurement_context": {
+            "frequency": {
+              "raw": "1 Hz",
+              "value": 1.0,
+              "unit": "Hz",
+              "evidence": [
+                {
+                  "block_id": "P_1_21",
+                  "page": 1,
+                  "bbox": [
+                    53.0,
+                    330.0,
+                    467.0,
+                    787.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "at 1 Hz"
+                }
+              ],
+              "evidence_ids": []
+            },
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_6_86",
+              "page": 6,
+              "bbox": [
+                90.0,
+                742.0,
+                510.0,
+                863.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 3. Thermal analysis of the polymers",
+              "table_locator": {
+                "table_id": "T_6_86",
+                "row_label": "2AQA-PPDI",
+                "column_label": "$T_{g}$ (°C)",
+                "cell_value": "184",
+                "cell_id": "T_6_86:r0005:c0001",
+                "row_index": 5,
+                "column_index": 1
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt020",
+          "observation_role": "series_point",
+          "sample_id": "s007",
+          "entity_id": "pe011",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "178",
+          "value_min": 178.0,
+          "value_max": 178.0,
+          "measurement_context": {
+            "frequency": {
+              "raw": "1 Hz",
+              "value": 1.0,
+              "unit": "Hz",
+              "evidence": [
+                {
+                  "block_id": "P_1_21",
+                  "page": 1,
+                  "bbox": [
+                    53.0,
+                    330.0,
+                    467.0,
+                    787.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "at 1 Hz"
+                }
+              ],
+              "evidence_ids": []
+            },
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_6_86",
+              "page": 6,
+              "bbox": [
+                90.0,
+                742.0,
+                510.0,
+                863.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 3. Thermal analysis of the polymers",
+              "table_locator": {
+                "table_id": "T_6_86",
+                "row_label": "2AQA-NDI",
+                "column_label": "$T_{g}$ (°C)",
+                "cell_value": "178",
+                "cell_id": "T_6_86:r0006:c0001",
+                "row_index": 6,
+                "column_index": 1
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt021",
+          "observation_role": "series_point",
+          "sample_id": "s008",
+          "entity_id": "pe012",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "168",
+          "value_min": 168.0,
+          "value_max": 168.0,
+          "measurement_context": {
+            "frequency": {
+              "raw": "1 Hz",
+              "value": 1.0,
+              "unit": "Hz",
+              "evidence": [
+                {
+                  "block_id": "P_1_21",
+                  "page": 1,
+                  "bbox": [
+                    53.0,
+                    330.0,
+                    467.0,
+                    787.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "at 1 Hz"
+                }
+              ],
+              "evidence_ids": []
+            },
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_6_86",
+              "page": 6,
+              "bbox": [
+                90.0,
+                742.0,
+                510.0,
+                863.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 3. Thermal analysis of the polymers",
+              "table_locator": {
+                "table_id": "T_6_86",
+                "row_label": "2AQA-MDI",
+                "column_label": "$T_{g}$ (°C)",
+                "cell_value": "168",
+                "cell_id": "T_6_86:r0007:c0001",
+                "row_index": 7,
+                "column_index": 1
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt022",
+          "observation_role": "series_point",
+          "sample_id": "s009",
+          "entity_id": "pe013",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "148",
+          "value_min": 148.0,
+          "value_max": 148.0,
+          "measurement_context": {
+            "frequency": {
+              "raw": "1 Hz",
+              "value": 1.0,
+              "unit": "Hz",
+              "evidence": [
+                {
+                  "block_id": "P_1_21",
+                  "page": 1,
+                  "bbox": [
+                    53.0,
+                    330.0,
+                    467.0,
+                    787.0
+                  ],
+                  "source_type": "text",
+                  "source_sentence": "at 1 Hz"
+                }
+              ],
+              "evidence_ids": []
+            },
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_6_86",
+              "page": 6,
+              "bbox": [
+                90.0,
+                742.0,
+                510.0,
+                863.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 3. Thermal analysis of the polymers",
+              "table_locator": {
+                "table_id": "T_6_86",
+                "row_label": "2AQA-H $_{12}$ MDI",
+                "column_label": "$T_{g}$ (°C)",
+                "cell_value": "148",
+                "cell_id": "T_6_86:r0008:c0001",
+                "row_index": 8,
+                "column_index": 1
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        }
+      ],
+      "coverage": {
+        "expected": 8,
+        "covered": 8,
+        "missing": 0,
+        "not_applicable": 0,
+        "ratio": 1.0
+      },
+      "evidence": [
+        {
+          "block_id": "P_6_84",
+          "page": 6,
+          "bbox": [
+            87.0,
+            249.0,
+            500.0,
+            476.0
+          ],
+          "source_type": "text",
+          "source_sentence": "Also DSC analysis confirmed data obtained from DMTA."
+        },
+        {
+          "block_id": "P_1_21",
+          "page": 1,
+          "bbox": [
+            53.0,
+            330.0,
+            467.0,
+            787.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The dynamic mechanical measurements were recorded on a Polymer Laboratories dynamic mechanical thermal analyzer over a temperature range of $2 5 { - } 3 0 0 ^ { \\circ } \\mathrm { C }$at 1 Hz and a heating rate of 58C/min (Surrey, UK)."
+        }
+      ],
+      "confidence": {
+        "score": 0.5
+      }
+    }
+  ],
+  "provenance": {
+    "stage": "stage4_property",
+    "provider": "dmx",
+    "model": "doubao-seed-2.0-pro",
+    "models": [
+      "doubao-seed-2.0-pro"
+    ],
+    "prompt_id": "polymer.stage4.property",
+    "prompt_version": "1.7.2",
+    "prompt_sha256": "ec79fe3bf47539cab4ba239c611d1ab17d75dc0038cda85020caca580f7987a5",
+    "vocabulary_sha256": "3e9d85e4915a729edf0f0a53821f3ee6edf32874e1da6972457417e4f13a1510",
+    "input_hash": "72b928dcf0fe8b7a7ed48744cf08de381a5d2ebcffa8a0fe056462d9e399e545",
+    "model_config_hash": "cc96eaab20bd380ae90f3ba1dfa638bd40f111e3e72ca185255fb71b459d40ea",
+    "cache_key": "341a80baaaed2392c2c7bbe252cb2e40b37ed8863e810202081677146e2d2ef2",
+    "output_schema_version": "property_observation_schema.v7",
+    "implementation_version": "1.7.10",
+    "context_block_count": 51,
+    "context_chars": 37423,
+    "call_count": 1,
+    "usage": {
+      "input_tokens": 29432,
+      "output_tokens": 17324,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "billable_input_tokens": 29432,
+      "total_tokens": 46756
+    },
+    "cost": {
+      "status": "calculated",
+      "currency": "CNY",
+      "input_per_million": "4.32",
+      "output_per_million": "29.15",
+      "input_cost": "0.12714624",
+      "output_cost": "0.5049946",
+      "total_cost": "0.63214084"
+    },
+    "status": "success"
+  },
+  "warnings": [
+    {
+      "stage": "stage4_property",
+      "code": "multi_subject_series_normalized",
+      "message": "PropertySeries 的 points 明确属于多个 Sample/PolymerEntity；已清除错误的单一顶层主体，主体关系保留在各 point",
+      "series": 3
+    },
+    {
+      "stage": "stage4_property",
+      "code": "candidate_table_locator_surface_repaired",
+      "message": "模型 locator 表面文本不在表格原文；已用 property raw 与 determination method 中唯一匹配的 Stage 0 表头恢复",
+      "evidence": 6
+    },
+    {
+      "stage": "stage4_property",
+      "code": "condition_table_locators_synthesized",
+      "message": "已将唯一包含条件 raw 的表头单元格绑定为条件 evidence",
+      "evidence": 1
+    },
+    {
+      "stage": "stage4_property",
+      "code": "series_method_evidence_supplemented",
+      "message": "Series determination method 不在 point 表格 evidence；已补入全文中唯一的完全匹配原文 block",
+      "series": 1
+    },
+    {
+      "stage": "stage4_property",
+      "code": "series_multimethod_downgraded",
+      "message": "Series 跨多种测定方法，无法保存为单一逐字 raw 字段；已置 null 并保留方法原文证据",
+      "series": 1
+    },
+    {
+      "stage": "stage4_property",
+      "code": "series_context_evidence_supplemented",
+      "message": "Series/point measurement context 不在数值表格 evidence；已补入全文中唯一的完全匹配原文 block",
+      "series_evidence": 1
+    },
+    {
+      "stage": "stage4_property",
+      "code": "preview_semantic_validation_bypassed",
+      "message": "Preview 已保留 Schema 合法候选，并跳过原文/evidence 语义对应校验；Strict 模式仍会报错",
+      "reason": "uprop002.value_raw='35,700 to 48,500' 不是任一 evidence block 的原文子串"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "preview_objects_salvaged",
+      "message": "Preview 已逐对象保留可安全物化的数据；坏字段、坏对象或失效引用已局部删除，Strict 模式仍会报错",
+      "details": {
+        "dropped_conditions": [],
+        "dropped_properties": [],
+        "dropped_unresolved_properties": [],
+        "dropped_series": [],
+        "dropped_points": [],
+        "dropped_evidence": 0,
+        "dropped_coordinates": 0
+      }
+    },
+    {
+      "stage": "stage4_property",
+      "code": "unresolved_properties",
+      "message": "2 条性质无法可靠关联具体 Sample",
+      "unresolved_ids": [
+        "uprop001",
+        "uprop002"
+      ]
+    }
+  ]
+}

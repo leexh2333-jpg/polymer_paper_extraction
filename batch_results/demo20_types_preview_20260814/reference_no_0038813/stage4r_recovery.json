@@ -1,0 +1,290 @@
+{
+  "stage": "stage4r_table_recovery",
+  "implementation_version": "0.2.0",
+  "document_id": "reference_no_0038813",
+  "audit_summary": {
+    "table_count": 5,
+    "tables_with_numeric_cells": 4,
+    "numeric_cell_count": 168,
+    "represented_numeric_cell_count": 22,
+    "representation_ratio": 0.130952,
+    "role_counts": {
+      "coordinate_candidate": 8,
+      "property_value_candidate": 24,
+      "unknown": 136
+    },
+    "property_value_candidate_count": 24,
+    "covered_property_value_candidate_count": 14,
+    "missing_property_value_candidate_count": 10,
+    "property_value_ratio": 0.583333,
+    "gap_table_count": 2,
+    "numeric_zero_coverage_table_count": 1,
+    "property_zero_coverage_table_count": 0
+  },
+  "recovered_count": 8,
+  "skipped_ambiguous_count": 2,
+  "recovered": [
+    {
+      "unresolved_id": "uprop003",
+      "entity_id": "pe006",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "value_raw": "49",
+      "cell_id": "T_6_86:r0001:c0005",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop004",
+      "entity_id": "pe007",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "value_raw": "46",
+      "cell_id": "T_6_86:r0002:c0005",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop005",
+      "entity_id": "pe008",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "value_raw": "45",
+      "cell_id": "T_6_86:r0003:c0005",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop006",
+      "entity_id": "pe009",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "value_raw": "38",
+      "cell_id": "T_6_86:r0004:c0005",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop007",
+      "entity_id": "pe010",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "value_raw": "47",
+      "cell_id": "T_6_86:r0005:c0005",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop008",
+      "entity_id": "pe011",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "value_raw": "44",
+      "cell_id": "T_6_86:r0006:c0005",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop009",
+      "entity_id": "pe012",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "value_raw": "43",
+      "cell_id": "T_6_86:r0007:c0005",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop010",
+      "entity_id": "pe013",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "value_raw": "36",
+      "cell_id": "T_6_86:r0008:c0005",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    }
+  ],
+  "skipped_ambiguous": [
+    {
+      "cell_id": "T_5_78:r0007:c0004",
+      "table_id": "T_5_78",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "0.64",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_5_78:r0013:c0004",
+      "table_id": "T_5_78",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "0.64",
+      "reason": "entity_ambiguous"
+    }
+  ],
+  "sample_resolution_summary": {
+    "accepted": 8,
+    "missing_cell_locator": 2
+  },
+  "sample_resolution": [
+    {
+      "unresolved_id": "uprop001",
+      "entity_id": "pe002",
+      "status": "missing_cell_locator"
+    },
+    {
+      "unresolved_id": "uprop002",
+      "entity_id": "pe002",
+      "status": "missing_cell_locator"
+    },
+    {
+      "unresolved_id": "uprop003",
+      "entity_id": "pe006",
+      "status": "accepted",
+      "sample_id": "s002",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "1AQA-PPDI",
+      "cell_id": "T_6_86:r0001:c0005"
+    },
+    {
+      "unresolved_id": "uprop004",
+      "entity_id": "pe007",
+      "status": "accepted",
+      "sample_id": "s003",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "1AQA-NDI",
+      "cell_id": "T_6_86:r0002:c0005"
+    },
+    {
+      "unresolved_id": "uprop005",
+      "entity_id": "pe008",
+      "status": "accepted",
+      "sample_id": "s004",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "1AQA-MDI",
+      "cell_id": "T_6_86:r0003:c0005"
+    },
+    {
+      "unresolved_id": "uprop006",
+      "entity_id": "pe009",
+      "status": "accepted",
+      "sample_id": "s005",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "1AQA-H $_{12}$ MDI",
+      "cell_id": "T_6_86:r0004:c0005"
+    },
+    {
+      "unresolved_id": "uprop007",
+      "entity_id": "pe010",
+      "status": "accepted",
+      "sample_id": "s006",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "2AQA-PPDI",
+      "cell_id": "T_6_86:r0005:c0005"
+    },
+    {
+      "unresolved_id": "uprop008",
+      "entity_id": "pe011",
+      "status": "accepted",
+      "sample_id": "s007",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "2AQA-NDI",
+      "cell_id": "T_6_86:r0006:c0005"
+    },
+    {
+      "unresolved_id": "uprop009",
+      "entity_id": "pe012",
+      "status": "accepted",
+      "sample_id": "s008",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "2AQA-MDI",
+      "cell_id": "T_6_86:r0007:c0005"
+    },
+    {
+      "unresolved_id": "uprop010",
+      "entity_id": "pe013",
+      "status": "accepted",
+      "sample_id": "s009",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "2AQA-H $_{12}$ MDI",
+      "cell_id": "T_6_86:r0008:c0005"
+    }
+  ],
+  "property_id_migrations": [
+    {
+      "unresolved_id": "uprop003",
+      "property_id": "prop001",
+      "measurement_condition_id": "mc007",
+      "sample_id": "s002",
+      "entity_id": "pe006",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "1AQA-PPDI",
+      "cell_id": "T_6_86:r0001:c0005"
+    },
+    {
+      "unresolved_id": "uprop004",
+      "property_id": "prop002",
+      "measurement_condition_id": "mc008",
+      "sample_id": "s003",
+      "entity_id": "pe007",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "1AQA-NDI",
+      "cell_id": "T_6_86:r0002:c0005"
+    },
+    {
+      "unresolved_id": "uprop005",
+      "property_id": "prop003",
+      "measurement_condition_id": "mc009",
+      "sample_id": "s004",
+      "entity_id": "pe008",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "1AQA-MDI",
+      "cell_id": "T_6_86:r0003:c0005"
+    },
+    {
+      "unresolved_id": "uprop006",
+      "property_id": "prop004",
+      "measurement_condition_id": "mc010",
+      "sample_id": "s005",
+      "entity_id": "pe009",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "1AQA-H $_{12}$ MDI",
+      "cell_id": "T_6_86:r0004:c0005"
+    },
+    {
+      "unresolved_id": "uprop007",
+      "property_id": "prop005",
+      "measurement_condition_id": "mc011",
+      "sample_id": "s006",
+      "entity_id": "pe010",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "2AQA-PPDI",
+      "cell_id": "T_6_86:r0005:c0005"
+    },
+    {
+      "unresolved_id": "uprop008",
+      "property_id": "prop006",
+      "measurement_condition_id": "mc012",
+      "sample_id": "s007",
+      "entity_id": "pe011",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "2AQA-NDI",
+      "cell_id": "T_6_86:r0006:c0005"
+    },
+    {
+      "unresolved_id": "uprop009",
+      "property_id": "prop007",
+      "measurement_condition_id": "mc013",
+      "sample_id": "s008",
+      "entity_id": "pe012",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "2AQA-MDI",
+      "cell_id": "T_6_86:r0007:c0005"
+    },
+    {
+      "unresolved_id": "uprop010",
+      "property_id": "prop008",
+      "measurement_condition_id": "mc014",
+      "sample_id": "s009",
+      "entity_id": "pe013",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "2AQA-H $_{12}$ MDI",
+      "cell_id": "T_6_86:r0008:c0005"
+    }
+  ],
+  "input_hashes": {
+    "stage0_blocks.json": "a9796c85e5986bdb94ee109ea022f289bd55d832f3f49258febd994331252b63",
+    "stage2_entities.json": "1f238606546c03174122e9a5bcd9f5b14148b57c1c41d776585457fe0f3a4ab3",
+    "stage3_process.json": "08b2cb7692f53e1c9b1ee3760a717de481aaba75da54f8be84c9a6e4da51af9c",
+    "stage4_properties.json": "a51f9cf562131c68b52f630ee5ec332a5fcbcabedfd281696688b686c6aed720"
+  },
+  "settings": {
+    "threshold": 0.8,
+    "apply": true,
+    "allow_filled_up_sample_binding": true
+  },
+  "output_sha256": "3a34dc8b0680be15c8245bb8195f8fdaf87b14abc772dfdad9552154e5072f70"
+}

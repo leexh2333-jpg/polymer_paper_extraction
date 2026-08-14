@@ -1,0 +1,778 @@
+{
+  "schema_version": "1.0",
+  "document_id": "reference_no_0042367",
+  "polymer_entities": [
+    {
+      "entity_id": "pe001",
+      "polymer_name": "Poly (e-caprolactone)",
+      "polymer_type": "homopolymer",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "Poly (e-caprolactone)",
+        "Tone Polymer",
+        "P-676 TM",
+        "PCL"
+      ],
+      "resolved_from_mentions": [
+        "m001",
+        "m002",
+        "m003",
+        "m010",
+        "m014",
+        "m025",
+        "m029",
+        "m030",
+        "m036",
+        "m049",
+        "m052",
+        "m053",
+        "m054",
+        "m059",
+        "m061",
+        "m077",
+        "m084",
+        "m096"
+      ],
+      "evidence": {
+        "block_id": "P_5_73",
+        "page": 5,
+        "bbox": [
+          75.0,
+          459.0,
+          495.0,
+          731.0
+        ],
+        "source_type": "text",
+        "source_sentence": "DSC thermographs of compression moulded PCL homopolymer, and 50%PDLLA= 50%PCL and 50%PLGA=50%PCL blends are shown in Figure 4."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.92
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe002",
+      "polymer_name": "Poly (l-lactide-glycolide) copolymer",
+      "polymer_type": "copolymer",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "Poly (l-lactide-glycolide) copolymer",
+        "Purasorb PLG",
+        "PLGA"
+      ],
+      "resolved_from_mentions": [
+        "m004",
+        "m005",
+        "m009",
+        "m013",
+        "m024",
+        "m027",
+        "m032",
+        "m038",
+        "m046",
+        "m055",
+        "m058",
+        "m062",
+        "m075",
+        "m083",
+        "m098"
+      ],
+      "evidence": {
+        "block_id": "P_1_20",
+        "page": 1,
+        "bbox": [
+          504.0,
+          638.0,
+          924.0,
+          806.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The Poly (e-caprolactone) (brand name Tone Polymer, P-676 TM) was supplied by the Dow Chemical Company; the Poly (l-lactide-glycolide) copolymer with a molar ratio of 83=17 (brand name Purasorb PLG) was obtained from Purac Biochem Bv Gorinchem; while the Poly (dl-lactic acid) (brand name Galastic, PABR-L-68) was obtained from Galactic Laboratories (a division of Brussels Biotech), all in granular form."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.88
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe003",
+      "polymer_name": "Poly (dl-lactic acid)",
+      "polymer_type": "homopolymer",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "Poly (dl-lactic acid)",
+        "Galastic",
+        "PABR-L-68",
+        "PDLLA"
+      ],
+      "resolved_from_mentions": [
+        "m006",
+        "m007",
+        "m008",
+        "m011",
+        "m012",
+        "m026",
+        "m028",
+        "m031",
+        "m037",
+        "m047",
+        "m056",
+        "m060",
+        "m076",
+        "m082",
+        "m097"
+      ],
+      "evidence": {
+        "block_id": "P_3_56",
+        "page": 3,
+        "bbox": [
+          504.0,
+          732.0,
+          926.0,
+          900.0
+        ],
+        "source_type": "text",
+        "source_sentence": "In this study, the IR peaks for the compression moulded PCL, PDLLA and PLGA samples were in good agreement with the characteristic bands reported by Coleman and Zarian (1979), Garlotta (2001), Vey et al. (2008) and Choi et al. (2008) for these homopolymers<sup>[15–18]</sup>."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.88
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe004",
+      "polymer_name": "PLA",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "PLA"
+      ],
+      "resolved_from_mentions": [
+        "m045",
+        "m048",
+        "m095"
+      ],
+      "evidence": {
+        "block_id": "P_4_66",
+        "page": 4,
+        "bbox": [
+          501.0,
+          484.0,
+          921.0,
+          607.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Phase separation of binary blends of PLA and PLGA is not as likely as with many other polymer combinations due to their similarity in chemical structure<sup>[20]</sup>."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.8
+      },
+      "polymer_type": null,
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe005",
+      "polymer_name": "PLLA",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "PLLA"
+      ],
+      "resolved_from_mentions": [
+        "m080"
+      ],
+      "evidence": {
+        "block_id": "P_7_97",
+        "page": 7,
+        "bbox": [
+          73.0,
+          542.0,
+          495.0,
+          724.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The mechanical properties of blends of PDLLA or PLLA with PCL or PEO have been previously shown to be greatly affected by altering the polymer mixing ratio<sup>[30]</sup>."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.8
+      },
+      "polymer_type": null,
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe006",
+      "polymer_name": "PEO",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "PEO"
+      ],
+      "resolved_from_mentions": [
+        "m081"
+      ],
+      "evidence": {
+        "block_id": "P_7_97",
+        "page": 7,
+        "bbox": [
+          73.0,
+          542.0,
+          495.0,
+          724.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The mechanical properties of blends of PDLLA or PLLA with PCL or PEO have been previously shown to be greatly affected by altering the polymer mixing ratio<sup>[30]</sup>."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.8
+      },
+      "polymer_type": null,
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe007",
+      "polymer_name": "PDLA",
+      "polymer_type": "homopolymer",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "PDLA"
+      ],
+      "resolved_from_mentions": [
+        "m085"
+      ],
+      "evidence": {
+        "block_id": "T_7_98",
+        "page": 7,
+        "bbox": [
+          76.0,
+          800.0,
+          493.0,
+          893.0
+        ],
+        "source_type": "table",
+        "source_sentence": "PDLA"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.64
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe008",
+      "polymer_name": "PDLLA20/PCL80",
+      "polymer_type": "polymer_blend",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "PDLLA20/PCL80",
+        "20%PDLLA=80%PCL"
+      ],
+      "resolved_from_mentions": [
+        "m015",
+        "m067"
+      ],
+      "evidence": {
+        "block_id": "P_6_88",
+        "page": 6,
+        "bbox": [
+          500.0,
+          412.0,
+          921.0,
+          625.0
+        ],
+        "source_type": "text",
+        "source_sentence": "There is a considerably higher level of percentage PBS uptake in the 50%PDLLA= 50%PCL and 80%PDLLA=20%PCL blends, than in the PCL and the 20%PDLLA=80%PCL samples."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.91
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe009",
+      "polymer_name": "PDLLA50/PCL50",
+      "polymer_type": "polymer_blend",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "PDLLA50/PCL50",
+        "PCL",
+        "PDLLA",
+        "PCL 50% PDLLA=50% PCL",
+        "50%PDLLA= 50%PCL"
+      ],
+      "resolved_from_mentions": [
+        "m016",
+        "m033",
+        "m034",
+        "m035",
+        "m050",
+        "m064"
+      ],
+      "evidence": {
+        "block_id": "P_5_73",
+        "page": 5,
+        "bbox": [
+          75.0,
+          459.0,
+          495.0,
+          731.0
+        ],
+        "source_type": "text",
+        "source_sentence": "DSC thermographs of compression moulded PCL homopolymer, and 50%PDLLA= 50%PCL and 50%PLGA=50%PCL blends are shown in Figure 4."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.9
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe010",
+      "polymer_name": "PDLLA80/PCL20",
+      "polymer_type": "polymer_blend",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "PDLLA80/PCL20",
+        "80%PDLLA=20%PCL"
+      ],
+      "resolved_from_mentions": [
+        "m017",
+        "m065"
+      ],
+      "evidence": {
+        "block_id": "P_6_88",
+        "page": 6,
+        "bbox": [
+          500.0,
+          412.0,
+          921.0,
+          625.0
+        ],
+        "source_type": "text",
+        "source_sentence": "There is a considerably higher level of percentage PBS uptake in the 50%PDLLA= 50%PCL and 80%PDLLA=20%PCL blends, than in the PCL and the 20%PDLLA=80%PCL samples."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.91
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe011",
+      "polymer_name": "PLGA20/PCL80",
+      "polymer_type": "polymer_blend",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "PLGA20/PCL80"
+      ],
+      "resolved_from_mentions": [
+        "m018"
+      ],
+      "evidence": {
+        "block_id": "T_2_31",
+        "page": 2,
+        "bbox": [
+          71.0,
+          709.0,
+          488.0,
+          892.0
+        ],
+        "source_type": "table",
+        "source_sentence": "PLGA20/PCL80"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.84
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe012",
+      "polymer_name": "PLGA50/PCL50",
+      "polymer_type": "polymer_blend",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "PLGA50/PCL50",
+        "50%PLGA=50%PCL"
+      ],
+      "resolved_from_mentions": [
+        "m019",
+        "m051"
+      ],
+      "evidence": {
+        "block_id": "P_5_73",
+        "page": 5,
+        "bbox": [
+          75.0,
+          459.0,
+          495.0,
+          731.0
+        ],
+        "source_type": "text",
+        "source_sentence": "DSC thermographs of compression moulded PCL homopolymer, and 50%PDLLA= 50%PCL and 50%PLGA=50%PCL blends are shown in Figure 4."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.91
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe013",
+      "polymer_name": "PLGA80/PCL20",
+      "polymer_type": "polymer_blend",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "PLGA80/PCL20"
+      ],
+      "resolved_from_mentions": [
+        "m020"
+      ],
+      "evidence": {
+        "block_id": "T_2_31",
+        "page": 2,
+        "bbox": [
+          71.0,
+          709.0,
+          488.0,
+          892.0
+        ],
+        "source_type": "table",
+        "source_sentence": "PLGA80/PCL20"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.84
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe014",
+      "polymer_name": "PDLLA80/PLGA20",
+      "polymer_type": "polymer_blend",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "PDLLA80/PLGA20",
+        "80%PDLLA= 20%PLGA"
+      ],
+      "resolved_from_mentions": [
+        "m021",
+        "m042",
+        "m092"
+      ],
+      "evidence": {
+        "block_id": "P_8_108",
+        "page": 8,
+        "bbox": [
+          71.0,
+          441.0,
+          491.0,
+          640.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The 80%PDLLA= 20%PLGA blend shows a decrease in tensile strength when compared to the PLGA or PDLLA."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.91
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe015",
+      "polymer_name": "PDLLA50/PLGA50",
+      "polymer_type": "polymer_blend",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "PDLLA50/PLGA50",
+        "50%PDLLA=50%PLGA"
+      ],
+      "resolved_from_mentions": [
+        "m022",
+        "m039",
+        "m043",
+        "m087"
+      ],
+      "evidence": {
+        "block_id": "P_7_101",
+        "page": 7,
+        "bbox": [
+          504.0,
+          549.0,
+          926.0,
+          642.0
+        ],
+        "source_type": "text",
+        "source_sentence": "There is some evidence of miscibility between the blends, as the sample of 50%PDLLA=50%PLGA has a Young’s Modulus greater than values obtained for PLGA or PDLLA, and the corresponding tensile strength is greater than the values obtained for PDLLA."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.92
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe016",
+      "polymer_name": "PDLLA20/PLGA20",
+      "polymer_type": "polymer_blend",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "PDLLA20/PLGA20"
+      ],
+      "resolved_from_mentions": [
+        "m023"
+      ],
+      "evidence": {
+        "block_id": "T_2_31",
+        "page": 2,
+        "bbox": [
+          71.0,
+          709.0,
+          488.0,
+          892.0
+        ],
+        "source_type": "table",
+        "source_sentence": "PDLLA20/PLGA20"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.65
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe017",
+      "polymer_name": "20%PDLLA= 80%PLGA",
+      "polymer_type": "polymer_blend",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "20%PDLLA= 80%PLGA",
+        "20%PDLLA=80%PLGA"
+      ],
+      "resolved_from_mentions": [
+        "m044",
+        "m088"
+      ],
+      "evidence": {
+        "block_id": "P_7_101",
+        "page": 7,
+        "bbox": [
+          504.0,
+          549.0,
+          926.0,
+          642.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The 20%PDLLA=80%PLGA blend has a higher tensile strength than the PDLLA but lower than PLGA."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.91
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe018",
+      "polymer_name": "PDLLA=PCL",
+      "polymer_type": "polymer_blend",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "PDLLA=PCL",
+        "PCL",
+        "PCL=PDLLA",
+        "PDLLA"
+      ],
+      "resolved_from_mentions": [
+        "m063",
+        "m066",
+        "m068",
+        "m069",
+        "m079",
+        "m100"
+      ],
+      "evidence": {
+        "block_id": "P_6_88",
+        "page": 6,
+        "bbox": [
+          500.0,
+          412.0,
+          921.0,
+          625.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The PBS adsorption of thin film blends of PDLLA=PCL is illustrated in Figure 6."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.88
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe019",
+      "polymer_name": "PLGA= PCL",
+      "polymer_type": "polymer_blend",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "PLGA=PCL",
+        "PLGA= PCL",
+        "PCL",
+        "PLGA"
+      ],
+      "resolved_from_mentions": [
+        "m057",
+        "m070",
+        "m071",
+        "m074",
+        "m078",
+        "m099"
+      ],
+      "evidence": {
+        "block_id": "P_6_89",
+        "page": 6,
+        "bbox": [
+          500.0,
+          625.0,
+          923.0,
+          838.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The PBS adsorptions of the thin film blends of PLGA= PCL were also analysed."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.88
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe020",
+      "polymer_name": "PDLLA=PLGA",
+      "polymer_type": "polymer_blend",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "PDLLA=PLGA",
+        "PDLLA",
+        "PLGA",
+        "PDLLA= PLGA"
+      ],
+      "resolved_from_mentions": [
+        "m072",
+        "m073",
+        "m086",
+        "m089",
+        "m090",
+        "m091",
+        "m093",
+        "m094",
+        "m101"
+      ],
+      "evidence": {
+        "block_id": "P_7_101",
+        "page": 7,
+        "bbox": [
+          504.0,
+          549.0,
+          926.0,
+          642.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Presented in Figures 10 and 11, the tensile strength and Young’s Modulus of blends of PDLLA=PLGA are plotted across the entire composition range."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.9
+      },
+      "copolymer_type": null
+    }
+  ],
+  "unresolved_mention_ids": [
+    "m040",
+    "m041"
+  ],
+  "provenance": {
+    "stage": "stage2_polymer_entity",
+    "provider": "dmx",
+    "model": "gpt-5.6-terra-2026-07-09",
+    "models": [
+      "gpt-5.6-terra-2026-07-09"
+    ],
+    "prompt_id": "polymer.stage2.polymer_entity",
+    "prompt_version": "1.3.0",
+    "prompt_sha256": "0d376da340b979a77fcd231e0148cc26c8b9d125f7209025c7055483abb7d7e1",
+    "input_hash": "9cdfc62d01ada83fb2d6ea1118e6977fc42266ec993b98555d3b8933ca461c75",
+    "model_config_hash": "c9e96c2514956e7b4b65eae3d327d34f95b7a33876cec6d4aa56f95eb79a9b50",
+    "cache_key": "6afc2cddd400fb9bda6b46d5db5e387396eda38b973a49afbbfeecb219e473d8",
+    "output_schema_version": "polymer_entity_schema.v3",
+    "implementation_version": "1.4.0",
+    "context_block_count": 67,
+    "context_chars": 41309,
+    "call_count": 1,
+    "usage": {
+      "input_tokens": 23793,
+      "output_tokens": 4610,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "billable_input_tokens": 23793,
+      "total_tokens": 28403
+    },
+    "cost": {
+      "status": "calculated",
+      "currency": "CNY",
+      "input_per_million": "17",
+      "output_per_million": "101",
+      "input_cost": "0.404481",
+      "output_cost": "0.46561",
+      "total_cost": "0.870091"
+    },
+    "status": "success"
+  },
+  "warnings": [
+    {
+      "stage": "stage2_polymer_entity",
+      "code": "unresolved_mentions",
+      "message": "2 个 mention 未解析为实体，已原样保留引用",
+      "mention_ids": [
+        "m040",
+        "m041"
+      ]
+    },
+    {
+      "stage": "stage2_polymer_entity",
+      "code": "polymer_type_default_inferred",
+      "message": "Backfill：无共聚或共混反证的实体已推断为 homopolymer",
+      "items": [
+        {
+          "entity_id": "pe007",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        }
+      ],
+      "backfill": true
+    }
+  ]
+}

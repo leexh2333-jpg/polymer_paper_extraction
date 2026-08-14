@@ -1,0 +1,499 @@
+{
+  "schema_version": "1.0",
+  "document_id": "reference_no_0037607",
+  "characterizations": [
+    {
+      "characterization_id": "char001",
+      "method_raw": "UV-vis spectroscopy",
+      "method_normalized": "UV-Vis",
+      "sample_ids": [
+        "s001",
+        "s002"
+      ],
+      "sample_resolution_status": "multi_resolved",
+      "parameters": {},
+      "result_summary": "Order parameter values of 1.11 for sample 8a and 0.97 for sample 8b were measured to indicate dye aggregation degree.",
+      "derived_property_ids": [
+        "prop001",
+        "prop002"
+      ],
+      "evidence": [
+        {
+          "block_id": "P_6_101",
+          "page": 6,
+          "bbox": [
+            527.0,
+            496.0,
+            932.0,
+            646.0
+          ],
+          "source_type": "text",
+          "source_sentence": "If one compares the quotient of absorption intensities in films, it changes from 1.68 for the PerInit 6 (highly aggregated) to 1.11 for 8a (medium aggregation) and 0.97 (least aggregation) for 8b."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "characterization_id": "char002",
+      "method_raw": "NMR",
+      "method_normalized": "NMR",
+      "sample_ids": [
+        "s001",
+        "s002"
+      ],
+      "sample_resolution_status": "multi_resolved",
+      "parameters": {},
+      "result_summary": "Average number of triphenylamine repeating units is 14 for 8a and 44 for 8b, with corresponding 1H NMR chemical shifts recorded.",
+      "derived_property_ids": [
+        "prop003",
+        "prop004",
+        "prop_s5_001"
+      ],
+      "evidence": [
+        {
+          "block_id": "P_6_96",
+          "page": 6,
+          "bbox": [
+            101.0,
+            151.0,
+            508.0,
+            391.0
+          ],
+          "source_type": "text",
+          "source_sentence": "From <sup>1</sup>H NMR spectroscopy the average number of the triphenylamine repeating units can be calculated as 14 for 8a and 44 for 8b."
+        },
+        {
+          "block_id": "P_2_42",
+          "page": 2,
+          "bbox": [
+            528.0,
+            279.0,
+            930.0,
+            322.0
+          ],
+          "source_type": "text",
+          "source_sentence": "8a: <sup>1</sup>H NMR (CDCl<sub>3</sub>): d ¼ 8.62 (m, 0.68H), 6.90 (m, 15.45H), 6.58 (m, 2.00H), 5.28 (m, 0.25), 1.99 (m, 1.81H), 1.60 (m, 2.19H), 1.19 (m, 1.99H), 0.80 (m, 0.83H)."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "characterization_id": "char003",
+      "method_raw": "GPC with polystyrene standards using THF as solvent",
+      "method_normalized": "GPC",
+      "sample_ids": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006",
+        "s007"
+      ],
+      "entity_ids": [
+        "pe001",
+        "pe002",
+        "pe003",
+        "pe004",
+        "pe005"
+      ],
+      "sample_resolution_status": "multi_resolved",
+      "series_ids": [
+        "series001",
+        "series002"
+      ],
+      "parameters": {
+        "calibration_standard": "polystyrene",
+        "solvent": "THF"
+      },
+      "result_summary": "Number-average molecular weight and polydispersity index of 7 polymer samples were determined.",
+      "derived_property_ids": [],
+      "evidence": [
+        {
+          "block_id": "T_3_58",
+          "page": 3,
+          "bbox": [
+            65.0,
+            361.0,
+            888.0,
+            880.0
+          ],
+          "source_type": "table",
+          "source_sentence": "polydispersity and $\\overline{M}_n$ were determined by GPC with polystyrene standards using THF as solvent."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "characterization_id": "char004",
+      "method_raw": "DSC",
+      "method_normalized": "DSC",
+      "sample_ids": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006",
+        "s007"
+      ],
+      "entity_ids": [
+        "pe001",
+        "pe002",
+        "pe003",
+        "pe004",
+        "pe005"
+      ],
+      "sample_resolution_status": "multi_resolved",
+      "series_id": "series003",
+      "measurement_context": {
+        "other_conditions": {
+          "heating_cycle": "second"
+        },
+        "other_condition_evidence": {
+          "heating_cycle": [
+            {
+              "block_id": "I_5_83",
+              "page": 5,
+              "bbox": [
+                70.0,
+                87.0,
+                464.0,
+                306.0
+              ],
+              "source_type": "image",
+              "source_sentence": "second heating curves at $10 \\mathrm { K } \\cdot \\mathrm { min } ^ { - 1 } )$"
+            }
+          ]
+        },
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "parameters": {},
+      "result_summary": "Glass transition temperatures of 7 polymer samples were measured.",
+      "derived_property_ids": [],
+      "evidence": [
+        {
+          "block_id": "I_5_83",
+          "page": 5,
+          "bbox": [
+            70.0,
+            87.0,
+            464.0,
+            306.0
+          ],
+          "source_type": "image",
+          "source_sentence": "Figure 3. DSC curves of different dye-labeled polymers 8a, 8b, 9b, and 11 (second heating curves at $10 \\mathrm { K } \\cdot \\mathrm { min } ^ { - 1 } )$"
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "characterization_id": "char005",
+      "method_raw": "TGA",
+      "method_normalized": "TGA",
+      "sample_ids": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006",
+        "s007"
+      ],
+      "entity_ids": [
+        "pe001",
+        "pe002",
+        "pe003",
+        "pe004",
+        "pe005"
+      ],
+      "sample_resolution_status": "multi_resolved",
+      "series_id": "series004",
+      "parameters": {},
+      "result_summary": "5% weight loss temperatures of 7 polymer samples were determined.",
+      "derived_property_ids": [],
+      "evidence": [
+        {
+          "block_id": "T_3_58",
+          "page": 3,
+          "bbox": [
+            65.0,
+            361.0,
+            888.0,
+            880.0
+          ],
+          "source_type": "table",
+          "source_sentence": "thermal properties (from DSC and TGA) of the dye-labeled polymers"
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "characterization_id": "char006",
+      "method_raw": "IR",
+      "method_normalized": "FTIR",
+      "sample_ids": [
+        "s002",
+        "s004",
+        "s005",
+        "s006",
+        "s007"
+      ],
+      "sample_resolution_status": "multi_resolved",
+      "parameters": {
+        "substrate": "Si"
+      },
+      "result_summary": "FTIR spectra were recorded for samples 8b, 9b, 10, 11, 12 with characteristic wavenumber peaks reported.",
+      "derived_property_ids": [],
+      "evidence": [
+        {
+          "block_id": "P_2_43",
+          "page": 2,
+          "bbox": [
+            528.0,
+            321.0,
+            930.0,
+            391.0
+          ],
+          "source_type": "text",
+          "source_sentence": "IR (Si): 3 058, 3 027, 2 926, 2 857, 1 698, 1 659, 1 593, 1 508, 1 493, 1 451, 1 314, 1 278, 1 177, 1 073, 1 030 cm<sup>−1</sup>."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    }
+  ],
+  "properties": [
+    {
+      "property_id": "prop_s5_001",
+      "characterization_id": "char002",
+      "sample_id": "s001",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "1H NMR chemical shift",
+      "property_name_normalized": "nmr_chemical_shift",
+      "property_category": "composition_structure",
+      "value_raw": "8.62",
+      "value_min": 8.62,
+      "value_max": 8.62,
+      "spectral_assignment": "m, 0.68H",
+      "source_stage": "stage5",
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_2_42",
+          "page": 2,
+          "bbox": [
+            528.0,
+            279.0,
+            930.0,
+            322.0
+          ],
+          "source_type": "text",
+          "source_sentence": "8a: <sup>1</sup>H NMR (CDCl<sub>3</sub>): d ¼ 8.62 (m, 0.68H), 6.90 (m, 15.45H), 6.58 (m, 2.00H), 5.28 (m, 0.25), 1.99 (m, 1.81H), 1.60 (m, 2.19H), 1.19 (m, 1.99H), 0.80 (m, 0.83H)."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    }
+  ],
+  "provenance": {
+    "stage": "stage5_characterization",
+    "provider": "dmx",
+    "model": "doubao-seed-2.0-pro",
+    "models": [
+      "doubao-seed-2.0-pro"
+    ],
+    "prompt_id": "polymer.stage5.characterization",
+    "prompt_version": "1.6.2",
+    "prompt_sha256": "5f918eb9d0dcbe0a4dc60a70d83c4e9f144f9a87bf68905d0a38ad22c000ee5c",
+    "vocabulary_sha256": "3e9d85e4915a729edf0f0a53821f3ee6edf32874e1da6972457417e4f13a1510",
+    "input_hash": "90626576624891d48b3e73b19b807d297f58eeed32bdbc85cd694492c2df1c11",
+    "model_config_hash": "7e14aff06827af47a7b1a797111258e33d5972d1c072111440c3b2aae020f3ce",
+    "cache_key": "93ee37b9704727c7c01b8557778669335cfb0b2ea1870f6e3be4c5e9c9e999d0",
+    "output_schema_version": "characterization_schema.v4",
+    "implementation_version": "1.7.1",
+    "context_block_count": 44,
+    "context_chars": 33053,
+    "call_count": 1,
+    "usage": {
+      "input_tokens": 19793,
+      "output_tokens": 10858,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "billable_input_tokens": 19793,
+      "total_tokens": 30651
+    },
+    "cost": {
+      "status": "calculated",
+      "currency": "CNY",
+      "input_per_million": "4.32",
+      "output_per_million": "29.15",
+      "input_cost": "0.08550576",
+      "output_cost": "0.3165107",
+      "total_cost": "0.40201646"
+    },
+    "status": "success"
+  },
+  "warnings": [
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_incomplete_table_evidence_removed",
+      "message": "Preview 模式已移除缺少 table_locator 的附加表格 evidence；同一对象仍保留其他原文 evidence",
+      "field_path": "characterizations[3].evidence",
+      "block_ids": [
+        "T_3_58"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unlocatable_additional_evidence_removed",
+      "message": "Preview 模式已移除无法回定位到 Stage 0 block 的附加 Characterization evidence",
+      "field_path": "characterizations[0].evidence",
+      "block_ids": [
+        "P_4_74"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_characterization_method_surface_recovered",
+      "message": "Preview 模式已将表征方法恢复为 evidence 中唯一匹配的原文词形",
+      "field_path": "characterizations[1].method_raw",
+      "method_normalized": "NMR"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_characterization_method_surface_recovered",
+      "message": "Preview 模式已将表征方法恢复为 evidence 中唯一匹配的原文词形",
+      "field_path": "characterizations[3].method_raw",
+      "method_normalized": "DSC"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_characterization_details_cleared",
+      "message": "Preview 模式已清空无对象 evidence 支撑的可选表征细节",
+      "field_path": "characterizations[3]",
+      "fields": [
+        "measurement_context.other_conditions"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_property_removed",
+      "message": "Preview 模式已移除 value_raw 无原文支撑的 Stage 5 性质",
+      "field_path": "properties[0].value_raw",
+      "property_id": "prop_s5_001"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_property_removed",
+      "message": "Preview 模式已移除 value_raw 无原文支撑的 Stage 5 性质",
+      "field_path": "properties[1].value_raw",
+      "property_id": "prop_s5_002"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_stage5_optional_fields_cleared",
+      "message": "Preview 模式已清空无原文支撑的 Stage 5 可选字段",
+      "field_path": "properties[2]",
+      "property_id": "prop_s5_003",
+      "fields": [
+        "solvent"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "series_point_subject_scope_inherited",
+      "message": "Characterization 已从关联且主体范围一致的跨主体 Series points 继承完整主体范围",
+      "field_path": "characterizations[2]",
+      "series_ids": [
+        "series001",
+        "series002"
+      ],
+      "sample_ids": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006",
+        "s007"
+      ],
+      "entity_ids": [
+        "pe001",
+        "pe002",
+        "pe003",
+        "pe004",
+        "pe005"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "series_point_subject_scope_inherited",
+      "message": "Characterization 已从关联且主体范围一致的跨主体 Series points 继承完整主体范围",
+      "field_path": "characterizations[3]",
+      "series_ids": [
+        "series003"
+      ],
+      "sample_ids": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006",
+        "s007"
+      ],
+      "entity_ids": [
+        "pe001",
+        "pe002",
+        "pe003",
+        "pe004",
+        "pe005"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "series_point_subject_scope_inherited",
+      "message": "Characterization 已从关联且主体范围一致的跨主体 Series points 继承完整主体范围",
+      "field_path": "characterizations[4]",
+      "series_ids": [
+        "series004"
+      ],
+      "sample_ids": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006",
+        "s007"
+      ],
+      "entity_ids": [
+        "pe001",
+        "pe002",
+        "pe003",
+        "pe004",
+        "pe005"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_semantic_validation_bypassed",
+      "message": "Preview 已保留 Schema 合法候选，并跳过原文/evidence 语义对应校验；Strict 模式仍会报错",
+      "reason": "char001.method_raw='UV-vis spectroscopy' 不是任一 evidence block 的原文子串"
+    }
+  ]
+}

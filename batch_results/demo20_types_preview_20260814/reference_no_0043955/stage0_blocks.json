@@ -1,0 +1,4637 @@
+{
+  "schema_version": "1.1",
+  "source_document_schema_version": "1.0",
+  "document_id": "reference_no_0043955",
+  "paper": {
+    "ref_no": "reference_no_0043955",
+    "pdf_filename": "ee302645-8a9c-45d1-a2eb-18bb6ba6bfa9_origin.pdf",
+    "source_pdf_path": "mineru/reference_no_0043955/ee302645-8a9c-45d1-a2eb-18bb6ba6bfa9_origin.pdf",
+    "organized_pdf_path": "organized/reference_no_0043955/origin.pdf",
+    "doi": null,
+    "title": null,
+    "authors": null,
+    "journal": null,
+    "year": null,
+    "metadata_status": "failed",
+    "metadata_extraction": {
+      "method": "llm",
+      "provider": null,
+      "model": null,
+      "prompt_file": "prompts/meta_extract.md",
+      "prompt_sha256": "98252486e4f9cdfd1b42ea02b7e01440d6be99c99d18720dc71c95aa1643fcd4",
+      "source_pages": [
+        0,
+        1
+      ],
+      "status": "failed",
+      "error_type": "MetaExtractorUnavailable"
+    }
+  },
+  "source_files": {
+    "markdown": "reference_no_0043955.md",
+    "content_v1": "content.json",
+    "content_v2": "content_v2.json",
+    "pdf": "origin.pdf"
+  },
+  "ocr": {
+    "engine": "mineru",
+    "batch_id": "122ff743-eb66-4583-986f-6c8015953309",
+    "model_version": "vlm",
+    "ocr_enabled": false,
+    "language": null,
+    "page_ranges": null,
+    "enable_formula": true,
+    "enable_table": true,
+    "extra_formats": [],
+    "status": "done",
+    "manifest_file": "batch_122ff743-eb66-4583-986f-6c8015953309_manifest.json",
+    "status_file": "batch_122ff743-eb66-4583-986f-6c8015953309_status.json"
+  },
+  "elements": [
+    {
+      "block_id": "P_0_0",
+      "type": "title",
+      "section": "DocumentTitle",
+      "text": "A Facile Synthetic Route to Functional Poly(phenylacetylene)s with Tunable Structures and Properties",
+      "page": 0,
+      "bbox": [
+        80.0,
+        132.0,
+        892.0,
+        177.0
+      ],
+      "source_block_index": 0,
+      "alignment_status": "matched",
+      "title_level": 1
+    },
+    {
+      "block_id": "P_0_1",
+      "type": "text",
+      "text": "Xiao A Zhang, Min Rui Chen,<sup>†,§</sup> Hui Zhao,<sup>†,§</sup> Yuan Gao,<sup>†</sup> Qiang Wei,<sup>†</sup> Shuang Zhang,<sup>†</sup> Anjun Qin,<sup>†</sup> Jing Zhi Sun, ,† and Ben Zhong Tang\\*<sup>,†,‡</sup>",
+      "page": 0,
+      "bbox": [
+        79.0,
+        185.0,
+        874.0,
+        221.0
+      ],
+      "source_block_index": 1,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_0_2",
+      "type": "text",
+      "text": "<sup>†</sup>Department of Polymer Science and Engineering, MOE Key Laboratory of Macromolecular Synthesis and Functionalization, Zhejiang University, Hangzhou 310027, China",
+      "page": 0,
+      "bbox": [
+        80.0,
+        230.0,
+        871.0,
+        258.0
+      ],
+      "source_block_index": 2,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_0_3",
+      "type": "text",
+      "text": "<sup>‡</sup>Department of Chemistry, The Hong Kong University of Science & Technology, Clear Water Bay, Kowloon, Hong Kong, China",
+      "page": 0,
+      "bbox": [
+        82.0,
+        260.0,
+        897.0,
+        276.0
+      ],
+      "source_block_index": 3,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_0_4",
+      "type": "text",
+      "text": "bS Supporting Information",
+      "page": 0,
+      "bbox": [
+        82.0,
+        282.0,
+        212.0,
+        297.0
+      ],
+      "source_block_index": 4,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_0_5",
+      "type": "text",
+      "text": "ABSTRACT: Pentafluorophenyl (PFP) ester-functionalized poly-(phenylacetylene)s (PPAs, P1, P2, and P3) were designed and synthesized in desirable yields and molecular weight by using organorhodium complexes as catalysts. Furthermore, these PFP-containing PPAs were used as precursors to prepare a series ofmono- and dual-functionalized PPAs by the substitution of the activated ester moieties with functional amines. The structures of the PFP-containing PPAs and the derived functional PPAs were characterized by using multiple spectroscopic techniques including GPC, FTIR, <sup>1</sup>H NMR, <sup>13</sup>C NMR, and <sup>19</sup>F NMR. The experimental details and the characterization data demonstrate that activated ester synthetic route to functional PPAs is facile (just stirring the precursor polymer with proper amine(s) at room temperature for hours), eficient (complete transition from ester to amide has",
+      "page": 0,
+      "bbox": [
+        93.0,
+        316.0,
+        535.0,
+        495.0
+      ],
+      "source_block_index": 5,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "I_0_6",
+      "type": "image",
+      "page": 0,
+      "bbox": [
+        543.0,
+        320.0,
+        897.0,
+        487.0
+      ],
+      "source_block_index": 6,
+      "alignment_status": "matched",
+      "image_path": "organized/reference_no_0043955/images/eabffe34eb8f440433a8c393ad28109f2ecd30f59a5efc09064f23241319b27e.jpg",
+      "image_kind": "image"
+    },
+    {
+      "block_id": "P_0_7",
+      "type": "text",
+      "text": "been confirmed), and quantitative (the relative content ofa specific functionality can be precisely preset by controlling the feed ratio of the functional amines). By reacting three PFP-containing PPAs with chiral amines or with chiral and nonchiral alkyl amines in a step-by-step way, a series of seven diferent PPAs with asymmetric carbon in the side chains were obtained. CD measurements indicated that the incorporation of chiral amine into polymer side chains induced helicity formation of P1 backbone. P1-C\\*Ph(L) and P1-C\\*Ph(D) backbones adopt predominantly right-handed and left-handed helical conformation, respectively. While the flexible spacer between the chiral center and the rigid PPA backbone blocked the induction of main-chain helicity by chiral pendants. thus no CD signals were recorded for P2-C\\*Ph(L) and P3-C\\*Ph(L). Substitution of PFP ester with amine-functionalized PEGs transited the hydrophobic PPAs to hydrophilic. All of the PEG-containing PPAs can be dissolved in water and form clear solutions. Meanwhile, all ofthe aqueous solutions exhibit LCST behavior and the hydrophilic PEG chains and hydrophobic alkyl spacers have positive and negative impact on the cloud point, respectively. Contact angles measurements showed that the length and content of the PEG chains contribute greatly to the hydrophilic property, and the length ofthe alkyl spacers and the content ofthe alkyl amine component played a contrary role. By controlling the ratio ofthe PEGylated and alkyl amines, the amphiphilic property ofthe PPAs can be well tailored.",
+      "page": 0,
+      "bbox": [
+        93.0,
+        495.0,
+        902.0,
+        676.0
+      ],
+      "source_block_index": 7,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_0_8",
+      "type": "title",
+      "text": "’INTRODUCTION",
+      "page": 0,
+      "bbox": [
+        80.0,
+        710.0,
+        222.0,
+        725.0
+      ],
+      "source_block_index": 8,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_0_9",
+      "type": "text",
+      "text": "Functional poly(acetylene)s (PAs) have attracted much research efort<sup>1</sup> due to their versatile properties such as electrical and photoconductivity,<sup>2</sup> chain helicity,<sup>3</sup> liquid crystalline property, gas permeability,<sup>5</sup> and biocompatibility.<sup>6</sup> Generally, an expected functional PA is attained by polymerization of the specially designed monomer, to which a corresponding functional moiety is chemically attached. Sometimes, the functional groups, especially those used for hydrogen-bonding formation, can poison the catalyst system.<sup>1e,7</sup> Thus, rigid conditions and complex groupprotection strategies have to be employed.<sup>1e,8</sup> In addition, to obtain the expected resultants, the polymerization of acetylenic monomers with diferent functionalities needs diferent reaction conditions, which usually result in functional PAs with diferent molecular weights and polydispersity indices, chain configurations, and stereoregularities. Consequently, the systematic and explicit investigation on structure property relationship of functional PAs is restricted. Therefore, it is practically demanding and fundamentally significant to develop a platform-like synthetic route toward various functional PAs.",
+      "page": 0,
+      "bbox": [
+        80.0,
+        730.0,
+        484.0,
+        925.0
+      ],
+      "source_block_index": 9,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_0_10",
+      "type": "text",
+      "text": "",
+      "page": 0,
+      "bbox": [
+        512.0,
+        712.0,
+        915.0,
+        781.0
+      ],
+      "source_block_index": 10,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_0_11",
+      "type": "text",
+      "text": "In previous studies, postpolymerization reactions have been utilized to prepare functional PAs to avoid the defects of direct polymerization of acetylenic monomers.<sup>1e</sup> However, to the best of our knowledge, only several reactions are involved in this field such as ionization ofamine and carboxyl pendants,<sup>7</sup> deprotection of the protected hydroxyl<sup>6</sup> and carboxyl groups,<sup>9a</sup> click reaction",
+      "page": 0,
+      "bbox": [
+        512.0,
+        781.0,
+        917.0,
+        865.0
+      ],
+      "source_block_index": 11,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "F_0_16",
+      "type": "footnote",
+      "text": "Received: June 28, 2011",
+      "page": 0,
+      "bbox": [
+        514.0,
+        881.0,
+        675.0,
+        896.0
+      ],
+      "source_block_index": 16,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "F_0_17",
+      "type": "footnote",
+      "text": "Revised: July 25, 2011",
+      "page": 0,
+      "bbox": [
+        514.0,
+        896.0,
+        672.0,
+        910.0
+      ],
+      "source_block_index": 17,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "F_0_18",
+      "type": "footnote",
+      "text": "<sup>Published:</sup> August 17 2011",
+      "page": 0,
+      "bbox": [
+        514.0,
+        910.0,
+        686.0,
+        925.0
+      ],
+      "source_block_index": 18,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_1_22",
+      "type": "text",
+      "text": "Chart 1",
+      "page": 1,
+      "bbox": [
+        82.0,
+        541.0,
+        138.0,
+        555.0
+      ],
+      "source_block_index": 22,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_1_23",
+      "type": "text",
+      "text": "of triple bond and azide,<sup>9d</sup> hydrazinolysis of imide to amine <sub>group,</sub><sup>9b,c</sup> <sub>and</sub> <sub>nucleophilic</sub> <sub>substitution</sub> <sub>of</sub> <sub>halogen</sub> <sub>by</sub> <sub>imidazole.</sub><sup>9e</sup>\u0001<sup>g</sup> Since the pioneer work of reactive polymers based on activated esters reported by Ringsdorf and co-workers and Ferruti et al.,<sup>10</sup> the conversion of activated esters with amines to amides has received much attention in such diverse fields as polymer chemistry, orthogonal reaction of bioconjugated macromolecules, and surface modification ofnanostructures.<sup>11</sup> It has been proved that the conversion of polymeric activated esters with amines is usually quantitative and proceeds without any side reactions under mild conditions.<sup>11a</sup> Recently, Theato’s group successfully synthesized pentafluorophenyl (PFP) ester-functionalized PAs with a W-based catalyst for the first time and conducted their polymer reaction with basic aliphatic or aromatic amines.<sup>12</sup>",
+      "page": 1,
+      "bbox": [
+        80.0,
+        80.0,
+        484.0,
+        273.0
+      ],
+      "source_block_index": 23,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_1_24",
+      "type": "text",
+      "text": "These key features of activated ester triggered us to explore its application in modifying the side chain of PAs in order to obtain elaborately designed structure and various functions. In this work, we report our studies on the synthesis and postmodification ofPFP ester-functionalized PAs. Rh-based catalysts have been used to prepare three PFP ester-functionalized poly(phenylacetylenes) (PPAs). Normally, Rh complexes are more widely used than W-based catalysts in the polymerization of phenylacetylene derivatives because they are tolerable to variety offunctionalities. The predesigned PFP ester-functionalized PPAs (Chart 1, P1, P2, and P3) have been obtained in high yield and acceptable molecular weight. Furthermore, P1, P2, and P3 reacted with functional amines, chiral amines, and PEGylated amines, giving rise to PPA deriveatives with high molecular weight in high yield. Besides, we have tried to tune the side-chain ratio through controlling the feed ratio of two reacting amines. The chain helicity, water solubility and LCST property, and amphilicity of obtained PPAs are demonstrated.",
+      "page": 1,
+      "bbox": [
+        80.0,
+        273.0,
+        484.0,
+        521.0
+      ],
+      "source_block_index": 24,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "I_1_25",
+      "type": "image",
+      "page": 1,
+      "bbox": [
+        82.0,
+        545.0,
+        462.0,
+        715.0
+      ],
+      "source_block_index": 25,
+      "alignment_status": "matched",
+      "caption": "Scheme 2",
+      "image_path": "organized/reference_no_0043955/images/978fc1ed73ceba1bc5f4165031000ca26fdc3d1b6a0d706a5cce686461788b5d.jpg",
+      "image_kind": "image"
+    },
+    {
+      "block_id": "P_1_26",
+      "type": "title",
+      "text": "’ RESULTS AND DISCUSSION",
+      "page": 1,
+      "bbox": [
+        514.0,
+        80.0,
+        739.0,
+        95.0
+      ],
+      "source_block_index": 26,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_1_27",
+      "type": "text",
+      "text": "Polymerization. The synthetic routes to PPAs containing activated ester pendant are shown in Schemes 1 and 2 (the experiment details and characterization data are included in the Experimental Section). Phenylacetylene derivatives with a pentafluorophenyl activated ester (monomers 1 3) were obtained by condensation between pentafluorophenol and carboxyl-containing phenylacetylenes (compounds 5 7) in the presence of DCC, DMAP, and TsOH. All of the three monomers were characterized by standard spectroscopic methods, from which satisfactory analysi data were obtained (see Experimental Section for details).",
+      "page": 1,
+      "bbox": [
+        512.0,
+        105.0,
+        917.0,
+        243.0
+      ],
+      "source_block_index": 27,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_1_28",
+      "type": "text",
+      "text": "To conduct polymerization of monomer 1, we first tried organorhodium complexes $\\mathrm { [ R h ( d i e n e ) C l ] } _ { 2 } ,$which are widely used as efective catalysts to polymerize phenylacetylene derivatives.<sup>1</sup> We first attempted to use $[ \\mathrm { R h } ( \\mathrm { c o } \\dot { \\mathrm { d } } ) \\mathrm { C l j } _ { 2 }$and $[ \\mathrm { R h ( n b d ) C l } ] _ { 2 }$to polymerize monomer 1 in THF without $\\mathrm { E t } _ { 3 } \\mathrm { N } ,$, and polymer P1 with moderate molecular weight was obtained $( M _ { \\mathrm { w } } ^ { - } \\sim 2 3 8 0 0 ,$Table 1, nos. 1 and 3). However, the yield of P1 was only 47.2% and $6 5 . 0 \\% ,$which were lower than the average level of polymerizations of phenylacetylene-based monomers. Higher yield ( 75.4%) was obtained when Et N was used as cosolvent (Table 1, nos. 2 and 4). Even higher yield ( 96.9%) was achieved when diferent solvents such as dioxane and toluene were used (Table 1, nos. 6 and 7). Furthermore, as an excellent catalyst for the alkyne polymerization, the zwitterionic complex $\\mathrm { R \\dot { h } ^ { + } ( n b d ) [ C _ { 6 } H _ { 5 } \\dot { B } ^ { - } . }$$\\mathrm { \\hat { ( } C _ { 6 } H _ { 5 } ) _ { 3 } ] }$could also transform monomer 1 into P1 in THF (without using Et N) in high yield of 80.1% (Table 1, no. 8). Again, higher yield was obtained when diferent solvents were used (Table 1, nos. 9 and 10).",
+      "page": 1,
+      "bbox": [
+        512.0,
+        243.0,
+        915.0,
+        490.0
+      ],
+      "source_block_index": 28,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_1_28",
+        "V2_1_6_1",
+        "V2_1_6_3",
+        "V2_1_6_5",
+        "V2_1_6_7",
+        "V2_1_6_9",
+        "V2_1_6_11",
+        "V2_1_6_13",
+        "V2_1_6_14"
+      ]
+    },
+    {
+      "block_id": "P_1_29",
+      "type": "text",
+      "text": "Similarly, monomers 2 and 3 were polymerized in THF with organorhodium complexes $\\begin{array} { r } { [ \\mathrm { R h } ( \\mathrm { d i e n e } ) \\mathrm { C l } ] _ { 2 } . } \\end{array}$. In these cases, $\\mathrm { E t } _ { 3 } \\mathrm { N }$was found to play a more important role in achieving high yield (Table 1, nos. 9 and 10). The zwitterionic complex Rh<sup>+</sup>(nbd)- $\\left[ \\mathrm { C } _ { 6 } \\mathrm { H } _ { 5 } \\mathrm { B } ^ { - } ( \\mathrm { C } _ { 6 } \\mathrm { H } _ { 5 } ) _ { 3 } \\right]$was also an efective catalyst in the polymerization ofmonomers 2 and 3 (Table 1, nos. 15 and 21). Noteworthy, both ofthe obtained P2 and P3 showed higher $M _ { \\mathrm { w } }$value than P1, especially when $[ \\mathrm { R h ( n b d ) C l } ] _ { 2 }$was used, regardless of whether Et N was utilized or not.",
+      "page": 1,
+      "bbox": [
+        512.0,
+        488.0,
+        915.0,
+        613.0
+      ],
+      "source_block_index": 29,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_1_29",
+        "V2_1_7_1",
+        "V2_1_7_3",
+        "V2_1_7_5",
+        "V2_1_7_7",
+        "V2_1_7_9"
+      ]
+    },
+    {
+      "block_id": "P_1_30",
+      "type": "text",
+      "text": "Structural Characterization. The structures of the obtained polymers P1, P2, and P3 were well-characterized by spectroscopic methods such as FTIR and NMR. The analysis data were quite satisfactory corresponding to the expected molecular structures (see Experimental Section for details). An example of the IR spectra of polymer P2 and its monomer 2 are shown in Figure 1. The monomer shows absorption bands at 3311 and",
+      "page": 1,
+      "bbox": [
+        512.0,
+        612.0,
+        917.0,
+        711.0
+      ],
+      "source_block_index": 30,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "I_1_31",
+      "type": "image",
+      "page": 1,
+      "bbox": [
+        243.0,
+        740.0,
+        756.0,
+        805.0
+      ],
+      "source_block_index": 31,
+      "alignment_status": "matched",
+      "image_path": "organized/reference_no_0043955/images/52ea39c493b1eb5dd1330b02ee0f52d9fd01bd5832358f33444d824a98e3bf3d.jpg",
+      "image_kind": "image"
+    },
+    {
+      "block_id": "I_1_32",
+      "type": "image",
+      "page": 1,
+      "bbox": [
+        194.0,
+        842.0,
+        803.0,
+        930.0
+      ],
+      "source_block_index": 32,
+      "alignment_status": "matched",
+      "image_path": "organized/reference_no_0043955/images/e361d3c1638816bd9a7e81bc823b18c848596d43cee123165ec222310ae0dca4.jpg",
+      "image_kind": "image"
+    },
+    {
+      "block_id": "T_2_37",
+      "type": "table",
+      "page": 2,
+      "bbox": [
+        85.0,
+        113.0,
+        476.0,
+        510.0
+      ],
+      "source_block_index": 37,
+      "alignment_status": "matched",
+      "caption": "Table 1. Polymerizations of PFP Ester-Functionalized Phenylacetylenes (Monomers 1 3)<sup>a</sup>",
+      "table_body": "<table><tr><td>no.</td><td>catalyst</td><td>solvent $^{b}$ </td><td>yield(%)</td><td> $M_{\\text{w}}^{c}$ </td><td> $M_{\\text{w}}/M_{\\text{n}}^{c}$ </td></tr><tr><td colspan=\"6\">Monomer 1</td></tr><tr><td>1</td><td> $[Rh(cod)Cl]_{2}$ </td><td>THF</td><td>47.2</td><td>23800</td><td>1.71</td></tr><tr><td>2</td><td> $[Rh(cod)Cl]_{2}$ </td><td>THF/Et $_{3}$ N</td><td>75.0</td><td>31800</td><td>1.85</td></tr><tr><td>3</td><td> $[Rh(nbd)Cl]_{2}$ </td><td>THF</td><td>65.0</td><td>23100</td><td>1.54</td></tr><tr><td>4</td><td> $[Rh(nbd)Cl]_{2}$ </td><td>THF/Et $_{3}$ N</td><td>75.4</td><td>41300</td><td>1.92</td></tr><tr><td>5</td><td> $[Rh(cod)Cl]_{2}$ </td><td>DCM/Et $_{3}$ N</td><td>68.9</td><td>7800</td><td>1.93</td></tr><tr><td>6</td><td> $[Rh(cod)Cl]_{2}$ </td><td>toluene/Et $_{3}$ N</td><td>83.3</td><td>9500</td><td>2.54</td></tr><tr><td>7</td><td> $[Rh(cod)Cl]_{2}$ </td><td>dioxane/Et $_{3}$ N</td><td>96.9</td><td>19300</td><td>4.52</td></tr><tr><td>8</td><td> $Rh^{+}(nbd)[C_{6}H_{5}B^{-}(C_{6}H_{5})_{3}]$ </td><td>THF</td><td>80.1</td><td>7000</td><td>1.90</td></tr><tr><td>9</td><td> $Rh^{+}(nbd)[C_{6}H_{5}B^{-}(C_{6}H_{5})_{3}]$ </td><td>DCM</td><td>88.5</td><td>12500</td><td>2.40</td></tr><tr><td>10</td><td> $Rh^{+}(nbd)[C_{6}H_{5}B^{-}(C_{6}H_{5})_{3}]$ </td><td>toluene</td><td>91.5</td><td>16300 $^{d}$ </td><td>3.22</td></tr><tr><td colspan=\"6\">Monomer 2</td></tr><tr><td>11</td><td> $[Rh(cod)Cl]_{2}$ </td><td>THF</td><td>trace</td><td></td><td></td></tr><tr><td>12</td><td> $[Rh(cod)Cl]_{2}$ </td><td>THF/Et $_{3}$ N</td><td>86.4</td><td>70600</td><td>2.22</td></tr><tr><td>13</td><td> $[Rh(nbd)Cl]_{2}$ </td><td>THF</td><td>11.2</td><td>296400</td><td>2.15</td></tr><tr><td>14</td><td> $[Rh(nbd)Cl]_{2}$ </td><td>THF/Et $_{3}$ N</td><td>89.1</td><td>305400</td><td>2.28</td></tr><tr><td>15</td><td> $Rh^{+}(nbd)[C_{6}H_{5}B^{-}(C_{6}H_{5})_{3}]$ </td><td>THF</td><td>74.6</td><td>83900</td><td>2.41</td></tr><tr><td colspan=\"6\">Monomer 3</td></tr><tr><td>16</td><td> $[Rh(cod)Cl]_{2}$ </td><td>THF</td><td>trace</td><td></td><td></td></tr><tr><td>17</td><td> $[Rh(cod)Cl]_{2}$ </td><td>THF/Et $_{3}$ N</td><td>78.4</td><td>97300</td><td>1.94</td></tr><tr><td>18</td><td> $[Rh(nbd)Cl]_{2}$ </td><td>THF</td><td>6.8</td><td>267800</td><td>2.18</td></tr><tr><td>19</td><td> $[Rh(nbd)Cl]_{2}$ </td><td>THF/Et $_{3}$ N</td><td>82.8</td><td>288000</td><td>2.61</td></tr><tr><td>20</td><td> $[Rh(cod)Cl]_{2}$ </td><td>toluene/Et $_{3}$ N</td><td>95.2</td><td>104800</td><td>2.25</td></tr><tr><td>21</td><td> $Rh^{+}(nbd)[C_{6}H_{5}B^{-}(C_{6}H_{5})_{3}]$ </td><td>toluene</td><td>82.2</td><td>92100 $^{d}$ </td><td>2.42</td></tr></table>",
+      "table_cells": [
+        {
+          "cell_id": "T_2_37:r0000:c0000",
+          "row_index": 0,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "no.",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0000:c0001",
+          "row_index": 0,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "catalyst",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0000:c0002",
+          "row_index": 0,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "solvent $^{b}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0000:c0003",
+          "row_index": 0,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "yield(%)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0000:c0004",
+          "row_index": 0,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$M_{\\text{w}}^{c}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0000:c0005",
+          "row_index": 0,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$M_{\\text{w}}/M_{\\text{n}}^{c}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0001:c0000",
+          "row_index": 1,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 6,
+          "text": "Monomer 1",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0002:c0000",
+          "row_index": 2,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0002:c0001",
+          "row_index": 2,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$[Rh(cod)Cl]_{2}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0002:c0002",
+          "row_index": 2,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "THF",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0002:c0003",
+          "row_index": 2,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "47.2",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0002:c0004",
+          "row_index": 2,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "23800",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0002:c0005",
+          "row_index": 2,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1.71",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0003:c0000",
+          "row_index": 3,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "2",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0003:c0001",
+          "row_index": 3,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$[Rh(cod)Cl]_{2}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0003:c0002",
+          "row_index": 3,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "THF/Et $_{3}$ N",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0003:c0003",
+          "row_index": 3,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "75.0",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0003:c0004",
+          "row_index": 3,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "31800",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0003:c0005",
+          "row_index": 3,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1.85",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0004:c0000",
+          "row_index": 4,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "3",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0004:c0001",
+          "row_index": 4,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$[Rh(nbd)Cl]_{2}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0004:c0002",
+          "row_index": 4,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "THF",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0004:c0003",
+          "row_index": 4,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "65.0",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0004:c0004",
+          "row_index": 4,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "23100",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0004:c0005",
+          "row_index": 4,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1.54",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0005:c0000",
+          "row_index": 5,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "4",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0005:c0001",
+          "row_index": 5,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$[Rh(nbd)Cl]_{2}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0005:c0002",
+          "row_index": 5,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "THF/Et $_{3}$ N",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0005:c0003",
+          "row_index": 5,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "75.4",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0005:c0004",
+          "row_index": 5,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "41300",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0005:c0005",
+          "row_index": 5,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1.92",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0006:c0000",
+          "row_index": 6,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "5",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0006:c0001",
+          "row_index": 6,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$[Rh(cod)Cl]_{2}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0006:c0002",
+          "row_index": 6,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "DCM/Et $_{3}$ N",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0006:c0003",
+          "row_index": 6,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "68.9",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0006:c0004",
+          "row_index": 6,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "7800",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0006:c0005",
+          "row_index": 6,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1.93",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0007:c0000",
+          "row_index": 7,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "6",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0007:c0001",
+          "row_index": 7,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$[Rh(cod)Cl]_{2}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0007:c0002",
+          "row_index": 7,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "toluene/Et $_{3}$ N",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0007:c0003",
+          "row_index": 7,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "83.3",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0007:c0004",
+          "row_index": 7,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "9500",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0007:c0005",
+          "row_index": 7,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "2.54",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0008:c0000",
+          "row_index": 8,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "7",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0008:c0001",
+          "row_index": 8,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$[Rh(cod)Cl]_{2}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0008:c0002",
+          "row_index": 8,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "dioxane/Et $_{3}$ N",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0008:c0003",
+          "row_index": 8,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "96.9",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0008:c0004",
+          "row_index": 8,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "19300",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0008:c0005",
+          "row_index": 8,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "4.52",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0009:c0000",
+          "row_index": 9,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "8",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0009:c0001",
+          "row_index": 9,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$Rh^{+}(nbd)[C_{6}H_{5}B^{-}(C_{6}H_{5})_{3}]$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0009:c0002",
+          "row_index": 9,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "THF",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0009:c0003",
+          "row_index": 9,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "80.1",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0009:c0004",
+          "row_index": 9,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "7000",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0009:c0005",
+          "row_index": 9,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1.90",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0010:c0000",
+          "row_index": 10,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "9",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0010:c0001",
+          "row_index": 10,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$Rh^{+}(nbd)[C_{6}H_{5}B^{-}(C_{6}H_{5})_{3}]$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0010:c0002",
+          "row_index": 10,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "DCM",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0010:c0003",
+          "row_index": 10,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "88.5",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0010:c0004",
+          "row_index": 10,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "12500",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0010:c0005",
+          "row_index": 10,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "2.40",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0011:c0000",
+          "row_index": 11,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "10",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0011:c0001",
+          "row_index": 11,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$Rh^{+}(nbd)[C_{6}H_{5}B^{-}(C_{6}H_{5})_{3}]$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0011:c0002",
+          "row_index": 11,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "toluene",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0011:c0003",
+          "row_index": 11,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "91.5",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0011:c0004",
+          "row_index": 11,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "16300 $^{d}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0011:c0005",
+          "row_index": 11,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "3.22",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0012:c0000",
+          "row_index": 12,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 6,
+          "text": "Monomer 2",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0013:c0000",
+          "row_index": 13,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "11",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0013:c0001",
+          "row_index": 13,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$[Rh(cod)Cl]_{2}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0013:c0002",
+          "row_index": 13,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "THF",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0013:c0003",
+          "row_index": 13,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "trace",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0013:c0004",
+          "row_index": 13,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0013:c0005",
+          "row_index": 13,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0014:c0000",
+          "row_index": 14,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "12",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0014:c0001",
+          "row_index": 14,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$[Rh(cod)Cl]_{2}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0014:c0002",
+          "row_index": 14,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "THF/Et $_{3}$ N",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0014:c0003",
+          "row_index": 14,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "86.4",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0014:c0004",
+          "row_index": 14,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "70600",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0014:c0005",
+          "row_index": 14,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "2.22",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0015:c0000",
+          "row_index": 15,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "13",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0015:c0001",
+          "row_index": 15,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$[Rh(nbd)Cl]_{2}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0015:c0002",
+          "row_index": 15,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "THF",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0015:c0003",
+          "row_index": 15,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "11.2",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0015:c0004",
+          "row_index": 15,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "296400",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0015:c0005",
+          "row_index": 15,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "2.15",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0016:c0000",
+          "row_index": 16,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "14",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0016:c0001",
+          "row_index": 16,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$[Rh(nbd)Cl]_{2}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0016:c0002",
+          "row_index": 16,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "THF/Et $_{3}$ N",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0016:c0003",
+          "row_index": 16,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "89.1",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0016:c0004",
+          "row_index": 16,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "305400",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0016:c0005",
+          "row_index": 16,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "2.28",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0017:c0000",
+          "row_index": 17,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "15",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0017:c0001",
+          "row_index": 17,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$Rh^{+}(nbd)[C_{6}H_{5}B^{-}(C_{6}H_{5})_{3}]$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0017:c0002",
+          "row_index": 17,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "THF",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0017:c0003",
+          "row_index": 17,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "74.6",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0017:c0004",
+          "row_index": 17,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "83900",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0017:c0005",
+          "row_index": 17,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "2.41",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0018:c0000",
+          "row_index": 18,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 6,
+          "text": "Monomer 3",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0019:c0000",
+          "row_index": 19,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "16",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0019:c0001",
+          "row_index": 19,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$[Rh(cod)Cl]_{2}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0019:c0002",
+          "row_index": 19,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "THF",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0019:c0003",
+          "row_index": 19,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "trace",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0019:c0004",
+          "row_index": 19,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0019:c0005",
+          "row_index": 19,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0020:c0000",
+          "row_index": 20,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "17",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0020:c0001",
+          "row_index": 20,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$[Rh(cod)Cl]_{2}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0020:c0002",
+          "row_index": 20,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "THF/Et $_{3}$ N",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0020:c0003",
+          "row_index": 20,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "78.4",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0020:c0004",
+          "row_index": 20,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "97300",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0020:c0005",
+          "row_index": 20,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1.94",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0021:c0000",
+          "row_index": 21,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "18",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0021:c0001",
+          "row_index": 21,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$[Rh(nbd)Cl]_{2}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0021:c0002",
+          "row_index": 21,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "THF",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0021:c0003",
+          "row_index": 21,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "6.8",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0021:c0004",
+          "row_index": 21,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "267800",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0021:c0005",
+          "row_index": 21,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "2.18",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0022:c0000",
+          "row_index": 22,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "19",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0022:c0001",
+          "row_index": 22,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$[Rh(nbd)Cl]_{2}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0022:c0002",
+          "row_index": 22,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "THF/Et $_{3}$ N",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0022:c0003",
+          "row_index": 22,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "82.8",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0022:c0004",
+          "row_index": 22,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "288000",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0022:c0005",
+          "row_index": 22,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "2.61",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0023:c0000",
+          "row_index": 23,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "20",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0023:c0001",
+          "row_index": 23,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$[Rh(cod)Cl]_{2}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0023:c0002",
+          "row_index": 23,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "toluene/Et $_{3}$ N",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0023:c0003",
+          "row_index": 23,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "95.2",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0023:c0004",
+          "row_index": 23,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "104800",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0023:c0005",
+          "row_index": 23,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "2.25",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0024:c0000",
+          "row_index": 24,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "21",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0024:c0001",
+          "row_index": 24,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$Rh^{+}(nbd)[C_{6}H_{5}B^{-}(C_{6}H_{5})_{3}]$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0024:c0002",
+          "row_index": 24,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "toluene",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0024:c0003",
+          "row_index": 24,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "82.2",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0024:c0004",
+          "row_index": 24,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "92100 $^{d}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_2_37:r0024:c0005",
+          "row_index": 24,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "2.42",
+          "is_header": false
+        }
+      ],
+      "image_path": "organized/reference_no_0043955/images/99e0135d48721243d560e5f42a440a4fe1f2d24627b84970ccb39be649dc197d.jpg"
+    },
+    {
+      "block_id": "P_2_38",
+      "type": "text",
+      "text": "$2 1 0 6 ~ \\mathrm { c m } ^ { - 1 }$, which are ascribed to the stretching vibrations of ${ \\equiv } \\mathrm { C H }$and $\\mathrm { C } \\equiv \\mathrm { C } ,$, respectively. Both of the two bands are absent in the spectrum ofP2, indicating that the acetylene triple bond of monomer 2 has been fully consumed during the rhodiumcatalyzed polymerization. On the other hand, like that of monomer $^ { 2 , }$the spectrum of polymer P2 exhibits a strong band at <sub>1780 cm</sub>\u0001<sup>1</sup> <sub>associated with</sub> $\\scriptstyle \\mathrm { C = O }$stretching vibration, which indicates that the activated ester functionality remains intact after the polymerization.",
+      "page": 2,
+      "bbox": [
+        80.0,
+        641.0,
+        484.0,
+        766.0
+      ],
+      "source_block_index": 38,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_2_38",
+        "V2_2_1_0",
+        "V2_2_1_2",
+        "V2_2_1_4",
+        "V2_2_1_6",
+        "V2_2_1_8"
+      ]
+    },
+    {
+      "block_id": "P_2_39",
+      "type": "text",
+      "text": "To further characterize the polymers, NMR spectroscopy is an efective method. <sup>1</sup>H NMR spectra ofpolymer P2 and its monomer 2 are shown in Figure 2. For the polymer, there is no resonance peak around $\\delta \\sim 3 . 0 0 ,$which is associated with the acetylene proton, and a new peak due to the resonance of olefinic protons appears at $\\delta \\sim 5 . 7 \\bar { 6 } ,$indicating that the polymerization has transformed the acetylenic triple bond in monomer 2 to olefinic double bond in P2. Meanwhile, the polymerization has also upfield shifted the resonance of the phenyl protons to $\\delta \\sim 6 . 6 2$and 6.44 from $\\delta \\sim$7.41 and 6.82, respectively (Figure $^ { 2 , }$peaks b and c).",
+      "page": 2,
+      "bbox": [
+        80.0,
+        766.0,
+        482.0,
+        903.0
+      ],
+      "source_block_index": 39,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_2_39",
+        "V2_2_2_1",
+        "V2_2_2_3",
+        "V2_2_2_5",
+        "V2_2_2_7",
+        "V2_2_2_9"
+      ]
+    },
+    {
+      "block_id": "P_2_40",
+      "type": "text",
+      "text": "The <sup>13</sup>C NMR spectra of polymer P2 and its monomer 2 are shown in Figure 3. The acetylene carbon atoms of2 resonate at δ",
+      "page": 2,
+      "bbox": [
+        80.0,
+        902.0,
+        482.0,
+        932.0
+      ],
+      "source_block_index": 40,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "I_2_41",
+      "type": "image",
+      "page": 2,
+      "bbox": [
+        561.0,
+        77.0,
+        871.0,
+        378.0
+      ],
+      "source_block_index": 41,
+      "alignment_status": "matched",
+      "caption": "Figure 1. IR spectra of (A) monomer 2, (B) P2 (sample from Table 1, no. 12), and (C) P2-C\\*Ph (L) (sample from Table $^ { 2 , }$ no. 7).",
+      "image_path": "organized/reference_no_0043955/images/30509aec37228772874dbfa7d0b04e8ca0cd22d0f964f71a85cf0884d78addb9.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "P_2_42",
+      "type": "text",
+      "text": "84.0 and $7 5 . 9 ,$which completely disappear in the spectrum ofP2. Instead, two new peaks appear at δ 134.1 and 114.7, which are assignable to the polyene carbons of the polymer.<sup>2b</sup> This result, like the IR spectra, once again confirms that the triple bond ofthe monomer has been consumed by the polymerization reaction. Accordingly, the resonance of the phenyl carbons directly attached to the double bond is downfield shifted to δ 125.3 from δ 114.7, for the phenyl groups now have linked in conjugation with polyene backbone after polymerization.",
+      "page": 2,
+      "bbox": [
+        512.0,
+        436.0,
+        915.0,
+        560.0
+      ],
+      "source_block_index": 42,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_2_42",
+        "V2_2_5_1"
+      ]
+    },
+    {
+      "block_id": "P_2_43",
+      "type": "text",
+      "text": "Since polymers and their monomers contains PFP activated ester moiety, <sup>19</sup>F NMR spectroscopy has been utilized to analyze their structures. Exemplary <sup>19</sup>F NMRspectra ofP2 and its monomer 2 are shown in Figure 4. Both spectra show three signals with a 2:1:2 integral ratio, which can be ascribed to three chemically diferent fluorine atoms of the PFP ester. Like <sup>1</sup>H signals, $^ { 1 9 } \\mathrm { F }$signals of P2 are broader than those of its monomer 2. Identical results are obtained, as monomers 1, 3 and their polymers P1, P3 are concerned.",
+      "page": 2,
+      "bbox": [
+        512.0,
+        560.0,
+        917.0,
+        683.0
+      ],
+      "source_block_index": 43,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_2_43",
+        "V2_2_6_1"
+      ]
+    },
+    {
+      "block_id": "P_2_44",
+      "type": "text",
+      "text": "Polymer Reaction and Resultant Characterization. The pentafluorophenol group can be easily substituted by strong nucleophilic reagents such as amines and alcohols.<sup>11</sup> Therefore, various amines were separately chosen to react with P1, P2, or P3 (see Scheme 3). After simple stirring the solution ofpolymer and amine in THF (one drop of $\\mathrm { E t } _ { 3 } \\mathrm { N }$added) at room temperature for 12 h ([polymer]:[amine] = 1:1.1), the target polymers were synthesized in high yields (see Table 2). Compared with other polymers, PPAs with PEG side chain were obtained in a lower yield. The main reason is that the pure polymer could be obtained over three times precipitations, which caused the washing away of the resultant.",
+      "page": 2,
+      "bbox": [
+        512.0,
+        683.0,
+        917.0,
+        847.0
+      ],
+      "source_block_index": 44,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_2_44",
+        "V2_2_7_1"
+      ]
+    },
+    {
+      "block_id": "P_2_45",
+      "type": "text",
+      "text": "A significant feature of the experimental data in Table 2 is the small diferences in $M _ { \\mathrm { w } }$and $\\hat { M _ { \\mathrm { w } } } / M _ { \\mathrm { n } }$(PDI) between the analogous resultants. For example, through reaction of P1 (Table 1, no. 2) with L-1-phenylethylamine and D-1-phenylethylamine, $\\mathrm { P 1 - C ^ { \\ast } P h ( L ) }$and $\\mathrm { { \\hat { P } } 1 - \\hat { C } ^ { * } P h ( \\hat { D } ) }$have been obtained in high yield with similar values of $M _ { \\mathrm { w } }$and PDI. The diferences in $M _ { \\mathrm { w } }$and",
+      "page": 2,
+      "bbox": [
+        512.0,
+        848.0,
+        917.0,
+        931.0
+      ],
+      "source_block_index": 45,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_2_45",
+        "V2_2_8_1",
+        "V2_2_8_3",
+        "V2_2_8_5",
+        "V2_2_8_7",
+        "V2_2_8_9",
+        "V2_2_8_11"
+      ]
+    },
+    {
+      "block_id": "I_3_50",
+      "type": "image",
+      "page": 3,
+      "bbox": [
+        158.0,
+        80.0,
+        406.0,
+        300.0
+      ],
+      "source_block_index": 50,
+      "alignment_status": "matched",
+      "caption": "Figure 2. <sup>1</sup>H NMRspectra of(A) monomer 2 and (B) P2 (sample from Table 1, no. 12) in chloroform-d. The solvent peaks are marked with asterisks.",
+      "image_path": "organized/reference_no_0043955/images/3c95258ab0688ca0024968294aaebea36af674f1c553cd270112a0d834f175f3.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "I_3_51",
+      "type": "image",
+      "page": 3,
+      "bbox": [
+        154.0,
+        370.0,
+        411.0,
+        590.0
+      ],
+      "source_block_index": 51,
+      "alignment_status": "matched",
+      "caption": "Figure 3. $^ { 1 3 } \\mathrm { C }$ NMR spectra of (A) monomer 2 and (B) P2 (sample from Table 1, no. 12) in chloroform-d. The solvent peaks are marked with asterisks.",
+      "image_path": "organized/reference_no_0043955/images/72ce7611f0f1e1055cb79a7684a9712c474a34203e221a6b974f32539b239468.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "P_3_52",
+      "type": "text",
+      "text": "PDI are 15.7% and 5.2%, respectively. In our previous works, we found for several times that the polymerization of diferent phenylacetylenic monomers at same condition gave rise to polymers with drastically diferent values of $M _ { \\mathrm { w } }$and PDI. As revealed by the data in Chart 2 (the diferences in structure are highlighted in red), the polymers derived from reference monomers 1 and 2 (RM1 and RM2) have evidently discrete $M _ { \\mathrm { w } }$and PDI values. The diferences in $M _ { \\mathrm { w } }$and PDI are 40.2% and 44.4%, respectively, indicating that a small change in the flexible spacer between the PPA backbone and pyrene moiety may lead to huge fluctuated variations in the resultants.<sup>8</sup> The polymerization data of RM3 and RM4 demonstrate that the change in functional moieties (from pyrene to ferrocene) in the PPAs’ side chains can also result in pronounced changes in $M _ { \\mathrm { u } }$and PDI values.<sup>13</sup> When both the functional moiety and the linkage to PPA backbone are changed, the polymerization should be frequently carried out in diferent conditions.<sup>14</sup> As reflected by the polymerization data of RM5 and RM6, in this case the parameters o $\\mathrm { : } M _ { \\mathrm { w } }$and PDI for the resulted polymers are not comparable. The existence of evident diferences in $M _ { \\mathrm { w } }$and PDI has heavily hampered the precise evaluation oftheir properties and the systematic investigation on structure property relationship for the synthesized functional PPAs.",
+      "page": 3,
+      "bbox": [
+        80.0,
+        656.0,
+        484.0,
+        932.0
+      ],
+      "source_block_index": 52,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_3_52",
+        "V2_3_2_1",
+        "V2_3_2_3",
+        "V2_3_2_5",
+        "V2_3_2_7",
+        "V2_3_2_9",
+        "V2_3_2_11"
+      ]
+    },
+    {
+      "block_id": "I_3_53",
+      "type": "image",
+      "page": 3,
+      "bbox": [
+        588.0,
+        80.0,
+        843.0,
+        377.0
+      ],
+      "source_block_index": 53,
+      "alignment_status": "matched",
+      "caption": "Figure 4. $^ { 1 9 } \\mathrm { F }$ NMR spectra of (A) monomer 2, (B) P2 (sample from Table 1, no. 12), and (C) P2-C\\*Ph (L) (sample from Table 2, no. 7) in chloroform-d. The solvent peaks are marked with asterisks.",
+      "image_path": "organized/reference_no_0043955/images/745193d8b2323297352feac1a72c07f5eb5d24adeda2f178886362d08fc342d3.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "P_3_54",
+      "type": "text",
+      "text": "",
+      "page": 3,
+      "bbox": [
+        514.0,
+        451.0,
+        914.0,
+        480.0
+      ],
+      "source_block_index": 54,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_3_55",
+      "type": "text",
+      "text": "Even better results can be extracted from Table 2. P1-C*Ph(L) and P1-C*Ph(D) have been derived from the postreaction of P1 (Table 1, no. 2) with L-1-phenylethylamine and D-1-phenylethylamine, and the parameters o $\\mathrm { : } \\dot { M } _ { \\mathrm { u } }$and $M _ { \\mathrm { w } } / M _ { \\mathrm { n } }$are quite similar to each other. The diferences in $M _ { \\mathrm { w } }$and $M _ { \\mathrm { w } } / M _ { \\mathrm { n } }$are 1.7% and 13.1%, respectively (see Table $^ { 2 , }$nos. 5 and $^ { 6 ) }$. It is of great importance to obtain polymers in a controllable way. By means of living polymerization such as atom transfer radical polymerization (ATRP) and reversible addition fragmentation chain transfer (RAFT) polymerization, polymers from olefinic monomers are easy to achieve this goal. But for functional PPAs, it is very dificult to perform living polymerization. $_ \\mathrm { l e , 1 5 }$Consequently, $M _ { \\mathrm { w } }$and ${ M _ { \\mathrm { w } } } / { { \\bar { M } } _ { \\mathrm { n } } }$of expected PPAs cannot be controlled in the polymerization of diferent reaction batches, functionalities, and conditions. Combining the data in Table 2 with the mild reaction conditions, we have presented a facile route to the synthesis o functional PPAs with unique characteristic of controllable $M _ { \\mathrm { w } }$and $M _ { \\mathrm { w } } / M _ { \\mathrm { n } }$values, which may pave a way to more precisely compare and systematically investigate on structure property relationship of PPA derivatives.",
+      "page": 3,
+      "bbox": [
+        512.0,
+        477.0,
+        915.0,
+        753.0
+      ],
+      "source_block_index": 55,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_3_55",
+        "V2_3_5_1",
+        "V2_3_5_3",
+        "V2_3_5_5",
+        "V2_3_5_7",
+        "V2_3_5_9",
+        "V2_3_5_11",
+        "V2_3_5_13",
+        "V2_3_5_15",
+        "V2_3_5_17",
+        "V2_3_5_19",
+        "V2_3_5_21"
+      ]
+    },
+    {
+      "block_id": "P_3_56",
+      "type": "text",
+      "text": "The data in table indicate that, as for PPAs with PEG side chains, GPC measurement gave much lower $M _ { \\mathrm { w } }$values (Table 2, nos. 3, 4, 8, 9, 11, and 12). This observation is probably caused by the fact that the hydrodynamic volumes of the brush-type PPAs probably difer substantially from those of the linear polystyrene standards.<sup>16</sup> Besides, degradation ofthe PFP ester-functionalized PPAs and/or the PEG-functionalized PPAs may be another possible mechanism of the low $M _ { \\mathrm { w } }$values. In our experiments, all the polymer reactions were performed under same conditions: under nitrogen at room temperature. It is unreasonable to conclude that the degradation of the PFP ester-functionalized PPAs happened only in the case of reacting with amino-functionalized PEGs. Therefore, the degradation of PFP ester-functionalized PPAs is impossible through polymer reaction. To rule out the degradation of PEG functionalized PPAs, thermal gravimetric analysis (TGA) was conducted on the obtained polymers. Similar to the observation for PFP ester-functionalized PPAs, PPAs with PEG side chain also show typical polymer’s TGA curves (see Figure S6), indicating that the substitution process of amino-functionalized PEG chain to PFP moieties did not degrade the polymers.",
+      "page": 3,
+      "bbox": [
+        512.0,
+        751.0,
+        917.0,
+        931.0
+      ],
+      "source_block_index": 56,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_3_56",
+        "V2_3_6_1",
+        "V2_3_6_3"
+      ]
+    },
+    {
+      "block_id": "I_4_61",
+      "type": "image",
+      "page": 4,
+      "bbox": [
+        228.0,
+        105.0,
+        772.0,
+        315.0
+      ],
+      "source_block_index": 61,
+      "alignment_status": "matched",
+      "caption": "Scheme 3",
+      "image_path": "organized/reference_no_0043955/images/0f8f9314636c9e9060ed6889d0355d1cfe64e8ebe73e5efff167a6bb79834bda.jpg",
+      "image_kind": "image"
+    },
+    {
+      "block_id": "T_4_62",
+      "type": "table",
+      "page": 4,
+      "bbox": [
+        84.0,
+        375.0,
+        477.0,
+        657.0
+      ],
+      "source_block_index": 62,
+      "alignment_status": "matched",
+      "caption": "Table 2. Polymer Reactions between PFP Ester-Functionalized PPAs and Amines<sup>a</sup>",
+      "table_body": "<table><tr><td>no.</td><td>amine</td><td>resultant polymer</td><td>yield (%)</td><td> $M_{\\text{w}}^{b}$ </td><td> $M_{\\text{w}}/M_{\\text{n}}^{b}$ </td></tr><tr><td colspan=\"6\">P1</td></tr><tr><td>1</td><td>L-1-phenylethylamine</td><td>P1-C*Ph(L)</td><td>86.2</td><td>27 300</td><td>2.40</td></tr><tr><td>2</td><td>D-1-phenylethylamine</td><td>P1-C*Ph(D)</td><td>91.2</td><td>32 400</td><td>2.28</td></tr><tr><td>3</td><td>MePEG $_{350}$ -NH $_2$ </td><td>P1-PEG $_{350}$ </td><td>88.5</td><td>5 400</td><td>1.43</td></tr><tr><td>4</td><td>MePEG $_{750}$ -NH $_2$ </td><td>P1-PEG $_{750}$ </td><td>78.4</td><td>3 950</td><td>1.23</td></tr><tr><td>5</td><td>1-tetradecylamine (TDA)</td><td>P1-C $_{14}$ </td><td>90.6</td><td>28 800</td><td>1.98</td></tr><tr><td>6</td><td>1-butylamine (BA)</td><td>P1-C $_{4}$ </td><td>92.3</td><td>28 300</td><td>1.72</td></tr><tr><td colspan=\"6\">P2</td></tr><tr><td>7</td><td>L-1-phenylethylamine</td><td>P2-C*Ph (L)</td><td>92.4</td><td>58 800</td><td>1.99</td></tr><tr><td>8</td><td>MePEG $_{350}$ -NH $_2$ </td><td>P2-PEG $_{350}$ </td><td>82.8</td><td>6 930</td><td>1.38</td></tr><tr><td>9</td><td>MePEG $_{750}$ -NH $_2$ </td><td>P2-PEG $_{750}$ </td><td>84.8</td><td>7 260</td><td>1.51</td></tr><tr><td colspan=\"6\">P3</td></tr><tr><td>10</td><td>L-1-phenylethylamine</td><td>P3-C*Ph (L)</td><td>93.8</td><td>78 500</td><td>2.03</td></tr><tr><td>11</td><td>MePEG $_{350}$ -NH $_2$ </td><td>P3-PEG $_{350}$ </td><td>78.6</td><td>5 240</td><td>1.41</td></tr><tr><td>12</td><td>MePEG $_{750}$ -NH $_2$ </td><td>P3-PEG $_{750}$ </td><td>85.2</td><td>8 140</td><td>2.22</td></tr></table>",
+      "table_cells": [
+        {
+          "cell_id": "T_4_62:r0000:c0000",
+          "row_index": 0,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "no.",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0000:c0001",
+          "row_index": 0,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "amine",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0000:c0002",
+          "row_index": 0,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "resultant polymer",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0000:c0003",
+          "row_index": 0,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "yield (%)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0000:c0004",
+          "row_index": 0,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$M_{\\text{w}}^{b}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0000:c0005",
+          "row_index": 0,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$M_{\\text{w}}/M_{\\text{n}}^{b}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0001:c0000",
+          "row_index": 1,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 6,
+          "text": "P1",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0002:c0000",
+          "row_index": 2,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0002:c0001",
+          "row_index": 2,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "L-1-phenylethylamine",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0002:c0002",
+          "row_index": 2,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "P1-C*Ph(L)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0002:c0003",
+          "row_index": 2,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "86.2",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0002:c0004",
+          "row_index": 2,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "27 300",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0002:c0005",
+          "row_index": 2,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "2.40",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0003:c0000",
+          "row_index": 3,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "2",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0003:c0001",
+          "row_index": 3,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "D-1-phenylethylamine",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0003:c0002",
+          "row_index": 3,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "P1-C*Ph(D)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0003:c0003",
+          "row_index": 3,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "91.2",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0003:c0004",
+          "row_index": 3,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "32 400",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0003:c0005",
+          "row_index": 3,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "2.28",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0004:c0000",
+          "row_index": 4,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "3",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0004:c0001",
+          "row_index": 4,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "MePEG $_{350}$ -NH $_2$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0004:c0002",
+          "row_index": 4,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "P1-PEG $_{350}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0004:c0003",
+          "row_index": 4,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "88.5",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0004:c0004",
+          "row_index": 4,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "5 400",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0004:c0005",
+          "row_index": 4,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1.43",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0005:c0000",
+          "row_index": 5,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "4",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0005:c0001",
+          "row_index": 5,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "MePEG $_{750}$ -NH $_2$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0005:c0002",
+          "row_index": 5,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "P1-PEG $_{750}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0005:c0003",
+          "row_index": 5,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "78.4",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0005:c0004",
+          "row_index": 5,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "3 950",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0005:c0005",
+          "row_index": 5,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1.23",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0006:c0000",
+          "row_index": 6,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "5",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0006:c0001",
+          "row_index": 6,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1-tetradecylamine (TDA)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0006:c0002",
+          "row_index": 6,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "P1-C $_{14}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0006:c0003",
+          "row_index": 6,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "90.6",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0006:c0004",
+          "row_index": 6,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "28 800",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0006:c0005",
+          "row_index": 6,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1.98",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0007:c0000",
+          "row_index": 7,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "6",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0007:c0001",
+          "row_index": 7,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1-butylamine (BA)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0007:c0002",
+          "row_index": 7,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "P1-C $_{4}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0007:c0003",
+          "row_index": 7,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "92.3",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0007:c0004",
+          "row_index": 7,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "28 300",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0007:c0005",
+          "row_index": 7,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1.72",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0008:c0000",
+          "row_index": 8,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 6,
+          "text": "P2",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0009:c0000",
+          "row_index": 9,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "7",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0009:c0001",
+          "row_index": 9,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "L-1-phenylethylamine",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0009:c0002",
+          "row_index": 9,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "P2-C*Ph (L)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0009:c0003",
+          "row_index": 9,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "92.4",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0009:c0004",
+          "row_index": 9,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "58 800",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0009:c0005",
+          "row_index": 9,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1.99",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0010:c0000",
+          "row_index": 10,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "8",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0010:c0001",
+          "row_index": 10,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "MePEG $_{350}$ -NH $_2$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0010:c0002",
+          "row_index": 10,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "P2-PEG $_{350}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0010:c0003",
+          "row_index": 10,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "82.8",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0010:c0004",
+          "row_index": 10,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "6 930",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0010:c0005",
+          "row_index": 10,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1.38",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0011:c0000",
+          "row_index": 11,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "9",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0011:c0001",
+          "row_index": 11,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "MePEG $_{750}$ -NH $_2$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0011:c0002",
+          "row_index": 11,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "P2-PEG $_{750}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0011:c0003",
+          "row_index": 11,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "84.8",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0011:c0004",
+          "row_index": 11,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "7 260",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0011:c0005",
+          "row_index": 11,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1.51",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0012:c0000",
+          "row_index": 12,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 6,
+          "text": "P3",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0013:c0000",
+          "row_index": 13,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "10",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0013:c0001",
+          "row_index": 13,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "L-1-phenylethylamine",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0013:c0002",
+          "row_index": 13,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "P3-C*Ph (L)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0013:c0003",
+          "row_index": 13,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "93.8",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0013:c0004",
+          "row_index": 13,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "78 500",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0013:c0005",
+          "row_index": 13,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "2.03",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0014:c0000",
+          "row_index": 14,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "11",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0014:c0001",
+          "row_index": 14,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "MePEG $_{350}$ -NH $_2$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0014:c0002",
+          "row_index": 14,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "P3-PEG $_{350}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0014:c0003",
+          "row_index": 14,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "78.6",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0014:c0004",
+          "row_index": 14,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "5 240",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0014:c0005",
+          "row_index": 14,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1.41",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0015:c0000",
+          "row_index": 15,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "12",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0015:c0001",
+          "row_index": 15,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "MePEG $_{750}$ -NH $_2$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0015:c0002",
+          "row_index": 15,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "P3-PEG $_{750}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0015:c0003",
+          "row_index": 15,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "85.2",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0015:c0004",
+          "row_index": 15,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "8 140",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_4_62:r0015:c0005",
+          "row_index": 15,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "2.22",
+          "is_header": false
+        }
+      ],
+      "image_path": "organized/reference_no_0043955/images/4d4451b4b32bbf9cc9035f82f80fd1d1d06aa44614d27b1d07c196e8b0619105.jpg"
+    },
+    {
+      "block_id": "P_4_63",
+      "type": "text",
+      "text": "",
+      "page": 4,
+      "bbox": [
+        80.0,
+        725.0,
+        482.0,
+        821.0
+      ],
+      "source_block_index": 63,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_4_64",
+      "type": "text",
+      "text": "The transformation from PFP ester-functionalized PPAs to expected functional PPAs. Spectroscopic analyses (such as NMR and FTIR) were conducted on the characterization of the polymers’ structure (see Experimental Section for details). A representative example ofthe IR spectrum ofP2-C*Ph(L) is shown in Figure 1C. As described above, P2 shows an absorption band $\\mathrm { a t } \\sim 1 7 8 0 \\ c m ^ { - 1 }$, which is ascribed to the stretching vibration of carbonyl group in ester moiety. This band is absent in the spectrum of $\\scriptstyle \\mathrm { P 2 - C ^ { * } P h ( L ) }$, indicating the full consumption of PFP ester in P2 during the polymer reaction. Meanwhile, there emerges a new <sub>band</sub> <sub>at</sub> <sub>1640</sub> <sub>cm</sub>\u0001<sup>1</sup><sub>,</sub> <sub>corresponding</sub> <sub>to</sub> <sub>the</sub> <sub>stretching</sub> <sub>vibrations</sub> of the carbonyl group in amide group and a broad band at ${ \\sim } 3 2 9 2 ~ \\mathrm { c m } ^ { - 1 }$, which is assignable to the stretching vibrations of N H. The IR spectra confirm that the PFP ester has been substituted completely by amines. Furthermore, it is known that polyacetylenes undergo thermal degradation in the presence of oxygen, and the degradation product shows strong absorption bands at $\\sim 1 8 0 0 \\ c m ^ { \\stackrel { \\smile } { - } 1 }$<sup>1</sup>, which is ascribed to CdO formed during the degradation.<sup>15</sup> Therefore, we can further conclude from the IR result that the polymers have not degraded during the polymer reaction.",
+      "page": 4,
+      "bbox": [
+        80.0,
+        820.0,
+        484.0,
+        932.0
+      ],
+      "source_block_index": 64,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_4_64",
+        "V2_4_3_1",
+        "V2_4_3_3",
+        "V2_4_3_5",
+        "V2_4_3_7"
+      ]
+    },
+    {
+      "block_id": "P_4_65",
+      "type": "text",
+      "text": "",
+      "page": 4,
+      "bbox": [
+        512.0,
+        340.0,
+        917.0,
+        520.0
+      ],
+      "source_block_index": 65,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_4_66",
+      "type": "text",
+      "text": "<sup>1</sup>H NMR spectra ofpolymer $\\mathrm { P } 2 \\mathrm { - P E G } _ { 7 5 0 }$in deuterated chloroform and water are shown in Figure 5. Compared with the spectrum ofP2 in $\\mathrm { C D C l } _ { 3 }$(see Figure 2), new peaks at δ 7.90 and 3.33 appear in the spectrum of $\\mathrm { P } 2 \\mathrm { - P E G } _ { 7 5 0 } ,$which are ascribed to the resonance of amide and terminal methyl protons, respectively. Meanwhile, the integration value of peaks round δ 3.62 increases from 2 to $^ { 6 2 , }$indicating the attachment ofPEG chain to the polymer. However, in the spectrum of $\\mathrm { P } 2 \\mathrm { - P E G } _ { 7 5 0 }$in $\\mathrm { D } _ { 2 } \\mathrm { O } ,$there are only two peaks at δ 3.43 and 3.10 due to the resonance of protons ofwater-soluble PEG chain. Hydrophobic backbones and alkyl chains cannot be dissolved in water; therefore, no peaks are observed. $^ { 1 9 } \\mathrm { F }$NMR spectrum spectroscopy is also useful to ascertain whether the PFP ester is completely substituted by amine or not. As shown in Figure 4C, in comparison with P2, in the <sup>19</sup>F NMR spectrum of P2-C*Ph(L), the resonance peaks corresponding to F atoms disappeared completely. Like IR and <sup>1</sup>H NMR spectral characteristics, <sup>19</sup>F NMR spectrum indicates that the reaction of PFP ester and amines is completely conducted.",
+      "page": 4,
+      "bbox": [
+        512.0,
+        518.0,
+        917.0,
+        765.0
+      ],
+      "source_block_index": 66,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_4_66",
+        "V2_4_5_1",
+        "V2_4_5_3",
+        "V2_4_5_5",
+        "V2_4_5_7",
+        "V2_4_5_9",
+        "V2_4_5_11",
+        "V2_4_5_13"
+      ]
+    },
+    {
+      "block_id": "P_4_67",
+      "type": "text",
+      "text": "Tuning Side-Chain Ratios. Since the polymer reactions of PFP ester-functionalized PPAs with amines are facile, complete, and controllable, we designed to prepare dual-functionalized PPAs by attach two kinds of amines to one maternal PPA by using a step-by-step strategy (Scheme 4). One attempt was to synthesize PPAs with different ratios of L-2-phenylethylamine [C*Ph(L)] and 1-butylamine (C ) in the side chains. The expected polymers were obtained in desirable yields by direct reaction of P1 with L-2-phenylethylamine and 1-butylamine, and the resultants were named as follows: P1-C*Ph(L)75%-C 25%, P1-C*Ph(L)50%- $C _ { 4 } 5 0 \\% ,$, and P1-C*Ph(L)25%-C 75%. The other attempt was to prepare functional PPAs with different amphiphilicity by reaction",
+      "page": 4,
+      "bbox": [
+        512.0,
+        765.0,
+        917.0,
+        932.0
+      ],
+      "source_block_index": 67,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_4_67",
+        "V2_4_6_1"
+      ]
+    },
+    {
+      "block_id": "P_5_72",
+      "type": "text",
+      "text": "Both RM1 and RM2, RM3 and RM4 were polymerized at the same conditions, respectively (see ref. 8 and 13 for details). RM5 and RM6 were polymerized at different conditions (see ref 14 for details).",
+      "page": 5,
+      "bbox": [
+        499.0,
+        315.0,
+        774.0,
+        370.0
+      ],
+      "source_block_index": 72,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "I_5_73",
+      "type": "image",
+      "page": 5,
+      "bbox": [
+        220.0,
+        101.0,
+        777.0,
+        371.0
+      ],
+      "source_block_index": 73,
+      "alignment_status": "matched",
+      "caption": "Chart 2",
+      "image_path": "organized/reference_no_0043955/images/036ae023db67e8709017e36a09eb6c7be647ae7f3313faac82dd5948df183a76.jpg",
+      "image_kind": "image"
+    },
+    {
+      "block_id": "I_5_74",
+      "type": "image",
+      "page": 5,
+      "bbox": [
+        176.0,
+        401.0,
+        390.0,
+        596.0
+      ],
+      "source_block_index": 74,
+      "alignment_status": "matched",
+      "caption": "Figure 5. <sup>1</sup>H NMR spectra o $\\mathrm { P } 2 \\mathrm { - P E G } _ { 7 5 0 } \\mathrm { i }$ in chloroform-d (A) and $\\mathrm { D } _ { 2 } \\mathrm { O }$ (B). The solvent peaks are marked with asterisks.",
+      "image_path": "organized/reference_no_0043955/images/94e7789f2cebaa7cc9df84cb7c3bb38fa98173c27c09ae20472308470e039e4a.jpg",
+      "image_kind": "image"
+    },
+    {
+      "block_id": "P_5_75",
+      "type": "text",
+      "text": "of P1 with methyl-capped amino-functionalized poly(ethylene glycol) $\\mathrm { ( M e P E G } _ { 3 5 0 } ^ { \\cdot } \\mathrm { \\hat { N H } _ { 2 } } \\mathrm { ) }$and 1-tetradecylamine $( \\dot { \\mathrm { C } } _ { 1 4 } ) ,$, and the resultants were as follows: $\\mathrm { P 1 . p { E G } _ { 3 5 0 } 7 5 \\% - C _ { 1 4 } 2 5 \\% , }$P1- $\\mathrm { P E G } _ { 3 5 0 } 5 0 \\% - \\mathrm { C } _ { 1 4 } 5 0 \\% ,$, and $\\mathrm { P 1 . p { E G } } _ { 3 5 0 } 2 5 \\% \\mathrm { \\bar { C } } _ { 1 4 } 7 5 \\% .$",
+      "page": 5,
+      "bbox": [
+        80.0,
+        655.0,
+        482.0,
+        712.0
+      ],
+      "source_block_index": 75,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_5_75",
+        "V2_5_3_1",
+        "V2_5_3_3",
+        "V2_5_3_5",
+        "V2_5_3_7",
+        "V2_5_3_9"
+      ]
+    },
+    {
+      "block_id": "P_5_76",
+      "type": "text",
+      "text": "Figure 6 shows the <sup>1</sup>H NMR spectra of PPAs with diferent ratio of C*Ph(L) and $\\mathrm { C _ { 4 } . T y p i c a l l y }$, in the case of $R _ { \\mathrm { f } } = 5 0 \\% /$50% $\\left( \\mathrm { P 1 . C ^ { \\ast } P h ( L ) } 5 0 \\% \\mathrm { C } _ { 4 } 5 0 \\% \\right)$, the resonance peaks around $\\delta \\sim$5.04 and 3.42 are ascribed to the chiral carbon protons and $\\mathrm { C } H _ { 2 }$ortho to amino groups, respectively. Besides, terminal alkyl protons resonate at $\\delta \\sim 0 . 7 9$and others between $\\delta \\sim 1$and $2 .$Every resonance peak is ascertained so well that the $R _ { \\mathrm { a } }$value (the actual molar ratio of C*Ph(L) to $\\mathrm { C } _ { 4 }$alkyl chain) can be estimated from the spectrum, which is 0.52/0.48 (Table 3), very close to the ideal $R _ { \\mathrm { f } }$value (the feed ratio of C*Ph(L) and $\\mathrm { C } _ { 4 } \\mathrm { \\dot { ) } }$PPAs with diferent ratio of PEG and $\\mathrm { C _ { 1 4 } }$alkyl chains were characterized by <sup>1</sup>H NMR as well (Figure S7), and the $R _ { \\mathfrak { a } }$values were also calculated and are summarized in Table 3. These results indicate that we can readily control the degree of functionalities in the side chains of functional PPAs by varying the feed ratio of two reacting amines. Unlike the vinyl-based monomers that have available copolymerization rate and other kinetic parameters, the copolymerization of diferent phenylacetylenic monomers cannot definitely result in copolymers with expected composition of functionalities. Hopefully, the data summarized in Table 3 indicate that the synthetic strategy of postpolymerization reaction of PFPester functionalized PPAs with diferent amines can lead to PPAbased copolymers with quantitatively controllable content of specific functionalities. Moreover, the dual functionalized PPAs have similar values of $M _ { \\mathrm { w } }$and $M _ { \\mathrm { w } } / M _ { \\mathrm { n } }$(Table 3). These results make it possible to study the structure property relationship of functional PPAs in a more systematic and explicit way.",
+      "page": 5,
+      "bbox": [
+        80.0,
+        711.0,
+        484.0,
+        932.0
+      ],
+      "source_block_index": 76,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_5_76",
+        "V2_5_4_1",
+        "V2_5_4_3",
+        "V2_5_4_5",
+        "V2_5_4_7",
+        "V2_5_4_9",
+        "V2_5_4_11",
+        "V2_5_4_13",
+        "V2_5_4_15",
+        "V2_5_4_17",
+        "V2_5_4_19",
+        "V2_5_4_21",
+        "V2_5_4_23",
+        "V2_5_4_25",
+        "V2_5_4_27",
+        "V2_5_4_29",
+        "V2_5_4_31"
+      ]
+    },
+    {
+      "block_id": "I_5_77",
+      "type": "image",
+      "page": 5,
+      "bbox": [
+        515.0,
+        413.0,
+        914.0,
+        660.0
+      ],
+      "source_block_index": 77,
+      "alignment_status": "matched",
+      "image_path": "organized/reference_no_0043955/images/053b1987a64b912b5bcaffd7973076bd333e98f4cab738b70ce77d46f34a2e2a.jpg",
+      "image_kind": "image"
+    },
+    {
+      "block_id": "P_5_78",
+      "type": "text",
+      "text": "",
+      "page": 5,
+      "bbox": [
+        512.0,
+        682.0,
+        917.0,
+        835.0
+      ],
+      "source_block_index": 78,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_5_79",
+      "type": "text",
+      "text": "Chain Helicity. Polymerization ofmonosubstituted acetylenes catalyzed by Rh complexes usually gives polyacetylenes with highly stereoregular head-to-tail cis-transoidal conformations,<sup>18,19</sup> which are believed to be advantageous, even ifnot indispensable, <sub>for helix induction.</sub><sup>20</sup>\u0001<sup>22</sup> <sub>Therefore, the backbone of our chiral</sub> pendant-containing polyacetylenes may take helical conformation. To check this idea, we have measured the circular dichromism (CD)",
+      "page": 5,
+      "bbox": [
+        512.0,
+        833.0,
+        917.0,
+        931.0
+      ],
+      "source_block_index": 79,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "I_6_84",
+      "type": "image",
+      "page": 6,
+      "bbox": [
+        151.0,
+        80.0,
+        415.0,
+        390.0
+      ],
+      "source_block_index": 84,
+      "alignment_status": "matched",
+      "caption": "Figure 6. <sup>1</sup>H NMR spectra of (A) P1-C\\*Ph(L)75%-C<sub>4</sub>25%, (B) P1- C\\*Ph(L)50%-C 50% in $\\mathrm { D M S O \\it { - } d _ { 6 } } ,$ and (C) P1-C\\*Ph(L)25%-C 75% in chloroform-d. The integrated areas for peaks are shown as numerals and the solvent peaks are marked with asterisks.",
+      "image_path": "organized/reference_no_0043955/images/7ce3030daf568944b5ff707a6b99c0f27ba447e9df83824221aed46a635d0aba.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "T_6_85",
+      "type": "table",
+      "page": 6,
+      "bbox": [
+        85.0,
+        510.0,
+        477.0,
+        620.0
+      ],
+      "source_block_index": 85,
+      "alignment_status": "matched",
+      "caption": "Table 3. Preparation ofFunctional PPAs with Diferent Ratio of Two Side Chains<sup>a</sup>",
+      "table_body": "<table><tr><td></td><td> $R_{\\text{f}}^{b}$ </td><td> $R_{\\text{a}}^{c}$ </td><td>yield (%)</td><td> $M_{\\text{w}}^{d}$ </td><td> $M_{\\text{w}}/M_{\\text{n}}^{d}$ </td></tr><tr><td>P1-C*Ph(L)75%-C425%</td><td>0.75/0.25</td><td>0.76/0.24</td><td>91.3</td><td>26800</td><td>2.53</td></tr><tr><td>P1-C*Ph(L)50%-C450%</td><td>0.50/0.50</td><td>0.52/0.48</td><td>88.5</td><td>25900</td><td>2.46</td></tr><tr><td>P1-C*Ph(L)25%-C475%</td><td>0.25/0.75</td><td>0.28/0.72</td><td>90.6</td><td>25300</td><td>2.51</td></tr><tr><td>P1-PEG35075%-C1425%</td><td>0.75/0.25</td><td>0.79/0.21</td><td>72.8</td><td>5270</td><td>1.38</td></tr><tr><td>P1-PEG35050%-C1450%</td><td>0.50/0.50</td><td>0.54/0.46</td><td>75.3</td><td>5050</td><td>1.24</td></tr><tr><td>P1-PEG35025%-C1475%</td><td>0.25/0.75</td><td>0.24/0.76</td><td>81.9</td><td>4860</td><td>1.35</td></tr></table>",
+      "table_cells": [
+        {
+          "cell_id": "T_6_85:r0000:c0000",
+          "row_index": 0,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_85:r0000:c0001",
+          "row_index": 0,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$R_{\\text{f}}^{b}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_85:r0000:c0002",
+          "row_index": 0,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$R_{\\text{a}}^{c}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_85:r0000:c0003",
+          "row_index": 0,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "yield (%)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_85:r0000:c0004",
+          "row_index": 0,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$M_{\\text{w}}^{d}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_85:r0000:c0005",
+          "row_index": 0,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "$M_{\\text{w}}/M_{\\text{n}}^{d}$",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_85:r0001:c0000",
+          "row_index": 1,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "P1-C*Ph(L)75%-C425%",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_85:r0001:c0001",
+          "row_index": 1,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.75/0.25",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_85:r0001:c0002",
+          "row_index": 1,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.76/0.24",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_85:r0001:c0003",
+          "row_index": 1,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "91.3",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_85:r0001:c0004",
+          "row_index": 1,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "26800",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_85:r0001:c0005",
+          "row_index": 1,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "2.53",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_85:r0002:c0000",
+          "row_index": 2,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "P1-C*Ph(L)50%-C450%",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_85:r0002:c0001",
+          "row_index": 2,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.50/0.50",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_85:r0002:c0002",
+          "row_index": 2,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.52/0.48",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_85:r0002:c0003",
+          "row_index": 2,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "88.5",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_85:r0002:c0004",
+          "row_index": 2,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "25900",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_85:r0002:c0005",
+          "row_index": 2,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "2.46",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_85:r0003:c0000",
+          "row_index": 3,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "P1-C*Ph(L)25%-C475%",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_85:r0003:c0001",
+          "row_index": 3,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.25/0.75",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_85:r0003:c0002",
+          "row_index": 3,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.28/0.72",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_85:r0003:c0003",
+          "row_index": 3,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "90.6",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_85:r0003:c0004",
+          "row_index": 3,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "25300",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_85:r0003:c0005",
+          "row_index": 3,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "2.51",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_85:r0004:c0000",
+          "row_index": 4,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "P1-PEG35075%-C1425%",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_85:r0004:c0001",
+          "row_index": 4,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.75/0.25",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_85:r0004:c0002",
+          "row_index": 4,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.79/0.21",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_85:r0004:c0003",
+          "row_index": 4,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "72.8",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_85:r0004:c0004",
+          "row_index": 4,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "5270",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_85:r0004:c0005",
+          "row_index": 4,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1.38",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_85:r0005:c0000",
+          "row_index": 5,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "P1-PEG35050%-C1450%",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_85:r0005:c0001",
+          "row_index": 5,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.50/0.50",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_85:r0005:c0002",
+          "row_index": 5,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.54/0.46",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_85:r0005:c0003",
+          "row_index": 5,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "75.3",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_85:r0005:c0004",
+          "row_index": 5,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "5050",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_85:r0005:c0005",
+          "row_index": 5,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1.24",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_85:r0006:c0000",
+          "row_index": 6,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "P1-PEG35025%-C1475%",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_85:r0006:c0001",
+          "row_index": 6,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.25/0.75",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_85:r0006:c0002",
+          "row_index": 6,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.24/0.76",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_85:r0006:c0003",
+          "row_index": 6,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "81.9",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_85:r0006:c0004",
+          "row_index": 6,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "4860",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_85:r0006:c0005",
+          "row_index": 6,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "1.35",
+          "is_header": false
+        }
+      ],
+      "image_path": "organized/reference_no_0043955/images/461b51246df94df8fc00a136bb4536610793386154ac702b73a819492565d3f5.jpg"
+    },
+    {
+      "block_id": "P_6_86",
+      "type": "text",
+      "text": "spectra of the obtained polymers in DMF solution, and the recorded CD spectra ofP1- $\\cdot { \\mathrm { c } } ^ { * } { \\mathrm { P h } } ( \\mathrm { L } )$, P1-C*Ph(D), P2-C*Ph(L), and $\\mathrm { P 3 \\mathrm { - } C ^ { \\ast } P h ( \\bar { L } ) }$are displayed in the lower panel ofFigure 7. UV measurements were taken to make sure where the backbone absorbs and the UV spectra ofthese polymers as well as monomer 1 in DMF are also given for comparison. It is obvious that the monomer does not absorb at wavelength longer than 310 nm. Therefore, the absorption feature of all polymers in the 310 500 nm region (a hillside at 323 nm and a shoulder at 376 nm) is ascribed to the $\\pi - \\pi ^ { \\ast }$transition ofthe polyene backbone.",
+      "page": 6,
+      "bbox": [
+        80.0,
+        711.0,
+        482.0,
+        848.0
+      ],
+      "source_block_index": 86,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_6_86",
+        "V2_6_2_1",
+        "V2_6_2_3",
+        "V2_6_2_5"
+      ]
+    },
+    {
+      "block_id": "P_6_87",
+      "type": "text",
+      "text": "If these polymers own helical backbones, CD signals are supposed to appear at wavelength where the backbones absorb. Delightfully, viewing from longer wavelength in the CD spectrum of $\\mathrm { P i . C ^ { * } P h ( L ) }$, an intense $( \\mathrm { c a } . 6 0 < \\Delta \\varepsilon < 1 0 0 )$plus-tominus pattern appear in the same wavelength region, and the positions of the peak and valley roughly correspond to the absorption shoulder and hillside, respectively. In addition, P1- C*Ph(L) exhibits positive Cotton efect at the 376 nm, the sign of which is coincident with that of L-2-phenylethylamine. These data indicate that the chiral pendant ofP1-C*Ph(L) successfully induces backbone helicity through chirality transfer from the pendant to the backbone. Similar to its twin brother, P1-C*Ph(D) exhibits identi cally intense CD signals in the region where the backbone absorbs, but as a minus-to-plus pattern. In contrast, P2-C*Ph(L) and P3- $\\mathrm { { C } ^ { * } \\mathrm { { P h } ( L ) } }$exhibit no CD signals at expected wavelengths, mainly because the chirality transfer is blocked by the flexible spacer between the chiral pendant and the backbone of P2 and P3, and the chiral pendant fails to induce backbone helicity.",
+      "page": 6,
+      "bbox": [
+        80.0,
+        848.0,
+        482.0,
+        932.0
+      ],
+      "source_block_index": 87,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_6_87",
+        "V2_6_3_1",
+        "V2_6_3_3",
+        "V2_6_3_5"
+      ]
+    },
+    {
+      "block_id": "I_6_88",
+      "type": "image",
+      "page": 6,
+      "bbox": [
+        566.0,
+        80.0,
+        864.0,
+        420.0
+      ],
+      "source_block_index": 88,
+      "alignment_status": "matched",
+      "caption": "Figure 7. UV (upper panel) and CD (lower panel) spectra of P1- C\\*Ph(L), P1-C\\*Ph(D), P2-C\\*Ph(L), and P3-C\\*Ph(L) in DMF at room temperature. The UV spectrum of monomer 1 in DMF is shown for comparison. Concentration: 0.15 mM.",
+      "image_path": "organized/reference_no_0043955/images/202a7c8a0f4c5e1d3846309af6e7fd9db13421ca3b98522118d63ddc44c7df10.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "P_6_89",
+      "type": "text",
+      "text": "",
+      "page": 6,
+      "bbox": [
+        512.0,
+        506.0,
+        917.0,
+        670.0
+      ],
+      "source_block_index": 89,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_6_90",
+      "type": "text",
+      "text": "Activated ester strategy provides an efective way of quantitative controlling the content of chiral moiety or chiral content. By using a step-by-step method, we designed and synthesized a series of PPAs with diferent chiral contents, which are named by $\\mathrm { P 1 . C ^ { \\ast } P h ( L ) } 7 5 \\% \\mathrm { - } \\mathrm { C } _ { 4 } 2 5 \\% ,$P1- $. C ^ { * } \\mathrm { P h ( L ) } 5 0 \\% . C _ { 4 } 5 0 \\% ,$, and P1- $\\mathrm { C ^ { \\ast } P h ( L ) } 2 5 \\% \\mathrm { C _ { 4 } } 7 5 \\% .$. Figure 8 shows the UV (upper panel) and CD (the lower panel) spectra of these polymers in DMF. The absorption feature ofthe three polymers is identical to that ofP1- C*Ph(L), While the CD spectra show that the intensity of the CD signals depends on the chiral content. It is clearly seen that weaker intensity of CD signals centered at 376 nm corresponds with lower chiral content. To examine whether the chiral amplification behavior exists, the Kuhn dissymmetry factor $g ,$defined as $\\Delta \\varepsilon / \\varepsilon$(ε: molar absorbance) at 376 nm, is plotted against the chiral content ofthe polymers (Figure 9). The plot of $\\left| g _ { 3 7 6 } \\right|$value shows a good linear relationship with the chiral content, indicative of no or a very weak cooperativity between repeat units. Thus, there is no chiral amplification behavior between the backbone and chiral pendant ofpolyacetylenes with diferent chiral ratios. This observation may imply that the PFP moieties of P1 are randomly substituted by L-2-phenylethylamine $\\left[ \\mathrm { C } ^ { \\ast } \\mathrm { P h ( L ) } \\right]$and 1-butylamine $\\mathrm { ( C _ { 4 } ) _ { \\it . } }$, and the resulting polymers of P1-C*Ph-$( \\mathrm { L } ) x { - } \\mathrm { C } _ { 4 } ( \\dot { 1 } { - } x ) ( x = 0 . 2 5 , 0 . 5 ,$and 0.75) are random copoly-(phenylacetylene)s. It is noteworthy that the $\\left| g _ { 3 7 6 } \\right|$value of P1-C*Ph(L) is 0.0238, 10 times greater than that of other helical polymers reported $( 0 . 0 0 2 8 3 ) , ^ { \\upsilon _ { 2 3 } }$which was probably caused by two factors: excellent ability ofthe stifbackbone to form helix and efective chiral induction of the chiral pendant. Indeed, we have already prepared helical poly(diphenylacetylene)s with $\\Delta \\varepsilon$<sub>as high as 100 L mol</sub>\u0001 $^ { - 1 } \\mathrm { c m } ^ { \\cdot }$1 24",
+      "page": 6,
+      "bbox": [
+        512.0,
+        670.0,
+        917.0,
+        932.0
+      ],
+      "source_block_index": 90,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_6_90",
+        "V2_6_6_1",
+        "V2_6_6_3",
+        "V2_6_6_5",
+        "V2_6_6_7",
+        "V2_6_6_9",
+        "V2_6_6_11",
+        "V2_6_6_13",
+        "V2_6_6_15",
+        "V2_6_6_17",
+        "V2_6_6_19",
+        "V2_6_6_21",
+        "V2_6_6_23",
+        "V2_6_6_25"
+      ]
+    },
+    {
+      "block_id": "I_7_95",
+      "type": "image",
+      "page": 7,
+      "bbox": [
+        125.0,
+        80.0,
+        439.0,
+        436.0
+      ],
+      "source_block_index": 95,
+      "alignment_status": "matched",
+      "caption": "Figure 8. UV (upper panel) and CD (lower panel) spectra of P1- $\\mathrm { C ^ { \\mathrm { * } } P h ( L ) } 7 5 \\% \\mathrm { C } _ { 4 } 2 \\bar { 5 } \\% ,$ $\\mathrm { P 1 \\mathrm { - } C ^ { \\mathrm { * } } P h ( L ) } 5 0 \\% \\mathrm { - } C _ { 4 } 5 0 \\% ,$ and $\\mathrm { P 1 - \\bar { C } ^ { * } P h ( L ) } 2 5 \\% -$ $C _ { 4 } 7 5 \\%$ in DMF at room temperature. Concentration: 0.15 mM",
+      "image_path": "organized/reference_no_0043955/images/e4b0b1bbbabd5c220fc0aa4f6998e3a9ecdca0a16145e4200d79617e051a8c85.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "I_7_96",
+      "type": "image",
+      "page": 7,
+      "bbox": [
+        176.0,
+        508.0,
+        390.0,
+        666.0
+      ],
+      "source_block_index": 96,
+      "alignment_status": "matched",
+      "caption": "Figure 9. Plot ofKuhn dissymmetry factor $\\left( g = \\Delta \\varepsilon / \\varepsilon \\right)$ at 376 nm ofP1- $\\mathrm { { C ^ { * } P h ( L ) } }$ , P1-C\\*Ph(L)75%-C 25%, P1-C\\*Ph(L)50%- $C _ { 4 } 5 0 \\% ,$ and P1- $\\mathrm { C ^ { \\ast } P h ( L ) } 2 5 \\% \\mathrm { C } _ { 4 } 7 5 \\%$ in DMF against chiral content. The dotted line is shown simply to guide the eye.",
+      "image_path": "organized/reference_no_0043955/images/403de93c23bd03042a3c5bcc6760d6103ac934687798680dcf77aa27cabc282e.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "P_7_97",
+      "type": "text",
+      "text": "",
+      "page": 7,
+      "bbox": [
+        80.0,
+        751.0,
+        484.0,
+        902.0
+      ],
+      "source_block_index": 97,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_7_98",
+      "type": "text",
+      "text": "Water Solubility and Amphiphilic Property. As widely used building blocks, PEG chains have been incorporated into polymer systems to prepare materials with functions such as water solubility,<sup>25</sup> amphiphilicity,<sup>26</sup> biocompatibility,<sup>27</sup> thermal responsiveness, and hydrogel formabilit $\\boldsymbol { \\cdot } ^ { 2 9 }$In the results and discussion men tioned above, we have shown that the activated ester strategy provides an effective way to quantitatively control the ratio of different functionalities in the side chains of PPAs. Thus, it is reasonable to design and synthesize PEG functionalized PPAs by the substitution of PFP moieties with amine-terminated PEG chains, and the content of PEG chains can be precisely preset to tune the water solubility and amphiphilicity. As illustrated in Scheme $^ { 4 , }$six PEG functionalized PPAs have been successfully derived from the reaction of PFP ester-functionalized PPAs (P1, P2, and P3) with two PEGs $\\left( \\mathrm { M e P E G } _ { 3 5 0 } \\right.$and $\\mathbf { M e P E G } _ { 7 5 0 } )$The MePEG $\\left( y = 3 5 0 \\right.$and $7 5 0 )$functionalized $\\mathrm { P } \\mathbf { 1 } , \\mathrm { P } 2 ,$and P3 are defined as $\\mathrm { P } \\mathbf { 1 } \\mathrm { - P } \\mathrm { E } \\mathrm { G } _ { y }$P2 $J \\mathrm { P E G } _ { y } ,$and $\\mathrm { P } 3 \\mathrm { - P E G } _ { \\nu }$respectively. Accordingly, the copolymers bearing both $\\mathbf { M e P E G y }$and $\\mathrm { C _ { 1 4 } }$alkyl side chains are abbreviated as P1 $\\mathrm { - P E G } _ { y } x { \\mathrm { - C } _ { 1 4 } } ( 1 - x )$(x = 75%, 50%, and 25%, respectively). We found that $\\mathrm { P 1 - P E G } _ { 7 5 0 } ,$$\\mathrm { P } 2 \\mathrm { - P E G } _ { 7 5 0 } ,$, and $\\mathrm { P 3 - P E G } _ { 7 5 0 }$had good solubility in water at room temperature due to the solvating power of the long $\\mathrm { P E G } _ { 7 5 0 }$chains. When shorter $\\mathrm { P E G } _ { 3 5 0 }$segments were introduced into the PPAs side chains, $\\mathrm { P 1 \\mathrm { - } P E G } _ { 3 5 0 }$showed desirable solubility, but P2- $\\mathrm { P E G } _ { 3 5 0 } ,$, and $\\mathrm { P } 3 \\mathrm { - P E G } _ { 3 5 0 }$exhibited lower solubility in water. The hydrophobic alkyl spacers played an important role in the determination of polymers’ water solubility. Without the alkyl spacer, even the copolymer of $\\mathrm { P 1 . p E G } _ { 3 5 0 } \\dot { 7 } 5 \\% - C _ { 1 4 } 2 5 \\%$showed acceptable water solubility. To demonstrate the water solubility of the polymers, light transmission spectra of selected polymers in aqueous solution were recorded at room temperature. As depicted in Figure $^ { 1 0 , }$it is obvious that the transmittances of polymer aqueous solutions are 100% at wavelength longer than 520 nm, even when the polymer concentration is as high as 1 mg/mL (see Figure S8). In the region where the wavelength is shorter than 520 nm, the transmittances of polymer aqueous solutions decrease, and the declination is associated with the electronic absorption of the PPA backbone. These phenomena suggest that PPAs containing $\\mathrm { P E G } _ { 3 5 0 }$and $\\mathrm { P E G } _ { 7 5 0 }$side chains can be dissolved in water to form clear aqueous solution.",
+      "page": 7,
+      "bbox": [
+        80.0,
+        902.0,
+        484.0,
+        932.0
+      ],
+      "source_block_index": 98,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_7_98",
+        "V2_7_3_1",
+        "V2_7_3_3",
+        "V2_7_3_5",
+        "V2_7_3_7",
+        "V2_7_3_9",
+        "V2_7_3_11",
+        "V2_7_3_13",
+        "V2_7_3_15",
+        "V2_7_3_17",
+        "V2_7_3_19",
+        "V2_7_3_21",
+        "V2_7_3_23",
+        "V2_7_3_25",
+        "V2_7_3_27",
+        "V2_7_3_28",
+        "V2_7_3_30",
+        "V2_7_3_32",
+        "V2_7_3_34",
+        "V2_7_3_36",
+        "V2_7_3_38",
+        "V2_7_3_40",
+        "V2_7_3_42",
+        "V2_7_3_44",
+        "V2_7_3_46",
+        "V2_7_3_48"
+      ]
+    },
+    {
+      "block_id": "I_7_99",
+      "type": "image",
+      "page": 7,
+      "bbox": [
+        606.0,
+        80.0,
+        825.0,
+        240.0
+      ],
+      "source_block_index": 99,
+      "alignment_status": "matched",
+      "caption": "Figure 10. Light transmission spectra of the aqueous solution of P1- $\\mathrm { P E G } _ { 7 5 0 } ,$ $\\mathrm { P } 2 \\mathrm { - } \\bar { \\mathrm { P E G } } _ { 7 5 0 } ,$ $\\mathrm { P } 3 \\mathrm { - P E G } _ { 7 5 0 } ,$ $\\mathrm { P } \\mathbf { 1 } \\mathrm { - P E G } _ { 3 5 0 } ,$ and $\\mathrm { P 1 \\mathrm { - } P E G _ { 3 5 0 } 7 5 \\% }$ $\\mathrm { C _ { 1 4 } } 2 5 \\%$ . Polymer concentration: 0.04 mg/mL",
+      "image_path": "organized/reference_no_0043955/images/21e31d597237b0a106e0dbd20894a1161caf5061223059d77579d19a66740001.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "P_7_100",
+      "type": "text",
+      "text": "",
+      "page": 7,
+      "bbox": [
+        512.0,
+        315.0,
+        917.0,
+        835.0
+      ],
+      "source_block_index": 100,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_7_101",
+      "type": "text",
+      "text": "The attachment of PEG segments onto PPA backbone bestowed the resultant polymers with a brushlike structure, which has a hydrophobic main chain and hydrophilic side chains. In aqueous solution, the hydrophobic part is encapsulated by the hydrophilic surrounding PEG segments. As a result, a single polymer chain takes a micelle-like configuration, and PPA backbone of $\\mathrm { P 1 - P E G } _ { 7 5 0 }$or the PPA backbone and hydrophobic alkyl spacers of $\\mathrm { P } 2 \\mathrm { \\mathrm { - } P E G } _ { 7 5 0 }$and $\\mathrm { P 3 \\mathrm { - } P E G } _ { 7 5 0 }$are insoluble in water, although clear aqueous solutions have been observed. This deduction was validated by the measurements of the <sup>1</sup>H NMR spectra of the polymers in $\\mathrm { D } _ { 2 } \\mathrm { O }$at room temperature. The $^ 1 \\mathrm { H }$NMR spectra of $\\mathrm { P } 2 \\mathrm { \\mathrm { - } P E G } _ { 7 5 0 }$in $\\mathrm { D } _ { 2 } \\mathrm { O }$and $\\mathrm { C D C l } _ { 3 }$are shown in Figure 5 as an example. In $\\mathrm { C D C l } _ { 3 } ,$the resonance peaks for the protons on phenyl groups and alkyl spacers can be found, and the resonance peaks for the protons on PEG segments are also clearly recognized (Figure 5A). This indicates the good solubilities ofboth the hydrophobic (PPA main chain and alkyl spacer) and hydrophilic (PEG segment) parts are soluble. While in $\\mathrm { D } _ { 2 } \\mathrm { O } ,$there exist only two peaks at δ 3.43 and 3.10, which can be assigned to the resonance ofprotons ofwater-soluble PEG chain (Figure 5B); but no other peaks are observed, indicating that hydrophobic backbones and alkyl chains cannot be dissolved in water.",
+      "page": 7,
+      "bbox": [
+        512.0,
+        835.0,
+        915.0,
+        932.0
+      ],
+      "source_block_index": 101,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_7_101",
+        "V2_7_6_1",
+        "V2_7_6_3",
+        "V2_7_6_5",
+        "V2_7_6_7",
+        "V2_7_6_9",
+        "V2_7_6_11",
+        "V2_7_6_13",
+        "V2_7_6_15",
+        "V2_7_6_17",
+        "V2_7_6_19"
+      ]
+    },
+    {
+      "block_id": "I_8_106",
+      "type": "image",
+      "page": 8,
+      "bbox": [
+        177.0,
+        80.0,
+        388.0,
+        230.0
+      ],
+      "source_block_index": 106,
+      "alignment_status": "matched",
+      "caption": "Figure 11. Contact angle data of diferent polymer surfaces.",
+      "image_path": "organized/reference_no_0043955/images/657beb24dcd306b2d64fecb69a26403aa0bacef6f0497d3b88690cf98b49f263.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "P_8_107",
+      "type": "text",
+      "text": "",
+      "page": 8,
+      "bbox": [
+        80.0,
+        272.0,
+        482.0,
+        492.0
+      ],
+      "source_block_index": 107,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_8_108",
+      "type": "text",
+      "text": "Incorporating PEG chains into PPA derivatives, the hydrophilic or hydrophobic properties of resultant polymers were supposed to change dramatically. To evaluate the efect of PEG substitution on the variation of the hydrophilic properties of the polymers, the water contact angles of all the obtained polymers have been detected. The polymers were fabricated into films by casting their THF solution (5 mg/mL) on glass slides, and the results are shown as diagrams in Figure 11. The contact angles of $\\mathrm { P } 1 , \\mathrm { P } 2 ,$and P3 are between $9 0 ^ { \\circ }$and $1 0 0 ^ { \\circ }$, indicative of the hydrophobic surfaces of PFP ester-functionalized PPAs. Meanwhi $\\mathbf { l e } ,$all the P1- and P2-based PEG functionalized PPAs show contact angles smaller than $1 0 ^ { \\circ }$, indicating that the substitution of PFP groups with PEG chains has turned the polymers from hydrophobic to hydrophilic property. The results depicted in Figure 11 disclose another message: the length ofthe alkyl spacer has evident influence on the hydrophilic property of the PEGfunctionalized PPAs. Taking $\\mathrm { P } 3 \\mathrm { - P E G } _ { 3 5 0 }$and $\\mathrm { \\dot { P } } 2 { \\cdot } \\mathrm { P E G } _ { 3 5 0 }$as examples, the alkyl spacer with 10 methyl units (P3) made the water contact angle to be $4 8 ^ { \\circ } ,$, while in the case ofthe alkyl spacer with 5 methyl units, the water contact angle is only $7 . 5 ^ { \\circ }$. A similar trend is also observed for $\\mathrm { P 3 \\mathrm { - } P E G } _ { 7 5 0 }$and $\\mathrm { P } 2 \\mathrm { - } \\mathrm { P E G } _ { 7 5 0 }$",
+      "page": 8,
+      "bbox": [
+        80.0,
+        492.0,
+        482.0,
+        780.0
+      ],
+      "source_block_index": 108,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_8_108",
+        "V2_8_2_1",
+        "V2_8_2_3",
+        "V2_8_2_5",
+        "V2_8_2_7",
+        "V2_8_2_9",
+        "V2_8_2_11",
+        "V2_8_2_13",
+        "V2_8_2_15",
+        "V2_8_2_17",
+        "V2_8_2_19",
+        "V2_8_2_21"
+      ]
+    },
+    {
+      "block_id": "P_8_109",
+      "type": "text",
+      "text": "Since the hydrophilic/hydrophobic property of the polymer films are sensitive to the alkyl spacer between PPA backbone and PEG segment, incorporation of alkyl segments into PEGfunctionalized PPAs is expected to evoke prominent change in hydrophilic/hydrophobic property. By using the step-by-step synthetic scheme, amino-functionalized $\\mathrm { P E } \\mathrm { \\bar { G } } _ { 3 5 0 } / \\mathrm { P E } \\mathrm { \\bar { G } } _ { 7 5 0 }$and n-tetradecylamine $\\left( \\mathbf { C } _ { 1 4 } \\right)$were used to substitute the PFP groups of $\\mathbf { P 1 } ,$and a series of copoly(phenylacetylene)s, i.e., P1-PEG - 75%- $\\mathrm { C _ { 1 4 } } 2 5 \\% , \\mathrm { P 1 . P E G _ { 3 5 0 } } \\hat { 5 } 0 \\% \\hat { - } \\mathrm { C _ { 1 4 } } 5 0 \\%$, and P1- $\\mathrm { . P E G _ { 3 5 0 } 2 5 \\% - C _ { 1 4 } 7 5 \\% } ,$were prepared. Their structure characterization data are summarized in the Experimental Section and Supporting Information.",
+      "page": 8,
+      "bbox": [
+        80.0,
+        780.0,
+        482.0,
+        932.0
+      ],
+      "source_block_index": 109,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_8_109",
+        "V2_8_3_1",
+        "V2_8_3_3",
+        "V2_8_3_5",
+        "V2_8_3_7",
+        "V2_8_3_9"
+      ]
+    },
+    {
+      "block_id": "I_8_110",
+      "type": "image",
+      "page": 8,
+      "bbox": [
+        606.0,
+        80.0,
+        825.0,
+        231.0
+      ],
+      "source_block_index": 110,
+      "alignment_status": "matched",
+      "caption": "Figure 12. Impact of PEG chain content on water contact angle of polymer surfaces.",
+      "image_path": "organized/reference_no_0043955/images/669c21de8997c1c88c1e69531a466e4acb3a40224f168199a6bd33713d2d81e1.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "I_8_111",
+      "type": "image",
+      "page": 8,
+      "bbox": [
+        604.0,
+        292.0,
+        825.0,
+        455.0
+      ],
+      "source_block_index": 111,
+      "alignment_status": "matched",
+      "caption": "Figure 13. Variation of cloud point $\\left( T _ { \\mathrm { c p } } \\right)$ with polymer concentration of the obtained PEG functionalized PPAs.",
+      "image_path": "organized/reference_no_0043955/images/9f8ad1793b6979805002899c8ac5b383421c758ff1a7f334cc5e59979eb85832.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "P_8_112",
+      "type": "text",
+      "text": "The water contact angles of these polymer films are shown in Figure 12. As expected, the contact angle is increased by the introduction of higher content of $\\mathrm { C } _ { 1 4 }$component into the copolymer. When the content of $\\mathrm { C _ { 1 4 } }$component is 25%, the water contact angle is $4 8 ^ { \\circ } ;$when the content of $\\mathrm { C _ { 1 4 } }$component is 75%, this value increases to $1 0 0 ^ { \\circ } .$, which approximates that ofpure P1, indicating that the tetradecyl side chain plays a dominant role even in the presence of 25% PEG side chains. Considering that the ratio of PEG and alkyl chains can be precisely controlled through the activated ester strategy, it is possible to fine-tune the hydrophilic/hydrophobic property of the film surface. Such a tunable surface with specific PEG content and hydrophilicity may find important applications in biomaterials.",
+      "page": 8,
+      "bbox": [
+        512.0,
+        505.0,
+        917.0,
+        697.0
+      ],
+      "source_block_index": 112,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_8_112",
+        "V2_8_6_1",
+        "V2_8_6_3",
+        "V2_8_6_5",
+        "V2_8_6_7",
+        "V2_8_6_9"
+      ]
+    },
+    {
+      "block_id": "P_8_113",
+      "type": "text",
+      "text": "LCST Behavior. Owing to the existence ofPEG side chain, the water-soluble PPAs may have a lower critical solution temperature $( \\mathrm { L C S T } ,$a characteristic temperature above which the clear solution would become turbid) in aqueous solution because PEG is a typical thermal responsive polymer. To confirm this, the thermal responsive behaviors were monitored for a series of PEG-functionalized PPAs in their aqueous solutions. The respective cloud points $\\left( T _ { \\mathrm { c p } } \\right)$for these polymers were recorded and displayed in Figure 13. It is obvious that, for all samples, a lower polymer concentration corresponds to a higher $T _ { \\mathrm { c p } } .$. This trend is in good agreement with the results observed for other thermal responsive polymers.<sup>30,31</sup>",
+      "page": 8,
+      "bbox": [
+        512.0,
+        697.0,
+        917.0,
+        862.0
+      ],
+      "source_block_index": 113,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_8_113",
+        "V2_8_7_1",
+        "V2_8_7_3",
+        "V2_8_7_5"
+      ]
+    },
+    {
+      "block_id": "P_8_114",
+      "type": "text",
+      "text": "Further analysis of the experiment data reveals more details. $\\mathrm { P 1 - P E G } _ { 7 5 0 }$aqueous solution (1 mg/mL) became turbid above $1 4 5 ^ { \\circ } \\mathrm { C } ;$the transition temperature decreased to $1 2 9 ^ { \\circ } \\mathrm { C }$when the hydrophilic side chain changed from $\\mathrm { P E G } _ { 7 5 0 }$to $\\mathrm { P E G } _ { 3 5 0 } .$. This indicates that the length of hydrophilic PEG chain has a positive efect on the cloud point. In comparison, the $T _ { \\mathrm { c p } }$of $\\mathrm { P 1 \\mathrm { - } P E G } _ { 3 5 0 }$aqueous solution with that ofP1-PEG , although both ofthem show the identical dependency of $T _ { \\mathrm { c p } }$on polymer concentration, $\\mathrm { P 1 \\mathrm { - } P E G } _ { 3 5 0 }$aqueous solution has evident lower $T _ { \\mathrm { c p } }$values. It is a consensus that introducing hydrophobic moieties into an LCSTactive polymer can decrease its $\\stackrel { \\cdot } { T } _ { \\mathrm { c p } } . \\stackrel { 5 2 } { }$Thus, the observed decrease in $T _ { \\mathrm { c p } }$can be explained by the fact that the content of hydrophobic component in P1- $\\mathrm { \\cdot P E G } _ { 3 5 0 }$is higher than that in P1 $\\mathrm { - P E G } _ { 7 5 0 }$due to the shorter PEG chain length. Reasonably, the $T _ { \\mathrm { c p } }$value decreases in an order of $\\mathrm { P 1 . p E G } _ { 7 5 0 } ^ { - } > \\mathrm { P 2 . p E G } _ { 7 5 0 } > \\mathrm { P 3 . p } \\mathrm { P E G } _ { 7 5 0 }$because the hydrophobic property takes a reverse order. It should be pointed out that $M _ { \\mathrm { n } }$and PDI are also relevant parameters to determine the $T _ { \\mathrm { c p } }$of a polymer. The activated-ester synthetic strategy led to PEG-functionalized PPAs with similar $M _ { \\mathrm { n } }$and PDI because they sprang from the same parent polymer. Therefore, the evaluation of the efect of the length of PEG chain or PEG content on the LCST behavior can be more precise and more approximating to the true situations.",
+      "page": 8,
+      "bbox": [
+        512.0,
+        861.0,
+        915.0,
+        932.0
+      ],
+      "source_block_index": 114,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_8_114",
+        "V2_8_8_1",
+        "V2_8_8_3",
+        "V2_8_8_5",
+        "V2_8_8_7",
+        "V2_8_8_9",
+        "V2_8_8_11",
+        "V2_8_8_13",
+        "V2_8_8_15",
+        "V2_8_8_17",
+        "V2_8_8_19",
+        "V2_8_8_21",
+        "V2_8_8_23",
+        "V2_8_8_25",
+        "V2_8_8_27",
+        "V2_8_8_29",
+        "V2_8_8_31",
+        "V2_8_8_33",
+        "V2_8_8_35",
+        "V2_8_8_37"
+      ]
+    },
+    {
+      "block_id": "P_9_119",
+      "type": "text",
+      "text": "",
+      "page": 9,
+      "bbox": [
+        80.0,
+        81.0,
+        484.0,
+        330.0
+      ],
+      "source_block_index": 119,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_9_120",
+      "type": "title",
+      "text": "’CONCLUDING REMARKS",
+      "page": 9,
+      "bbox": [
+        80.0,
+        348.0,
+        285.0,
+        363.0
+      ],
+      "source_block_index": 120,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_9_121",
+      "type": "text",
+      "text": "We have designed and synthesized three PFP ester-functionalized PPAs (P1, P2, and P3). In comparison with the pioneer’s work by Theato and colleagues, who had used $\\mathrm { w C l } _ { 6 }$as catalyst, the Rh-based catalysts used in our research can aford the expected polymers with high molecular weight in high yield. In addition, the catalysts worked well either in the polymerization ofthe monomer with PFP ester direct linking to phenylacetylene (P1) or in the polymerization ofthe monomers with alkyl spacers between the PFP ester and phenylacetylene (P2 and P3). Thus, the present work has extended the species of catalysts and monomers for the preparation ofactivated-ester functionalized PPAs.",
+      "page": 9,
+      "bbox": [
+        80.0,
+        368.0,
+        482.0,
+        520.0
+      ],
+      "source_block_index": 121,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_9_121",
+        "V2_9_2_1"
+      ]
+    },
+    {
+      "block_id": "P_9_122",
+      "type": "text",
+      "text": "We have also shown that $\\mathrm { P } \\mathbf { 1 } , \\mathrm { P } 2 ,$and P3 are ideal precursors to functional PPAs by postpolymerization reaction route. A series of functionalities including diferent chiral amines and amino-containing PEGs have been successfully integrated in the target functional $\\mathrm { P P A } s ,$and total of 18 PPA derivatives were prepared. Their structures were carefully characterized by diferent spectroscopic techniques such as FTIR, <sup>1</sup>H NMR, <sup>13</sup>C NMR, and $^ { 1 9 } \\mathrm { F }$NMR. The characterization data not only confirmed the expected macromolecular structure but also demonstrated that the conversion of PPA-based activated esters with amines was quantitative and proceeded without side reactions under mild conditions. Specifically, <sup>1</sup>H NMR was used to determine the relative contents of the incorporated functional moieties when two diferent kinds of functionalized amines were attached to the PPA backbone. The results showed that the relative content of the diferent functionalities can be well controlled by presetting the feed ratio of two reacting amines.",
+      "page": 9,
+      "bbox": [
+        80.0,
+        520.0,
+        484.0,
+        752.0
+      ],
+      "source_block_index": 122,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_9_122",
+        "V2_9_3_1",
+        "V2_9_3_3",
+        "V2_9_3_5"
+      ]
+    },
+    {
+      "block_id": "P_9_123",
+      "type": "text",
+      "text": "The complete substitution of PFP moieties with amines allowed us to derive a series of functional PPAs [e.g., P1-C* $\\mathrm { P h ( L ) , P 2 \\mathrm { - } C ^ { \\ast } P h ( L ) , P 3 \\mathrm { - } C ^ { \\ast } P h ( L ) , P 1 \\mathrm { - } C ^ { \\ast } P h ( D ) , P 2 \\mathrm { - } \\tilde { C } ^ { \\ast } P h ( D ) }$$\\mathrm { P 3 \\mathrm { - } C ^ { \\ast } P h ( D ) }$$\\mathrm { P } \\mathbf { 1 } \\mathrm { - P E G } _ { 3 5 0 }$, P1-PEG , P2-PEG , P2-PEG , $\\mathrm { P } 3 \\mathrm { - P E G } _ { 3 5 0 } ,$and $\\mathrm { P 3 \\mathrm { - } P E G _ { 7 5 0 } ] }$in high purity. CD measurements indicate that the incorporation of chiral amine into polymer side chains endows the polymers with backbone helicity. The CD spectra ofP1-C*Ph(L) and P1-C*Ph(D) show an intense (ca. 60 $< \\Delta \\varepsilon < 1 0 0 )$plus-to-minus and minus-to-plus pattern in the 310 500 nm region, respectively, indicating that the PPA back bone of $\\mathrm { P 1 - C ^ { * } P h ( L ) }$and P1-C*Ph(D) adopt a predominantly right-handed and left-handed helical conformation, respectively. However, owing to the flexible spacer’s blocking, the chiral pendant fails to induce backbone helicity of P2-C*Ph(L) and $\\bar { \\mathrm { P } } 3 \\mathrm { - } \\mathrm { C } ^ { \\mathrm { * } } \\mathrm { P h } ( \\mathrm { L } )$. The PEG-functionalized PPAs [P1-PEG<sub>350</sub>, P1- $\\mathrm { P E G } _ { 7 5 0 } , \\ \\mathrm { P } 2 \\mathrm { - } \\mathrm { P E G } _ { 3 5 0 } , \\ \\mathrm { P } 2 \\mathrm { - } \\mathrm { P E G } _ { 7 5 0 } , \\ \\mathrm { P } 3 \\mathrm { - } \\mathrm { P E G } _ { 3 5 0 } ,$and $\\mathrm { P 3 \\mathrm { - } P E G _ { 7 5 0 } ] }$can dissolve in water to form clear aqueous solutions. Contact angle measurement results indicate the surface property of their casting films are hydrophilic, and the length of the PEG segment and the alkyl spacer contribute to the hydrophilic property in positive and negative moods, respectively. At the same time, the PEG-functionalized PPAs exhibited the LCST behavior of PEG component. The cloud point $\\left( T _ { \\mathrm { c p } } \\right)$of $\\mathrm { P 1 \\mathrm { - } P E G } _ { 3 5 0 }$is lower than that of $\\mathrm { P 1 - P E G } _ { 7 5 0 } ,$, and an order of $T _ { \\mathrm { c p } } ( \\mathrm { P } \\mathbf { 1 } \\mathrm { - P } \\mathrm { E } { } \\mathrm { G } _ { 7 5 0 } ) > T _ { \\mathrm { c p } } ( \\mathrm { P } 2 .$$\\mathrm { P E G } _ { 7 5 0 } ) > T _ { \\mathrm { c p } } ( \\mathrm { P } 3 { \\cdot } \\mathrm { P E G } _ { 7 5 0 } )$has been observed. The hydrophilic PEG chain and hydrophobic alkyl spacer have positive and negative impacts on the cloud point of the corresponding PPA derivatives.",
+      "page": 9,
+      "bbox": [
+        80.0,
+        751.0,
+        482.0,
+        932.0
+      ],
+      "source_block_index": 123,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_9_123",
+        "V2_9_4_1",
+        "V2_9_4_2",
+        "V2_9_4_3",
+        "V2_9_4_5",
+        "V2_9_4_7",
+        "V2_9_4_9",
+        "V2_9_4_11",
+        "V2_9_4_13",
+        "V2_9_4_15",
+        "V2_9_4_17",
+        "V2_9_4_19",
+        "V2_9_4_21",
+        "V2_9_4_23",
+        "V2_9_4_25",
+        "V2_9_4_26"
+      ]
+    },
+    {
+      "block_id": "P_9_124",
+      "type": "text",
+      "text": "",
+      "page": 9,
+      "bbox": [
+        512.0,
+        80.0,
+        915.0,
+        287.0
+      ],
+      "source_block_index": 124,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_9_125",
+      "type": "text",
+      "text": "Moreover, the quantitative substitution of PFP moieties with diferent amines enabled us to design prepare a series of dualfunctionalized PPAs $[ \\mathrm { e . g . , \\ P 1 . C ^ { \\ast } P h ( L ) } ] 7 5 \\% - C _ { 4 } 2 5 \\% , \\mathrm { P 1 . C ^ { \\ast } P h } .$$( \\mathrm { L } ) 5 0 ^ { \\% } - \\mathrm { C } _ { 4 } 5 0 ^ { \\% } , \\mathrm { P } \\mathbf { 1 } - \\mathrm { C } ^ { \\ast } \\mathrm { P h } \\mathrm { \\widetilde { ( L ) } } 2 5 ^ { \\% } - \\mathrm { C } _ { 4 } 7 5 ^ { \\% } / \\mathrm { P } , \\mathrm { P } \\mathbf { 1 } - \\mathrm { P } \\mathrm { E } \\mathrm { C } _ { 3 5 0 } 7 5 ^ { \\% } - \\mathrm { C } _ { 1 4 } 2 5 ^ { \\% } ,$$\\mathrm { P 1 \\mathrm { - } P E G _ { 3 5 0 } } 5 0 \\% \\mathrm { - } \\mathrm { C _ { 1 4 } } 5 0 \\% ,$and $\\mathrm { P 1 . p E G } _ { 3 5 0 } 2 5 \\% - \\mathrm { C } _ { 1 4 } 7 5 \\% ]$. It is noticeable that the specific content of the functional moieties $( \\mathrm { i . e . , C ^ { \\ast } }$center and PEG segments) can be simply determined by the feed ratio of functional amines. As a result, the derived PPAs possess the structure ofcopoly(phenylacetylene)s, which cannot be directly synthesized in a controllable way by copolymerization of diferent phenylacetylene monomers. In the present work, we found that lower content of chiral pendant resulted in lower intensity of CD signal, and the plot of $\\left| g _ { 3 7 6 } \\right|$value against the content of chiral pendant showed a linear relationship (no chirality amplification efect), indicating that the cooperativity between the chiral pendants was weak and the substitution of PFP moieties by the two kinds of amines took place in a random mood. Meanwhile, the water contact angle detection of the polymer films revealed that the amphiphilic property can also be fine tailored by controlling the structural factors such as the content of PEG component, the chain length of the PEG segment, and the alkyl spacer. Promisingly, such a controllable synthetic strategy to prepare dual or even multiple functionalized PPAs (as well as other conjugated polymers) may find applications in such diverse fields as multifunctional polymers, orthogonal reaction of bioconjugated macromolecules, and selective modification of materials surface.",
+      "page": 9,
+      "bbox": [
+        512.0,
+        286.0,
+        917.0,
+        645.0
+      ],
+      "source_block_index": 125,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_9_125",
+        "V2_9_6_1",
+        "V2_9_6_2",
+        "V2_9_6_3",
+        "V2_9_6_5",
+        "V2_9_6_7",
+        "V2_9_6_9"
+      ]
+    },
+    {
+      "block_id": "P_9_126",
+      "type": "title",
+      "text": "’ EXPERIMENTAL SECTION",
+      "page": 9,
+      "bbox": [
+        514.0,
+        666.0,
+        721.0,
+        682.0
+      ],
+      "source_block_index": 126,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_9_127",
+      "type": "text",
+      "text": "Materials. Dichloromethane (DCM) was distilled under normal pressure over calcium hydride under nitrogen before use. Tetrahydrofuran (THF), toluene, and dioxane were distilled under normal pressure from sodium benzophenone ketyl under nitrogen immediately prior to use. Triethylamine $\\left( \\mathrm { E t } _ { 3 } \\mathrm { N } \\right)$was distilled and dried over potassium hydroxide. p-Toluenesulfonic acid monohydrate (TsOH), N,N0-dicyclohexylcarbodiimide (DCC), and 4-(dimethylamino)pyridine (DMAP) were purchased from Acros. Pentafuorophenol was purchased from Aldrich. Organorhodium complexes [Rh(nbd)Cl] (nbd = 2,5-norbornadiene), [Rh(cod)Cl] (cod = 1,8-cyclooctadiene), and $\\mathrm { R h } ^ { + } ( \\mathrm { n b d } ) [ \\mathrm { C } _ { 6 } \\mathrm { H } _ { 5 } \\mathrm { B } ^ { - } ( \\mathrm { C } _ { 6 } \\mathrm { H } _ { 5 } ) _ { 3 } ]$were prepared in our laboratories by literature methods.<sup>33</sup> 4-Ethynylbenzonic acid (5), 6-(4-ethynylphenoxy)hexanoic acid (6), and 11-(4-ethynylphenoxy)undecanoic acid (7) were synthesized according to our previously published procedures.<sup>8,18</sup> L-( )-1-methylbenzylamine and D-(+)-1-methylbenzylamine were purchased from Acros. Poly(ethylene glycol) monomethyl ether $( \\mathrm { M e P E G } _ { 3 5 0 } – \\mathrm { O H }$and $\\mathrm { M e P E G } _ { 7 5 0 ^ { - } } \\mathrm { O H } )$were obtained from Alfa. Pentafluorophenol, 1-tetradecylamine (TDA), and 1-butylamine (BA) were purchased from Aladdin.",
+      "page": 9,
+      "bbox": [
+        512.0,
+        692.0,
+        917.0,
+        932.0
+      ],
+      "source_block_index": 127,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_9_127",
+        "V2_9_8_1",
+        "V2_9_8_3",
+        "V2_9_8_5",
+        "V2_9_8_7"
+      ]
+    },
+    {
+      "block_id": "P_10_132",
+      "type": "text",
+      "text": "Instrumentation. ${ } ^ { 1 } \\mathrm { H } , { } ^ { 1 3 } \\mathrm { C } ,$and $^ { 1 9 } \\mathrm { F }$NMR spectra were measured on a Bruker ARX 500 NMR spectrometer using tetramethylsilane (TMS; δ = 0 ppm) as internal standard. FTIR spectra were measured on a Perkin-Elmer 16 PC FT-IR spectrophotometer. Molecular weights (M and $M _ { \\mathrm { n } } )$and polydispersity indexes (PDI, M /M ) ofthe polymers were estimated in THF by a Waters gel permeation chromatography (GPC) system. A set of monodisperse polystyrene standards covering molecular weight range of $1 0 ^ { 3 }  – 1 0 ^ { 7 }$was used for molecular weight calibration. High-resolution mass spectra (HRMS) were recorded on a Finnigan TSQ 7000 operating in a MALDI-TOF mode. UV vis absorption spectra were measured on a Varian CARY 100 Bio UV vis spectrophotometer. Circular dichroism (CD) spectra were recorded on an Jasco J-720 spectropolarimeter. The thermogravimetric analysis (TGA) was conducted on a Pyris 6 thermogravimetric analyzer (Perkin-Elmer), in which a sample $\\mathrm { o f } \\sim 3$mg was heated to $6 0 0 ~ ^ { \\circ } \\mathrm { C }$at a rate of 20 \u0001C/min and under a flow of nitrogen stream.",
+      "page": 10,
+      "bbox": [
+        80.0,
+        81.0,
+        484.0,
+        295.0
+      ],
+      "source_block_index": 132,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_10_132",
+        "V2_10_0_1",
+        "V2_10_0_3",
+        "V2_10_0_5",
+        "V2_10_0_7",
+        "V2_10_0_9",
+        "V2_10_0_11"
+      ]
+    },
+    {
+      "block_id": "P_10_133",
+      "type": "text",
+      "text": "Preparation of Amino-Functionalized PEGs. Amino-functionalized PEGs were synthesized according to Scheme S1. PEG monomethyl ethers were first reacted with tosyl chloride, followed by reaction with potassium phthalimide and treatment with hydrazine (Gabriel method). Spectroscopic data ascertained that two kinds of $\\mathrm { M e P E G  – N H } _ { 2 }$were prepared successfully (see Supporting Information for details).",
+      "page": 10,
+      "bbox": [
+        80.0,
+        295.0,
+        484.0,
+        388.0
+      ],
+      "source_block_index": 133,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_10_133",
+        "V2_10_1_1"
+      ]
+    },
+    {
+      "block_id": "P_10_134",
+      "type": "text",
+      "text": "Monomer Preparation. PFP ester-containing monomers (1, 2, and 3) were synthesized according to the synthetic routes shown in Schemes 1 and 2. Typical experimental procedures for their syntheses are given below.",
+      "page": 10,
+      "bbox": [
+        80.0,
+        388.0,
+        482.0,
+        441.0
+      ],
+      "source_block_index": 134,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_10_135",
+      "type": "text",
+      "text": "<sup>Perfluoro</sup>p<sup>hen</sup>y<sup>l 4-Eth</sup>y<sup>n</sup>y<sup>lbenzoate</sup> (1)<sup>.</sup> 4-Ethynylbenzonic acid (5, 1.46 g, 10 mmol), pentafluorophenol (1.84 g, 10 mmol), DCC (3.09 g, 15 mmol), DMAP $\\left( 0 . 0 7 3 \\ \\mathrm { g } , \\ 0 . 6 \\right)$mmol), TsOH (0.114 g, 0.6 mmol), and 150 mL of dry dichloromethane were added into a 250 mL flask. The mixture was stirring at room temperature for 8 h, and white precipitate was formed. Then the solid was filtrated and washed with dry ether. After being concentrated by a rotary evaporator, the crude product was purified by silica-gel column chromatography using petroleum $( 6 0 - 9 0 ~ ^ { \\circ } \\mathrm { C } )$as eluent. After evaporation of the solvents by a rotary evaporator, white solid was collected in a yield 79%. <sup>1</sup>H NMR (500 MHz, DMSO-d ), δ (TMS, ppm): 8.14 (d, 2H), 7.71 (d, 2H), 4.59 (s, 1H). $^ { 1 3 } \\mathrm { C }$NMR (125 MHz, DMSO-d ), δ (TMS, ppm): 162.2, 142.5, 141.5, 139.7, 138.0, 136.6, 132.1, 130.5, 128.7, 126.8, 82.3, 81.4. <sup>19</sup>F NMR (125 MHz, DMSO-d ), δ (TMS, ppm): 152.3, 157.6, 162.1. FTIR, ν $( \\mathrm { c m } ^ { - 1 } ,$in KBr pellet): 3270 $\\scriptstyle ( H - C { \\equiv } C )$, 1762 (OCdO), 1522, 1257, 1064, 993. HRMS (MALDI-TOF): m/z 313.0287 $[ ( \\mathbf { M } + 1 ) ^ { + }$, calcd 313.0210; see Figure S3].",
+      "page": 10,
+      "bbox": [
+        80.0,
+        440.0,
+        484.0,
+        666.0
+      ],
+      "source_block_index": 135,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_10_135",
+        "V2_10_3_1",
+        "V2_10_3_3",
+        "V2_10_3_5",
+        "V2_10_3_7",
+        "V2_10_3_9",
+        "V2_10_3_11"
+      ]
+    },
+    {
+      "block_id": "P_10_136",
+      "type": "text",
+      "text": "Perfluorophenyl 6-(4-Ethynylphenoxy)hexanoate $( 2 ) .$6-(4-Ethynylphenoxy)hexanoic acid (6, 2.32 g, 10 mmol), pentafluorophenol $( 1 . 8 4 \\mathrm { g } ,$10 mmol), DCC (3.09 g, 15 mmol), DMAP (0.073 g, 0.6 mmol), TsOH (0.114 g, 0.6 mmol), and 150 mL of dried DCM were added into a 250 mL flask. The mixture was stirring at room temperature for 12 h, and white precipitate was formed. Then the solid was filtrated and washed with absolute ether. After being concentrated by a rotary evaporator, the crude product was purified by a silica gel column using petroleum ether $( 6 0 - 9 0 ^ { \\circ } \\mathrm { C } )$as eluent. After evaporation of solvents by a rotary evaporator, a white solid was obtained in yield 82.5%. <sup>1</sup>H NMR (500 MHz, CDCl ), δ (TMS, ppm): 7.41 (d, 2H), 6.82 (d, 2H), 3.98 (t, 2H), 2.99 (s, 1H), 2.70 (t, 2H), 1.82 1.89 (m, 4H), 1.30 1.32 $( \\mathrm { m } , 2 \\mathrm { H } ) .  { } ^ { 1 3 } \\mathrm { C }$NMR (125 MHz, CDCl ), δ (TMS, ppm): 169.6, 159.6, 142.3, 140.7, 140.3, 139.8, 139.0, 138.6, 137.1, 133.8, 114.6, 114.3, 83.9, 76.0, 67.7, 33.5, 29.0, 25.7, 24.7. <sup>19</sup>F NMR (125 MHz, CDCl ), δ (TMS, ppm): 152.9, 158.1, 162.4. FTIR, ν $\\left( \\mathrm { c m } ^ { - 1 } \\right.$, in KBr pellet): 3311 (H CtC), 2932, 2852, 2106 (HCtC), 1788 (OCdO), 1607, 1519, 1470, 1292, 1248, 1174, 1095, 1000, 890, 832, 723, 667, 630, 537. HRMS (MALDI-TOF): m/z 399.1009 [(M + 1)<sup>+</sup>, calcd 399.0941; see Figure S4].",
+      "page": 10,
+      "bbox": [
+        80.0,
+        666.0,
+        484.0,
+        932.0
+      ],
+      "source_block_index": 136,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_10_136",
+        "V2_10_4_1",
+        "V2_10_4_3",
+        "V2_10_4_5",
+        "V2_10_4_7",
+        "V2_10_4_9"
+      ]
+    },
+    {
+      "block_id": "P_10_137",
+      "type": "text",
+      "text": "Perfluorophenyl 11-(4-Ethynylphenoxy)undecanoate (3). Monomer 3 was synthesized from 11-(4-ethynylphenoxy)undecanoic acid (7) by a procedure similar to that used for preparation of monomer 1. A white solid was obtained in yield 76.8%. <sup>1</sup>H NMR (500 MHz, CDCl ), δ (TMS, ppm): 7.41 (d, 2H), 6.82 (d, 2H), 3.95 (t, 2H), 2.99 (s, 1H), 2.65 (t, 2H), 1.72 1.80 (m, 4H), 1.20 1.50 (m, 12H). $^ { 1 3 } \\mathrm { C }$NMR (125 MHz, CDCl ), δ (TMS, ppm): 169.8, 159.8, 142.4, 140.3, 139.2, 138.6, 137.0, 133.8, 114.7, 114.1, 84.0, 75.9, 68.3, 33.6, 29.7, 29.5, 29.4, 29.0, 25.0. $^ { 1 9 } \\mathrm { F }$NMR (125 MHz, CDCl ), δ (TMS, ppm): 152.9, 158.2, 162.4. FTIR, ν $\\left( \\mathrm { c m } ^ { - 1 } \\right)$, in KBr pellet): 3311 (H CtC), 2932, 2852, 2106 (HCtC), 1788 (OCdO), 1607, 1519, 1470, 1292, 1248, 1174, 1095, 1000, 890, 832, 723, 667, 630, 537. HRMS (MALDI-TOF): m/z 469.1804 $[ ( \\mathbf { M } + 1 ) ^ { + }$, calcd 469.1724; see Figure S5].",
+      "page": 10,
+      "bbox": [
+        512.0,
+        81.0,
+        917.0,
+        255.0
+      ],
+      "source_block_index": 137,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_10_137",
+        "V2_10_5_1",
+        "V2_10_5_3",
+        "V2_10_5_5",
+        "V2_10_5_7"
+      ]
+    },
+    {
+      "block_id": "P_10_138",
+      "type": "text",
+      "text": "Polymer Synthesis. All the polymerization reactions were carried out under nitrogen using Schlenk technique (see Schemes 1 and 2) in a vacuum-line system except for the purification of the polymers, which was done in air. Typical experimental procedures for preparation of P2 are given below as an example.",
+      "page": 10,
+      "bbox": [
+        512.0,
+        255.0,
+        915.0,
+        322.0
+      ],
+      "source_block_index": 138,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_10_139",
+      "type": "text",
+      "text": "Into a 10 mL baked Schlenk tube with a side arm was added 199 mg (0.50 mmol) ofmonomer 2. The tube was evacuated under vacuum and flushed with dry nitrogen three times through the side arm. Then 1.5 mL ofTHF was injected into the tube to dissolve the monomer. The catalyst solution was prepared in another tube by dissolving 4.9 mg (0.01 mmol) of [Rh(cod)Cl] in 1 mL of THF with one drop of TEA added. After aging for 15 min, the catalyst solution was transferred to the monomer solution using a hypodermic syringe. The reaction solution became brown from light yellow immediately. After being stirred at room temperature under nitrogen for 24 h, the resultant solution was diluted with 7 mL ofTHF and added dropwise to 300 mL ofmethanol through a cotton filter under vigorous stirring. The precipitate was allowed to stand for 24 h and then filtered with a Gooch crucible. The obtained polymer was washed with methanol for three times and then kept in an ambient atmosphere at room temperature.",
+      "page": 10,
+      "bbox": [
+        512.0,
+        321.0,
+        917.0,
+        520.0
+      ],
+      "source_block_index": 139,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_10_140",
+      "type": "text",
+      "text": "Characterization data for P2: brown solid; yield 86.4%. $M _ { \\mathrm { w } } \\mathrm { : }$70 600; $M _ { \\mathrm { w } } / M _ { \\mathrm { n } } \\colon 2 . 2 2 \\ \\mathrm { ( G P C , }$polystyrene calibration; Table 1, no. 12). <sup>1</sup>H NMR (500 MHz, CDCl ), δ (TMS, ppm): 6.62, 6.44, 5.76, 3.58 4.06, 2.63, 1.59 1.90, 1.40 1.60. <sup>13</sup>C NMR (125 MHz, CDCl ), δ (TMS, ppm): 169.5, 158.3, 142.4, 140.4, 138.8, 137.1, 136.0, 134.1, 130.4, 128.9, 125.3, 113.8, 67.6, 33.2, 29.1, 25.7, 24.7. <sup>19</sup>F NMR (125 MHz, CDCl ), δ (TMS, ppm): 152.9, 158.2, 162.5. FTIR, $\\nu \\left( \\mathrm { c m } ^ { - 1 } \\right.$, in KBr pellet): 2932, 2852, 1788, and 1740 (OCdO), 1607, 1519, 1470, 1292, 1248, 1174, 1095, 1000, 890, 832, 723.",
+      "page": 10,
+      "bbox": [
+        514.0,
+        520.0,
+        915.0,
+        640.0
+      ],
+      "source_block_index": 140,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_10_140",
+        "V2_10_8_1",
+        "V2_10_8_3",
+        "V2_10_8_5"
+      ]
+    },
+    {
+      "block_id": "P_10_141",
+      "type": "text",
+      "text": "Characterization data for P1: orange-yellow powder; yield 75.0%. $M _ { \\mathrm { w } } \\mathrm { : }$31 800; $M _ { \\mathrm { w } } / M _ { \\mathrm { n } } \\mathrm { : }$1.85 (GPC, polystyrene calibration; Table 1, no. 2). <sup>1</sup>H NMR (500 MHz, CDCl ), δ (TMS, ppm): 7.80, 6.79, 5.97. $^ { 1 3 } \\mathrm { C }$NMR (125 MHz, DMSO-d ), δ (TMS, ppm): 141.7, 139.2, 138.6, 137.0, 136.0, 134.0, 132.5, 129.6, 128.1, 124.5. ${ } ^ { \\mathrm { i 9 } } \\mathrm { F }$NMR (125 MHz, DMSO-d ), δ (TMS, ppm): 153.0, 157.1, 162.1. FTIR, ν (cm\u0001<sup>1</sup>, in KBr pellet): 1764 (OCdO), 1521, 1249, 1051, 1009.",
+      "page": 10,
+      "bbox": [
+        512.0,
+        640.0,
+        915.0,
+        731.0
+      ],
+      "source_block_index": 141,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_10_141",
+        "V2_10_9_1",
+        "V2_10_9_3",
+        "V2_10_9_5",
+        "V2_10_9_7"
+      ]
+    },
+    {
+      "block_id": "P_10_142",
+      "type": "text",
+      "text": "Characterization data for P3: dark brown solid; yield 78.4%. M : 97 300; $M _ { \\mathrm { w } } / M _ { \\mathrm { n } } \\mathrm { : }$1.94 (GPC, polystyrene calibration; Table 1, no. 17). $^ 1 \\mathrm { H }$NMR (500 MHz, CDCl ), δ (TMS, ppm): 6.62, 6.44, 5.65 5.80, 3.63 3.67, 2.60 2.66, 1.65 1.85, 1.31. <sup>13</sup>C NMR (125 MHz, CDCl ), δ (TMS, ppm): 169.7, 159.6, 142.4, 140.5, 139.1, 138.5, 137.1, 130.4, 128.9, 125.3, 114.9, 113.9, 68.1, 34.3, 33.5, 29.1, 26.5, 25.2, 25.0. <sup>19</sup>F NMR (125 MHz, CDCl ), δ (TMS, ppm): 152.9, 158.3, 162.5. FTIR, $\\nu \\ : \\left( \\mathrm { c m } ^ { - 1 } \\right)$, in KBr pellet): 2932, 2852, 1788, and 1740 (OCdO), 1607, 1519, 1470, 1292, 1248, 1174, 1095, 1000, 882, 832, 723.",
+      "page": 10,
+      "bbox": [
+        512.0,
+        732.0,
+        915.0,
+        850.0
+      ],
+      "source_block_index": 142,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_10_142",
+        "V2_10_10_1",
+        "V2_10_10_3",
+        "V2_10_10_5"
+      ]
+    },
+    {
+      "block_id": "P_10_143",
+      "type": "text",
+      "text": "Polymer Reaction. Poly(phenylacetylene) derivatives with PFP ester (P1, P2, and P3) were reacted with various amines under nitrogen according to the synthetic routes shown in Scheme 3. Typical experimental procedures for preparation of P1-amide are given below as an example. Into a 10 mL reaction tube with magnetic stirring bar were added 250 mg (0.8 mmol) P1, 106.7 mg (0.88 mmol) of L (or D)-1-phenylethylamine, and 8 mL ofdry THF with a drop of $\\mathrm { E t } _ { 3 } \\mathrm { N }$under nitrogen. The reaction solution was kept stirring for 12 h at room temperature. After that, the mixture solution was added dropwise to 300 mL of methanol through a cotton filter under vigilant stirring. The precipitate was kept still for 24 h and then filtered with a Gooch crucible. The obtained polymer was washed with methanol for several times and dried at room temperature.",
+      "page": 10,
+      "bbox": [
+        512.0,
+        851.0,
+        917.0,
+        932.0
+      ],
+      "source_block_index": 143,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_10_143",
+        "V2_10_11_1"
+      ]
+    },
+    {
+      "block_id": "P_11_148",
+      "type": "text",
+      "text": "",
+      "page": 11,
+      "bbox": [
+        80.0,
+        82.0,
+        482.0,
+        162.0
+      ],
+      "source_block_index": 148,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_11_149",
+      "type": "text",
+      "text": "Characterization data for P1-C*Ph: red-orange powder; yield 86.2% for P1-C*Ph(L), $M _ { \\mathrm { w } } \\mathrm { : }$27 300; $M _ { \\mathrm { w } } / M _ { \\mathrm { n } }$: 2.40 (GPC, polystyrene calibration), and yield 91.2% for P1-C*Ph(D), $M _ { \\mathrm { w } } \\mathrm { : }$32 400; $M _ { \\mathrm { w } } / M _ { \\mathrm { n } } \\mathrm { : }$2.28 (GPC, polystyrene calibration). <sup>1</sup>H NMR (500 MHz, DMSO-d<sub>6</sub>), δ (TMS, ppm): 8.40 (s, 1H, NH), 7.17 6.62 (m, aromatic protons), 5.77 (olefinic protons), 5.04(s, 1H, NHCH), 1.21 1.33(m, 3H, CH ). $^ { 1 3 } \\mathrm { C }$NMR (125 MHz, DMSO- $. d _ { 6 } )$, δ (TMS, ppm): 165.0, 144.2, 127.9, 126.2, 125.6, 125.4, 66.8. $^ { 1 9 } \\mathrm { F }$NMR (125 MHz, DMSO-d ), δ (TMS, ppm): nothing. FTIR, $\\nu \\left( \\mathrm { c m } ^ { - 1 } \\right.$, in KBr pellet): 3423 and 3300 (N H), 2966 and 2927 (C H); 1720 and 1645 (CdONH), 1604, 1534, 1493, 1449, 1260, 1089, 1017, 851, 802, 761, 699.",
+      "page": 11,
+      "bbox": [
+        80.0,
+        162.0,
+        482.0,
+        308.0
+      ],
+      "source_block_index": 149,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_11_149",
+        "V2_11_1_1",
+        "V2_11_1_3",
+        "V2_11_1_5",
+        "V2_11_1_7",
+        "V2_11_1_9",
+        "V2_11_1_11",
+        "V2_11_1_13",
+        "V2_11_1_15"
+      ]
+    },
+    {
+      "block_id": "P_11_151",
+      "type": "text",
+      "text": "Characterization data for $\\mathrm { P 1 - P E G } _ { 7 5 0 } \\mathrm { : }$brown sticky semisolid substance; yield 78.4%. $M _ { \\mathrm { w } } \\mathrm { : }$3950; $M _ { \\mathrm { w } } / M _ { \\mathrm { n } } \\mathrm { : }$1.23 (GPC, polystyrene calibration). <sup>1</sup>H NMR (500 MHz, CDCl ), δ (TMS, ppm): 7.90, 3.77, 3.63, 3.59, 3.51, 3.33 (s, 3H). <sup>1</sup>H NMR(500 MHz, $\\mathrm { D } _ { 2 } \\mathrm { O } ) , \\delta$(DSS, ppm): 3.68 3.73 (t, 2H), 3.53 3.69 (s, 60H), 3.51 (t, 2H), 3.33 (s, 3H).",
+      "page": 11,
+      "bbox": [
+        80.0,
+        401.0,
+        482.0,
+        468.0
+      ],
+      "source_block_index": 151,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_11_151",
+        "V2_11_3_1",
+        "V2_11_3_3",
+        "V2_11_3_5",
+        "V2_11_3_7"
+      ]
+    },
+    {
+      "block_id": "P_11_159",
+      "type": "text",
+      "text": "Characterization data for $\\mathrm { P } 3 \\mathrm { - P E G } _ { 7 5 0 } \\mathrm { : }$red-orange sticky semisolid substance; yield 85.2%. $M _ { \\mathrm { w } } \\mathrm { : }$8140; $M _ { \\mathrm { w } } / M _ { \\mathrm { n } } \\mathrm { : }$2.22 (GPC, polystyrene calibration). <sup>1</sup>H NMR (500 MHz, CDCl ), δ (TMS, ppm): 7.87, 6.25 7.00, 3.87, 3.63, 3.50, 3.34, 2.61, 1.57, 1.25. <sup>1</sup>H NMR $( 5 0 0 \\mathrm { M H z } , \\mathrm { D } _ { 2 } \\mathrm { O } )$δ (DSS, ppm): 3.42, 3.10.",
+      "page": 11,
+      "bbox": [
+        512.0,
+        82.0,
+        915.0,
+        150.0
+      ],
+      "source_block_index": 159,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_11_159",
+        "V2_11_11_1",
+        "V2_11_11_3",
+        "V2_11_11_5",
+        "V2_11_11_7"
+      ]
+    },
+    {
+      "block_id": "P_11_160",
+      "type": "text",
+      "text": "P1 was reacted with two amines step by step under nitrogen according to the synthetic routes shown in Scheme 4. Typical experimental procedures for preparation of $\\mathrm { P 1 . C ^ { \\ast } P h ( L ) } 5 0 \\% - C _ { 4 } 5 0 \\%$are given below as an example. Into a 20 mL reaction tube with magnetic stirring bar were added 250 mg (0.8 mmol) of P1, 48.5 mg (0.4 mmol) of L-1-phenylethylamine, and 8 mL of dry THF with a drop of $\\mathrm { E t } _ { 3 } \\mathrm { N }$under nitrogen. The reaction solution was kept stirring for 12 h at room temperature. Then, the reaction solution was added 32.2 mg (0.44 mmol) of 1- butylamine and reacted for another 12 h at room temperature. After that, the mixture solution was added dropwise to 300 mL of methanol through a cotton filter under vigilant stirring. The precipitate was kept still for 24 h and then filtered with a Gooch crucible. The obtained polymer was washed with methanol for several times and dried at room temperature.",
+      "page": 11,
+      "bbox": [
+        512.0,
+        148.0,
+        915.0,
+        320.0
+      ],
+      "source_block_index": 160,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_11_160",
+        "V2_11_12_1",
+        "V2_11_12_3"
+      ]
+    },
+    {
+      "block_id": "P_11_161",
+      "type": "text",
+      "text": "Characterization data for $\\mathrm { P 1 . C ^ { \\ast } P h ( L ) } 7 5 \\% - C _ { 4 } 2 5 \\%$: brown powder; yield 91.3%. $M _ { \\mathrm { w } } \\mathrm { : }$26 800; $M _ { \\mathrm { w } } / M _ { \\mathrm { n } } \\mathrm { : }$2.53 (GPC, polystyrene calibration). <sup>1</sup>H NMR (500 MHz, CDCl ), δ (TMS, ppm): 8.55, 7.50, 7.20, 6.62, 5.77, 5.03, 3.41, 1.37, 0.79.",
+      "page": 11,
+      "bbox": [
+        514.0,
+        320.0,
+        914.0,
+        372.0
+      ],
+      "source_block_index": 161,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_11_161",
+        "V2_11_13_1",
+        "V2_11_13_3",
+        "V2_11_13_5"
+      ]
+    },
+    {
+      "block_id": "P_11_162",
+      "type": "text",
+      "text": "Characterization data for P1-C*Ph(L)50%-C 50%: brown powder; yield 88.5%. $M _ { \\mathrm { w } } \\mathrm { : }$25 900; $M _ { \\mathrm { w } } / M _ { \\mathrm { n } } \\mathrm { : }$2.46 $( \\mathrm { G P C } ,$polystyrene calibration). <sup>1</sup>H NMR (500 MHz, CDCl ), δ (TMS, ppm): 8.55, 7.50, 7.20, 6.62, 5.77, 5.03, 3.41, 1.37, 0.79.",
+      "page": 11,
+      "bbox": [
+        514.0,
+        372.0,
+        915.0,
+        425.0
+      ],
+      "source_block_index": 162,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_11_162",
+        "V2_11_14_1",
+        "V2_11_14_3",
+        "V2_11_14_5"
+      ]
+    },
+    {
+      "block_id": "P_11_163",
+      "type": "text",
+      "text": "Characterization data for P1-C*Ph(L)25%-C 75%: yellow powder; yield 90.6%. $M _ { \\mathrm { w } } { : 2 5 3 0 0 } ; M _ { \\mathrm { w } } / M _ { \\mathrm { n } } { : }$2.51 (GPC, polystyrene calibration). <sup>1</sup>H NMR (500 MHz, CDCl ), δ (TMS, ppm): 8.55, 7.50, 7.20, 6.62, 5.77, 5.03, 3.41, 1.37, 0.79.",
+      "page": 11,
+      "bbox": [
+        514.0,
+        425.0,
+        915.0,
+        478.0
+      ],
+      "source_block_index": 163,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_11_163",
+        "V2_11_15_1"
+      ]
+    },
+    {
+      "block_id": "P_11_164",
+      "type": "text",
+      "text": "Characterization data for P1- $\\mathrm { . P E G _ { 3 5 0 } 7 5 \\% - C _ { 1 4 } 2 5 \\% } ;$brown sticky semisolid substance; yield 78.5%. $M _ { \\mathrm { w } } \\mathrm { : }$5720; $M _ { \\mathrm { w } } / M _ { \\mathrm { n } }$: 1.38 (GPC, polystyrene calibration). <sup>1</sup>H NMR (500 MHz, CDCl ), δ (TMS, ppm): 3.63, 3.36, 1.25, 0.86.",
+      "page": 11,
+      "bbox": [
+        514.0,
+        478.0,
+        915.0,
+        530.0
+      ],
+      "source_block_index": 164,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_11_164",
+        "V2_11_16_1",
+        "V2_11_16_3",
+        "V2_11_16_5"
+      ]
+    },
+    {
+      "block_id": "P_11_165",
+      "type": "text",
+      "text": "Characterization data for $\\mathrm { P 1 . p E G } _ { 3 5 0 } 5 0 \\% . \\mathrm { C } _ { 1 4 } 5 0 \\%$: brown sticky semisolid substance; yield 80.6%. $M _ { \\mathrm { w } } \\mathrm { : }$5050; $M _ { \\mathrm { w } } / M _ { \\mathrm { n } } \\mathrm { : }$1.24 (GPC, polystyrene calibration). <sup>1</sup>H NMR (500 MHz, CDCl ), δ (TMS, ppm): 3.63, 3.36, 1.25, 0.86.",
+      "page": 11,
+      "bbox": [
+        512.0,
+        531.0,
+        915.0,
+        583.0
+      ],
+      "source_block_index": 165,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_11_165",
+        "V2_11_17_1",
+        "V2_11_17_3",
+        "V2_11_17_5"
+      ]
+    },
+    {
+      "block_id": "P_11_166",
+      "type": "text",
+      "text": "Characterization data for $\\mathrm { P 1 \\mathrm { - } P E G _ { 3 5 0 } 2 5 \\% \\mathrm { - } C _ { 1 4 } 7 5 \\% \\mathrm { ; } }$brown sticky semisolid substance; yield 85.3%. $M _ { \\mathrm { w } } \\mathrm { : }$4860; $M _ { \\mathrm { w } } / M _ { \\mathrm { n } } \\mathrm { : }$1.35 (GPC, polystyrene calibration). <sup>1</sup>H NMR (500 MHz, CDCl ), δ (TMS, ppm): 3.63, 3.36, 1.25, 0.86.",
+      "page": 11,
+      "bbox": [
+        512.0,
+        583.0,
+        915.0,
+        635.0
+      ],
+      "source_block_index": 166,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_11_166",
+        "V2_11_18_1",
+        "V2_11_18_3",
+        "V2_11_18_5"
+      ]
+    },
+    {
+      "block_id": "P_11_167",
+      "type": "text",
+      "text": "Contact Angle Measurements. Contact angles were measured on aJY-82 goniometer. The polymer solutions in THF $( 5 \\mathrm { m g / m L } )$were cast onto glass slides to form polymer films, after which the samples were stayed at room temperature under vacuum for 24 h. The sessile drop method was performed. Deionized water drops $( \\leq 0 . 5 \\mu \\mathrm { L } )$were positioned onto the polymer surfaces by means of the syringe. All the contact angle data were read from the scale on the microscope lens at the 15th second after the water dropping.",
+      "page": 11,
+      "bbox": [
+        512.0,
+        636.0,
+        915.0,
+        741.0
+      ],
+      "source_block_index": 167,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_11_167",
+        "V2_11_19_1",
+        "V2_11_19_3"
+      ]
+    },
+    {
+      "block_id": "P_11_168",
+      "type": "text",
+      "text": "LCST Measurements. Polymers are first dissolved in deionized water, and then the aqueous solution was diluted to different concentrations. The cloud points ofpolymers in this work are too high to be tested by UV. Therefore, the solutions were heated slowly in an oil bath to certain temperature. The temperature at which the solution begins to change from clear to turbid was recorded.",
+      "page": 11,
+      "bbox": [
+        512.0,
+        741.0,
+        915.0,
+        822.0
+      ],
+      "source_block_index": 168,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_11_169",
+      "type": "title",
+      "text": "’ ASSOCIATED CONTENT",
+      "page": 11,
+      "bbox": [
+        514.0,
+        835.0,
+        710.0,
+        850.0
+      ],
+      "source_block_index": 169,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_11_170",
+      "type": "text",
+      "text": "<sup>b</sup>S Supporting Information. Synthetic scheme and procedures for the preparation of amino-functionalized $\\mathrm { P E G s } ;$<sup>1</sup>H and $^ { 1 3 } \\mathrm { C }$NMR spectra ofamino-functionalized PEGs; mass spectrum of monomers 1 3; TGA thermograms of P1, P2, and P3 and their $\\mathrm { P E G } _ { 7 5 0 }$derivatives $\\mathrm { P 1 - P E G } _ { 7 5 0 } ,$$\\mathrm { P } 2 \\mathrm { - P E G } _ { 7 5 0 } ,$and $\\mathrm { P } 3 \\mathrm { - P E G } _ { 7 5 0 } ;$",
+      "page": 11,
+      "bbox": [
+        512.0,
+        860.0,
+        915.0,
+        932.0
+      ],
+      "source_block_index": 170,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_11_170",
+        "V2_11_22_1",
+        "V2_11_22_3",
+        "V2_11_22_5",
+        "V2_11_22_7",
+        "V2_11_22_8",
+        "V2_11_22_10"
+      ]
+    },
+    {
+      "block_id": "P_12_175",
+      "type": "text",
+      "text": "<sup>1</sup>H NMR spectra of $\\mathrm { P 1 . p E G } _ { 3 5 0 } 7 5 \\% . \\mathrm { C } _ { 1 4 } 2 5 \\% ,$$\\mathrm { P 1 \\mathrm { - } P E G } _ { 3 5 0 } 5 0 \\% .$$\\mathrm { C _ { 1 4 } } 5 0 \\% ,$and $\\mathrm { P 1 . p E G } _ { 3 5 0 } 2 5 \\% \\mathrm { C } _ { 1 4 } 7 5 \\% ;$light transmission spectra of $\\mathrm { P 1 - P E G } _ { 7 5 0 }$in water. This material is available free ofcharge via the Internet at http://pubs.acs.org.",
+      "page": 12,
+      "bbox": [
+        80.0,
+        80.0,
+        482.0,
+        138.0
+      ],
+      "source_block_index": 175,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_12_175",
+        "V2_12_0_1",
+        "V2_12_0_2",
+        "V2_12_0_3",
+        "V2_12_0_5",
+        "V2_12_0_7"
+      ]
+    },
+    {
+      "block_id": "P_12_176",
+      "type": "title",
+      "text": "’AUTHOR INFORMATION",
+      "page": 12,
+      "bbox": [
+        80.0,
+        150.0,
+        283.0,
+        165.0
+      ],
+      "source_block_index": 176,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_12_177",
+      "type": "text",
+      "text": "Corresponding Author",
+      "page": 12,
+      "bbox": [
+        82.0,
+        172.0,
+        240.0,
+        186.0
+      ],
+      "source_block_index": 177,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_12_178",
+      "type": "text",
+      "text": "\\*E-mail: sunjz@zju.edu.cn (J.Z.S.); tangbenz@ust.hk (B.Z.T.).",
+      "page": 12,
+      "bbox": [
+        80.0,
+        185.0,
+        474.0,
+        201.0
+      ],
+      "source_block_index": 178,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_12_179",
+      "type": "text",
+      "text": "Author Contributions",
+      "page": 12,
+      "bbox": [
+        82.0,
+        208.0,
+        233.0,
+        221.0
+      ],
+      "source_block_index": 179,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_12_180",
+      "type": "text",
+      "text": "<sup>§</sup>M. R. Chen and H. Zhao contributed equally to this work.",
+      "page": 12,
+      "bbox": [
+        82.0,
+        221.0,
+        457.0,
+        236.0
+      ],
+      "source_block_index": 180,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_12_181",
+      "type": "title",
+      "text": "’ACKNOWLEDGMENT",
+      "page": 12,
+      "bbox": [
+        80.0,
+        257.0,
+        258.0,
+        272.0
+      ],
+      "source_block_index": 181,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_12_182",
+      "type": "text",
+      "text": "This work was partially supported by the National Science Foundation of China (21074113, 50873086, 20634020, and 20974028); the key project of the Ministry of Science and Technology of China (2009CB623605), the Research Grants Council of Hong Kong (603509 and HKUST2/CRF/10), and the University Grants Committee of Hong Kong (AoE/P-03/ 08). B.Z.T. thanks the support from the Cao Guangbiao Foundation of Zhejiang University.",
+      "page": 12,
+      "bbox": [
+        80.0,
+        276.0,
+        482.0,
+        388.0
+      ],
+      "source_block_index": 182,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_12_183",
+      "type": "title",
+      "text": "’ REFERENCES",
+      "page": 12,
+      "bbox": [
+        80.0,
+        400.0,
+        200.0,
+        415.0
+      ],
+      "source_block_index": 183,
+      "alignment_status": "matched",
+      "title_level": 2
+    }
+  ],
+  "warnings": [
+    {
+      "code": "metadata_extraction_failed",
+      "message": "未配置统一 LLM 元数据提取器；document JSON 已继续生成"
+    }
+  ]
+}

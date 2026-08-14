@@ -2,7 +2,7 @@
 
 首次交付日期：2026-08-07
 
-最近更新日期：2026-08-12
+最近更新日期：2026-08-14
 
 固定数据集：20 篇文献
 
@@ -21,7 +21,7 @@
 >
 > **2026-08-12 Preview 完整发布更新：** Stage 6 新增逐对象隔离和引用清扫。坏对象进入 `rejected_objects`，合法对象继续进入 `final.json`；悬空 `derived_property_ids` 只剪枝、不猜 ID。Characterization 允许表级 locator，Property 和 Series Point 仍要求单元格级定位。Stage 4R 的 evidence 直接保存稳定 `cell_id` 对应的 Stage 0 单元格文本，不再重新拼接管道行。Stage 3 同时新增 `polymer_type` 和 `material_type`。Strict 的校验规则和失败语义保持不变。最新规范化 20 篇结果位于 `batch_results/demo20_preview_final_20260812/`。
 
-> **2026-08-14 Preview 类型更新：** Stage 2/3 类型策略升级为可审计的确定性补全。材料配方中的 `composite` 不再被误当成 homopolymer 结构证据；Composite 必须有填料或增强体证据；无填料的多组分共混判为 Compound；成分保持加工会继承 `polymer_type` 和 `material_type`。JSON 与 HTML 始终显式展示 `polymer_type`、`copolymer_type`、`material_type`，未知值保留 `null` / `not specified`。新增固定 GT 评测、离线回填和正式批次发布校验工具。
+> **2026-08-14 Preview 类型更新：** Stage 2/3 类型策略升级为可审计的确定性补全。材料配方中的 `composite` 不再被误当成 homopolymer 结构证据；Composite 必须有填料或增强体证据；无填料的多组分共混判为 Compound；成分保持加工会继承 `polymer_type` 和 `material_type`。JSON 与 HTML 始终显式展示 `polymer_type`、`copolymer_type`、`material_type`，未知值保留 `null` / `not specified`。新增固定 GT 评测、离线回填和正式批次发布校验工具。最新 20 篇结果位于 `batch_results/demo20_types_preview_20260814/`：实体类型弃权 10.65%，Sample 材料类型弃权 13.93%，Blend 文档检测在实体或 Sample 口径下 P/R 为 1.00/1.00，Preview 对象守恒 20/20。
 
 ## 1. 交付包目录总览
 
@@ -40,6 +40,7 @@ polymer_extraction_delivery_20260807/
 ├─ batch_results/demo20_20260807/      2026-08-07 历史跑批结果
 ├─ batch_results/demo20_preview_20260809/  2026-08-09 Preview 修复验证结果
 ├─ batch_results/demo20_preview_final_20260812/  2026-08-12 Preview 最终发布结果
+├─ batch_results/demo20_types_preview_20260814/  2026-08-14 类型补全 Preview 结果
 ├─ docs/                               项目和风险说明
 ├─ .env.example                        密钥占位模板，不含真实密钥
 ├─ requirements.txt                    运行依赖
@@ -606,6 +607,12 @@ extraction 490 passed / ocr 13 passed / preview 18 passed
 
 （`preview` 由 13 增至 18，是因为新增了 `publish_candidate.py` 输入目录校验的
 5 个用例，见下方 2026-08-11 条目。）
+
+2026-08-14 增加类型补全、离线评测、批次发布校验和 Stage 6 对象守恒回归后重跑：
+
+```text
+564 passed
+```
 
 ## 12. 已有验收结论
 

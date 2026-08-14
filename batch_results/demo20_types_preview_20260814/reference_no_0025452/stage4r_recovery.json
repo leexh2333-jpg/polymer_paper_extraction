@@ -1,0 +1,60 @@
+{
+  "stage": "stage4r_table_recovery",
+  "implementation_version": "0.2.0",
+  "document_id": "reference_no_0025452",
+  "audit_summary": {
+    "table_count": 2,
+    "tables_with_numeric_cells": 2,
+    "numeric_cell_count": 107,
+    "represented_numeric_cell_count": 60,
+    "representation_ratio": 0.560748,
+    "role_counts": {
+      "property_value_candidate": 10,
+      "unknown": 97
+    },
+    "property_value_candidate_count": 10,
+    "covered_property_value_candidate_count": 10,
+    "missing_property_value_candidate_count": 0,
+    "property_value_ratio": 1.0,
+    "gap_table_count": 0,
+    "numeric_zero_coverage_table_count": 1,
+    "property_zero_coverage_table_count": 0
+  },
+  "recovered_count": 0,
+  "skipped_ambiguous_count": 0,
+  "recovered": [],
+  "skipped_ambiguous": [],
+  "sample_resolution_summary": {
+    "missing_cell_locator": 3
+  },
+  "sample_resolution": [
+    {
+      "unresolved_id": "uprop001",
+      "entity_id": "pe001",
+      "status": "missing_cell_locator"
+    },
+    {
+      "unresolved_id": "uprop002",
+      "entity_id": "pe001",
+      "status": "missing_cell_locator"
+    },
+    {
+      "unresolved_id": "uprop003",
+      "entity_id": "pe001",
+      "status": "missing_cell_locator"
+    }
+  ],
+  "property_id_migrations": [],
+  "input_hashes": {
+    "stage0_blocks.json": "1ac0207a8ea567c55a0d2f2b4ee98c837cfdc5a9f0992ce8c777332b0f72537f",
+    "stage2_entities.json": "f8964c37b840201c6ff09ca206184107508d47bcfd1737e4bc49ac1edd92175e",
+    "stage3_process.json": "972ecda86d3df60231ca0afe3a33053ef1783dfd92bd4098620978f520d1d395",
+    "stage4_properties.json": "9eb03cac17c6c51ae32ddb938a34e873b1ef1163a5b2bddeca61c82b6900ee78"
+  },
+  "settings": {
+    "threshold": 0.8,
+    "apply": true,
+    "allow_filled_up_sample_binding": true
+  },
+  "output_sha256": "2eec693352b5b508e9728e3ddfe3d471e94835270a485e52927d890a633d8a9e"
+}

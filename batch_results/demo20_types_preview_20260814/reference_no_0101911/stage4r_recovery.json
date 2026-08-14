@@ -1,0 +1,42 @@
+{
+  "stage": "stage4r_table_recovery",
+  "implementation_version": "0.2.0",
+  "document_id": "reference_no_0101911",
+  "audit_summary": {
+    "table_count": 3,
+    "tables_with_numeric_cells": 3,
+    "numeric_cell_count": 51,
+    "represented_numeric_cell_count": 51,
+    "representation_ratio": 1.0,
+    "role_counts": {
+      "coordinate_candidate": 15,
+      "property_value_candidate": 36
+    },
+    "property_value_candidate_count": 36,
+    "covered_property_value_candidate_count": 36,
+    "missing_property_value_candidate_count": 0,
+    "property_value_ratio": 1.0,
+    "gap_table_count": 0,
+    "numeric_zero_coverage_table_count": 0,
+    "property_zero_coverage_table_count": 0
+  },
+  "recovered_count": 0,
+  "skipped_ambiguous_count": 0,
+  "recovered": [],
+  "skipped_ambiguous": [],
+  "sample_resolution_summary": {},
+  "sample_resolution": [],
+  "property_id_migrations": [],
+  "input_hashes": {
+    "stage0_blocks.json": "9310a7ed5fcd8ca1073d90b8f64bb9c6136f3866d2ba1046de504c6187eb7a3e",
+    "stage2_entities.json": "68e3ad5c11b1a396516db9f0259cd0d43f7c25a2c3f8e03d1f2643df49046b50",
+    "stage3_process.json": "8f43f8f9a25a9bfb7f5b3343a2c064beb065155b0e11c75b07fc121793f88b32",
+    "stage4_properties.json": "de9059facbcfa1b95ff61e6dac68b1d1f6f7f57d85fe6594194a1c4727448a29"
+  },
+  "settings": {
+    "threshold": 0.8,
+    "apply": true,
+    "allow_filled_up_sample_binding": true
+  },
+  "output_sha256": "86c5a52368be63e7163d4a466715e8bfe546ab5aee21c8f8a177924c0bdcaf70"
+}

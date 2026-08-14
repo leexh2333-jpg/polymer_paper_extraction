@@ -1,0 +1,100 @@
+{
+  "stage": "stage4r_table_recovery",
+  "implementation_version": "0.2.0",
+  "document_id": "reference_no_0042480",
+  "audit_summary": {
+    "table_count": 2,
+    "tables_with_numeric_cells": 2,
+    "numeric_cell_count": 32,
+    "represented_numeric_cell_count": 20,
+    "representation_ratio": 0.625,
+    "role_counts": {
+      "property_value_candidate": 20,
+      "unknown": 12
+    },
+    "property_value_candidate_count": 20,
+    "covered_property_value_candidate_count": 20,
+    "missing_property_value_candidate_count": 0,
+    "property_value_ratio": 1.0,
+    "gap_table_count": 0,
+    "numeric_zero_coverage_table_count": 0,
+    "property_zero_coverage_table_count": 0
+  },
+  "recovered_count": 0,
+  "skipped_ambiguous_count": 0,
+  "recovered": [],
+  "skipped_ambiguous": [],
+  "sample_resolution_summary": {
+    "missing_cell_locator": 11
+  },
+  "sample_resolution": [
+    {
+      "unresolved_id": "uprop001",
+      "entity_id": "pe001",
+      "status": "missing_cell_locator"
+    },
+    {
+      "unresolved_id": "uprop002",
+      "entity_id": "pe001",
+      "status": "missing_cell_locator"
+    },
+    {
+      "unresolved_id": "uprop003",
+      "entity_id": "pe001",
+      "status": "missing_cell_locator"
+    },
+    {
+      "unresolved_id": "uprop004",
+      "entity_id": "pe001",
+      "status": "missing_cell_locator"
+    },
+    {
+      "unresolved_id": "uprop005",
+      "entity_id": "pe001",
+      "status": "missing_cell_locator"
+    },
+    {
+      "unresolved_id": "uprop006",
+      "entity_id": "pe001",
+      "status": "missing_cell_locator"
+    },
+    {
+      "unresolved_id": "uprop007",
+      "entity_id": "pe001",
+      "status": "missing_cell_locator"
+    },
+    {
+      "unresolved_id": "uprop008",
+      "entity_id": "pe001",
+      "status": "missing_cell_locator"
+    },
+    {
+      "unresolved_id": "uprop009",
+      "entity_id": "pe001",
+      "status": "missing_cell_locator"
+    },
+    {
+      "unresolved_id": "uprop010",
+      "entity_id": "pe001",
+      "status": "missing_cell_locator"
+    },
+    {
+      "unresolved_id": "uprop011",
+      "entity_id": "pe001",
+      "status": "missing_cell_locator"
+    }
+  ],
+  "property_id_migrations": [],
+  "input_hashes": {
+    "stage0_blocks.json": "e3c8d24cd0c0ec5913a9e709e19a6e19f4cb04c065f9fcd509ebfd19cc64d9e5",
+    "stage2_entities.json": "567a2c5ca2859b8dd056cd03159b471d8a3cd91761159b9e8e17b8054fcab505",
+    "stage3_process.json": "7da9a17101bcc553bc26d18873dbdce35a95783ecebf0bdba87e31cc5f9d345e",
+    "stage4_properties.json": "ee86ef0831465c4414a599502844b4fa3a3aaeef3d145728b544d3ed56592bdc"
+  },
+  "settings": {
+    "threshold": 0.8,
+    "apply": true,
+    "allow_filled_up_sample_binding": true
+  },
+  "output_sha256": "f0dd87f53c450a0e5a71fcbdb150877e128dd24257e005d82a322771d853b469"
+}

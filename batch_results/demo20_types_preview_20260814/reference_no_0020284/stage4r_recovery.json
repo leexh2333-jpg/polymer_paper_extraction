@@ -1,0 +1,1096 @@
+{
+  "stage": "stage4r_table_recovery",
+  "implementation_version": "0.2.0",
+  "document_id": "reference_no_0020284",
+  "audit_summary": {
+    "table_count": 8,
+    "tables_with_numeric_cells": 7,
+    "numeric_cell_count": 211,
+    "represented_numeric_cell_count": 29,
+    "representation_ratio": 0.137441,
+    "role_counts": {
+      "coordinate_candidate": 13,
+      "property_value_candidate": 80,
+      "unknown": 118
+    },
+    "property_value_candidate_count": 80,
+    "covered_property_value_candidate_count": 17,
+    "missing_property_value_candidate_count": 63,
+    "property_value_ratio": 0.2125,
+    "gap_table_count": 3,
+    "numeric_zero_coverage_table_count": 3,
+    "property_zero_coverage_table_count": 2
+  },
+  "recovered_count": 30,
+  "skipped_ambiguous_count": 33,
+  "recovered": [
+    {
+      "unresolved_id": "uprop002",
+      "entity_id": "pe001",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "value_raw": "394",
+      "cell_id": "T_6_81:r0001:c0001",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop003",
+      "entity_id": "pe001",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "value_raw": "446",
+      "cell_id": "T_6_81:r0001:c0002",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop004",
+      "entity_id": "pe001",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "value_raw": "473",
+      "cell_id": "T_6_81:r0001:c0003",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop005",
+      "entity_id": "pe001",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "value_raw": "491",
+      "cell_id": "T_6_81:r0001:c0004",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop006",
+      "entity_id": "pe001",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "value_raw": "506",
+      "cell_id": "T_6_81:r0001:c0005",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop007",
+      "entity_id": "pe002",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "value_raw": "369",
+      "cell_id": "T_6_81:r0002:c0001",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop008",
+      "entity_id": "pe002",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "value_raw": "403",
+      "cell_id": "T_6_81:r0002:c0002",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop009",
+      "entity_id": "pe002",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "value_raw": "422",
+      "cell_id": "T_6_81:r0002:c0003",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop010",
+      "entity_id": "pe002",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "value_raw": "431",
+      "cell_id": "T_6_81:r0002:c0004",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop011",
+      "entity_id": "pe002",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "value_raw": "447",
+      "cell_id": "T_6_81:r0002:c0005",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop012",
+      "entity_id": "pe003",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "value_raw": "397",
+      "cell_id": "T_6_81:r0003:c0001",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop013",
+      "entity_id": "pe003",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "value_raw": "462",
+      "cell_id": "T_6_81:r0003:c0002",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop014",
+      "entity_id": "pe003",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "value_raw": "476",
+      "cell_id": "T_6_81:r0003:c0003",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop015",
+      "entity_id": "pe003",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "value_raw": "491",
+      "cell_id": "T_6_81:r0003:c0004",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop016",
+      "entity_id": "pe003",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "value_raw": "520",
+      "cell_id": "T_6_81:r0003:c0005",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop017",
+      "entity_id": "pe004",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "value_raw": "358",
+      "cell_id": "T_6_81:r0004:c0001",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop018",
+      "entity_id": "pe004",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "value_raw": "442",
+      "cell_id": "T_6_81:r0004:c0002",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop019",
+      "entity_id": "pe004",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "value_raw": "480",
+      "cell_id": "T_6_81:r0004:c0003",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop020",
+      "entity_id": "pe004",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "value_raw": "495",
+      "cell_id": "T_6_81:r0004:c0004",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop021",
+      "entity_id": "pe004",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "value_raw": "514",
+      "cell_id": "T_6_81:r0004:c0005",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop022",
+      "entity_id": "pe005",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "value_raw": "341",
+      "cell_id": "T_6_81:r0005:c0001",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop023",
+      "entity_id": "pe005",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "value_raw": "396",
+      "cell_id": "T_6_81:r0005:c0002",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop024",
+      "entity_id": "pe005",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "value_raw": "450",
+      "cell_id": "T_6_81:r0005:c0003",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop025",
+      "entity_id": "pe005",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "value_raw": "468",
+      "cell_id": "T_6_81:r0005:c0004",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop026",
+      "entity_id": "pe005",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "value_raw": "511",
+      "cell_id": "T_6_81:r0005:c0005",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop027",
+      "entity_id": "pe006",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "value_raw": "402",
+      "cell_id": "T_6_81:r0006:c0001",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop028",
+      "entity_id": "pe006",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "value_raw": "477",
+      "cell_id": "T_6_81:r0006:c0002",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop029",
+      "entity_id": "pe006",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "value_raw": "494",
+      "cell_id": "T_6_81:r0006:c0003",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop030",
+      "entity_id": "pe006",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "value_raw": "505",
+      "cell_id": "T_6_81:r0006:c0004",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    },
+    {
+      "unresolved_id": "uprop031",
+      "entity_id": "pe006",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "value_raw": "540",
+      "cell_id": "T_6_81:r0006:c0005",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    }
+  ],
+  "skipped_ambiguous": [
+    {
+      "cell_id": "T_4_61:r0002:c0004",
+      "table_id": "T_4_61",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "0.21",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_4_61:r0003:c0004",
+      "table_id": "T_4_61",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "0.10",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_4_61:r0004:c0004",
+      "table_id": "T_4_61",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "0.13",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_4_61:r0005:c0004",
+      "table_id": "T_4_61",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "0.20",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_4_61:r0006:c0004",
+      "table_id": "T_4_61",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "0.11",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_4_61:r0007:c0004",
+      "table_id": "T_4_61",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "0.12",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_4_61:r0008:c0004",
+      "table_id": "T_4_61",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "0.28",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_4_61:r0009:c0004",
+      "table_id": "T_4_61",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "0.12",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_4_61:r0010:c0004",
+      "table_id": "T_4_61",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "0.32",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_4_61:r0011:c0004",
+      "table_id": "T_4_61",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "0.21",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_4_61:r0012:c0004",
+      "table_id": "T_4_61",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "0.17",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_4_61:r0013:c0004",
+      "table_id": "T_4_61",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "0.11",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_4_61:r0014:c0004",
+      "table_id": "T_4_61",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "0.19",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_8_102:r0002:c0003",
+      "table_id": "T_8_102",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "0.32",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_8_102:r0002:c0006",
+      "table_id": "T_8_102",
+      "property_name_normalized": "thermal_decomposition_temperature",
+      "value_raw": "403",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_8_102:r0003:c0003",
+      "table_id": "T_8_102",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "0.36",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_8_102:r0003:c0005",
+      "table_id": "T_8_102",
+      "property_name_normalized": "glass_transition_temperature",
+      "value_raw": "166.8",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_8_102:r0003:c0006",
+      "table_id": "T_8_102",
+      "property_name_normalized": "thermal_decomposition_temperature",
+      "value_raw": "424",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_8_102:r0004:c0003",
+      "table_id": "T_8_102",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "0.28",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_8_102:r0004:c0005",
+      "table_id": "T_8_102",
+      "property_name_normalized": "glass_transition_temperature",
+      "value_raw": "128.6",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_8_102:r0004:c0006",
+      "table_id": "T_8_102",
+      "property_name_normalized": "thermal_decomposition_temperature",
+      "value_raw": "427",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_8_102:r0005:c0003",
+      "table_id": "T_8_102",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "0.35",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_8_102:r0005:c0005",
+      "table_id": "T_8_102",
+      "property_name_normalized": "glass_transition_temperature",
+      "value_raw": "128.4",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_8_102:r0005:c0006",
+      "table_id": "T_8_102",
+      "property_name_normalized": "thermal_decomposition_temperature",
+      "value_raw": "429",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_8_102:r0006:c0003",
+      "table_id": "T_8_102",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "0.34",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_8_102:r0006:c0005",
+      "table_id": "T_8_102",
+      "property_name_normalized": "glass_transition_temperature",
+      "value_raw": "119.2",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_8_102:r0006:c0006",
+      "table_id": "T_8_102",
+      "property_name_normalized": "thermal_decomposition_temperature",
+      "value_raw": "433",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_8_102:r0007:c0003",
+      "table_id": "T_8_102",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "0.38",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_8_102:r0007:c0005",
+      "table_id": "T_8_102",
+      "property_name_normalized": "glass_transition_temperature",
+      "value_raw": "112.8",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_8_102:r0007:c0006",
+      "table_id": "T_8_102",
+      "property_name_normalized": "thermal_decomposition_temperature",
+      "value_raw": "435",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_8_102:r0008:c0003",
+      "table_id": "T_8_102",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "0.44",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_8_102:r0008:c0005",
+      "table_id": "T_8_102",
+      "property_name_normalized": "glass_transition_temperature",
+      "value_raw": "108.5",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_8_102:r0008:c0006",
+      "table_id": "T_8_102",
+      "property_name_normalized": "thermal_decomposition_temperature",
+      "value_raw": "445",
+      "reason": "entity_ambiguous"
+    }
+  ],
+  "sample_resolution_summary": {
+    "accepted": 30,
+    "missing_cell_locator": 1
+  },
+  "sample_resolution": [
+    {
+      "unresolved_id": "uprop001",
+      "entity_id": "pe007",
+      "status": "missing_cell_locator"
+    },
+    {
+      "unresolved_id": "uprop002",
+      "entity_id": "pe001",
+      "status": "accepted",
+      "sample_id": "s001",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "PC-1",
+      "cell_id": "T_6_81:r0001:c0001"
+    },
+    {
+      "unresolved_id": "uprop003",
+      "entity_id": "pe001",
+      "status": "accepted",
+      "sample_id": "s001",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "PC-1",
+      "cell_id": "T_6_81:r0001:c0002"
+    },
+    {
+      "unresolved_id": "uprop004",
+      "entity_id": "pe001",
+      "status": "accepted",
+      "sample_id": "s001",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "PC-1",
+      "cell_id": "T_6_81:r0001:c0003"
+    },
+    {
+      "unresolved_id": "uprop005",
+      "entity_id": "pe001",
+      "status": "accepted",
+      "sample_id": "s001",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "PC-1",
+      "cell_id": "T_6_81:r0001:c0004"
+    },
+    {
+      "unresolved_id": "uprop006",
+      "entity_id": "pe001",
+      "status": "accepted",
+      "sample_id": "s001",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "PC-1",
+      "cell_id": "T_6_81:r0001:c0005"
+    },
+    {
+      "unresolved_id": "uprop007",
+      "entity_id": "pe002",
+      "status": "accepted",
+      "sample_id": "s002",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "PC-2",
+      "cell_id": "T_6_81:r0002:c0001"
+    },
+    {
+      "unresolved_id": "uprop008",
+      "entity_id": "pe002",
+      "status": "accepted",
+      "sample_id": "s002",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "PC-2",
+      "cell_id": "T_6_81:r0002:c0002"
+    },
+    {
+      "unresolved_id": "uprop009",
+      "entity_id": "pe002",
+      "status": "accepted",
+      "sample_id": "s002",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "PC-2",
+      "cell_id": "T_6_81:r0002:c0003"
+    },
+    {
+      "unresolved_id": "uprop010",
+      "entity_id": "pe002",
+      "status": "accepted",
+      "sample_id": "s002",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "PC-2",
+      "cell_id": "T_6_81:r0002:c0004"
+    },
+    {
+      "unresolved_id": "uprop011",
+      "entity_id": "pe002",
+      "status": "accepted",
+      "sample_id": "s002",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "PC-2",
+      "cell_id": "T_6_81:r0002:c0005"
+    },
+    {
+      "unresolved_id": "uprop012",
+      "entity_id": "pe003",
+      "status": "accepted",
+      "sample_id": "s003",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "PC-3",
+      "cell_id": "T_6_81:r0003:c0001"
+    },
+    {
+      "unresolved_id": "uprop013",
+      "entity_id": "pe003",
+      "status": "accepted",
+      "sample_id": "s003",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "PC-3",
+      "cell_id": "T_6_81:r0003:c0002"
+    },
+    {
+      "unresolved_id": "uprop014",
+      "entity_id": "pe003",
+      "status": "accepted",
+      "sample_id": "s003",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "PC-3",
+      "cell_id": "T_6_81:r0003:c0003"
+    },
+    {
+      "unresolved_id": "uprop015",
+      "entity_id": "pe003",
+      "status": "accepted",
+      "sample_id": "s003",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "PC-3",
+      "cell_id": "T_6_81:r0003:c0004"
+    },
+    {
+      "unresolved_id": "uprop016",
+      "entity_id": "pe003",
+      "status": "accepted",
+      "sample_id": "s003",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "PC-3",
+      "cell_id": "T_6_81:r0003:c0005"
+    },
+    {
+      "unresolved_id": "uprop017",
+      "entity_id": "pe004",
+      "status": "accepted",
+      "sample_id": "s004",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "PC-4",
+      "cell_id": "T_6_81:r0004:c0001"
+    },
+    {
+      "unresolved_id": "uprop018",
+      "entity_id": "pe004",
+      "status": "accepted",
+      "sample_id": "s004",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "PC-4",
+      "cell_id": "T_6_81:r0004:c0002"
+    },
+    {
+      "unresolved_id": "uprop019",
+      "entity_id": "pe004",
+      "status": "accepted",
+      "sample_id": "s004",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "PC-4",
+      "cell_id": "T_6_81:r0004:c0003"
+    },
+    {
+      "unresolved_id": "uprop020",
+      "entity_id": "pe004",
+      "status": "accepted",
+      "sample_id": "s004",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "PC-4",
+      "cell_id": "T_6_81:r0004:c0004"
+    },
+    {
+      "unresolved_id": "uprop021",
+      "entity_id": "pe004",
+      "status": "accepted",
+      "sample_id": "s004",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "PC-4",
+      "cell_id": "T_6_81:r0004:c0005"
+    },
+    {
+      "unresolved_id": "uprop022",
+      "entity_id": "pe005",
+      "status": "accepted",
+      "sample_id": "s005",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "PC-5",
+      "cell_id": "T_6_81:r0005:c0001"
+    },
+    {
+      "unresolved_id": "uprop023",
+      "entity_id": "pe005",
+      "status": "accepted",
+      "sample_id": "s005",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "PC-5",
+      "cell_id": "T_6_81:r0005:c0002"
+    },
+    {
+      "unresolved_id": "uprop024",
+      "entity_id": "pe005",
+      "status": "accepted",
+      "sample_id": "s005",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "PC-5",
+      "cell_id": "T_6_81:r0005:c0003"
+    },
+    {
+      "unresolved_id": "uprop025",
+      "entity_id": "pe005",
+      "status": "accepted",
+      "sample_id": "s005",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "PC-5",
+      "cell_id": "T_6_81:r0005:c0004"
+    },
+    {
+      "unresolved_id": "uprop026",
+      "entity_id": "pe005",
+      "status": "accepted",
+      "sample_id": "s005",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "PC-5",
+      "cell_id": "T_6_81:r0005:c0005"
+    },
+    {
+      "unresolved_id": "uprop027",
+      "entity_id": "pe006",
+      "status": "accepted",
+      "sample_id": "s006",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "PC-6",
+      "cell_id": "T_6_81:r0006:c0001"
+    },
+    {
+      "unresolved_id": "uprop028",
+      "entity_id": "pe006",
+      "status": "accepted",
+      "sample_id": "s006",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "PC-6",
+      "cell_id": "T_6_81:r0006:c0002"
+    },
+    {
+      "unresolved_id": "uprop029",
+      "entity_id": "pe006",
+      "status": "accepted",
+      "sample_id": "s006",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "PC-6",
+      "cell_id": "T_6_81:r0006:c0003"
+    },
+    {
+      "unresolved_id": "uprop030",
+      "entity_id": "pe006",
+      "status": "accepted",
+      "sample_id": "s006",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "PC-6",
+      "cell_id": "T_6_81:r0006:c0004"
+    },
+    {
+      "unresolved_id": "uprop031",
+      "entity_id": "pe006",
+      "status": "accepted",
+      "sample_id": "s006",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "PC-6",
+      "cell_id": "T_6_81:r0006:c0005"
+    }
+  ],
+  "property_id_migrations": [
+    {
+      "unresolved_id": "uprop002",
+      "property_id": "prop001",
+      "measurement_condition_id": "mc009",
+      "sample_id": "s001",
+      "entity_id": "pe001",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "PC-1",
+      "cell_id": "T_6_81:r0001:c0001"
+    },
+    {
+      "unresolved_id": "uprop003",
+      "property_id": "prop002",
+      "measurement_condition_id": "mc010",
+      "sample_id": "s001",
+      "entity_id": "pe001",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "PC-1",
+      "cell_id": "T_6_81:r0001:c0002"
+    },
+    {
+      "unresolved_id": "uprop004",
+      "property_id": "prop003",
+      "measurement_condition_id": "mc011",
+      "sample_id": "s001",
+      "entity_id": "pe001",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "PC-1",
+      "cell_id": "T_6_81:r0001:c0003"
+    },
+    {
+      "unresolved_id": "uprop005",
+      "property_id": "prop004",
+      "measurement_condition_id": "mc012",
+      "sample_id": "s001",
+      "entity_id": "pe001",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "PC-1",
+      "cell_id": "T_6_81:r0001:c0004"
+    },
+    {
+      "unresolved_id": "uprop006",
+      "property_id": "prop005",
+      "measurement_condition_id": "mc013",
+      "sample_id": "s001",
+      "entity_id": "pe001",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "PC-1",
+      "cell_id": "T_6_81:r0001:c0005"
+    },
+    {
+      "unresolved_id": "uprop007",
+      "property_id": "prop006",
+      "measurement_condition_id": "mc014",
+      "sample_id": "s002",
+      "entity_id": "pe002",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "PC-2",
+      "cell_id": "T_6_81:r0002:c0001"
+    },
+    {
+      "unresolved_id": "uprop008",
+      "property_id": "prop007",
+      "measurement_condition_id": "mc015",
+      "sample_id": "s002",
+      "entity_id": "pe002",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "PC-2",
+      "cell_id": "T_6_81:r0002:c0002"
+    },
+    {
+      "unresolved_id": "uprop009",
+      "property_id": "prop008",
+      "measurement_condition_id": "mc016",
+      "sample_id": "s002",
+      "entity_id": "pe002",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "PC-2",
+      "cell_id": "T_6_81:r0002:c0003"
+    },
+    {
+      "unresolved_id": "uprop010",
+      "property_id": "prop009",
+      "measurement_condition_id": "mc017",
+      "sample_id": "s002",
+      "entity_id": "pe002",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "PC-2",
+      "cell_id": "T_6_81:r0002:c0004"
+    },
+    {
+      "unresolved_id": "uprop011",
+      "property_id": "prop010",
+      "measurement_condition_id": "mc018",
+      "sample_id": "s002",
+      "entity_id": "pe002",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "PC-2",
+      "cell_id": "T_6_81:r0002:c0005"
+    },
+    {
+      "unresolved_id": "uprop012",
+      "property_id": "prop011",
+      "measurement_condition_id": "mc019",
+      "sample_id": "s003",
+      "entity_id": "pe003",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "PC-3",
+      "cell_id": "T_6_81:r0003:c0001"
+    },
+    {
+      "unresolved_id": "uprop013",
+      "property_id": "prop012",
+      "measurement_condition_id": "mc020",
+      "sample_id": "s003",
+      "entity_id": "pe003",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "PC-3",
+      "cell_id": "T_6_81:r0003:c0002"
+    },
+    {
+      "unresolved_id": "uprop014",
+      "property_id": "prop013",
+      "measurement_condition_id": "mc021",
+      "sample_id": "s003",
+      "entity_id": "pe003",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "PC-3",
+      "cell_id": "T_6_81:r0003:c0003"
+    },
+    {
+      "unresolved_id": "uprop015",
+      "property_id": "prop014",
+      "measurement_condition_id": "mc022",
+      "sample_id": "s003",
+      "entity_id": "pe003",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "PC-3",
+      "cell_id": "T_6_81:r0003:c0004"
+    },
+    {
+      "unresolved_id": "uprop016",
+      "property_id": "prop015",
+      "measurement_condition_id": "mc023",
+      "sample_id": "s003",
+      "entity_id": "pe003",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "PC-3",
+      "cell_id": "T_6_81:r0003:c0005"
+    },
+    {
+      "unresolved_id": "uprop017",
+      "property_id": "prop016",
+      "measurement_condition_id": "mc024",
+      "sample_id": "s004",
+      "entity_id": "pe004",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "PC-4",
+      "cell_id": "T_6_81:r0004:c0001"
+    },
+    {
+      "unresolved_id": "uprop018",
+      "property_id": "prop017",
+      "measurement_condition_id": "mc025",
+      "sample_id": "s004",
+      "entity_id": "pe004",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "PC-4",
+      "cell_id": "T_6_81:r0004:c0002"
+    },
+    {
+      "unresolved_id": "uprop019",
+      "property_id": "prop018",
+      "measurement_condition_id": "mc026",
+      "sample_id": "s004",
+      "entity_id": "pe004",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "PC-4",
+      "cell_id": "T_6_81:r0004:c0003"
+    },
+    {
+      "unresolved_id": "uprop020",
+      "property_id": "prop019",
+      "measurement_condition_id": "mc027",
+      "sample_id": "s004",
+      "entity_id": "pe004",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "PC-4",
+      "cell_id": "T_6_81:r0004:c0004"
+    },
+    {
+      "unresolved_id": "uprop021",
+      "property_id": "prop020",
+      "measurement_condition_id": "mc028",
+      "sample_id": "s004",
+      "entity_id": "pe004",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "PC-4",
+      "cell_id": "T_6_81:r0004:c0005"
+    },
+    {
+      "unresolved_id": "uprop022",
+      "property_id": "prop021",
+      "measurement_condition_id": "mc029",
+      "sample_id": "s005",
+      "entity_id": "pe005",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "PC-5",
+      "cell_id": "T_6_81:r0005:c0001"
+    },
+    {
+      "unresolved_id": "uprop023",
+      "property_id": "prop022",
+      "measurement_condition_id": "mc030",
+      "sample_id": "s005",
+      "entity_id": "pe005",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "PC-5",
+      "cell_id": "T_6_81:r0005:c0002"
+    },
+    {
+      "unresolved_id": "uprop024",
+      "property_id": "prop023",
+      "measurement_condition_id": "mc031",
+      "sample_id": "s005",
+      "entity_id": "pe005",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "PC-5",
+      "cell_id": "T_6_81:r0005:c0003"
+    },
+    {
+      "unresolved_id": "uprop025",
+      "property_id": "prop024",
+      "measurement_condition_id": "mc032",
+      "sample_id": "s005",
+      "entity_id": "pe005",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "PC-5",
+      "cell_id": "T_6_81:r0005:c0004"
+    },
+    {
+      "unresolved_id": "uprop026",
+      "property_id": "prop025",
+      "measurement_condition_id": "mc033",
+      "sample_id": "s005",
+      "entity_id": "pe005",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "PC-5",
+      "cell_id": "T_6_81:r0005:c0005"
+    },
+    {
+      "unresolved_id": "uprop027",
+      "property_id": "prop026",
+      "measurement_condition_id": "mc034",
+      "sample_id": "s006",
+      "entity_id": "pe006",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "PC-6",
+      "cell_id": "T_6_81:r0006:c0001"
+    },
+    {
+      "unresolved_id": "uprop028",
+      "property_id": "prop027",
+      "measurement_condition_id": "mc035",
+      "sample_id": "s006",
+      "entity_id": "pe006",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "PC-6",
+      "cell_id": "T_6_81:r0006:c0002"
+    },
+    {
+      "unresolved_id": "uprop029",
+      "property_id": "prop028",
+      "measurement_condition_id": "mc036",
+      "sample_id": "s006",
+      "entity_id": "pe006",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "PC-6",
+      "cell_id": "T_6_81:r0006:c0003"
+    },
+    {
+      "unresolved_id": "uprop030",
+      "property_id": "prop029",
+      "measurement_condition_id": "mc037",
+      "sample_id": "s006",
+      "entity_id": "pe006",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "PC-6",
+      "cell_id": "T_6_81:r0006:c0004"
+    },
+    {
+      "unresolved_id": "uprop031",
+      "property_id": "prop030",
+      "measurement_condition_id": "mc038",
+      "sample_id": "s006",
+      "entity_id": "pe006",
+      "resolution_basis": "table_locator_row_label",
+      "matched_label": "PC-6",
+      "cell_id": "T_6_81:r0006:c0005"
+    }
+  ],
+  "input_hashes": {
+    "stage0_blocks.json": "583b29b0d079d8e140ee093e623f4fe86fdadae2d6ba7dbbe8fbeaf423c0ef85",
+    "stage2_entities.json": "02fe718b3b2cb2c2310b620d8ddecf7caf27e97e0549c708b3cddcde4de9368d",
+    "stage3_process.json": "8d2f665b5843691109767c6935c4548006e0c41b9d4e064d1680bc64b833141f",
+    "stage4_properties.json": "0c55011ee9d061aec56c2021e4e282ec5b8091c94a5c3c039ce16cb6fa9dde5f"
+  },
+  "settings": {
+    "threshold": 0.8,
+    "apply": true,
+    "allow_filled_up_sample_binding": true
+  },
+  "output_sha256": "c5f524f37dc96065712220885b10e4a0f0b275a523fa77b0248cbe61453e6db4"
+}

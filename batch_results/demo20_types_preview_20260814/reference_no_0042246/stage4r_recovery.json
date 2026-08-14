@@ -1,0 +1,67 @@
+{
+  "stage": "stage4r_table_recovery",
+  "implementation_version": "0.2.0",
+  "document_id": "reference_no_0042246",
+  "audit_summary": {
+    "table_count": 1,
+    "tables_with_numeric_cells": 1,
+    "numeric_cell_count": 33,
+    "represented_numeric_cell_count": 30,
+    "representation_ratio": 0.909091,
+    "role_counts": {
+      "coordinate_candidate": 1,
+      "property_value_candidate": 32
+    },
+    "property_value_candidate_count": 32,
+    "covered_property_value_candidate_count": 30,
+    "missing_property_value_candidate_count": 2,
+    "property_value_ratio": 0.9375,
+    "gap_table_count": 0,
+    "numeric_zero_coverage_table_count": 0,
+    "property_zero_coverage_table_count": 0
+  },
+  "recovered_count": 1,
+  "skipped_ambiguous_count": 1,
+  "recovered": [
+    {
+      "unresolved_id": "uprop001",
+      "entity_id": "pe021",
+      "property_name_raw": "glass_transition_temperature",
+      "value_raw": "-70",
+      "cell_id": "T_3_62:r0006:c0002",
+      "entity_resolution_basis": "row_label_exact_entity_alias"
+    }
+  ],
+  "skipped_ambiguous": [
+    {
+      "cell_id": "T_3_62:r0007:c0002",
+      "table_id": "T_3_62",
+      "property_name_normalized": "glass_transition_temperature",
+      "value_raw": "-70",
+      "reason": "entity_ambiguous"
+    }
+  ],
+  "sample_resolution_summary": {
+    "label_not_found": 1
+  },
+  "sample_resolution": [
+    {
+      "unresolved_id": "uprop001",
+      "entity_id": "pe021",
+      "status": "label_not_found"
+    }
+  ],
+  "property_id_migrations": [],
+  "input_hashes": {
+    "stage0_blocks.json": "b4aab1eb982ef11ee46482e78e3cc7062f89fe3d20b8117716bb99e09a174bd6",
+    "stage2_entities.json": "474e92bd19d3157b6bf72c0a131011e8a0756d2c73b267807df164f0896495d3",
+    "stage3_process.json": "8a0bf9a3f99e7a2d50b4183282c7ff36695521aace972a0198db45701f1b160f",
+    "stage4_properties.json": "07cb98990bb4cbcf740decb4db2f2ee8e209340fe445d32627054bfbaef03897"
+  },
+  "settings": {
+    "threshold": 0.8,
+    "apply": true,
+    "allow_filled_up_sample_binding": true
+  },
+  "output_sha256": "f232a32a1a4983795e7bf7bea63543ddaaf3cf90bd8737ac7efae71fac37b199"
+}

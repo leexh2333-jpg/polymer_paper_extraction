@@ -1,0 +1,843 @@
+{
+  "schema_version": "1.0",
+  "document_id": "reference_no_0043590",
+  "samples": [
+    {
+      "sample_id": "s001",
+      "sample_kind": "commercial_batch",
+      "refers_to_entity": "pe001",
+      "polymer_name": "Cyclic olefin copolymer",
+      "polymer_type": "copolymer",
+      "material_type": "neat_resin",
+      "sample_label_raw": "Topas 6013S-04",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "P_0_15",
+        "page": 0,
+        "bbox": [
+          507.0,
+          904.0,
+          898.0,
+          951.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Cyclic olefin copolymer (COC), an amorphous copolymer of ethylene and norbornene, (Topas 6013S-04 supplied by Ticona, MFR 14 g/10 min at 260-C,"
+      },
+      "confidence": {
+        "score": 0.9
+      },
+      "copolymer_type": null
+    },
+    {
+      "sample_id": "s002",
+      "sample_kind": "commercial_batch",
+      "refers_to_entity": "pe002",
+      "polymer_name": "polycarbonate",
+      "polymer_type": "homopolymer",
+      "material_type": "compound",
+      "sample_label_raw": "IM 2240",
+      "state_description": "masterbatch exothermic chemical blowing agent containing 20 wt % 5-phenyl tetrazol in polycarbonate",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "P_1_20",
+        "page": 1,
+        "bbox": [
+          96.0,
+          300.0,
+          488.0,
+          480.0
+        ],
+        "source_type": "text",
+        "source_sentence": "A masterbatch exothermic chemical blowing agent (CBA, IM 2240) containing 20 wt % 5-phenyl tetrazol in polycarbonate was supplied by Dempsey Corporation."
+      },
+      "confidence": {
+        "score": 0.9
+      },
+      "copolymer_type": null
+    },
+    {
+      "sample_id": "s003",
+      "sample_kind": "intermediate",
+      "polymer_name": "8 vol % CB in COC masterbatch",
+      "material_type": "composite",
+      "state_description": "8 vol % CB in COC masterbatch",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "P_1_22",
+        "page": 1,
+        "bbox": [
+          96.0,
+          534.0,
+          488.0,
+          802.0
+        ],
+        "source_type": "text",
+        "source_sentence": "prepared masterbatches of 8 vol % CB in COC from a twin-screw extruder (Leistritz ZSE 27) and 40 vol % carbon fibers in COC using a single screw extruder (50 mm Davis-Standard)."
+      },
+      "confidence": {
+        "score": 0.9
+      },
+      "polymer_type": null,
+      "copolymer_type": null
+    },
+    {
+      "sample_id": "s004",
+      "sample_kind": "intermediate",
+      "polymer_name": "40 vol % carbon fibers in COC masterbatch",
+      "material_type": "composite",
+      "state_description": "40 vol % carbon fibers in COC masterbatch",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "P_1_22",
+        "page": 1,
+        "bbox": [
+          96.0,
+          534.0,
+          488.0,
+          802.0
+        ],
+        "source_type": "text",
+        "source_sentence": "prepared masterbatches of 8 vol % CB in COC from a twin-screw extruder (Leistritz ZSE 27) and 40 vol % carbon fibers in COC using a single screw extruder (50 mm Davis-Standard)."
+      },
+      "confidence": {
+        "score": 0.9
+      },
+      "polymer_type": null,
+      "copolymer_type": null
+    },
+    {
+      "sample_id": "s005",
+      "sample_kind": "processed_material",
+      "refers_to_entity": "pe004",
+      "polymer_name": "COC/cCF10",
+      "polymer_type": "polymer_blend",
+      "material_type": "composite",
+      "sample_label_raw": "COC/cCF10",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "P_1_23",
+        "page": 1,
+        "bbox": [
+          96.0,
+          801.0,
+          488.0,
+          951.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Single filler composites were prepared containing either 10 vol % cCF (COC/cCF10), or 3 vol % CB (COC/CB3)."
+      },
+      "confidence": {
+        "score": 0.9
+      },
+      "copolymer_type": null
+    },
+    {
+      "sample_id": "s006",
+      "sample_kind": "processed_material",
+      "refers_to_entity": "pe003",
+      "polymer_name": "CB-COC composite",
+      "polymer_type": "polymer_blend",
+      "material_type": "composite",
+      "sample_label_raw": "COC/CB3",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "P_1_23",
+        "page": 1,
+        "bbox": [
+          96.0,
+          801.0,
+          488.0,
+          951.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Single filler composites were prepared containing either 10 vol % cCF (COC/cCF10), or 3 vol % CB (COC/CB3)."
+      },
+      "confidence": {
+        "score": 0.9
+      },
+      "copolymer_type": null
+    },
+    {
+      "sample_id": "s007",
+      "sample_kind": "processed_material",
+      "refers_to_entity": "pe005",
+      "polymer_name": "COC/cCF10-CB1",
+      "polymer_type": "polymer_blend",
+      "material_type": "composite",
+      "sample_label_raw": "COC/cCF10-CB1",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "P_1_23",
+        "page": 1,
+        "bbox": [
+          96.0,
+          801.0,
+          488.0,
+          951.0
+        ],
+        "source_type": "text",
+        "source_sentence": "For example, COC/cCF10-CB1 corresponds to the material with 10 vol % cCF and 1 vol % CB mixed into COC."
+      },
+      "confidence": {
+        "score": 0.9
+      },
+      "copolymer_type": null
+    },
+    {
+      "sample_id": "s008",
+      "sample_kind": "processed_material",
+      "refers_to_entity": "pe006",
+      "polymer_name": "COC/cCF10-CB3",
+      "polymer_type": "polymer_blend",
+      "material_type": "composite",
+      "sample_label_raw": "COC/cCF10-CB3",
+      "intended_use": [],
+      "evidence": {
+        "block_id": "P_5_74",
+        "page": 5,
+        "bbox": [
+          506.0,
+          477.0,
+          900.0,
+          687.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Despite its comparatively high viscosity, the fiber length of the nonfoamed COC/cCF10-CB3 was comparable with COC/cCF10, as reported in Table III."
+      },
+      "confidence": {
+        "score": 0.9
+      },
+      "copolymer_type": null
+    },
+    {
+      "sample_id": "s009",
+      "sample_kind": "test_specimen",
+      "refers_to_entity": "pe004",
+      "polymer_name": "COC/cCF10",
+      "polymer_type": "polymer_blend",
+      "material_type": "composite",
+      "state_description": "COC/cCF10 molded sample",
+      "intended_use": [
+        "electrical conductivity measurement"
+      ],
+      "evidence": {
+        "block_id": "P_1_26",
+        "page": 1,
+        "bbox": [
+          506.0,
+          330.0,
+          900.0,
+          496.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Molded samples from the prepared materials were produced using an Arburg 55 ton injection molding machine with a rectangular center-gated mold."
+      },
+      "confidence": {
+        "score": 0.9
+      },
+      "copolymer_type": null
+    },
+    {
+      "sample_id": "s010",
+      "sample_kind": "test_specimen",
+      "refers_to_entity": "pe003",
+      "polymer_name": "CB-COC composite",
+      "polymer_type": "polymer_blend",
+      "material_type": "composite",
+      "state_description": "COC/CB3 molded sample",
+      "intended_use": [
+        "electrical conductivity measurement"
+      ],
+      "evidence": {
+        "block_id": "P_1_26",
+        "page": 1,
+        "bbox": [
+          506.0,
+          330.0,
+          900.0,
+          496.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Molded samples from the prepared materials were produced using an Arburg 55 ton injection molding machine with a rectangular center-gated mold."
+      },
+      "confidence": {
+        "score": 0.9
+      },
+      "copolymer_type": null
+    },
+    {
+      "sample_id": "s011",
+      "sample_kind": "test_specimen",
+      "refers_to_entity": "pe005",
+      "polymer_name": "COC/cCF10-CB1",
+      "polymer_type": "polymer_blend",
+      "material_type": "composite",
+      "state_description": "COC/cCF10-CB1 molded sample",
+      "intended_use": [
+        "electrical conductivity measurement"
+      ],
+      "evidence": {
+        "block_id": "P_1_26",
+        "page": 1,
+        "bbox": [
+          506.0,
+          330.0,
+          900.0,
+          496.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Molded samples from the prepared materials were produced using an Arburg 55 ton injection molding machine with a rectangular center-gated mold."
+      },
+      "confidence": {
+        "score": 0.9
+      },
+      "copolymer_type": null
+    },
+    {
+      "sample_id": "s012",
+      "sample_kind": "test_specimen",
+      "refers_to_entity": "pe006",
+      "polymer_name": "COC/cCF10-CB3",
+      "polymer_type": "polymer_blend",
+      "material_type": "composite",
+      "state_description": "COC/cCF10-CB3 molded sample",
+      "intended_use": [
+        "electrical conductivity measurement"
+      ],
+      "evidence": {
+        "block_id": "P_1_26",
+        "page": 1,
+        "bbox": [
+          506.0,
+          330.0,
+          900.0,
+          496.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Molded samples from the prepared materials were produced using an Arburg 55 ton injection molding machine with a rectangular center-gated mold."
+      },
+      "confidence": {
+        "score": 0.9
+      },
+      "copolymer_type": null
+    }
+  ],
+  "process_steps": [
+    {
+      "step_id": "ps001",
+      "process_type": "compounding",
+      "input_sample_ids": [
+        "s001"
+      ],
+      "output_sample_ids": [
+        "s003"
+      ],
+      "parameters": {
+        "filler": "CB",
+        "filler content": "8 vol %",
+        "extruder": "twin-screw extruder (Leistritz ZSE 27)",
+        "temperature": "260-C",
+        "RPM": "100"
+      },
+      "evidence": {
+        "block_id": "P_1_22",
+        "page": 1,
+        "bbox": [
+          96.0,
+          534.0,
+          488.0,
+          802.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The twin-screw extruder operated at a nominal temperature of 260-C and 100 RPM with CB introduced into the melt by a side feeder half way down the length of the machine to minimize agglomeration."
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "step_id": "ps002",
+      "process_type": "compounding",
+      "input_sample_ids": [
+        "s001"
+      ],
+      "output_sample_ids": [
+        "s004"
+      ],
+      "parameters": {
+        "filler": "carbon fibers",
+        "filler content": "40 vol %",
+        "extruder": "single screw extruder (50 mm Davis-Standard)",
+        "temperature": "260-C",
+        "RPM": "20"
+      },
+      "evidence": {
+        "block_id": "P_1_22",
+        "page": 1,
+        "bbox": [
+          96.0,
+          534.0,
+          488.0,
+          802.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The single screw extruder operated at a nominal temperature of 260-C fitted with a deep channel, zero compression screw rotating at 20 RPM."
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "step_id": "ps003",
+      "process_type": "blending",
+      "input_sample_ids": [
+        "s001",
+        "s004",
+        "s002"
+      ],
+      "output_sample_ids": [
+        "s005"
+      ],
+      "parameters": {
+        "cCF content": "10 vol %",
+        "foaming agent content": "5 wt %"
+      },
+      "evidence": {
+        "block_id": "P_1_22",
+        "page": 1,
+        "bbox": [
+          96.0,
+          534.0,
+          488.0,
+          802.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The stated formulations below were then produced by dry blending these masterbatch materials with COC in the injection molding machine, along with 5 wt % of the foaming agent."
+      },
+      "confidence": {
+        "score": 0.8
+      }
+    },
+    {
+      "step_id": "ps004",
+      "process_type": "blending",
+      "input_sample_ids": [
+        "s001",
+        "s003",
+        "s002"
+      ],
+      "output_sample_ids": [
+        "s006"
+      ],
+      "parameters": {
+        "CB content": "3 vol %",
+        "foaming agent content": "5 wt %"
+      },
+      "evidence": {
+        "block_id": "P_1_22",
+        "page": 1,
+        "bbox": [
+          96.0,
+          534.0,
+          488.0,
+          802.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The stated formulations below were then produced by dry blending these masterbatch materials with COC in the injection molding machine, along with 5 wt % of the foaming agent."
+      },
+      "confidence": {
+        "score": 0.8
+      }
+    },
+    {
+      "step_id": "ps005",
+      "process_type": "blending",
+      "input_sample_ids": [
+        "s001",
+        "s003",
+        "s004",
+        "s002"
+      ],
+      "output_sample_ids": [
+        "s007"
+      ],
+      "parameters": {
+        "cCF content": "10 vol %",
+        "CB content": "1 vol %",
+        "foaming agent content": "5 wt %"
+      },
+      "evidence": {
+        "block_id": "P_1_22",
+        "page": 1,
+        "bbox": [
+          96.0,
+          534.0,
+          488.0,
+          802.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The stated formulations below were then produced by dry blending these masterbatch materials with COC in the injection molding machine, along with 5 wt % of the foaming agent."
+      },
+      "confidence": {
+        "score": 0.8
+      }
+    },
+    {
+      "step_id": "ps006",
+      "process_type": "blending",
+      "input_sample_ids": [
+        "s001",
+        "s003",
+        "s004",
+        "s002"
+      ],
+      "output_sample_ids": [
+        "s008"
+      ],
+      "parameters": {
+        "cCF content": "10 vol %",
+        "CB content": "3 vol %",
+        "foaming agent content": "5 wt %"
+      },
+      "evidence": {
+        "block_id": "P_1_22",
+        "page": 1,
+        "bbox": [
+          96.0,
+          534.0,
+          488.0,
+          802.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The stated formulations below were then produced by dry blending these masterbatch materials with COC in the injection molding machine, along with 5 wt % of the foaming agent."
+      },
+      "confidence": {
+        "score": 0.8
+      }
+    },
+    {
+      "step_id": "ps007",
+      "process_type": "molding",
+      "input_sample_ids": [
+        "s005",
+        "s006",
+        "s007",
+        "s008"
+      ],
+      "output_sample_ids": [
+        "s009",
+        "s010",
+        "s011",
+        "s012"
+      ],
+      "parameters": {
+        "injection molding machine": "Arburg 55 ton",
+        "shot size": "85% mold fill",
+        "temperature profile": "30, 210, 210, 250, 290, and 300-C"
+      },
+      "evidence": {
+        "block_id": "P_1_26",
+        "page": 1,
+        "bbox": [
+          506.0,
+          330.0,
+          900.0,
+          496.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Molded samples from the prepared materials were produced using an Arburg 55 ton injection molding machine with a rectangular center-gated mold. The shot size was controlled to 85% mold fill to allow for foam growth. The temperature profile of the plasticating unit and nozzle were set at 30, 210, 210, 250, 290, and 300-C, respectively, from the hopper to the nozzle so to prevent premature decomposition of CBA."
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    }
+  ],
+  "unresolved_entity_ids": [
+    "pe007"
+  ],
+  "provenance": {
+    "stage": "stage3_sample_process",
+    "provider": "dmx",
+    "model": "doubao-seed-2.0-pro",
+    "models": [
+      "doubao-seed-2.0-pro"
+    ],
+    "prompt_id": "polymer.stage3.sample_process",
+    "prompt_version": "1.4.0",
+    "prompt_sha256": "2fef2373a2f2e3883de6d7c0a91e886a87ba84f3ba7a74a86296c60d902f6cac",
+    "input_hash": "fc0606b60cbddc2c45ff8d14d45426539337edd5f37f87ea997f81f97aecdcc2",
+    "model_config_hash": "7a389959b1eae8cb35e4c5e5702559631666e759a9891cf98687a5b37dd5d1ad",
+    "cache_key": "bcdab902b2b35f79c166dd6124ffc5a2a6969b7fafd30d391c71890e195debc4",
+    "output_schema_version": "sample_process_schema.v4",
+    "implementation_version": "1.5.0",
+    "context_block_count": 19,
+    "context_chars": 13579,
+    "call_count": 1,
+    "usage": {
+      "input_tokens": 8908,
+      "output_tokens": 8206,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "billable_input_tokens": 8908,
+      "total_tokens": 17114
+    },
+    "cost": {
+      "status": "calculated",
+      "currency": "CNY",
+      "input_per_million": "4.32",
+      "output_per_million": "29.15",
+      "input_cost": "0.03848256",
+      "output_cost": "0.2392049",
+      "total_cost": "0.27768746"
+    },
+    "status": "success"
+  },
+  "warnings": [
+    {
+      "stage": "stage3_sample_process",
+      "code": "preview_semantic_validation_bypassed",
+      "message": "Preview 已保留 Schema/Process 图合法候选，并跳过原文/evidence 语义对应校验；Strict 模式仍会报错",
+      "reason": "s009.intended_use 不是 evidence 原文子串：'electrical conductivity measurement'"
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "unresolved_entities",
+      "message": "1 个 entity 未解析到实际样品",
+      "entity_ids": [
+        "pe007"
+      ]
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "samples_without_entity",
+      "message": "部分样品无法可靠关联 PolymerEntity",
+      "sample_ids": [
+        "s003",
+        "s004"
+      ]
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "sample_polymer_type_backfilled_from_entity",
+      "message": "Backfill：Sample 已采用关联 PolymerEntity 的类型",
+      "items": [
+        {
+          "sample_id": "s002",
+          "entity_id": "pe002",
+          "fields": [
+            "polymer_type",
+            "copolymer_type"
+          ],
+          "polymer_type": "homopolymer",
+          "copolymer_type": null
+        }
+      ],
+      "backfill": true
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "sample_polymer_type_process_inferred",
+      "message": "Backfill：已按配方输入或成分保持工艺补全 polymer_type",
+      "items": [
+        {
+          "sample_id": "s005",
+          "field": "polymer_type",
+          "value": "polymer_blend",
+          "step_id": "ps003",
+          "process_type": "blending",
+          "input_entity_ids": [
+            "pe001",
+            "pe002"
+          ],
+          "reason": "配方步骤包含至少两个不同的聚合物实体输入"
+        },
+        {
+          "sample_id": "s006",
+          "field": "polymer_type",
+          "value": "polymer_blend",
+          "step_id": "ps004",
+          "process_type": "blending",
+          "input_entity_ids": [
+            "pe001",
+            "pe002"
+          ],
+          "reason": "配方步骤包含至少两个不同的聚合物实体输入"
+        },
+        {
+          "sample_id": "s007",
+          "field": "polymer_type",
+          "value": "polymer_blend",
+          "step_id": "ps005",
+          "process_type": "blending",
+          "input_entity_ids": [
+            "pe001",
+            "pe002"
+          ],
+          "reason": "配方步骤包含至少两个不同的聚合物实体输入"
+        },
+        {
+          "sample_id": "s008",
+          "field": "polymer_type",
+          "value": "polymer_blend",
+          "step_id": "ps006",
+          "process_type": "blending",
+          "input_entity_ids": [
+            "pe001",
+            "pe002"
+          ],
+          "reason": "配方步骤包含至少两个不同的聚合物实体输入"
+        },
+        {
+          "sample_id": "s009",
+          "field": "polymer_type",
+          "value": "polymer_blend",
+          "step_id": "ps007",
+          "process_type": "molding",
+          "input_sample_ids": [
+            "s005",
+            "s006",
+            "s007",
+            "s008"
+          ],
+          "reason": "成分保持工艺的全部输入具有一致 polymer_type"
+        },
+        {
+          "sample_id": "s010",
+          "field": "polymer_type",
+          "value": "polymer_blend",
+          "step_id": "ps007",
+          "process_type": "molding",
+          "input_sample_ids": [
+            "s005",
+            "s006",
+            "s007",
+            "s008"
+          ],
+          "reason": "成分保持工艺的全部输入具有一致 polymer_type"
+        },
+        {
+          "sample_id": "s011",
+          "field": "polymer_type",
+          "value": "polymer_blend",
+          "step_id": "ps007",
+          "process_type": "molding",
+          "input_sample_ids": [
+            "s005",
+            "s006",
+            "s007",
+            "s008"
+          ],
+          "reason": "成分保持工艺的全部输入具有一致 polymer_type"
+        },
+        {
+          "sample_id": "s012",
+          "field": "polymer_type",
+          "value": "polymer_blend",
+          "step_id": "ps007",
+          "process_type": "molding",
+          "input_sample_ids": [
+            "s005",
+            "s006",
+            "s007",
+            "s008"
+          ],
+          "reason": "成分保持工艺的全部输入具有一致 polymer_type"
+        }
+      ],
+      "backfill": true
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "material_type_evidence_inferred",
+      "message": "Backfill：已按明确配方或增强组分证据补全 material_type",
+      "items": [
+        {
+          "sample_id": "s002",
+          "field": "material_type",
+          "value": "compound",
+          "reason": "样品证据明确包含掺杂剂、电解质盐、增塑剂或其他配方组分"
+        },
+        {
+          "sample_id": "s003",
+          "field": "material_type",
+          "value": "composite",
+          "reason": "样品证据明确包含复合材料、增强体或填料"
+        },
+        {
+          "sample_id": "s004",
+          "field": "material_type",
+          "value": "composite",
+          "reason": "样品证据明确包含复合材料、增强体或填料"
+        },
+        {
+          "sample_id": "s010",
+          "field": "material_type",
+          "value": "composite",
+          "reason": "样品证据明确包含复合材料、增强体或填料"
+        }
+      ],
+      "backfill": true
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "material_type_process_inherited",
+      "message": "Backfill：成分保持工艺输出已继承一致输入 material_type",
+      "items": [
+        {
+          "sample_id": "s009",
+          "field": "material_type",
+          "value": "composite",
+          "step_id": "ps007",
+          "process_type": "molding",
+          "input_sample_ids": [
+            "s005",
+            "s006",
+            "s007",
+            "s008"
+          ]
+        },
+        {
+          "sample_id": "s011",
+          "field": "material_type",
+          "value": "composite",
+          "step_id": "ps007",
+          "process_type": "molding",
+          "input_sample_ids": [
+            "s005",
+            "s006",
+            "s007",
+            "s008"
+          ]
+        },
+        {
+          "sample_id": "s012",
+          "field": "material_type",
+          "value": "composite",
+          "step_id": "ps007",
+          "process_type": "molding",
+          "input_sample_ids": [
+            "s005",
+            "s006",
+            "s007",
+            "s008"
+          ]
+        }
+      ],
+      "backfill": true
+    },
+    {
+      "stage": "stage3_sample_process",
+      "code": "material_type_default_inferred",
+      "message": "Backfill：无第二组分反证的样品已推断为 neat_resin",
+      "items": [
+        {
+          "sample_id": "s001",
+          "field": "material_type",
+          "value": "neat_resin",
+          "reason": "已建立单一聚合物样品，且没有第二配方组分反证"
+        }
+      ],
+      "backfill": true
+    }
+  ]
+}

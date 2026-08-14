@@ -1,0 +1,714 @@
+{
+  "schema_version": "1.0",
+  "document_id": "reference_no_0037645",
+  "polymer_entities": [
+    {
+      "entity_id": "pe001",
+      "polymer_name": "poly-(4-trimethylsilyl styrene)",
+      "polymer_type": "homopolymer",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "poly-(4-trimethylsilyl styrene)",
+        "PSSiMe<sub>3</sub>",
+        "PSSiMe $_{3}$"
+      ],
+      "resolved_from_mentions": [
+        "m001",
+        "m002",
+        "m011",
+        "m022"
+      ],
+      "evidence": {
+        "block_id": "P_1_19",
+        "page": 1,
+        "bbox": [
+          81.0,
+          594.0,
+          483.0,
+          959.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The silyl-functionalized polymer poly-(4-trimethylsilyl styrene) (PSSiMe<sub>3</sub>) with $M _ { \\mathrm { w } } = 5 9 ~ 5 4 0$and PDI $= 1 . 1 2$was prepared by atom transfer radical polymerization (ATRP)<sup>20</sup> and quantitatively converted to poly(4-dibromoboryl styrene), PSBBr<sub>2</sub>, with a slight excess of BBr<sub>3</sub> as previously described.<sup>21</sup>"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.99
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe002",
+      "polymer_name": "poly(4-dibromoboryl styrene)",
+      "polymer_type": "homopolymer",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "poly(4-dibromoboryl styrene)",
+        "PSBBr<sub>2</sub>"
+      ],
+      "resolved_from_mentions": [
+        "m003",
+        "m004"
+      ],
+      "evidence": {
+        "block_id": "P_1_19",
+        "page": 1,
+        "bbox": [
+          81.0,
+          594.0,
+          483.0,
+          959.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The silyl-functionalized polymer poly-(4-trimethylsilyl styrene) (PSSiMe<sub>3</sub>) with $M _ { \\mathrm { w } } = 5 9 ~ 5 4 0$and PDI $= 1 . 1 2$was prepared by atom transfer radical polymerization (ATRP)<sup>20</sup> and quantitatively converted to poly(4-dibromoboryl styrene), PSBBr<sub>2</sub>, with a slight excess of BBr<sub>3</sub> as previously described.<sup>21</sup>"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.99
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe003",
+      "polymer_name": "PSBPhBr",
+      "polymer_type": "homopolymer",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "PSBPhBr",
+        "PSB-PhBr"
+      ],
+      "resolved_from_mentions": [
+        "m005",
+        "m006",
+        "m008",
+        "m040"
+      ],
+      "evidence": {
+        "block_id": "P_1_19",
+        "page": 1,
+        "bbox": [
+          81.0,
+          594.0,
+          483.0,
+          959.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Under these conditions, selective replacement of only one of the boron-bound bromine substituents by the tert-butylphenyl group led to the formation of PSBPhBr (Scheme $\\dot { 2 } ) ."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.96
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe004",
+      "polymer_name": "polystyrene",
+      "polymer_type": "homopolymer",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "polystyrene"
+      ],
+      "resolved_from_mentions": [
+        "m007",
+        "m020"
+      ],
+      "evidence": {
+        "block_id": "P_2_29",
+        "page": 2,
+        "bbox": [
+          81.0,
+          651.0,
+          483.0,
+          929.0
+        ],
+        "source_type": "text",
+        "source_sentence": "However, the molecular weights determined by GPC-RI detection vs polystyrene standards were generally considerably lower than expected."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.84
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe005",
+      "polymer_name": "boron quinolate polymers",
+      "polymer_type": "homopolymer",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "boron quinolate polymers",
+        "organoboron quinolate polymers",
+        "quinolate polymers",
+        "Boron Quinolate Polymers",
+        "Organoboron Quinolate Polymers"
+      ],
+      "resolved_from_mentions": [
+        "m009",
+        "m010",
+        "m018",
+        "m021",
+        "m023",
+        "m028",
+        "m031",
+        "m032",
+        "m039",
+        "m044",
+        "m051"
+      ],
+      "evidence": {
+        "block_id": "P_1_21",
+        "page": 1,
+        "bbox": [
+          511.0,
+          621.0,
+          913.0,
+          801.0
+        ],
+        "source_type": "text",
+        "source_sentence": "As shown in Scheme 2, PSBPhBr was reacted in situ with 8-hydroxyquinoline or methyl-protected 8-hydroxyquinoline derivatives to give the corresponding boron quinolate polymers."
+      },
+      "source_image_refs": [
+        {
+          "block_id": "I_3_40",
+          "page": 3,
+          "bbox": [
+            531.0,
+            171.0,
+            888.0,
+            356.0
+          ],
+          "image_path": "organized/reference_no_0037645/images/e9199d12b540a7abecc5b4c065eb4f4ba8071d7b972146674b5be59f7aab085f.jpg",
+          "caption": "Figure 3. Left: Absorption and emission spectra of the organoboron quinolate polymers PSBPhQ-X (refer to Scheme 2 for the polymer structures). The functional group concentration was estimated to ca. $2 \\times 1 0 ^ { - 5 }$ M in THF on the basis of the repeat units assuming 100% functionalization; the polymers were excited at the absorption maxima. Right: Photographs of solutions of PSBPhQ-X in THF (c $1 . 2 \\times 1 0 ^ { - 3 } \\mathrm { M } )$ excited with black light at 365 nm (from left to right: $\\mathbf { X } \\stackrel { \\mathbf { \\cdot } } { = }$ Bpin, $\\mathrm { C } _ { 6 } \\mathrm { F } _ { 5 } ,$ H, Cl, C<sub>6</sub>H<sub>4</sub>OMe, C<sub>6</sub>H<sub>4</sub>NMe<sub>2</sub>, respectively)."
+        }
+      ],
+      "confidence": {
+        "score": 0.87
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe006",
+      "polymer_name": "thienylsubstituted organoboron quinolate polymers",
+      "polymer_type": "homopolymer",
+      "variant_of": "pe005",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "thienylsubstituted organoboron quinolate polymers",
+        "quinolate polymers",
+        "thiophene substituted boron quinolate polymers"
+      ],
+      "resolved_from_mentions": [
+        "m024",
+        "m025",
+        "m029"
+      ],
+      "evidence": {
+        "block_id": "P_2_32",
+        "page": 2,
+        "bbox": [
+          511.0,
+          493.0,
+          915.0,
+          729.0
+        ],
+        "source_type": "text",
+        "source_sentence": "However, we found that the long-term environmental stability of thienylsubstituted organoboron quinolate polymers (Scheme 1, A) is somewhat limited, as oxidative degradation was observed after prolonged storage under ambient conditions (several weeks)."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.86
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe007",
+      "polymer_name": "tert-butylphenyl-substituted quinolate polymers",
+      "polymer_type": "homopolymer",
+      "variant_of": "pe005",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "tert-butylphenyl-substituted quinolate polymers"
+      ],
+      "resolved_from_mentions": [
+        "m026"
+      ],
+      "evidence": {
+        "block_id": "P_2_32",
+        "page": 2,
+        "bbox": [
+          511.0,
+          493.0,
+          915.0,
+          729.0
+        ],
+        "source_type": "text",
+        "source_sentence": "In contrast, when we monitored the <sup>1</sup>H NMR spectra of the tert-butylphenyl-substituted quinolate polymers both in wet and oxygenated solvents and as solids in air, no sign of decomposition was found for at least 4 weeks, and the GPC traces were virtually identical to those of the freshly prepared polymer samples."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.8
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe008",
+      "polymer_name": "quinolate polymers with phenyl groups on boron",
+      "polymer_type": "homopolymer",
+      "variant_of": "pe005",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "quinolate polymers with phenyl groups on boron"
+      ],
+      "resolved_from_mentions": [
+        "m027"
+      ],
+      "evidence": {
+        "block_id": "P_2_32",
+        "page": 2,
+        "bbox": [
+          511.0,
+          493.0,
+          915.0,
+          729.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Thus, the stability of the quinolate polymers with phenyl groups on boron is significantly improved relative to those containing electron-rich thiophene groups, and the polymers can easily be handled under ambient conditions for extended periods of time."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.72
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe009",
+      "polymer_name": "PSBPhQ-Bpin",
+      "polymer_type": "homopolymer",
+      "variant_of": "pe005",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "PSBPhQ-Bpin"
+      ],
+      "resolved_from_mentions": [
+        "m012",
+        "m033",
+        "m043",
+        "m045"
+      ],
+      "evidence": {
+        "block_id": "P_3_43",
+        "page": 3,
+        "bbox": [
+          81.0,
+          705.0,
+          483.0,
+          958.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Indeed, the pentafluorophenyl substituted derivative $\\mathbf { P S B P h Q  – C _ { 6 } F _ { 5 } }$emits at 497 nm $( \\mathrm { A l Q } _ { 3 }$derivative: 516 nm) and attachment of a pinacolatoborane moiety in PSBPhQ-Bpin provides for blue emission at 486 nm."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.94
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe010",
+      "polymer_name": "PSBPhQ-C $_{6}$ F $_{5}$",
+      "polymer_type": "homopolymer",
+      "variant_of": "pe005",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "PSBPhQ-C $_{6}$ F $_{5}$",
+        "PSBPhQ-C6F5",
+        "$\\mathbf { P S B P h Q  – C _ { 6 } F _ { 5 } }$",
+        "PSBPhQ-C $_6$ F $_5$"
+      ],
+      "resolved_from_mentions": [
+        "m013",
+        "m034",
+        "m042",
+        "m046"
+      ],
+      "evidence": {
+        "block_id": "P_3_43",
+        "page": 3,
+        "bbox": [
+          81.0,
+          705.0,
+          483.0,
+          958.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Indeed, the pentafluorophenyl substituted derivative $\\mathbf { P S B P h Q  – C _ { 6 } F _ { 5 } }$emits at 497 nm $( \\mathrm { A l Q } _ { 3 }$derivative: 516 nm) and attachment of a pinacolatoborane moiety in PSBPhQ-Bpin provides for blue emission at 486 nm."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.92
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe011",
+      "polymer_name": "PSBPhQ-H",
+      "polymer_type": "homopolymer",
+      "variant_of": "pe005",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "PSBPhQ-H"
+      ],
+      "resolved_from_mentions": [
+        "m014",
+        "m030",
+        "m035",
+        "m041",
+        "m047",
+        "m052"
+      ],
+      "evidence": {
+        "block_id": "P_3_43",
+        "page": 3,
+        "bbox": [
+          81.0,
+          705.0,
+          483.0,
+          958.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The parent polymer PSBPhQ-H shows an absorption maximum at 395 nm and green emission at 507 nm, which correlates very well with the previously reported data for $\\mathrm { P h } _ { 2 } \\mathrm { B Q } \\left( \\lambda _ { \\mathrm { m a x } } = 3 9 5 \\right.$nm; $\\lambda _ { \\mathrm { e m } } =$504 nm) and for $\\mathrm { ( ^ { t } B u P h ) _ { 2 } B Q } \\left( \\lambda _ { \\operatorname* { m a x } } = 3 9 5 ~ \\mathrm { n m } ; \\lambda _ { \\mathrm { e m } } = 5 0 6 ~ \\mathrm { n m } \\right) , ^ { 2 2 }$which contains tert-butyl groups in the 4-position of the phenyl rings and thus more closely mimics the structure of the polymer."
+      },
+      "source_image_refs": [
+        {
+          "block_id": "I_2_26",
+          "page": 2,
+          "bbox": [
+            243.0,
+            59.0,
+            750.0,
+            303.0
+          ],
+          "image_path": "organized/reference_no_0037645/images/0847ded71e877011c60437cf0a376e26790ac6918ec7c90f25a4c0e56b611249.jpg",
+          "caption": "Figure 2. Aromatic region of the $^ { 1 3 } \\mathrm { C }$ NMR spectra of PSBPhQ-H (R ) polymer backbone) and (<sup>t</sup>BuPh) BQ (R ) <sup>t</sup>Bu). Ph, <sup>t</sup>Ph and Q represent phenyl groups attached to the polymer backbone, tert-butylphenyl, and quinolato groups, respectively."
+        },
+        {
+          "block_id": "I_4_49",
+          "page": 4,
+          "bbox": [
+            101.0,
+            56.0,
+            464.0,
+            238.0
+          ],
+          "image_path": "organized/reference_no_0037645/images/cb6afe34f24cce9bb20f97117e2c296d3675b5ffe16d10ced2de537b87518a9e.jpg",
+          "caption": "Figure 4. Absorption and emission spectra of (<sup>t</sup>BuPh)<sub>2</sub>BQ, PSBPhQ-H and PSBPhQ-H-co-PSSiMe in THF solution (functional group concentration ca. $2 \\times 1 0 ^ { - 5 } \\mathrm { M } ,$ , refer to Scheme 2 for polymer structures)."
+        }
+      ],
+      "confidence": {
+        "score": 0.94
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe012",
+      "polymer_name": "PSBPhQ-Cl",
+      "polymer_type": "homopolymer",
+      "variant_of": "pe005",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "PSBPhQ-Cl"
+      ],
+      "resolved_from_mentions": [
+        "m015",
+        "m036",
+        "m048"
+      ],
+      "evidence": {
+        "block_id": "T_3_44",
+        "page": 3,
+        "bbox": [
+          514.0,
+          452.0,
+          908.0,
+          570.0
+        ],
+        "source_type": "table",
+        "source_sentence": "PSBPhQ-Cl"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.91
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe013",
+      "polymer_name": "PSBPhQ-C $_{6}$ H $_{4}$ OMe",
+      "polymer_type": "homopolymer",
+      "variant_of": "pe005",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "PSBPhQ-C $_{6}$ H $_{4}$ OMe",
+        "PSBPhQ-C6H4OMe",
+        "PSBPhQ-C $_6$ H $_4$ OMe"
+      ],
+      "resolved_from_mentions": [
+        "m016",
+        "m037",
+        "m049"
+      ],
+      "evidence": {
+        "block_id": "T_3_44",
+        "page": 3,
+        "bbox": [
+          514.0,
+          452.0,
+          908.0,
+          570.0
+        ],
+        "source_type": "table",
+        "source_sentence": "PSBPhQ-C $_6$ H $_4$ OMe"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.91
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe014",
+      "polymer_name": "PSBPhQ-C $_{6}$ H $_{4}$ NMe $_{2}$",
+      "polymer_type": "homopolymer",
+      "variant_of": "pe005",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "PSBPhQ-C $_{6}$ H $_{4}$ NMe $_{2}$",
+        "PSBPhQ-C<sub>6</sub>H<sub>4</sub>NMe<sub>2</sub>",
+        "PSBPhQ-C6H4NMe2",
+        "PSBPhQ-C $_6$ H $_4$ NMe $_2$"
+      ],
+      "resolved_from_mentions": [
+        "m017",
+        "m019",
+        "m038",
+        "m050"
+      ],
+      "evidence": {
+        "block_id": "P_2_29",
+        "page": 2,
+        "bbox": [
+          81.0,
+          651.0,
+          483.0,
+          929.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Under these conditions, a monomodal trace was obtained also for PSBPhQ-C<sub>6</sub>H<sub>4</sub>NMe<sub>2</sub>."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.93
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe015",
+      "polymer_name": "PSBPhQ-H-co-PSSiMe<sub>3</sub>",
+      "polymer_type": "copolymer",
+      "copolymer_type": "ran",
+      "variant_of": "pe011",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "PSBPhQ-H-co-PSSiMe",
+        "PSBPhQ-H-co-PSSiMe<sub>3</sub>"
+      ],
+      "resolved_from_mentions": [
+        "m053",
+        "m054"
+      ],
+      "evidence": {
+        "block_id": "P_4_51",
+        "page": 4,
+        "bbox": [
+          81.0,
+          371.0,
+          483.0,
+          789.0
+        ],
+        "source_type": "text",
+        "source_sentence": "To further confirm these conclusions, we synthesized a random copolymer, $\\mathbf { P S B P h Q - H - } c o \\mathbf { - } \\mathbf { P S S i M e } _ { 3 } ,$with only 10% boron functionalization."
+      },
+      "source_image_refs": [
+        {
+          "block_id": "I_4_49",
+          "page": 4,
+          "bbox": [
+            101.0,
+            56.0,
+            464.0,
+            238.0
+          ],
+          "image_path": "organized/reference_no_0037645/images/cb6afe34f24cce9bb20f97117e2c296d3675b5ffe16d10ced2de537b87518a9e.jpg",
+          "caption": "Figure 4. Absorption and emission spectra of (<sup>t</sup>BuPh)<sub>2</sub>BQ, PSBPhQ-H and PSBPhQ-H-co-PSSiMe in THF solution (functional group concentration ca. $2 \\times 1 0 ^ { - 5 } \\mathrm { M } ,$ , refer to Scheme 2 for polymer structures)."
+        }
+      ],
+      "confidence": {
+        "score": 0.98
+      }
+    }
+  ],
+  "unresolved_mention_ids": [],
+  "provenance": {
+    "stage": "stage2_polymer_entity",
+    "provider": "dmx",
+    "model": "gpt-5.6-terra-2026-07-09",
+    "models": [
+      "gpt-5.6-terra-2026-07-09"
+    ],
+    "prompt_id": "polymer.stage2.polymer_entity",
+    "prompt_version": "1.3.0",
+    "prompt_sha256": "0d376da340b979a77fcd231e0148cc26c8b9d125f7209025c7055483abb7d7e1",
+    "input_hash": "dd7214ad00eccad00caa7cfb3cb507500512b67c16159da06a307a53afb611ec",
+    "model_config_hash": "c9e96c2514956e7b4b65eae3d327d34f95b7a33876cec6d4aa56f95eb79a9b50",
+    "cache_key": "ed23eecda9455056a345db448b681dc4369a34c787441ef6b79fde73a208a276",
+    "output_schema_version": "polymer_entity_schema.v3",
+    "implementation_version": "1.4.0",
+    "context_block_count": 20,
+    "context_chars": 22683,
+    "call_count": 1,
+    "usage": {
+      "input_tokens": 15320,
+      "output_tokens": 4041,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "billable_input_tokens": 15320,
+      "total_tokens": 19361
+    },
+    "cost": {
+      "status": "calculated",
+      "currency": "CNY",
+      "input_per_million": "17",
+      "output_per_million": "101",
+      "input_cost": "0.26044",
+      "output_cost": "0.408141",
+      "total_cost": "0.668581"
+    },
+    "status": "success"
+  },
+  "warnings": [
+    {
+      "stage": "stage2_polymer_entity",
+      "code": "preview_nested_mentions_split_retained",
+      "message": "Preview 模式已保留无法确定合并关系的嵌套 mention 拆分；需在正式数据中复核",
+      "items": [
+        {
+          "shorter_mention_id": "m031",
+          "longer_mention_id": "m029",
+          "shorter_assignment": "pe005",
+          "longer_assignment": "pe006"
+        }
+      ]
+    },
+    {
+      "stage": "stage2_polymer_entity",
+      "code": "polymer_type_default_inferred",
+      "message": "Backfill：无共聚或共混反证的实体已推断为 homopolymer",
+      "items": [
+        {
+          "entity_id": "pe001",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe002",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe003",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe004",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe005",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe006",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe007",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe008",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe009",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe010",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe012",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe013",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        },
+        {
+          "entity_id": "pe014",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        }
+      ],
+      "backfill": true
+    }
+  ]
+}

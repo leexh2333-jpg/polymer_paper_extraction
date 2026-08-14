@@ -1,0 +1,268 @@
+{
+  "stage": "stage4r_table_recovery",
+  "implementation_version": "0.2.0",
+  "document_id": "reference_no_0021296",
+  "audit_summary": {
+    "table_count": 7,
+    "tables_with_numeric_cells": 6,
+    "numeric_cell_count": 92,
+    "represented_numeric_cell_count": 0,
+    "representation_ratio": 0.0,
+    "role_counts": {
+      "coordinate_candidate": 4,
+      "property_value_candidate": 32,
+      "unknown": 56
+    },
+    "property_value_candidate_count": 32,
+    "covered_property_value_candidate_count": 0,
+    "missing_property_value_candidate_count": 32,
+    "property_value_ratio": 0.0,
+    "gap_table_count": 5,
+    "numeric_zero_coverage_table_count": 6,
+    "property_zero_coverage_table_count": 5
+  },
+  "recovered_count": 0,
+  "skipped_ambiguous_count": 32,
+  "recovered": [],
+  "skipped_ambiguous": [
+    {
+      "cell_id": "T_1_11:r0003:c0001",
+      "table_id": "T_1_11",
+      "property_name_normalized": "melting_temperature",
+      "value_raw": "113",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_1_11:r0003:c0002",
+      "table_id": "T_1_11",
+      "property_name_normalized": "melting_temperature",
+      "value_raw": "64, 85",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_1_11:r0003:c0003",
+      "table_id": "T_1_11",
+      "property_name_normalized": "melting_temperature",
+      "value_raw": "132",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_1_11:r0004:c0001",
+      "table_id": "T_1_11",
+      "property_name_normalized": "heat_of_fusion",
+      "value_raw": "258",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_1_11:r0004:c0002",
+      "table_id": "T_1_11",
+      "property_name_normalized": "heat_of_fusion",
+      "value_raw": "175",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_1_11:r0004:c0003",
+      "table_id": "T_1_11",
+      "property_name_normalized": "heat_of_fusion",
+      "value_raw": "197",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_3_36:r0003:c0001",
+      "table_id": "T_3_36",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "0.089",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_3_36:r0003:c0002",
+      "table_id": "T_3_36",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "0.096",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_3_36:r0003:c0004",
+      "table_id": "T_3_36",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "0.422",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_3_36:r0003:c0005",
+      "table_id": "T_3_36",
+      "property_name_normalized": "intrinsic_viscosity",
+      "value_raw": "0.063",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_6_64:r0001:c0001",
+      "table_id": "T_6_64",
+      "property_name_normalized": "thermal_decomposition_temperature",
+      "value_raw": "188",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_6_64:r0001:c0002",
+      "table_id": "T_6_64",
+      "property_name_normalized": "thermal_decomposition_temperature",
+      "value_raw": "256",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_6_64:r0001:c0003",
+      "table_id": "T_6_64",
+      "property_name_normalized": "thermal_decomposition_temperature",
+      "value_raw": "276",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_6_64:r0001:c0004",
+      "table_id": "T_6_64",
+      "property_name_normalized": "thermal_decomposition_temperature",
+      "value_raw": "225",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_6_64:r0002:c0001",
+      "table_id": "T_6_64",
+      "property_name_normalized": "thermal_decomposition_temperature",
+      "value_raw": "201",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_6_64:r0002:c0002",
+      "table_id": "T_6_64",
+      "property_name_normalized": "thermal_decomposition_temperature",
+      "value_raw": "266",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_6_64:r0002:c0003",
+      "table_id": "T_6_64",
+      "property_name_normalized": "thermal_decomposition_temperature",
+      "value_raw": "280",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_6_64:r0002:c0004",
+      "table_id": "T_6_64",
+      "property_name_normalized": "thermal_decomposition_temperature",
+      "value_raw": "230",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_6_64:r0003:c0001",
+      "table_id": "T_6_64",
+      "property_name_normalized": "thermal_decomposition_temperature",
+      "value_raw": "34.0",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_6_64:r0003:c0002",
+      "table_id": "T_6_64",
+      "property_name_normalized": "thermal_decomposition_temperature",
+      "value_raw": "34.1",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_6_64:r0003:c0003",
+      "table_id": "T_6_64",
+      "property_name_normalized": "thermal_decomposition_temperature",
+      "value_raw": "39.7",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_6_64:r0003:c0004",
+      "table_id": "T_6_64",
+      "property_name_normalized": "thermal_decomposition_temperature",
+      "value_raw": "33.2",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_7_77:r0001:c0001",
+      "table_id": "T_7_77",
+      "property_name_normalized": "melting_temperature",
+      "value_raw": "103",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_7_77:r0001:c0004",
+      "table_id": "T_7_77",
+      "property_name_normalized": "melting_temperature",
+      "value_raw": "156",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_7_77:r0002:c0001",
+      "table_id": "T_7_77",
+      "property_name_normalized": "heat_of_fusion",
+      "value_raw": "36.0",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_7_77:r0002:c0004",
+      "table_id": "T_7_77",
+      "property_name_normalized": "heat_of_fusion",
+      "value_raw": "12.0",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_8_91:r0002:c0001",
+      "table_id": "T_8_91",
+      "property_name_normalized": "glass_transition_temperature",
+      "value_raw": "143",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_8_91:r0002:c0002",
+      "table_id": "T_8_91",
+      "property_name_normalized": "glass_transition_temperature",
+      "value_raw": ">220",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_8_91:r0002:c0003",
+      "table_id": "T_8_91",
+      "property_name_normalized": "glass_transition_temperature",
+      "value_raw": ">220",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_8_91:r0002:c0004",
+      "table_id": "T_8_91",
+      "property_name_normalized": "glass_transition_temperature",
+      "value_raw": "133",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_8_91:r0002:c0005",
+      "table_id": "T_8_91",
+      "property_name_normalized": "glass_transition_temperature",
+      "value_raw": "198",
+      "reason": "entity_ambiguous"
+    },
+    {
+      "cell_id": "T_8_91:r0002:c0006",
+      "table_id": "T_8_91",
+      "property_name_normalized": "glass_transition_temperature",
+      "value_raw": "218",
+      "reason": "entity_ambiguous"
+    }
+  ],
+  "sample_resolution_summary": {},
+  "sample_resolution": [],
+  "property_id_migrations": [],
+  "input_hashes": {
+    "stage0_blocks.json": "1c00ad1ee663669160186bb3a3417ce245b749de3678875062dbd63be09a377b",
+    "stage2_entities.json": "bf7207c3957360bffadc5f67fb1116c15613d6f57948eb7f28d5aaa044bd4b4d",
+    "stage3_process.json": "5a55c71ca613be3ab5629121c367b92b8a92a6478ae0e5e084fecf80902792a4",
+    "stage4_properties.json": "c2fdb0b81b748b890b8cd01285197d53d528bc8b2a6a7cc49623e0221d27fc15"
+  },
+  "settings": {
+    "threshold": 0.8,
+    "apply": true,
+    "allow_filled_up_sample_binding": true
+  },
+  "output_sha256": "29878c7b57719774d60dfe4a9bf488ee3785b9ed4499155f14e142c408a922d4"
+}

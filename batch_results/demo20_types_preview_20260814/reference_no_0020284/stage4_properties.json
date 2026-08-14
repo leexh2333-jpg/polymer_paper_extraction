@@ -1,0 +1,6271 @@
+{
+  "schema_version": "1.0",
+  "document_id": "reference_no_0020284",
+  "measurement_conditions": [
+    {
+      "condition_id": "mc001",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {
+        "concentration": "0.5 dL/g",
+        "instrument": "Ubbelohde viscometer"
+      },
+      "other_condition_evidence": {
+        "concentration": [
+          {
+            "block_id": "P_3_52",
+            "page": 3,
+            "bbox": [
+              108.0,
+              496.0,
+              491.0,
+              681.0
+            ],
+            "source_type": "text",
+            "source_sentence": "The inherent viscosities, $\\eta_{inh}$, were measured with an Ubbelohde viscometer at a concentration 0.5 dL/g.",
+            "table_locator": null
+          }
+        ],
+        "instrument": [
+          {
+            "block_id": "P_3_52",
+            "page": 3,
+            "bbox": [
+              108.0,
+              496.0,
+              491.0,
+              681.0
+            ],
+            "source_type": "text",
+            "source_sentence": "The inherent viscosities, $\\eta_{inh}$, were measured with an Ubbelohde viscometer at a concentration 0.5 dL/g.",
+            "table_locator": null
+          }
+        ]
+      },
+      "condition_status": "reported",
+      "evidence": {
+        "block_id": "P_3_52",
+        "page": 3,
+        "bbox": [
+          108.0,
+          496.0,
+          491.0,
+          681.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The inherent viscosities, $\\eta_{inh}$, were measured with an Ubbelohde viscometer at a concentration 0.5 dL/g.",
+        "table_locator": null
+      },
+      "confidence": {
+        "score": 1.0
+      }
+    },
+    {
+      "condition_id": "mc002",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {
+        "method": "ASTM D-2863-77",
+        "instrument": "SUGA instrument"
+      },
+      "other_condition_evidence": {
+        "method": [
+          {
+            "block_id": "P_3_52",
+            "page": 3,
+            "bbox": [
+              108.0,
+              496.0,
+              491.0,
+              681.0
+            ],
+            "source_type": "text",
+            "source_sentence": "The LOI was determined on a SUGA instrument according to ASTM D-2863-77.",
+            "table_locator": null
+          }
+        ],
+        "instrument": [
+          {
+            "block_id": "P_3_52",
+            "page": 3,
+            "bbox": [
+              108.0,
+              496.0,
+              491.0,
+              681.0
+            ],
+            "source_type": "text",
+            "source_sentence": "The LOI was determined on a SUGA instrument according to ASTM D-2863-77.",
+            "table_locator": null
+          }
+        ]
+      },
+      "condition_status": "reported",
+      "evidence": {
+        "block_id": "P_3_52",
+        "page": 3,
+        "bbox": [
+          108.0,
+          496.0,
+          491.0,
+          681.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The LOI was determined on a SUGA instrument according to ASTM D-2863-77.",
+        "table_locator": null
+      },
+      "confidence": {
+        "score": 1.0
+      }
+    },
+    {
+      "condition_id": "mc003",
+      "temperature": {
+        "raw": "25°C",
+        "value": 25.0,
+        "unit": "°C",
+        "evidence": [
+          {
+            "block_id": "P_3_52",
+            "page": 3,
+            "bbox": [
+              108.0,
+              496.0,
+              491.0,
+              681.0
+            ],
+            "source_type": "text",
+            "source_sentence": "Static contact angles were measured at $25^{\\circ}$ C and 65% relative humidity through use of a sessile drop of volume $2 \\mu L$.",
+            "table_locator": null
+          }
+        ],
+        "evidence_ids": []
+      },
+      "frequency": null,
+      "humidity": {
+        "raw": "65% relative humidity",
+        "value": 65.0,
+        "unit": "% RH",
+        "evidence": [
+          {
+            "block_id": "P_3_52",
+            "page": 3,
+            "bbox": [
+              108.0,
+              496.0,
+              491.0,
+              681.0
+            ],
+            "source_type": "text",
+            "source_sentence": "Static contact angles were measured at $25^{\\circ}$ C and 65% relative humidity through use of a sessile drop of volume $2 \\mu L$.",
+            "table_locator": null
+          }
+        ],
+        "evidence_ids": []
+      },
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {
+        "type": "static"
+      },
+      "other_condition_evidence": {
+        "type": [
+          {
+            "block_id": "P_3_52",
+            "page": 3,
+            "bbox": [
+              108.0,
+              496.0,
+              491.0,
+              681.0
+            ],
+            "source_type": "text",
+            "source_sentence": "Static contact angles were measured at $25^{\\circ}$ C and 65% relative humidity through use of a sessile drop of volume $2 \\mu L$.",
+            "table_locator": null
+          }
+        ]
+      },
+      "condition_status": "reported",
+      "evidence": {
+        "block_id": "P_3_52",
+        "page": 3,
+        "bbox": [
+          108.0,
+          496.0,
+          491.0,
+          681.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Contact angles of polymers were measured with a contact angle meter (Kernco, GIII). Static contact angles were measured at $25^{\\circ}$ C and 65% relative humidity through use of a sessile drop of volume $2 \\mu L$.",
+        "table_locator": null
+      },
+      "confidence": {
+        "score": 1.0
+      }
+    },
+    {
+      "condition_id": "mc004",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {
+        "heating_rate": "10°C/min",
+        "atmosphere": "nitrogen",
+        "method": "TGA"
+      },
+      "other_condition_evidence": {
+        "heating_rate": [
+          {
+            "block_id": "P_6_79",
+            "page": 6,
+            "bbox": [
+              100.0,
+              589.0,
+              480.0,
+              651.0
+            ],
+            "source_type": "text",
+            "source_sentence": "Figure 2 shows an example of polycarbonates at a heating rate $10^{\\circ}$ C/min in nitrogen.",
+            "table_locator": null
+          }
+        ],
+        "atmosphere": [
+          {
+            "block_id": "P_6_79",
+            "page": 6,
+            "bbox": [
+              100.0,
+              589.0,
+              480.0,
+              651.0
+            ],
+            "source_type": "text",
+            "source_sentence": "Figure 2 shows an example of polycarbonates at a heating rate $10^{\\circ}$ C/min in nitrogen.",
+            "table_locator": null
+          }
+        ],
+        "method": [
+          {
+            "block_id": "P_6_79",
+            "page": 6,
+            "bbox": [
+              100.0,
+              589.0,
+              480.0,
+              651.0
+            ],
+            "source_type": "text",
+            "source_sentence": "The thermal behavior of polymers was evaluated by means of TGA and DSC.",
+            "table_locator": null
+          }
+        ]
+      },
+      "condition_status": "reported",
+      "evidence": {
+        "block_id": "P_6_79",
+        "page": 6,
+        "bbox": [
+          100.0,
+          589.0,
+          480.0,
+          651.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Figure 2 shows an example of polycarbonates at a heating rate $10^{\\circ}$ C/min in nitrogen.",
+        "table_locator": null
+      },
+      "confidence": {
+        "score": 1.0
+      }
+    },
+    {
+      "condition_id": "mc005",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {
+        "method": "DSC"
+      },
+      "other_condition_evidence": {
+        "method": [
+          {
+            "block_id": "P_6_79",
+            "page": 6,
+            "bbox": [
+              100.0,
+              589.0,
+              480.0,
+              651.0
+            ],
+            "source_type": "text",
+            "source_sentence": "The thermal behavior of polymers was evaluated by means of TGA and DSC.",
+            "table_locator": null
+          }
+        ]
+      },
+      "condition_status": "reported",
+      "evidence": {
+        "block_id": "P_6_79",
+        "page": 6,
+        "bbox": [
+          100.0,
+          589.0,
+          480.0,
+          651.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The thermal behavior of polymers was evaluated by means of TGA and DSC.",
+        "table_locator": null
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "condition_id": "mc006",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {},
+      "other_condition_evidence": {},
+      "condition_status": "not_reported",
+      "evidence": {
+        "block_id": "P_3_52",
+        "page": 3,
+        "bbox": [
+          108.0,
+          496.0,
+          491.0,
+          681.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The x-ray diffraction diagram was recorded with a powder method with an x-ray diffractometer (Philips model PW 1710).",
+        "table_locator": null
+      },
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "condition_id": "mc007",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {},
+      "other_condition_evidence": {},
+      "condition_status": "not_reported",
+      "evidence": {
+        "block_id": "T_3_49",
+        "page": 3,
+        "bbox": [
+          111.0,
+          135.0,
+          490.0,
+          275.0
+        ],
+        "source_type": "table",
+        "source_sentence": "Table I Preparation of Polycarbonates by Two-phase Phase-transfer-catalyzed Polycondensation with TCF at 25°C for 2 h $^{a}$",
+        "table_locator": null
+      },
+      "confidence": {
+        "score": 0.8
+      }
+    },
+    {
+      "condition_id": "mc008",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {},
+      "other_condition_evidence": {},
+      "condition_status": "not_reported",
+      "evidence": {
+        "block_id": "T_7_84",
+        "page": 7,
+        "bbox": [
+          107.0,
+          133.0,
+          483.0,
+          272.0
+        ],
+        "source_type": "table",
+        "source_sentence": "Table VII The Contact Angle and Limiting Oxygen Index of Polycarbonates",
+        "table_locator": null
+      },
+      "confidence": {
+        "score": 0.8
+      }
+    },
+    {
+      "condition_id": "mc009",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {},
+      "other_condition_evidence": {},
+      "condition_status": "not_reported",
+      "evidence": {
+        "block_id": "T_6_81",
+        "page": 6,
+        "bbox": [
+          100.0,
+          697.0,
+          888.0,
+          832.0
+        ],
+        "source_type": "table",
+        "source_sentence": "394",
+        "table_locator": {
+          "table_id": "T_6_81",
+          "cell_id": "T_6_81:r0001:c0001",
+          "row_index": 1,
+          "column_index": 1,
+          "row_label": "PC-1",
+          "column_label": "$T_{d}^{i}$ $(^{\\circ}\\text{C})^{b}$",
+          "cell_value": "394"
+        }
+      },
+      "confidence": null
+    },
+    {
+      "condition_id": "mc010",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {},
+      "other_condition_evidence": {},
+      "condition_status": "not_reported",
+      "evidence": {
+        "block_id": "T_6_81",
+        "page": 6,
+        "bbox": [
+          100.0,
+          697.0,
+          888.0,
+          832.0
+        ],
+        "source_type": "table",
+        "source_sentence": "446",
+        "table_locator": {
+          "table_id": "T_6_81",
+          "cell_id": "T_6_81:r0001:c0002",
+          "row_index": 1,
+          "column_index": 2,
+          "row_label": "PC-1",
+          "column_label": "$T_{d}^{10\\%}$ $(^{\\circ}\\text{C})^{b}$",
+          "cell_value": "446"
+        }
+      },
+      "confidence": null
+    },
+    {
+      "condition_id": "mc011",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {},
+      "other_condition_evidence": {},
+      "condition_status": "not_reported",
+      "evidence": {
+        "block_id": "T_6_81",
+        "page": 6,
+        "bbox": [
+          100.0,
+          697.0,
+          888.0,
+          832.0
+        ],
+        "source_type": "table",
+        "source_sentence": "473",
+        "table_locator": {
+          "table_id": "T_6_81",
+          "cell_id": "T_6_81:r0001:c0003",
+          "row_index": 1,
+          "column_index": 3,
+          "row_label": "PC-1",
+          "column_label": "$T_{d}^{20\\%}$ $(^{\\circ}\\text{C})$",
+          "cell_value": "473"
+        }
+      },
+      "confidence": null
+    },
+    {
+      "condition_id": "mc012",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {},
+      "other_condition_evidence": {},
+      "condition_status": "not_reported",
+      "evidence": {
+        "block_id": "T_6_81",
+        "page": 6,
+        "bbox": [
+          100.0,
+          697.0,
+          888.0,
+          832.0
+        ],
+        "source_type": "table",
+        "source_sentence": "491",
+        "table_locator": {
+          "table_id": "T_6_81",
+          "cell_id": "T_6_81:r0001:c0004",
+          "row_index": 1,
+          "column_index": 4,
+          "row_label": "PC-1",
+          "column_label": "$T_{d}^{30\\%}$ $(^{\\circ}\\text{C})$",
+          "cell_value": "491"
+        }
+      },
+      "confidence": null
+    },
+    {
+      "condition_id": "mc013",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {},
+      "other_condition_evidence": {},
+      "condition_status": "not_reported",
+      "evidence": {
+        "block_id": "T_6_81",
+        "page": 6,
+        "bbox": [
+          100.0,
+          697.0,
+          888.0,
+          832.0
+        ],
+        "source_type": "table",
+        "source_sentence": "506",
+        "table_locator": {
+          "table_id": "T_6_81",
+          "cell_id": "T_6_81:r0001:c0005",
+          "row_index": 1,
+          "column_index": 5,
+          "row_label": "PC-1",
+          "column_label": "$T_{d}^{50\\%}$ $(^{\\circ}\\text{C})$",
+          "cell_value": "506"
+        }
+      },
+      "confidence": null
+    },
+    {
+      "condition_id": "mc014",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {},
+      "other_condition_evidence": {},
+      "condition_status": "not_reported",
+      "evidence": {
+        "block_id": "T_6_81",
+        "page": 6,
+        "bbox": [
+          100.0,
+          697.0,
+          888.0,
+          832.0
+        ],
+        "source_type": "table",
+        "source_sentence": "369",
+        "table_locator": {
+          "table_id": "T_6_81",
+          "cell_id": "T_6_81:r0002:c0001",
+          "row_index": 2,
+          "column_index": 1,
+          "row_label": "PC-2",
+          "column_label": "$T_{d}^{i}$ $(^{\\circ}\\text{C})^{b}$",
+          "cell_value": "369"
+        }
+      },
+      "confidence": null
+    },
+    {
+      "condition_id": "mc015",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {},
+      "other_condition_evidence": {},
+      "condition_status": "not_reported",
+      "evidence": {
+        "block_id": "T_6_81",
+        "page": 6,
+        "bbox": [
+          100.0,
+          697.0,
+          888.0,
+          832.0
+        ],
+        "source_type": "table",
+        "source_sentence": "403",
+        "table_locator": {
+          "table_id": "T_6_81",
+          "cell_id": "T_6_81:r0002:c0002",
+          "row_index": 2,
+          "column_index": 2,
+          "row_label": "PC-2",
+          "column_label": "$T_{d}^{10\\%}$ $(^{\\circ}\\text{C})^{b}$",
+          "cell_value": "403"
+        }
+      },
+      "confidence": null
+    },
+    {
+      "condition_id": "mc016",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {},
+      "other_condition_evidence": {},
+      "condition_status": "not_reported",
+      "evidence": {
+        "block_id": "T_6_81",
+        "page": 6,
+        "bbox": [
+          100.0,
+          697.0,
+          888.0,
+          832.0
+        ],
+        "source_type": "table",
+        "source_sentence": "422",
+        "table_locator": {
+          "table_id": "T_6_81",
+          "cell_id": "T_6_81:r0002:c0003",
+          "row_index": 2,
+          "column_index": 3,
+          "row_label": "PC-2",
+          "column_label": "$T_{d}^{20\\%}$ $(^{\\circ}\\text{C})$",
+          "cell_value": "422"
+        }
+      },
+      "confidence": null
+    },
+    {
+      "condition_id": "mc017",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {},
+      "other_condition_evidence": {},
+      "condition_status": "not_reported",
+      "evidence": {
+        "block_id": "T_6_81",
+        "page": 6,
+        "bbox": [
+          100.0,
+          697.0,
+          888.0,
+          832.0
+        ],
+        "source_type": "table",
+        "source_sentence": "431",
+        "table_locator": {
+          "table_id": "T_6_81",
+          "cell_id": "T_6_81:r0002:c0004",
+          "row_index": 2,
+          "column_index": 4,
+          "row_label": "PC-2",
+          "column_label": "$T_{d}^{30\\%}$ $(^{\\circ}\\text{C})$",
+          "cell_value": "431"
+        }
+      },
+      "confidence": null
+    },
+    {
+      "condition_id": "mc018",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {},
+      "other_condition_evidence": {},
+      "condition_status": "not_reported",
+      "evidence": {
+        "block_id": "T_6_81",
+        "page": 6,
+        "bbox": [
+          100.0,
+          697.0,
+          888.0,
+          832.0
+        ],
+        "source_type": "table",
+        "source_sentence": "447",
+        "table_locator": {
+          "table_id": "T_6_81",
+          "cell_id": "T_6_81:r0002:c0005",
+          "row_index": 2,
+          "column_index": 5,
+          "row_label": "PC-2",
+          "column_label": "$T_{d}^{50\\%}$ $(^{\\circ}\\text{C})$",
+          "cell_value": "447"
+        }
+      },
+      "confidence": null
+    },
+    {
+      "condition_id": "mc019",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {},
+      "other_condition_evidence": {},
+      "condition_status": "not_reported",
+      "evidence": {
+        "block_id": "T_6_81",
+        "page": 6,
+        "bbox": [
+          100.0,
+          697.0,
+          888.0,
+          832.0
+        ],
+        "source_type": "table",
+        "source_sentence": "397",
+        "table_locator": {
+          "table_id": "T_6_81",
+          "cell_id": "T_6_81:r0003:c0001",
+          "row_index": 3,
+          "column_index": 1,
+          "row_label": "PC-3",
+          "column_label": "$T_{d}^{i}$ $(^{\\circ}\\text{C})^{b}$",
+          "cell_value": "397"
+        }
+      },
+      "confidence": null
+    },
+    {
+      "condition_id": "mc020",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {},
+      "other_condition_evidence": {},
+      "condition_status": "not_reported",
+      "evidence": {
+        "block_id": "T_6_81",
+        "page": 6,
+        "bbox": [
+          100.0,
+          697.0,
+          888.0,
+          832.0
+        ],
+        "source_type": "table",
+        "source_sentence": "462",
+        "table_locator": {
+          "table_id": "T_6_81",
+          "cell_id": "T_6_81:r0003:c0002",
+          "row_index": 3,
+          "column_index": 2,
+          "row_label": "PC-3",
+          "column_label": "$T_{d}^{10\\%}$ $(^{\\circ}\\text{C})^{b}$",
+          "cell_value": "462"
+        }
+      },
+      "confidence": null
+    },
+    {
+      "condition_id": "mc021",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {},
+      "other_condition_evidence": {},
+      "condition_status": "not_reported",
+      "evidence": {
+        "block_id": "T_6_81",
+        "page": 6,
+        "bbox": [
+          100.0,
+          697.0,
+          888.0,
+          832.0
+        ],
+        "source_type": "table",
+        "source_sentence": "476",
+        "table_locator": {
+          "table_id": "T_6_81",
+          "cell_id": "T_6_81:r0003:c0003",
+          "row_index": 3,
+          "column_index": 3,
+          "row_label": "PC-3",
+          "column_label": "$T_{d}^{20\\%}$ $(^{\\circ}\\text{C})$",
+          "cell_value": "476"
+        }
+      },
+      "confidence": null
+    },
+    {
+      "condition_id": "mc022",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {},
+      "other_condition_evidence": {},
+      "condition_status": "not_reported",
+      "evidence": {
+        "block_id": "T_6_81",
+        "page": 6,
+        "bbox": [
+          100.0,
+          697.0,
+          888.0,
+          832.0
+        ],
+        "source_type": "table",
+        "source_sentence": "491",
+        "table_locator": {
+          "table_id": "T_6_81",
+          "cell_id": "T_6_81:r0003:c0004",
+          "row_index": 3,
+          "column_index": 4,
+          "row_label": "PC-3",
+          "column_label": "$T_{d}^{30\\%}$ $(^{\\circ}\\text{C})$",
+          "cell_value": "491"
+        }
+      },
+      "confidence": null
+    },
+    {
+      "condition_id": "mc023",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {},
+      "other_condition_evidence": {},
+      "condition_status": "not_reported",
+      "evidence": {
+        "block_id": "T_6_81",
+        "page": 6,
+        "bbox": [
+          100.0,
+          697.0,
+          888.0,
+          832.0
+        ],
+        "source_type": "table",
+        "source_sentence": "520",
+        "table_locator": {
+          "table_id": "T_6_81",
+          "cell_id": "T_6_81:r0003:c0005",
+          "row_index": 3,
+          "column_index": 5,
+          "row_label": "PC-3",
+          "column_label": "$T_{d}^{50\\%}$ $(^{\\circ}\\text{C})$",
+          "cell_value": "520"
+        }
+      },
+      "confidence": null
+    },
+    {
+      "condition_id": "mc024",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {},
+      "other_condition_evidence": {},
+      "condition_status": "not_reported",
+      "evidence": {
+        "block_id": "T_6_81",
+        "page": 6,
+        "bbox": [
+          100.0,
+          697.0,
+          888.0,
+          832.0
+        ],
+        "source_type": "table",
+        "source_sentence": "358",
+        "table_locator": {
+          "table_id": "T_6_81",
+          "cell_id": "T_6_81:r0004:c0001",
+          "row_index": 4,
+          "column_index": 1,
+          "row_label": "PC-4",
+          "column_label": "$T_{d}^{i}$ $(^{\\circ}\\text{C})^{b}$",
+          "cell_value": "358"
+        }
+      },
+      "confidence": null
+    },
+    {
+      "condition_id": "mc025",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {},
+      "other_condition_evidence": {},
+      "condition_status": "not_reported",
+      "evidence": {
+        "block_id": "T_6_81",
+        "page": 6,
+        "bbox": [
+          100.0,
+          697.0,
+          888.0,
+          832.0
+        ],
+        "source_type": "table",
+        "source_sentence": "442",
+        "table_locator": {
+          "table_id": "T_6_81",
+          "cell_id": "T_6_81:r0004:c0002",
+          "row_index": 4,
+          "column_index": 2,
+          "row_label": "PC-4",
+          "column_label": "$T_{d}^{10\\%}$ $(^{\\circ}\\text{C})^{b}$",
+          "cell_value": "442"
+        }
+      },
+      "confidence": null
+    },
+    {
+      "condition_id": "mc026",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {},
+      "other_condition_evidence": {},
+      "condition_status": "not_reported",
+      "evidence": {
+        "block_id": "T_6_81",
+        "page": 6,
+        "bbox": [
+          100.0,
+          697.0,
+          888.0,
+          832.0
+        ],
+        "source_type": "table",
+        "source_sentence": "480",
+        "table_locator": {
+          "table_id": "T_6_81",
+          "cell_id": "T_6_81:r0004:c0003",
+          "row_index": 4,
+          "column_index": 3,
+          "row_label": "PC-4",
+          "column_label": "$T_{d}^{20\\%}$ $(^{\\circ}\\text{C})$",
+          "cell_value": "480"
+        }
+      },
+      "confidence": null
+    },
+    {
+      "condition_id": "mc027",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {},
+      "other_condition_evidence": {},
+      "condition_status": "not_reported",
+      "evidence": {
+        "block_id": "T_6_81",
+        "page": 6,
+        "bbox": [
+          100.0,
+          697.0,
+          888.0,
+          832.0
+        ],
+        "source_type": "table",
+        "source_sentence": "495",
+        "table_locator": {
+          "table_id": "T_6_81",
+          "cell_id": "T_6_81:r0004:c0004",
+          "row_index": 4,
+          "column_index": 4,
+          "row_label": "PC-4",
+          "column_label": "$T_{d}^{30\\%}$ $(^{\\circ}\\text{C})$",
+          "cell_value": "495"
+        }
+      },
+      "confidence": null
+    },
+    {
+      "condition_id": "mc028",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {},
+      "other_condition_evidence": {},
+      "condition_status": "not_reported",
+      "evidence": {
+        "block_id": "T_6_81",
+        "page": 6,
+        "bbox": [
+          100.0,
+          697.0,
+          888.0,
+          832.0
+        ],
+        "source_type": "table",
+        "source_sentence": "514",
+        "table_locator": {
+          "table_id": "T_6_81",
+          "cell_id": "T_6_81:r0004:c0005",
+          "row_index": 4,
+          "column_index": 5,
+          "row_label": "PC-4",
+          "column_label": "$T_{d}^{50\\%}$ $(^{\\circ}\\text{C})$",
+          "cell_value": "514"
+        }
+      },
+      "confidence": null
+    },
+    {
+      "condition_id": "mc029",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {},
+      "other_condition_evidence": {},
+      "condition_status": "not_reported",
+      "evidence": {
+        "block_id": "T_6_81",
+        "page": 6,
+        "bbox": [
+          100.0,
+          697.0,
+          888.0,
+          832.0
+        ],
+        "source_type": "table",
+        "source_sentence": "341",
+        "table_locator": {
+          "table_id": "T_6_81",
+          "cell_id": "T_6_81:r0005:c0001",
+          "row_index": 5,
+          "column_index": 1,
+          "row_label": "PC-5",
+          "column_label": "$T_{d}^{i}$ $(^{\\circ}\\text{C})^{b}$",
+          "cell_value": "341"
+        }
+      },
+      "confidence": null
+    },
+    {
+      "condition_id": "mc030",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {},
+      "other_condition_evidence": {},
+      "condition_status": "not_reported",
+      "evidence": {
+        "block_id": "T_6_81",
+        "page": 6,
+        "bbox": [
+          100.0,
+          697.0,
+          888.0,
+          832.0
+        ],
+        "source_type": "table",
+        "source_sentence": "396",
+        "table_locator": {
+          "table_id": "T_6_81",
+          "cell_id": "T_6_81:r0005:c0002",
+          "row_index": 5,
+          "column_index": 2,
+          "row_label": "PC-5",
+          "column_label": "$T_{d}^{10\\%}$ $(^{\\circ}\\text{C})^{b}$",
+          "cell_value": "396"
+        }
+      },
+      "confidence": null
+    },
+    {
+      "condition_id": "mc031",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {},
+      "other_condition_evidence": {},
+      "condition_status": "not_reported",
+      "evidence": {
+        "block_id": "T_6_81",
+        "page": 6,
+        "bbox": [
+          100.0,
+          697.0,
+          888.0,
+          832.0
+        ],
+        "source_type": "table",
+        "source_sentence": "450",
+        "table_locator": {
+          "table_id": "T_6_81",
+          "cell_id": "T_6_81:r0005:c0003",
+          "row_index": 5,
+          "column_index": 3,
+          "row_label": "PC-5",
+          "column_label": "$T_{d}^{20\\%}$ $(^{\\circ}\\text{C})$",
+          "cell_value": "450"
+        }
+      },
+      "confidence": null
+    },
+    {
+      "condition_id": "mc032",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {},
+      "other_condition_evidence": {},
+      "condition_status": "not_reported",
+      "evidence": {
+        "block_id": "T_6_81",
+        "page": 6,
+        "bbox": [
+          100.0,
+          697.0,
+          888.0,
+          832.0
+        ],
+        "source_type": "table",
+        "source_sentence": "468",
+        "table_locator": {
+          "table_id": "T_6_81",
+          "cell_id": "T_6_81:r0005:c0004",
+          "row_index": 5,
+          "column_index": 4,
+          "row_label": "PC-5",
+          "column_label": "$T_{d}^{30\\%}$ $(^{\\circ}\\text{C})$",
+          "cell_value": "468"
+        }
+      },
+      "confidence": null
+    },
+    {
+      "condition_id": "mc033",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {},
+      "other_condition_evidence": {},
+      "condition_status": "not_reported",
+      "evidence": {
+        "block_id": "T_6_81",
+        "page": 6,
+        "bbox": [
+          100.0,
+          697.0,
+          888.0,
+          832.0
+        ],
+        "source_type": "table",
+        "source_sentence": "511",
+        "table_locator": {
+          "table_id": "T_6_81",
+          "cell_id": "T_6_81:r0005:c0005",
+          "row_index": 5,
+          "column_index": 5,
+          "row_label": "PC-5",
+          "column_label": "$T_{d}^{50\\%}$ $(^{\\circ}\\text{C})$",
+          "cell_value": "511"
+        }
+      },
+      "confidence": null
+    },
+    {
+      "condition_id": "mc034",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {},
+      "other_condition_evidence": {},
+      "condition_status": "not_reported",
+      "evidence": {
+        "block_id": "T_6_81",
+        "page": 6,
+        "bbox": [
+          100.0,
+          697.0,
+          888.0,
+          832.0
+        ],
+        "source_type": "table",
+        "source_sentence": "402",
+        "table_locator": {
+          "table_id": "T_6_81",
+          "cell_id": "T_6_81:r0006:c0001",
+          "row_index": 6,
+          "column_index": 1,
+          "row_label": "PC-6",
+          "column_label": "$T_{d}^{i}$ $(^{\\circ}\\text{C})^{b}$",
+          "cell_value": "402"
+        }
+      },
+      "confidence": null
+    },
+    {
+      "condition_id": "mc035",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {},
+      "other_condition_evidence": {},
+      "condition_status": "not_reported",
+      "evidence": {
+        "block_id": "T_6_81",
+        "page": 6,
+        "bbox": [
+          100.0,
+          697.0,
+          888.0,
+          832.0
+        ],
+        "source_type": "table",
+        "source_sentence": "477",
+        "table_locator": {
+          "table_id": "T_6_81",
+          "cell_id": "T_6_81:r0006:c0002",
+          "row_index": 6,
+          "column_index": 2,
+          "row_label": "PC-6",
+          "column_label": "$T_{d}^{10\\%}$ $(^{\\circ}\\text{C})^{b}$",
+          "cell_value": "477"
+        }
+      },
+      "confidence": null
+    },
+    {
+      "condition_id": "mc036",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {},
+      "other_condition_evidence": {},
+      "condition_status": "not_reported",
+      "evidence": {
+        "block_id": "T_6_81",
+        "page": 6,
+        "bbox": [
+          100.0,
+          697.0,
+          888.0,
+          832.0
+        ],
+        "source_type": "table",
+        "source_sentence": "494",
+        "table_locator": {
+          "table_id": "T_6_81",
+          "cell_id": "T_6_81:r0006:c0003",
+          "row_index": 6,
+          "column_index": 3,
+          "row_label": "PC-6",
+          "column_label": "$T_{d}^{20\\%}$ $(^{\\circ}\\text{C})$",
+          "cell_value": "494"
+        }
+      },
+      "confidence": null
+    },
+    {
+      "condition_id": "mc037",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {},
+      "other_condition_evidence": {},
+      "condition_status": "not_reported",
+      "evidence": {
+        "block_id": "T_6_81",
+        "page": 6,
+        "bbox": [
+          100.0,
+          697.0,
+          888.0,
+          832.0
+        ],
+        "source_type": "table",
+        "source_sentence": "505",
+        "table_locator": {
+          "table_id": "T_6_81",
+          "cell_id": "T_6_81:r0006:c0004",
+          "row_index": 6,
+          "column_index": 4,
+          "row_label": "PC-6",
+          "column_label": "$T_{d}^{30\\%}$ $(^{\\circ}\\text{C})$",
+          "cell_value": "505"
+        }
+      },
+      "confidence": null
+    },
+    {
+      "condition_id": "mc038",
+      "temperature": null,
+      "frequency": null,
+      "humidity": null,
+      "pressure": null,
+      "wavelength": null,
+      "other_conditions": {},
+      "other_condition_evidence": {},
+      "condition_status": "not_reported",
+      "evidence": {
+        "block_id": "T_6_81",
+        "page": 6,
+        "bbox": [
+          100.0,
+          697.0,
+          888.0,
+          832.0
+        ],
+        "source_type": "table",
+        "source_sentence": "540",
+        "table_locator": {
+          "table_id": "T_6_81",
+          "cell_id": "T_6_81:r0006:c0005",
+          "row_index": 6,
+          "column_index": 5,
+          "row_label": "PC-6",
+          "column_label": "$T_{d}^{50\\%}$ $(^{\\circ}\\text{C})$",
+          "cell_value": "540"
+        }
+      },
+      "confidence": null
+    }
+  ],
+  "properties": [
+    {
+      "property_id": "prop001",
+      "sample_id": "s001",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "394",
+      "value_min": null,
+      "value_max": null,
+      "unit_raw": "°C",
+      "unit_normalized": null,
+      "measurement_condition_id": "mc009",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_6_81",
+          "page": 6,
+          "bbox": [
+            100.0,
+            697.0,
+            888.0,
+            832.0
+          ],
+          "source_type": "table",
+          "source_sentence": "394",
+          "table_locator": {
+            "table_id": "T_6_81",
+            "cell_id": "T_6_81:r0001:c0001",
+            "row_index": 1,
+            "column_index": 1,
+            "row_label": "PC-1",
+            "column_label": "$T_{d}^{i}$ $(^{\\circ}\\text{C})^{b}$",
+            "cell_value": "394"
+          }
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "property_id": "prop002",
+      "sample_id": "s001",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "446",
+      "value_min": null,
+      "value_max": null,
+      "unit_raw": "°C",
+      "unit_normalized": null,
+      "measurement_condition_id": "mc010",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_6_81",
+          "page": 6,
+          "bbox": [
+            100.0,
+            697.0,
+            888.0,
+            832.0
+          ],
+          "source_type": "table",
+          "source_sentence": "446",
+          "table_locator": {
+            "table_id": "T_6_81",
+            "cell_id": "T_6_81:r0001:c0002",
+            "row_index": 1,
+            "column_index": 2,
+            "row_label": "PC-1",
+            "column_label": "$T_{d}^{10\\%}$ $(^{\\circ}\\text{C})^{b}$",
+            "cell_value": "446"
+          }
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "property_id": "prop003",
+      "sample_id": "s001",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "473",
+      "value_min": null,
+      "value_max": null,
+      "unit_raw": "°C",
+      "unit_normalized": null,
+      "measurement_condition_id": "mc011",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_6_81",
+          "page": 6,
+          "bbox": [
+            100.0,
+            697.0,
+            888.0,
+            832.0
+          ],
+          "source_type": "table",
+          "source_sentence": "473",
+          "table_locator": {
+            "table_id": "T_6_81",
+            "cell_id": "T_6_81:r0001:c0003",
+            "row_index": 1,
+            "column_index": 3,
+            "row_label": "PC-1",
+            "column_label": "$T_{d}^{20\\%}$ $(^{\\circ}\\text{C})$",
+            "cell_value": "473"
+          }
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "property_id": "prop004",
+      "sample_id": "s001",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "491",
+      "value_min": null,
+      "value_max": null,
+      "unit_raw": "°C",
+      "unit_normalized": null,
+      "measurement_condition_id": "mc012",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_6_81",
+          "page": 6,
+          "bbox": [
+            100.0,
+            697.0,
+            888.0,
+            832.0
+          ],
+          "source_type": "table",
+          "source_sentence": "491",
+          "table_locator": {
+            "table_id": "T_6_81",
+            "cell_id": "T_6_81:r0001:c0004",
+            "row_index": 1,
+            "column_index": 4,
+            "row_label": "PC-1",
+            "column_label": "$T_{d}^{30\\%}$ $(^{\\circ}\\text{C})$",
+            "cell_value": "491"
+          }
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "property_id": "prop005",
+      "sample_id": "s001",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "506",
+      "value_min": null,
+      "value_max": null,
+      "unit_raw": "°C",
+      "unit_normalized": null,
+      "measurement_condition_id": "mc013",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_6_81",
+          "page": 6,
+          "bbox": [
+            100.0,
+            697.0,
+            888.0,
+            832.0
+          ],
+          "source_type": "table",
+          "source_sentence": "506",
+          "table_locator": {
+            "table_id": "T_6_81",
+            "cell_id": "T_6_81:r0001:c0005",
+            "row_index": 1,
+            "column_index": 5,
+            "row_label": "PC-1",
+            "column_label": "$T_{d}^{50\\%}$ $(^{\\circ}\\text{C})$",
+            "cell_value": "506"
+          }
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "property_id": "prop006",
+      "sample_id": "s002",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "369",
+      "value_min": null,
+      "value_max": null,
+      "unit_raw": "°C",
+      "unit_normalized": null,
+      "measurement_condition_id": "mc014",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_6_81",
+          "page": 6,
+          "bbox": [
+            100.0,
+            697.0,
+            888.0,
+            832.0
+          ],
+          "source_type": "table",
+          "source_sentence": "369",
+          "table_locator": {
+            "table_id": "T_6_81",
+            "cell_id": "T_6_81:r0002:c0001",
+            "row_index": 2,
+            "column_index": 1,
+            "row_label": "PC-2",
+            "column_label": "$T_{d}^{i}$ $(^{\\circ}\\text{C})^{b}$",
+            "cell_value": "369"
+          }
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "property_id": "prop007",
+      "sample_id": "s002",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "403",
+      "value_min": null,
+      "value_max": null,
+      "unit_raw": "°C",
+      "unit_normalized": null,
+      "measurement_condition_id": "mc015",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_6_81",
+          "page": 6,
+          "bbox": [
+            100.0,
+            697.0,
+            888.0,
+            832.0
+          ],
+          "source_type": "table",
+          "source_sentence": "403",
+          "table_locator": {
+            "table_id": "T_6_81",
+            "cell_id": "T_6_81:r0002:c0002",
+            "row_index": 2,
+            "column_index": 2,
+            "row_label": "PC-2",
+            "column_label": "$T_{d}^{10\\%}$ $(^{\\circ}\\text{C})^{b}$",
+            "cell_value": "403"
+          }
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "property_id": "prop008",
+      "sample_id": "s002",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "422",
+      "value_min": null,
+      "value_max": null,
+      "unit_raw": "°C",
+      "unit_normalized": null,
+      "measurement_condition_id": "mc016",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_6_81",
+          "page": 6,
+          "bbox": [
+            100.0,
+            697.0,
+            888.0,
+            832.0
+          ],
+          "source_type": "table",
+          "source_sentence": "422",
+          "table_locator": {
+            "table_id": "T_6_81",
+            "cell_id": "T_6_81:r0002:c0003",
+            "row_index": 2,
+            "column_index": 3,
+            "row_label": "PC-2",
+            "column_label": "$T_{d}^{20\\%}$ $(^{\\circ}\\text{C})$",
+            "cell_value": "422"
+          }
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "property_id": "prop009",
+      "sample_id": "s002",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "431",
+      "value_min": null,
+      "value_max": null,
+      "unit_raw": "°C",
+      "unit_normalized": null,
+      "measurement_condition_id": "mc017",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_6_81",
+          "page": 6,
+          "bbox": [
+            100.0,
+            697.0,
+            888.0,
+            832.0
+          ],
+          "source_type": "table",
+          "source_sentence": "431",
+          "table_locator": {
+            "table_id": "T_6_81",
+            "cell_id": "T_6_81:r0002:c0004",
+            "row_index": 2,
+            "column_index": 4,
+            "row_label": "PC-2",
+            "column_label": "$T_{d}^{30\\%}$ $(^{\\circ}\\text{C})$",
+            "cell_value": "431"
+          }
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "property_id": "prop010",
+      "sample_id": "s002",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "447",
+      "value_min": null,
+      "value_max": null,
+      "unit_raw": "°C",
+      "unit_normalized": null,
+      "measurement_condition_id": "mc018",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_6_81",
+          "page": 6,
+          "bbox": [
+            100.0,
+            697.0,
+            888.0,
+            832.0
+          ],
+          "source_type": "table",
+          "source_sentence": "447",
+          "table_locator": {
+            "table_id": "T_6_81",
+            "cell_id": "T_6_81:r0002:c0005",
+            "row_index": 2,
+            "column_index": 5,
+            "row_label": "PC-2",
+            "column_label": "$T_{d}^{50\\%}$ $(^{\\circ}\\text{C})$",
+            "cell_value": "447"
+          }
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "property_id": "prop011",
+      "sample_id": "s003",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "397",
+      "value_min": null,
+      "value_max": null,
+      "unit_raw": "°C",
+      "unit_normalized": null,
+      "measurement_condition_id": "mc019",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_6_81",
+          "page": 6,
+          "bbox": [
+            100.0,
+            697.0,
+            888.0,
+            832.0
+          ],
+          "source_type": "table",
+          "source_sentence": "397",
+          "table_locator": {
+            "table_id": "T_6_81",
+            "cell_id": "T_6_81:r0003:c0001",
+            "row_index": 3,
+            "column_index": 1,
+            "row_label": "PC-3",
+            "column_label": "$T_{d}^{i}$ $(^{\\circ}\\text{C})^{b}$",
+            "cell_value": "397"
+          }
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "property_id": "prop012",
+      "sample_id": "s003",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "462",
+      "value_min": null,
+      "value_max": null,
+      "unit_raw": "°C",
+      "unit_normalized": null,
+      "measurement_condition_id": "mc020",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_6_81",
+          "page": 6,
+          "bbox": [
+            100.0,
+            697.0,
+            888.0,
+            832.0
+          ],
+          "source_type": "table",
+          "source_sentence": "462",
+          "table_locator": {
+            "table_id": "T_6_81",
+            "cell_id": "T_6_81:r0003:c0002",
+            "row_index": 3,
+            "column_index": 2,
+            "row_label": "PC-3",
+            "column_label": "$T_{d}^{10\\%}$ $(^{\\circ}\\text{C})^{b}$",
+            "cell_value": "462"
+          }
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "property_id": "prop013",
+      "sample_id": "s003",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "476",
+      "value_min": null,
+      "value_max": null,
+      "unit_raw": "°C",
+      "unit_normalized": null,
+      "measurement_condition_id": "mc021",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_6_81",
+          "page": 6,
+          "bbox": [
+            100.0,
+            697.0,
+            888.0,
+            832.0
+          ],
+          "source_type": "table",
+          "source_sentence": "476",
+          "table_locator": {
+            "table_id": "T_6_81",
+            "cell_id": "T_6_81:r0003:c0003",
+            "row_index": 3,
+            "column_index": 3,
+            "row_label": "PC-3",
+            "column_label": "$T_{d}^{20\\%}$ $(^{\\circ}\\text{C})$",
+            "cell_value": "476"
+          }
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "property_id": "prop014",
+      "sample_id": "s003",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "491",
+      "value_min": null,
+      "value_max": null,
+      "unit_raw": "°C",
+      "unit_normalized": null,
+      "measurement_condition_id": "mc022",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_6_81",
+          "page": 6,
+          "bbox": [
+            100.0,
+            697.0,
+            888.0,
+            832.0
+          ],
+          "source_type": "table",
+          "source_sentence": "491",
+          "table_locator": {
+            "table_id": "T_6_81",
+            "cell_id": "T_6_81:r0003:c0004",
+            "row_index": 3,
+            "column_index": 4,
+            "row_label": "PC-3",
+            "column_label": "$T_{d}^{30\\%}$ $(^{\\circ}\\text{C})$",
+            "cell_value": "491"
+          }
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "property_id": "prop015",
+      "sample_id": "s003",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "520",
+      "value_min": null,
+      "value_max": null,
+      "unit_raw": "°C",
+      "unit_normalized": null,
+      "measurement_condition_id": "mc023",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_6_81",
+          "page": 6,
+          "bbox": [
+            100.0,
+            697.0,
+            888.0,
+            832.0
+          ],
+          "source_type": "table",
+          "source_sentence": "520",
+          "table_locator": {
+            "table_id": "T_6_81",
+            "cell_id": "T_6_81:r0003:c0005",
+            "row_index": 3,
+            "column_index": 5,
+            "row_label": "PC-3",
+            "column_label": "$T_{d}^{50\\%}$ $(^{\\circ}\\text{C})$",
+            "cell_value": "520"
+          }
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "property_id": "prop016",
+      "sample_id": "s004",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "358",
+      "value_min": null,
+      "value_max": null,
+      "unit_raw": "°C",
+      "unit_normalized": null,
+      "measurement_condition_id": "mc024",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_6_81",
+          "page": 6,
+          "bbox": [
+            100.0,
+            697.0,
+            888.0,
+            832.0
+          ],
+          "source_type": "table",
+          "source_sentence": "358",
+          "table_locator": {
+            "table_id": "T_6_81",
+            "cell_id": "T_6_81:r0004:c0001",
+            "row_index": 4,
+            "column_index": 1,
+            "row_label": "PC-4",
+            "column_label": "$T_{d}^{i}$ $(^{\\circ}\\text{C})^{b}$",
+            "cell_value": "358"
+          }
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "property_id": "prop017",
+      "sample_id": "s004",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "442",
+      "value_min": null,
+      "value_max": null,
+      "unit_raw": "°C",
+      "unit_normalized": null,
+      "measurement_condition_id": "mc025",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_6_81",
+          "page": 6,
+          "bbox": [
+            100.0,
+            697.0,
+            888.0,
+            832.0
+          ],
+          "source_type": "table",
+          "source_sentence": "442",
+          "table_locator": {
+            "table_id": "T_6_81",
+            "cell_id": "T_6_81:r0004:c0002",
+            "row_index": 4,
+            "column_index": 2,
+            "row_label": "PC-4",
+            "column_label": "$T_{d}^{10\\%}$ $(^{\\circ}\\text{C})^{b}$",
+            "cell_value": "442"
+          }
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "property_id": "prop018",
+      "sample_id": "s004",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "480",
+      "value_min": null,
+      "value_max": null,
+      "unit_raw": "°C",
+      "unit_normalized": null,
+      "measurement_condition_id": "mc026",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_6_81",
+          "page": 6,
+          "bbox": [
+            100.0,
+            697.0,
+            888.0,
+            832.0
+          ],
+          "source_type": "table",
+          "source_sentence": "480",
+          "table_locator": {
+            "table_id": "T_6_81",
+            "cell_id": "T_6_81:r0004:c0003",
+            "row_index": 4,
+            "column_index": 3,
+            "row_label": "PC-4",
+            "column_label": "$T_{d}^{20\\%}$ $(^{\\circ}\\text{C})$",
+            "cell_value": "480"
+          }
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "property_id": "prop019",
+      "sample_id": "s004",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "495",
+      "value_min": null,
+      "value_max": null,
+      "unit_raw": "°C",
+      "unit_normalized": null,
+      "measurement_condition_id": "mc027",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_6_81",
+          "page": 6,
+          "bbox": [
+            100.0,
+            697.0,
+            888.0,
+            832.0
+          ],
+          "source_type": "table",
+          "source_sentence": "495",
+          "table_locator": {
+            "table_id": "T_6_81",
+            "cell_id": "T_6_81:r0004:c0004",
+            "row_index": 4,
+            "column_index": 4,
+            "row_label": "PC-4",
+            "column_label": "$T_{d}^{30\\%}$ $(^{\\circ}\\text{C})$",
+            "cell_value": "495"
+          }
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "property_id": "prop020",
+      "sample_id": "s004",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "514",
+      "value_min": null,
+      "value_max": null,
+      "unit_raw": "°C",
+      "unit_normalized": null,
+      "measurement_condition_id": "mc028",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_6_81",
+          "page": 6,
+          "bbox": [
+            100.0,
+            697.0,
+            888.0,
+            832.0
+          ],
+          "source_type": "table",
+          "source_sentence": "514",
+          "table_locator": {
+            "table_id": "T_6_81",
+            "cell_id": "T_6_81:r0004:c0005",
+            "row_index": 4,
+            "column_index": 5,
+            "row_label": "PC-4",
+            "column_label": "$T_{d}^{50\\%}$ $(^{\\circ}\\text{C})$",
+            "cell_value": "514"
+          }
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "property_id": "prop021",
+      "sample_id": "s005",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "341",
+      "value_min": null,
+      "value_max": null,
+      "unit_raw": "°C",
+      "unit_normalized": null,
+      "measurement_condition_id": "mc029",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_6_81",
+          "page": 6,
+          "bbox": [
+            100.0,
+            697.0,
+            888.0,
+            832.0
+          ],
+          "source_type": "table",
+          "source_sentence": "341",
+          "table_locator": {
+            "table_id": "T_6_81",
+            "cell_id": "T_6_81:r0005:c0001",
+            "row_index": 5,
+            "column_index": 1,
+            "row_label": "PC-5",
+            "column_label": "$T_{d}^{i}$ $(^{\\circ}\\text{C})^{b}$",
+            "cell_value": "341"
+          }
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "property_id": "prop022",
+      "sample_id": "s005",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "396",
+      "value_min": null,
+      "value_max": null,
+      "unit_raw": "°C",
+      "unit_normalized": null,
+      "measurement_condition_id": "mc030",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_6_81",
+          "page": 6,
+          "bbox": [
+            100.0,
+            697.0,
+            888.0,
+            832.0
+          ],
+          "source_type": "table",
+          "source_sentence": "396",
+          "table_locator": {
+            "table_id": "T_6_81",
+            "cell_id": "T_6_81:r0005:c0002",
+            "row_index": 5,
+            "column_index": 2,
+            "row_label": "PC-5",
+            "column_label": "$T_{d}^{10\\%}$ $(^{\\circ}\\text{C})^{b}$",
+            "cell_value": "396"
+          }
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "property_id": "prop023",
+      "sample_id": "s005",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "450",
+      "value_min": null,
+      "value_max": null,
+      "unit_raw": "°C",
+      "unit_normalized": null,
+      "measurement_condition_id": "mc031",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_6_81",
+          "page": 6,
+          "bbox": [
+            100.0,
+            697.0,
+            888.0,
+            832.0
+          ],
+          "source_type": "table",
+          "source_sentence": "450",
+          "table_locator": {
+            "table_id": "T_6_81",
+            "cell_id": "T_6_81:r0005:c0003",
+            "row_index": 5,
+            "column_index": 3,
+            "row_label": "PC-5",
+            "column_label": "$T_{d}^{20\\%}$ $(^{\\circ}\\text{C})$",
+            "cell_value": "450"
+          }
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "property_id": "prop024",
+      "sample_id": "s005",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "468",
+      "value_min": null,
+      "value_max": null,
+      "unit_raw": "°C",
+      "unit_normalized": null,
+      "measurement_condition_id": "mc032",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_6_81",
+          "page": 6,
+          "bbox": [
+            100.0,
+            697.0,
+            888.0,
+            832.0
+          ],
+          "source_type": "table",
+          "source_sentence": "468",
+          "table_locator": {
+            "table_id": "T_6_81",
+            "cell_id": "T_6_81:r0005:c0004",
+            "row_index": 5,
+            "column_index": 4,
+            "row_label": "PC-5",
+            "column_label": "$T_{d}^{30\\%}$ $(^{\\circ}\\text{C})$",
+            "cell_value": "468"
+          }
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "property_id": "prop025",
+      "sample_id": "s005",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "511",
+      "value_min": null,
+      "value_max": null,
+      "unit_raw": "°C",
+      "unit_normalized": null,
+      "measurement_condition_id": "mc033",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_6_81",
+          "page": 6,
+          "bbox": [
+            100.0,
+            697.0,
+            888.0,
+            832.0
+          ],
+          "source_type": "table",
+          "source_sentence": "511",
+          "table_locator": {
+            "table_id": "T_6_81",
+            "cell_id": "T_6_81:r0005:c0005",
+            "row_index": 5,
+            "column_index": 5,
+            "row_label": "PC-5",
+            "column_label": "$T_{d}^{50\\%}$ $(^{\\circ}\\text{C})$",
+            "cell_value": "511"
+          }
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "property_id": "prop026",
+      "sample_id": "s006",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "402",
+      "value_min": null,
+      "value_max": null,
+      "unit_raw": "°C",
+      "unit_normalized": null,
+      "measurement_condition_id": "mc034",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_6_81",
+          "page": 6,
+          "bbox": [
+            100.0,
+            697.0,
+            888.0,
+            832.0
+          ],
+          "source_type": "table",
+          "source_sentence": "402",
+          "table_locator": {
+            "table_id": "T_6_81",
+            "cell_id": "T_6_81:r0006:c0001",
+            "row_index": 6,
+            "column_index": 1,
+            "row_label": "PC-6",
+            "column_label": "$T_{d}^{i}$ $(^{\\circ}\\text{C})^{b}$",
+            "cell_value": "402"
+          }
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "property_id": "prop027",
+      "sample_id": "s006",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "477",
+      "value_min": null,
+      "value_max": null,
+      "unit_raw": "°C",
+      "unit_normalized": null,
+      "measurement_condition_id": "mc035",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_6_81",
+          "page": 6,
+          "bbox": [
+            100.0,
+            697.0,
+            888.0,
+            832.0
+          ],
+          "source_type": "table",
+          "source_sentence": "477",
+          "table_locator": {
+            "table_id": "T_6_81",
+            "cell_id": "T_6_81:r0006:c0002",
+            "row_index": 6,
+            "column_index": 2,
+            "row_label": "PC-6",
+            "column_label": "$T_{d}^{10\\%}$ $(^{\\circ}\\text{C})^{b}$",
+            "cell_value": "477"
+          }
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "property_id": "prop028",
+      "sample_id": "s006",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "494",
+      "value_min": null,
+      "value_max": null,
+      "unit_raw": "°C",
+      "unit_normalized": null,
+      "measurement_condition_id": "mc036",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_6_81",
+          "page": 6,
+          "bbox": [
+            100.0,
+            697.0,
+            888.0,
+            832.0
+          ],
+          "source_type": "table",
+          "source_sentence": "494",
+          "table_locator": {
+            "table_id": "T_6_81",
+            "cell_id": "T_6_81:r0006:c0003",
+            "row_index": 6,
+            "column_index": 3,
+            "row_label": "PC-6",
+            "column_label": "$T_{d}^{20\\%}$ $(^{\\circ}\\text{C})$",
+            "cell_value": "494"
+          }
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "property_id": "prop029",
+      "sample_id": "s006",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "505",
+      "value_min": null,
+      "value_max": null,
+      "unit_raw": "°C",
+      "unit_normalized": null,
+      "measurement_condition_id": "mc037",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_6_81",
+          "page": 6,
+          "bbox": [
+            100.0,
+            697.0,
+            888.0,
+            832.0
+          ],
+          "source_type": "table",
+          "source_sentence": "505",
+          "table_locator": {
+            "table_id": "T_6_81",
+            "cell_id": "T_6_81:r0006:c0004",
+            "row_index": 6,
+            "column_index": 4,
+            "row_label": "PC-6",
+            "column_label": "$T_{d}^{30\\%}$ $(^{\\circ}\\text{C})$",
+            "cell_value": "505"
+          }
+        }
+      ],
+      "confidence": null
+    },
+    {
+      "property_id": "prop030",
+      "sample_id": "s006",
+      "property_name_raw": "thermal_decomposition_temperature",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "single",
+      "series_id": null,
+      "series_ids": null,
+      "value_raw": "540",
+      "value_min": null,
+      "value_max": null,
+      "unit_raw": "°C",
+      "unit_normalized": null,
+      "measurement_condition_id": "mc038",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_6_81",
+          "page": 6,
+          "bbox": [
+            100.0,
+            697.0,
+            888.0,
+            832.0
+          ],
+          "source_type": "table",
+          "source_sentence": "540",
+          "table_locator": {
+            "table_id": "T_6_81",
+            "cell_id": "T_6_81:r0006:c0005",
+            "row_index": 6,
+            "column_index": 5,
+            "row_label": "PC-6",
+            "column_label": "$T_{d}^{50\\%}$ $(^{\\circ}\\text{C})$",
+            "cell_value": "540"
+          }
+        }
+      ],
+      "confidence": null
+    }
+  ],
+  "unresolved_properties": [
+    {
+      "unresolved_id": "uprop001",
+      "entity_id": "pe007",
+      "sample_id": null,
+      "property_name_raw": "inherent viscosity",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "molecular_weight_type": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "observation_role": "aggregate",
+      "series_id": "series002",
+      "series_ids": null,
+      "value_raw": "0.77 to 0.18 dL/g",
+      "value_min": null,
+      "value_max": null,
+      "unit_raw": "dL/g",
+      "unit_normalized": null,
+      "measurement_condition_id": null,
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "reason": "sample_ambiguous",
+      "evidence": [
+        {
+          "block_id": "P_3_57",
+          "page": 3,
+          "bbox": [
+            519.0,
+            527.0,
+            903.0,
+            681.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The inherent viscosities of all polymers were in the range of 0.77 to 0.18 dL/g.",
+          "table_locator": null
+        }
+      ],
+      "confidence": {
+        "score": 0.8
+      }
+    }
+  ],
+  "property_series": [
+    {
+      "series_id": "series001",
+      "sample_id": null,
+      "entity_id": null,
+      "sample_resolution_status": "unresolved",
+      "property_name_raw": "Yield",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "unit_raw": "%",
+      "unit_normalized": null,
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "points": [
+        {
+          "point_id": "pt001",
+          "observation_role": "series_point",
+          "sample_id": "s001",
+          "entity_id": "pe001",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "Polymer",
+              "value_raw": "PC-1",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_3_49",
+                "page": 3,
+                "bbox": [
+                  111.0,
+                  135.0,
+                  490.0,
+                  275.0
+                ],
+                "source_type": "table",
+                "source_sentence": "PC-1",
+                "table_locator": {
+                  "table_id": "T_3_49",
+                  "row_label": "PC-1",
+                  "column_label": "Polymer",
+                  "cell_value": "PC-1",
+                  "cell_id": "T_3_49:r0001:c0000",
+                  "row_index": 1,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "87.2",
+          "value_min": 87.2,
+          "value_max": 87.2,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_3_49",
+              "page": 3,
+              "bbox": [
+                111.0,
+                135.0,
+                490.0,
+                275.0
+              ],
+              "source_type": "table",
+              "source_sentence": "87.2",
+              "table_locator": {
+                "table_id": "T_3_49",
+                "row_label": "PC-1",
+                "column_label": "Yield (%)",
+                "cell_value": "87.2",
+                "cell_id": "T_3_49:r0001:c0001",
+                "row_index": 1,
+                "column_index": 1
+              }
+            }
+          ],
+          "confidence": {
+            "score": 1.0
+          }
+        },
+        {
+          "point_id": "pt002",
+          "observation_role": "series_point",
+          "sample_id": "s002",
+          "entity_id": "pe002",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "Polymer",
+              "value_raw": "PC-2",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_3_49",
+                "page": 3,
+                "bbox": [
+                  111.0,
+                  135.0,
+                  490.0,
+                  275.0
+                ],
+                "source_type": "table",
+                "source_sentence": "PC-2",
+                "table_locator": {
+                  "table_id": "T_3_49",
+                  "row_label": "PC-2",
+                  "column_label": "Polymer",
+                  "cell_value": "PC-2",
+                  "cell_id": "T_3_49:r0002:c0000",
+                  "row_index": 2,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "86.5",
+          "value_min": 86.5,
+          "value_max": 86.5,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_3_49",
+              "page": 3,
+              "bbox": [
+                111.0,
+                135.0,
+                490.0,
+                275.0
+              ],
+              "source_type": "table",
+              "source_sentence": "86.5",
+              "table_locator": {
+                "table_id": "T_3_49",
+                "row_label": "PC-2",
+                "column_label": "Yield (%)",
+                "cell_value": "86.5",
+                "cell_id": "T_3_49:r0002:c0001",
+                "row_index": 2,
+                "column_index": 1
+              }
+            }
+          ],
+          "confidence": {
+            "score": 1.0
+          }
+        },
+        {
+          "point_id": "pt003",
+          "observation_role": "series_point",
+          "sample_id": "s003",
+          "entity_id": "pe003",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "Polymer",
+              "value_raw": "PC-3",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_3_49",
+                "page": 3,
+                "bbox": [
+                  111.0,
+                  135.0,
+                  490.0,
+                  275.0
+                ],
+                "source_type": "table",
+                "source_sentence": "PC-3",
+                "table_locator": {
+                  "table_id": "T_3_49",
+                  "row_label": "PC-3",
+                  "column_label": "Polymer",
+                  "cell_value": "PC-3",
+                  "cell_id": "T_3_49:r0003:c0000",
+                  "row_index": 3,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "86.9",
+          "value_min": 86.9,
+          "value_max": 86.9,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_3_49",
+              "page": 3,
+              "bbox": [
+                111.0,
+                135.0,
+                490.0,
+                275.0
+              ],
+              "source_type": "table",
+              "source_sentence": "86.9",
+              "table_locator": {
+                "table_id": "T_3_49",
+                "row_label": "PC-3",
+                "column_label": "Yield (%)",
+                "cell_value": "86.9",
+                "cell_id": "T_3_49:r0003:c0001",
+                "row_index": 3,
+                "column_index": 1
+              }
+            }
+          ],
+          "confidence": {
+            "score": 1.0
+          }
+        },
+        {
+          "point_id": "pt004",
+          "observation_role": "series_point",
+          "sample_id": "s004",
+          "entity_id": "pe004",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "Polymer",
+              "value_raw": "PC-4",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_3_49",
+                "page": 3,
+                "bbox": [
+                  111.0,
+                  135.0,
+                  490.0,
+                  275.0
+                ],
+                "source_type": "table",
+                "source_sentence": "PC-4",
+                "table_locator": {
+                  "table_id": "T_3_49",
+                  "row_label": "PC-4",
+                  "column_label": "Polymer",
+                  "cell_value": "PC-4",
+                  "cell_id": "T_3_49:r0004:c0000",
+                  "row_index": 4,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "91.7",
+          "value_min": 91.7,
+          "value_max": 91.7,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_3_49",
+              "page": 3,
+              "bbox": [
+                111.0,
+                135.0,
+                490.0,
+                275.0
+              ],
+              "source_type": "table",
+              "source_sentence": "91.7",
+              "table_locator": {
+                "table_id": "T_3_49",
+                "row_label": "PC-4",
+                "column_label": "Yield (%)",
+                "cell_value": "91.7",
+                "cell_id": "T_3_49:r0004:c0001",
+                "row_index": 4,
+                "column_index": 1
+              }
+            }
+          ],
+          "confidence": {
+            "score": 1.0
+          }
+        },
+        {
+          "point_id": "pt005",
+          "observation_role": "series_point",
+          "sample_id": "s005",
+          "entity_id": "pe005",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "Polymer",
+              "value_raw": "PC-5",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_3_49",
+                "page": 3,
+                "bbox": [
+                  111.0,
+                  135.0,
+                  490.0,
+                  275.0
+                ],
+                "source_type": "table",
+                "source_sentence": "PC-5",
+                "table_locator": {
+                  "table_id": "T_3_49",
+                  "row_label": "PC-5",
+                  "column_label": "Polymer",
+                  "cell_value": "PC-5",
+                  "cell_id": "T_3_49:r0005:c0000",
+                  "row_index": 5,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "72.3",
+          "value_min": 72.3,
+          "value_max": 72.3,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_3_49",
+              "page": 3,
+              "bbox": [
+                111.0,
+                135.0,
+                490.0,
+                275.0
+              ],
+              "source_type": "table",
+              "source_sentence": "72.3",
+              "table_locator": {
+                "table_id": "T_3_49",
+                "row_label": "PC-5",
+                "column_label": "Yield (%)",
+                "cell_value": "72.3",
+                "cell_id": "T_3_49:r0005:c0001",
+                "row_index": 5,
+                "column_index": 1
+              }
+            }
+          ],
+          "confidence": {
+            "score": 1.0
+          }
+        },
+        {
+          "point_id": "pt006",
+          "observation_role": "series_point",
+          "sample_id": "s006",
+          "entity_id": "pe006",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "Polymer",
+              "value_raw": "PC-6",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_3_49",
+                "page": 3,
+                "bbox": [
+                  111.0,
+                  135.0,
+                  490.0,
+                  275.0
+                ],
+                "source_type": "table",
+                "source_sentence": "PC-6",
+                "table_locator": {
+                  "table_id": "T_3_49",
+                  "row_label": "PC-6",
+                  "column_label": "Polymer",
+                  "cell_value": "PC-6",
+                  "cell_id": "T_3_49:r0006:c0000",
+                  "row_index": 6,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "90.2",
+          "value_min": 90.2,
+          "value_max": 90.2,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_3_49",
+              "page": 3,
+              "bbox": [
+                111.0,
+                135.0,
+                490.0,
+                275.0
+              ],
+              "source_type": "table",
+              "source_sentence": "90.2",
+              "table_locator": {
+                "table_id": "T_3_49",
+                "row_label": "PC-6",
+                "column_label": "Yield (%)",
+                "cell_value": "90.2",
+                "cell_id": "T_3_49:r0006:c0001",
+                "row_index": 6,
+                "column_index": 1
+              }
+            }
+          ],
+          "confidence": {
+            "score": 1.0
+          }
+        }
+      ],
+      "coverage": {
+        "expected": 6,
+        "covered": 6,
+        "missing": 0,
+        "not_applicable": 0,
+        "ratio": 1.0
+      },
+      "evidence": [
+        {
+          "block_id": "T_3_49",
+          "page": 3,
+          "bbox": [
+            111.0,
+            135.0,
+            490.0,
+            275.0
+          ],
+          "source_type": "table",
+          "source_sentence": "87.2",
+          "table_locator": {
+            "table_id": "T_3_49",
+            "row_label": "PC-1",
+            "column_label": "Yield (%)",
+            "cell_value": "87.2",
+            "cell_id": "T_3_49:r0001:c0001",
+            "row_index": 1,
+            "column_index": 1
+          }
+        },
+        {
+          "block_id": "T_3_49",
+          "page": 3,
+          "bbox": [
+            111.0,
+            135.0,
+            490.0,
+            275.0
+          ],
+          "source_type": "table",
+          "source_sentence": "86.5",
+          "table_locator": {
+            "table_id": "T_3_49",
+            "row_label": "PC-2",
+            "column_label": "Yield (%)",
+            "cell_value": "86.5",
+            "cell_id": "T_3_49:r0002:c0001",
+            "row_index": 2,
+            "column_index": 1
+          }
+        },
+        {
+          "block_id": "T_3_49",
+          "page": 3,
+          "bbox": [
+            111.0,
+            135.0,
+            490.0,
+            275.0
+          ],
+          "source_type": "table",
+          "source_sentence": "86.9",
+          "table_locator": {
+            "table_id": "T_3_49",
+            "row_label": "PC-3",
+            "column_label": "Yield (%)",
+            "cell_value": "86.9",
+            "cell_id": "T_3_49:r0003:c0001",
+            "row_index": 3,
+            "column_index": 1
+          }
+        },
+        {
+          "block_id": "T_3_49",
+          "page": 3,
+          "bbox": [
+            111.0,
+            135.0,
+            490.0,
+            275.0
+          ],
+          "source_type": "table",
+          "source_sentence": "91.7",
+          "table_locator": {
+            "table_id": "T_3_49",
+            "row_label": "PC-4",
+            "column_label": "Yield (%)",
+            "cell_value": "91.7",
+            "cell_id": "T_3_49:r0004:c0001",
+            "row_index": 4,
+            "column_index": 1
+          }
+        },
+        {
+          "block_id": "T_3_49",
+          "page": 3,
+          "bbox": [
+            111.0,
+            135.0,
+            490.0,
+            275.0
+          ],
+          "source_type": "table",
+          "source_sentence": "72.3",
+          "table_locator": {
+            "table_id": "T_3_49",
+            "row_label": "PC-5",
+            "column_label": "Yield (%)",
+            "cell_value": "72.3",
+            "cell_id": "T_3_49:r0005:c0001",
+            "row_index": 5,
+            "column_index": 1
+          }
+        },
+        {
+          "block_id": "T_3_49",
+          "page": 3,
+          "bbox": [
+            111.0,
+            135.0,
+            490.0,
+            275.0
+          ],
+          "source_type": "table",
+          "source_sentence": "90.2",
+          "table_locator": {
+            "table_id": "T_3_49",
+            "row_label": "PC-6",
+            "column_label": "Yield (%)",
+            "cell_value": "90.2",
+            "cell_id": "T_3_49:r0006:c0001",
+            "row_index": 6,
+            "column_index": 1
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "series_id": "series002",
+      "sample_id": null,
+      "entity_id": null,
+      "sample_resolution_status": "unresolved",
+      "property_name_raw": "η_inh",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "unit_raw": "dL/g",
+      "unit_normalized": null,
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {
+          "concentration": "0.5 dL/g",
+          "instrument": "Ubbelohde viscometer"
+        },
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "points": [
+        {
+          "point_id": "pt007",
+          "observation_role": "series_point",
+          "sample_id": "s001",
+          "entity_id": "pe001",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "Polymer",
+              "value_raw": "PC-1",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_3_49",
+                "page": 3,
+                "bbox": [
+                  111.0,
+                  135.0,
+                  490.0,
+                  275.0
+                ],
+                "source_type": "table",
+                "source_sentence": "PC-1",
+                "table_locator": {
+                  "table_id": "T_3_49",
+                  "row_label": "PC-1",
+                  "column_label": "Polymer",
+                  "cell_value": "PC-1",
+                  "cell_id": "T_3_49:r0001:c0000",
+                  "row_index": 1,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "0.77",
+          "value_min": 0.77,
+          "value_max": 0.77,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "concentration": "0.5 dL/g",
+              "instrument": "Ubbelohde viscometer"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_3_49",
+              "page": 3,
+              "bbox": [
+                111.0,
+                135.0,
+                490.0,
+                275.0
+              ],
+              "source_type": "table",
+              "source_sentence": "0.77",
+              "table_locator": {
+                "table_id": "T_3_49",
+                "row_label": "PC-1",
+                "column_label": "$\\eta_{\\text{inh}}^{\\text{b}}$ (dL/g)",
+                "cell_value": "0.77",
+                "cell_id": "T_3_49:r0001:c0002",
+                "row_index": 1,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 1.0
+          }
+        },
+        {
+          "point_id": "pt008",
+          "observation_role": "series_point",
+          "sample_id": "s002",
+          "entity_id": "pe002",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "Polymer",
+              "value_raw": "PC-2",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_3_49",
+                "page": 3,
+                "bbox": [
+                  111.0,
+                  135.0,
+                  490.0,
+                  275.0
+                ],
+                "source_type": "table",
+                "source_sentence": "PC-2",
+                "table_locator": {
+                  "table_id": "T_3_49",
+                  "row_label": "PC-2",
+                  "column_label": "Polymer",
+                  "cell_value": "PC-2",
+                  "cell_id": "T_3_49:r0002:c0000",
+                  "row_index": 2,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "0.32",
+          "value_min": 0.32,
+          "value_max": 0.32,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "concentration": "0.5 dL/g",
+              "instrument": "Ubbelohde viscometer"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_3_49",
+              "page": 3,
+              "bbox": [
+                111.0,
+                135.0,
+                490.0,
+                275.0
+              ],
+              "source_type": "table",
+              "source_sentence": "0.32",
+              "table_locator": {
+                "table_id": "T_3_49",
+                "row_label": "PC-2",
+                "column_label": "$\\eta_{\\text{inh}}^{\\text{b}}$ (dL/g)",
+                "cell_value": "0.32",
+                "cell_id": "T_3_49:r0002:c0002",
+                "row_index": 2,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 1.0
+          }
+        },
+        {
+          "point_id": "pt009",
+          "observation_role": "series_point",
+          "sample_id": "s003",
+          "entity_id": "pe003",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "Polymer",
+              "value_raw": "PC-3",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_3_49",
+                "page": 3,
+                "bbox": [
+                  111.0,
+                  135.0,
+                  490.0,
+                  275.0
+                ],
+                "source_type": "table",
+                "source_sentence": "PC-3",
+                "table_locator": {
+                  "table_id": "T_3_49",
+                  "row_label": "PC-3",
+                  "column_label": "Polymer",
+                  "cell_value": "PC-3",
+                  "cell_id": "T_3_49:r0003:c0000",
+                  "row_index": 3,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "0.36",
+          "value_min": 0.36,
+          "value_max": 0.36,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "concentration": "0.5 dL/g",
+              "instrument": "Ubbelohde viscometer"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_3_49",
+              "page": 3,
+              "bbox": [
+                111.0,
+                135.0,
+                490.0,
+                275.0
+              ],
+              "source_type": "table",
+              "source_sentence": "0.36",
+              "table_locator": {
+                "table_id": "T_3_49",
+                "row_label": "PC-3",
+                "column_label": "$\\eta_{\\text{inh}}^{\\text{b}}$ (dL/g)",
+                "cell_value": "0.36",
+                "cell_id": "T_3_49:r0003:c0002",
+                "row_index": 3,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 1.0
+          }
+        },
+        {
+          "point_id": "pt010",
+          "observation_role": "series_point",
+          "sample_id": "s004",
+          "entity_id": "pe004",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "Polymer",
+              "value_raw": "PC-4",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_3_49",
+                "page": 3,
+                "bbox": [
+                  111.0,
+                  135.0,
+                  490.0,
+                  275.0
+                ],
+                "source_type": "table",
+                "source_sentence": "PC-4",
+                "table_locator": {
+                  "table_id": "T_3_49",
+                  "row_label": "PC-4",
+                  "column_label": "Polymer",
+                  "cell_value": "PC-4",
+                  "cell_id": "T_3_49:r0004:c0000",
+                  "row_index": 4,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "0.26",
+          "value_min": 0.26,
+          "value_max": 0.26,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "concentration": "0.5 dL/g",
+              "instrument": "Ubbelohde viscometer"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_3_49",
+              "page": 3,
+              "bbox": [
+                111.0,
+                135.0,
+                490.0,
+                275.0
+              ],
+              "source_type": "table",
+              "source_sentence": "0.26",
+              "table_locator": {
+                "table_id": "T_3_49",
+                "row_label": "PC-4",
+                "column_label": "$\\eta_{\\text{inh}}^{\\text{b}}$ (dL/g)",
+                "cell_value": "0.26",
+                "cell_id": "T_3_49:r0004:c0002",
+                "row_index": 4,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 1.0
+          }
+        },
+        {
+          "point_id": "pt011",
+          "observation_role": "series_point",
+          "sample_id": "s005",
+          "entity_id": "pe005",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "Polymer",
+              "value_raw": "PC-5",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_3_49",
+                "page": 3,
+                "bbox": [
+                  111.0,
+                  135.0,
+                  490.0,
+                  275.0
+                ],
+                "source_type": "table",
+                "source_sentence": "PC-5",
+                "table_locator": {
+                  "table_id": "T_3_49",
+                  "row_label": "PC-5",
+                  "column_label": "Polymer",
+                  "cell_value": "PC-5",
+                  "cell_id": "T_3_49:r0005:c0000",
+                  "row_index": 5,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "0.18",
+          "value_min": 0.18,
+          "value_max": 0.18,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "concentration": "0.5 dL/g",
+              "instrument": "Ubbelohde viscometer"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_3_49",
+              "page": 3,
+              "bbox": [
+                111.0,
+                135.0,
+                490.0,
+                275.0
+              ],
+              "source_type": "table",
+              "source_sentence": "0.18",
+              "table_locator": {
+                "table_id": "T_3_49",
+                "row_label": "PC-5",
+                "column_label": "$\\eta_{\\text{inh}}^{\\text{b}}$ (dL/g)",
+                "cell_value": "0.18",
+                "cell_id": "T_3_49:r0005:c0002",
+                "row_index": 5,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 1.0
+          }
+        },
+        {
+          "point_id": "pt012",
+          "observation_role": "series_point",
+          "sample_id": "s006",
+          "entity_id": "pe006",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "Polymer",
+              "value_raw": "PC-6",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_3_49",
+                "page": 3,
+                "bbox": [
+                  111.0,
+                  135.0,
+                  490.0,
+                  275.0
+                ],
+                "source_type": "table",
+                "source_sentence": "PC-6",
+                "table_locator": {
+                  "table_id": "T_3_49",
+                  "row_label": "PC-6",
+                  "column_label": "Polymer",
+                  "cell_value": "PC-6",
+                  "cell_id": "T_3_49:r0006:c0000",
+                  "row_index": 6,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "0.31",
+          "value_min": 0.31,
+          "value_max": 0.31,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "concentration": "0.5 dL/g",
+              "instrument": "Ubbelohde viscometer"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_3_49",
+              "page": 3,
+              "bbox": [
+                111.0,
+                135.0,
+                490.0,
+                275.0
+              ],
+              "source_type": "table",
+              "source_sentence": "0.31",
+              "table_locator": {
+                "table_id": "T_3_49",
+                "row_label": "PC-6",
+                "column_label": "$\\eta_{\\text{inh}}^{\\text{b}}$ (dL/g)",
+                "cell_value": "0.31",
+                "cell_id": "T_3_49:r0006:c0002",
+                "row_index": 6,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 1.0
+          }
+        }
+      ],
+      "coverage": {
+        "expected": 6,
+        "covered": 6,
+        "missing": 0,
+        "not_applicable": 0,
+        "ratio": 1.0
+      },
+      "evidence": [
+        {
+          "block_id": "P_3_52",
+          "page": 3,
+          "bbox": [
+            108.0,
+            496.0,
+            491.0,
+            681.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The inherent viscosities,  $\\eta_{inh}$, were measured with an Ubbelohde viscometer at a concentration 0.5 dL/g.",
+          "table_locator": null
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "series_id": "series003",
+      "sample_id": null,
+      "entity_id": null,
+      "sample_resolution_status": "unresolved",
+      "property_name_raw": "Degree of Crystallinity",
+      "property_name_normalized": null,
+      "property_code": null,
+      "property_category": null,
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "unit_raw": "%",
+      "unit_normalized": null,
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {
+          "method": "powder XRD",
+          "instrument": "Philips PW 1710 x-ray diffractometer"
+        },
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "points": [
+        {
+          "point_id": "pt013",
+          "observation_role": "series_point",
+          "sample_id": "s001",
+          "entity_id": "pe001",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "Polymer",
+              "value_raw": "PC-1",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_5_70",
+                "page": 5,
+                "bbox": [
+                  113.0,
+                  106.0,
+                  901.0,
+                  258.0
+                ],
+                "source_type": "table",
+                "source_sentence": "PC-1",
+                "table_locator": {
+                  "table_id": "T_5_70",
+                  "row_label": "PC-1",
+                  "column_label": "Polymer",
+                  "cell_value": "PC-1",
+                  "cell_id": "T_5_70:r0001:c0000",
+                  "row_index": 1,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "33.4",
+          "value_min": 33.4,
+          "value_max": 33.4,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "method": "powder XRD",
+              "instrument": "Philips PW 1710 x-ray diffractometer"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_5_70",
+              "page": 5,
+              "bbox": [
+                113.0,
+                106.0,
+                901.0,
+                258.0
+              ],
+              "source_type": "table",
+              "source_sentence": "33.4",
+              "table_locator": {
+                "table_id": "T_5_70",
+                "row_label": "PC-1",
+                "column_label": "Degree of Crystallinity (%)",
+                "cell_value": "33.4",
+                "cell_id": "T_5_70:r0001:c0003",
+                "row_index": 1,
+                "column_index": 3
+              }
+            }
+          ],
+          "confidence": {
+            "score": 1.0
+          }
+        },
+        {
+          "point_id": "pt014",
+          "observation_role": "series_point",
+          "sample_id": "s002",
+          "entity_id": "pe002",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "Polymer",
+              "value_raw": "PC-2",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_5_70",
+                "page": 5,
+                "bbox": [
+                  113.0,
+                  106.0,
+                  901.0,
+                  258.0
+                ],
+                "source_type": "table",
+                "source_sentence": "PC-2",
+                "table_locator": {
+                  "table_id": "T_5_70",
+                  "row_label": "PC-2",
+                  "column_label": "Polymer",
+                  "cell_value": "PC-2",
+                  "cell_id": "T_5_70:r0002:c0000",
+                  "row_index": 2,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "40.3",
+          "value_min": 40.3,
+          "value_max": 40.3,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "method": "powder XRD",
+              "instrument": "Philips PW 1710 x-ray diffractometer"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_5_70",
+              "page": 5,
+              "bbox": [
+                113.0,
+                106.0,
+                901.0,
+                258.0
+              ],
+              "source_type": "table",
+              "source_sentence": "40.3",
+              "table_locator": {
+                "table_id": "T_5_70",
+                "row_label": "PC-2",
+                "column_label": "Degree of Crystallinity (%)",
+                "cell_value": "40.3",
+                "cell_id": "T_5_70:r0002:c0003",
+                "row_index": 2,
+                "column_index": 3
+              }
+            }
+          ],
+          "confidence": {
+            "score": 1.0
+          }
+        },
+        {
+          "point_id": "pt015",
+          "observation_role": "series_point",
+          "sample_id": "s003",
+          "entity_id": "pe003",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "Polymer",
+              "value_raw": "PC-3",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_5_70",
+                "page": 5,
+                "bbox": [
+                  113.0,
+                  106.0,
+                  901.0,
+                  258.0
+                ],
+                "source_type": "table",
+                "source_sentence": "PC-3",
+                "table_locator": {
+                  "table_id": "T_5_70",
+                  "row_label": "PC-3",
+                  "column_label": "Polymer",
+                  "cell_value": "PC-3",
+                  "cell_id": "T_5_70:r0003:c0000",
+                  "row_index": 3,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "29.8",
+          "value_min": 29.8,
+          "value_max": 29.8,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "method": "powder XRD",
+              "instrument": "Philips PW 1710 x-ray diffractometer"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_5_70",
+              "page": 5,
+              "bbox": [
+                113.0,
+                106.0,
+                901.0,
+                258.0
+              ],
+              "source_type": "table",
+              "source_sentence": "29.8",
+              "table_locator": {
+                "table_id": "T_5_70",
+                "row_label": "PC-3",
+                "column_label": "Degree of Crystallinity (%)",
+                "cell_value": "29.8",
+                "cell_id": "T_5_70:r0003:c0003",
+                "row_index": 3,
+                "column_index": 3
+              }
+            }
+          ],
+          "confidence": {
+            "score": 1.0
+          }
+        },
+        {
+          "point_id": "pt016",
+          "observation_role": "series_point",
+          "sample_id": "s004",
+          "entity_id": "pe004",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "Polymer",
+              "value_raw": "PC-4",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_5_70",
+                "page": 5,
+                "bbox": [
+                  113.0,
+                  106.0,
+                  901.0,
+                  258.0
+                ],
+                "source_type": "table",
+                "source_sentence": "PC-4",
+                "table_locator": {
+                  "table_id": "T_5_70",
+                  "row_label": "PC-4",
+                  "column_label": "Polymer",
+                  "cell_value": "PC-4",
+                  "cell_id": "T_5_70:r0004:c0000",
+                  "row_index": 4,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "28.8",
+          "value_min": 28.8,
+          "value_max": 28.8,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "method": "powder XRD",
+              "instrument": "Philips PW 1710 x-ray diffractometer"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_5_70",
+              "page": 5,
+              "bbox": [
+                113.0,
+                106.0,
+                901.0,
+                258.0
+              ],
+              "source_type": "table",
+              "source_sentence": "28.8",
+              "table_locator": {
+                "table_id": "T_5_70",
+                "row_label": "PC-4",
+                "column_label": "Degree of Crystallinity (%)",
+                "cell_value": "28.8",
+                "cell_id": "T_5_70:r0004:c0003",
+                "row_index": 4,
+                "column_index": 3
+              }
+            }
+          ],
+          "confidence": {
+            "score": 1.0
+          }
+        },
+        {
+          "point_id": "pt017",
+          "observation_role": "series_point",
+          "sample_id": "s005",
+          "entity_id": "pe005",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "Polymer",
+              "value_raw": "PC-5",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_5_70",
+                "page": 5,
+                "bbox": [
+                  113.0,
+                  106.0,
+                  901.0,
+                  258.0
+                ],
+                "source_type": "table",
+                "source_sentence": "PC-5",
+                "table_locator": {
+                  "table_id": "T_5_70",
+                  "row_label": "PC-5",
+                  "column_label": "Polymer",
+                  "cell_value": "PC-5",
+                  "cell_id": "T_5_70:r0005:c0000",
+                  "row_index": 5,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "31.1",
+          "value_min": 31.1,
+          "value_max": 31.1,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "method": "powder XRD",
+              "instrument": "Philips PW 1710 x-ray diffractometer"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_5_70",
+              "page": 5,
+              "bbox": [
+                113.0,
+                106.0,
+                901.0,
+                258.0
+              ],
+              "source_type": "table",
+              "source_sentence": "31.1",
+              "table_locator": {
+                "table_id": "T_5_70",
+                "row_label": "PC-5",
+                "column_label": "Degree of Crystallinity (%)",
+                "cell_value": "31.1",
+                "cell_id": "T_5_70:r0005:c0003",
+                "row_index": 5,
+                "column_index": 3
+              }
+            }
+          ],
+          "confidence": {
+            "score": 1.0
+          }
+        },
+        {
+          "point_id": "pt018",
+          "observation_role": "series_point",
+          "sample_id": "s006",
+          "entity_id": "pe006",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "Polymer",
+              "value_raw": "PC-6",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_5_70",
+                "page": 5,
+                "bbox": [
+                  113.0,
+                  106.0,
+                  901.0,
+                  258.0
+                ],
+                "source_type": "table",
+                "source_sentence": "PC-6",
+                "table_locator": {
+                  "table_id": "T_5_70",
+                  "row_label": "PC-6",
+                  "column_label": "Polymer",
+                  "cell_value": "PC-6",
+                  "cell_id": "T_5_70:r0006:c0000",
+                  "row_index": 6,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "25.4",
+          "value_min": 25.4,
+          "value_max": 25.4,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "method": "powder XRD",
+              "instrument": "Philips PW 1710 x-ray diffractometer"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_5_70",
+              "page": 5,
+              "bbox": [
+                113.0,
+                106.0,
+                901.0,
+                258.0
+              ],
+              "source_type": "table",
+              "source_sentence": "25.4",
+              "table_locator": {
+                "table_id": "T_5_70",
+                "row_label": "PC-6",
+                "column_label": "Degree of Crystallinity (%)",
+                "cell_value": "25.4",
+                "cell_id": "T_5_70:r0006:c0003",
+                "row_index": 6,
+                "column_index": 3
+              }
+            }
+          ],
+          "confidence": {
+            "score": 1.0
+          }
+        }
+      ],
+      "coverage": {
+        "expected": 6,
+        "covered": 6,
+        "missing": 0,
+        "not_applicable": 0,
+        "ratio": 1.0
+      },
+      "evidence": [
+        {
+          "block_id": "T_5_70",
+          "page": 5,
+          "bbox": [
+            113.0,
+            106.0,
+            901.0,
+            258.0
+          ],
+          "source_type": "table",
+          "source_sentence": "33.4",
+          "table_locator": {
+            "table_id": "T_5_70",
+            "row_label": "PC-1",
+            "column_label": "Degree of Crystallinity (%)",
+            "cell_value": "33.4",
+            "cell_id": "T_5_70:r0001:c0003",
+            "row_index": 1,
+            "column_index": 3
+          }
+        },
+        {
+          "block_id": "T_5_70",
+          "page": 5,
+          "bbox": [
+            113.0,
+            106.0,
+            901.0,
+            258.0
+          ],
+          "source_type": "table",
+          "source_sentence": "40.3",
+          "table_locator": {
+            "table_id": "T_5_70",
+            "row_label": "PC-2",
+            "column_label": "Degree of Crystallinity (%)",
+            "cell_value": "40.3",
+            "cell_id": "T_5_70:r0002:c0003",
+            "row_index": 2,
+            "column_index": 3
+          }
+        },
+        {
+          "block_id": "T_5_70",
+          "page": 5,
+          "bbox": [
+            113.0,
+            106.0,
+            901.0,
+            258.0
+          ],
+          "source_type": "table",
+          "source_sentence": "29.8",
+          "table_locator": {
+            "table_id": "T_5_70",
+            "row_label": "PC-3",
+            "column_label": "Degree of Crystallinity (%)",
+            "cell_value": "29.8",
+            "cell_id": "T_5_70:r0003:c0003",
+            "row_index": 3,
+            "column_index": 3
+          }
+        },
+        {
+          "block_id": "T_5_70",
+          "page": 5,
+          "bbox": [
+            113.0,
+            106.0,
+            901.0,
+            258.0
+          ],
+          "source_type": "table",
+          "source_sentence": "28.8",
+          "table_locator": {
+            "table_id": "T_5_70",
+            "row_label": "PC-4",
+            "column_label": "Degree of Crystallinity (%)",
+            "cell_value": "28.8",
+            "cell_id": "T_5_70:r0004:c0003",
+            "row_index": 4,
+            "column_index": 3
+          }
+        },
+        {
+          "block_id": "T_5_70",
+          "page": 5,
+          "bbox": [
+            113.0,
+            106.0,
+            901.0,
+            258.0
+          ],
+          "source_type": "table",
+          "source_sentence": "31.1",
+          "table_locator": {
+            "table_id": "T_5_70",
+            "row_label": "PC-5",
+            "column_label": "Degree of Crystallinity (%)",
+            "cell_value": "31.1",
+            "cell_id": "T_5_70:r0005:c0003",
+            "row_index": 5,
+            "column_index": 3
+          }
+        },
+        {
+          "block_id": "T_5_70",
+          "page": 5,
+          "bbox": [
+            113.0,
+            106.0,
+            901.0,
+            258.0
+          ],
+          "source_type": "table",
+          "source_sentence": "25.4",
+          "table_locator": {
+            "table_id": "T_5_70",
+            "row_label": "PC-6",
+            "column_label": "Degree of Crystallinity (%)",
+            "cell_value": "25.4",
+            "cell_id": "T_5_70:r0006:c0003",
+            "row_index": 6,
+            "column_index": 3
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "series_id": "series004",
+      "sample_id": null,
+      "entity_id": null,
+      "sample_resolution_status": "unresolved",
+      "property_name_raw": "T_g",
+      "property_name_normalized": "glass_transition_temperature",
+      "property_code": "P3110",
+      "property_category": "thermal_property",
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "unit_raw": "°C",
+      "unit_normalized": "°C",
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {
+          "method": "DSC"
+        },
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "points": [
+        {
+          "point_id": "pt019",
+          "observation_role": "series_point",
+          "sample_id": "s001",
+          "entity_id": "pe001",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "Polymer",
+              "value_raw": "PC-1",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_6_81",
+                "page": 6,
+                "bbox": [
+                  100.0,
+                  697.0,
+                  888.0,
+                  832.0
+                ],
+                "source_type": "table",
+                "source_sentence": "PC-1",
+                "table_locator": {
+                  "table_id": "T_6_81",
+                  "row_label": "PC-1",
+                  "column_label": "Polymer",
+                  "cell_value": "PC-1",
+                  "cell_id": "T_6_81:r0001:c0000",
+                  "row_index": 1,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "146",
+          "value_min": 146.0,
+          "value_max": 146.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "method": "DSC"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_6_81",
+              "page": 6,
+              "bbox": [
+                100.0,
+                697.0,
+                888.0,
+                832.0
+              ],
+              "source_type": "table",
+              "source_sentence": "146$^{d}$",
+              "table_locator": {
+                "table_id": "T_6_81",
+                "row_label": "PC-1",
+                "column_label": "$T_{g}$ $(^{\\circ}\\text{C})$",
+                "cell_value": "$146^{d}$",
+                "cell_id": "T_6_81:r0001:c0007",
+                "row_index": 1,
+                "column_index": 7
+              }
+            }
+          ],
+          "confidence": {
+            "score": 1.0
+          }
+        },
+        {
+          "point_id": "pt020",
+          "observation_role": "series_point",
+          "sample_id": "s002",
+          "entity_id": "pe002",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "Polymer",
+              "value_raw": "PC-2",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_6_81",
+                "page": 6,
+                "bbox": [
+                  100.0,
+                  697.0,
+                  888.0,
+                  832.0
+                ],
+                "source_type": "table",
+                "source_sentence": "PC-2",
+                "table_locator": {
+                  "table_id": "T_6_81",
+                  "row_label": "PC-2",
+                  "column_label": "Polymer",
+                  "cell_value": "PC-2",
+                  "cell_id": "T_6_81:r0002:c0000",
+                  "row_index": 2,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": null,
+          "value_min": null,
+          "value_max": null,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "method": "DSC"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "not_applicable",
+          "evidence": [
+            {
+              "block_id": "T_6_81",
+              "page": 6,
+              "bbox": [
+                100.0,
+                697.0,
+                888.0,
+                832.0
+              ],
+              "source_type": "table",
+              "source_sentence": "—",
+              "table_locator": {
+                "table_id": "T_6_81",
+                "row_label": "PC-2",
+                "column_label": "$T_{g}$ $(^{\\circ}\\text{C})$",
+                "cell_value": "—",
+                "cell_id": "T_6_81:r0002:c0007",
+                "row_index": 2,
+                "column_index": 7
+              }
+            }
+          ],
+          "confidence": {
+            "score": 1.0
+          }
+        },
+        {
+          "point_id": "pt021",
+          "observation_role": "series_point",
+          "sample_id": "s003",
+          "entity_id": "pe003",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "Polymer",
+              "value_raw": "PC-3",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_6_81",
+                "page": 6,
+                "bbox": [
+                  100.0,
+                  697.0,
+                  888.0,
+                  832.0
+                ],
+                "source_type": "table",
+                "source_sentence": "PC-3",
+                "table_locator": {
+                  "table_id": "T_6_81",
+                  "row_label": "PC-3",
+                  "column_label": "Polymer",
+                  "cell_value": "PC-3",
+                  "cell_id": "T_6_81:r0003:c0000",
+                  "row_index": 3,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "164",
+          "value_min": 164.0,
+          "value_max": 164.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "method": "DSC"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_6_81",
+              "page": 6,
+              "bbox": [
+                100.0,
+                697.0,
+                888.0,
+                832.0
+              ],
+              "source_type": "table",
+              "source_sentence": "164$^{d}$",
+              "table_locator": {
+                "table_id": "T_6_81",
+                "row_label": "PC-3",
+                "column_label": "$T_{g}$ $(^{\\circ}\\text{C})$",
+                "cell_value": "$164^{d}$",
+                "cell_id": "T_6_81:r0003:c0007",
+                "row_index": 3,
+                "column_index": 7
+              }
+            }
+          ],
+          "confidence": {
+            "score": 1.0
+          }
+        },
+        {
+          "point_id": "pt022",
+          "observation_role": "series_point",
+          "sample_id": "s004",
+          "entity_id": "pe004",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "Polymer",
+              "value_raw": "PC-4",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_6_81",
+                "page": 6,
+                "bbox": [
+                  100.0,
+                  697.0,
+                  888.0,
+                  832.0
+                ],
+                "source_type": "table",
+                "source_sentence": "PC-4",
+                "table_locator": {
+                  "table_id": "T_6_81",
+                  "row_label": "PC-4",
+                  "column_label": "Polymer",
+                  "cell_value": "PC-4",
+                  "cell_id": "T_6_81:r0004:c0000",
+                  "row_index": 4,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "202",
+          "value_min": 202.0,
+          "value_max": 202.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "method": "DSC"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_6_81",
+              "page": 6,
+              "bbox": [
+                100.0,
+                697.0,
+                888.0,
+                832.0
+              ],
+              "source_type": "table",
+              "source_sentence": "202$^{d}$",
+              "table_locator": {
+                "table_id": "T_6_81",
+                "row_label": "PC-4",
+                "column_label": "$T_{g}$ $(^{\\circ}\\text{C})$",
+                "cell_value": "$202^{d}$",
+                "cell_id": "T_6_81:r0004:c0007",
+                "row_index": 4,
+                "column_index": 7
+              }
+            }
+          ],
+          "confidence": {
+            "score": 1.0
+          }
+        },
+        {
+          "point_id": "pt023",
+          "observation_role": "series_point",
+          "sample_id": "s005",
+          "entity_id": "pe005",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "Polymer",
+              "value_raw": "PC-5",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_6_81",
+                "page": 6,
+                "bbox": [
+                  100.0,
+                  697.0,
+                  888.0,
+                  832.0
+                ],
+                "source_type": "table",
+                "source_sentence": "PC-5",
+                "table_locator": {
+                  "table_id": "T_6_81",
+                  "row_label": "PC-5",
+                  "column_label": "Polymer",
+                  "cell_value": "PC-5",
+                  "cell_id": "T_6_81:r0005:c0000",
+                  "row_index": 5,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "196",
+          "value_min": 196.0,
+          "value_max": 196.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "method": "DSC"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_6_81",
+              "page": 6,
+              "bbox": [
+                100.0,
+                697.0,
+                888.0,
+                832.0
+              ],
+              "source_type": "table",
+              "source_sentence": "196$^{e}$",
+              "table_locator": {
+                "table_id": "T_6_81",
+                "row_label": "PC-5",
+                "column_label": "$T_{g}$ $(^{\\circ}\\text{C})$",
+                "cell_value": "$196^{e}$",
+                "cell_id": "T_6_81:r0005:c0007",
+                "row_index": 5,
+                "column_index": 7
+              }
+            }
+          ],
+          "confidence": {
+            "score": 1.0
+          }
+        },
+        {
+          "point_id": "pt024",
+          "observation_role": "series_point",
+          "sample_id": "s006",
+          "entity_id": "pe006",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "Polymer",
+              "value_raw": "PC-6",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_6_81",
+                "page": 6,
+                "bbox": [
+                  100.0,
+                  697.0,
+                  888.0,
+                  832.0
+                ],
+                "source_type": "table",
+                "source_sentence": "PC-6",
+                "table_locator": {
+                  "table_id": "T_6_81",
+                  "row_label": "PC-6",
+                  "column_label": "Polymer",
+                  "cell_value": "PC-6",
+                  "cell_id": "T_6_81:r0006:c0000",
+                  "row_index": 6,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "206",
+          "value_min": 206.0,
+          "value_max": 206.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "method": "DSC"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_6_81",
+              "page": 6,
+              "bbox": [
+                100.0,
+                697.0,
+                888.0,
+                832.0
+              ],
+              "source_type": "table",
+              "source_sentence": "206$^{d}$",
+              "table_locator": {
+                "table_id": "T_6_81",
+                "row_label": "PC-6",
+                "column_label": "$T_{g}$ $(^{\\circ}\\text{C})$",
+                "cell_value": "$206^{d}$",
+                "cell_id": "T_6_81:r0006:c0007",
+                "row_index": 6,
+                "column_index": 7
+              }
+            }
+          ],
+          "confidence": {
+            "score": 1.0
+          }
+        }
+      ],
+      "coverage": {
+        "expected": 5,
+        "covered": 5,
+        "missing": 0,
+        "not_applicable": 1,
+        "ratio": 1.0
+      },
+      "evidence": [
+        {
+          "block_id": "T_6_81",
+          "page": 6,
+          "bbox": [
+            100.0,
+            697.0,
+            888.0,
+            832.0
+          ],
+          "source_type": "table",
+          "source_sentence": "146$^{d}$",
+          "table_locator": {
+            "table_id": "T_6_81",
+            "row_label": "PC-1",
+            "column_label": "$T_{g}$ $(^{\\circ}\\text{C})$",
+            "cell_value": "$146^{d}$",
+            "cell_id": "T_6_81:r0001:c0007",
+            "row_index": 1,
+            "column_index": 7
+          }
+        },
+        {
+          "block_id": "T_6_81",
+          "page": 6,
+          "bbox": [
+            100.0,
+            697.0,
+            888.0,
+            832.0
+          ],
+          "source_type": "table",
+          "source_sentence": "—",
+          "table_locator": {
+            "table_id": "T_6_81",
+            "row_label": "PC-2",
+            "column_label": "$T_{g}$ $(^{\\circ}\\text{C})$",
+            "cell_value": "—",
+            "cell_id": "T_6_81:r0002:c0007",
+            "row_index": 2,
+            "column_index": 7
+          }
+        },
+        {
+          "block_id": "T_6_81",
+          "page": 6,
+          "bbox": [
+            100.0,
+            697.0,
+            888.0,
+            832.0
+          ],
+          "source_type": "table",
+          "source_sentence": "164$^{d}$",
+          "table_locator": {
+            "table_id": "T_6_81",
+            "row_label": "PC-3",
+            "column_label": "$T_{g}$ $(^{\\circ}\\text{C})$",
+            "cell_value": "$164^{d}$",
+            "cell_id": "T_6_81:r0003:c0007",
+            "row_index": 3,
+            "column_index": 7
+          }
+        },
+        {
+          "block_id": "T_6_81",
+          "page": 6,
+          "bbox": [
+            100.0,
+            697.0,
+            888.0,
+            832.0
+          ],
+          "source_type": "table",
+          "source_sentence": "202$^{d}$",
+          "table_locator": {
+            "table_id": "T_6_81",
+            "row_label": "PC-4",
+            "column_label": "$T_{g}$ $(^{\\circ}\\text{C})$",
+            "cell_value": "$202^{d}$",
+            "cell_id": "T_6_81:r0004:c0007",
+            "row_index": 4,
+            "column_index": 7
+          }
+        },
+        {
+          "block_id": "T_6_81",
+          "page": 6,
+          "bbox": [
+            100.0,
+            697.0,
+            888.0,
+            832.0
+          ],
+          "source_type": "table",
+          "source_sentence": "196$^{e}$",
+          "table_locator": {
+            "table_id": "T_6_81",
+            "row_label": "PC-5",
+            "column_label": "$T_{g}$ $(^{\\circ}\\text{C})$",
+            "cell_value": "$196^{e}$",
+            "cell_id": "T_6_81:r0005:c0007",
+            "row_index": 5,
+            "column_index": 7
+          }
+        },
+        {
+          "block_id": "T_6_81",
+          "page": 6,
+          "bbox": [
+            100.0,
+            697.0,
+            888.0,
+            832.0
+          ],
+          "source_type": "table",
+          "source_sentence": "206$^{d}$",
+          "table_locator": {
+            "table_id": "T_6_81",
+            "row_label": "PC-6",
+            "column_label": "$T_{g}$ $(^{\\circ}\\text{C})$",
+            "cell_value": "$206^{d}$",
+            "cell_id": "T_6_81:r0006:c0007",
+            "row_index": 6,
+            "column_index": 7
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "series_id": "series005",
+      "sample_id": null,
+      "entity_id": null,
+      "sample_resolution_status": "unresolved",
+      "property_name_raw": "LOI",
+      "property_name_normalized": "oxygen_index",
+      "property_code": "P8630",
+      "property_category": "heat_resistance_and_combustion",
+      "determination_method_raw": null,
+      "observation_group_id": null,
+      "unit_raw": null,
+      "unit_normalized": null,
+      "measurement_context": {
+        "temperature": null,
+        "frequency": null,
+        "humidity": null,
+        "pressure": null,
+        "wavelength": null,
+        "other_conditions": {
+          "method": "ASTM D-2863-77",
+          "instrument": "SUGA instrument"
+        },
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "points": [
+        {
+          "point_id": "pt025",
+          "observation_role": "series_point",
+          "sample_id": "s001",
+          "entity_id": "pe001",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "Polymer",
+              "value_raw": "PC-1",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_7_84",
+                "page": 7,
+                "bbox": [
+                  107.0,
+                  133.0,
+                  483.0,
+                  272.0
+                ],
+                "source_type": "table",
+                "source_sentence": "PC-1",
+                "table_locator": {
+                  "table_id": "T_7_84",
+                  "row_label": "PC-1",
+                  "column_label": "Polymer",
+                  "cell_value": "PC-1",
+                  "cell_id": "T_7_84:r0001:c0000",
+                  "row_index": 1,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "26",
+          "value_min": 26.0,
+          "value_max": 26.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "method": "ASTM D-2863-77",
+              "instrument": "SUGA instrument"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_7_84",
+              "page": 7,
+              "bbox": [
+                107.0,
+                133.0,
+                483.0,
+                272.0
+              ],
+              "source_type": "table",
+              "source_sentence": "26",
+              "table_locator": {
+                "table_id": "T_7_84",
+                "row_label": "PC-1",
+                "column_label": "LOI",
+                "cell_value": "26",
+                "cell_id": "T_7_84:r0001:c0002",
+                "row_index": 1,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 1.0
+          }
+        },
+        {
+          "point_id": "pt026",
+          "observation_role": "series_point",
+          "sample_id": "s002",
+          "entity_id": "pe002",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "Polymer",
+              "value_raw": "PC-2",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_7_84",
+                "page": 7,
+                "bbox": [
+                  107.0,
+                  133.0,
+                  483.0,
+                  272.0
+                ],
+                "source_type": "table",
+                "source_sentence": "PC-2",
+                "table_locator": {
+                  "table_id": "T_7_84",
+                  "row_label": "PC-2",
+                  "column_label": "Polymer",
+                  "cell_value": "PC-2",
+                  "cell_id": "T_7_84:r0002:c0000",
+                  "row_index": 2,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "34",
+          "value_min": 34.0,
+          "value_max": 34.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "method": "ASTM D-2863-77",
+              "instrument": "SUGA instrument"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_7_84",
+              "page": 7,
+              "bbox": [
+                107.0,
+                133.0,
+                483.0,
+                272.0
+              ],
+              "source_type": "table",
+              "source_sentence": "34",
+              "table_locator": {
+                "table_id": "T_7_84",
+                "row_label": "PC-2",
+                "column_label": "LOI",
+                "cell_value": "34",
+                "cell_id": "T_7_84:r0002:c0002",
+                "row_index": 2,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 1.0
+          }
+        },
+        {
+          "point_id": "pt027",
+          "observation_role": "series_point",
+          "sample_id": "s003",
+          "entity_id": "pe003",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "Polymer",
+              "value_raw": "PC-3",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_7_84",
+                "page": 7,
+                "bbox": [
+                  107.0,
+                  133.0,
+                  483.0,
+                  272.0
+                ],
+                "source_type": "table",
+                "source_sentence": "PC-3",
+                "table_locator": {
+                  "table_id": "T_7_84",
+                  "row_label": "PC-3",
+                  "column_label": "Polymer",
+                  "cell_value": "PC-3",
+                  "cell_id": "T_7_84:r0003:c0000",
+                  "row_index": 3,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "34",
+          "value_min": 34.0,
+          "value_max": 34.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "method": "ASTM D-2863-77",
+              "instrument": "SUGA instrument"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_7_84",
+              "page": 7,
+              "bbox": [
+                107.0,
+                133.0,
+                483.0,
+                272.0
+              ],
+              "source_type": "table",
+              "source_sentence": "34",
+              "table_locator": {
+                "table_id": "T_7_84",
+                "row_label": "PC-3",
+                "column_label": "LOI",
+                "cell_value": "34",
+                "cell_id": "T_7_84:r0003:c0002",
+                "row_index": 3,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 1.0
+          }
+        },
+        {
+          "point_id": "pt028",
+          "observation_role": "series_point",
+          "sample_id": "s004",
+          "entity_id": "pe004",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "Polymer",
+              "value_raw": "PC-4",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_7_84",
+                "page": 7,
+                "bbox": [
+                  107.0,
+                  133.0,
+                  483.0,
+                  272.0
+                ],
+                "source_type": "table",
+                "source_sentence": "PC-4",
+                "table_locator": {
+                  "table_id": "T_7_84",
+                  "row_label": "PC-4",
+                  "column_label": "Polymer",
+                  "cell_value": "PC-4",
+                  "cell_id": "T_7_84:r0004:c0000",
+                  "row_index": 4,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "67",
+          "value_min": 67.0,
+          "value_max": 67.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "method": "ASTM D-2863-77",
+              "instrument": "SUGA instrument"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_7_84",
+              "page": 7,
+              "bbox": [
+                107.0,
+                133.0,
+                483.0,
+                272.0
+              ],
+              "source_type": "table",
+              "source_sentence": "67",
+              "table_locator": {
+                "table_id": "T_7_84",
+                "row_label": "PC-4",
+                "column_label": "LOI",
+                "cell_value": "67",
+                "cell_id": "T_7_84:r0004:c0002",
+                "row_index": 4,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 1.0
+          }
+        },
+        {
+          "point_id": "pt029",
+          "observation_role": "series_point",
+          "sample_id": "s005",
+          "entity_id": "pe005",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "Polymer",
+              "value_raw": "PC-5",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_7_84",
+                "page": 7,
+                "bbox": [
+                  107.0,
+                  133.0,
+                  483.0,
+                  272.0
+                ],
+                "source_type": "table",
+                "source_sentence": "PC-5",
+                "table_locator": {
+                  "table_id": "T_7_84",
+                  "row_label": "PC-5",
+                  "column_label": "Polymer",
+                  "cell_value": "PC-5",
+                  "cell_id": "T_7_84:r0005:c0000",
+                  "row_index": 5,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "70",
+          "value_min": 70.0,
+          "value_max": 70.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "method": "ASTM D-2863-77",
+              "instrument": "SUGA instrument"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_7_84",
+              "page": 7,
+              "bbox": [
+                107.0,
+                133.0,
+                483.0,
+                272.0
+              ],
+              "source_type": "table",
+              "source_sentence": "70",
+              "table_locator": {
+                "table_id": "T_7_84",
+                "row_label": "PC-5",
+                "column_label": "LOI",
+                "cell_value": "70",
+                "cell_id": "T_7_84:r0005:c0002",
+                "row_index": 5,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 1.0
+          }
+        },
+        {
+          "point_id": "pt030",
+          "observation_role": "series_point",
+          "sample_id": "s006",
+          "entity_id": "pe006",
+          "sample_resolution_status": "resolved",
+          "coordinates": [
+            {
+              "name_raw": "Polymer",
+              "value_raw": "PC-6",
+              "unit_raw": null,
+              "evidence": {
+                "block_id": "T_7_84",
+                "page": 7,
+                "bbox": [
+                  107.0,
+                  133.0,
+                  483.0,
+                  272.0
+                ],
+                "source_type": "table",
+                "source_sentence": "PC-6",
+                "table_locator": {
+                  "table_id": "T_7_84",
+                  "row_label": "PC-6",
+                  "column_label": "Polymer",
+                  "cell_value": "PC-6",
+                  "cell_id": "T_7_84:r0006:c0000",
+                  "row_index": 6,
+                  "column_index": 0
+                }
+              }
+            }
+          ],
+          "value_raw": "93",
+          "value_min": 93.0,
+          "value_max": 93.0,
+          "unit_raw": null,
+          "unit_normalized": null,
+          "measurement_context": {
+            "temperature": null,
+            "frequency": null,
+            "humidity": null,
+            "pressure": null,
+            "wavelength": null,
+            "other_conditions": {
+              "method": "ASTM D-2863-77",
+              "instrument": "SUGA instrument"
+            },
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_7_84",
+              "page": 7,
+              "bbox": [
+                107.0,
+                133.0,
+                483.0,
+                272.0
+              ],
+              "source_type": "table",
+              "source_sentence": "93",
+              "table_locator": {
+                "table_id": "T_7_84",
+                "row_label": "PC-6",
+                "column_label": "LOI",
+                "cell_value": "93",
+                "cell_id": "T_7_84:r0006:c0002",
+                "row_index": 6,
+                "column_index": 2
+              }
+            }
+          ],
+          "confidence": {
+            "score": 1.0
+          }
+        }
+      ],
+      "coverage": {
+        "expected": 6,
+        "covered": 6,
+        "missing": 0,
+        "not_applicable": 0,
+        "ratio": 1.0
+      },
+      "evidence": [
+        {
+          "block_id": "P_3_52",
+          "page": 3,
+          "bbox": [
+            108.0,
+            496.0,
+            491.0,
+            681.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The LOI was determined on a SUGA instrument according to ASTM D-2863-77.",
+          "table_locator": null
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    }
+  ],
+  "provenance": {
+    "stage": "stage4_property",
+    "provider": "dmx",
+    "model": "doubao-seed-2.0-pro",
+    "models": [
+      "doubao-seed-2.0-pro"
+    ],
+    "prompt_id": "polymer.stage4.property",
+    "prompt_version": "1.7.2",
+    "prompt_sha256": "ec79fe3bf47539cab4ba239c611d1ab17d75dc0038cda85020caca580f7987a5",
+    "vocabulary_sha256": "3e9d85e4915a729edf0f0a53821f3ee6edf32874e1da6972457417e4f13a1510",
+    "input_hash": "69b70fff7bbb76a069aab8b9e7d7e1e563016d464049e58e8e274003bba268f1",
+    "model_config_hash": "cc96eaab20bd380ae90f3ba1dfa638bd40f111e3e72ca185255fb71b459d40ea",
+    "cache_key": "a59b7acf675cbc0abc67fde83f114c50aa4c5c60644eabefb649a660c64350f9",
+    "output_schema_version": "property_observation_schema.v7",
+    "implementation_version": "1.7.10",
+    "context_block_count": 53,
+    "context_chars": 36504,
+    "call_count": 1,
+    "usage": {
+      "input_tokens": 27494,
+      "output_tokens": 18117,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "billable_input_tokens": 27494,
+      "total_tokens": 45611
+    },
+    "cost": {
+      "status": "calculated",
+      "currency": "CNY",
+      "input_per_million": "4.32",
+      "output_per_million": "29.15",
+      "input_cost": "0.11877408",
+      "output_cost": "0.52811055",
+      "total_cost": "0.64688463"
+    },
+    "status": "success"
+  },
+  "warnings": [
+    {
+      "stage": "stage4_property",
+      "code": "all_tables_included",
+      "message": "已将目标 section 之外的非空表格一并加入 Stage 4 输入",
+      "table_block_ids": [
+        "T_8_102"
+      ]
+    },
+    {
+      "stage": "stage4_property",
+      "code": "preview_point_locator_recovered_from_unique_table_row",
+      "message": "Preview 模式已用唯一完整表格行、唯一列头及一致 value_raw 补全 Series point 的稳定坐标",
+      "points": 27
+    },
+    {
+      "stage": "stage4_property",
+      "code": "multi_subject_series_normalized",
+      "message": "PropertySeries 的 points 明确属于多个 Sample/PolymerEntity；已清除错误的单一顶层主体，主体关系保留在各 point",
+      "series": 5
+    },
+    {
+      "stage": "stage4_property",
+      "code": "empty_reported_context_downgraded",
+      "message": "measurement_context 标记为 reported 但没有任何条件值；已确定性改为 not_reported",
+      "contexts": 1
+    },
+    {
+      "stage": "stage4_property",
+      "code": "series_context_evidence_supplemented",
+      "message": "Series/point measurement context 不在数值表格 evidence；已补入全文中唯一的完全匹配原文 block",
+      "series_evidence": 2
+    },
+    {
+      "stage": "stage4_property",
+      "code": "preview_semantic_validation_bypassed",
+      "message": "Preview 已保留 Schema 合法候选，并跳过原文/evidence 语义对应校验；Strict 模式仍会报错",
+      "reason": "pt013.measurement_context.other_conditions.method.raw 无法在对象 evidence中定位"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "preview_objects_salvaged",
+      "message": "Preview 已逐对象保留可安全物化的数据；坏字段、坏对象或失效引用已局部删除，Strict 模式仍会报错",
+      "details": {
+        "dropped_conditions": [],
+        "dropped_properties": [],
+        "dropped_unresolved_properties": [],
+        "dropped_series": [],
+        "dropped_points": [],
+        "dropped_evidence": 0,
+        "dropped_coordinates": 0
+      }
+    },
+    {
+      "stage": "stage4_property",
+      "code": "unresolved_properties",
+      "message": "1 条性质无法可靠关联具体 Sample",
+      "unresolved_ids": [
+        "uprop001"
+      ]
+    },
+    {
+      "code": "stage4r_preview_table_recovery",
+      "message": "Stage 4R Preview 确定性补入 30 个表格性质格；样品归属保留 unresolved。",
+      "recovered_cell_count": 30,
+      "skipped_ambiguous_count": 33
+    },
+    {
+      "code": "stage4r_unique_sample_label_resolved",
+      "message": "Stage 4R 按唯一 Stage 3 sample_label_raw 确定性归属 30 条性质。",
+      "resolved_count": 30,
+      "filled_up_enabled": true
+    }
+  ]
+}

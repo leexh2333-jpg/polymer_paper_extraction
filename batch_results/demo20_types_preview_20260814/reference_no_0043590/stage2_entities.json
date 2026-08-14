@@ -1,0 +1,382 @@
+{
+  "schema_version": "1.0",
+  "document_id": "reference_no_0043590",
+  "polymer_entities": [
+    {
+      "entity_id": "pe001",
+      "polymer_name": "Cyclic olefin copolymer",
+      "polymer_type": "copolymer",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "Cyclic olefin copolymer",
+        "COC",
+        "Topas 6013S-04"
+      ],
+      "resolved_from_mentions": [
+        "m001",
+        "m002",
+        "m003",
+        "m004",
+        "m006",
+        "m010",
+        "m011",
+        "m015",
+        "m018",
+        "m023",
+        "m026",
+        "m035",
+        "m037",
+        "m038",
+        "m041",
+        "m044",
+        "m049",
+        "m054",
+        "m057"
+      ],
+      "evidence": {
+        "block_id": "P_0_15",
+        "page": 0,
+        "bbox": [
+          507.0,
+          904.0,
+          898.0,
+          951.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Cyclic olefin copolymer (COC), an amorphous copolymer of ethylene and norbornene, (Topas 6013S-04 supplied by Ticona, MFR 14 g/10 min at 260-C,"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.98
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe002",
+      "polymer_name": "polycarbonate",
+      "polymer_type": "homopolymer",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "polycarbonate"
+      ],
+      "resolved_from_mentions": [
+        "m005"
+      ],
+      "evidence": {
+        "block_id": "P_1_20",
+        "page": 1,
+        "bbox": [
+          96.0,
+          300.0,
+          488.0,
+          480.0
+        ],
+        "source_type": "text",
+        "source_sentence": "A masterbatch exothermic chemical blowing agent (CBA, IM 2240) containing 20 wt % 5-phenyl tetrazol in polycarbonate was supplied by Dempsey Corporation."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.94
+      },
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe003",
+      "polymer_name": "CB-COC composite",
+      "variant_of": "pe001",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "COC/CB3",
+        "CB-COC composite",
+        "COC/ CB3",
+        "CB3"
+      ],
+      "resolved_from_mentions": [
+        "m008",
+        "m012",
+        "m014",
+        "m016",
+        "m017",
+        "m019",
+        "m024",
+        "m025",
+        "m027",
+        "m039",
+        "m053",
+        "m055"
+      ],
+      "evidence": {
+        "block_id": "P_2_40",
+        "page": 2,
+        "bbox": [
+          509.0,
+          664.0,
+          660.0,
+          681.0
+        ],
+        "source_type": "title",
+        "source_sentence": "CB-COC composite"
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.95
+      },
+      "polymer_type": null,
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe004",
+      "polymer_name": "COC/cCF10",
+      "variant_of": "pe001",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "COC/cCF10",
+        "cCF10"
+      ],
+      "resolved_from_mentions": [
+        "m007",
+        "m013",
+        "m020",
+        "m028",
+        "m029",
+        "m030",
+        "m032",
+        "m036",
+        "m040",
+        "m043",
+        "m047",
+        "m051",
+        "m056"
+      ],
+      "evidence": {
+        "block_id": "P_1_23",
+        "page": 1,
+        "bbox": [
+          96.0,
+          801.0,
+          488.0,
+          951.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Single filler composites were prepared containing either 10 vol % cCF (COC/cCF10), or 3 vol % CB (COC/CB3)."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.96
+      },
+      "polymer_type": null,
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe005",
+      "polymer_name": "COC/cCF10-CB1",
+      "variant_of": "pe001",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "COC/cCF10-CB1",
+        "cCF10-CB1",
+        "cCF10CB1",
+        "COC/ cCF10-CB1"
+      ],
+      "resolved_from_mentions": [
+        "m009",
+        "m021",
+        "m033",
+        "m045"
+      ],
+      "evidence": {
+        "block_id": "P_1_23",
+        "page": 1,
+        "bbox": [
+          96.0,
+          801.0,
+          488.0,
+          951.0
+        ],
+        "source_type": "text",
+        "source_sentence": "For example, COC/cCF10-CB1 corresponds to the material with 10 vol % cCF and 1 vol % CB mixed into COC."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.9
+      },
+      "polymer_type": null,
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe006",
+      "polymer_name": "COC/cCF10-CB3",
+      "variant_of": "pe001",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "cCF10-CB3",
+        "cCF10CB3",
+        "COC/cCF10-CB3",
+        "COC/ cCF10-CB3"
+      ],
+      "resolved_from_mentions": [
+        "m022",
+        "m031",
+        "m034",
+        "m042",
+        "m046",
+        "m048",
+        "m052",
+        "m058"
+      ],
+      "evidence": {
+        "block_id": "P_5_74",
+        "page": 5,
+        "bbox": [
+          506.0,
+          477.0,
+          900.0,
+          687.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Despite its comparatively high viscosity, the fiber length of the nonfoamed COC/cCF10-CB3 was comparable with COC/cCF10, as reported in Table III."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.91
+      },
+      "polymer_type": null,
+      "copolymer_type": null
+    },
+    {
+      "entity_id": "pe007",
+      "polymer_name": "COC/ cCF-CB",
+      "variant_of": "pe001",
+      "representation_status": "expert_review_required",
+      "structural_features": [],
+      "source_names": [
+        "COC/ cCF-CB"
+      ],
+      "resolved_from_mentions": [
+        "m050"
+      ],
+      "evidence": {
+        "block_id": "P_6_81",
+        "page": 6,
+        "bbox": [
+          96.0,
+          579.0,
+          488.0,
+          951.0
+        ],
+        "source_type": "text",
+        "source_sentence": "The measured electrical conductivities of the COC/ cCF-CB composites are plotted in Figure 7."
+      },
+      "source_image_refs": [],
+      "confidence": {
+        "score": 0.72
+      },
+      "polymer_type": null,
+      "copolymer_type": null
+    }
+  ],
+  "unresolved_mention_ids": [],
+  "provenance": {
+    "stage": "stage2_polymer_entity",
+    "provider": "dmx",
+    "model": "gpt-5.6-terra-2026-07-09",
+    "models": [
+      "gpt-5.6-terra-2026-07-09"
+    ],
+    "prompt_id": "polymer.stage2.polymer_entity",
+    "prompt_version": "1.3.0",
+    "prompt_sha256": "0d376da340b979a77fcd231e0148cc26c8b9d125f7209025c7055483abb7d7e1",
+    "input_hash": "3eb95d9d8ef9247ca302f578a16dbb17aa8408fbd548ffe8ac26d24ba7522f96",
+    "model_config_hash": "c9e96c2514956e7b4b65eae3d327d34f95b7a33876cec6d4aa56f95eb79a9b50",
+    "cache_key": "319d6cccf0d6f5ae338f6401accdab7a247182ee25526dc39c90fb296d15b71b",
+    "output_schema_version": "polymer_entity_schema.v3",
+    "implementation_version": "1.4.0",
+    "context_block_count": 50,
+    "context_chars": 37076,
+    "call_count": 1,
+    "usage": {
+      "input_tokens": 18001,
+      "output_tokens": 2012,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "billable_input_tokens": 18001,
+      "total_tokens": 20013
+    },
+    "cost": {
+      "status": "calculated",
+      "currency": "CNY",
+      "input_per_million": "17",
+      "output_per_million": "101",
+      "input_cost": "0.306017",
+      "output_cost": "0.203212",
+      "total_cost": "0.509229"
+    },
+    "status": "success"
+  },
+  "warnings": [
+    {
+      "stage": "stage2_polymer_entity",
+      "code": "polymer_name_preferred_over_sample_label",
+      "message": "实体同时包含具体聚合物名称和样品代号时，已优先采用有原文 mention 支持的具体名称",
+      "items": [
+        {
+          "entity_id": "pe003",
+          "previous_name": "COC/CB3",
+          "polymer_name": "CB-COC composite",
+          "mention_id": "m014"
+        }
+      ]
+    },
+    {
+      "stage": "stage2_polymer_entity",
+      "code": "preview_nested_mentions_split_retained",
+      "message": "Preview 模式已保留无法确定合并关系的嵌套 mention 拆分；需在正式数据中复核",
+      "items": [
+        {
+          "shorter_mention_id": "m049",
+          "longer_mention_id": "m050",
+          "shorter_assignment": "pe001",
+          "longer_assignment": "pe007"
+        },
+        {
+          "shorter_mention_id": "m057",
+          "longer_mention_id": "m058",
+          "shorter_assignment": "pe001",
+          "longer_assignment": "pe006"
+        },
+        {
+          "shorter_mention_id": "m041",
+          "longer_mention_id": "m043",
+          "shorter_assignment": "pe001",
+          "longer_assignment": "pe004"
+        },
+        {
+          "shorter_mention_id": "m035",
+          "longer_mention_id": "m036",
+          "shorter_assignment": "pe001",
+          "longer_assignment": "pe004"
+        }
+      ]
+    },
+    {
+      "stage": "stage2_polymer_entity",
+      "code": "polymer_type_default_inferred",
+      "message": "Backfill：无共聚或共混反证的实体已推断为 homopolymer",
+      "items": [
+        {
+          "entity_id": "pe002",
+          "field": "polymer_type",
+          "value": "homopolymer",
+          "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证"
+        }
+      ],
+      "backfill": true
+    }
+  ]
+}

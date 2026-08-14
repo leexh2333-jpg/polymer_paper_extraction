@@ -1,0 +1,895 @@
+{
+  "schema_version": "1.0",
+  "document_id": "reference_no_0038813",
+  "characterizations": [
+    {
+      "characterization_id": "char001",
+      "method_raw": "Gel permeation chromatography (GPC)",
+      "method_normalized": "GPC",
+      "entity_id": "pe002",
+      "sample_resolution_status": "unresolved",
+      "instrument": "Waters 150-C instrument",
+      "measurement_context": {
+        "other_conditions": {
+          "solvent": "dimethylformamide (DMF)",
+          "flow_rate": "1 ml/min",
+          "calibration_standard": "polystyrene standards"
+        },
+        "other_condition_evidence": {
+          "solvent": [
+            {
+              "block_id": "P_1_21",
+              "page": 1,
+              "bbox": [
+                53.0,
+                330.0,
+                467.0,
+                787.0
+              ],
+              "source_type": "text",
+              "source_sentence": "dimethylformamide (DMF) was used as a solvent"
+            }
+          ],
+          "flow_rate": [
+            {
+              "block_id": "P_1_21",
+              "page": 1,
+              "bbox": [
+                53.0,
+                330.0,
+                467.0,
+                787.0
+              ],
+              "source_type": "text",
+              "source_sentence": "flow rate of 1 ml/min"
+            }
+          ],
+          "calibration_standard": [
+            {
+              "block_id": "P_1_21",
+              "page": 1,
+              "bbox": [
+                53.0,
+                330.0,
+                467.0,
+                787.0
+              ],
+              "source_type": "text",
+              "source_sentence": "molecular weight calibration was carried out using polystyrene standards"
+            }
+          ]
+        },
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "parameters": {
+        "columns": "Styragel columns",
+        "detector": "differential refractometer detector"
+      },
+      "result_summary": "Mn of poly(amide-urea)s ranges from 14200 to 22000, Mw ranges from 35700 to 48500, dispersity ranges from 2.20 to 2.51",
+      "derived_property_ids": [
+        "uprop001",
+        "uprop002"
+      ],
+      "evidence": [
+        {
+          "block_id": "P_1_21",
+          "page": 1,
+          "bbox": [
+            53.0,
+            330.0,
+            467.0,
+            787.0
+          ],
+          "source_type": "text",
+          "source_sentence": "Gel permeation chromatography (GPC) was performed on a Waters 150-C instrument using Styragel columns and a differential refractometer detector. The molecular weight calibration was carried out using polystyrene standards. Calibration and measurements were made at a flow rate of 1 ml/min, and dimethylformamide (DMF) was used as a solvent."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "characterization_id": "char002",
+      "method_raw": "Ubbelohde viscometer",
+      "method_normalized": "viscometry",
+      "sample_ids": [
+        "s002",
+        "s004",
+        "s006",
+        "s007",
+        "s008",
+        "s009"
+      ],
+      "entity_ids": [
+        "pe006",
+        "pe008",
+        "pe010",
+        "pe011",
+        "pe012",
+        "pe013"
+      ],
+      "sample_resolution_status": "multi_resolved",
+      "series_id": "series002",
+      "instrument": "Ubbelohde viscometer",
+      "measurement_context": {
+        "other_conditions": {
+          "concentration": "0.5 g/dl",
+          "solvent": "NMP"
+        },
+        "other_condition_evidence": {
+          "concentration": [
+            {
+              "block_id": "P_1_21",
+              "page": 1,
+              "bbox": [
+                53.0,
+                330.0,
+                467.0,
+                787.0
+              ],
+              "source_type": "text",
+              "source_sentence": "concentration of 0.5 g/dl"
+            }
+          ],
+          "solvent": [
+            {
+              "block_id": "P_1_21",
+              "page": 1,
+              "bbox": [
+                53.0,
+                330.0,
+                467.0,
+                787.0
+              ],
+              "source_type": "text",
+              "source_sentence": "in NMP"
+            }
+          ]
+        },
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "parameters": {},
+      "result_summary": "Inherent viscosity measurements for poly(amide-urea)s series",
+      "derived_property_ids": [],
+      "evidence": [
+        {
+          "block_id": "P_1_21",
+          "page": 1,
+          "bbox": [
+            53.0,
+            330.0,
+            467.0,
+            787.0
+          ],
+          "source_type": "text",
+          "source_sentence": "Inherent viscosities were measured using an Ubbelohde viscometer at a concentration of 0.5 g/dl in NMP at $3 0 ^ { \\circ } \\mathrm { C }$."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "characterization_id": "char003",
+      "method_raw": "thermogravimetric analysis (TGA)",
+      "method_normalized": "TGA",
+      "sample_ids": [
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006",
+        "s007",
+        "s008",
+        "s009"
+      ],
+      "sample_resolution_status": "multi_resolved",
+      "instrument": "Stanton Redcraft STA-780",
+      "measurement_context": {
+        "other_conditions": {
+          "atmosphere": "air"
+        },
+        "other_condition_evidence": {
+          "atmosphere": [
+            {
+              "block_id": "P_1_21",
+              "page": 1,
+              "bbox": [
+                53.0,
+                330.0,
+                467.0,
+                787.0
+              ],
+              "source_type": "text",
+              "source_sentence": "in air"
+            }
+          ]
+        },
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "parameters": {},
+      "result_summary": "Char yield of synthesized polyureas at 700°C ranges from 36% to 49%",
+      "derived_property_ids": [
+        "prop001",
+        "prop002",
+        "prop003",
+        "prop004",
+        "prop005",
+        "prop006",
+        "prop007",
+        "prop008"
+      ],
+      "evidence": [
+        {
+          "block_id": "P_1_21",
+          "page": 1,
+          "bbox": [
+            53.0,
+            330.0,
+            467.0,
+            787.0
+          ],
+          "source_type": "text",
+          "source_sentence": "Differential scanning calorimetry (DSC) and thermogravimetric analysis (TGA) were recorded duplicate on a Stanton Redcraft STA-780 (London, UK) in air at a heating rate of 108C/min."
+        },
+        {
+          "block_id": "P_6_85",
+          "page": 6,
+          "bbox": [
+            87.0,
+            476.0,
+            500.0,
+            691.0
+          ],
+          "source_type": "text",
+          "source_sentence": "the char yields of polymers at 7008C were about 36–49%"
+        },
+        {
+          "block_id": "T_6_86",
+          "page": 6,
+          "bbox": [
+            90.0,
+            742.0,
+            510.0,
+            863.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table 3. Thermal analysis of the polymers",
+          "table_locator": {
+            "table_id": "T_6_86",
+            "row_label": "1AQA-PPDI, 1AQA-NDI, 1AQA-MDI, 1AQA-H$_{12}$MDI, 2AQA-PPDI, 2AQA-NDI, 2AQA-MDI, 2AQA-H$_{12}$MDI",
+            "column_label": "Char yield at 700°C (%)",
+            "cell_value": "49, 46, 45, 38, 47, 44, 43, 36",
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "characterization_id": "char004",
+      "method_raw": "Fourier Transform Infrared (FTIR) spectrometer",
+      "method_normalized": "FTIR",
+      "sample_ids": [
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006",
+        "s007",
+        "s008",
+        "s009"
+      ],
+      "sample_resolution_status": "multi_resolved",
+      "instrument": "Bruker-IFS 48 Fourier Transform Infrared (FTIR) spectrometer",
+      "parameters": {
+        "sampling": "KBr"
+      },
+      "result_summary": "FTIR spectra confirmed the chemical structure of synthesized poly(amide-urea)s, showing characteristic urea and amide peaks",
+      "derived_property_ids": [
+        "prop_s5_002"
+      ],
+      "evidence": [
+        {
+          "block_id": "P_1_21",
+          "page": 1,
+          "bbox": [
+            53.0,
+            330.0,
+            467.0,
+            787.0
+          ],
+          "source_type": "text",
+          "source_sentence": "Infrared measurements were performed on a Bruker-IFS 48 Fourier Transform Infrared (FTIR) spectrometer (Ettlingen, Germany)."
+        },
+        {
+          "block_id": "T_5_77",
+          "page": 5,
+          "bbox": [
+            55.0,
+            80.0,
+            905.0,
+            522.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table 1. Characterization of polymers",
+          "table_locator": {
+            "table_id": "T_5_77",
+            "row_label": "all polymer entries",
+            "column_label": "IR (KBr) $(cm^{-1})$",
+            "cell_value": "all listed wavenumber values",
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "characterization_id": "char005",
+      "method_raw": "H-nuclear magnetic resonance (NMR) spectra",
+      "method_normalized": "NMR",
+      "sample_ids": [
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006",
+        "s007",
+        "s008",
+        "s009"
+      ],
+      "sample_resolution_status": "multi_resolved",
+      "instrument": "Bruker Avance DPX 250 MHz",
+      "parameters": {
+        "frequency": "250 MHz"
+      },
+      "result_summary": "1H NMR spectra confirmed the chemical structure of synthesized poly(amide-urea)s, showing characteristic urea NH and aromatic proton peaks",
+      "derived_property_ids": [],
+      "evidence": [
+        {
+          "block_id": "P_1_21",
+          "page": 1,
+          "bbox": [
+            53.0,
+            330.0,
+            467.0,
+            787.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The H-nuclear magnetic resonance (NMR) spectra were recorded in DMSO-D solution using a Bruker Avance DPX 250 MHz (GmbH, Germany)."
+        },
+        {
+          "block_id": "T_5_77",
+          "page": 5,
+          "bbox": [
+            55.0,
+            80.0,
+            905.0,
+            522.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table 1. Characterization of polymers",
+          "table_locator": {
+            "table_id": "T_5_77",
+            "row_label": "all polymer entries",
+            "column_label": "NMR (DMSO-$D_6$) ($\\delta$)",
+            "cell_value": "all listed chemical shift values",
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "characterization_id": "char006",
+      "method_raw": "Differential scanning calorimetry (DSC)",
+      "method_normalized": "DSC",
+      "sample_ids": [
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006",
+        "s007",
+        "s008",
+        "s009"
+      ],
+      "sample_resolution_status": "multi_resolved",
+      "instrument": "Stanton Redcraft STA-780",
+      "measurement_context": {
+        "other_conditions": {
+          "atmosphere": "air"
+        },
+        "other_condition_evidence": {
+          "atmosphere": [
+            {
+              "block_id": "P_1_21",
+              "page": 1,
+              "bbox": [
+                53.0,
+                330.0,
+                467.0,
+                787.0
+              ],
+              "source_type": "text",
+              "source_sentence": "in air"
+            }
+          ]
+        },
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "parameters": {},
+      "result_summary": "DSC confirmed glass transition temperatures of synthesized polyureas, no melting endotherms observed confirming amorphous nature",
+      "derived_property_ids": [],
+      "evidence": [
+        {
+          "block_id": "P_1_21",
+          "page": 1,
+          "bbox": [
+            53.0,
+            330.0,
+            467.0,
+            787.0
+          ],
+          "source_type": "text",
+          "source_sentence": "Differential scanning calorimetry (DSC) and thermogravimetric analysis (TGA) were recorded duplicate on a Stanton Redcraft STA-780 (London, UK) in air at a heating rate of 108C/min. In DSC thermograms, the samples were heated from 30 to $2 0 0 ^ { \\circ } \\mathrm { C } ,$ they were cooled, and then re-heated to eliminate the thermal history."
+        },
+        {
+          "block_id": "P_6_84",
+          "page": 6,
+          "bbox": [
+            87.0,
+            249.0,
+            500.0,
+            476.0
+          ],
+          "source_type": "text",
+          "source_sentence": "Also DSC analysis confirmed data obtained from DMTA. The glass transition temperature $( T _ { \\mathrm { g } } )$ was taken as the midpoint of the change in the slope of the baseline. Also, no polymer showed a clear melting endotherm which resulted from the amorphous nature of the polymers."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "characterization_id": "char007",
+      "method_raw": "dynamic mechanical thermal analyzer",
+      "method_normalized": "DMA",
+      "sample_ids": [
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006",
+        "s007",
+        "s008",
+        "s009"
+      ],
+      "sample_resolution_status": "multi_resolved",
+      "instrument": "Polymer Laboratories dynamic mechanical thermal analyzer",
+      "measurement_context": {
+        "frequency": {
+          "raw": "1 Hz",
+          "value": 1.0,
+          "unit": "Hz",
+          "evidence": [
+            {
+              "block_id": "P_1_21",
+              "page": 1,
+              "bbox": [
+                53.0,
+                330.0,
+                467.0,
+                787.0
+              ],
+              "source_type": "text",
+              "source_sentence": "at 1 Hz"
+            }
+          ],
+          "evidence_ids": []
+        },
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "parameters": {},
+      "result_summary": "DMTA measured glass transition temperatures of synthesized polyureas via tan δ maximum",
+      "derived_property_ids": [],
+      "evidence": [
+        {
+          "block_id": "P_1_21",
+          "page": 1,
+          "bbox": [
+            53.0,
+            330.0,
+            467.0,
+            787.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The dynamic mechanical measurements were recorded on a Polymer Laboratories dynamic mechanical thermal analyzer over a temperature range of $2 5 { - } 3 0 0 ^ { \\circ } \\mathrm { C }$ at 1 Hz and a heating rate of 58C/min (Surrey, UK)."
+        },
+        {
+          "block_id": "P_6_84",
+          "page": 6,
+          "bbox": [
+            87.0,
+            249.0,
+            500.0,
+            476.0
+          ],
+          "source_type": "text",
+          "source_sentence": "Thermal behavior of the polymers was studied using dynamic mechanical thermal analysis (DMTA). By increasing the temperature from 30 to $3 0 0 ^ { \\circ } \\mathrm { C }$, one transition was seen for the polymers at which tan d went through a maximum. This transition was related to the glass transition temperature of the polymers."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "characterization_id": "char008",
+      "method_raw": "Wide-angle X-ray diffraction (WAXD)",
+      "method_normalized": "XRD",
+      "sample_ids": [
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006",
+        "s007",
+        "s008",
+        "s009"
+      ],
+      "sample_resolution_status": "multi_resolved",
+      "measurement_context": {
+        "temperature": {
+          "raw": "room temperature",
+          "evidence": [
+            {
+              "block_id": "P_1_21",
+              "page": 1,
+              "bbox": [
+                53.0,
+                330.0,
+                467.0,
+                787.0
+              ],
+              "source_type": "text",
+              "source_sentence": "at room temperature"
+            }
+          ],
+          "evidence_ids": []
+        },
+        "other_conditions": {
+          "voltage": "40 kV",
+          "current": "25 mA"
+        },
+        "other_condition_evidence": {
+          "voltage": [
+            {
+              "block_id": "P_1_21",
+              "page": 1,
+              "bbox": [
+                53.0,
+                330.0,
+                467.0,
+                787.0
+              ],
+              "source_type": "text",
+              "source_sentence": "(40 kV, 25 mA)"
+            }
+          ],
+          "current": [
+            {
+              "block_id": "P_1_21",
+              "page": 1,
+              "bbox": [
+                53.0,
+                330.0,
+                467.0,
+                787.0
+              ],
+              "source_type": "text",
+              "source_sentence": "(40 kV, 25 mA)"
+            }
+          ]
+        },
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "parameters": {},
+      "result_summary": "All synthesized polyureas are amorphous, no crystalline diffraction peaks observed",
+      "derived_property_ids": [
+        "prop_s5_001"
+      ],
+      "evidence": [
+        {
+          "block_id": "P_1_21",
+          "page": 1,
+          "bbox": [
+            53.0,
+            330.0,
+            467.0,
+            787.0
+          ],
+          "source_type": "text",
+          "source_sentence": "Wide-angle X-ray diffraction (WAXD) patterns were performed at room temperature on an X-ray diffractometer (Siemens model D 5000) using a Ni-filtered Cu Ka radiation (40 kV, 25 mA) at a scanning rate of 38/min."
+        },
+        {
+          "block_id": "P_7_101",
+          "page": 7,
+          "bbox": [
+            53.0,
+            604.0,
+            467.0,
+            776.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The crystallinity of the polymers was examined by WAXD patterns obtained by the powder specimens in the region of 2u 5–708 at room temperature. The X-ray diffraction studies of the polyureas revealed that all of the polymers were amorphous."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    }
+  ],
+  "properties": [
+    {
+      "property_id": "prop_s5_001",
+      "characterization_id": "char008",
+      "sample_ids": [
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006",
+        "s007",
+        "s008",
+        "s009"
+      ],
+      "sample_resolution_status": "multi_resolved",
+      "property_name_raw": "crystallinity",
+      "property_name_normalized": "xrd_crystallinity",
+      "property_category": "morphology",
+      "value_raw": "amorphous",
+      "source_stage": "stage5",
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_7_101",
+          "page": 7,
+          "bbox": [
+            53.0,
+            604.0,
+            467.0,
+            776.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The X-ray diffraction studies of the polyureas revealed that all of the polymers were amorphous."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "property_id": "prop_s5_002",
+      "characterization_id": "char004",
+      "sample_id": "s002",
+      "sample_resolution_status": "resolved",
+      "property_name_raw": "IR peak wavenumber",
+      "property_name_normalized": "ftir_peak_wavenumber",
+      "property_category": "composition_structure",
+      "value_raw": "3338",
+      "value_min": 3338.0,
+      "value_max": 3338.0,
+      "unit_raw": "cm^{-1}",
+      "unit_normalized": "cm⁻¹",
+      "source_stage": "stage5",
+      "source_type": "table",
+      "evidence": [
+        {
+          "block_id": "T_5_77",
+          "page": 5,
+          "bbox": [
+            55.0,
+            80.0,
+            905.0,
+            522.0
+          ],
+          "source_type": "table",
+          "source_sentence": "Table 1. Characterization of polymers",
+          "table_locator": {
+            "table_id": "T_5_77",
+            "row_label": "1AQA-PPDI",
+            "column_label": "IR (KBr) $(cm^{-1})$",
+            "cell_value": "3338",
+            "cell_id": null,
+            "row_index": null,
+            "column_index": null
+          }
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    }
+  ],
+  "provenance": {
+    "stage": "stage5_characterization",
+    "provider": "dmx",
+    "model": "doubao-seed-2.0-pro",
+    "models": [
+      "doubao-seed-2.0-pro"
+    ],
+    "prompt_id": "polymer.stage5.characterization",
+    "prompt_version": "1.6.2",
+    "prompt_sha256": "5f918eb9d0dcbe0a4dc60a70d83c4e9f144f9a87bf68905d0a38ad22c000ee5c",
+    "vocabulary_sha256": "3e9d85e4915a729edf0f0a53821f3ee6edf32874e1da6972457417e4f13a1510",
+    "input_hash": "a98e29d7e09c074f254a5e78e96dc0a728b45a57f57df600c98f66a1566f3054",
+    "model_config_hash": "7e14aff06827af47a7b1a797111258e33d5972d1c072111440c3b2aae020f3ce",
+    "cache_key": "63591360b6a5cec440c5ff3b1c83a9445b7e43191edad43b43eb39030b43fd84",
+    "output_schema_version": "characterization_schema.v4",
+    "implementation_version": "1.7.1",
+    "context_block_count": 51,
+    "context_chars": 37423,
+    "call_count": 1,
+    "usage": {
+      "input_tokens": 23092,
+      "output_tokens": 9478,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "billable_input_tokens": 23092,
+      "total_tokens": 32570
+    },
+    "cost": {
+      "status": "calculated",
+      "currency": "CNY",
+      "input_per_million": "4.32",
+      "output_per_million": "29.15",
+      "input_cost": "0.09975744",
+      "output_cost": "0.2762837",
+      "total_cost": "0.37604114"
+    },
+    "status": "success"
+  },
+  "warnings": [
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unlocatable_additional_evidence_removed",
+      "message": "Preview 模式已移除无法回定位到 Stage 0 block 的附加 Characterization evidence",
+      "field_path": "characterizations[0].evidence",
+      "block_ids": [
+        "P_6_83"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_characterization_details_cleared",
+      "message": "Preview 模式已清空无对象 evidence 支撑的可选表征细节",
+      "field_path": "characterizations[1]",
+      "fields": [
+        "measurement_context.temperature"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_characterization_details_cleared",
+      "message": "Preview 模式已清空无对象 evidence 支撑的可选表征细节",
+      "field_path": "characterizations[2]",
+      "fields": [
+        "measurement_context.other_conditions"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_characterization_details_cleared",
+      "message": "Preview 模式已清空无对象 evidence 支撑的可选表征细节",
+      "field_path": "characterizations[4]",
+      "fields": [
+        "measurement_context.other_conditions",
+        "measurement_context"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_characterization_details_cleared",
+      "message": "Preview 模式已清空无对象 evidence 支撑的可选表征细节",
+      "field_path": "characterizations[5]",
+      "fields": [
+        "measurement_context.other_conditions"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_characterization_details_cleared",
+      "message": "Preview 模式已清空无对象 evidence 支撑的可选表征细节",
+      "field_path": "characterizations[6]",
+      "fields": [
+        "measurement_context.temperature",
+        "measurement_context.other_conditions"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_characterization_details_cleared",
+      "message": "Preview 模式已清空无对象 evidence 支撑的可选表征细节",
+      "field_path": "characterizations[7]",
+      "fields": [
+        "instrument",
+        "measurement_context.other_conditions"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "series_point_subject_scope_inherited",
+      "message": "Characterization 已从关联且主体范围一致的跨主体 Series points 继承完整主体范围",
+      "field_path": "characterizations[1]",
+      "series_ids": [
+        "series002"
+      ],
+      "sample_ids": [
+        "s002",
+        "s004",
+        "s006",
+        "s007",
+        "s008",
+        "s009"
+      ],
+      "entity_ids": [
+        "pe006",
+        "pe008",
+        "pe010",
+        "pe011",
+        "pe012",
+        "pe013"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "derived_property_back_reference_completed",
+      "message": "Stage 5 property 已明确引用唯一 Characterization；已补齐其 derived_property_ids 反向引用",
+      "field_path": "properties[0].characterization_id",
+      "characterization_id": "char008",
+      "property_id": "prop_s5_001"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "derived_property_back_reference_completed",
+      "message": "Stage 5 property 已明确引用唯一 Characterization；已补齐其 derived_property_ids 反向引用",
+      "field_path": "properties[1].characterization_id",
+      "characterization_id": "char004",
+      "property_id": "prop_s5_002"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_semantic_validation_bypassed",
+      "message": "Preview 已保留 Schema 合法候选，并跳过原文/evidence 语义对应校验；Strict 模式仍会报错",
+      "reason": "T_6_86.table_locator.row_label 不是表格原文"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "unresolved_characterizations",
+      "message": "1 条表征无法可靠关联具体 Sample",
+      "characterization_ids": [
+        "char001"
+      ]
+    }
+  ]
+}

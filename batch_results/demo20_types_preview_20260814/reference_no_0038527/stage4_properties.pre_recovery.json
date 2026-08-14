@@ -1,0 +1,496 @@
+{
+  "schema_version": "1.0",
+  "document_id": "reference_no_0038527",
+  "measurement_conditions": [
+    {
+      "condition_id": "mc001",
+      "other_conditions": {},
+      "other_condition_evidence": {},
+      "condition_status": "not_reported",
+      "evidence": {
+        "block_id": "P_5_79",
+        "page": 5,
+        "bbox": [
+          514.0,
+          613.0,
+          932.0,
+          964.0
+        ],
+        "source_type": "text",
+        "source_sentence": "Hole mobility values generally increased with channel length and ranged from a minimum of 9.8 × 10^-4 cm²/(V s) for the width 1000 µm, length 5 µm device to the maximum value of 2.9 × 10^-3 cm²/(V s) for the width 500 µm, length 50 µm device."
+      },
+      "confidence": {
+        "score": 0.8
+      }
+    },
+    {
+      "condition_id": "mc002",
+      "other_conditions": {
+        "annealing_time": "2 h"
+      },
+      "other_condition_evidence": {
+        "annealing_time": [
+          {
+            "block_id": "P_5_79",
+            "page": 5,
+            "bbox": [
+              514.0,
+              613.0,
+              932.0,
+              964.0
+            ],
+            "source_type": "text",
+            "source_sentence": "Upon thermal annealing (150 °C for 2 h)"
+          }
+        ]
+      },
+      "condition_status": "reported",
+      "evidence": {
+        "block_id": "P_5_79",
+        "page": 5,
+        "bbox": [
+          514.0,
+          613.0,
+          932.0,
+          964.0
+        ],
+        "source_type": "text",
+        "source_sentence": "where $\\mu$is the field-effect mobility, $C _ { \\mathrm { O X } }$is the capacitance density of the gate dielectric [F/cm<sup>2</sup>], $V _ { \\mathrm { T } }$is the threshold voltage, and W (width) and L (length) are the dimensions of the semiconductor channel defined by the source and drain electrodes."
+      },
+      "confidence": {
+        "score": 0.8
+      }
+    }
+  ],
+  "properties": [
+    {
+      "property_id": "prop001",
+      "sample_id": "s017",
+      "property_name_raw": "field-effect mobility",
+      "determination_method_raw": "Fitting of |I_DS|^1/2 against V_GS data to the square law in saturation regime",
+      "observation_role": "single",
+      "value_raw": "1.45 × 10^-2",
+      "value_min": 0.0145,
+      "value_max": 0.0145,
+      "unit_raw": "cm²/(V s)",
+      "unit_normalized": "cm²·V⁻¹·s⁻¹",
+      "measurement_condition_id": "mc002",
+      "measurement_context": {
+        "other_conditions": {
+          "annealing_time": "2 h"
+        },
+        "other_condition_evidence": {
+          "annealing_time": [
+            {
+              "block_id": "P_5_79",
+              "page": 5,
+              "bbox": [
+                514.0,
+                613.0,
+                932.0,
+                964.0
+              ],
+              "source_type": "text",
+              "source_sentence": "Upon thermal annealing (150 °C for 2 h)"
+            }
+          ]
+        },
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_5_79",
+          "page": 5,
+          "bbox": [
+            514.0,
+            613.0,
+            932.0,
+            964.0
+          ],
+          "source_type": "text",
+          "source_sentence": "Upon thermal annealing (150 °C for 2 h), charge mobilities, on/off current ratios, and threshold voltages increased up to 1.45 × 10^-2 cm²/(V s), >10^4, and 32 V, respectively, for the 500 µm × 50 µm device."
+        }
+      ],
+      "confidence": {
+        "score": 0.8
+      }
+    },
+    {
+      "property_id": "prop002",
+      "sample_id": "s017",
+      "property_name_raw": "on/off current ratio",
+      "determination_method_raw": "semilogarithmic plots of I_DS against V_GS",
+      "observation_role": "single",
+      "value_raw": ">10^4",
+      "measurement_condition_id": "mc002",
+      "measurement_context": {
+        "other_conditions": {
+          "annealing_time": "2 h"
+        },
+        "other_condition_evidence": {
+          "annealing_time": [
+            {
+              "block_id": "P_5_79",
+              "page": 5,
+              "bbox": [
+                514.0,
+                613.0,
+                932.0,
+                964.0
+              ],
+              "source_type": "text",
+              "source_sentence": "Upon thermal annealing (150 °C for 2 h)"
+            }
+          ]
+        },
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_5_79",
+          "page": 5,
+          "bbox": [
+            514.0,
+            613.0,
+            932.0,
+            964.0
+          ],
+          "source_type": "text",
+          "source_sentence": "Upon thermal annealing (150 °C for 2 h), charge mobilities, on/off current ratios, and threshold voltages increased up to 1.45 × 10^-2 cm²/(V s), >10^4, and 32 V, respectively, for the 500 µm × 50 µm device."
+        }
+      ],
+      "confidence": {
+        "score": 0.8
+      }
+    },
+    {
+      "property_id": "prop003",
+      "sample_id": "s017",
+      "property_name_raw": "threshold voltage",
+      "determination_method_raw": "linear fit to I_DS^1/2 against V_GS",
+      "observation_role": "single",
+      "value_raw": "32",
+      "value_min": 32.0,
+      "value_max": 32.0,
+      "unit_raw": "V",
+      "unit_normalized": "V",
+      "measurement_condition_id": "mc002",
+      "measurement_context": {
+        "other_conditions": {
+          "annealing_time": "2 h"
+        },
+        "other_condition_evidence": {
+          "annealing_time": [
+            {
+              "block_id": "P_5_79",
+              "page": 5,
+              "bbox": [
+                514.0,
+                613.0,
+                932.0,
+                964.0
+              ],
+              "source_type": "text",
+              "source_sentence": "Upon thermal annealing (150 °C for 2 h)"
+            }
+          ]
+        },
+        "other_condition_evidence_ids": {},
+        "condition_status": "reported"
+      },
+      "source_type": "text",
+      "evidence": [
+        {
+          "block_id": "P_5_79",
+          "page": 5,
+          "bbox": [
+            514.0,
+            613.0,
+            932.0,
+            964.0
+          ],
+          "source_type": "text",
+          "source_sentence": "Upon thermal annealing (150 °C for 2 h), charge mobilities, on/off current ratios, and threshold voltages increased up to 1.45 × 10^-2 cm²/(V s), >10^4, and 32 V, respectively, for the 500 µm × 50 µm device."
+        }
+      ],
+      "confidence": {
+        "score": 0.8
+      }
+    }
+  ],
+  "unresolved_properties": [],
+  "property_series": [
+    {
+      "series_id": "series001",
+      "sample_resolution_status": "unresolved",
+      "property_name_raw": "T_m^g (°C)",
+      "property_name_normalized": "melting_temperature",
+      "property_code": "P3120",
+      "property_category": "thermal_property",
+      "determination_method_raw": "differential scanning calorimetry (DSC)",
+      "unit_raw": "°C",
+      "unit_normalized": "°C",
+      "measurement_context": {
+        "other_conditions": {},
+        "other_condition_evidence": {},
+        "other_condition_evidence_ids": {},
+        "condition_status": "not_reported"
+      },
+      "points": [
+        {
+          "point_id": "pt001",
+          "observation_role": "series_point",
+          "sample_id": "s001",
+          "entity_id": "pe005",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "249",
+          "value_min": 249.0,
+          "value_max": 249.0,
+          "unit_raw": "°C",
+          "unit_normalized": "°C",
+          "measurement_context": {
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_3_44",
+              "page": 3,
+              "bbox": [
+                71.0,
+                63.0,
+                928.0,
+                273.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 1. Physical Properties of Rg(Th-m,n/p) and Rn(Th-5,4/8)",
+              "table_locator": {
+                "table_id": "T_3_44",
+                "row_label": "Rg(Th-5,4/4)",
+                "column_label": "$T_{m}^{g}$ (°C)",
+                "cell_value": "249",
+                "cell_id": "T_3_44:r0001:c0006",
+                "row_index": 1,
+                "column_index": 6
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt002",
+          "observation_role": "series_point",
+          "sample_id": "s002",
+          "entity_id": "pe006",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "206",
+          "value_min": 206.0,
+          "value_max": 206.0,
+          "unit_raw": "°C",
+          "unit_normalized": "°C",
+          "measurement_context": {
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "covered",
+          "evidence": [
+            {
+              "block_id": "T_3_44",
+              "page": 3,
+              "bbox": [
+                71.0,
+                63.0,
+                928.0,
+                273.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 1. Physical Properties of Rg(Th-m,n/p) and Rn(Th-5,4/8)",
+              "table_locator": {
+                "table_id": "T_3_44",
+                "row_label": "Rg(Th-5,4/8)",
+                "column_label": "$T_{m}^{g}$ (°C)",
+                "cell_value": "206",
+                "cell_id": "T_3_44:r0002:c0006",
+                "row_index": 2,
+                "column_index": 6
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.9
+          }
+        },
+        {
+          "point_id": "pt003",
+          "observation_role": "series_point",
+          "sample_id": "s011",
+          "entity_id": "pe014",
+          "sample_resolution_status": "resolved",
+          "coordinates": [],
+          "value_raw": "k",
+          "measurement_context": {
+            "other_conditions": {},
+            "other_condition_evidence": {},
+            "other_condition_evidence_ids": {},
+            "condition_status": "not_reported"
+          },
+          "coverage_status": "not_applicable",
+          "evidence": [
+            {
+              "block_id": "T_3_44",
+              "page": 3,
+              "bbox": [
+                71.0,
+                63.0,
+                928.0,
+                273.0
+              ],
+              "source_type": "table",
+              "source_sentence": "Table 1. Physical Properties of Rg(Th-m,n/p) and Rn(Th-5,4/8)",
+              "table_locator": {
+                "table_id": "T_3_44",
+                "row_label": "Rn(Th-5,4/9)",
+                "column_label": "T_m^g (°C)",
+                "cell_value": "k",
+                "cell_id": null,
+                "row_index": null,
+                "column_index": null
+              }
+            }
+          ],
+          "confidence": {
+            "score": 0.5
+          }
+        }
+      ],
+      "coverage": {
+        "expected": 2,
+        "covered": 2,
+        "missing": 0,
+        "not_applicable": 1,
+        "ratio": 1.0
+      },
+      "evidence": [
+        {
+          "block_id": "P_4_59",
+          "page": 4,
+          "bbox": [
+            67.0,
+            841.0,
+            483.0,
+            964.0
+          ],
+          "source_type": "text",
+          "source_sentence": "Thermal transitions of regiorandom and regioregular alternating alkyl:semifluoroalkyl polymers were determined by differential scanning calorimetry (DSC) (Table 1)."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    }
+  ],
+  "provenance": {
+    "stage": "stage4_property",
+    "provider": "dmx",
+    "model": "doubao-seed-2.0-pro",
+    "models": [
+      "doubao-seed-2.0-pro"
+    ],
+    "prompt_id": "polymer.stage4.property",
+    "prompt_version": "1.7.2",
+    "prompt_sha256": "ec79fe3bf47539cab4ba239c611d1ab17d75dc0038cda85020caca580f7987a5",
+    "vocabulary_sha256": "3e9d85e4915a729edf0f0a53821f3ee6edf32874e1da6972457417e4f13a1510",
+    "input_hash": "57dd5fdbc27da66da9d71cb21aeda44bb32d24614a1b2b42f1e5966ae50ee529",
+    "model_config_hash": "cc96eaab20bd380ae90f3ba1dfa638bd40f111e3e72ca185255fb71b459d40ea",
+    "cache_key": "03a80d9e02f3415e4a152dbf0fd9636dbdbe63fea5fb0823b1fa9a69883faa0f",
+    "output_schema_version": "property_observation_schema.v7",
+    "implementation_version": "1.7.10",
+    "context_block_count": 42,
+    "context_chars": 39509,
+    "call_count": 1,
+    "usage": {
+      "input_tokens": 29471,
+      "output_tokens": 13475,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "billable_input_tokens": 29471,
+      "total_tokens": 42946
+    },
+    "cost": {
+      "status": "calculated",
+      "currency": "CNY",
+      "input_per_million": "4.32",
+      "output_per_million": "29.15",
+      "input_cost": "0.12731472",
+      "output_cost": "0.39279625",
+      "total_cost": "0.52011097"
+    },
+    "status": "success"
+  },
+  "warnings": [
+    {
+      "stage": "stage4_property",
+      "code": "series_entity_relinked_to_sample",
+      "message": "PropertySeries/point 的 entity_id 与已解析 Sample 冲突；已按 Stage 3 Sample.refers_to_entity 确定性纠正",
+      "series": 0,
+      "points": 3
+    },
+    {
+      "stage": "stage4_property",
+      "code": "multi_subject_series_normalized",
+      "message": "PropertySeries 的 points 明确属于多个 Sample/PolymerEntity；已清除错误的单一顶层主体，主体关系保留在各 point",
+      "series": 1
+    },
+    {
+      "stage": "stage4_property",
+      "code": "empty_reported_context_downgraded",
+      "message": "measurement_context 标记为 reported 但没有任何条件值；已确定性改为 not_reported",
+      "contexts": 2
+    },
+    {
+      "stage": "stage4_property",
+      "code": "candidate_table_locator_surface_repaired",
+      "message": "模型 locator 表面文本不在表格原文；已用 property raw 与 determination method 中唯一匹配的 Stage 0 表头恢复",
+      "evidence": 2
+    },
+    {
+      "stage": "stage4_property",
+      "code": "condition_evidence_surfaces_repaired",
+      "message": "条件 evidence 的候选摘要无法逐字定位；已用同一条件下性质字段的原文 anchor 恢复",
+      "evidence": 1
+    },
+    {
+      "stage": "stage4_property",
+      "code": "preview_semantic_validation_bypassed",
+      "message": "Preview 已保留 Schema 合法候选，并跳过原文/evidence 语义对应校验；Strict 模式仍会报错",
+      "reason": "prop004.determination_method_raw='Fitting of |I_DS|^1/2 against V_GS data to the square law in saturation regime' 不是任一 evidence block 的原文子串"
+    },
+    {
+      "stage": "stage4_property",
+      "code": "preview_objects_salvaged",
+      "message": "Preview 已逐对象保留可安全物化的数据；坏字段、坏对象或失效引用已局部删除，Strict 模式仍会报错",
+      "details": {
+        "dropped_conditions": [],
+        "dropped_properties": [],
+        "dropped_unresolved_properties": [],
+        "dropped_series": [],
+        "dropped_points": [],
+        "dropped_evidence": 0,
+        "dropped_coordinates": 0
+      }
+    }
+  ]
+}

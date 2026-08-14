@@ -1,0 +1,3601 @@
+{
+  "schema_version": "1.1",
+  "source_document_schema_version": "1.0",
+  "document_id": "reference_no_0025452",
+  "paper": {
+    "ref_no": "reference_no_0025452",
+    "pdf_filename": "3c4318c7-7a1a-4f53-982d-6e04ec0d3b5b_origin.pdf",
+    "source_pdf_path": "mineru/reference_no_0025452/3c4318c7-7a1a-4f53-982d-6e04ec0d3b5b_origin.pdf",
+    "organized_pdf_path": "organized/reference_no_0025452/origin.pdf",
+    "doi": null,
+    "title": null,
+    "authors": null,
+    "journal": null,
+    "year": null,
+    "metadata_status": "failed",
+    "metadata_extraction": {
+      "method": "llm",
+      "provider": null,
+      "model": null,
+      "prompt_file": "prompts/meta_extract.md",
+      "prompt_sha256": "98252486e4f9cdfd1b42ea02b7e01440d6be99c99d18720dc71c95aa1643fcd4",
+      "source_pages": [
+        0,
+        1
+      ],
+      "status": "failed",
+      "error_type": "MetaExtractorUnavailable"
+    }
+  },
+  "source_files": {
+    "markdown": "reference_no_0025452.md",
+    "content_v1": "content.json",
+    "content_v2": "content_v2.json",
+    "pdf": "origin.pdf"
+  },
+  "ocr": {
+    "engine": "mineru",
+    "batch_id": "122ff743-eb66-4583-986f-6c8015953309",
+    "model_version": "vlm",
+    "ocr_enabled": false,
+    "language": null,
+    "page_ranges": null,
+    "enable_formula": true,
+    "enable_table": true,
+    "extra_formats": [],
+    "status": "done",
+    "manifest_file": "batch_122ff743-eb66-4583-986f-6c8015953309_manifest.json",
+    "status_file": "batch_122ff743-eb66-4583-986f-6c8015953309_status.json"
+  },
+  "elements": [
+    {
+      "block_id": "P_0_0",
+      "type": "title",
+      "section": "DocumentTitle",
+      "text": "Structure to Properties Relations of BPDA and PMDA Backbone Hybrid Diamine Polyimide Aerogels",
+      "page": 0,
+      "bbox": [
+        145.0,
+        125.0,
+        852.0,
+        228.0
+      ],
+      "source_block_index": 0,
+      "alignment_status": "matched",
+      "title_level": 1
+    },
+    {
+      "block_id": "P_0_1",
+      "type": "text",
+      "text": "Mosanenzadeh, Shahriar Ghaffari, Zia Saadatnia, Feng Shi, Chul B. Park, and Hani E. Naguib",
+      "page": 0,
+      "bbox": [
+        111.0,
+        252.0,
+        883.0,
+        304.0
+      ],
+      "source_block_index": 1,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_0_2",
+      "type": "text",
+      "text": "Version Post-print/Accepted Manuscript",
+      "page": 0,
+      "bbox": [
+        236.0,
+        328.0,
+        576.0,
+        348.0
+      ],
+      "source_block_index": 2,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_0_3",
+      "type": "text",
+      "text": "Citation Mosanenzadeh, Shahriar Ghaffari, Zia Saadatnia, Feng Shi, Chul B. (published version) Park, and Hani E. Naguib. \"Structure to properties relations of BPDA and PMDA backbone hybrid diamine polyimide aerogels.\" Polymer 176 (2019): 213-226.",
+      "page": 0,
+      "bbox": [
+        140.0,
+        378.0,
+        872.0,
+        449.0
+      ],
+      "source_block_index": 3,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_0_4",
+      "type": "text",
+      "text": "DOI 10.1016/S0014-3057(01)00229-4",
+      "page": 0,
+      "bbox": [
+        263.0,
+        464.0,
+        593.0,
+        483.0
+      ],
+      "source_block_index": 4,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_0_5",
+      "type": "text",
+      "text": "Copyright/License",
+      "page": 0,
+      "bbox": [
+        143.0,
+        496.0,
+        308.0,
+        517.0
+      ],
+      "source_block_index": 5,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "I_0_6",
+      "type": "image",
+      "page": 0,
+      "bbox": [
+        321.0,
+        494.0,
+        431.0,
+        526.0
+      ],
+      "source_block_index": 6,
+      "alignment_status": "matched",
+      "image_path": "organized/reference_no_0025452/images/11717f4ede76aee00145d4fac2cf70ddedd44172c078974f3a01db7ac9723c54.jpg",
+      "image_kind": "image"
+    },
+    {
+      "block_id": "P_0_7",
+      "type": "text",
+      "text": "ccOGO This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. To view a copy of this license, visit Creative Commons BY NC ND 4.0 License.",
+      "page": 0,
+      "bbox": [
+        318.0,
+        508.0,
+        870.0,
+        580.0
+      ],
+      "source_block_index": 7,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_0_8",
+      "type": "text",
+      "text": "How to cite TSpace items",
+      "page": 0,
+      "bbox": [
+        387.0,
+        708.0,
+        609.0,
+        727.0
+      ],
+      "source_block_index": 8,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_0_9",
+      "type": "text",
+      "text": "Always cite the published version, so the author(s) will receive recognition through services that track citation counts, e.g. Scopus. If you need to cite the page number of the author manuscript from TSpace because you cannot access the published version, then cite the TSpace version in addition to the published version using the permanent URI (handle) found on the record page.",
+      "page": 0,
+      "bbox": [
+        119.0,
+        739.0,
+        877.0,
+        806.0
+      ],
+      "source_block_index": 9,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_0_10",
+      "type": "text",
+      "text": "This article was made openly accessible by U of T Faculty. Please tell us how this access benefits you. Your story matters.",
+      "page": 0,
+      "bbox": [
+        236.0,
+        819.0,
+        759.0,
+        854.0
+      ],
+      "source_block_index": 10,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_1_15",
+      "type": "title",
+      "text": "Structure to Properties Relations of BPDA and PMDA Backbone Hybrid Diamine Polyimide Aerogels",
+      "page": 1,
+      "bbox": [
+        124.0,
+        89.0,
+        872.0,
+        128.0
+      ],
+      "source_block_index": 15,
+      "alignment_status": "matched",
+      "title_level": 1
+    },
+    {
+      "block_id": "P_1_16",
+      "type": "text",
+      "text": "Shahriar Ghaffari Mosanenzadeh, Zia Saadatnia, Feng Shi, Chul B. Park, Hani E. Naguib\\* Department of Mechanical and Industrial Engineering, Department of Materials Science and Engineering, University of Toronto, Canada, M5S 3G8 \\* naguib@mie.utoronto.ca",
+      "page": 1,
+      "bbox": [
+        133.0,
+        143.0,
+        864.0,
+        215.0
+      ],
+      "source_block_index": 16,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_1_17",
+      "type": "title",
+      "section": "Abstract",
+      "text": "Abstract",
+      "page": 1,
+      "bbox": [
+        89.0,
+        244.0,
+        171.0,
+        263.0
+      ],
+      "source_block_index": 17,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_1_18",
+      "type": "text",
+      "section": "Abstract",
+      "text": "Due to the sensitive relations between aerogel physical, thermal, and mechanical properties, improving the polyimide aerogels performance requires understanding of their structure to properties relations, along with introducing a robust method to tailor aerogels properties to achieve the optimum performance. Given this background, this work extensively studies the structure to properties relations of pyromellitic dianhydride (PMDA) and biphenyl-tetracarboxylic acid dianhydride (BPDA) backbone polyimide aerogels at varying hybrid diamine fractions. Based on the results, combination of rigid and flexible diamine monomers at varying fractions successfully tailored the properties of the hybrid diamine polyimide aerogels. Also, physical, thermal, and mechanical properties of the two aerogel backbones presented a tendency to the hybrid diamine monomers fraction. However, the opposite trends of the two backbones suggested that, rather than the diamine or dianhydride monomers individually, their network structure and bonding nature would define the aerogel behavior. Furthermore, this work shows that the shrinkage and morphology are the two main parameters, those describe the aerogels properties. Therefore, tailoring these two parameters can provide aerogels with optimum performance. The fabricated aerogels presented wide range of properties with the maximum observed open cell content of 96.6% and compression modulus of 16.9 MPa along with the effective thermal conductivity and density as low as 32.5 mW/mK and 0.056 g/cm<sup>3</sup>, respectively.",
+      "page": 1,
+      "bbox": [
+        86.0,
+        279.0,
+        910.0,
+        825.0
+      ],
+      "source_block_index": 18,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_1_19",
+      "type": "text",
+      "section": "Abstract",
+      "text": "Keywords: Polyimide; Hybrid Aerogel; BPDA; PMDA; Mesoporous Solids;",
+      "page": 1,
+      "bbox": [
+        89.0,
+        873.0,
+        702.0,
+        892.0
+      ],
+      "source_block_index": 19,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_2_21",
+      "type": "title",
+      "section": "Introduction",
+      "text": "1. Introduction",
+      "page": 2,
+      "bbox": [
+        89.0,
+        90.0,
+        233.0,
+        108.0
+      ],
+      "source_block_index": 21,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_2_22",
+      "type": "text",
+      "section": "Introduction",
+      "text": "Rapid development of technology suggests the needs for more effective and light weight thermal insulation materials. Novel materials such as aerogels with reported thermal conductivity as low as 0.004 W m<sup>-1</sup>K<sup>-1</sup> and minimum observed density of only 160 g m<sup>-3</sup>, are presenting great potential to be employed as future insulation materials in wide range of applications such as automotive, construction or even apparel.<sup>1,2</sup>",
+      "page": 2,
+      "bbox": [
+        86.0,
+        126.0,
+        910.0,
+        284.0
+      ],
+      "source_block_index": 22,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_2_23",
+      "type": "text",
+      "section": "Introduction",
+      "text": "Aerogels can be created from very extensive range of materials as long as they are able to form a gel, which among those silica aerogels are the first created and the most widely studied ones.<sup>3,4</sup> However, highly fragile and brittle nature of the silica significantly limited the applications of the silica aerogels and the attempts to enhance the silica aerogels properties by producing the hybrid aerogels were not fully sucessful.<sup>5,6,7,8</sup> Therefore, during the recent years organic materials with more ductile nature were received more attention from the scientists as alternatives replacement of silica to create mechanically stronger and more flexible aerogels.<sup>9,10,11</sup> Among those, the polyimides presented higher potential to achieve enhanced ductility as well as expressively higher service temperature, of up to 400 ˚C.<sup>11,12</sup> Such service temperature may expand the polyimide aerogels application into high temperature ones such as firefighting accessories or even aerospace.",
+      "page": 2,
+      "bbox": [
+        86.0,
+        300.0,
+        911.0,
+        633.0
+      ],
+      "source_block_index": 23,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_2_24",
+      "type": "text",
+      "section": "Introduction",
+      "text": "Polyimide aerogels presented highly sensitive relations between their properties and nanostructure assembly.<sup>3,4</sup> Also among the processing parameters, monomers type and the backbone chemistry presented the most significant effects on aerogels morphology as well as the properties.<sup>13</sup> Based on previous studies, varying grades of single diamine polyimide aerogels were produced and studied.<sup>14,15,16</sup> However, none of the single diamine polyimide aerogels presented all desired properties at the same time. For instance, the PPDA-BPDA aerogels presented enhanced compression modulus of up to 46.1 MPa, while shown a very high shrinkage of more than 47%.<sup>11</sup> Furthermore, the DMBZ-BPDA presented low shrinkage of 6.7%, but along with brittle mechanical performance.<sup>13</sup> This suggested the idea of tailoring polyimide aerogels nano assembly by combining the two different diamine oligomers to achieve hybrid diamine aerogels with optimum properties.<sup>17</sup>",
+      "page": 2,
+      "bbox": [
+        86.0,
+        648.0,
+        911.0,
+        912.0
+      ],
+      "source_block_index": 24,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_3_26",
+      "type": "text",
+      "section": "Introduction",
+      "text": "",
+      "page": 3,
+      "bbox": [
+        86.0,
+        90.0,
+        908.0,
+        145.0
+      ],
+      "source_block_index": 26,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_3_27",
+      "type": "text",
+      "section": "Introduction",
+      "text": "Given this background, this work studied the structure to properties relations of hybrid PPDA and ODA diamine aerogels on both PMDA and BPDA backbones and at varying diamine fractions. Combining the rigid PPDA and the flexible ODA diamine monomers at varying fractions was a successful strategy to tailor the properties of fabricated aerogels; and the physical, thermal, and mechanical properties of both PMDA and BPDA backbone hybrid diamine aerogels presented a tendency to the two diamine monomers fraction. Indeed, understanding the aerogels structure to properties relations will provide valuable guidelines in tailoring aerogels morphology to achieve desired outcomes. Such aerogels with super thermal insulation and improved mechanical and physical properties can be very useful in development of new products in large variety of industrial applications such as apparel, construction, automotive or even aerospace.",
+      "page": 3,
+      "bbox": [
+        86.0,
+        161.0,
+        911.0,
+        494.0
+      ],
+      "source_block_index": 27,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_3_28",
+      "type": "title",
+      "section": "Introduction",
+      "text": "2. Experimental Section",
+      "page": 3,
+      "bbox": [
+        88.0,
+        544.0,
+        305.0,
+        561.0
+      ],
+      "source_block_index": 28,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_3_29",
+      "type": "title",
+      "section": "Introduction",
+      "text": "2.1 Material",
+      "page": 3,
+      "bbox": [
+        89.0,
+        585.0,
+        199.0,
+        602.0
+      ],
+      "source_block_index": 29,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_3_30",
+      "type": "text",
+      "section": "Introduction",
+      "text": "In this study 4,4'-oxydianiline (ODA) and p-phenylene diamine (PPDA) were selected as diamine monomers and pyromellitic dianhydride (PMDA) as well as biphenyl-tetracarboxylic acid dianhydride (BPDA) were chosen as dianhydride monomers. PMDA and PPDA were selected based on their high reactivity and ODA and BPDA were designated due to their elastic and flexible nature.<sup>18,19,20</sup> Nmethylpyrrolidinone (NMP) was selected because of its high basic aprotic nature, which expected to improve the imidization reaction.<sup>21,22,23,24</sup> Pyridine and acetic anhydride were employed to catalyze the imidization and to scavenge water byproduct of the condensation reaction respectively.<sup>25,26,27,28</sup> 1,3,5- benzenetricarbonyl tri-chloride (BTC) crosslinking agents was selected based on its ability to reduce the overall shrinkage along with enhancing the mechanical properties as well as the elasticity.<sup>11,17</sup> All reagents were purchased from Sigma Aldrich and were used without further purification.",
+      "page": 3,
+      "bbox": [
+        86.0,
+        619.0,
+        908.0,
+        883.0
+      ],
+      "source_block_index": 30,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_4_32",
+      "type": "text",
+      "section": "Introduction",
+      "text": "",
+      "page": 4,
+      "bbox": [
+        86.0,
+        90.0,
+        906.0,
+        145.0
+      ],
+      "source_block_index": 32,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_4_33",
+      "type": "title",
+      "section": "Introduction",
+      "text": "2.2 Characterization",
+      "page": 4,
+      "bbox": [
+        89.0,
+        195.0,
+        269.0,
+        212.0
+      ],
+      "source_block_index": 33,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_4_34",
+      "type": "text",
+      "section": "Introduction",
+      "text": "A full parametric study was performed on all fabricated aerogels. The retained diameter and density were measured using caliper and a Denver Instrument electronic scale with an accuracy of 0.1 mg. Opencell content of the aerogel foams was measured by helium pycnometer (Quantachrome Instrument Ultra-Foam 1000) in accordance with the ASTM D6226 standard at about 100 KPa. Morphology was studied by electronic microscope (Field Emission SEM, Quanta, model FEG-250) operated at high vacuum and 10 to 15 kV. Due to the brittle nature of prepared aerogels, samples were shear broken at room temperature to obtain flat cross-sections. Then sputter coated with gold for SEM analysis. Infrared spectroscopy was performed using a Platinum ATR spectrometer made by Bruker.co. Thermal stability and onset of decomposition of the samples was studied by thermogravimetric analyzer (TGA) TA-Instrument Q50 through heat ramp at the rate of 10 ˚C/min, starting from room temperature up to 700 $^ { \\circ } C$under nitrogen environment. Glass transition temperature of the samples was studied by Differential scanning calorimetry (DSC) using TA-Instrument Q2000 and through heat-cool-heat procedure with an upper temperature of $4 0 0 ^ { \\circ } \\mathrm { C } ,$lower temperature of $2 5 ^ { \\circ } \\mathrm { C } ,$, and at the rate of 10 ˚C/min. Effective thermal conductivity $\\mathrm { ( K _ { e f f } ) }$of aerogels was measured by Hot Disk (ThermTest Inc., TPS2500 S) under ambient condition at room temperature. Measurements were made based on the Hot Disk Transient Plane Source method according to the ISO/DIS 22007-2.2 standard. Mechanical compression study was performed based on D695-02a ASTM guidelines at the rate of 1.27 mm/min. The compression test was conducted using Instron 5848 micro-tester controlled with Bluehill software. Samples were kept at room temperature at least 48 hours prior to testing. Young’s modulus was calculated based on the initial slope of stress-strain curve.",
+      "page": 4,
+      "bbox": [
+        86.0,
+        229.0,
+        910.0,
+        910.0
+      ],
+      "source_block_index": 34,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_4_34",
+        "V2_4_2_1",
+        "V2_4_2_3",
+        "V2_4_2_5",
+        "V2_4_2_7"
+      ]
+    },
+    {
+      "block_id": "P_5_36",
+      "type": "title",
+      "section": "Introduction",
+      "text": "2.3 Sample Preparation",
+      "page": 5,
+      "bbox": [
+        88.0,
+        90.0,
+        294.0,
+        109.0
+      ],
+      "source_block_index": 36,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_5_37",
+      "type": "text",
+      "section": "Introduction",
+      "text": "In this work, Five PMDA backbone and five BPDA backbone polyimide aerogel samples with varying PPDA and ODA diamine compositions were designed and produced. Figure 1 showed the chemical structures of the employed acid anhydride and amine precursors along with the role of BTC in crosslinking of the amine end-capped BPDA backbone oligomers. As presented in table 1, by tailoring the ratio of the rigid PPDA to flexible ODA diamine, the PPDA monomer content of the samples was altered from 100% to 0.",
+      "page": 5,
+      "bbox": [
+        86.0,
+        125.0,
+        910.0,
+        319.0
+      ],
+      "source_block_index": 37,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "I_5_38",
+      "type": "image",
+      "section": "Introduction",
+      "page": 5,
+      "bbox": [
+        163.0,
+        342.0,
+        857.0,
+        858.0
+      ],
+      "source_block_index": 38,
+      "alignment_status": "matched",
+      "caption": "Figure 1. The chemical structures of the employed acid anhydride and amine precursors along with the schematic of BPDA backbone polyimide aerogels cross-linked by BTC.<sup>17</sup>",
+      "image_path": "organized/reference_no_0025452/images/843a69a3a3ee9c97aa7374193f715cd12192029b9f1cca66fa2971419be0b5b6.jpg",
+      "image_kind": "image"
+    },
+    {
+      "block_id": "T_6_40",
+      "type": "table",
+      "section": "Introduction",
+      "page": 6,
+      "bbox": [
+        189.0,
+        106.0,
+        807.0,
+        343.0
+      ],
+      "source_block_index": 40,
+      "alignment_status": "matched",
+      "caption": "Table 1. Samples content with various monomer fractions.",
+      "table_body": "<table><tr><td>Sample</td><td>PPDA (%)</td><td>PPDA (mmol)</td><td>ODA (mmol)</td><td>PMDA (mmol)</td><td>BPDA (mmol)</td><td>BTC (mmol)</td></tr><tr><td>S1</td><td>100%</td><td>34.84</td><td>0.00</td><td>16.59</td><td>-</td><td>0.33</td></tr><tr><td>S2</td><td>50%</td><td>17.42</td><td>8.71</td><td>16.59</td><td>-</td><td>0.44</td></tr><tr><td>S3</td><td>25%</td><td>8.71</td><td>13.06</td><td>16.59</td><td>-</td><td>0.50</td></tr><tr><td>S4</td><td>12.50%</td><td>4.35</td><td>15.24</td><td>16.59</td><td>-</td><td>0.53</td></tr><tr><td>S5</td><td>0</td><td>-</td><td>17.42</td><td>16.59</td><td>-</td><td>0.55</td></tr><tr><td>S6</td><td>100%</td><td>17.42</td><td>-</td><td>-</td><td>16.59</td><td>0.55</td></tr><tr><td>S7</td><td>75%</td><td>13.06</td><td>4.35</td><td>-</td><td>16.59</td><td>0.55</td></tr><tr><td>S8</td><td>50%</td><td>8.71</td><td>8.71</td><td>-</td><td>16.59</td><td>0.55</td></tr><tr><td>S9</td><td>25%</td><td>4.35</td><td>13.06</td><td>-</td><td>16.59</td><td>0.55</td></tr><tr><td>S10</td><td>0</td><td>-</td><td>17.42</td><td>-</td><td>16.59</td><td>0.55</td></tr></table>",
+      "table_cells": [
+        {
+          "cell_id": "T_6_40:r0000:c0000",
+          "row_index": 0,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Sample",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0000:c0001",
+          "row_index": 0,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "PPDA (%)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0000:c0002",
+          "row_index": 0,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "PPDA (mmol)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0000:c0003",
+          "row_index": 0,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "ODA (mmol)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0000:c0004",
+          "row_index": 0,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "PMDA (mmol)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0000:c0005",
+          "row_index": 0,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "BPDA (mmol)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0000:c0006",
+          "row_index": 0,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "BTC (mmol)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0001:c0000",
+          "row_index": 1,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "S1",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0001:c0001",
+          "row_index": 1,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "100%",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0001:c0002",
+          "row_index": 1,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "34.84",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0001:c0003",
+          "row_index": 1,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.00",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0001:c0004",
+          "row_index": 1,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "16.59",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0001:c0005",
+          "row_index": 1,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0001:c0006",
+          "row_index": 1,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.33",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0002:c0000",
+          "row_index": 2,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "S2",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0002:c0001",
+          "row_index": 2,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "50%",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0002:c0002",
+          "row_index": 2,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "17.42",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0002:c0003",
+          "row_index": 2,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "8.71",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0002:c0004",
+          "row_index": 2,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "16.59",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0002:c0005",
+          "row_index": 2,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0002:c0006",
+          "row_index": 2,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.44",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0003:c0000",
+          "row_index": 3,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "S3",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0003:c0001",
+          "row_index": 3,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "25%",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0003:c0002",
+          "row_index": 3,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "8.71",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0003:c0003",
+          "row_index": 3,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "13.06",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0003:c0004",
+          "row_index": 3,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "16.59",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0003:c0005",
+          "row_index": 3,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0003:c0006",
+          "row_index": 3,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.50",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0004:c0000",
+          "row_index": 4,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "S4",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0004:c0001",
+          "row_index": 4,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "12.50%",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0004:c0002",
+          "row_index": 4,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "4.35",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0004:c0003",
+          "row_index": 4,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "15.24",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0004:c0004",
+          "row_index": 4,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "16.59",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0004:c0005",
+          "row_index": 4,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0004:c0006",
+          "row_index": 4,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.53",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0005:c0000",
+          "row_index": 5,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "S5",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0005:c0001",
+          "row_index": 5,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0005:c0002",
+          "row_index": 5,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0005:c0003",
+          "row_index": 5,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "17.42",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0005:c0004",
+          "row_index": 5,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "16.59",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0005:c0005",
+          "row_index": 5,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0005:c0006",
+          "row_index": 5,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.55",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0006:c0000",
+          "row_index": 6,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "S6",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0006:c0001",
+          "row_index": 6,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "100%",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0006:c0002",
+          "row_index": 6,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "17.42",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0006:c0003",
+          "row_index": 6,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0006:c0004",
+          "row_index": 6,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0006:c0005",
+          "row_index": 6,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "16.59",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0006:c0006",
+          "row_index": 6,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.55",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0007:c0000",
+          "row_index": 7,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "S7",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0007:c0001",
+          "row_index": 7,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "75%",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0007:c0002",
+          "row_index": 7,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "13.06",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0007:c0003",
+          "row_index": 7,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "4.35",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0007:c0004",
+          "row_index": 7,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0007:c0005",
+          "row_index": 7,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "16.59",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0007:c0006",
+          "row_index": 7,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.55",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0008:c0000",
+          "row_index": 8,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "S8",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0008:c0001",
+          "row_index": 8,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "50%",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0008:c0002",
+          "row_index": 8,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "8.71",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0008:c0003",
+          "row_index": 8,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "8.71",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0008:c0004",
+          "row_index": 8,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0008:c0005",
+          "row_index": 8,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "16.59",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0008:c0006",
+          "row_index": 8,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.55",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0009:c0000",
+          "row_index": 9,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "S9",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0009:c0001",
+          "row_index": 9,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "25%",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0009:c0002",
+          "row_index": 9,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "4.35",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0009:c0003",
+          "row_index": 9,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "13.06",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0009:c0004",
+          "row_index": 9,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0009:c0005",
+          "row_index": 9,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "16.59",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0009:c0006",
+          "row_index": 9,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.55",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0010:c0000",
+          "row_index": 10,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "S10",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0010:c0001",
+          "row_index": 10,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0010:c0002",
+          "row_index": 10,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0010:c0003",
+          "row_index": 10,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "17.42",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0010:c0004",
+          "row_index": 10,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "-",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0010:c0005",
+          "row_index": 10,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "16.59",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_6_40:r0010:c0006",
+          "row_index": 10,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.55",
+          "is_header": false
+        }
+      ],
+      "image_path": "organized/reference_no_0025452/images/0a409f3038b0fb6ea2f8336a9b9cd490f7c6c3845aedfdab02de0936fd6f507d.jpg"
+    },
+    {
+      "block_id": "I_6_41",
+      "type": "image",
+      "section": "Introduction",
+      "page": 6,
+      "bbox": [
+        91.0,
+        481.0,
+        903.0,
+        761.0
+      ],
+      "source_block_index": 41,
+      "alignment_status": "matched",
+      "caption": "Figure 2 presented the picture of the fabricated aerogels. To better reflect the samples height and color intensity, the fabricated samples were shown from two different angles. Furthermore, a direct relation between the color intensity of the aerogels and increasing density is observed.<sup>29</sup> Figure 2. Fabricated aerogels after CO2 supercritical drying. A) Samples from top view, B) Samples from side view. Polymer chains were formed by the linking of several repeat units together along the chains, while the first and last units were capped by the end-groups. The structure and properties of polyimide aerogels",
+      "image_path": "organized/reference_no_0025452/images/a3cc3b78340879a373e25b163dcbb8c1150584493188f7d94991c39a221ed82b.jpg",
+      "image_kind": "image"
+    },
+    {
+      "block_id": "P_7_43",
+      "type": "text",
+      "section": "Introduction",
+      "text": "presented sensitive relations with the number of repeating units. For instance, increasing number of repeat units was reported to significantly reduce the surface area of polyimide aerogels.<sup>11</sup> The number of repeat unit of polyimide aerogels has a direct relation with the monomers molar fraction. Therefore, to control the number of repeat units and to avoid unreacted monomer to remain on the system, the overall diamine over dianhydride monomers molar fraction of the aerogel samples were calculated based on the Equation 1.<sup>17,30,31</sup>",
+      "page": 7,
+      "bbox": [
+        84.0,
+        90.0,
+        911.0,
+        284.0
+      ],
+      "source_block_index": 43,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "E_7_44",
+      "type": "equation",
+      "section": "Introduction",
+      "text": "$$\n\\frac {\\text {Diamine (mol)}}{\\text {Dianhydride (mol)}} = \\left(\\frac {\\mathrm{n} + 1}{\\mathrm{n}}\\right) \\times 100 \\%\\tag{1}\n$$",
+      "page": 7,
+      "bbox": [
+        282.0,
+        297.0,
+        612.0,
+        339.0
+      ],
+      "source_block_index": 44,
+      "alignment_status": "matched",
+      "equation_kind": "display"
+    },
+    {
+      "block_id": "P_7_45",
+      "type": "text",
+      "section": "Introduction",
+      "text": "Where “n” indicates the number of repeat units. To achieve optimum properties, except for the PPDA-PMDA compositions, the number of repeat unit of n=20 was selected.<sup>12,17</sup> Among the commercially available dianhydrides only the PMDA presented the potential to form aerogel nanostructure assembly in reaction with some particular diamines, such as PPDA, even without using any crosslinking agent.<sup>17,32</sup> Therefore, unlike other fabricated oligomers, the PPDA-PMDA had two crosslinking mechanisms of I) chemical bonding by consuming part of the PPDA diamine content, and II) by BTC crosslinking agent similar to the other oligomers. Given this background, to achieve completely imidized and low shrinkage PPDA-PMDA aerogels, the diamine over diahydride molar fraction of 1.9 and BTC crosslinking agent content of 2 mol.% of PMDA dianhydride were selected for PPDA-PMDA oligomers. Furthermore, all specimens were created at solids to NMP solvent weight fraction of 7% to achieve low density as well as high open cell content.",
+      "page": 7,
+      "bbox": [
+        86.0,
+        354.0,
+        910.0,
+        724.0
+      ],
+      "source_block_index": 45,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_7_46",
+      "type": "text",
+      "section": "Introduction",
+      "text": "The sol-gels were created through step by step polymerization processing method, starting with dissolving the diamine and dianhydride monomers in 40% of the overall NMP content separately, followed by mixing and reacting both dissolved monomers for 5 mins to form the polyamic acid solution (PAA). By reacting the monomers, the solutions color turned to dark yellow in a few seconds and then it slowly changed to yellow. After that, the acetic anhydride and pyridine were added to the solution and mixed for additional 3 mins. By addition of the pyridine to the PAA solution the solution temperature increased by about $3 ~ ^ { \\circ } \\mathrm { C }$to $5 ~ ^ { \\circ } \\mathrm { C }$and the solution color changed to transparent red, which gradually transformed to orange-yellow during the mixing.<sup>33,34</sup> Then the BTC content of the sample was dissolved in the remaining 20% of the NMP content and was added to the prepared solution followed by stirring for further 3 mins. Addition of the BTC did not present any color or temperature change. The color intensity of the sol-gel was different with respect to the monomers type and content.",
+      "page": 7,
+      "bbox": [
+        86.0,
+        738.0,
+        911.0,
+        898.0
+      ],
+      "source_block_index": 46,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_7_46",
+        "V2_7_3_1",
+        "V2_7_3_3"
+      ]
+    },
+    {
+      "block_id": "P_8_48",
+      "type": "text",
+      "section": "Introduction",
+      "text": "",
+      "page": 8,
+      "bbox": [
+        86.0,
+        90.0,
+        910.0,
+        285.0
+      ],
+      "source_block_index": 48,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_8_49",
+      "type": "text",
+      "section": "Introduction",
+      "text": "The hybrid diamine samples were created similar to step by step polymerization processing timing as follows. First the total dianhydride, chemical reagents, and BTC content of the hybrid samples were divided into two portions with respect to the molar fraction of the two diamine monomers. Then the two dianhydride solutions were separately mixed and reacted with PPDA and ODA diamine solutions to form the two PAA solutions. At that point, their acetic anhydride and pyridine as well as the BTC portions were added to the prepared PAA solutions separately followed by 3 minutes stirring. Then both prepared solutions were mixed. Finally, the solution was stirred for 3 minutes before being poured into the molds.",
+      "page": 8,
+      "bbox": [
+        86.0,
+        300.0,
+        910.0,
+        564.0
+      ],
+      "source_block_index": 49,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_8_50",
+      "type": "text",
+      "section": "Introduction",
+      "text": "After gelation, sol-gels were kept in the mold for 24 hours to age and then the samples were carefully detached from the mold and placed in 100% NMP for another 24 hours to eliminate the remaining acetic anhydride and pyridine content. Due to insolubility of $\\mathrm { C O } _ { 2 }$in NMP, the NMP content of the samples was gradually exchanged with acetone in 24 hours intervals, and finally placed in 100% acetone bath for further 72 hours. To perform $\\mathrm { C O } _ { 2 }$supercritical drying process, the gels were placed into a 200 ml auto clave chamber and washed with liquid $\\mathrm { C O } _ { 2 }$at about 10 MPa pressure and room temperature until complete elimination of acetone. Finally, the liquid $\\mathrm { C O } _ { 2 }$was converted to supercritical state by heating up the chamber to $4 5 ~ ^ { \\circ } \\mathrm { C }$when the gaseous $\\mathrm { C O } _ { 2 }$was vented out from the chamber at very slow rate of 70 KPa/min to avoid crack propagation.",
+      "page": 8,
+      "bbox": [
+        88.0,
+        579.0,
+        910.0,
+        877.0
+      ],
+      "source_block_index": 50,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_8_50",
+        "V2_8_2_1",
+        "V2_8_2_3",
+        "V2_8_2_5",
+        "V2_8_2_7",
+        "V2_8_2_9",
+        "V2_8_2_11"
+      ]
+    },
+    {
+      "block_id": "P_9_52",
+      "type": "title",
+      "section": "Results",
+      "text": "3. Results and Discussion",
+      "page": 9,
+      "bbox": [
+        88.0,
+        90.0,
+        316.0,
+        108.0
+      ],
+      "source_block_index": 52,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_9_53",
+      "type": "title",
+      "section": "Results",
+      "text": "3.1 Shrinkage, Density and Porosity Verification",
+      "page": 9,
+      "bbox": [
+        88.0,
+        126.0,
+        501.0,
+        143.0
+      ],
+      "source_block_index": 53,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_9_54",
+      "type": "text",
+      "section": "Results",
+      "text": "Figure 3 presented the shrinkage of the studied aerogels, measured at three different stages of i) after 24 hours of ageing, ii) after NMP to acetone solvent exchange and, iii) after supercritical drying. As observed from Figure 3, increasing ODA diamine fraction on PMDA and BPDA backbone aerogels resulted in increased and decreased shrinkage, respectively. These increasing and decreasing trends with respect to the diamines fraction were consistent through all three measured stages. Diverse shrinkage trends of the two PMDA and BPDA backbones with increasing ODA fraction, suggest that rather than the diamine or dianhydride monomers nature solely, their bonding nature would define the aerogel behavior. For instance, PPDA is known as a rigid and ODA is known as a flexible diamine monomer.<sup>18,19,20</sup> In general, the flexible monomers are expected to result in increased shrinkage. However, the ODA-BPDA aerogels presented significantly lower shrinkage than PPDA-BPDAs.",
+      "page": 9,
+      "bbox": [
+        86.0,
+        161.0,
+        910.0,
+        494.0
+      ],
+      "source_block_index": 54,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_9_55",
+      "type": "text",
+      "section": "Results",
+      "text": "In overall, it would be too complicated to extensively clarify the shrinkage phenomenon in polymeric aerogels. However, it is possible to describe their shrinkage behavior based on the three following factors of i) interactions between the polymer chains with each other as well as with the solvent molecules, ii) chains rigidities and iii) chains packing ability with respect to chain geometry and co-planarity. Based on this, the higher shrinkage of BPDA backbone aerogels with increasing PPDA content is believed to be due to the greater chain rigidity, high planarity, and shorter chain length between cross-links of the PPDA-BPDA oligomers.<sup>13</sup> Such chain geometry allows the polymer chains to densely pack together. Furthermore, the decreasing shrinkage of BPDA backbone aerogels with increasing ODA content is believed to be due to non-co-planarity of the ODA-BPDA oligomers due to existence of the oxygen linking groups between the phenyl rings.<sup>35,36</sup> The reduced shrinkage of PMDA backbone aerogels with increasing PPDA content is believed to be due to highly rigid nature of PPDA-PMDA bonding.<sup>20</sup>",
+      "page": 9,
+      "bbox": [
+        86.0,
+        508.0,
+        911.0,
+        878.0
+      ],
+      "source_block_index": 55,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_10_57",
+      "type": "text",
+      "section": "Results",
+      "text": "However, due to the shorter chain length between the cross-links as well as the planarity of ODA-PMDA chains, addition of more flexible ODA monomers resulted in increased shrinkage.",
+      "page": 10,
+      "bbox": [
+        86.0,
+        90.0,
+        908.0,
+        145.0
+      ],
+      "source_block_index": 57,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_10_58",
+      "type": "text",
+      "section": "Results",
+      "text": "Expressively, the BPDA backbone hybrid diamine aerogel with 25% ODA fraction (S7) presented even higher shrinkage than the PPDA-BPDA samples. This suggests that at low ODA-BPDA content, rather than non-co-planarity and shorter crosslinks, the more flexible nature of ODA-BPDA chains plays the dominant role and as a result, increases the shrinkage.",
+      "page": 10,
+      "bbox": [
+        86.0,
+        161.0,
+        910.0,
+        285.0
+      ],
+      "source_block_index": 58,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_10_59",
+      "type": "text",
+      "section": "Results",
+      "text": "As observed from Figure 3, except the PPDA-PMDA aerogels, the main shrinkage of the samples is occurred through the CO2 supercritical drying stage. Even though, the aerogels shrinkage is mainly happening through the initial gelation stage,<sup>11</sup> the liquid content of the sol-gel would still support the solid structure against the full shrinkage. Therefore, the shrinkage during the $\\mathrm { C O } _ { 2 }$supercritical drying is believed to be due to the elimination of the liquid content of the sol-gel. Furthermore, The PMDA backbone aerogels with ODA content of higher than 75% and The BPDA backbone aerogels with ODA content of less than 75%, presented high shrinkage ranging from 7% to 17% during the 24 h ageing stage. The shrinkage through the ageing process could be referred to the formation of shorter chain length between the cross-links.",
+      "page": 10,
+      "bbox": [
+        86.0,
+        300.0,
+        910.0,
+        598.0
+      ],
+      "source_block_index": 59,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_10_59",
+        "V2_10_2_1"
+      ]
+    },
+    {
+      "block_id": "P_10_60",
+      "type": "text",
+      "section": "Results",
+      "text": "Among the studied aerogels, PPDA-PMDA presented the lowest shrinkage of 7.3%, which is believed to be due to highly rigid and brittle nature of PPDA-PMDA bonding.<sup>20</sup>",
+      "page": 10,
+      "bbox": [
+        86.0,
+        614.0,
+        908.0,
+        667.0
+      ],
+      "source_block_index": 60,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "I_11_62",
+      "type": "image",
+      "section": "Results",
+      "page": 11,
+      "bbox": [
+        137.0,
+        89.0,
+        859.0,
+        465.0
+      ],
+      "source_block_index": 62,
+      "alignment_status": "matched",
+      "caption": "Figure 3. Retained diameter of aerogels with varying diamine fraction.",
+      "image_path": "organized/reference_no_0025452/images/4a2d1341b6570afd4d1dcd1d9b5aaddb75b0bf67a39e870f563cea27046d6bca.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "P_11_63",
+      "type": "text",
+      "section": "Results",
+      "text": "As expected from the shrinkage results, the aerogels density followed a reverse trend to the retained diameter results. As presented in Table 2, increasing the ODA content resulted in decreased and increased density of PMDA and BPDA backbone aerogels, respectively. Among the studied aerogels, single diamine PPDA-PMDA and ODA-BPDA presented the lowest densities of 0.056 g/cm and 0.083 $\\mathrm { g } / \\mathrm { c m } ^ { 3 }$, correspondingly.",
+      "page": 11,
+      "bbox": [
+        86.0,
+        518.0,
+        910.0,
+        679.0
+      ],
+      "source_block_index": 63,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_11_63",
+        "V2_11_1_1"
+      ]
+    },
+    {
+      "block_id": "P_11_64",
+      "type": "text",
+      "section": "Results",
+      "text": "Similar to shrinkage results, it was observed that addition of 25% fraction of the diverse diamine monomer to dense PPDA-BPDA and ODA-PMDA aerogels did not affect the aerogels density considerably. However, increasing the diverse monomer fraction to 50% resulted in decreased density by 40 to 50%. This suggest that, due to low molar fraction, the effects of the added oligomers with the bulkier geometry was mostly eliminated by the densely packing ability of the planar chains. Roughly, similar morphology of the S3 and S5 as well as S6 and S7 aerogels is also in agreement with this observation.",
+      "page": 11,
+      "bbox": [
+        86.0,
+        691.0,
+        911.0,
+        919.0
+      ],
+      "source_block_index": 64,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "T_12_66",
+      "type": "table",
+      "section": "Results",
+      "page": 12,
+      "bbox": [
+        91.0,
+        108.0,
+        933.0,
+        303.0
+      ],
+      "source_block_index": 66,
+      "alignment_status": "matched",
+      "caption": "Table 2. Properties of the studied polyimide aerogels.",
+      "table_body": "<table><tr><td>Sample</td><td>PPDA Fraction</td><td>dianhydride</td><td>density (g/cm3)</td><td>porosity (%)</td><td>shrinkage (%)</td><td>modulus (MPa)</td><td>onset of decomposition (°C)</td></tr><tr><td>S1</td><td>100%</td><td>PMDA</td><td>0.056</td><td>96.6</td><td>7.7</td><td>0.18</td><td>422</td></tr><tr><td>S2</td><td>50%</td><td>PMDA</td><td>0.102</td><td>94.6</td><td>18.9</td><td>0.95</td><td>459</td></tr><tr><td>S3</td><td>25%</td><td>PMDA</td><td>0.176</td><td>89.3</td><td>33.3</td><td>4.37</td><td>580</td></tr><tr><td>S4</td><td>12.5%</td><td>PMDA</td><td>0.186</td><td>89.4</td><td>33.7</td><td>7.29</td><td>580</td></tr><tr><td>S5</td><td>0</td><td>PMDA</td><td>0.196</td><td>90.0</td><td>35.2</td><td>7.34</td><td>586</td></tr><tr><td>S6</td><td>100%</td><td>BPDA</td><td>0.237</td><td>90.0</td><td>38</td><td>16.90</td><td>621</td></tr><tr><td>S7</td><td>75%</td><td>BPDA</td><td>0.240</td><td>87.1</td><td>39.5</td><td>12.92</td><td>580</td></tr><tr><td>S8</td><td>50%</td><td>BPDA</td><td>0.148</td><td>87.7</td><td>30.4</td><td>5.29</td><td>585</td></tr><tr><td>S9</td><td>25%</td><td>BPDA</td><td>0.127</td><td>86.9</td><td>23.6</td><td>4.27</td><td>585</td></tr><tr><td>S10</td><td>0</td><td>BPDA</td><td>0.083</td><td>86.2</td><td>8.7</td><td>2.4</td><td>589</td></tr></table>",
+      "table_cells": [
+        {
+          "cell_id": "T_12_66:r0000:c0000",
+          "row_index": 0,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "Sample",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0000:c0001",
+          "row_index": 0,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "PPDA Fraction",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0000:c0002",
+          "row_index": 0,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "dianhydride",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0000:c0003",
+          "row_index": 0,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "density (g/cm3)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0000:c0004",
+          "row_index": 0,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "porosity (%)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0000:c0005",
+          "row_index": 0,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "shrinkage (%)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0000:c0006",
+          "row_index": 0,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "modulus (MPa)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0000:c0007",
+          "row_index": 0,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "onset of decomposition (°C)",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0001:c0000",
+          "row_index": 1,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "S1",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0001:c0001",
+          "row_index": 1,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "100%",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0001:c0002",
+          "row_index": 1,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "PMDA",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0001:c0003",
+          "row_index": 1,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.056",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0001:c0004",
+          "row_index": 1,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "96.6",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0001:c0005",
+          "row_index": 1,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "7.7",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0001:c0006",
+          "row_index": 1,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.18",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0001:c0007",
+          "row_index": 1,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "422",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0002:c0000",
+          "row_index": 2,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "S2",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0002:c0001",
+          "row_index": 2,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "50%",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0002:c0002",
+          "row_index": 2,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "PMDA",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0002:c0003",
+          "row_index": 2,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.102",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0002:c0004",
+          "row_index": 2,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "94.6",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0002:c0005",
+          "row_index": 2,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "18.9",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0002:c0006",
+          "row_index": 2,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.95",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0002:c0007",
+          "row_index": 2,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "459",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0003:c0000",
+          "row_index": 3,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "S3",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0003:c0001",
+          "row_index": 3,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "25%",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0003:c0002",
+          "row_index": 3,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "PMDA",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0003:c0003",
+          "row_index": 3,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.176",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0003:c0004",
+          "row_index": 3,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "89.3",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0003:c0005",
+          "row_index": 3,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "33.3",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0003:c0006",
+          "row_index": 3,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "4.37",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0003:c0007",
+          "row_index": 3,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "580",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0004:c0000",
+          "row_index": 4,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "S4",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0004:c0001",
+          "row_index": 4,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "12.5%",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0004:c0002",
+          "row_index": 4,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "PMDA",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0004:c0003",
+          "row_index": 4,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.186",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0004:c0004",
+          "row_index": 4,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "89.4",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0004:c0005",
+          "row_index": 4,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "33.7",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0004:c0006",
+          "row_index": 4,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "7.29",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0004:c0007",
+          "row_index": 4,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "580",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0005:c0000",
+          "row_index": 5,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "S5",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0005:c0001",
+          "row_index": 5,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0005:c0002",
+          "row_index": 5,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "PMDA",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0005:c0003",
+          "row_index": 5,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.196",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0005:c0004",
+          "row_index": 5,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "90.0",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0005:c0005",
+          "row_index": 5,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "35.2",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0005:c0006",
+          "row_index": 5,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "7.34",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0005:c0007",
+          "row_index": 5,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "586",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0006:c0000",
+          "row_index": 6,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "S6",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0006:c0001",
+          "row_index": 6,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "100%",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0006:c0002",
+          "row_index": 6,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "BPDA",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0006:c0003",
+          "row_index": 6,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.237",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0006:c0004",
+          "row_index": 6,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "90.0",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0006:c0005",
+          "row_index": 6,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "38",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0006:c0006",
+          "row_index": 6,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "16.90",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0006:c0007",
+          "row_index": 6,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "621",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0007:c0000",
+          "row_index": 7,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "S7",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0007:c0001",
+          "row_index": 7,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "75%",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0007:c0002",
+          "row_index": 7,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "BPDA",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0007:c0003",
+          "row_index": 7,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.240",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0007:c0004",
+          "row_index": 7,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "87.1",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0007:c0005",
+          "row_index": 7,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "39.5",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0007:c0006",
+          "row_index": 7,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "12.92",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0007:c0007",
+          "row_index": 7,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "580",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0008:c0000",
+          "row_index": 8,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "S8",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0008:c0001",
+          "row_index": 8,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "50%",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0008:c0002",
+          "row_index": 8,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "BPDA",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0008:c0003",
+          "row_index": 8,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.148",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0008:c0004",
+          "row_index": 8,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "87.7",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0008:c0005",
+          "row_index": 8,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "30.4",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0008:c0006",
+          "row_index": 8,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "5.29",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0008:c0007",
+          "row_index": 8,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "585",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0009:c0000",
+          "row_index": 9,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "S9",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0009:c0001",
+          "row_index": 9,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "25%",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0009:c0002",
+          "row_index": 9,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "BPDA",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0009:c0003",
+          "row_index": 9,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.127",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0009:c0004",
+          "row_index": 9,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "86.9",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0009:c0005",
+          "row_index": 9,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "23.6",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0009:c0006",
+          "row_index": 9,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "4.27",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0009:c0007",
+          "row_index": 9,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "585",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0010:c0000",
+          "row_index": 10,
+          "column_index": 0,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "S10",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0010:c0001",
+          "row_index": 10,
+          "column_index": 1,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0010:c0002",
+          "row_index": 10,
+          "column_index": 2,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "BPDA",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0010:c0003",
+          "row_index": 10,
+          "column_index": 3,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "0.083",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0010:c0004",
+          "row_index": 10,
+          "column_index": 4,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "86.2",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0010:c0005",
+          "row_index": 10,
+          "column_index": 5,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "8.7",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0010:c0006",
+          "row_index": 10,
+          "column_index": 6,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "2.4",
+          "is_header": false
+        },
+        {
+          "cell_id": "T_12_66:r0010:c0007",
+          "row_index": 10,
+          "column_index": 7,
+          "row_span": 1,
+          "column_span": 1,
+          "text": "589",
+          "is_header": false
+        }
+      ],
+      "image_path": "organized/reference_no_0025452/images/bd9ba403b51e09c0884a305f41ffb56736e9bb94b3d76c60883227bd7e1d6a30.jpg"
+    },
+    {
+      "block_id": "P_12_67",
+      "type": "text",
+      "section": "Results",
+      "text": "Open-cell content of the aerogels is measured by helium pycnometer and calculated through Equation 2.<sup>37</sup> The closed volume of the foams, $\\mathrm { V } _ { \\mathrm { C l o s e d } } .$, can be attributed to the volume of the closedcells as well as the solid skeletal volume. However, with respect to the open-cell morphology of the aerogels as well as significantly smaller diameter of the helium molecules compared to the cell openings, the closed cell content of the aerogels should be negligible. $\\mathrm { S o } ,$the $\\mathrm { V _ { C l o s e d } }$would be equal to the solid skeletal volume of the aerogel. Based on this, the Equation 2 can be converted with respect to the relative density of the foams, $\\frac { \\rho ^ { * } } { \\rho _ { s } }$, as presented in Equation 3. Where $\\rho ^ { * }$and $\\rho _ { s }$present the geometric foam density and the average density of the solid skeleton, respectively. The relative density of the foams, $\\frac { \\rho ^ { * } } { \\rho _ { s } }$, is also known as the most important structural characteristic of a cellular solid.<sup>38,39</sup>",
+      "page": 12,
+      "bbox": [
+        86.0,
+        339.0,
+        910.0,
+        662.0
+      ],
+      "source_block_index": 67,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_12_67",
+        "V2_12_1_1",
+        "V2_12_1_3",
+        "V2_12_1_5",
+        "V2_12_1_7",
+        "V2_12_1_9",
+        "V2_12_1_11",
+        "V2_12_1_13"
+      ]
+    },
+    {
+      "block_id": "P_12_68",
+      "type": "text",
+      "section": "Results",
+      "text": "As Presented in Figure 4, aerogels open cell content presented direct and reverse relations with the retained diameter and density results correspondingly. Therefore, the low density PPDA-PMDA and ODA-BPDA aerogels presented the highest open cell contents of 96.6% and 94.8% among the samples. Furthermore, the S2 hybrid aerogels with 50% ODA fraction presented high open cell content of 94.6%. By comparing the results of S2 hybrid aerogels with PPDA-PMDA (S1) aerogel, it can be observed that more than 82% increased density of the S2 aerogels resulted in only 2% decrease in open cell content. However, such increased density is expected to enhance aerogel mechanical properties significantly.",
+      "page": 12,
+      "bbox": [
+        86.0,
+        676.0,
+        910.0,
+        906.0
+      ],
+      "source_block_index": 68,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "E_13_70",
+      "type": "equation",
+      "section": "Results",
+      "text": "$$\n\\phi_ {\\mathrm{V}} = \\left(1 - \\frac {V _ {\\mathrm{Closed}}}{V _ {\\mathrm{Geometric}}}\\right) \\times 1 0 0\\tag{2}\n$$",
+      "page": 13,
+      "bbox": [
+        338.0,
+        89.0,
+        589.0,
+        131.0
+      ],
+      "source_block_index": 70,
+      "alignment_status": "matched",
+      "equation_kind": "display"
+    },
+    {
+      "block_id": "E_13_71",
+      "type": "equation",
+      "section": "Results",
+      "text": "$$\n\\phi_ {\\mathrm{V}} = \\left(1 - \\frac {V _ {\\mathrm{Closed}}}{V _ {\\mathrm{Geometric}}}\\right) \\times 1 0 0 = \\left(1 - \\frac {\\rho^ {*}}{\\rho_ {s}}\\right) \\times 1 0 0\\tag{3}\n$$",
+      "page": 13,
+      "bbox": [
+        264.0,
+        143.0,
+        666.0,
+        186.0
+      ],
+      "source_block_index": 71,
+      "alignment_status": "matched",
+      "equation_kind": "display"
+    },
+    {
+      "block_id": "I_13_72",
+      "type": "image",
+      "section": "Results",
+      "page": 13,
+      "bbox": [
+        156.0,
+        199.0,
+        834.0,
+        525.0
+      ],
+      "source_block_index": 72,
+      "alignment_status": "matched",
+      "caption": "Figure 4. Open-cell content of aerogel with varying ODA fraction.",
+      "image_path": "organized/reference_no_0025452/images/a4ba6ca30ac274b752d5fc26a3ecc08ceca348ee9143341e8e31e6f19e4a9d57.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "P_13_73",
+      "type": "title",
+      "section": "Results",
+      "text": "3.2 Aerogels Morphology",
+      "page": 13,
+      "bbox": [
+        88.0,
+        577.0,
+        308.0,
+        595.0
+      ],
+      "source_block_index": 73,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_13_74",
+      "type": "text",
+      "section": "Results",
+      "text": "Figure 5 presents the aerogels morphology at three magnifications of 20,000X, 100,000X or 200,000X. To be able to clearly demonstrate the network structure of aerogels with finer nanostructure assembly, the higher magnification of 200,000X was selected for those samples. Furthermore, Figure 6 shows the average fiber thickness as well as the average particle diameter of PMDA and BPDA backbone aerogels with respect to their ODA fractions.",
+      "page": 13,
+      "bbox": [
+        86.0,
+        611.0,
+        910.0,
+        771.0
+      ],
+      "source_block_index": 74,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_13_75",
+      "type": "text",
+      "section": "Results",
+      "text": "As presented in Figure 5, both PMDA and BPDA backbone aerogels presented uniform network structures. The PMDA backbone aerogels morphology can be mainly described as a three-dimensional network of nano fibers tangled together along with some spherical agglomerated particles randomly attached to the network.<sup>17</sup> However, except the ODA-BPDA aerogels, the BPDA backbone aerogels were mainly presented clusters of particles morphology closer to silica aerogels.<sup>40,41</sup> Polyimide aerogels network structure is believed to be mainly formed during the last stage of polymerization as well as the initial gelation stage. So, further than the formed chains geometry, the interactions of chains monomers with each other and with the solvent molecules during the initial stage of gelation are the main parameters; those will define the aerogels morphology. Therefore, varying reactivity of selected diamine monomers and as a result faster reaction of more reactive diamines would be a factor in nonlinear morphological behavior as well as properties of the hybrid diamine aerogels. Moreover, any variations in processing variables such as the number of repeat units, solids over solvent fraction or even the reaction temperature may affect the polymer chains interaction and result in aerogel with different nanostructure assembly as well as properties.",
+      "page": 13,
+      "bbox": [
+        86.0,
+        786.0,
+        910.0,
+        910.0
+      ],
+      "source_block_index": 75,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_14_77",
+      "type": "text",
+      "section": "Results",
+      "text": "",
+      "page": 14,
+      "bbox": [
+        86.0,
+        90.0,
+        911.0,
+        425.0
+      ],
+      "source_block_index": 77,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_14_78",
+      "type": "text",
+      "section": "Results",
+      "text": "Therefore, achieving polyimide aerogels with desired network structure requires accurate control of all sensitive processing variables at optimum level.",
+      "page": 14,
+      "bbox": [
+        88.0,
+        439.0,
+        911.0,
+        494.0
+      ],
+      "source_block_index": 78,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_14_79",
+      "type": "text",
+      "section": "Results",
+      "text": "From Figure 5A to Figure 5J, it is observed that the PMDA backbone aerogels fiber thickness, chain length between the crosslinks, and the average pore size were decreased with increasing ODA content. The smaller pore size and denser network structure of PMDA backbone aerogels with increasing ODA content were commensurate with density and shrinkage trends of those samples. As presented in Figure 6, the PMDA backbone aerogels presented the average fiber thickness ranging from 45 nm to 23.8 nm. Among the PMDA backbone aerogels, the S1 and S2 aerogels with PPDA content of more than 50% presented roughly similar morphology as well as fiber thickness of about 45 nm. However, increasing ODA fraction to more than 75% resulted in finer fiber strands with average thickness of about 25 nm. PMDA backbone aerogels with ODA fraction of higher than 75% were also presented roughly similar morphology as well. However, increasing the ODA content from 75% in sample S3 to 87.5% in sample S4 resulted in major pore size reduction, as presented in Figure 5F and Figure 5H.",
+      "page": 14,
+      "bbox": [
+        86.0,
+        508.0,
+        911.0,
+        878.0
+      ],
+      "source_block_index": 79,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_15_81",
+      "type": "text",
+      "section": "Results",
+      "text": "As observed from Figure 5K to Figure 5T, the average pore size and particle diameter of the BPDA backbone aerogels were increased with increasing ODA content.<sup>13,17</sup> Furthermore, the increased pore size with increasing ODA fraction of BPDA backbone aerogels was commensurate with shrinkage and open cell content trends of those samples.",
+      "page": 15,
+      "bbox": [
+        86.0,
+        90.0,
+        908.0,
+        215.0
+      ],
+      "source_block_index": 81,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_15_82",
+      "type": "text",
+      "section": "Results",
+      "text": "Unlike ODA-BPDA (S10) sample with the fibrous structure, the hybrid BPDA backbone aerogels, samples S7 to S9, presented clusters of particles morphology closer to PPDA-BPDA (S6) sample. Nonlinear morphological behavior of hybrid BPDA backbone aerogels could be explained by higher reactivity of PPDA monomers.",
+      "page": 15,
+      "bbox": [
+        86.0,
+        229.0,
+        908.0,
+        354.0
+      ],
+      "source_block_index": 82,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "I_15_83",
+      "type": "image",
+      "section": "Results",
+      "page": 15,
+      "bbox": [
+        114.0,
+        368.0,
+        880.0,
+        898.0
+      ],
+      "source_block_index": 83,
+      "alignment_status": "matched",
+      "image_path": "organized/reference_no_0025452/images/5138641fceab871dad38060203b80a02d836b0d235a01f37771d8cdb5c95fce2.jpg",
+      "image_kind": "image"
+    },
+    {
+      "block_id": "I_16_85",
+      "type": "image",
+      "section": "Results",
+      "page": 16,
+      "bbox": [
+        96.0,
+        181.0,
+        872.0,
+        541.0
+      ],
+      "source_block_index": 85,
+      "alignment_status": "matched",
+      "caption": "Figure 5. Morphology of aerogels with varying PPDA fraction. A and B are presenting the S1, C and D are presenting the S2, E and F are presenting the S3, G and H are presenting the S4, I and J are presenting the S5, K and L are presenting the S6, M and N are presenting the S7, O and P are presenting the S8, Q and R are presenting S9, and S and T are presenting the S10 sample morphology. Figure 6. Average fiber thickness of S1 to S5 and S10 aerogels along with the average particle diameter of S6 to S9 samples.",
+      "image_path": "organized/reference_no_0025452/images/16deda246d51a81c0c8c5c7631867eee4d8af1c34feacaaef2e16c2e9b1e46a9.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "P_16_86",
+      "type": "title",
+      "section": "Results",
+      "text": "3.3 Chemical Structures",
+      "page": 16,
+      "bbox": [
+        88.0,
+        614.0,
+        299.0,
+        633.0
+      ],
+      "source_block_index": 86,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_16_87",
+      "type": "text",
+      "section": "Results",
+      "text": "Chemical structure of aerogels was studied qualitatively by FTIR spectroscopy, as presented in Figure 7. The characteristic bands of polyimides, including 727 ( cm-1), $1 3 7 0 ( \\mathrm { c m } ^ { - 1 } )$(imide C−N), 1715 $( \\mathsf { c m } ^ { - 1 } )$(symmetric imide C=O) and $1 7 7 5 ( \\mathrm { c m } ^ { - 1 } )$(asymmetric imide C=O) are observed for all studied samples.<sup>30</sup> None of the sample sets presented significant band of $1 8 6 0 ~ ( \\mathrm { c m } ^ { - 1 } )$, which indicates the existence of unreacted anhydride. However, PMDA backbone aerogels presented small peaks at 1660 $\\textstyle { \\left( \\cos ^ { - 1 } \\right) }$(amic acid C=O) and $1 5 3 5 \\ : \\mathrm { ~ ( ~ c m } ^ { - 1 } )$(amide C−N) bands, which may suggest incomplete imidization of polyimide samples. Incomplete imidization may result in reduced mechanical and thermal stability. Among the PMDA backbone aerogels, the S1 and S3 samples presented highest intensity at",
+      "page": 16,
+      "bbox": [
+        86.0,
+        652.0,
+        910.0,
+        920.0
+      ],
+      "source_block_index": 87,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_16_87",
+        "V2_16_2_1",
+        "V2_16_2_3",
+        "V2_16_2_5",
+        "V2_16_2_7",
+        "V2_16_2_9",
+        "V2_16_2_11"
+      ]
+    },
+    {
+      "block_id": "P_17_89",
+      "type": "text",
+      "section": "Results",
+      "text": "$1 6 6 0 \\ ( \\mathrm { c m } ^ { - 1 } )$and $1 5 3 5 \\ ( \\mathrm { c m } ^ { - 1 } )$bands. The lack of $1 6 6 0 \\ ( \\mathrm { c m } ^ { - 1 } )$and $1 5 3 5 \\ ( { \\mathrm { c m } } ^ { - 1 } )$bands on BPDA backbone aerogels may indicate the complete imidization of those sample.",
+      "page": 17,
+      "bbox": [
+        89.0,
+        90.0,
+        906.0,
+        145.0
+      ],
+      "source_block_index": 89,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_17_89",
+        "V2_17_0_0",
+        "V2_17_0_2",
+        "V2_17_0_4",
+        "V2_17_0_6"
+      ]
+    },
+    {
+      "block_id": "P_17_90",
+      "type": "text",
+      "section": "Results",
+      "text": "In overall, all samples presented roughly close FTIR characteristics. However, some differences were observed at certain peaks. On both PMDA and BPDA aerogels, the hybrid samples somehow presented a combination of single diamine aerogel peaks with different intensities. This suggests that the chemical structure of hybrid samples was formed from the combination of the two single diamine oligomers, but at varying fractions.",
+      "page": 17,
+      "bbox": [
+        88.0,
+        162.0,
+        908.0,
+        320.0
+      ],
+      "source_block_index": 90,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_17_91",
+      "type": "text",
+      "section": "Results",
+      "text": "Furthermore, by comparing the peaks of hybrid diamine samples with their corresponding single diamine aerogels, a gradual conversion with increasing ODA fraction were observed. Those conversions can be categorized as either slight band shift or an increasing/decreasing peak intensity trend. For instance, comparing the sample S7 with S6 presented that addition of ODA to PPDA-BPDA aerogels resulted in appearance of the peak at $1 2 3 8 ( \\mathrm { c m } ^ { - 1 } )$band. Furthermore, for S7 to S10 aerogels, the intensity of the peak at $1 2 3 8 \\ ( \\mathrm { c m } ^ { - 1 } )$band increased with increasing ODA fraction. Figure 7 highlighted such gradual conversions of PMDA and BPDA aerogel peaks by dash-dot lines.",
+      "page": 17,
+      "bbox": [
+        88.0,
+        335.0,
+        910.0,
+        566.0
+      ],
+      "source_block_index": 91,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_17_91",
+        "V2_17_2_1",
+        "V2_17_2_3"
+      ]
+    },
+    {
+      "block_id": "I_18_93",
+      "type": "image",
+      "section": "Results",
+      "page": 18,
+      "bbox": [
+        228.0,
+        87.0,
+        789.0,
+        465.0
+      ],
+      "source_block_index": 93,
+      "alignment_status": "matched",
+      "image_path": "organized/reference_no_0025452/images/d1c9a64bc56cb43fef22a198428f92a1cbd5dad647a23b5da24af037830d614c.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "I_18_94",
+      "type": "image",
+      "section": "Results",
+      "page": 18,
+      "bbox": [
+        222.0,
+        484.0,
+        787.0,
+        859.0
+      ],
+      "source_block_index": 94,
+      "alignment_status": "matched",
+      "caption": "Figure 7. The Fourier transform infrared (FTIR) spectrum of A) PMDA and, B) BPDA backbone aerogels with varying diamine fraction.",
+      "image_path": "organized/reference_no_0025452/images/bc02e1445221b51d7ed6745a5a53535dda95761fce1787721662d6df1389d31a.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "P_19_96",
+      "type": "title",
+      "section": "Results",
+      "text": "3.4 Thermal Properties",
+      "page": 19,
+      "bbox": [
+        88.0,
+        90.0,
+        290.0,
+        108.0
+      ],
+      "source_block_index": 96,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_19_97",
+      "type": "text",
+      "section": "Results",
+      "text": "The thermogravimetric analysis (TGA) was performed on all studied aerogels under nitrogen environment, starting from room temperature to $7 5 0 ~ ^ { \\circ } \\mathrm { C }$at the rate of $1 0 ~ { ^ { \\circ } C } / { \\mathrm { m i n } }$. As illustrated in Figure 8, fabricated polyimide aerogels presented high onset of decomposition ranging from 422 to $6 2 1 ~ ^ { \\circ } \\mathrm { C }$. On PMDA backbone, the PPDA-PMDA (S1) and ODA-PMDA (S5) aerogels presented the lowest and highest onset of decomposition, respectively. The decomposition trends of the PMDA backbone hybrid aerogels were also reminiscent the combination of single diamine S1 and S5 trends. PMDA backbone hybrid aerogels decomposition trends were gradually shifted toward S5 trend with increasing ODA content. The PPDA-BPDA (S6) and ODA-BPDA (S10) presented the onset of decomposition of $6 2 1 ~ ^ { \\circ } \\mathrm { C }$and $5 8 9 ^ { \\circ } \\mathrm { C } .$, respectively. The BPDA backbone hybrid aerogels presented the onset of decomposition ranging from 580 to $5 8 5 ~ ^ { \\circ } \\mathrm { C }$, those were close to the onset of decomposition of ODA-BPDA (S10) aerogels. In overall, aerogels containing the ODA diamine presented the onset of decomposition of about $5 8 5 ^ { \\circ } \\mathrm { C } ,$, regardless of the employed dianhydride monomer type.",
+      "page": 19,
+      "bbox": [
+        86.0,
+        126.0,
+        910.0,
+        529.0
+      ],
+      "source_block_index": 97,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_19_97",
+        "V2_19_1_1",
+        "V2_19_1_3",
+        "V2_19_1_5",
+        "V2_19_1_7",
+        "V2_19_1_9",
+        "V2_19_1_11",
+        "V2_19_1_13"
+      ]
+    },
+    {
+      "block_id": "P_19_98",
+      "type": "text",
+      "section": "Results",
+      "text": "In general, at comparable backbone chemistry, polyimides containing highly reactive PPDA diamine were expected to present higher decomposition temperature than those containing ODA diamine monomer.<sup>13</sup> Similar tendency were observed from BPDA backbone aerogels in this work. However, on PMDA backbone, the PPDA-PMDA (S1) aerogel presented lower onset of decomposition of $4 2 2 ~ ^ { \\circ } \\mathrm { C }$than the ODA-PMDA sample with decomposition temperature of $5 8 6 ~ ^ { \\circ } \\mathrm { C } .$By a closer look to the decomposition trend of the PPDA-PMDA (S1) aerogels, two varying slopes of decomposition at less than $7 0 0 ~ ^ { \\circ } \\mathrm { C }$were observed. The first decomposition trend was initiated at about $4 2 2 ~ ^ { \\circ } \\mathrm { C }$and the second one took place at about $6 2 1 ~ ^ { \\circ } \\mathrm { C }$",
+      "page": 19,
+      "bbox": [
+        86.0,
+        544.0,
+        910.0,
+        806.0
+      ],
+      "source_block_index": 98,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_19_98",
+        "V2_19_2_1",
+        "V2_19_2_3",
+        "V2_19_2_5",
+        "V2_19_2_7",
+        "V2_19_2_9"
+      ]
+    },
+    {
+      "block_id": "P_19_99",
+      "type": "text",
+      "section": "Results",
+      "text": "Based on previous studies, the onset of decomposition of $6 3 2 ~ ^ { \\circ } \\mathrm { C }$was reported from nonporous PPDA-PMDA polyimide films, made at higher number of repeat units of $\\mathrm { n } { > } 3 0 . ^ { 2 0 }$However, to achieve solid stable PPDA-PMDA sol-gels, the sample S1 was made from very low number of repeat unit of $\\mathrm { n } { = } 1$in this work. The low number of repeat unit of 1 was resulted in increased the diamine molar fraction of the S1 aerogels to about double times of the nonporous PPDA-PMDA polyimide films with number of repeat units of n>30. As altering number of repeat units has very minor effect on decomposition behavior of polyimides and the onset of decomposition would mainly affected by changes in the backbone chemistry,<sup>17</sup> varying thermal decomposition trend of the PPDA-PMDA (S1) aerogels with two slopes of decomposition suggest that the excess diamine content of sample, to decrease the number of repeat units to 1, was mainly consumed in altering the backbone chemistry rather than reducing the polymer chains length. Based on this hypothesis, the first decomposition trend of S1 samples, from 422 to 621 ˚C, could be attributed to an alternative chemical reaction of excess diamine content with PPDA-PMDA oligomers and the second onset of decomposition at 621 ˚C could be accredited to the thermal degradation of PPDA-PMDA oligomers.<sup>42,43</sup> Roughly equal weight fraction of the excess diamine content of S1 sample, 24.3 wt.%, with the sample weight loss of 25 wt.% during the first decomposition cycle from 422 to 621 ˚C, was in agreement with the above hypothesis. Also, considerably higher onset of decomposition of 422 ˚C than the decomposition temperature of unreacted PPDA diamine at $1 2 5 ~ ^ { \\circ } \\mathrm { C }$along with the FTIR results, suggested that the excess diamine content of the sample S1 was a factor in the chemical bonding through PPDA-PMDA network. Similar weight loss trend at about 422 ˚C was observed from PMDA hybrid samples, which gradually reduced with increasing ODA fraction.",
+      "page": 19,
+      "bbox": [
+        86.0,
+        823.0,
+        908.0,
+        910.0
+      ],
+      "source_block_index": 99,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_19_99",
+        "V2_19_3_1",
+        "V2_19_3_3",
+        "V2_19_3_5",
+        "V2_19_3_7"
+      ]
+    },
+    {
+      "block_id": "P_20_101",
+      "type": "text",
+      "section": "Results",
+      "text": "",
+      "page": 20,
+      "bbox": [
+        86.0,
+        90.0,
+        913.0,
+        669.0
+      ],
+      "source_block_index": 101,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "I_21_103",
+      "type": "image",
+      "section": "Results",
+      "page": 21,
+      "bbox": [
+        104.0,
+        103.0,
+        903.0,
+        434.0
+      ],
+      "source_block_index": 103,
+      "alignment_status": "matched",
+      "image_path": "organized/reference_no_0025452/images/647855845e534d63af4e924d69f824377e881d6a681e2581b8a3347f2ac54fe4.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "I_21_104",
+      "type": "image",
+      "section": "Results",
+      "page": 21,
+      "bbox": [
+        104.0,
+        446.0,
+        905.0,
+        777.0
+      ],
+      "source_block_index": 104,
+      "alignment_status": "matched",
+      "caption": "Figure 8. The TGA results of A) PMDA and, B) BPDA backbone aerogels with varying diamine fraction.",
+      "image_path": "organized/reference_no_0025452/images/c2082f340a6ffe6e6813b34ad097bfc51a90b8cc3f4879115a4bf1ad4377342d.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "P_22_106",
+      "type": "text",
+      "section": "Results",
+      "text": "As presented in Figure 9, differential scanning calorimetry (DSC) test was performed on fabricated aerogels. Due to highly crosslink nature of fabricated aerogels, the glass transition peak was barely observed in some of the samples; and specifically, for those with higher PPDA and/or PMDA content. In overall, the glass transition in range of $2 5 0 ~ ^ { \\circ } \\mathrm { C }$to $3 0 0 ^ { \\circ } \\mathrm { C }$was observed.",
+      "page": 22,
+      "bbox": [
+        86.0,
+        90.0,
+        908.0,
+        215.0
+      ],
+      "source_block_index": 106,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_22_106",
+        "V2_22_0_1",
+        "V2_22_0_3"
+      ]
+    },
+    {
+      "block_id": "I_22_107",
+      "type": "image",
+      "section": "Results",
+      "page": 22,
+      "bbox": [
+        165.0,
+        253.0,
+        849.0,
+        635.0
+      ],
+      "source_block_index": 107,
+      "alignment_status": "matched",
+      "caption": "Figure 9. The DSC results of A) PMDA and, B) BPDA backbone aerogels with varying diamine fraction.",
+      "image_path": "organized/reference_no_0025452/images/be89b4de97ee0e32a2edffefd9c58c1f3f9131e4f39c33a52f0be346b7c851a4.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "P_22_108",
+      "type": "text",
+      "section": "Results",
+      "text": "Polyimide aerogels were generally presented low thermal conductivity ranging from 30 to 50 mW $\\mathrm { m ^ { - 1 } K ^ { - 1 } } . ^ { 4 4 }$while silica aerogels illustrated the minimum effective thermal conductivity $\\mathrm { ( K _ { e f f } ) }$of 20 mW $\\mathrm { m ^ { - 1 } K ^ { - 1 } } . { } ^ { 4 5 }$",
+      "page": 22,
+      "bbox": [
+        86.0,
+        710.0,
+        908.0,
+        797.0
+      ],
+      "source_block_index": 108,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_22_108",
+        "V2_22_2_1",
+        "V2_22_2_3",
+        "V2_22_2_5"
+      ]
+    },
+    {
+      "block_id": "P_22_109",
+      "type": "text",
+      "section": "Results",
+      "text": "Unique structural characteristics aerogels may eliminate the thermal conduction, convection, and/or radiation. The phonon scattering phenomenon by the complex nanoscale solid structure of aerogels along with comparable mean-free path of gas molecules with the pore size (Knudsen effect) would significantly reduce the aerogels solid and gas heat conduction, respectively. Also, the mesoporous cell structure of the aerogels which is considerably less than the required cell size for natural convection, would eliminate the heat transfer by convection.<sup>46</sup> Furthermore, relatively thin cell walls of aerogels compared to the infrared electromagnetic wavelength may interfere with the wave transportation and result in significant infrared electromagnetic wave scattering. Moreover, the nanostructure assembly of aerogel as well as its material characteristics may even reduce the thermal radiation by improving the infrared absorption. Therefore, aerogels with optimum nanostructure assembly would be able to present low effective thermal conductivity and super thermal insulating performance.",
+      "page": 22,
+      "bbox": [
+        86.0,
+        815.0,
+        910.0,
+        904.0
+      ],
+      "source_block_index": 109,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_23_111",
+      "type": "text",
+      "section": "Results",
+      "text": "",
+      "page": 23,
+      "bbox": [
+        86.0,
+        90.0,
+        911.0,
+        354.0
+      ],
+      "source_block_index": 111,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_23_112",
+      "type": "text",
+      "section": "Results",
+      "text": "Figure 10 presented the thermal conductivity of PMDA and BPDA backbone aerogels with varying diamine fractions. As presented, with increasing ODA fraction, the effective thermal conductivity of the PMDA and BPDA backbone aerogels were increased and decreased, respectively. Due to nonlinear relation of density and effective thermal conductivity of the foams with density of less than 0.2 g/cm<sup>3</sup>, it is not appropriate to compare the effective thermal conductivity of the studied aerogels by density normalized method.<sup>48</sup> Therefore, to compare the results, the effective thermal conductivity of the studied aerogels versus their densities were demonstrated in Figure 11 without normalizing by the density. From Figure 11 it was observed that increasing shrinkage and as a result higher density of both PMDA and BPDA backbone aerogels was typically resulted in increased effective thermal conductivity. The increased effective thermal conductivity with increasing density could be due to the enhanced solid thermal conduction by the denser aerogel solid network structure. However, unlike the other aerogels, the S2 and S7 samples presented even reduced effective thermal conductivity at higher density compared to the S1 and S6 aerogels, respectively. The reduced effective thermal conductivity of the S2 and S7 aerogels at higher density was believed to be due to the change in their morphology, which resulted in lower thermal conduction and/or radiation. This observation clearly shows the role of aerogels nanostructure assembly and morphology in aerogel’s effective thermal conductivity.",
+      "page": 23,
+      "bbox": [
+        86.0,
+        369.0,
+        911.0,
+        912.0
+      ],
+      "source_block_index": 112,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_24_114",
+      "type": "text",
+      "section": "Results",
+      "text": "As presented in Figure 11, by comparing the thermal conductivity versus density deviations, roughly similar slope of increased Keff by increased density was observed from the S2 to S3 and S4 to S5 trends on PMDA backbone as well as the S7 to S9 trend on BPDA backbone. However, different slopes were observed from the S1 to S2 and S3 to S4 trends on PMDA backbone along with the S6 to S7 and S9 to S10 trends on BPDA backbone. By analyzing this observation with respect to aerogels backbone chemistry as well as the morphology, different slopes were mainly observed were the diamine content and/or the aerogel network structure was altered. For instance, by comparing the S1 to S2, S6 to S7 and S9 to S10 samples, either a new diamine monomer was added or removed from the aerogel composition. Based on this, aerogels with comparable backbone chemistry and similar morphology presented a linier trend between the effective thermal conductivity and density increase. However, significant change in backbone chemistry and/or aerogel nanostructure assembly altered the heat transfer performance.",
+      "page": 24,
+      "bbox": [
+        86.0,
+        90.0,
+        910.0,
+        460.0
+      ],
+      "source_block_index": 114,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_24_115",
+      "type": "text",
+      "section": "Results",
+      "text": "In overall, the ODA-BPDA (S10) and 50% PPDA-ODA-PMDA (S2) aerogels presented the lowest effective thermal conductivities of about 33 $( \\mathrm { m } \\mathrm { w } \\mathrm { m } ^ { - 1 } \\mathrm { K } ^ { - 1 } )$, among the studied aerogels.",
+      "page": 24,
+      "bbox": [
+        88.0,
+        474.0,
+        908.0,
+        527.0
+      ],
+      "source_block_index": 115,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_24_115",
+        "V2_24_1_1"
+      ]
+    },
+    {
+      "block_id": "I_24_116",
+      "type": "image",
+      "section": "Results",
+      "page": 24,
+      "bbox": [
+        138.0,
+        545.0,
+        857.0,
+        878.0
+      ],
+      "source_block_index": 116,
+      "alignment_status": "matched",
+      "caption": "Figure 10. Effective thermal conductivity of aerogels with varying diamine fraction.",
+      "image_path": "organized/reference_no_0025452/images/904e6ddeca1db02710936ccb7702dcc77fb560d84da888f9a5c2bf6e5b39259f.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "I_25_118",
+      "type": "image",
+      "section": "Results",
+      "page": 25,
+      "bbox": [
+        165.0,
+        89.0,
+        828.0,
+        395.0
+      ],
+      "source_block_index": 118,
+      "alignment_status": "matched",
+      "caption": "Figure 11. Effective thermal conductivity versus density of the aerogels.",
+      "image_path": "organized/reference_no_0025452/images/552f21185e0a0b8f1b4a7636a54b26626c296d1318e2854b2e8dc9fcfb071482.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "P_25_119",
+      "type": "title",
+      "section": "Results",
+      "text": "3.5 Mechanical Properties",
+      "page": 25,
+      "bbox": [
+        88.0,
+        443.0,
+        316.0,
+        462.0
+      ],
+      "source_block_index": 119,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_25_120",
+      "type": "text",
+      "section": "Results",
+      "text": "Mechanical Compression test is performed by Instron micro-tester on aerogels samples. To avoid buckling, the height of each sample was modified to about $1 0 \\pm 1$mm, which was shorter than the designated height based on the ASTM standard. Stress-strain graph of foams generally consists of three different regions including linear elasticity or Hookean region, plateau or collapse region, and densification. The region of linear elasticity presents the linear stress-strain relationship, and the plateau or collapse region suggests cells buckling or yield at roughly constant stress. The stress-strain graph of both PMDA and BPDA backbone aerogels presented in Figure 12. Equation 4 presents the absorbed energy through compression test by calculating the area under the stress-strain curves.",
+      "page": 25,
+      "bbox": [
+        86.0,
+        479.0,
+        911.0,
+        743.0
+      ],
+      "source_block_index": 120,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_25_120",
+        "V2_25_2_1"
+      ]
+    },
+    {
+      "block_id": "E_25_121",
+      "type": "equation",
+      "section": "Results",
+      "text": "$$\nW = \\int_ {0} ^ {\\epsilon} \\sigma (\\epsilon) d \\epsilon\\tag{4}\n$$",
+      "page": 25,
+      "bbox": [
+        397.0,
+        753.0,
+        527.0,
+        811.0
+      ],
+      "source_block_index": 121,
+      "alignment_status": "matched",
+      "equation_kind": "display"
+    },
+    {
+      "block_id": "P_25_122",
+      "type": "text",
+      "section": "Results",
+      "text": "As observed from Figure 12, with increasing the ODA fraction, the mechanical compression resistance and the compression absorbed energy of PMDA and BPDA backbone aerogels increased and decreased, respectively. Due to highly brittle nature of PPDA-PMDA bonding, the samples S1 presented very short linear elasticity region. However, the linear elastic region of PMDA backbone aerogels dramatically increased with increasing ODA content. Furthermore, on both PMDA and BPDA backbone aerogels, the plateau or collapse region of the stress-strain graph was significantly reduced with increasing slope of linear elastic region or Young’s modulus. For instance, on samples S6 with high modulus of 16.9 MPa, the plateau region of stress-strain graph was roughly eliminated, and the linear elastic region appeared to be directly continued by the densification region. This phenomenon was reported to be due to increased relative density, $\\frac { \\rho ^ { * } } { \\rho _ { s } }$, and lower open cell content of the foams.<sup>38</sup> Increased relative density of polymeric foams was reported to increase Young's modulus, to raise the plateau stress, and to reduce the strain at which densification starts.<sup>38</sup> Furthermore, based on Gibson and Ashby classification, the polyimide aerogel stress-strain graphs were more similar to elastomeric foams rather than elastic-plastic or elastic-brittle types.<sup>38,49</sup>",
+      "page": 25,
+      "bbox": [
+        86.0,
+        827.0,
+        910.0,
+        916.0
+      ],
+      "source_block_index": 122,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_25_122",
+        "V2_25_4_1"
+      ]
+    },
+    {
+      "block_id": "P_26_124",
+      "type": "text",
+      "section": "Results",
+      "text": "",
+      "page": 26,
+      "bbox": [
+        86.0,
+        90.0,
+        911.0,
+        470.0
+      ],
+      "source_block_index": 124,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "I_26_125",
+      "type": "image",
+      "section": "Results",
+      "page": 26,
+      "bbox": [
+        191.0,
+        487.0,
+        803.0,
+        880.0
+      ],
+      "source_block_index": 125,
+      "alignment_status": "matched",
+      "caption": "Figure 12. The stress-strain graph of aerogels with varying diamine fraction.",
+      "image_path": "organized/reference_no_0025452/images/7a2fc4782dd7f8a1af5ca68c79ba170304e30af00b5d602715cf206354c0a9f0.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "P_27_127",
+      "type": "text",
+      "section": "Results",
+      "text": "With respect to ASTM D695-02a, the compression modulus of the studied aerogels was calculated from the maximum slope of stress-strain graph at region of linear elasticity, as shown in Figure 13. Similar to the trends in Figure 12, with increasing ODA content, the compression modulus of PMDA and BPDA backbone aerogels was increased and decreased, respectively, and the compression modulus ranging from 0.18 to 16.9 MPa was observed. Thus, the BPDA backbone polyimide aerogels with optimum backbone chemistry were able to present even higher modulus than Methyltrimethoxysilane (MTMS) reinforced silica aerogel, with maximum reported young’s modulus of 12.694 MPa.<sup>50</sup> Furthermore, both samples S3 and S9 with similar diamine content of 75% ODA and 25% PPDA, but with different dianhydride backbones presented similar compression modulus of about 4.3 MPa. However, due to their varying morphology, density and shrinkage, the similarity of their compression modulus of is believed to be occurred randomly rather than being fully related to similarity of their diamine contents.",
+      "page": 27,
+      "bbox": [
+        86.0,
+        90.0,
+        910.0,
+        494.0
+      ],
+      "source_block_index": 127,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "I_27_128",
+      "type": "image",
+      "section": "Results",
+      "page": 27,
+      "bbox": [
+        189.0,
+        510.0,
+        805.0,
+        781.0
+      ],
+      "source_block_index": 128,
+      "alignment_status": "matched",
+      "caption": "Figure 13. Young’s modulus of PMDA and BPDA backbone aerogels at varying diamine fraction.",
+      "image_path": "organized/reference_no_0025452/images/4af5ff54574e67e0436c94fb2ceffec08dc28e10d2c94d104061f9358c701319.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "P_28_130",
+      "type": "text",
+      "section": "Results",
+      "text": "Therefore, to compare the compression modulus of the aerogel samples with respect to their solid skeleton properties, it is required to normalize the aerogels modulus based on the samples’ densities. Equation 5 demonstrates the relation between the modulus and density of the open-cell foams with respect to Gibson and Ashby classification.<sup>38,49</sup>",
+      "page": 28,
+      "bbox": [
+        86.0,
+        90.0,
+        910.0,
+        214.0
+      ],
+      "source_block_index": 130,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "E_28_131",
+      "type": "equation",
+      "section": "Results",
+      "text": "$$\n\\frac {\\mathrm{E} ^ {*}}{\\mathrm{E} _ {s}} = C _ {1} (\\frac {\\rho^ {*}}{\\rho_ {s}}) ^ {2}\\tag{5}\n$$",
+      "page": 28,
+      "bbox": [
+        406.0,
+        228.0,
+        531.0,
+        268.0
+      ],
+      "source_block_index": 131,
+      "alignment_status": "matched",
+      "equation_kind": "display"
+    },
+    {
+      "block_id": "P_28_132",
+      "type": "text",
+      "section": "Results",
+      "text": "Where, E∗presents the aerogels compression modulus, $\\mathrm { E } _ { s }$shows the solid skeletal modulus, $( \\frac { \\rho ^ { * } } { \\rho _ { s } } )$indicates the relative density, and $\\mathsf C _ { 1 }$includes all of the geometric constants of proportionality. By assuming roughly equal geometric constants for the studied aerogels, the Equation 5 can be modified to Equation 6.",
+      "page": 28,
+      "bbox": [
+        86.0,
+        287.0,
+        908.0,
+        422.0
+      ],
+      "source_block_index": 132,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_28_132",
+        "V2_28_2_1",
+        "V2_28_2_3",
+        "V2_28_2_5"
+      ]
+    },
+    {
+      "block_id": "E_28_133",
+      "type": "equation",
+      "section": "Results",
+      "text": "$$\n\\mathrm{E} _ {s} \\propto \\mathrm{E} ^ {*} / \\left(\\frac {\\rho^ {*}}{\\rho_ {s}}\\right) ^ {2}\\tag{6}\n$$",
+      "page": 28,
+      "bbox": [
+        400.0,
+        436.0,
+        535.0,
+        479.0
+      ],
+      "source_block_index": 133,
+      "alignment_status": "matched",
+      "equation_kind": "display"
+    },
+    {
+      "block_id": "P_28_134",
+      "type": "text",
+      "section": "Results",
+      "text": "Considering Equation 6, Figure 14 presented the comparative density normalized compression modulus of the studied aerogels.",
+      "page": 28,
+      "bbox": [
+        86.0,
+        496.0,
+        906.0,
+        550.0
+      ],
+      "source_block_index": 134,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "I_28_135",
+      "type": "image",
+      "section": "Results",
+      "page": 28,
+      "bbox": [
+        133.0,
+        565.0,
+        854.0,
+        866.0
+      ],
+      "source_block_index": 135,
+      "alignment_status": "matched",
+      "caption": "Figure 14. Comparative normalized modulus of PMDA and BPDA backbone aerogels at varying diamine fraction.",
+      "image_path": "organized/reference_no_0025452/images/1eecdeef9c63ee36abbaea0e54795a5ff65b17443a7e9e80aa3d14fce33b8c1e.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "P_29_137",
+      "type": "text",
+      "section": "Results",
+      "text": "The density normalized modulus of the aerogels can be defined based on aerogel morphology as well as it’s chains properties.<sup>38</sup> Among the studied aerogels, BPDA backbone S6 and S10 aerogels presented the highest normalized modulus. This suggested that, regardless of the density and shrinkage effects, combination of their polymer chains bonding nature and morphology was able to provide higher resistance against the compressive forces. As presented in Figure 14, the normalized modulus of the PMDA backbone aerogels increased with increasing ODA fraction. This could be due to more flexible nature of ODA-PMDA oligomers over the brittle PPDA-PMDA’s.<sup>51</sup> Furthermore, for PMDA backbone aerogels, the slope of the normalized modulus versus ODA fraction suddenly increased by increasing the ODA fraction from 75% to 87.5%. This suggested that increasing ODA fraction to higher than 87.5% resulted in structural change compared to PMDA backbone aerogels with lower ODA fraction. This hypothesis was also in agreement with both morphology and effective thermal conductivity results of PMDA backbone aerogels; those were presented in Figure 5 and Figure 10, respectively. The BPDA backbone aerogels were mainly presented higher normalized modulus than the PMDA backbone samples. The enhanced normalized modulus of BPDA backbone aerogels could be due to relatively higher flexibility of BPDA backbone compared to PMDA.<sup>20</sup> Unlike the PMDA backbone aerogels, the BPDA backbone aerogels presented a nonlinear normalized modulus trend with increasing ODA fraction. The nonlinear normalized modulus trend of hybrid BPDA backbone aerogels could be explained by varying reactivity of their diamine monomers and as a result the particulate morphology of those samples. However, tailoring the processing parameters of the hybrid diamine BPDA backbone aerogels presented the potential to achieve enhanced network structure as well as the mechanical properties.<sup>13</sup>",
+      "page": 29,
+      "bbox": [
+        86.0,
+        90.0,
+        911.0,
+        809.0
+      ],
+      "source_block_index": 137,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_29_138",
+      "type": "text",
+      "section": "Results",
+      "text": "Among the studied aerogels, only the PPDA-PMDA (S1) samples presented brittle assembly. Figure 15 presents both S1 and S2 aerogels after compression test. As observed in Figure 15, addition of ODA to PPDA-PMDA (S1) aerogels not only increased its mechanical compression resistance, but also improved the aerogel ductility. Therefore, no visible crack propagation was observed from the ODA-PPDA-PMDA aerogels through the compression test.",
+      "page": 29,
+      "bbox": [
+        88.0,
+        821.0,
+        910.0,
+        911.0
+      ],
+      "source_block_index": 138,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_30_140",
+      "type": "text",
+      "section": "Results",
+      "text": "",
+      "page": 30,
+      "bbox": [
+        86.0,
+        90.0,
+        906.0,
+        143.0
+      ],
+      "source_block_index": 140,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "I_30_141",
+      "type": "image",
+      "section": "Results",
+      "page": 30,
+      "bbox": [
+        264.0,
+        159.0,
+        730.0,
+        300.0
+      ],
+      "source_block_index": 141,
+      "alignment_status": "matched",
+      "caption": "Figure 15. A) S1 samples after compression test B) S2 samples before and after mechanical compression.",
+      "image_path": "organized/reference_no_0025452/images/ab951ff982e434b185d5ac1bf27691ec06657fa5e28f0994c18ef25ab1e7b234.jpg",
+      "image_kind": "image"
+    },
+    {
+      "block_id": "I_30_142",
+      "type": "image",
+      "section": "Results",
+      "page": 30,
+      "bbox": [
+        135.0,
+        486.0,
+        844.0,
+        792.0
+      ],
+      "source_block_index": 142,
+      "alignment_status": "matched",
+      "caption": "Figure 16 presented the yield stress of the studied aerogels. As observed from Figure 16, the yield stress of both PMDA and BPDA backbone aerogels were roughly followed similar trends to their Young’s modulus, and the yield stress ranging from 0.03 to 1.59 MPa was observed. Figure 16. Yield stress of PMDA and BPDA backbone aerogels at varying diamine fraction.",
+      "image_path": "organized/reference_no_0025452/images/8c1757afaf8b01c2df6d253d7f1954ed842a1f0fd4cb133f58a6bd04abfaaab7.jpg",
+      "image_kind": "chart"
+    },
+    {
+      "block_id": "P_30_143",
+      "type": "text",
+      "section": "Results",
+      "text": "Among the aerogels the hybrid diamine BPDA backbone aerogel with 25% ODA fraction, S7, presented the highest yield stress. However, slightly higher yield stress of S7 sample over the S6 was due to the higher density of S7 aerogels. Furthermore, similar change of the slope between the S3 and S4 samples was observed from the yield stress versus the ODA fraction graph.",
+      "page": 30,
+      "bbox": [
+        88.0,
+        866.0,
+        908.0,
+        921.0
+      ],
+      "source_block_index": 143,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_31_145",
+      "type": "text",
+      "section": "Results",
+      "text": "",
+      "page": 31,
+      "bbox": [
+        86.0,
+        90.0,
+        908.0,
+        145.0
+      ],
+      "source_block_index": 145,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_31_146",
+      "type": "title",
+      "section": "Conclusion",
+      "text": "4. Conclusions",
+      "page": 31,
+      "bbox": [
+        88.0,
+        161.0,
+        228.0,
+        178.0
+      ],
+      "source_block_index": 146,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_31_147",
+      "type": "text",
+      "section": "Conclusion",
+      "text": "The structure to properties relations of both PMDA and BPDA backbone polyimide aerogels at varying hybrid PPDA and ODA diamine contents were studied in this work. Based on the results, combining the rigid PPDA and flexible ODA diamine monomers at varying molar fractions was a successful strategy on tailoring the physical, thermal and mechanical properties of polyimide aerogels. This strategy provided a wide range of outcomes for varying properties.",
+      "page": 31,
+      "bbox": [
+        86.0,
+        195.0,
+        910.0,
+        354.0
+      ],
+      "source_block_index": 147,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_31_148",
+      "type": "text",
+      "section": "Conclusion",
+      "text": "Though, the properties of both PMDA and BPDA backbone aerogels presented a tendency with the two employed diamines ratios. But, almost for every characterized property, the PMDA and BPDA aerogels comparatively presented opposite trends by altering the diamines fractions. This suggested that rather than the diamine or dianhydride monomers individually, their network structure and bonding nature would define the aerogel behavior.",
+      "page": 31,
+      "bbox": [
+        86.0,
+        369.0,
+        910.0,
+        527.0
+      ],
+      "source_block_index": 148,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_31_149",
+      "type": "text",
+      "section": "Conclusion",
+      "text": "Based on the results, the density and the open cell content ranging from 0.056 to 0.24 $\\mathrm { g } / \\mathrm { c m } ^ { 3 }$and 83.3% to 96.6% were observed from the fabricated aerogels. Highly brittle PPDA-PMDA (S1) aerogels and 25 mol.% ODA- 75 mol.% PPDA aerogels on BPDA backbone (S7) presented the highest and lowest open-cell content, respectively. From the SEM micrographs, varying fibrous and clusters of particles morphologies were observed for the studied aerogels. Also, aerogels physical, thermal and mechanical properties presented very sensitive relations with the aerogel’s morphology and nanostructure assembly. Moreover, the processing parameters, specifically during the initial gelation stage, played a vital role in formation of aerogels nanostructure assembly and as a result their properties.",
+      "page": 31,
+      "bbox": [
+        86.0,
+        544.0,
+        910.0,
+        806.0
+      ],
+      "source_block_index": 149,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_31_149",
+        "V2_31_4_1"
+      ]
+    },
+    {
+      "block_id": "P_31_150",
+      "type": "text",
+      "section": "Conclusion",
+      "text": "Based on the thermal gravimetric analysis, rather than the dianhydride type the type of the diamine presented the largest effects on the onset of decomposition. Furthermore, possibly an alternative chemical bonding between the two PPDA and PMDA monomers resulted in two slopes of degradation at less than $7 0 0 ^ { \\circ } \\mathrm { C } .$. In overall, high onset of decomposition ranging from $4 2 2 ~ ^ { \\circ } \\mathrm { C }$to $6 2 1 ~ ^ { \\circ } \\mathrm { C }$was observed from the fabricated aerogels.",
+      "page": 31,
+      "bbox": [
+        86.0,
+        823.0,
+        910.0,
+        911.0
+      ],
+      "source_block_index": 150,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_31_150",
+        "V2_31_5_1",
+        "V2_31_5_3",
+        "V2_31_5_5"
+      ]
+    },
+    {
+      "block_id": "P_32_152",
+      "type": "text",
+      "section": "Conclusion",
+      "text": "",
+      "page": 32,
+      "bbox": [
+        88.0,
+        90.0,
+        908.0,
+        143.0
+      ],
+      "source_block_index": 152,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_32_153",
+      "type": "text",
+      "section": "Conclusion",
+      "text": "Effective thermal conductivity ranging from 32.5 to 48.3 $( \\mathrm { m } \\mathrm { W } \\mathrm { m } ^ { - 1 } \\mathrm { K } ^ { - 1 } )$was observed for the studied aerogels. The aerogels presented a direct relation among their effective thermal conductivity with their shrinkage (density) as well as their morphology. At comparable morphology, roughly similar slope of increasing $\\mathrm { K e f f }$with increasing density were observed from varying grades of polyimide aerogels. However, altering the morphology resulted in change of $\\mathrm { K } _ { \\mathrm { e f f } }$over the density deviations.",
+      "page": 32,
+      "bbox": [
+        88.0,
+        160.0,
+        910.0,
+        319.0
+      ],
+      "source_block_index": 153,
+      "alignment_status": "matched",
+      "merged_source_block_ids": [
+        "P_32_153",
+        "V2_32_1_1",
+        "V2_32_1_3",
+        "V2_32_1_5"
+      ]
+    },
+    {
+      "block_id": "P_32_154",
+      "type": "text",
+      "section": "Conclusion",
+      "text": "Based on the mechanical compression results, increased relative density and reduced open-cell content of the aerogels resulted in increased Young's modulus, raised the plateau stress and reduced the strain at which densification started. Similar to thermal conductivity behavior, the compression resistance of the aerogels was affected by their morphology as well as their shrinkage or density. In overall, increasing ODA fraction resulted in increased and decreased solid skeletal modulus of PMDA and BPDA backbone aerogels, respectively. However, due to particulate morphology of S7 to S9 aerogels, those samples presented even lower skeletal modulus than the S10 aerogels with even higher ODA fraction.",
+      "page": 32,
+      "bbox": [
+        86.0,
+        335.0,
+        910.0,
+        598.0
+      ],
+      "source_block_index": 154,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_32_155",
+      "type": "text",
+      "section": "Conclusion",
+      "text": "Based on this work, higher shrinkage resulted in increased density, effective thermal conductivity, and mechanical compression resistance along with reduced cell size and open cell content. Furthermore, this work clearly presented that despite the shrinkage, the nano-porous morphology of aerogels plays a vital role on their thermal and mechanical properties. Therefore, for similar material composition, the aerogels shrinkage and the morphology are the two main factors, those would define the aerogels physical, thermal and mechanical properties. Accordingly, in this work, varying diamine fractions were successfully tailored the properties of hybrid aerogels.",
+      "page": 32,
+      "bbox": [
+        86.0,
+        614.0,
+        910.0,
+        843.0
+      ],
+      "source_block_index": 155,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_33_157",
+      "type": "title",
+      "section": "Conclusion",
+      "text": "Acknowledgement",
+      "page": 33,
+      "bbox": [
+        89.0,
+        90.0,
+        251.0,
+        109.0
+      ],
+      "source_block_index": 157,
+      "alignment_status": "matched",
+      "title_level": 2
+    },
+    {
+      "block_id": "P_33_158",
+      "type": "text",
+      "section": "Conclusion",
+      "text": "Authors acknowledge financial support from the Natural Sciences and Engineering Research Council",
+      "page": 33,
+      "bbox": [
+        86.0,
+        125.0,
+        908.0,
+        143.0
+      ],
+      "source_block_index": 158,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_33_159",
+      "type": "text",
+      "section": "Conclusion",
+      "text": "(NSERC) of Canada, Canada Research Chairs Program, and Canada Foundation of Innovation.",
+      "page": 33,
+      "bbox": [
+        86.0,
+        160.0,
+        844.0,
+        179.0
+      ],
+      "source_block_index": 159,
+      "alignment_status": "matched"
+    },
+    {
+      "block_id": "P_33_160",
+      "type": "title",
+      "section": "References",
+      "text": "References:",
+      "page": 33,
+      "bbox": [
+        88.0,
+        194.0,
+        194.0,
+        213.0
+      ],
+      "source_block_index": 160,
+      "alignment_status": "matched",
+      "title_level": 2
+    }
+  ],
+  "warnings": [
+    {
+      "code": "metadata_extraction_failed",
+      "message": "未配置统一 LLM 元数据提取器；document JSON 已继续生成"
+    }
+  ]
+}

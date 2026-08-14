@@ -1,0 +1,180 @@
+{
+  "schema_version": "1.0",
+  "document_id": "reference_no_0042367",
+  "characterizations": [
+    {
+      "characterization_id": "char001",
+      "method_raw": "Attenuated total reflectance Fourier transform infrared spectroscopy",
+      "method_normalized": "FTIR",
+      "sample_ids": [
+        "s001",
+        "s002",
+        "s003",
+        "s005",
+        "s006"
+      ],
+      "sample_resolution_status": "multi_resolved",
+      "instrument": "Nicolet Avator 360 FTIR",
+      "parameters": {
+        "scan per sample cycle": "32"
+      },
+      "result_summary": "IR spectra of compression moulded base polymers (PCL, PDLLA, PLGA) and their blends showed no new peaks beyond the characteristic bands of the base polymers, indicating no detectable new chemical interactions between blend components.",
+      "derived_property_ids": [],
+      "evidence": [
+        {
+          "block_id": "P_2_35",
+          "page": 2,
+          "bbox": [
+            501.0,
+            414.0,
+            921.0,
+            477.0
+          ],
+          "source_type": "text",
+          "source_sentence": "Attenuated total reflectance Fourier transform infrared spectroscopy (ATR-FTIR) was carried out on rectangular samples using a Nicolet Avator 360 FTIR, with a 32 scan per sample cycle."
+        },
+        {
+          "block_id": "P_3_56",
+          "page": 3,
+          "bbox": [
+            504.0,
+            732.0,
+            926.0,
+            900.0
+          ],
+          "source_type": "text",
+          "source_sentence": "In this study, the IR peaks for the compression moulded PCL, PDLLA and PLGA samples were in good agreement with the characteristic bands reported by Coleman and Zarian (1979), Garlotta (2001), Vey et al. (2008) and Choi et al. (2008) for these homopolymers<sup>[15–18]</sup>."
+        },
+        {
+          "block_id": "P_4_62",
+          "page": 4,
+          "bbox": [
+            71.0,
+            439.0,
+            491.0,
+            607.0
+          ],
+          "source_type": "text",
+          "source_sentence": "Throughout this study, there were no peaks present in the IR spectra of the blends that could not be explained by the characteristic IR bands of the base polymers."
+        }
+      ],
+      "confidence": {
+        "score": 0.85
+      }
+    },
+    {
+      "characterization_id": "char002",
+      "method_raw": "Differential scanning calorimetry",
+      "method_normalized": "DSC",
+      "sample_ids": [
+        "s001",
+        "s002",
+        "s003",
+        "s005",
+        "s006"
+      ],
+      "entity_ids": [
+        "pe010",
+        "pe015"
+      ],
+      "sample_resolution_status": "multi_resolved",
+      "instrument": "Perkin-Elmer, Pyris 6 DSC",
+      "parameters": {
+        "sample weight range": "9.3–10.3 mg",
+        "calibration standard": "High-purity indium"
+      },
+      "result_summary": "Measured Tg, Tm and percentage crystallinity of base polymers (PCL, PDLLA, PLGA) and their blends; miscibility of PDLLA/PLGA blends confirmed by observation of single Tg for all blend ratios; crystallinity of PCL-containing blends decreased as the content of PDLLA or PLGA increased.",
+      "derived_property_ids": [
+        "prop001",
+        "prop002",
+        "prop003",
+        "prop004",
+        "prop007",
+        "uprop001",
+        "uprop002"
+      ],
+      "evidence": [
+        {
+          "block_id": "P_2_37",
+          "page": 2,
+          "bbox": [
+            500.0,
+            505.0,
+            921.0,
+            750.0
+          ],
+          "source_type": "text",
+          "source_sentence": "Differential scanning calorimetry (DSC) analysis was carried out using a Perkin-Elmer, Pyris 6 DSC. Samples of between 9.3–10.3 mg were prepared from the base polymers and polymer blends. All measurements were conducted in crimped non-hermetic aluminium pans with an empty crimped aluminium pan being used as the reference cell. To assess the melting points and miscibility of the polymer(s), the samples were heated from a temperature of $2 0 \\mathrm { { } ^ { \\circ } C }$to $2 0 0 ^ { \\circ } \\mathrm { C }$at a rate of $1 0 ^ { \\circ } \\mathrm { C }$per minute. For investigation of the crystalline interactions, samples were heated from a temperature of $2 0 \\mathrm { { } ^ { \\circ } C }$to $2 0 0 ^ { \\circ } \\mathrm { C }$at a rate of $1 0 ^ { \\circ } \\mathbf { C }$per minute and held isothermal for a 5-min period. The samples were then cooled down from 200<sup>\u0001</sup>C to 20<sup>\u0001</sup>C at a rate of 2<sup>\u0001</sup>C per minute. All DSC tests were carried out under a 20 ml=min flow of nitrogen to prevent oxidation. High-purity indium was used to calibrate the DSC cell."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    }
+  ],
+  "properties": [],
+  "provenance": {
+    "stage": "stage5_characterization",
+    "provider": "dmx",
+    "model": "doubao-seed-2.0-pro",
+    "models": [
+      "doubao-seed-2.0-pro"
+    ],
+    "prompt_id": "polymer.stage5.characterization",
+    "prompt_version": "1.6.2",
+    "prompt_sha256": "5f918eb9d0dcbe0a4dc60a70d83c4e9f144f9a87bf68905d0a38ad22c000ee5c",
+    "vocabulary_sha256": "3e9d85e4915a729edf0f0a53821f3ee6edf32874e1da6972457417e4f13a1510",
+    "input_hash": "2961fff28336e7e66603cb24436e3846fec6fba1976b6c557ab6f708ec6ada01",
+    "model_config_hash": "7e14aff06827af47a7b1a797111258e33d5972d1c072111440c3b2aae020f3ce",
+    "cache_key": "a27ec29dc617d748e3b15fe6875a55a5058877f9ae374357526c4b5cc5d43fe2",
+    "output_schema_version": "characterization_schema.v4",
+    "implementation_version": "1.7.1",
+    "context_block_count": 69,
+    "context_chars": 46072,
+    "call_count": 1,
+    "usage": {
+      "input_tokens": 22222,
+      "output_tokens": 4510,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "billable_input_tokens": 22222,
+      "total_tokens": 26732
+    },
+    "cost": {
+      "status": "calculated",
+      "currency": "CNY",
+      "input_per_million": "4.32",
+      "output_per_million": "29.15",
+      "input_cost": "0.09599904",
+      "output_cost": "0.1314665",
+      "total_cost": "0.22746554"
+    },
+    "status": "success"
+  },
+  "warnings": [
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unlocatable_additional_evidence_removed",
+      "message": "Preview 模式已移除无法回定位到 Stage 0 block 的附加 Characterization evidence",
+      "field_path": "characterizations[1].evidence",
+      "block_ids": [
+        "P_5_74"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_characterization_details_cleared",
+      "message": "Preview 模式已清空无对象 evidence 支撑的可选表征细节",
+      "field_path": "characterizations[1]",
+      "fields": [
+        "parameters"
+      ]
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_semantic_validation_bypassed",
+      "message": "Preview 已保留 Schema 合法候选，并跳过原文/evidence 语义对应校验；Strict 模式仍会报错",
+      "reason": "char002 的多 Sample 与多 Entity 范围不一致"
+    }
+  ]
+}

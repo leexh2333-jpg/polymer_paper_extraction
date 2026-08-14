@@ -1,0 +1,278 @@
+{
+  "schema_version": "1.0",
+  "document_id": "reference_no_0101911",
+  "characterizations": [
+    {
+      "characterization_id": "char001",
+      "method_raw": "DSC",
+      "method_normalized": "DSC",
+      "sample_id": "s004",
+      "sample_resolution_status": "resolved",
+      "parameters": {},
+      "result_summary": "SMIA terpolymer shows a single Tg at 123.5°C, indicating relatively homogeneous copolymer structure.",
+      "derived_property_ids": [
+        "prop001"
+      ],
+      "evidence": [
+        {
+          "block_id": "P_2_49",
+          "page": 2,
+          "bbox": [
+            505.0,
+            38.0,
+            927.0,
+            129.0
+          ],
+          "source_type": "text",
+          "source_sentence": "To verify there is no homopolymerization for St, the DSC curves were recorded. As displayed in Figure 2, only one single Tg appeared at 123.5°C in the DSC curves of the terpolymer SMIA, and the results agree with the empirical formula proposed by Fox et al. [20] which indicated that the structure of copolymer SMIA is relatively homogeneous."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "characterization_id": "char002",
+      "method_raw": "TGA",
+      "method_normalized": "TGA",
+      "sample_id": "s001",
+      "sample_resolution_status": "resolved",
+      "parameters": {},
+      "result_summary": "Pure PVC has initial decomposition temperature of 261 °C and T_50 of 304 °C.",
+      "derived_property_ids": [
+        "prop002",
+        "prop003"
+      ],
+      "evidence": [
+        {
+          "block_id": "P_5_80",
+          "page": 5,
+          "bbox": [
+            68.0,
+            684.0,
+            489.0,
+            818.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The TGA curves of blends were similar to PVC, exhibiting a typical dehydrochlorination and carbon chain-breaking degradation process."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "characterization_id": "char003",
+      "method_raw": "TGA",
+      "method_normalized": "TGA",
+      "sample_id": "s005",
+      "sample_resolution_status": "resolved",
+      "parameters": {},
+      "result_summary": "PVC/ABS composite has initial decomposition temperature of 273 °C and T_50 of 328 °C.",
+      "derived_property_ids": [
+        "prop004",
+        "prop005"
+      ],
+      "evidence": [
+        {
+          "block_id": "P_5_80",
+          "page": 5,
+          "bbox": [
+            68.0,
+            684.0,
+            489.0,
+            818.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The TGA curves of blends were similar to PVC, exhibiting a typical dehydrochlorination and carbon chain-breaking degradation process."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "characterization_id": "char004",
+      "method_raw": "TGA",
+      "method_normalized": "TGA",
+      "sample_id": "s006",
+      "sample_resolution_status": "resolved",
+      "parameters": {},
+      "result_summary": "PVC/ABS/SMIA composite has initial decomposition temperature of 280 °C and T_50 of 408 °C.",
+      "derived_property_ids": [
+        "prop006",
+        "prop007"
+      ],
+      "evidence": [
+        {
+          "block_id": "P_5_80",
+          "page": 5,
+          "bbox": [
+            68.0,
+            684.0,
+            489.0,
+            818.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The TGA curves of blends were similar to PVC, exhibiting a typical dehydrochlorination and carbon chain-breaking degradation process."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "characterization_id": "char005",
+      "method_raw": "DMA",
+      "method_normalized": "DMA",
+      "sample_id": "s006",
+      "sample_resolution_status": "resolved",
+      "series_ids": [
+        "series007",
+        "series008",
+        "series009"
+      ],
+      "instrument": "Diamond-DMA, PerkinElmer, USA",
+      "parameters": {
+        "mode": "tensile mode",
+        "frequency": "1 Hz"
+      },
+      "result_summary": "DMA test performed on PVC/ABS/SMIA blends to obtain dynamic mechanical properties.",
+      "derived_property_ids": [],
+      "evidence": [
+        {
+          "block_id": "P_1_35",
+          "page": 1,
+          "bbox": [
+            507.0,
+            714.0,
+            926.0,
+            804.0
+          ],
+          "source_type": "text",
+          "source_sentence": "DMA for the PVC/ABS/SMIA blends was performed on a DMA apparatus (Diamond-DMA, PerkinElmer, USA)."
+        }
+      ],
+      "confidence": {
+        "score": 0.9
+      }
+    },
+    {
+      "characterization_id": "char006",
+      "method_raw": "field emission SEM",
+      "method_normalized": "SEM",
+      "sample_id": "s005",
+      "sample_resolution_status": "resolved",
+      "instrument": "field emission SEM",
+      "parameters": {},
+      "result_summary": "Observed impact fracture surface micromorphology of PVC/ABS composites with different ABS content, identified brittle-ductile transition characteristics at 10 phr ABS addition.",
+      "derived_property_ids": [],
+      "evidence": [
+        {
+          "block_id": "P_2_53",
+          "page": 2,
+          "bbox": [
+            505.0,
+            759.0,
+            927.0,
+            938.0
+          ],
+          "source_type": "text",
+          "source_sentence": "The field emission SEM was used to explore the micromorphology of the impact fracture surface. As displayed in Figure  4a, the impact section of the composite material presents relatively flat with the addition of 6 phr ABS. The impact section of the PVC/ABS composite material contains well-distributed voids when the ABS is increased to 10 phr (Figure 4c). Some tree-root-like yielding fibers appear, which is a typical characteristic of toughness fracture. The fracture surface is not uniform at 12 phr (Figure 4d). Both the matrix yielding caused by the obvious plastic deformation and a number of voids, and some of the more flat and smooth planes appear the characteristics of brittle fracture."
+        }
+      ],
+      "confidence": {
+        "score": 0.8
+      }
+    },
+    {
+      "characterization_id": "char007",
+      "method_raw": "SEM",
+      "method_normalized": "SEM",
+      "sample_id": "s006",
+      "sample_resolution_status": "resolved",
+      "parameters": {},
+      "result_summary": "Observed impact fracture surface micromorphology of PVC/ABS/SMIA composites, found no obvious phase separation, and morphology changes correlated with SMIA content and impact strength.",
+      "derived_property_ids": [],
+      "evidence": [
+        {
+          "block_id": "P_3_64",
+          "page": 3,
+          "bbox": [
+            507.0,
+            450.0,
+            927.0,
+            627.0
+          ],
+          "source_type": "text",
+          "source_sentence": "To deeply understand the impact performance of PVC/ABS/ SMIA composites, SEM images were acquired. As shown in Figure $^ { 6 , }$the boundary between the two phases was not found, and no obvious phase separation occurred. The gradual decrease in the number of yielding fibers on the surface can be observed when the SMIA content is increased from 0 to 10 phr. As the SMIA content further increases, the degree of slatting increases, the surface becomes relatively smooth, and the number of micropores gradually decreases."
+        }
+      ],
+      "confidence": {
+        "score": 0.8
+      }
+    }
+  ],
+  "properties": [],
+  "provenance": {
+    "stage": "stage5_characterization",
+    "provider": "dmx",
+    "model": "doubao-seed-2.0-pro",
+    "models": [
+      "doubao-seed-2.0-pro"
+    ],
+    "prompt_id": "polymer.stage5.characterization",
+    "prompt_version": "1.6.2",
+    "prompt_sha256": "5f918eb9d0dcbe0a4dc60a70d83c4e9f144f9a87bf68905d0a38ad22c000ee5c",
+    "vocabulary_sha256": "3e9d85e4915a729edf0f0a53821f3ee6edf32874e1da6972457417e4f13a1510",
+    "input_hash": "b2689c1179710ec8626e513dde03c75548099c398381622524e17187aea16e54",
+    "model_config_hash": "7e14aff06827af47a7b1a797111258e33d5972d1c072111440c3b2aae020f3ce",
+    "cache_key": "f29e88d0e1be0f66bae9771a6a2833ac3f7d07737fa1799862943dfc30952597",
+    "output_schema_version": "characterization_schema.v4",
+    "implementation_version": "1.7.1",
+    "context_block_count": 12,
+    "context_chars": 12414,
+    "call_count": 1,
+    "usage": {
+      "input_tokens": 13421,
+      "output_tokens": 5805,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "billable_input_tokens": 13421,
+      "total_tokens": 19226
+    },
+    "cost": {
+      "status": "calculated",
+      "currency": "CNY",
+      "input_per_million": "4.32",
+      "output_per_million": "29.15",
+      "input_cost": "0.05797872",
+      "output_cost": "0.16921575",
+      "total_cost": "0.22719447"
+    },
+    "status": "success"
+  },
+  "warnings": [
+    {
+      "stage": "stage5_characterization",
+      "code": "section_fallback",
+      "message": "Methods/Results 为空，仅使用上游 evidence block；结果需人工复核"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_characterization_method_surface_recovered",
+      "message": "Preview 模式已将表征方法恢复为 evidence 中唯一匹配的原文词形",
+      "field_path": "characterizations[4].method_raw",
+      "method_normalized": "DMA"
+    },
+    {
+      "stage": "stage5_characterization",
+      "code": "preview_unsupported_characterization_details_cleared",
+      "message": "Preview 模式已清空无对象 evidence 支撑的可选表征细节",
+      "field_path": "characterizations[4]",
+      "fields": [
+        "parameters"
+      ]
+    }
+  ]
+}
