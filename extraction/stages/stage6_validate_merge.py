@@ -1933,6 +1933,13 @@ def run_stage6(
             report_path.unlink()
         return validation, False
     payload = final.model_dump(mode="json", exclude_none=True)
+    for entity in payload.get("polymer_entities", []):
+        entity.setdefault("polymer_type", None)
+        entity.setdefault("copolymer_type", None)
+    for sample in payload.get("samples", []):
+        sample.setdefault("polymer_type", None)
+        sample.setdefault("copolymer_type", None)
+        sample.setdefault("material_type", None)
     payload["paper"] = final.paper.model_dump(
         mode="json",
         exclude_none=False,

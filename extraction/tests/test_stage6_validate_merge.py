@@ -12,6 +12,8 @@ from schema.polymer_schema import (
     ProcessStep,
     Stage0Element,
     Stage1Document,
+    Stage2Document,
+    Stage3Document,
     StageCost,
     TokenUsageSummary,
 )
@@ -99,6 +101,26 @@ def all_stages():
 
 
 class Stage6Tests(unittest.TestCase):
+    def test_copolymer_type_is_preserved_in_final_entity_and_sample(self) -> None:
+        stages = list(all_stages())
+        stage2_payload = stages[2].model_dump(mode="json")
+        stage2_payload["polymer_entities"][0]["polymer_type"] = "copolymer"
+        stage2_payload["polymer_entities"][0]["copolymer_type"] = "block"
+        stages[2] = Stage2Document.model_validate(stage2_payload)
+        stage3_payload = stages[3].model_dump(mode="json")
+        stage3_payload["samples"][0]["polymer_type"] = "copolymer"
+        stage3_payload["samples"][0]["copolymer_type"] = "block"
+        stage3_payload["samples"][0]["material_type"] = "compound"
+        stages[3] = Stage3Document.model_validate(stage3_payload)
+
+        final, validation = validate_and_merge(*stages)
+
+        self.assertEqual(validation.error_count, 0)
+        assert final is not None
+        self.assertEqual(final.polymer_entities[0].copolymer_type, "block")
+        self.assertEqual(final.samples[0].copolymer_type, "block")
+        self.assertEqual(final.samples[0].material_type, "compound")
+
     def test_merges_and_deduplicates_evidence(self) -> None:
         stages = list(all_stages())
         condition = stages[4].measurement_conditions[0]
@@ -690,6 +712,11 @@ class Stage6Tests(unittest.TestCase):
         self.assertTrue(published)
         self.assertIn("doi", written["paper"])
         self.assertIsNone(written["paper"]["doi"])
+        self.assertIn("polymer_type", written["polymer_entities"][0])
+        self.assertIn("copolymer_type", written["polymer_entities"][0])
+        self.assertIn("polymer_type", written["samples"][0])
+        self.assertIn("copolymer_type", written["samples"][0])
+        self.assertIn("material_type", written["samples"][0])
         self.assertIn('"cost_summary"', json.dumps(written))
         self.assertEqual(
             len(written["property_observations"]),

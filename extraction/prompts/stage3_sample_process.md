@@ -1,8 +1,8 @@
 ---
 prompt_id: polymer.stage3.sample_process
-version: 1.3.0
+version: 1.6.0
 stage: stage3_sample_process
-output_schema: sample_process_schema.v3
+output_schema: sample_process_schema.v4
 ---
 
 # Role
@@ -27,13 +27,24 @@ output_schema: sample_process_schema.v3
 # Sample types
 
 - `polymer_type`：聚合物结构类型，只能填写
-  `homopolymer | random_copolymer | block_copolymer | graft_copolymer |
-  crosslinked_network | blend`。若所关联 PolymerEntity 已给出该字段，必须原样继承；
+  `homopolymer | copolymer | polymer_blend`。若所关联 PolymerEntity 已给出该字段，
+  必须原样继承；
   原文和实体均不能确定时为 `null`。
+- `copolymer_type`：仅当 `polymer_type=copolymer` 时填写，只能为
+  `co | stat | ran | alt | per | block | graft`。若所关联 PolymerEntity 已给出
+  该字段，必须原样继承；子类型不明确时为 `null`。
 - `material_type`：当前物理样品的材料组成类型，只能填写
-  `neat_resin | polymer_blend | polymer_composite | polymer_additive_system |
-  polymer_solution | other`。仅在样品组成、配方或工艺证据明确时填写；
-  未出现添加剂不等于 `neat_resin`，不能依靠缺失信息推断，不能确定时为 `null`。
+  `neat_resin | composite | compound | inorganic_polymer`。仅在样品组成、配方或
+  工艺证据明确时填写；`inorganic_polymer` 只表示聚合物主链本身属于无机聚合物，
+  不能因含无机填料而填写。溶液不是 `material_type`；原文明示的溶液状态逐字保留
+  在 `state_description`。
+  聚合物基体与增强体或填料组成的材料为 `composite`；聚合物与添加剂、掺杂剂、
+  电解质盐、增塑剂或其他配方组分组成的材料为 `compound`。例如含 LiClO4 的
+  聚合物电解质属于 `compound`。仅出现对下游材料的泛称 `composite`，不能把
+  当前原料判为 `composite`；必须有增强体、填料或其明确含量证据。多个聚合物或
+  添加剂经共混、混合、配混得到的配方，在没有增强体/填料证据时属于 `compound`。
+  单一聚合物产品且没有第二组分证据时返回 `null`，
+  运行时会进行可审计的 `neat_resin` 默认推断；存在组成疑义时仍返回 `null`。
 
 # Process types
 
@@ -78,9 +89,16 @@ surface_modification | plasma_treatment | other`
     `source_text`，并直接支持该 Sample 或 ProcessStep。
 13. 论文未给出足够的实际样品/工艺信息时，将 entity 保留为 unresolved，不生成
     假样品或假步骤。
-14. `polymer_type` 和 `material_type` 只用于描述已识别的 Sample。不得为了填写类型
-    新增、删除、拆分或合并 Sample，不得改变 `refers_to_entity`，也不得改变
-    ProcessStep DAG。
+14. `polymer_type`、`copolymer_type` 和 `material_type` 只用于描述已识别的
+    Sample。不得为了填写类型新增、删除、拆分或合并 Sample，不得改变
+    `refers_to_entity`，也不得改变 ProcessStep DAG。交联状态应由关联 Entity 的
+    `structural_features` 或 Sample 的逐字 `state_description` 表达。
+15. 成型、压制、热压、切割、冲样和试样制备等不改变组成的加工，其输出样品应与
+    输入样品保持相同 `polymer_type` 和 `material_type`。共混、混合、配混和涂覆
+    会改变组成，不得仅凭输入类型继承；输出样品的明确组成证据始终优先。
+16. `blending`、`mixing` 或 `compounding` 的输入明确关联至少两个不同
+    PolymerEntity 时，输出样品的 `polymer_type` 应为 `polymer_blend`。不得仅因
+    名称含斜杠、`composite` 或填料代号而推断 `polymer_blend`。
 
 # Confidence
 

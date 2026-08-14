@@ -128,6 +128,18 @@ def test_render_report_uses_local_mathjax_and_readable_detail(
     assert "https://" not in html
     assert "MathJax.typesetClear([container])" in html
     assert 'overview:"概览"' in html
+    assert (
+        "function sampleLabel(item){return item.polymer_name||item.sample_kind}"
+        in html
+    )
+    assert (
+        'if(["polymer_type","copolymer_type","material_type"].includes(field)&&!hasValue(value))value="not specified";'
+        in html
+    )
+    assert 'function nodeTypeSummary(node)' in html
+    assert 'node.raw.polymer_type||"not specified"' in html
+    assert 'node.raw.material_type||"not specified"' in html
+    assert 'subtype.setAttribute("class","node-subtype")' in html
     assert 'raw:"原始 JSON"' in html
     assert "图注文本，未分析图像内容" in html
     assert "fig001" in html

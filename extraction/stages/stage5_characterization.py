@@ -59,6 +59,7 @@ from stages.stage4_property import (
     _normalize_measurement_context,
     _normalize_raw_across_evidence,
     _resolve_surface_text,
+    _resolve_vocabulary_path,
     _sha256_json,
     write_json_atomic,
 )
@@ -2609,9 +2610,10 @@ def main() -> int:
     vocabulary_path = (
         args.vocabulary.expanduser().resolve()
         if args.vocabulary
-        else Path(
-            stage_config.get("vocabulary_path") or DEFAULT_VOCABULARY_PATH
-        ).resolve()
+        else _resolve_vocabulary_path(
+            stage_config.get("vocabulary_path") or DEFAULT_VOCABULARY_PATH,
+            config_path=config_path,
+        )
     )
     methods, vocabulary, vocabulary_sha256 = (
         load_characterization_vocabulary(vocabulary_path)

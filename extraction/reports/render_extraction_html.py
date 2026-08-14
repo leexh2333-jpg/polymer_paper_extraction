@@ -141,7 +141,7 @@ input,select{border:1px solid #cdd7d2;background:white;border-radius:8px;padding
 .edge{stroke:#aebdb8;stroke-width:1.3;fill:none;opacity:.52}.edge.subject-sample{stroke:#337c73;stroke-width:2;opacity:.78}.edge.subject-entity{stroke:#79679e;stroke-width:1.8;stroke-dasharray:6 4;opacity:.82}.edge.projected{stroke:#287f81;stroke-width:2;cursor:pointer;opacity:.78}.edge.active{stroke:var(--amber);stroke-width:2.6;opacity:1}
 .node{cursor:pointer}.node .node-box{fill:#eff1ee;stroke:#adbbb7;stroke-width:1.2;rx:8}.node text{font-size:11px;pointer-events:none}
 .node .node-type-bar{stroke:none}.node[data-type="entity"] .node-type-bar{fill:#4f9d91}.node[data-type="sample"] .node-type-bar,.node[data-type="sample_group"] .node-type-bar{fill:#658ba3}.node[data-type="property"] .node-type-bar,.node[data-type="unresolved_property"] .node-type-bar,.node[data-type="series"] .node-type-bar{fill:#846eae}.node[data-type="characterization"] .node-type-bar{fill:#b57947}.node[data-type="mention"] .node-type-bar,.node[data-type="mention_group"] .node-type-bar{fill:#7e918a}
-.node .node-type{font-size:9px;fill:var(--muted);letter-spacing:.08em}.node:hover .node-box,.node.active .node-box{stroke:var(--amber);stroke-width:2.4;filter:drop-shadow(0 4px 5px rgba(30,50,52,.14))}
+.node .node-type{font-size:9px;fill:var(--muted);letter-spacing:.08em}.node .node-subtype{font-size:9px;fill:#526a69}.node:hover .node-box,.node.active .node-box{stroke:var(--amber);stroke-width:2.4;filter:drop-shadow(0 4px 5px rgba(30,50,52,.14))}
 .node.neighbor .node-box{stroke:var(--teal);stroke-width:1.8}.node .node-confidence{font-size:9px;fill:#526a69;text-anchor:end}.node .node-warning{font-size:12px;fill:var(--amber);text-anchor:end}
 .node.high-confidence .node-box{fill:#dff1e8;stroke:#4d9c78}.node.medium-confidence .node-box{fill:#fff0d7;stroke:#c78639}.node.low-confidence .node-box{fill:#fae4df;stroke:var(--red)}.node.missing-confidence .node-box{fill:#eff1ee;stroke:#98a4a0}
 .node.generic .node-box{stroke-dasharray:4 3}.node.dim{opacity:.12}.edge.dim{opacity:.05}.node.hidden,.edge.hidden{display:none}
@@ -364,10 +364,15 @@ function edge(a,b,kind){
   edgeKeys.add(key);
   edges.push({a,b,kind});
 }
-function sampleLabel(item){return item.sample_label_raw||item.state_description||item.polymer_name||item.sample_kind}
+function sampleLabel(item){return item.polymer_name||item.sample_kind}
 function processLabel(item){
   const values=Object.values(item.parameters||{}).slice(0,2);
   return values.length?`${item.process_type} · ${values.join(" · ")}`:item.process_type;
+}
+function nodeTypeSummary(node){
+  if(node.type==="entity")return [node.raw.polymer_type||"not specified",node.raw.copolymer_type].filter(Boolean).join(" · ");
+  if(node.type==="sample")return node.raw.material_type||"not specified";
+  return "";
 }
 (data.material_mentions||[]).forEach(item=>addNode(item.mention_id,"mention",item.text,item,item.evidence_ids));
 (data.polymer_entities||[]).forEach(item=>{
@@ -600,7 +605,7 @@ function renderGraph(){
   currentRenderedEdges=projection.edges;
   let maxRows=1;
   config.lanes.forEach(types=>{maxRows=Math.max(maxRows,visibleNodes.filter(node=>types.includes(node.type)).length)});
-  const layoutTop=48,rowHeight=66,height=Math.max(600,layoutTop+maxRows*rowHeight+32);
+  const layoutTop=48,rowHeight=82,height=Math.max(600,layoutTop+maxRows*rowHeight+32);
   const width=Math.max(620,70+(config.lanes.length-1)*config.gap+config.widths.at(-1)+35);
   svg.setAttribute("viewBox",`0 0 ${width} ${height}`);
   svg.setAttribute("width",width);
@@ -621,7 +626,7 @@ function renderGraph(){
     line.setAttribute("class","lane-line");
     svg.append(line);
     visibleNodes.filter(node=>types.includes(node.type)).forEach((node,index)=>{
-      positions.set(node.id,{x,y:layoutTop+index*rowHeight,w:config.widths[laneIndex],h:48});
+      positions.set(node.id,{x,y:layoutTop+index*rowHeight,w:config.widths[laneIndex],h:64});
     });
   });
   currentRenderedEdges.forEach((item,index)=>{
@@ -677,9 +682,14 @@ function renderGraph(){
     label.setAttribute("x","9");
     label.setAttribute("y","34");
     label.textContent=short(node.label,Math.floor(position.w/7)-(node.hasWarning?2:0));
+    const subtype=document.createElementNS(NS,"text");
+    subtype.setAttribute("x","9");
+    subtype.setAttribute("y","52");
+    subtype.setAttribute("class","node-subtype");
+    subtype.textContent=short(nodeTypeSummary(node),Math.floor(position.w/7));
     const title=document.createElementNS(NS,"title");
-    title.textContent=`${typeNames[node.type]} · ${node.id}\n${node.label}`;
-    group.append(rectangle,typeBar,type,confidence,label,title);
+    title.textContent=`${typeNames[node.type]} · ${node.id}\n${node.label}${nodeTypeSummary(node)?`\n${nodeTypeSummary(node)}`:""}`;
+    group.append(rectangle,typeBar,type,confidence,label,subtype,title);
     if(node.hasWarning){
       const warning=document.createElementNS(NS,"text");
       warning.setAttribute("x",position.w-8);
@@ -730,7 +740,7 @@ function highlightSelection(id){
 }
 
 const fieldLabels={
-  text:"原文",mention_role:"提及角色",polymer_name:"聚合物名称",polymer_type:"聚合物类型",
+  text:"原文",mention_role:"提及角色",polymer_name:"聚合物名称",polymer_type:"聚合物类型",copolymer_type:"共聚物子类型",material_type:"材料类型",
   representation_status:"表示状态",structural_features:"结构特征",source_names:"来源名称",
   resolved_from_mentions:"解析自材料提及",sample_kind:"样品类型",refers_to_entity:"所属实体",
   sample_label_raw:"原始样品标签",state_description:"状态描述",intended_use:"用途",
@@ -751,9 +761,9 @@ const fieldLabels={
 const detailFields={
   mention_group:[],
   mention:["text","mention_role"],
-  entity:["polymer_name","polymer_type","representation_status","structural_features","source_names","resolved_from_mentions"],
+  entity:["polymer_name","polymer_type","copolymer_type","representation_status","structural_features","source_names","resolved_from_mentions"],
   sample_group:[],
-  sample:["sample_kind","refers_to_entity","polymer_name","sample_label_raw","state_description","intended_use"],
+  sample:["sample_kind","refers_to_entity","polymer_name","polymer_type","copolymer_type","material_type","sample_label_raw","state_description","intended_use"],
   process:["process_type","parameters","input_sample_ids","output_sample_ids"],
   property:["property_name_raw","value_raw","unit_raw","value_min","value_max","molecular_weight_type","sample_id","measurement_condition_id","source_type","observation_group_id","observation_role","series_id","series_ids"],
   unresolved_property:["property_name_raw","value_raw","unit_raw","determination_method_raw","entity_id","observation_group_id","observation_role","series_id","series_ids","reason"],
@@ -823,6 +833,7 @@ function appendValue(host,value,field){
   host.append(create("span","mathjax-process",displayMathValue(value,field)));
 }
 function appendField(grid,field,value){
+  if(["polymer_type","copolymer_type","material_type"].includes(field)&&!hasValue(value))value="not specified";
   if(!hasValue(value))return;
   const wrapper=create("dl",`field${wideFields.has(field)?" wide":""}`);
   wrapper.append(create("dt","",fieldLabels[field]||field));

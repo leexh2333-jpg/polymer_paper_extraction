@@ -50,8 +50,8 @@ from schema.polymer_schema import (
 
 
 STAGE_ID = "stage2_polymer_entity"
-OUTPUT_SCHEMA_VERSION = "polymer_entity_schema.v2"
-IMPLEMENTATION_VERSION = "1.3.5"
+OUTPUT_SCHEMA_VERSION = "polymer_entity_schema.v3"
+IMPLEMENTATION_VERSION = "1.6.0"
 DEFAULT_INPUT_SECTIONS = ("Methods", "Results")
 
 
@@ -184,6 +184,14 @@ def write_json_atomic(path: Path, data: Any) -> None:
         encoding="utf-8",
     )
     temp_path.replace(path)
+
+
+def _stage2_output_payload(result: Stage2Document) -> dict[str, Any]:
+    payload = result.model_dump(mode="json", exclude_none=True)
+    for entity in payload.get("polymer_entities", []):
+        entity.setdefault("polymer_type", None)
+        entity.setdefault("copolymer_type", None)
+    return payload
 
 
 def _load_model(path: Path, model: type[Any], label: str) -> Any:
@@ -609,6 +617,24 @@ def _validate_response(
         for entity_index, entity in enumerate(repaired_entities)
         if entity_index not in removed_entity_indices
     ]
+    retained_entity_ids = {entity.entity_id for entity in repaired_entities}
+    normalized_entities = []
+    for entity in repaired_entities:
+        if entity.variant_of is None or entity.variant_of in retained_entity_ids:
+            normalized_entities.append(entity)
+            continue
+        if preview_invalid_entities_removed is None:
+            raise ValueError(
+                f"{entity.entity_id}.variant_of 引用了未保留实体："
+                f"{entity.variant_of}"
+            )
+        preview_invalid_entities_removed.append({
+            "entity_id": entity.entity_id,
+            "variant_of": entity.variant_of,
+            "action": "dangling_variant_reference_cleared",
+        })
+        normalized_entities.append(entity.model_copy(update={"variant_of": None}))
+    repaired_entities = normalized_entities
     repaired_resolved_ids = {
         mention_id
         for entity in repaired_entities
@@ -671,8 +697,8 @@ def _validate_response(
         component_to_blend = (
             shorter_entity is not None
             and longer_entity is not None
-            and shorter_entity.polymer_type != "blend"
-            and longer_entity.polymer_type == "blend"
+            and shorter_entity.polymer_type != "polymer_blend"
+            and longer_entity.polymer_type == "polymer_blend"
         )
         if component_to_blend:
             if allowed_nested_splits is not None:
@@ -720,6 +746,19 @@ _POLYMER_NAME_TERM_RE = re.compile(
     r"\b(?:homo|co)?poly[a-z0-9'-]*\b|\b(?:polymer|resin|rubber)\b",
     re.IGNORECASE,
 )
+_EXPLICIT_NON_HOMOPOLYMER_RE = re.compile(
+    r"\b(?:co-?polymer|terpolymer|polymer\s+blend|blend(?:ed|s)?|mixture|"
+    r"composite(?:s)?|reinforced|reinforcement|filler|filled|"
+    r"graft(?:ed)?|block\s+copolymer|random\s+copolymer|"
+    r"alternating\s+copolymer)\b|(?:-co-|-graft-|-block-)",
+    re.IGNORECASE,
+)
+_MATERIAL_FORMULATION_RE = re.compile(
+    r"\b(?:composite(?:s)?|reinforced|reinforcement|filler|filled)\b",
+    re.IGNORECASE,
+)
+_REGIO_CUE_RE = re.compile(r"\bregio(?:regular|random)\b|\bR[gn]\s*\(", re.IGNORECASE)
+_EXPLICIT_COPOLYMER_RE = re.compile(r"\bco-?polymer\b|\bterpolymer\b", re.IGNORECASE)
 
 
 def _is_code_like_polymer_name(name: str) -> bool:
@@ -839,6 +878,7 @@ def _materialize_entities(
             entity_id=id_map[candidate.entity_id],
             polymer_name=polymer_name,
             polymer_type=candidate.polymer_type,
+            copolymer_type=candidate.copolymer_type,
             variant_of=(
                 id_map[candidate.variant_of]
                 if candidate.variant_of is not None
@@ -861,6 +901,73 @@ def _materialize_entities(
             confidence=candidate.confidence,
         ))
     return entities
+
+
+def _apply_polymer_type_policy(
+    entities: list[PolymerEntity],
+) -> tuple[list[PolymerEntity], list[dict[str, Any]], list[dict[str, Any]]]:
+    """Apply narrow negative rules and an auditable homopolymer default."""
+
+    normalized: list[PolymerEntity] = []
+    default_inferences: list[dict[str, Any]] = []
+    negative_rule_repairs: list[dict[str, Any]] = []
+    for entity in entities:
+        text = "\n".join([
+            entity.polymer_name,
+            *entity.source_names,
+            entity.evidence.source_sentence,
+        ])
+        if (
+            entity.polymer_type == "homopolymer"
+            and _MATERIAL_FORMULATION_RE.search(text)
+        ):
+            entity = entity.model_copy(update={"polymer_type": None})
+            negative_rule_repairs.append({
+                "entity_id": entity.entity_id,
+                "field": "polymer_type",
+                "previous_value": "homopolymer",
+                "value": None,
+                "reason": (
+                    "composite/reinforced/filler 描述材料配方，"
+                    "不能单独证明聚合物结构为 homopolymer"
+                ),
+            })
+        elif (
+            entity.polymer_type == "copolymer"
+            and entity.copolymer_type == "alt"
+            and _REGIO_CUE_RE.search(text)
+            and _EXPLICIT_COPOLYMER_RE.search(text) is None
+        ):
+            entity = entity.model_copy(update={
+                "polymer_type": "homopolymer",
+                "copolymer_type": None,
+            })
+            negative_rule_repairs.append({
+                "entity_id": entity.entity_id,
+                "field": "polymer_type",
+                "previous_value": "copolymer",
+                "value": "homopolymer",
+                "reason": (
+                    "regioregular/regiorandom 或 Rg/Rn 仅描述区域规整性；"
+                    "没有明确 copolymer 证据"
+                ),
+            })
+        elif entity.polymer_type is None:
+            has_contrary_evidence = bool(
+                _EXPLICIT_NON_HOMOPOLYMER_RE.search(text)
+                or "/" in entity.polymer_name
+                or _BLEND_CODE_RE.fullmatch(entity.polymer_name.strip())
+            )
+            if not has_contrary_evidence:
+                entity = entity.model_copy(update={"polymer_type": "homopolymer"})
+                default_inferences.append({
+                    "entity_id": entity.entity_id,
+                    "field": "polymer_type",
+                    "value": "homopolymer",
+                    "reason": "已建立聚合物实体，且名称和证据中无共聚或共混反证",
+                })
+        normalized.append(entity)
+    return normalized, default_inferences, negative_rule_repairs
 
 
 def _cache_components(
@@ -983,6 +1090,26 @@ def extract_polymer_entities(
         mentions,
         preferred_name_repairs,
     )
+    entities, polymer_type_defaults, polymer_type_negative_repairs = (
+        _apply_polymer_type_policy(entities)
+    )
+    if polymer_type_defaults:
+        warnings.append({
+            "stage": STAGE_ID,
+            "code": "polymer_type_default_inferred",
+            "message": "无共聚或共混反证的已建立聚合物实体已推断为 homopolymer",
+            "items": polymer_type_defaults,
+        })
+    if polymer_type_negative_repairs:
+        warnings.append({
+            "stage": STAGE_ID,
+            "code": "polymer_type_negative_rule_applied",
+            "message": (
+                "已修复区域规整性/交替取代结构误判，或阻止将材料配方"
+                "误当作 homopolymer 结构分类"
+            ),
+            "items": polymer_type_negative_repairs,
+        })
     if preferred_name_repairs:
         warnings.append({
             "stage": STAGE_ID,
@@ -1047,7 +1174,8 @@ def extract_polymer_entities(
             "code": "preview_invalid_entities_removed",
             "message": (
                 "Preview 模式已移除 polymer_name 并非来自 resolved mention "
-                "的实体，并将相关 mention 保守标记为 unresolved"
+                "的实体，将相关 mention 保守标记为 unresolved，并清除由此"
+                "产生的悬空 variant_of 引用"
             ),
             "items": preview_invalid_entities_removed,
         })
@@ -1176,7 +1304,7 @@ def run_stage2(
     )
     write_json_atomic(
         output_path,
-        result.model_dump(mode="json", exclude_none=True),
+        _stage2_output_payload(result),
     )
     return output_path, False
 

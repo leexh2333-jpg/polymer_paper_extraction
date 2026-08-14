@@ -252,6 +252,21 @@ def load_stage3_document(path: Path) -> Stage3Document:
     return _load_model(path, Stage3Document, "Stage 3")
 
 
+def _resolve_vocabulary_path(value: str | Path, *, config_path: Path) -> Path:
+    path = Path(value).expanduser()
+    if path.is_absolute():
+        return path.resolve()
+    candidates = (
+        EXTRACTION_ROOT.parent / path,
+        EXTRACTION_ROOT / path,
+        config_path.parent / path,
+    )
+    for candidate in candidates:
+        if candidate.is_file():
+            return candidate.resolve()
+    return candidates[0].resolve()
+
+
 def load_property_vocabulary(
     path: Path,
 ) -> tuple[dict[str, tuple[str, str]], str]:
@@ -6947,9 +6962,10 @@ def main() -> int:
     vocabulary_path = (
         args.vocabulary.expanduser().resolve()
         if args.vocabulary
-        else Path(
-            stage_config.get("vocabulary_path") or DEFAULT_VOCABULARY_PATH
-        ).resolve()
+        else _resolve_vocabulary_path(
+            stage_config.get("vocabulary_path") or DEFAULT_VOCABULARY_PATH,
+            config_path=config_path,
+        )
     )
     vocabulary, vocabulary_sha256 = load_property_vocabulary(vocabulary_path)
     prompt_id = str(

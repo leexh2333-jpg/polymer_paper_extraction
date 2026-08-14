@@ -19,7 +19,7 @@ Stage 0 → Stage 1 → Stage 2 → Stage 3 → Stage 4 → Stage 5
 默认配置文件：
 
 ```text
-D:\1work\1_2026\polymer\testcode\extraction\config\pipeline.yaml
+extraction/config/pipeline.yaml
 ```
 
 脚本不会修改配置，也不会输出 API key。Stage 1 的历史响应仅在当前输入为单 chunk 时允许离线回放；多 chunk 会拒绝回放并回到正常模型调用，防止把最后一次响应错误复用于所有 chunk。
@@ -28,7 +28,7 @@ D:\1work\1_2026\polymer\testcode\extraction\config\pipeline.yaml
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File `
-  D:\1work\1_2026\polymer\testcode\preview\run_demo20.ps1 `
+  ./preview/run_demo20.ps1 `
   -Mode Preflight
 ```
 
@@ -44,14 +44,14 @@ powershell -ExecutionPolicy Bypass -File `
 未指定 `-OutputDir` 时，`Verify` 验收：
 
 ```text
-D:\1work\1_2026\polymer\testcode\extraction\output_test
+output
 ```
 
 命令：
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File `
-  D:\1work\1_2026\polymer\testcode\preview\run_demo20.ps1 `
+  ./preview/run_demo20.ps1 `
   -Mode Verify
 ```
 
@@ -71,9 +71,9 @@ powershell -ExecutionPolicy Bypass -File `
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File `
-  D:\1work\1_2026\polymer\testcode\preview\run_demo20.ps1 `
+  ./preview/run_demo20.ps1 `
   -Mode Cached `
-  -OutputDir D:\1work\1_2026\polymer\testcode\extraction\output_demo20 `
+  -OutputDir ./output_demo20 `
   -AllowModelCalls
 ```
 
@@ -89,9 +89,9 @@ powershell -ExecutionPolicy Bypass -File `
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File `
-  D:\1work\1_2026\polymer\testcode\preview\run_demo20.ps1 `
+  ./preview/run_demo20.ps1 `
   -Mode Fresh `
-  -OutputDir D:\1work\1_2026\polymer\testcode\extraction\output_demo20_fresh `
+  -OutputDir ./output_demo20_fresh `
   -AllowModelCalls
 ```
 
@@ -116,11 +116,11 @@ powershell -ExecutionPolicy Bypass -File `
 ## 6. 单独使用验收器
 
 ```powershell
-python D:\1work\1_2026\polymer\testcode\preview\verify_demo20.py `
-  --ref-list D:\1work\1_2026\polymer\testcode\preview\demo_latest_20_refs.txt `
-  --output-dir D:\1work\1_2026\polymer\testcode\extraction\output_test `
+python ./preview/verify_demo20.py `
+  --ref-list ./preview/demo_latest_20_refs.txt `
+  --output-dir ./output `
   --expected-count 20 `
-  --report-out D:\1work\1_2026\polymer\testcode\extraction\output_test\_batch\demo20_verify_report.json
+  --report-out ./output/_batch/demo20_verify_report.json
 ```
 
 ## 7. 离线检查未解决 failure
@@ -128,7 +128,7 @@ python D:\1work\1_2026\polymer\testcode\preview\verify_demo20.py `
 默认跳过已经存在成功 Stage 产物的历史 failure：
 
 ```powershell
-python D:\1work\1_2026\polymer\testcode\extraction\tools\replay_failures.py `
+python ./extraction/tools/replay_failures.py `
   --roots <输出目录> `
   --scratch <独立临时目录> `
   --report <报告路径>

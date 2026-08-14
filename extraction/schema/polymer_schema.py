@@ -24,24 +24,29 @@ MentionRole = Literal[
 ]
 PolymerType = Literal[
     "homopolymer",
-    "random_copolymer",
-    "block_copolymer",
-    "graft_copolymer",
-    "crosslinked_network",
-    "blend",
+    "copolymer",
+    "polymer_blend",
+]
+CopolymerType = Literal[
+    "co",
+    "stat",
+    "ran",
+    "alt",
+    "per",
+    "block",
+    "graft",
 ]
 MaterialType = Literal[
     "neat_resin",
-    "polymer_blend",
-    "polymer_composite",
-    "polymer_additive_system",
-    "polymer_solution",
-    "other",
+    "composite",
+    "compound",
+    "inorganic_polymer",
 ]
 StructuralFeatureTag = Literal[
     "sulfonic_acid_group",
     "aryl_ether_ketone_backbone",
     "naphthalene_moiety",
+    "crosslinked_network",
 ]
 SampleKind = Literal[
     "synthesis_batch",
@@ -618,6 +623,7 @@ class PolymerEntityCandidate(ConfidenceCandidateModel):
     entity_id: str = Field(pattern=r"^pe\d{3,}$")
     polymer_name: str = Field(min_length=1)
     polymer_type: PolymerType | None = None
+    copolymer_type: CopolymerType | None = None
     variant_of: str | None = Field(default=None, pattern=r"^pe\d{3,}$")
     structural_features: list[StructuralFeatureTag] = Field(default_factory=list)
     resolved_from_mentions: list[str] = Field(min_length=1)
@@ -634,6 +640,12 @@ class PolymerEntityCandidate(ConfidenceCandidateModel):
         if len(value) != len(set(value)):
             raise ValueError("列表元素不得重复")
         return value
+
+    @model_validator(mode="after")
+    def validate_copolymer_type(self) -> "PolymerEntityCandidate":
+        if self.polymer_type != "copolymer" and self.copolymer_type is not None:
+            raise ValueError("仅 copolymer 可填写 copolymer_type")
+        return self
 
 
 def _validate_variant_graph(
@@ -694,6 +706,7 @@ class PolymerEntity(BaseModel):
     entity_id: str = Field(pattern=r"^pe\d{3,}$")
     polymer_name: str = Field(min_length=1)
     polymer_type: PolymerType | None = None
+    copolymer_type: CopolymerType | None = None
     variant_of: str | None = Field(default=None, pattern=r"^pe\d{3,}$")
     representation_status: Literal["expert_review_required"] = (
         "expert_review_required"
@@ -716,6 +729,12 @@ class PolymerEntity(BaseModel):
             raise ValueError("列表元素不得重复")
         return value
 
+    @model_validator(mode="after")
+    def validate_copolymer_type(self) -> "PolymerEntity":
+        if self.polymer_type != "copolymer" and self.copolymer_type is not None:
+            raise ValueError("仅 copolymer 可填写 copolymer_type")
+        return self
+
 
 class Stage2Provenance(BaseModel):
     model_config = ConfigDict(extra="forbid")
@@ -733,10 +752,11 @@ class Stage2Provenance(BaseModel):
     output_schema_version: Literal[
         "polymer_entity_schema.v1",
         "polymer_entity_schema.v2",
+        "polymer_entity_schema.v3",
     ]
     implementation_version: Literal[
         "1.0.0", "1.1.0", "1.2.0", "1.3.0", "1.3.1", "1.3.2", "1.3.3", "1.3.4",
-        "1.3.5",
+        "1.3.5", "1.4.0", "1.5.0", "1.6.0",
     ]
     context_block_count: NonNegativeInt
     context_chars: NonNegativeInt
@@ -789,6 +809,7 @@ class SampleCandidate(ConfidenceCandidateModel):
     sample_kind: SampleKind
     refers_to_entity: str | None = Field(default=None, pattern=r"^pe\d{3,}$")
     polymer_type: PolymerType | None = None
+    copolymer_type: CopolymerType | None = None
     material_type: MaterialType | None = None
     sample_label_raw: str | None = Field(default=None, min_length=1)
     state_description: str | None = Field(default=None, min_length=1)
@@ -812,6 +833,8 @@ class SampleCandidate(ConfidenceCandidateModel):
             raise ValueError(
                 "Sample 至少需要 sample_label_raw 或 state_description"
             )
+        if self.polymer_type != "copolymer" and self.copolymer_type is not None:
+            raise ValueError("仅 copolymer 可填写 copolymer_type")
         return self
 
 
@@ -920,12 +943,19 @@ class Sample(BaseModel):
     refers_to_entity: str | None = Field(default=None, pattern=r"^pe\d{3,}$")
     polymer_name: str = Field(min_length=1)
     polymer_type: PolymerType | None = None
+    copolymer_type: CopolymerType | None = None
     material_type: MaterialType | None = None
     sample_label_raw: str | None = None
     state_description: str | None = None
     intended_use: list[str] = Field(default_factory=list)
     evidence: Evidence
     confidence: ModelConfidence | None = None
+
+    @model_validator(mode="after")
+    def validate_copolymer_type(self) -> "Sample":
+        if self.polymer_type != "copolymer" and self.copolymer_type is not None:
+            raise ValueError("仅 copolymer 可填写 copolymer_type")
+        return self
 
 
 class ProcessStep(BaseModel):
@@ -964,11 +994,12 @@ class Stage3Provenance(BaseModel):
         "sample_process_schema.v1",
         "sample_process_schema.v2",
         "sample_process_schema.v3",
+        "sample_process_schema.v4",
     ]
     implementation_version: Literal[
         "1.0.0", "1.1.0", "1.1.1", "1.1.2", "1.2.0", "1.3.0", "1.3.1",
         "1.3.2", "1.3.3", "1.3.4", "1.3.5", "1.3.6", "1.3.7",
-        "1.4.0",
+        "1.4.0", "1.5.0", "1.6.0", "1.7.0",
     ]
     context_block_count: NonNegativeInt
     context_chars: NonNegativeInt
@@ -2100,6 +2131,7 @@ class FinalPolymerEntity(BaseModel):
     entity_id: str = Field(pattern=r"^pe\d{3,}$")
     polymer_name: str = Field(min_length=1)
     polymer_type: PolymerType | None = None
+    copolymer_type: CopolymerType | None = None
     variant_of: str | None = Field(default=None, pattern=r"^pe\d{3,}$")
     representation_status: Literal["expert_review_required"]
     structural_features: list[StructuralFeatureTag] = Field(default_factory=list)
@@ -2108,6 +2140,12 @@ class FinalPolymerEntity(BaseModel):
     evidence_ids: list[str] = Field(min_length=1)
     source_image_refs: list[SourceImageReference] = Field(default_factory=list)
     confidence: ModelConfidence | None = None
+
+    @model_validator(mode="after")
+    def validate_copolymer_type(self) -> "FinalPolymerEntity":
+        if self.polymer_type != "copolymer" and self.copolymer_type is not None:
+            raise ValueError("仅 copolymer 可填写 copolymer_type")
+        return self
 
 
 class FinalSample(BaseModel):
@@ -2118,12 +2156,19 @@ class FinalSample(BaseModel):
     refers_to_entity: str | None = Field(default=None, pattern=r"^pe\d{3,}$")
     polymer_name: str = Field(min_length=1)
     polymer_type: PolymerType | None = None
+    copolymer_type: CopolymerType | None = None
     material_type: MaterialType | None = None
     sample_label_raw: str | None = None
     state_description: str | None = None
     intended_use: list[str] = Field(default_factory=list)
     evidence_ids: list[str] = Field(min_length=1)
     confidence: ModelConfidence | None = None
+
+    @model_validator(mode="after")
+    def validate_copolymer_type(self) -> "FinalSample":
+        if self.polymer_type != "copolymer" and self.copolymer_type is not None:
+            raise ValueError("仅 copolymer 可填写 copolymer_type")
+        return self
 
 
 class FinalProcessStep(BaseModel):

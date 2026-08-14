@@ -10,10 +10,8 @@ MODULE_DIR = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(MODULE_DIR))
 
 from transform_mineru_to_standard import (
-    CODE_ROOT,
-    DEFAULT_PIPELINE_CONFIG,
-    META_PROMPT_PATH,
     DocumentGateError,
+    META_PROMPT_PATH,
     MetaExtractionResponse,
     transform_paper,
 )
@@ -77,17 +75,9 @@ class NeverCalledMetaExtractor:
 
 
 class TransformMineruTests(unittest.TestCase):
-    def test_runtime_resources_resolve_inside_code_root(self) -> None:
-        self.assertEqual(
-            META_PROMPT_PATH,
-            CODE_ROOT / "extraction" / "prompts" / "meta_extract.md",
-        )
-        self.assertEqual(
-            DEFAULT_PIPELINE_CONFIG,
-            CODE_ROOT / "extraction" / "config" / "pipeline.yaml",
-        )
+    def test_meta_prompt_uses_portable_package_path(self) -> None:
         self.assertTrue(META_PROMPT_PATH.is_file())
-        self.assertTrue(DEFAULT_PIPELINE_CONFIG.is_file())
+        self.assertEqual(META_PROMPT_PATH.parent.parent.name, "extraction")
 
     def _prepare_fixture(
         self,

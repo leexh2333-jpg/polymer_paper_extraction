@@ -1,8 +1,14 @@
+import json
 from pathlib import Path
 
 from stages.stage4r_table_recovery import (
+    IMPLEMENTATION_VERSION,
+    _cache_is_valid,
+    _migrate_resolved_unresolved,
     _prepare_stage4_input,
+    _resolve_unresolved_sample,
     _row_label_candidates,
+    _sha256_json,
     build_parser,
     infer_entity_id,
     misaligned_header_columns,
@@ -178,6 +184,135 @@ def test_row_label_candidates_do_not_borrow_code_from_rows_below() -> None:
     assert "0-2-0-9" not in _row_label_candidates(cells, row_index=0, column_index=2)
 
 
+def _unresolved(
+    *,
+    row_label: str | None,
+    entity_id: str = "pe001",
+    row_index: int = 1,
+) -> dict:
+    return {
+        "unresolved_id": "uprop010",
+        "entity_id": entity_id,
+        "property_name_raw": "glass transition temperature",
+        "value_raw": "120",
+        "reason": "sample_ambiguous",
+        "evidence": [{
+            "block_id": "T_1_1",
+            "page": 1,
+            "bbox": None,
+            "source_type": "table",
+            "source_sentence": "120",
+            "table_locator": {
+                "table_id": "T_1_1",
+                "cell_id": f"T_1_1:r{row_index:04d}:c0002",
+                "row_index": row_index,
+                "column_index": 2,
+                "row_label": row_label,
+                "column_label": "Tg / °C",
+                "cell_value": "120",
+            },
+        }],
+    }
+
+
+def test_unresolved_sample_uses_unique_direct_label() -> None:
+    result = _resolve_unresolved_sample(
+        _unresolved(row_label="Group A / PC-1"),
+        samples=[{
+            "sample_id": "s001",
+            "sample_label_raw": "PC-1",
+            "refers_to_entity": "pe001",
+        }],
+        tables={},
+        allow_filled_up=False,
+    )
+    assert result["status"] == "accepted"
+    assert result["sample_id"] == "s001"
+    assert result["resolution_basis"] == "table_locator_row_label"
+
+
+def test_filled_up_sample_binding_requires_explicit_opt_in(monkeypatch) -> None:
+    table = SimpleNamespace(cells=[
+        _cell(0, 0, "1"),
+        _cell(0, 1, "PC-1"),
+        _cell(0, 2, "110"),
+        _cell(1, 0, "2"),
+        _cell(1, 1, ""),
+        _cell(1, 2, "120"),
+    ])
+    monkeypatch.setattr(
+        "stages.stage4r_table_recovery.table_cells_for",
+        lambda value: value.cells,
+    )
+    kwargs = {
+        "item": _unresolved(row_label=None),
+        "samples": [{
+            "sample_id": "s001",
+            "sample_label_raw": "PC-1",
+            "refers_to_entity": "pe001",
+        }],
+        "tables": {"T_1_1": table},
+    }
+    pending = _resolve_unresolved_sample(
+        **kwargs,
+        allow_filled_up=False,
+    )
+    accepted = _resolve_unresolved_sample(
+        **kwargs,
+        allow_filled_up=True,
+    )
+    assert pending["status"] == "filled_up_pending_review"
+    assert accepted["status"] == "accepted"
+    assert accepted["resolution_basis"] == "row_cell_filled_up"
+
+
+def test_entity_conflict_is_rejected_before_migration() -> None:
+    result = _resolve_unresolved_sample(
+        _unresolved(row_label="PC-1", entity_id="pe999"),
+        samples=[{
+            "sample_id": "s001",
+            "sample_label_raw": "PC-1",
+            "refers_to_entity": "pe001",
+        }],
+        tables={},
+        allow_filled_up=False,
+    )
+    assert result["status"] == "entity_conflict"
+    assert result["sample_entity_id"] == "pe001"
+
+
+def test_migration_only_appends_property_and_condition_ids() -> None:
+    stage4 = {
+        "measurement_conditions": [{"condition_id": "mc004"}],
+        "properties": [{"property_id": "prop009"}],
+        "unresolved_properties": [_unresolved(row_label="PC-1")],
+    }
+    migrated, audit = _migrate_resolved_unresolved(stage4, [{
+        "unresolved_id": "uprop010",
+        "status": "accepted",
+        "sample_id": "s001",
+        "entity_id": "pe001",
+        "resolution_basis": "table_locator_row_label",
+        "matched_label": "PC-1",
+        "cell_id": "T_1_1:r0001:c0002",
+    }])
+    assert [item["property_id"] for item in migrated["properties"]] == [
+        "prop009",
+        "prop010",
+    ]
+    assert [item["condition_id"] for item in migrated["measurement_conditions"]] == [
+        "mc004",
+        "mc005",
+    ]
+    assert migrated["unresolved_properties"] == []
+    assert migrated["properties"][-1]["sample_id"] == "s001"
+    assert migrated["properties"][-1]["measurement_context"] == {
+        "condition_status": "not_reported",
+    }
+    assert audit[0]["unresolved_id"] == "uprop010"
+    assert audit[0]["property_id"] == "prop010"
+
+
 def test_missing_header_colspan_marks_shifted_columns_untrustworthy() -> None:
     # 表头漏写 colspan：`Method of polymerization` 实际占 HTS/LTS 两个子列，
     # 表头只给 1 列，数据行仍按 2 列写，于是该列往右整条表头左移一格 ——
@@ -277,3 +412,40 @@ def test_prepare_stage4_input_refreshes_backup_for_new_stage4(tmp_path: Path) ->
     assert cached is False
     assert source == stage4
     assert backup.read_text(encoding="utf-8") == "new-stage4"
+
+
+def test_stage4r_cache_requires_matching_inputs_settings_and_output(
+    tmp_path: Path,
+) -> None:
+    preview = tmp_path / "stage4_properties.recovery_preview.json"
+    report = tmp_path / "stage4r_recovery.json"
+    preview_payload = {"document_id": "reference_no_0000001"}
+    input_hashes = {"stage4_properties.json": "abc"}
+    settings = {
+        "threshold": 0.8,
+        "apply": False,
+        "allow_filled_up_sample_binding": False,
+    }
+    preview.write_text(
+        json.dumps(preview_payload),
+        encoding="utf-8",
+    )
+    report.write_text(json.dumps({
+        "implementation_version": IMPLEMENTATION_VERSION,
+        "input_hashes": input_hashes,
+        "settings": settings,
+        "output_sha256": _sha256_json(preview_payload),
+    }), encoding="utf-8")
+
+    assert _cache_is_valid(
+        report_path=report,
+        preview_path=preview,
+        input_hashes=input_hashes,
+        settings=settings,
+    )
+    assert not _cache_is_valid(
+        report_path=report,
+        preview_path=preview,
+        input_hashes={"stage4_properties.json": "changed"},
+        settings=settings,
+    )

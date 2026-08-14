@@ -33,12 +33,24 @@ from stages.stage5_characterization import (
     _method_names_for_raw,
     _normalize_stage5_property,
     _repair_candidate_response_payload,
+    _resolve_vocabulary_path,
     _stage5_property_dedupe_key,
     extract_characterizations,
     load_characterization_vocabulary,
     run_stage5,
 )
 import stages.stage5_characterization as stage5_module
+
+
+class VocabularyPathResolutionTests(unittest.TestCase):
+    def test_stage5_repository_relative_vocabulary_path_resolves(self) -> None:
+        self.assertEqual(
+            _resolve_vocabulary_path(
+                "extraction/config/polymer_schema.yaml",
+                config_path=DEFAULT_CONFIG_PATH.resolve(),
+            ),
+            DEFAULT_VOCABULARY_PATH.resolve(),
+        )
 
 
 METHOD_SENTENCE = (
