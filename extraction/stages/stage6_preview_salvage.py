@@ -339,20 +339,15 @@ def salvage_preview(
             new_entities.append(item)
         collections.polymer_entities = new_entities
 
-        def keep_or_reject(values: list[Any], invalid, label: str) -> list[Any]:
+        def keep_or_reject(
+            values: list[Any], invalid, label: str, id_field: str
+        ) -> list[Any]:
             nonlocal changed
             result = []
             for value in values:
                 reason = invalid(value)
                 if reason:
-                    object_id = next(
-                        str(getattr(value, field))
-                        for field in (
-                            "sample_id", "step_id", "condition_id", "property_id",
-                            "unresolved_id", "series_id", "characterization_id",
-                        )
-                        if hasattr(value, field)
-                    )
+                    object_id = str(getattr(value, id_field))
                     reject(
                         object_id,
                         code="preview_missing_required_reference",
@@ -372,6 +367,7 @@ def salvage_preview(
                 else None
             ),
             "Sample 引用失效",
+            "sample_id",
         )
         collections.process_steps = keep_or_reject(
             collections.process_steps,
@@ -381,6 +377,7 @@ def salvage_preview(
                 else None
             ),
             "ProcessStep 引用失效",
+            "step_id",
         )
         collections.property_observations = keep_or_reject(
             collections.property_observations,
@@ -404,6 +401,7 @@ def salvage_preview(
                 else None
             ),
             "Property 引用失效",
+            "property_id",
         )
         collections.unresolved_property_observations = keep_or_reject(
             collections.unresolved_property_observations,
@@ -411,6 +409,7 @@ def salvage_preview(
                 "entity 已被隔离" if item.entity_id not in entity_ids else None
             ),
             "Unresolved property 引用失效",
+            "unresolved_id",
         )
 
         def clean_property_series_references(values: list[Any]) -> list[Any]:

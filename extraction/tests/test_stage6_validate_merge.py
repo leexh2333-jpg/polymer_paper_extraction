@@ -891,6 +891,39 @@ class Stage6PreviewTests(unittest.TestCase):
         self.assertTrue(final.preview_publication_summary.conservation_passed)
         self.assertEqual(preview.errors, [])
 
+    def test_preview_dependency_rejection_uses_property_id(self) -> None:
+        """Condition 被隔离时，依赖 Property 不能误记成它引用的 Sample。"""
+        stages = list(all_stages())
+        stage4 = stages[4].model_copy(deep=True)
+        condition = stage4.measurement_conditions[0]
+        condition.evidence = Evidence(
+            block_id="P_2_0",
+            page=2,
+            bbox=(1, 2, 3, 4),
+            source_type="text",
+            source_sentence="This fabricated condition is absent from the source.",
+        )
+        stages[4] = stage4
+
+        final, preview = validate_and_merge(*stages, preview=True)
+
+        self.assertIsNotNone(final)
+        assert final is not None
+        self.assertIn("s001", {item.sample_id for item in final.samples})
+        self.assertNotIn(
+            "prop001", {item.property_id for item in final.property_observations}
+        )
+        rejected = {
+            item.object_id: item for item in final.rejected_objects or []
+        }
+        self.assertEqual(rejected["prop001"].object_type, "property")
+        self.assertEqual(
+            final.preview_publication_summary.rejected_counts,
+            {"measurement_condition": 1, "property": 1},
+        )
+        self.assertTrue(final.preview_publication_summary.conservation_passed)
+        self.assertEqual(preview.errors, [])
+
     def test_preview_prunes_unknown_derived_property_reference(self) -> None:
         stages = list(all_stages())
         stage5 = stages[5].model_copy(deep=True)
